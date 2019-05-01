@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brave/brave-core.git"
+    "url": "git+https://github.com/1-vn/brave-core.git"
   },
   "author": {
     "name": "Brave Software <support@brave.com>"
@@ -208,13 +208,17 @@
     {
       "name": "Sergey Zhukovsky",
       "email": "serg@brave.com"
+    },
+    {
+      "name": "Daniel Do",
+      "email": "dotiendiep@gmail.com"
     }
   ],
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/brave/brave-browser/issues"
+    "url": "https://github.com/1-vn/brave-browser/issues"
   },
-  "homepage": "https:/github.com/brave/brave-core#readme",
+  "homepage": "https:/github.com/1-vn/brave-core#readme",
   "jest": {
     "preset": "ts-jest/presets/default",
     "moduleFileExtensions": [
@@ -277,7 +281,7 @@
     "@types/react-redux": "6.0.4",
     "@types/redux-logger": "^3.0.7",
     "awesome-typescript-loader": "^5.2.1",
-    "brave-ui": "github:brave/brave-ui#210a82491cf12d25c789c68b3634a41e3bc4b7c2",
+    "brave-ui": "github:1-vn/brave-ui#210a82491cf12d25c789c68b3634a41e3bc4b7c2",
     "css-loader": "^2.1.1",
     "csstype": "^2.5.5",
     "deep-freeze-node": "^1.1.3",
@@ -314,7 +318,7 @@
     "@types/parse-torrent": "^5.8.2",
     "@types/webtorrent": "^0.98.4",
     "bignumber.js": "^7.2.1",
-    "bittorrent-tracker": "github:brave/bittorrent-tracker#87cd1bba3ce2f40159210b904db3420e8b237b0a",
+    "bittorrent-tracker": "github:1-vn/bittorrent-tracker#0b0ba9a2bcea24bc86ebdec270644224cb8bc919",
     "bluebird": "^3.5.1",
     "chrome-dgram": "^3.0.1",
     "chrome-net": "^3.3.1",
@@ -326,8 +330,8 @@
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
     "throttleit": "^1.0.0",
-    "torrent-discovery": "github:brave/torrent-discovery#b565f40278c1cb910722ceb027a739d9173d587a",
+    "torrent-discovery": "github:1-vn/torrent-discovery#ff717dab5e04555f92fede58e47a83b14d7b67a5",
     "unique-selector": "^0.4.1",
-    "webtorrent": "github:brave/webtorrent#7742597c9cee74100dcd1f241e1a55aff93adf5c"
+    "webtorrent": "github:1-vn/webtorrent#8e21fc1604322d539a985dec74a3d2958c9673ae"
   }
 }
