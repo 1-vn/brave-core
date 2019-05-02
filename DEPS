@@ -13,7 +13,7 @@ deps = {
   "vendor/omaha":  "https://github.com/1-vn/omaha.git@22dec7e124881ba2c7e8f331d18d9c4dd40ed207",
   "vendor/sparkle": "https://github.com/1-vn/Sparkle.git@c0759cce415d7c0feae45005c8a013b1898711f0",
   "vendor/bat-native-rapidjson": "https://github.com/1-vn/bat-native-rapidjson.git@86aafe2ef89835ae71c9ed7c2527e3bb3000930e",
-  "vendor/bip39wally-core-native": "https://github.com/1-vn/bip39wally-core-native.git@9b119931c702d55be994117eb505d56310720b1d",
+  "vendor/bip39wally-core-native": "https://github.com/1-vn/bat-native-bip39wally-core.git@9b119931c702d55be994117eb505d56310720b1d",
   "vendor/bat-native-anonize": "https://github.com/1-vn/bat-native-anonize.git@b8ef1a3f85aec0a0522a9230d59b3958a2150fab",
   "vendor/bat-native-tweetnacl": "https://github.com/1-vn/bat-native-tweetnacl.git@1b4362968c8f22720bfb75af6f506d4ecc0f3116",
   "components/brave_sync/extension/brave-sync": "https://github.com/1-vn/sync.git@b1918f0658a5cec2178d8429166ddf5a4798e010",
