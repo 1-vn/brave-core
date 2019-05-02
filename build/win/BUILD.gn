@@ -13,7 +13,7 @@ copy("copy_exe") {
   ]
 
   outputs = [
-    "$root_out_dir/brave.exe",
+    "$root_out_dir/1-vn.exe",
   ]
 
   deps = [
@@ -27,7 +27,7 @@ copy("copy_pdb") {
   ]
 
   outputs = [
-    "$root_out_dir/brave.exe.pdb",
+    "$root_out_dir/1-vn.exe.pdb",
   ]
 
   deps = [
