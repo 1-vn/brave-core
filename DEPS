@@ -1,25 +1,25 @@
 use_relative_paths = True
 
 deps = {
-  "vendor/ad-block": "https://github.com/1-vn/ad-block.git@11ab48c4b2bd5355e789d4c87005ab2c14eecc09",
-  "vendor/autoplay-whitelist": "https://github.com/1-vn/autoplay-whitelist.git@458053a3c95b403cbe0872f289a2aafa106ee9d8",
-  "vendor/extension-whitelist": "https://github.com/1-vn/extension-whitelist.git@463e5e4e06e0ca84927176e8c72f6076ae9b6829",
-  "vendor/tracking-protection": "https://github.com/1-vn/tracking-protection.git@29b1f86b11a8c7438fd7d57b446a77a84946712a",
+  "vendor/ad-block": "https://github.com/1-vn/ad-block.git@06e74168d5ca27f92c09eff6d15344326e9b6ca1",
+  "vendor/autoplay-whitelist": "https://github.com/1-vn/autoplay-whitelist.git@f4430de6a9c33a28ea0c902b0820e65df2eaffa1",
+  "vendor/extension-whitelist": "https://github.com/1-vn/extension-whitelist.git@3998119af7052ca04f18d7e65ef8654fc0c675db",
+  "vendor/tracking-protection": "https://github.com/1-vn/tracking-protection.git@05404f1d7b99aef56c1c0622df6cfbde3210c21d",
   "vendor/hashset-cpp": "https://github.com/1-vn/hashset-cpp.git@4b55fe39bb25bb0d8b11a43d547d75f00c6c46fb",
   "vendor/bloom-filter-cpp": "https://github.com/1-vn/bloom-filter-cpp.git@9be5c63b14e094156e00c8b28f205e7794f0b92c",
   "vendor/requests": "https://github.com/kennethreitz/requests@e4d59bedfd3c7f4f254f4f5d036587bcd8152458",
   "vendor/boto": "https://github.com/boto/boto@f7574aa6cc2c819430c1f05e9a1a1a666ef8169b",
   "vendor/python-patch": "https://github.com/svn2github/python-patch@a336a458016ced89aba90dfc3f4c8222ae3b1403",
-  "vendor/omaha":  "https://github.com/1-vn/omaha.git@22dec7e124881ba2c7e8f331d18d9c4dd40ed207",
+  "vendor/omaha":  "https://github.com/1-vn/omaha.git@9fa012aa233704298081cc56aa5741ed3bc24241",
   "vendor/sparkle": "https://github.com/1-vn/Sparkle.git@c0759cce415d7c0feae45005c8a013b1898711f0",
   "vendor/bat-native-rapidjson": "https://github.com/1-vn/bat-native-rapidjson.git@86aafe2ef89835ae71c9ed7c2527e3bb3000930e",
   "vendor/bip39wally-core-native": "https://github.com/1-vn/bat-native-bip39wally-core.git@9b119931c702d55be994117eb505d56310720b1d",
   "vendor/bat-native-anonize": "https://github.com/1-vn/bat-native-anonize.git@b8ef1a3f85aec0a0522a9230d59b3958a2150fab",
   "vendor/bat-native-tweetnacl": "https://github.com/1-vn/bat-native-tweetnacl.git@1b4362968c8f22720bfb75af6f506d4ecc0f3116",
-  "components/onevn_sync/extension/onevn-sync": "https://github.com/1-vn/sync.git@b1918f0658a5cec2178d8429166ddf5a4798e010",
-  "components/onevn_sync/extension/onevn-crypto": "https://github.com/1-vn/crypto@54f35a7bd6e297620c6add188f1b31af3d0ec561",
-  "vendor/bat-native-usermodel": "https://github.com/1-vn/bat-native-usermodel.git@c3b6111aa862c5c452c84be8a225d5f1df32b284",
-  "vendor/challenge_bypass_ristretto_ffi": "https://github.com/1-vn/challenge-bypass-ristretto-ffi.git@2c0e28f76e4b6f53947bf4faa5afd93614f96aca",
+  "components/onevn_sync/extension/onevn-sync": "https://github.com/1-vn/sync.git@1d47671298e1c118e116170d971f6854c4bddbc7",
+  "components/onevn_sync/extension/onevn-crypto": "https://github.com/1-vn/crypto@0e6ebbbfeec1da03c963b97e164776dcc0eff98e",
+  "vendor/bat-native-usermodel": "https://github.com/1-vn/bat-native-usermodel.git@b6831d54bbde8e0328b821d5667d0d1c7bb5045b",
+  "vendor/challenge_bypass_ristretto_ffi": "https://github.com/1-vn/challenge-bypass-ristretto-ffi.git@5d3b63c7789010914d4a6a3040bf3b2114bdd85c",
 }
 
 hooks = [
