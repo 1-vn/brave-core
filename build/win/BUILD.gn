@@ -13,7 +13,7 @@ copy("copy_exe") {
   ]
 
   outputs = [
-    "$root_out_dir/1-vn.exe",
+    "$root_out_dir/onevn.exe",
   ]
 
   deps = [
@@ -27,7 +27,7 @@ copy("copy_pdb") {
   ]
 
   outputs = [
-    "$root_out_dir/1-vn.exe.pdb",
+    "$root_out_dir/onevn.exe.pdb",
   ]
 
   deps = [

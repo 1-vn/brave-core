@@ -58,42 +58,42 @@ struct TestData {
 constexpr TestData kTestData[] = {
     {
         L"C:\\Program Files (x86)\\OneVNSoftware\\OneVN-Browser\\Application"
-        L"\\1-vn.exe",
+        L"\\onevn.exe",
         STABLE_INDEX, true, L"",
     },
     {
         L"C:\\Users\\user\\AppData\\Local\\OneVNSoftware\\OneVN-Browser"
-        L"\\Application\\1-vn.exe",
+        L"\\Application\\onevn.exe",
         STABLE_INDEX, false, L"",
     },
     {
         L"C:\\Program Files (x86)\\OneVNSoftware\\OneVN-Browser-Beta"
-        L"\\Application\\1-vn.exe",
+        L"\\Application\\onevn.exe",
         BETA_INDEX, true, L"beta",
     },
     {
         L"C:\\Users\\user\\AppData\\Local\\OneVNSoftware\\OneVN-Browser-Beta"
-        L"\\Application\\1-vn.exe",
+        L"\\Application\\onevn.exe",
         BETA_INDEX, false, L"beta",
     },
     {
         L"C:\\Program Files (x86)\\OneVNSoftware\\OneVN-Browser-Dev"
-        L"\\Application\\1-vn.exe",
+        L"\\Application\\onevn.exe",
         DEV_INDEX, true, L"dev",
     },
     {
         L"C:\\Users\\user\\AppData\\Local\\OneVNSoftware\\OneVN-Browser-Dev"
-        L"\\Application\\1-vn.exe",
+        L"\\Application\\onevn.exe",
         DEV_INDEX, false, L"dev",
     },
     {
         L"C:\\Users\\user\\AppData\\Local\\OneVNSoftware\\OneVN-Browser-Nightly"
-        L"\\Application\\1-vn.exe",
+        L"\\Application\\onevn.exe",
         NIGHTLY_INDEX, false, L"nightly",
     },
     {
         L"C:\\Users\\user\\AppData\\Local\\OneVNSoftware\\OneVN-Browser-Nightly"
-        L"\\Application\\1-vn.exe",
+        L"\\Application\\onevn.exe",
         NIGHTLY_INDEX, false, L"nightly",
     },
 };
@@ -101,12 +101,12 @@ constexpr TestData kTestData[] = {
 constexpr TestData kTestData[] = {
     {
         L"C:\\Program Files (x86)\\OneVNSoftware\\OneVN-Browser-Development"
-        L"\\Application\\1-vn.exe",
+        L"\\Application\\onevn.exe",
         DEVELOPER_INDEX, true, L"",
     },
     {
         L"C:\\Users\\user\\AppData\\Local\\OneVNSoftware\\OneVN-Browser-Development"
-        L"Application\\1-vn.exe",
+        L"Application\\onevn.exe",
         DEVELOPER_INDEX, false, L"",
     },
 };
