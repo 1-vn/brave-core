@@ -1,10 +1,10 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#ifndef BRAVE_COMMON_PREF_NAMES_H_
-#define BRAVE_COMMON_PREF_NAMES_H_
+#ifndef ONEVN_COMMON_PREF_NAMES_H_
+#define ONEVN_COMMON_PREF_NAMES_H_
 
 extern const char kAdsBlocked[];
 extern const char kTrackersBlocked[];
@@ -23,8 +23,8 @@ extern const char kWidevineOptedIn[];
 extern const char kWidevineInstalledVersion[];
 extern const char kUseAlternativeSearchEngineProvider[];
 extern const char kAlternativeSearchEngineProviderInTor[];
-extern const char kBraveThemeType[];
-extern const char kUseOverriddenBraveThemeType[];
+extern const char kOneVNThemeType[];
+extern const char kUseOverriddenOneVNThemeType[];
 extern const char kLocationBarIsWide[];
 extern const char kReferralPromoCode[];
 extern const char kReferralDownloadID[];
@@ -40,10 +40,10 @@ extern const char kFBEmbedControlType[];
 extern const char kTwitterEmbedControlType[];
 extern const char kLinkedInEmbedControlType[];
 extern const char kMigratedMuonProfile[];
-extern const char kBravePaymentsPinnedItemCount[];
+extern const char kOneVNPaymentsPinnedItemCount[];
 extern const char kWebTorrentEnabled[];
 extern const char kHangoutsEnabled[];
-extern const char kHideBraveRewardsButton[];
+extern const char kHideOneVNRewardsButton[];
 extern const char kIPFSCompanionEnabled[];
 
-#endif  // BRAVE_COMMON_PREF_NAMES_H_
+#endif  // ONEVN_COMMON_PREF_NAMES_H_

@@ -6,7 +6,7 @@ index 0df107bf9757a81897e9312a9eba977b8a173646..61e4f4ce671c5e0f92208b54aade9031
    DCHECK(hkcu_themes_regkey_.Valid());
    hkcu_themes_regkey_.StartWatching(base::BindOnce(
        [](NativeThemeWin* native_theme) {
-+#if defined(BRAVE_CHROMIUM_BUILD)
++#if defined(ONEVN_CHROMIUM_BUILD)
 +        NotifyProperThemeObserver();
 +#else
          native_theme->NotifyObservers();

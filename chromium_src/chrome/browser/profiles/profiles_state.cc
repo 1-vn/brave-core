@@ -1,4 +1,4 @@
-#include "brave/browser/profiles/brave_profile_manager.h"
+#include "onevn/browser/profiles/onevn_profile_manager.h"
 #include "chrome/browser/profiles/profiles_state.h"
 #include "ui/gfx/text_elider.h"
 #define SetActiveProfileToGuestIfLocked SetActiveProfileToGuestIfLocked_ChromiumImpl
@@ -13,7 +13,7 @@ namespace profiles {
 
 #if !defined(OS_ANDROID)
 base::string16 GetAvatarNameForProfile(const base::FilePath& profile_path) {
-  if (profile_path == BraveProfileManager::GetTorProfilePath())
+  if (profile_path == OneVNProfileManager::GetTorProfilePath())
     return l10n_util::GetStringUTF16(IDS_TOR_PROFILE_NAME);
   return GetAvatarNameForProfile_ChromiumImpl(profile_path);
 }
@@ -37,7 +37,7 @@ bool SetActiveProfileToGuestIfLocked() {
 
   const base::FilePath& active_profile_path =
       profile_manager->GetLastUsedProfileDir(profile_manager->user_data_dir());
-  const base::FilePath& tor_path = BraveProfileManager::GetTorProfilePath();
+  const base::FilePath& tor_path = OneVNProfileManager::GetTorProfilePath();
   if (active_profile_path == tor_path)
     return true;
 

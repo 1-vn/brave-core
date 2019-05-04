@@ -1,5 +1,5 @@
 static_library("lib") {
-  visibility = [ "//brave/utility", "//chrome/utility" ]
+  visibility = [ "//onevn/utility", "//chrome/utility" ]
 
   sources = [
     "bat_ads_app.cc",
@@ -13,12 +13,12 @@ static_library("lib") {
   ]
 
   public_deps = [
-    "//brave/components/services/bat_ads/public/interfaces",
+    "//onevn/components/services/bat_ads/public/interfaces",
   ]
 
   deps = [
     "//mojo/public/cpp/system",
     "//services/service_manager/public/cpp",
-    "//brave/vendor/bat-native-ads",
+    "//onevn/vendor/bat-native-ads",
   ]
 }

@@ -1,13 +1,13 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/widevine/widevine_utils.h"
+#include "onevn/browser/widevine/widevine_utils.h"
 
-#include "brave/browser/brave_browser_process_impl.h"
-#include "brave/browser/widevine/widevine_permission_request.h"
-#include "brave/grit/brave_generated_resources.h"
+#include "onevn/browser/onevn_browser_process_impl.h"
+#include "onevn/browser/widevine/widevine_permission_request.h"
+#include "onevn/grit/onevn_generated_resources.h"
 #include "chrome/browser/permissions/permission_request_manager.h"
 #include "chrome/browser/subresource_filter/chrome_subresource_filter_client.h"
 
@@ -15,8 +15,8 @@
 #include <string>
 
 #include "base/bind.h"
-#include "brave/browser/brave_drm_tab_helper.h"
-#include "brave/browser/widevine/brave_widevine_bundle_manager.h"
+#include "onevn/browser/onevn_drm_tab_helper.h"
+#include "onevn/browser/widevine/onevn_widevine_bundle_manager.h"
 #include "chrome/browser/lifetime/application_lifetime.h"
 #include "chrome/browser/ui/browser_finder.h"
 #include "chrome/browser/ui/browser_window.h"
@@ -24,7 +24,7 @@
 #endif
 
 #if BUILDFLAG(ENABLE_WIDEVINE_CDM_COMPONENT)
-#include "brave/common/pref_names.h"
+#include "onevn/common/pref_names.h"
 #include "chrome/browser/component_updater/widevine_cdm_component_installer.h"
 #include "chrome/browser/profiles/profile_manager.h"
 #include "components/prefs/pref_service.h"
@@ -41,8 +41,8 @@ content::WebContents* GetActiveWebContents() {
 bool IsActiveTabRequestedWidevine() {
   bool is_active_tab_requested_widevine = false;
   if (content::WebContents* active_web_contents = GetActiveWebContents()) {
-    BraveDrmTabHelper* drm_helper =
-        BraveDrmTabHelper::FromWebContents(active_web_contents);
+    OneVNDrmTabHelper* drm_helper =
+        OneVNDrmTabHelper::FromWebContents(active_web_contents);
     is_active_tab_requested_widevine = drm_helper->ShouldShowWidevineOptIn();
   }
 
@@ -71,7 +71,7 @@ int GetWidevinePermissionRequestTextFrangmentResourceId() {
 #endif
 
 #if BUILDFLAG(BUNDLE_WIDEVINE_CDM)
-  auto* manager = g_brave_browser_process->brave_widevine_bundle_manager();
+  auto* manager = g_onevn_browser_process->onevn_widevine_bundle_manager();
   message_id = manager->GetWidevinePermissionRequestTextFragment();
 #endif
 
@@ -93,7 +93,7 @@ void EnableWidevineCdmComponent(content::WebContents* web_contents) {
     return;
 
   prefs->SetBoolean(kWidevineOptedIn, true);
-  RegisterWidevineCdmComponent(g_brave_browser_process->component_updater());
+  RegisterWidevineCdmComponent(g_onevn_browser_process->component_updater());
   ChromeSubresourceFilterClient::FromWebContents(web_contents)
       ->OnReloadRequested();
 }
@@ -101,7 +101,7 @@ void EnableWidevineCdmComponent(content::WebContents* web_contents) {
 
 #if BUILDFLAG(BUNDLE_WIDEVINE_CDM)
 void InstallBundleOrRestartBrowser() {
-  auto* manager = g_brave_browser_process->brave_widevine_bundle_manager();
+  auto* manager = g_onevn_browser_process->onevn_widevine_bundle_manager();
   if (manager->needs_restart()) {
     manager->WillRestart();
     if (!manager->is_test()) {

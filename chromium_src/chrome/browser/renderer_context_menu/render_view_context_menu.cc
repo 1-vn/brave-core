@@ -1,11 +1,11 @@
-// Copyright 2018 The Brave Authors. All rights reserved.
+// Copyright 2018 The OneVN Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
 #include "chrome/browser/renderer_context_menu/render_view_context_menu.h"
 #include "components/spellcheck/spellcheck_buildflags.h"
 #if !BUILDFLAG(USE_BROWSER_SPELLCHECKER)
-#include "brave/browser/renderer_context_menu/brave_spelling_options_submenu_observer.h"
+#include "onevn/browser/renderer_context_menu/onevn_spelling_options_submenu_observer.h"
 #endif
 
 // Our .h file creates a masquerade for RenderViewContextMenu.  Switch
@@ -15,7 +15,7 @@
 
 #if !defined(OS_MACOSX)
 // Use our subclass to initialize SpellingOptionsSubMenuObserver.
-#define SpellingOptionsSubMenuObserver BraveSpellingOptionsSubMenuObserver
+#define SpellingOptionsSubMenuObserver OneVNSpellingOptionsSubMenuObserver
 #endif
 
 #include "../../../../chrome/browser/renderer_context_menu/render_view_context_menu.cc"
@@ -27,16 +27,16 @@
 // Make it clear which class we mean here.
 #undef RenderViewContextMenu
 
-BraveRenderViewContextMenu::BraveRenderViewContextMenu(
+OneVNRenderViewContextMenu::OneVNRenderViewContextMenu(
     content::RenderFrameHost* render_frame_host,
     const content::ContextMenuParams& params)
   : RenderViewContextMenu_Chromium(render_frame_host, params) {
 }
 
-void RenderViewContextMenu_Chromium::AppendBraveLinkItems() {
+void RenderViewContextMenu_Chromium::AppendOneVNLinkItems() {
 }
 
-void BraveRenderViewContextMenu::AppendBraveLinkItems() {
+void OneVNRenderViewContextMenu::AppendOneVNLinkItems() {
   if (!params_.link_url.is_empty()) {
     if (base::FeatureList::IsEnabled(features::kDesktopPWAWindowing)) {
       const Browser* browser = GetBrowser();
@@ -53,7 +53,7 @@ void BraveRenderViewContextMenu::AppendBraveLinkItems() {
   }
 }
 
-bool BraveRenderViewContextMenu::IsCommandIdEnabled(int id) const {
+bool OneVNRenderViewContextMenu::IsCommandIdEnabled(int id) const {
   switch (id) {
     case IDC_CONTENT_CONTEXT_OPENLINKTOR:
       return params_.link_url.is_valid() &&
@@ -64,7 +64,7 @@ bool BraveRenderViewContextMenu::IsCommandIdEnabled(int id) const {
   }
 }
 
-void BraveRenderViewContextMenu::ExecuteCommand(int id, int event_flags) {
+void OneVNRenderViewContextMenu::ExecuteCommand(int id, int event_flags) {
   switch (id) {
     case IDC_CONTENT_CONTEXT_OPENLINKTOR:
       profiles::SwitchToTorProfile(
@@ -78,18 +78,18 @@ void BraveRenderViewContextMenu::ExecuteCommand(int id, int event_flags) {
   }
 }
 
-void BraveRenderViewContextMenu::AddSpellCheckServiceItem(bool is_checked) {
+void OneVNRenderViewContextMenu::AddSpellCheckServiceItem(bool is_checked) {
   // Call our implementation, not the one in the base class.
   // Assumption:
-  // Use of spelling service is disabled in Brave profile preferences.
+  // Use of spelling service is disabled in OneVN profile preferences.
   DCHECK(!GetProfile()->GetPrefs()->GetBoolean(
       spellcheck::prefs::kSpellCheckUseSpellingService));
   AddSpellCheckServiceItem(&menu_model_, is_checked);
 }
 
 // static
-void BraveRenderViewContextMenu::AddSpellCheckServiceItem(
+void OneVNRenderViewContextMenu::AddSpellCheckServiceItem(
     ui::SimpleMenuModel* menu,
     bool is_checked) {
-  // Suppress adding "Spellcheck->Ask Brave for suggestions" item.
+  // Suppress adding "Spellcheck->Ask OneVN for suggestions" item.
 }

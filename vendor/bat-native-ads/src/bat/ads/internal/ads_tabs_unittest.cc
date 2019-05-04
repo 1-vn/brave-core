@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -112,12 +112,12 @@ class AdsTabsTest : public ::testing::Test {
   // Objects declared here can be used by all tests in the test case
   base::FilePath GetTestDataPath() {
     return base::FilePath(FILE_PATH_LITERAL(
-        "brave/vendor/bat-native-ads/test/data"));
+        "onevn/vendor/bat-native-ads/test/data"));
   }
 
   base::FilePath GetResourcesPath() {
     return base::FilePath(FILE_PATH_LITERAL(
-        "brave/vendor/bat-native-ads/resources"));
+        "onevn/vendor/bat-native-ads/resources"));
   }
 
   bool Load(const base::FilePath path, std::string* value) {
@@ -175,7 +175,7 @@ TEST_F(AdsTabsTest, TabUpdated_Incognito) {
       .Times(0);
 
   // Act
-  ads_->TabUpdated(1, "https://brave.com", true, true);
+  ads_->TabUpdated(1, "https://1-vn.com", true, true);
 
   // Assert
   auto last_user_activity = ads_->client_->GetLastUserActivity();
@@ -193,7 +193,7 @@ TEST_F(AdsTabsTest, TabUpdated_InactiveIncognito) {
       .Times(0);
 
   // Act
-  ads_->TabUpdated(1, "https://brave.com", false, true);
+  ads_->TabUpdated(1, "https://1-vn.com", false, true);
 
   // Assert
   auto last_user_activity = ads_->client_->GetLastUserActivity();
@@ -211,7 +211,7 @@ TEST_F(AdsTabsTest, TabUpdated_Active) {
       .Times(1);
 
   // Act
-  ads_->TabUpdated(1, "https://brave.com", true, false);
+  ads_->TabUpdated(1, "https://1-vn.com", true, false);
 
   // Assert
   auto updated_last_user_activity = ads_->client_->GetLastUserActivity();
@@ -229,7 +229,7 @@ TEST_F(AdsTabsTest, TabUpdated_Inactive) {
       .Times(1);
 
   // Act
-  ads_->TabUpdated(1, "https://brave.com", false, false);
+  ads_->TabUpdated(1, "https://1-vn.com", false, false);
 
   // Assert
   auto updated_last_user_activity = ads_->client_->GetLastUserActivity();

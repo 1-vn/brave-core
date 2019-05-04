@@ -2,8 +2,8 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#ifndef BRAVE_BROWSER_MAC_SPARKLE_GLUE_H_
-#define BRAVE_BROWSER_MAC_SPARKLE_GLUE_H_
+#ifndef ONEVN_BROWSER_MAC_SPARKLE_GLUE_H_
+#define ONEVN_BROWSER_MAC_SPARKLE_GLUE_H_
 
 #include "base/strings/string16.h"
 
@@ -30,18 +30,18 @@ enum AutoupdateStatus {
   kAutoupdateInstallFailed,   // no version
 };
 
-// kBraveAutoupdateStatusNotification is the name of the notification posted
+// kOneVNAutoupdateStatusNotification is the name of the notification posted
 // when -checkForUpdate and -installUpdate complete.  This notification will be
 // sent with with its sender object set to the SparkleGlue instance sending
 // the notification.  Its userInfo dictionary will contain an AutoupdateStatus
-// value as an intValue at key kBraveAutoupdateStatusStatus.  If a version is
+// value as an intValue at key kOneVNAutoupdateStatusStatus.  If a version is
 // available (see AutoupdateStatus), it will be present at key
-// kBraveAutoupdateStatusVersion.  If any error messages were supplied by
-// Sparkle, they will be present at key kBraveAutoupdateStatusErrorMessages.
-extern NSString* const kBraveAutoupdateStatusNotification;
-extern NSString* const kBraveAutoupdateStatusStatus;
-extern NSString* const kBraveAutoupdateStatusVersion;
-extern NSString* const kBraveAutoupdateStatusErrorMessages;
+// kOneVNAutoupdateStatusVersion.  If any error messages were supplied by
+// Sparkle, they will be present at key kOneVNAutoupdateStatusErrorMessages.
+extern NSString* const kOneVNAutoupdateStatusNotification;
+extern NSString* const kOneVNAutoupdateStatusStatus;
+extern NSString* const kOneVNAutoupdateStatusVersion;
+extern NSString* const kOneVNAutoupdateStatusErrorMessages;
 
 @interface SparkleGlue : NSObject
 
@@ -78,4 +78,4 @@ base::string16 CurrentlyInstalledVersion();
 
 }  // namespace sparkle_glue
 
-#endif  // BRAVE_BROWSER_MAC_SPARKLE_GLUE_H_
+#endif  // ONEVN_BROWSER_MAC_SPARKLE_GLUE_H_

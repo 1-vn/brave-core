@@ -1,0 +1,162 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this file,
+ * You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+#include "onevn/browser/ui/webui/onevn_rewards_source.h"
+
+#include "base/memory/ref_counted_memory.h"
+#include "chrome/browser/bitmap_fetcher/bitmap_fetcher_service.h"
+#include "chrome/browser/bitmap_fetcher/bitmap_fetcher_service_factory.h"
+#include "chrome/browser/profiles/profile.h"
+#include "third_party/skia/include/core/SkBitmap.h"
+#include "ui/gfx/codec/png_codec.h"
+#include "url/gurl.h"
+
+namespace {
+
+typedef base::RepeatingCallback<void(BitmapFetcherService::RequestId request_id,
+                                     const GURL& url,
+                                     const SkBitmap& bitmap)>
+    RewardsResourceFetcherCallback;
+
+// Calls the specified callback when the requested image is downloaded.  This
+// is a separate class instead of being implemented on OneVNRewardsSource
+// because BitmapFetcherService currently takes ownership of this object.
+class RewardsResourceFetcherObserver : public BitmapFetcherService::Observer {
+ public:
+  explicit RewardsResourceFetcherObserver(
+      const GURL& url,
+      const RewardsResourceFetcherCallback& rewards_resource_fetcher_callback)
+      : url_(url),
+        rewards_resource_fetcher_callback_(rewards_resource_fetcher_callback) {}
+
+  void OnImageChanged(BitmapFetcherService::RequestId request_id,
+                      const SkBitmap& image) override {
+    DCHECK(!image.empty());
+    rewards_resource_fetcher_callback_.Run(request_id, url_, image);
+  }
+
+ private:
+  GURL url_;
+  const RewardsResourceFetcherCallback rewards_resource_fetcher_callback_;
+
+  DISALLOW_COPY_AND_ASSIGN(RewardsResourceFetcherObserver);
+};
+
+scoped_refptr<base::RefCountedMemory> BitmapToMemory(const SkBitmap* image) {
+  base::RefCountedBytes* image_bytes = new base::RefCountedBytes;
+  gfx::PNGCodec::EncodeBGRASkBitmap(*image, false, &image_bytes->data());
+  return image_bytes;
+}
+
+}  // namespace
+
+OneVNRewardsSource::OneVNRewardsSource(Profile* profile)
+    : profile_(profile->GetOriginalProfile()) {}
+
+OneVNRewardsSource::~OneVNRewardsSource() {
+}
+
+std::string OneVNRewardsSource::GetSource() const {
+  return "rewards-image";
+}
+
+void OneVNRewardsSource::StartDataRequest(
+    const std::string& path,
+    const content::ResourceRequestInfo::WebContentsGetter& wc_getter,
+    const content::URLDataSource::GotDataCallback& got_data_callback) {
+  GURL url(path);
+  if (!url.is_valid()) {
+    got_data_callback.Run(nullptr);
+    return;
+  }
+
+  auto it = find(resource_fetchers_.begin(), resource_fetchers_.end(), url);
+  if (it != resource_fetchers_.end()) {
+    LOG(WARNING) << "Already fetching specified OneVN Rewards resource, url: "
+                 << url;
+    return;
+  }
+
+  BitmapFetcherService* image_service =
+      BitmapFetcherServiceFactory::GetForBrowserContext(profile_);
+  if (image_service) {
+    net::NetworkTrafficAnnotationTag traffic_annotation =
+        net::DefineNetworkTrafficAnnotation("onevn_rewards_resource_fetcher", R"(
+        semantics {
+          sender:
+            "OneVN Rewards resource fetcher"
+          description:
+            "Fetches resources related to OneVN Rewards."
+          trigger:
+            "User visits a media publisher's site."
+          data: "OneVN Rewards related resources."
+          destination: WEBSITE
+        }
+        policy {
+          cookies_allowed: NO
+          setting:
+            "This feature cannot be disabled by settings."
+          policy_exception_justification:
+            "Not implemented."
+        })");
+    resource_fetchers_.emplace_back(path);
+    request_ids_.push_back(image_service->RequestImage(
+        url,
+        // Image Service takes ownership of the observer.
+        new RewardsResourceFetcherObserver(
+            url,
+            base::BindRepeating(&OneVNRewardsSource::OnBitmapFetched,
+                                base::Unretained(this), got_data_callback)),
+        traffic_annotation));
+  }
+}
+
+std::string OneVNRewardsSource::GetMimeType(const std::string&) const {
+  // We need to explicitly return a mime type, otherwise if the user tries to
+  // drag the image they get no extension.
+  return "image/png";
+}
+
+bool OneVNRewardsSource::AllowCaching() const {
+  return false;
+}
+
+bool OneVNRewardsSource::ShouldReplaceExistingSource() const {
+  // Leave the existing DataSource in place, otherwise we'll drop any pending
+  // requests on the floor.
+  return false;
+}
+
+bool OneVNRewardsSource::ShouldServiceRequest(
+    const GURL& url,
+    content::ResourceContext* resource_context,
+    int render_process_id) const {
+  return URLDataSource::ShouldServiceRequest(url, resource_context,
+                                             render_process_id);
+}
+
+void OneVNRewardsSource::OnBitmapFetched(
+    const content::URLDataSource::GotDataCallback& got_data_callback,
+    BitmapFetcherService::RequestId request_id,
+    const GURL& url,
+    const SkBitmap& bitmap) {
+  if (bitmap.isNull()) {
+    LOG(ERROR) << "Failed to retrieve OneVN Rewards resource, url: " << url;
+    got_data_callback.Run(nullptr);
+    return;
+  }
+
+  got_data_callback.Run(BitmapToMemory(&bitmap).get());
+
+  auto it_url =
+      find(resource_fetchers_.begin(), resource_fetchers_.end(), url.spec());
+  if (it_url != resource_fetchers_.end()) {
+    resource_fetchers_.erase(it_url);
+  }
+
+  auto it_ids = find(request_ids_.begin(), request_ids_.end(), request_id);
+  if (it_ids != request_ids_.end()) {
+    request_ids_.erase(it_ids);
+  }
+}

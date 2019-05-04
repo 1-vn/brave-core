@@ -6,7 +6,7 @@ index ba15221356ef2a2181146510693e88b8d058c5ea..632efda10621894a2ee51055ac13744d
    }
  
   private:
-+  friend class BraveContentSettingsObserver;
++  friend class OneVNContentSettingsObserver;
    FRIEND_TEST_ALL_PREFIXES(ContentSettingsObserverTest, WhitelistedSchemes);
    FRIEND_TEST_ALL_PREFIXES(ContentSettingsObserverBrowserTest,
                             ContentSettingsInterstitialPages);

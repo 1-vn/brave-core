@@ -6,7 +6,7 @@ index f907ae4f1d0592e1ca5b077f7ddecefd2a9ba4b0..08f428650727dd76fad61b3da679c029
    void ResetPermissionOverridesForDevTools();
  
   private:
-+  friend class BravePermissionManager;
++  friend class OneVNPermissionManager;
    friend class PermissionManagerTest;
    friend class GeolocationPermissionContextTests;
  

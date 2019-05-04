@@ -1,14 +1,14 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/services/bat_ledger/bat_ledger_service_impl.h"
+#include "onevn/components/services/bat_ledger/bat_ledger_service_impl.h"
 
 #include <utility>
 
 #include "bat/ledger/ledger.h"
-#include "brave/components/services/bat_ledger/bat_ledger_impl.h"
+#include "onevn/components/services/bat_ledger/bat_ledger_impl.h"
 #include "mojo/public/cpp/bindings/strong_associated_binding.h"
 
 namespace {

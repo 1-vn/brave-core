@@ -10,11 +10,11 @@ index 60b10bd7da439c5fccb9a3588a78cf51b5cd8cfa..61d84b4a438ca645d678c6ce77bcdfaf
 +  version_info::Channel product_channel(chrome::GetChannel());
 +  switch (product_channel) {
 +    case version_info::Channel::DEV:
-+      return "brave-browser-dev.desktop";
++      return "onevn-browser-dev.desktop";
 +    case version_info::Channel::BETA:
-+      return "brave-browser-beta.desktop";
++      return "onevn-browser-beta.desktop";
 +    default:
-+      return "brave-browser.desktop";
++      return "onevn-browser.desktop";
 +  }
 +#endif  // defined(OFFICIAL_BUILD)
    // Allow $CHROME_DESKTOP to override the built-in value, so that development
@@ -24,7 +24,7 @@ index 60b10bd7da439c5fccb9a3588a78cf51b5cd8cfa..61d84b4a438ca645d678c6ce77bcdfaf
    if (env->GetVar("CHROME_DESKTOP", &name) && !name.empty())
      return name;
 -  return "chromium-browser.desktop";
-+  return "brave-browser.desktop";
++  return "onevn-browser.desktop";
  #endif
  }
  
@@ -33,7 +33,7 @@ index 60b10bd7da439c5fccb9a3588a78cf51b5cd8cfa..61d84b4a438ca645d678c6ce77bcdfaf
    return "google-chrome";
  #else  // CHROMIUM_BUILD
 -  return "chromium-browser";
-+  return "brave-browser";
++  return "onevn-browser";
  #endif
  }
  

@@ -1,0 +1,37 @@
+import("//onevn/components/common/typescript.gni")
+
+transpile_web_ui("onevn_welcome_ui") {
+  inputs = [
+    "onevn_welcome.html",
+    "onevn_welcome.tsx",
+    "storage.ts",
+    "store.ts",
+    "actions/welcome_actions.ts",
+    "components/app.tsx",
+    "components/screens/footerBox.tsx",
+    "components/screens/importBox.tsx",
+    "components/screens/rewardsBox.tsx",
+    "components/screens/searchBox.tsx",
+    "components/screens/shieldsBox.tsx",
+    "components/screens/themeBox.tsx",
+    "components/screens/welcomeBox.tsx",
+    "constants/theme.ts",
+    "constants/welcome_types.ts",
+    "reducers/index.ts",
+    "reducers/welcome_reducer.ts",
+  ]
+
+  entry_points = [
+    ["onevn_welcome", rebase_path("onevn_welcome.tsx")]
+  ]
+
+  resource_name = "onevn_welcome"
+}
+
+pack_web_resources("generated_resources") {
+  resource_name = "onevn_welcome"
+  output_dir = "$root_gen_dir/onevn/components/onevn_welcome/resources"
+  deps = [
+    ":onevn_welcome_ui"
+  ]
+}

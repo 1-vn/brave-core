@@ -1,0 +1,60 @@
+import("//onevn/components/onevn_rewards/browser/buildflags/buildflags.gni")
+import("//onevn/components/common/typescript.gni")
+import("//extensions/buildflags/buildflags.gni")
+import("//tools/grit/grit_rule.gni")
+import("//tools/grit/repack.gni")
+
+pack_web_resources("ui_generated_resources") {
+  resource_name = "onevn_rewards"
+  output_dir = "$root_gen_dir/onevn/components/onevn_rewards/resources"
+  # need webpack and GRD generation first
+  deps = [
+    "ui"
+  ]
+}
+
+pack_web_resources("donate_generated_resources") {
+  resource_name = "onevn_donate"
+  output_dir = "$root_gen_dir/onevn/components/onevn_rewards/resources"
+  # need webpack and GRD generation first
+  deps = [
+    "donate"
+  ]
+}
+
+grit("static_resources") {
+  source = "onevn_rewards_static_resources.grd"
+
+  outputs = [
+    "grit/onevn_rewards_resources.h",
+    "onevn_rewards_static.pak",
+  ]
+
+  deps = [
+  ]
+
+  grit_flags = [
+    "-E",
+    "root_gen_dir=" + rebase_path(root_gen_dir, root_build_dir),
+  ]
+
+  resource_ids = "//onevn/browser/resources/resource_ids"
+
+  output_dir = "$root_gen_dir/onevn/components/onevn_rewards/resources"
+}
+
+repack("resources") {
+  deps = [
+    ":ui_generated_resources",
+    ":donate_generated_resources",
+    ":static_resources",
+  ]
+
+  sources = [
+    "$root_gen_dir/onevn/components/onevn_rewards/resources/onevn_rewards_generated.pak",
+    "$root_gen_dir/onevn/components/onevn_rewards/resources/onevn_donate_generated.pak",
+    "$root_gen_dir/onevn/components/onevn_rewards/resources/onevn_rewards_static.pak",
+  ]
+
+  output = "$root_gen_dir/onevn/components/onevn_rewards/resources/onevn_rewards_resources.pak"
+}

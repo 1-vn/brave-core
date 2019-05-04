@@ -6,13 +6,13 @@ index a57f41d288336a62d40d91b3580331f3261d5c08..b11a1b0707afbc8bce6df6d3a0c5e930
  <link rel="import" href="chrome://resources/html/util.html">
  <link rel="import" href="chrome://resources/polymer/v1_0/iron-icon/iron-icon.html">
  
-+<link rel="import" href="chrome://brave-resources/page_specific/history/brave_history_item.html">
++<link rel="import" href="chrome://onevn-resources/page_specific/history/onevn_history_item.html">
  <!-- Lazy loaded: paper-icon-button-light. -->
  
  <dom-module id="history-item">
    <template>
 -    <style include="shared-style cr-icons">
-+    <style include="shared-style cr-icons brave-history-item">
++    <style include="shared-style cr-icons onevn-history-item">
        :host {
          display: block;
          outline: none;

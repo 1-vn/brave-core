@@ -3,7 +3,7 @@ import("//tools/json_schema_compiler/json_schema_api.gni")
 import("//tools/grit/grit_rule.gni")
 json_features("api_features") {
   feature_type = "APIFeature"
-  method_name = "AddBraveAPIFeatures"
+  method_name = "AddOneVNAPIFeatures"
   sources = [
     "//chrome/common/extensions/api/_api_features.json",
     "//extensions/common/api/_api_features.json",
@@ -13,7 +13,7 @@ json_features("api_features") {
 
 json_features("permission_features") {
   feature_type = "PermissionFeature"
-  method_name = "AddBravePermissionFeatures"
+  method_name = "AddOneVNPermissionFeatures"
   sources = [
     "//chrome/common/extensions/api/_permission_features.json",
     "//extensions/common/api/_permission_features.json",
@@ -22,7 +22,7 @@ json_features("permission_features") {
 
 json_features("manifest_features") {
   feature_type = "ManifestFeature"
-  method_name = "AddBraveManifestFeatures"
+  method_name = "AddOneVNManifestFeatures"
   sources = [
     "//chrome/common/extensions/api/_manifest_features.json",
     "//extensions/common/api/_manifest_features.json",
@@ -32,25 +32,25 @@ json_features("manifest_features") {
 
 json_features("behavior_features") {
   feature_type = "BehaviorFeature"
-  method_name = "AddBraveBehaviorFeatures"
+  method_name = "AddOneVNBehaviorFeatures"
   sources = [
     "//extensions/common/api/_behavior_features.json",
   ]
 }
 
-brave_extensions_api_schema_sources = [
-  "brave_shields.json",
-  "brave_rewards.json",
-  "brave_theme.json",
+onevn_extensions_api_schema_sources = [
+  "onevn_shields.json",
+  "onevn_rewards.json",
+  "onevn_theme.json",
   "rewards_notifications.json",
-  "brave_sync.json",
+  "onevn_sync.json",
 ]
-brave_extensions_api_uncompiled_sources = []
-brave_extensions_api_root_namespace = "extensions::api::%(namespace)s"
-brave_extensions_api_schema_include_rules =
-    "//brave/common/extensions/api:extensions::api::%(namespace)s"
+onevn_extensions_api_uncompiled_sources = []
+onevn_extensions_api_root_namespace = "extensions::api::%(namespace)s"
+onevn_extensions_api_schema_include_rules =
+    "//onevn/common/extensions/api:extensions::api::%(namespace)s"
 
-brave_extensions_api_deps = [
+onevn_extensions_api_deps = [
   "//chrome/common/extensions/api",
   "//extensions/common/api",
   "//skia",
@@ -62,19 +62,19 @@ brave_extensions_api_deps = [
 ]
 
 grit("resources") {
-  source = "brave_api_resources.grd"
+  source = "onevn_api_resources.grd"
   outputs = [
-    "grit/brave_api_resources.h",
-    "brave_api_resources.pak",
+    "grit/onevn_api_resources.h",
+    "onevn_api_resources.pak",
   ]
-  resource_ids = "//brave/browser/resources/resource_ids"
+  resource_ids = "//onevn/browser/resources/resource_ids"
 }
 
 function_registration("generated_api_registration") {
-  sources = brave_extensions_api_schema_sources
-  impl_dir = "//brave/common/extensions/api/"
-  bundle_name = "Brave"
-  root_namespace = brave_extensions_api_root_namespace
+  sources = onevn_extensions_api_schema_sources
+  impl_dir = "//onevn/common/extensions/api/"
+  bundle_name = "OneVN"
+  root_namespace = onevn_extensions_api_root_namespace
 
   deps = [
     "//extensions/common",
@@ -85,26 +85,26 @@ function_registration("generated_api_registration") {
 
 
 generated_json_strings("generated_api_json_strings") {
-  sources = brave_extensions_api_schema_sources +
-            brave_extensions_api_uncompiled_sources
+  sources = onevn_extensions_api_schema_sources +
+            onevn_extensions_api_uncompiled_sources
 
   configs = [ "//build/config:precompiled_headers" ]
-  bundle_name = "Brave"
-  schema_include_rules = brave_extensions_api_schema_include_rules
+  bundle_name = "OneVN"
+  schema_include_rules = onevn_extensions_api_schema_include_rules
 
-  root_namespace = brave_extensions_api_root_namespace
-  deps = brave_extensions_api_deps
+  root_namespace = onevn_extensions_api_root_namespace
+  deps = onevn_extensions_api_deps
 
   visibility = [ ":api" ]
 }
 
 generated_types("generated_api_types") {
-  sources = brave_extensions_api_schema_sources
+  sources = onevn_extensions_api_schema_sources
   configs = [ "//build/config:precompiled_headers" ]
-  schema_include_rules = brave_extensions_api_schema_include_rules
+  schema_include_rules = onevn_extensions_api_schema_include_rules
 
-  root_namespace = brave_extensions_api_root_namespace
-  deps = brave_extensions_api_deps
+  root_namespace = onevn_extensions_api_root_namespace
+  deps = onevn_extensions_api_deps
   visibility = [ ":api" ]
 }
 

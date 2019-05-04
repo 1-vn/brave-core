@@ -2,9 +2,9 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/utility/importer/chrome_importer.h"
-#include "brave/common/brave_paths.h"
-#include "brave/common/importer/brave_mock_importer_bridge.h"
+#include "onevn/utility/importer/chrome_importer.h"
+#include "onevn/common/onevn_paths.h"
+#include "onevn/common/importer/onevn_mock_importer_bridge.h"
 
 #include "base/files/file_path.h"
 #include "base/files/file_util.h"
@@ -26,11 +26,11 @@ using ::testing::_;
 
 // In order to test the Chrome import functionality effectively, we store a
 // simulated Chrome profile directory containing dummy data files with the
-// same structure as ~/Library/Application Support/Google/Chrome in the Brave
+// same structure as ~/Library/Application Support/Google/Chrome in the OneVN
 // test data directory. This function returns the path to that directory.
 base::FilePath GetTestChromeProfileDir(const std::string& profile) {
   base::FilePath test_dir;
-  base::PathService::Get(brave::DIR_TEST_DATA, &test_dir);
+  base::PathService::Get(onevn::DIR_TEST_DATA, &test_dir);
 
   return test_dir.AppendASCII("import").AppendASCII("chrome")
       .AppendASCII(profile);
@@ -56,14 +56,14 @@ class ChromeImporterTest : public ::testing::Test {
   void SetUp() override {
     SetUpChromeProfile();
     importer_ = new ChromeImporter;
-    bridge_ = new BraveMockImporterBridge;
+    bridge_ = new OneVNMockImporterBridge;
   }
 
   base::ScopedTempDir temp_dir_;
   base::FilePath profile_dir_;
   importer::SourceProfile profile_;
   scoped_refptr<ChromeImporter> importer_;
-  scoped_refptr<BraveMockImporterBridge> bridge_;
+  scoped_refptr<OneVNMockImporterBridge> bridge_;
 };
 
 TEST_F(ChromeImporterTest, ImportHistory) {
@@ -79,8 +79,8 @@ TEST_F(ChromeImporterTest, ImportHistory) {
   importer_->StartImport(profile_, importer::HISTORY, bridge_.get());
 
   ASSERT_EQ(3u, history.size());
-  EXPECT_EQ("https://brave.com/", history[0].url.spec());
-  EXPECT_EQ("https://github.com/brave", history[1].url.spec());
+  EXPECT_EQ("https://1-vn.com/", history[0].url.spec());
+  EXPECT_EQ("https://github.com/1-vn", history[1].url.spec());
   EXPECT_EQ("https://www.nytimes.com/", history[2].url.spec());
 }
 
@@ -107,7 +107,7 @@ TEST_F(ChromeImporterTest, ImportBookmarks) {
   EXPECT_TRUE(bookmarks[1].is_folder);
   EXPECT_EQ(ASCIIToUTF16("Empty"), bookmarks[1].title);
 
-  EXPECT_EQ("https://brave.com/", bookmarks[2].url.spec());
+  EXPECT_EQ("https://1-vn.com/", bookmarks[2].url.spec());
   EXPECT_FALSE(bookmarks[2].in_toolbar);
 }
 
@@ -126,7 +126,7 @@ TEST_F(ChromeImporterTest, ImportFavicons) {
   ASSERT_EQ(4u, favicons.size());
   EXPECT_EQ("https://www.google.com/favicon.ico",
             favicons[0].favicon_url.spec());
-  EXPECT_EQ("https://brave.com/images/cropped-brave_appicon_release-32x32.png",
+  EXPECT_EQ("https://1-vn.com/images/cropped-onevn_appicon_release-32x32.png",
             favicons[1].favicon_url.spec());
   EXPECT_EQ("https://assets-cdn.github.com/favicon.ico",
             favicons[2].favicon_url.spec());

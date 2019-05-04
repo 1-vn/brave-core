@@ -1,0 +1,21 @@
+declare_args() {
+  onevn_referrals_api_key = ""
+}
+
+source_set("browser") {
+  sources = [
+    "onevn_referrals_service.cc",
+    "onevn_referrals_service.h",
+  ]
+
+  defines = [ "ONEVN_REFERRALS_API_KEY=\"$onevn_referrals_api_key\"" ]
+
+  deps = [
+    "//base",
+    "//chrome/common",
+    "//components/prefs",
+    "//net",
+    "//services/network/public/cpp",
+    "//skia",
+  ]
+}

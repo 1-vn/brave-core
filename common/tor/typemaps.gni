@@ -3,5 +3,5 @@
 # You can obtain one at http://mozilla.org/MPL/2.0/.
 
 typemaps = [
-  "//brave/common/tor/tor_config.typemap",
+  "//onevn/common/tor/tor_config.typemap",
 ]

@@ -6,7 +6,7 @@ index de3389fac98a708420374851dbf7c0970cb68102..32ca3fede8784b0f519174f314c30276
                        ofObject:(id)object
                          change:(NSDictionary*)change
                         context:(void*)context {
-+#if defined(BRAVE_CHROMIUM_BUILD)
++#if defined(ONEVN_CHROMIUM_BUILD)
 +  NotifyProperThemeObserver();
 +#else
    ui::NativeTheme::GetInstanceForNativeUi()->NotifyObservers();

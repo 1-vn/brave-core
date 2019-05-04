@@ -1,10 +1,10 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#ifndef BRAVE_BROWSER_WIDEVINE_WIDEVINE_PERMISSION_REQUEST_H_
-#define BRAVE_BROWSER_WIDEVINE_WIDEVINE_PERMISSION_REQUEST_H_
+#ifndef ONEVN_BROWSER_WIDEVINE_WIDEVINE_PERMISSION_REQUEST_H_
+#define ONEVN_BROWSER_WIDEVINE_WIDEVINE_PERMISSION_REQUEST_H_
 
 #include "chrome/browser/permissions/permission_request.h"
 
@@ -39,4 +39,4 @@ class WidevinePermissionRequest : public PermissionRequest {
   DISALLOW_COPY_AND_ASSIGN(WidevinePermissionRequest);
 };
 
-#endif  // BRAVE_BROWSER_WIDEVINE_WIDEVINE_PERMISSION_REQUEST_H_
+#endif  // ONEVN_BROWSER_WIDEVINE_WIDEVINE_PERMISSION_REQUEST_H_

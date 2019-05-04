@@ -2,12 +2,12 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/profiles/tor_unittest_profile_manager.h"
+#include "onevn/browser/profiles/tor_unittest_profile_manager.h"
 
 #include "base/files/file_util.h"
 #include "base/threading/thread_task_runner_handle.h"
-#include "brave/browser/profiles/brave_profile_manager.h"
-#include "brave/browser/tor/tor_profile_service.h"
+#include "onevn/browser/profiles/onevn_profile_manager.h"
+#include "onevn/browser/tor/tor_profile_service.h"
 #include "chrome/browser/prefs/browser_prefs.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/test/base/testing_profile.h"
@@ -20,7 +20,7 @@ Profile* TorUnittestProfileManager::CreateProfileHelper(
     if (!base::CreateDirectory(path))
       return nullptr;
   }
-  if (path == BraveProfileManager::GetTorProfilePath())
+  if (path == OneVNProfileManager::GetTorProfilePath())
     return CreateTorProfile(path, nullptr);
   else
     return new TestingProfile(path, nullptr);
@@ -34,15 +34,15 @@ Profile* TorUnittestProfileManager::CreateProfileAsyncHelper(
       FROM_HERE,
       base::BindOnce(base::IgnoreResult(&base::CreateDirectory), path));
 
-  if (path == BraveProfileManager::GetTorProfilePath())
+  if (path == OneVNProfileManager::GetTorProfilePath())
     return CreateTorProfile(path, this);
   else
     return new TestingProfile(path, this);
 }
 
 void TorUnittestProfileManager::InitProfileUserPrefs(Profile* profile) {
-  if (profile->GetPath() == BraveProfileManager::GetTorProfilePath()) {
-    BraveProfileManager::InitTorProfileUserPrefs(profile);
+  if (profile->GetPath() == OneVNProfileManager::GetTorProfilePath()) {
+    OneVNProfileManager::InitTorProfileUserPrefs(profile);
   } else {
     ProfileManager::InitProfileUserPrefs(profile);
   }

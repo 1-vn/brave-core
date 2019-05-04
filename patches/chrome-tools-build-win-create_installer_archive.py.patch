@@ -6,21 +6,21 @@ index b16b16bdc439014bf647f80ca9b7ce8215cfbb6c..cf36aac8b0d18fb0a1dd6f9018dcd53e
    if enable_hidpi == '1':
      CopySectionFilesToStagingDir(config, 'HIDPI', staging_dir, build_dir)
  
-+  CopyBraveExtensionLocalization(config, staging_dir)
-+  CopyBraveRewardsExtensionLocalization(config, staging_dir)
++  CopyOneVNExtensionLocalization(config, staging_dir)
++  CopyOneVNRewardsExtensionLocalization(config, staging_dir)
 +
-+def CopyBraveExtensionLocalization(config, staging_dir):
++def CopyOneVNExtensionLocalization(config, staging_dir):
 +  """Copies extension localization files from
-+  \\brave\components/brave_extension\extension/brave_extension\_locales to
-+  \\<out_gen_dir>\chrome\installer\mini_installer\mini_installer\temp_installer_archive\Chrome-bin\<version>\resources\brave_extension\_locales
++  \\onevn\components/onevn_extension\extension/onevn_extension\_locales to
++  \\<out_gen_dir>\chrome\installer\mini_installer\mini_installer\temp_installer_archive\Chrome-bin\<version>\resources\onevn_extension\_locales
 +  """
-+  brave_extension_dir = os.path.realpath(os.path.dirname(os.path.realpath(__file__)) )
-+  brave_extension_dir = os.path.realpath(os.path.join(brave_extension_dir,
-+    os.pardir,  os.pardir, os.pardir, os.pardir, 'brave', 'components', 'brave_extension', 'extension', 'brave_extension'))
-+  locales_src_dir_path = os.path.join(brave_extension_dir, '_locales')
++  onevn_extension_dir = os.path.realpath(os.path.dirname(os.path.realpath(__file__)) )
++  onevn_extension_dir = os.path.realpath(os.path.join(onevn_extension_dir,
++    os.pardir,  os.pardir, os.pardir, os.pardir, 'onevn', 'components', 'onevn_extension', 'extension', 'onevn_extension'))
++  locales_src_dir_path = os.path.join(onevn_extension_dir, '_locales')
 +  locales_dest_path = staging_dir
-+  locales_dest_path = os.path.join(locales_dest_path, config.get('GENERAL', 'brave_resources.pak'),
-+    'resources', 'brave_extension', '_locales')
++  locales_dest_path = os.path.join(locales_dest_path, config.get('GENERAL', 'onevn_resources.pak'),
++    'resources', 'onevn_extension', '_locales')
 +  locales_dest_path = os.path.realpath(locales_dest_path)
 +  try:
 +    shutil.rmtree(locales_dest_path)
@@ -32,21 +32,21 @@ index b16b16bdc439014bf647f80ca9b7ce8215cfbb6c..cf36aac8b0d18fb0a1dd6f9018dcd53e
 +    for name in files:
 +        rel_dir = os.path.relpath(root, locales_dest_path)
 +        rel_file = os.path.join(rel_dir, name)
-+        candidate = os.path.join('.', 'resources', 'brave_extension' '_locales', rel_file)
++        candidate = os.path.join('.', 'resources', 'onevn_extension' '_locales', rel_file)
 +        g_archive_inputs.append(candidate)
 +
-+def CopyBraveRewardsExtensionLocalization(config, staging_dir):
++def CopyOneVNRewardsExtensionLocalization(config, staging_dir):
 +  """Copies extension localization files from
-+  \\brave\components\brave_rewards\extension\brave_rewards\_locales to
-+  \\<out_gen_dir>\chrome\installer\mini_installer\mini_installer\temp_installer_archive\Chrome-bin\<version>\resources\brave_rewards\_locales
++  \\onevn\components\onevn_rewards\extension\onevn_rewards\_locales to
++  \\<out_gen_dir>\chrome\installer\mini_installer\mini_installer\temp_installer_archive\Chrome-bin\<version>\resources\onevn_rewards\_locales
 +  """
-+  brave_extension_dir = os.path.realpath(os.path.dirname(os.path.realpath(__file__)) )
-+  brave_extension_dir = os.path.realpath(os.path.join(brave_extension_dir,
-+    os.pardir,  os.pardir, os.pardir, os.pardir, 'brave', 'components', 'brave_rewards', 'resources', 'extension', 'brave_rewards'))
-+  locales_src_dir_path = os.path.join(brave_extension_dir, '_locales')
++  onevn_extension_dir = os.path.realpath(os.path.dirname(os.path.realpath(__file__)) )
++  onevn_extension_dir = os.path.realpath(os.path.join(onevn_extension_dir,
++    os.pardir,  os.pardir, os.pardir, os.pardir, 'onevn', 'components', 'onevn_rewards', 'resources', 'extension', 'onevn_rewards'))
++  locales_src_dir_path = os.path.join(onevn_extension_dir, '_locales')
 +  locales_dest_path = staging_dir
-+  locales_dest_path = os.path.join(locales_dest_path, config.get('GENERAL', 'brave_resources.pak'),
-+    'resources', 'brave_rewards', '_locales')
++  locales_dest_path = os.path.join(locales_dest_path, config.get('GENERAL', 'onevn_resources.pak'),
++    'resources', 'onevn_rewards', '_locales')
 +  locales_dest_path = os.path.realpath(locales_dest_path)
 +  try:
 +    shutil.rmtree(locales_dest_path)
@@ -58,7 +58,7 @@ index b16b16bdc439014bf647f80ca9b7ce8215cfbb6c..cf36aac8b0d18fb0a1dd6f9018dcd53e
 +    for name in files:
 +        rel_dir = os.path.relpath(root, locales_dest_path)
 +        rel_file = os.path.join(rel_dir, name)
-+        candidate = os.path.join('.', 'resources', 'brave_rewards' '_locales', rel_file)
++        candidate = os.path.join('.', 'resources', 'onevn_rewards' '_locales', rel_file)
 +        g_archive_inputs.append(candidate)
  
  def CopySectionFilesToStagingDir(config, section, staging_dir, src_dir):

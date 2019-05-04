@@ -8,12 +8,12 @@ index 6c6c3f5c8a018a63780a6ed03810f469a65a505e..fe6bc0fa65eb554bc7eb7b628746aa4b
  
 -  branding = branding_path_component
 +  brand = "$branding_path_component"
-+  if (brave_chromium_build) {
-+    # When brave_strings.grd is modified, outputs should be re-generated.
-+    # This is workaround. Need to change the way of using |brave_strings.grd|
++  if (onevn_chromium_build) {
++    # When onevn_strings.grd is modified, outputs should be re-generated.
++    # This is workaround. Need to change the way of using |onevn_strings.grd|
 +    # in |create_string_rc.py|.
 +    sources = [
-+      "//chrome/app/brave_strings.grd"
++      "//chrome/app/onevn_strings.grd"
 +    ]
 +    if (!is_official_build) {
 +      # TODO(shong): Remove this.

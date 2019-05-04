@@ -7,7 +7,7 @@ index 8670f53f406ec4fbc41f7e35667fa0f73f6037cb..1d6563721a05e6c43cb280abffd8ae68
      outputs += android_generated_java_resources
    }
 +
-+  deps = [ "//brave/app:brave_generated_resources_grit" ]
++  deps = [ "//onevn/app:onevn_generated_resources_grit" ]
  }
  
  if (is_android) {

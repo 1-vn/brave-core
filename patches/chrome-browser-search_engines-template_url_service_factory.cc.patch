@@ -6,7 +6,7 @@ index c137bd1e4cfdf4a4479201d849240245741af390..36785c9794bead23ec5c3c92b2c6c7e2
  
  content::BrowserContext* TemplateURLServiceFactory::GetBrowserContextToUse(
      content::BrowserContext* context) const {
-+#if defined(BRAVE_CHROMIUM_BUILD)
++#if defined(ONEVN_CHROMIUM_BUILD)
 +  // To make different service for normal and incognito profile.
 +  return chrome::GetBrowserContextOwnInstanceInIncognito(context);
 +#else

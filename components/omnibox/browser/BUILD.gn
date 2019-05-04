@@ -4,8 +4,8 @@ source_set("browser") {
   visibility = [ "//components/omnibox/browser" ]
 
   sources = [
-    "brave_autocomplete_controller.cc",
-    "brave_autocomplete_controller.h",
+    "onevn_autocomplete_controller.cc",
+    "onevn_autocomplete_controller.h",
     "constants.cc",
     "constants.h",
     "topsites_provider_data.cc",

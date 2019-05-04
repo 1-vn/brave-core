@@ -21,10 +21,10 @@ source_set("widevine") {
 
   if (bundle_widevine_cdm) {
     sources += [
-      "brave_widevine_bundle_manager.cc",
-      "brave_widevine_bundle_manager.h",
-      "brave_widevine_bundle_unzipper.cc",
-      "brave_widevine_bundle_unzipper.h",
+      "onevn_widevine_bundle_manager.cc",
+      "onevn_widevine_bundle_manager.h",
+      "onevn_widevine_bundle_unzipper.cc",
+      "onevn_widevine_bundle_unzipper.h",
     ]
 
     deps += [

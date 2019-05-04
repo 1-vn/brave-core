@@ -146,14 +146,14 @@ i.e. to launch using Staging Server and logging for INFO, WARNING and ERROR on m
 ```
 cd /Applications
 
-cd Brave\ Browser\ Dev.app/
+cd OneVN\ Browser\ Dev.app/
 
 cd Contents
 
-./Brave\ Browser\ Dev --rewards=staging=false --enable-logging=stderr --log-level=2
+./OneVN\ Browser\ Dev --rewards=staging=false --enable-logging=stderr --log-level=2
 ```
 
 ## Unit Tests
 ```
-npm run test -- brave_unit_tests --filter=Confirmations*
+npm run test -- onevn_unit_tests --filter=Confirmations*
 ```

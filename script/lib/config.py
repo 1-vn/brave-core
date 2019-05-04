@@ -19,17 +19,17 @@ SOURCE_ROOT = os.path.abspath(
     os.path.join(os.path.dirname(__file__), '..', '..'))
 CHROMIUM_ROOT = os.path.abspath(
     os.path.join(os.path.dirname(__file__), '..', '..', '..'))
-DIST_URL = 'https://brave-brave-binaries.s3.amazonaws.com/releases/'
-BRAVE_CORE_ROOT = os.path.abspath(
+DIST_URL = 'https://onevn-onevn-binaries.s3.amazonaws.com/releases/'
+ONEVN_CORE_ROOT = os.path.abspath(
     os.path.join(os.path.dirname(__file__), '..', '..'))
-BRAVE_BROWSER_ROOT = os.path.abspath(
+ONEVN_BROWSER_ROOT = os.path.abspath(
     os.path.join(os.path.dirname(__file__), '..', '..', '..', '..'))
 """
-SHALLOW_BRAVE_BROWSER_ROOT assumes the brave-browser directory is in the same
-parent directory as brave-core
+SHALLOW_ONEVN_BROWSER_ROOT assumes the onevn-browser directory is in the same
+parent directory as onevn-core
 """
-SHALLOW_BRAVE_BROWSER_ROOT = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), '..', '..', '..', 'brave-browser'))
+SHALLOW_ONEVN_BROWSER_ROOT = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), '..', '..', '..', 'onevn-browser'))
 verbose_mode = False
 
 
@@ -43,21 +43,21 @@ def output_dir():
     return os.path.join(CHROMIUM_ROOT, 'out_x86', 'Release')
 
 
-# Use brave-browser/package.json version for canonical version definition
-def brave_browser_package():
+# Use onevn-browser/package.json version for canonical version definition
+def onevn_browser_package():
     try:
-        pjson = os.path.join(BRAVE_BROWSER_ROOT, 'package.json')
+        pjson = os.path.join(ONEVN_BROWSER_ROOT, 'package.json')
         with open(pjson) as f:
             obj = json.load(f)
             return obj
     except IOError:
-        # When IOError exception is caught, try SHALLOW_BRAVE_BROWSER_ROOT next
+        # When IOError exception is caught, try SHALLOW_ONEVN_BROWSER_ROOT next
         try:
             """
-            SHALLOW_BRAVE_BROWSER_ROOT assumes the brave-browser directory is in the same
-            parent directory as brave-core
+            SHALLOW_ONEVN_BROWSER_ROOT assumes the onevn-browser directory is in the same
+            parent directory as onevn-core
             """
-            pjson = os.path.join(SHALLOW_BRAVE_BROWSER_ROOT, 'package.json')
+            pjson = os.path.join(SHALLOW_ONEVN_BROWSER_ROOT, 'package.json')
             with open(pjson) as f:
                 obj = json.load(f)
                 return obj
@@ -65,36 +65,36 @@ def brave_browser_package():
             exit("Error: cannot open file package.json: {}".format(e))
 
 
-def brave_core_package():
-    pjson = os.path.join(BRAVE_CORE_ROOT, 'package.json')
+def onevn_core_package():
+    pjson = os.path.join(ONEVN_CORE_ROOT, 'package.json')
     with open(pjson) as f:
         obj = json.load(f)
         return obj
 
 
 def product_name():
-    return (os.environ.get('npm_config_brave_product_name') or
-            brave_core_package()['name'].split('-')[0])
+    return (os.environ.get('npm_config_onevn_product_name') or
+            onevn_core_package()['name'].split('-')[0])
 
 
 def project_name():
-    return (os.environ.get('npm_config_brave_project_name') or
-            brave_core_package()['name'].split('-')[0])
+    return (os.environ.get('npm_config_onevn_project_name') or
+            onevn_core_package()['name'].split('-')[0])
 
 
 def get_chrome_version():
-    version = (os.environ.get('npm_config_brave_version') or
-               brave_browser_package()['config']['projects']['chrome']['tag'])
+    version = (os.environ.get('npm_config_onevn_version') or
+               onevn_browser_package()['config']['projects']['chrome']['tag'])
     return version
 
 
-def get_brave_version():
+def get_onevn_version():
     return 'v' + get_raw_version()
 
 
 def get_raw_version():
-    return (os.environ.get('npm_config_brave_version') or
-            brave_browser_package()['version'])
+    return (os.environ.get('npm_config_onevn_version') or
+            onevn_browser_package()['version'])
 
 
 def get_platform_key():
@@ -111,7 +111,7 @@ def get_target_arch():
 
 def get_chromedriver_version():
     pattern = "^chromedriver_version = \"([0-9]\\.[0-9]+)\""
-    build_gn_path = os.path.join(BRAVE_CORE_ROOT, 'BUILD.gn')
+    build_gn_path = os.path.join(ONEVN_CORE_ROOT, 'BUILD.gn')
     with open(build_gn_path, 'r') as build_gn_file:
         for line in build_gn_file:
             match = re.search(pattern, line)
@@ -121,17 +121,17 @@ def get_chromedriver_version():
 
 
 def get_env_var(name):
-    return (os.environ.get('BRAVE_' + name) or
-            os.environ.get('npm_config_BRAVE_' + name, ''))
+    return (os.environ.get('ONEVN_' + name) or
+            os.environ.get('npm_config_ONEVN_' + name, ''))
 
 
 def s3_config():
     config = (get_env_var('S3_BUCKET'),
               get_env_var('S3_ACCESS_KEY'),
               get_env_var('S3_SECRET_KEY'))
-    message = ('Error: Please set the $BRAVE_S3_BUCKET, '
-               '$BRAVE_S3_ACCESS_KEY, and '
-               '$BRAVE_S3_SECRET_KEY environment variables')
+    message = ('Error: Please set the $ONEVN_S3_BUCKET, '
+               '$ONEVN_S3_ACCESS_KEY, and '
+               '$ONEVN_S3_SECRET_KEY environment variables')
     assert all(len(c) for c in config), message
     return config
 

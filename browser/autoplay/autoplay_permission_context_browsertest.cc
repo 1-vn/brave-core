@@ -6,12 +6,12 @@
 #include "base/strings/stringprintf.h"
 #include "base/task/post_task.h"
 #include "base/test/thread_test_helper.h"
-#include "brave/browser/brave_browser_process_impl.h"
-#include "brave/browser/brave_content_browser_client.h"
-#include "brave/common/brave_paths.h"
-#include "brave/common/pref_names.h"
-#include "brave/components/brave_shields/browser/local_data_files_service.h"
-#include "brave/components/brave_shields/browser/autoplay_whitelist_service.h"
+#include "onevn/browser/onevn_browser_process_impl.h"
+#include "onevn/browser/onevn_content_browser_client.h"
+#include "onevn/common/onevn_paths.h"
+#include "onevn/common/pref_names.h"
+#include "onevn/components/onevn_shields/browser/local_data_files_service.h"
+#include "onevn/components/onevn_shields/browser/autoplay_whitelist_service.h"
 #include "chrome/browser/content_settings/host_content_settings_map_factory.h"
 #include "chrome/browser/extensions/extension_browsertest.h"
 #include "chrome/browser/net/url_request_mock_util.h"
@@ -55,15 +55,15 @@ class AutoplayPermissionContextBrowserTest : public InProcessBrowserTest {
 
       content_client_.reset(new ChromeContentClient);
       content::SetContentClient(content_client_.get());
-      browser_content_client_.reset(new BraveContentBrowserClient());
+      browser_content_client_.reset(new OneVNContentBrowserClient());
       content::SetBrowserClientForTesting(browser_content_client_.get());
 
       host_resolver()->AddRule("*", "127.0.0.1");
       content::SetupCrossSiteRedirector(embedded_test_server());
 
-      brave::RegisterPathProvider();
+      onevn::RegisterPathProvider();
       base::FilePath test_data_dir;
-      base::PathService::Get(brave::DIR_TEST_DATA, &test_data_dir);
+      base::PathService::Get(onevn::DIR_TEST_DATA, &test_data_dir);
       test_data_dir = test_data_dir.AppendASCII("autoplay");
       embedded_test_server()->ServeFilesFromDirectory(test_data_dir);
 
@@ -161,7 +161,7 @@ class AutoplayPermissionContextBrowserTest : public InProcessBrowserTest {
     GURL file_autoplay_attr_url_;
     ContentSettingsPattern top_level_page_pattern_;
     std::unique_ptr<ChromeContentClient> content_client_;
-    std::unique_ptr<BraveContentBrowserClient> browser_content_client_;
+    std::unique_ptr<OneVNContentBrowserClient> browser_content_client_;
 };
 
 class AutoplayWhitelistServiceTest : public ExtensionBrowserTest {
@@ -185,20 +185,20 @@ public:
   void PreRunTestOnMainThread() override {
     ExtensionBrowserTest::PreRunTestOnMainThread();
     WaitForAutoplayWhitelistServiceThread();
-    ASSERT_TRUE(g_brave_browser_process->local_data_files_service()->IsInitialized());
+    ASSERT_TRUE(g_onevn_browser_process->local_data_files_service()->IsInitialized());
   }
 
   void InitEmbeddedTestServer() {
-    brave::RegisterPathProvider();
+    onevn::RegisterPathProvider();
     base::FilePath test_data_dir;
-    base::PathService::Get(brave::DIR_TEST_DATA, &test_data_dir);
+    base::PathService::Get(onevn::DIR_TEST_DATA, &test_data_dir);
     test_data_dir = test_data_dir.AppendASCII("autoplay");
     embedded_test_server()->ServeFilesFromDirectory(test_data_dir);
     ASSERT_TRUE(embedded_test_server()->Start());
   }
 
   void InitService() {
-    brave_shields::LocalDataFilesService::
+    onevn_shields::LocalDataFilesService::
         SetComponentIdAndBase64PublicKeyForTest(
             kLocalDataFilesComponentTestId,
             kLocalDataFilesComponentTestBase64PublicKey);
@@ -206,7 +206,7 @@ public:
 
   void GetTestDataDir(base::FilePath* test_data_dir) {
     base::ScopedAllowBlockingForTesting allow_blocking;
-    base::PathService::Get(brave::DIR_TEST_DATA, test_data_dir);
+    base::PathService::Get(onevn::DIR_TEST_DATA, test_data_dir);
   }
 
   bool InstallAutoplayWhitelistExtension() {
@@ -217,7 +217,7 @@ public:
     if (!mock_extension)
       return false;
 
-    g_brave_browser_process->autoplay_whitelist_service()->OnComponentReady(
+    g_onevn_browser_process->autoplay_whitelist_service()->OnComponentReady(
         mock_extension->id(), mock_extension->path(), "");
     WaitForAutoplayWhitelistServiceThread();
 
@@ -227,7 +227,7 @@ public:
   void WaitForAutoplayWhitelistServiceThread() {
     scoped_refptr<base::ThreadTestHelper> io_helper(
         new base::ThreadTestHelper(
-            g_brave_browser_process->autoplay_whitelist_service()->GetTaskRunner()));
+            g_onevn_browser_process->autoplay_whitelist_service()->GetTaskRunner()));
     ASSERT_TRUE(io_helper->Run());
   }
 

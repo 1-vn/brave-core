@@ -7,7 +7,7 @@ index 34ac6e84dc8868bff3ceaa7af54994ec6b0b93dc..e94395e441f5b89d4058b308b45c21a5
  
  bool ChromeCrashReporterClient::GetCollectStatsConsent() {
 -#if defined(GOOGLE_CHROME_BUILD)
-+#if defined(GOOGLE_CHROME_BUILD) || (defined(BRAVE_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD))
++#if defined(GOOGLE_CHROME_BUILD) || (defined(ONEVN_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD))
    bool is_official_chrome_build = true;
  #else
    bool is_official_chrome_build = false;

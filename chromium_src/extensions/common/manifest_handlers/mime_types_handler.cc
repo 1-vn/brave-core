@@ -5,7 +5,7 @@
 #include "../../../../extensions/common/manifest_handlers/mime_types_handler.cc"
 
 // static
-std::vector<std::string> MimeTypesHandler::BraveGetMIMETypeWhitelist() {
+std::vector<std::string> MimeTypesHandler::OneVNGetMIMETypeWhitelist() {
   std::vector<std::string> whitelist = MimeTypesHandler::GetMIMETypeWhitelist();
   auto pos = std::find(whitelist.begin(), whitelist.end(),
                        extension_misc::kPdfExtensionId);

@@ -6,8 +6,8 @@ index a76d264648d23e7e228dd54f00a01035a29a76ad..ee7d94be5982353fced6174afef99071
        // Only allow the possibility of report upload in official builds. This
        // crash server won't have symbols for any other build types.
        std::string url = "https://clients2.google.com/cr/report";
-+#elif defined(BRAVE_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD)
-+      std::string url = "https://laptop-updates.brave.com/1/bc-crashes";
++#elif defined(ONEVN_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD)
++      std::string url = "https://laptop-updates.1-vn.com/1/bc-crashes";
  #else
        std::string url;
  #endif

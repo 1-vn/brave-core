@@ -2,12 +2,12 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-import { defaultState as welcomeData } from '../../components/brave_welcome_ui/storage'
-import { defaultState as rewardsData } from '../../components/brave_rewards/resources/ui/storage'
-import { defaultState as adblockData } from '../../components/brave_adblock_ui/storage'
-import { defaultState as syncData } from '../../components/brave_sync/ui/storage'
-import { Tab } from '../brave_extension/extension/brave_extension/types/state/shieldsPannelState'
-import { BlockDetails } from '../brave_extension/extension/brave_extension/types/actions/shieldsPanelActions'
+import { defaultState as welcomeData } from '../../components/onevn_welcome_ui/storage'
+import { defaultState as rewardsData } from '../../components/onevn_rewards/resources/ui/storage'
+import { defaultState as adblockData } from '../../components/onevn_adblock_ui/storage'
+import { defaultState as syncData } from '../../components/onevn_sync/ui/storage'
+import { Tab } from '../onevn_extension/extension/onevn_extension/types/state/shieldsPannelState'
+import { BlockDetails } from '../onevn_extension/extension/onevn_extension/types/actions/shieldsPanelActions'
 import * as deepFreeze from 'deep-freeze-node'
 
 export class ChromeEvent {
@@ -45,9 +45,9 @@ interface Tabs {
 export const tabs: Tabs = {
   2: {
     id: 2,
-    url: 'https://www.brave.com/test',
-    origin: 'https://www.brave.com',
-    hostname: 'www.brave.com',
+    url: 'https://www.1-vn.com/test',
+    origin: 'https://www.1-vn.com',
+    hostname: 'www.1-vn.com',
     ads: 'block',
     adsBlocked: 0,
     trackers: 'block',
@@ -59,7 +59,7 @@ export const tabs: Tabs = {
     httpsRedirected: 0,
     javascriptBlocked: 0,
     fingerprintingBlocked: 0,
-    braveShields: 'block',
+    onevnShields: 'block',
     trackersBlocked: 0,
     noScriptInfo: {},
     adsBlockedResources: [],
@@ -75,14 +75,14 @@ export const activeTabData = tabs[2]
 export const blockedResource: BlockDetails = {
   blockType: 'ads',
   tabId: 2,
-  subresource: 'https://www.brave.com/test'
+  subresource: 'https://www.1-vn.com/test'
 }
 
 export const getMockChrome = () => {
   return {
     send: () => undefined,
     getVariableValue: () => undefined,
-    braveRewards: {
+    onevnRewards: {
       getPublisherData: (id: number, url: string, favicon: string) => undefined
     },
     runtime: {
@@ -137,7 +137,7 @@ export const getMockChrome = () => {
         return new Promise(() => [])
       }
     },
-    braveShields: {
+    onevnShields: {
       onBlocked: new ChromeEvent(),
       allowScriptsOnce: function (origins: Array<string>, tabId: number, cb: () => void) {
         setImmediate(cb)

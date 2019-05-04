@@ -7,7 +7,7 @@ index 31edfa0ea7db5fe19eb8fe945f217adbcaf6eedb..5749096062c82905156afc90e56d520a
    // Note: Do not add 'unsafe-eval' here. Instead override CSP for the
    // specific pages that need it, see context http://crbug.com/525224.
 -  return "script-src chrome://resources 'self';";
-+  return "script-src chrome://resources chrome://brave-resources 'self';";
++  return "script-src chrome://resources chrome://onevn-resources 'self';";
  }
  
  std::string URLDataSource::GetContentSecurityPolicyObjectSrc() const {

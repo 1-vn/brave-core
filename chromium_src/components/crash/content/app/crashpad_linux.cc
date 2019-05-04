@@ -8,7 +8,7 @@
 
 namespace crashpad {
 
-class BraveCrashpadClient {
+class OneVNCrashpadClient {
  public:
   bool StartHandlerAtCrash(const base::FilePath& handler,
                            const base::FilePath& database,
@@ -29,16 +29,16 @@ class BraveCrashpadClient {
 
 namespace crash_reporter {
 
-crashpad::BraveCrashpadClient& GetBraveCrashpadClient() {
-  static crashpad::BraveCrashpadClient* const client =
-      new crashpad::BraveCrashpadClient();
+crashpad::OneVNCrashpadClient& GetOneVNCrashpadClient() {
+  static crashpad::OneVNCrashpadClient* const client =
+      new crashpad::OneVNCrashpadClient();
   return *client;
 }
 
 } // namespace crash_reporter
 
 #define COMPONENTS_CRASH_CONTENT_APP_CRASHPAD_H_
-#define GetCrashpadClient GetBraveCrashpadClient
+#define GetCrashpadClient GetOneVNCrashpadClient
 #include "../../../../../../components/crash/content/app/crashpad_linux.cc"
 #undef GetCrashpadClient
 
@@ -48,7 +48,7 @@ crashpad::CrashpadClient& GetCrashpadClient();
 
 namespace crashpad {
 
-bool BraveCrashpadClient::StartHandlerAtCrash(
+bool OneVNCrashpadClient::StartHandlerAtCrash(
     const base::FilePath& handler,
     const base::FilePath& database,
     const base::FilePath& metrics_dir,
@@ -57,11 +57,11 @@ bool BraveCrashpadClient::StartHandlerAtCrash(
     const std::vector<std::string>& arguments) {
   return crash_reporter::GetCrashpadClient().StartHandlerAtCrash(
       handler, database, metrics_dir,
-      "https://laptop-updates.brave.com/1/bc-crashes", annotations, arguments);
+      "https://laptop-updates.1-vn.com/1/bc-crashes", annotations, arguments);
 }
 
 // static
-bool BraveCrashpadClient::StartHandlerForClient(
+bool OneVNCrashpadClient::StartHandlerForClient(
     const base::FilePath& handler,
     const base::FilePath& database,
     const base::FilePath& metrics_dir,
@@ -70,7 +70,7 @@ bool BraveCrashpadClient::StartHandlerForClient(
     const std::vector<std::string>& arguments,
     int socket) {
   return crash_reporter::GetCrashpadClient().StartHandlerForClient(
-    handler, database, metrics_dir, "https://laptop-updates.brave.com/1/bc-crashes",
+    handler, database, metrics_dir, "https://laptop-updates.1-vn.com/1/bc-crashes",
     annotations, arguments, socket);
 }
 

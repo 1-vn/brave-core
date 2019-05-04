@@ -6,7 +6,7 @@ index 780aab977aba0ecb836e8e4dca35a21fad821c92..332e1746a79cde3ae7804f79d00519e1
  
  #include "base/numerics/checked_math.h"
  #include "base/stl_util.h"
-+#include "brave/renderer/brave_content_settings_observer_helper.h"
++#include "onevn/renderer/onevn_content_settings_observer_helper.h"
  #include "build/build_config.h"
  #include "gpu/command_buffer/client/gles2_interface.h"
  #include "gpu/command_buffer/common/capabilities.h"

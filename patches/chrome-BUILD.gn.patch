@@ -6,9 +6,9 @@ index 3bd3fb2b18fb6309b22d2ffff5b3372afd6e486d..f00997794e6104ac3bfbc2546f333cbc
            "common/crash_keys.cc",
            "common/crash_keys.h",
          ]
-+        if (brave_chromium_build) {
++        if (onevn_chromium_build) {
 +          sources -= [ "app/chrome_exe.rc", ]
-+          sources += [ "//brave/app/brave_exe.rc", ]
++          sources += [ "//onevn/app/onevn_exe.rc", ]
 +        }
  
          deps += [
@@ -41,9 +41,9 @@ index 3bd3fb2b18fb6309b22d2ffff5b3372afd6e486d..f00997794e6104ac3bfbc2546f333cbc
      ]
    }
  
-+if (brave_chromium_build) {
++if (onevn_chromium_build) {
 +  group("chrome_app") {
-+    public_deps = [ "//brave:chrome_app", ]
++    public_deps = [ "//onevn:chrome_app", ]
 +  }
 +} else {
    mac_app_bundle("chrome_app") {
@@ -78,8 +78,8 @@ index 3bd3fb2b18fb6309b22d2ffff5b3372afd6e486d..f00997794e6104ac3bfbc2546f333cbc
      if (is_chrome_branded) {
        deps += [ ":default_apps" ]
      }
-+    if (brave_chromium_build) {
-+      deps += [ "//brave:framework_bundle_data", ]
++    if (onevn_chromium_build) {
++      deps += [ "//onevn:framework_bundle_data", ]
 +      if (defined(chrome_framework_version)) { framework_contents += [ "Frameworks", ] }
 +    }
  
@@ -89,7 +89,7 @@ index 3bd3fb2b18fb6309b22d2ffff5b3372afd6e486d..f00997794e6104ac3bfbc2546f333cbc
  
  group("browser_dependencies") {
    public_deps = [
-+    "//brave:browser_dependencies",
++    "//onevn:browser_dependencies",
      "//chrome/browser",
      "//chrome/common",
      "//components/gwp_asan/buildflags",
@@ -97,7 +97,7 @@ index 3bd3fb2b18fb6309b22d2ffff5b3372afd6e486d..f00997794e6104ac3bfbc2546f333cbc
  
  group("child_dependencies") {
    public_deps = [
-+    "//brave:child_dependencies",
++    "//onevn:child_dependencies",
      "//chrome/browser/devtools",
      "//chrome/child",
      "//chrome/common",
@@ -106,7 +106,7 @@ index 3bd3fb2b18fb6309b22d2ffff5b3372afd6e486d..f00997794e6104ac3bfbc2546f333cbc
    process_version_rc_template("chrome_exe_version") {
      sources = [
 -      "app/chrome_exe.ver",
-+      "//brave/app/brave_exe.ver",
++      "//onevn/app/onevn_exe.ver",
      ]
      output = "$target_gen_dir/chrome_exe_version.rc"
    }
@@ -114,7 +114,7 @@ index 3bd3fb2b18fb6309b22d2ffff5b3372afd6e486d..f00997794e6104ac3bfbc2546f333cbc
      "//chrome/browser:resources",
      "//chrome/common:resources",
      "//chrome/renderer:resources",
-+    "//brave:resources",
++    "//onevn:resources",
    ]
  }
  

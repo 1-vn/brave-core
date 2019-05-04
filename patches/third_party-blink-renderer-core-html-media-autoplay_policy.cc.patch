@@ -6,7 +6,7 @@ index 38713aa16f30d0c88191de3f351743d1b61071e6..f31539238a3ee194d80e6f00d71349fe
  // static
  bool AutoplayPolicy::DocumentShouldAutoplayMutedVideos(
      const Document& document) {
-+#if defined(BRAVE_CHROMIUM_BUILD)
++#if defined(ONEVN_CHROMIUM_BUILD)
 +  if (GetAutoplayPolicyForDocument(document) == AutoplayPolicy::Type::kUserGestureRequired)
 +   return false;
 +#endif
@@ -17,7 +17,7 @@ index 38713aa16f30d0c88191de3f351743d1b61071e6..f31539238a3ee194d80e6f00d71349fe
    if (!IsLockedPendingUserGesture())
      return false;
  
-+#if defined(BRAVE_CHROMIUM_BUILD)
++#if defined(ONEVN_CHROMIUM_BUILD)
 +  if (IsAutoplayAllowedPerSettings())
 +    return false;
 +#endif

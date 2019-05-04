@@ -7,7 +7,7 @@ index 80fc546b5f2c9d33bef680172701d2feecc78252..7025217e758ce61ce4296cf24fb36712
  <link rel="import" href="chrome://downloads/browser_proxy.html">
  <link rel="import" href="chrome://resources/cr_elements/cr_action_menu/cr_action_menu.html">
 -<link rel="import" href="chrome://resources/cr_elements/cr_toolbar/cr_toolbar.html">
-+<link rel="import" href="chrome://brave-resources/br_elements/br_toolbar/br_toolbar.html">
++<link rel="import" href="chrome://onevn-resources/br_elements/br_toolbar/br_toolbar.html">
  <link rel="import" href="chrome://resources/cr_elements/hidden_style_css.html">
  <link rel="import" href="chrome://resources/cr_elements/icons.html">
  <link rel="import" href="chrome://resources/cr_elements/shared_vars_css.html">

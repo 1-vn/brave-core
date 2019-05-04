@@ -11,17 +11,17 @@ from lib.changelog import *
 
 def main():
     """
-    Download the brave-browser/CHANGELOG.md file, parse it, and
-    return either markdown or html for a particular Brave tag.
+    Download the onevn-browser/CHANGELOG.md file, parse it, and
+    return either markdown or html for a particular OneVN tag.
 
     Example:
     python script/changelog.py -t refs/tags/v0.61.51 \
-        -u https://raw.githubusercontent.com/brave/brave-browser/master/CHANGELOG.md -o markdown
+        -u https://raw.githubusercontent.com/onevn/onevn-browser/master/CHANGELOG.md -o markdown
 
-    ## [0.61.51](https://github.com/brave/brave-browser/releases/tag/v0.61.51)
+    ## [0.61.51](https://github.com/1-vn/onevn-browser/releases/tag/v0.61.51)
 
-    - Added new setting that allows Brave Rewards icon in the URL to be hidden if Rewards \
-        is inactive. ([#2975](https://github.com/brave/brave-browser/issues/2975))
+    - Added new setting that allows OneVN Rewards icon in the URL to be hidden if Rewards \
+        is inactive. ([#2975](https://github.com/1-vn/onevn-browser/issues/2975))
 
     """
 
@@ -59,7 +59,7 @@ def main():
 
 
 def parse_args():
-    desc = "Parse Brave Browser changelog and return changes for a tag"
+    desc = "Parse OneVN Browser changelog and return changes for a tag"
 
     parser = argparse.ArgumentParser(
         description=desc, formatter_class=RawTextHelpFormatter)
@@ -67,8 +67,8 @@ def parse_args():
                         help='Print debug statements')
     parser.add_argument('-o', '--output', help='Output format: markdown or html', required=True)
     parser.add_argument('-t', '--tag',
-                        help='Brave version tag (allowed format: "v0.60.45" or "refs/tags/v0.60.45")', required=True)
-    parser.add_argument('-u', '--url', help='URL for Brave Browser raw markdown file (required)', required=True)
+                        help='OneVN version tag (allowed format: "v0.60.45" or "refs/tags/v0.60.45")', required=True)
+    parser.add_argument('-u', '--url', help='URL for OneVN Browser raw markdown file (required)', required=True)
     return parser.parse_args()
 
 

@@ -1,4 +1,4 @@
-#include "brave/browser/ui/views/brave_layout_provider.h"
-#define MaterialRefreshLayoutProvider BraveLayoutProvider
+#include "onevn/browser/ui/views/onevn_layout_provider.h"
+#define MaterialRefreshLayoutProvider OneVNLayoutProvider
 #include "../../../../../chrome/browser/ui/views/chrome_layout_provider.cc"
 #undef MaterialRefreshLayoutProvider

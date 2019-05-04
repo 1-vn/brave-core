@@ -6,7 +6,7 @@
 #include "../../../../chrome/common/chrome_paths_linux.cc"
 #undef GetDefaultUserDataDirectory
 
-#include "brave/common/brave_channel_info_posix.h"
+#include "onevn/common/onevn_channel_info_posix.h"
 
 namespace chrome {
 
@@ -18,9 +18,9 @@ bool GetDefaultUserDataDirectory(base::FilePath* result) {
       GetXDGDirectory(env.get(), kXdgConfigHomeEnvVar, kDotConfigDir);
 
   std::string data_dir_suffix;
-  brave::GetChannelImpl(nullptr, &data_dir_suffix);
+  onevn::GetChannelImpl(nullptr, &data_dir_suffix);
 
-  *result = config_dir.Append("BraveSoftware/Brave-Browser" + data_dir_suffix);
+  *result = config_dir.Append("OneVNSoftware/OneVN-Browser" + data_dir_suffix);
   return true;
 }
 

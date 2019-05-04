@@ -1,0 +1,14 @@
+source_set("net") {
+  sources = [
+    "onevn_torrent_redirect_network_delegate_helper.cc",
+    "onevn_torrent_redirect_network_delegate_helper.h",
+  ]
+
+  deps = [
+    "//base",
+    "//onevn/common",
+    "//chrome/browser",
+    "//extensions/browser",
+    "//net",
+  ]
+}

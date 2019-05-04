@@ -6,18 +6,18 @@ index 42d9966254758305e0dc999b186aa7abe1ff762a..7b53849803ff00ac824e1d6c7fb378ff
    return std::wstring(L"Software\\").append(product);
  }
  
-+#if defined(BRAVE_CHROMIUM_BUILD)
++#if defined(ONEVN_CHROMIUM_BUILD)
 +std::wstring GetClientsKeyPathForApp(const wchar_t* app_guid) {
-+  return std::wstring(L"Software\\BraveSoftware\\Update\\Clients\\").append(app_guid);
++  return std::wstring(L"Software\\OneVNSoftware\\Update\\Clients\\").append(app_guid);
 +}
 +
 +std::wstring GetClientStateKeyPathForApp(const wchar_t* app_guid) {
-+  return std::wstring(L"Software\\BraveSoftware\\Update\\ClientState\\")
++  return std::wstring(L"Software\\OneVNSoftware\\Update\\ClientState\\")
 +      .append(app_guid);
 +}
 +
 +std::wstring GetClientStateMediumKeyPathForApp(const wchar_t* app_guid) {
-+  return std::wstring(L"Software\\BraveSoftware\\Update\\ClientStateMedium\\")
++  return std::wstring(L"Software\\OneVNSoftware\\Update\\ClientStateMedium\\")
 +      .append(app_guid);
 +}
 +#else

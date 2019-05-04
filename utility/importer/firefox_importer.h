@@ -2,12 +2,12 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#ifndef BRAVE_UTILITY_IMPORTER_FIREFOX_IMPORTER_H_
-#define BRAVE_UTILITY_IMPORTER_FIREFOX_IMPORTER_H_
+#ifndef ONEVN_UTILITY_IMPORTER_FIREFOX_IMPORTER_H_
+#define ONEVN_UTILITY_IMPORTER_FIREFOX_IMPORTER_H_
 
 #include "chrome/utility/importer/firefox_importer.h"
 
-namespace brave {
+namespace onevn {
 
 class FirefoxImporter : public ::FirefoxImporter {
  public:
@@ -28,6 +28,6 @@ class FirefoxImporter : public ::FirefoxImporter {
   DISALLOW_COPY_AND_ASSIGN(FirefoxImporter);
 };
 
-}  // namespace brave
+}  // namespace onevn
 
-#endif  // BRAVE_UTILITY_IMPORTER_FIREFOX_IMPORTER_H_
+#endif  // ONEVN_UTILITY_IMPORTER_FIREFOX_IMPORTER_H_

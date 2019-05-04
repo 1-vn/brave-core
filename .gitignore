@@ -1,10 +1,10 @@
 .DS_Store
 .tags*
 /.idea/
-/components/brave_webtorrent/extension/out/
-/components/brave_rewards/resources/extension/brave_rewards/out/
-/components/brave_sync/extension/brave-crypto/
-/components/brave_sync/extension/brave-sync/
+/components/onevn_webtorrent/extension/out/
+/components/onevn_rewards/resources/extension/onevn_rewards/out/
+/components/onevn_sync/extension/onevn-crypto/
+/components/onevn_sync/extension/onevn-sync/
 /dist/
 /out/
 /vendor/*

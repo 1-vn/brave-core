@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -7,8 +7,8 @@
 #include "../../../../../chrome/browser/component_updater/crl_set_component_installer.cc"  // NOLINT
 #undef RegisterCRLSetComponent
 
-#include "brave/browser/extensions/brave_component_extension.h"
-#include "brave/common/extensions/extension_constants.h"
+#include "onevn/browser/extensions/onevn_component_extension.h"
+#include "onevn/common/extensions/extension_constants.h"
 #include "chrome/browser/browser_process.h"
 
 namespace component_updater {

@@ -7,7 +7,7 @@ index 71659dd4133d71a90276f364ca685e78533b8979..f33c4354a6e5f7d69ca347e737e27249
  #endif
  
 +void DetectChromeProfiles(std::vector<importer::SourceProfile>* profiles);
-+void DetectBraveProfiles(std::vector<importer::SourceProfile>* profiles);
++void DetectOneVNProfiles(std::vector<importer::SourceProfile>* profiles);
 +
  namespace {
  
@@ -24,24 +24,24 @@ index 71659dd4133d71a90276f364ca685e78533b8979..f33c4354a6e5f7d69ca347e737e27249
  #if defined(OS_WIN)
    if (shell_integration::IsFirefoxDefaultBrowser()) {
      DetectFirefoxProfiles(locale, &profiles);
-+    DetectBraveProfiles(&profiles);
++    DetectOneVNProfiles(&profiles);
      DetectBuiltinWindowsProfiles(&profiles);
 +    DetectChromeProfiles(&profiles);
    } else {
      DetectBuiltinWindowsProfiles(&profiles);
-+    DetectBraveProfiles(&profiles);
++    DetectOneVNProfiles(&profiles);
      DetectFirefoxProfiles(locale, &profiles);
 +    DetectChromeProfiles(&profiles);
    }
  #elif defined(OS_MACOSX)
    if (shell_integration::IsFirefoxDefaultBrowser()) {
      DetectFirefoxProfiles(locale, &profiles);
-+    DetectBraveProfiles(&profiles);
++    DetectOneVNProfiles(&profiles);
      DetectSafariProfiles(&profiles);
 +    DetectChromeProfiles(&profiles);
    } else {
      DetectSafariProfiles(&profiles);
-+    DetectBraveProfiles(&profiles);
++    DetectOneVNProfiles(&profiles);
      DetectFirefoxProfiles(locale, &profiles);
 +    DetectChromeProfiles(&profiles);
    }
@@ -49,10 +49,10 @@ index 71659dd4133d71a90276f364ca685e78533b8979..f33c4354a6e5f7d69ca347e737e27249
 -  DetectFirefoxProfiles(locale, &profiles);
 +  if (shell_integration::IsFirefoxDefaultBrowser()) {
 +    DetectFirefoxProfiles(locale, &profiles);
-+    DetectBraveProfiles(&profiles);
++    DetectOneVNProfiles(&profiles);
 +    DetectChromeProfiles(&profiles);
 +  } else {
-+    DetectBraveProfiles(&profiles);
++    DetectOneVNProfiles(&profiles);
 +    DetectChromeProfiles(&profiles);
 +    DetectFirefoxProfiles(locale, &profiles);
 +  }

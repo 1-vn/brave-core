@@ -6,7 +6,7 @@ index 691669fa34ac69b7219a71d1c8755d7877215314..0cdb4ebc003afdb783fb64e8813cc9ed
  
  #include "third_party/blink/renderer/modules/canvas/canvas2d/canvas_rendering_context_2d.h"
  
-+#include "brave/renderer/brave_content_settings_observer_helper.h"
++#include "onevn/renderer/onevn_content_settings_observer_helper.h"
  #include "third_party/blink/public/common/features.h"
  #include "third_party/blink/public/platform/platform.h"
  #include "third_party/blink/public/platform/task_type.h"

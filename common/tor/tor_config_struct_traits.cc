@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/ */
 
-#include "brave/common/tor/tor_config_struct_traits.h"
+#include "onevn/common/tor/tor_config_struct_traits.h"
 
 #include "mojo/public/cpp/base/file_path_mojom_traits.h"
 

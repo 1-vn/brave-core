@@ -1,10 +1,10 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#ifndef BRAVELEDGER_RAPIDJSON_BAT_HELPER_H_
-#define BRAVELEDGER_RAPIDJSON_BAT_HELPER_H_
+#ifndef ONEVNLEDGER_RAPIDJSON_BAT_HELPER_H_
+#define ONEVNLEDGER_RAPIDJSON_BAT_HELPER_H_
 
 #include <string>
 
@@ -32,7 +32,7 @@ struct PublisherInfoListStruct;
 
 }  // namespace ledger
 
-namespace braveledger_bat_helper {
+namespace onevnledger_bat_helper {
 
 struct BALLOT_ST;
 struct MEDIA_PUBLISHER_INFO;
@@ -96,6 +96,6 @@ bool loadFromJson(T* t, const std::string& json) {
   return t->loadFromJson(json);
 }
 
-}  // namespace braveledger_bat_helper
+}  // namespace onevnledger_bat_helper
 
-#endif  // BRAVELEDGER_RAPIDJSON_BAT_HELPER_H_
+#endif  // ONEVNLEDGER_RAPIDJSON_BAT_HELPER_H_

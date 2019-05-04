@@ -1,10 +1,10 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#ifndef BRAVELEDGER_BAT_PUBLISHERS_H_
-#define BRAVELEDGER_BAT_PUBLISHERS_H_
+#ifndef ONEVNLEDGER_BAT_PUBLISHERS_H_
+#define ONEVNLEDGER_BAT_PUBLISHERS_H_
 
 #include <string>
 #include <map>
@@ -21,11 +21,11 @@ namespace bat_ledger {
 class LedgerImpl;
 }
 
-namespace braveledger_bat_helper {
+namespace onevnledger_bat_helper {
 struct PUBLISHER_STATE_ST;
 }
 
-namespace braveledger_bat_publishers {
+namespace onevnledger_bat_publishers {
 
 class BatPublishers : public ledger::LedgerCallbackHandler {
  public:
@@ -186,7 +186,7 @@ class BatPublishers : public ledger::LedgerCallbackHandler {
   void SetMigrateScore(bool value);
 
   bool isPublisherVisible(
-      const braveledger_bat_helper::PUBLISHER_ST& publisher_st);
+      const onevnledger_bat_helper::PUBLISHER_ST& publisher_st);
 
   void OnPanelPublisherInfo(
       ledger::Result result,
@@ -204,9 +204,9 @@ class BatPublishers : public ledger::LedgerCallbackHandler {
 
   bat_ledger::LedgerImpl* ledger_;  // NOT OWNED
 
-  std::unique_ptr<braveledger_bat_helper::PUBLISHER_STATE_ST> state_;
+  std::unique_ptr<onevnledger_bat_helper::PUBLISHER_STATE_ST> state_;
 
-  std::map<std::string, braveledger_bat_helper::SERVER_LIST> server_list_;
+  std::map<std::string, onevnledger_bat_helper::SERVER_LIST> server_list_;
 
   double a_;
 
@@ -225,6 +225,6 @@ class BatPublishers : public ledger::LedgerCallbackHandler {
   FRIEND_TEST_ALL_PREFIXES(BatPublishersTest, synopsisNormalizerInternal);
 };
 
-}  // namespace braveledger_bat_publishers
+}  // namespace onevnledger_bat_publishers
 
-#endif  // BRAVELEDGER_BAT_PUBLISHERS_H_
+#endif  // ONEVNLEDGER_BAT_PUBLISHERS_H_

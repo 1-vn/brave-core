@@ -1,19 +1,19 @@
 /* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
-#include "brave/browser/ui/webui/sync/sync_ui.h"
+#include "onevn/browser/ui/webui/sync/sync_ui.h"
 
 #include "base/bind.h"
 #include "base/memory/weak_ptr.h"
-#include "brave/common/webui_url_constants.h"
-#include "brave/components/brave_sync/brave_sync_service.h"
-#include "brave/components/brave_sync/brave_sync_service_factory.h"
-#include "brave/components/brave_sync/brave_sync_service_observer.h"
-#include "brave/components/brave_sync/grit/brave_sync_resources.h"
-#include "brave/components/brave_sync/grit/brave_sync_generated_map.h"
-#include "brave/components/brave_sync/sync_devices.h"
-#include "brave/components/brave_sync/settings.h"
-#include "brave/components/brave_sync/values_conv.h"
+#include "onevn/common/webui_url_constants.h"
+#include "onevn/components/onevn_sync/onevn_sync_service.h"
+#include "onevn/components/onevn_sync/onevn_sync_service_factory.h"
+#include "onevn/components/onevn_sync/onevn_sync_service_observer.h"
+#include "onevn/components/onevn_sync/grit/onevn_sync_resources.h"
+#include "onevn/components/onevn_sync/grit/onevn_sync_generated_map.h"
+#include "onevn/components/onevn_sync/sync_devices.h"
+#include "onevn/components/onevn_sync/settings.h"
+#include "onevn/components/onevn_sync/values_conv.h"
 #include "chrome/browser/profiles/profile.h"
 #include "content/public/browser/browser_thread.h"
 #include "content/public/browser/web_ui_message_handler.h"
@@ -22,9 +22,9 @@ using content::WebUIMessageHandler;
 
 namespace {
 
-// The handler for Javascript messages for Brave about: pages
+// The handler for Javascript messages for OneVN about: pages
 class SyncUIDOMHandler : public WebUIMessageHandler,
-                         public brave_sync::BraveSyncServiceObserver {
+                         public onevn_sync::OneVNSyncServiceObserver {
  public:
   SyncUIDOMHandler();
   ~SyncUIDOMHandler() override;
@@ -46,10 +46,10 @@ class SyncUIDOMHandler : public WebUIMessageHandler,
   void DeleteDevice(const base::ListValue* args);
   void ResetSync(const base::ListValue* args);
 
-  void OnSyncSetupError(brave_sync::BraveSyncService* sync_service,
+  void OnSyncSetupError(onevn_sync::OneVNSyncService* sync_service,
                         const std::string& error) override;
-  void OnSyncStateChanged(brave_sync::BraveSyncService *sync_service) override;
-  void OnHaveSyncWords(brave_sync::BraveSyncService *sync_service,
+  void OnSyncStateChanged(onevn_sync::OneVNSyncService *sync_service) override;
+  void OnHaveSyncWords(onevn_sync::OneVNSyncService *sync_service,
                        const std::string& sync_words) override;
 
   // this should grab actual data from controller and update the page
@@ -57,10 +57,10 @@ class SyncUIDOMHandler : public WebUIMessageHandler,
 
   // Move to observer
   void GetSettingsAndDevicesComplete(
-    std::unique_ptr<brave_sync::Settings> settings,
-    std::unique_ptr<brave_sync::SyncDevices> devices);
+    std::unique_ptr<onevn_sync::Settings> settings,
+    std::unique_ptr<onevn_sync::SyncDevices> devices);
 
-  brave_sync::BraveSyncService *sync_service_ = nullptr;  // NOT OWNED
+  onevn_sync::OneVNSyncService *sync_service_ = nullptr;  // NOT OWNED
 
   base::WeakPtrFactory<SyncUIDOMHandler> weak_ptr_factory_;
 
@@ -118,7 +118,7 @@ void SyncUIDOMHandler::RegisterMessages() {
 
 void SyncUIDOMHandler::Init() {
   Profile* profile = Profile::FromWebUI(web_ui());
-  sync_service_ = brave_sync::BraveSyncServiceFactory::GetForProfile(profile);
+  sync_service_ = onevn_sync::OneVNSyncServiceFactory::GetForProfile(profile);
   if (sync_service_)
     sync_service_->AddObserver(this);
 }
@@ -194,7 +194,7 @@ void SyncUIDOMHandler::DeleteDevice(const base::ListValue* args) {
   DCHECK(sync_service_);
   int i_device_id = -1;
   if (!args->GetInteger(0, &i_device_id) || i_device_id == -1) {
-    DCHECK(false) << "[Brave Sync] could not get device id";
+    DCHECK(false) << "[OneVN Sync] could not get device id";
     return;
   }
 
@@ -207,7 +207,7 @@ void SyncUIDOMHandler::ResetSync(const base::ListValue* args) {
 }
 
 void SyncUIDOMHandler::OnSyncSetupError(
-    brave_sync::BraveSyncService* sync_service,
+    onevn_sync::OneVNSyncService* sync_service,
     const std::string& error) {
 
   web_ui()->CallJavascriptFunctionUnsafe(
@@ -215,7 +215,7 @@ void SyncUIDOMHandler::OnSyncSetupError(
 }
 
 void SyncUIDOMHandler::OnSyncStateChanged(
-    brave_sync::BraveSyncService *sync_service) {
+    onevn_sync::OneVNSyncService *sync_service) {
   LoadSyncSettingsView();
 }
 
@@ -226,19 +226,19 @@ void SyncUIDOMHandler::LoadSyncSettingsView() {
 }
 
 void SyncUIDOMHandler::GetSettingsAndDevicesComplete(
-  std::unique_ptr<brave_sync::Settings> settings,
-  std::unique_ptr<brave_sync::SyncDevices> devices) {
+  std::unique_ptr<onevn_sync::Settings> settings,
+  std::unique_ptr<onevn_sync::SyncDevices> devices) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
 
   std::unique_ptr<base::Value> bv_devices = devices->ToValueArrOnly();
   std::unique_ptr<base::Value> bv_settings =
-      brave_sync::BraveSyncSettingsToValue(settings.get());
+      onevn_sync::OneVNSyncSettingsToValue(settings.get());
   web_ui()->CallJavascriptFunctionUnsafe(
       "sync_ui_exports.showSettings", *bv_settings, *bv_devices);
 }
 
 void SyncUIDOMHandler::OnHaveSyncWords(
-    brave_sync::BraveSyncService *sync_service,
+    onevn_sync::OneVNSyncService *sync_service,
     const std::string& sync_words) {
   web_ui()->CallJavascriptFunctionUnsafe(
       "sync_ui_exports.haveSyncWords", base::Value(sync_words));
@@ -248,10 +248,10 @@ void SyncUIDOMHandler::OnHaveSyncWords(
 
 SyncUI::SyncUI(content::WebUI* web_ui, const std::string& name)
     : BasicUI(web_ui, name,
-              kBraveSyncGenerated,
-              kBraveSyncGeneratedSize,
+              kOneVNSyncGenerated,
+              kOneVNSyncGeneratedSize,
               Profile::FromWebUI(web_ui)->IsOffTheRecord() ?
-                  IDR_BRAVE_SYNC_DISABLED_HTML : IDR_BRAVE_SYNC_HTML) {
+                  IDR_ONEVN_SYNC_DISABLED_HTML : IDR_ONEVN_SYNC_HTML) {
   auto handler_owner = std::make_unique<SyncUIDOMHandler>();
   SyncUIDOMHandler* handler = handler_owner.get();
   web_ui->AddMessageHandler(std::move(handler_owner));

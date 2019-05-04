@@ -1,17 +1,17 @@
 #include "../../../../../chrome/common/importer/profile_import_process_param_traits_macros.h"
 
-#include "brave/common/importer/brave_ledger.h"
-#include "brave/common/importer/brave_referral.h"
-#include "brave/common/importer/brave_stats.h"
-#include "brave/common/importer/imported_browser_window.h"
+#include "onevn/common/importer/onevn_ledger.h"
+#include "onevn/common/importer/onevn_referral.h"
+#include "onevn/common/importer/onevn_stats.h"
+#include "onevn/common/importer/imported_browser_window.h"
 
-IPC_STRUCT_TRAITS_BEGIN(BraveStats)
+IPC_STRUCT_TRAITS_BEGIN(OneVNStats)
   IPC_STRUCT_TRAITS_MEMBER(adblock_count)
   IPC_STRUCT_TRAITS_MEMBER(trackingProtection_count)
   IPC_STRUCT_TRAITS_MEMBER(httpsEverywhere_count)
 IPC_STRUCT_TRAITS_END()
 
-IPC_STRUCT_TRAITS_BEGIN(BravePublisher)
+IPC_STRUCT_TRAITS_BEGIN(OneVNPublisher)
   IPC_STRUCT_TRAITS_MEMBER(key)
   IPC_STRUCT_TRAITS_MEMBER(verified)
   IPC_STRUCT_TRAITS_MEMBER(name)
@@ -36,14 +36,14 @@ IPC_STRUCT_TRAITS_BEGIN(SessionStoreSettings)
   IPC_STRUCT_TRAITS_MEMBER(use_alternate_private_search_engine_tor)
 IPC_STRUCT_TRAITS_END()
 
-IPC_STRUCT_TRAITS_BEGIN(BraveLedger)
+IPC_STRUCT_TRAITS_BEGIN(OneVNLedger)
   IPC_STRUCT_TRAITS_MEMBER(passphrase)
   IPC_STRUCT_TRAITS_MEMBER(excluded_publishers)
   IPC_STRUCT_TRAITS_MEMBER(pinned_publishers)
   IPC_STRUCT_TRAITS_MEMBER(settings)
 IPC_STRUCT_TRAITS_END()
 
-IPC_STRUCT_TRAITS_BEGIN(BraveReferral)
+IPC_STRUCT_TRAITS_BEGIN(OneVNReferral)
   IPC_STRUCT_TRAITS_MEMBER(promo_code)
   IPC_STRUCT_TRAITS_MEMBER(download_id)
   IPC_STRUCT_TRAITS_MEMBER(finalize_timestamp)

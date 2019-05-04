@@ -6,11 +6,11 @@
 #include "../../../../../chrome/browser/component_updater/widevine_cdm_component_installer.cc"
 #undef RegisterWidevineCdmComponent
 
-#include "brave/browser/brave_browser_process_impl.h"
-#include "brave/browser/extensions/brave_component_extension.h"
-#include "brave/common/pref_names.h"
+#include "onevn/browser/onevn_browser_process_impl.h"
+#include "onevn/browser/extensions/onevn_component_extension.h"
+#include "onevn/common/pref_names.h"
 #include "chrome/browser/profiles/profile_manager.h"
-#include "brave/common/extensions/extension_constants.h"
+#include "onevn/common/extensions/extension_constants.h"
 #include "components/component_updater/component_updater_service.h"
 #include "components/prefs/pref_service.h"
 #include "third_party/widevine/cdm/buildflags.h"

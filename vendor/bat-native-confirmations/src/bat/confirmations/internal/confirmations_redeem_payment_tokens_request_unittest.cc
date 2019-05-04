@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -20,7 +20,7 @@
 
 #include "testing/gtest/include/gtest/gtest.h"
 
-// npm run test -- brave_unit_tests --filter=Confirmations*
+// npm run test -- onevn_unit_tests --filter=Confirmations*
 
 using ::testing::_;
 using ::testing::Invoke;
@@ -93,7 +93,7 @@ class ConfirmationsRedeemPaymentTokensRequestTest : public ::testing::Test {
   // Objects declared here can be used by all tests in the test case
   base::FilePath GetTestDataPath() {
     return base::FilePath(FILE_PATH_LITERAL(
-        "brave/vendor/bat-native-confirmations/test/data"));
+        "onevn/vendor/bat-native-confirmations/test/data"));
   }
 
   bool Load(const base::FilePath path, std::string* value) {
@@ -153,7 +153,7 @@ TEST_F(ConfirmationsRedeemPaymentTokensRequestTest, BuildUrl) {
   auto url = request_->BuildUrl(wallet_info);
 
   // Assert
-  std::string expected_url = "https://ads-serve.bravesoftware.com/v1/confirmation/payment/d4ed0af0-bfa9-464b-abd7-67b29d891b8b";  // NOLINT
+  std::string expected_url = "https://ads-serve.onevnsoftware.com/v1/confirmation/payment/d4ed0af0-bfa9-464b-abd7-67b29d891b8b";  // NOLINT
   EXPECT_EQ(expected_url, url);
 }
 

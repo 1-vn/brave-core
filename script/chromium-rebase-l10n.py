@@ -30,42 +30,42 @@ def main():
 
     content = ''
     xml_tree = etree.parse(source_string_path)
-    if filename == 'brave_strings':
+    if filename == 'onevn_strings':
         elem1 = xml_tree.xpath('//message[@name="IDS_SXS_SHORTCUT_NAME"]')[0]
-        elem1.text = 'Brave Nightly'
+        elem1.text = 'OneVN Nightly'
         elem1.attrib.pop('desc')
         elem1.attrib.pop('translateable')
         elem1 = xml_tree.xpath('//message[@name="IDS_SHORTCUT_NAME_BETA"]')[0]
-        elem1.text = 'Brave Beta'
+        elem1.text = 'OneVN Beta'
         elem1.attrib.pop('desc')
         elem1.attrib.pop('translateable')
         elem1 = xml_tree.xpath('//message[@name="IDS_SHORTCUT_NAME_DEV"]')[0]
-        elem1.text = 'Brave Dev'
+        elem1.text = 'OneVN Dev'
         elem1.attrib.pop('desc')
         elem1.attrib.pop('translateable')
         elem1 = xml_tree.xpath(
             '//message[@name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BETA"]')[0]
-        elem1.text = 'Brave Apps'
+        elem1.text = 'OneVN Apps'
         elem1.attrib.pop('desc')
         elem1.attrib.pop('translateable')
         elem1 = xml_tree.xpath(
             '//message[@name="IDS_APP_SHORTCUTS_SUBDIR_NAME_DEV"]')[0]
-        elem1.text = 'Brave Apps'
+        elem1.text = 'OneVN Apps'
         elem1.attrib.pop('desc')
         elem1.attrib.pop('translateable')
         elem1 = xml_tree.xpath(
             '//message[@name="IDS_INBOUND_MDNS_RULE_NAME_BETA"]')[0]
-        elem1.text = 'Brave Beta (mDNS-In)'
+        elem1.text = 'OneVN Beta (mDNS-In)'
         elem1.attrib.pop('desc')
         elem1.attrib.pop('translateable')
         elem1 = xml_tree.xpath(
             '//message[@name="IDS_INBOUND_MDNS_RULE_NAME_CANARY"]')[0]
-        elem1.text = 'Brave Nightly (mDNS-In)'
+        elem1.text = 'OneVN Nightly (mDNS-In)'
         elem1.attrib.pop('desc')
         elem1.attrib.pop('translateable')
         elem1 = xml_tree.xpath(
             '//message[@name="IDS_INBOUND_MDNS_RULE_NAME_DEV"]')[0]
-        elem1.text = 'Brave Dev (mDNS-In)'
+        elem1.text = 'OneVN Dev (mDNS-In)'
         elem1.attrib.pop('desc')
         elem1.attrib.pop('translateable')
         elem1 = xml_tree.xpath(
@@ -73,22 +73,22 @@ def main():
         elem1.attrib.pop('desc')
         elem1 = xml_tree.xpath(
             '//message[@name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_BETA"]')[0]
-        elem1.text = 'Inbound rule for Brave Beta to allow mDNS traffic.'
+        elem1.text = 'Inbound rule for OneVN Beta to allow mDNS traffic.'
         elem1.attrib.pop('desc')
         elem1.attrib.pop('translateable')
         elem1 = xml_tree.xpath(
             '//message[@name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_CANARY"]')[0]
-        elem1.text = 'Inbound rule for Brave Nightly to allow mDNS traffic.'
+        elem1.text = 'Inbound rule for OneVN Nightly to allow mDNS traffic.'
         elem1.attrib.pop('desc')
         elem1.attrib.pop('translateable')
         elem1 = xml_tree.xpath(
             '//message[@name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_DEV"]')[0]
-        elem1.text = 'Inbound rule for Brave Dev to allow mDNS traffic.'
+        elem1.text = 'Inbound rule for OneVN Dev to allow mDNS traffic.'
         elem1.attrib.pop('desc')
         elem1.attrib.pop('translateable')
         elem1 = xml_tree.xpath(
             '//part[@file="settings_chromium_strings.grdp"]')[0]
-        elem1.set('file', 'settings_brave_strings.grdp')
+        elem1.set('file', 'settings_onevn_strings.grdp')
 
     grit_root = xml_tree.xpath(
         '//grit' if extension == '.grd' else '//grit-part')[0]

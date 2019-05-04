@@ -2,12 +2,12 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#ifndef BRAVE_BROWSER_IMPORTER_CHROME_PROFILE_LOCK_H__
-#define BRAVE_BROWSER_IMPORTER_CHROME_PROFILE_LOCK_H__
+#ifndef ONEVN_BROWSER_IMPORTER_CHROME_PROFILE_LOCK_H__
+#define ONEVN_BROWSER_IMPORTER_CHROME_PROFILE_LOCK_H__
 
 #include "base/command_line.h"
 #include "base/files/file_path.h"
-#include "brave/browser/importer/browser_profile_lock.h"
+#include "onevn/browser/importer/browser_profile_lock.h"
 #include "chrome/browser/process_singleton.h"
 
 class ChromeProfileLock : public BrowserProfileLock {
@@ -34,4 +34,4 @@ class ChromeProfileLock : public BrowserProfileLock {
   DISALLOW_COPY_AND_ASSIGN(ChromeProfileLock);
 };
 
-#endif  // BRAVE_BROWSER_IMPORTER_CHROME_PROFILE_LOCK_H__
+#endif  // ONEVN_BROWSER_IMPORTER_CHROME_PROFILE_LOCK_H__

@@ -2,11 +2,11 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/search_engines/guest_window_search_engine_provider_service.h"
+#include "onevn/browser/search_engines/guest_window_search_engine_provider_service.h"
 
 #include "base/auto_reset.h"
-#include "brave/browser/search_engines/search_engine_provider_util.h"
-#include "brave/components/search_engines/brave_prepopulated_engines.h"
+#include "onevn/browser/search_engines/search_engine_provider_util.h"
+#include "onevn/components/search_engines/onevn_prepopulated_engines.h"
 #include "chrome/browser/profiles/profile.h"
 #include "components/search_engines/template_url_prepopulate_data.h"
 #include "components/search_engines/template_url_service.h"
@@ -17,7 +17,7 @@ GuestWindowSearchEngineProviderService::GuestWindowSearchEngineProviderService(
     : SearchEngineProviderService(otr_profile) {
   DCHECK_EQ(otr_profile->GetProfileType(), Profile::GUEST_PROFILE);
   DCHECK(!otr_profile->IsTorProfile());
-  DCHECK(!brave::IsRegionForQwant(otr_profile));
+  DCHECK(!onevn::IsRegionForQwant(otr_profile));
 
   // Monitor otr(off the record) profile's search engine changing to tracking
   // user's default search engine provider.
@@ -45,7 +45,7 @@ void GuestWindowSearchEngineProviderService::OnTemplateURLServiceChanged() {
       TemplateURLPrepopulateData::PREPOPULATED_ENGINE_ID_DUCKDUCKGO;
 
   if (UseAlternativeSearchEngineProvider() || is_ddg_is_set)
-    brave::ToggleUseAlternativeSearchEngineProvider(otr_profile_);
+    onevn::ToggleUseAlternativeSearchEngineProvider(otr_profile_);
 }
 
 void GuestWindowSearchEngineProviderService::

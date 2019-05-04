@@ -15,7 +15,7 @@ index af2f64b34ddb8e49d72dd0dd22ffd2418a422efb..ba7380e307740690ea2f3b626d24715e
  const char kApplicationName[] = "chrome";
  #else
 -const char kApplicationName[] = "chromium";
-+const char kApplicationName[] = "brave";
++const char kApplicationName[] = "onevn";
  #endif
  
  const GnomeKeyringPasswordSchema kSchema = {
@@ -28,7 +28,7 @@ index af2f64b34ddb8e49d72dd0dd22ffd2418a422efb..ba7380e307740690ea2f3b626d24715e
 +  if (command_line->HasSwitch("import-chrome")) {
 +    application_name = "chrome";
 +  } else if (command_line->HasSwitch("import-chromium") ||
-+             command_line->HasSwitch("import-brave")) {
++             command_line->HasSwitch("import-onevn")) {
 +    application_name = "chromium";
 +  } else {
 +    application_name = kApplicationName;

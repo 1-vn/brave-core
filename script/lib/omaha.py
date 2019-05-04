@@ -6,7 +6,7 @@ import cryptography
 import logging
 import os
 
-from lib.config import get_brave_version, get_chrome_version, get_raw_version
+from lib.config import get_onevn_version, get_chrome_version, get_raw_version
 from lib.connect import post, get
 from lib.helpers import release_channel
 from lib.util import omaha_channel
@@ -88,7 +88,7 @@ def get_app_info(appinfo, args):
     to perform the upload
     """
 
-    changelog_url = "https://github.com/brave/brave-browser/blob/master/CHANGELOG.md"
+    changelog_url = "https://github.com/1-vn/onevn-browser/blob/master/CHANGELOG.md"
     chrome_major = get_chrome_version().split('.')[0]
     chrome_minor = get_chrome_version().split('.')[1]
 
@@ -106,7 +106,7 @@ def get_app_info(appinfo, args):
         appinfo['short_version'] = chrome_major + '.' + get_upload_version()
         appinfo['version'] = appinfo['short_version'].split('.')[2] + \
             '.' + appinfo['short_version'].split('.')[3]
-    appinfo['release_notes'] = 'Brave Browser version: {}\n\n<a href="{}">Brave Changelog</a>'\
+    appinfo['release_notes'] = 'OneVN Browser version: {}\n\n<a href="{}">OneVN Changelog</a>'\
         .format(appinfo['version'] if appinfo['platform'] in 'win32' else appinfo['short_version'],
                 changelog_url)
 
@@ -115,7 +115,7 @@ def get_app_info(appinfo, args):
 
 def get_upload_version():
     """
-    Returns the version of brave-browser
+    Returns the version of onevn-browser
     """
     return get_raw_version()
 
@@ -125,7 +125,7 @@ def sign_update_sparkle(dmg, dsaprivpem):
     Signs the Darwin dmg and returns the base64 encoded hash.
 
     This replaces the functionality in:
-    https://github.com/brave/Sparkle/blob/master/bin/sign_update
+    https://github.com/1-vn/Sparkle/blob/master/bin/sign_update
 
     Need to run the equivalent of the command:
     `$openssl dgst -sha1 -binary < "$1" | $openssl dgst -sha1 -sign "$2" | $openssl enc -base64`

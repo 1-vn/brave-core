@@ -1,0 +1,66 @@
+import("//onevn/components/onevn_shields/browser/buildflags/buildflags.gni")
+
+source_set("onevn_shields") {
+  public_deps = [
+    "buildflags",
+  ]
+
+  sources = [
+    "ad_block_base_service.cc",
+    "ad_block_base_service.h",
+    "ad_block_custom_filters_service.cc",
+    "ad_block_custom_filters_service.h",
+    "ad_block_regional_service.cc",
+    "ad_block_regional_service.h",
+    "ad_block_regional_service_manager.cc",
+    "ad_block_regional_service_manager.h",
+    "ad_block_service.cc",
+    "ad_block_service.h",
+    "ad_block_service_helper.cc",
+    "ad_block_service_helper.h",
+    "adblock_interceptor.cc",
+    "adblock_interceptor.h",
+    "autoplay_whitelist_service.cc",
+    "autoplay_whitelist_service.h",
+    "base_onevn_shields_service.cc",
+    "base_onevn_shields_service.h",
+    "base_local_data_files_observer.cc",
+    "base_local_data_files_observer.h",
+    "onevn_shields_util.cc",
+    "onevn_shields_util.h",
+    "onevn_shields_web_contents_observer.cc",
+    "onevn_shields_web_contents_observer.h",
+    "onevn_resource_dispatcher_host_delegate.cc",
+    "onevn_resource_dispatcher_host_delegate.h",
+    "dat_file_util.cc",
+    "dat_file_util.h",
+    "extension_whitelist_service.cc",
+    "extension_whitelist_service.h",
+    "https_everywhere_recently_used_cache.h",
+    "https_everywhere_service.cc",
+    "https_everywhere_service.h",
+    "local_data_files_service.cc",
+    "local_data_files_service.h",
+    "referrer_whitelist_service.cc",
+    "referrer_whitelist_service.h",
+    "tracking_protection_service.cc",
+    "tracking_protection_service.h",
+  ]
+
+  if (onevn_stp_enabled) {
+    sources += [
+      "tracking_protection_helper.cc",
+      "tracking_protection_helper.h",
+    ]
+  }
+
+  deps = [
+    "//onevn/content:common",
+    "//onevn/vendor/ad-block/onevn:ad-block",
+    "//onevn/vendor/tracking-protection/onevn:tracking-protection",
+    "//onevn/vendor/autoplay-whitelist/onevn:autoplay-whitelist",
+    "//onevn/vendor/extension-whitelist/onevn:extension-whitelist",
+    "//chrome/common",
+    "//third_party/leveldatabase",
+  ]
+}

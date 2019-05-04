@@ -6,16 +6,16 @@ index f1ce1fbba3147b9f2c66bab79018c776ae144d53..9eced089da97dc81bc04f3f188ca2620
  
  namespace google_update {
  
-+#if defined(BRAVE_CHROMIUM_BUILD)
++#if defined(ONEVN_CHROMIUM_BUILD)
 +const wchar_t kChromeUpgradeCode[] = L"{AFE6A462-C574-4B8A-AF43-4CC60DF4563B}";
 +const wchar_t kGoogleUpdateUpgradeCode[] =
 +    L"{B131C935-9BE6-41DA-9599-1F776BEB8019}";
-+const wchar_t kGoogleUpdateSetupExe[] = L"BraveUpdateSetup.exe";
-+const wchar_t kRegPathClients[] = L"Software\\BraveSoftware\\Update\\Clients";
-+const wchar_t kRegPathClientState[] = L"Software\\BraveSoftware\\Update\\ClientState";
++const wchar_t kGoogleUpdateSetupExe[] = L"OneVNUpdateSetup.exe";
++const wchar_t kRegPathClients[] = L"Software\\OneVNSoftware\\Update\\Clients";
++const wchar_t kRegPathClientState[] = L"Software\\OneVNSoftware\\Update\\ClientState";
 +const wchar_t kRegPathClientStateMedium[] =
-+    L"Software\\BraveSoftware\\Update\\ClientStateMedium";
-+const wchar_t kRegPathGoogleUpdate[] = L"Software\\BraveSoftware\\Update";
++    L"Software\\OneVNSoftware\\Update\\ClientStateMedium";
++const wchar_t kRegPathGoogleUpdate[] = L"Software\\OneVNSoftware\\Update";
 +#else
  const wchar_t kChromeUpgradeCode[] = L"{8A69D345-D564-463C-AFF1-A69D9E530F96}";
  

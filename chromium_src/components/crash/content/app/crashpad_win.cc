@@ -8,7 +8,7 @@
 
 namespace crashpad {
 
-class BraveCrashpadClient {
+class OneVNCrashpadClient {
  public:
   bool StartHandler(const base::FilePath& handler,
                     const base::FilePath& database,
@@ -27,16 +27,16 @@ class BraveCrashpadClient {
 namespace crash_reporter {
 
 void DumpWithoutCrashing();
-crashpad::BraveCrashpadClient& GetBraveCrashpadClient() {
-  static crashpad::BraveCrashpadClient* const client =
-      new crashpad::BraveCrashpadClient();
+crashpad::OneVNCrashpadClient& GetOneVNCrashpadClient() {
+  static crashpad::OneVNCrashpadClient* const client =
+      new crashpad::OneVNCrashpadClient();
   return *client;
 }
 
 } // namespace crash_reporter
 
 #define COMPONENTS_CRASH_CONTENT_APP_CRASHPAD_H_
-#define GetCrashpadClient GetBraveCrashpadClient
+#define GetCrashpadClient GetOneVNCrashpadClient
 #include "../../../../../../components/crash/content/app/crashpad_win.cc"
 #undef GetCrashpadClient
 
@@ -46,7 +46,7 @@ crashpad::CrashpadClient& GetCrashpadClient();
 
 namespace crashpad {
 
-bool BraveCrashpadClient::StartHandler(
+bool OneVNCrashpadClient::StartHandler(
     const base::FilePath& handler,
     const base::FilePath& database,
     const base::FilePath& metrics_dir,
@@ -57,15 +57,15 @@ bool BraveCrashpadClient::StartHandler(
     bool asynchronous_start) {
   return crash_reporter::GetCrashpadClient().StartHandler(
       handler, database, metrics_dir,
-      "https://laptop-updates.brave.com/1/bc-crashes", annotations, arguments,
+      "https://laptop-updates.1-vn.com/1/bc-crashes", annotations, arguments,
       restartable, asynchronous_start);
 }
 
-std::wstring BraveCrashpadClient::GetHandlerIPCPipe() const {
+std::wstring OneVNCrashpadClient::GetHandlerIPCPipe() const {
   return crash_reporter::GetCrashpadClient().GetHandlerIPCPipe();
 }
 
-bool BraveCrashpadClient::SetHandlerIPCPipe(const std::wstring& ipc_pipe) {
+bool OneVNCrashpadClient::SetHandlerIPCPipe(const std::wstring& ipc_pipe) {
   return crash_reporter::GetCrashpadClient().SetHandlerIPCPipe(ipc_pipe);
 }
 

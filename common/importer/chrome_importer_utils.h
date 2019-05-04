@@ -2,8 +2,8 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#ifndef BRAVE_COMMON_IMPORTER_CHROME_IMPORTER_UTILS_H_
-#define BRAVE_COMMON_IMPORTER_CHROME_IMPORTER_UTILS_H_
+#ifndef ONEVN_COMMON_IMPORTER_CHROME_IMPORTER_UTILS_H_
+#define ONEVN_COMMON_IMPORTER_CHROME_IMPORTER_UTILS_H_
 
 #include <stdint.h>
 
@@ -27,4 +27,4 @@ base::ListValue* GetChromeSourceProfiles(
 bool ChromeImporterCanImport(const base::FilePath& profile,
                              uint16_t* services_supported);
 
-#endif  // BRAVE_COMMON_IMPORTER_CHROME_IMPORTER_UTILS_H_
+#endif  // ONEVN_COMMON_IMPORTER_CHROME_IMPORTER_UTILS_H_

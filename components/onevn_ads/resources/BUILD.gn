@@ -1,0 +1,12 @@
+import("//tools/grit/repack.gni")
+
+repack("resources") {
+  output = "$root_gen_dir/onevn/components/onevn_ads/resources/onevn_ads_resources.pak"
+  sources = [
+    "$root_gen_dir/bat/ads/resources/bat_ads_resources.pak",
+  ]
+
+  deps = [
+    "//onevn/vendor/bat-native-ads/resources",
+  ]
+}

@@ -8,8 +8,8 @@ import json
 import requests
 from .config import get_raw_version, get_env_var
 
-BRAVE_REPO = "brave/brave-browser"
-BRAVE_CORE_REPO = "brave/brave-core"
+ONEVN_REPO = "onevn/onevn-browser"
+ONEVN_CORE_REPO = "onevn/onevn-core"
 
 
 def channels():
@@ -47,7 +47,7 @@ def get_releases_by_tag(repo, tag_name, include_drafts=False):
 
     next_request = ""
     headers = {'Accept': 'application/vnd.github+json'}
-    release_url = GITHUB_URL + "/repos/" + BRAVE_REPO + "/releases" + '?access_token=' + \
+    release_url = GITHUB_URL + "/repos/" + ONEVN_REPO + "/releases" + '?access_token=' + \
         get_env_var('GITHUB_TOKEN') + '&page=1&per_page=100'
     r = call_github_api(release_url, headers=headers)
     next_request = ""

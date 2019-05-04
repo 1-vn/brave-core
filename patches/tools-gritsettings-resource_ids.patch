@@ -6,7 +6,7 @@ index e823c9b9edfd1aaac4909d8926e729ef79f25d70..81cc9c667ab4e14e67b312d0b103f142
    "chrome/app/chromium_strings.grd": {
      "messages": [400],
    },
-+  "chrome/app/brave_strings.grd": {
++  "chrome/app/onevn_strings.grd": {
 +    "messages": [400],
 +  },
    "chrome/app/google_chrome_strings.grd": {
@@ -16,7 +16,7 @@ index e823c9b9edfd1aaac4909d8926e729ef79f25d70..81cc9c667ab4e14e67b312d0b103f142
    # Chromium strings and Google Chrome strings must start at the same id.
    # We only use one file depending on whether we're building Chromium or
    # Google Chrome.
-+  "components/components_brave_strings.grd": {
++  "components/components_onevn_strings.grd": {
 +    "messages": [15040],
 +  },
    "components/components_chromium_strings.grd": {

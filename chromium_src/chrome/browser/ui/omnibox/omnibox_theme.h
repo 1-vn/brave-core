@@ -1,10 +1,10 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#ifndef BRAVE_CHROMIUM_SRC_CHROME_BROWSER_UI_OMNIBOX_OMNIBOX_THEME_H_
-#define BRAVE_CHROMIUM_SRC_CHROME_BROWSER_UI_OMNIBOX_OMNIBOX_THEME_H_
+#ifndef ONEVN_CHROMIUM_SRC_CHROME_BROWSER_UI_OMNIBOX_OMNIBOX_THEME_H_
+#define ONEVN_CHROMIUM_SRC_CHROME_BROWSER_UI_OMNIBOX_OMNIBOX_THEME_H_
 
 // Intention is to add a value to OmniboxTint since we want to support more
 // states than Chromium but do not want to override / patch every call
@@ -18,4 +18,4 @@ enum class OmniboxTint { DARK, LIGHT, NATIVE, PRIVATE };
 
 #include "../../../chrome/browser/ui/omnibox/omnibox_theme.h"
 
-#endif  // BRAVE_CHROMIUM_SRC_CHROME_BROWSER_UI_OMNIBOX_OMNIBOX_THEME_H_
+#endif  // ONEVN_CHROMIUM_SRC_CHROME_BROWSER_UI_OMNIBOX_OMNIBOX_THEME_H_

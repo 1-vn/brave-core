@@ -1,10 +1,10 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#ifndef BRAVELEDGER_BAT_HELPER_H_
-#define BRAVELEDGER_BAT_HELPER_H_
+#ifndef ONEVNLEDGER_BAT_HELPER_H_
+#define ONEVNLEDGER_BAT_HELPER_H_
 
 #include <string>
 #include <vector>
@@ -14,7 +14,7 @@
 #include "bat/ledger/ledger.h"
 #include "bat/ledger/internal/static_values.h"
 
-namespace braveledger_bat_helper {
+namespace onevnledger_bat_helper {
 bool isProbiValid(const std::string& number);
 
 struct REQUEST_CREDENTIALS_ST {
@@ -223,7 +223,7 @@ struct PUBLISHER_STATE_ST {
   bool loadFromJson(const std::string &json);
 
   uint64_t min_publisher_duration_ =
-      braveledger_ledger::_default_min_publisher_duration;  // In seconds
+      onevnledger_ledger::_default_min_publisher_duration;  // In seconds
   unsigned int min_visits_ = 1u;
   bool allow_non_verified_ = true;
   // last publishers list load timestamp (seconds)
@@ -259,7 +259,7 @@ struct WINNERS_ST {
   unsigned int votes_ = 0;
 };
 
-typedef std::vector<braveledger_bat_helper::WINNERS_ST> Winners;
+typedef std::vector<onevnledger_bat_helper::WINNERS_ST> Winners;
 
 struct SURVEYOR_INFO_ST {
   SURVEYOR_INFO_ST();
@@ -413,7 +413,7 @@ struct BATCH_PROOF {
   BALLOT_ST ballot_;
 };
 
-typedef std::vector<braveledger_bat_helper::BATCH_PROOF> BatchProofs;
+typedef std::vector<onevnledger_bat_helper::BATCH_PROOF> BatchProofs;
 
 enum class SERVER_TYPES {
   LEDGER,
@@ -549,6 +549,6 @@ bool HasSameDomainAndPath(
     const std::string& to_match,
     const std::string& path);
 
-}  // namespace braveledger_bat_helper
+}  // namespace onevnledger_bat_helper
 
-#endif  // BRAVELEDGER_BAT_HELPER_H_
+#endif  // ONEVNLEDGER_BAT_HELPER_H_

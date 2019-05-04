@@ -15,8 +15,8 @@ set -exu
 # 12/29/2018    Nightly       0x0B31DBA06A8A26F9    9228DBCE20DDE5EC46488DE90B31DBA06A8A26F9
 
 ### The first argument is the S3 bucket, the second is the GPG key fingerprint
-OPTION=${1:-brave-browser-apt-staging-nightly}
-GPG_KEY_ID=${2:-E85FFA8E2E90B40B33ED39274FE13824E3FFC656} # Defaults to New Brave Software signing key
+OPTION=${1:-onevn-browser-apt-staging-nightly}
+GPG_KEY_ID=${2:-E85FFA8E2E90B40B33ED39274FE13824E3FFC656} # Defaults to New OneVN Software signing key
 
 if [[ $2 == 0x* ]]; then
     echo "Error: Please pass the Full GPG KEY ID to sign with! (i.e. '9228DBCE20DDE5EC46488DE90B31DBA06A8A26F9')"
@@ -24,9 +24,9 @@ if [[ $2 == 0x* ]]; then
 fi
 
 if [ "$GPG_KEY_ID" = "E85FFA8E2E90B40B33ED39274FE13824E3FFC656" ]; then
-  KEY_NAME=brave-core.asc
+  KEY_NAME=onevn-core.asc
 else
-  KEY_NAME=brave-core-nightly.asc
+  KEY_NAME=onevn-core-nightly.asc
 fi
 KEY_FILE=/tmp/${KEY_NAME}
 SNAP_TAG=`date +'%s'`
@@ -49,44 +49,44 @@ cat <<EOF > $HOME/.aptly.conf
   "ppaDistributorID": "ubuntu",
   "ppaCodename": "",
   "S3PublishEndpoints": {
-    "brave-browser-apt-staging-nightly": {
+    "onevn-browser-apt-staging-nightly": {
       "region": "us-west-2",
-      "bucket": "brave-browser-apt-staging-nightly",
+      "bucket": "onevn-browser-apt-staging-nightly",
       "acl": "public-read"
     },
-    "brave-browser-apt-staging-dev": {
+    "onevn-browser-apt-staging-dev": {
       "region": "us-west-2",
-      "bucket": "brave-browser-apt-staging-dev",
+      "bucket": "onevn-browser-apt-staging-dev",
       "acl": "public-read"
     },
-    "brave-browser-apt-staging-beta": {
+    "onevn-browser-apt-staging-beta": {
       "region": "us-west-2",
-      "bucket": "brave-browser-apt-staging-beta",
+      "bucket": "onevn-browser-apt-staging-beta",
       "acl": "public-read"
     },
-    "brave-browser-apt-staging-release": {
+    "onevn-browser-apt-staging-release": {
       "region": "us-west-2",
-      "bucket": "brave-browser-apt-staging-release",
+      "bucket": "onevn-browser-apt-staging-release",
       "acl": "public-read"
     },
-    "brave-browser-apt-staging-nightly-test": {
+    "onevn-browser-apt-staging-nightly-test": {
       "region": "us-west-2",
-      "bucket": "brave-browser-apt-staging-nightly-test",
+      "bucket": "onevn-browser-apt-staging-nightly-test",
       "acl": "public-read"
     },
-    "brave-browser-apt-staging-dev-test": {
+    "onevn-browser-apt-staging-dev-test": {
       "region": "us-west-2",
-      "bucket": "brave-browser-apt-staging-dev-test",
+      "bucket": "onevn-browser-apt-staging-dev-test",
       "acl": "public-read"
     },
-    "brave-browser-apt-staging-beta-test": {
+    "onevn-browser-apt-staging-beta-test": {
       "region": "us-west-2",
-      "bucket": "brave-browser-apt-staging-beta-test",
+      "bucket": "onevn-browser-apt-staging-beta-test",
       "acl": "public-read"
     },
-    "brave-browser-apt-staging-release-test": {
+    "onevn-browser-apt-staging-release-test": {
       "region": "us-west-2",
-      "bucket": "brave-browser-apt-staging-release-test",
+      "bucket": "onevn-browser-apt-staging-release-test",
       "acl": "public-read"
     }
   },

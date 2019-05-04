@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<!DOCTYPE translationbundle>
+<translationbundle lang="sw">
+<translation id="3333887201479867589">OneVN Rewards</translation>
+<translation id="7942180974165298215">Kizuia Matangazo cha OneVN</translation>
+<translation id="6406506848690869874">Oanisha</translation>
+<translation id="120759863357279975"><ph name="EXTENSION_NAME">$1</ph> (extension ID "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") is not allowed in OneVN.</translation>
+<translation id="7450557937477381864">Funga Chrome</translation>
+<translation id="7008934821596358692">Ili kukamilisha kuingiza, funga madirisha yote ya Chrome.</translation>
+<translation id="5735465527556462863">Funga OneVN (ya zamani)</translation>
+<translation id="7737066986958447692">Kumaliza kuingiza, funga madirisha yote ya OneVN (ya zamani).</translation>
+<translation id="6447842834002726250">Vidakuzi</translation>
+<translation id="4983925687993168579">Takwimu</translation>
+<translation id="6165477144235978006">Malipo ya OneVN</translation>
+<translation id="3489524616427966890">Madirisha na vichupo wazi</translation>
+<translation id="3699882589215410581">Sanidi na fungua Widevine</translation>
+<translation id="8053096063396012732">Sanidi Widevine</translation>
+<translation id="4840334696217618631">Fungua Upya Kivinjari ili kuwezesha Widevine</translation>
+<translation id="8410111618231938546">Google Widevine ni kipande cha msimbo wa Usimamizi wa Haki za Kidijiti (DRM) ambao sisi hapa OneVN Software hatuumiliki na hatuwezi kuukagua. Msimbo wa Google Widevine inapakiwa kutoka katika seva za Google, si kutoka katika seva zetu. Hupakiwa pale tu ambapo unawezesha chaguo hili. Hatupendekezi matumizi ya DRM, lakini tunaheshimu uchaguzi wa mtumiaji na tunakiri kwamba baadhi ya watumiaji wa OneVN wangependa kutumia huduma ambazo zinaitaka.
+
+Kwa kusanidi nyongeza hii, unakubali Masharti ya Matumizi ya Google Widevine. Unakubali kwamba OneVN haiwajibiki kwa madhara yoyote au upotevu unaohusiana na matumizi yako ya Google Widevine.</translation>
+<translation id="6499845530162974140">OneVN (ya zamani)</translation>
+<translation id="3198814717959506569">Imeingizwa kutoka OneVN</translation>
+<translation id="453977518730680921">Fungua video/picha kiotomati</translation>
+<translation id="410351446219883937">Kucheza kiotomati</translation>
+<translation id="2240268017737062801">Uliza tovuti inapotaka kufungua video/picha kiotomati</translation>
+<translation id="3371702087847741961">Uliza tovuti inapotaka kufungua video/picha kiotomati (inapendekezwa)</translation>
+<translation id="3218385319396786393">Kufungua kiotomati kumezuiwa kwenye ukurasa huu</translation>
+<translation id="4988333904713528597">Daima ruhusu kufungua kiotomati kwenye <ph name="HOST">$1<ex>mail.google.com</ex></ph></translation>
+<translation id="4150684676757176434">Endelea kuzuia kufungua kiotomati</translation>
+<translation id="7543906827780734027">OneVN haijahakiki nyongeza hii - inaweza kuwa mtaliga. Ongeza "<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>" potelea mbali?</translation>
+<translation id="2044383478723007273">Rangi za OneVN</translation>
+<translation id="5341901626640816374">Tumia upao wa eneo pana</translation>
+<translation id="6123134130710658846">Ficha kitufe cha OneVN Rewards</translation>
+<translation id="7635711399568194460">Huficha kitufe cha OneVN Rewards kwenye kiwambo cha mahali wakati ambapo OneVN Rewards haijawezeshwa</translation>
+<translation id="7965178729203412357">Utambulisho Mpya wa Tor</translation>
+<translation id="8784924142044142231">Ondoka kwenye Tor</translation>
+<translation id="5410152065859052603">Tor</translation>
+<translation id="3696187925156352769">Fungua Dirisha la Tor</translation>
+<translation id="1434416574322382019">Dirisha Jipya Binafsi na Tor</translation>
+<translation id="4703780849509456860">Fungua kiungo kwenye Dirisha Binafsi kwa Tor</translation>
+<translation id="3488584642074079080">Fungua kiungo kwenye Dirisha Binafsi la OneVN kwa Tor</translation>
+<translation id="6313675821927505581">Dirisha Jipya la Binafsi na Tor</translation>
+<translation id="2638041073279639246">Fungua kiungo kwenye dirisha la binafsi na Tor</translation>
+<translation id="3425600262621021599">Fungua kiungo kwenye dirisha la binafsi la OneVN na Tor</translation>
+<translation id="3155170474926428993">Kifungua Tor</translation>
+<translation id="2515126961943087659">Huduma ya Matangazo ya Bat</translation>
+<translation id="7924918279836988121">Huduma ya Leja ya Bat</translation>
+<translation id="768979911142179781">Machaguo msingi ya ngao za OneVN</translation>
+<translation id="9185018653595759199">Vitufe vya Mitandao ya Kijamii na Uingiaji kwenye Akaunti</translation>
+<translation id="6894114137169961038">Udhibiti wa Tangazo</translation>
+<translation id="1096802265930928584">Udhibiti wa Kidakuzi</translation>
+<translation id="8919235146866304148">Ulinzi wa alama za vidole</translation>
+<translation id="520895744850022668">HTTPS Kila mahali</translation>
+<translation id="5259716416204774556">Kuzuia maandishi</translation>
+<translation id="7498695072878479744">Ruhusu kitufe cha Google cha kuingia kwenye akaunti kwenye tovuti nyingine</translation>
+<translation id="863171915776379000">Ruhusu kuingia kwenye akaunti kupitia Facebook na makala zilizoshikizwa</translation>
+<translation id="5165042248369837294">Ruhusa makala za Twitter zilizoshikizwa</translation>
+<translation id="958971637207126733">Ruhusu makala za LinkedIn zilizoshikizwa</translation>
+<translation id="6067014455220527258">Zuia matangazo</translation>
+<translation id="6985711843506827936">Ruhusu matangazo na kufuatilia</translation>
+<translation id="6132506775968708399">Zuia vidakuzi vya tovuti nyingine</translation>
+<translation id="5657156137487675418">Ruhusu vidakuzi vyote</translation>
+<translation id="6883611015375728278">Zuia vidakuzi vyote</translation>
+<translation id="1442559343076146186">Zuia alama za vidole za mtu mwingine</translation>
+<translation id="8034285923190068220">Ruhusu alama za vidole</translation>
+<translation id="4540198958192073185">Zuia alama zote za vidole</translation>
+<translation id="8942080017911802454">Sera ya Kushughulika na WebRTC IP</translation>
+<translation id="6165508094623778733">Jifunze zaidi</translation>
+<translation id="8798099450830957504">Chaguomsingi</translation>
+<translation id="1822560017823072927">Violesura chaguo-msingi vya umma na binafsi</translation>
+<translation id="5825943197137337319">Kiolesura cha umma chaguo-msingi pekee</translation>
+<translation id="1689062823386843231">Zima UDP zisizo na usalama</translation>
+<translation id="6645631466045614531">Fikia Oanisha kupitia</translation>
+<translation id="1807246157184219062">Mwanga</translation>
+<translation id="2414886740292270097">Giza</translation>
+<translation id="1360441190790440400">Sawa na Linux</translation>
+<translation id="1336940801687497203">Sawa na Windows</translation>
+<translation id="8721331068159819483">Sawa na MacOS</translation>
+<translation id="6786747875388722282">Viendelezi</translation>
+<translation id="2896916411183256228">Hutumia Torenti ya Tovuti kuonyesha torenti moja kwa moja kwenye kisakuzi. Huwezesha mafaili ya torenti na viungo vya sumaku.</translation>
+<translation id="6554397389149987360">Hutumia vipengele vya Hangouts ili kuwezesha kushiriki skrini na vipengele vingine kwenye kisakuzi.</translation>
+<translation id="8137559199583651773">Dhibiti Viendelezi</translation>
+<translation id="4928988318462976765">Duka la Viendelezi vya Wavuti</translation>
+<translation id="9181207987584064303">Tazama kwenye Duka la Viendelezi vya Wavuti</translation>
+<translation id="4846154056248462491">Kwenye kutoka</translation>
+</translationbundle>

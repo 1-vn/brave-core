@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -61,7 +61,7 @@ class ADS_EXPORT AdsClient {
  public:
   virtual ~AdsClient() = default;
 
-  // Should return true if Brave Ads is enabled otherwise returns false
+  // Should return true if OneVN Ads is enabled otherwise returns false
   virtual bool IsAdsEnabled() const = 0;
 
   // Should return the operating system's locale, i.e. en, en_US or en_GB.UTF-8

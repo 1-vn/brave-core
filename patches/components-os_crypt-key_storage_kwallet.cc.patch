@@ -20,7 +20,7 @@ index aa4b3d4a6b5c7b1f725d6446ea5e573094ec935b..8e1ac53bccaf2213466af3daf685ee88
 +    folder_name = "Chrome Keys";
 +    key = "Chrome Safe Storage";
 +  } else if (command_line->HasSwitch("import-chromium") ||
-+             command_line->HasSwitch("import-brave")) {
++             command_line->HasSwitch("import-onevn")) {
 +    folder_name = "Chromium Keys";
 +    key = "Chromium Safe Storage";
 +  } else {
@@ -47,7 +47,7 @@ index aa4b3d4a6b5c7b1f725d6446ea5e573094ec935b..8e1ac53bccaf2213466af3daf685ee88
 +  if (command_line->HasSwitch("import-chrome")) {
 +    folder_name = "Chrome Keys";
 +  } else if (command_line->HasSwitch("import-chromium") ||
-+             command_line->HasSwitch("import-brave")) {
++             command_line->HasSwitch("import-onevn")) {
 +    folder_name = "Chromium Keys";
 +  } else {
 +    folder_name = KeyStorageLinux::kFolderName;

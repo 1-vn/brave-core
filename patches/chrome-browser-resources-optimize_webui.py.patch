@@ -6,7 +6,7 @@ index 124f748150d8952575c591eaf7deea0da76c4092..1745b508d58d35f6d03c73fe2dd31b5c
      _SRC_PATH, 'third_party', 'polymer', 'v1_0', 'components-chromium')
  
  
-+_BR_RESOURCES_PATH = os.path.join(_SRC_PATH, 'brave', 'ui', 'webui', 'resources')
++_BR_RESOURCES_PATH = os.path.join(_SRC_PATH, 'onevn', 'ui', 'webui', 'resources')
 +
  _VULCANIZE_BASE_ARGS = [
    # These files are already combined and minified.
@@ -15,8 +15,8 @@ index 124f748150d8952575c591eaf7deea0da76c4092..1745b508d58d35f6d03c73fe2dd31b5c
    '--exclude', 'chrome://resources/css/text_defaults.css',
    '--exclude', 'chrome://resources/css/text_defaults_md.css',
    '--exclude', 'chrome://resources/js/load_time_data.js',
-+  '--exclude', 'chrome://brave-resources/fonts/muli.css',
-+  '--exclude', 'chrome://brave-resources/fonts/poppins.css',
++  '--exclude', 'chrome://onevn-resources/fonts/muli.css',
++  '--exclude', 'chrome://onevn-resources/fonts/poppins.css',
  
    '--inline-css',
    '--inline-scripts',
@@ -26,7 +26,7 @@ index 124f748150d8952575c591eaf7deea0da76c4092..1745b508d58d35f6d03c73fe2dd31b5c
      ('chrome://resources/js/', _JS_RESOURCES_PATH),
 -    ('chrome://resources/polymer/v1_0/', _POLYMER_PATH)
 +    ('chrome://resources/polymer/v1_0/', _POLYMER_PATH),
-+    ('chrome://brave-resources/', _BR_RESOURCES_PATH)
++    ('chrome://onevn-resources/', _BR_RESOURCES_PATH)
  ]
  
  

@@ -1,14 +1,14 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#ifndef BRAVE_BROWSER_TOR_TOR_PROFILE_SERVICE_H_
-#define BRAVE_BROWSER_TOR_TOR_PROFILE_SERVICE_H_
+#ifndef ONEVN_BROWSER_TOR_TOR_PROFILE_SERVICE_H_
+#define ONEVN_BROWSER_TOR_TOR_PROFILE_SERVICE_H_
 
 #include "base/macros.h"
 #include "base/observer_list.h"
-#include "brave/common/tor/tor_common.h"
+#include "onevn/common/tor/tor_common.h"
 #include "components/keyed_service/core/keyed_service.h"
 #include "url/gurl.h"
 
@@ -57,4 +57,4 @@ class TorProfileService : public KeyedService {
 
 }  // namespace tor
 
-#endif  // BRAVE_BROWSER_TOR_TOR_PROFILE_SERVICE_H_
+#endif  // ONEVN_BROWSER_TOR_TOR_PROFILE_SERVICE_H_

@@ -6,7 +6,7 @@ index 1f4e4f27248764e9b375a5c46af8c9a2179bb964..5839db767901a1953d3571bbb2e22b4d
  #include "base/metrics/histogram_macros.h"
  #include "base/stl_util.h"
  #include "base/trace_event/trace_event.h"
-+#include "brave/common/extensions/extension_constants.h"
++#include "onevn/common/extensions/extension_constants.h"
  #include "build/build_config.h"
  #include "chrome/browser/extensions/extension_management.h"
  #include "chrome/browser/extensions/extension_service.h"
@@ -14,7 +14,7 @@ index 1f4e4f27248764e9b375a5c46af8c9a2179bb964..5839db767901a1953d3571bbb2e22b4d
  
  // static
  bool InstallVerifier::IsFromStore(const Extension& extension) {
-+  // Do not fetch signatures for PDFJS which is hosted by Brave, not CWS
++  // Do not fetch signatures for PDFJS which is hosted by OneVN, not CWS
 +  if (extension.id() == pdfjs_extension_id) {
 +    return false;
 +  }

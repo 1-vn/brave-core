@@ -2,17 +2,17 @@ import("//build/config/features.gni")
 
 source_set("renderer") {
   sources = [
-    "brave_content_renderer_client.cc",
-    "brave_content_renderer_client.h",
-    "brave_content_settings_observer.cc",
-    "brave_content_settings_observer.h",
+    "onevn_content_renderer_client.cc",
+    "onevn_content_renderer_client.h",
+    "onevn_content_settings_observer.cc",
+    "onevn_content_settings_observer.h",
   ]
 
   deps = [
     "//chrome/renderer",
     "//skia",
     "//third_party/blink/public:blink",
-    "//brave/chromium_src:renderer",
-    "//brave/content:common",
+    "//onevn/chromium_src:renderer",
+    "//onevn/content:common",
   ]
 }

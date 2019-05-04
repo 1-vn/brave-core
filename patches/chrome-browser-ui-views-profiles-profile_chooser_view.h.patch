@@ -6,8 +6,8 @@ index 68f6117e09153a3234515286d783df9226ac9791..6537a30ddb9ef6d580eff348150dc4b8
    static void Hide();
  
   private:
-+  friend class BraveProfileChooserView;
-+  friend class BraveProfileChooserViewTest;
++  friend class OneVNProfileChooserView;
++  friend class OneVNProfileChooserViewTest;
    friend class ProfileChooserViewExtensionsTest;
  
    typedef std::vector<size_t> Indexes;

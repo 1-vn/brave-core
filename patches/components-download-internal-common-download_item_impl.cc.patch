@@ -9,7 +9,7 @@ index 919c614041cacabccff95a9727ed6f555bb11cf9..db4c5582991e548995e22a284cacc628
 -                     delegate_->IsOffTheRecord() ? GURL() : GetURL(),
 -                     delegate_->IsOffTheRecord() ? GURL() : GetReferrerUrl(),
 +                     GURL(),  // Never leak download URLs in metadata.
-+                     GURL(),  // See brave-browser#2766.
++                     GURL(),  // See onevn-browser#2766.
                       std::move(callback)));
  }
  

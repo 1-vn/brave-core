@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -12,8 +12,8 @@
 
 namespace confirmations {
 
-#define BAT_ADS_STAGING_SERVER "https://ads-serve.bravesoftware.com"
-#define BAT_ADS_PRODUCTION_SERVER "https://ads-serve.brave.com"
+#define BAT_ADS_STAGING_SERVER "https://ads-serve.onevnsoftware.com"
+#define BAT_ADS_PRODUCTION_SERVER "https://ads-serve.1-vn.com"
 
 static const int kMinimumUnblindedTokens = 20;
 static const int kMaximumUnblindedTokens = 50;

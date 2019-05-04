@@ -7,7 +7,7 @@ index c4d92f26cf4d2fbc2838de224643de20f7fe07c0..c9f8e7808850bc0568abbdb139bd2cdd
  
  bool NetworkTimeTracker::AreTimeFetchesEnabled() const {
 -  return base::FeatureList::IsEnabled(kNetworkTimeServiceQuerying);
-+  return false; // feature disabled in Brave
++  return false; // feature disabled in OneVN
  }
  
  NetworkTimeTracker::FetchBehavior NetworkTimeTracker::GetFetchBehavior() const {

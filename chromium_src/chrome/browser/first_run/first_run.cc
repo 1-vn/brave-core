@@ -2,11 +2,11 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/brave_browser_process_impl.h"
-#include "brave/browser/importer/brave_external_process_importer_host.h"
-#include "brave/browser/importer/brave_profile_writer.h"
-#include "brave/common/brave_switches.h"
-#include "brave/common/pref_names.h"
+#include "onevn/browser/onevn_browser_process_impl.h"
+#include "onevn/browser/importer/onevn_external_process_importer_host.h"
+#include "onevn/browser/importer/onevn_profile_writer.h"
+#include "onevn/common/onevn_switches.h"
+#include "onevn/common/pref_names.h"
 
 #include "base/command_line.h"
 #include "base/logging.h"
@@ -20,11 +20,11 @@
 #include "components/prefs/pref_registry_simple.h"
 #include "components/prefs/pref_service.h"
 
-#define ExternalProcessImporterHost BraveExternalProcessImporterHost
-#define ProfileWriter BraveProfileWriter
+#define ExternalProcessImporterHost OneVNExternalProcessImporterHost
+#define ProfileWriter OneVNProfileWriter
 #include "../../../../../chrome/browser/first_run/first_run.cc"
 
-namespace brave {
+namespace onevn {
 
 void AutoImportMuon() {
   base::CommandLine& command_line =
@@ -48,23 +48,23 @@ void AutoImportMuon() {
       run_loop.QuitClosure());
   run_loop.Run();
 
-  bool brave_profile_found = false;
-  size_t brave_profile_index = 0;
+  bool onevn_profile_found = false;
+  size_t onevn_profile_index = 0;
   for (size_t i = 0; i < importer_list->count(); i++) {
     const auto& source_profile = importer_list->GetSourceProfileAt(i);
-    if (source_profile.importer_type == importer::TYPE_BRAVE) {
-      brave_profile_found = true;
-      brave_profile_index = i;
+    if (source_profile.importer_type == importer::TYPE_ONEVN) {
+      onevn_profile_found = true;
+      onevn_profile_index = i;
       break;
     }
   }
-  if (!brave_profile_found) {
+  if (!onevn_profile_found) {
     LOG(INFO) << "Muon profile not found";
     return;
   }
 
   const importer::SourceProfile& source_profile =
-      importer_list->GetSourceProfileAt(brave_profile_index);
+      importer_list->GetSourceProfileAt(onevn_profile_index);
 
   // Import every possible type of data from the Muon profile.
   uint16_t items_to_import = 0;
@@ -83,4 +83,4 @@ void RegisterPrefsForMuonMigration(PrefRegistrySimple* registry) {
   registry->RegisterBooleanPref(kMigratedMuonProfile, false);
 }
 
-}  // namespace brave
+}  // namespace onevn

@@ -4,7 +4,7 @@
 
 module tor.mojom;
 
-import "brave/common/tor/tor_config.mojom";
+import "onevn/common/tor/tor_config.mojom";
 
 const string kTorLauncherServiceName = "tor_launcher";
 

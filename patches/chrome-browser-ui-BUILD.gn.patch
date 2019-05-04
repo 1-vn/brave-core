@@ -7,7 +7,7 @@ index d4ff15d0fcd90a46ef3ad48ef5717d215fafef9b..8254013128faef4e997b27414cb363dc
      "//v8:v8_version",
    ]
 +  deps += [
-+    "//brave/browser/ui",
++    "//onevn/browser/ui",
 +  ]
    allow_circular_includes_from +=
        [ "//chrome/browser/ui/webui/bluetooth_internals" ]
@@ -21,7 +21,7 @@ index d4ff15d0fcd90a46ef3ad48ef5717d215fafef9b..8254013128faef4e997b27414cb363dc
 -        "webui/help/version_updater_basic.h",
 -      ]
 +      if (!is_official_build) {
-+        # In official build, //brave/browser/ui handles.
++        # In official build, //onevn/browser/ui handles.
 +        sources += [
 +          "webui/help/version_updater_basic.cc",
 +          "webui/help/version_updater_basic.h",

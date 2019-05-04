@@ -6,7 +6,7 @@ index 073db629d39fc986f85cbd9d3cc359ed9f79c408..0a782dd533bccaf94076696d66ab8f54
  }
  
  static_library("version_info") {
-+  configs += [ "//brave/build:version" ]
++  configs += [ "//onevn/build:version" ]
    sources = [
      "version_info.cc",
      "version_info.h",

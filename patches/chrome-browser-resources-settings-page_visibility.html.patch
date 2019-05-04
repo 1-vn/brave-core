@@ -6,4 +6,4 @@ index 8ea50773be028e98aa2d4f90477a05f69f5a476e..6f8314a72295c599bdf97831436562c2
  <link rel="import" href="chrome://resources/html/cr.html">
  
  <script src="page_visibility.js"></script>
-+<script src="brave_page_visibility.js"></script>
++<script src="onevn_page_visibility.js"></script>

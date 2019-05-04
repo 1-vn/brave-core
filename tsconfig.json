@@ -18,8 +18,8 @@
     "moduleResolution": "node",
     "baseUrl": ".",
     "paths": {
-      "brave-ui": ["node_modules/brave-ui/src"],
-      "brave-ui/*": ["node_modules/brave-ui/src/*"]
+      "onevn-ui": ["node_modules/onevn-ui/src"],
+      "onevn-ui/*": ["node_modules/onevn-ui/src/*"]
     },
     "typeRoots": [
       "./node_modules/@types",
@@ -34,6 +34,6 @@
   },
   "include": [
     "./components/definitions/*",
-    "./components/brave_extension/extension/brave_extension/types/**/*"
+    "./components/onevn_extension/extension/onevn_extension/types/**/*"
   ]
 }

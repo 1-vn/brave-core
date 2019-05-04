@@ -1,32 +1,32 @@
 import("//chrome/common/features.gni")
 import("//tools/grit/grit_rule.gni")
 
-grit("brave_theme_resources") {
-  source = "brave_theme_resources.grd"
+grit("onevn_theme_resources") {
+  source = "onevn_theme_resources.grd"
   defines = chrome_grit_defines
   outputs = [
-    "grit/brave_theme_resources.h",
-    "grit/brave_theme_resources_map.cc",
-    "grit/brave_theme_resources_map.h",
-    "brave_theme_resources_100_percent.pak",
-    "brave_theme_resources_200_percent.pak",
-    "brave_theme_resources_300_percent.pak",
+    "grit/onevn_theme_resources.h",
+    "grit/onevn_theme_resources_map.cc",
+    "grit/onevn_theme_resources_map.h",
+    "onevn_theme_resources_100_percent.pak",
+    "onevn_theme_resources_200_percent.pak",
+    "onevn_theme_resources_300_percent.pak",
   ]
 
-  resource_ids = "//brave/browser/resources/resource_ids"
+  resource_ids = "//onevn/browser/resources/resource_ids"
 
-  output_dir = "$root_gen_dir/brave"
+  output_dir = "$root_gen_dir/onevn"
 }
 
-grit("brave_unscaled_resources") {
-  source = "brave_unscaled_resources.grd"
+grit("onevn_unscaled_resources") {
+  source = "onevn_unscaled_resources.grd"
   defines = chrome_grit_defines
   outputs = [
-    "grit/brave_unscaled_resources.h",
-    "brave_unscaled_resources.pak",
+    "grit/onevn_unscaled_resources.h",
+    "onevn_unscaled_resources.pak",
   ]
 
-  resource_ids = "//brave/browser/resources/resource_ids"
+  resource_ids = "//onevn/browser/resources/resource_ids"
 
-  output_dir = "$root_gen_dir/brave"
+  output_dir = "$root_gen_dir/onevn"
 }

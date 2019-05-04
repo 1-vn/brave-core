@@ -6,8 +6,8 @@ index a238056a53f78fd23b9bac6cae144ec87ddad69a..fadeefa09f3a217e0feff3b7dc47cb57
  #include "base/command_line.h"
  #include "base/logging.h"
  #include "base/version.h"
-+#include "brave/browser/extensions/brave_component_extension_resource_manager.h"
-+#include "brave/browser/extensions/brave_extensions_browser_api_provider.h"
++#include "onevn/browser/extensions/onevn_component_extension_resource_manager.h"
++#include "onevn/browser/extensions/onevn_extensions_browser_api_provider.h"
  #include "build/build_config.h"
  #include "chrome/browser/app_mode/app_mode_utils.h"
  #include "chrome/browser/browser_process.h"
@@ -15,13 +15,13 @@ index a238056a53f78fd23b9bac6cae144ec87ddad69a..fadeefa09f3a217e0feff3b7dc47cb57
  ChromeExtensionsBrowserClient::ChromeExtensionsBrowserClient() {
    AddAPIProvider(std::make_unique<CoreExtensionsBrowserAPIProvider>());
    AddAPIProvider(std::make_unique<ChromeExtensionsBrowserAPIProvider>());
-+  AddAPIProvider(std::make_unique<BraveExtensionsBrowserAPIProvider>());
++  AddAPIProvider(std::make_unique<OneVNExtensionsBrowserAPIProvider>());
  
    process_manager_delegate_.reset(new ChromeProcessManagerDelegate);
    api_client_.reset(new ChromeExtensionsAPIClient);
    SetCurrentChannel(chrome::GetChannel());
 -  resource_manager_.reset(new ChromeComponentExtensionResourceManager());
-+  resource_manager_.reset(new BraveComponentExtensionResourceManager());
++  resource_manager_.reset(new OneVNComponentExtensionResourceManager());
  }
  
  ChromeExtensionsBrowserClient::~ChromeExtensionsBrowserClient() {}

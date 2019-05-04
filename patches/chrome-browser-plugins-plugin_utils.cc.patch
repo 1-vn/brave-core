@@ -8,7 +8,7 @@ index 8b04209fa967cf36c6f90a8c47dc22cc4fd25172..9ba805fdb55ebfec32bf05a4f4c53bf3
        io_data->GetExtensionInfoMap());
 -  std::vector<std::string> whitelist = MimeTypesHandler::GetMIMETypeWhitelist();
 +  std::vector<std::string> whitelist =
-+      MimeTypesHandler::BraveGetMIMETypeWhitelist();
++      MimeTypesHandler::OneVNGetMIMETypeWhitelist();
    // Go through the white-listed extensions and try to use them to intercept
    // the URL request.
    for (const std::string& extension_id : whitelist) {

@@ -13,7 +13,7 @@ from lib.config import (PLATFORM, DIST_URL, get_target_arch,
                         get_chromedriver_version, get_env_var,
                         s3_config, get_zip_name, product_name,
                         project_name, SOURCE_ROOT, dist_dir,
-                        output_dir, get_brave_version,
+                        output_dir, get_onevn_version,
                         get_raw_version)
 from lib.helpers import *
 import requests
@@ -29,16 +29,16 @@ def main():
         logging.basicConfig(stream=sys.stderr, level=logging.DEBUG)
         logging.debug('prerelease: {}'.format(args.prerelease))
 
-    if not os.environ.get('npm_config_brave_version'):
-        message = ('Error: Please set the $npm_config_brave_version'
+    if not os.environ.get('npm_config_onevn_version'):
+        message = ('Error: Please set the $npm_config_onevn_version'
                    'environment variable')
         exit(message)
 
-    BRAVE_VERSION = os.environ.get('npm_config_brave_version')
+    ONEVN_VERSION = os.environ.get('npm_config_onevn_version')
 
-    repo = GitHub(get_env_var('GITHUB_TOKEN')).repos(BRAVE_REPO)
+    repo = GitHub(get_env_var('GITHUB_TOKEN')).repos(ONEVN_REPO)
 
-    release = get_draft(repo, BRAVE_VERSION)
+    release = get_draft(repo, ONEVN_VERSION)
 
     tag_name = release['tag_name']
 
@@ -74,7 +74,7 @@ def publish_release(repo, release_id, tag, prerelease, logging):
 def parse_args():
     desc = "Publish GitHub draft release" \
         "\n\nRequires the following ENVIRONMENT VARIABLES be set:" \
-        "\n\nCHANNEL: The Brave channel, i.e. \'nightly\', \'dev\', \'beta\', \'release\'"
+        "\n\nCHANNEL: The OneVN channel, i.e. \'nightly\', \'dev\', \'beta\', \'release\'"
 
     parser = argparse.ArgumentParser(
         description=desc, formatter_class=RawTextHelpFormatter)

@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/utility/importer/firefox_importer.h"
+#include "onevn/utility/importer/firefox_importer.h"
 
 #include <vector>
 
@@ -11,7 +11,7 @@
 #include "base/macros.h"
 #include "base/strings/string_util.h"
 #include "base/strings/utf_string_conversions.h"
-#include "brave/utility/importer/brave_external_process_importer_bridge.h"
+#include "onevn/utility/importer/onevn_external_process_importer_bridge.h"
 #include "build/build_config.h"
 #include "chrome/grit/generated_resources.h"
 #include "components/autofill/core/common/password_form.h"
@@ -23,7 +23,7 @@
 
 using base::Time;
 
-namespace brave {
+namespace onevn {
 
 FirefoxImporter::FirefoxImporter() {
 }
@@ -106,4 +106,4 @@ void FirefoxImporter::ImportCookies() {
   }
 }
 
-}  // namespace brave
+}  // namespace onevn

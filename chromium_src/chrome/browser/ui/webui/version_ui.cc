@@ -2,8 +2,8 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/version_info.h"
+#include "onevn/browser/version_info.h"
 
-#define GetVersionNumber GetBraveVersionNumberForDisplay
+#define GetVersionNumber GetOneVNVersionNumberForDisplay
 #include "../../../../../../../chrome/browser/ui/webui/version_ui.cc"
 #undef GetVersionNumber

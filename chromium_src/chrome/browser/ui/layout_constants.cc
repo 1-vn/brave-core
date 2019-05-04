@@ -6,13 +6,13 @@
 #include "../../../../../chrome/browser/ui/layout_constants.cc"
 #undef GetLayoutConstant
 
-#include "brave/browser/ui/brave_layout_constants.h"
+#include "onevn/browser/ui/onevn_layout_constants.h"
 
 int GetLayoutConstant(LayoutConstant constant) {
-  // get brave overriden value
-  const base::Optional<int> braveOption = GetBraveLayoutConstant(constant);
-  if (braveOption) {
-    return braveOption.value();
+  // get onevn overriden value
+  const base::Optional<int> onevnOption = GetOneVNLayoutConstant(constant);
+  if (onevnOption) {
+    return onevnOption.value();
   }
   // get chromium value
   return GetLayoutConstant_ChromiumImpl(constant);

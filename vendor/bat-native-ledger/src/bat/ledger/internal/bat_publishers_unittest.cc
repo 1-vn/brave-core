@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -7,9 +7,9 @@
 #include "bat/ledger/ledger.h"
 #include "testing/gtest/include/gtest/gtest.h"
 
-// npm run test -- brave_unit_tests --filter=BatPublishersTest.*
+// npm run test -- onevn_unit_tests --filter=BatPublishersTest.*
 
-namespace braveledger_bat_publishers {
+namespace onevnledger_bat_publishers {
 
 class BatPublishersTest : public testing::Test {
  protected:
@@ -33,8 +33,8 @@ class BatPublishersTest : public testing::Test {
 };
 
 TEST_F(BatPublishersTest, calcScoreConsts) {
-  braveledger_bat_publishers::BatPublishers* publishers =
-      new braveledger_bat_publishers::BatPublishers(nullptr);
+  onevnledger_bat_publishers::BatPublishers* publishers =
+      new onevnledger_bat_publishers::BatPublishers(nullptr);
 
   /*
    * Test 5 seconds
@@ -71,8 +71,8 @@ TEST_F(BatPublishersTest, calcScoreConsts) {
 }
 
 TEST_F(BatPublishersTest, concaveScore) {
-  braveledger_bat_publishers::BatPublishers* publishers =
-      new braveledger_bat_publishers::BatPublishers(nullptr);
+  onevnledger_bat_publishers::BatPublishers* publishers =
+      new onevnledger_bat_publishers::BatPublishers(nullptr);
 
   /*
    * min duration: 5 seconds
@@ -115,8 +115,8 @@ TEST_F(BatPublishersTest, concaveScore) {
 }
 
 TEST_F(BatPublishersTest, synopsisNormalizerInternal) {
-  std::unique_ptr<braveledger_bat_publishers::BatPublishers> bat_publishers =
-      std::make_unique<braveledger_bat_publishers::BatPublishers>(nullptr);
+  std::unique_ptr<onevnledger_bat_publishers::BatPublishers> bat_publishers =
+      std::make_unique<onevnledger_bat_publishers::BatPublishers>(nullptr);
   // create test PublisherInfo list
   ledger::PublisherInfoList new_list;
   ledger::PublisherInfoList list;
@@ -147,4 +147,4 @@ TEST_F(BatPublishersTest, synopsisNormalizerInternal) {
   }
 }
 
-}  // namespace braveledger_bat_publishers
+}  // namespace onevnledger_bat_publishers

@@ -2,10 +2,10 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/browser_commands.h"
+#include "onevn/browser/ui/browser_commands.h"
 
-#include "brave/browser/tor/tor_profile_service.h"
-#include "brave/browser/tor/tor_profile_service_factory.h"
+#include "onevn/browser/tor/tor_profile_service.h"
+#include "onevn/browser/tor/tor_profile_service_factory.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/profiles/profile_manager.h"
 #include "chrome/browser/profiles/profile_window.h"
@@ -26,7 +26,7 @@ void NewTorIdentityCallback(WebContents* current_tab) {
 }
 }  // namespace
 
-namespace brave {
+namespace onevn {
 
 void NewOffTheRecordWindowTor(Browser* browser) {
   profiles::SwitchToTorProfile(ProfileManager::CreateCallback());
@@ -47,4 +47,4 @@ void NewTorIdentity(Browser* browser) {
                                                     current_tab));
 }
 
-}  // namespace brave
+}  // namespace onevn

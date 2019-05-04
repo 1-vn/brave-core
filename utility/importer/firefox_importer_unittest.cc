@@ -2,9 +2,9 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/utility/importer/firefox_importer.h"
-#include "brave/common/brave_paths.h"
-#include "brave/common/importer/brave_mock_importer_bridge.h"
+#include "onevn/utility/importer/firefox_importer.h"
+#include "onevn/common/onevn_paths.h"
+#include "onevn/common/importer/onevn_mock_importer_bridge.h"
 
 #include "base/files/file_path.h"
 #include "base/files/file_util.h"
@@ -18,7 +18,7 @@ using ::testing::_;
 
 base::FilePath GetTestFirefoxProfileDir(const std::string& profile) {
   base::FilePath test_dir;
-  base::PathService::Get(brave::DIR_TEST_DATA, &test_dir);
+  base::PathService::Get(onevn::DIR_TEST_DATA, &test_dir);
 
   return test_dir.AppendASCII("import").AppendASCII("firefox")
       .AppendASCII(profile);
@@ -43,15 +43,15 @@ class FirefoxImporterTest : public ::testing::Test {
 
   void SetUp() override {
     SetUpFirefoxProfile();
-    importer_ = new brave::FirefoxImporter;
-    bridge_ = new BraveMockImporterBridge;
+    importer_ = new onevn::FirefoxImporter;
+    bridge_ = new OneVNMockImporterBridge;
   }
 
   base::ScopedTempDir temp_dir_;
   base::FilePath profile_dir_;
   importer::SourceProfile profile_;
-  scoped_refptr<brave::FirefoxImporter> importer_;
-  scoped_refptr<BraveMockImporterBridge> bridge_;
+  scoped_refptr<onevn::FirefoxImporter> importer_;
+  scoped_refptr<OneVNMockImporterBridge> bridge_;
 };
 
 TEST_F(FirefoxImporterTest, ImportCookies) {

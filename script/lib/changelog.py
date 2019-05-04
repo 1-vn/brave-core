@@ -30,7 +30,7 @@ def render_markdown(changelog_txt, version, logging):
         heading = reconstruct_heading(version_heading)
         s = heading + '\n'
         s = s + '\n'
-        changes = reconstruct_brave_changelog_list(version_changes)
+        changes = reconstruct_onevn_changelog_list(version_changes)
         for i in changes:
             s = s + i + '\n'
     else:
@@ -60,7 +60,7 @@ def reconstruct_heading(heading):
                                      heading['children'][0]['target']))
 
 
-def reconstruct_brave_changelog_list(li):
+def reconstruct_onevn_changelog_list(li):
     """
     li is a list
     """

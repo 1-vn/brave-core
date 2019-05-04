@@ -7,7 +7,7 @@ index 2f6b793ce0eaa4f95bd5ea08c263e11c5792c22d..cbd677a89a739dec2a4204c97e6e6a49
  
  const char kPluginsServerUrl[] =
 -    "https://www.gstatic.com/chrome/config/plugins_3/";
-+    "https://static1.brave.com/chrome/config/plugins_3/";
++    "https://static1.1-vn.com/chrome/config/plugins_3/";
  
  GURL GetPluginsServerURL() {
    std::string filename;

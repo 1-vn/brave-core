@@ -1,0 +1,41 @@
+<link rel="import" href="chrome://resources/html/polymer.html">
+
+<link rel="import" href="chrome://resources/html/i18n_behavior.html">
+<link rel="import" href="chrome://resources/html/md_select_css.html">
+<link rel="import" href="onevn_appearance_browser_proxy.html">
+<link rel="import" href="../settings_shared_css.html">
+<link rel="import" href="../settings_vars_css.html">
+
+<dom-module id="settings-onevn-appearance-theme">
+  <template>
+    <style include="settings-shared md-select iron-flex">
+    </style>
+    <div class="settings-box first">
+      <div class="start">$i18n{appearanceSettingsOneVNTheme}</div>
+      <settings-dropdown-menu id="onevnThemeType"
+          label="$i18n{appearanceSettingsOneVNTheme}"
+          pref="{{prefs.onevn.theme.type}}"
+          menu-options="[[onevnThemeList_]]">
+      </settings-dropdown-menu>
+    </div>
+  </template>
+  <script src="onevn_appearance_page.js"></script>
+</dom-module>
+
+<dom-module id="settings-onevn-appearance-toolbar">
+  <template>
+    <style include="settings-shared md-select iron-flex">
+    </style>
+    <settings-toggle-button
+      pref="{{prefs.onevn.location_bar_is_wide}}"
+      label="$i18n{appearanceSettingsLocationBarIsWide}"
+    >
+    </settings-toggle-button>
+    <settings-toggle-button
+      pref="{{prefs.onevn.hide_onevn_rewards_button}}"
+      label="$i18n{appearanceSettingsHideOneVNRewardsButtonLabel}"
+      sub-label="$i18n{appearanceSettingsHideOneVNRewardsButtonDesc}"
+    >
+    </settings-toggle-button>
+  </template>
+</dom-module>

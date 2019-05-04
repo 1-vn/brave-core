@@ -6,7 +6,7 @@ index 1d20ae58c7f6f07043d501c733055eff1bb00948..473862f4064946e43b65a41b0b3711e4
    if ((!is_android || enable_vr) && !is_ios) {
      deps += [ ":vector_icons" ]
    }
-+  if (brave_chromium_build) {  deps += [ "//brave/components/omnibox/browser" ] }
++  if (onevn_chromium_build) {  deps += [ "//onevn/components/omnibox/browser" ] }
  
    if (is_android) {
      deps += [ ":jni_headers" ]

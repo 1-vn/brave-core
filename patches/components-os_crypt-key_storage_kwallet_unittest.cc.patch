@@ -8,8 +8,8 @@ index 2525d210adfecca3a4ddc9f0da7d503faa347040..24ca5e613b265feac3857193192c5fc9
  #else
 -const char kExpectedFolderName[] = "Chromium Keys";
 -const char kExpectedEntryName[] = "Chromium Safe Storage";
-+const char kExpectedFolderName[] = "Brave Keys";
-+const char kExpectedEntryName[] = "Brave Safe Storage";
++const char kExpectedFolderName[] = "OneVN Keys";
++const char kExpectedEntryName[] = "OneVN Safe Storage";
  #endif
  
  // Environment-specific behavior is handled and tested with KWalletDBus, not

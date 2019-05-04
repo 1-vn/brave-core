@@ -5,6 +5,6 @@
 #include "../../../../../content/public/common/url_constants.h"
 
 namespace content {
-CONTENT_EXPORT extern const char kBraveUIScheme[];
+CONTENT_EXPORT extern const char kOneVNUIScheme[];
 }
 

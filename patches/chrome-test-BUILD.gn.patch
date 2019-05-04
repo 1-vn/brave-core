@@ -6,7 +6,7 @@ index fd7f3e60a599975b3e2c80f90d4bb1bd03539d8e..47897266f9bfdb3a1970f4df2ea0cb74
      "//third_party/blink/public:buildflags",
    ]
  
-+  deps += [ "//brave/test:brave_browser_tests_deps", ]
++  deps += [ "//onevn/test:onevn_browser_tests_deps", ]
 +
    data_deps = [
      "//testing/buildbot/filters:browser_tests_filters",

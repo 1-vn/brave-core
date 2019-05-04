@@ -1,8 +1,8 @@
-import("//brave/build/linux/channels.gni")
+import("//onevn/build/linux/channels.gni")
 
 assert(is_linux)
 
-group("brave") {
+group("onevn") {
   public_deps = [
     ":copy_exe",
     ":copy_sandbox",
@@ -15,7 +15,7 @@ copy("copy_exe") {
   ]
 
   outputs = [
-    "$root_out_dir/brave",
+    "$root_out_dir/onevn",
   ]
 
   deps = [
@@ -29,7 +29,7 @@ copy("copy_sandbox") {
   ]
 
   outputs = [
-    "$root_out_dir/brave_sandbox",
+    "$root_out_dir/onevn_sandbox",
   ]
 
   deps = [
@@ -40,9 +40,9 @@ copy("copy_sandbox") {
 
 config("linux_channel_names") {
   defines= [
-    "BRAVE_LINUX_CHANNEL_STABLE=\"$brave_linux_channel_stable\"",
-    "BRAVE_LINUX_CHANNEL_DEV=\"$brave_linux_channel_dev\"",
-    "BRAVE_LINUX_CHANNEL_NIGHTLY=\"$brave_linux_channel_nightly\"",
+    "ONEVN_LINUX_CHANNEL_STABLE=\"$onevn_linux_channel_stable\"",
+    "ONEVN_LINUX_CHANNEL_DEV=\"$onevn_linux_channel_dev\"",
+    "ONEVN_LINUX_CHANNEL_NIGHTLY=\"$onevn_linux_channel_nightly\"",
     "LINUX_CHANNEL_STABLE=\"$linux_channel_stable\"",
     "LINUX_CHANNEL_BETA=\"$linux_channel_beta\"",
     "LINUX_CHANNEL_DEV=\"$linux_channel_dev\"",

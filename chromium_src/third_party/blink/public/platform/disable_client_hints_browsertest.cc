@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -6,7 +6,7 @@
 #include "base/bind.h"
 #include "base/path_service.h"
 #include "base/run_loop.h"
-#include "brave/common/brave_paths.h"
+#include "onevn/common/onevn_paths.h"
 #include "chrome/test/base/in_process_browser_test.h"
 #include "chrome/test/base/ui_test_utils.h"
 #include "net/dns/mock_host_resolver.h"
@@ -22,9 +22,9 @@ class ClientHintsBrowserTest : public InProcessBrowserTest {
   ClientHintsBrowserTest()
       : https_server_(net::EmbeddedTestServer::TYPE_HTTPS),
         count_client_hints_headers_seen_(0) {
-    brave::RegisterPathProvider();
+    onevn::RegisterPathProvider();
     base::FilePath test_data_dir;
-    base::PathService::Get(brave::DIR_TEST_DATA, &test_data_dir);
+    base::PathService::Get(onevn::DIR_TEST_DATA, &test_data_dir);
 
     https_server_.ServeFilesFromDirectory(test_data_dir);
     https_server_.RegisterRequestMonitor(

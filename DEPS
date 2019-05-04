@@ -16,8 +16,8 @@ deps = {
   "vendor/bip39wally-core-native": "https://github.com/1-vn/bat-native-bip39wally-core.git@9b119931c702d55be994117eb505d56310720b1d",
   "vendor/bat-native-anonize": "https://github.com/1-vn/bat-native-anonize.git@b8ef1a3f85aec0a0522a9230d59b3958a2150fab",
   "vendor/bat-native-tweetnacl": "https://github.com/1-vn/bat-native-tweetnacl.git@1b4362968c8f22720bfb75af6f506d4ecc0f3116",
-  "components/brave_sync/extension/brave-sync": "https://github.com/1-vn/sync.git@b1918f0658a5cec2178d8429166ddf5a4798e010",
-  "components/brave_sync/extension/brave-crypto": "https://github.com/1-vn/crypto@54f35a7bd6e297620c6add188f1b31af3d0ec561",
+  "components/onevn_sync/extension/onevn-sync": "https://github.com/1-vn/sync.git@b1918f0658a5cec2178d8429166ddf5a4798e010",
+  "components/onevn_sync/extension/onevn-crypto": "https://github.com/1-vn/crypto@54f35a7bd6e297620c6add188f1b31af3d0ec561",
   "vendor/bat-native-usermodel": "https://github.com/1-vn/bat-native-usermodel.git@c3b6111aa862c5c452c84be8a225d5f1df32b284",
   "vendor/challenge_bypass_ristretto_ffi": "https://github.com/1-vn/challenge-bypass-ristretto-ffi.git@2c0e28f76e4b6f53947bf4faa5afd93614f96aca",
 }
@@ -26,24 +26,24 @@ hooks = [
   {
     'name': 'bootstrap',
     'pattern': '.',
-    'action': ['python', 'src/brave/script/bootstrap.py'],
+    'action': ['python', 'src/onevn/script/bootstrap.py'],
   },
   {
     # Download rust deps if necessary
     'name': 'download_rust_deps',
     'pattern': '.',
-    'action': ['python', 'src/brave/script/download_rust_deps.py'],
+    'action': ['python', 'src/onevn/script/download_rust_deps.py'],
   },
   {
-    # Build brave-sync
-    'name': 'build_brave_sync',
+    # Build onevn-sync
+    'name': 'build_onevn_sync',
     'pattern': '.',
-    'action': ['python', 'src/brave/script/build-simple-js-bundle.py', '--repo_dir_path', 'src/brave/components/brave_sync/extension/brave-sync'],
+    'action': ['python', 'src/onevn/script/build-simple-js-bundle.py', '--repo_dir_path', 'src/onevn/components/onevn_sync/extension/onevn-sync'],
   },
   {
-    # Build brave-crypto
-    'name': 'build_brave_crypto',
+    # Build onevn-crypto
+    'name': 'build_onevn_crypto',
     'pattern': '.',
-    'action': ['python', 'src/brave/script/build-simple-js-bundle.py', '--repo_dir_path', 'src/brave/components/brave_sync/extension/brave-crypto'],
+    'action': ['python', 'src/onevn/script/build-simple-js-bundle.py', '--repo_dir_path', 'src/onevn/components/onevn_sync/extension/onevn-crypto'],
   }
 ]

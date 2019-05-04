@@ -4,9 +4,9 @@
 
 #include "net/cookies/canonical_cookie.h"
 
-struct BraveLedger;
-struct BraveStats;
-struct BraveReferral;
+struct OneVNLedger;
+struct OneVNStats;
+struct OneVNReferral;
 struct ImportedWindowState;
 struct SessionStoreSettings;
 

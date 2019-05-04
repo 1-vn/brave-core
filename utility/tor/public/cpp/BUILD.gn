@@ -6,7 +6,7 @@ source_set("manifest") {
 
   deps = [
     "//base",
-    "//brave/common/tor:tor_mojom_bindings",
+    "//onevn/common/tor:tor_mojom_bindings",
     "//services/service_manager/public/cpp",
   ]
 }

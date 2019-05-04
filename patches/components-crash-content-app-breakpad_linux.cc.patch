@@ -6,8 +6,8 @@ index ecc7d66acb033b9d9407a6ca61deabf290d63d57..13068edf29580c0b079e758f3b9ced3e
  namespace {
  
  #if !defined(OS_CHROMEOS)
-+#if defined(BRAVE_CHROMIUM_BUILD)
-+const char kUploadURL[] = "https://laptop-updates.brave.com/1/bc-crashes";
++#if defined(ONEVN_CHROMIUM_BUILD)
++const char kUploadURL[] = "https://laptop-updates.1-vn.com/1/bc-crashes";
 +#else
  const char kUploadURL[] = "https://clients2.google.com/cr/report";
  #endif

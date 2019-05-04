@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -24,23 +24,23 @@ namespace base {
 class SequencedTaskRunner;
 }
 
-namespace braveledger_bat_client {
+namespace onevnledger_bat_client {
 class BatClient;
 }
 
-namespace braveledger_bat_get_media {
+namespace onevnledger_bat_get_media {
 class BatGetMedia;
 }
 
-namespace braveledger_bat_publishers {
+namespace onevnledger_bat_publishers {
 class BatPublishers;
 }
 
-namespace braveledger_bat_state {
+namespace onevnledger_bat_state {
 class BatState;
 }
 
-namespace braveledger_bat_contribution {
+namespace onevnledger_bat_contribution {
 class BatContribution;
 }
 
@@ -171,7 +171,7 @@ class LedgerImpl : public ledger::Ledger,
   void LoadNicewareList(ledger::GetNicewareListCallback callback);
 
   void SetConfirmationsWalletInfo(
-      const braveledger_bat_helper::WALLET_INFO_ST& wallet_info);
+      const onevnledger_bat_helper::WALLET_INFO_ST& wallet_info);
 
   void LoadLedgerState(ledger::LedgerCallbackHandler* handler);
 
@@ -182,7 +182,7 @@ class LedgerImpl : public ledger::Ledger,
   void OnWalletInitialized(ledger::Result result);
 
   void OnWalletProperties(ledger::Result result,
-                          const braveledger_bat_helper::WALLET_PROPERTIES_ST&);
+                          const onevnledger_bat_helper::WALLET_PROPERTIES_ST&);
 
   void FetchWalletProperties(
       ledger::OnWalletPropertiesCallback callback) const override;
@@ -191,7 +191,7 @@ class LedgerImpl : public ledger::Ledger,
                    const std::string& paymentId) const override;
 
   void OnGrant(ledger::Result result,
-               const braveledger_bat_helper::GRANT& grant);
+               const onevnledger_bat_helper::GRANT& grant);
 
   void GetGrantCaptcha(
       const std::string& promotion_id,
@@ -203,7 +203,7 @@ class LedgerImpl : public ledger::Ledger,
                          const std::string& promotionId) const override;
 
   void OnGrantFinish(ledger::Result result,
-                     const braveledger_bat_helper::GRANT& grant);
+                     const onevnledger_bat_helper::GRANT& grant);
 
   std::string GetWalletPassphrase() const override;
 
@@ -212,7 +212,7 @@ class LedgerImpl : public ledger::Ledger,
   void OnRecoverWallet(
       ledger::Result result,
       double balance,
-      const std::vector<braveledger_bat_helper::GRANT>& grants);
+      const std::vector<onevnledger_bat_helper::GRANT>& grants);
 
   void LoadPublishersListCallback(
       int response_status_code,
@@ -272,7 +272,7 @@ class LedgerImpl : public ledger::Ledger,
                             ledger::ReportType type,
                             const std::string& probi) override;
 
-  braveledger_bat_helper::CURRENT_RECONCILE
+  onevnledger_bat_helper::CURRENT_RECONCILE
   GetReconcileById(const std::string& viewingId);
 
   void RemoveReconcileById(const std::string& viewingId);
@@ -316,19 +316,19 @@ class LedgerImpl : public ledger::Ledger,
   void ResetReconcileStamp();
 
   bool UpdateReconcile(
-    const braveledger_bat_helper::CURRENT_RECONCILE& reconcile);
+    const onevnledger_bat_helper::CURRENT_RECONCILE& reconcile);
 
   void AddReconcile(
       const std::string& viewing_id,
-      const braveledger_bat_helper::CURRENT_RECONCILE& reconcile);
+      const onevnledger_bat_helper::CURRENT_RECONCILE& reconcile);
 
   const std::string& GetPaymentId() const;
 
   void SetPaymentId(const std::string& payment_id);
 
-  const braveledger_bat_helper::Grants& GetGrants() const;
+  const onevnledger_bat_helper::Grants& GetGrants() const;
 
-  void SetGrants(braveledger_bat_helper::Grants grants);
+  void SetGrants(onevnledger_bat_helper::Grants grants);
   const std::string& GetPersonaId() const;
 
   void SetPersonaId(const std::string& persona_id);
@@ -345,37 +345,37 @@ class LedgerImpl : public ledger::Ledger,
 
   void SetPreFlight(const std::string& pre_flight);
 
-  const braveledger_bat_helper::WALLET_INFO_ST& GetWalletInfo() const;
+  const onevnledger_bat_helper::WALLET_INFO_ST& GetWalletInfo() const;
 
-  void SetWalletInfo(const braveledger_bat_helper::WALLET_INFO_ST& info);
+  void SetWalletInfo(const onevnledger_bat_helper::WALLET_INFO_ST& info);
 
   const confirmations::WalletInfo GetConfirmationsWalletInfo(
-      const braveledger_bat_helper::WALLET_INFO_ST& info) const;
+      const onevnledger_bat_helper::WALLET_INFO_ST& info) const;
 
-  const braveledger_bat_helper::WALLET_PROPERTIES_ST&
+  const onevnledger_bat_helper::WALLET_PROPERTIES_ST&
   GetWalletProperties() const;
 
   void SetWalletProperties(
-      braveledger_bat_helper::WALLET_PROPERTIES_ST* properties);
+      onevnledger_bat_helper::WALLET_PROPERTIES_ST* properties);
 
   unsigned int GetDays() const;
 
   void SetDays(unsigned int days);
 
-  const braveledger_bat_helper::Transactions& GetTransactions() const;
+  const onevnledger_bat_helper::Transactions& GetTransactions() const;
 
   void SetTransactions(
-      const braveledger_bat_helper::Transactions& transactions);
+      const onevnledger_bat_helper::Transactions& transactions);
 
-  const braveledger_bat_helper::Ballots& GetBallots() const;
+  const onevnledger_bat_helper::Ballots& GetBallots() const;
 
   void SetBallots(
-      const braveledger_bat_helper::Ballots& ballots);
+      const onevnledger_bat_helper::Ballots& ballots);
 
-  const braveledger_bat_helper::BatchVotes& GetBatch() const;
+  const onevnledger_bat_helper::BatchVotes& GetBatch() const;
 
   void SetBatch(
-      const braveledger_bat_helper::BatchVotes& votes);
+      const onevnledger_bat_helper::BatchVotes& votes);
 
   const std::string& GetCurrency() const;
 
@@ -411,7 +411,7 @@ class LedgerImpl : public ledger::Ledger,
                         ledger::ContributionRetry step,
                         int level = -1);
 
-  const braveledger_bat_helper::CurrentReconciles& GetCurrentReconciles() const;
+  const onevnledger_bat_helper::CurrentReconciles& GetCurrentReconciles() const;
 
   double GetDefaultContributionAmount() override;
 
@@ -527,11 +527,11 @@ class LedgerImpl : public ledger::Ledger,
       ledger::OnRefreshPublisherCallback callback);
 
   ledger::LedgerClient* ledger_client_;
-  std::unique_ptr<braveledger_bat_client::BatClient> bat_client_;
-  std::unique_ptr<braveledger_bat_publishers::BatPublishers> bat_publishers_;
-  std::unique_ptr<braveledger_bat_get_media::BatGetMedia> bat_get_media_;
-  std::unique_ptr<braveledger_bat_state::BatState> bat_state_;
-  std::unique_ptr<braveledger_bat_contribution::BatContribution>
+  std::unique_ptr<onevnledger_bat_client::BatClient> bat_client_;
+  std::unique_ptr<onevnledger_bat_publishers::BatPublishers> bat_publishers_;
+  std::unique_ptr<onevnledger_bat_get_media::BatGetMedia> bat_get_media_;
+  std::unique_ptr<onevnledger_bat_state::BatState> bat_state_;
+  std::unique_ptr<onevnledger_bat_contribution::BatContribution>
   bat_contribution_;
   std::unique_ptr<confirmations::Confirmations> bat_confirmations_;
   scoped_refptr<base::SequencedTaskRunner> task_runner_;

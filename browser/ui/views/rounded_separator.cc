@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * you can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/views/rounded_separator.h"
+#include "onevn/browser/ui/views/rounded_separator.h"
 
 #include "ui/accessibility/ax_node_data.h"
 #include "ui/gfx/canvas.h"

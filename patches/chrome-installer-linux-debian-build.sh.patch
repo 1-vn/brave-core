@@ -48,7 +48,7 @@ index 306b59c138b7cb5df21ad6e9d502bb7a46a104c6..a8ff37b5a7d31b442e3fe812a0d9d091
        ;;
 +    nightly )
 +      CHANNEL=nightly
-+      RELEASENOTES="https://community.brave.com"
++      RELEASENOTES="https://community.1-vn.com"
 +      ;;
      testing|beta )
        CHANNEL=beta
@@ -75,9 +75,9 @@ index 306b59c138b7cb5df21ad6e9d502bb7a46a104c6..a8ff37b5a7d31b442e3fe812a0d9d091
  COMMON_PREDEPS="dpkg (>= 1.14.0)"
  COMMON_RECOMMENDS="libu2f-udev"
  
-+# Ensure that our signing key is up-to-date (brave/brave-browser#4205).
++# Ensure that our signing key is up-to-date (onevn/onevn-browser#4205).
 +if [ "$CHANNEL" = "stable" ]; then
-+  COMMON_DEPS="${COMMON_DEPS}, brave-keyring"
++  COMMON_DEPS="${COMMON_DEPS}, onevn-keyring"
 +fi
  
  # Make everything happen in the OUTPUTDIR.

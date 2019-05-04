@@ -7,7 +7,7 @@ index 7c7b6c5343bb05ebea63212a0c00fdfbd675efc7..55228955fe9b5dbb475f2c4e8164fa64
  
  version_info::Channel GetChromeChannel() {
 -#if defined(GOOGLE_CHROME_BUILD)
-+#if defined(GOOGLE_CHROME_BUILD) || (defined(BRAVE_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD))
++#if defined(GOOGLE_CHROME_BUILD) || (defined(ONEVN_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD))
    std::wstring channel_name(GetChromeChannelName());
    if (channel_name.empty()) {
      return version_info::Channel::STABLE;

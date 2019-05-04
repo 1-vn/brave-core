@@ -11,7 +11,7 @@ index 9dd42523f9704f57279abec23efb8bd07c4e8cfa..b6df2558a703c4c461910ee811a3177d
 +      base::Value::FromUniquePtrValue(
 +        content_settings::ContentSettingToValue(CONTENT_SETTING_ALLOW)),
 +      std::string(), incognito));
-+  rules->brave_shields_rules.push_back(ContentSettingPatternSource(
++  rules->onevn_shields_rules.push_back(ContentSettingPatternSource(
 +      ContentSettingsPattern::Wildcard(), ContentSettingsPattern::Wildcard(),
 +      base::Value::FromUniquePtrValue(
 +        content_settings::ContentSettingToValue(CONTENT_SETTING_ALLOW)),

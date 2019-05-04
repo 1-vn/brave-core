@@ -1,4 +1,4 @@
-import("//brave/build/features.gni")
+import("//onevn/build/features.gni")
 import("//build/util/branding.gni")
 
 declare_args() {
@@ -7,19 +7,19 @@ declare_args() {
   # "dev" for dev channel release.
   # "nightly" for nightly channel release.
   # "" for stable channel release.
-  brave_channel = ""
+  onevn_channel = ""
 
   base_sparkle_update_url = ""
 
-  brave_dsa_file = "dsa_pub.pem"
+  onevn_dsa_file = "dsa_pub.pem"
 
-  brave_product_name = ""
-  brave_project_name = ""
-  brave_exe = ""
-  brave_version_major = ""
-  brave_version_minor = ""
-  brave_version_build = ""
-  brave_version_patch = 0
+  onevn_product_name = ""
+  onevn_project_name = ""
+  onevn_exe = ""
+  onevn_version_major = ""
+  onevn_version_minor = ""
+  onevn_version_build = ""
+  onevn_version_patch = 0
   chrome_version_string = ""
   chrome_version_major = ""
   build_omaha = false
@@ -29,38 +29,38 @@ declare_args() {
 }
 
 if (base_sparkle_update_url == "") {
-  base_sparkle_update_url = "https://updates.bravesoftware.com/sparkle/Brave-Browser"
+  base_sparkle_update_url = "https://updates.onevnsoftware.com/sparkle/OneVN-Browser"
 }
-_update_channel = brave_channel
+_update_channel = onevn_channel
 if (_update_channel == "") {
   _update_channel = "stable"
 }
-brave_feed_url = "$base_sparkle_update_url/$_update_channel/appcast.xml"
+onevn_feed_url = "$base_sparkle_update_url/$_update_channel/appcast.xml"
 
-brave_version = "$brave_version_major.$brave_version_minor.$brave_version_build"
+onevn_version = "$onevn_version_major.$onevn_version_minor.$onevn_version_build"
 
-if (brave_exe == "") {
-  brave_exe = brave_project_name
+if (onevn_exe == "") {
+  onevn_exe = onevn_project_name
 }
 
-brave_dist_dir = "$root_out_dir/dist"
+onevn_dist_dir = "$root_out_dir/dist"
 if (is_win) {
-  brave_exe = "$brave_exe.exe"
-  brave_underline_full_version = "_$chrome_version_major" + "_$brave_version_major" + "_$brave_version_minor" + "_$brave_version_build"
+  onevn_exe = "$onevn_exe.exe"
+  onevn_underline_full_version = "_$chrome_version_major" + "_$onevn_version_major" + "_$onevn_version_minor" + "_$onevn_version_build"
   _channel = ""
-  brave_app_guid = "{AFE6A462-C574-4B8A-AF43-4CC60DF4563B}"
+  onevn_app_guid = "{AFE6A462-C574-4B8A-AF43-4CC60DF4563B}"
   if (is_official_build) {
-    if (brave_channel == "beta") {
+    if (onevn_channel == "beta") {
       _channel = "Beta"
-      brave_app_guid = "{103BD053-949B-43A8-9120-2E424887DE11}"
-    } else if (brave_channel == "dev") {
+      onevn_app_guid = "{103BD053-949B-43A8-9120-2E424887DE11}"
+    } else if (onevn_channel == "dev") {
       _channel = "Dev"
-      brave_app_guid = "{CB2150F2-595F-4633-891A-E39720CE0531}"
-    } else if (brave_channel == "nightly") {
+      onevn_app_guid = "{CB2150F2-595F-4633-891A-E39720CE0531}"
+    } else if (onevn_channel == "nightly") {
       _channel = "Nightly"
-      brave_app_guid = "{C6CB981E-DB30-4876-8639-109F8933582C}"
+      onevn_app_guid = "{C6CB981E-DB30-4876-8639-109F8933582C}"
     } else {
-      assert(brave_channel == "", "Unknown channel name")
+      assert(onevn_channel == "", "Unknown channel name")
     }
   } else {
     _channel = "Development"
@@ -69,38 +69,38 @@ if (is_win) {
   if (target_cpu == "x86") {
     _arch = "32"
   }
-  brave_installer_exe = "brave_installer$brave_underline_full_version.exe"
-  brave_stub_installer_exe = "BraveBrowser$_channel" + "Setup$_arch$brave_underline_full_version.exe"
-  brave_silent_stub_installer_exe = "BraveBrowserSilent$_channel" + "Setup$_arch$brave_underline_full_version.exe"
-  brave_untagged_stub_installer_exe = "BraveBrowserUntagged$_channel" + "Setup$_arch$brave_underline_full_version.exe"
-  brave_standalone_installer_exe = "BraveBrowserStandalone$_channel" + "Setup$_arch$brave_underline_full_version.exe"
-  brave_silent_installer_exe = "BraveBrowserStandaloneSilent$_channel" + "Setup$_arch$brave_underline_full_version.exe"
-  brave_untagged_installer_exe = "BraveBrowserStandaloneUntagged$_channel" + "Setup$_arch$brave_underline_full_version.exe"
+  onevn_installer_exe = "onevn_installer$onevn_underline_full_version.exe"
+  onevn_stub_installer_exe = "OneVNBrowser$_channel" + "Setup$_arch$onevn_underline_full_version.exe"
+  onevn_silent_stub_installer_exe = "OneVNBrowserSilent$_channel" + "Setup$_arch$onevn_underline_full_version.exe"
+  onevn_untagged_stub_installer_exe = "OneVNBrowserUntagged$_channel" + "Setup$_arch$onevn_underline_full_version.exe"
+  onevn_standalone_installer_exe = "OneVNBrowserStandalone$_channel" + "Setup$_arch$onevn_underline_full_version.exe"
+  onevn_silent_installer_exe = "OneVNBrowserStandaloneSilent$_channel" + "Setup$_arch$onevn_underline_full_version.exe"
+  onevn_untagged_installer_exe = "OneVNBrowserStandaloneUntagged$_channel" + "Setup$_arch$onevn_underline_full_version.exe"
 } else if (is_mac) {
-  brave_exe = "$chrome_product_full_name.app"
-  brave_dmg = "$chrome_product_full_name.dmg"
-  brave_pkg = "$chrome_product_full_name.pkg"
+  onevn_exe = "$chrome_product_full_name.app"
+  onevn_dmg = "$chrome_product_full_name.dmg"
+  onevn_pkg = "$chrome_product_full_name.pkg"
 
-  brave_product_dir_name_suffix = ""
+  onevn_product_dir_name_suffix = ""
   if (is_official_build) {
-    if (brave_channel == "beta") {
-      brave_product_dir_name_suffix = "-Beta"
-    } else if (brave_channel == "dev") {
-      brave_product_dir_name_suffix = "-Dev"
-    } else if (brave_channel == "nightly") {
-      brave_product_dir_name_suffix = "-Nightly"
+    if (onevn_channel == "beta") {
+      onevn_product_dir_name_suffix = "-Beta"
+    } else if (onevn_channel == "dev") {
+      onevn_product_dir_name_suffix = "-Dev"
+    } else if (onevn_channel == "nightly") {
+      onevn_product_dir_name_suffix = "-Nightly"
     } else {
-      assert(brave_channel == "", "Unknown channel name")
+      assert(onevn_channel == "", "Unknown channel name")
     }
   } else {
-    brave_product_dir_name_suffix = "-Development"
+    onevn_product_dir_name_suffix = "-Development"
   }
-  brave_product_dir_name = "BraveSoftware/Brave-Browser$brave_product_dir_name_suffix"
+  onevn_product_dir_name = "OneVNSoftware/OneVN-Browser$onevn_product_dir_name_suffix"
 }
 
-brave_platform = "darwin"
+onevn_platform = "darwin"
 if (is_win) {
-  brave_platform = "win32"
+  onevn_platform = "win32"
 } else if (is_linux) {
-  brave_platform = "linux"
+  onevn_platform = "linux"
 }

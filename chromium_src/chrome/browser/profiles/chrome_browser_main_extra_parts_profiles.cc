@@ -2,21 +2,21 @@
 #include "../../../../chrome/browser/profiles/chrome_browser_main_extra_parts_profiles.cc"
 #undef AddProfilesExtraParts
 
-#include "brave/browser/browser_context_keyed_service_factories.h"
+#include "onevn/browser/browser_context_keyed_service_factories.h"
 
 namespace {
 
-class BraveBrowserMainExtraPartsProfiles : public ChromeBrowserMainExtraPartsProfiles {
+class OneVNBrowserMainExtraPartsProfiles : public ChromeBrowserMainExtraPartsProfiles {
  public:
-  BraveBrowserMainExtraPartsProfiles() : ChromeBrowserMainExtraPartsProfiles() {}
+  OneVNBrowserMainExtraPartsProfiles() : ChromeBrowserMainExtraPartsProfiles() {}
 
   void PreProfileInit() override {
     ChromeBrowserMainExtraPartsProfiles::PreProfileInit();
-    brave::EnsureBrowserContextKeyedServiceFactoriesBuilt();
+    onevn::EnsureBrowserContextKeyedServiceFactoriesBuilt();
   }
 
  private:
-  DISALLOW_COPY_AND_ASSIGN(BraveBrowserMainExtraPartsProfiles);
+  DISALLOW_COPY_AND_ASSIGN(OneVNBrowserMainExtraPartsProfiles);
 };
 
 }  // namespace
@@ -24,7 +24,7 @@ class BraveBrowserMainExtraPartsProfiles : public ChromeBrowserMainExtraPartsPro
 namespace chrome {
 
 void AddProfilesExtraParts(ChromeBrowserMainParts* main_parts) {
-  main_parts->AddParts(new BraveBrowserMainExtraPartsProfiles());
+  main_parts->AddParts(new OneVNBrowserMainExtraPartsProfiles());
 }
 
 }  // namespace chrome

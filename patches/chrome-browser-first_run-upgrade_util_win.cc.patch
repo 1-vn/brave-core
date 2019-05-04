@@ -7,7 +7,7 @@ index 8d77b39b0b2e477e1cfc24498b2480525eace027..8512d33c6df3e81f3ca5d8c29f6c8947
  #include "ui/base/ui_base_switches.h"
  
 -#if defined(GOOGLE_CHROME_BUILD)
-+#if defined(GOOGLE_CHROME_BUILD) || (defined(BRAVE_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD))
++#if defined(GOOGLE_CHROME_BUILD) || (defined(ONEVN_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD))
  #include "google_update/google_update_idl.h"
  #endif
  
@@ -16,7 +16,7 @@ index 8d77b39b0b2e477e1cfc24498b2480525eace027..8512d33c6df3e81f3ca5d8c29f6c8947
  
  bool InvokeGoogleUpdateForRename() {
 -#if defined(GOOGLE_CHROME_BUILD)
-+#if defined(GOOGLE_CHROME_BUILD) || (defined(BRAVE_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD))
++#if defined(GOOGLE_CHROME_BUILD) || (defined(ONEVN_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD))
    Microsoft::WRL::ComPtr<IProcessLauncher> ipl;
    HRESULT hr = ::CoCreateInstance(__uuidof(ProcessLauncherClass), nullptr,
                                    CLSCTX_ALL, IID_PPV_ARGS(&ipl));

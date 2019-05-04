@@ -2,17 +2,17 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/version_info.h"
+#include "onevn/browser/version_info.h"
 
 namespace version_info {
 
-std::string GetBraveVersionWithoutChromiumMajorVersion() {
-  return std::string(BRAVE_BROWSER_VERSION);
+std::string GetOneVNVersionWithoutChromiumMajorVersion() {
+  return std::string(ONEVN_BROWSER_VERSION);
 }
 
-std::string GetBraveVersionNumberForDisplay() {
-  return std::string(BRAVE_BROWSER_VERSION) +
-      "  Chromium: " + BRAVE_CHROMIUM_VERSION;
+std::string GetOneVNVersionNumberForDisplay() {
+  return std::string(ONEVN_BROWSER_VERSION) +
+      "  Chromium: " + ONEVN_CHROMIUM_VERSION;
 }
 
 }  // namespace version_info

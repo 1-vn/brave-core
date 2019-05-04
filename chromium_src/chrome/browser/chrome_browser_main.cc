@@ -3,8 +3,8 @@
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #include "chrome/browser/chrome_browser_main.h"
-#include "brave/browser/brave_browser_process_impl.h"
+#include "onevn/browser/onevn_browser_process_impl.h"
 
-#define BrowserProcessImpl BraveBrowserProcessImpl
+#define BrowserProcessImpl OneVNBrowserProcessImpl
 #include "../../../../chrome/browser/chrome_browser_main.cc"
 #undef BrowserProcessImpl

@@ -6,7 +6,7 @@ index 1edbe265cee06a27aef16f6aebcf776109937e15..57b5b90f74ef1e6d02b243d47f4af651
  
    deps = [
      "//base",
-+    "//brave/components/content_settings/core/browser",
++    "//onevn/components/content_settings/core/browser",
      "//components/content_settings/core/common",
      "//components/keyed_service/core",
      "//components/pref_registry:pref_registry",

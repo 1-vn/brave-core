@@ -1,5 +1,5 @@
-#include "brave/browser/ui/views/download/brave_download_item_view.h"
+#include "onevn/browser/ui/views/download/onevn_download_item_view.h"
 
-#define DownloadItemView BraveDownloadItemView
+#define DownloadItemView OneVNDownloadItemView
 #include "../../../../../../../chrome/browser/ui/views/download/download_shelf_view.cc"
 #undef DownloadItemViewView

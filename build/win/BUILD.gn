@@ -1,6 +1,6 @@
-import("//brave/build/config.gni")
+import("//onevn/build/config.gni")
 
-group("brave") {
+group("onevn") {
   public_deps = [
     ":copy_exe",
     ":copy_pdb",
@@ -36,18 +36,18 @@ copy("copy_pdb") {
 }
 
 action("create_signed_installer") {
-  script = "//brave/script/create-signed-installer.py"
+  script = "//onevn/script/create-signed-installer.py"
   inputs = [
     "$root_out_dir/mini_installer.exe"
   ]
   outputs = [
-    "$root_out_dir/brave_installer.exe",
-    "$root_out_dir/$brave_installer_exe",
+    "$root_out_dir/onevn_installer.exe",
+    "$root_out_dir/$onevn_installer_exe",
   ]
   out_dir = rebase_path(root_out_dir, "//")
   args = [
     "--root_out_dir=$out_dir",
-    "--brave_installer_exe=$brave_installer_exe",
+    "--onevn_installer_exe=$onevn_installer_exe",
   ]
 
   if (skip_signing) { args += [ "--skip_signing" ] }

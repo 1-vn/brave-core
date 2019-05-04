@@ -14,8 +14,8 @@
 
 // Tells the browser that content in the current page was blocked due to the
 // user's content settings.
-IPC_MESSAGE_ROUTED1(BraveViewHostMsg_JavaScriptBlocked,
+IPC_MESSAGE_ROUTED1(OneVNViewHostMsg_JavaScriptBlocked,
                     base::string16 /* details on blocked content */)
 
-IPC_MESSAGE_ROUTED1(BraveViewHostMsg_FingerprintingBlocked,
+IPC_MESSAGE_ROUTED1(OneVNViewHostMsg_FingerprintingBlocked,
                     base::string16 /* details on blocked content */)

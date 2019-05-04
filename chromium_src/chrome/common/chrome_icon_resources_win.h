@@ -7,7 +7,7 @@
 
 namespace icon_resources {
 
-// This file contains the indices of icon resources in brave_exe.rc.
+// This file contains the indices of icon resources in onevn_exe.rc.
 
 enum {
   // The main application icon is always index 0.
@@ -19,28 +19,28 @@ enum {
   kApplication3Index = 2,
   kApplication4Index = 3,
 
-  // The Brave Canary application icon.
+  // The OneVN Canary application icon.
   kSxSApplicationIndex = 4,
 
-  // The Brave App Launcher icon.
+  // The OneVN App Launcher icon.
   kAppLauncherIndex = 5,
 
-  // The Brave App Launcher Canary icon.
+  // The OneVN App Launcher Canary icon.
   kSxSAppLauncherIndex = 6,
 
-  // The Brave incognito icon.
+  // The OneVN incognito icon.
   kIncognitoIndex = 7,
 
-  // The Brave Dev application icon.
+  // The OneVN Dev application icon.
   kDevApplicationIndex = 8,
 
-  // The Brave Beta application icon.
+  // The OneVN Beta application icon.
   kBetaApplicationIndex = 9,
 #else
-  // The Brave Developer App Launcher icon.
+  // The OneVN Developer App Launcher icon.
   kAppLauncherIndex = 1,
 
-  // The Brave Developer incognito icon.
+  // The OneVN Developer incognito icon.
   kIncognitoIndex = 2,
 #endif
 };

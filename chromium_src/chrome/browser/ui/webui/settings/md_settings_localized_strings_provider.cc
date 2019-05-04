@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -7,16 +7,16 @@
 #include "base/stl_util.h"
 
 namespace settings {
-void BraveAddLocalizedStrings(content::WebUIDataSource*, Profile*);
+void OneVNAddLocalizedStrings(content::WebUIDataSource*, Profile*);
 }  // namespace settings
 #include "../../../../../../chrome/browser/ui/webui/settings/md_settings_localized_strings_provider.cc"  // NOLINT
 
-#include "brave/browser/ui/webui/brave_md_settings_ui.h"
-#include "brave/grit/brave_generated_resources.h"
+#include "onevn/browser/ui/webui/onevn_md_settings_ui.h"
+#include "onevn/grit/onevn_generated_resources.h"
 
 namespace settings {
 
-void BraveAddImportDataStrings(content::WebUIDataSource* html_source) {
+void OneVNAddImportDataStrings(content::WebUIDataSource* html_source) {
   LocalizedString localized_strings[] = {
     {"importCookies", IDS_SETTINGS_IMPORT_COOKIES_CHECKBOX},
     {"importStats", IDS_SETTINGS_IMPORT_STATS_CHECKBOX},
@@ -28,10 +28,10 @@ void BraveAddImportDataStrings(content::WebUIDataSource* html_source) {
 }
 
 const char kWebRTCLearnMoreURL[] =
-  "https://support.brave.com/hc/en-us/articles/"
+  "https://support.1-vn.com/hc/en-us/articles/"
   "360017989132-How-do-I-change-my-Privacy-Settings-#webrtc";
 
-void BraveAddCommonStrings(content::WebUIDataSource* html_source,
+void OneVNAddCommonStrings(content::WebUIDataSource* html_source,
                            Profile* profile) {
   LocalizedString localized_strings[] = {
     {"siteSettingsAutoplay",
@@ -42,44 +42,44 @@ void BraveAddCommonStrings(content::WebUIDataSource* html_source,
       IDS_SETTINGS_SITE_SETTINGS_AUTOPLAY_ASK},
     {"siteSettingsAutoplayAskRecommended",
       IDS_SETTINGS_SITE_SETTINGS_AUTOPLAY_ASK_RECOMMENDED},
-    {"braveGetStartedTitle",
-      IDS_SETTINGS_BRAVE_GET_STARTED_TITLE},
-    {"braveAdditionalSettingsTitle",
-      IDS_SETTINGS_BRAVE_ADDITIONAL_SETTINGS},
-    {"appearanceSettingsBraveTheme",
-      IDS_SETTINGS_APPEARANCE_SETTINGS_BRAVE_THEMES},
+    {"onevnGetStartedTitle",
+      IDS_SETTINGS_ONEVN_GET_STARTED_TITLE},
+    {"onevnAdditionalSettingsTitle",
+      IDS_SETTINGS_ONEVN_ADDITIONAL_SETTINGS},
+    {"appearanceSettingsOneVNTheme",
+      IDS_SETTINGS_APPEARANCE_SETTINGS_ONEVN_THEMES},
     {"appearanceSettingsLocationBarIsWide",
       IDS_SETTINGS_APPEARANCE_SETTINGS_LOCATION_BAR_IS_WIDE},
-    {"appearanceSettingsHideBraveRewardsButtonLabel",
-       IDS_SETTINGS_HIDE_BRAVE_REWARDS_BUTTON_LABEL},
-    {"appearanceSettingsHideBraveRewardsButtonDesc",
-       IDS_SETTINGS_HIDE_BRAVE_REWARDS_BUTTON_DESC},
-    {"braveShieldsTitle",
-      IDS_SETTINGS_BRAVE_SHIELDS_TITLE},
-    {"braveShieldsDefaultsSectionTitle",
-      IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_TITLE},
-    {"braveShieldsDefaultsSectionDescription",
-      IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_DESCRIPTION},
+    {"appearanceSettingsHideOneVNRewardsButtonLabel",
+       IDS_SETTINGS_HIDE_ONEVN_REWARDS_BUTTON_LABEL},
+    {"appearanceSettingsHideOneVNRewardsButtonDesc",
+       IDS_SETTINGS_HIDE_ONEVN_REWARDS_BUTTON_DESC},
+    {"onevnShieldsTitle",
+      IDS_SETTINGS_ONEVN_SHIELDS_TITLE},
+    {"onevnShieldsDefaultsSectionTitle",
+      IDS_SETTINGS_ONEVN_SHIELDS_DEFAULTS_TITLE},
+    {"onevnShieldsDefaultsSectionDescription",
+      IDS_SETTINGS_ONEVN_SHIELDS_DEFAULTS_DESCRIPTION},
     {"socialBlocking",
       IDS_SETTINGS_SOCIAL_BLOCKING_DEFAULTS_TITLE},
     {"adControlLabel",
-      IDS_SETTINGS_BRAVE_SHIELDS_AD_CONTROL_LABEL},
+      IDS_SETTINGS_ONEVN_SHIELDS_AD_CONTROL_LABEL},
     {"cookieControlLabel",
-      IDS_SETTINGS_BRAVE_SHIELDS_COOKIE_CONTROL_LABEL},
+      IDS_SETTINGS_ONEVN_SHIELDS_COOKIE_CONTROL_LABEL},
     {"fingerprintingControlLabel",
-      IDS_SETTINGS_BRAVE_SHIELDS_FINGERPRINTING_CONTROL_LABEL},
+      IDS_SETTINGS_ONEVN_SHIELDS_FINGERPRINTING_CONTROL_LABEL},
     {"httpsEverywhereControlLabel",
-      IDS_SETTINGS_BRAVE_SHIELDS_HTTPS_EVERYWHERE_CONTROL_LABEL},
+      IDS_SETTINGS_ONEVN_SHIELDS_HTTPS_EVERYWHERE_CONTROL_LABEL},
     {"noScriptControlLabel",
-      IDS_SETTINGS_BRAVE_SHIELDS_NO_SCRIPT_CONTROL_LABEL},
+      IDS_SETTINGS_ONEVN_SHIELDS_NO_SCRIPT_CONTROL_LABEL},
     {"googleLoginControlLabel",
-      IDS_SETTINGS_BRAVE_SHIELDS_GOOGLE_LOGIN_LABEL},
+      IDS_SETTINGS_ONEVN_SHIELDS_GOOGLE_LOGIN_LABEL},
     {"fbEmbedControlLabel",
-      IDS_SETTINGS_BRAVE_SHIELDS_FACEBOOK_EMBEDDED_POSTS_LABEL},
+      IDS_SETTINGS_ONEVN_SHIELDS_FACEBOOK_EMBEDDED_POSTS_LABEL},
     {"twitterEmbedControlLabel",
-      IDS_SETTINGS_BRAVE_SHIELDS_TWITTER_EMBEDDED_TWEETS_LABEL},
+      IDS_SETTINGS_ONEVN_SHIELDS_TWITTER_EMBEDDED_TWEETS_LABEL},
     {"linkedInEmbedControlLabel",
-      IDS_SETTINGS_BRAVE_SHIELDS_LINKEDIN_EMBEDDED_POSTS_LABEL},
+      IDS_SETTINGS_ONEVN_SHIELDS_LINKEDIN_EMBEDDED_POSTS_LABEL},
     {"blockAds",
       IDS_SETTINGS_BLOCK_ADS},
     {"allowAdsAndTracking",
@@ -108,14 +108,14 @@ void BraveAddCommonStrings(content::WebUIDataSource* html_source,
       IDS_SETTINGS_WEBRTC_POLICY_DEFAULT_PUBLIC_INTERFACE_ONLY},
     {"disableNonProxiedUdp",
       IDS_SETTINGS_WEBRTC_POLICY_DISABLE_NON_PROXIED_UDP},
-    {"braveSync",
-      IDS_SETTINGS_BRAVE_SYNC_TITLE},
-    {"braveSyncLabel",
-      IDS_SETTINGS_BRAVE_SYNC_LINK_LABEL},
+    {"onevnSync",
+      IDS_SETTINGS_ONEVN_SYNC_TITLE},
+    {"onevnSyncLabel",
+      IDS_SETTINGS_ONEVN_SYNC_LINK_LABEL},
     {"onExitPageTitle",
-      IDS_SETTINGS_BRAVE_ON_EXIT},
-    {"braveDefaultExtensions",
-      IDS_SETTINGS_BRAVE_DEFAULT_EXTENSIONS_TITLE},
+      IDS_SETTINGS_ONEVN_ON_EXIT},
+    {"onevnDefaultExtensions",
+      IDS_SETTINGS_ONEVN_DEFAULT_EXTENSIONS_TITLE},
     {"webTorrentEnabledDesc",
       IDS_SETTINGS_WEBTORRENT_ENABLED_DESC},
     {"hangoutsEnabledDesc",
@@ -131,16 +131,16 @@ void BraveAddCommonStrings(content::WebUIDataSource* html_source,
       base::ASCIIToUTF16(kWebRTCLearnMoreURL));
 }
 
-void BraveAddResources(content::WebUIDataSource* html_source,
+void OneVNAddResources(content::WebUIDataSource* html_source,
                        Profile* profile) {
-  BraveMdSettingsUI::AddResources(html_source, profile);
+  OneVNMdSettingsUI::AddResources(html_source, profile);
 }
 
-void BraveAddLocalizedStrings(content::WebUIDataSource* html_source,
+void OneVNAddLocalizedStrings(content::WebUIDataSource* html_source,
                               Profile* profile) {
-  BraveAddImportDataStrings(html_source);
-  BraveAddCommonStrings(html_source, profile);
-  BraveAddResources(html_source, profile);
+  OneVNAddImportDataStrings(html_source);
+  OneVNAddCommonStrings(html_source, profile);
+  OneVNAddResources(html_source, profile);
 }
 
 }  // namespace settings

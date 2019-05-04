@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -17,7 +17,7 @@ using std::placeholders::_1;
 using std::placeholders::_2;
 using std::placeholders::_3;
 
-namespace braveledger_media {
+namespace onevnledger_media {
 
 static const std::vector<std::string> _twitch_events = {
     "buffer-empty",
@@ -56,7 +56,7 @@ std::pair<std::string, std::string> MediaTwitch::GetMediaIdFromParts(
         if (iter != parts.end()) {
           std::string idAddition(iter->second);
           if (idAddition.find('v') != std::string::npos) {
-            id += "_vod_" + braveledger_bat_helper::split(idAddition, 'v')[1];
+            id += "_vod_" + onevnledger_bat_helper::split(idAddition, 'v')[1];
           }
         }
       }
@@ -175,7 +175,7 @@ std::string MediaTwitch::GetLinkType(const std::string& url,
                                      const std::string& referrer) {
   std::string type;
   bool is_valid_twitch_path =
-      braveledger_bat_helper::HasSameDomainAndPath(
+      onevnledger_bat_helper::HasSameDomainAndPath(
                                   url, "ttvnw.net", "/v1/segment/");
 
   std::cout << is_valid_twitch_path << first_party_url;
@@ -196,10 +196,10 @@ std::string MediaTwitch::GetLinkType(const std::string& url,
 std::string MediaTwitch::GetMediaIdFromUrl(
   const std::string& url,
   const std::string& publisher_blob) {
-  std::string mediaId = braveledger_media::ExtractData(url, "twitch.tv/", "/");
+  std::string mediaId = onevnledger_media::ExtractData(url, "twitch.tv/", "/");
 
   if (url.find("twitch.tv/videos/") != std::string::npos) {
-    mediaId = braveledger_media::ExtractData(publisher_blob,
+    mediaId = onevnledger_media::ExtractData(publisher_blob,
       "<a class=\"tw-interactive channel-header__user tw-align-items-center "
       "tw-flex tw-flex-nowrap tw-flex-shrink-0 tw-link "
       "tw-link--hover-underline-none tw-pd-r-2 tw-pd-y-05\" "
@@ -218,7 +218,7 @@ std::string MediaTwitch::GetMediaKeyFromUrl(
   }
 
   if (url.find("twitch.tv/videos/") != std::string::npos) {
-    std::string vod_id = braveledger_media::ExtractData(url,
+    std::string vod_id = onevnledger_media::ExtractData(url,
                                                       "twitch.tv/videos/",
                                                       "/");
     return (std::string)TWITCH_MEDIA_TYPE + "_" + id + "_vod_" + vod_id;
@@ -238,7 +238,7 @@ void MediaTwitch::UpdatePublisherData(
 // static
 std::string MediaTwitch::GetPublisherName(
     const std::string& publisher_blob) {
-  return braveledger_media::ExtractData(publisher_blob,
+  return onevnledger_media::ExtractData(publisher_blob,
     "<figure class=\"tw-avatar tw-avatar--size-36\">"
     "<div class=\"tw-border-radius-medium tw-overflow-hidden\">"
     "<img class=\"tw-avatar__img tw-image\" alt=\"", "\"");
@@ -252,7 +252,7 @@ std::string MediaTwitch::GetFaviconUrl(
     return std::string();
   }
 
-  return braveledger_media::ExtractData(publisher_blob,
+  return onevnledger_media::ExtractData(publisher_blob,
     "<figure class=\"tw-avatar tw-avatar--size-36\">"
     "<div class=\"tw-border-radius-medium tw-overflow-hidden\">"
     "<img class=\"tw-avatar__img tw-image\" alt=\"" + handle + "\" "
@@ -301,7 +301,7 @@ void MediaTwitch::ProcessMedia(const std::map<std::string, std::string>& parts,
     return;
   }
 
-  std::string media_key = braveledger_media::GetMediaKey(media_id,
+  std::string media_key = onevnledger_media::GetMediaKey(media_id,
                                                          TWITCH_MEDIA_TYPE);
   BLOG(ledger_, ledger::LogLevel::LOG_DEBUG) << "Media key: " << media_key;
 
@@ -411,7 +411,7 @@ void MediaTwitch::OnMediaPublisherInfo(
     if (media_id.find("_vod_") != std::string::npos) {
       // VOD
       std::vector<std::string> media_props =
-          braveledger_bat_helper::split(media_id, MEDIA_DELIMITER);
+          onevnledger_bat_helper::split(media_id, MEDIA_DELIMITER);
       if (media_props.empty()) {
         return;
       }
@@ -480,7 +480,7 @@ void MediaTwitch::OnMediaPublisherInfo(
 
 void MediaTwitch::FetchDataFromUrl(
     const std::string& url,
-    braveledger_media::FetchDataFromUrlCallback callback) {
+    onevnledger_media::FetchDataFromUrlCallback callback) {
   ledger_->LoadURL(url,
                    std::vector<std::string>(),
                    std::string(),
@@ -507,11 +507,11 @@ void MediaTwitch::OnEmbedResponse(
   }
 
   std::string fav_icon;
-  braveledger_bat_helper::getJSONValue("author_thumbnail_url",
+  onevnledger_bat_helper::getJSONValue("author_thumbnail_url",
                                        response,
                                        &fav_icon);
   std::string author_name;
-  braveledger_bat_helper::getJSONValue("author_name", response, &author_name);
+  onevnledger_bat_helper::getJSONValue("author_name", response, &author_name);
 
   std::string id = GetPublisherKey(user_id);
 
@@ -656,4 +656,4 @@ void MediaTwitch::SavePublisherInfo(const uint64_t duration,
   }
 }
 
-}  // namespace braveledger_media
+}  // namespace onevnledger_media

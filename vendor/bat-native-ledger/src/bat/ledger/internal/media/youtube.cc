@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -15,7 +15,7 @@ using std::placeholders::_1;
 using std::placeholders::_2;
 using std::placeholders::_3;
 
-namespace braveledger_media {
+namespace onevnledger_media {
 
 MediaYouTube::MediaYouTube(bat_ledger::LedgerImpl* ledger):
   ledger_(ledger) {
@@ -45,10 +45,10 @@ uint64_t MediaYouTube::GetMediaDurationFromParts(
   std::map<std::string, std::string>::const_iterator iter_st = data.find("st");
   std::map<std::string, std::string>::const_iterator iter_et = data.find("et");
   if (iter_st != data.end() && iter_et != data.end()) {
-    std::vector<std::string> start_time = braveledger_bat_helper::split(
+    std::vector<std::string> start_time = onevnledger_bat_helper::split(
         iter_st->second,
         ',');
-    std::vector<std::string> end_time = braveledger_bat_helper::split(
+    std::vector<std::string> end_time = onevnledger_bat_helper::split(
         iter_et->second,
         ',');
     if (start_time.size() != end_time.size()) {
@@ -91,12 +91,12 @@ std::string MediaYouTube::GetChannelUrl(const std::string& publisher_key) {
 
 // static
 std::string MediaYouTube::GetFavIconUrl(const std::string& data) {
-  std::string favicon_url = braveledger_media::ExtractData(
+  std::string favicon_url = onevnledger_media::ExtractData(
       data,
       "\"avatar\":{\"thumbnails\":[{\"url\":\"", "\"");
 
   if (favicon_url.empty()) {
-    favicon_url = braveledger_media::ExtractData(
+    favicon_url = onevnledger_media::ExtractData(
       data,
       "\"width\":88,\"height\":88},{\"url\":\"", "\"");
   }
@@ -106,22 +106,22 @@ std::string MediaYouTube::GetFavIconUrl(const std::string& data) {
 
 // static
 std::string MediaYouTube::GetChannelId(const std::string& data) {
-  std::string id = braveledger_media::ExtractData(data, "\"ucid\":\"", "\"");
+  std::string id = onevnledger_media::ExtractData(data, "\"ucid\":\"", "\"");
   if (id.empty()) {
-    id = braveledger_media::ExtractData(
+    id = onevnledger_media::ExtractData(
         data,
         "HeaderRenderer\":{\"channelId\":\"", "\"");
   }
 
   if (id.empty()) {
-    id = braveledger_media::ExtractData(
+    id = onevnledger_media::ExtractData(
         data,
         "<link rel=\"canonical\" href=\"https://www.youtube.com/channel/",
         "\">");
   }
 
   if (id.empty()) {
-    id = braveledger_media::ExtractData(
+    id = onevnledger_media::ExtractData(
       data,
       "browseEndpoint\":{\"browseId\":\"",
       "\"");
@@ -133,15 +133,15 @@ std::string MediaYouTube::GetChannelId(const std::string& data) {
 // static
 std::string MediaYouTube::GetPublisherName(const std::string& data) {
   std::string publisher_name;
-  std::string publisher_json_name = braveledger_media::ExtractData(
+  std::string publisher_json_name = onevnledger_media::ExtractData(
       data,
       "\"author\":\"", "\"");
-  std::string publisher_json = "{\"brave_publisher\":\"" +
+  std::string publisher_json = "{\"onevn_publisher\":\"" +
       publisher_json_name + "\"}";
   // scraped data could come in with JSON code points added.
   // Make to JSON object above so we can decode.
-  braveledger_bat_helper::getJSONValue(
-      "brave_publisher", publisher_json, &publisher_name);
+  onevnledger_bat_helper::getJSONValue(
+      "onevn_publisher", publisher_json, &publisher_name);
   return publisher_name;
 }
 
@@ -164,17 +164,17 @@ std::string MediaYouTube::GetLinkType(const std::string& url) {
 std::string MediaYouTube::GetMediaIdFromUrl(
     const ledger::VisitData& visit_data) {
   std::vector<std::string> first_split =
-    braveledger_bat_helper::split(visit_data.url, '?');
+    onevnledger_bat_helper::split(visit_data.url, '?');
 
   if (first_split.size() < 2) {
     return std::string();
   }
 
   std::vector<std::string> and_split =
-    braveledger_bat_helper::split(first_split[1], '&');
+    onevnledger_bat_helper::split(first_split[1], '&');
 
   for (const auto& item : and_split) {
-    std::vector<std::string> m_url = braveledger_bat_helper::split(item, '=');
+    std::vector<std::string> m_url = onevnledger_bat_helper::split(item, '=');
 
     if (m_url.size() < 2) {
       continue;
@@ -191,14 +191,14 @@ std::string MediaYouTube::GetMediaIdFromUrl(
 // static
 std::string MediaYouTube::GetNameFromChannel(const std::string& data) {
   std::string publisher_name;
-  const std::string publisher_json_name = braveledger_media::ExtractData(data,
+  const std::string publisher_json_name = onevnledger_media::ExtractData(data,
       "channelMetadataRenderer\":{\"title\":\"", "\"");
-  const std::string publisher_json = "{\"brave_publisher\":\"" +
+  const std::string publisher_json = "{\"onevn_publisher\":\"" +
       publisher_json_name + "\"}";
   // scraped data could come in with JSON code points added.
   // Make to JSON object above so we can decode.
-  braveledger_bat_helper::getJSONValue(
-      "brave_publisher", publisher_json, &publisher_name);
+  onevnledger_bat_helper::getJSONValue(
+      "onevn_publisher", publisher_json, &publisher_name);
   return publisher_name;
 }
 
@@ -209,14 +209,14 @@ std::string MediaYouTube::GetPublisherKeyFromUrl(
     return std::string();
   }
 
-  const std::string id = braveledger_media::ExtractData(path + "/",
+  const std::string id = onevnledger_media::ExtractData(path + "/",
       "/channel/", "/");
 
   if (id.empty()) {
     return std::string();
   }
 
-  std::vector<std::string> params = braveledger_bat_helper::split(id, '?');
+  std::vector<std::string> params = onevnledger_bat_helper::split(id, '?');
 
   return params[0];
 }
@@ -224,7 +224,7 @@ std::string MediaYouTube::GetPublisherKeyFromUrl(
 // static
 std::string MediaYouTube::GetChannelIdFromCustomPathPage(
     const std::string& data) {
-  return braveledger_media::ExtractData(data,
+  return onevnledger_media::ExtractData(data,
       "{\"key\":\"browse_id\",\"value\":\"", "\"");
 }
 
@@ -285,14 +285,14 @@ std::string MediaYouTube::GetUserFromUrl(const std::string& path) {
     return std::string();
   }
 
-  const std::string id = braveledger_media::ExtractData(path + "/",
+  const std::string id = onevnledger_media::ExtractData(path + "/",
       "/user/", "/");
 
   if (id.empty()) {
     return std::string();
   }
 
-  std::vector<std::string> params = braveledger_bat_helper::split(id, '?');
+  std::vector<std::string> params = onevnledger_bat_helper::split(id, '?');
 
   return params[0];
 }
@@ -326,7 +326,7 @@ void MediaYouTube::ProcessMedia(const std::map<std::string, std::string>& parts,
     return;
   }
 
-  std::string media_key = braveledger_media::GetMediaKey(media_id,
+  std::string media_key = onevnledger_media::GetMediaKey(media_id,
                                                          YOUTUBE_MEDIA_TYPE);
   uint64_t duration = GetMediaDurationFromParts(parts, media_key);
 
@@ -451,9 +451,9 @@ void MediaYouTube::OnEmbedResponse(
   }
 
   std::string publisher_url;
-  braveledger_bat_helper::getJSONValue("author_url", response, &publisher_url);
+  onevnledger_bat_helper::getJSONValue("author_url", response, &publisher_url);
   std::string publisher_name;
-  braveledger_bat_helper::getJSONValue("author_name",
+  onevnledger_bat_helper::getJSONValue("author_name",
                                        response,
                                        &publisher_name);
 
@@ -555,7 +555,7 @@ void MediaYouTube::SavePublisherInfo(const uint64_t duration,
 
 void MediaYouTube::FetchDataFromUrl(
     const std::string& url,
-    braveledger_media::FetchDataFromUrlCallback callback) {
+    onevnledger_media::FetchDataFromUrlCallback callback) {
   ledger_->LoadURL(url,
                    std::vector<std::string>(),
                    std::string(),
@@ -567,7 +567,7 @@ void MediaYouTube::FetchDataFromUrl(
 void MediaYouTube::WatchPath(uint64_t window_id,
                              const ledger::VisitData& visit_data) {
   std::string media_id = GetMediaIdFromUrl(visit_data);
-  std::string media_key = braveledger_media::GetMediaKey(media_id,
+  std::string media_key = onevnledger_media::GetMediaKey(media_id,
                                                          YOUTUBE_MEDIA_TYPE);
 
   if (!media_key.empty() || !media_id.empty()) {
@@ -795,4 +795,4 @@ void MediaYouTube::OnChannelIdForUser(
 }
 
 
-}  // namespace braveledger_media
+}  // namespace onevnledger_media

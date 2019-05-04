@@ -1,10 +1,10 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#ifndef BRAVELEDGER_BAT_CLIENT_STATE_H_
-#define BRAVELEDGER_BAT_CLIENT_STATE_H_
+#ifndef ONEVNLEDGER_BAT_CLIENT_STATE_H_
+#define ONEVNLEDGER_BAT_CLIENT_STATE_H_
 
 #include <map>
 #include <memory>
@@ -17,7 +17,7 @@ namespace bat_ledger {
 class LedgerImpl;
 }
 
-namespace braveledger_bat_state {
+namespace onevnledger_bat_state {
 
 class BatState {
  public:
@@ -28,12 +28,12 @@ class BatState {
 
   void AddReconcile(
       const std::string& viewing_id,
-      const braveledger_bat_helper::CURRENT_RECONCILE& reconcile);
+      const onevnledger_bat_helper::CURRENT_RECONCILE& reconcile);
 
   bool UpdateReconcile(
-      const braveledger_bat_helper::CURRENT_RECONCILE& reconcile);
+      const onevnledger_bat_helper::CURRENT_RECONCILE& reconcile);
 
-  braveledger_bat_helper::CURRENT_RECONCILE GetReconcileById(
+  onevnledger_bat_helper::CURRENT_RECONCILE GetReconcileById(
       const std::string& viewingId) const;
 
   void RemoveReconcileById(const std::string& viewingId);
@@ -80,9 +80,9 @@ class BatState {
 
   void SetPaymentId(const std::string& payment_id);
 
-  const braveledger_bat_helper::Grants& GetGrants() const;
+  const onevnledger_bat_helper::Grants& GetGrants() const;
 
-  void SetGrants(braveledger_bat_helper::Grants grants);
+  void SetGrants(onevnledger_bat_helper::Grants grants);
 
   const std::string& GetPersonaId() const;
 
@@ -100,32 +100,32 @@ class BatState {
 
   void SetPreFlight(const std::string& pre_flight);
 
-  const braveledger_bat_helper::WALLET_INFO_ST& GetWalletInfo() const;
+  const onevnledger_bat_helper::WALLET_INFO_ST& GetWalletInfo() const;
 
-  void SetWalletInfo(const braveledger_bat_helper::WALLET_INFO_ST& info);
+  void SetWalletInfo(const onevnledger_bat_helper::WALLET_INFO_ST& info);
 
-  const braveledger_bat_helper::WALLET_PROPERTIES_ST&
+  const onevnledger_bat_helper::WALLET_PROPERTIES_ST&
   GetWalletProperties() const;
 
   void SetWalletProperties(
-      braveledger_bat_helper::WALLET_PROPERTIES_ST* properties);
+      onevnledger_bat_helper::WALLET_PROPERTIES_ST* properties);
 
   unsigned int GetDays() const;
 
   void SetDays(unsigned int days);
 
-  const braveledger_bat_helper::Transactions& GetTransactions() const;
+  const onevnledger_bat_helper::Transactions& GetTransactions() const;
 
   void SetTransactions(
-      const braveledger_bat_helper::Transactions& transactions);
+      const onevnledger_bat_helper::Transactions& transactions);
 
-  const braveledger_bat_helper::Ballots& GetBallots() const;
+  const onevnledger_bat_helper::Ballots& GetBallots() const;
 
-  void SetBallots(const braveledger_bat_helper::Ballots& ballots);
+  void SetBallots(const onevnledger_bat_helper::Ballots& ballots);
 
-  const braveledger_bat_helper::BatchVotes& GetBatch() const;
+  const onevnledger_bat_helper::BatchVotes& GetBatch() const;
 
-  void SetBatch(const braveledger_bat_helper::BatchVotes& votes);
+  void SetBatch(const onevnledger_bat_helper::BatchVotes& votes);
 
   const std::string& GetCurrency() const;
 
@@ -143,7 +143,7 @@ class BatState {
                         ledger::ContributionRetry step,
                         int level);
 
-  const braveledger_bat_helper::CurrentReconciles& GetCurrentReconciles() const;
+  const onevnledger_bat_helper::CurrentReconciles& GetCurrentReconciles() const;
 
   double GetDefaultContributionAmount();
 
@@ -153,9 +153,9 @@ class BatState {
   void SaveState();
 
   bat_ledger::LedgerImpl* ledger_;  // NOT OWNED
-  std::unique_ptr<braveledger_bat_helper::CLIENT_STATE_ST> state_;
+  std::unique_ptr<onevnledger_bat_helper::CLIENT_STATE_ST> state_;
 };
 
-}  // namespace braveledger_bat_state
+}  // namespace onevnledger_bat_state
 
-#endif  // BRAVELEDGER_BAT_CLIENT_STATE_H_
+#endif  // ONEVNLEDGER_BAT_CLIENT_STATE_H_

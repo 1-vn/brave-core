@@ -7,7 +7,7 @@ index fb162fcfd8077be2cef6f2e8c3d3043e0b5b5a44..ad73501e3b70781f3e5c1a0d5e4a0b75
    ContentSettingsForOneType client_hints_rules;
    ContentSettingsForOneType popup_redirect_rules;
 +  ContentSettingsForOneType fingerprinting_rules;
-+  ContentSettingsForOneType brave_shields_rules;
++  ContentSettingsForOneType onevn_shields_rules;
  };
  
  namespace content_settings {

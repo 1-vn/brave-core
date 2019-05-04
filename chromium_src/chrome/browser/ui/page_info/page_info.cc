@@ -8,7 +8,7 @@
 
 namespace {
 
-bool BraveShouldShowPermission(
+bool OneVNShouldShowPermission(
     const PageInfoUI::PermissionInfo& info,
     content::WebContents* web_contents) {
   if ((info.type == CONTENT_SETTINGS_TYPE_PLUGINS ||

@@ -6,7 +6,7 @@ index c99aed2da137c1e9797c3775852701c955556202..c7be763fbac06633054143a88dd4faee
    <base href="chrome://settings">
  </if>
    <link rel="stylesheet" href="chrome://resources/css/md_colors.css">
-+  <link rel="stylesheet" href="chrome://brave-resources/page_specific/settings/settings_loading_shim.css">
++  <link rel="stylesheet" href="chrome://onevn-resources/page_specific/settings/settings_loading_shim.css">
    <style>
      html {
        background: var(--md-background-color);
@@ -14,7 +14,7 @@ index c99aed2da137c1e9797c3775852701c955556202..c7be763fbac06633054143a88dd4faee
    <settings-ui></settings-ui>
    <link rel="stylesheet" href="chrome://resources/css/text_defaults_md.css">
    <link rel="import" href="chrome://resources/html/polymer.html">
-+  <link rel="import" href="brave_settings_overrides.html">
++  <link rel="import" href="onevn_settings_overrides.html">
    <link rel="import" href="settings_ui/settings_ui.html">
    <link rel="import" href="chrome://resources/html/dark_mode.html">
  </body>

@@ -6,8 +6,8 @@ index 029f64033407a0e8ef87bdc44038b1b2d0b0850b..6748a395dc7efeffb8522c86cd875e62
  
  namespace {
  
-+#if defined(BRAVE_CHROMIUM_BUILD)
-+const char kCastLearnMorePageUrl[] = "https://community.brave.com/";
++#if defined(ONEVN_CHROMIUM_BUILD)
++const char kCastLearnMorePageUrl[] = "https://community.1-vn.com/";
 +#else
  const char kCastLearnMorePageUrl[] =
      "https://www.google.com/chrome/devices/chromecast/learn.html";
@@ -19,7 +19,7 @@ index 029f64033407a0e8ef87bdc44038b1b2d0b0850b..6748a395dc7efeffb8522c86cd875e62
  // Composes a "learn more" URL. The URL depends on template arguments in |args|.
  // Returns an empty string if |args| is invalid.
  std::string GetLearnMoreUrl(const base::DictionaryValue* args) {
-+#if defined(BRAVE_CHROMIUM_BUILD)
++#if defined(ONEVN_CHROMIUM_BUILD)
 +  return kCastLearnMorePageUrl;
 +#endif
    // TODO(imcheng): The template arguments for determining the learn more URL

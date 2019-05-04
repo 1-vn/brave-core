@@ -19,17 +19,17 @@ from io import StringIO
 from lib.config import (PLATFORM, DIST_URL, get_target_arch,
                         get_chromedriver_version, get_env_var, s3_config,
                         get_zip_name, product_name, project_name,
-                        SOURCE_ROOT, dist_dir, output_dir, get_brave_version,
+                        SOURCE_ROOT, dist_dir, output_dir, get_onevn_version,
                         get_raw_version)
 from lib.util import execute, parse_version, scoped_cwd, s3put
 from lib.helpers import *
 
 from lib.github import GitHub
 
-DIST_NAME = get_zip_name(project_name(), get_brave_version())
-SYMBOLS_NAME = get_zip_name(project_name(), get_brave_version(), 'symbols')
-DSYM_NAME = get_zip_name(project_name(), get_brave_version(), 'dsym')
-PDB_NAME = get_zip_name(project_name(), get_brave_version(), 'pdb')
+DIST_NAME = get_zip_name(project_name(), get_onevn_version())
+SYMBOLS_NAME = get_zip_name(project_name(), get_onevn_version(), 'symbols')
+DSYM_NAME = get_zip_name(project_name(), get_onevn_version(), 'dsym')
+PDB_NAME = get_zip_name(project_name(), get_onevn_version(), 'pdb')
 
 if os.environ.get('DEBUG_HTTP_HEADERS') == 'true':
     try:
@@ -49,10 +49,10 @@ def main():
         logging.debug("DEBUG_HTTP_HEADERS env var is enabled, logging HTTP headers")
         debug_requests_on()
 
-    # BRAVE_REPO is defined in lib/helpers.py for now
-    repo = GitHub(get_env_var('GITHUB_TOKEN')).repos(BRAVE_REPO)
+    # ONEVN_REPO is defined in lib/helpers.py for now
+    repo = GitHub(get_env_var('GITHUB_TOKEN')).repos(ONEVN_REPO)
 
-    tag = get_brave_version()
+    tag = get_onevn_version()
     release = get_release(repo, tag, allow_published_release_updates=False)
 
     if not release:
@@ -61,58 +61,58 @@ def main():
         release = create_release_draft(repo, tag)
 
     print('[INFO] Uploading release {}'.format(release['tag_name']))
-    # Upload Brave with GitHub Releases API.
-    upload_brave(repo, release, os.path.join(dist_dir(), DIST_NAME),
+    # Upload OneVN with GitHub Releases API.
+    upload_onevn(repo, release, os.path.join(dist_dir(), DIST_NAME),
                  force=args.force)
-    upload_brave(repo, release, os.path.join(dist_dir(), SYMBOLS_NAME),
+    upload_onevn(repo, release, os.path.join(dist_dir(), SYMBOLS_NAME),
                  force=args.force)
     # if PLATFORM == 'darwin':
-    #     upload_brave(repo, release, os.path.join(dist_dir(), DSYM_NAME))
+    #     upload_onevn(repo, release, os.path.join(dist_dir(), DSYM_NAME))
     # elif PLATFORM == 'win32':
-    #     upload_brave(repo, release, os.path.join(dist_dir(), PDB_NAME))
+    #     upload_onevn(repo, release, os.path.join(dist_dir(), PDB_NAME))
 
     # Upload chromedriver and mksnapshot.
     chromedriver = get_zip_name('chromedriver', get_chromedriver_version())
-    upload_brave(repo, release, os.path.join(dist_dir(), chromedriver),
+    upload_onevn(repo, release, os.path.join(dist_dir(), chromedriver),
                  force=args.force)
 
-    pkgs = get_brave_packages(output_dir(), release_channel(),
+    pkgs = get_onevn_packages(output_dir(), release_channel(),
                               get_raw_version())
 
     if PLATFORM == 'darwin':
         for pkg in pkgs:
-            upload_brave(repo, release, os.path.join(output_dir(), pkg),
+            upload_onevn(repo, release, os.path.join(output_dir(), pkg),
                          force=args.force)
     elif PLATFORM == 'win32':
         if get_target_arch() == 'x64':
-            upload_brave(repo, release, os.path.join(output_dir(),
-                                                     'brave_installer.exe'),
-                         'brave_installer-x64.exe', force=args.force)
+            upload_onevn(repo, release, os.path.join(output_dir(),
+                                                     'onevn_installer.exe'),
+                         'onevn_installer-x64.exe', force=args.force)
             for pkg in pkgs:
-                upload_brave(repo, release, os.path.join(output_dir(), pkg),
+                upload_onevn(repo, release, os.path.join(output_dir(), pkg),
                              force=args.force)
         else:
-            upload_brave(repo, release, os.path.join(output_dir(),
-                                                     'brave_installer.exe'),
-                         'brave_installer-ia32.exe', force=args.force)
+            upload_onevn(repo, release, os.path.join(output_dir(),
+                                                     'onevn_installer.exe'),
+                         'onevn_installer-ia32.exe', force=args.force)
             for pkg in pkgs:
-                upload_brave(repo, release, os.path.join(output_dir(), pkg),
+                upload_onevn(repo, release, os.path.join(output_dir(), pkg),
                              force=args.force)
     else:
         if get_target_arch() == 'x64':
             for pkg in pkgs:
-                upload_brave(repo, release, os.path.join(output_dir(), pkg),
+                upload_onevn(repo, release, os.path.join(output_dir(), pkg),
                              force=args.force)
         else:
-            upload_brave(repo, release, os.path.join(output_dir(),
-                                                     'brave-i386.rpm'),
+            upload_onevn(repo, release, os.path.join(output_dir(),
+                                                     'onevn-i386.rpm'),
                          force=args.force)
-            upload_brave(repo, release, os.path.join(output_dir(),
-                                                     'brave-i386.deb'),
+            upload_onevn(repo, release, os.path.join(output_dir(),
+                                                     'onevn-i386.deb'),
                          force=args.force)
 
-    # mksnapshot = get_zip_name('mksnapshot', get_brave_version())
-    # upload_brave(repo, release, os.path.join(dist_dir(), mksnapshot))
+    # mksnapshot = get_zip_name('mksnapshot', get_onevn_version())
+    # upload_onevn(repo, release, os.path.join(dist_dir(), mksnapshot))
 
     # if PLATFORM == 'win32' and not tag_exists:
     #     # Upload PDBs to Windows symbol server.
@@ -145,7 +145,7 @@ def debug_requests_off():
     requests_log.setLevel(logging.WARNING)
 
 
-def get_brave_packages(dir, channel, version):
+def get_onevn_packages(dir, channel, version):
     pkgs = []
 
     def filecopy(file_path, file_desired):
@@ -162,12 +162,12 @@ def get_brave_packages(dir, channel, version):
             file_path = os.path.join(dir, file)
             if PLATFORM == 'darwin':
                 if channel_capitalized == 'Release':
-                    file_desired = 'Brave-Browser.dmg'
-                    file_desired_pkg = 'Brave-Browser.pkg'
-                    if file == 'Brave Browser.dmg':
+                    file_desired = 'OneVN-Browser.dmg'
+                    file_desired_pkg = 'OneVN-Browser.pkg'
+                    if file == 'OneVN Browser.dmg':
                         filecopy(file_path, file_desired)
                         pkgs.append(file_desired)
-                    elif file == 'Brave Browser.pkg':
+                    elif file == 'OneVN Browser.pkg':
                         filecopy(file_path, file_desired_pkg)
                         pkgs.append(file_desired_pkg)
                     elif file == file_desired and file_desired not in pkgs:
@@ -175,9 +175,9 @@ def get_brave_packages(dir, channel, version):
                     elif file == file_desired_pkg and file_desired_pkg not in pkgs:
                         pkgs.append(file_desired_pkg)
                 else:
-                    file_desired = ('Brave-Browser-' +
+                    file_desired = ('OneVN-Browser-' +
                                     channel_capitalized + '.dmg')
-                    if re.match(r'Brave Browser ' +
+                    if re.match(r'OneVN Browser ' +
                                 channel_capitalized + r'.*\.dmg$', file):
                         filecopy(file_path, file_desired)
                         pkgs.append(file_desired)
@@ -185,106 +185,106 @@ def get_brave_packages(dir, channel, version):
                         pkgs.append(file_desired)
             elif PLATFORM == 'linux':
                 if channel == 'release':
-                    if re.match(r'brave-browser' + '_' + version +
+                    if re.match(r'onevn-browser' + '_' + version +
                                 r'.*\.deb$', file) \
-                        or re.match(r'brave-browser' + '-' + version +
+                        or re.match(r'onevn-browser' + '-' + version +
                                     r'.*\.rpm$', file):
                         pkgs.append(file)
                 else:
-                    if re.match(r'brave-browser-' + channel + '_' +
+                    if re.match(r'onevn-browser-' + channel + '_' +
                                 version + r'.*\.deb$', file) \
-                        or re.match(r'brave-browser-' + channel + '-' +
+                        or re.match(r'onevn-browser-' + channel + '-' +
                                     version + r'.*\.rpm$', file):
                         pkgs.append(file)
             elif PLATFORM == 'win32':
                 if get_target_arch() == 'x64':
                     if channel_capitalized == 'Release':
                         file_desired_standalone = (
-                            'BraveBrowserStandaloneSetup.exe')
+                            'OneVNBrowserStandaloneSetup.exe')
                         file_desired_standalone_silent = (
-                            'BraveBrowserStandaloneSilentSetup.exe')
+                            'OneVNBrowserStandaloneSilentSetup.exe')
                         file_desired_standalone_untagged = (
-                            'BraveBrowserStandaloneUntaggedSetup.exe')
-                        file_desired_stub = 'BraveBrowserSetup.exe'
-                        file_desired_stub_silent = 'BraveBrowserSilentSetup.exe'
-                        file_desired_stub_untagged = 'BraveBrowserUntaggedSetup.exe'
-                        if re.match(r'BraveBrowserSetup_.*\.exe', file):
+                            'OneVNBrowserStandaloneUntaggedSetup.exe')
+                        file_desired_stub = 'OneVNBrowserSetup.exe'
+                        file_desired_stub_silent = 'OneVNBrowserSilentSetup.exe'
+                        file_desired_stub_untagged = 'OneVNBrowserUntaggedSetup.exe'
+                        if re.match(r'OneVNBrowserSetup_.*\.exe', file):
                             filecopy(file_path, file_desired_stub)
                             pkgs.append(file_desired_stub)
-                        elif re.match(r'BraveBrowserSilentSetup_.*\.exe', file):
+                        elif re.match(r'OneVNBrowserSilentSetup_.*\.exe', file):
                             filecopy(file_path, file_desired_stub_silent)
                             pkgs.append(file_desired_stub_silent)
-                        elif re.match(r'BraveBrowserUntaggedSetup_.*\.exe', file):
+                        elif re.match(r'OneVNBrowserUntaggedSetup_.*\.exe', file):
                             filecopy(file_path, file_desired_stub_untagged)
                             pkgs.append(file_desired_stub_untagged)
                         elif re.match(
-                                r'BraveBrowserStandaloneSetup_.*\.exe',
+                                r'OneVNBrowserStandaloneSetup_.*\.exe',
                                 file):
                             filecopy(file_path, file_desired_standalone)
                             pkgs.append(file_desired_standalone)
                         elif re.match(
-                                r'BraveBrowserStandaloneSilentSetup_.*\.exe',
+                                r'OneVNBrowserStandaloneSilentSetup_.*\.exe',
                                 file):
                             filecopy(file_path, file_desired_standalone_silent)
                             pkgs.append(file_desired_standalone_silent)
                         elif re.match(
-                                r'BraveBrowserStandaloneUntaggedSetup_.*\.exe',
+                                r'OneVNBrowserStandaloneUntaggedSetup_.*\.exe',
                                 file):
                             filecopy(file_path, file_desired_standalone_untagged)
                             pkgs.append(file_desired_standalone_untagged)
                     elif channel_capitalized == 'Beta':
                         file_desired_standalone = (
-                            'BraveBrowserStandaloneBetaSetup.exe')
+                            'OneVNBrowserStandaloneBetaSetup.exe')
                         file_desired_standalone_silent = (
-                            'BraveBrowserStandaloneSilentBetaSetup.exe')
+                            'OneVNBrowserStandaloneSilentBetaSetup.exe')
                         file_desired_standalone_untagged = (
-                            'BraveBrowserStandaloneUntaggedBetaSetup.exe')
-                        file_desired_stub = 'BraveBrowserBetaSetup.exe'
-                        file_desired_stub_silent = 'BraveBrowserSilentBetaSetup.exe'
-                        file_desired_stub_untagged = 'BraveBrowserUntaggedBetaSetup.exe'
+                            'OneVNBrowserStandaloneUntaggedBetaSetup.exe')
+                        file_desired_stub = 'OneVNBrowserBetaSetup.exe'
+                        file_desired_stub_silent = 'OneVNBrowserSilentBetaSetup.exe'
+                        file_desired_stub_untagged = 'OneVNBrowserUntaggedBetaSetup.exe'
                     elif channel_capitalized == 'Dev':
                         file_desired_standalone = (
-                            'BraveBrowserStandaloneDevSetup.exe')
+                            'OneVNBrowserStandaloneDevSetup.exe')
                         file_desired_standalone_silent = (
-                            'BraveBrowserStandaloneSilentDevSetup.exe')
+                            'OneVNBrowserStandaloneSilentDevSetup.exe')
                         file_desired_standalone_untagged = (
-                            'BraveBrowserStandaloneUntaggedDevSetup.exe')
-                        file_desired_stub = 'BraveBrowserDevSetup.exe'
-                        file_desired_stub_silent = 'BraveBrowserSilentDevSetup.exe'
-                        file_desired_stub_untagged = 'BraveBrowserUntaggedDevSetup.exe'
+                            'OneVNBrowserStandaloneUntaggedDevSetup.exe')
+                        file_desired_stub = 'OneVNBrowserDevSetup.exe'
+                        file_desired_stub_silent = 'OneVNBrowserSilentDevSetup.exe'
+                        file_desired_stub_untagged = 'OneVNBrowserUntaggedDevSetup.exe'
                     elif channel_capitalized == 'Nightly':
                         file_desired_standalone = (
-                            'BraveBrowserStandaloneNightlySetup.exe')
+                            'OneVNBrowserStandaloneNightlySetup.exe')
                         file_desired_standalone_silent = (
-                            'BraveBrowserStandaloneSilentNightlySetup.exe')
+                            'OneVNBrowserStandaloneSilentNightlySetup.exe')
                         file_desired_standalone_untagged = (
-                            'BraveBrowserStandaloneUntaggedNightlySetup.exe')
-                        file_desired_stub = 'BraveBrowserNightlySetup.exe'
-                        file_desired_stub_silent = 'BraveBrowserSilentNightlySetup.exe'
-                        file_desired_stub_untagged = 'BraveBrowserUntaggedNightlySetup.exe'
-                    if re.match(r'BraveBrowser' + channel_capitalized +
+                            'OneVNBrowserStandaloneUntaggedNightlySetup.exe')
+                        file_desired_stub = 'OneVNBrowserNightlySetup.exe'
+                        file_desired_stub_silent = 'OneVNBrowserSilentNightlySetup.exe'
+                        file_desired_stub_untagged = 'OneVNBrowserUntaggedNightlySetup.exe'
+                    if re.match(r'OneVNBrowser' + channel_capitalized +
                                 r'Setup_.*\.exe', file):
                         filecopy(file_path, file_desired_stub)
                         pkgs.append(file_desired_stub)
-                    elif re.match(r'BraveBrowserSilent' + channel_capitalized +
+                    elif re.match(r'OneVNBrowserSilent' + channel_capitalized +
                                   r'Setup_.*\.exe', file):
                         filecopy(file_path, file_desired_stub_silent)
                         pkgs.append(file_desired_stub_silent)
-                    elif re.match(r'BraveBrowserUntagged' + channel_capitalized +
+                    elif re.match(r'OneVNBrowserUntagged' + channel_capitalized +
                                   r'Setup_.*\.exe', file):
                         filecopy(file_path, file_desired_stub_untagged)
                         pkgs.append(file_desired_stub_untagged)
-                    elif re.match(r'BraveBrowserStandalone' +
+                    elif re.match(r'OneVNBrowserStandalone' +
                                   channel_capitalized + r'Setup_.*\.exe',
                                   file):
                         filecopy(file_path, file_desired_standalone)
                         pkgs.append(file_desired_standalone)
-                    elif re.match(r'BraveBrowserStandaloneSilent' +
+                    elif re.match(r'OneVNBrowserStandaloneSilent' +
                                   channel_capitalized + r'Setup_.*\.exe',
                                   file):
                         filecopy(file_path, file_desired_standalone_silent)
                         pkgs.append(file_desired_standalone_silent)
-                    elif re.match(r'BraveBrowserStandaloneUntagged' +
+                    elif re.match(r'OneVNBrowserStandaloneUntagged' +
                                   channel_capitalized + r'Setup_.*\.exe',
                                   file):
                         filecopy(file_path, file_desired_standalone_untagged)
@@ -292,91 +292,91 @@ def get_brave_packages(dir, channel, version):
                 else:
                     if channel_capitalized == 'Release':
                         file_desired_standalone = (
-                            'BraveBrowserStandaloneSetup32.exe')
+                            'OneVNBrowserStandaloneSetup32.exe')
                         file_desired_standalone_silent = (
-                            'BraveBrowserStandaloneSilentSetup32.exe')
+                            'OneVNBrowserStandaloneSilentSetup32.exe')
                         file_desired_standalone_untagged = (
-                            'BraveBrowserStandaloneUntaggedSetup32.exe')
-                        file_desired_stub = 'BraveBrowserSetup32.exe'
-                        file_desired_stub_silent = 'BraveBrowserSilentSetup32.exe'
-                        file_desired_stub_untagged = 'BraveBrowserUntaggedSetup32.exe'
-                        if re.match(r'BraveBrowserSetup32_.*\.exe', file):
+                            'OneVNBrowserStandaloneUntaggedSetup32.exe')
+                        file_desired_stub = 'OneVNBrowserSetup32.exe'
+                        file_desired_stub_silent = 'OneVNBrowserSilentSetup32.exe'
+                        file_desired_stub_untagged = 'OneVNBrowserUntaggedSetup32.exe'
+                        if re.match(r'OneVNBrowserSetup32_.*\.exe', file):
                             filecopy(file_path, file_desired_stub)
                             pkgs.append(file_desired_stub)
-                        elif re.match(r'BraveBrowserSilentSetup32_.*\.exe', file):
+                        elif re.match(r'OneVNBrowserSilentSetup32_.*\.exe', file):
                             filecopy(file_path, file_desired_stub_silent)
                             pkgs.append(file_desired_stub_silent)
-                        elif re.match(r'BraveBrowserUntaggedSetup32_.*\.exe', file):
+                        elif re.match(r'OneVNBrowserUntaggedSetup32_.*\.exe', file):
                             filecopy(file_path, file_desired_stub_untagged)
                             pkgs.append(file_desired_stub_untagged)
                         elif re.match(
-                                r'BraveBrowserStandaloneSetup32_.*\.exe',
+                                r'OneVNBrowserStandaloneSetup32_.*\.exe',
                                 file):
                             filecopy(file_path, file_desired_standalone)
                             pkgs.append(file_desired_standalone)
                         elif re.match(
-                                r'BraveBrowserStandaloneSilentSetup32_.*\.exe',
+                                r'OneVNBrowserStandaloneSilentSetup32_.*\.exe',
                                 file):
                             filecopy(file_path, file_desired_standalone_silent)
                             pkgs.append(file_desired_standalone_silent)
                         elif re.match(
-                                r'BraveBrowserStandaloneUntaggedSetup32_.*\.exe',
+                                r'OneVNBrowserStandaloneUntaggedSetup32_.*\.exe',
                                 file):
                             filecopy(file_path, file_desired_standalone_untagged)
                             pkgs.append(file_desired_standalone_untagged)
                     elif channel_capitalized == 'Beta':
                         file_desired_standalone = (
-                            'BraveBrowserStandaloneBetaSetup32.exe')
+                            'OneVNBrowserStandaloneBetaSetup32.exe')
                         file_desired_standalone_silent = (
-                            'BraveBrowserStandaloneSilentBetaSetup32.exe')
+                            'OneVNBrowserStandaloneSilentBetaSetup32.exe')
                         file_desired_standalone_untagged = (
-                            'BraveBrowserStandaloneUntaggedBetaSetup32.exe')
-                        file_desired_stub = 'BraveBrowserBetaSetup32.exe'
-                        file_desired_stub_silent = 'BraveBrowserSilentBetaSetup32.exe'
-                        file_desired_stub_untagged = 'BraveBrowserUntaggedBetaSetup32.exe'
+                            'OneVNBrowserStandaloneUntaggedBetaSetup32.exe')
+                        file_desired_stub = 'OneVNBrowserBetaSetup32.exe'
+                        file_desired_stub_silent = 'OneVNBrowserSilentBetaSetup32.exe'
+                        file_desired_stub_untagged = 'OneVNBrowserUntaggedBetaSetup32.exe'
                     elif channel_capitalized == 'Dev':
                         file_desired_standalone = (
-                            'BraveBrowserStandaloneDevSetup32.exe')
+                            'OneVNBrowserStandaloneDevSetup32.exe')
                         file_desired_standalone_silent = (
-                            'BraveBrowserStandaloneSilentDevSetup32.exe')
+                            'OneVNBrowserStandaloneSilentDevSetup32.exe')
                         file_desired_standalone_untagged = (
-                            'BraveBrowserStandaloneUntaggedDevSetup32.exe')
-                        file_desired_stub = 'BraveBrowserDevSetup32.exe'
-                        file_desired_stub_silent = 'BraveBrowserSilentDevSetup32.exe'
-                        file_desired_stub_untagged = 'BraveBrowserUntaggedDevSetup32.exe'
+                            'OneVNBrowserStandaloneUntaggedDevSetup32.exe')
+                        file_desired_stub = 'OneVNBrowserDevSetup32.exe'
+                        file_desired_stub_silent = 'OneVNBrowserSilentDevSetup32.exe'
+                        file_desired_stub_untagged = 'OneVNBrowserUntaggedDevSetup32.exe'
                     elif channel_capitalized == 'Nightly':
                         file_desired_standalone = (
-                            'BraveBrowserStandaloneNightlySetup32.exe')
+                            'OneVNBrowserStandaloneNightlySetup32.exe')
                         file_desired_standalone_silent = (
-                            'BraveBrowserStandaloneSilentNightlySetup32.exe')
+                            'OneVNBrowserStandaloneSilentNightlySetup32.exe')
                         file_desired_standalone_untagged = (
-                            'BraveBrowserStandaloneUntaggedNightlySetup32.exe')
-                        file_desired_stub = 'BraveBrowserNightlySetup32.exe'
-                        file_desired_stub_silent = 'BraveBrowserSilentNightlySetup32.exe'
-                        file_desired_stub_untagged = 'BraveBrowserUntaggedNightlySetup32.exe'
-                    if re.match(r'BraveBrowser' + channel_capitalized +
+                            'OneVNBrowserStandaloneUntaggedNightlySetup32.exe')
+                        file_desired_stub = 'OneVNBrowserNightlySetup32.exe'
+                        file_desired_stub_silent = 'OneVNBrowserSilentNightlySetup32.exe'
+                        file_desired_stub_untagged = 'OneVNBrowserUntaggedNightlySetup32.exe'
+                    if re.match(r'OneVNBrowser' + channel_capitalized +
                                 r'Setup32_.*\.exe', file):
                         filecopy(file_path, file_desired_stub)
                         pkgs.append(file_desired_stub)
-                    elif re.match(r'BraveBrowserSilent' + channel_capitalized +
+                    elif re.match(r'OneVNBrowserSilent' + channel_capitalized +
                                   r'Setup32_.*\.exe', file):
                         filecopy(file_path, file_desired_stub_silent)
                         pkgs.append(file_desired_stub_silent)
-                    elif re.match(r'BraveBrowserUntagged' + channel_capitalized +
+                    elif re.match(r'OneVNBrowserUntagged' + channel_capitalized +
                                   r'Setup32_.*\.exe', file):
                         filecopy(file_path, file_desired_stub_untagged)
                         pkgs.append(file_desired_stub_untagged)
-                    elif re.match(r'BraveBrowserStandalone' +
+                    elif re.match(r'OneVNBrowserStandalone' +
                                   channel_capitalized + r'Setup32_.*\.exe',
                                   file):
                         filecopy(file_path, file_desired_standalone)
                         pkgs.append(file_desired_standalone)
-                    elif re.match(r'BraveBrowserStandaloneSilent' +
+                    elif re.match(r'OneVNBrowserStandaloneSilent' +
                                   channel_capitalized + r'Setup32_.*\.exe',
                                   file):
                         filecopy(file_path, file_desired_standalone_silent)
                         pkgs.append(file_desired_standalone_silent)
-                    elif re.match(r'BraveBrowserStandaloneUntagged' +
+                    elif re.match(r'OneVNBrowserStandaloneUntagged' +
                                   channel_capitalized + r'Setup32_.*\.exe',
                                   file):
                         filecopy(file_path, file_desired_standalone_untagged)
@@ -391,7 +391,7 @@ def parse_args():
                         'destination draft on upload.')
     parser.add_argument('-v', '--version',
                         help='Specify the version',
-                        default=get_brave_version())
+                        default=get_onevn_version())
     parser.add_argument('-d', '--dist-url',
                         help='The base dist url for '
                         'download', default=DIST_URL)
@@ -442,19 +442,19 @@ def create_release_draft(repo, tag):
     # TODO: Parse release notes from CHANGELOG.md
 
     nightly_winstallers = (
-        '`BraveBrowserNightlySetup.exe` and `BraveBrowserNightlySetup32.exe`')
+        '`OneVNBrowserNightlySetup.exe` and `OneVNBrowserNightlySetup32.exe`')
     dev_winstallers = (
-        '`BraveBrowserDevSetup.exe` and `BraveBrowserDevSetup32.exe`')
+        '`OneVNBrowserDevSetup.exe` and `OneVNBrowserDevSetup32.exe`')
     beta_winstallers = (
-        '`BraveBrowserBetaSetup.exe` and `BraveBrowserBetaSetup32.exe`')
+        '`OneVNBrowserBetaSetup.exe` and `OneVNBrowserBetaSetup32.exe`')
     release_winstallers = (
-        '`BraveBrowserSetup.exe` and `BraveBrowserSetup32.exe`')
+        '`OneVNBrowserSetup.exe` and `OneVNBrowserSetup32.exe`')
 
-    nightly_dev_beta_warning = '''*This is not the released version of Brave.
+    nightly_dev_beta_warning = '''*This is not the released version of OneVN.
 **Be careful** - things are unstable and might even be broken.*
 
 These builds are an unpolished and unfinished early preview for the new
-version of Brave on the desktop. These builds show our work in progress and
+version of OneVN on the desktop. These builds show our work in progress and
 they aren't for the faint-of-heart. Features may be missing or broken in new
 and exciting ways; familiar functionality may have unfamiliar side-effects.
 These builds showcase the newest advances that we're bringing to your browser,
@@ -477,10 +477,10 @@ you're looking for a little extra spice and adventure in your browsing.'''
     body = '''{warning}
 
 ### Mac installation
-Install Brave-Browser.dmg on your system.
+Install OneVN-Browser.dmg on your system.
 
 ### Linux install instructions
-http://brave-browser.readthedocs.io/en/latest/installing-brave.html#linux
+http://onevn-browser.readthedocs.io/en/latest/installing-onevn.html#linux
 
 ### Windows
 {win} will fetch and install the latest available version from our
@@ -495,7 +495,7 @@ update server.'''.format(warning=warning, win=winstallers)
     return release
 
 
-def upload_brave(github, release, file_path, filename=None, force=False):
+def upload_onevn(github, release, file_path, filename=None, force=False):
     # Delete the original file before uploading.
     if filename is None:
         filename = os.path.basename(file_path)
@@ -504,7 +504,7 @@ def upload_brave(github, release, file_path, filename=None, force=False):
         for asset in release['assets']:
             if asset['name'] == filename:
                 print('[INFO] Asset "' + filename + '" exists; deleting...')
-                github.repos(BRAVE_REPO).releases.assets(asset['id']).delete()
+                github.repos(ONEVN_REPO).releases.assets(asset['id']).delete()
                 print('[INFO] Asset "' + filename + '" deleted')
     except Exception:
         pass
@@ -533,7 +533,7 @@ def upload_brave(github, release, file_path, filename=None, force=False):
         arm_filename = filename.replace('armv7l', 'arm')
         arm_file_path = os.path.join(os.path.dirname(file_path), arm_filename)
         shutil.copy2(file_path, arm_file_path)
-        upload_brave(github, release, arm_file_path)
+        upload_onevn(github, release, arm_file_path)
 
 
 def upload_io_to_github(github, release, name, io, content_type):
@@ -562,7 +562,7 @@ def upload_sha256_checksum(version, file_path):
 
 def auth_token():
     token = get_env_var('GITHUB_TOKEN')
-    message = ('Error: Please set the $BRAVE_GITHUB_TOKEN '
+    message = ('Error: Please set the $ONEVN_GITHUB_TOKEN '
                'environment variable, which is your personal token')
     assert token, message
     return token

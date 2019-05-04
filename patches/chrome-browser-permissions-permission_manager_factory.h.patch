@@ -6,7 +6,7 @@ index be4990571b35bbdbd8c464c688d6050c0b9202c9..bce2e4efbcab5e366d8e57abe39ee9e4
  
   private:
    friend struct base::DefaultSingletonTraits<PermissionManagerFactory>;
-+  friend class BravePermissionManagerFactory;
++  friend class OneVNPermissionManagerFactory;
  
    PermissionManagerFactory();
    ~PermissionManagerFactory() override;

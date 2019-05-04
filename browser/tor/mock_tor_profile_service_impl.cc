@@ -1,14 +1,14 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/tor/mock_tor_profile_service_impl.h"
+#include "onevn/browser/tor/mock_tor_profile_service_impl.h"
 
 #include <string>
 
-#include "brave/browser/tor/tor_proxy_config_service.h"
-#include "brave/common/tor/tor_test_constants.h"
+#include "onevn/browser/tor/tor_proxy_config_service.h"
+#include "onevn/common/tor/tor_test_constants.h"
 #include "chrome/browser/profiles/profile.h"
 #include "content/public/browser/browser_thread.h"
 #include "content/public/browser/site_instance.h"

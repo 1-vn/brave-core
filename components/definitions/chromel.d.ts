@@ -12,7 +12,7 @@ declare namespace chrome.dns {
   function resolve (hostname: string, callback: any): void
 }
 
-declare namespace chrome.braveRewards {
+declare namespace chrome.onevnRewards {
   const createWallet: () => {}
   const donateToSite: (tabId: number, publisherKey: string) => {}
   const getPublisherData: (windowId: number, url: string, faviconUrl: string, publisherBlob: string | undefined) => {}
@@ -117,7 +117,7 @@ declare namespace chrome.windows {
   const getAllAsync: any
 }
 
-declare namespace chrome.braveShields {
+declare namespace chrome.onevnShields {
   const onBlocked: {
     addListener: (callback: (detail: BlockDetails) => void) => void
     emit: (detail: BlockDetails) => void
@@ -128,11 +128,11 @@ declare namespace chrome.braveShields {
   const plugins: any
 }
 
-declare namespace chrome.braveTheme {
+declare namespace chrome.onevnTheme {
   type ThemeType = 'Light' | 'Dark'
   type ThemeTypeCallback = (themeType: ThemeType) => void
-  const getBraveThemeType: (themeType: ThemeTypeCallback) => void
-  const onBraveThemeTypeChanged: {
+  const getOneVNThemeType: (themeType: ThemeTypeCallback) => void
+  const onOneVNThemeTypeChanged: {
     addListener: (callback: ThemeTypeCallback) => void
   }
 }

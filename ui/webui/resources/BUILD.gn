@@ -3,19 +3,19 @@ import("//ui/webui/webui_features.gni")
 
 grit("resources") {
   defines = [ "optimize_webui=$optimize_webui" ]
-  source = "brave_webui_resources.grd"
+  source = "onevn_webui_resources.grd"
 
   # The .grd contains references to generated files.
   source_is_generated = true
 
   outputs = [
-    "grit/brave_webui_resources.h",
-    "grit/brave_webui_resources_map.cc",
-    "grit/brave_webui_resources_map.h",
-    "brave_webui_resources.pak",
+    "grit/onevn_webui_resources.h",
+    "grit/onevn_webui_resources_map.cc",
+    "grit/onevn_webui_resources_map.h",
+    "onevn_webui_resources.pak",
   ]
 
-  resource_ids = "//brave/browser/resources/resource_ids"
+  resource_ids = "//onevn/browser/resources/resource_ids"
 
   grit_flags = [
     "-E",

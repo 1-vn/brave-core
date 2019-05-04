@@ -6,7 +6,7 @@ index 26d74e9c5d80d2c699df1a6ee16f4ed494d563dd..130e4bd112aac15e81e2de967da2d1c4
    content::NavigationEntry* GetNavigationEntry() const;
  
   private:
-+  friend class BraveLocationBarModelDelegate;
++  friend class OneVNLocationBarModelDelegate;
    base::string16 FormattedStringWithEquivalentMeaning(
        const GURL& url,
        const base::string16& formatted_url) const override;

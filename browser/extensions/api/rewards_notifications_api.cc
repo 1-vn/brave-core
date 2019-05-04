@@ -2,16 +2,16 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/extensions/api/rewards_notifications_api.h"
+#include "onevn/browser/extensions/api/rewards_notifications_api.h"
 
-#include "brave/common/extensions/api/rewards_notifications.h"
-#include "brave/components/brave_rewards/browser/rewards_notification_service.h"
-#include "brave/components/brave_rewards/browser/rewards_service.h"
-#include "brave/components/brave_rewards/browser/rewards_service_factory.h"
+#include "onevn/common/extensions/api/rewards_notifications.h"
+#include "onevn/components/onevn_rewards/browser/rewards_notification_service.h"
+#include "onevn/components/onevn_rewards/browser/rewards_service.h"
+#include "onevn/components/onevn_rewards/browser/rewards_service_factory.h"
 #include "chrome/browser/profiles/profile.h"
 
-using brave_rewards::RewardsNotificationService;
-using brave_rewards::RewardsServiceFactory;
+using onevn_rewards::RewardsNotificationService;
+using onevn_rewards::RewardsServiceFactory;
 
 namespace extensions {
 namespace api {

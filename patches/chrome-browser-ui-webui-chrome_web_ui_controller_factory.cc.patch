@@ -6,7 +6,7 @@ index 14811cf71310045212d314aa7e9e40f9339f3c42..7bad587373c17c7a45f819d1f0f547da
  #include "base/location.h"
  #include "base/memory/ptr_util.h"
  #include "base/threading/thread_task_runner_handle.h"
-+#include "brave/browser/ui/webui/brave_web_ui_controller_factory.h"
++#include "onevn/browser/ui/webui/onevn_web_ui_controller_factory.h"
  #include "build/build_config.h"
  #include "chrome/browser/about_flags.h"
  #include "chrome/browser/accessibility/accessibility_ui.h"
@@ -15,7 +15,7 @@ index 14811cf71310045212d314aa7e9e40f9339f3c42..7bad587373c17c7a45f819d1f0f547da
  // static
  ChromeWebUIControllerFactory* ChromeWebUIControllerFactory::GetInstance() {
 -  return base::Singleton<ChromeWebUIControllerFactory>::get();
-+  return BraveWebUIControllerFactory::GetInstance();
++  return OneVNWebUIControllerFactory::GetInstance();
  }
  
  // static

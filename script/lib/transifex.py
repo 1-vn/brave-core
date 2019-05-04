@@ -13,19 +13,19 @@ import lxml.etree
 import FP
 
 
-transifex_project_name = 'brave'
+transifex_project_name = 'onevn'
 base_url = 'https://www.transifex.com/api/2/'
 
 
 def transifex_name_from_filename(source_file_path, filename):
     ext = os.path.splitext(source_file_path)[1]
-    if 'brave_components_strings' in source_file_path:
-        return 'brave_components_resources'
+    if 'onevn_components_strings' in source_file_path:
+        return 'onevn_components_resources'
     elif ext == '.grd':
         return filename
-    elif 'brave_extension' in source_file_path:
-        return 'brave_extension'
-    elif 'brave_rewards' in source_file_path:
+    elif 'onevn_extension' in source_file_path:
+        return 'onevn_extension'
+    elif 'onevn_rewards' in source_file_path:
         return 'rewards_extension'
     assert False, ('JSON files should be mapped explicitly, this '
                    'one is not: ' + source_file_path)
@@ -346,12 +346,12 @@ def get_xtb_files(grd_file_path):
 
 
 def get_original_grd(src_root, grd_file_path):
-    """Obtains the Chromium GRD file for a specified Brave GRD file."""
+    """Obtains the Chromium GRD file for a specified OneVN GRD file."""
     grd_file_name = os.path.basename(grd_file_path)
-    if grd_file_name == 'components_brave_strings.grd':
+    if grd_file_name == 'components_onevn_strings.grd':
         return os.path.join(src_root, 'components',
                             'components_chromium_strings.grd')
-    elif grd_file_name == 'brave_strings.grd':
+    elif grd_file_name == 'onevn_strings.grd':
         return os.path.join(src_root, 'chrome', 'app', 'chromium_strings.grd')
     elif grd_file_name == 'generated_resources.grd':
         return os.path.join(src_root, 'chrome', 'app',
@@ -359,45 +359,45 @@ def get_original_grd(src_root, grd_file_path):
 
 
 def check_for_chromium_upgrade_extra_langs(src_root, grd_file_path):
-    """Checks the Brave GRD file vs the Chromium GRD file for extra
+    """Checks the OneVN GRD file vs the Chromium GRD file for extra
     languages."""
     chromium_grd_file_path = get_original_grd(src_root, grd_file_path)
     if not chromium_grd_file_path:
         return
-    brave_langs = get_transifex_languages(grd_file_path)
+    onevn_langs = get_transifex_languages(grd_file_path)
     chromium_langs = get_transifex_languages(chromium_grd_file_path)
-    x_brave_extra_langs = brave_langs - chromium_langs
-    assert len(x_brave_extra_langs) == 0, (
-        'Brave GRD %s has extra languages %s over Chromium GRD %s' % (
+    x_onevn_extra_langs = onevn_langs - chromium_langs
+    assert len(x_onevn_extra_langs) == 0, (
+        'OneVN GRD %s has extra languages %s over Chromium GRD %s' % (
             grd_file_path, chromium_grd_file_path,
-            list(x_brave_extra_langs)))
-    x_chromium_extra_langs = chromium_langs - brave_langs
+            list(x_onevn_extra_langs)))
+    x_chromium_extra_langs = chromium_langs - onevn_langs
     assert len(x_chromium_extra_langs) == 0, (
-        'Chromium GRD %s has extra languages %s over Brave GRD %s' % (
+        'Chromium GRD %s has extra languages %s over OneVN GRD %s' % (
             chromium_grd_file_path, grd_file_path,
             list(x_chromium_extra_langs)))
 
 
 def check_for_chromium_missing_grd_strings(src_root, grd_file_path):
-    """Checks to make sure Brave GRD file vs the Chromium GRD has the same
+    """Checks to make sure OneVN GRD file vs the Chromium GRD has the same
     amount of strings."""
     chromium_grd_file_path = get_original_grd(src_root, grd_file_path)
     if not chromium_grd_file_path:
         return
     grd_strings = get_grd_strings(grd_file_path)
     chromium_grd_strings = get_grd_strings(chromium_grd_file_path)
-    brave_strings = {string_name for (
+    onevn_strings = {string_name for (
         string_name, message_value, string_fp, desc) in grd_strings}
     chromium_strings = {string_name for (
         string_name, message_value, string_fp, desc) in chromium_grd_strings}
-    x_brave_extra_strings = brave_strings - chromium_strings
-    assert len(x_brave_extra_strings) == 0, (
-        'Brave GRD %s has extra strings %s over Chromium GRD %s' % (
+    x_onevn_extra_strings = onevn_strings - chromium_strings
+    assert len(x_onevn_extra_strings) == 0, (
+        'OneVN GRD %s has extra strings %s over Chromium GRD %s' % (
             grd_file_path, chromium_grd_file_path,
-            list(x_brave_extra_strings)))
-    x_chromium_extra_strings = chromium_strings - brave_strings
+            list(x_onevn_extra_strings)))
+    x_chromium_extra_strings = chromium_strings - onevn_strings
     assert len(x_chromium_extra_strings) == 0, (
-        'Chromium GRD %s has extra strings %s over Brave GRD %s' % (
+        'Chromium GRD %s has extra strings %s over OneVN GRD %s' % (
             chromium_grd_file_path, grd_file_path,
             list(x_chromium_extra_strings)))
 
@@ -408,11 +408,11 @@ def get_transifex_string_hash(string_name):
     return str(md5(':'.join([key, ''])).hexdigest())
 
 
-def braveify(string_value):
-    """Replace Chromium branded strings with Brave beranded strings."""
-    return (string_value.replace('Chrome', 'Brave')
-            .replace('Chromium', 'Brave')
-            .replace('Google', 'Brave Software'))
+def onevnify(string_value):
+    """Replace Chromium branded strings with OneVN beranded strings."""
+    return (string_value.replace('Chrome', 'OneVN')
+            .replace('Chromium', 'OneVN')
+            .replace('Google', 'OneVN Software'))
 
 
 def upload_missing_translation_to_transifex(source_string_path, lang_code,
@@ -424,7 +424,7 @@ def upload_missing_translation_to_transifex(source_string_path, lang_code,
             source_string_path, filename), lang_code,
         get_transifex_string_hash(string_name))
     url = base_url + url_part
-    translated_value = braveify(translated_value)
+    translated_value = onevnify(translated_value)
     payload = {
         'translation': translated_value,
         # Assume Chromium provided strings are reviewed and proofread
@@ -462,7 +462,7 @@ def upload_missing_translations_to_transifex(source_string_path, lang_code,
 
 def fix_missing_xtb_strings_from_chromium_xtb_strings(
         src_root, grd_file_path):
-    """Checks to make sure Brave GRD file vs the Chromium GRD has the same
+    """Checks to make sure OneVN GRD file vs the Chromium GRD has the same
     amount of strings.  If they do this checks that the XTB files that we
     manage have all the equivalent strings as the Chromium XTB files."""
     chromium_grd_file_path = get_original_grd(src_root, grd_file_path)

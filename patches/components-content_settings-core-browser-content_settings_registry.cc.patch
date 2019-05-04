@@ -6,7 +6,7 @@ index 03d0c89f73cb7a6a615195ca9ee36881fd4531c2..5e686c535d879f65f5a316041e9ad595
             ContentSettingsInfo::INHERIT_IF_LESS_PERMISSIVE,
             ContentSettingsInfo::PERSISTENT,
             ContentSettingsInfo::EXCEPTIONS_ON_SECURE_ORIGINS_ONLY);
-+  BraveInit();
++  OneVNInit();
  }
  
  void ContentSettingsRegistry::Register(

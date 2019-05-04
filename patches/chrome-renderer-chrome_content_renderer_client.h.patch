@@ -6,7 +6,7 @@ index 315fadea197fdd5836f3a71647cc0e52660d125e..d4a11cccdac968793b5ee0b656b8cbc6
    base::WeakPtr<ChromeRenderThreadObserver> GetChromeObserver() const;
  
   private:
-+  friend class BraveContentRendererClient;
++  friend class OneVNContentRendererClient;
    FRIEND_TEST_ALL_PREFIXES(ChromeContentRendererClientTest, NaClRestriction);
    FRIEND_TEST_ALL_PREFIXES(ChromeContentRendererClientTest,
                             ShouldSuppressErrorPage);

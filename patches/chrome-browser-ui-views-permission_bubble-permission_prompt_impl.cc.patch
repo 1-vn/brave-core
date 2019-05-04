@@ -6,7 +6,7 @@ index 489db17efe96db01666c57e01f6be0c2d37be873..8564f7450243c3a3e12aa96c338d71e4
      AddChildView(label_container);
    }
  
-+#if defined(BRAVE_CHROMIUM_BUILD)
++#if defined(ONEVN_CHROMIUM_BUILD)
 + AddWidevineExplanatoryMessageTextIfNeeded(this, requests);
 +#endif
 +

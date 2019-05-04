@@ -6,7 +6,7 @@ index 2dbb15bfbcabefc07b629573e517f9968508365b..a00cc7869f853c4c80a35f845b7fd55c
  #if defined(TOOLKIT_VIEWS)
    RegisterBrowserViewLocalPrefs(registry);
  #endif
-+  brave::RegisterLocalStatePrefs(registry);
++  onevn::RegisterLocalStatePrefs(registry);
  }
  
  // Register prefs applicable to all profiles.

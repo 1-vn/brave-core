@@ -6,7 +6,7 @@ index b8ba375a6c4866b061fc8cf2659578c45f5c6be7..40c4ccbbb9017673a2cf82e6b5f4cd2e
        "vector_icons.cc.template",
        "vector_icons.h.template",
      ]
-+    alt_icons_dir = "//brave/vector_icons/"+ rebase_path(invoker.icon_directory, "//")
++    alt_icons_dir = "//onevn/vector_icons/"+ rebase_path(invoker.icon_directory, "//")
 +    alt_icons_dir_rel = rebase_path(alt_icons_dir, root_build_dir)
      inputs =
          rebase_path(templates + invoker.icons, ".", invoker.icon_directory) +

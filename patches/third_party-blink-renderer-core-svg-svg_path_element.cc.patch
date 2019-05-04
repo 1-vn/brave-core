@@ -6,7 +6,7 @@ index 0b03e77f677831e8e3f426164a199c5dbbd85f25..6d6b7e1623bf64b06f1018e08202ba9c
  
  #include "third_party/blink/renderer/core/svg/svg_path_element.h"
  
-+#include "brave/renderer/brave_content_settings_observer_helper.h"
++#include "onevn/renderer/onevn_content_settings_observer_helper.h"
  #include "third_party/blink/renderer/core/layout/layout_object.h"
  #include "third_party/blink/renderer/core/svg/svg_mpath_element.h"
  #include "third_party/blink/renderer/core/svg/svg_path_query.h"

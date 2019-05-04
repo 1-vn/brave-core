@@ -2,8 +2,8 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/common/extensions/extension_constants.h"
-#include "brave/common/extensions/manifest_handlers/pdfjs_manifest_override.h"
+#include "onevn/common/extensions/extension_constants.h"
+#include "onevn/common/extensions/manifest_handlers/pdfjs_manifest_override.h"
 #include "chrome/common/extensions/api/extension_action/action_info.h"
 #include "extensions/common/extension.h"
 

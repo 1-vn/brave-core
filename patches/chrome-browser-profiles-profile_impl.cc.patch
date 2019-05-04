@@ -6,7 +6,7 @@ index 9a03896ee93016cc5e9c834cece5914f4009bfeb..867d7694b75e29689ba98062c58ed77b
  #include "base/threading/scoped_blocking_call.h"
  #include "base/trace_event/trace_event.h"
  #include "base/version.h"
-+#include "brave/browser/brave_profile_prefs.h"
++#include "onevn/browser/onevn_profile_prefs.h"
  #include "build/build_config.h"
  #include "chrome/browser/background/background_contents_service_factory.h"
  #include "chrome/browser/background_fetch/background_fetch_delegate_factory.h"
@@ -15,7 +15,7 @@ index 9a03896ee93016cc5e9c834cece5914f4009bfeb..867d7694b75e29689ba98062c58ed77b
        ->RegisterProfilePrefsForServices(this, pref_registry_.get());
  
 +  // Done here instead of browser_prefs.cc so it can override default prefs
-+  brave::RegisterProfilePrefs(pref_registry_.get());
++  onevn::RegisterProfilePrefs(pref_registry_.get());
 +
    SupervisedUserSettingsService* supervised_user_settings = nullptr;
  #if BUILDFLAG(ENABLE_SUPERVISED_USERS)

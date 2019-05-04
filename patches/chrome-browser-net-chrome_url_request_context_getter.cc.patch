@@ -7,7 +7,7 @@ index 180fa7de86b20084cd419f22e77af3ac7e369911..0004afc576bffb649c4aa56012c4c199
  
  #include <utility>
 -
-+#include "brave/components/brave_shields/browser/adblock_interceptor.h"
++#include "onevn/components/onevn_shields/browser/adblock_interceptor.h"
  #include "base/bind.h"
  #include "base/compiler_specific.h"
  #include "base/macros.h"
@@ -15,7 +15,7 @@ index 180fa7de86b20084cd419f22e77af3ac7e369911..0004afc576bffb649c4aa56012c4c199
        : profile_io_data_(profile_io_data),
          request_interceptors_(std::move(request_interceptors)) {
      std::swap(protocol_handlers_, *protocol_handlers);
-+    request_interceptors_.emplace_back(new brave_shields::AdBlockInterceptor);
++    request_interceptors_.emplace_back(new onevn_shields::AdBlockInterceptor);
    }
  
    net::URLRequestContext* Create() override {
@@ -23,7 +23,7 @@ index 180fa7de86b20084cd419f22e77af3ac7e369911..0004afc576bffb649c4aa56012c4c199
          network_context_request_(std::move(network_context_request)),
          network_context_params_(std::move(network_context_params)) {
      std::swap(protocol_handlers_, *protocol_handlers);
-+    request_interceptors_.emplace_back(new brave_shields::AdBlockInterceptor);
++    request_interceptors_.emplace_back(new onevn_shields::AdBlockInterceptor);
    }
  
    net::URLRequestContext* Create() override {

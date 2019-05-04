@@ -6,7 +6,7 @@ index 66696708ac5efb20916aa64591949c2c20ee81c7..f214b9015c8449fccce4a45dcead370e
      bool allowed = permission_controller->GetPermissionStatus(
                         PermissionType::BACKGROUND_SYNC, origin_url,
                         origin_url) == blink::mojom::PermissionStatus::GRANTED;
-+    allowed = false; // feature disabled in Brave
++    allowed = false; // feature disabled in OneVN
      if (allowed)
        origins_out.push_back(origin);
    }

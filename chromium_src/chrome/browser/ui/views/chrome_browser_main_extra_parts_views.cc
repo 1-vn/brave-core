@@ -5,9 +5,9 @@
 #include "build/build_config.h"  // For OS_LINUX
 
 #if defined(OS_LINUX)
-#include "brave/browser/ui/views/brave_views_delegate_linux.h"
+#include "onevn/browser/ui/views/onevn_views_delegate_linux.h"
 #undef ChromeViewsDelegate
-#define ChromeViewsDelegate BraveViewsDelegateLinux
+#define ChromeViewsDelegate OneVNViewsDelegateLinux
 #endif
 
 #include "../../../../../../chrome/browser/ui/views/chrome_browser_main_extra_parts_views.cc"

@@ -2,8 +2,8 @@ import("//build/config/features.gni")
 
 source_set("download") {
   sources = [
-    "brave_download_item_model.cc",
-    "brave_download_item_model.h",
+    "onevn_download_item_model.cc",
+    "onevn_download_item_model.h",
   ]
 
   deps = [

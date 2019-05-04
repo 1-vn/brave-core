@@ -1,0 +1,380 @@
+{
+  "onevnRewards": {
+    "message": "የብሬቭ ሽልማት",
+    "description": "Title in welcome screen for the panel"
+  },
+  "welcomeButtonTextOne": {
+    "message": "አሁን ማግኘቶን ይጀምሩ!",
+    "description": "CTA on welcome screen in the panel, existing users"
+  },
+  "welcomeButtonTextTwo": {
+    "message": "ሽልማት ይቀላቀሉ",
+    "description": "CTA on welcome screen in the panel, new users"
+  },
+  "welcomeDescOne": {
+    "message": "ማስታወቅያ በማየቶ ይከፈሎት እንዲሁም የሚፈልግቱን የይዘት ፈጣሪዎች ለመደገፍ ያስተላልፉት፡፡",
+    "description": "Entry text for welcome screen in the panel, existing user"
+  },
+  "welcomeDescTwo": {
+    "message": "ግላዊነት የሚያከብሩ ማስታወቅያዎችን በማየቶ ቶክን ማግኘት ይችላሉ፡፡",
+    "description": "Entry text for welcome screen in the panel, new user"
+  },
+  "welcomeFooterTextOne": {
+    "message": "የተሻሻለውን ይመልከቱ",
+    "description": "Link in the footer (takes you to rewards settings page) for welcome screen in the panel, existing user"
+  },
+  "welcomeFooterTextTwo": {
+    "message": "በተጨማሪ ይወቁ",
+    "description": "Link in the footer (takes you to rewards settings page) for welcome screen in the panel, new user"
+  },
+  "welcomeHeaderOne": {
+    "message": "ለ OneVN Rewards ትልቅ ዝመና ሰጥተናል።",
+    "description": "Main header title for welcome screen in the panel, existing user"
+  },
+  "welcomeHeaderTwo": {
+    "message": "ቀጣዩን ኢንተርኔት ለማየት ይዘጋጁ፡፡",
+    "description": "Main header title for welcome screen in the panel, new user"
+  },
+  "yourWallet": {
+    "message": "የእርስዎ ዋሌት",
+    "description": "Title of wallet section where we display data about wallet"
+  },
+  "grants": {
+    "message": "ስጦታ",
+    "description": "Title for grant section in wallet summary"
+  },
+  "on": {
+    "message": "በርቷል",
+    "description": "The whole string is 'Enable tips on YouTube for like.'"
+  },
+  "verifiedPublisher": {
+    "message": "ብሬቭ አሳታሚውን አረጋግጧል",
+    "description": "Tells user that this particular publisher is verified publisher"
+  },
+  "rewardsContributeAttentionScore": {
+    "message": "ያስተውሉ",
+    "description": "Label for auto contribute table attention for the publisher"
+  },
+  "donateMonthly": {
+    "message": "ይህን ገፅ በወር ምክር ይስጡ",
+    "description": "Label for drop down menu where user select amount for monthly contribution for particular publisher"
+  },
+  "includeInAuto": {
+    "message": "አውቶ-አስተዋጽኦ ያካቱ",
+    "description": "Label for checkbox that allows user to exclude publishers from auto contribute"
+  },
+  "donateNow": {
+    "message": "ምክሮች ይላኩ",
+    "description": "CTA for sending tip form site banner"
+  },
+  "enableTips": {
+    "message": "ምክሮችን ያብሩ",
+    "description": "The whole string is 'Enable tips on YouTube for like.'"
+  },
+  "for": {
+    "message": "ለ",
+    "description": "The whole string is 'Enable tips on YouTube for like.'"
+  },
+  "rewardsSummary": {
+    "message": "የሽልማት ማጠቃለያ",
+    "description": "Section title in wallet panel, which contains monthly rewards summary"
+  },
+  "monthApr": {
+    "message": "የካቲት",
+    "description": "Month"
+  },
+  "monthAug": {
+    "message": "ነሐሴ",
+    "description": "Month"
+  },
+  "monthDec": {
+    "message": "ታህሳስ",
+    "description": "Month"
+  },
+  "monthFeb": {
+    "message": "የካቲት",
+    "description": "Month"
+  },
+  "monthJan": {
+    "message": "ጥር",
+    "description": "Month"
+  },
+  "monthJul": {
+    "message": "ሀምሌ",
+    "description": "Month"
+  },
+  "monthJun": {
+    "message": "ሰኔ",
+    "description": "Month"
+  },
+  "monthMar": {
+    "message": "መጋቢት",
+    "description": "Month"
+  },
+  "monthMay": {
+    "message": "ግንቦት",
+    "description": "Month"
+  },
+  "monthNov": {
+    "message": "ሕዳር",
+    "description": "Month"
+  },
+  "monthOct": {
+    "message": "ጥቅምት",
+    "description": "Month"
+  },
+  "monthSep": {
+    "message": "መስከረም",
+    "description": "Month"
+  },
+  "tokenGrant": {
+    "message": "የቶክን ፍቃዶች",
+    "description": "Title for grant notification"
+  },
+  "tokenGrantClaimed": {
+    "message": "የቶክን ብድር ተጠይቋል",
+    "description": "Title for grant section in wallet summary"
+  },
+  "earningsAds": {
+    "message": "ከማስታወቅያ ማትረፍ",
+    "description": "Title for ads section in wallet summary"
+  },
+  "rewardsContribute": {
+    "message": "አውቶ-አስተዋፅኦ",
+    "description": "Title for auto contribute section in wallet summary"
+  },
+  "oneTimeDonation": {
+    "message": "የአንድ ግዜ ምክሮች",
+    "description": "Title for one time tips section in wallet summary"
+  },
+  "expiresOn": {
+    "message": "ቀኑ የሚያልፈው",
+    "description": "Used for grant representation. Whole string is '30.0 BAT expires on 08/05/2022'"
+  },
+  "recurringDonations": {
+    "message": "ወርሀዊ ምክሮች",
+    "description": "Title for monthly tips section in wallet summary"
+  },
+  "off": {
+    "message": "ጠፍቷል",
+    "description": "Label used in toggle indicating that toggle is off"
+  },
+  "ok": {
+    "message": "እሺ",
+    "description": "Used in notification to dismiss notification"
+  },
+  "onevnAdsTitle": {
+    "message": "የብሬቭ ማስታቂያዎች",
+    "description": "Notification title when we display info about ads"
+  },
+  "onevnContributeTitle": {
+    "message": "የራስ-አስተዋፅዎ",
+    "description": "Notification title when we display info about auto contribution"
+  },
+  "contributeNotificationSuccess": {
+    "message": "አዋጥተዋል $amount$ BAT",
+    "description": "We show this string in the notification when contribution is successful",
+    "placeholders": {
+      "amount": {
+        "content": "$1",
+        "example": "10.0"
+      }
+    }
+  },
+  "grantNotification": {
+    "message": " እርሶን የሚጠብቅ ስጦታ አሎት",
+    "description": "Description for new grant notification"
+  },
+  "backupNow": {
+    "message": "አሁን ምትክ አዘጋጅ",
+    "description": "Notification button text when we ask user to backup wallet"
+  },
+  "backupWalletTitle": {
+    "message": "የምትኬ ዋሌት",
+    "description": "Notification title when we ask user to backup wallet"
+  },
+  "backupWalletNotification": {
+    "message": "እባክዎትን ለOneVN walletዎ ምትኬ ያድርጉ።",
+    "description": "Description for backup wallet notification"
+  },
+  "insufficientFundsNotification": {
+    "message": "የእርስዎ OneVN Rewards መለያ ተቀማጭ ገንዘብ በመጠባበቅ ላይ ነው።",
+    "description": "Description for new insufficient funds notification"
+  },
+  "insufficientFunds": {
+    "message": "በቂ ያልሆነ ተቀማጭ",
+    "description": "Title for insufficient funds notification"
+  },
+  "onevnRewardsCreatingText": {
+    "message": "ቋት መፍጠር ",
+    "description": "Used in a button displaying wallet creation process"
+  },
+  "contributeNotificationError": {
+    "message": "የእርስዎን አስተዋፅኦ በማካሄድ ላይ ችግር ነበር\n",
+    "description": "We show this string in notification when contribution fails"
+  },
+  "contributeNotificationNotEnoughFunds": {
+    "message": "\nበቂ ገንዘብ ባለመኖሩ ምክንያት የእርስዎ መርሃ ግብር ለራስ-አስተዋፅዖ እና ለወርሃዊ ምክሮች ወርሃዊ ክፍያዎ መጠናቀቅ አልቻለም. በ 30 ቀኖች ውስጥ እንደገና እንሞክራለን::",
+    "description": "We show this string in the notification when you don't have enough funds for contribution"
+  },
+  "contributeNotificationTipError": {
+    "message": "ጉርሻዎን መላክ አልተቻለም፤ እባክዎ ቆየት ብለው ይሞክሩ።",
+    "description": "We show this string in notification when tip fails"
+  },
+  "noActivity": {
+    "message": "እስከ አሁን ምንም አይነት እንቅስቃሴ የለም",
+    "description": "Allows the user to see that there have been no transactions or other activity in their wallet"
+  },
+  "captchaDrag": {
+    "message": "የ BAT ምልክቱን ወደ ፋይሉ ይጎትቱ",
+    "description": "Directs the user to drag the BAT icon"
+  },
+  "captchaLuckyDay": {
+    "message": "ይህ እድለኛ የሚሆኑበት ቀን ነው!",
+    "description": "Cosmetic text upon captcha success"
+  },
+  "captchaOnTheWay": {
+    "message": "የቶክን ግራንትዎ በመንገድ ላይ ነው።",
+    "description": "Cosmetic text indicating grant funds are on the way"
+  },
+  "captchaProveHuman": {
+    "message": "ሰው መሆንዎን ያረጋግጡ",
+    "description": "Cosmetic text for captcha prompt"
+  },
+  "captchaTarget": {
+    "message": "ኢላማ።",
+    "description": "Captcha Target"
+  },
+  "captchaMissedTarget": {
+    "message": "ህምም....እንዲህ አይደለም። እንደገና ይሞክሩ።",
+    "description": "Message upon failing captcha"
+  },
+  "claim": {
+    "message": "አቤቱታ ",
+    "description": "Claim text"
+  },
+  "newTokenGrant": {
+    "message": "ነፃ የቶክን ብድር",
+    "description": "Token grant label"
+  },
+  "grantExpire": {
+    "message": "ድጋፉ የሚያበቃበት ቀን",
+    "description": "Grant expiry label"
+  },
+  "grantAlreadyClaimedText": {
+    "message": "ይቅርታ፣ ይህ ግራንት በሌለ ሰው ቀድሞ የተያዘ ይመስላል",
+    "description": "Description of the error when grant is already claimed."
+  },
+  "grantGeneralErrorButton": {
+    "message": "እሺ",
+    "description": "Button text for clearing the error."
+  },
+  "grantGeneralErrorText": {
+    "message": "የብሬቭ ሽልማት ችግር አለው፤ እባክዎ እንደገና ይሞክሩ፡፡ ",
+    "description": "Error text when user is having problems claiming a grant."
+  },
+  "grantGeneralErrorTitle": {
+    "message": "ውይ; የሆነ ችግር አለ፤ እባክዎ እንደገና ይሞክሩ::",
+    "description": "Error title when user is having problems claiming a grant."
+  },
+  "grantGoneButton": {
+    "message": "እሺ",
+    "description": "Button text for clearing the error."
+  },
+  "grantGoneText": {
+    "message": "ይቅርታ ይህ ስጦታ ጊዜው አልፎበታል::",
+    "description": "Error text when user missed a grant."
+  },
+  "grantGoneTitle": {
+    "message": "ይህ ስጦታ ከአሁን በኋላ አይገኝም",
+    "description": "Error title when user missed a grant."
+  },
+  "unVerifiedPublisher": {
+    "message": "ገና አልተረጋገጠም",
+    "description": "Status of the publisher shown in the panel"
+  },
+  "unVerifiedText": {
+    "message": "ይህ ፈጣር ከ OneVN ተጠቃሚዎች መዋጮዎችን ለመቀበል ገና አልተመዘገበም። እስከሚያረጋግጥ ድረስ ምንም አይነት መወጮ በእርሶ ዋሌት ውስጥ ይቆያል።",
+    "description": "Notice about unverified publisher."
+  },
+  "unVerifiedTextMore": {
+    "message": "ተጨማሪ ይማሩ",
+    "description": "Text for the link that explains more about reserved amount"
+  },
+  "reservedAmountText": {
+    "message": "{{reservedAmount}} BAT የሚያክል መጠንን መዋጮ ለመቀበል ላልተዘጋጀው ሰው አስቀምጠዋል። አሳሽዎ እነርሱ እስከሚያረጋግጡ ድረስ ለማዋጣት ይሞክራል ወይም 90 ቀናት እስከሚያልፍ ድረስ።",
+    "description": "Notification about how much BAT do you have reserved"
+  },
+  "reservedMoreLink": {
+    "message": "ተጨማሪ ይማሩ",
+    "description": "Text for the link that explains more about reserved amount"
+  },
+  "disabledPanelOff": {
+    "message": "አጥፋ",
+    "description": "Off state text for Panel's disabled state"
+  },
+  "disabledPanelSettings": {
+    "message": "ቅንብሮች።",
+    "description": "Settings Link for Panel's disabled state"
+  },
+  "disabledPanelText": {
+    "message": "በዚህ ሰአት ላይ ምንም አይነት የማሰስ ሽልማት ጥቅሞችን እያከማቹ ኤይደለም። ሽልማቶችን በ ማብራት ይችላሉ",
+    "description": "Text for Panel's disabled state"
+  },
+  "disabledPanelTitle": {
+    "message": "የ OneVN ሽልማት ማለት",
+    "description": "Title for Panel's disabled state"
+  },
+  "walletFailedTitle": {
+    "message": "ቋት የመፍጠር ሂደቱ አልተሳካም",
+    "description": "Failure title for wallet creation"
+  },
+  "walletFailedButton": {
+    "message": "እንደገና ሞክር",
+    "description": "Button for re-try after wallet creation failed"
+  },
+  "addFunds": {
+    "message": "ድጎማ ያድርጉ",
+    "description": "Button for adding funds"
+  },
+  "rewardsSettings": {
+    "message": "የሽልማት ቅንብሮች",
+    "description": "Button for opening settings page"
+  },
+  "earningsClaimDefault": {
+    "message": "የእርስዎ የማስታወቂያዎች ገቢዎች ይገኛሉ።",
+    "description": "Panel notification text for Ads grant"
+  },
+  "and": {
+    "message": "እና",
+    "description": "The word 'and'"
+  },
+  "onevnRewardsSubTitle": {
+    "message": "ብሮዝ ስላደረጉ ይሸለሙ!",
+    "description": "Subtitle for wallet disabled panel"
+  },
+  "disabledPanelTextTwo": {
+    "message": "ግላዊነት የሚያከብሩ ማስታወቂያዎችን በመመልከት ገቢ ያግኙ እንዲሁም እርስዎ የሚወዱዋቸውን የይዘት ፈጣሪዎች ለመደገፍ ወደፊት ይክፈሉ።",
+    "description": "Text block for wallet disabled panel"
+  },
+  "enableRewards": {
+    "message": "የብሬቭ ሽልማት ያብሩ",
+    "description": "Subtitle for wallet disabled panel"
+  },
+  "privacyPolicy": {
+    "message": "የግለኝነት መጠበቂያ ህግ",
+    "description": "Privacy Policy"
+  },
+  "serviceText": {
+    "message": " 'Enable OneVN Rewards'ን ጠቅ በማድረግ፤ ማንበብዎን እና መስማማትዎን ያመለክታሉ በ ላይ",
+    "description": "Terms of service main text"
+  },
+  "termsOfService": {
+    "message": "የአገልግሎት ውል",
+    "description": "Terms of Service"
+  },
+  "welcomeBack": {
+    "message": "እንኳን በደህና ተመለሱ",
+    "description": "Title message for wallet disabled panel"
+  }
+}

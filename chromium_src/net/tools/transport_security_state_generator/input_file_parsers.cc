@@ -13,7 +13,7 @@ namespace net {
 namespace transport_security_state {
 
 bool ParseCertificatesFile(base::StringPiece certs_input, Pinsets* pinsets) {
-  base::StringPiece brave_certs = R"brave_certs(TestSPKI
+  base::StringPiece onevn_certs = R"onevn_certs(TestSPKI
 sha256/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
 
 #From https://www.amazontrust.com/repository/
@@ -257,9 +257,9 @@ uT3prkvwt+2lvzKJKbqdH+lo40P8EuSyyJOz2hjrRzNMHbJHYDS9OhF5WC5LOQQa
 ydgLZ/JHxXgJypEZqcmVgQ+yYBs0XPwXjE7OE8vbx5REwu7gToMIqAoWRoWW2MxS
 g28RGPVnHzHk2XV1nZGy9T+NYQ91vWWJr1pzNEFZ0cnA2xGwTeJ+zZ3URCfw3Z1U
 +YAL3YUmrvdoRBlASOTmNJmXSo9qvMYPa3DEomAPoFQFZqsSN6kuqDEIqMA=
------END CERTIFICATE-----)brave_certs";
+-----END CERTIFICATE-----)onevn_certs";
 
-  return ParseCertificatesFile_ChromiumImpl(brave_certs, pinsets);
+  return ParseCertificatesFile_ChromiumImpl(onevn_certs, pinsets);
 }
 
 bool ParseJSON(base::StringPiece json,
@@ -281,7 +281,7 @@ bool ParseJSON(base::StringPiece json,
     entries->push_back(std::move(entry));
   }
 
-  base::StringPiece brave_json = R"brave_json({
+  base::StringPiece onevn_json = R"onevn_json({
     "pinsets": [
       {
         "name": "test",
@@ -291,7 +291,7 @@ bool ParseJSON(base::StringPiece json,
         "report_uri": "http://report-example.test/test"
       },
       {
-        "name": "brave",
+        "name": "onevn",
         "static_spki_hashes": [
           "AmazonRootCA1",
           "AmazonRootCA2",
@@ -307,20 +307,20 @@ bool ParseJSON(base::StringPiece json,
       }
     ],
     "entries": [
-      // Brave
-      { "name": "ledger.mercury.basicattentiontoken.org", "policy": "custom", "mode": "force-https", "pins": "brave"},
-      { "name": "ledger-staging.mercury.basicattentiontoken.org", "policy": "custom", "mode": "force-https", "pins": "brave"},
-      { "name": "balance.mercury.basicattentiontoken.org", "policy": "custom", "mode": "force-https", "pins": "brave"},
-      { "name": "balance-staging.mercury.basicattentiontoken.org", "policy": "custom", "mode": "force-https", "pins": "brave"},
-      { "name": "download.brave.com", "mode": "force-https", "policy": "custom", "pins": "brave"},
-      { "name": "laptop-updates.brave.com", "mode": "force-https", "policy": "custom", "pins": "brave"},
-      { "name": "sync.brave.com", "mode": "force-https", "policy": "custom", "pins": "brave"},
-      { "name": "sync-staging.brave.com", "policy": "custom", "mode": "force-https", "pins": "brave"},
-      { "name": "publishers-distro.basicattentiontoken.org", "policy": "custom", "mode": "force-https", "pins": "brave"},
-      { "name": "publishers-staging-distro.basicattentiontoken.org", "policy": "custom", "mode": "force-https", "pins": "brave"}
-    ]})brave_json";
+      // OneVN
+      { "name": "ledger.mercury.basicattentiontoken.org", "policy": "custom", "mode": "force-https", "pins": "onevn"},
+      { "name": "ledger-staging.mercury.basicattentiontoken.org", "policy": "custom", "mode": "force-https", "pins": "onevn"},
+      { "name": "balance.mercury.basicattentiontoken.org", "policy": "custom", "mode": "force-https", "pins": "onevn"},
+      { "name": "balance-staging.mercury.basicattentiontoken.org", "policy": "custom", "mode": "force-https", "pins": "onevn"},
+      { "name": "download.1-vn.com", "mode": "force-https", "policy": "custom", "pins": "onevn"},
+      { "name": "laptop-updates.1-vn.com", "mode": "force-https", "policy": "custom", "pins": "onevn"},
+      { "name": "sync.1-vn.com", "mode": "force-https", "policy": "custom", "pins": "onevn"},
+      { "name": "sync-staging.1-vn.com", "policy": "custom", "mode": "force-https", "pins": "onevn"},
+      { "name": "publishers-distro.basicattentiontoken.org", "policy": "custom", "mode": "force-https", "pins": "onevn"},
+      { "name": "publishers-staging-distro.basicattentiontoken.org", "policy": "custom", "mode": "force-https", "pins": "onevn"}
+    ]})onevn_json";
 
-  return ParseJSON_ChromiumImpl(brave_json, entries, pinsets);
+  return ParseJSON_ChromiumImpl(onevn_json, entries, pinsets);
 }
 
 }  // namespace transport_security_state

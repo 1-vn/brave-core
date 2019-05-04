@@ -6,7 +6,7 @@ index 088cee5cf802262eaaf5806d4b68ebc52a24f002..b9db5844f50abfd5e7c3373b03ed68e1
        width: 100%;
      }
    </style>
-+  <link rel="stylesheet" href="chrome://brave-resources/page_specific/extensions/extensions_loading_shim.css">
++  <link rel="stylesheet" href="chrome://onevn-resources/page_specific/extensions/extensions_loading_shim.css">
  </head>
  <body>
    <extensions-manager></extensions-manager>

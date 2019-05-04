@@ -6,14 +6,14 @@ index d994493407e6dc5c640dd16ce488818800c09d14..90846e8502e2cda2fd3a3bad4749f997
  // the icon from the current module). We can perhaps work around this in the
  // future to get the icon from the .exe, which would save a copy.
  
-+#if defined(BRAVE_CHROMIUM_BUILD)
++#if defined(ONEVN_CHROMIUM_BUILD)
 +#if defined(OFFICIAL_BUILD)
-+IDR_MAINFRAME       ICON                        "theme\brave\win\brave.ico"
-+IDR_SXS             ICON                        "theme\brave\win\brave_canary.ico"
-+IDR_X004_DEV        ICON                        "theme\brave\win\brave_dev.ico"
-+IDR_X005_BETA       ICON                        "theme\brave\win\brave_beta.ico"
++IDR_MAINFRAME       ICON                        "theme\onevn\win\onevn.ico"
++IDR_SXS             ICON                        "theme\onevn\win\onevn_canary.ico"
++IDR_X004_DEV        ICON                        "theme\onevn\win\onevn_dev.ico"
++IDR_X005_BETA       ICON                        "theme\onevn\win\onevn_beta.ico"
 +#else
-+IDR_MAINFRAME       ICON                        "theme\brave\win\brave_development.ico"
++IDR_MAINFRAME       ICON                        "theme\onevn\win\onevn_development.ico"
 +#endif
 +#else
  #if defined(GOOGLE_CHROME_BUILD)

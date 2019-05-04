@@ -6,7 +6,7 @@ index bd7fb4a2a6f3e10b3f25dbcf475ad5bc78eac962..f6c572e0c926a1f91c1ab4d8984329f4
    visibility_blink =
        [ "//third_party/blink/renderer/platform:blink_platform_public_deps" ]
    sources = [
-+    "../../../brave/third_party/blink/public/platform/brave_drm.mojom",
++    "../../../onevn/third_party/blink/public/platform/onevn_drm.mojom",
      "platform/modules/background_sync/background_sync.mojom",
      "platform/modules/badging/badging.mojom",
      "platform/modules/bluetooth/web_bluetooth.mojom",

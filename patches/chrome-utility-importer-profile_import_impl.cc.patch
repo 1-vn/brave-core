@@ -13,7 +13,7 @@ index 9c578d4cc46b57093e0d66dd82a83db512960aa9..92b270509b757114c235cad1ec619cff
 +#include "base/strings/utf_string_conversions.h"
  #include "base/threading/thread.h"
  #include "base/threading/thread_task_runner_handle.h"
-+#include "brave/utility/importer/brave_external_process_importer_bridge.h"
++#include "onevn/utility/importer/onevn_external_process_importer_bridge.h"
  #include "build/build_config.h"
  #include "chrome/utility/importer/external_process_importer_bridge.h"
  #include "chrome/utility/importer/importer.h"
@@ -30,8 +30,8 @@ index 9c578d4cc46b57093e0d66dd82a83db512960aa9..92b270509b757114c235cad1ec619cff
 +                              "Chromium", base::CompareCase::SENSITIVE)) {
 +    command_line->AppendSwitch("import-chromium");
 +  } else if (base::StartsWith(base::UTF16ToUTF8(source_profile.importer_name),
-+                              "Brave", base::CompareCase::SENSITIVE)) {
-+    command_line->AppendSwitch("import-brave");
++                              "OneVN", base::CompareCase::SENSITIVE)) {
++    command_line->AppendSwitch("import-onevn");
 +  }
 +
    // Create worker thread in which importer runs.
@@ -42,7 +42,7 @@ index 9c578d4cc46b57093e0d66dd82a83db512960aa9..92b270509b757114c235cad1ec619cff
      ImporterCleanup();
    }
 -  bridge_ = new ExternalProcessImporterBridge(
-+  bridge_ = new BraveExternalProcessImporterBridge(
++  bridge_ = new OneVNExternalProcessImporterBridge(
        localized_strings,
        ThreadSafeProfileImportObserverPtr::Create(std::move(observer)));
    import_thread_->task_runner()->PostTask(

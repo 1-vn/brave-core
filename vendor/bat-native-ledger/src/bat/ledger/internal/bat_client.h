@@ -1,10 +1,10 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#ifndef BRAVELEDGER_BAT_CLIENT_H_
-#define BRAVELEDGER_BAT_CLIENT_H_
+#ifndef ONEVNLEDGER_BAT_CLIENT_H_
+#define ONEVNLEDGER_BAT_CLIENT_H_
 
 #include <string>
 #include <vector>
@@ -19,7 +19,7 @@ namespace bat_ledger {
 class LedgerImpl;
 }
 
-namespace braveledger_bat_client {
+namespace onevnledger_bat_client {
 
 class BatClient {
  public:
@@ -72,7 +72,7 @@ class BatClient {
   void CreateWalletIfNecessary();
 
   ledger::WalletInfo WalletPropertiesToWalletInfo(
-    const braveledger_bat_helper::WALLET_PROPERTIES_ST& properties);
+    const onevnledger_bat_helper::WALLET_PROPERTIES_ST& properties);
 
  private:
   void getGrantCaptchaCallback(
@@ -114,6 +114,6 @@ class BatClient {
   bat_ledger::LedgerImpl* ledger_;  // NOT OWNED
 };
 
-}  // namespace braveledger_bat_client
+}  // namespace onevnledger_bat_client
 
-#endif  // BRAVELEDGER_BAT_CLIENT_H_
+#endif  // ONEVNLEDGER_BAT_CLIENT_H_

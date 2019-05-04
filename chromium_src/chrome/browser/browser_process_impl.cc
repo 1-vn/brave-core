@@ -2,8 +2,8 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_shields/browser/brave_resource_dispatcher_host_delegate.h"
+#include "onevn/components/onevn_shields/browser/onevn_resource_dispatcher_host_delegate.h"
 
-#define ChromeResourceDispatcherHostDelegate BraveResourceDispatcherHostDelegate
+#define ChromeResourceDispatcherHostDelegate OneVNResourceDispatcherHostDelegate
 #include "../../../../chrome/browser/browser_process_impl.cc"
 #undef ChromeResourceDispatcherHostDelegate

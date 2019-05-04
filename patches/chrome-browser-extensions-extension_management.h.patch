@@ -6,7 +6,7 @@ index 7894fd13acf50e6de2a6ff376e4cf5bdb9eb9eb4..eee0f936265f2f31ecc27bad46fe037f
                             std::string* required_version) const;
  
   private:
-+  friend class BraveExtensionManagement;
++  friend class OneVNExtensionManagement;
    using SettingsIdMap =
        std::unordered_map<ExtensionId,
                           std::unique_ptr<internal::IndividualSettings>>;

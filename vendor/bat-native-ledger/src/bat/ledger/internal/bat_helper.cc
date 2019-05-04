@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -21,7 +21,7 @@
 #include "tweetnacl.h"  // NOLINT
 #include "url/gurl.h"
 
-namespace braveledger_bat_helper {
+namespace onevnledger_bat_helper {
 
 bool isProbiValid(const std::string& probi) {
   // probi shouldn't be longer then 44
@@ -604,7 +604,7 @@ void saveToJson(JsonWriter* writer, const REPORT_BALANCE_ST& data) {
 
 /////////////////////////////////////////////////////////////////////////////
 PUBLISHER_STATE_ST::PUBLISHER_STATE_ST():
-  min_publisher_duration_(braveledger_ledger::_default_min_publisher_duration),
+  min_publisher_duration_(onevnledger_ledger::_default_min_publisher_duration),
   min_visits_(1),
   allow_non_verified_(true),
   pubs_load_timestamp_(0ull),
@@ -2241,7 +2241,7 @@ std::vector<uint8_t> getHKDF(const std::vector<uint8_t>& seed) {
                      EVP_sha512(),
                      &seed.front(),
                      seed.size(),
-                     braveledger_ledger::g_hkdfSalt,
+                     onevnledger_ledger::g_hkdfSalt,
                      SALT_LENGTH,
                      info,
                      sizeof(info) / sizeof(info[0]));
@@ -2604,7 +2604,7 @@ uint8_t niceware_mnemonic_to_bytes(
     std::vector<uint8_t>* bytes_out,
     size_t* written,
     std::vector<std::string> wordDictionary) {
-  std::vector<std::string> wordList = braveledger_bat_helper::split(
+  std::vector<std::string> wordList = onevnledger_bat_helper::split(
       toLowerCase(w),
       WALLET_PASSPHRASE_DELIM);
   std::vector<uint8_t> buffer(wordList.size() * 2);
@@ -3041,4 +3041,4 @@ void saveToJson(JsonWriter* writer, const ledger::RewardsInternalsInfo& info) {
   writer->EndObject();
 }
 
-}  // namespace braveledger_bat_helper
+}  // namespace onevnledger_bat_helper

@@ -12,7 +12,7 @@ import sys
 import requests
 
 from argparse import RawTextHelpFormatter
-from lib.config import get_brave_version, get_raw_version, get_env_var
+from lib.config import get_onevn_version, get_raw_version, get_env_var
 from lib.connect import post, get, post_with_file
 from lib.github import GitHub
 from lib.helpers import *
@@ -42,13 +42,13 @@ from lib.omaha import get_app_info, get_base64_authorization, get_channel_id, ge
 def download_from_github(args, logging):
     file_list = []
 
-    # BRAVE_REPO defined in helpers.py
-    repo = GitHub(get_env_var('GITHUB_TOKEN')).repos(BRAVE_REPO)
+    # ONEVN_REPO defined in helpers.py
+    repo = GitHub(get_env_var('GITHUB_TOKEN')).repos(ONEVN_REPO)
 
     if args.tag:
         tag_name = args.tag
     else:
-        tag_name = get_brave_version()
+        tag_name = get_onevn_version()
 
     release = None
     releases = get_releases_by_tag(repo, tag_name, include_drafts=True)
@@ -70,7 +70,7 @@ def download_from_github(args, logging):
             found_assets_in_github_release['darwin'] = {}
             found_assets_in_github_release['darwin']['name'] = asset['name']
             found_assets_in_github_release['darwin']['url'] = asset['url']
-        elif re.match(r'brave_installer-ia32\.exe$', asset['name']):
+        elif re.match(r'onevn_installer-ia32\.exe$', asset['name']):
             if args.uploaded:
                 if not args.platform:
                     args.platform = []
@@ -78,7 +78,7 @@ def download_from_github(args, logging):
             found_assets_in_github_release['win32'] = {}
             found_assets_in_github_release['win32']['name'] = asset['name']
             found_assets_in_github_release['win32']['url'] = asset['url']
-        elif re.match(r'brave_installer-x64\.exe$', asset['name']):
+        elif re.match(r'onevn_installer-x64\.exe$', asset['name']):
             if args.uploaded:
                 if not args.platform:
                     args.platform = []
@@ -110,7 +110,7 @@ def download_from_github(args, logging):
         headers = {'Accept': 'application/octet-stream'}
 
         asset_auth_url = found_assets_in_github_release[platform]['url'] + \
-            '?access_token=' + os.environ.get('BRAVE_GITHUB_TOKEN')
+            '?access_token=' + os.environ.get('ONEVN_GITHUB_TOKEN')
 
         if args.debug:
             # disable urllib3 logging for this session to avoid showing
@@ -185,14 +185,14 @@ def post_action(host, version, action, headers, args):
 def parse_args():
     desc = "Upload Windows/Mac install files to Omaha server" \
            "\n\nRequires the following ENVIRONMENT VARIABLES be set:" \
-           "\n\nCHANNEL: The Brave channel, i.e. \'nightly\', \'dev\', \'beta\', \'release\'" \
+           "\n\nCHANNEL: The OneVN channel, i.e. \'nightly\', \'dev\', \'beta\', \'release\'" \
            "\nOMAHA_HOST: The FQDN hostname of the Omaha server to upload to. (without \'https:\\\\' prefix)" \
            "\nOMAHA_USER: The UserID to use to login to the Omaha server." \
            "\nOMAHA_PASS: The Password to login to the Omaha server." \
            "\nDSA_PRIVATE_PEM: The Private DSA pem file used to sign the Mac DMG file." \
-           "\nBRAVE_GITHUB_TOKEN: Github token to download from a draft release if not published yet. " \
+           "\nONEVN_GITHUB_TOKEN: Github token to download from a draft release if not published yet. " \
            "(ONLY REQUIRED IF --github)" \
-           "\nnpm_config_brave_version: Chromium version (only if not in brave-core directory with brave-browser" \
+           "\nnpm_config_onevn_version: Chromium version (only if not in onevn-core directory with onevn-browser" \
            " in the parent dir)"
     parser = argparse.ArgumentParser(
         description=desc, formatter_class=RawTextHelpFormatter)
@@ -217,7 +217,7 @@ def main():
 
     if args.debug:
         logging.basicConfig(stream=sys.stderr, level=logging.DEBUG)
-        logging.debug('brave_version: {}'.format(get_upload_version()))
+        logging.debug('onevn_version: {}'.format(get_upload_version()))
 
     if args.uploaded and args.platform:
         exit("Error: --platform and --uploaded are mutually exclusive, only one allowed")
@@ -251,10 +251,10 @@ def main():
         if re.match(r'.*\.dmg$', source_file):
             app_info['platform'] = 'darwin'
             app_info['arch'] = 'x64'
-        elif re.match(r'.*brave_installer-ia32\.exe$', source_file):
+        elif re.match(r'.*onevn_installer-ia32\.exe$', source_file):
             app_info['platform'] = 'win32'
             app_info['arch'] = 'ia32'
-        elif re.match(r'.*brave_installer-x64\.exe$', source_file):
+        elif re.match(r'.*onevn_installer-x64\.exe$', source_file):
             app_info['platform'] = 'win32'
             app_info['arch'] = 'x64'
 

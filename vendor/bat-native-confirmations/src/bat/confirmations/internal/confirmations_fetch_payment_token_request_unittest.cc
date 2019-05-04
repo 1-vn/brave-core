@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -12,7 +12,7 @@
 
 #include "testing/gtest/include/gtest/gtest.h"
 
-// npm run test -- brave_unit_tests --filter=Confirmations*
+// npm run test -- onevn_unit_tests --filter=Confirmations*
 
 namespace confirmations {
 
@@ -60,7 +60,7 @@ TEST_F(ConfirmationsFetchPaymentTokenRequestTest, BuildUrl) {
   auto url = request_->BuildUrl(confirmation_id);
 
   // Assert
-  std::string expected_url = "https://ads-serve.bravesoftware.com/v1/confirmation/546fe7b0-5047-4f28-a11c-81f14edcf0f6/paymentToken";  // NOLINT
+  std::string expected_url = "https://ads-serve.onevnsoftware.com/v1/confirmation/546fe7b0-5047-4f28-a11c-81f14edcf0f6/paymentToken";  // NOLINT
   EXPECT_EQ(expected_url, url);
 }
 

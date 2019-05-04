@@ -6,7 +6,7 @@ index 9b1b7b80101672d21941d6eb9db944859e88a981..40a9705a8a519cc1067d230a745f2ccd
    media_client->RequestMediaKeySystemAccess(
        WebEncryptedMediaRequest(initializer));
  
-+  // Notify Brave about the widevine availability request.
++  // Notify OneVN about the widevine availability request.
 +  MaybeOnWidevineRequest(initializer, document->GetFrame());
 +
    // 7. Return promise.

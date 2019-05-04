@@ -6,7 +6,7 @@ index f4d0fe0af3a81d9f73bc410b8db4914cfff0dbf9..996b1ef8503a149ae16886bf88f35e51
  
   protected:
    friend class base::RefCountedThreadSafe<ProfileWriter>;
-+  friend class BraveProfileWriter;
++  friend class OneVNProfileWriter;
  
    virtual ~ProfileWriter();
  

@@ -1,20 +1,20 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/common/network_constants.h"
+#include "onevn/common/network_constants.h"
 
-const char kBraveUpdatesExtensionsEndpoint[] =
-    "https://go-updater.brave.com/extensions";
+const char kOneVNUpdatesExtensionsEndpoint[] =
+    "https://go-updater.1-vn.com/extensions";
 // For debgugging:
-// const char kBraveUpdatesExtensionsEndpoint[] =
+// const char kOneVNUpdatesExtensionsEndpoint[] =
 // "http://localhost:8192/extensions";
 
-const char kBraveReferralsServer[] = "laptop-updates.brave.com";
-const char kBraveReferralsHeadersPath[] = "/promo/custom-headers";
-const char kBraveReferralsInitPath[] = "/promo/initialize/nonua";
-const char kBraveReferralsActivityPath[] = "/promo/activity";
+const char kOneVNReferralsServer[] = "laptop-updates.1-vn.com";
+const char kOneVNReferralsHeadersPath[] = "/promo/custom-headers";
+const char kOneVNReferralsInitPath[] = "/promo/initialize/nonua";
+const char kOneVNReferralsActivityPath[] = "/promo/activity";
 
 const char kCRXDownloadPrefix[] =
     "*://clients2.googleusercontent.com/crx/blobs/*crx*";
@@ -51,7 +51,7 @@ const char kCookieHeader[] = "Cookie";
 // Intentional misspelling on referrer to match HTTP spec
 const char kRefererHeader[] = "Referer";
 const char kUserAgentHeader[] = "User-Agent";
-const char kBravePartnerHeader[] = "X-Brave-Partner";
+const char kOneVNPartnerHeader[] = "X-OneVN-Partner";
 
 const char kBittorrentMimeType[] = "application/x-bittorrent";
 const char kOctetStreamMimeType[] = "application/octet-stream";

@@ -1,10 +1,10 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#ifndef BRAVELEDGER_BAT_GET_MEDIA_H_
-#define BRAVELEDGER_BAT_GET_MEDIA_H_
+#ifndef ONEVNLEDGER_BAT_GET_MEDIA_H_
+#define ONEVNLEDGER_BAT_GET_MEDIA_H_
 
 #include <string>
 #include <map>
@@ -19,7 +19,7 @@ namespace bat_ledger {
 class LedgerImpl;
 }
 
-namespace braveledger_bat_get_media {
+namespace onevnledger_bat_get_media {
 
 class BatGetMedia {
  public:
@@ -46,10 +46,10 @@ class BatGetMedia {
                           uint64_t windowId);
 
   bat_ledger::LedgerImpl* ledger_;  // NOT OWNED
-  std::unique_ptr<braveledger_media::MediaYouTube> media_youtube_;
-  std::unique_ptr<braveledger_media::MediaTwitch> media_twitch_;
+  std::unique_ptr<onevnledger_media::MediaYouTube> media_youtube_;
+  std::unique_ptr<onevnledger_media::MediaTwitch> media_twitch_;
 };
 
-}  // namespace braveledger_bat_get_media
+}  // namespace onevnledger_bat_get_media
 
-#endif  // BRAVELEDGER_BAT_GET_MEDIA_H_
+#endif  // ONEVNLEDGER_BAT_GET_MEDIA_H_

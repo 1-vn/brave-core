@@ -6,7 +6,7 @@ index 01583d258bf05f6810933f550ae35277f3a2bfde..59b961be8d3e6bb1e870ecd7f0ffaaa1
  
  #include "third_party/blink/renderer/modules/webaudio/analyser_node.h"
  
-+#include "brave/renderer/brave_content_settings_observer_helper.h"
++#include "onevn/renderer/onevn_content_settings_observer_helper.h"
  #include "third_party/blink/renderer/modules/webaudio/analyser_options.h"
  #include "third_party/blink/renderer/modules/webaudio/audio_node_input.h"
  #include "third_party/blink/renderer/modules/webaudio/audio_node_output.h"

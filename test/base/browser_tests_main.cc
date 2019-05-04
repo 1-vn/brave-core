@@ -4,7 +4,7 @@
 
 #include "base/command_line.h"
 #include "base/test/launcher/test_launcher.h"
-#include "brave/test/base/brave_test_launcher_delegate.h"
+#include "onevn/test/base/onevn_test_launcher_delegate.h"
 #include "build/build_config.h"
 
 #if defined(OS_WIN)
@@ -31,6 +31,6 @@ int main(int argc, char** argv) {
 #endif  // defined(OS_WIN)
 
   ChromeTestSuiteRunner runner;
-  BraveTestLauncherDelegate delegate(&runner);
+  OneVNTestLauncherDelegate delegate(&runner);
   return LaunchChromeTests(parallel_jobs, &delegate, argc, argv);
 }

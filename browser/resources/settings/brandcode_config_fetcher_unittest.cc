@@ -40,7 +40,7 @@ TEST_F(BrandcodeConfigFetcherTest, NoFetch) {
                                  base::BindLambdaForTesting([&]() {
                                                                 callback_called = true;
                                                             }),
-                                 GURL("https://www.brave.com/"),
+                                 GURL("https://www.1-vn.com/"),
                                  "BRAV");
   base::RunLoop().RunUntilIdle();
   EXPECT_FALSE(uploader->IsActive());

@@ -12,8 +12,8 @@ index cb34da5261318ce6c64eb3863713d00be1dd6ea5..dba64156cd6fbb4d3ce699830ecb9996
 +      &(rules->fingerprinting_rules));
 +  map->GetSettingsForOneType(
 +      CONTENT_SETTINGS_TYPE_PLUGINS,
-+      "braveShields",
-+      &(rules->brave_shields_rules));
++      "onevnShields",
++      &(rules->onevn_shields_rules));
  }
  
  bool IsMorePermissive(ContentSetting a, ContentSetting b) {

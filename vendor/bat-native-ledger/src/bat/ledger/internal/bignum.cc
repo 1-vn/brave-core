@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -7,7 +7,7 @@
 
 #include "bat/ledger/internal/bignum.h"
 
-namespace braveledger_bat_bignum {
+namespace onevnledger_bat_bignum {
 
 void prepareBigNum(bn_t& big_num, const std::string& probi) {  // NOLINT
   bn_null(big_num);
@@ -82,4 +82,4 @@ std::string mul(const std::string& a_string, const std::string& b_string) {
   return result_str;
 }
 
-}  // namespace braveledger_bat_bignum
+}  // namespace onevnledger_bat_bignum

@@ -6,7 +6,7 @@ index 57d16aba9e9fef4a7862d052e55f50d7d19e4627..a77193cf9d224745897bf3235ec1071e
  
  #include "chrome/browser/ui/views/extensions/extension_popup.h"
  
-+#include "brave/common/extensions/extension_constants.h"
++#include "onevn/common/extensions/extension_constants.h"
  #include "chrome/browser/chrome_notification_types.h"
  #include "chrome/browser/devtools/devtools_window.h"
  #include "chrome/browser/extensions/extension_view_host.h"
@@ -17,19 +17,19 @@ index 57d16aba9e9fef4a7862d052e55f50d7d19e4627..a77193cf9d224745897bf3235ec1071e
 -  const int radius =
 -      GetBubbleFrameView()->bubble_border()->GetBorderCornerRadius();
 +
-+  // HACK: removes border radius for brave extensions
++  // HACK: removes border radius for onevn extensions
 +  //        as webview does not support radius clipping which results
 +  //        in white strips at top and bottom of popup.
-+  // TODO: add brave extension radius back in when macOS and Windows
++  // TODO: add onevn extension radius back in when macOS and Windows
 +  //        popups support web dialog window radius clipping.
 +
 +  bool shouldDisableRadiusForPopup = false;
 +  // Clipping issue is not present on linux
 +#if defined(OS_MACOSX) || defined(OS_WIN)
 +  const auto extensionId = host_->extension()->id();
-+  const bool isBraveExtension = (extensionId == brave_extension_id ||
-+      extensionId == brave_rewards_extension_id);
-+  shouldDisableRadiusForPopup = isBraveExtension;
++  const bool isOneVNExtension = (extensionId == onevn_extension_id ||
++      extensionId == onevn_rewards_extension_id);
++  shouldDisableRadiusForPopup = isOneVNExtension;
 +#endif
 +  const int radius = shouldDisableRadiusForPopup ? 0
 +      : GetBubbleFrameView()->bubble_border()->GetBorderCornerRadius();

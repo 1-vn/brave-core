@@ -1,0 +1,25 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this file,
+ * You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+#ifndef ONEVN_BROWSER_BOOKMARKS_ONEVN_BOOKMARK_CLIENT_H_
+#define ONEVN_BROWSER_BOOKMARKS_ONEVN_BOOKMARK_CLIENT_H_
+
+#include "chrome/browser/bookmarks/chrome_bookmark_client.h"
+
+class OneVNBookmarkClient : public ChromeBookmarkClient {
+ public:
+  OneVNBookmarkClient(
+      Profile* profile,
+      bookmarks::ManagedBookmarkService* managed_bookmark_service,
+      sync_bookmarks::BookmarkSyncService* bookmark_sync_service);
+
+  bookmarks::LoadExtraCallback GetLoadExtraNodesCallback() override;
+  bool IsPermanentNodeVisible(
+      const bookmarks::BookmarkPermanentNode* node) override;
+
+ private:
+  DISALLOW_COPY_AND_ASSIGN(OneVNBookmarkClient);
+};
+
+#endif  // ONEVN_BROWSER_BOOKMARKS_ONEVN_BOOKMARK_CLIENT_H_

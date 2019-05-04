@@ -1,0 +1,9 @@
+import("//build/buildflag_header.gni")
+import("//onevn/components/onevn_shields/browser/buildflags/buildflags.gni")
+
+buildflag_header("buildflags") {
+  header = "buildflags.h"
+  flags = [
+    "ONEVN_STP_ENABLED=$onevn_stp_enabled",
+  ]
+}

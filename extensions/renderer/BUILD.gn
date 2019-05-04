@@ -2,10 +2,10 @@ source_set("renderer") {
   visibility = [ "//extensions/renderer" ]
 
   sources = [
-    "brave_native_extension_bindings_system.cc",
-    "brave_native_extension_bindings_system.h",
-    "brave_shields_content_setting.cc",
-    "brave_shields_content_setting.h",
+    "onevn_native_extension_bindings_system.cc",
+    "onevn_native_extension_bindings_system.h",
+    "onevn_shields_content_setting.cc",
+    "onevn_shields_content_setting.h",
   ]
 
   deps = [

@@ -1,10 +1,10 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#ifndef BRAVE_BROWSER_NET_URL_CONTEXT_H_
-#define BRAVE_BROWSER_NET_URL_CONTEXT_H_
+#ifndef ONEVN_BROWSER_NET_URL_CONTEXT_H_
+#define ONEVN_BROWSER_NET_URL_CONTEXT_H_
 
 #include <memory>
 #include <string>
@@ -14,24 +14,24 @@
 #include "net/url_request/url_request.h"
 #include "url/gurl.h"
 
-class BraveNetworkDelegateBase;
+class OneVNNetworkDelegateBase;
 
-namespace brave {
+namespace onevn {
 
-struct BraveRequestInfo;
+struct OneVNRequestInfo;
 using ResponseCallback = base::Callback<void()>;
 
-}  // namespace brave
+}  // namespace onevn
 
-namespace brave_rewards {
+namespace onevn_rewards {
   int OnBeforeURLRequest(
-      const brave::ResponseCallback& next_callback,
-      std::shared_ptr<brave::BraveRequestInfo> ctx);
-}  // namespace brave_rewards
+      const onevn::ResponseCallback& next_callback,
+      std::shared_ptr<onevn::OneVNRequestInfo> ctx);
+}  // namespace onevn_rewards
 
-namespace brave {
+namespace onevn {
 
-enum BraveNetworkDelegateEventType {
+enum OneVNNetworkDelegateEventType {
   kOnBeforeRequest,
   kOnBeforeStartTransaction,
   kOnHeadersReceived,
@@ -47,15 +47,15 @@ enum BlockedBy {
   kOtherBlocked
 };
 
-struct BraveRequestInfo {
-  BraveRequestInfo();
-  ~BraveRequestInfo();
+struct OneVNRequestInfo {
+  OneVNRequestInfo();
+  ~OneVNRequestInfo();
   GURL request_url;
   GURL tab_origin;
   GURL tab_url;
   GURL initiator_url;
   std::string new_url_spec;
-  bool allow_brave_shields = true;
+  bool allow_onevn_shields = true;
   bool allow_ads = false;
   bool allow_http_upgradable_resource = false;
   bool allow_1p_cookies = true;
@@ -70,7 +70,7 @@ struct BraveRequestInfo {
   const net::HttpResponseHeaders* original_response_headers = nullptr;
   scoped_refptr<net::HttpResponseHeaders>* override_response_headers = nullptr;
   GURL* allowed_unsafe_redirect_url = nullptr;
-  BraveNetworkDelegateEventType event_type = kUnknownEventType;
+  OneVNNetworkDelegateEventType event_type = kUnknownEventType;
   const base::ListValue* referral_headers_list = nullptr;
   BlockedBy blocked_by = kNotBlocked;
   bool cancel_request_explicitly = false;
@@ -79,52 +79,52 @@ struct BraveRequestInfo {
   content::ResourceType resource_type = content::RESOURCE_TYPE_LAST_TYPE;
 
   static void FillCTXFromRequest(const net::URLRequest* request,
-    std::shared_ptr<brave::BraveRequestInfo> ctx);
+    std::shared_ptr<onevn::OneVNRequestInfo> ctx);
 
  private:
   // Please don't add any more friends here if it can be avoided.
   // We should also remove the ones below.
   friend int OnBeforeURLRequest_SiteHacksWork(
       const ResponseCallback& next_callback,
-      std::shared_ptr<BraveRequestInfo> ctx);
-  friend int brave_rewards::OnBeforeURLRequest(
-      const brave::ResponseCallback& next_callback,
-      std::shared_ptr<brave::BraveRequestInfo> ctx);
+      std::shared_ptr<OneVNRequestInfo> ctx);
+  friend int onevn_rewards::OnBeforeURLRequest(
+      const onevn::ResponseCallback& next_callback,
+      std::shared_ptr<onevn::OneVNRequestInfo> ctx);
   friend int OnBeforeURLRequest_TorWork(
       const ResponseCallback& next_callback,
-      std::shared_ptr<BraveRequestInfo> ctx);
-  friend class ::BraveNetworkDelegateBase;
+      std::shared_ptr<OneVNRequestInfo> ctx);
+  friend class ::OneVNNetworkDelegateBase;
 
   // Don't use this directly after any dispatch
   // request is deprecated, do not use it.
   const net::URLRequest* request;
   GURL* new_url = nullptr;
 
-  DISALLOW_COPY_AND_ASSIGN(BraveRequestInfo);
+  DISALLOW_COPY_AND_ASSIGN(OneVNRequestInfo);
 };
 
 // ResponseListener
 using OnBeforeURLRequestCallback =
     base::Callback<int(const ResponseCallback& next_callback,
-        std::shared_ptr<BraveRequestInfo> ctx)>;
+        std::shared_ptr<OneVNRequestInfo> ctx)>;
 using OnBeforeStartTransactionCallback =
     base::Callback<int(net::URLRequest* request,
         net::HttpRequestHeaders* headers,
         const ResponseCallback& next_callback,
-        std::shared_ptr<BraveRequestInfo> ctx)>;
+        std::shared_ptr<OneVNRequestInfo> ctx)>;
 using OnHeadersReceivedCallback =
     base::Callback<int(net::URLRequest* request,
         const net::HttpResponseHeaders* original_response_headers,
         scoped_refptr<net::HttpResponseHeaders>* override_response_headers,
         GURL* allowed_unsafe_redirect_url,
         const ResponseCallback& next_callback,
-        std::shared_ptr<BraveRequestInfo> ctx)>;
+        std::shared_ptr<OneVNRequestInfo> ctx)>;
 using OnCanGetCookiesCallback =
-    base::Callback<bool(std::shared_ptr<BraveRequestInfo> ctx)>;
+    base::Callback<bool(std::shared_ptr<OneVNRequestInfo> ctx)>;
 using OnCanSetCookiesCallback =
-    base::Callback<bool(std::shared_ptr<BraveRequestInfo> ctx)>;
+    base::Callback<bool(std::shared_ptr<OneVNRequestInfo> ctx)>;
 
-}  // namespace brave
+}  // namespace onevn
 
 
-#endif  // BRAVE_BROWSER_NET_URL_CONTEXT_H_
+#endif  // ONEVN_BROWSER_NET_URL_CONTEXT_H_

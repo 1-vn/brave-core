@@ -1,8 +1,8 @@
 declare_args() {
-  brave_chromium_build = true
-  brave_branding_path_component = ""
+  onevn_chromium_build = true
+  onevn_branding_path_component = ""
 }
 
-if (brave_chromium_build) {
-  brave_branding_path_component = "brave"
+if (onevn_chromium_build) {
+  onevn_branding_path_component = "onevn"
 }

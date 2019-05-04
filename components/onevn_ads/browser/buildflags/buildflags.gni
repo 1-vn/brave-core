@@ -1,0 +1,5 @@
+import("//build/config/features.gni")
+
+declare_args() {
+  onevn_ads_enabled = !is_android
+}

@@ -7,8 +7,8 @@ index e9797c97d52d103cec43f84df00f6c566792ba8d..5acbbe09534565ea745b6565da06d06f
  <link rel="import" href="home_url_input.html">
  
 +<if expr="not _google_chrome">
-+<link rel="import" href="../brave_appearance_page/brave_appearance_page.html">
-+<link rel="import" href="../default_brave_shields_page/default_brave_shields_page.html">
++<link rel="import" href="../onevn_appearance_page/onevn_appearance_page.html">
++<link rel="import" href="../default_onevn_shields_page/default_onevn_shields_page.html">
 +<link rel="import" href="../social_blocking_page/social_blocking_page.html">
 +</if>
 +
@@ -21,7 +21,7 @@ index e9797c97d52d103cec43f84df00f6c566792ba8d..5acbbe09534565ea745b6565da06d06f
          <div class="hr"></div>
 +</if>
 +<if expr="not _google_chrome">
-+        <settings-brave-appearance-theme prefs="{{prefs}}"></settings-brave-appearance-theme>
++        <settings-onevn-appearance-theme prefs="{{prefs}}"></settings-onevn-appearance-theme>
  </if>
          <div class="settings-row continuation" id="themeRow"
              hidden="[[!pageVisibility.setTheme]]">
@@ -30,7 +30,7 @@ index e9797c97d52d103cec43f84df00f6c566792ba8d..5acbbe09534565ea745b6565da06d06f
            </div>
          </template>
 +<if expr="not _google_chrome">
-+            <settings-brave-appearance-toolbar prefs="{{prefs}}"></settings-brave-appearance-toolbar>
++            <settings-onevn-appearance-toolbar prefs="{{prefs}}"></settings-onevn-appearance-toolbar>
 +</if>
          <settings-toggle-button hidden="[[!pageVisibility.bookmarksBar]]"
              pref="{{prefs.bookmark_bar.show_on_all_tabs}}"

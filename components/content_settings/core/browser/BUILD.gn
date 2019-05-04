@@ -1,19 +1,19 @@
 source_set("browser") {
   sources = [
-    "brave_content_settings_ephemeral_provider.cc",
-    "brave_content_settings_ephemeral_provider.h",
-    "brave_content_settings_pref_provider.cc",
-    "brave_content_settings_pref_provider.h",
-    "brave_cookie_settings.cc",
-    "brave_cookie_settings.h"
+    "onevn_content_settings_ephemeral_provider.cc",
+    "onevn_content_settings_ephemeral_provider.h",
+    "onevn_content_settings_pref_provider.cc",
+    "onevn_content_settings_pref_provider.h",
+    "onevn_cookie_settings.cc",
+    "onevn_cookie_settings.h"
   ]
 
   deps = [
     "//base",
-    "//brave/common:brave_cookie_blocking",
-    "//brave/common:pref_names",
-    "//brave/common:shield_exceptions",
-    "//brave/common/tor:pref_names",
+    "//onevn/common:onevn_cookie_blocking",
+    "//onevn/common:pref_names",
+    "//onevn/common:shield_exceptions",
+    "//onevn/common/tor:pref_names",
     "//components/content_settings/core/common",
     "//components/prefs",
     "//extensions/common",

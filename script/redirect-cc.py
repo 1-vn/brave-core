@@ -36,7 +36,7 @@ def replace_cc_arg(args):
     # Get the absolute *.cc path
     abs_path_cc = os.path.abspath(path_cc)
 
-    # Get this `brave/src/brave/script/redirect-cc.py` script absolute location
+    # Get this `onevn/src/onevn/script/redirect-cc.py` script absolute location
     this_py_path = os.path.realpath(__file__)
 
     # Get the original chromium dir location, triple parent of current
@@ -60,12 +60,12 @@ def replace_cc_arg(args):
         # Don't even try to substitute path for auto-generated cc
         return
 
-    # Build possible brave/chromium_src_path
-    brave_path = os.path.join(chromium_original_dir, 'brave', 'chromium_src',
+    # Build possible onevn/chromium_src_path
+    onevn_path = os.path.join(chromium_original_dir, 'onevn', 'chromium_src',
                               rel_path)
-    if os.path.isfile(brave_path):
+    if os.path.isfile(onevn_path):
         # Okay, we can replace
-        args[index_path] = brave_path
+        args[index_path] = onevn_path
 
 
 if __name__ == '__main__':

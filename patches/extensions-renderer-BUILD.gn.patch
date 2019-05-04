@@ -6,7 +6,7 @@ index 1a0409017a908ff192fe620ae3d81eb2861b6655..bcf17f7da5f4451877c62c6958ddbae2
      "//third_party/cld_3/src/src:cld_3",
    ]
  
-+  if (brave_chromium_build) { deps += [ "//brave/extensions/renderer"] }
++  if (onevn_chromium_build) { deps += [ "//onevn/extensions/renderer"] }
 +
    if (proprietary_codecs && enable_wifi_display) {
      sources += [

@@ -1,20 +1,20 @@
 source_set("profiles") {
   sources = [
-    "brave_profile_manager.cc",
-    "brave_profile_manager.h",
+    "onevn_profile_manager.cc",
+    "onevn_profile_manager.h",
   ]
   deps = [
     "//base",
     "//chrome/browser",
     "//chrome/common",
     "//content/public/common",
-    "//brave/browser/extensions",
-    "//brave/browser/tor",
-    "//brave/content:browser",
-    "//brave/common/tor",
-    "//brave/components/brave_ads/browser",
-    "//brave/components/brave_sync",
-    "//brave/components/brave_rewards/browser",
+    "//onevn/browser/extensions",
+    "//onevn/browser/tor",
+    "//onevn/content:browser",
+    "//onevn/common/tor",
+    "//onevn/components/onevn_ads/browser",
+    "//onevn/components/onevn_sync",
+    "//onevn/components/onevn_rewards/browser",
     "//ui/base",
   ]
 }

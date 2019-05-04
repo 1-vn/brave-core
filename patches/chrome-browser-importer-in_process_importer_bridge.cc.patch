@@ -8,8 +8,8 @@ index 4604136463c577114d503d8973b2f82edd29666e..13a016d32faed7f1f75e02211b073eee
        return history::SOURCE_SAFARI_IMPORTED;
 +    case importer::VISIT_SOURCE_CHROME_IMPORTED:
 +      return history::SOURCE_CHROME_IMPORTED;
-+    case importer::VISIT_SOURCE_BRAVE_IMPORTED:
-+      return history::SOURCE_BRAVE_IMPORTED;
++    case importer::VISIT_SOURCE_ONEVN_IMPORTED:
++      return history::SOURCE_ONEVN_IMPORTED;
    }
    NOTREACHED();
    return history::SOURCE_SYNCED;

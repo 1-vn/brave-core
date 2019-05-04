@@ -6,7 +6,7 @@ index d3b6265198635023ce41e32e1461dc8df3ee9410..ae74b69ca8758324dec45caed7d3cc13
    if (is_android) {
      public_deps += [ "//components/version_info/android:channel_getter" ]
    }
-+  if (brave_chromium_build) { deps = [ "//brave/common:channel_info" ] }
++  if (onevn_chromium_build) { deps = [ "//onevn/common:channel_info" ] }
  }
  
  source_set("ini_parser") {
@@ -14,7 +14,7 @@ index d3b6265198635023ce41e32e1461dc8df3ee9410..ae74b69ca8758324dec45caed7d3cc13
      "//printing/buildflags",
      "//ui/base:buildflags",
    ]
-+  if (brave_chromium_build) { configs += [ "//brave/common:constants_configs" ] }
++  if (onevn_chromium_build) { configs += [ "//onevn/common:constants_configs" ] }
  }
  
  component("chrome_features") {

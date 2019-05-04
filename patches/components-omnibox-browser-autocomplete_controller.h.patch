@@ -6,7 +6,7 @@ index 56899b6e3ce0a1007f37b551ab1f62b40ad772ef..ea52428fe81fc2cb80a5d48c646c3a68
    }
  
   private:
-+  friend class BraveAutocompleteController;
++  friend class OneVNAutocompleteController;
    friend class AutocompleteProviderTest;
    FRIEND_TEST_ALL_PREFIXES(AutocompleteProviderTest,
                             RedundantKeywordsIgnoredInResult);

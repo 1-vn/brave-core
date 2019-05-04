@@ -8,7 +8,7 @@
 #include "chrome/common/chrome_switches.h"
 
 // Required to declare kDisableChromeGoogleURLTrackingClient
-#include "brave/common/brave_switches.h"
+#include "onevn/common/onevn_switches.h"
 
 // The ChromeGooglURLTrackerClient will disable itself when the kDisableBackgroundNetworking
 // switch is set.  Since several other services also disable themeselves when that is set,

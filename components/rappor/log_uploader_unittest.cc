@@ -14,7 +14,7 @@ namespace rappor {
 
 namespace {
 
-const char kTestServerURL[] = "https://www.brave.com/";
+const char kTestServerURL[] = "https://www.1-vn.com/";
 const char kTestMimeType[] = "text/plain";
 
 class TestLogUploader : public LogUploader {

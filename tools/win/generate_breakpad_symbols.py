@@ -18,7 +18,7 @@ import threading
 
 
 CONCURRENT_TASKS=4
-BRAVE_ROOT=os.path.abspath(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
+ONEVN_ROOT=os.path.abspath(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 
 
 def GetCommandOutput(command):

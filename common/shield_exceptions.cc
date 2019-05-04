@@ -1,9 +1,9 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/common/shield_exceptions.h"
+#include "onevn/common/shield_exceptions.h"
 
 #include <algorithm>
 #include <map>
@@ -12,13 +12,13 @@
 #include "extensions/common/url_pattern.h"
 #include "url/gurl.h"
 
-namespace brave {
+namespace onevn {
 
 bool IsUAWhitelisted(const GURL& gurl) {
   static std::vector<URLPattern> whitelist_patterns({
     URLPattern(URLPattern::SCHEME_ALL, "https://*.adobe.com/*"),
     URLPattern(URLPattern::SCHEME_ALL, "https://*.duckduckgo.com/*"),
-    URLPattern(URLPattern::SCHEME_ALL, "https://*.brave.com/*"),
+    URLPattern(URLPattern::SCHEME_ALL, "https://*.1-vn.com/*"),
     // For Widevine
     URLPattern(URLPattern::SCHEME_ALL, "https://*.netflix.com/*")
   });
@@ -72,4 +72,4 @@ bool IsWhitelistedCookieException(const GURL& firstPartyOrigin,
       });
 }
 
-}  // namespace brave
+}  // namespace onevn

@@ -1,0 +1,42 @@
+import("//onevn/components/common/typescript.gni")
+
+transpile_web_ui("onevn_new_tab_ui") {
+  inputs = [
+    "actions/new_tab_actions.ts",
+    "components/newTab/block.tsx",
+    "components/newTab/footerInfo.tsx",
+    "components/newTab/index.tsx",
+    "components/newTab/notification.tsx",
+    "components/newTab/stats.tsx",
+    "components/privateTab/index.tsx",
+    "components/privateTab/privateTab.tsx",
+    "components/privateTab/qwantTab.tsx",
+    "components/privateTab/qwantTorTab.tsx",
+    "components/privateTab/torContent.tsx",
+    "components/privateTab/torTab.tsx",
+    "components/app.tsx",
+    "constants/backgrounds.ts",
+    "constants/new_tab_types.ts",
+    "reducers/index.ts",
+    "reducers/new_tab_reducer.tsx",
+    "api.ts",
+    "onevn_new_tab.html",
+    "onevn_new_tab.tsx",
+    "storage.ts",
+    "store.ts"
+  ]
+
+  entry_points = [
+    ["onevn_new_tab", rebase_path("onevn_new_tab.tsx")]
+  ]
+
+  resource_name = "onevn_new_tab"
+}
+
+pack_web_resources("generated_resources") {
+  resource_name = "onevn_new_tab"
+  output_dir = "$root_gen_dir/onevn/components/onevn_new_tab/resources"
+  deps = [
+    ":onevn_new_tab_ui"
+  ]
+}

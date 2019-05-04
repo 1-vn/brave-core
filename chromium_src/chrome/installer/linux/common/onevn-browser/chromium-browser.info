@@ -1,0 +1,31 @@
+# Copyright (c) 2009 The Chromium Authors. All rights reserved.
+# Use of this source code is governed by a BSD-style license that can be
+# found in the LICENSE file.
+#
+# This file provides common configuration information for building
+# chromium-browser packages for various platforms.
+
+# Base name of the package.
+PACKAGE="onevn-browser"
+
+# Filename of the main executable (for generating launcher scripts, etc.)
+PROGNAME=onevn
+
+# Base directory for package installation.
+INSTALLDIR=/opt/1-vn.com/onevn
+
+# Display string for desktop menu/icon.
+MENUNAME="OneVN Web Browser"
+
+# Brief package description.
+SHORTDESC="The web browser from OneVN"
+
+# Detailed package description.
+FULLDESC="Browse faster by blocking ads and trackers that violate your privacy and cost you time and money."
+
+# Package maintainer information.
+MAINTNAME="OneVN Software"
+MAINTMAIL="support+laptop@1-vn.com"
+PRODUCTURL="https://1-vn.com/"
+VERSION=$(cat $BUILDDIR/version | tr -d 'v,')
+VERSIONFULL=$VERSION

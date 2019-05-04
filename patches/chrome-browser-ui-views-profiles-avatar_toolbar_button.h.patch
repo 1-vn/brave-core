@@ -6,7 +6,7 @@ index ab399f1ec2a6b8e3e350dde7f44d6c12508328b4..fb1207c21fbeb8ee782e954795830672
    void UpdateText();
  
   private:
-+  friend class BraveAvatarToolbarButton;
++  friend class OneVNAvatarToolbarButton;
    FRIEND_TEST_ALL_PREFIXES(AvatarToolbarButtonTest,
                             HighlightMeetsMinimumContrast);
    enum class SyncState { kNormal, kPaused, kError };

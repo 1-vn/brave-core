@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/omnibox/browser/topsites_provider.h"
+#include "onevn/components/omnibox/browser/topsites_provider.h"
 
 #include "base/strings/utf_string_conversions.h"
 #include "components/omnibox/browser/mock_autocomplete_provider_client.h"

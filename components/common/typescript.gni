@@ -1,13 +1,13 @@
 import("//tools/grit/grit_rule.gni")
 
 # Make sure webpack re-builds when...
-brave_common_web_compile_inputs = [
+onevn_common_web_compile_inputs = [
   # common includes change
   rebase_path("classSet.ts"),
   rebase_path("dns.ts"),
   rebase_path("debounce.ts"),
   rebase_path("locale.ts"),
-  rebase_path("BraveCoreThemeProvider.tsx"),
+  rebase_path("OneVNCoreThemeProvider.tsx"),
   # common definitions change
   rebase_path("../definitions/adBlock.d.ts"),
   rebase_path("../definitions/chromel.d.ts"),
@@ -26,22 +26,22 @@ brave_common_web_compile_inputs = [
   # webpack config changes
   rebase_path("../webpack/webpack.config.js"),
   # typescript config changes
-  "//brave/tsconfig.json",
+  "//onevn/tsconfig.json",
   # any dependency changes
-  "//brave/package.json",
-  "//brave/package-lock.json",
-  # brave-ui changes on its own (perhaps a manual local link)
-  "//brave/node_modules/brave-ui/package.json",
+  "//onevn/package.json",
+  "//onevn/package-lock.json",
+  # onevn-ui changes on its own (perhaps a manual local link)
+  "//onevn/node_modules/onevn-ui/package.json",
 ]
 
 # Runs webpack for the specified entry point(s) and outputs a GRD file
 # which includes all the generated files.
 template("transpile_web_ui") {
   action(target_name) {
-    script = "//brave/script/transpile-web-ui.py"
+    script = "//onevn/script/transpile-web-ui.py"
 
     # make sure rebuilds when common files change
-    inputs = brave_common_web_compile_inputs
+    inputs = onevn_common_web_compile_inputs
     if (defined(invoker.inputs)) {
       inputs += invoker.inputs
     }
@@ -52,7 +52,7 @@ template("transpile_web_ui") {
     if (defined(invoker.output_dir)) {
       output_dir = invoker.output_dir
     } else {
-      output_dir = "$root_gen_dir/brave/web-ui-$resource_name"
+      output_dir = "$root_gen_dir/onevn/web-ui-$resource_name"
     }
     gen_dir = rebase_path(output_dir)
 
@@ -121,7 +121,7 @@ template("pack_web_resources") {
     if (defined(invoker.generated_dir)) {
       generated_dir = invoker.generated_dir
     } else {
-      generated_dir = "$root_gen_dir/brave/web-ui-$resource_name"
+      generated_dir = "$root_gen_dir/onevn/web-ui-$resource_name"
     }
     source = "$generated_dir/$resource_name.grd"
     source_is_generated = true
@@ -144,7 +144,7 @@ template("pack_web_resources") {
 
     output_dir = invoker.output_dir
 
-    resource_ids = "//brave/browser/resources/resource_ids"
+    resource_ids = "//onevn/browser/resources/resource_ids"
 
     forward_variables_from(invoker,
                           [

@@ -11,7 +11,7 @@
         },
         "messageAction": "optInPromotion",
         "greeting": "Hello!",
-        "message": "Ready to support your favorite sites? Brave will fill your wallet with tokens to get you started!",
+        "message": "Ready to support your favorite sites? OneVN will fill your wallet with tokens to get you started!",
         "buttons": [
           {
             "buttonActionId": "remindLater",
@@ -27,14 +27,14 @@
       "panel": {
         "optedInButton": "Claim my free tokens",
         "optInMarkup": {
-          "title": "Brave has created a simple wayfor you to contribute to the sites you use most.",
+          "title": "OneVN has created a simple wayfor you to contribute to the sites you use most.",
           "message": [
-            "Now, for a limited time, Brave will fund yourwallet with tokens to get you started!",
-            "To start using Brave Payments and accept your tokens, simply flip the switch at the top of this window and then choose \"Claim my free Tokens\".",
+            "Now, for a limited time, OneVN will fund yourwallet with tokens to get you started!",
+            "To start using OneVN Payments and accept your tokens, simply flip the switch at the top of this window and then choose \"Claim my free Tokens\".",
             "The rest is easy."
           ]
         },
-        "disclaimer": "If these tokens are not used within 90 days to support content creators, they will automatically return to the Brave User Growth Pool."
+        "disclaimer": "If these tokens are not used within 90 days to support content creators, they will automatically return to the OneVN User Growth Pool."
       }
     },
     "emptyWallet": {
@@ -45,7 +45,7 @@
         },
         "messageAction": "optInPromotion",
         "greeting":"Hello!",
-        "message":"Brave is offering you free tokens to get you started with Brave Payments!",
+        "message":"OneVN is offering you free tokens to get you started with OneVN Payments!",
         "buttons": [
           {
             "buttonActionId": "remindLater",
@@ -64,7 +64,7 @@
           "title":"Bravo!",
           "message":"It's your lucky day. Your token grant is on its way."
         },
-        "disclaimer":"Your new tokens will appear in your account shortly. If these tokens are not used within 90 days to support content creators, they will automatically return to the Brave User Growth Pool."
+        "disclaimer":"Your new tokens will appear in your account shortly. If these tokens are not used within 90 days to support content creators, they will automatically return to the OneVN User Growth Pool."
       }
     },
     "fundedWallet": {
@@ -94,7 +94,7 @@
           "greeting": "Bravo!",
           "message": "It's your lucky day. Your token grant is on its way."
         },
-        "disclaimer":"Your new tokens will appear in your account shortly. If these tokens are not used within 90 days to support content creators, they will automatically return to the Brave User Growth Pool."
+        "disclaimer":"Your new tokens will appear in your account shortly. If these tokens are not used within 90 days to support content creators, they will automatically return to the OneVN User Growth Pool."
       }
     }
   }

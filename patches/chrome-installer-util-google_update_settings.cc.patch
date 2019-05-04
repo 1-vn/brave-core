@@ -6,8 +6,8 @@ index 4f0ad5378847cb9ee99569a206994c50683d06bf..6e128e4631a358208b9b3cda3213c52b
  using installer::InstallationState;
  
  const wchar_t GoogleUpdateSettings::kPoliciesKey[] =
-+#if defined(BRAVE_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD)
-+    L"SOFTWARE\\Policies\\BraveSoftware\\Update";
++#if defined(ONEVN_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD)
++    L"SOFTWARE\\Policies\\OneVNSoftware\\Update";
 +#else
      L"SOFTWARE\\Policies\\Google\\Update";
 +#endif
@@ -19,7 +19,7 @@ index 4f0ad5378847cb9ee99569a206994c50683d06bf..6e128e4631a358208b9b3cda3213c52b
      60 * 24 * 7 * 6;
  
 +
-+#if defined(BRAVE_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD)
++#if defined(ONEVN_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD)
 +#define GOOGLE_CHROME_BUILD
 +#endif
 +
@@ -31,6 +31,6 @@ index 4f0ad5378847cb9ee99569a206994c50683d06bf..6e128e4631a358208b9b3cda3213c52b
    return result == ERROR_SUCCESS;
  }
 +
-+#if defined(BRAVE_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD)
++#if defined(ONEVN_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD)
 +#undef GOOGLE_CHROME_BUILD
 +#endif

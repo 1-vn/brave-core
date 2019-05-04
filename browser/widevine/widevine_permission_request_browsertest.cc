@@ -1,13 +1,13 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #include "base/path_service.h"
-#include "brave/browser/brave_drm_tab_helper.h"
-#include "brave/browser/widevine/widevine_utils.h"
-#include "brave/common/brave_paths.h"
-#include "brave/common/pref_names.h"
+#include "onevn/browser/onevn_drm_tab_helper.h"
+#include "onevn/browser/widevine/widevine_utils.h"
+#include "onevn/common/onevn_paths.h"
+#include "onevn/common/pref_names.h"
 #include "chrome/browser/permissions/permission_request_manager.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/profiles/profile_manager.h"
@@ -32,8 +32,8 @@
 #if BUILDFLAG(BUNDLE_WIDEVINE_CDM)
 #include <string>
 
-#include "brave/browser/brave_browser_process_impl.h"
-#include "brave/browser/widevine/brave_widevine_bundle_manager.h"
+#include "onevn/browser/onevn_browser_process_impl.h"
+#include "onevn/browser/widevine/onevn_widevine_bundle_manager.h"
 #endif
 
 namespace {
@@ -70,8 +70,8 @@ class WidevinePermissionRequestBrowserTest
     return PermissionRequestManager::FromWebContents(GetActiveWebContents());
   }
 
-  BraveDrmTabHelper* GetBraveDrmTabHelper() {
-    return BraveDrmTabHelper::FromWebContents(GetActiveWebContents());
+  OneVNDrmTabHelper* GetOneVNDrmTabHelper() {
+    return OneVNDrmTabHelper::FromWebContents(GetActiveWebContents());
   }
 
   TestObserver observer;
@@ -80,7 +80,7 @@ class WidevinePermissionRequestBrowserTest
 IN_PROC_BROWSER_TEST_F(WidevinePermissionRequestBrowserTest, VisibilityTest) {
   GetPermissionRequestManager()->set_auto_response_for_test(
       PermissionRequestManager::DISMISS);
-  auto* drm_tab_helper = GetBraveDrmTabHelper();
+  auto* drm_tab_helper = GetOneVNDrmTabHelper();
 
   // Check permission bubble is visible.
   drm_tab_helper->OnWidevineKeySystemAccessRequest();
@@ -107,7 +107,7 @@ IN_PROC_BROWSER_TEST_F(WidevinePermissionRequestBrowserTest, BubbleTest) {
   auto* permission_request_manager =
       GetPermissionRequestManager();
   EXPECT_FALSE(permission_request_manager->IsBubbleVisible());
-  GetBraveDrmTabHelper()->OnWidevineKeySystemAccessRequest();
+  GetOneVNDrmTabHelper()->OnWidevineKeySystemAccessRequest();
   content::RunAllTasksUntilIdle();
   EXPECT_TRUE(permission_request_manager->IsBubbleVisible());
 
@@ -127,7 +127,7 @@ IN_PROC_BROWSER_TEST_F(WidevinePermissionRequestBrowserTest, BubbleTest) {
 }
 
 // OptedInPref of bundling tests are done by
-// BraveWidevineBundleManagerBrowserTest.
+// OneVNWidevineBundleManagerBrowserTest.
 #if BUILDFLAG(ENABLE_WIDEVINE_CDM_COMPONENT)
 IN_PROC_BROWSER_TEST_F(WidevinePermissionRequestBrowserTest,
                        CheckOptedInPrefStateForComponent) {
@@ -137,7 +137,7 @@ IN_PROC_BROWSER_TEST_F(WidevinePermissionRequestBrowserTest,
 
   GetPermissionRequestManager()->set_auto_response_for_test(
       PermissionRequestManager::ACCEPT_ALL);
-  auto* drm_tab_helper = GetBraveDrmTabHelper();
+  auto* drm_tab_helper = GetOneVNDrmTabHelper();
   drm_tab_helper->OnWidevineKeySystemAccessRequest();
   content::RunAllTasksUntilIdle();
 
@@ -159,7 +159,7 @@ IN_PROC_BROWSER_TEST_F(WidevinePermissionRequestBrowserTest,
 IN_PROC_BROWSER_TEST_F(WidevinePermissionRequestBrowserTest,
                        TriggerTwoPermissionTest) {
   auto* bundle_manager =
-      g_brave_browser_process->brave_widevine_bundle_manager();
+      g_onevn_browser_process->onevn_widevine_bundle_manager();
   bundle_manager->startup_checked_ = true;
   bundle_manager->is_test_ = true;
 
@@ -169,7 +169,7 @@ IN_PROC_BROWSER_TEST_F(WidevinePermissionRequestBrowserTest,
   permission_request_manager->set_auto_response_for_test(
       PermissionRequestManager::ACCEPT_ALL);
 
-  GetBraveDrmTabHelper()->OnWidevineKeySystemAccessRequest();
+  GetOneVNDrmTabHelper()->OnWidevineKeySystemAccessRequest();
   content::RunAllTasksUntilIdle();
   bundle_manager->InstallDone(std::string());
   content::RunAllTasksUntilIdle();

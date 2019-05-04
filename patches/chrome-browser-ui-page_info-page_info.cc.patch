@@ -6,7 +6,7 @@ index 44cb3ac172a0dc3adc9f8984f41ec25e102517a9..a60c6370677f5af34e1f511c0502dc1a
      HostContentSettingsMap* content_settings,
      content::WebContents* web_contents,
      TabSpecificContentSettings* tab_specific_content_settings) {
-+  if (!BraveShouldShowPermission(info, web_contents)) return false;
++  if (!OneVNShouldShowPermission(info, web_contents)) return false;
    // Note |CONTENT_SETTINGS_TYPE_ADS| will show up regardless of its default
    // value when it has been activated on the current origin.
    if (info.type == CONTENT_SETTINGS_TYPE_ADS) {
@@ -15,7 +15,7 @@ index 44cb3ac172a0dc3adc9f8984f41ec25e102517a9..a60c6370677f5af34e1f511c0502dc1a
  #endif
  
 -#if !defined(OS_ANDROID)
-+#if !defined(OS_ANDROID) && !defined(BRAVE_CHROMIUM_BUILD)
++#if !defined(OS_ANDROID) && !defined(ONEVN_CHROMIUM_BUILD)
    // Autoplay is Android-only at the moment.
    if (info.type == CONTENT_SETTINGS_TYPE_AUTOPLAY)
      return false;
@@ -24,7 +24,7 @@ index 44cb3ac172a0dc3adc9f8984f41ec25e102517a9..a60c6370677f5af34e1f511c0502dc1a
    std::vector<ContentSettingsType> permission_list;
    for (size_t i = 0; i < base::size(kPermissionType); ++i) {
 -#if !defined(OS_ANDROID)
-+#if !defined(OS_ANDROID) && !defined(BRAVE_CHROMIUM_BUILD)
++#if !defined(OS_ANDROID) && !defined(ONEVN_CHROMIUM_BUILD)
      if (kPermissionType[i] == CONTENT_SETTINGS_TYPE_AUTOPLAY)
        continue;
  #endif

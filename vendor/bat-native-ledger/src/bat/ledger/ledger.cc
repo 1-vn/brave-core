@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -53,7 +53,7 @@ VisitData::~VisitData() {}
 
 const std::string VisitData::ToJson() const {
   std::string json;
-  braveledger_bat_helper::saveToJsonString(*this, &json);
+  onevnledger_bat_helper::saveToJsonString(*this, &json);
   return json;
 }
 
@@ -111,7 +111,7 @@ ActivityInfoFilter::~ActivityInfoFilter() {}
 
 const std::string ActivityInfoFilter::ToJson() const {
   std::string json;
-  braveledger_bat_helper::saveToJsonString(*this, &json);
+  onevnledger_bat_helper::saveToJsonString(*this, &json);
   return json;
 }
 
@@ -172,7 +172,7 @@ PublisherBanner::~PublisherBanner() {}
 
 const std::string PublisherBanner::ToJson() const {
   std::string json;
-  braveledger_bat_helper::saveToJsonString(*this, &json);
+  onevnledger_bat_helper::saveToJsonString(*this, &json);
   return json;
 }
 
@@ -280,7 +280,7 @@ bool PublisherInfo::is_valid() const {
 
 const std::string PublisherInfo::ToJson() const {
   std::string json;
-  braveledger_bat_helper::saveToJsonString(*this, &json);
+  onevnledger_bat_helper::saveToJsonString(*this, &json);
   return json;
 }
 
@@ -342,7 +342,7 @@ const PublisherInfo invalid("");
 
 const std::string ContributionInfo::ToJson() const {
   std::string json;
-  braveledger_bat_helper::saveToJsonString(*this, &json);
+  onevnledger_bat_helper::saveToJsonString(*this, &json);
   return json;
 }
 
@@ -398,7 +398,7 @@ WalletInfo::WalletInfo(const ledger::WalletInfo &info) {
 
 const std::string WalletInfo::ToJson() const {
   std::string json;
-  braveledger_bat_helper::saveToJsonString(*this, &json);
+  onevnledger_bat_helper::saveToJsonString(*this, &json);
   return json;
 }
 
@@ -467,7 +467,7 @@ Grant::Grant(const ledger::Grant &properties) {
 
 const std::string Grant::ToJson() const {
   std::string json;
-  braveledger_bat_helper::saveToJsonString(*this, &json);
+  onevnledger_bat_helper::saveToJsonString(*this, &json);
   return json;
 }
 
@@ -529,7 +529,7 @@ BalanceReportInfo::~BalanceReportInfo() {}
 
 const std::string BalanceReportInfo::ToJson() const {
   std::string json;
-  braveledger_bat_helper::saveToJsonString(*this, &json);
+  onevnledger_bat_helper::saveToJsonString(*this, &json);
   return json;
 }
 
@@ -583,7 +583,7 @@ AutoContributeProps::~AutoContributeProps() { }
 
 const std::string AutoContributeProps::ToJson() const {
   std::string json;
-  braveledger_bat_helper::saveToJsonString(*this, &json);
+  onevnledger_bat_helper::saveToJsonString(*this, &json);
   return json;
 }
 
@@ -632,7 +632,7 @@ ReconcileInfo::ReconcileInfo(const ledger::ReconcileInfo& info) {
 
 const std::string ReconcileInfo::ToJson() const {
   std::string json;
-  braveledger_bat_helper::saveToJsonString(*this, &json);
+  onevnledger_bat_helper::saveToJsonString(*this, &json);
   return json;
 }
 
@@ -672,7 +672,7 @@ RewardsInternalsInfo::~RewardsInternalsInfo() {}
 
 const std::string RewardsInternalsInfo::ToJson() const {
   std::string json;
-  braveledger_bat_helper::saveToJsonString(*this, &json);
+  onevnledger_bat_helper::saveToJsonString(*this, &json);
   return json;
 }
 
@@ -717,7 +717,7 @@ bool RewardsInternalsInfo::loadFromJson(const std::string& json) {
 bool Ledger::IsMediaLink(const std::string& url,
                          const std::string& first_party_url,
                          const std::string& referrer) {
-  const std::string type = braveledger_bat_get_media::BatGetMedia::GetLinkType(
+  const std::string type = onevnledger_bat_get_media::BatGetMedia::GetLinkType(
       url,
       first_party_url,
       referrer);
@@ -738,7 +738,7 @@ PendingContribution::PendingContribution(
 
 const std::string PendingContribution::ToJson() const {
   std::string json;
-  braveledger_bat_helper::saveToJsonString(*this, &json);
+  onevnledger_bat_helper::saveToJsonString(*this, &json);
   return json;
 }
 
@@ -777,7 +777,7 @@ PendingContributionList::PendingContributionList(
 
 const std::string PendingContributionList::ToJson() const {
   std::string json;
-  braveledger_bat_helper::saveToJsonString(*this, &json);
+  onevnledger_bat_helper::saveToJsonString(*this, &json);
   return json;
 }
 
@@ -816,7 +816,7 @@ PublisherInfoListStruct::PublisherInfoListStruct(
 
 const std::string PublisherInfoListStruct::ToJson() const {
   std::string json;
-  braveledger_bat_helper::saveToJsonString(*this, &json);
+  onevnledger_bat_helper::saveToJsonString(*this, &json);
   return json;
 }
 

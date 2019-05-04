@@ -6,7 +6,7 @@ index bd690c0ea226a814b75b3d062c7276f496d3d86b..01b263ef7f3cbcd07e38d292ddf66fef
  <link rel="import" href="../html/polymer.html">
  
  <link rel="import" href="chrome://resources/polymer/v1_0/paper-styles/color.html">
-+<link rel="import" href="chrome://brave-resources/br_elements/shared_vars_css.html">
++<link rel="import" href="chrome://onevn-resources/br_elements/shared_vars_css.html">
  
  <!-- Common css variables for Material Design WebUI. -->
  <custom-style>

@@ -1,4 +1,4 @@
-// Copyright (c) 2019 The Brave Authors. All rights reserved.
+// Copyright (c) 2019 The OneVN Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // you can obtain one at http://mozilla.org/MPL/2.0/.
@@ -14,9 +14,9 @@
       if (debug) {
         console.debug(`Polymer component registering: ${component.is}`, component)
       }
-      addBraveBehaviors(component)
-      addBraveTemplateModifications(component)
-      addBraveStyleOverrides(component)
+      addOneVNBehaviors(component)
+      addOneVNTemplateModifications(component)
+      addOneVNStyleOverrides(component)
     }
     return oldFn(component)
   }
@@ -24,7 +24,7 @@
 
   const allBehaviorsMap = {}
 
-  function addBraveBehaviors(component) {
+  function addOneVNBehaviors(component) {
     if (allBehaviorsMap[component.is]) {
       component.behaviors = component.behaviors || []
       component.behaviors.push(...allBehaviorsMap[component.is])
@@ -32,10 +32,10 @@
     }
   }
 
-  const allBraveTemplateModificationsMap = {}
+  const allOneVNTemplateModificationsMap = {}
 
-  function addBraveTemplateModifications(component) {
-    if (allBraveTemplateModificationsMap[component.is]) {
+  function addOneVNTemplateModifications(component) {
+    if (allOneVNTemplateModificationsMap[component.is]) {
       const moduleName = component.is
       const domModule = Polymer.DomModule.import(moduleName)
       if (domModule) {
@@ -43,16 +43,16 @@
         if (template) {
           const templateContent = template.content
           const t0 = performance.now()
-          allBraveTemplateModificationsMap[component.is](templateContent)
+          allOneVNTemplateModificationsMap[component.is](templateContent)
           const t1 = performance.now()
           console.debug(`Modifying template '${component.is}' took ${t1 - t0}ms`)
         }
       }
-      delete allBraveTemplateModificationsMap[component.is]
+      delete allOneVNTemplateModificationsMap[component.is]
     }
   }
 
-  function addBraveStyleOverrides(component) {
+  function addOneVNStyleOverrides(component) {
     // does have template style element?
     const moduleName = component.is
     const domModule = Polymer.DomModule.import(moduleName)
@@ -60,7 +60,7 @@
       return
     }
     // has override?
-    const overrideModuleName = `brave-override-style-${moduleName}`
+    const overrideModuleName = `onevn-override-style-${moduleName}`
     const hasOverride = !!Polymer.DomModule.import(overrideModuleName)
     if (!hasOverride) {
       return
@@ -84,7 +84,7 @@
   }
 
   function RegisterPolymerTemplateModifications(modificationsMap) {
-    Object.assign(allBraveTemplateModificationsMap, modificationsMap)
+    Object.assign(allOneVNTemplateModificationsMap, modificationsMap)
   }
 
   function OverrideIronIcons(iconSetName, overridingIconSetName, iconOverrides) {
@@ -97,17 +97,17 @@
     for (const chromiumIconName in iconOverrides) {
       const chromiumIcon = srcIconSet.querySelector(`#${chromiumIconName}`)
       if (!chromiumIcon) {
-        console.error(`[brave overrides] Could not find chromium icon '${chromiumIconName}' in iconset '${iconSetName}' for replacement!`)
+        console.error(`[onevn overrides] Could not find chromium icon '${chromiumIconName}' in iconset '${iconSetName}' for replacement!`)
         continue
       }
-      const braveIconName = iconOverrides[chromiumIconName]
-      const braveIcon = overrideIconSet.querySelector(`#${braveIconName}`)
-      if (!braveIcon) {
-        console.error(`[brave overrides] Could not find brave icon '${braveIconName}' in iconset '${overridingIconSetName}' for replacement!`)
+      const onevnIconName = iconOverrides[chromiumIconName]
+      const onevnIcon = overrideIconSet.querySelector(`#${onevnIconName}`)
+      if (!onevnIcon) {
+        console.error(`[onevn overrides] Could not find onevn icon '${onevnIconName}' in iconset '${overridingIconSetName}' for replacement!`)
         continue
       }
       // replace
-      chromiumIcon.innerHTML = braveIcon.innerHTML
+      chromiumIcon.innerHTML = onevnIcon.innerHTML
     }
     // Ensure icons get re-parsed if already parseds
     // `getIconNames` ensures this._icons in iron-iconset-svg is re-parsed
@@ -117,7 +117,7 @@
   }
 
   // Accessible to other modules
-  window.BravePatching = Object.assign({}, window.BravePatching, {
+  window.OneVNPatching = Object.assign({}, window.OneVNPatching, {
     RegisterPolymerComponentBehaviors,
     RegisterPolymerTemplateModifications,
     OverrideIronIcons

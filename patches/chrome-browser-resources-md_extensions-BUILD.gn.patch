@@ -6,7 +6,7 @@ index 10308a08fa641097683bc5c11b898bbd80614174..06b7b3d78175140d6ec73ad73f09b317
  
    deps = [
      ":unpak",
-+    "//brave/browser/resources/md_extensions:unpak",
++    "//onevn/browser/resources/md_extensions:unpak",
    ]
  }
  

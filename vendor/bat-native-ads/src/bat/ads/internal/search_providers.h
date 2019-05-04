@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -27,7 +27,7 @@ static const std::vector<SearchProviderInfo> _search_providers = {
   SearchProviderInfo(
       "DuckDuckGo",
       "https://duckduckgo.com",
-      "https://duckduckgo.com/?q={searchTerms}&t=brave",
+      "https://duckduckgo.com/?q={searchTerms}&t=onevn",
       true),
   SearchProviderInfo(
       "Fireball",
@@ -97,7 +97,7 @@ static const std::vector<SearchProviderInfo> _search_providers = {
   SearchProviderInfo(
       "Qwant",
       "https://qwant.com",
-      "https://www.qwant.com/?q={searchTerms}&client=brave",
+      "https://www.qwant.com/?q={searchTerms}&client=onevn",
       true),
   SearchProviderInfo(
       "Yandex",

@@ -6,7 +6,7 @@ index 55c03154ee2331eca251ed5ebfa1af3ce7d483c9..c63526a68758ecefb3fff2e802efe0db
  void DevToolsDataSource::StartRemoteDataRequest(
      const GURL& url,
      const content::URLDataSource::GotDataCallback& callback) {
-+  return; // feature disabled in Brave
++  return; // feature disabled in OneVN
    CHECK(url.is_valid());
    net::NetworkTrafficAnnotationTag traffic_annotation =
        net::DefineNetworkTrafficAnnotation("devtools_hard_coded_data_source", R"(

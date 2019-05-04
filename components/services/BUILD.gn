@@ -1,47 +1,47 @@
 # Per-profile services.
-source_set("brave_content_browser_overlay_manifest") {
+source_set("onevn_content_browser_overlay_manifest") {
   sources = [
-    "brave_content_browser_overlay_manifest.cc",
-    "brave_content_browser_overlay_manifest.h",
+    "onevn_content_browser_overlay_manifest.cc",
+    "onevn_content_browser_overlay_manifest.h",
   ]
 
   deps = [
     "//base",
-    "//brave/components/services/bat_ads/public/cpp:manifest",
-    "//brave/components/services/bat_ledger/public/cpp:manifest",
+    "//onevn/components/services/bat_ads/public/cpp:manifest",
+    "//onevn/components/services/bat_ledger/public/cpp:manifest",
     "//services/service_manager/public/cpp",
   ]
 
   if (!is_android) {
     deps += [
-      "//brave/utility/tor/public/cpp:manifest",
+      "//onevn/utility/tor/public/cpp:manifest",
     ]
   }
 }
 
-source_set("brave_content_packaged_service_overlay_manifest") {
+source_set("onevn_content_packaged_service_overlay_manifest") {
   sources = [
-    "brave_content_packaged_service_overlay_manifest.cc",
-    "brave_content_packaged_service_overlay_manifest.h",
+    "onevn_content_packaged_service_overlay_manifest.cc",
+    "onevn_content_packaged_service_overlay_manifest.h",
   ]
 
   deps = [
     "//base",
-    "//brave/components/services/bat_ads/public/cpp:manifest",
-    "//brave/components/services/bat_ledger/public/cpp:manifest",
+    "//onevn/components/services/bat_ads/public/cpp:manifest",
+    "//onevn/components/services/bat_ledger/public/cpp:manifest",
     "//services/service_manager/public/cpp",
   ]
 
   if (!is_android) {
     deps += [
-      "//brave/utility/tor/public/cpp:manifest",
+      "//onevn/utility/tor/public/cpp:manifest",
     ]
   }
 }
 
-group("brave_content_manifest_overlays") {
+group("onevn_content_manifest_overlays") {
   deps = [
-    ":brave_content_browser_overlay_manifest",
-    ":brave_content_packaged_service_overlay_manifest",
+    ":onevn_content_browser_overlay_manifest",
+    ":onevn_content_packaged_service_overlay_manifest",
   ]
 }

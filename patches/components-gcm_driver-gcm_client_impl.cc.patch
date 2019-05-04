@@ -6,7 +6,7 @@ index a3e6564d0207a7e4739a8f4325d161aee758db31..1a3bac3720059def1b789bc7b5c875a1
  }
  
  void GCMClientImpl::Start(StartMode start_mode) {
-+  return; // GCM disabled in Brave
++  return; // GCM disabled in OneVN
    DCHECK_NE(UNINITIALIZED, state_);
  
    if (state_ == LOADED) {
@@ -14,7 +14,7 @@ index a3e6564d0207a7e4739a8f4325d161aee758db31..1a3bac3720059def1b789bc7b5c875a1
  
  void GCMClientImpl::Register(
      scoped_refptr<RegistrationInfo> registration_info) {
-+  return; // GCM disabled in Brave
++  return; // GCM disabled in OneVN
    DCHECK_EQ(state_, READY);
  
    // Registrations should never pass as an app_id the special category used

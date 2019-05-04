@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#ifndef BRAVE_NET_BASE_URL_AUTH_UTIL_H_
-#define BRAVE_NET_BASE_URL_AUTH_UTIL_H_
+#ifndef ONEVN_NET_BASE_URL_AUTH_UTIL_H_
+#define ONEVN_NET_BASE_URL_AUTH_UTIL_H_
 
 #include "../../../../net/base/url_util.h"
 
@@ -21,4 +21,4 @@ NET_EXPORT bool ParseAuthHostAndPort(
 
 }
 
-#endif  // BRAVE_NET_BASE_URL_AUTH_UTIL_H_
+#endif  // ONEVN_NET_BASE_URL_AUTH_UTIL_H_

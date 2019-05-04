@@ -24,7 +24,7 @@ index c10dc098bec241aba80a6b1e07a814e197543f05..5447b766218e2b415d8b7101f2842e7e
  
     private:
      friend class base::RefCountedThreadSafe<Prompt>;
-+    friend class BravePrompt;
++    friend class OneVNPrompt;
  
      struct InstallPromptPermissions {
        InstallPromptPermissions();

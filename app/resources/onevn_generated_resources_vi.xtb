@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<!DOCTYPE translationbundle>
+<translationbundle lang="vi">
+<translation id="3333887201479867589">Phần thưởng của OneVN</translation>
+<translation id="7942180974165298215">Chặn Quảng cáo OneVN</translation>
+<translation id="6406506848690869874">Đồng bộ</translation>
+<translation id="120759863357279975"><ph name="EXTENSION_NAME">$1</ph> (ID phần mở rộng "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") không được phép trong OneVN.</translation>
+<translation id="7450557937477381864">Đóng Chrome</translation>
+<translation id="7008934821596358692">Để hoàn tất nhập, hãy đóng mọi cửa sổ Chrome.</translation>
+<translation id="5735465527556462863">Đóng OneVN (cũ)</translation>
+<translation id="7737066986958447692">Để hoàn tất quá trình nhập, hãy đóng tất cả cửa sổ OneVN (cũ).</translation>
+<translation id="6447842834002726250">Cookie</translation>
+<translation id="4983925687993168579">Thống kê</translation>
+<translation id="6165477144235978006">Thanh toán OneVN</translation>
+<translation id="3489524616427966890">Cửa sổ và tab đang mở</translation>
+<translation id="3699882589215410581">Cài và chạy Widevine</translation>
+<translation id="8053096063396012732">Cài đặt Widevine</translation>
+<translation id="4840334696217618631">Khởi động lại trình duyệt để bật Widevine</translation>
+<translation id="8410111618231938546">Google Widevine là một phần của mã Quản lý Quyền Kỹ thuật số (Digital Rights Management hay DRM) mà chúng tôi tại OneVN Software không sở hữu và không thể kiểm tra. Mã Google Widevine được tải từ các máy chủ của Google chứ không phải từ các máy chủ của chúng tôi. Mã này chỉ được tải khi bạn bật tùy chọn này. Chúng tôi không khuyến khích sử dụng DRM, nhưng chúng tôi tôn trọng lựa chọn của người dùng và thừa nhận rằng một số người dùng OneVN muốn sử dụng các dịch vụ cần tới mã đó.
+
+Bằng cách cài đặt tiện ích mở rộng này, bạn đồng ý với các Điều khoản Sử dụng của Google Widevine. Bạn đồng ý rằng OneVN không chịu trách nhiệm đối với bất kỳ thiệt hại hoặc tổn thất nào liên quan đến việc bạn sử dụng Google Widevine.</translation>
+<translation id="6499845530162974140">OneVN (cũ)</translation>
+<translation id="3198814717959506569">Đã nhập từ OneVN</translation>
+<translation id="453977518730680921">Tự động phát truyền thông đa phương tiện</translation>
+<translation id="410351446219883937">Tự động phát</translation>
+<translation id="2240268017737062801">Hỏi khi nào trang muốn tự động phát phương tiện</translation>
+<translation id="3371702087847741961">Hỏi khi nào trang muốn tự động phát phương tiện (khuyên dùng)</translation>
+<translation id="3218385319396786393">Tự động phát bị chặn trên trang này</translation>
+<translation id="4988333904713528597">Luôn cho phép tự động phát trên <ph name="HOST">$1<ex>mail.google.com</ex></ph></translation>
+<translation id="4150684676757176434">Tiếp tục chặn tự động phát</translation>
+<translation id="7543906827780734027">OneVN vẫn chưa xét duyệt tiện ích mở rộng này - tiện ích mở rộng này có thể độc hại. Vẫn thêm "<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>"?</translation>
+<translation id="2044383478723007273">Màu sắc của onevn</translation>
+<translation id="5341901626640816374">Dùng thanh địa chỉ rộng</translation>
+<translation id="6123134130710658846">Ẩn nút Tiền thưởng OneVN</translation>
+<translation id="7635711399568194460">Ẩn nút Tiền thưởng OneVN trên thanh địa chỉ khi Tiền thưởng OneVN không được bật</translation>
+<translation id="7965178729203412357">Danh tính Tor mới</translation>
+<translation id="8784924142044142231">Thoát khỏi Tor</translation>
+<translation id="5410152065859052603">Tor</translation>
+<translation id="3696187925156352769">Mở Cửa sổ Tor</translation>
+<translation id="1434416574322382019">Cửa sổ Riêng tư với Tor Mới</translation>
+<translation id="4703780849509456860">Mở Liên kết trong Cửa sổ Riêng tư với Tor</translation>
+<translation id="3488584642074079080">Mở Liên kết trong Cửa sổ Riêng tư với Tor của OneVN</translation>
+<translation id="6313675821927505581">Mở cửa sổ cá nhân mới với công nghệ Tor</translation>
+<translation id="2638041073279639246">Mở liên kết trong cửa sổ cá nhân mới với công nghệ Tor</translation>
+<translation id="3425600262621021599">Mở liên kết trong cửa sổ cá nhân OneVN với công nghệ Tor</translation>
+<translation id="3155170474926428993">Trình chạy Tor</translation>
+<translation id="2515126961943087659">Dịch vụ Bat Ads</translation>
+<translation id="7924918279836988121">Dịch vụ Sổ cái Bat</translation>
+<translation id="768979911142179781">Mặc định lá chắn OneVN</translation>
+<translation id="9185018653595759199">Nút và Thông tin đăng nhập Mạng xã hội</translation>
+<translation id="6894114137169961038">Kiểm soát Quảng cáo</translation>
+<translation id="1096802265930928584">Kiểm soát Cookie</translation>
+<translation id="8919235146866304148">Bảo vệ bằng vân tay</translation>
+<translation id="520895744850022668">HTTPS Everywhere (HTTPS Khắp mọi nơi)</translation>
+<translation id="5259716416204774556">Chặn tập lệnh</translation>
+<translation id="7498695072878479744">Cho phép nút đăng nhập Google trên các trang web của bên thứ ba</translation>
+<translation id="863171915776379000">Cho phép đăng nhập và nhúng bài viết Facebook</translation>
+<translation id="5165042248369837294">Cho phép nhúng bài viết Twitter</translation>
+<translation id="958971637207126733">Cho phép nhúng bài viết LinkedIn</translation>
+<translation id="6067014455220527258">Chặn quảng cáo</translation>
+<translation id="6985711843506827936">Cho phép quảng cáo và theo dõi</translation>
+<translation id="6132506775968708399">Chặn cookie của bên thứ 3</translation>
+<translation id="5657156137487675418">Cho phép mọi cookie.</translation>
+<translation id="6883611015375728278">Chặn tất cả cookie</translation>
+<translation id="1442559343076146186">Chặn vân tay bên thứ ba</translation>
+<translation id="8034285923190068220">Cho phép vân tay</translation>
+<translation id="4540198958192073185">Chặn tất cả dấu vân tay</translation>
+<translation id="8942080017911802454">Cơ chế Xử lý IP WebRTC</translation>
+<translation id="6165508094623778733">Tìm hiểu thêm</translation>
+<translation id="8798099450830957504">Mặc định</translation>
+<translation id="1822560017823072927">Các giao diện công khai và riêng tư mặc định</translation>
+<translation id="5825943197137337319">Chỉ giao diện công khai mặc định</translation>
+<translation id="1689062823386843231">Cho phép UDP không proxy</translation>
+<translation id="6645631466045614531">Truy cập Đồng bộ thông qua</translation>
+<translation id="1807246157184219062">Sáng</translation>
+<translation id="2414886740292270097">Tối</translation>
+<translation id="1360441190790440400">Giống như Linux</translation>
+<translation id="1336940801687497203">Giống như Windows</translation>
+<translation id="8721331068159819483">Giống như MacOS</translation>
+<translation id="6786747875388722282">Tiện ích mở rộng</translation>
+<translation id="2896916411183256228">Sử dụng WebTorrent để hiển thị torrent trực tiếp trong trình duyệt. Hỗ trợ các tập tin torrent và liên kết nam châm (magnet).</translation>
+<translation id="6554397389149987360">Sử dụng thành phần của Hangouts để cho phép chia sẻ màn hình và các tính năng khác trong trình duyệt.</translation>
+<translation id="8137559199583651773">Quản lý Tiện ích mở rộng</translation>
+<translation id="4928988318462976765">Cửa hàng Tiện ích mở rộng Web</translation>
+<translation id="9181207987584064303">Xem trong Cửa hàng Tiện ích mở rộng Web</translation>
+<translation id="4846154056248462491">Khi thoát</translation>
+</translationbundle>

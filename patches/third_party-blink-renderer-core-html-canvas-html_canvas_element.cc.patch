@@ -6,7 +6,7 @@ index 6d5991f6abec0e6d12f144f8ac6cfa6d2718ed2e..bfc2602918651a3cd4eaea839a9d1d7c
  #include "base/location.h"
  #include "base/metrics/histogram_macros.h"
  #include "base/numerics/checked_math.h"
-+#include "brave/renderer/brave_content_settings_observer_helper.h"
++#include "onevn/renderer/onevn_content_settings_observer_helper.h"
  #include "build/build_config.h"
  #include "third_party/blink/public/common/features.h"
  #include "third_party/blink/public/platform/task_type.h"

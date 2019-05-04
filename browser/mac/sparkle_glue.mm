@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#import "brave/browser/mac/sparkle_glue.h"
+#import "onevn/browser/mac/sparkle_glue.h"
 
 #include <string>
 #include <sys/mount.h>
@@ -15,8 +15,8 @@
 #include "base/memory/ref_counted.h"
 #include "base/strings/sys_string_conversions.h"
 #include "base/task/post_task.h"
-#import "brave/browser/mac/su_updater.h"
-#include "brave/browser/update_util.h"
+#import "onevn/browser/mac/su_updater.h"
+#include "onevn/browser/update_util.h"
 #include "chrome/common/channel_info.h"
 #include "chrome/common/chrome_constants.h"
 
@@ -81,10 +81,10 @@ class PerformBridge : public base::RefCountedThreadSafe<PerformBridge> {
 
 }  // namespace
 
-NSString* const kBraveAutoupdateStatusNotification = @"AutoupdateStatusNotification";
-NSString* const kBraveAutoupdateStatusStatus = @"status";
-NSString* const kBraveAutoupdateStatusVersion = @"version";
-NSString* const kBraveAutoupdateStatusErrorMessages = @"errormessages";
+NSString* const kOneVNAutoupdateStatusNotification = @"AutoupdateStatusNotification";
+NSString* const kOneVNAutoupdateStatusStatus = @"status";
+NSString* const kOneVNAutoupdateStatusVersion = @"version";
+NSString* const kOneVNAutoupdateStatusErrorMessages = @"errormessages";
 
 @implementation SparkleGlue
 {
@@ -98,7 +98,7 @@ NSString* const kBraveAutoupdateStatusErrorMessages = @"errormessages";
   NSString* new_version_;
 
   std::string channel_;
-  // The most recent kBraveAutoupdateStatusNotification notification posted.
+  // The most recent kOneVNAutoupdateStatusNotification notification posted.
   base::scoped_nsobject<NSNotification> recentNotification_;
 }
 
@@ -108,13 +108,13 @@ NSString* const kBraveAutoupdateStatusErrorMessages = @"errormessages";
   static bool sTriedCreatingSharedSparkleGlue = false;
   static SparkleGlue* shared = nil;
 
-  if (brave::UpdateEnabled() && !sTriedCreatingSharedSparkleGlue) {
+  if (onevn::UpdateEnabled() && !sTriedCreatingSharedSparkleGlue) {
     sTriedCreatingSharedSparkleGlue = true;
 
     shared = [[SparkleGlue alloc] init];
     [shared loadParameters];
     if (![shared loadSparkleFramework]) {
-      VLOG(0) << "brave update: Failed to load sparkle framework";
+      VLOG(0) << "onevn update: Failed to load sparkle framework";
       [shared release];
       shared = nil;
     }
@@ -166,12 +166,12 @@ NSString* const kBraveAutoupdateStatusErrorMessages = @"errormessages";
 }
 
 - (void)registerWithSparkle {
-  // This can be called by BraveBrowserMainPartsMac::PreMainMessageLoopStart()
+  // This can be called by OneVNBrowserMainPartsMac::PreMainMessageLoopStart()
   // again when browser is relaunched.
   if (registered_)
     return;
 
-  DCHECK(brave::UpdateEnabled());
+  DCHECK(onevn::UpdateEnabled());
   DCHECK(su_updater_);
 
   [self updateStatus:kAutoupdateRegistering version:nil error:nil];
@@ -181,8 +181,8 @@ NSString* const kBraveAutoupdateStatusErrorMessages = @"errormessages";
   [su_updater_ setDelegate:self];
 
   // Background update check interval.
-  constexpr NSTimeInterval kBraveUpdateCheckIntervalInSec = 3 * 60 * 60;
-  [su_updater_ setUpdateCheckInterval:kBraveUpdateCheckIntervalInSec];
+  constexpr NSTimeInterval kOneVNUpdateCheckIntervalInSec = 3 * 60 * 60;
+  [su_updater_ setUpdateCheckInterval:kOneVNUpdateCheckIntervalInSec];
   [su_updater_ setAutomaticallyChecksForUpdates:YES];
   [su_updater_ setAutomaticallyDownloadsUpdates:YES];
 
@@ -241,16 +241,16 @@ NSString* const kBraveAutoupdateStatusErrorMessages = @"errormessages";
   NSNumber* statusNumber = [NSNumber numberWithInt:status];
   NSMutableDictionary* dictionary =
       [NSMutableDictionary dictionaryWithObject:statusNumber
-                                         forKey:kBraveAutoupdateStatusStatus];
+                                         forKey:kOneVNAutoupdateStatusStatus];
   if ([version length]) {
-    [dictionary setObject:version forKey:kBraveAutoupdateStatusVersion];
+    [dictionary setObject:version forKey:kOneVNAutoupdateStatusVersion];
   }
   if ([error length]) {
-    [dictionary setObject:error forKey:kBraveAutoupdateStatusErrorMessages];
+    [dictionary setObject:error forKey:kOneVNAutoupdateStatusErrorMessages];
   }
 
   NSNotification* notification =
-      [NSNotification notificationWithName:kBraveAutoupdateStatusNotification
+      [NSNotification notificationWithName:kOneVNAutoupdateStatusNotification
                                     object:self
                                   userInfo:dictionary];
   recentNotification_.reset([notification retain]);
@@ -301,7 +301,7 @@ NSString* const kBraveAutoupdateStatusErrorMessages = @"errormessages";
 - (AutoupdateStatus)recentStatus {
   NSDictionary* dictionary = [recentNotification_ userInfo];
   NSNumber* status = base::mac::ObjCCastStrict<NSNumber>(
-      [dictionary objectForKey:kBraveAutoupdateStatusStatus]);
+      [dictionary objectForKey:kOneVNAutoupdateStatusStatus]);
   return static_cast<AutoupdateStatus>([status intValue]);
 }
 
@@ -366,13 +366,13 @@ NSString* const kBraveAutoupdateStatusErrorMessages = @"errormessages";
 #pragma mark - SUUpdaterDelegate
 
 - (void)updater:(id)updater didFinishLoadingAppcast:(id)appcast {
-  VLOG(0) << "brave update: did finish loading appcast";
+  VLOG(0) << "onevn update: did finish loading appcast";
 
   [self updateStatus:kAutoupdateChecking version:nil error:nil];
 }
 
 - (void)updater:(id)updater didFindValidUpdate:(id)item {
-  VLOG(0) << "brave update: did find valid update with " +
+  VLOG(0) << "onevn update: did find valid update with " +
              GetDescriptionFromAppcastItem(item);
 
   // Caching update candidate version.
@@ -385,7 +385,7 @@ NSString* const kBraveAutoupdateStatusErrorMessages = @"errormessages";
 }
 
 - (void)updaterDidNotFindUpdate:(id)updater {
-  VLOG(0) << "brave update: did not find update";
+  VLOG(0) << "onevn update: did not find update";
 
   [self determineUpdateStatusAsync];
 }
@@ -393,7 +393,7 @@ NSString* const kBraveAutoupdateStatusErrorMessages = @"errormessages";
 - (void)updater:(id)updater
     willDownloadUpdate:(id)item
            withRequest:(NSMutableURLRequest *)request {
-  VLOG(0) << "brave update: willDownloadUpdate with " +
+  VLOG(0) << "onevn update: willDownloadUpdate with " +
              GetDescriptionFromAppcastItem(item);
   [self updateStatus:kAutoupdateInstalling
              version:nil
@@ -403,7 +403,7 @@ NSString* const kBraveAutoupdateStatusErrorMessages = @"errormessages";
 - (void)updater:(id)updater
     failedToDownloadUpdate:(id)item
                      error:(NSError *)error {
-  VLOG(0) << "brave update: failed to download update with " +
+  VLOG(0) << "onevn update: failed to download update with " +
              GetDescriptionFromAppcastItem(item) +
              " with error - " + [[error description] UTF8String];
   [self updateStatus:kAutoupdateInstallFailed
@@ -412,14 +412,14 @@ NSString* const kBraveAutoupdateStatusErrorMessages = @"errormessages";
 }
 
 - (void)userDidCancelDownload:(id)updater {
-  VLOG(0) << "brave update: user did cancel download";
+  VLOG(0) << "onevn update: user did cancel download";
   [self updateStatus:kAutoupdateInstallFailed
                version:nil
                  error:nil];
 }
 
 - (void)updater:(id)updater willInstallUpdate:(id)item {
-  VLOG(0) << "brave update: will install update with " +
+  VLOG(0) << "onevn update: will install update with " +
              GetDescriptionFromAppcastItem(item);
   [self updateStatus:kAutoupdateInstalling
              version:nil
@@ -429,7 +429,7 @@ NSString* const kBraveAutoupdateStatusErrorMessages = @"errormessages";
 - (void)updater:(id)updater
     willInstallUpdateOnQuit:(id)item
     immediateInstallationInvocation:(NSInvocation *)invocation {
-  VLOG(0) << "brave update: will install update on quit with " +
+  VLOG(0) << "onevn update: will install update on quit with " +
              GetDescriptionFromAppcastItem(item);
 
   updateSuccessfullyInstalled_ = YES;
@@ -438,7 +438,7 @@ NSString* const kBraveAutoupdateStatusErrorMessages = @"errormessages";
 }
 
 - (void)updater:(id)updater didAbortWithError:(NSError *)error {
-  VLOG(0) << "brave update: did abort with error: " +
+  VLOG(0) << "onevn update: did abort with error: " +
              base::SysNSStringToUTF8([error localizedDescription]);
   /* Error code. See SUErrors.h
     // Appcast phase errors.

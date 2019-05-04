@@ -8,7 +8,7 @@ index 8f8102c5d39378385559954dae2ae12db574a010..0c2ebf5d16f0bb5a3b9745500677f571
      NSString* name =
 -          LoadStringFromDataPack(branded_data_pack.get(), cur_lang,
 -                                 name_id, name_id_str);
-+          [NSString stringWithUTF8String:BRAVE_PRODUCT_STRING];
++          [NSString stringWithUTF8String:ONEVN_PRODUCT_STRING];
      NSString* short_name =
            LoadStringFromDataPack(branded_data_pack.get(), cur_lang,
                                   short_name_id, short_name_id_str);

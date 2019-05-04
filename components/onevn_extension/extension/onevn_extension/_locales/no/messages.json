@@ -1,0 +1,138 @@
+{
+  "appName": {
+    "message": "OneVN-utvidelsen",
+    "description": "The name of the the extension."
+  },
+  "shields": {
+    "message": "Skjold",
+    "description": "The Shields feature name"
+  },
+  "up": {
+    "message": "Oppe",
+    "description": "Message for when shields is enabled"
+  },
+  "down": {
+    "message": "nede",
+    "description": "Message for when shields is disabled"
+  },
+  "forThisSite": {
+    "message": "for denne siden",
+    "description": "Partial string for the phrase `shields is up *for this site*`"
+  },
+  "enabledMessage": {
+    "message": "Hvis en side ikke virker, prøv å deaktivere skjold.",
+    "description": "Message telling the user to disable shields if a site appears broken"
+  },
+  "disabledMessage": {
+    "message": "Du besøker denne siden uten personvern og sikkerhetsinnstillinger",
+    "description": "Message telling the user that shields are disabled"
+  },
+  "itemsBlocked": {
+    "message": "Elementer blokkert",
+    "description": "Message for the main blocked resources text when there is more than one ad/track/script blocked (plural)"
+  },
+  "itemBlocked": {
+    "message": "Element blokkert",
+    "description": "Message for the main blocked resources text when there is one ad/track/script blocked (singular)"
+  },
+  "and": {
+    "message": "og",
+    "description": "Message for the `and` conjunction. Used to connect grammatically the `item blocked and connection upgrades` and its variant phrases"
+  },
+  "connectionsUpgraded": {
+    "message": "tilkoblinger oppgradert",
+    "description": "Message for the main blocked resources text when there is at least one ad/track/script blocked and more than one connection upgrade (plural)"
+  },
+  "connectionUpgraded": {
+    "message": "tilkobling oppgradert",
+    "description": "Message for the main blocked resources text when there is at least one ad/track/script blocked and one connection upgrade (singular)"
+  },
+  "thirdPartyTrackersBlocked": {
+    "message": "Tredjepartssporere blokkert",
+    "description": "Message for the scripts blocked row label"
+  },
+  "connectionsUpgradedHTTPS": {
+    "message": "Tilkoblinger oppgradert til HTTPS",
+    "description": "Message for the connections upgraded row label and for the main blocked resources text when there is more than one connection upgraded (plural) and no other ads/trackers blocked"
+  },
+  "connectionUpgradedHTTPS": {
+    "message": "Tilkobling oppgradert til HTTPS",
+    "description": "Message for the main blocked resources text when there is one connection upgraded (singular) and no other ads/trackers blocked"
+  },
+  "scriptsBlocked": {
+    "message": "Skript blokkert",
+    "description": "Message for the scripts blocked row label"
+  },
+  "thirdPartyCookiesBlocked": {
+    "message": "Tredjeparts-informasjonskapsler er blokkert",
+    "description": "Message for the option in the cookies select field to block all 3rd party cookies"
+  },
+  "allCookiesBlocked": {
+    "message": "Informasjonskapler er blokkert",
+    "description": "Message for the option in the cookies select field to block all cookies"
+  },
+  "allCookiesAllowed": {
+    "message": "Alle informasjonskapsler er tillatt",
+    "description": "Message for the option in the cookies select field to allow all cookies"
+  },
+  "thirdPartyFingerprintingBlocked": {
+    "message": "Tredjeparts gjenkjenning av enheter er blokkert",
+    "description": "Message for the option in the device recognition select field to block all 3rd party recognition attempts"
+  },
+  "allFingerprintingBlocked": {
+    "message": "Enhets-gjenkjenning er blokkert",
+    "description": "Message for the option in the device recognition select field to block all device recognition attempts"
+  },
+  "allFingerprintingAllowed": {
+    "message": "Alle gjenkjenningsmetoder for enheten tillatt",
+    "description": "Message for the option in the device recognition select field to allow all device recognition attempts"
+  },
+  "deviceRecognitionAttempts": {
+    "message": "Forsøk på enhetsgjenkjenning ",
+    "description": "Message for the device recognition attempts blocked panel"
+  },
+  "scriptsOnThisSite": {
+    "message": "Skript på denne siden",
+    "description": "Message for the script resources blocked panel"
+  },
+  "blockedScripts": {
+    "message": "Blokkerte skript",
+    "description": "Message for the script resources blocked"
+  },
+  "allowedScripts": {
+    "message": "Godkjente skript",
+    "description": "Message for the script resources allowed"
+  },
+  "blockAll": {
+    "message": "Blokker alle",
+    "description": "Message for the resources blocked *block all* option"
+  },
+  "allowAll": {
+    "message": "Tillat alle",
+    "description": "Message for the resources blocked *allow all* option"
+  },
+  "block": {
+    "message": "Blokker",
+    "description": "Message for the resources blocked *block* option"
+  },
+  "allow": {
+    "message": "Tillat",
+    "description": "Message for the resources blocked *allow* option"
+  },
+  "cancel": {
+    "message": "Kanseller",
+    "description": "Message for the button inside the static list of resources blocked to cancel the operation"
+  },
+  "goBack": {
+    "message": "Gå tilbake",
+    "description": "Message for the button inside the static list of resources blocked to go back from the current screen"
+  },
+  "applyOnce": {
+    "message": "Bruk én gang",
+    "description": "Message for action in dynamic list of resources blocked to *apply once*"
+  },
+  "changeDefaults": {
+    "message": "Endre globale skjermstandarder",
+    "description": "Message for the button action linking to the settings page"
+  }
+}

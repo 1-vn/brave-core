@@ -1,9 +1,9 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/autoplay/autoplay_permission_context.h"
+#include "onevn/browser/autoplay/autoplay_permission_context.h"
 
 #include <memory>
 #include <string>
@@ -11,7 +11,7 @@
 
 #include "base/bind.h"
 #include "base/macros.h"
-#include "brave/common/pref_names.h"
+#include "onevn/common/pref_names.h"
 #include "chrome/browser/content_settings/host_content_settings_map_factory.h"
 #include "chrome/browser/permissions/permission_request_id.h"
 #include "chrome/browser/permissions/permission_request_manager.h"

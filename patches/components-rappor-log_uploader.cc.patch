@@ -6,7 +6,7 @@ index cee35a966d821f98453ec185a8209b062ad51593..0a7a2c2656fea1068c7d6196b04aa6b8
  LogUploader::~LogUploader() {}
  
  void LogUploader::Start() {
-+  return; // feature disabled in Brave
++  return; // feature disabled in OneVN
    is_running_ = true;
    StartScheduledUpload();
  }

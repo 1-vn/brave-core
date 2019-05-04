@@ -9,7 +9,7 @@ index aec043d33920f689f59eb1f25003c878bbb28599..43c06924609569f435416c24ce6fbd64
 -  Time cookie_expires = CanonicalCookie::CanonExpiration(parsed_cookie,
 -                                                         creation_time,
 -                                                         server_time);
-+  Time cookie_expires = BraveCanonExpiration(parsed_cookie,
++  Time cookie_expires = OneVNCanonExpiration(parsed_cookie,
 +                                             creation_time,
 +                                             server_time,
 +                                             !options.exclude_httponly());

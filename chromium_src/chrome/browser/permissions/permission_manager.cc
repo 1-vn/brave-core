@@ -1,5 +1,5 @@
-#include "brave/browser/autoplay/autoplay_permission_context.h"
-#include "brave/browser/geolocation/brave_geolocation_permission_context.h"
+#include "onevn/browser/autoplay/autoplay_permission_context.h"
+#include "onevn/browser/geolocation/onevn_geolocation_permission_context.h"
 #include "components/content_settings/core/common/content_settings.h"
 #include "content/public/browser/permission_type.h"
 
@@ -17,7 +17,7 @@ ContentSettingsType PermissionTypeToContentSetting(PermissionType permission) {
 
 } // namespace
 
-#define GeolocationPermissionContext BraveGeolocationPermissionContext
-#define PermissionManagerFactory BravePermissionManagerFactory
+#define GeolocationPermissionContext OneVNGeolocationPermissionContext
+#define PermissionManagerFactory OneVNPermissionManagerFactory
 #include "../../../../../chrome/browser/permissions/permission_manager.cc"
 #undef GeolocationPermissionContext

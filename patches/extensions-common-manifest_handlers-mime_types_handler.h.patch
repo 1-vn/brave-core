@@ -6,7 +6,7 @@ index 22dfd725f130ebbd8096f7a37174d2c1ce50ff4e..9afcf52ef12e170e588e5f90a644e350
   public:
    // Returns list of extensions' ids that are allowed to use MIME type filters.
    static std::vector<std::string> GetMIMETypeWhitelist();
-+  static std::vector<std::string> BraveGetMIMETypeWhitelist();
++  static std::vector<std::string> OneVNGetMIMETypeWhitelist();
  
    static MimeTypesHandler* GetHandler(const extensions::Extension* extension);
  

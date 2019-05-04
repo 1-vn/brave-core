@@ -2,8 +2,8 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#ifndef BRAVE_COMMON_TOR_TOR_COMMON_H_
-#define BRAVE_COMMON_TOR_TOR_COMMON_H_
+#ifndef ONEVN_COMMON_TOR_TOR_COMMON_H_
+#define ONEVN_COMMON_TOR_TOR_COMMON_H_
 
 #include "base/files/file_path.h"
 
@@ -35,4 +35,4 @@ class TorConfig {
 
 }  // namespace tor
 
-#endif  // BRAVE_COMMON_TOR_TOR_COMMON_H_
+#endif  // ONEVN_COMMON_TOR_TOR_COMMON_H_

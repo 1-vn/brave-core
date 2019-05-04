@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -9,9 +9,9 @@
 #include "bat/ledger/ledger.h"
 #include "testing/gtest/include/gtest/gtest.h"
 
-// npm run test -- brave_unit_tests --filter=MediaTwitchTest.*
+// npm run test -- onevn_unit_tests --filter=MediaTwitchTest.*
 
-namespace braveledger_media {
+namespace onevnledger_media {
 
 class MediaTwitchTest : public testing::Test {
 };
@@ -194,13 +194,13 @@ TEST(MediaTwitchTest, GetLinkType ) {
   const std::string url("https://k8923479-sub.cdn.ttvnw.net/v1/segment/");
 
   // url is not correct
-  std::string result = MediaTwitch::GetLinkType("https://brave.com",
+  std::string result = MediaTwitch::GetLinkType("https://1-vn.com",
                                                 "https://www.twitch.tv",
                                                 "");
   ASSERT_EQ(result, "");
 
   // first party is off
-  result = MediaTwitch::GetLinkType(url, "https://www.brave.com", "");
+  result = MediaTwitch::GetLinkType(url, "https://www.1-vn.com", "");
   ASSERT_EQ(result, "");
 
   // regular page
@@ -213,7 +213,7 @@ TEST(MediaTwitchTest, GetLinkType ) {
 
   // player page
   result = MediaTwitch::GetLinkType(url,
-                                    "https://brave.com/",
+                                    "https://1-vn.com/",
                                     "https://player.twitch.tv/");
   ASSERT_EQ(result, "twitch");
 }
@@ -298,4 +298,4 @@ TEST(MediaTwitchTest, UpdatePublisherData) {
       "f-b7f1-e344f806ba8a-profile_image-70x70.png");
 }
 
-}  // namespace braveledger_media
+}  // namespace onevnledger_media

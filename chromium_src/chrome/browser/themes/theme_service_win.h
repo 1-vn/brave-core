@@ -2,10 +2,10 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/themes/brave_theme_service.h"
+#include "onevn/browser/themes/onevn_theme_service.h"
 
 #undef ThemeService
-#define ThemeService BraveThemeService
+#define ThemeService OneVNThemeService
 
 #include "../../../../../chrome/browser/themes/theme_service_win.h"
 

@@ -9,7 +9,7 @@ if (is_mac) {
 # Runs a script to compile a local Cargo package and all of its dependencies
 template("cargo_build") {
   action(target_name) {
-    script = "//brave/script/cargo.py"
+    script = "//onevn/script/cargo.py"
 
     # make sure rebuilds when files change
     forward_variables_from(invoker, "*")
@@ -17,8 +17,8 @@ template("cargo_build") {
     outputs = [output]
 
     args = [
-      "--rustup_home=" + rebase_path("//brave/build/rustup/", root_build_dir),
-      "--cargo_home=" + rebase_path("//brave/build/rustup/", root_build_dir),
+      "--rustup_home=" + rebase_path("//onevn/build/rustup/", root_build_dir),
+      "--cargo_home=" + rebase_path("//onevn/build/rustup/", root_build_dir),
       "--manifest_path=" + rebase_path(manifest_path, root_build_dir),
       "--build_path=" + rebase_path(build_path, root_build_dir),
       "--target=" + target,

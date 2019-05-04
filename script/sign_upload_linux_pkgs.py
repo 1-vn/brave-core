@@ -39,7 +39,7 @@ def main():
 
     if args.debug:
         logging.basicConfig(stream=sys.stderr, level=logging.DEBUG)
-        logging.debug('brave_version: {}'.format(get_raw_version()))
+        logging.debug('onevn_version: {}'.format(get_raw_version()))
         logging.debug('channel: {}'.format(channel))
         logging.debug('repo_dir: {}'.format(repo_dir))
         logging.debug('dist_dir: {}'.format(dist_dir))
@@ -123,9 +123,9 @@ def main():
     for item in ['upload_to_aptly', 'upload_to_rpm_repo']:
         bucket = ''
         if re.match(r'.*rpm.*', item):
-            bucket = 'brave-browser-rpm-staging-'
+            bucket = 'onevn-browser-rpm-staging-'
         else:
-            bucket = 'brave-browser-apt-staging-'
+            bucket = 'onevn-browser-apt-staging-'
 
         upload_script = os.path.join(repo_dir, item)
 
@@ -191,8 +191,8 @@ def download_linux_pkgs_from_github(args, logging):
 
     file_list = []
 
-    # BRAVE_REPO defined in helpers.py
-    repo = GitHub(args.github_token).repos(BRAVE_REPO)
+    # ONEVN_REPO defined in helpers.py
+    repo = GitHub(args.github_token).repos(ONEVN_REPO)
     tag_name = args.tag
     release = {}
     releases = get_releases_by_tag(repo, tag_name, include_drafts=True)
@@ -296,7 +296,7 @@ def parse_args():
     desc = "Download Linux packages from GitHub, sign them, then upload to apt/rpm repositories"
 
     parser = argparse.ArgumentParser(description=desc, formatter_class=RawTextHelpFormatter)
-    parser.add_argument('-c', '--channel', help='The Brave channel, i.e. \'nightly\', \'dev\', \'beta\', \'release\'',
+    parser.add_argument('-c', '--channel', help='The OneVN channel, i.e. \'nightly\', \'dev\', \'beta\', \'release\'',
                         required=True)
     parser.add_argument('-d', '--debug', action='store_true',
                         help='Print debug output')

@@ -6,12 +6,12 @@ index 44d963793f143530704a0a06273e51d7c68766cc..3e39b6da2722a77df31509cd2b136020
  }
  
  void RenderThreadImpl::RegisterSchemes() {
-+#if defined(BRAVE_CHROMIUM_BUILD)
-+  // brave:
-+  WebString brave_scheme(WebString::FromASCII(kBraveUIScheme));
-+  WebSecurityPolicy::RegisterURLSchemeAsDisplayIsolated(brave_scheme);
++#if defined(ONEVN_CHROMIUM_BUILD)
++  // onevn:
++  WebString onevn_scheme(WebString::FromASCII(kOneVNUIScheme));
++  WebSecurityPolicy::RegisterURLSchemeAsDisplayIsolated(onevn_scheme);
 +  WebSecurityPolicy::RegisterURLSchemeAsNotAllowingJavascriptURLs(
-+      brave_scheme);
++      onevn_scheme);
 +#endif
 +
    // chrome:

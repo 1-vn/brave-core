@@ -6,7 +6,7 @@ index 20c43a7ee297e2ddea849d903f5e12608e303095..4cc4e4b2bfff6231d80027c32a9d9598
    ~ContentSettingsRegistry();
  
    void Init();
-+  void BraveInit();
++  void OneVNInit();
  
    typedef uint32_t Platforms;
  

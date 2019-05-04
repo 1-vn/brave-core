@@ -18,7 +18,7 @@ config("external_config") {
 config("internal_config") {
   visibility = [
     ":*",
-    "//brave/test:*",
+    "//onevn/test:*",
   ]
   include_dirs = [ "src" ]
 }
@@ -59,7 +59,7 @@ source_set("ads") {
     # add this only when ledger and confirmations are in the same process
     # rebase_path("bat-native-ledger", dep_base),
     # rebase_path("bat-native-ads", dep_base),
-    "//brave/test:*",
+    "//onevn/test:*",
   ]
 
   output_name = "bat_native_ads"

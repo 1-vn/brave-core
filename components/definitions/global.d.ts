@@ -17,14 +17,14 @@ declare global {
     i18nTemplate: {
       process: (document: Document, translations: loadTimeData) => void
     }
-    brave_adblock: {
+    onevn_adblock: {
       initialize: () => void
     }
-    brave_new_tab: {
+    onevn_new_tab: {
       initialize: () => void
       statsUpdated: () => void
     }
-    brave_rewards: {
+    onevn_rewards: {
       initialize: () => void
       walletCreated: chrome.events.Event<() => void>
       walletCreateFailed: chrome.events.Event<() => void>
@@ -39,13 +39,13 @@ declare global {
       contributeList: chrome.events.Event<(list: Rewards.Publisher[]) => void>
       balanceReports: chrome.events.Event<(reports: Record<string, Rewards.Report>) => void>
     }
-    brave_welcome: {
+    onevn_welcome: {
       initialize: () => void
     }
-    brave_rewards_donate: {
+    onevn_rewards_donate: {
       initialize: () => void
     }
-    brave_rewards_internals: {
+    onevn_rewards_internals: {
       initialize: () => void
     }
     sync_ui_exports: {

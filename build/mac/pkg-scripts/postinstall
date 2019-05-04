@@ -1,16 +1,16 @@
 #!/bin/sh
 # This postinstall script is run on macOS pkg installers
 
-# Extract a referral / promo code from the installer path of the format /dir/path/Setup-Brave-Anything-xxx001.pkg
+# Extract a referral / promo code from the installer path of the format /dir/path/Setup-OneVN-Anything-xxx001.pkg
 # where the promo code would be xxx001
 installerPath=$1
 installationPath=$2
 
 # TODO: ugly to assume the name of the app, especially with multi-channel.
 # Luckily for now, release channel is the only channel with a pkg installer.
-installationAppPath="$installationPath/Brave Browser.app"
+installationAppPath="$installationPath/OneVN Browser.app"
 installerPathPromoCodeRegex='.+-(([a-zA-Z0-9]{3}[0-9]{3})|([a-zA-Z]{1,}-[a-zA-Z]{1,}))([[:blank:]]?\([0-9]+\))?\.pkg$'
-userDataDir="$HOME/Library/Application Support/BraveSoftware/Brave-Browser"
+userDataDir="$HOME/Library/Application Support/OneVNSoftware/OneVN-Browser"
 promoCodePath="$userDataDir/promoCode"
 
 # pkg runs this script as root so we need to get current username
@@ -38,7 +38,7 @@ if [[ $installerPath =~ $installerPathPromoCodeRegex ]]; then
     echo "Writing to user data directory at: $userDataDir/promoCode"
     # TODO: it is a bit ugly to assume the user-data path here, and to manually
     # write to it and hopefully set the correct permissions. An alternative would
-    # be to run Brave with a flag, similar to the process for Windows.
+    # be to run OneVN with a flag, similar to the process for Windows.
     mkdir -p "$userDataDir"
     echo "$promoCode" > "$promoCodePath"
     # fix permissions

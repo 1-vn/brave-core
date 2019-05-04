@@ -6,7 +6,7 @@ index d39876436dd64faa0bae445c3e0ad1c666dbae17..88eb4e98bdb5a040e26c72f7c5eed9de
  }
  
  bool NetErrorTabHelper::ProbesAllowed() const {
-+#if defined(BRAVE_CHROMIUM_BUILD)
++#if defined(ONEVN_CHROMIUM_BUILD)
 +  return false;
 +#endif
    if (testing_state_ != TESTING_DEFAULT)

@@ -8,8 +8,8 @@ index 05e0c5f9f789e140989b16e9a4347b4fd4d11e1f..403bc4300d732211fdbc1fc9fe3f2998
  packaging_files_executables = [
 -  "$root_out_dir/chrome",
 -  "$root_out_dir/chrome_sandbox",
-+  "$root_out_dir/brave",
-+  "$root_out_dir/brave_sandbox",
++  "$root_out_dir/onevn",
++  "$root_out_dir/onevn_sandbox",
  ]
  packaging_files_shlibs = []
  
@@ -18,15 +18,15 @@ index 05e0c5f9f789e140989b16e9a4347b4fd4d11e1f..403bc4300d732211fdbc1fc9fe3f2998
  
  action("strip_chrome_binary") {
 -  prog_name = "$root_out_dir/chrome"
-+  prog_name = "$root_out_dir/brave"
++  prog_name = "$root_out_dir/onevn"
    debug_file = prog_name + ".debug"
    stripped_file = prog_name + ".stripped"
    deps = [
      "//chrome",
    ]
-+  if (brave_chromium_build) {
++  if (onevn_chromium_build) {
 +    deps += [
-+      "//brave/build/linux:copy_exe",
++      "//onevn/build/linux:copy_exe",
 +    ]
 +  }
    script = "//build/gn_run_binary.py"
@@ -37,7 +37,7 @@ index 05e0c5f9f789e140989b16e9a4347b4fd4d11e1f..403bc4300d732211fdbc1fc9fe3f2998
    visibility = [ ":*" ]
    sources = [
 -    "//chrome/app/resources/manpage.1.in",
-+    "//brave/chromium_src/chrome/app/resources/manpage.1.in",
++    "//onevn/chromium_src/chrome/app/resources/manpage.1.in",
      "common/apt.include",
      "common/default-app-block.template",
      "common/default-app.template",
@@ -47,8 +47,8 @@ index 05e0c5f9f789e140989b16e9a4347b4fd4d11e1f..403bc4300d732211fdbc1fc9fe3f2998
      sources += [
 -      "common/chromium-browser/chromium-browser.appdata.xml",
 -      "common/chromium-browser/chromium-browser.info",
-+      "//brave/chromium_src/chrome/installer/linux/common/brave-browser/chromium-browser.appdata.xml",
-+      "//brave/chromium_src/chrome/installer/linux/common/brave-browser/chromium-browser.info",
++      "//onevn/chromium_src/chrome/installer/linux/common/onevn-browser/chromium-browser.appdata.xml",
++      "//onevn/chromium_src/chrome/installer/linux/common/onevn-browser/chromium-browser.info",
      ]
    }
  
@@ -56,10 +56,10 @@ index 05e0c5f9f789e140989b16e9a4347b4fd4d11e1f..403bc4300d732211fdbc1fc9fe3f2998
      "//chrome/browser/resources/media/mei_preload:component",
      "//sandbox/linux:chrome_sandbox",
    ]
-+  if (brave_chromium_build) {
++  if (onevn_chromium_build) {
 +    public_deps += [
-+      "//brave/build/linux:copy_exe",
-+      "//brave/build/linux:copy_sandbox",
++      "//onevn/build/linux:copy_exe",
++      "//onevn/build/linux:copy_sandbox",
 +    ]
 +  }
    if (enable_nacl) {

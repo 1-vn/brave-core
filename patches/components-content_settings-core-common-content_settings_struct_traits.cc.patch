@@ -7,7 +7,7 @@ index 74291e690bcdd786bb0ba3339cd24bd487b6106d..598bea5a64909ea70069677da7ab8415
           data.ReadAutoplayRules(&out->autoplay_rules) &&
           data.ReadClientHintsRules(&out->client_hints_rules) &&
 +         data.ReadFingerprintingRules(&out->fingerprinting_rules) &&
-+         data.ReadBraveShieldsRules(&out->brave_shields_rules) &&
++         data.ReadOneVNShieldsRules(&out->onevn_shields_rules) &&
           data.ReadPopupRedirectRules(&out->popup_redirect_rules);
  }
  

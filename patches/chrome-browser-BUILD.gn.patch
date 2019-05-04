@@ -6,7 +6,7 @@ index 0324e35f246634f78f75183a4d832a007f888ae4..3bbf41600e904e50d807ce3f69cdd708
      "//ui/strings",
      "//ui/surface",
      "//ui/web_dialogs",
-+    "//brave/browser:browser_process",
++    "//onevn/browser:browser_process",
    ]
  
    if (is_posix || is_fuchsia) {

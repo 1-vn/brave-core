@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -31,12 +31,12 @@
 using std::placeholders::_1;
 using std::placeholders::_2;
 
-namespace braveledger_bat_publishers {
+namespace onevnledger_bat_publishers {
 
 BatPublishers::BatPublishers(bat_ledger::LedgerImpl* ledger):
   ledger_(ledger),
-  state_(new braveledger_bat_helper::PUBLISHER_STATE_ST),
-  server_list_(std::map<std::string, braveledger_bat_helper::SERVER_LIST>()) {
+  state_(new onevnledger_bat_helper::PUBLISHER_STATE_ST),
+  server_list_(std::map<std::string, onevnledger_bat_helper::SERVER_LIST>()) {
   calcScoreConsts(state_->min_publisher_duration_);
 }
 
@@ -48,7 +48,7 @@ void BatPublishers::calcScoreConsts(const uint64_t& min_duration_seconds) {
   // as possible (we used 1000 in muon)
   // keeping it with only seconds visits are not spaced out equally
   uint64_t min_duration_big = min_duration_seconds * 100;
-  a_ = (1.0 / (braveledger_ledger::_d * 2.0)) - min_duration_big;
+  a_ = (1.0 / (onevnledger_ledger::_d * 2.0)) - min_duration_big;
   a2_ = a_ * 2.0;
   a4_ = a2_ * 2.0;
   b_ = min_duration_big - a_;
@@ -56,7 +56,7 @@ void BatPublishers::calcScoreConsts(const uint64_t& min_duration_seconds) {
 }
 
 // courtesy of @dimitry-xyz:
-// https://github.com/brave/ledger/issues/2#issuecomment-221752002
+// https://github.com/1-vn/ledger/issues/2#issuecomment-221752002
 double BatPublishers::concaveScore(const uint64_t& duration_seconds) {
   uint64_t duration_big = duration_seconds * 100;
   return (-b_ + std::sqrt(b2_ + (a4_ * duration_big))) / a2_;
@@ -369,7 +369,7 @@ void BatPublishers::setPublisherAllowVideos(const bool& allow) {
 
 uint64_t BatPublishers::getPublisherMinVisitTime() const {
   return ledger::is_testing
-             ? braveledger_ledger::_default_min_publisher_duration_test
+             ? onevnledger_ledger::_default_min_publisher_duration_test
              : state_->min_publisher_duration_;
 }
 
@@ -419,7 +419,7 @@ void BatPublishers::synopsisNormalizerInternal(
   double totalScores = 0.0;
   for (size_t i = 0; i < list.size(); i++) {
     // Check which would test uint problem from this issue
-    // https://github.com/brave/brave-browser/issues/3134
+    // https://github.com/1-vn/onevn-browser/issues/3134
     if (GetMigrateScore()) {
       list[i].score = concaveScore(list[i].duration);
     }
@@ -523,7 +523,7 @@ bool BatPublishers::isVerified(const std::string& publisher_id) {
     return false;
   }
 
-  const braveledger_bat_helper::SERVER_LIST values = result->second;
+  const onevnledger_bat_helper::SERVER_LIST values = result->second;
 
   return values.verified;
 }
@@ -545,7 +545,7 @@ bool BatPublishers::isExcluded(const std::string& publisher_id,
     return false;
   }
 
-  const braveledger_bat_helper::SERVER_LIST values = result->second;
+  const onevnledger_bat_helper::SERVER_LIST values = result->second;
 
   return values.excluded;
 }
@@ -561,7 +561,7 @@ void BatPublishers::clearAllBalanceReports() {
 void BatPublishers::setBalanceReport(ledger::ACTIVITY_MONTH month,
                                 int year,
                                 const ledger::BalanceReportInfo& report_info) {
-  braveledger_bat_helper::REPORT_BALANCE_ST report_balance;
+  onevnledger_bat_helper::REPORT_BALANCE_ST report_balance;
   report_balance.opening_balance_ = report_info.opening_balance_;
   report_balance.closing_balance_ = report_info.closing_balance_;
   report_balance.grants_ = report_info.grants_;
@@ -572,13 +572,13 @@ void BatPublishers::setBalanceReport(ledger::ACTIVITY_MONTH month,
   report_balance.auto_contribute_ = report_info.auto_contribute_;
 
   std::string total = "0";
-  total = braveledger_bat_bignum::sum(total, report_balance.grants_);
-  total = braveledger_bat_bignum::sum(total, report_balance.earning_from_ads_);
-  total = braveledger_bat_bignum::sum(total, report_balance.deposits_);
-  total = braveledger_bat_bignum::sub(total, report_balance.auto_contribute_);
-  total = braveledger_bat_bignum::sub(total,
+  total = onevnledger_bat_bignum::sum(total, report_balance.grants_);
+  total = onevnledger_bat_bignum::sum(total, report_balance.earning_from_ads_);
+  total = onevnledger_bat_bignum::sum(total, report_balance.deposits_);
+  total = onevnledger_bat_bignum::sub(total, report_balance.auto_contribute_);
+  total = onevnledger_bat_bignum::sub(total,
                                       report_balance.recurring_donation_);
-  total = braveledger_bat_bignum::sub(total, report_balance.one_time_donation_);
+  total = onevnledger_bat_bignum::sub(total, report_balance.one_time_donation_);
 
   report_balance.total_ = total;
   state_->monthly_balances_[GetBalanceReportName(month, year)] = report_balance;
@@ -621,7 +621,7 @@ BatPublishers::getAllBalanceReports() {
   std::map<std::string, ledger::BalanceReportInfo> newReports;
   for (auto const& report : state_->monthly_balances_) {
     ledger::BalanceReportInfo newReport;
-    const braveledger_bat_helper::REPORT_BALANCE_ST oldReport = report.second;
+    const onevnledger_bat_helper::REPORT_BALANCE_ST oldReport = report.second;
     newReport.opening_balance_ = oldReport.opening_balance_;
     newReport.closing_balance_ = oldReport.closing_balance_;
     newReport.grants_ = oldReport.grants_;
@@ -638,16 +638,16 @@ BatPublishers::getAllBalanceReports() {
 
 void BatPublishers::saveState() {
   std::string data;
-  braveledger_bat_helper::saveToJsonString(*state_, &data);
+  onevnledger_bat_helper::saveToJsonString(*state_, &data);
   ledger_->SavePublisherState(data, this);
 }
 
 bool BatPublishers::loadState(const std::string& data) {
-  braveledger_bat_helper::PUBLISHER_STATE_ST state;
-  if (!braveledger_bat_helper::loadFromJson(&state, data.c_str()))
+  onevnledger_bat_helper::PUBLISHER_STATE_ST state;
+  if (!onevnledger_bat_helper::loadFromJson(&state, data.c_str()))
     return false;
 
-  state_.reset(new braveledger_bat_helper::PUBLISHER_STATE_ST(state));
+  state_.reset(new onevnledger_bat_helper::PUBLISHER_STATE_ST(state));
   calcScoreConsts(state_->min_publisher_duration_);
   return true;
 }
@@ -688,8 +688,8 @@ void BatPublishers::OnPublishersListSaved(ledger::Result result) {
 }
 
 bool BatPublishers::loadPublisherList(const std::string& data) {
-  std::map<std::string, braveledger_bat_helper::SERVER_LIST> list;
-  bool success = braveledger_bat_helper::getJSONServerList(data, &list);
+  std::map<std::string, onevnledger_bat_helper::SERVER_LIST> list;
+  bool success = onevnledger_bat_helper::getJSONServerList(data, &list);
 
   if (success) {
     server_list_ = list;
@@ -783,23 +783,23 @@ void BatPublishers::setBalanceReportItem(ledger::ACTIVITY_MONTH month,
   switch (type) {
     case ledger::ReportType::GRANT:
       report_info.grants_ =
-          braveledger_bat_bignum::sum(report_info.grants_, probi);
+          onevnledger_bat_bignum::sum(report_info.grants_, probi);
       break;
     case ledger::ReportType::ADS:
       report_info.earning_from_ads_ =
-          braveledger_bat_bignum::sum(report_info.earning_from_ads_, probi);
+          onevnledger_bat_bignum::sum(report_info.earning_from_ads_, probi);
       break;
     case ledger::ReportType::AUTO_CONTRIBUTION:
       report_info.auto_contribute_ =
-          braveledger_bat_bignum::sum(report_info.auto_contribute_, probi);
+          onevnledger_bat_bignum::sum(report_info.auto_contribute_, probi);
       break;
     case ledger::ReportType::DONATION:
       report_info.one_time_donation_ =
-          braveledger_bat_bignum::sum(report_info.one_time_donation_, probi);
+          onevnledger_bat_bignum::sum(report_info.one_time_donation_, probi);
       break;
     case ledger::ReportType::DONATION_RECURRING:
       report_info.recurring_donation_ =
-          braveledger_bat_bignum::sum(report_info.recurring_donation_, probi);
+          onevnledger_bat_bignum::sum(report_info.recurring_donation_, probi);
       break;
     default:
       break;
@@ -818,7 +818,7 @@ void BatPublishers::getPublisherBanner(
     auto result = server_list_.find(publisher_id);
 
     if (result != server_list_.end()) {
-      const braveledger_bat_helper::SERVER_LIST values = result->second;
+      const onevnledger_bat_helper::SERVER_LIST values = result->second;
 
       banner.title = values.banner.title_;
       banner.description = values.banner.description_;
@@ -880,4 +880,4 @@ void BatPublishers::RefreshPublisherVerifiedStatus(
   callback(isVerified(publisher_key));
 }
 
-}  // namespace braveledger_bat_publishers
+}  // namespace onevnledger_bat_publishers

@@ -7,7 +7,7 @@ index 13d16bb8ac09a58b32242eeb166086c3fdc3a930..07a6d8d4e8dcb1a57ca07d41847f60cc
  <link rel="import" href="../settings_shared_css.html">
  <link rel="import" href="privacy_page_browser_proxy.html">
 +<if expr="not _google_chrome">
-+<link rel="import" href="../brave_privacy_page/brave_personalization_options.html">
++<link rel="import" href="../onevn_privacy_page/onevn_personalization_options.html">
 +</if>
  
  <!--
@@ -27,7 +27,7 @@ index 13d16bb8ac09a58b32242eeb166086c3fdc3a930..07a6d8d4e8dcb1a57ca07d41847f60cc
          sub-label="$i18n{safeBrowsingEnableProtectionDesc}">
      </settings-toggle-button>
 +    <if expr="not _google_chrome">
-+      <settings-brave-personalization-options></settings-brave-personalization-options>
++      <settings-onevn-personalization-options></settings-onevn-personalization-options>
 +    </if>
 +    <if expr="_google_chrome">
      <settings-toggle-button

@@ -14,24 +14,24 @@ index 58b80612445aa0616462805f464bcae0b3ee1c3e..e0551eed012e437aa1109ae47d40d5fc
      install -m 644 "${BUILDDIR}/ui_resources_100_percent.pak" "${STAGEDIR}/${INSTALLDIR}/"
    fi
  
-+  # brave_resources.pak, contains customization, shields
-+  install -m 644 "${BUILDDIR}/brave_resources.pak" "${STAGEDIR}/${INSTALLDIR}/"
++  # onevn_resources.pak, contains customization, shields
++  install -m 644 "${BUILDDIR}/onevn_resources.pak" "${STAGEDIR}/${INSTALLDIR}/"
 +
-+  # brave_[100|200]_resources.pak for scaled resources
-+  install -m 644 "${BUILDDIR}/brave_100_percent.pak" "${STAGEDIR}/${INSTALLDIR}/"
-+  install -m 644 "${BUILDDIR}/brave_200_percent.pak" "${STAGEDIR}/${INSTALLDIR}/"
++  # onevn_[100|200]_resources.pak for scaled resources
++  install -m 644 "${BUILDDIR}/onevn_100_percent.pak" "${STAGEDIR}/${INSTALLDIR}/"
++  install -m 644 "${BUILDDIR}/onevn_200_percent.pak" "${STAGEDIR}/${INSTALLDIR}/"
 +
-+  # localization files for Brave extension
-+  install -d -m 755 "${STAGEDIR}/${INSTALLDIR}/resources/brave_extension/_locales"
-+  cp -a "${BUILDDIR}/resources/brave_extension/_locales" "${STAGEDIR}/${INSTALLDIR}/resources/brave_extension"
-+  find "${STAGEDIR}/${INSTALLDIR}/resources/brave_extension/_locales" -type f -exec chmod 644 '{}' \;
-+  find "${STAGEDIR}/${INSTALLDIR}/resources/brave_extension/_locales" -type d -exec chmod 755 '{}' \;
++  # localization files for OneVN extension
++  install -d -m 755 "${STAGEDIR}/${INSTALLDIR}/resources/onevn_extension/_locales"
++  cp -a "${BUILDDIR}/resources/onevn_extension/_locales" "${STAGEDIR}/${INSTALLDIR}/resources/onevn_extension"
++  find "${STAGEDIR}/${INSTALLDIR}/resources/onevn_extension/_locales" -type f -exec chmod 644 '{}' \;
++  find "${STAGEDIR}/${INSTALLDIR}/resources/onevn_extension/_locales" -type d -exec chmod 755 '{}' \;
 +
-+  # localization files for Brave Rewards
-+  install -d -m 755 "${STAGEDIR}/${INSTALLDIR}/resources/brave_rewards/_locales"
-+  cp -a "${BUILDDIR}/resources/brave_rewards/_locales" "${STAGEDIR}/${INSTALLDIR}/resources/brave_rewards"
-+  find "${STAGEDIR}/${INSTALLDIR}/resources/brave_rewards/_locales" -type f -exec chmod 644 '{}' \;
-+  find "${STAGEDIR}/${INSTALLDIR}/resources/brave_rewards/_locales" -type d -exec chmod 755 '{}' \;
++  # localization files for OneVN Rewards
++  install -d -m 755 "${STAGEDIR}/${INSTALLDIR}/resources/onevn_rewards/_locales"
++  cp -a "${BUILDDIR}/resources/onevn_rewards/_locales" "${STAGEDIR}/${INSTALLDIR}/resources/onevn_rewards"
++  find "${STAGEDIR}/${INSTALLDIR}/resources/onevn_rewards/_locales" -type f -exec chmod 644 '{}' \;
++  find "${STAGEDIR}/${INSTALLDIR}/resources/onevn_rewards/_locales" -type d -exec chmod 755 '{}' \;
 +
    # ICU data file; Necessary when the GN icu_use_data_file flag is true.
    install -m 644 "${BUILDDIR}/icudtl.dat" "${STAGEDIR}/${INSTALLDIR}/"
@@ -41,7 +41,7 @@ index 58b80612445aa0616462805f464bcae0b3ee1c3e..e0551eed012e437aa1109ae47d40d5fc
    # app icons
    local icon_regex=".*product_logo_[0-9]\+\."
 -  if [ "$BRANDING" = "google_chrome" ]; then
-+  if [ "$BRANDING" = "brave" ]; then
++  if [ "$BRANDING" = "onevn" ]; then
      if [ "$CHANNEL" = "beta" ]; then
        icon_regex=".*product_logo_[0-9]\+_beta\."
 -    elif [ "$CHANNEL" = "unstable" ]; then
@@ -57,7 +57,7 @@ index 58b80612445aa0616462805f464bcae0b3ee1c3e..e0551eed012e437aa1109ae47d40d5fc
        fi
        local expected_perms=777
 -    elif [ "${base_name}" = "chrome-sandbox" ]; then
-+    elif [ "${base_name}" = "brave-sandbox" ]; then
++    elif [ "${base_name}" = "onevn-sandbox" ]; then
        local expected_perms=4755
      elif [[ "${base_name}" = "nacl_irt_"*".nexe" ]]; then
        local expected_perms=644

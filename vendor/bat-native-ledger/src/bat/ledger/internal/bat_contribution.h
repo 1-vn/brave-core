@@ -1,10 +1,10 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#ifndef BRAVELEDGER_BAT_CONTRIBUTION_H_
-#define BRAVELEDGER_BAT_CONTRIBUTION_H_
+#ifndef ONEVNLEDGER_BAT_CONTRIBUTION_H_
+#define ONEVNLEDGER_BAT_CONTRIBUTION_H_
 
 #include <map>
 #include <memory>
@@ -80,7 +80,7 @@ namespace bat_ledger {
 class LedgerImpl;
 }
 
-namespace braveledger_bat_contribution {
+namespace onevnledger_bat_contribution {
 
 static const uint64_t phase_one_timers[] = {
     1 * 60 * 60,  // 1h
@@ -119,16 +119,16 @@ class BatContribution {
   void InitReconcile(
       const std::string &viewing_id,
       const ledger::REWARDS_CATEGORY category,
-      const braveledger_bat_helper::PublisherList& list,
-      const braveledger_bat_helper::Directions& directions = {},
+      const onevnledger_bat_helper::PublisherList& list,
+      const onevnledger_bat_helper::Directions& directions = {},
       double budget = 0);
 
   // We determinate which contribution we want to do and do appropriate actions
   void StartReconcile(
       const std::string &viewing_id,
       const ledger::REWARDS_CATEGORY category,
-      const braveledger_bat_helper::PublisherList& list,
-      const braveledger_bat_helper::Directions& directions,
+      const onevnledger_bat_helper::PublisherList& list,
+      const onevnledger_bat_helper::Directions& directions,
       double budget,
       double balance);
 
@@ -186,8 +186,8 @@ class BatContribution {
   void OnWalletPropertiesForReconcile(
       const std::string& viewing_id,
       const ledger::REWARDS_CATEGORY category,
-      const braveledger_bat_helper::PublisherList& list,
-      const braveledger_bat_helper::Directions& directions,
+      const onevnledger_bat_helper::PublisherList& list,
+      const onevnledger_bat_helper::Directions& directions,
       double budget,
       const ledger::Result result,
       std::unique_ptr<ledger::WalletInfo> info);
@@ -242,13 +242,13 @@ class BatContribution {
 
   void GetContributeWinners(const unsigned int ballots,
                             const std::string& viewing_id,
-                            const braveledger_bat_helper::PublisherList& list);
+                            const onevnledger_bat_helper::PublisherList& list);
 
   void GetDonationWinners(const unsigned int ballots,
                           const std::string& viewing_id,
-                          const braveledger_bat_helper::PublisherList& list);
+                          const onevnledger_bat_helper::PublisherList& list);
 
-  void VotePublishers(const braveledger_bat_helper::Winners& winners,
+  void VotePublishers(const onevnledger_bat_helper::Winners& winners,
                       const std::string& viewing_id);
 
   void VotePublisher(const std::string& publisher,
@@ -257,8 +257,8 @@ class BatContribution {
   void PrepareBallots();
 
   void PrepareBatch(
-      const braveledger_bat_helper::BALLOT_ST& ballot,
-      const braveledger_bat_helper::TRANSACTION_ST& transaction);
+      const onevnledger_bat_helper::BALLOT_ST& ballot,
+      const onevnledger_bat_helper::TRANSACTION_ST& transaction);
 
   void PrepareBatchCallback(
       int response_status_code,
@@ -268,9 +268,9 @@ class BatContribution {
   void Proof();
 
   std::vector<std::string> ProofBatch(
-      const braveledger_bat_helper::BatchProofs& batch_proofs);
+      const onevnledger_bat_helper::BatchProofs& batch_proofs);
   void ProofBatchCallback(
-      const braveledger_bat_helper::BatchProofs& batch_proofs,
+      const onevnledger_bat_helper::BatchProofs& batch_proofs,
       const std::vector<std::string>& proofs);
 
   void PrepareVoteBatch();
@@ -288,11 +288,11 @@ class BatContribution {
   void AddRetry(
     ledger::ContributionRetry step,
     const std::string& viewing_id,
-    braveledger_bat_helper::CURRENT_RECONCILE reconcile = {});
+    onevnledger_bat_helper::CURRENT_RECONCILE reconcile = {});
 
   uint64_t GetRetryTimer(ledger::ContributionRetry step,
                          const std::string& viewing_id,
-                         braveledger_bat_helper::CURRENT_RECONCILE* reconcile);
+                         onevnledger_bat_helper::CURRENT_RECONCILE* reconcile);
 
   int GetRetryPhase(ledger::ContributionRetry step);
 
@@ -305,5 +305,5 @@ class BatContribution {
   std::map<std::string, uint32_t> retry_timers_;
 };
 
-}  // namespace braveledger_bat_contribution
-#endif  // BRAVELEDGER_BAT_CONTRIBUTION_H_
+}  // namespace onevnledger_bat_contribution
+#endif  // ONEVNLEDGER_BAT_CONTRIBUTION_H_

@@ -7,7 +7,7 @@ index e6be471871b850e1fbb53c3f822276f428bc9a74..e98914154f173a80e4ed0972f9b11314
  const char* g_sbv4_url_prefix_for_testing = nullptr;
  
 -const char kSbV4UrlPrefix[] = "https://safebrowsing.googleapis.com/v4";
-+const char kSbV4UrlPrefix[] = "https://safebrowsing.brave.com/v4";
++const char kSbV4UrlPrefix[] = "https://safebrowsing.1-vn.com/v4";
  
  const base::FilePath::CharType kStoreSuffix[] = FILE_PATH_LITERAL(".store");
  

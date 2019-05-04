@@ -7,7 +7,7 @@ index a1ac31ac11f6194075690de4296d6e02fb3448bd..fed951a394374cc66f0f90ab1f5a8bc3
    # must not link to this because it will duplicate the code in the component
    # build.
 -  visibility = [ "//content/*" ]
-+  visibility = [ "//content/*", "//brave/content/*" ]
++  visibility = [ "//content/*", "//onevn/content/*" ]
  
    sources = [
      "accessibility_messages.h",

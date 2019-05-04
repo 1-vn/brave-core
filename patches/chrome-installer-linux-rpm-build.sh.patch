@@ -18,9 +18,9 @@ index 0bcd8689d45850ad539f99423fa211785db4f343..cec0813f491a570fb499e7de5adb9d13
    RPM_COMMON_DEPS="${BUILDDIR}/rpm_common.deps"
    DEPENDS=$(cat "${RPM_COMMON_DEPS}" | tr '\n' ',')
 +
-+  # Ensure that our signing key is up-to-date (brave/brave-browser#4205).
++  # Ensure that our signing key is up-to-date (onevn/onevn-browser#4205).
 +  if [ "$CHANNEL" = "stable" ]; then
-+    DEPENDS="brave-keyring, ${DEPENDS}"
++    DEPENDS="onevn-keyring, ${DEPENDS}"
 +  fi
 +
    gen_spec

@@ -1,0 +1,14 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this file,
+# You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+onevn_locale_source_patterns = [
+  "${root_gen_dir}/components/onevn_components_strings_",
+  "${root_gen_dir}/onevn/onevn_generated_resources_",
+]
+
+onevn_locale_deps = [
+  "//onevn/app:onevn_generated_resources_grit",
+  "//onevn/components/resources:strings",
+]

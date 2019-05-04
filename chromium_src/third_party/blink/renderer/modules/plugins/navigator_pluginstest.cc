@@ -3,8 +3,8 @@
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #include "base/path_service.h"
-#include "brave/browser/brave_content_browser_client.h"
-#include "brave/common/brave_paths.h"
+#include "onevn/browser/onevn_content_browser_client.h"
+#include "onevn/common/onevn_paths.h"
 #include "chrome/browser/content_settings/host_content_settings_map_factory.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/common/chrome_content_client.h"
@@ -31,13 +31,13 @@ class NavigatorPluginsTest : public InProcessBrowserTest {
 
       content_client_.reset(new ChromeContentClient);
       content::SetContentClient(content_client_.get());
-      browser_content_client_.reset(new BraveContentBrowserClient());
+      browser_content_client_.reset(new OneVNContentBrowserClient());
       content::SetBrowserClientForTesting(browser_content_client_.get());
       content::SetupCrossSiteRedirector(embedded_test_server());
 
-      brave::RegisterPathProvider();
+      onevn::RegisterPathProvider();
       base::FilePath test_data_dir;
-      base::PathService::Get(brave::DIR_TEST_DATA, &test_data_dir);
+      base::PathService::Get(onevn::DIR_TEST_DATA, &test_data_dir);
       embedded_test_server()->ServeFilesFromDirectory(test_data_dir);
 
       ASSERT_TRUE(embedded_test_server()->Start());
@@ -63,7 +63,7 @@ class NavigatorPluginsTest : public InProcessBrowserTest {
 
   private:
     std::unique_ptr<ChromeContentClient> content_client_;
-    std::unique_ptr<BraveContentBrowserClient> browser_content_client_;
+    std::unique_ptr<OneVNContentBrowserClient> browser_content_client_;
     base::ScopedTempDir temp_user_data_dir_;
 };
 

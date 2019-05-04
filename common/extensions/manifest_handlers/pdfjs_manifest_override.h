@@ -2,8 +2,8 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#ifndef BRAVE_COMMON_EXTENSIONS_MANIFEST_HANDLERS_PDFJS_OVERRIDES_HANDLER_H_
-#define BRAVE_COMMON_EXTENSIONS_MANIFEST_HANDLERS_PDFJS_OVERRIDES_HANDLER_H_
+#ifndef ONEVN_COMMON_EXTENSIONS_MANIFEST_HANDLERS_PDFJS_OVERRIDES_HANDLER_H_
+#define ONEVN_COMMON_EXTENSIONS_MANIFEST_HANDLERS_PDFJS_OVERRIDES_HANDLER_H_
 
 #include "chrome/common/extensions/manifest_handlers/extension_action_handler.h"
 
@@ -23,4 +23,4 @@ class PDFJSOverridesHandler : public ExtensionActionHandler {
 };
 
 }  // namespace extensions
-#endif  // BRAVE_COMMON_EXTENSIONS_MANIFEST_HANDLERS_PDFJS_OVERRIDES_HANDLER_H_
+#endif  // ONEVN_COMMON_EXTENSIONS_MANIFEST_HANDLERS_PDFJS_OVERRIDES_HANDLER_H_

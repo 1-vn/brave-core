@@ -6,7 +6,7 @@ index 4c92fe7dc3fc0cd0eebb7218f4bbd3c6caedffb1..83fd75796e16482420b48599cfe1a722
        const std::string& extension_id) const override;
  
   private:
-+  friend class BraveComponentExtensionResourceManager;
++  friend class OneVNComponentExtensionResourceManager;
    void AddComponentResourceEntries(const GzippedGritResourceMap* entries,
                                     size_t size);
  

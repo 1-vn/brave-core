@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/common/resource_bundle_helper.h"
+#include "onevn/common/resource_bundle_helper.h"
 
 #include "base/command_line.h"
 #include "base/path_service.h"
@@ -21,11 +21,11 @@ namespace {
 base::FilePath GetResourcesPakFilePath() {
 #if defined(OS_MACOSX)
   return base::mac::PathForFrameworkBundleResource(
-      CFSTR("brave_resources.pak"));
+      CFSTR("onevn_resources.pak"));
 #else
   base::FilePath pak_path;
   base::PathService::Get(base::DIR_MODULE, &pak_path);
-  pak_path = pak_path.AppendASCII("brave_resources.pak");
+  pak_path = pak_path.AppendASCII("onevn_resources.pak");
   return pak_path;
 #endif  // OS_MACOSX
 }
@@ -35,8 +35,8 @@ base::FilePath GetScaledResourcesPakFilePath(ui::ScaleFactor scale_factor) {
          scale_factor == ui::SCALE_FACTOR_200P);
 
   const char* pak_file =
-      (scale_factor == ui::SCALE_FACTOR_100P) ? "brave_100_percent.pak"
-                                              : "brave_200_percent.pak";
+      (scale_factor == ui::SCALE_FACTOR_100P) ? "onevn_100_percent.pak"
+                                              : "onevn_200_percent.pak";
 #if defined(OS_MACOSX)
   base::ScopedCFTypeRef<CFStringRef> pak_file_mac(
       base::SysUTF8ToCFStringRef(pak_file));
@@ -51,7 +51,7 @@ base::FilePath GetScaledResourcesPakFilePath(ui::ScaleFactor scale_factor) {
 
 }
 
-namespace brave {
+namespace onevn {
 
 void InitializeResourceBundle() {
   auto& rb = ui::ResourceBundle::GetSharedInstance();

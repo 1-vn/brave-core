@@ -6,7 +6,7 @@ index 68c2d5a0c745bec1acb16d827d0e5214bf1f5dda..ab189df004b2d3d314235213f03d338b
    return host_port_pair;
  }
  
-+#if !defined(BRAVE_CHROMIUM_BUILD)
++#if !defined(ONEVN_CHROMIUM_BUILD)
  std::string HostPortPair::ToString() const {
    std::string ret(HostForURL());
    ret += ':';

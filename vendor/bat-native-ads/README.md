@@ -16,7 +16,7 @@ catalog-schema.json
 bundle-schema.json
 ```
 
-`user_model.json` see https://github.com/brave-intl/bat-native-usermodel/blob/master/README.md
+`user_model.json` see https://github.com/1-vn-intl/bat-native-usermodel/blob/master/README.md
 
 `catalog-schema.json` and `bundle-schema.json` are JSON Schemas which specify the JSON-based format to define the structure of the JSON data for validation, documentation, and interaction control. It provides the contract for the JSON data and how that data can be modified.
 
@@ -293,25 +293,25 @@ std::unique_ptr<LogStream> Log(
 Use production Ads Serve as defined by `PRODUCTION_SERVER` in `static_values.h`. Default for Official Builds
 
 ```
---brave-ads-production
+--onevn-ads-production
 ```
 
 Use staging Ads Serve as defined by `STAGING_SERVER` in `static_values.h`. Default for non Office Builds, i.e. Debug
 
 ```
---brave-ads-staging
+--onevn-ads-staging
 ```
 
 Collect initial activity after 25 seconds instead of 1 hour as defined by `kDebugOneHourInSeconds` in `static_values.h` and download the catalog after 15 minutes instead of 2 hours as defined by `kDebugCatalogPing` in `static_values.h`
 
 ```
---brave-ads-debug
+--onevn-ads-debug
 ```
 
 Enable testing of notifications while viewing `www.iab.com` so that page refreshes force a notification to show after 30 seconds as defined by `kNextEasterEggStartsInSeconds` in `static_values.h`
 
 ```
---brave-ads-testing
+--onevn-ads-testing
 ```
 
 Enable diagnostic logging, where `#` should set to a minimum log level. Valid values are from 0 to 3 where INFO = 0, WARNING = 1, ERROR = 2 and FATAL = 3. So if you want INFO, WARNING and ERROR you would choose 2
@@ -325,14 +325,14 @@ i.e. to launch using Staging Server and logging for INFO, WARNING and ERROR on m
 ```
 cd /Applications
 
-cd Brave\ Browser\ Dev.app/
+cd OneVN\ Browser\ Dev.app/
 
 cd Contents
 
-./Brave\ Browser\ Dev --brave-ads-staging --enable-logging=stderr --log-level=2
+./OneVN\ Browser\ Dev --onevn-ads-staging --enable-logging=stderr --log-level=2
 ```
 
 ## Unit Tests
 ```
-npm run test -- brave_unit_tests --filter=Ads*
+npm run test -- onevn_unit_tests --filter=Ads*
 ```

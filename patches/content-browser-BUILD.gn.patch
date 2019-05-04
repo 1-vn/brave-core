@@ -6,10 +6,10 @@ index a17fee9e275e817f97e943a48e36fa9e67340c9d..7de443b32075e0c98a2f081d2b5de124
        "//ppapi/proxy:ipc",
        "//ppapi/shared_impl",
      ]
-+    if (brave_chromium_build) {
++    if (onevn_chromium_build) {
 +      sources += [
-+        "//brave/content/browser/renderer_host/brave_plugin_registry_impl.cc",
-+        "//brave/content/browser/renderer_host/brave_plugin_registry_impl.h",
++        "//onevn/content/browser/renderer_host/onevn_plugin_registry_impl.cc",
++        "//onevn/content/browser/renderer_host/onevn_plugin_registry_impl.h",
 +      ]
 +    }
      if (use_ozone) {

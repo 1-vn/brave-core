@@ -1,12 +1,12 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/autoplay/autoplay_permission_context.h"
+#include "onevn/browser/autoplay/autoplay_permission_context.h"
 
-#include "brave/browser/brave_browser_process_impl.h"
-#include "brave/components/brave_shields/browser/autoplay_whitelist_service.h"
+#include "onevn/browser/onevn_browser_process_impl.h"
+#include "onevn/components/onevn_shields/browser/autoplay_whitelist_service.h"
 #include "chrome/browser/content_settings/tab_specific_content_settings.h"
 #include "chrome/browser/permissions/permission_request_id.h"
 #include "chrome/common/chrome_features.h"
@@ -25,8 +25,8 @@ ContentSetting AutoplayPermissionContext::GetPermissionStatusInternal(
     content::RenderFrameHost* render_frame_host,
     const GURL& requesting_origin,
     const GURL& embedding_origin) const {
-  if (g_brave_browser_process &&
-      g_brave_browser_process->autoplay_whitelist_service()
+  if (g_onevn_browser_process &&
+      g_onevn_browser_process->autoplay_whitelist_service()
       ->ShouldAllowAutoplay(requesting_origin))
     return CONTENT_SETTING_ALLOW;
   return PermissionContextBase::GetPermissionStatusInternal(

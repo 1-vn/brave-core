@@ -2,9 +2,9 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/autocomplete/brave_autocomplete_provider_client.h"
+#include "onevn/browser/autocomplete/onevn_autocomplete_provider_client.h"
 
-#define ChromeAutocompleteProviderClient BraveAutocompleteProviderClient
+#define ChromeAutocompleteProviderClient OneVNAutocompleteProviderClient
 #include "../../../../../../chrome/browser/ui/omnibox/chrome_omnibox_client.cc"
 #undef ChromeAutocompleteProviderClient
 

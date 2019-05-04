@@ -6,7 +6,7 @@ index 4a5f2d8019298f58178580bc2faebc03d7843e39..79d07d60aad3f00bb10863c84d44698e
                 : IDS_CONTENT_CONTEXT_OPENLINKOFFTHERECORD);
  
      AppendOpenInBookmarkAppLinkItems();
-+    AppendBraveLinkItems();
++    AppendOneVNLinkItems();
      AppendOpenWithLinkItems();
  
      // While ChromeOS supports multiple profiles, only one can be open at a

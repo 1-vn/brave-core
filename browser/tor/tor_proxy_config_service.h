@@ -2,8 +2,8 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#ifndef BRAVE_BROWSER_TOR_TOR_PROXY_CONFIG_SERVICE_
-#define BRAVE_BROWSER_TOR_TOR_PROXY_CONFIG_SERVICE_
+#ifndef ONEVN_BROWSER_TOR_TOR_PROXY_CONFIG_SERVICE_
+#define ONEVN_BROWSER_TOR_TOR_PROXY_CONFIG_SERVICE_
 
 #include <string>
 #include <map>
@@ -78,4 +78,4 @@ class TorProxyConfigService : public net::ProxyConfigService {
 
 }  // namespace tor
 
-#endif  // BRAVE_BROWSER_TOR_TOR_PROXY_CONFIG_SERVICE_
+#endif  // ONEVN_BROWSER_TOR_TOR_PROXY_CONFIG_SERVICE_

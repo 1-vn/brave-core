@@ -1,10 +1,10 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#ifndef BRAVELEDGER_MEDIA_TWITCH_H_
-#define BRAVELEDGER_MEDIA_TWITCH_H_
+#ifndef ONEVNLEDGER_MEDIA_TWITCH_H_
+#define ONEVNLEDGER_MEDIA_TWITCH_H_
 
 #include <map>
 #include <memory>
@@ -19,7 +19,7 @@ namespace bat_ledger {
 class LedgerImpl;
 }
 
-namespace braveledger_media {
+namespace onevnledger_media {
 
 class MediaTwitch : public ledger::LedgerCallbackHandler {
  public:
@@ -84,7 +84,7 @@ class MediaTwitch : public ledger::LedgerCallbackHandler {
 
   void FetchDataFromUrl(
     const std::string& url,
-    braveledger_media::FetchDataFromUrlCallback callback);
+    onevnledger_media::FetchDataFromUrlCallback callback);
 
   void OnEmbedResponse(
     const uint64_t duration,
@@ -141,6 +141,6 @@ class MediaTwitch : public ledger::LedgerCallbackHandler {
   FRIEND_TEST_ALL_PREFIXES(MediaTwitchTest, GetFaviconUrl);
 };
 
-}  // namespace braveledger_media
+}  // namespace onevnledger_media
 
-#endif  // BRAVELEDGER_MEDIA_TWITCH_H_
+#endif  // ONEVNLEDGER_MEDIA_TWITCH_H_

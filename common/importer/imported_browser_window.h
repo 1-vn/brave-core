@@ -2,8 +2,8 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#ifndef BRAVE_COMMON_IMPORTER_IMPORTED_BROWSER_WINDOW_H_
-#define BRAVE_COMMON_IMPORTER_IMPORTED_BROWSER_WINDOW_H_
+#ifndef ONEVN_COMMON_IMPORTER_IMPORTED_BROWSER_WINDOW_H_
+#define ONEVN_COMMON_IMPORTER_IMPORTED_BROWSER_WINDOW_H_
 
 #include <string>
 #include <vector>
@@ -51,4 +51,4 @@ struct ImportedWindowState {
   std::vector<ImportedBrowserTab> pinnedTabs;
 };
 
-#endif  // BRAVE_COMMON_IMPORTER_IMPORTED_BROWSER_WINDOW_H_
+#endif  // ONEVN_COMMON_IMPORTER_IMPORTED_BROWSER_WINDOW_H_

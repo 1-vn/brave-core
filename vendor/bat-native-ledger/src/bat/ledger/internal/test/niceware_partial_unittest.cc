@@ -1,17 +1,17 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_rewards/resources/grit/brave_rewards_resources.h"
+#include "onevn/components/onevn_rewards/resources/grit/onevn_rewards_resources.h"
 #include "bat/ledger/internal/bat_helper.h"
 #include "testing/gtest/include/gtest/gtest.h"
 #include "ui/base/resource/resource_bundle.h"
 
-// npm run test -- brave_unit_tests --filter=NicewarePartialUnitTest.*
+// npm run test -- onevn_unit_tests --filter=NicewarePartialUnitTest.*
 
 std::string getHexBytes(std::vector<uint8_t> seed) {
-  return braveledger_bat_helper::uint8ToHex(seed);
+  return onevnledger_bat_helper::uint8ToHex(seed);
 }
 
 TEST(NicewarePartialUnitTest, InvalidNumberOfWords) {
@@ -22,10 +22,10 @@ TEST(NicewarePartialUnitTest, InvalidNumberOfWords) {
   std::vector<uint8_t> nSeed;
   size_t written = 0;
   // get wordlist
-  std::vector<std::string> data = braveledger_bat_helper::split(
+  std::vector<std::string> data = onevnledger_bat_helper::split(
     ui::ResourceBundle::GetSharedInstance().GetRawDataResource(
-    IDR_BRAVE_REWARDS_NICEWARE_LIST).as_string(), DICTIONARY_DELIMITER);
-  int result = braveledger_bat_helper::niceware_mnemonic_to_bytes
+    IDR_ONEVN_REWARDS_NICEWARE_LIST).as_string(), DICTIONARY_DELIMITER);
+  int result = onevnledger_bat_helper::niceware_mnemonic_to_bytes
     (passPhrase, &nSeed, &written, data);
 
   ASSERT_TRUE(result != 0 && written == 0);
@@ -39,10 +39,10 @@ TEST(NicewarePartialUnitTest, InvalidWordInList) {
     " vermonter";
   std::vector<uint8_t> nSeed;
   size_t written = 0;
-  std::vector<std::string> data = braveledger_bat_helper::split(
+  std::vector<std::string> data = onevnledger_bat_helper::split(
     ui::ResourceBundle::GetSharedInstance().GetRawDataResource(
-    IDR_BRAVE_REWARDS_NICEWARE_LIST).as_string(), DICTIONARY_DELIMITER);
-  int result = braveledger_bat_helper::niceware_mnemonic_to_bytes
+    IDR_ONEVN_REWARDS_NICEWARE_LIST).as_string(), DICTIONARY_DELIMITER);
+  int result = onevnledger_bat_helper::niceware_mnemonic_to_bytes
     (passPhrase, &nSeed, &written, data);
 
   ASSERT_TRUE(result != 0 && written == 0);
@@ -54,10 +54,10 @@ TEST(NicewarePartialUnitTest, ValidWordListPassOne) {
     " kielbasa decapitate throughout vermonter";
   std::vector<uint8_t> nSeed;
   size_t written = 0;
-  std::vector<std::string> data = braveledger_bat_helper::split(
+  std::vector<std::string> data = onevnledger_bat_helper::split(
     ui::ResourceBundle::GetSharedInstance().GetRawDataResource(
-    IDR_BRAVE_REWARDS_NICEWARE_LIST).as_string(), DICTIONARY_DELIMITER);
-  int result = braveledger_bat_helper::niceware_mnemonic_to_bytes
+    IDR_ONEVN_REWARDS_NICEWARE_LIST).as_string(), DICTIONARY_DELIMITER);
+  int result = onevnledger_bat_helper::niceware_mnemonic_to_bytes
     (passPhrase, &nSeed, &written, data);
 
   ASSERT_TRUE(result == 0 && getHexBytes(nSeed) ==
@@ -70,10 +70,10 @@ TEST(NicewarePartialUnitTest, ValidWordListPassTwo) {
     " calix cableway combatted jury palliate senegalese";
   std::vector<uint8_t> nSeed;
   size_t written = 0;
-  std::vector<std::string> data = braveledger_bat_helper::split(
+  std::vector<std::string> data = onevnledger_bat_helper::split(
     ui::ResourceBundle::GetSharedInstance().GetRawDataResource(
-    IDR_BRAVE_REWARDS_NICEWARE_LIST).as_string(), DICTIONARY_DELIMITER);
-  int result = braveledger_bat_helper::niceware_mnemonic_to_bytes
+    IDR_ONEVN_REWARDS_NICEWARE_LIST).as_string(), DICTIONARY_DELIMITER);
+  int result = onevnledger_bat_helper::niceware_mnemonic_to_bytes
     (passPhrase, &nSeed, &written, data);
 
   ASSERT_TRUE(result == 0 && getHexBytes(nSeed) ==
@@ -87,10 +87,10 @@ TEST(NicewarePartialUnitTest, ValidWordListPassThree) {
     " peening";
   std::vector<uint8_t> nSeed;
   size_t written = 0;
-  std::vector<std::string> data = braveledger_bat_helper::split(
+  std::vector<std::string> data = onevnledger_bat_helper::split(
     ui::ResourceBundle::GetSharedInstance().GetRawDataResource(
-    IDR_BRAVE_REWARDS_NICEWARE_LIST).as_string(), DICTIONARY_DELIMITER);
-  int result = braveledger_bat_helper::niceware_mnemonic_to_bytes
+    IDR_ONEVN_REWARDS_NICEWARE_LIST).as_string(), DICTIONARY_DELIMITER);
+  int result = onevnledger_bat_helper::niceware_mnemonic_to_bytes
     (passPhrase, &nSeed, &written, data);
 
   ASSERT_TRUE(result == 0 && getHexBytes(nSeed) ==
@@ -101,10 +101,10 @@ TEST(NicewarePartialUnitTest, ValidWordListPassFour) {
   const std::string& passPhrase = "A";
   std::vector<uint8_t> nSeed;
   size_t written = 0;
-  std::vector<std::string> data = braveledger_bat_helper::split(
+  std::vector<std::string> data = onevnledger_bat_helper::split(
     ui::ResourceBundle::GetSharedInstance().GetRawDataResource(
-    IDR_BRAVE_REWARDS_NICEWARE_LIST).as_string(), DICTIONARY_DELIMITER);
-  int result = braveledger_bat_helper::niceware_mnemonic_to_bytes
+    IDR_ONEVN_REWARDS_NICEWARE_LIST).as_string(), DICTIONARY_DELIMITER);
+  int result = onevnledger_bat_helper::niceware_mnemonic_to_bytes
     (passPhrase, &nSeed, &written, data);
 
   ASSERT_TRUE(result == 0 && getHexBytes(nSeed) == "0000");
@@ -114,10 +114,10 @@ TEST(NicewarePartialUnitTest, ValidWordListPassFive) {
   const std::string& passPhrase = "zyzzyva";
   std::vector<uint8_t> nSeed;
   size_t written = 0;
-  std::vector<std::string> data = braveledger_bat_helper::split(
+  std::vector<std::string> data = onevnledger_bat_helper::split(
     ui::ResourceBundle::GetSharedInstance().GetRawDataResource(
-    IDR_BRAVE_REWARDS_NICEWARE_LIST).as_string(), DICTIONARY_DELIMITER);
-  int result = braveledger_bat_helper::niceware_mnemonic_to_bytes
+    IDR_ONEVN_REWARDS_NICEWARE_LIST).as_string(), DICTIONARY_DELIMITER);
+  int result = onevnledger_bat_helper::niceware_mnemonic_to_bytes
     (passPhrase, &nSeed, &written, data);
 
   ASSERT_TRUE(result == 0 && getHexBytes(nSeed) == "ffff");
@@ -128,10 +128,10 @@ TEST(NicewarePartialUnitTest, ValidWordListPassSix) {
     " cReneled Written depriving zyzzyva";
   std::vector<uint8_t> nSeed;
   size_t written = 0;
-  std::vector<std::string> data = braveledger_bat_helper::split(
+  std::vector<std::string> data = onevnledger_bat_helper::split(
     ui::ResourceBundle::GetSharedInstance().GetRawDataResource(
-    IDR_BRAVE_REWARDS_NICEWARE_LIST).as_string(), DICTIONARY_DELIMITER);
-  int result = braveledger_bat_helper::niceware_mnemonic_to_bytes
+    IDR_ONEVN_REWARDS_NICEWARE_LIST).as_string(), DICTIONARY_DELIMITER);
+  int result = onevnledger_bat_helper::niceware_mnemonic_to_bytes
     (passPhrase, &nSeed, &written, data);
 
   ASSERT_TRUE(result == 0 && getHexBytes(nSeed) ==

@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -12,12 +12,12 @@ using std::placeholders::_1;
 using std::placeholders::_2;
 using std::placeholders::_3;
 
-namespace braveledger_bat_get_media {
+namespace onevnledger_bat_get_media {
 
 BatGetMedia::BatGetMedia(bat_ledger::LedgerImpl* ledger):
   ledger_(ledger),
-  media_youtube_(new braveledger_media::MediaYouTube(ledger)),
-  media_twitch_(new braveledger_media::MediaTwitch(ledger)) {
+  media_youtube_(new onevnledger_media::MediaYouTube(ledger)),
+  media_twitch_(new onevnledger_media::MediaTwitch(ledger)) {
 }
 
 BatGetMedia::~BatGetMedia() {}
@@ -26,10 +26,10 @@ std::string BatGetMedia::GetLinkType(const std::string& url,
                                      const std::string& first_party_url,
                                      const std::string& referrer) {
   std::string type;
-  type = braveledger_media::MediaYouTube::GetLinkType(url);
+  type = onevnledger_media::MediaYouTube::GetLinkType(url);
 
   if (type.empty()) {
-    type = braveledger_media::MediaTwitch::GetLinkType(url,
+    type = onevnledger_media::MediaTwitch::GetLinkType(url,
                                                        first_party_url,
                                                        referrer);
   }
@@ -101,4 +101,4 @@ void BatGetMedia::OnMediaActivityError(const ledger::VisitData& visit_data,
   }
 }
 
-}  // namespace braveledger_bat_get_media
+}  // namespace onevnledger_bat_get_media

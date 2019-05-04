@@ -1,17 +1,17 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#ifndef BRAVELEDGER_MEDIA_HELPER_H_
-#define BRAVELEDGER_MEDIA_HELPER_H_
+#ifndef ONEVNLEDGER_MEDIA_HELPER_H_
+#define ONEVNLEDGER_MEDIA_HELPER_H_
 
 #include <functional>
 #include <map>
 #include <string>
 #include <vector>
 
-namespace braveledger_media {
+namespace onevnledger_media {
 
 using FetchDataFromUrlCallback = std::function<void(
     int response_status_code,
@@ -27,6 +27,6 @@ std::string ExtractData(const std::string& data,
                         const std::string& match_after,
                         const std::string& match_until);
 
-}  // namespace braveledger_media
+}  // namespace onevnledger_media
 
-#endif  // BRAVELEDGER_MEDIA_HELPER_H_
+#endif  // ONEVNLEDGER_MEDIA_HELPER_H_

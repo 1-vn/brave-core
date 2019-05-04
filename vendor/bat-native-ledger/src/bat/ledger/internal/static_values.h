@@ -1,10 +1,10 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#ifndef BRAVELEDGER_STATIC_VALUES_H_
-#define BRAVELEDGER_STATIC_VALUES_H_
+#ifndef ONEVNLEDGER_STATIC_VALUES_H_
+#define ONEVNLEDGER_STATIC_VALUES_H_
 
 #include <cstdint>
 #include <string>
@@ -83,7 +83,7 @@
 
 #define VOTE_BATCH_SIZE                 10
 
-namespace braveledger_ledger {
+namespace onevnledger_ledger {
 
 static const uint8_t g_hkdfSalt[] = {
     126, 244, 99, 158, 51, 68, 253, 80, 133, 183, 51, 180, 77,
@@ -114,6 +114,6 @@ static const uint64_t _reconcile_default_interval = 30 * 24 * 60 * 60;
 // 1 day in seconds
 static const uint64_t _grant_load_interval = 24 * 60 * 60;
 
-}  // namespace braveledger_ledger
+}  // namespace onevnledger_ledger
 
-#endif  // BRAVELEDGER_STATIC_VALUES_H_
+#endif  // ONEVNLEDGER_STATIC_VALUES_H_

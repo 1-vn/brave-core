@@ -8,8 +8,8 @@ source_set("tor") {
 
   deps = [
     "//base",
-    "//brave/common/tor",
-    "//brave/common/tor:tor_mojom_bindings",
+    "//onevn/common/tor",
+    "//onevn/common/tor:tor_mojom_bindings",
     "//services/service_manager",
   ]
 }

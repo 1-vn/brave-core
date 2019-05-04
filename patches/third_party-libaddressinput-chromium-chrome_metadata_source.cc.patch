@@ -7,7 +7,7 @@ index 02f74d5d0a46bbccd4b9b533fce49666ae126c7e..3a2b997448d3c79fce78e52dc1429c16
                                      const Callback& downloaded) {
    GURL resource(validation_data_url_ + key);
 -  if (!resource.SchemeIsCryptographic()) {
-+  if (1) { // feature disabled in Brave
++  if (1) { // feature disabled in OneVN
      downloaded(false, key, NULL);
      return;
    }

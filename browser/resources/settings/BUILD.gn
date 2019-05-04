@@ -8,35 +8,35 @@ grit("resources") {
   source_is_generated = optimize_webui
 
   outputs = [
-    "grit/brave_settings_resources.h",
-    "grit/brave_settings_resources_map.cc",
-    "grit/brave_settings_resources_map.h",
-    "brave_settings_resources.pak",
+    "grit/onevn_settings_resources.h",
+    "grit/onevn_settings_resources_map.cc",
+    "grit/onevn_settings_resources_map.h",
+    "onevn_settings_resources.pak",
   ]
 
-  output_dir = "$root_gen_dir/brave/browser/resources/settings"
-  resource_ids = "//brave/browser/resources/resource_ids"
+  output_dir = "$root_gen_dir/onevn/browser/resources/settings"
+  resource_ids = "//onevn/browser/resources/resource_ids"
 }
 
 if (optimize_webui) {
   group("unpak") {
     deps = [
-      ":unpak_brave_settings_resources",
+      ":unpak_onevn_settings_resources",
     ]
   }
 
-  action("unpak_brave_settings_resources") {
+  action("unpak_onevn_settings_resources") {
     script = "//chrome/browser/resources/unpack_pak.py"
 
-    pak_file = "brave_settings_resources.pak"
+    pak_file = "onevn_settings_resources.pak"
     out_folder = "$root_gen_dir/chrome/browser/resources/settings/settings_resources.unpak"
 
     inputs = [
-      "$target_gen_dir/brave_settings_resources.pak",
+      "$target_gen_dir/onevn_settings_resources.pak",
     ]
 
     outputs = [
-      "${out_folder}/brave_unpack.stamp",
+      "${out_folder}/onevn_unpack.stamp",
     ]
 
     deps = [

@@ -6,13 +6,13 @@
 #include "chrome/browser/themes/theme_service.h"
 
 #if defined(OS_WIN)
-#include "brave/browser/themes/brave_theme_service_win.h"
+#include "onevn/browser/themes/onevn_theme_service_win.h"
 #undef ThemeServiceWin
-#define ThemeServiceWin BraveThemeServiceWin
+#define ThemeServiceWin OneVNThemeServiceWin
 #elif !defined(USE_X11)
-#include "brave/browser/themes/brave_theme_service.h"
+#include "onevn/browser/themes/onevn_theme_service.h"
 #undef ThemeService
-#define ThemeService BraveThemeService
+#define ThemeService OneVNThemeService
 #endif
 
 #include "../../../../../chrome/browser/themes/theme_service_factory.cc"

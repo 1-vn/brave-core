@@ -1,0 +1,9 @@
+import("//build/buildflag_header.gni")
+import("//onevn/components/onevn_rewards/browser/buildflags/buildflags.gni")
+
+buildflag_header("buildflags") {
+  header = "buildflags.h"
+  flags = [
+    "ONEVN_REWARDS_ENABLED=$onevn_rewards_enabled",
+  ]
+}

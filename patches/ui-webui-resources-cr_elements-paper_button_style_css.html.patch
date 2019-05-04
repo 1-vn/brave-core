@@ -6,7 +6,7 @@ index e1a766518155b7b76f4e7c10d6f8ceb93355a095..f2b6ce3d164703ed872da7959785526a
  
  <!-- Common paper-button styling for Material Design WebUI. -->
  <dom-module id="paper-button-style">
-+  <link rel="import" type="css" href="chrome://brave-resources/css/paper_button_style.css">
++  <link rel="import" type="css" href="chrome://onevn-resources/css/paper_button_style.css">
    <template>
      <style>
        paper-button {

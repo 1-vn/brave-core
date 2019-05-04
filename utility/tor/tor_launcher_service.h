@@ -1,10 +1,10 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#ifndef BRAVE_UTILITY_TOR_TOR_LAUNCHER_SERVICE_H_
-#define BRAVE_UTILITY_TOR_TOR_LAUNCHER_SERVICE_H_
+#ifndef ONEVN_UTILITY_TOR_TOR_LAUNCHER_SERVICE_H_
+#define ONEVN_UTILITY_TOR_TOR_LAUNCHER_SERVICE_H_
 
 #include <memory>
 #include <string>
@@ -38,4 +38,4 @@ class TorLauncherService : public service_manager::Service {
 
 }  // namespace tor
 
-#endif  // BRAVE_UTILITY_TOR_TOR_LAUNCHER_SERVICE_H_
+#endif  // ONEVN_UTILITY_TOR_TOR_LAUNCHER_SERVICE_H_

@@ -4,21 +4,21 @@ import("//tools/grit/grit_rule.gni")
 
 source_set("command_ids") {
   sources = [
-    "brave_command_ids.h",
+    "onevn_command_ids.h",
   ]
 }
 
-grit("brave_generated_resources_grit") {
-  source = "brave_generated_resources.grd"
-  output_dir = "$root_gen_dir/brave"
+grit("onevn_generated_resources_grit") {
+  source = "onevn_generated_resources.grd"
+  output_dir = "$root_gen_dir/onevn"
   outputs = [
-    "grit/brave_generated_resources.h",
+    "grit/onevn_generated_resources.h",
     # This is needed for the includes and not the localized messages
-    "brave_generated_resources.pak",
+    "onevn_generated_resources.pak",
   ]
 
   foreach(locale, locales_with_fake_bidi) {
-    outputs += [ "brave_generated_resources_$locale.pak" ]
+    outputs += [ "onevn_generated_resources_$locale.pak" ]
   }
 
   grit_flags = [
@@ -27,9 +27,9 @@ grit("brave_generated_resources_grit") {
   ]
 
   deps = [
-    "//brave/components/services:brave_content_manifest_overlays",
+    "//onevn/components/services:onevn_content_manifest_overlays",
   ]
-  resource_ids = "//brave/browser/resources/resource_ids"
+  resource_ids = "//onevn/browser/resources/resource_ids"
 }
 
 group("app") {}

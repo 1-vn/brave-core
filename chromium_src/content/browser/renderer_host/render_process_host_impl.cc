@@ -2,9 +2,9 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/content/browser/renderer_host/brave_plugin_registry_impl.h"
+#include "onevn/content/browser/renderer_host/onevn_plugin_registry_impl.h"
 #include "content/browser/renderer_host/plugin_registry_impl.h"
 
-#define PluginRegistryImpl BravePluginRegistryImpl
+#define PluginRegistryImpl OneVNPluginRegistryImpl
 #include "../../../../../content/browser/renderer_host/render_process_host_impl.cc"
 #undef PluginRegistryImpl

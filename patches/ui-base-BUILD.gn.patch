@@ -6,7 +6,7 @@ index fdf8ef7268f298091ddb33566702bbc29425cf4d..7a8df98f0ce7ef5dbd2e2efe962cf6cc
      "//ui/strings",
      "//url",
    ]
-+  deps += [ "//brave/ui/base:chromium_deps" ]
++  deps += [ "//onevn/ui/base:chromium_deps" ]
  
    if (!is_ios) {
      # iOS does not use Chromium-specific code for event handling.

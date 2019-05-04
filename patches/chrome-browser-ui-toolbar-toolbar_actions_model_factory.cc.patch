@@ -7,7 +7,7 @@ index 18f6485bd60149b88b891b959bcf18b502f861e8..78a1162d74e2a43e4e0b123958f1a67f
  KeyedService* ToolbarActionsModelFactory::BuildServiceInstanceFor(
      content::BrowserContext* context) const {
 -  return new ToolbarActionsModel(
-+  return new BraveToolbarActionsModel(
++  return new OneVNToolbarActionsModel(
        Profile::FromBrowserContext(context),
        extensions::ExtensionPrefsFactory::GetForBrowserContext(context));
  }

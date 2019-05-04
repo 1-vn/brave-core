@@ -1,14 +1,14 @@
-import("//brave/build/config.gni")
+import("//onevn/build/config.gni")
 
 # Changing these will cause a full rebuild
-brave_include_dirs_ = [
-  "//brave/chromium_src",
+onevn_include_dirs_ = [
+  "//onevn/chromium_src",
 ]
 
-if (brave_chromium_build) {
+if (onevn_chromium_build) {
   config("compiler") {
-    include_dirs = brave_include_dirs_
-    defines = [ "BRAVE_CHROMIUM_BUILD" ]
+    include_dirs = onevn_include_dirs_
+    defines = [ "ONEVN_CHROMIUM_BUILD" ]
   }
 } else {
   config("compiler") {}
@@ -17,6 +17,6 @@ if (brave_chromium_build) {
 # do not expose this as a public config anywhere
 config("version") {
   defines = [
-    "BRAVE_CHROMIUM_VERSION=\"$chrome_version_string\"",
+    "ONEVN_CHROMIUM_VERSION=\"$chrome_version_string\"",
   ]
 }

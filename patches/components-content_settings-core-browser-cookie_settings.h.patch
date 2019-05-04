@@ -6,7 +6,7 @@ index 6d3abef07732cd1c612b6afb8b36dc5145194968..51d62be40dad4ac074ce076d46f61553
    static void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry);
  
   private:
-+  friend class BraveCookieSettings;
++  friend class OneVNCookieSettings;
    ~CookieSettings() override;
  
    void OnBlockThirdPartyCookiesChanged();

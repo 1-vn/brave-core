@@ -50,14 +50,14 @@ def Main(argv):
   parser.add_option('--output', dest='plist_output', action='store',
       type='string', default=None, help='If specified, the path to output ' + \
       'the tweaked plist, rather than overwriting the input.')
-  parser.add_option('--brave_channel', dest='brave_channel', action='store',
+  parser.add_option('--onevn_channel', dest='onevn_channel', action='store',
       type='string', default=None, help='Channel (beta, dev, nightly)')
-  parser.add_option('--brave_product_dir_name', dest='brave_product_dir_name',
+  parser.add_option('--onevn_product_dir_name', dest='onevn_product_dir_name',
       action='store', type='string', default=None,
       help='Product directory name')
-  parser.add_option('--brave_feed_url', dest='brave_feed_url', action='store',
+  parser.add_option('--onevn_feed_url', dest='onevn_feed_url', action='store',
       type='string', default=None, help='Target url for update feed')
-  parser.add_option('--brave_dsa_file', dest='brave_dsa_file', action='store',
+  parser.add_option('--onevn_dsa_file', dest='onevn_dsa_file', action='store',
       type='string', default=None, help='Public DSA file for update')
   parser.add_option('--format', choices=('binary1', 'xml1', 'json'),
       default='xml1', help='Format to use when writing property list '
@@ -84,16 +84,16 @@ def Main(argv):
   if options.plist_output is not None:
     output_path = options.plist_output
 
-  if options.brave_channel:
-    plist['KSChannelID'] = options.brave_channel
+  if options.onevn_channel:
+    plist['KSChannelID'] = options.onevn_channel
 
-  plist['CrProductDirName'] = options.brave_product_dir_name
+  plist['CrProductDirName'] = options.onevn_product_dir_name
 
-  if options.brave_feed_url:
-    plist['SUFeedURL'] = options.brave_feed_url
+  if options.onevn_feed_url:
+    plist['SUFeedURL'] = options.onevn_feed_url
 
-  if options.brave_dsa_file:
-    plist['SUPublicDSAKeyFile'] = options.brave_dsa_file
+  if options.onevn_dsa_file:
+    plist['SUPublicDSAKeyFile'] = options.onevn_dsa_file
 
   # Explicitly disable profiling
   plist['SUEnableSystemProfiling'] = False

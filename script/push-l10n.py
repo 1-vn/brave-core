@@ -9,8 +9,8 @@ from lib.transifex import (check_for_chromium_upgrade,
                            upload_source_files_to_transifex)
 
 
-BRAVE_SOURCE_ROOT = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
-SOURCE_ROOT = os.path.dirname(BRAVE_SOURCE_ROOT)
+ONEVN_SOURCE_ROOT = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
+SOURCE_ROOT = os.path.dirname(ONEVN_SOURCE_ROOT)
 
 
 def parse_args():
@@ -33,7 +33,7 @@ def main():
     args = parse_args()
     check_args()
 
-    source_string_path = os.path.join(BRAVE_SOURCE_ROOT,
+    source_string_path = os.path.join(ONEVN_SOURCE_ROOT,
                                       args.source_string_path[0])
     filename = os.path.basename(source_string_path).split('.')[0]
 

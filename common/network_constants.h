@@ -1,17 +1,17 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#ifndef BRAVE_COMMON_NETWORK_CONSTANTS_H_
-#define BRAVE_COMMON_NETWORK_CONSTANTS_H_
+#ifndef ONEVN_COMMON_NETWORK_CONSTANTS_H_
+#define ONEVN_COMMON_NETWORK_CONSTANTS_H_
 
-extern const char kBraveUpdatesExtensionsEndpoint[];
+extern const char kOneVNUpdatesExtensionsEndpoint[];
 
-extern const char kBraveReferralsServer[];
-extern const char kBraveReferralsHeadersPath[];
-extern const char kBraveReferralsInitPath[];
-extern const char kBraveReferralsActivityPath[];
+extern const char kOneVNReferralsServer[];
+extern const char kOneVNReferralsHeadersPath[];
+extern const char kOneVNReferralsInitPath[];
+extern const char kOneVNReferralsActivityPath[];
 
 extern const char kCRXDownloadPrefix[];
 extern const char kEmptyDataURI[];
@@ -34,8 +34,8 @@ extern const char kTwitterRedirectURL[];
 extern const char kCookieHeader[];
 extern const char kRefererHeader[];
 extern const char kUserAgentHeader[];
-extern const char kBravePartnerHeader[];
+extern const char kOneVNPartnerHeader[];
 
 extern const char kBittorrentMimeType[];
 extern const char kOctetStreamMimeType[];
-#endif  // BRAVE_COMMON_NETWORK_CONSTANTS_H_
+#endif  // ONEVN_COMMON_NETWORK_CONSTANTS_H_

@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -10,25 +10,25 @@
 #include "bat/ledger/internal/ledger_impl.h"
 #include "bat/ledger/internal/rapidjson_bat_helper.h"
 
-namespace braveledger_bat_state {
+namespace onevnledger_bat_state {
 
 BatState::BatState(bat_ledger::LedgerImpl* ledger) :
       ledger_(ledger),
-      state_(new braveledger_bat_helper::CLIENT_STATE_ST()) {
+      state_(new onevnledger_bat_helper::CLIENT_STATE_ST()) {
 }
 
 BatState::~BatState() {
 }
 
 bool BatState::LoadState(const std::string& data) {
-  braveledger_bat_helper::CLIENT_STATE_ST state;
-  if (!braveledger_bat_helper::loadFromJson(&state, data.c_str())) {
+  onevnledger_bat_helper::CLIENT_STATE_ST state;
+  if (!onevnledger_bat_helper::loadFromJson(&state, data.c_str())) {
     BLOG(ledger_, ledger::LogLevel::LOG_ERROR) <<
       "Failed to load client state: " << data;
     return false;
   }
 
-  state_.reset(new braveledger_bat_helper::CLIENT_STATE_ST(state));
+  state_.reset(new onevnledger_bat_helper::CLIENT_STATE_ST(state));
 
   bool stateChanged = false;
 
@@ -53,18 +53,18 @@ bool BatState::LoadState(const std::string& data) {
 
 void BatState::SaveState() {
   std::string data;
-  braveledger_bat_helper::saveToJsonString(*state_, &data);
+  onevnledger_bat_helper::saveToJsonString(*state_, &data);
   ledger_->SaveLedgerState(data);
 }
 
 void BatState::AddReconcile(const std::string& viewing_id,
-      const braveledger_bat_helper::CURRENT_RECONCILE& reconcile) {
+      const onevnledger_bat_helper::CURRENT_RECONCILE& reconcile) {
   state_->current_reconciles_.insert(std::make_pair(viewing_id, reconcile));
   SaveState();
 }
 
 bool BatState::UpdateReconcile(
-    const braveledger_bat_helper::CURRENT_RECONCILE& reconcile) {
+    const onevnledger_bat_helper::CURRENT_RECONCILE& reconcile) {
   if (state_->current_reconciles_.count(reconcile.viewingId_) == 0) {
     return false;
   }
@@ -74,12 +74,12 @@ bool BatState::UpdateReconcile(
   return true;
 }
 
-braveledger_bat_helper::CURRENT_RECONCILE BatState::GetReconcileById(
+onevnledger_bat_helper::CURRENT_RECONCILE BatState::GetReconcileById(
     const std::string& viewingId) const {
   if (state_->current_reconciles_.count(viewingId) == 0) {
     BLOG(ledger_, ledger::LogLevel::LOG_ERROR) <<
       "Could not find any reconcile tasks with the id " << viewingId;
-    return braveledger_bat_helper::CURRENT_RECONCILE();
+    return onevnledger_bat_helper::CURRENT_RECONCILE();
   }
 
   return state_->current_reconciles_[viewingId];
@@ -90,7 +90,7 @@ bool BatState::ReconcileExists(const std::string& viewingId) const {
 }
 
 void BatState::RemoveReconcileById(const std::string& viewingId) {
-  braveledger_bat_helper::CurrentReconciles::iterator it =
+  onevnledger_bat_helper::CurrentReconciles::iterator it =
       state_->current_reconciles_.find(viewingId);
   if (it != state_->current_reconciles_.end()) {
     state_->current_reconciles_.erase(it);
@@ -108,7 +108,7 @@ bool BatState::GetRewardsMainEnabled() const {
 }
 
 void BatState::SetContributionAmount(double amount) {
-  braveledger_bat_helper::WALLET_PROPERTIES_ST properties =
+  onevnledger_bat_helper::WALLET_PROPERTIES_ST properties =
       GetWalletProperties();
   auto hasAmount = std::find(properties.parameters_choices_.begin(),
                              properties.parameters_choices_.end(),
@@ -171,11 +171,11 @@ uint64_t BatState::GetReconcileStamp() const {
 
 void BatState::ResetReconcileStamp() {
   if (ledger::reconcile_time > 0) {
-    state_->reconcileStamp_ = braveledger_bat_helper::currentTime() +
+    state_->reconcileStamp_ = onevnledger_bat_helper::currentTime() +
                                 ledger::reconcile_time * 60;
   } else {
-    state_->reconcileStamp_ = braveledger_bat_helper::currentTime() +
-                                braveledger_ledger::_reconcile_default_interval;
+    state_->reconcileStamp_ = onevnledger_bat_helper::currentTime() +
+                                onevnledger_ledger::_reconcile_default_interval;
   }
   SaveState();
 }
@@ -206,11 +206,11 @@ void BatState::SetPaymentId(const std::string& payment_id) {
   SaveState();
 }
 
-const braveledger_bat_helper::Grants& BatState::GetGrants() const {
+const onevnledger_bat_helper::Grants& BatState::GetGrants() const {
   return state_->grants_;
 }
 
-void BatState::SetGrants(braveledger_bat_helper::Grants grants) {
+void BatState::SetGrants(onevnledger_bat_helper::Grants grants) {
   state_->grants_ = grants;
   SaveState();
 }
@@ -251,23 +251,23 @@ void BatState::SetPreFlight(const std::string& pre_flight) {
   SaveState();
 }
 
-const braveledger_bat_helper::WALLET_INFO_ST& BatState::GetWalletInfo() const {
+const onevnledger_bat_helper::WALLET_INFO_ST& BatState::GetWalletInfo() const {
   return state_->walletInfo_;
 }
 
 void BatState::SetWalletInfo(
-    const braveledger_bat_helper::WALLET_INFO_ST& wallet_info) {
+    const onevnledger_bat_helper::WALLET_INFO_ST& wallet_info) {
   state_->walletInfo_ = wallet_info;
   SaveState();
 }
 
-const braveledger_bat_helper::WALLET_PROPERTIES_ST&
+const onevnledger_bat_helper::WALLET_PROPERTIES_ST&
 BatState::GetWalletProperties() const {
   return state_->walletProperties_;
 }
 
 void BatState::SetWalletProperties(
-    braveledger_bat_helper::WALLET_PROPERTIES_ST* properties) {
+    onevnledger_bat_helper::WALLET_PROPERTIES_ST* properties) {
   double amount = GetContributionAmount();
   double new_amount = properties->fee_amount_;
   bool amount_changed = GetUserChangedContribution();
@@ -302,30 +302,30 @@ void BatState::SetDays(unsigned int days) {
   SaveState();
 }
 
-const braveledger_bat_helper::Transactions& BatState::GetTransactions() const {
+const onevnledger_bat_helper::Transactions& BatState::GetTransactions() const {
   return state_->transactions_;
 }
 
 void BatState::SetTransactions(
-    const braveledger_bat_helper::Transactions& transactions) {
+    const onevnledger_bat_helper::Transactions& transactions) {
   state_->transactions_ = transactions;
   SaveState();
 }
 
-const braveledger_bat_helper::Ballots& BatState::GetBallots() const {
+const onevnledger_bat_helper::Ballots& BatState::GetBallots() const {
   return state_->ballots_;
 }
 
-void BatState::SetBallots(const braveledger_bat_helper::Ballots& ballots) {
+void BatState::SetBallots(const onevnledger_bat_helper::Ballots& ballots) {
   state_->ballots_ = ballots;
   SaveState();
 }
 
-const braveledger_bat_helper::BatchVotes& BatState::GetBatch() const {
+const onevnledger_bat_helper::BatchVotes& BatState::GetBatch() const {
   return state_->batch_;
 }
 
-void BatState::SetBatch(const braveledger_bat_helper::BatchVotes& votes) {
+void BatState::SetBatch(const onevnledger_bat_helper::BatchVotes& votes) {
   state_->batch_ = votes;
   SaveState();
 }
@@ -360,7 +360,7 @@ void BatState::SetMasterUserToken(const std::string &token) {
 bool BatState::AddReconcileStep(const std::string& viewing_id,
                                 ledger::ContributionRetry step,
                                 int level) {
-  braveledger_bat_helper::CURRENT_RECONCILE reconcile =
+  onevnledger_bat_helper::CURRENT_RECONCILE reconcile =
       GetReconcileById(viewing_id);
 
   if (reconcile.viewingId_.empty()) {
@@ -378,7 +378,7 @@ bool BatState::AddReconcileStep(const std::string& viewing_id,
   return UpdateReconcile(reconcile);
 }
 
-const braveledger_bat_helper::CurrentReconciles&
+const onevnledger_bat_helper::CurrentReconciles&
 BatState::GetCurrentReconciles() const {
   return state_->current_reconciles_;
 }
@@ -412,4 +412,4 @@ void BatState::SetAddress(std::map<std::string, std::string> addresses) {
   SaveState();
 }
 
-}  // namespace braveledger_bat_state
+}  // namespace onevnledger_bat_state

@@ -6,10 +6,10 @@ index 6283f2bf6871a10f710694772b5da0bc9b70c2ad..78968b5fba8693185c8e517d3d08b140
  
  mojom = "//chrome/common/importer/profile_import.mojom"
  public_headers = [
-+  "//brave/common/importer/brave_ledger.h",
-+  "//brave/common/importer/brave_stats.h",
-+  "//brave/common/importer/brave_referral.h",
-+  "//brave/common/importer/imported_browser_window.h",
++  "//onevn/common/importer/onevn_ledger.h",
++  "//onevn/common/importer/onevn_stats.h",
++  "//onevn/common/importer/onevn_referral.h",
++  "//onevn/common/importer/imported_browser_window.h",
    "//chrome/common/importer/imported_bookmark_entry.h",
    "//chrome/common/importer/importer_autofill_form_data_entry.h",
    "//chrome/common/importer/importer_data_types.h",
@@ -17,7 +17,7 @@ index 6283f2bf6871a10f710694772b5da0bc9b70c2ad..78968b5fba8693185c8e517d3d08b140
  traits_headers =
      [ "//chrome/common/importer/profile_import_process_param_traits.h" ]
  deps = [
-+  "//brave/common",
++  "//onevn/common",
    "//chrome/common",
    "//components/favicon_base",
    "//ipc",
@@ -25,9 +25,9 @@ index 6283f2bf6871a10f710694772b5da0bc9b70c2ad..78968b5fba8693185c8e517d3d08b140
    "chrome.mojom.SearchEngineInfo=::importer::SearchEngineInfo",
    "chrome.mojom.SourceProfile=::importer::SourceProfile",
    "chrome.mojom.ImportItem=::importer::ImportItem",
-+  "chrome.mojom.BraveStats=::BraveStats",
-+  "chrome.mojom.BraveLedger=::BraveLedger",
-+  "chrome.mojom.BraveReferral=::BraveReferral",
++  "chrome.mojom.OneVNStats=::OneVNStats",
++  "chrome.mojom.OneVNLedger=::OneVNLedger",
++  "chrome.mojom.OneVNReferral=::OneVNReferral",
 +  "chrome.mojom.ImportedBrowserTab=::ImportedBrowserTab",
 +  "chrome.mojom.ImportedBrowserWindow=::ImportedBrowserWindow",
 +  "chrome.mojom.ImportedWindowState=::ImportedWindowState",

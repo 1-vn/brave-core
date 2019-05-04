@@ -7,7 +7,7 @@ index bb6102ef0cfa19f95ccf94e680ab8806ea473635..2141fd199505dcfa3b5d33a5ee5aae63
    if (env->GetVar("CHROME_DESKTOP", &name) && !name.empty())
      return name;
 -  return "chromium-browser.desktop";
-+  return "brave-browser.desktop";
++  return "onevn-browser.desktop";
  #endif
  }
  

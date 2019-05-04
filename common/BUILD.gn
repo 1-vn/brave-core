@@ -3,12 +3,12 @@ import("//build/util/branding.gni")
 source_set("channel_info") {
   if (is_linux) {
     sources = [
-      "brave_channel_info_posix.cc",
-      "brave_channel_info_posix.h",
+      "onevn_channel_info_posix.cc",
+      "onevn_channel_info_posix.h",
     ]
 
     configs += [
-      "//brave/build/linux:linux_channel_names",
+      "//onevn/build/linux:linux_channel_names",
     ]
   }
 }
@@ -22,12 +22,12 @@ source_set("pref_names") {
 
 source_set("common") {
   sources = [
-    "brave_content_client.cc",
-    "brave_content_client.h",
-    "brave_switches.cc",
-    "brave_switches.h",
-    "importer/brave_referral.cc",
-    "importer/brave_referral.h",
+    "onevn_content_client.cc",
+    "onevn_content_client.h",
+    "onevn_switches.cc",
+    "onevn_switches.h",
+    "importer/onevn_referral.cc",
+    "importer/onevn_referral.h",
     "importer/imported_browser_window.cc",
     "importer/imported_browser_window.h",
     "webui_url_constants.cc",
@@ -36,21 +36,21 @@ source_set("common") {
 
   if (!is_android) {
     sources += [
-      "brave_paths.cc",
-      "brave_paths.h",
+      "onevn_paths.cc",
+      "onevn_paths.h",
       "common_message_generator.cc",
       "common_message_generator.h",
-      "extensions/brave_extensions_api_provider.cc",
-      "extensions/brave_extensions_api_provider.h",
+      "extensions/onevn_extensions_api_provider.cc",
+      "extensions/onevn_extensions_api_provider.h",
       "extensions/extension_constants.cc",
       "extensions/extension_constants.h",
       "extensions/manifest_handlers/pdfjs_manifest_override.cc",
       "extensions/manifest_handlers/pdfjs_manifest_override.h",
-      "importer/brave_importer_utils.cc",
-      "importer/brave_importer_utils.h",
-      "importer/brave_ledger.cc",
-      "importer/brave_ledger.h",
-      "importer/brave_stats.h",
+      "importer/onevn_importer_utils.cc",
+      "importer/onevn_importer_utils.h",
+      "importer/onevn_ledger.cc",
+      "importer/onevn_ledger.h",
+      "importer/onevn_stats.h",
       "importer/chrome_importer_utils.cc",
       "importer/chrome_importer_utils.h",
       "network_constants.cc",
@@ -69,40 +69,40 @@ source_set("common") {
   }
 
   deps = [
-    ":brave_cookie_blocking",
+    ":onevn_cookie_blocking",
     ":pref_names",
     ":shield_exceptions",
-    "//brave/chromium_src:common",
+    "//onevn/chromium_src:common",
     "//content/public/common",
   ]
 
   if (is_mac) {
     sources += [
-      "importer/brave_importer_utils_mac.mm",
+      "importer/onevn_importer_utils_mac.mm",
       "importer/chrome_importer_utils_mac.mm",
     ]
   }
 
   if (is_linux) {
     sources += [
-      "importer/brave_importer_utils_linux.cc",
+      "importer/onevn_importer_utils_linux.cc",
       "importer/chrome_importer_utils_linux.cc",
     ]
   }
 
   if (is_win) {
     sources += [
-      "importer/brave_importer_utils_win.cc",
+      "importer/onevn_importer_utils_win.cc",
       "importer/chrome_importer_utils_win.cc",
     ]
   }
 }
 
 
-source_set("brave_cookie_blocking") {
+source_set("onevn_cookie_blocking") {
   sources = [
-    "brave_cookie_blocking.cc",
-    "brave_cookie_blocking.h",
+    "onevn_cookie_blocking.cc",
+    "onevn_cookie_blocking.h",
   ]
 }
 
@@ -117,7 +117,7 @@ config("constants_configs") {
   defines = []
   if (is_mac) {
     defines += [
-      "BRAVE_PRODUCT_STRING=\"$chrome_product_full_name\"",
+      "ONEVN_PRODUCT_STRING=\"$chrome_product_full_name\"",
     ]
   }
 }

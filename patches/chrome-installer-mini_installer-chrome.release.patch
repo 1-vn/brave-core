@@ -15,8 +15,8 @@ index bdf0219561c2e52fbe2e16407ac0fa9ae2e3ef30..cda55a0113704a0fd6bf719b1b785a0b
  # Chrome version dir entries, sorted alphabetically.
  #
  chrome.dll: %(VersionDir)s\
-+brave_resources.pak: %(VersionDir)s\
-+brave_100_percent.pak: %(VersionDir)s\
++onevn_resources.pak: %(VersionDir)s\
++onevn_100_percent.pak: %(VersionDir)s\
  chrome_100_percent.pak: %(VersionDir)s\
  chrome_child.dll: %(VersionDir)s\
  chrome_elf.dll: %(VersionDir)s\
@@ -24,7 +24,7 @@ index bdf0219561c2e52fbe2e16407ac0fa9ae2e3ef30..cda55a0113704a0fd6bf719b1b785a0b
  
  [HIDPI]
  chrome_200_percent.pak: %(VersionDir)s\
-+brave_200_percent.pak: %(VersionDir)s\
++onevn_200_percent.pak: %(VersionDir)s\
  
  [TOUCH]
  

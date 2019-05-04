@@ -6,8 +6,8 @@ index ec629333b0062239ff2dec63c1a5bf79738de301..20e341e5b3ed8dd968abcb1ef29dedbf
  import("//ui/base/ui_features.gni")
  import("//v8/gni/v8.gni")
  
-+if (brave_chromium_build) {
-+  import("//brave/build/config.gni")
++if (onevn_chromium_build) {
++  import("//onevn/build/config.gni")
 +}
 +
  declare_args() {
@@ -17,20 +17,20 @@ index ec629333b0062239ff2dec63c1a5bf79738de301..20e341e5b3ed8dd968abcb1ef29dedbf
        "//third_party/icu:icudata",
        chrome_dll_target,
      ]
-+    if (brave_chromium_build) {
++    if (onevn_chromium_build) {
 +      if (skip_signing) { args += [ "--skip_signing" ] }
 +      inputs -= [
 +        "$root_out_dir/chrome.exe",
 +      ]
 +      inputs += [
 +        "$root_out_dir/1-vn.exe",
-+        "$root_out_dir/brave_resources.pak",
-+        "$root_out_dir/brave_100_percent.pak",
-+        "$root_out_dir/brave_200_percent.pak",
++        "$root_out_dir/onevn_resources.pak",
++        "$root_out_dir/onevn_100_percent.pak",
++        "$root_out_dir/onevn_200_percent.pak",
 +      ]
 +      deps += [
-+        "//brave:packed_resources",
-+        "//brave/build/win:copy_exe",
++        "//onevn:packed_resources",
++        "//onevn/build/win:copy_exe",
 +      ]
 +    }
  

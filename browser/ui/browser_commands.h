@@ -2,17 +2,17 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#ifndef BRAVE_BROWSER_UI_BROWSER_COMMANDS_H_
-#define BRAVE_BROWSER_UI_BROWSER_COMMANDS_H_
+#ifndef ONEVN_BROWSER_UI_BROWSER_COMMANDS_H_
+#define ONEVN_BROWSER_UI_BROWSER_COMMANDS_H_
 
 class Browser;
 
-namespace brave {
+namespace onevn {
 
 void NewOffTheRecordWindowTor(Browser*);
 void NewTorIdentity(Browser*);
 
-}  // namespace brave
+}  // namespace onevn
 
 
-#endif  // BRAVE_BROWSER_UI_BROWSER_COMMANDS_H_
+#endif  // ONEVN_BROWSER_UI_BROWSER_COMMANDS_H_

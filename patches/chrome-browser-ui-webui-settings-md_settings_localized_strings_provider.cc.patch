@@ -6,7 +6,7 @@ index 7b0b41f9780fc970673a981fced0dfc5c68715d8..9c782274483320844c74ffb1e18fe209
  #endif
    policy_indicator::AddLocalizedStrings(html_source);
  
-+  BraveAddLocalizedStrings(html_source, profile);
++  OneVNAddLocalizedStrings(html_source, profile);
    html_source->SetJsonPath(kLocalizedStringsFile);
  }
  

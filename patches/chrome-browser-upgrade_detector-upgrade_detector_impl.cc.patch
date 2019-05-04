@@ -6,8 +6,8 @@ index 4392e660c64821767c8b408a327259fbf1f767f5..8ebd18485542d26f2d36eaa5d0b56638
  #include "chrome/installer/util/install_util.h"
  #elif defined(OS_MACOSX)
  #include "chrome/browser/mac/keystone_glue.h"
-+#if defined(BRAVE_CHROMIUM_BUILD)
-+#include "brave/browser/mac/sparkle_glue.h"
++#if defined(ONEVN_CHROMIUM_BUILD)
++#include "onevn/browser/mac/sparkle_glue.h"
 +#endif
  #endif
  
@@ -16,7 +16,7 @@ index 4392e660c64821767c8b408a327259fbf1f767f5..8ebd18485542d26f2d36eaa5d0b56638
      *critical_update = InstallUtil::GetCriticalUpdateVersion();
  #elif defined(OS_MACOSX)
    installed_version = base::Version(
-+#if defined(BRAVE_CHROMIUM_BUILD)
++#if defined(ONEVN_CHROMIUM_BUILD)
 +      base::UTF16ToASCII(sparkle_glue::CurrentlyInstalledVersion()));
 +#else
        base::UTF16ToASCII(keystone_glue::CurrentlyInstalledVersion()));
@@ -29,7 +29,7 @@ index 4392e660c64821767c8b408a327259fbf1f767f5..8ebd18485542d26f2d36eaa5d0b56638
  // Only enable upgrade notifications for Google Chrome builds. Chromium does not
  // use an auto-updater.
 -#if defined(GOOGLE_CHROME_BUILD)
-+#if defined(GOOGLE_CHROME_BUILD) || (defined(BRAVE_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD))
++#if defined(GOOGLE_CHROME_BUILD) || (defined(ONEVN_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD))
    // There might be a policy/enterprise environment preventing updates, so
    // validate updatability and then call StartTimerForUpgradeCheck
    // appropriately. Skip this step if a past attempt has been made to enable
@@ -38,7 +38,7 @@ index 4392e660c64821767c8b408a327259fbf1f767f5..8ebd18485542d26f2d36eaa5d0b56638
  #if defined(OS_MACOSX)
    // Only enable upgrade notifications if the updater (Keystone) is present.
 -  if (!keystone_glue::KeystoneEnabled()) {
-+#if defined(BRAVE_CHROMIUM_BUILD)
++#if defined(ONEVN_CHROMIUM_BUILD)
 +  if (!sparkle_glue::SparkleEnabled()) {
 +#else
 +   if (!keystone_glue::KeystoneEnabled()) {
@@ -51,7 +51,7 @@ index 4392e660c64821767c8b408a327259fbf1f767f5..8ebd18485542d26f2d36eaa5d0b56638
  }
  
 -#if defined(OS_WIN) && defined(GOOGLE_CHROME_BUILD)
-+#if defined(OS_WIN) && (defined(GOOGLE_CHROME_BUILD) || (defined(BRAVE_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD)))
++#if defined(OS_WIN) && (defined(GOOGLE_CHROME_BUILD) || (defined(ONEVN_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD)))
  void UpgradeDetectorImpl::OnAutoupdatesEnabledResult(
      bool auto_updates_enabled) {
    DCHECK_CALLED_ON_VALID_SEQUENCE(sequence_checker_);

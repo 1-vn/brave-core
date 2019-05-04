@@ -2,10 +2,10 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/tor/tor_profile_service.h"
+#include "onevn/browser/tor/tor_profile_service.h"
 
-#include "brave/browser/tor/tor_launcher_service_observer.h"
-#include "brave/common/tor/pref_names.h"
+#include "onevn/browser/tor/tor_launcher_service_observer.h"
+#include "onevn/common/tor/pref_names.h"
 #include "chrome/common/channel_info.h"
 #include "components/prefs/pref_registry_simple.h"
 #include "components/pref_registry/pref_registry_syncable.h"

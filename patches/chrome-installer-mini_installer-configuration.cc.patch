@@ -6,8 +6,8 @@ index 0a6163dbd3d6f0ea1af4e76f071f84252e8f4c13..a4546e7880de67a2b6e50c26d4ccbb92
  bool GetGoogleUpdateIsMachineEnvVar() {
    const DWORD kBufferSize = 2;
    StackString<kBufferSize> value;
-+#if defined(BRAVE_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD)
-+  DWORD length = ::GetEnvironmentVariableW(L"BraveSoftwareUpdateIsMachine",
++#if defined(ONEVN_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD)
++  DWORD length = ::GetEnvironmentVariableW(L"OneVNSoftwareUpdateIsMachine",
 +#else
    DWORD length = ::GetEnvironmentVariableW(L"GoogleUpdateIsMachine",
 +#endif
@@ -19,9 +19,9 @@ index 0a6163dbd3d6f0ea1af4e76f071f84252e8f4c13..a4546e7880de67a2b6e50c26d4ccbb92
      if (0 == ::lstrcmpi(args_[i], L"--system-level"))
        is_system_level_ = true;
 -#if defined(GOOGLE_CHROME_BUILD)
-+#if defined(GOOGLE_CHROME_BUILD) || (defined(BRAVE_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD))
++#if defined(GOOGLE_CHROME_BUILD) || (defined(ONEVN_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD))
 +    // Use original install switch because it isn't visible to user.
-+    // Sync this switch with brave/.../chromium_install_modes.cc
++    // Sync this switch with onevn/.../chromium_install_modes.cc
      else if (0 == ::lstrcmpi(args_[i], L"--chrome-beta"))
        chrome_app_guid_ = google_update::kBetaAppGuid;
      else if (0 == ::lstrcmpi(args_[i], L"--chrome-dev"))
@@ -30,7 +30,7 @@ index 0a6163dbd3d6f0ea1af4e76f071f84252e8f4c13..a4546e7880de67a2b6e50c26d4ccbb92
  
  bool Configuration::IsUpdatingMultiChrome() const {
 -#if defined(GOOGLE_CHROME_BUILD)
-+#if defined(GOOGLE_CHROME_BUILD) || (defined(BRAVE_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD))
++#if defined(GOOGLE_CHROME_BUILD) || (defined(ONEVN_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD))
    // Only primary Chrome installs supported multi-install (not canary/SxS).
    if (chrome_app_guid_ != google_update::kAppGuid)
      return false;

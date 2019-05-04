@@ -1,24 +1,24 @@
-import("//brave/components/brave_shields/browser/buildflags/buildflags.gni")
+import("//onevn/components/onevn_shields/browser/buildflags/buildflags.gni")
 
 source_set("renderer_host") {
   sources = [
-    "brave_navigation_ui_data.cc",
-    "brave_navigation_ui_data.h",
+    "onevn_navigation_ui_data.cc",
+    "onevn_navigation_ui_data.h",
   ]
 
   public_deps = [
-    "//brave/components/brave_shields/browser/buildflags",
+    "//onevn/components/onevn_shields/browser/buildflags",
   ]
 
-  if (brave_stp_enabled) {
+  if (onevn_stp_enabled) {
     sources += [
-      "brave_render_message_filter.cc",
-      "brave_render_message_filter.h",
+      "onevn_render_message_filter.cc",
+      "onevn_render_message_filter.h",
     ]
   }
 
   deps = [
-    "//brave/browser/tor",
+    "//onevn/browser/tor",
     "//chrome/browser",
   ]
 }

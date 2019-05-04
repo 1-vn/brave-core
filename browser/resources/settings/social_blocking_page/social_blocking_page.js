@@ -6,7 +6,7 @@
 'use strict';
 
 /**
- * 'settings-social-blocking-page' is the settings page containing brave's
+ * 'settings-social-blocking-page' is the settings page containing onevn's
  * social blocking options
  */
 Polymer({
@@ -14,7 +14,7 @@ Polymer({
 
   properties: {},
 
-  /** @private {?settings.DefaultBraveShieldsBrowserProxy} */
+  /** @private {?settings.DefaultOneVNShieldsBrowserProxy} */
   browserProxy_: null,
 
   /** @override */

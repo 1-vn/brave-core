@@ -1,12 +1,12 @@
-/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/widevine/widevine_permission_request.h"
+#include "onevn/browser/widevine/widevine_permission_request.h"
 
-#include "brave/browser/widevine/widevine_utils.h"
-#include "brave/grit/brave_generated_resources.h"
+#include "onevn/browser/widevine/widevine_utils.h"
+#include "onevn/grit/onevn_generated_resources.h"
 #include "chrome/app/vector_icons/vector_icons.h"
 #include "content/public/browser/web_contents.h"
 #include "ui/base/l10n/l10n_util.h"

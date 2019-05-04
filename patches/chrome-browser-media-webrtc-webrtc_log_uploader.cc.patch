@@ -6,7 +6,7 @@ index ff329ad9104cd0e87f376b8c1771620a771c0be1..904b50859dfb3f9289d9168b7bba8c08
  void WebRtcLogUploader::UploadCompressedLog(
      const WebRtcLogUploadDoneData& upload_done_data,
      std::unique_ptr<std::string> post_data) {
-+  return; // feature disabled in Brave
++  return; // feature disabled in OneVN
    DCHECK_CURRENTLY_ON(BrowserThread::IO);
  
    DecreaseLogCount();

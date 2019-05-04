@@ -6,7 +6,7 @@ index dedd3a0d2dd3c422ec3abff45839caf43e7432a7..8d663fb19b6fac18156b43a189dffd8f
  #include "third_party/blink/renderer/modules/webaudio/audio_buffer.h"
  
  #include <memory>
-+#include "brave/renderer/brave_content_settings_observer_helper.h"
++#include "onevn/renderer/onevn_content_settings_observer_helper.h"
  #include "third_party/blink/renderer/modules/webaudio/audio_buffer_options.h"
  #include "third_party/blink/renderer/modules/webaudio/base_audio_context.h"
  #include "third_party/blink/renderer/platform/audio/audio_bus.h"

@@ -1,0 +1,22 @@
+import("//onevn/components/common/typescript.gni")
+
+transpile_web_ui("donate") {
+  inputs = [
+    "actions/donate_actions.ts",
+    "onevn_donate.html",
+    "onevn_donate.tsx",
+    "components/app.tsx",
+    "components/siteBanner.tsx",
+    "constants/donate_types.ts",
+    "reducers/donate_reducer.ts",
+    "reducers/index.ts",
+    "store.ts",
+    "utils.ts",
+  ]
+
+  entry_points = [
+    ["onevn_donate", rebase_path("onevn_donate.tsx")]
+  ]
+
+  resource_name = "onevn_donate"
+}

@@ -6,7 +6,7 @@ index 8596ecd098fcd5d4014d35d89fd469474477aafb..31044aeb88adaff24fd91088ac6f9eaf
    // hold escape to exit exclusive access mode.
    bool IsPressAndHoldEscRequiredToExitFullscreen() const;
  
-+  virtual void AppendBraveLinkItems();
++  virtual void AppendOneVNLinkItems();
 +
   private:
    friend class RenderViewContextMenuTest;

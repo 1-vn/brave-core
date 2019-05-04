@@ -6,10 +6,10 @@ index 7f8f1ff21e45c67c617c376be26e49d2134b6bca..85da9aadb552d193a3d15097f4d85d0e
  // of differential updates.
  ProcessExitResult WMain(HMODULE module);
  
-+#if defined(BRAVE_CHROMIUM_BUILD)
++#if defined(ONEVN_CHROMIUM_BUILD)
 +typedef StackString<128> ReferralCodeString;
 +
-+// Populates |referral_code| with a Brave referral code if one is
++// Populates |referral_code| with a OneVN referral code if one is
 +// present in the installer filename. This may be a standard or an
 +// extended referral code.
 +bool ParseReferralCode(const wchar_t* installer_filename,

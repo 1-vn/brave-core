@@ -7,7 +7,7 @@ index 15fb0165acb6f8444072b47aa54a940602d27ed0..c2ffa20edd637849caa02cd899a70be2
  const int ModelLoader::kClientModelFetchIntervalMs = 3600 * 1000;
  const char ModelLoader::kClientModelUrlPrefix[] =
 -    "https://ssl.gstatic.com/safebrowsing/csd/";
-+    "https://static.brave.com/safebrowsing/csd/";
++    "https://static.1-vn.com/safebrowsing/csd/";
  const char ModelLoader::kClientModelNamePattern[] =
      "client_model_v5%s_variation_%d.pb";
  const char ModelLoader::kClientModelFinchExperiment[] =

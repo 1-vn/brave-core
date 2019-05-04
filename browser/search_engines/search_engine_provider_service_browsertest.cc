@@ -3,11 +3,11 @@
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #include "base/strings/utf_string_conversions.h"
-#include "brave/browser/profiles/brave_profile_manager.h"
-#include "brave/browser/search_engines/search_engine_provider_util.h"
-#include "brave/browser/tor/tor_launcher_factory.h"
-#include "brave/browser/ui/browser_commands.h"
-#include "brave/components/search_engines/brave_prepopulated_engines.h"
+#include "onevn/browser/profiles/onevn_profile_manager.h"
+#include "onevn/browser/search_engines/search_engine_provider_util.h"
+#include "onevn/browser/tor/tor_launcher_factory.h"
+#include "onevn/browser/ui/browser_commands.h"
+#include "onevn/components/search_engines/onevn_prepopulated_engines.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/profiles/profile_window.h"
 #include "chrome/browser/search_engines/template_url_service_factory.h"
@@ -37,7 +37,7 @@ IN_PROC_BROWSER_TEST_F(SearchEngineProviderServiceTest,
   Profile* incognito_profile = profile->GetOffTheRecordProfile();
 
   // This test case is only for non-qwant region.
-  if (brave::IsRegionForQwant(profile))
+  if (onevn::IsRegionForQwant(profile))
     return;
 
   auto* service = TemplateURLServiceFactory::GetForProfile(profile);
@@ -45,7 +45,7 @@ IN_PROC_BROWSER_TEST_F(SearchEngineProviderServiceTest,
       TemplateURLServiceFactory::GetForProfile(incognito_profile);
 
   // Test pref is initially disabled.
-  EXPECT_FALSE(brave::UseAlternativeSearchEngineProviderEnabled(profile));
+  EXPECT_FALSE(onevn::UseAlternativeSearchEngineProviderEnabled(profile));
 
   // Both mode should use same search engine if alternate pref is disabled.
   base::string16 normal_search_engine =
@@ -55,16 +55,16 @@ IN_PROC_BROWSER_TEST_F(SearchEngineProviderServiceTest,
 
   // Toggle pref and check incognito_service uses duckduckgo search engine and
   // normal mode service uses existing one.
-  brave::ToggleUseAlternativeSearchEngineProvider(profile);
-  EXPECT_TRUE(brave::UseAlternativeSearchEngineProviderEnabled(profile));
+  onevn::ToggleUseAlternativeSearchEngineProvider(profile);
+  EXPECT_TRUE(onevn::UseAlternativeSearchEngineProviderEnabled(profile));
   EXPECT_EQ(incognito_service->GetDefaultSearchProvider()->data().short_name(),
             base::ASCIIToUTF16("DuckDuckGo"));
   EXPECT_EQ(service->GetDefaultSearchProvider()->data().short_name(),
             normal_search_engine);
 
   // Toggle pref again and check both mode uses same search engine.
-  brave::ToggleUseAlternativeSearchEngineProvider(profile);
-  EXPECT_FALSE(brave::UseAlternativeSearchEngineProviderEnabled(profile));
+  onevn::ToggleUseAlternativeSearchEngineProvider(profile);
+  EXPECT_FALSE(onevn::UseAlternativeSearchEngineProviderEnabled(profile));
   EXPECT_EQ(service->GetDefaultSearchProvider()->data().short_name(),
             normal_search_engine);
   EXPECT_EQ(incognito_service->GetDefaultSearchProvider()->data().short_name(),
@@ -86,7 +86,7 @@ IN_PROC_BROWSER_TEST_F(SearchEngineProviderServiceTest,
   Profile* incognito_profile = profile->GetOffTheRecordProfile();
 
   // This test case is only for qwant region.
-  if (!brave::IsRegionForQwant(profile))
+  if (!onevn::IsRegionForQwant(profile))
     return;
 
   auto* service = TemplateURLServiceFactory::GetForProfile(profile);
@@ -94,11 +94,11 @@ IN_PROC_BROWSER_TEST_F(SearchEngineProviderServiceTest,
       TemplateURLServiceFactory::GetForProfile(incognito_profile);
 
   // Test pref is initially disabled.
-  EXPECT_FALSE(brave::UseAlternativeSearchEngineProviderEnabled(profile));
+  EXPECT_FALSE(onevn::UseAlternativeSearchEngineProviderEnabled(profile));
 
   // Toggling doesn't work in qwant region.
-  brave::ToggleUseAlternativeSearchEngineProvider(profile);
-  EXPECT_FALSE(brave::UseAlternativeSearchEngineProviderEnabled(profile));
+  onevn::ToggleUseAlternativeSearchEngineProvider(profile);
+  EXPECT_FALSE(onevn::UseAlternativeSearchEngineProviderEnabled(profile));
 
   // Both mode should use same search engine.
   base::string16 normal_search_engine =
@@ -116,14 +116,14 @@ IN_PROC_BROWSER_TEST_F(SearchEngineProviderServiceTest,
 }
 
 // Check crash isn't happened with multiple private window is used.
-// https://github.com/brave/brave-browser/issues/1452
+// https://github.com/1-vn/onevn-browser/issues/1452
 IN_PROC_BROWSER_TEST_F(SearchEngineProviderServiceTest,
                        MultiplePrivateWindowTest) {
   Browser* private_window_1 = CreateIncognitoBrowser();
   CloseBrowserSynchronously(private_window_1);
 
   Browser* private_window_2 = CreateIncognitoBrowser();
-  brave::ToggleUseAlternativeSearchEngineProvider(private_window_2->profile());
+  onevn::ToggleUseAlternativeSearchEngineProvider(private_window_2->profile());
 }
 
 // Checks the default search engine of the tor profile.
@@ -131,7 +131,7 @@ IN_PROC_BROWSER_TEST_F(SearchEngineProviderServiceTest,
                        PRE_CheckDefaultTorProfileSearchProviderTest) {
   ScopedTorLaunchPreventerForTest prevent_tor_process;
 
-  brave::NewOffTheRecordWindowTor(browser());
+  onevn::NewOffTheRecordWindowTor(browser());
   content::RunAllTasksUntilIdle();
 
   Profile* tor_profile = BrowserList::GetInstance()->GetLastActive()->profile();
@@ -139,7 +139,7 @@ IN_PROC_BROWSER_TEST_F(SearchEngineProviderServiceTest,
 
   auto* service = TemplateURLServiceFactory::GetForProfile(tor_profile);
 
-  int default_provider_id = brave::IsRegionForQwant(tor_profile) ?
+  int default_provider_id = onevn::IsRegionForQwant(tor_profile) ?
       TemplateURLPrepopulateData::PREPOPULATED_ENGINE_ID_QWANT :
       TemplateURLPrepopulateData::PREPOPULATED_ENGINE_ID_DUCKDUCKGO;
 
@@ -160,7 +160,7 @@ IN_PROC_BROWSER_TEST_F(SearchEngineProviderServiceTest,
                        CheckDefaultTorProfileSearchProviderTest) {
   ScopedTorLaunchPreventerForTest prevent_tor_process;
 
-  brave::NewOffTheRecordWindowTor(browser());
+  onevn::NewOffTheRecordWindowTor(browser());
   content::RunAllTasksUntilIdle();
 
   Profile* tor_profile = BrowserList::GetInstance()->GetLastActive()->profile();
@@ -184,16 +184,16 @@ IN_PROC_BROWSER_TEST_F(SearchEngineProviderServiceTest,
   EXPECT_TRUE(guest_profile->IsGuestSession());
 
   // Guest window controller is only used in non Qwant region.
-  if (brave::IsRegionForQwant(guest_profile))
+  if (onevn::IsRegionForQwant(guest_profile))
     return;
 
   auto* service = TemplateURLServiceFactory::GetForProfile(guest_profile);
 
   // alternative pref is initially disabled.
-  EXPECT_FALSE(brave::UseAlternativeSearchEngineProviderEnabled(guest_profile));
+  EXPECT_FALSE(onevn::UseAlternativeSearchEngineProviderEnabled(guest_profile));
 
-  brave::ToggleUseAlternativeSearchEngineProvider(guest_profile);
-  EXPECT_TRUE(brave::UseAlternativeSearchEngineProviderEnabled(guest_profile));
+  onevn::ToggleUseAlternativeSearchEngineProvider(guest_profile);
+  EXPECT_TRUE(onevn::UseAlternativeSearchEngineProviderEnabled(guest_profile));
   int provider_id =
       TemplateURLPrepopulateData::PREPOPULATED_ENGINE_ID_DUCKDUCKGO;
 
@@ -207,7 +207,7 @@ IN_PROC_BROWSER_TEST_F(SearchEngineProviderServiceTest,
   TemplateURL bing_url(*bing_data);
   service->SetUserSelectedDefaultSearchProvider(&bing_url);
   // Check alternative pref is turned off.
-  EXPECT_FALSE(brave::UseAlternativeSearchEngineProviderEnabled(guest_profile));
+  EXPECT_FALSE(onevn::UseAlternativeSearchEngineProviderEnabled(guest_profile));
 
   auto ddg_data = TemplateURLPrepopulateData::GetPrepopulatedEngine(
       guest_profile->GetPrefs(),
@@ -215,5 +215,5 @@ IN_PROC_BROWSER_TEST_F(SearchEngineProviderServiceTest,
   TemplateURL ddg_url(*ddg_data);
 
   service->SetUserSelectedDefaultSearchProvider(&ddg_url);
-  EXPECT_TRUE(brave::UseAlternativeSearchEngineProviderEnabled(guest_profile));
+  EXPECT_TRUE(onevn::UseAlternativeSearchEngineProviderEnabled(guest_profile));
 }

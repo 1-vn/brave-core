@@ -7,6 +7,6 @@ index 6c8539ad2aa89ce5ff74f53c9fffe89930fb8170..32aeb6f62a4427d85e2cc3c9df217bb4
  midl("google_update") {
    sources = [
 -    "google_update_idl.idl",
-+    "//brave/chromium_src/google_update/google_update_idl.idl",
++    "//onevn/chromium_src/google_update/google_update_idl.idl",
    ]
  }

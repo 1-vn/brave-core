@@ -1,1 +1,1 @@
-python ..\..\brave\script\redirect-cc.py %*
+python ..\..\onevn\script\redirect-cc.py %*
