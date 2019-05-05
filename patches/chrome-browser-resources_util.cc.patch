@@ -18,9 +18,9 @@ index e2bbf23a96d9ad6947c1aed458a1d09889e8d57a..b3a3d5e7776e5cd77867d9ed27ba71d1
        storage.emplace_back(kUiResources[i].name, kUiResources[i].value);
      }
 +#if defined(ONEVN_CHROMIUM_BUILD)
-+    for (size_t i = 0; i < kOneVNThemeResourcesSize; ++i) {
-+      storage.emplace_back(kOneVNThemeResources[i].name,
-+                           kOneVNThemeResources[i].value);
++    for (size_t i = 0; i < kOnevnThemeResourcesSize; ++i) {
++      storage.emplace_back(kOnevnThemeResources[i].name,
++                           kOnevnThemeResources[i].value);
 +    }
 +#endif
  #if defined(OS_CHROMEOS)
