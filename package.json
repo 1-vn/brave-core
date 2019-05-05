@@ -97,7 +97,7 @@
     "@types/react-redux": "6.0.4",
     "@types/redux-logger": "^3.0.7",
     "awesome-typescript-loader": "^5.2.1",
-    "onevn-ui": "github:1-vn/onevn-ui#7b8820c7f3cdc661f591ec2e01ecf043835bfe6b",
+    "onevn-ui": "github:1-vn/onevn-ui#2dae4b17b98f2b9258a55897017311bbbdc95cf1",
     "css-loader": "^2.1.1",
     "csstype": "^2.5.5",
     "deep-freeze-node": "^1.1.3",

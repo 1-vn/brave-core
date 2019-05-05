@@ -10,7 +10,7 @@ deps = {
   "vendor/requests": "https://github.com/kennethreitz/requests@e4d59bedfd3c7f4f254f4f5d036587bcd8152458",
   "vendor/boto": "https://github.com/boto/boto@f7574aa6cc2c819430c1f05e9a1a1a666ef8169b",
   "vendor/python-patch": "https://github.com/svn2github/python-patch@a336a458016ced89aba90dfc3f4c8222ae3b1403",
-  "vendor/omaha":  "https://github.com/1-vn/omaha.git@9fa012aa233704298081cc56aa5741ed3bc24241",
+  "vendor/omaha":  "https://github.com/1-vn/omaha.git@3399e8cf515da7c5e6d43bd1cb5415d7f5ee91c4",
   "vendor/sparkle": "https://github.com/1-vn/Sparkle.git@c0759cce415d7c0feae45005c8a013b1898711f0",
   "vendor/bat-native-rapidjson": "https://github.com/1-vn/bat-native-rapidjson.git@86aafe2ef89835ae71c9ed7c2527e3bb3000930e",
   "vendor/bip39wally-core-native": "https://github.com/1-vn/bat-native-bip39wally-core.git@9b119931c702d55be994117eb505d56310720b1d",
