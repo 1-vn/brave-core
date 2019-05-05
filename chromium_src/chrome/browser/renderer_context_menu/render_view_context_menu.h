@@ -1,4 +1,4 @@
-// Copyright 2018 The OneVN Authors. All rights reserved.
+// Copyright 2018 The Onevn Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
@@ -11,11 +11,11 @@
 #undef RenderViewContextMenu
 
 // Declare our own subclass with overridden methods.
-class OneVNRenderViewContextMenu : public RenderViewContextMenu_Chromium {
+class OnevnRenderViewContextMenu : public RenderViewContextMenu_Chromium {
  public:
-  OneVNRenderViewContextMenu(content::RenderFrameHost* render_frame_host,
+  OnevnRenderViewContextMenu(content::RenderFrameHost* render_frame_host,
                              const content::ContextMenuParams& params);
-  void AppendOneVNLinkItems() override;
+  void AppendOnevnLinkItems() override;
   // RenderViewContextMenuBase:
   bool IsCommandIdEnabled(int command_id) const override;
   void ExecuteCommand(int id, int event_flags) override;
@@ -26,6 +26,6 @@ class OneVNRenderViewContextMenu : public RenderViewContextMenu_Chromium {
 };
 
 // Use our own subclass as the real RenderViewContextMenu.
-#define RenderViewContextMenu OneVNRenderViewContextMenu
+#define RenderViewContextMenu OnevnRenderViewContextMenu
 
 #endif  // CHROME_BROWSER_RENDERER_CONTEXT_MENU_RENDER_VIEW_CONTEXT_MENU_H_OVERRIDE_

@@ -1,6 +1,6 @@
 {
   "onevnRewards": {
-    "message": "OneVN Rewards",
+    "message": "Onevn Rewards",
     "description": "Title in welcome screen for the panel"
   },
   "welcomeButtonTextOne": {
@@ -28,7 +28,7 @@
     "description": "Link in the footer (takes you to rewards settings page) for welcome screen in the panel, new user"
   },
   "welcomeHeaderOne": {
-    "message": "עשינו ל-OneVN Rewards שדרגו גדול.",
+    "message": "עשינו ל-Onevn Rewards שדרגו גדול.",
     "description": "Main header title for welcome screen in the panel, existing user"
   },
   "welcomeHeaderTwo": {
@@ -48,7 +48,7 @@
     "description": "The whole string is 'Enable tips on YouTube for like.'"
   },
   "verifiedPublisher": {
-    "message": "מפרסם מאומת של OneVN",
+    "message": "מפרסם מאומת של Onevn",
     "description": "Tells user that this particular publisher is verified publisher"
   },
   "rewardsContributeAttentionScore": {
@@ -164,7 +164,7 @@
     "description": "Used in notification to dismiss notification"
   },
   "onevnAdsTitle": {
-    "message": "פרסומות OneVN",
+    "message": "פרסומות Onevn",
     "description": "Notification title when we display info about ads"
   },
   "onevnContributeTitle": {
@@ -194,11 +194,11 @@
     "description": "Notification title when we ask user to backup wallet"
   },
   "backupWalletNotification": {
-    "message": "אנא גבו את ארנק ה-OneVN שלכם.",
+    "message": "אנא גבו את ארנק ה-Onevn שלכם.",
     "description": "Description for backup wallet notification"
   },
   "insufficientFundsNotification": {
-    "message": "חשבון OneVN Rewards שלך מחכה להפקה.",
+    "message": "חשבון Onevn Rewards שלך מחכה להפקה.",
     "description": "Description for new insufficient funds notification"
   },
   "insufficientFunds": {
@@ -270,7 +270,7 @@
     "description": "Button text for clearing the error."
   },
   "grantGeneralErrorText": {
-    "message": "OneVN Rewards נתקל בבעיה. אנא נסו שוב מאוחר יותר.",
+    "message": "Onevn Rewards נתקל בבעיה. אנא נסו שוב מאוחר יותר.",
     "description": "Error text when user is having problems claiming a grant."
   },
   "grantGeneralErrorTitle": {
@@ -294,7 +294,7 @@
     "description": "Status of the publisher shown in the panel"
   },
   "unVerifiedText": {
-    "message": "יוצר זה עדיין לא נרשם לקבלת תרומות ממשתמשי OneVN. כל הטיפים שתשלחו יישארו בארנק שלכם עד אשר יאומת.",
+    "message": "יוצר זה עדיין לא נרשם לקבלת תרומות ממשתמשי Onevn. כל הטיפים שתשלחו יישארו בארנק שלכם עד אשר יאומת.",
     "description": "Notice about unverified publisher."
   },
   "unVerifiedTextMore": {
@@ -322,7 +322,7 @@
     "description": "Text for Panel's disabled state"
   },
   "disabledPanelTitle": {
-    "message": "OneVN Rewards הינו ",
+    "message": "Onevn Rewards הינו ",
     "description": "Title for Panel's disabled state"
   },
   "walletFailedTitle": {
@@ -366,7 +366,7 @@
     "description": "Privacy Policy"
   },
   "serviceText": {
-    "message": "בלחיצה על \"אפשר את OneVN Rewards\", הינך מאשר/ת שקראת והסכמת ל",
+    "message": "בלחיצה על \"אפשר את Onevn Rewards\", הינך מאשר/ת שקראת והסכמת ל",
     "description": "Terms of service main text"
   },
   "termsOfService": {

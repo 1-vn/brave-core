@@ -6,7 +6,7 @@ index 6720a917eece1d5d9b1afc25bce5e8caa51aed01..3bfa87925d6a82c7a0b516cda56acf31
                                   content::BrowserContext* browser_context);
  
   private:
-+  friend class OneVNContentBrowserClient;
++  friend class OnevnContentBrowserClient;
    friend class DisableWebRtcEncryptionFlagTest;
    friend class InProcessBrowserTest;
  

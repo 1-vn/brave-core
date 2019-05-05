@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -17,16 +17,16 @@
 
 namespace extensions {
 
-OneVNThemeEventRouter::OneVNThemeEventRouter(Profile* profile)
+OnevnThemeEventRouter::OnevnThemeEventRouter(Profile* profile)
     : profile_(profile),
       using_dark_(IsDarkModeEnabled()),
       observer_(this) {
   ResetThemeObserver();
 }
 
-OneVNThemeEventRouter::~OneVNThemeEventRouter() {}
+OnevnThemeEventRouter::~OnevnThemeEventRouter() {}
 
-void OneVNThemeEventRouter::OnNativeThemeUpdated(
+void OnevnThemeEventRouter::OnNativeThemeUpdated(
     ui::NativeTheme* observed_theme) {
   DCHECK(observer_.IsObserving(observed_theme));
   ResetThemeObserver();
@@ -39,27 +39,27 @@ void OneVNThemeEventRouter::OnNativeThemeUpdated(
   Notify();
 }
 
-void OneVNThemeEventRouter::Notify() {
+void OnevnThemeEventRouter::Notify() {
   EventRouter* event_router = EventRouter::Get(profile_);
   const std::string theme_type =
-      OneVNThemeService::GetStringFromOneVNThemeType(
-          OneVNThemeService::GetActiveOneVNThemeType(profile_));
+      OnevnThemeService::GetStringFromOnevnThemeType(
+          OnevnThemeService::GetActiveOnevnThemeType(profile_));
 
   auto event = std::make_unique<extensions::Event>(
       extensions::events::ONEVN_ON_ONEVN_THEME_TYPE_CHANGED,
-      api::onevn_theme::OnOneVNThemeTypeChanged::kEventName,
-      api::onevn_theme::OnOneVNThemeTypeChanged::Create(theme_type),
+      api::onevn_theme::OnOnevnThemeTypeChanged::kEventName,
+      api::onevn_theme::OnOnevnThemeTypeChanged::Create(theme_type),
       profile_);
 
   event_router->BroadcastEvent(std::move(event));
 }
 
-bool OneVNThemeEventRouter::IsDarkModeEnabled() const {
-  return OneVNThemeService::GetActiveOneVNThemeType(profile_) ==
+bool OnevnThemeEventRouter::IsDarkModeEnabled() const {
+  return OnevnThemeService::GetActiveOnevnThemeType(profile_) ==
       ONEVN_THEME_TYPE_DARK;
 }
 
-void OneVNThemeEventRouter::ResetThemeObserver() {
+void OnevnThemeEventRouter::ResetThemeObserver() {
   auto* current_native_theme =
       IsDarkModeEnabled() ? ui::NativeThemeDarkAura::instance()
                           : ui::NativeTheme::GetInstanceForNativeUi();

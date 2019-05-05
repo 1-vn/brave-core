@@ -4,6 +4,6 @@
 
 #include "onevn/components/onevn_shields/browser/onevn_resource_dispatcher_host_delegate.h"
 
-#define ChromeResourceDispatcherHostDelegate OneVNResourceDispatcherHostDelegate
+#define ChromeResourceDispatcherHostDelegate OnevnResourceDispatcherHostDelegate
 #include "../../../../chrome/browser/browser_process_impl.cc"
 #undef ChromeResourceDispatcherHostDelegate

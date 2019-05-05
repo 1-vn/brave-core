@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -28,27 +28,27 @@
 #include "ui/native_theme/native_theme_dark_aura.h"
 
 namespace {
-OneVNThemeType GetThemeTypeBasedOnChannel() {
+OnevnThemeType GetThemeTypeBasedOnChannel() {
   switch (chrome::GetChannel()) {
     case version_info::Channel::STABLE:
     case version_info::Channel::BETA:
-      return OneVNThemeType::ONEVN_THEME_TYPE_LIGHT;
+      return OnevnThemeType::ONEVN_THEME_TYPE_LIGHT;
     case version_info::Channel::DEV:
     case version_info::Channel::CANARY:
     case version_info::Channel::UNKNOWN:
     default:
-      return OneVNThemeType::ONEVN_THEME_TYPE_DARK;
+      return OnevnThemeType::ONEVN_THEME_TYPE_DARK;
   }
 }
 }  // namespace
 
 // static
-std::string OneVNThemeService::GetStringFromOneVNThemeType(
-    OneVNThemeType type) {
+std::string OnevnThemeService::GetStringFromOnevnThemeType(
+    OnevnThemeType type) {
   switch (type) {
-    case OneVNThemeType::ONEVN_THEME_TYPE_LIGHT:
+    case OnevnThemeType::ONEVN_THEME_TYPE_LIGHT:
       return "Light";
-    case OneVNThemeType::ONEVN_THEME_TYPE_DARK:
+    case OnevnThemeType::ONEVN_THEME_TYPE_DARK:
       return "Dark";
     default:
       NOTREACHED();
@@ -57,14 +57,14 @@ std::string OneVNThemeService::GetStringFromOneVNThemeType(
 }
 
 // static
-base::Value OneVNThemeService::GetOneVNThemeList() {
+base::Value OnevnThemeService::GetOnevnThemeList() {
   base::Value list(base::Value::Type::LIST);
 
   if (SystemThemeModeEnabled()) {
     base::Value system_type(base::Value::Type::DICTIONARY);
     system_type.SetKey(
         "value",
-        base::Value(OneVNThemeType::ONEVN_THEME_TYPE_DEFAULT));
+        base::Value(OnevnThemeType::ONEVN_THEME_TYPE_DEFAULT));
     system_type.SetKey(
         "name",
         base::Value(l10n_util::GetStringUTF16(IDS_ONEVN_THEME_TYPE_SYSTEM)));
@@ -72,7 +72,7 @@ base::Value OneVNThemeService::GetOneVNThemeList() {
   }
 
   base::Value dark_type(base::Value::Type::DICTIONARY);
-  dark_type.SetKey("value", base::Value(OneVNThemeType::ONEVN_THEME_TYPE_DARK));
+  dark_type.SetKey("value", base::Value(OnevnThemeType::ONEVN_THEME_TYPE_DARK));
   dark_type.SetKey(
       "name",
       base::Value(l10n_util::GetStringUTF16(IDS_ONEVN_THEME_TYPE_DARK)));
@@ -80,7 +80,7 @@ base::Value OneVNThemeService::GetOneVNThemeList() {
 
   base::Value light_type(base::Value::Type::DICTIONARY);
   light_type.SetKey("value",
-                    base::Value(OneVNThemeType::ONEVN_THEME_TYPE_LIGHT));
+                    base::Value(OnevnThemeType::ONEVN_THEME_TYPE_LIGHT));
   light_type.SetKey(
       "name",
       base::Value(l10n_util::GetStringUTF16(IDS_ONEVN_THEME_TYPE_LIGHT)));
@@ -90,9 +90,9 @@ base::Value OneVNThemeService::GetOneVNThemeList() {
 }
 
 // static
-void OneVNThemeService::RegisterProfilePrefs(
+void OnevnThemeService::RegisterProfilePrefs(
     user_prefs::PrefRegistrySyncable* registry) {
-  registry->RegisterIntegerPref(kOneVNThemeType, ONEVN_THEME_TYPE_DEFAULT);
+  registry->RegisterIntegerPref(kOnevnThemeType, ONEVN_THEME_TYPE_DEFAULT);
 
   // When this is set to true, prefs is changed from default type to
   // effective type. In dtor, pref is reverted to default type if this is
@@ -100,12 +100,12 @@ void OneVNThemeService::RegisterProfilePrefs(
   // theme type yet. If it is changed to false, it means user changes system
   // theme explicitly.
   // To handle crash case, prefs is used instead of boolean flags. Recovering
-  // is done in OneVNThemeService::Init().
-  registry->RegisterBooleanPref(kUseOverriddenOneVNThemeType, false);
+  // is done in OnevnThemeService::Init().
+  registry->RegisterBooleanPref(kUseOverriddenOnevnThemeType, false);
 }
 
 // static
-OneVNThemeType OneVNThemeService::GetActiveOneVNThemeType(
+OnevnThemeType OnevnThemeService::GetActiveOnevnThemeType(
     Profile* profile) {
   // allow override via cli flag
   const base::CommandLine& command_line =
@@ -116,81 +116,81 @@ OneVNThemeType OneVNThemeService::GetActiveOneVNThemeType(
     std::string requested_theme_value_lower =
         base::ToLowerASCII(requested_theme_value);
     if (requested_theme_value_lower == "light")
-      return OneVNThemeType::ONEVN_THEME_TYPE_LIGHT;
+      return OnevnThemeType::ONEVN_THEME_TYPE_LIGHT;
     if (requested_theme_value_lower == "dark")
-      return OneVNThemeType::ONEVN_THEME_TYPE_DARK;
+      return OnevnThemeType::ONEVN_THEME_TYPE_DARK;
   }
 
-  OneVNThemeType type = static_cast<OneVNThemeType>(
-      profile->GetPrefs()->GetInteger(kOneVNThemeType));
-  if (type == OneVNThemeType::ONEVN_THEME_TYPE_DEFAULT) {
+  OnevnThemeType type = static_cast<OnevnThemeType>(
+      profile->GetPrefs()->GetInteger(kOnevnThemeType));
+  if (type == OnevnThemeType::ONEVN_THEME_TYPE_DEFAULT) {
     DCHECK(SystemThemeModeEnabled());
     return ui::NativeTheme::GetInstanceForNativeUi()->
-         SystemDarkModeEnabled() ? OneVNThemeType::ONEVN_THEME_TYPE_DARK
-                                 : OneVNThemeType::ONEVN_THEME_TYPE_LIGHT;
+         SystemDarkModeEnabled() ? OnevnThemeType::ONEVN_THEME_TYPE_DARK
+                                 : OnevnThemeType::ONEVN_THEME_TYPE_LIGHT;
   }
   return type;
 }
 
-OneVNThemeService::OneVNThemeService() {}
+OnevnThemeService::OnevnThemeService() {}
 
-OneVNThemeService::~OneVNThemeService() {
-  // In test, kOneVNThemeType isn't registered.
-  if (!profile()->GetPrefs()->FindPreference(kOneVNThemeType))
+OnevnThemeService::~OnevnThemeService() {
+  // In test, kOnevnThemeType isn't registered.
+  if (!profile()->GetPrefs()->FindPreference(kOnevnThemeType))
     return;
 
-  if (profile()->GetPrefs()->GetBoolean(kUseOverriddenOneVNThemeType)) {
+  if (profile()->GetPrefs()->GetBoolean(kUseOverriddenOnevnThemeType)) {
     onevn_theme_type_pref_.Destroy();
-    profile()->GetPrefs()->SetInteger(kOneVNThemeType,
-                                      OneVNThemeType::ONEVN_THEME_TYPE_DEFAULT);
+    profile()->GetPrefs()->SetInteger(kOnevnThemeType,
+                                      OnevnThemeType::ONEVN_THEME_TYPE_DEFAULT);
   }
 }
 
-void OneVNThemeService::Init(Profile* profile) {
-  // In test, kOneVNThemeType isn't registered.
-  if (profile->GetPrefs()->FindPreference(kOneVNThemeType)) {
+void OnevnThemeService::Init(Profile* profile) {
+  // In test, kOnevnThemeType isn't registered.
+  if (profile->GetPrefs()->FindPreference(kOnevnThemeType)) {
     RecoverPrefStates(profile);
     OverrideDefaultThemeIfNeeded(profile);
     if (SystemThemeModeEnabled()) {
       // Start with proper system theme to make onevn theme and
       // base ui components theme use same theme.
-      SetSystemTheme(static_cast<OneVNThemeType>(
-          profile->GetPrefs()->GetInteger(kOneVNThemeType)));
+      SetSystemTheme(static_cast<OnevnThemeType>(
+          profile->GetPrefs()->GetInteger(kOnevnThemeType)));
     }
 
     onevn_theme_type_pref_.Init(
-      kOneVNThemeType,
+      kOnevnThemeType,
       profile->GetPrefs(),
-      base::Bind(&OneVNThemeService::OnPreferenceChanged,
+      base::Bind(&OnevnThemeService::OnPreferenceChanged,
                  base::Unretained(this)));
 
     onevn_theme_event_router_.reset(
-        new extensions::OneVNThemeEventRouter(profile));
+        new extensions::OnevnThemeEventRouter(profile));
   }
 
   ThemeService::Init(profile);
 }
 
-SkColor OneVNThemeService::GetDefaultColor(int id, bool incognito) const {
-  // OneVN Tor profiles are always 'incognito' (for now)
+SkColor OnevnThemeService::GetDefaultColor(int id, bool incognito) const {
+  // Onevn Tor profiles are always 'incognito' (for now)
   if (!incognito && profile()->IsTorProfile())
     incognito = true;
-  const OneVNThemeType theme = GetActiveOneVNThemeType(profile());
+  const OnevnThemeType theme = GetActiveOnevnThemeType(profile());
   const base::Optional<SkColor> onevnColor =
-      MaybeGetDefaultColorForOneVNUi(id, incognito, theme);
+      MaybeGetDefaultColorForOnevnUi(id, incognito, theme);
   if (onevnColor)
       return onevnColor.value();
   // make sure we fallback to chrome's dark theme (incognito) for our dark theme
-  if (theme == OneVNThemeType::ONEVN_THEME_TYPE_DARK)
+  if (theme == OnevnThemeType::ONEVN_THEME_TYPE_DARK)
     incognito = true;
   return ThemeService::GetDefaultColor(id, incognito);
 }
 
-void OneVNThemeService::OnPreferenceChanged(const std::string& pref_name) {
-  DCHECK(pref_name == kOneVNThemeType);
+void OnevnThemeService::OnPreferenceChanged(const std::string& pref_name) {
+  DCHECK(pref_name == kOnevnThemeType);
 
   // Changing theme type means default theme is not overridden anymore.
-  profile()->GetPrefs()->SetBoolean(kUseOverriddenOneVNThemeType, false);
+  profile()->GetPrefs()->SetBoolean(kUseOverriddenOnevnThemeType, false);
 
   bool notify_theme_observer_here = true;
 #if defined(OS_MACOSX)
@@ -200,51 +200,51 @@ void OneVNThemeService::OnPreferenceChanged(const std::string& pref_name) {
     // So, we don't need to notify again. See NotifyProperThemeObserver()
     // in chromium_src/ui/native_theme/native_theme_mac.mm.
     notify_theme_observer_here = false;
-    SetSystemTheme(static_cast<OneVNThemeType>(
-        profile()->GetPrefs()->GetInteger(kOneVNThemeType)));
+    SetSystemTheme(static_cast<OnevnThemeType>(
+        profile()->GetPrefs()->GetInteger(kOnevnThemeType)));
   }
 #endif
   if (notify_theme_observer_here) {
     // Notify dark (cross-platform) and light (platform-specific) variants
     // When theme is changed from light to dark, we notify to light theme
     // observer because NativeThemeObserver observes light native theme.
-    GetActiveOneVNThemeType(profile()) == OneVNThemeType::ONEVN_THEME_TYPE_LIGHT
+    GetActiveOnevnThemeType(profile()) == OnevnThemeType::ONEVN_THEME_TYPE_LIGHT
         ? ui::NativeThemeDarkAura::instance()->NotifyObservers()
         : ui::NativeTheme::GetInstanceForNativeUi()->NotifyObservers();
   }
 }
 
-void OneVNThemeService::RecoverPrefStates(Profile* profile) {
-  // kUseOverriddenOneVNThemeType is true means pref states are not cleaned
+void OnevnThemeService::RecoverPrefStates(Profile* profile) {
+  // kUseOverriddenOnevnThemeType is true means pref states are not cleaned
   // up properly at the last running(ex, crash). Recover them here.
-  if (profile->GetPrefs()->GetBoolean(kUseOverriddenOneVNThemeType)) {
-    profile->GetPrefs()->SetInteger(kOneVNThemeType,
-                                    OneVNThemeType::ONEVN_THEME_TYPE_DEFAULT);
+  if (profile->GetPrefs()->GetBoolean(kUseOverriddenOnevnThemeType)) {
+    profile->GetPrefs()->SetInteger(kOnevnThemeType,
+                                    OnevnThemeType::ONEVN_THEME_TYPE_DEFAULT);
   }
 }
 
-void OneVNThemeService::OverrideDefaultThemeIfNeeded(Profile* profile) {
+void OnevnThemeService::OverrideDefaultThemeIfNeeded(Profile* profile) {
   if (!SystemThemeModeEnabled() &&
-      profile->GetPrefs()->GetInteger(kOneVNThemeType) ==
-          OneVNThemeType::ONEVN_THEME_TYPE_DEFAULT) {
-    profile->GetPrefs()->SetBoolean(kUseOverriddenOneVNThemeType,
+      profile->GetPrefs()->GetInteger(kOnevnThemeType) ==
+          OnevnThemeType::ONEVN_THEME_TYPE_DEFAULT) {
+    profile->GetPrefs()->SetBoolean(kUseOverriddenOnevnThemeType,
                                     true);
-    profile->GetPrefs()->SetInteger(kOneVNThemeType,
+    profile->GetPrefs()->SetInteger(kOnevnThemeType,
                                     GetThemeTypeBasedOnChannel());
   }
 }
 
-void OneVNThemeService::SetOneVNThemeEventRouterForTesting(
-    extensions::OneVNThemeEventRouter* mock_router) {
+void OnevnThemeService::SetOnevnThemeEventRouterForTesting(
+    extensions::OnevnThemeEventRouter* mock_router) {
   onevn_theme_event_router_.reset(mock_router);
 }
 
 // static
-bool OneVNThemeService::use_system_theme_mode_in_test_ = false;
-bool OneVNThemeService::is_test_ = false;
+bool OnevnThemeService::use_system_theme_mode_in_test_ = false;
+bool OnevnThemeService::is_test_ = false;
 
 // static
-bool OneVNThemeService::SystemThemeModeEnabled() {
+bool OnevnThemeService::SystemThemeModeEnabled() {
   if (is_test_)
     return use_system_theme_mode_in_test_;
 

@@ -10,11 +10,11 @@
 
 namespace extensions {
 
-OneVNNativeExtensionBindingsSystem::OneVNNativeExtensionBindingsSystem(
+OnevnNativeExtensionBindingsSystem::OnevnNativeExtensionBindingsSystem(
     std::unique_ptr<IPCMessageSender> ipc_message_sender)
     : NativeExtensionBindingsSystem(std::move(ipc_message_sender)) {
   api_system()->RegisterCustomType("onevnShields.ContentSetting",
-                                   base::Bind(&OneVNShieldsContentSetting::Create));
+                                   base::Bind(&OnevnShieldsContentSetting::Create));
 }
 
 }  // namespace extensions

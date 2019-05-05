@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -10,10 +10,10 @@
 
 namespace {
 
-typedef testing::Test OneVNShieldsExceptionsTest;
+typedef testing::Test OnevnShieldsExceptionsTest;
 using onevn::IsWhitelistedCookieException;
 
-TEST_F(OneVNShieldsExceptionsTest, IsWhitelistedCookieException) {
+TEST_F(OnevnShieldsExceptionsTest, IsWhitelistedCookieException) {
   // Cookie exceptions for Google auth domains
   EXPECT_TRUE(IsWhitelistedCookieException(GURL("https://www.airbnb.com/"),
       GURL("https://accounts.google.com/o/oauth2/iframe"), true));

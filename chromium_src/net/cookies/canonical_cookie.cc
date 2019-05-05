@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
@@ -12,7 +12,7 @@ const base::TimeDelta kMaxClientSideExpiration = base::TimeDelta::FromDays(7);
 const base::TimeDelta kMaxServerSideExpiration =
     base::TimeDelta::FromDays(30*6);  // 6 months
 
-base::Time OneVNCanonExpiration(const net::ParsedCookie& pc,
+base::Time OnevnCanonExpiration(const net::ParsedCookie& pc,
                                 const base::Time& current,
                                 const base::Time& server_time,
                                 const bool is_from_http) {

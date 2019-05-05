@@ -8,9 +8,9 @@
 #include "chrome/browser/ui/toolbar/toolbar_actions_model.h"
 #include "extensions/common/extension.h"
 
-bool OneVNToolbarActionsModel::ShouldAddExtension(const extensions::Extension* extension) {
-  // Don't show the OneVN and Rewards 'extensions' in the ToolbarActions
-  // extensions area. They will instead be shown in the OneVNActions area.
+bool OnevnToolbarActionsModel::ShouldAddExtension(const extensions::Extension* extension) {
+  // Don't show the Onevn and Rewards 'extensions' in the ToolbarActions
+  // extensions area. They will instead be shown in the OnevnActions area.
   if (extension->id() == onevn_extension_id || 
       extension->id() == onevn_rewards_extension_id) {
     return false;

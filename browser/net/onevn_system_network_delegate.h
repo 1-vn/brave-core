@@ -7,12 +7,12 @@
 
 #include "onevn/browser/net/onevn_network_delegate_base.h"
 
-class OneVNSystemNetworkDelegate : public OneVNNetworkDelegateBase {
+class OnevnSystemNetworkDelegate : public OnevnNetworkDelegateBase {
  public:
-  OneVNSystemNetworkDelegate(extensions::EventRouterForwarder* event_router);
-  ~OneVNSystemNetworkDelegate() override;
+  OnevnSystemNetworkDelegate(extensions::EventRouterForwarder* event_router);
+  ~OnevnSystemNetworkDelegate() override;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNSystemNetworkDelegate);
+  DISALLOW_COPY_AND_ASSIGN(OnevnSystemNetworkDelegate);
 };
 
 #endif  // ONEVN_BROWSER_NET_ONEVN_SYSTEM_NETWORK_DELEGATE_H_

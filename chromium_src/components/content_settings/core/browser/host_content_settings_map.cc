@@ -5,8 +5,8 @@
 #include "onevn/components/content_settings/core/browser/onevn_content_settings_ephemeral_provider.h"
 #include "onevn/components/content_settings/core/browser/onevn_content_settings_pref_provider.h"
 
-#define EphemeralProvider OneVNEphemeralProvider
-#define PrefProvider OneVNPrefProvider
+#define EphemeralProvider OnevnEphemeralProvider
+#define PrefProvider OnevnPrefProvider
 #include "../../../../../../components/content_settings/core/browser/host_content_settings_map.cc"
 #undef EphemeralProvider
 #undef PrefProvider

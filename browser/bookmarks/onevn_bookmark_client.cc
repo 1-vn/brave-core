@@ -10,7 +10,7 @@
 #include "components/bookmarks/managed/managed_bookmark_service.h"
 #include "components/sync_bookmarks/bookmark_sync_service.h"
 
-OneVNBookmarkClient::OneVNBookmarkClient(
+OnevnBookmarkClient::OnevnBookmarkClient(
     Profile* profile,
     bookmarks::ManagedBookmarkService* managed_bookmark_service,
     sync_bookmarks::BookmarkSyncService* bookmark_sync_service)
@@ -18,12 +18,12 @@ OneVNBookmarkClient::OneVNBookmarkClient(
                            managed_bookmark_service,
                            bookmark_sync_service) {}
 
-bookmarks::LoadExtraCallback OneVNBookmarkClient::GetLoadExtraNodesCallback() {
+bookmarks::LoadExtraCallback OnevnBookmarkClient::GetLoadExtraNodesCallback() {
   return base::BindOnce(&onevn_sync::LoadExtraNodes,
       ChromeBookmarkClient::GetLoadExtraNodesCallback());
 }
 
-bool OneVNBookmarkClient::IsPermanentNodeVisible(
+bool OnevnBookmarkClient::IsPermanentNodeVisible(
     const bookmarks::BookmarkPermanentNode* node) {
   if (onevn_sync::IsSyncManagedNode(node))
     return false;  // don't display sync managed nodes

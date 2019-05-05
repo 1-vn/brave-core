@@ -7,7 +7,7 @@ index 4f0ad5378847cb9ee99569a206994c50683d06bf..6e128e4631a358208b9b3cda3213c52b
  
  const wchar_t GoogleUpdateSettings::kPoliciesKey[] =
 +#if defined(ONEVN_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD)
-+    L"SOFTWARE\\Policies\\OneVNSoftware\\Update";
++    L"SOFTWARE\\Policies\\OnevnSoftware\\Update";
 +#else
      L"SOFTWARE\\Policies\\Google\\Update";
 +#endif

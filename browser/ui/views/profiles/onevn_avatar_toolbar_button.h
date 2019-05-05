@@ -7,12 +7,12 @@
 
 #include "chrome/browser/ui/views/profiles/avatar_toolbar_button.h"
 
-class OneVNAvatarToolbarButton : public AvatarToolbarButton {
+class OnevnAvatarToolbarButton : public AvatarToolbarButton {
   public:
     using AvatarToolbarButton::AvatarToolbarButton;
   private:
     gfx::ImageSkia GetAvatarIcon() const override;
-    DISALLOW_COPY_AND_ASSIGN(OneVNAvatarToolbarButton);
+    DISALLOW_COPY_AND_ASSIGN(OnevnAvatarToolbarButton);
 };
 
 #endif

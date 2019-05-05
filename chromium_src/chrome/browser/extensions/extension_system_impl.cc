@@ -6,6 +6,6 @@
 #include "chrome/browser/extensions/crx_installer.h"
 #include "chrome/browser/extensions/update_install_gate.h"
 
-#define ExtensionService OneVNExtensionService
+#define ExtensionService OnevnExtensionService
 #include "../../../../../chrome/browser/extensions/extension_system_impl.cc"
 #undef ExtensionService

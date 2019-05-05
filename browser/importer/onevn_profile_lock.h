@@ -8,10 +8,10 @@
 #include "base/files/file_path.h"
 #include "onevn/browser/importer/chrome_profile_lock.h"
 
-class OneVNProfileLock : public ChromeProfileLock {
+class OnevnProfileLock : public ChromeProfileLock {
  public:
-  explicit OneVNProfileLock(const base::FilePath& user_data_dir);
-  ~OneVNProfileLock() override;
+  explicit OnevnProfileLock(const base::FilePath& user_data_dir);
+  ~OnevnProfileLock() override;
 
   void Lock() override;
 };

@@ -8,7 +8,7 @@
 
 
 
-OneVNAutocompleteController::OneVNAutocompleteController(
+OnevnAutocompleteController::OnevnAutocompleteController(
     std::unique_ptr<AutocompleteProviderClient> provider_client,
     AutocompleteControllerDelegate* delegate,
     int provider_types) :
@@ -22,6 +22,6 @@ OneVNAutocompleteController::OneVNAutocompleteController(
     }
  }
 
- OneVNAutocompleteController::~OneVNAutocompleteController() {
+ OnevnAutocompleteController::~OnevnAutocompleteController() {
 
  }

@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -15,10 +15,10 @@ namespace base {
 class CommandLine;
 }
 
-class OneVNCommandLineHelper {
+class OnevnCommandLineHelper {
  public:
-  explicit OneVNCommandLineHelper(base::CommandLine* command_line);
-  inline ~OneVNCommandLineHelper() = default;
+  explicit OnevnCommandLineHelper(base::CommandLine* command_line);
+  inline ~OnevnCommandLineHelper() = default;
 
   void AppendSwitch(const char* switch_key);
   void AppendFeatures(const std::unordered_set<const char*>& enabled,
@@ -38,7 +38,7 @@ class OneVNCommandLineHelper {
   std::unordered_set<std::string> enabled_features_;
   std::unordered_set<std::string> disabled_features_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNCommandLineHelper);
+  DISALLOW_COPY_AND_ASSIGN(OnevnCommandLineHelper);
 };
 
 #endif  // ONEVN_APP_ONEVN_COMMAND_LINE_HELPER_H_

@@ -8,8 +8,8 @@
 namespace onevn_rewards {
 namespace prefs {
 
-extern const char kOneVNRewardsEnabled[];
-extern const char kOneVNRewardsEnabledMigrated[];
+extern const char kOnevnRewardsEnabled[];
+extern const char kOnevnRewardsEnabledMigrated[];
 extern const char kRewardsNotifications[];
 extern const char kRewardsNotificationTimerInterval[];
 extern const char kRewardsBackupNotificationFrequency[];

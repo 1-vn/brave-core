@@ -6,7 +6,7 @@ index 1b8b9c5cfc50bcee13fb994cdbed9afe46c0b897..a6df9a04ac992b1840259cdb69ca524d
  #include "extensions/buildflags/buildflags.h"
  #include "ppapi/buildflags/buildflags.h"
  
-+class OneVNRenderMessageFilter;
++class OnevnRenderMessageFilter;
  class GURL;
  class Profile;
  
@@ -14,7 +14,7 @@ index 1b8b9c5cfc50bcee13fb994cdbed9afe46c0b897..a6df9a04ac992b1840259cdb69ca524d
                                  content::BrowserThread::ID* thread) override;
  
   private:
-+  friend class OneVNRenderMessageFilter;
++  friend class OnevnRenderMessageFilter;
    friend class content::BrowserThread;
    friend class base::DeleteHelper<ChromeRenderMessageFilter>;
  

@@ -8,7 +8,7 @@
 #include "base/path_service.h"
 #include "base/strings/string16.h"
 
-base::FilePath GetOneVNUserDataFolder() {
+base::FilePath GetOnevnUserDataFolder() {
   base::FilePath result;
   if (!base::PathService::Get(base::DIR_APP_DATA, &result))
     return base::FilePath();

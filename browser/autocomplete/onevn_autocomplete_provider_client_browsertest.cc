@@ -10,22 +10,22 @@
 #include "chrome/test/base/in_process_browser_test.h"
 #include "chrome/test/base/testing_browser_process.h"
 
-using OneVNAutocompleteProviderClientTest = InProcessBrowserTest;
+using OnevnAutocompleteProviderClientTest = InProcessBrowserTest;
 
-// OneVNAutocompleteProviderClient should only use different TemplateURLService.
+// OnevnAutocompleteProviderClient should only use different TemplateURLService.
 // And Other service should be same for normal/incognito profile.
-IN_PROC_BROWSER_TEST_F(OneVNAutocompleteProviderClientTest,
+IN_PROC_BROWSER_TEST_F(OnevnAutocompleteProviderClientTest,
                        DependentServiceCheckTest) {
   Profile* profile = browser()->profile();
   Profile* incognito_profile = profile->GetOffTheRecordProfile();
 
-  // OneVN initiates different AutocompleteClassifier service for
+  // Onevn initiates different AutocompleteClassifier service for
   // normal/incognito profile.
   EXPECT_NE(AutocompleteClassifierFactory::GetForProfile(profile),
             AutocompleteClassifierFactory::GetForProfile(incognito_profile));
 
-  OneVNAutocompleteProviderClient normal_client(profile);
-  OneVNAutocompleteProviderClient incognito_client(incognito_profile);
+  OnevnAutocompleteProviderClient normal_client(profile);
+  OnevnAutocompleteProviderClient incognito_client(incognito_profile);
 
   // Check different TemplateURLService is used.
   EXPECT_NE(normal_client.GetTemplateURLService(),

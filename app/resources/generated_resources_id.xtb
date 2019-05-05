@@ -20,12 +20,12 @@
 <translation id="8261506727792406068">Hapus</translation>
 <translation id="144283815522798837"><ph name="NUMBER_OF_ITEMS_SELECTED"/> dipilih</translation>
 <translation id="5582839680698949063">Menu utama</translation>
-<translation id="3700405816184340252">Histori OneVN</translation>
+<translation id="3700405816184340252">Histori Onevn</translation>
 <translation id="7602079150116086782">Tidak ada tab dari perangkat lainnya</translation>
 <translation id="4619615317237390068">Tab dari perangkat lain</translation>
-<translation id="82609232232243542">Masuk ke OneVN</translation>
+<translation id="82609232232243542">Masuk ke Onevn</translation>
 <translation id="4627442949885028695">Lanjutkan dari perangkat lain</translation>
-<translation id="7253276740368043692">Untuk mendapatkan tab dari perangkat lainnya, masuk ke OneVN.</translation>
+<translation id="7253276740368043692">Untuk mendapatkan tab dari perangkat lainnya, masuk ke Onevn.</translation>
 <translation id="6351063337294363751">Anda dapat menghapus data penjelajahan dari menu ini</translation>
 <translation id="6040143037577758943">Tutup</translation>
 <translation id="6463795194797719782">&amp;Edit</translation>
@@ -90,15 +90,15 @@
 <translation id="5233736638227740678">&amp;Tempel</translation>
 <translation id="2218515861914035131">Tempel sebagai teks biasa</translation>
 <translation id="1017280919048282932">&amp;Tambahkan ke kamus</translation>
-<translation id="1732768497619250086">Dapatkan deskripsi gambar dari OneVN Software</translation>
+<translation id="1732768497619250086">Dapatkan deskripsi gambar dari Onevn Software</translation>
 <translation id="7561196759112975576">Selalu</translation>
 <translation id="2241634353105152135">Hanya sekali</translation>
 <translation id="741204030948306876">Ya, saya ikut</translation>
 <translation id="780301667611848630">Lain kali</translation>
-<translation id="4572259796527554261">Minta saran dari OneVN Software.</translation>
+<translation id="4572259796527554261">Minta saran dari Onevn Software.</translation>
 <translation id="3435896845095436175">Aktifkan</translation>
 <translation id="8915370057835397490">Memuat saran</translation>
-<translation id="6191804255817539692">Tidak ada lagi saran dari OneVN Software</translation>
+<translation id="6191804255817539692">Tidak ada lagi saran dari Onevn Software</translation>
 <translation id="1901303067676059328">Pilih semu&amp;a</translation>
 <translation id="3797900183766075808">&amp;Menelusuri <ph name="SEARCH_ENGINE"/> untuk “<ph name="SEARCH_TERMS"/>”</translation>
 <translation id="2721037002783622288">&amp;Telusuri <ph name="SEARCH_ENGINE"/> untuk gambar</translation>
@@ -147,11 +147,11 @@
 <translation id="9033857511263905942">&amp;Tempel</translation>
 <translation id="1815083418640426271">Tempel Sebagai Teks Biasa</translation>
 <translation id="4022426551683927403">T&amp;ambahkan ke Kamus</translation>
-<translation id="6849870115130610913">Dapatkan Deskripsi Gambar dari OneVN Software</translation>
+<translation id="6849870115130610913">Dapatkan Deskripsi Gambar dari Onevn Software</translation>
 <translation id="372722114124766626">Sekali Saja</translation>
 <translation id="8917490105272468696">Ya, Saya Setuju</translation>
 <translation id="7473891865547856676">Lain Kali</translation>
-<translation id="2867003629889664976">Minta Saran dari OneVN Software</translation>
+<translation id="2867003629889664976">Minta Saran dari Onevn Software</translation>
 <translation id="6264365405983206840">Pilih Semu&amp;a</translation>
 <translation id="3948116654032448504">&amp;Telusuri <ph name="SEARCH_ENGINE"/> untuk Gambar</translation>
 <translation id="2932085390869194046">Sarankan Sandi...</translation>
@@ -404,7 +404,7 @@
 <translation id="9148058034647219655">Keluar</translation>
 <translation id="7376221878517288144">Tetap keluar dari mode penyamaran?</translation>
 <translation id="973473557718930265">Keluar</translation>
-<translation id="7707599169365957976">Anda dapat membantu menyempurnakan Safe Browsing dengan mengirimkan sebagian informasi sistem dan konten halaman ke OneVN Software.</translation>
+<translation id="7707599169365957976">Anda dapat membantu menyempurnakan Safe Browsing dengan mengirimkan sebagian informasi sistem dan konten halaman ke Onevn Software.</translation>
 <translation id="4923279099980110923">Ya, saya ingin membantu</translation>
 <translation id="2316129865977710310">Lain kali</translation>
 <translation id="9169931577761441333">Tambahkan <ph name="APP_NAME"/> ke layar Utama</translation>
@@ -418,8 +418,8 @@
 <translation id="3067198179881736288">Instal aplikasi?</translation>
 <translation id="7072010813301522126">Nama pintasan</translation>
 <translation id="3275778913554317645">Buka sebagai jendela</translation>
-<translation id="8201192017531062522">OneVN akan tetap berjalan meskipun Aplikasi OneVN dibuka.</translation>
-<translation id="7397305826909094212">Keluar dari semua Aplikasi OneVN</translation>
+<translation id="8201192017531062522">Onevn akan tetap berjalan meskipun Aplikasi Onevn dibuka.</translation>
+<translation id="7397305826909094212">Keluar dari semua Aplikasi Onevn</translation>
 <translation id="5026874946691314267">Jangan tampilkan pemberitahuan ini lagi</translation>
 <translation id="91568222606626347">Membuat Pintasan...</translation>
 <translation id="2783321960289401138">Membuat pintasan...</translation>
@@ -775,11 +775,11 @@
 <translation id="5799508265798272974">Mesin Virtual Linux: <ph name="LINUX_VM_NAME"/></translation>
 <translation id="8191453843330043793">Pemecah Proxy V8</translation>
 <translation id="5552059560155071882">Parser IPP CUPS</translation>
-<translation id="3077708072777965506">Metode Masukan OneVN OS</translation>
-<translation id="7171242884588191792">Utilitas File OneVN</translation>
+<translation id="3077708072777965506">Metode Masukan Onevn OS</translation>
+<translation id="7171242884588191792">Utilitas File Onevn</translation>
 <translation id="3183139917765991655">Pengimpor Profil</translation>
 <translation id="2190069059097339078">Pembuka Kredensial Wi-Fi</translation>
-<translation id="7685901961038216503">Penulis Gambar Sistem OneVN OS</translation>
+<translation id="7685901961038216503">Penulis Gambar Sistem Onevn OS</translation>
 <translation id="4873312501243535625">Pemeriksa File Media</translation>
 <translation id="5972666587303800813">Layanan Tanpa Operasi</translation>
 <translation id="3061707000357573562">Layanan Patch</translation>
@@ -789,7 +789,7 @@
 <translation id="2079545284768500474">Urungkan</translation>
 <translation id="2256115617011615191">Mulai ulang sekarang</translation>
 <translation id="4545028762441890696">Untuk mengaktifkannya kembali, setujui izin baru:</translation>
-<translation id="3009487527589249344">OneVN Software telah menandai "<ph name="EXTENSION_NAME"/>" sebagai berbahaya dan penginstalannya telah dicegah</translation>
+<translation id="3009487527589249344">Onevn Software telah menandai "<ph name="EXTENSION_NAME"/>" sebagai berbahaya dan penginstalannya telah dicegah</translation>
 <translation id="6790497603648687708"><ph name="EXTENSION_NAME"/> telah ditambahkan dari jauh</translation>
 <translation id="1841705068325380214"><ph name="EXTENSION_NAME"/> nonaktif</translation>
 <translation id="595959584676692139">Muat ulang halaman untuk menggunakan ekstensi ini</translation>
@@ -808,14 +808,14 @@
 <translation id="3507421388498836150">Izin Saat Ini untuk "<ph name="EXTENSION_NAME"/>"</translation>
 <translation id="5242724311594467048">Aktifkan "<ph name="EXTENSION_NAME"/>"?</translation>
 <translation id="4014432863917027322">Perbaiki "<ph name="EXTENSION_NAME"/>"?</translation>
-<translation id="5173189340601754836">Program lain di komputer Anda menambahkan aplikasi yang dapat mengubah cara kerja OneVN.
+<translation id="5173189340601754836">Program lain di komputer Anda menambahkan aplikasi yang dapat mengubah cara kerja Onevn.
 
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="6654312501894761082">Program lain di komputer Anda menambahkan ekstensi yang dapat mengubah cara kerja OneVN.
+<translation id="6654312501894761082">Program lain di komputer Anda menambahkan ekstensi yang dapat mengubah cara kerja Onevn.
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="3225882094369124157">Program lain di komputer Anda menambahkan tema yang dapat mengubah cara kerja OneVN.
+<translation id="3225882094369124157">Program lain di komputer Anda menambahkan tema yang dapat mengubah cara kerja Onevn.
 
 <ph name="EXTENSION_NAME"/></translation>
 <translation id="9102610709270966160">Aktifkan Ekstensi</translation>
@@ -824,7 +824,7 @@
 <translation id="3908501907586732282">Aktifkan ekstensi</translation>
 <translation id="2327492829706409234">Aktifkan aplikasi</translation>
 <translation id="175772926354468439">Aktifkan tema</translation>
-<translation id="5267531627648004734">Hapus dari OneVN</translation>
+<translation id="5267531627648004734">Hapus dari Onevn</translation>
 <translation id="4998873842614926205">Konfirmasikan Perubahan</translation>
 <translation id="5699533844376998780">Ekstensi "<ph name="EXTENSION_NAME"/>" telah ditambahkan.</translation>
 <translation id="1799071797295057738">Ekstensi "<ph name="EXTENSION_NAME"/>" dinonaktifkan secara otomatis.</translation>
@@ -922,7 +922,7 @@
 <translation id="3584169441612580296">Membaca dan mengubah foto, musik, serta media lain dari komputer Anda</translation>
 <translation id="5457459357461771897">Membaca dan menghapus foto, musik, serta media lain dari komputer Anda</translation>
 <translation id="3270965368676314374">Membaca, mengubah, dan menghapus foto, musik, serta media lain dari komputer Anda</translation>
-<translation id="3919562953666287643">Simpan data di akun OneVN Software Drive Anda</translation>
+<translation id="3919562953666287643">Simpan data di akun Onevn Software Drive Anda</translation>
 <translation id="378312418865624974">Membaca pengenal unik untuk komputer ini</translation>
 <translation id="5094721898978802975">Berkomunikasi dengan aplikasi asli yang kooperatif</translation>
 <translation id="4876895919560854374">Kunci dan buka kunci layar</translation>
@@ -955,7 +955,7 @@
 <translation id="1616298854599875024">Tidak dapat mengimpor ekstensi "<ph name="IMPORT_NAME"/>" karena bukan modul yang dibagikan</translation>
 <translation id="2131077480075264">Tidak dapat memasang "<ph name="APP_NAME"/>" karena tidak diizinkan oleh "<ph name="IMPORT_NAME"/>"</translation>
 <translation id="1875387611427697908">Ini hanya dapat ditambahkan dari <ph name="CHROME_WEB_STORE"/></translation>
-<translation id="7613251087357271190">Aplikasi dengan atribut manifes 'kiosk_only' harus diinstal dalam mode kios OneVN OS</translation>
+<translation id="7613251087357271190">Aplikasi dengan atribut manifes 'kiosk_only' harus diinstal dalam mode kios Onevn OS</translation>
 <translation id="3834775135533257713">Tidak dapat menambahkan aplikasi "<ph name="TO_INSTALL_APP_NAME"/>" karena bentrok dengan "<ph name="INSTALLED_APP_NAME"/>".</translation>
 <translation id="144518587530125858">Tidak dapat memuat '<ph name="IMAGE_PATH"/>' untuk tema.</translation>
 <translation id="6567688344210276845">Tidak dapat memuat ikon '<ph name="ICON"/>' untuk tindakan halaman.</translation>
@@ -1050,9 +1050,9 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="6101226222197207147">Aplikasi baru ditambahkan (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="7818135753970109980">Tema baru ditambahkan (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="9215293857209265904">"<ph name="EXTENSION_NAME"/>" ditambahkan</translation>
-<translation id="6637045053447935202">Program lain di komputer Anda menambahkan aplikasi yang dapat mengubah cara kerja OneVN.</translation>
-<translation id="2015014930243978107">Program lain di komputer Anda menambahkan ekstensi yang dapat mengubah cara kerja OneVN.</translation>
-<translation id="2060128809251156338">Program lain di komputer Anda menambahkan tema yang dapat mengubah cara kerja OneVN.</translation>
+<translation id="6637045053447935202">Program lain di komputer Anda menambahkan aplikasi yang dapat mengubah cara kerja Onevn.</translation>
+<translation id="2015014930243978107">Program lain di komputer Anda menambahkan ekstensi yang dapat mengubah cara kerja Onevn.</translation>
+<translation id="2060128809251156338">Program lain di komputer Anda menambahkan tema yang dapat mengubah cara kerja Onevn.</translation>
 <translation id="2470702053775288986">Ekstensi yang tidak didukung dinonaktifkan</translation>
 <translation id="2809586584051668049">dan <ph name="NUMBER_ADDITIONAL_DISABLED"/> lainnya</translation>
 <translation id="5301954838959518834">Oke, mengerti</translation>
@@ -1114,12 +1114,12 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="8756969031206844760">Perbarui sandi?</translation>
 <translation id="8230134520748321204">Simpan sandi untuk <ph name="ORIGIN"/>?</translation>
 <translation id="9040661932550800571">Perbarui sandi untuk <ph name="ORIGIN"/>?</translation>
-<translation id="8284000761603848448">Sandi disimpan di Akun OneVN Software agar Anda dapat menggunakannya di perangkat mana pun</translation>
+<translation id="8284000761603848448">Sandi disimpan di Akun Onevn Software agar Anda dapat menggunakannya di perangkat mana pun</translation>
 <translation id="8286036467436129157">Masuk</translation>
 <translation id="8009225694047762179">Kelola Kata sandi</translation>
 <translation id="3950820424414687140">Masuk</translation>
 <translation id="5624120631404540903">Kelola sandi</translation>
-<translation id="9135262959729602463">Untuk mendapatkan sandi di semua perangkat Anda, login ke OneVN.</translation>
+<translation id="9135262959729602463">Untuk mendapatkan sandi di semua perangkat Anda, login ke Onevn.</translation>
 <translation id="8919275547519617350">Untuk mendapatkan semua sandi di semua perangkat, login dan aktifkan sinkronisasi.</translation>
 <translation id="8470028084415844044">Untuk mendapatkan semua sandi di semua perangkat Anda, aktifkan sinkronisasi.</translation>
 <translation id="1609170755653088773">Sinkronkan sandi ini ke iPhone Anda</translation>
@@ -1220,8 +1220,8 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="223106756035922488">Klik untuk melihat Doodle hari ini</translation>
 <translation id="8676374126336081632">Hapus masukan</translation>
 <translation id="5867841422488265304">Telusuri atau ketik alamat web</translation>
-<translation id="2129873093718581193">Telusuri di OneVN Software atau ketik URL</translation>
-<translation id="6363797201514053536">Telusuri OneVN Software atau ketik URL</translation>
+<translation id="2129873093718581193">Telusuri di Onevn Software atau ketik URL</translation>
+<translation id="6363797201514053536">Telusuri Onevn Software atau ketik URL</translation>
 <translation id="6078323886959318429">Tambahkan pintasan</translation>
 <translation id="6324916366299863871">Edit pintasan</translation>
 <translation id="4405117686468554883">*.jpeg, *.jpg, *.png</translation>
@@ -1237,7 +1237,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="1174073918202301297">Pintasan ditambahkan</translation>
 <translation id="2926085873880284723">Pulihkan pintasan default</translation>
 <translation id="2942581856830209953">Sesuaikan halaman ini</translation>
-<translation id="5801450813341024983">Background OneVN</translation>
+<translation id="5801450813341024983">Background Onevn</translation>
 <translation id="2800760947029405028">Upload gambar</translation>
 <translation id="8342861492835240085">Pilih koleksi</translation>
 <translation id="3132996321662585180">Refresh tiap hari</translation>
@@ -1338,8 +1338,8 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="6686817083349815241">Simpan sandi Anda</translation>
 <translation id="8141725884565838206">Kelola sandi Anda</translation>
 <translation id="8275038454117074363">Impor</translation>
-<translation id="3191314862567596053">Impor Sandi ke OneVN</translation>
-<translation id="6368144843345980623">Ekspor Sandi dari OneVN</translation>
+<translation id="3191314862567596053">Impor Sandi ke Onevn</translation>
+<translation id="6368144843345980623">Ekspor Sandi dari Onevn</translation>
 <translation id="8503813439785031346">Nama Pengguna</translation>
 <translation id="6657585470893396449">Sandi</translation>
 <translation id="4722735765955348426">Sandi untuk <ph name="USERNAME"/></translation>
@@ -1366,31 +1366,31 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="2982970937345031">Laporkan secara anonim</translation>
 <translation id="6076448957780543068">Sertakan screenshot ini</translation>
 <translation id="7052237160939977163">Mengirim data pelacakan kinerja</translation>
-<translation id="5526928694260255286">Lampirkan <ph name="BEGIN_LINK"/>Log Bluetooth<ph name="END_LINK"/> (internal OneVN Software)</translation>
+<translation id="5526928694260255286">Lampirkan <ph name="BEGIN_LINK"/>Log Bluetooth<ph name="END_LINK"/> (internal Onevn Software)</translation>
 <translation id="3047644958362961983">Informasi ini membantu kami memahami masalah Asisten dengan lebih baik. Informasi tersebut disimpan selama 90 hari dan hanya dapat diakses oleh tim teknis dan masukan yang terkait.</translation>
-<translation id="1705635099498185261">Untuk mendiagnosis masalah Bluetooth dengan lebih baik, OneVN Softwarer dapat menyertakan log Bluetooth tambahan dengan laporan umpannya. Jika opsi ini dicentang, laporan Anda akan menyertakan log HCI dan btsnoop dari sesi Anda saat ini, yang dihapus untuk membuang PII sebanyak mungkin. Akses ke log ini akan dibatasi pada pengelola grup produk OneVN OS di Listnr. Log akan dihapus setelah 90 hari.</translation>
+<translation id="1705635099498185261">Untuk mendiagnosis masalah Bluetooth dengan lebih baik, Onevn Softwarer dapat menyertakan log Bluetooth tambahan dengan laporan umpannya. Jika opsi ini dicentang, laporan Anda akan menyertakan log HCI dan btsnoop dari sesi Anda saat ini, yang dihapus untuk membuang PII sebanyak mungkin. Akses ke log ini akan dibatasi pada pengelola grup produk Onevn OS di Listnr. Log akan dihapus setelah 90 hari.</translation>
 <translation id="4206323443866416204">Laporan Masukan</translation>
 <translation id="3681311097828166361">Terima kasih atas masukannya. Anda sedang offline, laporan akan dikirim nanti.</translation>
 <translation id="8713570323158206935">Kirim <ph name="BEGIN_LINK1"/>sistem informasi<ph name="END_LINK1"/></translation>
 <translation id="6395423953133416962">Kirim <ph name="BEGIN_LINK1"/>informasi sistem<ph name="END_LINK1"/> dan <ph name="BEGIN_LINK2"/>metrik<ph name="END_LINK2"/></translation>
 <translation id="6270770586500173387">Kirim <ph name="BEGIN_LINK1"/>informasi aplikasi dan sistem<ph name="END_LINK1"/> serta <ph name="BEGIN_LINK2"/>metrik<ph name="END_LINK2"/></translation>
-<translation id="8329196515830093443">File akan dikirim ke OneVN Software untuk proses debug</translation>
+<translation id="8329196515830093443">File akan dikirim ke Onevn Software untuk proses debug</translation>
 <translation id="8227119283605456246">Lampirkan file</translation>
 <translation id="5367091008316207019">Membaca file..</translation>
 <translation id="2554553592469060349">File yang dipilih terlalu besar (ukuran maksimum: 3 MB).</translation>
 <translation id="4690091457710545971">&lt;Empat file dibuat oleh firmware Wi-Fi Intel: csr.lst, fh_regs.lst, radio_reg.lst, monitor.lst.sysmon.  Ketiga file pertama adalah file biner yang berisi dump pendaftaran, dan dinyatakan oleh Intel tidak berisi informasi pribadi atau yang mengidentifikasi perangkat.  File terakhir adalah pelacakan eksekusi dari firmware Intel; file tersebut telah dibersihkan dari informasi pribadi atau yang mengidentifikasi perangkat, namun terlalu besar untuk ditampilkan di sini.  Semua file tersebut dibuat untuk merespons masalah Wi-Fi baru-baru ini di perangkat Anda, dan akan dibagikan kepada Intel untuk membantu memecahkan masalah tersebut.&gt;</translation>
-<translation id="6972420083546794501">Buka <ph name="BEGIN_LINK1"/>halaman Bantuan Hukum<ph name="END_LINK1"/> untuk meminta perubahan konten karena alasan hukum.  Sebagian informasi akun dan sistem dapat dikirimkan ke OneVN Software.  Kami akan menggunakan informasi yang Anda berikan untuk membantu mengatasi masalah teknis dan untuk menyempurnakan layanan kami. Penggunaan informasi ini tunduk pada <ph name="BEGIN_LINK2"/>Kebijakan Privasi<ph name="END_LINK2"/> dan <ph name="BEGIN_LINK3"/>Persyaratan Layanan<ph name="END_LINK3"/> kami.</translation>
+<translation id="6972420083546794501">Buka <ph name="BEGIN_LINK1"/>halaman Bantuan Hukum<ph name="END_LINK1"/> untuk meminta perubahan konten karena alasan hukum.  Sebagian informasi akun dan sistem dapat dikirimkan ke Onevn Software.  Kami akan menggunakan informasi yang Anda berikan untuk membantu mengatasi masalah teknis dan untuk menyempurnakan layanan kami. Penggunaan informasi ini tunduk pada <ph name="BEGIN_LINK2"/>Kebijakan Privasi<ph name="END_LINK2"/> dan <ph name="BEGIN_LINK3"/>Persyaratan Layanan<ph name="END_LINK3"/> kami.</translation>
 <translation id="7915471803647590281">Beri tahu kami apa yang terjadi sebelum mengirim masukan.</translation>
 <translation id="1483493594462132177">Kirim</translation>
 <translation id="6885771755599377173">Pratinjau Informasi Sistem</translation>
 <translation id="1016566241875885511">Info tambahan (opsional)</translation>
-<translation id="6083886770200509573">Apakah OneVN tidak bekerja, menampilkan halaman mulai, toolbar yang tidak biasanya, iklan pop-up yang tidak dapat ditutup, atau mengubah pengalaman penjelajahan web Anda? Anda dapat memperbaiki masalah ini dengan menjalankan Alat Pembersih OneVN.</translation>
-<translation id="7719662019953070946">Download Alat Pembersih OneVN</translation>
+<translation id="6083886770200509573">Apakah Onevn tidak bekerja, menampilkan halaman mulai, toolbar yang tidak biasanya, iklan pop-up yang tidak dapat ditutup, atau mengubah pengalaman penjelajahan web Anda? Anda dapat memperbaiki masalah ini dengan menjalankan Alat Pembersih Onevn.</translation>
+<translation id="7719662019953070946">Download Alat Pembersih Onevn</translation>
 <translation id="8281886186245836920">Lewati</translation>
 <translation id="8026334261755873520">Hapus data browsing</translation>
 <translation id="7409836189476010449">Jalankan Flash</translation>
-<translation id="4718442817388594217">Data yang dipilih telah dihapus dari OneVN dan perangkat yang disinkronkan. Akun OneVN Software Anda mungkin memiliki bentuk histori browsing lain seperti penelusuran dan aktivitas dari layanan OneVN Software lainnya di <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
-<translation id="7814200940910057384">Data OneVN telah dihapus</translation>
+<translation id="4718442817388594217">Data yang dipilih telah dihapus dari Onevn dan perangkat yang disinkronkan. Akun Onevn Software Anda mungkin memiliki bentuk histori browsing lain seperti penelusuran dan aktivitas dari layanan Onevn Software lainnya di <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="7814200940910057384">Data Onevn telah dihapus</translation>
 <translation id="7346909386216857016">Oke, mengerti</translation>
 <translation id="8493236660459102203">Mikrofon:</translation>
 <translation id="3925573269917483990">Kamera:</translation>
@@ -1398,7 +1398,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="4172051516777682613">Selalu tampilkan</translation>
 <translation id="477945296921629067">{NUM_POPUPS,plural, =1{Pop-up diblokir}other{# pop-up diblokir}}</translation>
 <translation id="3759371141211657149">Kelola setelan penangan...</translation>
-<translation id="4156865452842056672">(Halaman kesalahan OneVN)</translation>
+<translation id="4156865452842056672">(Halaman kesalahan Onevn)</translation>
 <translation id="1734824808160898225"><ph name="PRODUCT_NAME"/> mungkin tidak dapat diupdate secara otomatis</translation>
 <translation id="8590375307970699841">Siapkan pembaruan otomatis</translation>
 <translation id="8926389886865778422">Jangan tanya lagi</translation>
@@ -1413,7 +1413,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="284805635805850872">Hapus software berbahaya?</translation>
 <translation id="489985760463306091">Untuk menyelesaikan proses penghapusan software berbahaya, nyalakan ulang komputer Anda</translation>
 <translation id="7598466960084663009">Nyalakan ulang komputer</translation>
-<translation id="2819091349626575960">Laporkan detail ke OneVN Software</translation>
+<translation id="2819091349626575960">Laporkan detail ke Onevn Software</translation>
 <translation id="4099060993766194518">Pulihkan mesin telusur default?</translation>
 <translation id="138784436342154190">Pulihkan halaman awal default?</translation>
 <translation id="5086874064903147617">Pulihkan beranda default?</translation>
@@ -1492,10 +1492,10 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="8658645149275195032"><ph name="APP_NAME"/> membagikan layar dan audio Anda dengan <ph name="TAB_NAME"/>.</translation>
 <translation id="4364567974334641491"><ph name="APP_NAME"/> membagikan jendela.</translation>
 <translation id="8944964446326379280"><ph name="APP_NAME"/> membagikan jendela dengan <ph name="TAB_NAME"/>.</translation>
-<translation id="351520635355732555"><ph name="APP_NAME"/> membagikan tab OneVN.</translation>
-<translation id="5727851901710884484"><ph name="APP_NAME"/> membagikan tab OneVN dengan <ph name="TAB_NAME"/>.</translation>
-<translation id="5770515304879261338"><ph name="APP_NAME"/> membagikan audio dan tab OneVN.</translation>
-<translation id="859454237594354073"><ph name="APP_NAME"/> membagikan tab OneVN dan audio dengan <ph name="TAB_NAME"/>.</translation>
+<translation id="351520635355732555"><ph name="APP_NAME"/> membagikan tab Onevn.</translation>
+<translation id="5727851901710884484"><ph name="APP_NAME"/> membagikan tab Onevn dengan <ph name="TAB_NAME"/>.</translation>
+<translation id="5770515304879261338"><ph name="APP_NAME"/> membagikan audio dan tab Onevn.</translation>
+<translation id="859454237594354073"><ph name="APP_NAME"/> membagikan tab Onevn dan audio dengan <ph name="TAB_NAME"/>.</translation>
 <translation id="890616557918890486">Ubah sumber</translation>
 <translation id="7792388396321542707">Hentikan berbagi</translation>
 <translation id="6630752851777525409"><ph name="EXTENSION_NAME"/> menginginkan akses permanen ke sertifikat untuk mengautentikasi dirinya sendiri atas nama Anda.</translation>
@@ -1513,11 +1513,11 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="2190355936436201913">(kosong)</translation>
 <translation id="7136984461011502314">Selamat datang di <ph name="PRODUCT_NAME"/></translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME"/> siap menyelesaikan penginstalan</translation>
-<translation id="4711067597921221305">Bantu menjadikan <ph name="PRODUCT_NAME"/> lebih baik dengan mengirim statistik penggunaan dan laporan kerusakan secara otomatis ke OneVN Software</translation>
+<translation id="4711067597921221305">Bantu menjadikan <ph name="PRODUCT_NAME"/> lebih baik dengan mengirim statistik penggunaan dan laporan kerusakan secara otomatis ke Onevn Software</translation>
 <translation id="5972826969634861500">Mulai <ph name="PRODUCT_NAME"/></translation>
 <translation id="4876273079589074638">Bantu engineer kami menyelidiki dan memperbaiki error ini. Cantumkan langkah-langkah yang tepat jika Anda bisa. Tidak ada detail yang sepele.</translation>
 <translation id="945522503751344254">Kirim masukan</translation>
-<translation id="5418694430960033386">OneVN kehabisan memori atau proses untuk halaman web dihentikan karena beberapa alasan lain. Untuk melanjutkan, muat ulang atau buka halaman lain.</translation>
+<translation id="5418694430960033386">Onevn kehabisan memori atau proses untuk halaman web dihentikan karena beberapa alasan lain. Untuk melanjutkan, muat ulang atau buka halaman lain.</translation>
 <translation id="3065041951436100775">Masukan tab yang ditutup.</translation>
 <translation id="3941565636838060942">Untuk menyembunyikan akses ke program ini, Anda perlu meng-uninstal dengan menggunakan
   <ph name="CONTROL_PANEL_APPLET_NAME"/> di Panel Kontrol.
@@ -1528,7 +1528,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="6280912520669706465">ARC</translation>
 <translation id="4728558894243024398">Platform</translation>
 <translation id="7022562585984256452">Beranda Anda telah disetel.</translation>
-<translation id="7274626204661209194">OneVN Software Cloud Print</translation>
+<translation id="7274626204661209194">Onevn Software Cloud Print</translation>
 <translation id="4973307593867026061">Tambahkan printer</translation>
 <translation id="9052208328806230490">Anda telah mendaftarkan printer dengan <ph name="CLOUD_PRINT_NAME"/> menggunakan akun <ph name="EMAIL"/></translation>
 <translation id="3792890930871100565">Lepaskan sambungan printer</translation>
@@ -1538,17 +1538,17 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="4620809267248568679">Setelan ini diberlakukan oleh ekstensi.</translation>
 <translation id="4846680374085650406">Anda mengikuti saran administrator untuk setelan ini.</translation>
 <translation id="1223853788495130632">Administrator Anda menyarankan nilai tertentu untuk setelan ini.</translation>
-<translation id="8839398440242019256">Bukan dari OneVN Webstore.</translation>
+<translation id="8839398440242019256">Bukan dari Onevn Webstore.</translation>
 <translation id="5337771866151525739">Dipasang oleh pihak ketiga.</translation>
 <translation id="4538792345715658285">Dipasang oleh kebijakan perusahaan.</translation>
 <translation id="4359408040881008151">Dipasang karena ekstensi dependen.</translation>
 <translation id="4980805016576257426">Ekstensi ini berisi software perusak.</translation>
 <translation id="5522156646677899028">Ekstensi ini berisi kerentanan keamanan serius.</translation>
-<translation id="6945695820322143954">Ekstensi ini melanggar kebijakan OneVN Webstore.</translation>
-<translation id="177808131755847449">Dinonaktifkan oleh OneVN. Ekstensi ini mungkin tidak aman.</translation>
+<translation id="6945695820322143954">Ekstensi ini melanggar kebijakan Onevn Webstore.</translation>
+<translation id="177808131755847449">Dinonaktifkan oleh Onevn. Ekstensi ini mungkin tidak aman.</translation>
 <translation id="1434696352799406980">Fitur ini akan menyetel ulang halaman mulai, halaman tab baru, mesin telusur, dan tab terpasang. Fitur ini juga akan menonaktifkan semua ekstensi dan menghapus data sementara seperti cookie. Bookmark, histori, dan sandi yang tersimpan tidak akan dihapus.</translation>
 <translation id="1242633766021457174"><ph name="THIRD_PARTY_TOOL_NAME"/> ingin menyetel ulang setelan Anda.</translation>
-<translation id="8073477228424628709"><ph name="THIRD_PARTY_TOOL_NAME"/> ingin memulihkan setelan OneVN ke default aslinya. Tindakan ini akan menyetel ulang beranda, halaman tab baru dan mesin telusur, menonaktfikan ekstensi, dan melepas pin semua tab. Tindakan ini juga akan menghapus data sementara dan data yang tersimpan dalam cache seperti cookie, konten, dan data situs.</translation>
+<translation id="8073477228424628709"><ph name="THIRD_PARTY_TOOL_NAME"/> ingin memulihkan setelan Onevn ke default aslinya. Tindakan ini akan menyetel ulang beranda, halaman tab baru dan mesin telusur, menonaktfikan ekstensi, dan melepas pin semua tab. Tindakan ini juga akan menghapus data sementara dan data yang tersimpan dalam cache seperti cookie, konten, dan data situs.</translation>
 <translation id="7581462281756524039">Alat pembersih</translation>
 <translation id="1233721473400465416">Lokal</translation>
 <translation id="2907619724991574506">URL Memulai</translation>
@@ -1562,7 +1562,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="8870318296973696995">Beranda</translation>
 <translation id="8987927404178983737">Bulan</translation>
 <translation id="6015796118275082299">Tahun</translation>
-<translation id="5152275065296016556">OneVN Software Pay</translation>
+<translation id="5152275065296016556">Onevn Software Pay</translation>
 <translation id="7671130400130574146">Gunakan bilah judul dan batas sistem</translation>
 <translation id="4520385623207007473">Cookie yang sedang digunakan</translation>
 <translation id="4763408175235639573">Cookie berikut disetel saat Anda melihat halaman ini</translation>
@@ -1581,7 +1581,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="8930351635855238750">Setelan cookie baru akan berlaku setelah halaman dimuat ulang</translation>
 <translation id="2568774940984945469">Infobar Container</translation>
 <translation id="7282992757463864530">Infobar</translation>
-<translation id="1805077115206898822">Bookmark, histori, dan setelan lainnya akan disinkronkan ke Akun OneVN Software.</translation>
+<translation id="1805077115206898822">Bookmark, histori, dan setelan lainnya akan disinkronkan ke Akun Onevn Software.</translation>
 <translation id="1974060860693918893">Lanjutan</translation>
 <translation id="2445484935443597917">Buat Profil Baru</translation>
 <translation id="2606246518223360146">Tautkan Data</translation>
@@ -1669,13 +1669,13 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="3074037959626057712">Anda telah login dan mengaktifkan Sinkronisasi</translation>
 <translation id="1231733316453485619">Aktifkan sinkronisasi?</translation>
 <translation id="4736292055110123391">Sinkronisasikan bookmark, sandi, histori, dan lainnya di semua perangkat Anda</translation>
-<translation id="5736731321935944068">OneVN Software dapat menggunakan histori Anda untuk mempersonalisasi Penelusuran, iklan, dan layanan OneVN Software lainnya</translation>
+<translation id="5736731321935944068">Onevn Software dapat menggunakan histori Anda untuk mempersonalisasi Penelusuran, iklan, dan layanan Onevn Software lainnya</translation>
 <translation id="4201546031411513170">Anda dapat memilih konten apa yang akan disinkronkan di setelan kapan saja.</translation>
-<translation id="3149880132460839085">Sinkronisasi OneVN</translation>
-<translation id="3796902758602917951">Bookmark, histori, sandi, dan setelan lainnya akan disinkronkan ke Akun OneVN Software agar Anda dapat menggunakannya di semua perangkat</translation>
-<translation id="3111958038206230539">Personalisasi layanan OneVN Software</translation>
-<translation id="295992419959320001">OneVN Software dapat menggunakan histori penjelajahan Anda untuk mempersonalisasi Penelusuran, iklan, dan layanan OneVN Software lainnya</translation>
-<translation id="3070156078150543526">OneVN Software dapat menggunakan histori penjelajahan Anda untuk mempersonalisasi Penelusuran dan layanan OneVN Software lainnya</translation>
+<translation id="3149880132460839085">Sinkronisasi Onevn</translation>
+<translation id="3796902758602917951">Bookmark, histori, sandi, dan setelan lainnya akan disinkronkan ke Akun Onevn Software agar Anda dapat menggunakannya di semua perangkat</translation>
+<translation id="3111958038206230539">Personalisasi layanan Onevn Software</translation>
+<translation id="295992419959320001">Onevn Software dapat menggunakan histori penjelajahan Anda untuk mempersonalisasi Penelusuran, iklan, dan layanan Onevn Software lainnya</translation>
+<translation id="3070156078150543526">Onevn Software dapat menggunakan histori penjelajahan Anda untuk mempersonalisasi Penelusuran dan layanan Onevn Software lainnya</translation>
 <translation id="2709453993673701466">Ingin mengelola sinkronisasi dan personalisasi sebelum diaktifkan? Buka <ph name="BEGIN_LINK"/>Setelan<ph name="END_LINK"/>.</translation>
 <translation id="2497852260688568942">Sinkronisasi dinonaktifkan oleh administrator</translation>
 <translation id="562935524653278697">Administrator Anda telah menonaktifkan sinkronisasi bookmark, histori, sandi, dan setelan yang lain.</translation>
@@ -1711,7 +1711,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="6664774537677393800">Terjadi kesalahan saat membuka profil Anda. Harap keluar, lalu masuk lagi.</translation>
 <translation id="1794791083288629568">Kirim masukan untuk membantu kami menyelesaikan masalah ini.</translation>
 <translation id="8234795456569844941">Bantu engineer kami memperbaiki masalah ini. Beri tahu kami yang terjadi tepat sebelum Anda mendapatkan pesan error profil:</translation>
-<translation id="6500340165622970282">Tidak dapat memulai OneVN karena terjadi kesalahan saat membuka profil Anda. Coba mulai ulang OneVN.</translation>
+<translation id="6500340165622970282">Tidak dapat memulai Onevn karena terjadi kesalahan saat membuka profil Anda. Coba mulai ulang Onevn.</translation>
 <translation id="6812349420832218321"><ph name="PRODUCT_NAME"/> tidak dapat dijalankan sebagai akar.</translation>
 <translation id="2292848386125228270">Mulai <ph name="PRODUCT_NAME"/> sebagai pengguna normal. Jika perlu menjalankan sebagai root untuk pengembangan, jalankan ulang dengan tanda tanpa sandbox.</translation>
 <translation id="7547317915858803630">Peringatan: setelan <ph name="PRODUCT_NAME"/> Anda disimpan di drive jaringan. Hal ini dapat mengakibatkan kelambatan, kerusakan, atau bahkan hilangnya data.</translation>
@@ -1747,10 +1747,10 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="6198102561359457428">Keluar kemudian masuk lagi...</translation>
 <translation id="4634771451598206121">Masuk lagi...</translation>
 <translation id="7117247127439884114">Masuk Lagi...</translation>
-<translation id="4251909665067750757">Masuk untuk mendapatkan bookmark, histori, sandi, dan setelan lain di semua perangkat. Anda juga akan otomatis masuk ke layanan OneVN Software.</translation>
+<translation id="4251909665067750757">Masuk untuk mendapatkan bookmark, histori, sandi, dan setelan lain di semua perangkat. Anda juga akan otomatis masuk ke layanan Onevn Software.</translation>
 <translation id="2749756011735116528">Masuk ke <ph name="PRODUCT_NAME"/></translation>
 <translation id="2126167708562367080">Sinkronisasi dinonaktifkan oleh administrator Anda.</translation>
-<translation id="5462539695964427820">Sinkronisasi telah dihentikan melalui Dasbor OneVN Software.</translation>
+<translation id="5462539695964427820">Sinkronisasi telah dihentikan melalui Dasbor Onevn Software.</translation>
 <translation id="8805140816472474147">Konfirmasi setelan sinkronisasi untuk memulai sinkronisasi.</translation>
 <translation id="4835836146030131423">Kesalahan masuk ke sistem.</translation>
 <translation id="4365673000813822030">Ups, Sinkronisasi berhenti bekerja.</translation>
@@ -1765,20 +1765,20 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="1877520246462554164">Gagal mendapatkan token autentikasi. Harap logout, lalu login kembali untuk mencoba lagi.</translation>
 <translation id="9100765901046053179">Setelan lanjutan</translation>
 <translation id="5771816112378578655">Penyiapan sedang berlangsung...</translation>
-<translation id="3892866329866260680">Sekarang Anda masuk pada <ph name="SHORT_PRODUCT_NAME"/>. Bookmark, histori, dan setelan lainnya sedang disinkronkan ke Akun OneVN Software Anda.</translation>
+<translation id="3892866329866260680">Sekarang Anda masuk pada <ph name="SHORT_PRODUCT_NAME"/>. Bookmark, histori, dan setelan lainnya sedang disinkronkan ke Akun Onevn Software Anda.</translation>
 <translation id="1408789165795197664">Lanjutan...</translation>
 <translation id="2731700343119398978">Harap tunggu...</translation>
 <translation id="4684427112815847243">Sinkronkan semua</translation>
-<translation id="7218743184834293955">Data dienkripsi dengan frasa sandi sinkronisasi Anda. Data ini tidak mencakup alamat dan metode pembayaran dari OneVN Software Pay.</translation>
+<translation id="7218743184834293955">Data dienkripsi dengan frasa sandi sinkronisasi Anda. Data ini tidak mencakup alamat dan metode pembayaran dari Onevn Software Pay.</translation>
 <translation id="7158251077901880179">Data dienkripsi dengan frasa sandi sinkronisasi Anda pada tanggal
-<ph name="TIME"/>. Data ini tidak mencakup alamat dan metode pembayaran dari OneVN Software Pay.</translation>
-<translation id="1171389789873508468">Data dienkripsi dengan sandi OneVN Software Anda mulai tanggal
-<ph name="TIME"/>. Data ini tidak mencakup alamat dan metode pembayaran dari OneVN Software Pay.</translation>
+<ph name="TIME"/>. Data ini tidak mencakup alamat dan metode pembayaran dari Onevn Software Pay.</translation>
+<translation id="1171389789873508468">Data dienkripsi dengan sandi Onevn Software Anda mulai tanggal
+<ph name="TIME"/>. Data ini tidak mencakup alamat dan metode pembayaran dari Onevn Software Pay.</translation>
 <translation id="2562743677925229011">Tidak masuk ke <ph name="SHORT_PRODUCT_NAME"/></translation>
 <translation id="4027804175521224372">(Anda melewatkan—<ph name="IDS_SYNC_PROMO_NOT_SIGNED_IN_STATUS_LINK"/>)</translation>
 <translation id="3574210789297084292">masuk</translation>
 <translation id="237828693408258535">Terjemahkan halaman ini?</translation>
-<translation id="4613765529964435709">Ingin OneVN Software menerjemahkan halaman ini dari <ph name="SOURCE_LANGUAGE"/> ke <ph name="TARGET_LANGUAGE"/>?</translation>
+<translation id="4613765529964435709">Ingin Onevn Software menerjemahkan halaman ini dari <ph name="SOURCE_LANGUAGE"/> ke <ph name="TARGET_LANGUAGE"/>?</translation>
 <translation id="5990386583461751448">Diterjemahkan</translation>
 <translation id="5659833766619490117">Halaman ini tidak dapat diterjemahkan</translation>
 <translation id="969096075394517431">Ubah bahasa</translation>
@@ -1940,12 +1940,12 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="2762441749940182211">Kamera diblokir</translation>
 <translation id="5074318175948309511">Halaman ini mungkin perlu dimuat ulang sebelum setelan baru berpengaruh.</translation>
 <translation id="8282947398454257691">Mengetahui pengenal perangkat unik Anda</translation>
-<translation id="8329449853370113380"><ph name="URL"/> ingin memutar konten yang dilindungi. Identitas perangkat Anda akan diverifikasi oleh OneVN Software.</translation>
-<translation id="2650609753175229582"><ph name="URL"/> ingin memutar konten yang dilindungi. Identitas perangkat Anda akan diverifikasi oleh OneVN Software dan akan dapat diakses oleh situs ini.</translation>
+<translation id="8329449853370113380"><ph name="URL"/> ingin memutar konten yang dilindungi. Identitas perangkat Anda akan diverifikasi oleh Onevn Software.</translation>
+<translation id="2650609753175229582"><ph name="URL"/> ingin memutar konten yang dilindungi. Identitas perangkat Anda akan diverifikasi oleh Onevn Software dan akan dapat diakses oleh situs ini.</translation>
 <translation id="1322046419516468189">Lihat dan kelola sandi tersimpan di <ph name="SAVED_PASSWORDS_STORE"/></translation>
 <translation id="3312599731068160560">https://passwords.google.com</translation>
 <translation id="5297082477358294722">Sandi disimpan. Lihat dan kelola sandi tersimpan di <ph name="SAVED_PASSWORDS_STORE"/>.</translation>
-<translation id="5713644099811900409">Akun OneVN Software</translation>
+<translation id="5713644099811900409">Akun Onevn Software</translation>
 <translation id="3785727820640310185">Sandi yang tersimpan untuk situs ini</translation>
 <translation id="3404065873681873169">Tidak ada sandi yang tersimpan untuk situs ini</translation>
 <translation id="8470513973197838199">Sandi yang tersimpan untuk <ph name="ORIGIN"/></translation>
@@ -2084,7 +2084,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="2505324914378689427">{SCREEN_INDEX,plural, =1{Layar #}other{Layar #}}</translation>
 <translation id="839736845446313156">Daftar</translation>
 <translation id="6285120908535925801">{NUM_PRINTER,plural, =1{Printer baru di jaringan Anda}other{Printer baru di jaringan Anda}}</translation>
-<translation id="2656240156816412333">{NUM_PRINTER,plural, =1{Tambahkan printer ke OneVN Software Cloud Print agar Anda dapat mencetak dari mana saja.}other{Tambahkan # printer ke OneVN Software Cloud Print agar Anda dapat mencetak dari mana saja.}}</translation>
+<translation id="2656240156816412333">{NUM_PRINTER,plural, =1{Tambahkan printer ke Onevn Software Cloud Print agar Anda dapat mencetak dari mana saja.}other{Tambahkan # printer ke Onevn Software Cloud Print agar Anda dapat mencetak dari mana saja.}}</translation>
 <translation id="409579654357498729">Tambahkan ke Cloud Print</translation>
 <translation id="4628757576491864469">Perangkat</translation>
 <translation id="6915804003454593391">Pengguna:</translation>
@@ -2094,8 +2094,8 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="1895934970388272448">Anda harus mengonfirmasi pendaftaran pada printer untuk menyelesaikan proses ini - periksa sekarang.</translation>
 <translation id="551752069230578406">Menambahkan printer ke akun Anda - proses ini mungkin membutuhkan beberapa saat...</translation>
 <translation id="2384436799579181135">Terjadi error. Harap periksa printer Anda dan coba lagi.</translation>
-<translation id="2569908351567260524">Printer di OneVN Software Cloud Print</translation>
-<translation id="6782994146626179935">Perangkat di Perangkat OneVN Software Cloud</translation>
+<translation id="2569908351567260524">Printer di Onevn Software Cloud Print</translation>
+<translation id="6782994146626179935">Perangkat di Perangkat Onevn Software Cloud</translation>
 <translation id="7140928199327930795">Tidak ada perangkat lain.</translation>
 <translation id="8213577208796878755">Satu perangkat lain tersedia.</translation>
 <translation id="1495486559005647033"><ph name="NUM_PRINTERS"/> perangkat lain tersedia.</translation>
@@ -2103,15 +2103,15 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="4720113199587244118">Tambahkan Perangkat</translation>
 <translation id="2776441542064982094">Sepertinya tidak tersedia perangkat untuk mendaftar di jaringan tersebut. Jika perangkat Anda menyala dan terhubung ke internet, daftarkan menggunakan petunjuk pada panduan petunjuknya.</translation>
 <translation id="1007408791287232274">Tidak dapat memuat perangkat.</translation>
-<translation id="3886420006370338208">Anda harus masuk ke OneVN untuk melihat perangkat Anda</translation>
-<translation id="6711610692002680394">Anda perlu masuk ke OneVN untuk mendaftarkan perangkat baru</translation>
+<translation id="3886420006370338208">Anda harus masuk ke Onevn untuk melihat perangkat Anda</translation>
+<translation id="6711610692002680394">Anda perlu masuk ke Onevn untuk mendaftarkan perangkat baru</translation>
 <translation id="8931394284949551895">Perangkat baru</translation>
 <translation id="3752673729237782832">Perangkat saya</translation>
 <translation id="1721937473331968728">Anda dapat menambahkan printer klasik yang terhubung ke komputer Anda ke <ph name="CLOUD_PRINT_NAME"/>.</translation>
 <translation id="715118844758971915">Printer klasik</translation>
 <translation id="4263757076580287579">Pendaftaran printer dibatalkan.</translation>
 <translation id="8152091997436726702">Waktu pendaftaran printer telah habis. Untuk mendaftarkan printer, Anda harus mengonfirmasi pendaftaran di printer tersebut.</translation>
-<translation id="2057904164277279211">Dokumen <ph name="BEGIN_LINK_HELP"/>dikirimkan ke OneVN Software<ph name="END_LINK_HELP"/> untuk persiapan pencetakan. Lihat, edit, dan kelola printer serta histori printer Anda di <ph name="BEGIN_LINK_DASHBOARD"/>dasbor OneVN Software Cloud Print<ph name="END_LINK_DASHBOARD"/>.</translation>
+<translation id="2057904164277279211">Dokumen <ph name="BEGIN_LINK_HELP"/>dikirimkan ke Onevn Software<ph name="END_LINK_HELP"/> untuk persiapan pencetakan. Lihat, edit, dan kelola printer serta histori printer Anda di <ph name="BEGIN_LINK_DASHBOARD"/>dasbor Onevn Software Cloud Print<ph name="END_LINK_DASHBOARD"/>.</translation>
 <translation id="3082780749197361769">Tab ini menggunakan kamera atau mikrofon Anda.</translation>
 <translation id="3578594933904494462">Konten tab ini sedang dibagikan.</translation>
 <translation id="4449996769074858870">Tab ini memutar audio.</translation>
@@ -2164,7 +2164,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="4540437243849625078">Situs ini akan membagikan informasi dengan aplikasi di luar mode penyamaran.</translation>
 <translation id="1227836882233136433">Keluar dari mode penyamaran?</translation>
 <translation id="662080504995468778">Tinggal</translation>
-<translation id="2593289874938379417">OneVN tidak memiliki akses ke sumber daya yang diminta.</translation>
+<translation id="2593289874938379417">Onevn tidak memiliki akses ke sumber daya yang diminta.</translation>
 <translation id="760197030861754408">Buka <ph name="LANDING_PAGE"/> untuk terhubung.</translation>
 <translation id="3648348069317717750"><ph name="USB_DEVICE_NAME"/> terdeteksi</translation>
 <translation id="2382095919147960379">Sambungkan perangkat ini ke Linux</translation>
@@ -2212,17 +2212,17 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="7055152154916055070">Pengalihan diblokir:</translation>
 <translation id="6777817260680419853">Pengalihan diblokir</translation>
 <translation id="694592694773692225">Pengalihan diblokir di halaman ini.</translation>
-<translation id="8149707863742670433">Browser web dari OneVN Software, untuk Anda</translation>
-<translation id="3541561136058491590">Masuk ke OneVN dengan Akun OneVN Software untuk mendapatkan bookmark, histori, sandi, dan setelan lain di perangkat.</translation>
-<translation id="8945142681652245463">Akses dengan cepat menggunakan OneVN Software OneVN</translation>
-<translation id="2618024864038703735">Akses dengan aman menggunakan OneVN Software OneVN</translation>
-<translation id="8142180567942285208">Akses cerdas menggunakan OneVN</translation>
+<translation id="8149707863742670433">Browser web dari Onevn Software, untuk Anda</translation>
+<translation id="3541561136058491590">Masuk ke Onevn dengan Akun Onevn Software untuk mendapatkan bookmark, histori, sandi, dan setelan lain di perangkat.</translation>
+<translation id="8945142681652245463">Akses dengan cepat menggunakan Onevn Software Onevn</translation>
+<translation id="2618024864038703735">Akses dengan aman menggunakan Onevn Software Onevn</translation>
+<translation id="8142180567942285208">Akses cerdas menggunakan Onevn</translation>
 <translation id="8862003515646449717">Beralih ke browser cepat</translation>
 <translation id="8438328416656800239">Beralih ke browser cerdas</translation>
 <translation id="491691592645955587">Beralih ke browser yang aman</translation>
 <translation id="683373380308365518">Beralih ke browser cerdas dan aman</translation>
-<translation id="989239400026154074">OneVN Software merekomendasikan OneVN</translation>
-<translation id="6676231621615806698">Buka OneVN</translation>
+<translation id="989239400026154074">Onevn Software merekomendasikan Onevn</translation>
+<translation id="6676231621615806698">Buka Onevn</translation>
 <translation id="7494065396242762445">Buka Setelan Windows</translation>
 <translation id="2137068468602026500">Klik <ph name="BEGIN_BOLD"/>Microsoft Edge<ph name="END_BOLD"/> di bawah Web Browser</translation>
 <translation id="3720996970802414353">Tetap beralih</translation>
@@ -2231,7 +2231,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="7537601449003285327">Pin to taskbar</translation>
 <translation id="5250372599208556903"><ph name="SEARCH_ENGINE_NAME"/> menggunakan lokasi Anda untuk memberi konten lokal. Anda dapat mengubah opsi ini di <ph name="SETTINGS_LINK"/>.</translation>
 <translation id="3737536731758327622">Download Anda muncul di sini</translation>
-<translation id="4782664866169793230">OneVN sedang dikontrol oleh software uji otomatis.</translation>
+<translation id="4782664866169793230">Onevn sedang dikontrol oleh software uji otomatis.</translation>
 <translation id="6721678857435001674">Lihat merek dan model Kunci Keamanan Anda</translation>
 <translation id="1673137583248014546"><ph name="URL"/> ingin melihat merek dan model Kunci Keamanan Anda</translation>
 <translation id="6010869025736512584">Mengakses masukan video</translation>
@@ -2447,9 +2447,9 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="9011163749350026987">Selalu tampilkan ikon</translation>
 <translation id="1706586824377653884">Ditambahkan oleh administrator Anda</translation>
 <translation id="6467304607960172345">Optimalkan video layar penuh</translation>
-<translation id="1597210476603167523">Aktifkan transmisi ke layanan berbasis awan, seperti OneVN Software Hangouts.</translation>
-<translation id="3653941710869291743">Sambutlah pengalaman Cast di OneVN!</translation>
-<translation id="2841638550927239436">Anda dapat menggunakan fitur ini untuk menampilkan konten dari OneVN di TV atau perangkat lainnya.</translation>
+<translation id="1597210476603167523">Aktifkan transmisi ke layanan berbasis awan, seperti Onevn Software Hangouts.</translation>
+<translation id="3653941710869291743">Sambutlah pengalaman Cast di Onevn!</translation>
+<translation id="2841638550927239436">Anda dapat menggunakan fitur ini untuk menampilkan konten dari Onevn di TV atau perangkat lainnya.</translation>
 <translation id="5234764350956374838">Tutup</translation>
 <translation id="4579581181964204535">Tidak dapat mentransmisi <ph name="HOST_NAME"/>.</translation>
 <translation id="8757090071857742562">Tidak dapat mentransmisi dekstop.  Periksa apakah Anda telah mengonfirmasi permintaan untuk mulai berbagi layar.</translation>
@@ -2483,7 +2483,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="4144218403971135344">Dapatkan video yang berkualitas lebih baik dan hemat baterai. Video hanya akan diputar di layar yang kompatibel untuk Cast.</translation>
 <translation id="236117173274098341">Optimalkan</translation>
 <translation id="8538358978858059843">Aktifkan layanan cloud untuk Cast?</translation>
-<translation id="3856595552313160385">Penggunaan Hangouts dan Cast for Education diatur oleh Kebijakan Privasi OneVN Software.</translation>
+<translation id="3856595552313160385">Penggunaan Hangouts dan Cast for Education diatur oleh Kebijakan Privasi Onevn Software.</translation>
 <translation id="3700888195348409686">Menampilkan (<ph name="PAGE_ORIGIN"/>)</translation>
 <translation id="5285635972691565180">Layar <ph name="DISPLAY_ID"/></translation>
 <translation id="4707302005824653064">Penggunaan dan histori dapat ditinjau oleh pengelola (<ph name="CUSTODIAN_EMAIL"/>) di chrome.com.</translation>
@@ -2647,7 +2647,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="672213144943476270">Buka kunci profil sebelum menjelajah sebagai tamu.</translation>
 <translation id="3478685642445675458">Buka kunci profil sebelum menghapus orang.</translation>
 <translation id="4648499713050786492">Buka kunci profil sebelum menambahkan orang.</translation>
-<translation id="8978225823042133615">Untuk menggunakan OneVN, harap login</translation>
+<translation id="8978225823042133615">Untuk menggunakan Onevn, harap login</translation>
 <translation id="4893336867552636863">Tindakan ini akan menghapus data penjelajahan Anda dari perangkat ini secara permanen.</translation>
 <translation id="2496180316473517155">Histori jelajah</translation>
 <translation id="6865313869410766144">Data formulir isi-otomatis</translation>
@@ -2667,7 +2667,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="3236289833370040187">Kepemilikan akan ditransfer ke <ph name="DESTINATION_DOMAIN"/>.</translation>
 <translation id="7765158879357617694">Pindahkan</translation>
 <translation id="8249296373107784235">Batalkan</translation>
-<translation id="6268185425799226387">OneVN Software Drive</translation>
+<translation id="6268185425799226387">Onevn Software Drive</translation>
 <translation id="4425149324548788773">Drive Saya</translation>
 <translation id="1786636458339910689">Drive Tim</translation>
 <translation id="5010406651457630570">Komputer</translation>
@@ -2774,7 +2774,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="6227235786875481728">File ini tidak dapat diputar.</translation>
 <translation id="9154418932169119429">Gambar ini tidak tersedia secara offline.</translation>
 <translation id="1844692022597038441">File ini tidak tersedia secara offline.</translation>
-<translation id="2929414043040740704">File yang dipulihkan dari OneVN Software Drive</translation>
+<translation id="2929414043040740704">File yang dipulihkan dari Onevn Software Drive</translation>
 <translation id="2085470240340828803">File bernama "<ph name="FILENAME"/>" sudah ada. Apa yang ingin Anda lakukan?</translation>
 <translation id="4801956050125744859">Simpan keduanya</translation>
 <translation id="1062407476771304334">Ganti</translation>
@@ -2804,8 +2804,8 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="2377319039870049694">Beralih ke tampilan daftar</translation>
 <translation id="3003633581067744647">Beralih ke tampilan thumbnail</translation>
 <translation id="604001903249547235">Cadangan Awan</translation>
-<translation id="505639225383557233">Cadangan Awan OneVN OS</translation>
-<translation id="8656896237683963068">Mencadangkan foto dan video perangkat media ke OneVN Software Drive.</translation>
+<translation id="505639225383557233">Cadangan Awan Onevn OS</translation>
+<translation id="8656896237683963068">Mencadangkan foto dan video perangkat media ke Onevn Software Drive.</translation>
 <translation id="3057861065630527966">Cadangkan foto dan video</translation>
 <translation id="7730494089396812859">Tampilkan detail cadangan Awan</translation>
 <translation id="2850124913210091882">Cadangkan</translation>
@@ -2815,14 +2815,14 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
     <ph name="LINE_BREAK1"/>
     <ph name="FILE_COUNT"/> ditemukan</translation>
 <translation id="3466147780910026086">Memindai perangkat media Anda...</translation>
-<translation id="2611866923243604397">Semua dicadangkan ke <ph name="BEGIN_LINK"/>OneVN Software Drive!<ph name="END_LINK"/></translation>
+<translation id="2611866923243604397">Semua dicadangkan ke <ph name="BEGIN_LINK"/>Onevn Software Drive!<ph name="END_LINK"/></translation>
 <translation id="3620292326130836921">Semua dicadangkan!</translation>
 <translation id="1536674585581593431"><ph name="FILE_COUNT"/> ditemukan.
     <ph name="LINE_BREAK1"/>
-    Kuota OneVN Software Drive kurang banyak. Perlu tambahan <ph name="FILE_SIZE"/>.
+    Kuota Onevn Software Drive kurang banyak. Perlu tambahan <ph name="FILE_SIZE"/>.
     <ph name="LINE_BREAK2"/>
     Coba pilih lebih sedikit foto.</translation>
-<translation id="2473109739642988997">Kuota OneVN Software Drive Anda kurang banyak.</translation>
+<translation id="2473109739642988997">Kuota Onevn Software Drive Anda kurang banyak.</translation>
 <translation id="1148097584170732637"><ph name="FILE_COUNT"/> ditemukan.
     <ph name="LINE_BREAK1"/>
     Tidak cukup ruang yang tersedia di penyimpanan lokal. Perlu tambahan <ph name="FILE_SIZE"/>.
@@ -2831,11 +2831,11 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="2352947182261340447">Tidak cukup ruang di penyimpanan lokal</translation>
 <translation id="1127657192797926968"><ph name="FILE_COUNT"/> ditemukan
     <ph name="LINE_BREAK1"/>
-    Siap untuk mem-backup ke <ph name="BEGIN_LINK"/>OneVN Software Drive<ph name="END_LINK"/></translation>
+    Siap untuk mem-backup ke <ph name="BEGIN_LINK"/>Onevn Software Drive<ph name="END_LINK"/></translation>
 <translation id="4905417359854579806">Siap untuk mem-backup <ph name="FILE_COUNT"/></translation>
-<translation id="5029447434471675822">Mem-backup <ph name="FILE_COUNT"/> ke <ph name="BEGIN_LINK"/>OneVN Software Drive<ph name="END_LINK"/></translation>
+<translation id="5029447434471675822">Mem-backup <ph name="FILE_COUNT"/> ke <ph name="BEGIN_LINK"/>Onevn Software Drive<ph name="END_LINK"/></translation>
 <translation id="4215448920900139318">Mem-backup <ph name="FILE_COUNT"/></translation>
-<translation id="2419376816263920133"><ph name="FILE_COUNT"/> foto dicadangkan ke <ph name="BEGIN_LINK"/>OneVN Software Drive<ph name="END_LINK"/></translation>
+<translation id="2419376816263920133"><ph name="FILE_COUNT"/> foto dicadangkan ke <ph name="BEGIN_LINK"/>Onevn Software Drive<ph name="END_LINK"/></translation>
 <translation id="2994669386200004489">Tidak dapat mem-backup <ph name="FILE_NAME"/></translation>
 <translation id="4724850507808590449"><ph name="FILE_COUNT"/> foto dicadangkan</translation>
 <translation id="1351692861129622852">Mengimpor <ph name="FILE_COUNT"/> file...</translation>
@@ -2857,9 +2857,9 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="653019979737152879">Menyinkronkan <ph name="FILE_NAME"/>...</translation>
 <translation id="8579285237314169903">Menyinkronkan <ph name="NUMBER_OF_FILES"/> item...</translation>
 <translation id="8137331602592933310">"<ph name="FILENAME"/>" telah dibagikan dengan Anda. Namun Anda tidak dapat menghapusnya karena bukan milik Anda.</translation>
-<translation id="6277279884155292049">Saat ini OneVN Software Drive tidak tersedia. Upload akan dimulai ulang secara otomatis setelah OneVN Software Drive aktif kembali.</translation>
-<translation id="1114160088213746286">Saat ini OneVN Software Drive tidak dapat menyinkronkan "<ph name="FILENAME"/>". OneVN Software Drive akan mencoba lagi nanti.</translation>
-<translation id="4893296294301184587">"<ph name="FILENAME"/>" tidak diupload. Ruang di OneVN Software Drive Anda tidak cukup.</translation>
+<translation id="6277279884155292049">Saat ini Onevn Software Drive tidak tersedia. Upload akan dimulai ulang secara otomatis setelah Onevn Software Drive aktif kembali.</translation>
+<translation id="1114160088213746286">Saat ini Onevn Software Drive tidak dapat menyinkronkan "<ph name="FILENAME"/>". Onevn Software Drive akan mencoba lagi nanti.</translation>
+<translation id="4893296294301184587">"<ph name="FILENAME"/>" tidak diupload. Ruang di Onevn Software Drive Anda tidak cukup.</translation>
 <translation id="5163869187418756376">Gagal berbagi. Periksa sambungan Anda dan coba lagi nanti.</translation>
 <translation id="656398493051028875">Menghapus "<ph name="FILENAME"/>"...</translation>
 <translation id="1047956942837015229">Menghapus <ph name="COUNT"/> item...</translation>
@@ -2925,7 +2925,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="180035236176489073">Anda harus online untuk mengakses file ini.</translation>
 <translation id="1190144681599273207">Mengambil file ini akan menggunakan sekitar <ph name="FILE_SIZE"/> data seluler.</translation>
 <translation id="7839804798877833423">Mengambil file ini akan menggunakan sekitar <ph name="FILE_SIZE"/> data seluler.</translation>
-<translation id="6813005947820333339">Sinkronisasi OneVN Software Drive dinonaktifkan secara default saat menggunakan data seluler.</translation>
+<translation id="6813005947820333339">Sinkronisasi Onevn Software Drive dinonaktifkan secara default saat menggunakan data seluler.</translation>
 <translation id="696203921837389374">Aktifkan sinkronisasi melalui data seluler</translation>
 <translation id="637062427944097960">File ini dibuka pada desktop yang berbeda. Pindahkan ke <ph name="USER_NAME"/> (<ph name="MAIL_ADDRESS"/>) untuk melihatnya.</translation>
 <translation id="5330145655348521461">File ini dibuka pada desktop yang berbeda. Pindahkan ke <ph name="USER_NAME"/> (<ph name="MAIL_ADDRESS"/>) untuk melihatnya.</translation>
@@ -2939,33 +2939,33 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="7925686952655276919">Jangan gunakan data seluler untuk sinkronisasi</translation>
 <translation id="7106346894903675391">Beli penyimpanan lagi...</translation>
 <translation id="3549797760399244642">Buka drive.google.com...</translation>
-<translation id="3451154303153932176">Sisa ruang OneVN Software Drive: <ph name="SPACE_AVAILABLE"/>.</translation>
+<translation id="3451154303153932176">Sisa ruang Onevn Software Drive: <ph name="SPACE_AVAILABLE"/>.</translation>
 <translation id="4552678318981539154">Beli penyimpanan lagi</translation>
 <translation id="6990081529015358884">Anda telah kehabisan ruang</translation>
-<translation id="5521447721624713749">OneVN Software Drive tidak dapat dijangkau saat ini.</translation>
+<translation id="5521447721624713749">Onevn Software Drive tidak dapat dijangkau saat ini.</translation>
 <translation id="7788080748068240085">Untuk menyimpan "<ph name="FILE_NAME"/>" secara offline, Anda harus mengosongkan ruang tambahan sebesar <ph name="TOTAL_FILE_SIZE"/>:<ph name="MARKUP_1"/>
     <ph name="MARKUP_2"/>lepas sematan file yang tidak lagi Anda gunakan untuk mengakses secara offline<ph name="MARKUP_3"/>
     <ph name="MARKUP_4"/>hapus file dari folder Download Anda<ph name="MARKUP_5"/></translation>
-<translation id="7606199793785990727">OneVN Software Drive tidak dapat dibuka. <ph name="BEGIN_LINK"/>Keluar<ph name="END_LINK"/> dan masuk lagi.</translation>
-<translation id="585883343689351092">Selamat datang di OneVN Software Drive!</translation>
+<translation id="7606199793785990727">Onevn Software Drive tidak dapat dibuka. <ph name="BEGIN_LINK"/>Keluar<ph name="END_LINK"/> dan masuk lagi.</translation>
+<translation id="585883343689351092">Selamat datang di Onevn Software Drive!</translation>
 <translation id="6862635236584086457">Semua file yang disimpan dalam folder ini otomatis dicadangkan secara online</translation>
 <translation id="7220787572447472056"><ph name="MARKUP_1"/>Akses file dari mana saja, bahkan secara offline.<ph name="MARKUP_2"/>
-    File di OneVN Software Drive selalu yang terbaru dan tersedia dari perangkat mana pun.<ph name="MARKUP_3"/>
+    File di Onevn Software Drive selalu yang terbaru dan tersedia dari perangkat mana pun.<ph name="MARKUP_3"/>
     <ph name="MARKUP_4"/>Menjaga keamanan file Anda.<ph name="MARKUP_5"/>
-    Apa pun yang terjadi pada perangkat, file Anda tersimpan dengan aman di OneVN Software Drive.<ph name="MARKUP_6"/>
+    Apa pun yang terjadi pada perangkat, file Anda tersimpan dengan aman di Onevn Software Drive.<ph name="MARKUP_6"/>
     <ph name="MARKUP_7"/>Berbagi, membuat, dan berkolaborasi<ph name="MARKUP_8"/>
     dalam file bersama orang lain, semuanya di satu tempat.<ph name="MARKUP_9"/></translation>
-<translation id="4878716980734452132">Jenis file ini tidak didukung. Kunjungi <ph name="BEGIN_LINK"/>OneVN Webstore<ph name="END_LINK"/> untuk menemukan aplikasi yang dapat membuka jenis file ini.
+<translation id="4878716980734452132">Jenis file ini tidak didukung. Kunjungi <ph name="BEGIN_LINK"/>Onevn Webstore<ph name="END_LINK"/> untuk menemukan aplikasi yang dapat membuka jenis file ini.
         <ph name="BEGIN_LINK_HELP"/>Pelajari Lebih Lanjut<ph name="END_LINK_HELP"/></translation>
-<translation id="6230272341631206186">File ini didesain untuk PC yang menggunakan software Windows. Ini tidak kompatibel dengan perangkat Anda yang menjalankan OneVN OS. <ph name="BEGIN_LINK_HELP"/>Pelajari Lebih Lanjut<ph name="END_LINK_HELP"/></translation>
-<translation id="3072401511615920367">File ini dirancang untuk komputer yang menggunakan software Macintosh. File ini tidak kompatibel dengan perangkat Anda yang menjalankan OneVN OS. Telusuri aplikasi pengganti yang sesuai di <ph name="BEGIN_LINK"/>OneVN Webstore<ph name="END_LINK"/>.<ph name="BEGIN_LINK_HELP"/>Pelajari Lebih Lanjut<ph name="END_LINK_HELP"/></translation>
+<translation id="6230272341631206186">File ini didesain untuk PC yang menggunakan software Windows. Ini tidak kompatibel dengan perangkat Anda yang menjalankan Onevn OS. <ph name="BEGIN_LINK_HELP"/>Pelajari Lebih Lanjut<ph name="END_LINK_HELP"/></translation>
+<translation id="3072401511615920367">File ini dirancang untuk komputer yang menggunakan software Macintosh. File ini tidak kompatibel dengan perangkat Anda yang menjalankan Onevn OS. Telusuri aplikasi pengganti yang sesuai di <ph name="BEGIN_LINK"/>Onevn Webstore<ph name="END_LINK"/>.<ph name="BEGIN_LINK_HELP"/>Pelajari Lebih Lanjut<ph name="END_LINK_HELP"/></translation>
 <translation id="7589661784326793847">Tunggu sebentar</translation>
-<translation id="3096967955765855393">Kami terus mencari cara agar penjelajahan Anda lebih aman. Sebelumnya, situs web apa pun dapat meminta Anda untuk menambahkan ekstensi ke browser. Pada versi terbaru OneVN Software OneVN, Anda harus memberitahukan dengan jelas kepada OneVN bahwa Anda ingin memasang ekstensi ini dengan menambahkannya melalui halaman Ekstensi. <ph name="BEGIN_LINK"/>Pelajari lebih lanjut<ph name="END_LINK"/></translation>
+<translation id="3096967955765855393">Kami terus mencari cara agar penjelajahan Anda lebih aman. Sebelumnya, situs web apa pun dapat meminta Anda untuk menambahkan ekstensi ke browser. Pada versi terbaru Onevn Software Onevn, Anda harus memberitahukan dengan jelas kepada Onevn bahwa Anda ingin memasang ekstensi ini dengan menambahkannya melalui halaman Ekstensi. <ph name="BEGIN_LINK"/>Pelajari lebih lanjut<ph name="END_LINK"/></translation>
 <translation id="4892969127351273348">Tidak dapat membuka dengan <ph name="APP_NAME"/></translation>
 <translation id="52446585071384036">Untuk membuka file dengan <ph name="APP_NAME"/>, salin ke folder file Linux terlebih dahulu.</translation>
 <translation id="5368191757080475556">Bagikan folder dengan Linux</translation>
 <translation id="5857774240076772505">Beri Linux izin aplikasi untuk mengubah file di folder <ph name="FOLDER_NAME"/></translation>
-<translation id="2280597422213958082">Beri Linux izin aplikasi untuk mengubah file di OneVN Software Drive Anda. Perubahan akan disinkronkan ke perangkat Anda lainnya.</translation>
+<translation id="2280597422213958082">Beri Linux izin aplikasi untuk mengubah file di Onevn Software Drive Anda. Perubahan akan disinkronkan ke perangkat Anda lainnya.</translation>
 <translation id="4290535918735525311">1 folder dibagikan dengan Linux</translation>
 <translation id="2377590462528165447"><ph name="NUMBER_OF_ITEMS"/> folder dibagikan dengan Linux</translation>
 <translation id="4572815280350369984">File <ph name="FILE_TYPE"/></translation>
@@ -2983,19 +2983,19 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="1049926623896334335">Dokumen Word</translation>
 <translation id="4784330909746505604">Presentasi PowerPoint</translation>
 <translation id="8860454412039442620">Spreadsheet Excel</translation>
-<translation id="5383943761832211733">Dokumen OneVN Software</translation>
-<translation id="5924916971643100883">Spreadsheet OneVN Software</translation>
-<translation id="3667369474859528036">Presentasi OneVN Software</translation>
-<translation id="3411013849623404696">Gambar OneVN Software</translation>
-<translation id="7481041283483972362">Tabel OneVN Software</translation>
-<translation id="784862457750027723">OneVN Software Formulir</translation>
-<translation id="3320425620177764157">Peta OneVN Software</translation>
-<translation id="7452737073539387970">Situs OneVN Software</translation>
-<translation id="4445959220475380548">Tautan OneVN Software Drive</translation>
+<translation id="5383943761832211733">Dokumen Onevn Software</translation>
+<translation id="5924916971643100883">Spreadsheet Onevn Software</translation>
+<translation id="3667369474859528036">Presentasi Onevn Software</translation>
+<translation id="3411013849623404696">Gambar Onevn Software</translation>
+<translation id="7481041283483972362">Tabel Onevn Software</translation>
+<translation id="784862457750027723">Onevn Software Formulir</translation>
+<translation id="3320425620177764157">Peta Onevn Software</translation>
+<translation id="7452737073539387970">Situs Onevn Software</translation>
+<translation id="4445959220475380548">Tautan Onevn Software Drive</translation>
 <translation id="5288481194217812690"><ph name="FILENAME"/></translation>
-<translation id="1131292764548273687">Jenis file ini tidak didukung. Kunjungi OneVN Webstore untuk menemukan aplikasi yang dapat membuka jenis file ini.</translation>
-<translation id="9010211493509471179">File ini dirancang untuk komputer yang menggunakan software Macintosh. File ini tidak kompatibel dengan perangkat Anda yang menjalankan OneVN OS. Telusuri di OneVN Webstore untuk mendapatkan aplikasi pengganti yang sesuai.</translation>
-<translation id="5059989099965370411">File ini dirancang untuk PC yang menggunakan software Windows. File ini tidak kompatibel dengan perangkat Anda yang menjalankan OneVN OS. Telusuri di OneVN Webstore untuk mendapatkan aplikasi pengganti yang sesuai.</translation>
+<translation id="1131292764548273687">Jenis file ini tidak didukung. Kunjungi Onevn Webstore untuk menemukan aplikasi yang dapat membuka jenis file ini.</translation>
+<translation id="9010211493509471179">File ini dirancang untuk komputer yang menggunakan software Macintosh. File ini tidak kompatibel dengan perangkat Anda yang menjalankan Onevn OS. Telusuri di Onevn Webstore untuk mendapatkan aplikasi pengganti yang sesuai.</translation>
+<translation id="5059989099965370411">File ini dirancang untuk PC yang menggunakan software Windows. File ini tidak kompatibel dengan perangkat Anda yang menjalankan Onevn OS. Telusuri di Onevn Webstore untuk mendapatkan aplikasi pengganti yang sesuai.</translation>
 <translation id="5833610766403489739">File ini tidak terdeteksi berada di mana. Periksa setelan lokasi download dan coba lagi.</translation>
 <translation id="3966388904776714213">Pemutar Audio</translation>
 <translation id="3245321423178950146">Artis Tidak Dikenal</translation>
@@ -3051,7 +3051,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="2972557485845626008">Firmware</translation>
 <translation id="4297219207642690536">Mulai ulang dan setel ulang</translation>
 <translation id="4716483597559580346">Powerwash untuk keamanan tambahan</translation>
-<translation id="4089922565956168950">Upgrade ini menyetel ulang OneVNbook dan menghapus data pengguna saat ini.</translation>
+<translation id="4089922565956168950">Upgrade ini menyetel ulang Onevnbook dan menghapus data pengguna saat ini.</translation>
 <translation id="5184662919967270437">Memperbarui perangkat</translation>
 <translation id="6644846457769259194">Memperbarui perangkat (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="5906655207909574370">Hampir selesai diperbarui! Mulai ulang perangkat untuk menyelesaikan pembaruan.</translation>
@@ -3074,13 +3074,13 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="5600706100022181951">Update akan didownload menggunakan data seluler sebesar <ph name="UPDATE_SIZE_MB"/> MB. Ingin melanjutkan?</translation>
 <translation id="5402815541704507626">Mendownload update menggunakan data seluler</translation>
 <translation id="5085162214018721575">Memeriksa pembaruan</translation>
-<translation id="4570609078116869893">Update OneVN secara otomatis untuk semua pengguna</translation>
+<translation id="4570609078116869893">Update Onevn secara otomatis untuk semua pengguna</translation>
 <translation id="7102687220333134671">Update otomatis diaktifkan</translation>
 <translation id="6981982820502123353">Aksesibilitas</translation>
-<translation id="5840822070878669614">Buka OneVN Webstore</translation>
+<translation id="5840822070878669614">Buka Onevn Webstore</translation>
 <translation id="6073903501322152803">Tambahkan fitur aksesibilitas</translation>
 <translation id="7988355189918024273">Aktifkan fitur aksesibilitas</translation>
-<translation id="3274899353071794175">Jika gambar tidak memiliki deskripsi yang berguna, OneVN akan memberikan deskripsi untuk Anda. Gambar akan dipindai oleh OneVN Software.</translation>
+<translation id="3274899353071794175">Jika gambar tidak memiliki deskripsi yang berguna, Onevn akan memberikan deskripsi untuk Anda. Gambar akan dipindai oleh Onevn Software.</translation>
 <translation id="2558896001721082624">Selalu tampilkan opsi aksesibilitas di menu sistem</translation>
 <translation id="7280649757394340890">Setelan suara Text-to-Speech</translation>
 <translation id="6635956300022133031">Memilih dan menyesuaikan suara text-to-speech</translation>
@@ -3089,8 +3089,8 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="4209092469652827314">Besar</translation>
 <translation id="499165176004408815">Gunakan mode kontras tinggi</translation>
 <translation id="142758023928848008">Mengaktifkan tombol lengket (untuk menampilkan pintasan keyboard dengan mengetiknya secara berurutan)</translation>
-<translation id="5914872514449971753">Aktifkan OneVNVox (masukan lisan)</translation>
-<translation id="7099511550603534982">Buka setelan OneVNVox</translation>
+<translation id="5914872514449971753">Aktifkan OnevnVox (masukan lisan)</translation>
+<translation id="7099511550603534982">Buka setelan OnevnVox</translation>
 <translation id="8547013269961688403">Aktifkan kaca pembesar layar penuh</translation>
 <translation id="8743390665131937741">Tingkat zoom layar penuh:</translation>
 <translation id="7334274148831027933">Aktifkan kaca pembesar yang dipasang ke dok</translation>
@@ -3125,7 +3125,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="2765217105034171413">Kecil</translation>
 <translation id="7409549334477097887">Sangat besar</translation>
 <translation id="1330145147221172764">Aktifkan keyboard di layar</translation>
-<translation id="1800308196794859773">Kirimkan suara Anda ke OneVN Software untuk memungkinkan pengetikan dengan suara ke kolom teks.</translation>
+<translation id="1800308196794859773">Kirimkan suara Anda ke Onevn Software untuk memungkinkan pengetikan dengan suara ke kolom teks.</translation>
 <translation id="8758418656925882523">Aktifkan dikte (ucapkan untuk mengetik)</translation>
 <translation id="7580671184200851182">Putar audio yang sama melalui semua speaker (audio mono)</translation>
 <translation id="1361872463926621533">Putar suara saat dimulai</translation>
@@ -3189,13 +3189,13 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="2200603218210188859">Preferensi Perangkat USB</translation>
 <translation id="2706892089432507937">Perangkat USB</translation>
 <translation id="5187892128515678283">Bagikan perangkat USB ke Linux dengan mengaktifkan tombol. Berbagi hanya aktif sampai perangkat dilepas.</translation>
-<translation id="2295473777859797944">OneVN Software Play Store</translation>
+<translation id="2295473777859797944">Onevn Software Play Store</translation>
 <translation id="572155275267014074">Setelan Android</translation>
-<translation id="4767209642168463274">Menginstal aplikasi dan game dari OneVN Software Play di OneVNbook. &lt;a target="_blank" href="<ph name="URL"/>"&gt;Pelajari lebih lanjut&lt;/a&gt;</translation>
+<translation id="4767209642168463274">Menginstal aplikasi dan game dari Onevn Software Play di Onevnbook. &lt;a target="_blank" href="<ph name="URL"/>"&gt;Pelajari lebih lanjut&lt;/a&gt;</translation>
 <translation id="2966937470348689686">Kelola preferensi Android</translation>
-<translation id="4074367893748481070">Hapus OneVN Software Play Store</translation>
+<translation id="4074367893748481070">Hapus Onevn Software Play Store</translation>
 <translation id="2792290659606763004">Hapus aplikasi Android?</translation>
-<translation id="4607779957365311067">Aplikasi yang telah Anda download dari OneVN Software Play akan dihapus dari OneVNbook ini.
+<translation id="4607779957365311067">Aplikasi yang telah Anda download dari Onevn Software Play akan dihapus dari Onevnbook ini.
       <ph name="LINE_BREAKS1"/>
       Konten yang telah Anda beli seperti film, acara TV, musik, buku, atau pembelian dalam aplikasi lainnya juga akan dihapus.
       <ph name="LINE_BREAKS2"/>
@@ -3223,7 +3223,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="1670399744444387456">Dasar</translation>
 <translation id="1763808908432309942">Membuka di tab baru</translation>
 <translation id="6248988683584659830">Telusuri setelan</translation>
-<translation id="883304095704384301">Buka <ph name="BEGIN_LINK_CHROMIUM"/>bantuan OneVN Software OneVN<ph name="END_LINK_CHROMIUM"/> jika tidak dapat menemukan yang Anda cari</translation>
+<translation id="883304095704384301">Buka <ph name="BEGIN_LINK_CHROMIUM"/>bantuan Onevn Software Onevn<ph name="END_LINK_CHROMIUM"/> jika tidak dapat menemukan yang Anda cari</translation>
 <translation id="6406708970972405507">Setelan - <ph name="SECTION_TITLE"/></translation>
 <translation id="5860033963881614850">Mati</translation>
 <translation id="5916664084637901428">Aktif</translation>
@@ -3241,10 +3241,10 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="451515744433878153">Hapus</translation>
 <translation id="5029568752722684782">Hapus salinan</translation>
 <translation id="2154484045852737596">Edit kartu</translation>
-<translation id="3032188998195902534">Untuk menambahkan atau mengelola metode pembayaran OneVN Software Pay, buka <ph name="BEGIN_LINK"/>Akun OneVN Software<ph name="END_LINK"/> Anda</translation>
+<translation id="3032188998195902534">Untuk menambahkan atau mengelola metode pembayaran Onevn Software Pay, buka <ph name="BEGIN_LINK"/>Akun Onevn Software<ph name="END_LINK"/> Anda</translation>
 <translation id="8853586775156634952">Kartu ini hanya akan disimpan ke perangkat ini</translation>
 <translation id="5087580092889165836">Tambahkan kartu</translation>
-<translation id="4835914736509775287">Simpan kartu di Akun OneVN Software Anda</translation>
+<translation id="4835914736509775287">Simpan kartu di Akun Onevn Software Anda</translation>
 <translation id="7255002516883565667">Sekarang, Anda memiliki satu kartu yang hanya dapat digunakan di perangkat ini</translation>
 <translation id="6848388270925200958">Sekarang, Anda memiliki beberapa kartu yang hanya dapat digunakan di perangkat ini</translation>
 <translation id="4807098396393229769">Nama di kartu</translation>
@@ -3267,7 +3267,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="7930294771522048157">Metode pembayaran yang tersimpan akan muncul di sini</translation>
 <translation id="9124003689441359348">Sandi yang disimpan akan muncul di sini</translation>
 <translation id="4400367121200150367">Situs yang tidak pernah menyimpan sandi akan muncul di sini</translation>
-<translation id="3098842761938485917">Lihat dan kelola sandi tersimpan di <ph name="BEGIN_LINK"/>Akun OneVN Software<ph name="END_LINK"/></translation>
+<translation id="3098842761938485917">Lihat dan kelola sandi tersimpan di <ph name="BEGIN_LINK"/>Akun Onevn Software<ph name="END_LINK"/></translation>
 <translation id="5620655347161642930">Ekspor sandi...</translation>
 <translation id="3900966090527141178">Ekspor sandi</translation>
 <translation id="6914783257214138813">Sandi akan terlihat oleh orang yang dapat melihat file yang diekspor.</translation>
@@ -3367,15 +3367,15 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="3380365263193509176">Kesalahan tidak dikenal</translation>
 <translation id="368789413795732264">Terdapat kesalahan saat mencoba menulis file: <ph name="ERROR_TEXT"/>.</translation>
 <translation id="784934925303690534">Rentang waktu</translation>
-<translation id="3958004920128806270">Untuk menghapus data browsing dari perangkat ini saja dan tetap menyimpannya di Akun OneVN Software, <ph name="BEGIN_LINK"/>logout<ph name="END_LINK"/>.</translation>
-<translation id="4445433576366924090">Untuk menghapus data browsing dari semua perangkat yang disinkronkan dan dari Akun OneVN Software, <ph name="BEGIN_LINK"/>buka setelan sinkronisasi<ph name="END_LINK"/>.</translation>
-<translation id="563489167344291753">Untuk menghapus data browsing dari semua perangkat yang disinkronkan dan dari Akun OneVN Software, <ph name="BEGIN_LINK"/>masukkan frasa sandi<ph name="END_LINK"/>.</translation>
-<translation id="3895809404273995788">Untuk menghapus data browsing dari semua perangkat yang disinkronkan dan dari Akun OneVN Software, <ph name="BEGIN_LINK"/>login<ph name="END_LINK"/>.</translation>
+<translation id="3958004920128806270">Untuk menghapus data browsing dari perangkat ini saja dan tetap menyimpannya di Akun Onevn Software, <ph name="BEGIN_LINK"/>logout<ph name="END_LINK"/>.</translation>
+<translation id="4445433576366924090">Untuk menghapus data browsing dari semua perangkat yang disinkronkan dan dari Akun Onevn Software, <ph name="BEGIN_LINK"/>buka setelan sinkronisasi<ph name="END_LINK"/>.</translation>
+<translation id="563489167344291753">Untuk menghapus data browsing dari semua perangkat yang disinkronkan dan dari Akun Onevn Software, <ph name="BEGIN_LINK"/>masukkan frasa sandi<ph name="END_LINK"/>.</translation>
+<translation id="3895809404273995788">Untuk menghapus data browsing dari semua perangkat yang disinkronkan dan dari Akun Onevn Software, <ph name="BEGIN_LINK"/>login<ph name="END_LINK"/>.</translation>
 <translation id="8662811608048051533">Membuat Anda logout dari sebagian besar situs.</translation>
-<translation id="4650925988509114690">Membuat Anda logout dari sebagian besar situs. Anda akan tetap login di Akun OneVN Software sehingga data yang disinkronkan dapat dihapus.</translation>
+<translation id="4650925988509114690">Membuat Anda logout dari sebagian besar situs. Anda akan tetap login di Akun Onevn Software sehingga data yang disinkronkan dapat dihapus.</translation>
 <translation id="2017836877785168846">Hapus histori dan pelengkapan otomatis di kolom URL.</translation>
-<translation id="8096327394278038498">Menghapus histori dan pelengkapan otomatis di kolom URL. Akun OneVN Software Anda mungkin memiliki bentuk histori browsing lainnya di <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
-<translation id="8122693181154564064">Menghapus histori dari semua perangkat yang dibuat login. Akun OneVN Software Anda mungkin memiliki bentuk histori browsing lain di <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8096327394278038498">Menghapus histori dan pelengkapan otomatis di kolom URL. Akun Onevn Software Anda mungkin memiliki bentuk histori browsing lainnya di <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8122693181154564064">Menghapus histori dari semua perangkat yang dibuat login. Akun Onevn Software Anda mungkin memiliki bentuk histori browsing lain di <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="7127980134843952133">Histori download</translation>
 <translation id="4699172675775169585">Gambar dan file dalam cache</translation>
 <translation id="1274997165432133392">Cookie dan data situs lainnya</translation>
@@ -3389,7 +3389,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="6979737339423435258">Semua</translation>
 <translation id="3399432415385675819">Notifikasi akan dinonaktifkan</translation>
 <translation id="3459509316159669723">Pencetakan</translation>
-<translation id="1563008449513980623">Siapkan atau kelola printer di OneVN Software Cloud Print.</translation>
+<translation id="1563008449513980623">Siapkan atau kelola printer di Onevn Software Cloud Print.</translation>
 <translation id="8185331656081929126">Tampilkan pemberitahuan saat printer baru terdeteksi pada jaringan.</translation>
 <translation id="6451180435462401570">Kelola perangkat Cloud Print</translation>
 <translation id="6985607387932385770">Printer</translation>
@@ -3422,10 +3422,10 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="2462752602710430187"><ph name="PRINTER_NAME"/> ditambahkan</translation>
 <translation id="9057119625587205566">Tidak ada printer di sekitar</translation>
 <translation id="3213187967168344806">Tidak dapat menambahkan printer. Harap nyalakan ulang komputer dan coba lagi.</translation>
-<translation id="4052689580269971502">Tidak dapat terhubung ke printer. Harap periksa apakah printer sudah diaktifkan dan terhubung ke OneVNbook dengan Wi-Fi atau USB.</translation>
+<translation id="4052689580269971502">Tidak dapat terhubung ke printer. Harap periksa apakah printer sudah diaktifkan dan terhubung ke Onevnbook dengan Wi-Fi atau USB.</translation>
 <translation id="7099337801055912064">Tidak dapat memuat PPD yang besar. Ukuran maksimumnya adalah 250 kB.</translation>
 <translation id="4310139701823742692">Format file salah. Periksa file PPD dan coba lagi.</translation>
-<translation id="6580983683519551561">Tidak dapat menemukan PPD. Pastikan OneVNbook sudah online dan coba lagi.</translation>
+<translation id="6580983683519551561">Tidak dapat menemukan PPD. Pastikan Onevnbook sudah online dan coba lagi.</translation>
 <translation id="4694024090038830733">Konfigurasi printer ditangani oleh administrator.</translation>
 <translation id="5816434091619127343">Perubahan printer yang diminta akan membuat printer tidak dapat digunakan.</translation>
 <translation id="6504611359718185067">Sambungkan ke internet untuk menambahkan printer</translation>
@@ -3433,7 +3433,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="5696679855467848181">File PPD saat ini yang digunakan: <ph name="PPD_NAME"/></translation>
 <translation id="4733793249294335256">Lokasi</translation>
 <translation id="7754704193130578113">Tanyakan lokasi penyimpanan setiap file sebelum mendownload</translation>
-<translation id="5713072761819014678">Memutuskan hubungan akun OneVN Software Drive</translation>
+<translation id="5713072761819014678">Memutuskan hubungan akun Onevn Software Drive</translation>
 <translation id="486635084936119914">Buka jenis file tertentu secara otomatis setelah didownload</translation>
 <translation id="3653160965917900914">Berbagi file jaringan</translation>
 <translation id="5763315388120433852">Siapkan atau kelola berbagi file jaringan.</translation>
@@ -3469,12 +3469,12 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="3571734092741541777">Siapkan</translation>
 <translation id="3336664756920573711">Buka kunci <ph name="DEVICE_TYPE"/> menggunakan ponsel Android</translation>
 <translation id="1164674268730883318">Nonaktifkan Smart Lock untuk <ph name="DEVICE_TYPE"/>?</translation>
-<translation id="2739030071582769583">Jika fitur Smart Lock untuk <ph name="DEVICE_TYPE"/> dinonaktifkan, perangkat OneVN tidak dapat dibuka menggunakan ponsel. Anda perlu mengetikkan sandi untuk membukanya.</translation>
+<translation id="2739030071582769583">Jika fitur Smart Lock untuk <ph name="DEVICE_TYPE"/> dinonaktifkan, perangkat Onevn tidak dapat dibuka menggunakan ponsel. Anda perlu mengetikkan sandi untuk membukanya.</translation>
 <translation id="4737715515457435632">Sambungkan ke jaringan</translation>
 <translation id="5425722269016440406">Anda harus tersambung ke internet untuk menonaktifkan Smart Lock karena setelan ini disinkronkan ke ponsel dan perangkat lain. Sambungkan ke jaringan terlebih dahulu.</translation>
 <translation id="8885197664446363138">Smart Lock tidak tersedia</translation>
 <translation id="7334190995941642545">Saat ini Smart Lock tidak tersedia. Coba lagi nanti.</translation>
-<translation id="8112427115751454716">Gunakan Smart Lock untuk login ke Akun OneVN Software</translation>
+<translation id="8112427115751454716">Gunakan Smart Lock untuk login ke Akun Onevn Software</translation>
 <translation id="2043818754674261542">Jauhkan ponsel untuk membuka kunci <ph name="DEVICE_TYPE"/> ini</translation>
 <translation id="2522791476825452208">Sangat dekat</translation>
 <translation id="649454645705377674">Tutup</translation>
@@ -3482,7 +3482,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="5595152862129936745">Sangat jauh</translation>
 <translation id="8748384418490037181">Opsi Smart Lock</translation>
 <translation id="2433836460518180625">Hanya buka kunci perangkat</translation>
-<translation id="3300552672525741457">Buka kunci perangkat dan login ke Akun OneVN Software</translation>
+<translation id="3300552672525741457">Buka kunci perangkat dan login ke Akun Onevn Software</translation>
 <translation id="2307462900900812319">Konfigurasi jaringan</translation>
 <translation id="7175037578838465313">Konfigurasi <ph name="NAME"/></translation>
 <translation id="8662671328352114214">Bergabung dengan jaringan <ph name="TYPE"/></translation>
@@ -3509,7 +3509,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="1726100011689679555">Nama server</translation>
 <translation id="1209796539517632982">Server nama otomatis</translation>
 <translation id="4462159676511157176">Server nama khusus</translation>
-<translation id="1981884748698699991">Server nama OneVN Software</translation>
+<translation id="1981884748698699991">Server nama Onevn Software</translation>
 <translation id="854655314928502177">URL Penemuan Otomatis Proxy Web:</translation>
 <translation id="3817579325494460411">Tidak dicantumkan</translation>
 <translation id="1280820357415527819">Menelusuri jaringan seluler</translation>
@@ -3573,13 +3573,13 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="6077131872140550515">Hapus dari pilihan</translation>
 <translation id="4115002065223188701">Jaringan di luar jangkauan</translation>
 <translation id="161460670679785907">Tidak dapat mendeteksi ponsel Anda</translation>
-<translation id="1682335582099955045">Untuk menggunakan Tethering Instan, aktifkan notifikasi untuk Layanan OneVN Software Play.</translation>
+<translation id="1682335582099955045">Untuk menggunakan Tethering Instan, aktifkan notifikasi untuk Layanan Onevn Software Play.</translation>
 <translation id="7696063401938172191">Di '<ph name="PHONE_NAME"/>' Anda:</translation>
 <translation id="3423463006624419153">Pada '<ph name="PHONE_NAME_1"/>' dan '<ph name="PHONE_NAME_2"/>' Anda:</translation>
 <translation id="6997707937646349884">Di perangkat Anda:</translation>
 <translation id="7531779363494549572">Buka Setelan &gt; Aplikasi &amp; notifikasi &gt; Notifikasi.</translation>
-<translation id="6921033294337262045">Tap Notifikasi aplikasi &gt; Layanan OneVN Software Play.</translation>
-<translation id="5624710179837914896">Aktifkan layanan OneVN Software Play.</translation>
+<translation id="6921033294337262045">Tap Notifikasi aplikasi &gt; Layanan Onevn Software Play.</translation>
+<translation id="5624710179837914896">Aktifkan layanan Onevn Software Play.</translation>
 <translation id="2705736684557713153">Scroll ke bagian bawah layar dan aktifkan Tethering Instan, jika muncul. Jika tidak muncul, artinya Anda sudah siap.</translation>
 <translation id="8720200012906404956">Mencari jaringan seluler. <ph name="BEGIN_LINK"/>Pelajari lebih lanjut<ph name="END_LINK"/></translation>
 <translation id="7240339475467890413">Sambungkan ke hotspot baru?</translation>
@@ -3593,7 +3593,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="3651488188562686558">Putuskan sambungan Wi-Fi</translation>
 <translation id="3479552764303398839">Jangan sekarang</translation>
 <translation id="7378812711085314936">Dapatkan koneksi data</translation>
-<translation id="3483333858382889684">Izinkan perangkat ini menemukan perangkat lain dengan Akun OneVN Software yang memiliki koneksi data seluler</translation>
+<translation id="3483333858382889684">Izinkan perangkat ini menemukan perangkat lain dengan Akun Onevn Software yang memiliki koneksi data seluler</translation>
 <translation id="5637476008227280525">Data seluler aktif</translation>
 <translation id="1572266655485775982">Wi-Fi aktif</translation>
 <translation id="543381445212956829">WiMAX aktif</translation>
@@ -3723,11 +3723,11 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="4200689466366162458">Kata khusus</translation>
 <translation id="7833720883933317473">Kata khusus yang disimpan akan muncul di sini</translation>
 <translation id="8509646642152301857">Download kamus periksa ejaan gagal.</translation>
-<translation id="8842834450537919370">Hubungi administrator jaringan Anda untuk memastikan bahwa firewall tidak memblokir download dari server OneVN Software.</translation>
+<translation id="8842834450537919370">Hubungi administrator jaringan Anda untuk memastikan bahwa firewall tidak memblokir download dari server Onevn Software.</translation>
 <translation id="9042893549633094279">Privasi dan keamanan</translation>
 <translation id="654233263479157500">Gunakan layanan web untuk membantu mengatasi kesalahan navigasi</translation>
 <translation id="6697492270171225480">Tampilkan saran untuk halaman yang serupa jika halaman tidak dapat ditemukan</translation>
-<translation id="4534361985432360439">Mengirimkan alamat web halaman yang ingin Anda buka ke OneVN Software</translation>
+<translation id="4534361985432360439">Mengirimkan alamat web halaman yang ingin Anda buka ke Onevn Software</translation>
 <translation id="6545834809683560467">Gunakan layanan prediksi untuk membantu melengkapi penelusuran dan URL yang diketik di kolom URL atau kotak penelusuran peluncur aplikasi</translation>
 <translation id="340485819826776184">Gunakan layanan prediksi untuk membantu melengkapi penelusuran dan URL yang dimasukkan di kolom URL</translation>
 <translation id="7704317875155739195">Lengkapi otomatis penelusuran dan URL</translation>
@@ -3738,16 +3738,16 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="1641113438599504367">Penelusuran Aman</translation>
 <translation id="773905249182896430">Melindungi Anda dan perangkat dari situs berbahaya</translation>
 <translation id="8983677657449185470">Bantu sempurnakan Safe Browsing</translation>
-<translation id="199861668945335092">Mengirimkan beberapa informasi sistem dan konten halaman ke OneVN Software</translation>
+<translation id="199861668945335092">Mengirimkan beberapa informasi sistem dan konten halaman ke Onevn Software</translation>
 <translation id="490074449735753175">Gunakan layanan web untuk membantu mengoreksi kesalahan ejaan</translation>
-<translation id="3523078749603005179">Pemeriksa ejaan yang lebih cerdas dengan mengirimkan apa yang Anda ketik di browser ke OneVN Software</translation>
+<translation id="3523078749603005179">Pemeriksa ejaan yang lebih cerdas dengan mengirimkan apa yang Anda ketik di browser ke Onevn Software</translation>
 <translation id="2564653188463346023">Pemeriksaan ejaan yang disempurnakan</translation>
-<translation id="9079153198295609735">Kirim statistik penggunaan dan laporan kerusakan ke OneVN Software secara otomatis</translation>
-<translation id="5941220456342415404">Otomatis kirimkan data diagnostik dan penggunaan ke OneVN Software</translation>
-<translation id="918192811481327695">Bantu sempurnakan fitur dan performa OneVN</translation>
-<translation id="9063160602596686558">Secara otomatis mengirimkan statistik penggunaan dan laporan kerusakan ke OneVN Software</translation>
+<translation id="9079153198295609735">Kirim statistik penggunaan dan laporan kerusakan ke Onevn Software secara otomatis</translation>
+<translation id="5941220456342415404">Otomatis kirimkan data diagnostik dan penggunaan ke Onevn Software</translation>
+<translation id="918192811481327695">Bantu sempurnakan fitur dan performa Onevn</translation>
+<translation id="9063160602596686558">Secara otomatis mengirimkan statistik penggunaan dan laporan kerusakan ke Onevn Software</translation>
 <translation id="8438566539970814960">Jadikan penelusuran dan penjelajahan lebih baik</translation>
-<translation id="284843628681142937">Mengirimkan URL halaman yang Anda buka ke OneVN Software</translation>
+<translation id="284843628681142937">Mengirimkan URL halaman yang Anda buka ke Onevn Software</translation>
 <translation id="8791534160414513928">Kirim permintaan "Jangan Lacak" bersama dengan traffic akses internet</translation>
 <translation id="5299109548848736476">Jangan Lacak</translation>
 <translation id="5282733140964383898">Dengan mengaktifkan ''Jangan Lacak'', permintaan akan disertakan dalam traffic penjelajahan Anda. Pengaruh apa pun bergantung pada apakah situs menanggapi permintaan atau tidak, dan cara permintaan diinterpretasikan. Misalnya, beberapa situs mungkin menanggapi permintaan ini dengan menayangkan iklan yang tidak didasarkan pada situs lain yang telah Anda kunjungi. Banyak situs yang masih akan mengumpulkan dan menggunakan data browsing Anda - misalnya untuk meningkatkan keamanan, menyediakan konten, layanan, iklan, dan saran pada situs mereka, serta membuat statistik pelaporan. <ph name="BEGIN_LINK"/>Pelajari lebih lanjut<ph name="END_LINK"/></translation>
@@ -3765,7 +3765,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="8632933437936028548">Setel ulang setelan</translation>
 <translation id="5293170712604732402">Memulihkan setelan ke default aslinya</translation>
 <translation id="892706138619340876">Beberapa setelan telah disetel ulang</translation>
-<translation id="2334029754052191847">OneVN mendeteksi bahwa beberapa setelan Anda dirusak oleh program lain dan menyetelnya ulang ke setelan default aslinya.</translation>
+<translation id="2334029754052191847">Onevn mendeteksi bahwa beberapa setelan Anda dirusak oleh program lain dan menyetelnya ulang ke setelan default aslinya.</translation>
 <translation id="4582563038311694664">Setel ulang semua setelan</translation>
 <translation id="4146785383423576110">Setel ulang dan bersihkan</translation>
 <translation id="2603115962224169880">Bersihkan komputer</translation>
@@ -3777,7 +3777,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="7807067443225230855">Penelusuran dan Asisten</translation>
 <translation id="2203682048752833055">Mesin telusur yang digunakan di <ph name="BEGIN_LINK"/>kolom URL<ph name="END_LINK"/></translation>
 <translation id="1432581352905426595">Kelola mesin telusur</translation>
-<translation id="2862205630718215619">Asisten OneVN Software</translation>
+<translation id="2862205630718215619">Asisten Onevn Software</translation>
 <translation id="6978121630131642226">Mesin Telusur</translation>
 <translation id="6410668567036790476">Tambahkan mesin telusur</translation>
 <translation id="1128591060186966949">Edit mesin telusur</translation>
@@ -3789,9 +3789,9 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="7063311912041006059">URL dengan <ph name="SPECIAL_SYMBOL"/> sebagai ganti kueri</translation>
 <translation id="6953878494808481632">Info terkait</translation>
 <translation id="4145922204387553806">Biarkan Asisten menampilkan info yang berkaitan dengan apa yang ditampilkan di layar</translation>
-<translation id="472896694312062378">Ok OneVN Software</translation>
-<translation id="873163986259711670">Akses Asisten setiap kali Anda mengucapkan "Ok OneVN Software"</translation>
-<translation id="7972554217702001243">Aktifkan Asisten saat seseorang mengatakan “Ok OneVN Software”. Untuk menghemat baterai, “Ok OneVN Software” hanya akan menyala saat perangkat terhubung ke sumber listrik.</translation>
+<translation id="472896694312062378">Ok Onevn Software</translation>
+<translation id="873163986259711670">Akses Asisten setiap kali Anda mengucapkan "Ok Onevn Software"</translation>
+<translation id="7972554217702001243">Aktifkan Asisten saat seseorang mengatakan “Ok Onevn Software”. Untuk menghemat baterai, “Ok Onevn Software” hanya akan menyala saat perangkat terhubung ke sumber listrik.</translation>
 <translation id="5825412242012995131">Aktif (Direkomendasikan)</translation>
 <translation id="5067399438976153555">Selalu aktif</translation>
 <translation id="5419405654816502573">Voice match</translation>
@@ -3800,7 +3800,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="5355099869024327351">Izinkan Asisten menampilkan notifikasi</translation>
 <translation id="133535873114485416">Preferensi masukan</translation>
 <translation id="6233154960150021497">Default untuk menggunakan suara, bukan keyboard</translation>
-<translation id="3908743412684152579">Setelan Asisten OneVN Software</translation>
+<translation id="3908743412684152579">Setelan Asisten Onevn Software</translation>
 <translation id="4933484234309072027">disematkan di <ph name="URL"/></translation>
 <translation id="8427292751741042100">disematkan di host mana saja</translation>
 <translation id="4907306957610201395">Kategori Izin</translation>
@@ -3825,7 +3825,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="5340638867532133571">Izinkan situs menginstal penangan pembayaran (disarankan)</translation>
 <translation id="763632859238619983">Jangan izinkan situs menginstal penangan pembayaran</translation>
 <translation id="8270242299912238708">Dokumen PDF</translation>
-<translation id="539658326146969381">Download file PDF tanpa otomatis membukanya di OneVN</translation>
+<translation id="539658326146969381">Download file PDF tanpa otomatis membukanya di Onevn</translation>
 <translation id="4434045419905280838">Pop-up dan pengalihan</translation>
 <translation id="6612358246767739896">Konten dilindungi</translation>
 <translation id="4252852543720145436">Pengenal konten yang dilindungi</translation>
@@ -3857,7 +3857,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="7661259717474717992">Izinkan situs menyimpan dan membaca data cookie</translation>
 <translation id="2913331724188855103">Izinkan situs untuk menyimpan dan membaca data cookie (disarankan)</translation>
 <translation id="5908769186679515905">Blokir situs agar tidak menjalankan Flash</translation>
-<translation id="6096007141921397775">Setelan Flash akan dipertahankan hingga Anda keluar dari OneVN.</translation>
+<translation id="6096007141921397775">Setelan Flash akan dipertahankan hingga Anda keluar dari Onevn.</translation>
 <translation id="2972642118232180842">Jalankan konten penting saja (direkomendasikan)</translation>
 <translation id="7084192839369222683">Jalankan konten penting saja</translation>
 <translation id="8074127646604999664">Izinkan situs yang baru ditutup untuk menyelesaikan pengiriman dan penerimaan data</translation>
@@ -3919,7 +3919,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="4750220700975225">(<ph name="EMBEDDING"/>) sesi penyamaran saat ini</translation>
 <translation id="383891835335927981">Tidak ada situs yang telah diperbesar atau diperkecil</translation>
 <translation id="3566721612727112615">Tidak ada situs yang ditambahkan</translation>
-<translation id="8098574385249290065">Izinkan OneVN memilih kapan situs dapat memutar suara (direkomendasikan)</translation>
+<translation id="8098574385249290065">Izinkan Onevn memilih kapan situs dapat memutar suara (direkomendasikan)</translation>
 <translation id="4354344420232759511">Situs yang Anda kunjungi akan ditampilkan di sini</translation>
 <translation id="3757733214359997190">Tidak ada situs yang ditemukan</translation>
 <translation id="5763751966069581670">Tidak ada perangkat USB yang ditemukan</translation>
@@ -3927,7 +3927,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="7366415735885268578">Tambahkan situs</translation>
 <translation id="5052499409147950210">Edit situs</translation>
 <translation id="2870560284913253234">Situs</translation>
-<translation id="4610862967073369855">Mengizinkan Android Message mengirim teks dari ponsel Anda ke OneVNbook Anda</translation>
+<translation id="4610862967073369855">Mengizinkan Android Message mengirim teks dari ponsel Anda ke Onevnbook Anda</translation>
 <translation id="6742339027238151589">Dapat diakses ke skrip</translation>
 <translation id="361106536627977100">Data Flash</translation>
 <translation id="8557930019681227453">Manifes</translation>
@@ -3941,7 +3941,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="6105877918873366097">Terakhir diakses</translation>
 <translation id="1296497012903089238">Jenis Sertifikat</translation>
 <translation id="8553342806078037065">Kelola orang lain</translation>
-<translation id="8907706281008466056">Foto OneVN Software profil</translation>
+<translation id="8907706281008466056">Foto Onevn Software profil</translation>
 <translation id="2408955596600435184">Masukkan PIN</translation>
 <translation id="6619990499523117484">Konfirmasikan PIN</translation>
 <translation id="2023167225947895179">PIN mungkin mudah ditebak</translation>
@@ -3966,9 +3966,9 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="6029292188939175871">tombol hapus [<ph name="FINGERPRINT_NAME"/>]</translation>
 <translation id="1927632033341042996">Jari <ph name="NEW_FINGER_NUMBER"/></translation>
 <translation id="7665369617277396874">Tambahkan akun</translation>
-<translation id="6776811409814583709">Semua Akun OneVN Software Anda yang digunakan untuk login dari aplikasi dan situs dapat dikelola di sini. Aplikasi dan situs yang Anda izinkan dapat mengakses informasi akun yang dibutuhkan untuk berfungsi sebagaimana mestinya.</translation>
+<translation id="6776811409814583709">Semua Akun Onevn Software Anda yang digunakan untuk login dari aplikasi dan situs dapat dikelola di sini. Aplikasi dan situs yang Anda izinkan dapat mengakses informasi akun yang dibutuhkan untuk berfungsi sebagaimana mestinya.</translation>
 <translation id="1987317783729300807">Akun</translation>
-<translation id="8418661265246754237">Akun OneVN Software</translation>
+<translation id="8418661265246754237">Akun Onevn Software</translation>
 <translation id="3297951628821704004">Hapus akun dari perangkat ini</translation>
 <translation id="3158033540161634471">Siapkan sidik jari Anda</translation>
 <translation id="1587907146729660231">Sentuh tombol power dengan jari Anda</translation>
@@ -3998,9 +3998,9 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="2114896190328250491">Foto oleh <ph name="NAME"/></translation>
 <translation id="7155171745945906037">Foto yang sudah ada dari kamera atau file</translation>
 <translation id="8995603266996330174">Dikelola menurut <ph name="DOMAIN"/></translation>
-<translation id="9125982323641182972">Dapatkan kecanggihan OneVN Software di OneVN</translation>
+<translation id="9125982323641182972">Dapatkan kecanggihan Onevn Software di Onevn</translation>
 <translation id="5244474230056479698">Menyinkronkan dengan <ph name="EMAIL"/></translation>
-<translation id="4326270470840334364">Karena akun ini dikelola oleh <ph name="DOMAIN"/>, bookmark, histori, sandi, dan setelan yang lain akan dihapus dari perangkat ini. Namun, data Anda akan tetap disimpan di Akun OneVN Software dan dapat dikelola di <ph name="BEGIN_LINK"/>OneVN Software Dasbor<ph name="END_LINK"/>.</translation>
+<translation id="4326270470840334364">Karena akun ini dikelola oleh <ph name="DOMAIN"/>, bookmark, histori, sandi, dan setelan yang lain akan dihapus dari perangkat ini. Namun, data Anda akan tetap disimpan di Akun Onevn Software dan dapat dikelola di <ph name="BEGIN_LINK"/>Onevn Software Dasbor<ph name="END_LINK"/>.</translation>
 <translation id="4037889604535939429">Edit orang</translation>
 <translation id="6739923123728562974">Tampilkan pintasan desktop</translation>
 <translation id="2450310832094867474">Nonaktifkan sinkronisasi dan logout?</translation>
@@ -4008,16 +4008,16 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="5643620609347735571">Hapus dan lanjutkan</translation>
 <translation id="5602765853043467355">Hapus bookmark, histori, sandi, dan lainnya dari perangkat ini.</translation>
 <translation id="4089235344645910861">Setelan disimpan. Sinkronisasi dimulai.</translation>
-<translation id="7548737591211512046">Login untuk mendapatkan bookmark, histori, sandi, dan setelan lain di semua perangkat Anda. Anda juga akan otomatis login ke layanan OneVN Software.</translation>
-<translation id="2951604498031550705">Perubahan terhadap bookmark, histori, sandi, dan setelan lain sudah tidak disinkronkan ke Akun OneVN Software Anda. Namun, data yang sudah ada akan tetap disimpan di Akun OneVN Software dan dapat dikelola di <ph name="BEGIN_LINK"/>OneVN Software Dasbor<ph name="END_LINK"/>.</translation>
-<translation id="138229770216285283">Tindakan ini akan membuat Anda logout dari akun OneVN Software. Perubahan pada bookmark, histori, sandi, dan setelan lainnya tidak akan disinkronkan lagi dengan Akun OneVN Software Anda. Namun, data yang sudah ada akan tetap disimpan di Akun OneVN Software dan dapat dikelola di <ph name="BEGIN_LINK"/>OneVN Software Dasbor<ph name="END_LINK"/>.</translation>
-<translation id="3169352093514419465">Tindakan ini akan membuat Anda logout dari Akun OneVN Software. Bookmark, histori, sandi, dan lainnya tidak akan disinkronkan lagi.</translation>
+<translation id="7548737591211512046">Login untuk mendapatkan bookmark, histori, sandi, dan setelan lain di semua perangkat Anda. Anda juga akan otomatis login ke layanan Onevn Software.</translation>
+<translation id="2951604498031550705">Perubahan terhadap bookmark, histori, sandi, dan setelan lain sudah tidak disinkronkan ke Akun Onevn Software Anda. Namun, data yang sudah ada akan tetap disimpan di Akun Onevn Software dan dapat dikelola di <ph name="BEGIN_LINK"/>Onevn Software Dasbor<ph name="END_LINK"/>.</translation>
+<translation id="138229770216285283">Tindakan ini akan membuat Anda logout dari akun Onevn Software. Perubahan pada bookmark, histori, sandi, dan setelan lainnya tidak akan disinkronkan lagi dengan Akun Onevn Software Anda. Namun, data yang sudah ada akan tetap disimpan di Akun Onevn Software dan dapat dikelola di <ph name="BEGIN_LINK"/>Onevn Software Dasbor<ph name="END_LINK"/>.</translation>
+<translation id="3169352093514419465">Tindakan ini akan membuat Anda logout dari Akun Onevn Software. Bookmark, histori, sandi, dan lainnya tidak akan disinkronkan lagi.</translation>
 <translation id="8588866096426746242">Tampilkan statistik profil</translation>
 <translation id="5535941515421698170">Tindakan ini juga menghapus data yang sudah ada dari perangkat ini</translation>
 <translation id="7243632151880336635">Hapus dan Keluar</translation>
 <translation id="6406506848690869874">Sinkronkan</translation>
-<translation id="5428209950370661546">Layanan OneVN Software lainnya</translation>
-<translation id="7956662517480676674">Sinkronisasi dan layanan OneVN Software</translation>
+<translation id="5428209950370661546">Layanan Onevn Software lainnya</translation>
+<translation id="7956662517480676674">Sinkronisasi dan layanan Onevn Software</translation>
 <translation id="2453021845418314664">Setelan sinkronisasi lanjutan</translation>
 <translation id="4314815835985389558">Kelola sinkronisasi</translation>
 <translation id="659934686219830168">Sinkronisasi akan dimulai setelah Anda meninggalkan halaman ini</translation>
@@ -4026,19 +4026,19 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="4824958205181053313">Batalkan sinkronisasi?</translation>
 <translation id="3058498974290601450">Anda dapat mengaktifkan sinkronisasi kapan saja di setelan</translation>
 <translation id="7529411698175791732">Periksa koneksi internet Anda. Jika masalah tetap berlanjut, coba logout lalu login lagi.</translation>
-<translation id="1125261911132334651">Kelola Akun OneVN Software Anda</translation>
+<translation id="1125261911132334651">Kelola Akun Onevn Software Anda</translation>
 <translation id="4570387585180509432">Alamat, nomor telepon, dan lainnya</translation>
 <translation id="5117427536932535467">Tema &amp; Wallpaper</translation>
 <translation id="3268451620468152448">Tab Terbuka</translation>
-<translation id="5241892180459725878">Saran penelusuran OneVN Software Drive</translation>
+<translation id="5241892180459725878">Saran penelusuran Onevn Software Drive</translation>
 <translation id="2120297377148151361">Aktivitas dan interaksi</translation>
 <translation id="5833397272224757657">Menggunakan konten di situs yang Anda buka serta aktivitas browser dan interaksi untuk personalisasi</translation>
-<translation id="8135094938656535588">Kelola data yang disinkronkan pada OneVN Software Dasbor</translation>
-<translation id="7505421639213002314">Data dari sinkronisasi OneVN</translation>
+<translation id="8135094938656535588">Kelola data yang disinkronkan pada Onevn Software Dasbor</translation>
+<translation id="7505421639213002314">Data dari sinkronisasi Onevn</translation>
 <translation id="6596325263575161958">Opsi enkripsi</translation>
-<translation id="2459230470861708651">Enkripsikan sandi yang disinkronkan dengan nama pengguna dan sandi OneVN Software Anda</translation>
-<translation id="5958351589333270173">Enkripsikan data yang disinkronkan dengan <ph name="BEGIN_LINK"/>frasa sandi siknronisasi<ph name="END_LINK"/> Anda sendiri. Data ini tidak mencakup alamat dan metode pembayaran dari OneVN Software Pay.</translation>
-<translation id="4817583816512767754">Hanya orang yang memiliki frasa sandi Anda yang dapat membaca data terenkripsi. Frasa sandi tidak dikirim ke atau disimpan oleh OneVN Software. Jika lupa frasa sandi atau ingin mengubah setelan ini, Anda perlu <ph name="BEGIN_LINK"/>menyetel ulang sinkronisasi<ph name="END_LINK"/>.</translation>
+<translation id="2459230470861708651">Enkripsikan sandi yang disinkronkan dengan nama pengguna dan sandi Onevn Software Anda</translation>
+<translation id="5958351589333270173">Enkripsikan data yang disinkronkan dengan <ph name="BEGIN_LINK"/>frasa sandi siknronisasi<ph name="END_LINK"/> Anda sendiri. Data ini tidak mencakup alamat dan metode pembayaran dari Onevn Software Pay.</translation>
+<translation id="4817583816512767754">Hanya orang yang memiliki frasa sandi Anda yang dapat membaca data terenkripsi. Frasa sandi tidak dikirim ke atau disimpan oleh Onevn Software. Jika lupa frasa sandi atau ingin mengubah setelan ini, Anda perlu <ph name="BEGIN_LINK"/>menyetel ulang sinkronisasi<ph name="END_LINK"/>.</translation>
 <translation id="7441736921018636843">Untuk mengubah setelan ini, <ph name="BEGIN_LINK"/>setel ulang sinkronisasi<ph name="END_LINK"/> untuk menghapus frasa sandi sinkronisasi</translation>
 <translation id="3873315167136380065">Untuk mengaktifkannya, <ph name="BEGIN_LINK"/>setel ulang sinkronisasi<ph name="END_LINK"/> untuk menghapus frasa sandi sinkronisasi</translation>
 <translation id="988978206646512040">Frasa sandi tidak boleh kosong</translation>
@@ -4084,7 +4084,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="437184764829821926">Setelan font lanjutan</translation>
 <translation id="323803881985677942">Buka opsi ekstensi</translation>
 <translation id="2166369534954157698">Lihat gaya font dan contoh ukurannya dengan cara yang menyenangkan</translation>
-<translation id="8911765336506423117">Mengharuskan ekstensi berasal dari OneVN Webstore</translation>
+<translation id="8911765336506423117">Mengharuskan ekstensi berasal dari Onevn Webstore</translation>
 <translation id="6965978654500191972">Perangkat</translation>
 <translation id="8260864402787962391">Mouse</translation>
 <translation id="155865706765934889">Touchpad</translation>
@@ -4121,7 +4121,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="4673442866648850031">Buka alat stilus saat stilus dihapus</translation>
 <translation id="5862109781435984885">Tampilkan alat stilus di rak</translation>
 <translation id="4244238649050961491">Temukan aplikasi stilus lainnya</translation>
-<translation id="1163818598439831131">Buka OneVN Software Play</translation>
+<translation id="1163818598439831131">Buka Onevn Software Play</translation>
 <translation id="9116799625073598554">Aplikasi pencatat</translation>
 <translation id="5458998536542739734">Catatan layar kunci</translation>
 <translation id="203574396658008164">Aktifkan pencatat dari layar kunci</translation>
@@ -4183,7 +4183,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="6547354035488017500">Kosongkan ruang penyimpanan minimal 512 MB atau perangkat tidak akan merespons. Untuk mengosongkan ruang penyimpanan, hapus file dari penyimpanan perangkat.</translation>
 <translation id="6097480669505687979">Jika Anda tidak mengosongkan ruang penyimpanan, pengguna dan data dapat otomatis dihapus.</translation>
 <translation id="5438224778284622050">Hapus file offline?</translation>
-<translation id="9196021349904508454">File offline OneVN Software Drive sementara akan dihapus. File yang telah disetel sebagai tersedia saat offline tidak akan dihapus dari perangkat ini.</translation>
+<translation id="9196021349904508454">File offline Onevn Software Drive sementara akan dihapus. File yang telah disetel sebagai tersedia saat offline tidak akan dihapus dari perangkat ini.</translation>
 <translation id="1865678028973512614">Hapus file</translation>
 <translation id="1529891865407786369">Sumber listrik</translation>
 <translation id="354060433403403521">Adaptor AC</translation>
@@ -4205,38 +4205,38 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="1889984860246851556">Buka setelan proxy</translation>
 <translation id="1940546824932169984">Perangkat yang terhubung</translation>
 <translation id="3468999815377931311">Ponsel Android</translation>
-<translation id="2789927670850159391">Hubungkan OneVNbook dengan ponsel Anda. <ph name="LINK_BEGIN"/>Pelajari lebih lanjut<ph name="LINK_END"/></translation>
+<translation id="2789927670850159391">Hubungkan Onevnbook dengan ponsel Anda. <ph name="LINK_BEGIN"/>Pelajari lebih lanjut<ph name="LINK_END"/></translation>
 <translation id="1397500194120344683">Tidak ada perangkat yang memenuhi syarat. <ph name="LINK_BEGIN"/>Pelajari lebih lanjut<ph name="LINK_END"/></translation>
 <translation id="5739235828260127894">Menunggu verifikasi. <ph name="LINK_BEGIN"/>Pelajari lebih lanjut<ph name="LINK_END"/></translation>
 <translation id="6518133107902771759">Verifikasi</translation>
-<translation id="7179187931092694802">Membuka kunci OneVNbook dengan ponsel. <ph name="LINK_BEGIN"/>Pelajari lebih lanjut<ph name="LINK_END"/></translation>
+<translation id="7179187931092694802">Membuka kunci Onevnbook dengan ponsel. <ph name="LINK_BEGIN"/>Pelajari lebih lanjut<ph name="LINK_END"/></translation>
 <translation id="5430931332414098647">Tethering Instan</translation>
 <translation id="6415900369006735853">Terhubung ke internet melalui ponsel Anda</translation>
 <translation id="4746351372139058112">Pesan</translation>
-<translation id="2248072377758660530">Mengirim dan menerima pesan teks dari OneVNbook. <ph name="LINK_BEGIN"/>Pelajari lebih lanjut<ph name="LINK_END"/></translation>
+<translation id="2248072377758660530">Mengirim dan menerima pesan teks dari Onevnbook. <ph name="LINK_BEGIN"/>Pelajari lebih lanjut<ph name="LINK_END"/></translation>
 <translation id="5153234146675181447">Lupakan ponsel</translation>
-<translation id="2307631131458143837">Memutuskan hubungan ponsel Anda dari OneVNbook</translation>
-<translation id="1146102139091738471">Putuskan hubungan ponsel Anda dari OneVNbook. Keduanya tidak akan lagi terhubung secara otomatis.</translation>
+<translation id="2307631131458143837">Memutuskan hubungan ponsel Anda dari Onevnbook</translation>
+<translation id="1146102139091738471">Putuskan hubungan ponsel Anda dari Onevnbook. Keduanya tidak akan lagi terhubung secara otomatis.</translation>
 <translation id="7878562273885520351">Sandi Anda mungkin disusupi</translation>
 <translation id="1089439967362294234">Ubah Sandi</translation>
-<translation id="6187156085111579405">Item yang tidak tercantum di sini juga akan dihapus, jika perlu. Pelajari lebih lanjut tentang &lt;a href="<ph name="URL"/>"&gt;perlindungan terhadap software yang tidak diinginkan&lt;/a&gt; di panduan layanan privasi OneVN.</translation>
+<translation id="6187156085111579405">Item yang tidak tercantum di sini juga akan dihapus, jika perlu. Pelajari lebih lanjut tentang &lt;a href="<ph name="URL"/>"&gt;perlindungan terhadap software yang tidak diinginkan&lt;/a&gt; di panduan layanan privasi Onevn.</translation>
 <translation id="5280174558369304332">Ekstensi yang akan dihapus:</translation>
 <translation id="7712836429117959503">Ekstensi tidak dikenal dengan ID <ph name="EXTENSION_ID"/></translation>
 <translation id="3281892622610078515">File dan program yang akan dikarantina:</translation>
 <translation id="8549457076611407730">{NUM_ITEMS,plural, =1{1 item}other{# item}}</translation>
 <translation id="7187428571767585875">Entri registry yang akan dihapus atau diubah:</translation>
 <translation id="4840150926623932060">{NUM_DOWNLOAD,plural, =1{1 lainnya}other{# lainnya}}</translation>
-<translation id="2749608811030566578">Terjadi error saat OneVN menghapus software berbahaya</translation>
-<translation id="8189483132214844139">OneVN dapat menemukan software berbahaya di komputer dan menghapusnya</translation>
+<translation id="2749608811030566578">Terjadi error saat Onevn menghapus software berbahaya</translation>
+<translation id="8189483132214844139">Onevn dapat menemukan software berbahaya di komputer dan menghapusnya</translation>
 <translation id="2910318910161511225">Sambungkan ke jaringan dan coba lagi</translation>
 <translation id="1426870617281699524">Klik Coba Lagi, dan terima perintah di komputer</translation>
-<translation id="7886744396008377537">Ada software berbahaya di komputer Anda. OneVN sedang menghapusnya, memulihkan setelan Anda, dan menonaktifkan ekstensi. Tindakan ini akan membuat browser berfungsi kembali secara normal.</translation>
-<translation id="1484912962860902625">Terjadi error saat OneVN menelusuri software berbahaya</translation>
+<translation id="7886744396008377537">Ada software berbahaya di komputer Anda. Onevn sedang menghapusnya, memulihkan setelan Anda, dan menonaktifkan ekstensi. Tindakan ini akan membuat browser berfungsi kembali secara normal.</translation>
+<translation id="1484912962860902625">Terjadi error saat Onevn menelusuri software berbahaya</translation>
 <translation id="451407183922382411">Diberdayakan oleh <ph name="COMPANY_NAME"/></translation>
 <translation id="5254368820972107711">Tampilkan file yang akan dihapus</translation>
 <translation id="296026337010986570">Selesai! Software berbahaya telah dihapus. Untuk mengaktifkan kembali ekstensi, buka &lt;a href="chrome://extensions"&gt;Ekstensi&lt;/a&gt;.</translation>
 <translation id="284975061945174219">Pembersihan gagal</translation>
-<translation id="9014750448058570312">OneVN perlu izin untuk melanjutkan</translation>
+<translation id="9014750448058570312">Onevn perlu izin untuk melanjutkan</translation>
 <translation id="1852141627593563189">Temukan software berbahaya</translation>
 <translation id="4320177379694898372">Tidak ada sambungan internet</translation>
 <translation id="850875081535031620">Software berbahaya tidak ditemukan</translation>
@@ -4246,11 +4246,11 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="8639047128869322042">Memeriksa software berbahaya...</translation>
 <translation id="2653033005692233957">Penelusuran gagal</translation>
 <translation id="655483977608336153">Coba lagi</translation>
-<translation id="8282772389915299166">Laporkan detail ke OneVN Software tentang software, setelan sistem, dan proses berbahaya yang ditemukan di komputer Anda selama pembersihan ini</translation>
+<translation id="8282772389915299166">Laporkan detail ke Onevn Software tentang software, setelan sistem, dan proses berbahaya yang ditemukan di komputer Anda selama pembersihan ini</translation>
 <translation id="6555810572223193255">Pembersihan saat ini tidak tersedia</translation>
 <translation id="7117228822971127758">Coba lagi nanti</translation>
 <translation id="443475966875174318">Update atau hapus aplikasi yang tidak kompatibel</translation>
-<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{Aplikasi ini dapat membuat OneVN tidak berfungsi dengan semestinya.}other{Aplikasi ini dapat membuat OneVN tidak berfungsi dengan semestinya.}}</translation>
+<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{Aplikasi ini dapat membuat Onevn tidak berfungsi dengan semestinya.}other{Aplikasi ini dapat membuat Onevn tidak berfungsi dengan semestinya.}}</translation>
 <translation id="599131315899248751">{NUM_APPLICATIONS,plural, =1{Untuk memastikan bahwa Anda tetap dapat mengakses web, minta administrator untuk menghapus aplikasi ini.}other{Untuk memastikan bahwa Anda tetap dapat mengakses web, minta administrator untuk menghapus aplikasi berikut.}}</translation>
 <translation id="4743260470722568160"><ph name="BEGIN_LINK"/>Pelajari cara mengupdate aplikasi<ph name="END_LINK"/></translation>
 <translation id="964439421054175458">{NUM_APLLICATIONS,plural, =1{Aplikasi}other{Aplikasi}}</translation>
@@ -4327,7 +4327,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="6370021412472292592">Tidak dapat memuat manifes.</translation>
 <translation id="7235716375204803342">Mengambil aktivitas...</translation>
 <translation id="7647403192093989392">Tidak ada aktivitas terbaru</translation>
-<translation id="38046578254905003">Temukan ekstensi dan tema di <ph name="BEGIN_LINK"/>OneVN Web Store<ph name="END_LINK"/></translation>
+<translation id="38046578254905003">Temukan ekstensi dan tema di <ph name="BEGIN_LINK"/>Onevn Web Store<ph name="END_LINK"/></translation>
 <translation id="7272674038937250585">Tidak tersedia deskripsi</translation>
 <translation id="3855441664322950881">Kemas ekstensi</translation>
 <translation id="2958721676848865875">Peringatan ekstensi pack</translation>
@@ -4339,7 +4339,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="1992397118740194946">Belum disetel</translation>
 <translation id="6706210727756204531">Cakupan</translation>
 <translation id="5532223876348815659">Global</translation>
-<translation id="300669147395456190">Aplikasi OneVN</translation>
+<translation id="300669147395456190">Aplikasi Onevn</translation>
 <translation id="6787839852456839824">Pintasan keyboard</translation>
 <translation id="6419546358665792306">Muat yang belum dibuka</translation>
 <translation id="8023801379949507775">Perbarui ekstensi sekarang</translation>
@@ -4368,7 +4368,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="742130257665691897">Bookmark dihapus</translation>
 <translation id="2785008241190445880">Bookmark diganti</translation>
 <translation id="4320948194796820126">Tambahkan bookmark ke email Anda</translation>
-<translation id="2950533317914339731">Tambahkan bookmark ke aplikasi OneVN Software favorit Anda</translation>
+<translation id="2950533317914339731">Tambahkan bookmark ke aplikasi Onevn Software favorit Anda</translation>
 <translation id="3409785640040772790">Maps</translation>
 <translation id="6709133671862442373">Berita</translation>
 <translation id="995782501881226248">YouTube</translation>
@@ -4380,12 +4380,12 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="5033266061063942743">Bentuk geometris</translation>
 <translation id="7789963078219276159">Latar belakang halaman awal telah diubah menjadi <ph name="CATEGORY"/>.</translation>
 <translation id="8771300903067484968">Latar belakang halaman awal telah disetel ulang ke latar belakang default.</translation>
-<translation id="239760341987199724">Setel OneVN sebagai browser default</translation>
-<translation id="96037229054033864">Nikmati kecanggihan OneVN Software dan OneVN Software Penelusuran setiap kali Anda browsing</translation>
-<translation id="296137235951584143">Sesuaikan OneVN dengan selera Anda</translation>
+<translation id="239760341987199724">Setel Onevn sebagai browser default</translation>
+<translation id="96037229054033864">Nikmati kecanggihan Onevn Software dan Onevn Software Penelusuran setiap kali Anda browsing</translation>
+<translation id="296137235951584143">Sesuaikan Onevn dengan selera Anda</translation>
 <translation id="3982375475032951137">Siapkan browser Anda dalam beberapa langkah mudah</translation>
 <translation id="6972754398087986839">Mulai</translation>
-<translation id="3707821975049107110">Sudah menjadi pengguna OneVN? Login</translation>
+<translation id="3707821975049107110">Sudah menjadi pengguna Onevn? Login</translation>
 <translation id="1573150740912592860">Simpan progres Anda</translation>
 <translation id="567643736130151854">Login dan aktifkan sinkronisasi untuk mendapatkan bookmark, sandi, dan lainnya di semua perangkat</translation>
 <translation id="8282356762694872144">Lanjutkan ke email Anda?</translation>
@@ -4394,7 +4394,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="5877584842898320529">Printer yang dipilih tidak tersedia atau tidak terinstal dengan benar. <ph name="BR"/> Periksa printer atau coba pilih printer lain.</translation>
 <translation id="1031362278801463162">Memuat pratinjau</translation>
 <translation id="6147020289383635445">Pratinjau cetak gagal.</translation>
-<translation id="7413400642818115607">Perangkat OneVN Software Cloud Print yang dipilih tidak didukung lagi. <ph name="BR"/> Coba siapkan printer di setelan sistem komputer.</translation>
+<translation id="7413400642818115607">Perangkat Onevn Software Cloud Print yang dipilih tidak didukung lagi. <ph name="BR"/> Coba siapkan printer di setelan sistem komputer.</translation>
 <translation id="5828633471261496623">Mencetak...</translation>
 <translation id="6295855836753816081">Menyimpan...</translation>
 <translation id="3587482841069643663">Semua</translation>
@@ -4411,7 +4411,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="3706463572498736864">Halaman per lembar</translation>
 <translation id="2249605167705922988">misal: 1-5, 8, 11-13</translation>
 <translation id="5746169159649715125">Simpan sebagai PDF</translation>
-<translation id="1955272076204612657">Simpan ke OneVN Software Drive</translation>
+<translation id="1955272076204612657">Simpan ke Onevn Software Drive</translation>
 <translation id="2580924999637585241">Total: <ph name="NUMBER_OF_SHEETS"/> <ph name="SHEETS_LABEL"/></translation>
 <translation id="4091434297613116013">lembaran kertas</translation>
 <translation id="8813811964357448561">lembaran kertas</translation>
@@ -4440,7 +4440,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="6991665348624301627">Pilih tujuan</translation>
 <translation id="8800004011501252845">Menunjukkan tujuan untuk</translation>
 <translation id="8996526648899750015">Tambahkan akun...</translation>
-<translation id="5002959368039764681">Cetak ke OneVN Software Dokumen dan tujuan awan lainnya. <ph name="BEGIN_LINK"/>Masuk<ph name="END_LINK"/> untuk mencetak ke OneVN Software Cloud Print.</translation>
+<translation id="5002959368039764681">Cetak ke Onevn Software Dokumen dan tujuan awan lainnya. <ph name="BEGIN_LINK"/>Masuk<ph name="END_LINK"/> untuk mencetak ke Onevn Software Cloud Print.</translation>
 <translation id="2150139952286079145">Telusuri tujuan</translation>
 <translation id="8569682776816196752">Tidak ditemukan tujuan</translation>
 <translation id="7885253890047913815">Tujuan Saat Ini</translation>
@@ -4498,7 +4498,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="7574650250151586813">Untuk mengetik teks, update aplikasi keyboard Daydream</translation>
 <translation id="983511809958454316">Fitur ini tidak didukung di VR</translation>
 <translation id="4008291085758151621">Informasi situs tidak tersedia di VR</translation>
-<translation id="1439926347196400598">Izinkan OneVN merekam audio?</translation>
+<translation id="1439926347196400598">Izinkan Onevn merekam audio?</translation>
 <translation id="6313641880021325787">KELUAR VR</translation>
 <translation id="2670429602441959756">Halaman ini berisi fitur yang belum didukung dalam VR. Keluar...</translation>
 <translation id="1802687198411089702">Halaman tidak merespons. Anda dapat menunggunya atau keluar.</translation>

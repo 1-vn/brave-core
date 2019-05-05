@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -16,25 +16,25 @@
 #include "content/public/test/browser_test_utils.h"
 #include "testing/gtest/include/gtest/gtest.h"
 
-using extensions::OneVNComponentLoader;
+using extensions::OnevnComponentLoader;
 
-class OneVNComponentLoaderTest : public extensions::ExtensionFunctionalTest,
-  public OneVNComponentLoader::TestingCallbacks {
+class OnevnComponentLoaderTest : public extensions::ExtensionFunctionalTest,
+  public OnevnComponentLoader::TestingCallbacks {
  public:
-  OneVNComponentLoaderTest() : pdf_extension_action_(TestingCallbacks::NONE) {}
-  ~OneVNComponentLoaderTest() override = default;
+  OnevnComponentLoaderTest() : pdf_extension_action_(TestingCallbacks::NONE) {}
+  ~OnevnComponentLoaderTest() override = default;
 
  protected:
   void SetUpOnMainThread() override {
     extensions::ExtensionService* service =
       extensions::ExtensionSystem::Get(profile())->extension_service();
     DCHECK(service);
-    OneVNComponentLoader* loader =
-      static_cast<OneVNComponentLoader*>(service->component_loader());
+    OnevnComponentLoader* loader =
+      static_cast<OnevnComponentLoader*>(service->component_loader());
     loader->set_testing_callbacks(this);
   }
 
-  // OneVNComponentLoader::TestingCallbacks
+  // OnevnComponentLoader::TestingCallbacks
   void OnPdfExtensionAction(
       TestingCallbacks::PdfExtensionAction action) override {
     pdf_extension_action_ = action;
@@ -48,10 +48,10 @@ class OneVNComponentLoaderTest : public extensions::ExtensionFunctionalTest,
   TestingCallbacks::PdfExtensionAction pdf_extension_action_;
 };
 
-class OneVNPDFExtensionTest : public OneVNComponentLoaderTest {
+class OnevnPDFExtensionTest : public OnevnComponentLoaderTest {
  public:
-  OneVNPDFExtensionTest() {}
-  ~OneVNPDFExtensionTest() override = default;
+  OnevnPDFExtensionTest() {}
+  ~OnevnPDFExtensionTest() override = default;
 
   void SetDownloadPDFs(bool value) {
     DCHECK(browser());
@@ -60,7 +60,7 @@ class OneVNPDFExtensionTest : public OneVNComponentLoaderTest {
   }
 };
 
-IN_PROC_BROWSER_TEST_F(OneVNPDFExtensionTest, ToggleDownloadPDFs) {
+IN_PROC_BROWSER_TEST_F(OnevnPDFExtensionTest, ToggleDownloadPDFs) {
   // Set preference to always download PDFs.
   SetDownloadPDFs(true);
   EXPECT_EQ(TestingCallbacks::WILL_REMOVE, pdf_extension_action());
@@ -70,10 +70,10 @@ IN_PROC_BROWSER_TEST_F(OneVNPDFExtensionTest, ToggleDownloadPDFs) {
   EXPECT_EQ(TestingCallbacks::WILL_ADD, pdf_extension_action());
 }
 
-class OneVNPDFExtensionDisabledTest : public OneVNPDFExtensionTest {
+class OnevnPDFExtensionDisabledTest : public OnevnPDFExtensionTest {
  public:
-  OneVNPDFExtensionDisabledTest() = default;
-  ~OneVNPDFExtensionDisabledTest() override = default;
+  OnevnPDFExtensionDisabledTest() = default;
+  ~OnevnPDFExtensionDisabledTest() override = default;
 
  protected:
   void SetUpCommandLine(base::CommandLine* command_line) override {
@@ -83,7 +83,7 @@ class OneVNPDFExtensionDisabledTest : public OneVNPDFExtensionTest {
   }
 };
 
-IN_PROC_BROWSER_TEST_F(OneVNPDFExtensionDisabledTest, ToggleDownloadPDFs) {
+IN_PROC_BROWSER_TEST_F(OnevnPDFExtensionDisabledTest, ToggleDownloadPDFs) {
   // Set preference to always download PDFs.
   SetDownloadPDFs(true);
   EXPECT_EQ(TestingCallbacks::WILL_REMOVE, pdf_extension_action());

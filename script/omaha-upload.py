@@ -185,7 +185,7 @@ def post_action(host, version, action, headers, args):
 def parse_args():
     desc = "Upload Windows/Mac install files to Omaha server" \
            "\n\nRequires the following ENVIRONMENT VARIABLES be set:" \
-           "\n\nCHANNEL: The OneVN channel, i.e. \'nightly\', \'dev\', \'beta\', \'release\'" \
+           "\n\nCHANNEL: The Onevn channel, i.e. \'nightly\', \'dev\', \'beta\', \'release\'" \
            "\nOMAHA_HOST: The FQDN hostname of the Omaha server to upload to. (without \'https:\\\\' prefix)" \
            "\nOMAHA_USER: The UserID to use to login to the Omaha server." \
            "\nOMAHA_PASS: The Password to login to the Omaha server." \

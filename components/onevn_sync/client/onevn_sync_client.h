@@ -1,4 +1,4 @@
-/* Copyright 2019 The OneVN Authors. All rights reserved.
+/* Copyright 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -56,13 +56,13 @@ class SyncMessageHandler {
   virtual void OnSyncWordsPrepared(const std::string& words) = 0;
 };
 
-class OneVNSyncClient {
+class OnevnSyncClient {
  public:
-  static OneVNSyncClient* Create(SyncMessageHandler* handler,
+  static OnevnSyncClient* Create(SyncMessageHandler* handler,
                                  Profile* profile);
-  virtual ~OneVNSyncClient() = default;
+  virtual ~OnevnSyncClient() = default;
 
-  // OneVNSync to Browser messages
+  // OnevnSync to Browser messages
   virtual SyncMessageHandler* sync_message_handler() = 0;
 
   virtual void SendGotInitData(const Uint8Array& seed,

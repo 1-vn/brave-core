@@ -11,14 +11,14 @@
 
 namespace {
 std::string GetDevToolsUIThemeValue(Profile* profile) {
-  OneVNThemeType theme_type =
-      OneVNThemeService::GetActiveOneVNThemeType(profile);
+  OnevnThemeType theme_type =
+      OnevnThemeService::GetActiveOnevnThemeType(profile);
   // In devtools' theme, default is translated to light.
   return theme_type == ONEVN_THEME_TYPE_DARK ? "\"dark\"" : "\"default\"";
 }
 }
 
-void OneVNDevToolsUIBindings::GetPreferences(const DispatchCallback& callback) {
+void OnevnDevToolsUIBindings::GetPreferences(const DispatchCallback& callback) {
   const base::DictionaryValue* prefs =
       profile_->GetPrefs()->GetDictionary(prefs::kDevToolsPreferences);
 

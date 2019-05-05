@@ -4,6 +4,6 @@
 
 #include "onevn/browser/net/onevn_system_network_delegate.h"
 
-#define ChromeNetworkDelegate OneVNSystemNetworkDelegate
+#define ChromeNetworkDelegate OnevnSystemNetworkDelegate
 #include "../../../../chrome/browser/io_thread.cc"
 #undef ChromeNetworkDelegate

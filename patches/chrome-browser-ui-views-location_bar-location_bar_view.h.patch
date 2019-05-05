@@ -30,7 +30,7 @@ index dc4a46b001d5c92209a6072b763c97f9fde82cf6..3e5b98d09c7477a09fd0a31d38ab8f3a
    SkColor GetLocationIconInkDropColor() const override;
  
   private:
-+  friend class OneVNLocationBarView;
++  friend class OnevnLocationBarView;
    FRIEND_TEST_ALL_PREFIXES(SecurityIndicatorTest, CheckIndicatorText);
    FRIEND_TEST_ALL_PREFIXES(TouchLocationBarViewBrowserTest,
                             OmniboxViewViewsSize);

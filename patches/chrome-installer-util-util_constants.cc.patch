@@ -8,8 +8,8 @@ index e3f9cc439f83e49291721cbf045119e1de5e1156..6e2421346cb600c35768e0906c568af7
  // command line.
 +#if defined(ONEVN_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD)
 +// Reflect onevn branded-omaha variable name.
-+// Company name(OneVNSoftware) + Product name(Update).
-+const char kGoogleUpdateIsMachineEnvVar[] = "OneVNSoftwareUpdateIsMachine";
++// Company name(OnevnSoftware) + Product name(Update).
++const char kGoogleUpdateIsMachineEnvVar[] = "OnevnSoftwareUpdateIsMachine";
 +#else
  const char kGoogleUpdateIsMachineEnvVar[] = "GoogleUpdateIsMachine";
 +#endif

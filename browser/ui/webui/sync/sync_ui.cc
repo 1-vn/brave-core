@@ -22,9 +22,9 @@ using content::WebUIMessageHandler;
 
 namespace {
 
-// The handler for Javascript messages for OneVN about: pages
+// The handler for Javascript messages for Onevn about: pages
 class SyncUIDOMHandler : public WebUIMessageHandler,
-                         public onevn_sync::OneVNSyncServiceObserver {
+                         public onevn_sync::OnevnSyncServiceObserver {
  public:
   SyncUIDOMHandler();
   ~SyncUIDOMHandler() override;
@@ -46,10 +46,10 @@ class SyncUIDOMHandler : public WebUIMessageHandler,
   void DeleteDevice(const base::ListValue* args);
   void ResetSync(const base::ListValue* args);
 
-  void OnSyncSetupError(onevn_sync::OneVNSyncService* sync_service,
+  void OnSyncSetupError(onevn_sync::OnevnSyncService* sync_service,
                         const std::string& error) override;
-  void OnSyncStateChanged(onevn_sync::OneVNSyncService *sync_service) override;
-  void OnHaveSyncWords(onevn_sync::OneVNSyncService *sync_service,
+  void OnSyncStateChanged(onevn_sync::OnevnSyncService *sync_service) override;
+  void OnHaveSyncWords(onevn_sync::OnevnSyncService *sync_service,
                        const std::string& sync_words) override;
 
   // this should grab actual data from controller and update the page
@@ -60,7 +60,7 @@ class SyncUIDOMHandler : public WebUIMessageHandler,
     std::unique_ptr<onevn_sync::Settings> settings,
     std::unique_ptr<onevn_sync::SyncDevices> devices);
 
-  onevn_sync::OneVNSyncService *sync_service_ = nullptr;  // NOT OWNED
+  onevn_sync::OnevnSyncService *sync_service_ = nullptr;  // NOT OWNED
 
   base::WeakPtrFactory<SyncUIDOMHandler> weak_ptr_factory_;
 
@@ -118,7 +118,7 @@ void SyncUIDOMHandler::RegisterMessages() {
 
 void SyncUIDOMHandler::Init() {
   Profile* profile = Profile::FromWebUI(web_ui());
-  sync_service_ = onevn_sync::OneVNSyncServiceFactory::GetForProfile(profile);
+  sync_service_ = onevn_sync::OnevnSyncServiceFactory::GetForProfile(profile);
   if (sync_service_)
     sync_service_->AddObserver(this);
 }
@@ -194,7 +194,7 @@ void SyncUIDOMHandler::DeleteDevice(const base::ListValue* args) {
   DCHECK(sync_service_);
   int i_device_id = -1;
   if (!args->GetInteger(0, &i_device_id) || i_device_id == -1) {
-    DCHECK(false) << "[OneVN Sync] could not get device id";
+    DCHECK(false) << "[Onevn Sync] could not get device id";
     return;
   }
 
@@ -207,7 +207,7 @@ void SyncUIDOMHandler::ResetSync(const base::ListValue* args) {
 }
 
 void SyncUIDOMHandler::OnSyncSetupError(
-    onevn_sync::OneVNSyncService* sync_service,
+    onevn_sync::OnevnSyncService* sync_service,
     const std::string& error) {
 
   web_ui()->CallJavascriptFunctionUnsafe(
@@ -215,7 +215,7 @@ void SyncUIDOMHandler::OnSyncSetupError(
 }
 
 void SyncUIDOMHandler::OnSyncStateChanged(
-    onevn_sync::OneVNSyncService *sync_service) {
+    onevn_sync::OnevnSyncService *sync_service) {
   LoadSyncSettingsView();
 }
 
@@ -232,13 +232,13 @@ void SyncUIDOMHandler::GetSettingsAndDevicesComplete(
 
   std::unique_ptr<base::Value> bv_devices = devices->ToValueArrOnly();
   std::unique_ptr<base::Value> bv_settings =
-      onevn_sync::OneVNSyncSettingsToValue(settings.get());
+      onevn_sync::OnevnSyncSettingsToValue(settings.get());
   web_ui()->CallJavascriptFunctionUnsafe(
       "sync_ui_exports.showSettings", *bv_settings, *bv_devices);
 }
 
 void SyncUIDOMHandler::OnHaveSyncWords(
-    onevn_sync::OneVNSyncService *sync_service,
+    onevn_sync::OnevnSyncService *sync_service,
     const std::string& sync_words) {
   web_ui()->CallJavascriptFunctionUnsafe(
       "sync_ui_exports.haveSyncWords", base::Value(sync_words));
@@ -248,8 +248,8 @@ void SyncUIDOMHandler::OnHaveSyncWords(
 
 SyncUI::SyncUI(content::WebUI* web_ui, const std::string& name)
     : BasicUI(web_ui, name,
-              kOneVNSyncGenerated,
-              kOneVNSyncGeneratedSize,
+              kOnevnSyncGenerated,
+              kOnevnSyncGeneratedSize,
               Profile::FromWebUI(web_ui)->IsOffTheRecord() ?
                   IDR_ONEVN_SYNC_DISABLED_HTML : IDR_ONEVN_SYNC_HTML) {
   auto handler_owner = std::make_unique<SyncUIDOMHandler>();

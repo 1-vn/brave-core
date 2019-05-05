@@ -23,12 +23,12 @@ void MaybeOnWidevineRequest(MediaKeySystemAccessInitializer* initializer,
 namespace blink {
 namespace {
 
-// Notifies OneVN about the widevine availability request.
+// Notifies Onevn about the widevine availability request.
 void MaybeOnWidevineRequest(MediaKeySystemAccessInitializer* initializer,
                             LocalFrame* frame) {
   if (initializer->KeySystem() == "com.widevine.alpha") {
     if (frame->Client()->GetRemoteNavigationAssociatedInterfaces()) {
-      mojom::blink::OneVNDRMAssociatedPtr onevn_drm_binding;
+      mojom::blink::OnevnDRMAssociatedPtr onevn_drm_binding;
       frame->Client()->GetRemoteNavigationAssociatedInterfaces()->GetInterface(
           &onevn_drm_binding);
       DCHECK(onevn_drm_binding.is_bound());

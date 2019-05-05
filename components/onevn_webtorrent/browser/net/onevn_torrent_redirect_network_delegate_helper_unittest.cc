@@ -1,4 +1,4 @@
-/* Copyright 2019 The OneVN Authors. All rights reserved.
+/* Copyright 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -34,15 +34,15 @@ int kRenderFrameId = 2;
 
 }  // namespace
 
-class OneVNTorrentRedirectNetworkDelegateHelperTest: public testing::Test {
+class OnevnTorrentRedirectNetworkDelegateHelperTest: public testing::Test {
  public:
-  OneVNTorrentRedirectNetworkDelegateHelperTest()
+  OnevnTorrentRedirectNetworkDelegateHelperTest()
       : local_state_(TestingBrowserProcess::GetGlobal()),
         thread_bundle_(content::TestBrowserThreadBundle::IO_MAINLOOP),
         context_(new net::TestURLRequestContext(true)) {
   }
 
-  ~OneVNTorrentRedirectNetworkDelegateHelperTest() override {}
+  ~OnevnTorrentRedirectNetworkDelegateHelperTest() override {}
 
   void SetUp() override {
     // Create a new temporary directory, and store the path
@@ -102,7 +102,7 @@ class OneVNTorrentRedirectNetworkDelegateHelperTest: public testing::Test {
   std::unique_ptr<content::MockResourceContext> resource_context_;
 };
 
-TEST_F(OneVNTorrentRedirectNetworkDelegateHelperTest,
+TEST_F(OnevnTorrentRedirectNetworkDelegateHelperTest,
        NoRedirectWithoutMimeType) {
   net::TestDelegate test_delegate;
   std::unique_ptr<net::URLRequest> request =
@@ -114,8 +114,8 @@ TEST_F(OneVNTorrentRedirectNetworkDelegateHelperTest,
   scoped_refptr<net::HttpResponseHeaders> overwrite_response_headers =
     new net::HttpResponseHeaders(std::string());
   GURL allowed_unsafe_redirect_url = GURL::EmptyGURL();
-  std::shared_ptr<onevn::OneVNRequestInfo>
-      onevn_request_info(new onevn::OneVNRequestInfo());
+  std::shared_ptr<onevn::OnevnRequestInfo>
+      onevn_request_info(new onevn::OnevnRequestInfo());
   onevn::ResponseCallback callback;
 
   int ret = webtorrent::OnHeadersReceived_TorrentRedirectWork(request.get(),
@@ -130,7 +130,7 @@ TEST_F(OneVNTorrentRedirectNetworkDelegateHelperTest,
   EXPECT_EQ(ret, net::OK);
 }
 
-TEST_F(OneVNTorrentRedirectNetworkDelegateHelperTest,
+TEST_F(OnevnTorrentRedirectNetworkDelegateHelperTest,
        BittorrentMimeTypeRedirect) {
   net::TestDelegate test_delegate;
   std::unique_ptr<net::URLRequest> request =
@@ -148,8 +148,8 @@ TEST_F(OneVNTorrentRedirectNetworkDelegateHelperTest,
   scoped_refptr<net::HttpResponseHeaders> overwrite_response_headers =
     new net::HttpResponseHeaders(std::string());
   GURL allowed_unsafe_redirect_url = GURL::EmptyGURL();
-  std::shared_ptr<onevn::OneVNRequestInfo>
-      onevn_request_info(new onevn::OneVNRequestInfo());
+  std::shared_ptr<onevn::OnevnRequestInfo>
+      onevn_request_info(new onevn::OnevnRequestInfo());
   onevn::ResponseCallback callback;
 
   int ret = webtorrent::OnHeadersReceived_TorrentRedirectWork(request.get(),
@@ -166,7 +166,7 @@ TEST_F(OneVNTorrentRedirectNetworkDelegateHelperTest,
   EXPECT_EQ(ret, net::OK);
 }
 
-TEST_F(OneVNTorrentRedirectNetworkDelegateHelperTest,
+TEST_F(OnevnTorrentRedirectNetworkDelegateHelperTest,
        OctetStreamMimeTypeRedirectWithTorrentURL) {
   net::TestDelegate test_delegate;
   std::unique_ptr<net::URLRequest> request =
@@ -184,8 +184,8 @@ TEST_F(OneVNTorrentRedirectNetworkDelegateHelperTest,
   scoped_refptr<net::HttpResponseHeaders> overwrite_response_headers =
     new net::HttpResponseHeaders(std::string());
   GURL allowed_unsafe_redirect_url = GURL::EmptyGURL();
-  std::shared_ptr<onevn::OneVNRequestInfo>
-      onevn_request_info(new onevn::OneVNRequestInfo());
+  std::shared_ptr<onevn::OnevnRequestInfo>
+      onevn_request_info(new onevn::OnevnRequestInfo());
   onevn::ResponseCallback callback;
 
   int ret = webtorrent::OnHeadersReceived_TorrentRedirectWork(request.get(),
@@ -202,7 +202,7 @@ TEST_F(OneVNTorrentRedirectNetworkDelegateHelperTest,
   EXPECT_EQ(ret, net::OK);
 }
 
-TEST_F(OneVNTorrentRedirectNetworkDelegateHelperTest,
+TEST_F(OnevnTorrentRedirectNetworkDelegateHelperTest,
        OctetStreamMimeTypeRedirectWithTorrentFileName) {
   net::TestDelegate test_delegate;
   std::unique_ptr<net::URLRequest> request =
@@ -225,8 +225,8 @@ TEST_F(OneVNTorrentRedirectNetworkDelegateHelperTest,
   scoped_refptr<net::HttpResponseHeaders> overwrite_response_headers =
     new net::HttpResponseHeaders(std::string());
   GURL allowed_unsafe_redirect_url = GURL::EmptyGURL();
-  std::shared_ptr<onevn::OneVNRequestInfo>
-      onevn_request_info(new onevn::OneVNRequestInfo());
+  std::shared_ptr<onevn::OnevnRequestInfo>
+      onevn_request_info(new onevn::OnevnRequestInfo());
   onevn::ResponseCallback callback;
 
   int ret = webtorrent::OnHeadersReceived_TorrentRedirectWork(request.get(),
@@ -244,7 +244,7 @@ TEST_F(OneVNTorrentRedirectNetworkDelegateHelperTest,
   EXPECT_EQ(ret, net::OK);
 }
 
-TEST_F(OneVNTorrentRedirectNetworkDelegateHelperTest,
+TEST_F(OnevnTorrentRedirectNetworkDelegateHelperTest,
        OctetStreamMimeTypeNoRedirect) {
   net::TestDelegate test_delegate;
   std::unique_ptr<net::URLRequest> request =
@@ -262,8 +262,8 @@ TEST_F(OneVNTorrentRedirectNetworkDelegateHelperTest,
   scoped_refptr<net::HttpResponseHeaders> overwrite_response_headers =
     new net::HttpResponseHeaders(std::string());
   GURL allowed_unsafe_redirect_url = GURL::EmptyGURL();
-  std::shared_ptr<onevn::OneVNRequestInfo>
-      onevn_request_info(new onevn::OneVNRequestInfo());
+  std::shared_ptr<onevn::OnevnRequestInfo>
+      onevn_request_info(new onevn::OnevnRequestInfo());
   onevn::ResponseCallback callback;
 
   int ret = webtorrent::OnHeadersReceived_TorrentRedirectWork(request.get(),
@@ -278,7 +278,7 @@ TEST_F(OneVNTorrentRedirectNetworkDelegateHelperTest,
   EXPECT_EQ(ret, net::OK);
 }
 
-TEST_F(OneVNTorrentRedirectNetworkDelegateHelperTest, MimeTypeNoRedirect) {
+TEST_F(OnevnTorrentRedirectNetworkDelegateHelperTest, MimeTypeNoRedirect) {
   net::TestDelegate test_delegate;
   std::unique_ptr<net::URLRequest> request =
       context()->CreateRequest(torrent_url(), net::IDLE, &test_delegate,
@@ -294,8 +294,8 @@ TEST_F(OneVNTorrentRedirectNetworkDelegateHelperTest, MimeTypeNoRedirect) {
   scoped_refptr<net::HttpResponseHeaders> overwrite_response_headers =
     new net::HttpResponseHeaders(std::string());
   GURL allowed_unsafe_redirect_url = GURL::EmptyGURL();
-  std::shared_ptr<onevn::OneVNRequestInfo>
-      onevn_request_info(new onevn::OneVNRequestInfo());
+  std::shared_ptr<onevn::OnevnRequestInfo>
+      onevn_request_info(new onevn::OnevnRequestInfo());
   onevn::ResponseCallback callback;
 
   int ret = webtorrent::OnHeadersReceived_TorrentRedirectWork(request.get(),
@@ -310,7 +310,7 @@ TEST_F(OneVNTorrentRedirectNetworkDelegateHelperTest, MimeTypeNoRedirect) {
   EXPECT_EQ(ret, net::OK);
 }
 
-TEST_F(OneVNTorrentRedirectNetworkDelegateHelperTest,
+TEST_F(OnevnTorrentRedirectNetworkDelegateHelperTest,
        WebtorrentInitiatedNoRedirect) {
   net::TestDelegate test_delegate;
   std::unique_ptr<net::URLRequest> request =
@@ -329,8 +329,8 @@ TEST_F(OneVNTorrentRedirectNetworkDelegateHelperTest,
   scoped_refptr<net::HttpResponseHeaders> overwrite_response_headers =
     new net::HttpResponseHeaders(std::string());
   GURL allowed_unsafe_redirect_url = GURL::EmptyGURL();
-  std::shared_ptr<onevn::OneVNRequestInfo>
-      onevn_request_info(new onevn::OneVNRequestInfo());
+  std::shared_ptr<onevn::OnevnRequestInfo>
+      onevn_request_info(new onevn::OnevnRequestInfo());
   onevn::ResponseCallback callback;
 
   int ret = webtorrent::OnHeadersReceived_TorrentRedirectWork(request.get(),
@@ -345,9 +345,9 @@ TEST_F(OneVNTorrentRedirectNetworkDelegateHelperTest,
   EXPECT_EQ(ret, net::OK);
 }
 
-TEST_F(OneVNTorrentRedirectNetworkDelegateHelperTest, NoRedirectTorProfile) {
+TEST_F(OnevnTorrentRedirectNetworkDelegateHelperTest, NoRedirectTorProfile) {
   ProfileManager* profile_manager = g_browser_process->profile_manager();
-  base::FilePath tor_path = OneVNProfileManager::GetTorProfilePath();
+  base::FilePath tor_path = OnevnProfileManager::GetTorProfilePath();
   Profile* profile = profile_manager->GetProfile(tor_path);
   ASSERT_TRUE(profile);
 
@@ -367,13 +367,13 @@ TEST_F(OneVNTorrentRedirectNetworkDelegateHelperTest, NoRedirectTorProfile) {
   scoped_refptr<net::HttpResponseHeaders> overwrite_response_headers =
     new net::HttpResponseHeaders(std::string());
   GURL allowed_unsafe_redirect_url = GURL::EmptyGURL();
-  std::shared_ptr<onevn::OneVNRequestInfo>
-      onevn_request_info(new onevn::OneVNRequestInfo());
+  std::shared_ptr<onevn::OnevnRequestInfo>
+      onevn_request_info(new onevn::OnevnRequestInfo());
   onevn::ResponseCallback callback;
 
-  std::unique_ptr<OneVNNavigationUIData> navigation_ui_data =
-    std::make_unique<OneVNNavigationUIData>();
-  OneVNNavigationUIData* navigation_ui_data_ptr = navigation_ui_data.get();
+  std::unique_ptr<OnevnNavigationUIData> navigation_ui_data =
+    std::make_unique<OnevnNavigationUIData>();
+  OnevnNavigationUIData* navigation_ui_data_ptr = navigation_ui_data.get();
 
   content::ResourceRequestInfo::AllocateForTesting(
       request.get(), content::RESOURCE_TYPE_MAIN_FRAME, resource_context(),

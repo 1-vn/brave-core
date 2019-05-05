@@ -388,7 +388,7 @@ test("onevn_browser_tests") {
 
   if (is_linux && is_official_build) {
     sources += [
-      # OneVNViewsDelegateLinuxBrowserTest only works in release(official) build.
+      # OnevnViewsDelegateLinuxBrowserTest only works in release(official) build.
       "//onevn/browser/ui/views/onevn_views_delegate_linux_browsertest.cc",
     ]
     configs += [

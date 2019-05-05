@@ -7,13 +7,13 @@
 #include "base/bind.h"
 #import "onevn/browser/mac/sparkle_glue.h"
 
-void OneVNRelaunchHandler::RegisterMessages() {
+void OnevnRelaunchHandler::RegisterMessages() {
   web_ui()->RegisterMessageCallback(
       "relaunchOnMac",
-      base::BindRepeating(&OneVNRelaunchHandler::Relaunch,
+      base::BindRepeating(&OnevnRelaunchHandler::Relaunch,
                           base::Unretained(this)));
 }
 
-void OneVNRelaunchHandler::Relaunch(const base::ListValue* args) {
+void OnevnRelaunchHandler::Relaunch(const base::ListValue* args) {
   [[SparkleGlue sharedSparkleGlue] relaunch];
 }

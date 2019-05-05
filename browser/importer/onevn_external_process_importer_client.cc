@@ -6,18 +6,18 @@
 
 #include "onevn/browser/importer/onevn_external_process_importer_client.h"
 
-OneVNExternalProcessImporterClient::OneVNExternalProcessImporterClient(
+OnevnExternalProcessImporterClient::OnevnExternalProcessImporterClient(
     base::WeakPtr<ExternalProcessImporterHost> importer_host,
     const importer::SourceProfile& source_profile,
     uint16_t items,
-    OneVNInProcessImporterBridge* bridge)
+    OnevnInProcessImporterBridge* bridge)
     : ExternalProcessImporterClient(
           importer_host, source_profile, items, bridge),
       total_cookies_count_(0),
       bridge_(bridge),
       cancelled_(false) {}
 
-void OneVNExternalProcessImporterClient::Cancel() {
+void OnevnExternalProcessImporterClient::Cancel() {
   if (cancelled_)
     return;
 
@@ -25,7 +25,7 @@ void OneVNExternalProcessImporterClient::Cancel() {
   ExternalProcessImporterClient::Cancel();
 }
 
-void OneVNExternalProcessImporterClient::OnCookiesImportStart(
+void OnevnExternalProcessImporterClient::OnCookiesImportStart(
     uint32_t total_cookies_count) {
   if (cancelled_)
     return;
@@ -34,7 +34,7 @@ void OneVNExternalProcessImporterClient::OnCookiesImportStart(
   cookies_.reserve(total_cookies_count);
 }
 
-void OneVNExternalProcessImporterClient::OnCookiesImportGroup(
+void OnevnExternalProcessImporterClient::OnCookiesImportGroup(
     const std::vector<net::CanonicalCookie>& cookies_group) {
   if (cancelled_)
     return;
@@ -45,31 +45,31 @@ void OneVNExternalProcessImporterClient::OnCookiesImportGroup(
     bridge_->SetCookies(cookies_);
 }
 
-void OneVNExternalProcessImporterClient::OnStatsImportReady(
-    const OneVNStats& stats) {
+void OnevnExternalProcessImporterClient::OnStatsImportReady(
+    const OnevnStats& stats) {
   if (cancelled_)
     return;
 
   bridge_->UpdateStats(stats);
 }
 
-void OneVNExternalProcessImporterClient::OnLedgerImportReady(
-    const OneVNLedger& ledger) {
+void OnevnExternalProcessImporterClient::OnLedgerImportReady(
+    const OnevnLedger& ledger) {
   if (cancelled_)
     return;
 
   bridge_->UpdateLedger(ledger);
 }
 
-void OneVNExternalProcessImporterClient::OnReferralImportReady(
-    const OneVNReferral& referral) {
+void OnevnExternalProcessImporterClient::OnReferralImportReady(
+    const OnevnReferral& referral) {
   if (cancelled_)
     return;
 
   bridge_->UpdateReferral(referral);
 }
 
-void OneVNExternalProcessImporterClient::OnWindowsImportReady(
+void OnevnExternalProcessImporterClient::OnWindowsImportReady(
     const ImportedWindowState& windowState) {
   if (cancelled_)
     return;
@@ -77,7 +77,7 @@ void OneVNExternalProcessImporterClient::OnWindowsImportReady(
   bridge_->UpdateWindows(windowState);
 }
 
-void OneVNExternalProcessImporterClient::OnSettingsImportReady(
+void OnevnExternalProcessImporterClient::OnSettingsImportReady(
     const SessionStoreSettings& settings) {
   if (cancelled_)
     return;
@@ -85,4 +85,4 @@ void OneVNExternalProcessImporterClient::OnSettingsImportReady(
   bridge_->UpdateSettings(settings);
 }
 
-OneVNExternalProcessImporterClient::~OneVNExternalProcessImporterClient() {}
+OnevnExternalProcessImporterClient::~OnevnExternalProcessImporterClient() {}

@@ -6,7 +6,7 @@ index 709d8e562c2238f00ac6a037395d16dca52b89e0..9170819bb45eb1060f5768a9a6922eb1
      : push_client_(std::move(push_client)),
        scheduling_hash_(0),
        sent_messages_count_(0) {
-+  return; // feature disabled in OneVN
++  return; // feature disabled in Onevn
    push_client_->AddObserver(this);
    notifier::Subscription subscription;
    subscription.channel = kChannelName;
@@ -14,7 +14,7 @@ index 709d8e562c2238f00ac6a037395d16dca52b89e0..9170819bb45eb1060f5768a9a6922eb1
  
  void PushClientChannel::UpdateCredentials(
      const std::string& email, const std::string& token) {
-+  return; // feature disabled in OneVN
++  return; // feature disabled in Onevn
    net::NetworkTrafficAnnotationTag traffic_annotation =
        net::DefineNetworkTrafficAnnotation("puch_client_channel", R"(
          semantics {

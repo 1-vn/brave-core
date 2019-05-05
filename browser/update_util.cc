@@ -12,7 +12,7 @@ namespace onevn {
 bool UpdateEnabled() {
 #if defined(OFFICIAL_BUILD)
   return !base::CommandLine::ForCurrentProcess()->HasSwitch(
-      switches::kDisableOneVNUpdate);
+      switches::kDisableOnevnUpdate);
 #else
   return false;
 #endif

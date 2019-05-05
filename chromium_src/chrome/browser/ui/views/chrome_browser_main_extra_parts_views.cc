@@ -7,7 +7,7 @@
 #if defined(OS_LINUX)
 #include "onevn/browser/ui/views/onevn_views_delegate_linux.h"
 #undef ChromeViewsDelegate
-#define ChromeViewsDelegate OneVNViewsDelegateLinux
+#define ChromeViewsDelegate OnevnViewsDelegateLinux
 #endif
 
 #include "../../../../../../chrome/browser/ui/views/chrome_browser_main_extra_parts_views.cc"

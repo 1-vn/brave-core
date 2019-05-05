@@ -1,6 +1,6 @@
 {
   "onevnRewards": {
-    "message": "OneVN Rewards",
+    "message": "Onevn Rewards",
     "description": "Title in welcome screen for the panel"
   },
   "welcomeButtonTextOne": {
@@ -28,7 +28,7 @@
     "description": "Link in the footer (takes you to rewards settings page) for welcome screen in the panel, new user"
   },
   "welcomeHeaderOne": {
-    "message": "We’ve given OneVN Rewards a big upgrade.",
+    "message": "We’ve given Onevn Rewards a big upgrade.",
     "description": "Main header title for welcome screen in the panel, existing user"
   },
   "welcomeHeaderTwo": {
@@ -48,7 +48,7 @@
     "description": "The whole string is 'Enable tips on YouTube for like.'"
   },
   "verifiedPublisher": {
-    "message": "OneVN Verified Publisher",
+    "message": "Onevn Verified Publisher",
     "description": "Tells user that this particular publisher is verified publisher"
   },
   "rewardsContributeAttentionScore": {
@@ -164,7 +164,7 @@
     "description": "Used in notification to dismiss notification"
   },
   "onevnAdsTitle": {
-    "message": "OneVN Ads",
+    "message": "Onevn Ads",
     "description": "Notification title when we display info about ads"
   },
   "onevnContributeTitle": {
@@ -194,11 +194,11 @@
     "description": "Notification title when we ask user to backup wallet"
   },
   "backupWalletNotification": {
-    "message": "Please backup your OneVN wallet.",
+    "message": "Please backup your Onevn wallet.",
     "description": "Description for backup wallet notification"
   },
   "insufficientFundsNotification": {
-    "message": "Your OneVN Rewards account is waiting for a deposit.",
+    "message": "Your Onevn Rewards account is waiting for a deposit.",
     "description": "Description for new insufficient funds notification"
   },
   "insufficientFunds": {
@@ -270,7 +270,7 @@
     "description": "Button text for clearing the error."
   },
   "grantGeneralErrorText": {
-    "message": "OneVN Rewards is having an issue. Please try again later.",
+    "message": "Onevn Rewards is having an issue. Please try again later.",
     "description": "Error text when user is having problems claiming a grant."
   },
   "grantGeneralErrorTitle": {
@@ -294,7 +294,7 @@
     "description": "Status of the publisher shown in the panel"
   },
   "unVerifiedText": {
-    "message": "This creator has not yet signed up to receive contributions from OneVN users. Any tips you send will remain in your wallet until they verify.",
+    "message": "This creator has not yet signed up to receive contributions from Onevn users. Any tips you send will remain in your wallet until they verify.",
     "description": "Notice about unverified publisher."
   },
   "unVerifiedTextMore": {
@@ -322,7 +322,7 @@
     "description": "Text for Panel's disabled state"
   },
   "disabledPanelTitle": {
-    "message": "OneVN Rewards is",
+    "message": "Onevn Rewards is",
     "description": "Title for Panel's disabled state"
   },
   "walletFailedTitle": {
@@ -358,7 +358,7 @@
     "description": "Text block for wallet disabled panel"
   },
   "enableRewards": {
-    "message": "Enable OneVN Rewards",
+    "message": "Enable Onevn Rewards",
     "description": "Subtitle for wallet disabled panel"
   },
   "privacyPolicy": {
@@ -366,7 +366,7 @@
     "description": "Privacy Policy"
   },
   "serviceText": {
-    "message": "By clicking 'Enable OneVN Rewards', you indicate that you have read and agree to the",
+    "message": "By clicking 'Enable Onevn Rewards', you indicate that you have read and agree to the",
     "description": "Terms of service main text"
   },
   "termsOfService": {

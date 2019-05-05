@@ -14,7 +14,7 @@ class Profile;
 
 namespace onevn_rewards {
 
-std::unique_ptr<Profile> CreateOneVNRewardsProfile(const base::FilePath& path);
+std::unique_ptr<Profile> CreateOnevnRewardsProfile(const base::FilePath& path);
 
 }  // namespace onevn_rewards
 

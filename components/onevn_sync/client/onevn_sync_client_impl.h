@@ -11,11 +11,11 @@
 #include "extensions/browser/extension_registry_observer.h"
 #include "base/gtest_prod_util.h"
 
-class OneVNSyncServiceTest;
+class OnevnSyncServiceTest;
 class Profile;
 
 namespace extensions {
-class OneVNSyncEventRouter;
+class OnevnSyncEventRouter;
 }
 
 namespace onevn_sync {
@@ -29,17 +29,17 @@ using extensions::ExtensionRegistry;
 using extensions::ExtensionRegistryObserver;
 using extensions::UnloadedExtensionReason;
 
-class OneVNSyncClientImpl : public OneVNSyncClient,
+class OnevnSyncClientImpl : public OnevnSyncClient,
                             public ExtensionRegistryObserver {
  public:
-  ~OneVNSyncClientImpl() override;
+  ~OnevnSyncClientImpl() override;
 
-  // OneVNSyncClient overrides
+  // OnevnSyncClient overrides
 
-  // OneVNSync to Browser messages
+  // OnevnSync to Browser messages
   SyncMessageHandler* sync_message_handler() override;
 
-  // Browser to OneVNSync messages
+  // Browser to OnevnSync messages
   void SendGotInitData(const Uint8Array& seed, const Uint8Array& device_id,
     const client_data::Config& config, const std::string& sync_words) override;
   void SendFetchSyncRecords(
@@ -58,11 +58,11 @@ class OneVNSyncClientImpl : public OneVNSyncClient,
   void NeedSyncWords(const std::string& seed) override;
 
  private:
-  friend class OneVNSyncClient;
-  friend class ::OneVNSyncServiceTest;
-  static void set_for_testing(OneVNSyncClient* sync_client);
+  friend class OnevnSyncClient;
+  friend class ::OnevnSyncServiceTest;
+  static void set_for_testing(OnevnSyncClient* sync_client);
 
-  OneVNSyncClientImpl(SyncMessageHandler* handler, Profile* profile);
+  OnevnSyncClientImpl(SyncMessageHandler* handler, Profile* profile);
 
   void OnExtensionInitialized() override;
   void OnSyncEnabledChanged() override;
@@ -85,12 +85,12 @@ class OneVNSyncClientImpl : public OneVNSyncClient,
   std::unique_ptr<onevn_sync::prefs::Prefs> sync_prefs_;
   bool extension_loaded_;
 
-  std::unique_ptr<extensions::OneVNSyncEventRouter> onevn_sync_event_router_;
+  std::unique_ptr<extensions::OnevnSyncEventRouter> onevn_sync_event_router_;
 
   ScopedObserver<ExtensionRegistry, ExtensionRegistryObserver>
     extension_registry_observer_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNSyncClientImpl);
+  DISALLOW_COPY_AND_ASSIGN(OnevnSyncClientImpl);
 };
 
 } // namespace onevn_sync

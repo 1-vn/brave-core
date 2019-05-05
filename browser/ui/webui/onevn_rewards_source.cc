@@ -20,7 +20,7 @@ typedef base::RepeatingCallback<void(BitmapFetcherService::RequestId request_id,
     RewardsResourceFetcherCallback;
 
 // Calls the specified callback when the requested image is downloaded.  This
-// is a separate class instead of being implemented on OneVNRewardsSource
+// is a separate class instead of being implemented on OnevnRewardsSource
 // because BitmapFetcherService currently takes ownership of this object.
 class RewardsResourceFetcherObserver : public BitmapFetcherService::Observer {
  public:
@@ -51,17 +51,17 @@ scoped_refptr<base::RefCountedMemory> BitmapToMemory(const SkBitmap* image) {
 
 }  // namespace
 
-OneVNRewardsSource::OneVNRewardsSource(Profile* profile)
+OnevnRewardsSource::OnevnRewardsSource(Profile* profile)
     : profile_(profile->GetOriginalProfile()) {}
 
-OneVNRewardsSource::~OneVNRewardsSource() {
+OnevnRewardsSource::~OnevnRewardsSource() {
 }
 
-std::string OneVNRewardsSource::GetSource() const {
+std::string OnevnRewardsSource::GetSource() const {
   return "rewards-image";
 }
 
-void OneVNRewardsSource::StartDataRequest(
+void OnevnRewardsSource::StartDataRequest(
     const std::string& path,
     const content::ResourceRequestInfo::WebContentsGetter& wc_getter,
     const content::URLDataSource::GotDataCallback& got_data_callback) {
@@ -73,7 +73,7 @@ void OneVNRewardsSource::StartDataRequest(
 
   auto it = find(resource_fetchers_.begin(), resource_fetchers_.end(), url);
   if (it != resource_fetchers_.end()) {
-    LOG(WARNING) << "Already fetching specified OneVN Rewards resource, url: "
+    LOG(WARNING) << "Already fetching specified Onevn Rewards resource, url: "
                  << url;
     return;
   }
@@ -85,12 +85,12 @@ void OneVNRewardsSource::StartDataRequest(
         net::DefineNetworkTrafficAnnotation("onevn_rewards_resource_fetcher", R"(
         semantics {
           sender:
-            "OneVN Rewards resource fetcher"
+            "Onevn Rewards resource fetcher"
           description:
-            "Fetches resources related to OneVN Rewards."
+            "Fetches resources related to Onevn Rewards."
           trigger:
             "User visits a media publisher's site."
-          data: "OneVN Rewards related resources."
+          data: "Onevn Rewards related resources."
           destination: WEBSITE
         }
         policy {
@@ -106,29 +106,29 @@ void OneVNRewardsSource::StartDataRequest(
         // Image Service takes ownership of the observer.
         new RewardsResourceFetcherObserver(
             url,
-            base::BindRepeating(&OneVNRewardsSource::OnBitmapFetched,
+            base::BindRepeating(&OnevnRewardsSource::OnBitmapFetched,
                                 base::Unretained(this), got_data_callback)),
         traffic_annotation));
   }
 }
 
-std::string OneVNRewardsSource::GetMimeType(const std::string&) const {
+std::string OnevnRewardsSource::GetMimeType(const std::string&) const {
   // We need to explicitly return a mime type, otherwise if the user tries to
   // drag the image they get no extension.
   return "image/png";
 }
 
-bool OneVNRewardsSource::AllowCaching() const {
+bool OnevnRewardsSource::AllowCaching() const {
   return false;
 }
 
-bool OneVNRewardsSource::ShouldReplaceExistingSource() const {
+bool OnevnRewardsSource::ShouldReplaceExistingSource() const {
   // Leave the existing DataSource in place, otherwise we'll drop any pending
   // requests on the floor.
   return false;
 }
 
-bool OneVNRewardsSource::ShouldServiceRequest(
+bool OnevnRewardsSource::ShouldServiceRequest(
     const GURL& url,
     content::ResourceContext* resource_context,
     int render_process_id) const {
@@ -136,13 +136,13 @@ bool OneVNRewardsSource::ShouldServiceRequest(
                                              render_process_id);
 }
 
-void OneVNRewardsSource::OnBitmapFetched(
+void OnevnRewardsSource::OnBitmapFetched(
     const content::URLDataSource::GotDataCallback& got_data_callback,
     BitmapFetcherService::RequestId request_id,
     const GURL& url,
     const SkBitmap& bitmap) {
   if (bitmap.isNull()) {
-    LOG(ERROR) << "Failed to retrieve OneVN Rewards resource, url: " << url;
+    LOG(ERROR) << "Failed to retrieve Onevn Rewards resource, url: " << url;
     got_data_callback.Run(nullptr);
     return;
   }

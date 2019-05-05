@@ -16,7 +16,7 @@ scoped_refptr<Importer> CreateImporterByType(ImporterType type) {
     case TYPE_CHROME:
       return new ChromeImporter();
     case TYPE_ONEVN:
-      return new OneVNImporter();
+      return new OnevnImporter();
     default:
       return CreateImporterByType_ChromiumImpl(type);
   }

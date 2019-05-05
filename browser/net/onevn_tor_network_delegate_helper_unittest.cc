@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -37,14 +37,14 @@ int kRenderFrameId = 2;
 
 }  // namespace
 
-class OneVNTorNetworkDelegateHelperTest: public testing::Test {
+class OnevnTorNetworkDelegateHelperTest: public testing::Test {
  public:
-  OneVNTorNetworkDelegateHelperTest()
+  OnevnTorNetworkDelegateHelperTest()
       : local_state_(TestingBrowserProcess::GetGlobal()),
         thread_bundle_(content::TestBrowserThreadBundle::IO_MAINLOOP),
         context_(new net::TestURLRequestContext(true)) {}
 
-  ~OneVNTorNetworkDelegateHelperTest() override {}
+  ~OnevnTorNetworkDelegateHelperTest() override {}
 
   void SetUp() override {
     // Create a new temporary directory, and store the path
@@ -74,23 +74,23 @@ class OneVNTorNetworkDelegateHelperTest: public testing::Test {
   content::TestBrowserThreadBundle thread_bundle_;
   std::unique_ptr<net::TestURLRequestContext> context_;
   std::unique_ptr<content::MockResourceContext> resource_context_;
-  DISALLOW_COPY_AND_ASSIGN(OneVNTorNetworkDelegateHelperTest);
+  DISALLOW_COPY_AND_ASSIGN(OnevnTorNetworkDelegateHelperTest);
 };
 
-TEST_F(OneVNTorNetworkDelegateHelperTest, NotTorProfile) {
+TEST_F(OnevnTorNetworkDelegateHelperTest, NotTorProfile) {
   net::TestDelegate test_delegate;
   GURL url("https://check.torproject.org/");
   std::unique_ptr<net::URLRequest> request =
       context()->CreateRequest(url, net::IDLE, &test_delegate,
                              TRAFFIC_ANNOTATION_FOR_TESTS);
-  std::shared_ptr<onevn::OneVNRequestInfo>
-      before_url_context(new onevn::OneVNRequestInfo());
-  onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(),
+  std::shared_ptr<onevn::OnevnRequestInfo>
+      before_url_context(new onevn::OnevnRequestInfo());
+  onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(),
                                               before_url_context);
   onevn::ResponseCallback callback;
 
-  std::unique_ptr<OneVNNavigationUIData> navigation_ui_data =
-    std::make_unique<OneVNNavigationUIData>();
+  std::unique_ptr<OnevnNavigationUIData> navigation_ui_data =
+    std::make_unique<OnevnNavigationUIData>();
   content::ResourceRequestInfo::AllocateForTesting(
       request.get(), content::RESOURCE_TYPE_MAIN_FRAME, resource_context(),
       kRenderProcessId, /*render_view_id=*/-1, kRenderFrameId,
@@ -111,9 +111,9 @@ TEST_F(OneVNTorNetworkDelegateHelperTest, NotTorProfile) {
   EXPECT_EQ(ret, net::OK);
 }
 
-TEST_F(OneVNTorNetworkDelegateHelperTest, TorProfile) {
+TEST_F(OnevnTorNetworkDelegateHelperTest, TorProfile) {
   ProfileManager* profile_manager = g_browser_process->profile_manager();
-  base::FilePath tor_path = OneVNProfileManager::GetTorProfilePath();
+  base::FilePath tor_path = OnevnProfileManager::GetTorProfilePath();
 
   Profile* profile = profile_manager->GetProfile(tor_path);
   ASSERT_TRUE(profile);
@@ -123,15 +123,15 @@ TEST_F(OneVNTorNetworkDelegateHelperTest, TorProfile) {
   std::unique_ptr<net::URLRequest> request =
       context()->CreateRequest(url, net::IDLE, &test_delegate,
                              TRAFFIC_ANNOTATION_FOR_TESTS);
-  std::shared_ptr<onevn::OneVNRequestInfo>
-      before_url_context(new onevn::OneVNRequestInfo());
-  onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(),
+  std::shared_ptr<onevn::OnevnRequestInfo>
+      before_url_context(new onevn::OnevnRequestInfo());
+  onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(),
                                               before_url_context);
   onevn::ResponseCallback callback;
 
-  std::unique_ptr<OneVNNavigationUIData> navigation_ui_data =
-    std::make_unique<OneVNNavigationUIData>();
-  OneVNNavigationUIData* navigation_ui_data_ptr = navigation_ui_data.get();
+  std::unique_ptr<OnevnNavigationUIData> navigation_ui_data =
+    std::make_unique<OnevnNavigationUIData>();
+  OnevnNavigationUIData* navigation_ui_data_ptr = navigation_ui_data.get();
   content::ResourceRequestInfo::AllocateForTesting(
       request.get(), content::RESOURCE_TYPE_MAIN_FRAME, resource_context(),
       kRenderProcessId, /*render_view_id=*/-1, kRenderFrameId,
@@ -158,9 +158,9 @@ TEST_F(OneVNTorNetworkDelegateHelperTest, TorProfile) {
   EXPECT_EQ(ret, net::OK);
 }
 
-TEST_F(OneVNTorNetworkDelegateHelperTest, TorProfileBlockFile) {
+TEST_F(OnevnTorNetworkDelegateHelperTest, TorProfileBlockFile) {
   ProfileManager* profile_manager = g_browser_process->profile_manager();
-  base::FilePath tor_path = OneVNProfileManager::GetTorProfilePath();
+  base::FilePath tor_path = OnevnProfileManager::GetTorProfilePath();
 
   Profile* profile = profile_manager->GetProfile(tor_path);
   ASSERT_TRUE(profile);
@@ -170,15 +170,15 @@ TEST_F(OneVNTorNetworkDelegateHelperTest, TorProfileBlockFile) {
   std::unique_ptr<net::URLRequest> request =
       context()->CreateRequest(url, net::IDLE, &test_delegate,
                              TRAFFIC_ANNOTATION_FOR_TESTS);
-  std::shared_ptr<onevn::OneVNRequestInfo>
-      before_url_context(new onevn::OneVNRequestInfo());
-  onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(),
+  std::shared_ptr<onevn::OnevnRequestInfo>
+      before_url_context(new onevn::OnevnRequestInfo());
+  onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(),
                                               before_url_context);
   onevn::ResponseCallback callback;
 
-  std::unique_ptr<OneVNNavigationUIData> navigation_ui_data =
-    std::make_unique<OneVNNavigationUIData>();
-  OneVNNavigationUIData* navigation_ui_data_ptr = navigation_ui_data.get();
+  std::unique_ptr<OnevnNavigationUIData> navigation_ui_data =
+    std::make_unique<OnevnNavigationUIData>();
+  OnevnNavigationUIData* navigation_ui_data_ptr = navigation_ui_data.get();
   content::ResourceRequestInfo::AllocateForTesting(
       request.get(), content::RESOURCE_TYPE_MAIN_FRAME, resource_context(),
       kRenderProcessId, /*render_view_id=*/-1, kRenderFrameId,
@@ -194,9 +194,9 @@ TEST_F(OneVNTorNetworkDelegateHelperTest, TorProfileBlockFile) {
   EXPECT_EQ(ret, net::ERR_DISALLOWED_URL_SCHEME);
 }
 
-TEST_F(OneVNTorNetworkDelegateHelperTest, TorProfileBlockIfHosed) {
+TEST_F(OnevnTorNetworkDelegateHelperTest, TorProfileBlockIfHosed) {
   ProfileManager* profile_manager = g_browser_process->profile_manager();
-  base::FilePath tor_path = OneVNProfileManager::GetTorProfilePath();
+  base::FilePath tor_path = OnevnProfileManager::GetTorProfilePath();
 
   Profile* profile = profile_manager->GetProfile(tor_path);
   ASSERT_TRUE(profile);
@@ -206,15 +206,15 @@ TEST_F(OneVNTorNetworkDelegateHelperTest, TorProfileBlockIfHosed) {
   std::unique_ptr<net::URLRequest> request =
       context()->CreateRequest(url, net::IDLE, &test_delegate,
                              TRAFFIC_ANNOTATION_FOR_TESTS);
-  std::shared_ptr<onevn::OneVNRequestInfo>
-      before_url_context(new onevn::OneVNRequestInfo());
-  onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(),
+  std::shared_ptr<onevn::OnevnRequestInfo>
+      before_url_context(new onevn::OnevnRequestInfo());
+  onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(),
                                               before_url_context);
   onevn::ResponseCallback callback;
 
-  std::unique_ptr<OneVNNavigationUIData> navigation_ui_data =
-    std::make_unique<OneVNNavigationUIData>();
-  OneVNNavigationUIData* navigation_ui_data_ptr = navigation_ui_data.get();
+  std::unique_ptr<OnevnNavigationUIData> navigation_ui_data =
+    std::make_unique<OnevnNavigationUIData>();
+  OnevnNavigationUIData* navigation_ui_data_ptr = navigation_ui_data.get();
   content::ResourceRequestInfo::AllocateForTesting(
       request.get(), content::RESOURCE_TYPE_MAIN_FRAME, resource_context(),
       kRenderProcessId, /*render_view_id=*/-1, kRenderFrameId,

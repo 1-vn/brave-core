@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -15,20 +15,20 @@
 #include "chrome/common/render_messages.h"
 
 using base::string16;
-using onevn_shields::OneVNShieldsWebContentsObserver;
+using onevn_shields::OnevnShieldsWebContentsObserver;
 using content_settings::CookieSettings;
 
-OneVNRenderMessageFilter::OneVNRenderMessageFilter(int render_process_id,
+OnevnRenderMessageFilter::OnevnRenderMessageFilter(int render_process_id,
                                                    Profile* profile)
     : ChromeRenderMessageFilter(render_process_id, profile),
       host_content_settings_map_(
           HostContentSettingsMapFactory::GetForProfile(profile)) {}
 
-OneVNRenderMessageFilter::~OneVNRenderMessageFilter() {}
+OnevnRenderMessageFilter::~OnevnRenderMessageFilter() {}
 
-bool OneVNRenderMessageFilter::OnMessageReceived(const IPC::Message& message) {
+bool OnevnRenderMessageFilter::OnMessageReceived(const IPC::Message& message) {
   bool handled = true;
-  IPC_BEGIN_MESSAGE_MAP(OneVNRenderMessageFilter, message)
+  IPC_BEGIN_MESSAGE_MAP(OnevnRenderMessageFilter, message)
     IPC_MESSAGE_HANDLER(ChromeViewHostMsg_AllowDatabase, OnAllowDatabase);
     IPC_MESSAGE_HANDLER(ChromeViewHostMsg_AllowDOMStorage, OnAllowDOMStorage);
     IPC_MESSAGE_HANDLER(ChromeViewHostMsg_AllowIndexedDB, OnAllowIndexedDB);
@@ -38,12 +38,12 @@ bool OneVNRenderMessageFilter::OnMessageReceived(const IPC::Message& message) {
   return ChromeRenderMessageFilter::OnMessageReceived(message);
 }
 
-void OneVNRenderMessageFilter::ShouldStoreState(int render_frame_id,
+void OnevnRenderMessageFilter::ShouldStoreState(int render_frame_id,
                                                 const GURL& origin_url,
                                                 const GURL& top_origin_url,
                                                 bool* allowed) {
   GURL tab_origin =
-      OneVNShieldsWebContentsObserver::GetTabURLFromRenderFrameInfo(
+      OnevnShieldsWebContentsObserver::GetTabURLFromRenderFrameInfo(
           render_process_id_, render_frame_id, -1)
           .GetOrigin();
   *allowed =
@@ -53,7 +53,7 @@ void OneVNRenderMessageFilter::ShouldStoreState(int render_frame_id,
           tab_origin);
 }
 
-void OneVNRenderMessageFilter::OnAllowDatabase(int render_frame_id,
+void OnevnRenderMessageFilter::OnAllowDatabase(int render_frame_id,
                                                const GURL& origin_url,
                                                const GURL& top_origin_url,
                                                bool* allowed) {
@@ -64,7 +64,7 @@ void OneVNRenderMessageFilter::OnAllowDatabase(int render_frame_id,
   }
 }
 
-void OneVNRenderMessageFilter::OnAllowDOMStorage(int render_frame_id,
+void OnevnRenderMessageFilter::OnAllowDOMStorage(int render_frame_id,
                                                  const GURL& origin_url,
                                                  const GURL& top_origin_url,
                                                  bool local,
@@ -76,7 +76,7 @@ void OneVNRenderMessageFilter::OnAllowDOMStorage(int render_frame_id,
   }
 }
 
-void OneVNRenderMessageFilter::OnAllowIndexedDB(int render_frame_id,
+void OnevnRenderMessageFilter::OnAllowIndexedDB(int render_frame_id,
                                                 const GURL& origin_url,
                                                 const GURL& top_origin_url,
                                                 bool* allowed) {

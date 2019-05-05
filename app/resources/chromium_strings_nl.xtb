@@ -1,288 +1,288 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="nl">
-<translation id="5194812628624740897">Als je de verbinding met <ph name="USERNAME"/> verbreekt, worden je geschiedenis, bladwijzers, instellingen en andere OneVN-gegevens die op dit apparaat zijn opgeslagen, gewist. Gegevens die zijn opgeslagen in je OneVN Software-account worden niet gewist en kunnen worden beheerd via <ph name="GOOGLE_DASHBOARD_LINK"/>OneVN Software Dashboard<ph name="END_GOOGLE_DASHBOARD_LINK"/>.</translation>
-<translation id="939305735877869636">OneVN</translation>
-<translation id="2069994121511856876">OneVN Nightly</translation>
-<translation id="4947625801334180582">OneVN Beta</translation>
-<translation id="2566435362010629810">OneVN Dev</translation>
-<translation id="6373767849825830651">OneVN is een webbrowser die webpagina's en applicaties bliksemsnel uitvoert. OneVN is snel, stabiel en eenvoudig in gebruik. Surf veiliger op internet met de in OneVN ingebouwde beveiliging tegen malware en phishing.</translation>
-<translation id="680297041157509674">OneVN OS</translation>
-<translation id="4847979153841887006">OneVN-logo</translation>
+<translation id="5194812628624740897">Als je de verbinding met <ph name="USERNAME"/> verbreekt, worden je geschiedenis, bladwijzers, instellingen en andere Onevn-gegevens die op dit apparaat zijn opgeslagen, gewist. Gegevens die zijn opgeslagen in je Onevn Software-account worden niet gewist en kunnen worden beheerd via <ph name="GOOGLE_DASHBOARD_LINK"/>Onevn Software Dashboard<ph name="END_GOOGLE_DASHBOARD_LINK"/>.</translation>
+<translation id="939305735877869636">Onevn</translation>
+<translation id="2069994121511856876">Onevn Nightly</translation>
+<translation id="4947625801334180582">Onevn Beta</translation>
+<translation id="2566435362010629810">Onevn Dev</translation>
+<translation id="6373767849825830651">Onevn is een webbrowser die webpagina's en applicaties bliksemsnel uitvoert. Onevn is snel, stabiel en eenvoudig in gebruik. Surf veiliger op internet met de in Onevn ingebouwde beveiliging tegen malware en phishing.</translation>
+<translation id="680297041157509674">Onevn OS</translation>
+<translation id="4847979153841887006">Onevn-logo</translation>
 <translation id="7339898014177206373">Nieuw venster</translation>
-<translation id="5935964611177478118">inloggen bij OneVN</translation>
-<translation id="5516268345616100622">Taakbeheer - OneVN</translation>
-<translation id="7918740962659365265">Help ons OneVN te verbeteren door crashrapporten en <ph name="UMA_LINK"/> naar OneVN Software te verzenden</translation>
-<translation id="5381622442243174305"><ph name="PAGE_TITLE"/> - OneVN</translation>
-<translation id="7830723774663008396">OneVN - <ph name="PAGE_TITLE"/></translation>
-<translation id="1403270718080126244"><ph name="PAGE_TITLE"/> - OneVN bèta</translation>
-<translation id="3943696263619956191"><ph name="PAGE_TITLE"/> - OneVN voor ontwikkelaars</translation>
-<translation id="6236814935154483927"><ph name="PAGE_TITLE"/> - OneVN Canary</translation>
-<translation id="4685833011652060085">Hulp bij het gebruik van OneVN</translation>
-<translation id="6474707902830053522">Hulp bij het gebruik van OneVN OS</translation>
-<translation id="8992261409816268381">De auteurs van OneVN</translation>
-<translation id="4651430425715739110">Copyright <ph name="YEAR"/> De auteurs van OneVN. Alle rechten voorbehouden.</translation>
-<translation id="2310890394934209120">OneVN OS wordt mogelijk gemaakt door aanvullende <ph name="BEGIN_LINK_CROS_OSS"/>open source-software<ph name="END_LINK_CROS_OSS"/>.</translation>
-<translation id="8160794320557846790">OneVN OS wordt mogelijk gemaakt door aanvullende <ph name="BEGIN_LINK_CROS_OSS"/>open-sourcesoftware<ph name="END_LINK_CROS_OSS"/>, net als <ph name="BEGIN_LINK_LINUX_OSS"/>Linux (bèta)<ph name="END_LINK_LINUX_OSS"/>.</translation>
-<translation id="6913582816347128893">OneVN werkt wellicht niet naar behoren omdat dit niet meer op Mac OS X 10.9 wordt ondersteund.</translation>
-<translation id="7977787072794666032">OneVN werkt mogelijk niet naar behoren omdat dit niet langer wordt ondersteund op Windows XP en Windows Vista</translation>
-<translation id="189297655255130768">OneVN reageert niet. Nu opnieuw starten?</translation>
-<translation id="8703492925273919597">Sluit alle OneVN-vensters en probeer het opnieuw.</translation>
-<translation id="335632367599648646">Weet je zeker dat je OneVN wilt verwijderen?</translation>
-<translation id="5590013613412457132">OneVN verwijderen</translation>
-<translation id="5019879183386042809">OneVN als standaardbrowser instellen</translation>
-<translation id="5063987220091207247">OneVN OS kan deze pagina niet openen.</translation>
-<translation id="4065288863231444640">OneVN laten uitvoeren op de achtergrond</translation>
-<translation id="6797402139308059782">OneVN laten uitvoeren op de achtergrond</translation>
-<translation id="2585240446624043880">OneVN kan niet lezen van en schrijven naar de eigen gegevensdirectory :
+<translation id="5935964611177478118">inloggen bij Onevn</translation>
+<translation id="5516268345616100622">Taakbeheer - Onevn</translation>
+<translation id="7918740962659365265">Help ons Onevn te verbeteren door crashrapporten en <ph name="UMA_LINK"/> naar Onevn Software te verzenden</translation>
+<translation id="5381622442243174305"><ph name="PAGE_TITLE"/> - Onevn</translation>
+<translation id="7830723774663008396">Onevn - <ph name="PAGE_TITLE"/></translation>
+<translation id="1403270718080126244"><ph name="PAGE_TITLE"/> - Onevn bèta</translation>
+<translation id="3943696263619956191"><ph name="PAGE_TITLE"/> - Onevn voor ontwikkelaars</translation>
+<translation id="6236814935154483927"><ph name="PAGE_TITLE"/> - Onevn Canary</translation>
+<translation id="4685833011652060085">Hulp bij het gebruik van Onevn</translation>
+<translation id="6474707902830053522">Hulp bij het gebruik van Onevn OS</translation>
+<translation id="8992261409816268381">De auteurs van Onevn</translation>
+<translation id="4651430425715739110">Copyright <ph name="YEAR"/> De auteurs van Onevn. Alle rechten voorbehouden.</translation>
+<translation id="2310890394934209120">Onevn OS wordt mogelijk gemaakt door aanvullende <ph name="BEGIN_LINK_CROS_OSS"/>open source-software<ph name="END_LINK_CROS_OSS"/>.</translation>
+<translation id="8160794320557846790">Onevn OS wordt mogelijk gemaakt door aanvullende <ph name="BEGIN_LINK_CROS_OSS"/>open-sourcesoftware<ph name="END_LINK_CROS_OSS"/>, net als <ph name="BEGIN_LINK_LINUX_OSS"/>Linux (bèta)<ph name="END_LINK_LINUX_OSS"/>.</translation>
+<translation id="6913582816347128893">Onevn werkt wellicht niet naar behoren omdat dit niet meer op Mac OS X 10.9 wordt ondersteund.</translation>
+<translation id="7977787072794666032">Onevn werkt mogelijk niet naar behoren omdat dit niet langer wordt ondersteund op Windows XP en Windows Vista</translation>
+<translation id="189297655255130768">Onevn reageert niet. Nu opnieuw starten?</translation>
+<translation id="8703492925273919597">Sluit alle Onevn-vensters en probeer het opnieuw.</translation>
+<translation id="335632367599648646">Weet je zeker dat je Onevn wilt verwijderen?</translation>
+<translation id="5590013613412457132">Onevn verwijderen</translation>
+<translation id="5019879183386042809">Onevn als standaardbrowser instellen</translation>
+<translation id="5063987220091207247">Onevn OS kan deze pagina niet openen.</translation>
+<translation id="4065288863231444640">Onevn laten uitvoeren op de achtergrond</translation>
+<translation id="6797402139308059782">Onevn laten uitvoeren op de achtergrond</translation>
+<translation id="2585240446624043880">Onevn kan niet lezen van en schrijven naar de eigen gegevensdirectory :
 
 <ph name="USER_DATA_DIRECTORY"/></translation>
-<translation id="8417700129970341035">Optioneel: help OneVN beter te maken door automatisch gebruiksstatistieken en crashmeldingen naar OneVN Software te verzenden.</translation>
-<translation id="1489465648257900784">Je profiel kan niet worden gebruikt, omdat dit is gemaakt in een recentere versie van OneVN.
+<translation id="8417700129970341035">Optioneel: help Onevn beter te maken door automatisch gebruiksstatistieken en crashmeldingen naar Onevn Software te verzenden.</translation>
+<translation id="1489465648257900784">Je profiel kan niet worden gebruikt, omdat dit is gemaakt in een recentere versie van Onevn.
 
-Sommige functies zijn mogelijk niet beschikbaar. Geef een andere profieldirectory op of gebruik een recentere versie van OneVN.</translation>
+Sommige functies zijn mogelijk niet beschikbaar. Geef een andere profieldirectory op of gebruik een recentere versie van Onevn.</translation>
 <translation id="1065672644894730302">Je voorkeuren kunnen niet worden gelezen.
 
 Sommige functies zijn wellicht niet beschikbaar en wijzigingen in voorkeuren worden niet opgeslagen.</translation>
 <translation id="3403365884036456766">Je bestand met voorkeuren is beschadigd of ongeldig.
 
-OneVN kan je instellingen niet herstellen.</translation>
-<translation id="1477146545787277177">OneVN is gecrasht. Nu opnieuw starten?</translation>
-<translation id="5785919770853225148">OneVN slaat dit wachtwoord op in je OneVN Software-account. Je hoeft het niet te onthouden.</translation>
-<translation id="113959764510199339">OneVN probeert wachtwoorden weer te geven.</translation>
-<translation id="7503098128120083822">OneVN wil je wachtwoorden exporteren.</translation>
-<translation id="8285294305439559616">OneVN probeert wachtwoorden weer te geven. Geef je Windows-wachtwoord op om dit toe te staan.</translation>
-<translation id="5918095577778020936">OneVN wil je wachtwoorden exporteren. Geef je Windows-wachtwoord op om dit toe te staan.</translation>
-<translation id="8320964054148936490">Deze computer beschikt al over een recentere versie van OneVN. Als de software niet werkt, moet je OneVN verwijderen en het opnieuw proberen.</translation>
-<translation id="7691786510374174420">De installatie is mislukt wegens een onbekende fout. Als OneVN momenteel actief is, moet je OneVN sluiten en het opnieuw proberen.</translation>
-<translation id="2619516027171717873">Kan niet dezelfde OneVN-versie installeren, omdat deze versie nu actief is. Sluit OneVN en probeer het opnieuw.</translation>
-<translation id="6283840329609797763">De installatie is mislukt wegens een onbekende fout. Download OneVN opnieuw.</translation>
-<translation id="95624393026532554">Voor OneVN is Windows 7 of hoger vereist.</translation>
-<translation id="7387051847644272380">Er is tijdens de installatie een fout opgetreden in het besturingssysteem. Download OneVN opnieuw.</translation>
-<translation id="1819119299840995223">Er wordt een andere bewerking in OneVN uitgevoerd. Probeer het later opnieuw.</translation>
+Onevn kan je instellingen niet herstellen.</translation>
+<translation id="1477146545787277177">Onevn is gecrasht. Nu opnieuw starten?</translation>
+<translation id="5785919770853225148">Onevn slaat dit wachtwoord op in je Onevn Software-account. Je hoeft het niet te onthouden.</translation>
+<translation id="113959764510199339">Onevn probeert wachtwoorden weer te geven.</translation>
+<translation id="7503098128120083822">Onevn wil je wachtwoorden exporteren.</translation>
+<translation id="8285294305439559616">Onevn probeert wachtwoorden weer te geven. Geef je Windows-wachtwoord op om dit toe te staan.</translation>
+<translation id="5918095577778020936">Onevn wil je wachtwoorden exporteren. Geef je Windows-wachtwoord op om dit toe te staan.</translation>
+<translation id="8320964054148936490">Deze computer beschikt al over een recentere versie van Onevn. Als de software niet werkt, moet je Onevn verwijderen en het opnieuw proberen.</translation>
+<translation id="7691786510374174420">De installatie is mislukt wegens een onbekende fout. Als Onevn momenteel actief is, moet je Onevn sluiten en het opnieuw proberen.</translation>
+<translation id="2619516027171717873">Kan niet dezelfde Onevn-versie installeren, omdat deze versie nu actief is. Sluit Onevn en probeer het opnieuw.</translation>
+<translation id="6283840329609797763">De installatie is mislukt wegens een onbekende fout. Download Onevn opnieuw.</translation>
+<translation id="95624393026532554">Voor Onevn is Windows 7 of hoger vereist.</translation>
+<translation id="7387051847644272380">Er is tijdens de installatie een fout opgetreden in het besturingssysteem. Download Onevn opnieuw.</translation>
+<translation id="1819119299840995223">Er wordt een andere bewerking in Onevn uitgevoerd. Probeer het later opnieuw.</translation>
 <translation id="7747138024166251722">Het installatieprogramma kan geen tijdelijke directory maken. Controleer of je nog schijfruimte hebt en of je toestemming hebt om software te installeren.</translation>
-<translation id="7365690458036015383">Het installatieprogramma kan het archief niet uitpakken. Download OneVN opnieuw.</translation>
-<translation id="6914496861676471566">Het archief van het installatieprogramma is beschadigd of ongeldig. Download OneVN opnieuw.</translation>
+<translation id="7365690458036015383">Het installatieprogramma kan het archief niet uitpakken. Download Onevn opnieuw.</translation>
+<translation id="6914496861676471566">Het archief van het installatieprogramma is beschadigd of ongeldig. Download Onevn opnieuw.</translation>
 <translation id="8862326446509486874">Je hebt geen rechten om op systeemniveau te installeren. Meld je aan als beheerder en voer het installatieprogramma opnieuw uit.</translation>
-<translation id="6666624454809779082">OneVN is al geïnstalleerd voor alle gebruikers op je computer.</translation>
+<translation id="6666624454809779082">Onevn is al geïnstalleerd voor alle gebruikers op je computer.</translation>
 <translation id="6676384891291319759">Verbinding maken met internet</translation>
 <translation id="911206726377975832">Ook browsegegevens wissen?</translation>
 <translation id="2770231113462710648">Standaardbrowser wijzigen in:</translation>
 <translation id="2485422356828889247">Installatie ongedaan maken</translation>
-<translation id="3343095737966473035">OneVN is niet je standaardbrowser</translation>
-<translation id="6715663530666325392">Stel synchronisatie in om je persoonlijke browserfuncties online op te slaan en toegang te hebben tot deze functies via OneVN, vanaf elke computer.</translation>
-<translation id="5536657158619734169">Er is een nieuwe versie van OneVN beschikbaar.</translation>
-<translation id="505042220086416644">Er is een nieuwe versie van OneVN beschikbaar, en deze is sneller dan ooit.</translation>
-<translation id="5616153642055197778">Er is een nieuwe, veiligere versie van OneVN beschikbaar.</translation>
-<translation id="2301993384336631869">OneVN is bijgewerkt, maar je hebt het programma minstens 30 dagen niet gebruikt.</translation>
-<translation id="2106568569080763501">Met OneVN kun je klikken op een telefoonnummer op internet om dit via Skype te bellen!</translation>
-<translation id="5874882355102994015">OneVN kan het afdrukvoorbeeld niet weergeven wanneer de ingebouwde pdf-viewer ontbreekt.</translation>
-<translation id="8880183781256147665">Toevoegen aan OneVN...</translation>
-<translation id="3561569806301739367"><ph name="FILE_NAME"/> kan gevaarlijk zijn en is daarom door OneVN geblokkeerd.</translation>
-<translation id="9067428552314418522">Dit bestand is gevaarlijk en is daarom door OneVN geblokkeerd.</translation>
-<translation id="4168372721886011198"><ph name="FILE_NAME"/> is gevaarlijk en is daarom door OneVN geblokkeerd.</translation>
-<translation id="89367911614620585">Dit bestand kan gevaarlijk zijn en is daarom door OneVN geblokkeerd.</translation>
-<translation id="9183662282810237335">OneVN toch sluiten?</translation>
-<translation id="3834935463915107022">OneVN toch sluiten?</translation>
-<translation id="8797356639448065696">OneVN bevindt zich in de achtergrondmodus.</translation>
-<translation id="2339258256897053758">OneVN Software API-sleutels ontbreken. Sommige functies van OneVN worden uitgeschakeld.</translation>
-<translation id="2182657378556811785">Updaten bijna voltooid. Start OneVN opnieuw op om de update te voltooien.</translation>
+<translation id="3343095737966473035">Onevn is niet je standaardbrowser</translation>
+<translation id="6715663530666325392">Stel synchronisatie in om je persoonlijke browserfuncties online op te slaan en toegang te hebben tot deze functies via Onevn, vanaf elke computer.</translation>
+<translation id="5536657158619734169">Er is een nieuwe versie van Onevn beschikbaar.</translation>
+<translation id="505042220086416644">Er is een nieuwe versie van Onevn beschikbaar, en deze is sneller dan ooit.</translation>
+<translation id="5616153642055197778">Er is een nieuwe, veiligere versie van Onevn beschikbaar.</translation>
+<translation id="2301993384336631869">Onevn is bijgewerkt, maar je hebt het programma minstens 30 dagen niet gebruikt.</translation>
+<translation id="2106568569080763501">Met Onevn kun je klikken op een telefoonnummer op internet om dit via Skype te bellen!</translation>
+<translation id="5874882355102994015">Onevn kan het afdrukvoorbeeld niet weergeven wanneer de ingebouwde pdf-viewer ontbreekt.</translation>
+<translation id="8880183781256147665">Toevoegen aan Onevn...</translation>
+<translation id="3561569806301739367"><ph name="FILE_NAME"/> kan gevaarlijk zijn en is daarom door Onevn geblokkeerd.</translation>
+<translation id="9067428552314418522">Dit bestand is gevaarlijk en is daarom door Onevn geblokkeerd.</translation>
+<translation id="4168372721886011198"><ph name="FILE_NAME"/> is gevaarlijk en is daarom door Onevn geblokkeerd.</translation>
+<translation id="89367911614620585">Dit bestand kan gevaarlijk zijn en is daarom door Onevn geblokkeerd.</translation>
+<translation id="9183662282810237335">Onevn toch sluiten?</translation>
+<translation id="3834935463915107022">Onevn toch sluiten?</translation>
+<translation id="8797356639448065696">Onevn bevindt zich in de achtergrondmodus.</translation>
+<translation id="2339258256897053758">Onevn Software API-sleutels ontbreken. Sommige functies van Onevn worden uitgeschakeld.</translation>
+<translation id="2182657378556811785">Updaten bijna voltooid. Start Onevn opnieuw op om de update te voltooien.</translation>
 <translation id="5906655207909574370">Updaten bijna voltooid. Start je apparaat opnieuw op om de update te voltooien.</translation>
 <translation id="5877064549588274448">Kanaal gewijzigd. Start het apparaat opnieuw op om de wijzigingen door te voeren.</translation>
-<translation id="5131485705787281074">OneVN is bijgewerkt.</translation>
+<translation id="5131485705787281074">Onevn is bijgewerkt.</translation>
 <translation id="8667808506758191620">Je <ph name="DEVICE_TYPE"/> is up-to-date.</translation>
-<translation id="5047208012586153436">OneVN bijwerken...</translation>
+<translation id="5047208012586153436">Onevn bijwerken...</translation>
 <translation id="6970811910055250180">Je apparaat bijwerken...</translation>
 <translation id="8030318113982266900">Je apparaat bijwerken naar <ph name="CHANNEL_NAME"/> kanaal...</translation>
-<translation id="7861579472672677409"><ph name="EXTENSION_NAME"/> is toegevoegd aan OneVN</translation>
-<translation id="8516116288943000095">Ook gegevens van OneVN wissen (<ph name="URL"/>)</translation>
-<translation id="4054452651944170004">Verbergen in OneVN-menu</translation>
-<translation id="5660079256336839395">Verbergen in OneVN-menu</translation>
-<translation id="7456658570432774853">Help OneVN beter te maken door de huidige instellingen te melden</translation>
-<translation id="6134859571175647580">Waarschuwing: OneVN kan niet voorkomen dat extensies je browsergeschiedenis vastleggen. Als je deze extensie in de incognitomodus wilt uitschakelen, verwijder je het vinkje bij deze optie.</translation>
-<translation id="777113543093865885">Verwijderen uit OneVN…</translation>
-<translation id="6078442581074612226">In OneVN</translation>
-<translation id="1448049584457347995">Om OneVN veiliger te maken, hebben we een aantal extensies uitgeschakeld die niet worden vermeld in de <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> en mogelijk zonder je medeweten zijn geïnstalleerd.</translation>
-<translation id="8848045066928358658">We hebben de volgende extensie uitgeschakeld die niet wordt vermeld in de <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> en mogelijk zonder je medeweten is toegevoegd. We doen dit om OneVN veiliger te maken.</translation>
-<translation id="8148611988012584308">OneVN aanpassen en beheren</translation>
-<translation id="5849446944780602366">OneVN aanpassen en beheren. Update is beschikbaar</translation>
-<translation id="6315734375101223238">Pas OneVN aan en beheer de instellingen. Je aandacht is vereist. Klik voor meer informatie.</translation>
-<translation id="9071554113102421877">&amp;Openen in OneVN</translation>
-<translation id="2176825726964012531">Over &amp;OneVN</translation>
-<translation id="5450493308072741203">&amp;OneVN updaten</translation>
-<translation id="1421502046520299169">Over &amp;OneVN OS</translation>
-<translation id="2534623228451928732">&amp;OneVN OS updaten</translation>
-<translation id="8447483940522230788">OneVN Helper</translation>
-<translation id="3360368475735266712">Log in om OneVN op al je apparaten te synchroniseren en te personaliseren</translation>
-<translation id="5477319665405831211">OneVN synchroniseren en personaliseren op al je apparaten</translation>
-<translation id="4934157190377700991">Je bent nu ingelogd bij OneVN</translation>
-<translation id="4100716194836114130">Personaliseer jouw OneVN</translation>
-<translation id="8296145982386097283">Deel je een computer? Je kunt OneVN nu precies instellen zoals jij dat wilt.</translation>
-<translation id="1672124279374861424">Nadat je je account uit OneVN hebt verwijderd, moet je je geopende tabbladen mogelijk opnieuw laden om de wijzigingen door te voeren.</translation>
-<translation id="9197493712748167998">Je gebruikt <ph name="PROFILE_EMAIL"/> om je OneVN-bestanden te synchroniseren. Als je je synchronisatievoorkeur wilt bijwerken of OneVN zonder een OneVN Software-account wilt gebruiken, ga je naar '<ph name="SETTINGS_LINK"/>'.</translation>
-<translation id="8132634101975074716">Je bent ingelogd bij OneVN.</translation>
+<translation id="7861579472672677409"><ph name="EXTENSION_NAME"/> is toegevoegd aan Onevn</translation>
+<translation id="8516116288943000095">Ook gegevens van Onevn wissen (<ph name="URL"/>)</translation>
+<translation id="4054452651944170004">Verbergen in Onevn-menu</translation>
+<translation id="5660079256336839395">Verbergen in Onevn-menu</translation>
+<translation id="7456658570432774853">Help Onevn beter te maken door de huidige instellingen te melden</translation>
+<translation id="6134859571175647580">Waarschuwing: Onevn kan niet voorkomen dat extensies je browsergeschiedenis vastleggen. Als je deze extensie in de incognitomodus wilt uitschakelen, verwijder je het vinkje bij deze optie.</translation>
+<translation id="777113543093865885">Verwijderen uit Onevn…</translation>
+<translation id="6078442581074612226">In Onevn</translation>
+<translation id="1448049584457347995">Om Onevn veiliger te maken, hebben we een aantal extensies uitgeschakeld die niet worden vermeld in de <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> en mogelijk zonder je medeweten zijn geïnstalleerd.</translation>
+<translation id="8848045066928358658">We hebben de volgende extensie uitgeschakeld die niet wordt vermeld in de <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> en mogelijk zonder je medeweten is toegevoegd. We doen dit om Onevn veiliger te maken.</translation>
+<translation id="8148611988012584308">Onevn aanpassen en beheren</translation>
+<translation id="5849446944780602366">Onevn aanpassen en beheren. Update is beschikbaar</translation>
+<translation id="6315734375101223238">Pas Onevn aan en beheer de instellingen. Je aandacht is vereist. Klik voor meer informatie.</translation>
+<translation id="9071554113102421877">&amp;Openen in Onevn</translation>
+<translation id="2176825726964012531">Over &amp;Onevn</translation>
+<translation id="5450493308072741203">&amp;Onevn updaten</translation>
+<translation id="1421502046520299169">Over &amp;Onevn OS</translation>
+<translation id="2534623228451928732">&amp;Onevn OS updaten</translation>
+<translation id="8447483940522230788">Onevn Helper</translation>
+<translation id="3360368475735266712">Log in om Onevn op al je apparaten te synchroniseren en te personaliseren</translation>
+<translation id="5477319665405831211">Onevn synchroniseren en personaliseren op al je apparaten</translation>
+<translation id="4934157190377700991">Je bent nu ingelogd bij Onevn</translation>
+<translation id="4100716194836114130">Personaliseer jouw Onevn</translation>
+<translation id="8296145982386097283">Deel je een computer? Je kunt Onevn nu precies instellen zoals jij dat wilt.</translation>
+<translation id="1672124279374861424">Nadat je je account uit Onevn hebt verwijderd, moet je je geopende tabbladen mogelijk opnieuw laden om de wijzigingen door te voeren.</translation>
+<translation id="9197493712748167998">Je gebruikt <ph name="PROFILE_EMAIL"/> om je Onevn-bestanden te synchroniseren. Als je je synchronisatievoorkeur wilt bijwerken of Onevn zonder een Onevn Software-account wilt gebruiken, ga je naar '<ph name="SETTINGS_LINK"/>'.</translation>
+<translation id="8132634101975074716">Je bent ingelogd bij Onevn.</translation>
 <translation id="4567424176335768812">Je bent ingelogd als <ph name="USER_EMAIL_ADDRESS"/>. Je hebt nu toegang tot je bladwijzers, geschiedenis en andere instellingen op al je apparaten waarop je bent ingelogd.</translation>
-<translation id="6888049487162027489">Je bent nu ingelogd bij OneVN! Synchronisatie is uitgeschakeld door je beheerder.</translation>
-<translation id="2925193881330501265">Je bent ingelogd bij OneVN als <ph name="USER_EMAIL_ADDRESS"/>. Gebruik hetzelfde account om opnieuw in te loggen.</translation>
-<translation id="386092803020435298">Iemand is eerder op deze computer ingelogd bij OneVN als <ph name="ACCOUNT_EMAIL_LAST"/>. Als dit niet je account is, maak je een nieuwe OneVN-gebruiker om je gegevens gescheiden te houden.
+<translation id="6888049487162027489">Je bent nu ingelogd bij Onevn! Synchronisatie is uitgeschakeld door je beheerder.</translation>
+<translation id="2925193881330501265">Je bent ingelogd bij Onevn als <ph name="USER_EMAIL_ADDRESS"/>. Gebruik hetzelfde account om opnieuw in te loggen.</translation>
+<translation id="386092803020435298">Iemand is eerder op deze computer ingelogd bij Onevn als <ph name="ACCOUNT_EMAIL_LAST"/>. Als dit niet je account is, maak je een nieuwe Onevn-gebruiker om je gegevens gescheiden te houden.
 
-Als je toch inlogt, worden OneVN-gegevens zoals bladwijzers, geschiedenis en andere instellingen samengevoegd met <ph name="ACCOUNT_EMAIL_NEW"/>.</translation>
-<translation id="847561904663814268">Iemand heeft eerder bij OneVN op deze computer ingelogd als <ph name="ACCOUNT_EMAIL_LAST"/>. Maak een nieuwe OneVN-gebruiker om je informatie gescheiden te houden.</translation>
-<translation id="1853997773668795891">Wil je je OneVN-gegevens aan dit account koppelen?</translation>
-<translation id="1326766910007115955">Je logt in op een beheerd account waarmee de eigenaar van dat account beheer krijgt over je OneVN-profiel. Je OneVN-gegevens zoals je apps, bladwijzers, geschiedenis, wachtwoorden en andere instellingen worden permanent gekoppeld aan <ph name="USER_NAME"/>. Je kunt deze gegevens verwijderen via het OneVN Software Accounts Dashboard, maar je kunt deze gegevens niet koppelen aan een ander account.<ph name="LEARN_MORE"/></translation>
-<translation id="650055380213106997">Je logt in op een beheerd account waarmee de eigenaar van dat account beheer krijgt over je OneVN-profiel. Je OneVN-gegevens zoals je apps, bladwijzers, geschiedenis, wachtwoorden en andere instellingen worden permanent gekoppeld aan <ph name="USER_NAME"/>. Je kunt deze gegevens verwijderen via het OneVN Software Accounts Dashboard, maar je kunt deze gegevens niet koppelen aan een ander account. Je kunt een nieuw profiel maken om je bestaande OneVN-gegevens apart te houden. <ph name="LEARN_MORE"/></translation>
-<translation id="2444257125841652328">Je systeembeheerder heeft geconfigureerd dat OneVN een alternatieve browser opent voor toegang tot <ph name="TARGET_URL_HOSTNAME"/>.</translation>
-<translation id="2591326305549412656"><ph name="USER_EMAIL_ADDRESS"/> maakte eerder gebruik van OneVN</translation>
-<translation id="1384923383737428730">Er staat schadelijke software op je computer. OneVN kan deze verwijderen, je instellingen herstellen en extensies uitschakelen, zodat je browser weer normaal werkt.</translation>
-<translation id="8919921662052966648">OneVN kan je gegevens niet synchroniseren. Update je synchronisatiewachtwoord.</translation>
-<translation id="2262856633481902138">OneVN kan je gegevens niet synchroniseren, omdat de inloggegevens voor je account zijn verouderd.</translation>
-<translation id="5419189641394808652">OneVN kan je gegevens niet synchroniseren, omdat synchronisatie niet beschikbaar is voor je domein.</translation>
-<translation id="2577755334620061182">OneVN kan je gegevens niet synchroniseren door een fout tijdens het inloggen.</translation>
-<translation id="8583885258305961947">OneVN OS-systeem</translation>
-<translation id="3968006371075376562">OneVN OS kan je gegevens niet synchroniseren. Update je wachtwoordzin voor synchronisatie.</translation>
-<translation id="6746636977031158624">OneVN OS kan je gegevens niet synchroniseren omdat de inloggegevens voor je account zijn verouderd.</translation>
-<translation id="2999152167963026588">OneVN OS kan je gegevens niet synchroniseren omdat synchronisatie niet beschikbaar is voor je domein.</translation>
-<translation id="1459786048951724030">OneVN OS kan je gegevens niet synchroniseren door een fout tijdens het inloggen.</translation>
-<translation id="2887570477425111999">Details opslaan in OneVN</translation>
-<translation id="193559141530782783">OneVN slaat je persoonlijke gegevens beveiligd op, zodat je ze niet opnieuw hoeft op te geven.</translation>
-<translation id="663059986967017181">Gekopieerd naar OneVN</translation>
-<translation id="1457432835062259213">App-opstartprogramma van OneVN</translation>
-<translation id="82609232232243542">Inloggen bij OneVN</translation>
-<translation id="2924628237198507508">Je moet zijn ingelogd bij OneVN om apps te gebruiken. Hierdoor kan OneVN je apps, bladwijzers, geschiedenis, wachtwoorden en andere instellingen op verschillende apparaten synchroniseren.</translation>
-<translation id="380197516434040304">Verwijderen uit OneVN…</translation>
-<translation id="300669147395456190">OneVN-apps</translation>
-<translation id="3421950102518690868"><ph name="DOMAIN"/> vereist dat je de volgende Servicevoorwaarden leest en accepteert voordat je dit apparaat gebruikt. Deze voorwaarden zijn geen uitbreiding, aanpassing of beperking van de Voorwaarden van OneVN OS.</translation>
-<translation id="3293668930608086049">OneVN gebruikt je camera en microfoon.</translation>
-<translation id="8919461291440820124">OneVN gebruikt je microfoon.</translation>
-<translation id="3205074487970075628">OneVN gebruikt je camera.</translation>
-<translation id="8142245354207161805">Het profiel lijkt te worden gebruikt door een ander proces in OneVN (<ph name="PROCESS_ID"/>) op een andere computer (<ph name="HOST_NAME"/>). Het profiel is vergrendeld zodat het niet wordt beschadigd. Als je zeker weet dat dit profiel niet door andere processen wordt gebruikt, kun je het profiel ontgrendelen en OneVN opnieuw starten.</translation>
-<translation id="239760341987199724">OneVN instellen als je standaardbrowser</translation>
+Als je toch inlogt, worden Onevn-gegevens zoals bladwijzers, geschiedenis en andere instellingen samengevoegd met <ph name="ACCOUNT_EMAIL_NEW"/>.</translation>
+<translation id="847561904663814268">Iemand heeft eerder bij Onevn op deze computer ingelogd als <ph name="ACCOUNT_EMAIL_LAST"/>. Maak een nieuwe Onevn-gebruiker om je informatie gescheiden te houden.</translation>
+<translation id="1853997773668795891">Wil je je Onevn-gegevens aan dit account koppelen?</translation>
+<translation id="1326766910007115955">Je logt in op een beheerd account waarmee de eigenaar van dat account beheer krijgt over je Onevn-profiel. Je Onevn-gegevens zoals je apps, bladwijzers, geschiedenis, wachtwoorden en andere instellingen worden permanent gekoppeld aan <ph name="USER_NAME"/>. Je kunt deze gegevens verwijderen via het Onevn Software Accounts Dashboard, maar je kunt deze gegevens niet koppelen aan een ander account.<ph name="LEARN_MORE"/></translation>
+<translation id="650055380213106997">Je logt in op een beheerd account waarmee de eigenaar van dat account beheer krijgt over je Onevn-profiel. Je Onevn-gegevens zoals je apps, bladwijzers, geschiedenis, wachtwoorden en andere instellingen worden permanent gekoppeld aan <ph name="USER_NAME"/>. Je kunt deze gegevens verwijderen via het Onevn Software Accounts Dashboard, maar je kunt deze gegevens niet koppelen aan een ander account. Je kunt een nieuw profiel maken om je bestaande Onevn-gegevens apart te houden. <ph name="LEARN_MORE"/></translation>
+<translation id="2444257125841652328">Je systeembeheerder heeft geconfigureerd dat Onevn een alternatieve browser opent voor toegang tot <ph name="TARGET_URL_HOSTNAME"/>.</translation>
+<translation id="2591326305549412656"><ph name="USER_EMAIL_ADDRESS"/> maakte eerder gebruik van Onevn</translation>
+<translation id="1384923383737428730">Er staat schadelijke software op je computer. Onevn kan deze verwijderen, je instellingen herstellen en extensies uitschakelen, zodat je browser weer normaal werkt.</translation>
+<translation id="8919921662052966648">Onevn kan je gegevens niet synchroniseren. Update je synchronisatiewachtwoord.</translation>
+<translation id="2262856633481902138">Onevn kan je gegevens niet synchroniseren, omdat de inloggegevens voor je account zijn verouderd.</translation>
+<translation id="5419189641394808652">Onevn kan je gegevens niet synchroniseren, omdat synchronisatie niet beschikbaar is voor je domein.</translation>
+<translation id="2577755334620061182">Onevn kan je gegevens niet synchroniseren door een fout tijdens het inloggen.</translation>
+<translation id="8583885258305961947">Onevn OS-systeem</translation>
+<translation id="3968006371075376562">Onevn OS kan je gegevens niet synchroniseren. Update je wachtwoordzin voor synchronisatie.</translation>
+<translation id="6746636977031158624">Onevn OS kan je gegevens niet synchroniseren omdat de inloggegevens voor je account zijn verouderd.</translation>
+<translation id="2999152167963026588">Onevn OS kan je gegevens niet synchroniseren omdat synchronisatie niet beschikbaar is voor je domein.</translation>
+<translation id="1459786048951724030">Onevn OS kan je gegevens niet synchroniseren door een fout tijdens het inloggen.</translation>
+<translation id="2887570477425111999">Details opslaan in Onevn</translation>
+<translation id="193559141530782783">Onevn slaat je persoonlijke gegevens beveiligd op, zodat je ze niet opnieuw hoeft op te geven.</translation>
+<translation id="663059986967017181">Gekopieerd naar Onevn</translation>
+<translation id="1457432835062259213">App-opstartprogramma van Onevn</translation>
+<translation id="82609232232243542">Inloggen bij Onevn</translation>
+<translation id="2924628237198507508">Je moet zijn ingelogd bij Onevn om apps te gebruiken. Hierdoor kan Onevn je apps, bladwijzers, geschiedenis, wachtwoorden en andere instellingen op verschillende apparaten synchroniseren.</translation>
+<translation id="380197516434040304">Verwijderen uit Onevn…</translation>
+<translation id="300669147395456190">Onevn-apps</translation>
+<translation id="3421950102518690868"><ph name="DOMAIN"/> vereist dat je de volgende Servicevoorwaarden leest en accepteert voordat je dit apparaat gebruikt. Deze voorwaarden zijn geen uitbreiding, aanpassing of beperking van de Voorwaarden van Onevn OS.</translation>
+<translation id="3293668930608086049">Onevn gebruikt je camera en microfoon.</translation>
+<translation id="8919461291440820124">Onevn gebruikt je microfoon.</translation>
+<translation id="3205074487970075628">Onevn gebruikt je camera.</translation>
+<translation id="8142245354207161805">Het profiel lijkt te worden gebruikt door een ander proces in Onevn (<ph name="PROCESS_ID"/>) op een andere computer (<ph name="HOST_NAME"/>). Het profiel is vergrendeld zodat het niet wordt beschadigd. Als je zeker weet dat dit profiel niet door andere processen wordt gebruikt, kun je het profiel ontgrendelen en Onevn opnieuw starten.</translation>
+<translation id="239760341987199724">Onevn instellen als je standaardbrowser</translation>
 <translation id="5344925500065984750">Als je wilt instellen welke websites <ph name="NEW_PROFILE_NAME"/> kan bekijken, kun je beperkingen en instellingen configureren door naar <ph name="BEGIN_LINK_1"/><ph name="DISPLAY_LINK"/><ph name="END_LINK_1"/> te gaan. Als je de standaardinstellingen niet wijzigt, kan <ph name="NEW_PROFILE_NAME"/> overal op internet browsen.
 
-Als je wilt voorkomen dat <ph name="NEW_PROFILE_NAME"/> toegang krijgt tot je account, moet je ervoor zorgen dat je je profiel vergrendelt wanneer je OneVN niet gebruikt. Klik hiervoor op je profielnaam in de rechterbovenhoek van de browser en selecteer 'Afsluiten en kinderslot'.
+Als je wilt voorkomen dat <ph name="NEW_PROFILE_NAME"/> toegang krijgt tot je account, moet je ervoor zorgen dat je je profiel vergrendelt wanneer je Onevn niet gebruikt. Klik hiervoor op je profielnaam in de rechterbovenhoek van de browser en selecteer 'Afsluiten en kinderslot'.
 <ph name="BEGIN_LINK_2"/>Meer informatie<ph name="END_LINK_2"/>
 
 Controleer je e-mail op <ph name="ACCOUNT_EMAIL"/> voor verdere instructies.</translation>
-<translation id="1820843143331379651">Vanaf OneVN 70 zijn profielen van gebruikers met beperkte rechten niet meer beschikbaar.</translation>
-<translation id="3066805437003400520">De browsergegevens van deze persoon worden verwijderd van dit apparaat. Als je de gegevens wilt herstellen, log je in bij OneVN als <ph name="USER_EMAIL"/>.</translation>
-<translation id="2827121003398607864">OneVN is nu nog beter</translation>
-<translation id="7192666605334070839">Het is nu gemakkelijker om OneVN met je OneVN Software-account en op gedeelde computers te gebruiken.</translation>
-<translation id="3511996232906761537">Hier vind je internet, bladwijzers en andere OneVN-instellingen.</translation>
-<translation id="7406627712452599344">Gasten kunnen OneVN gebruiken zonder iets achter te laten.</translation>
-<translation id="5659384504794665581">Als je een computer deelt, kunnen vrienden en familie afzonderlijk surfen en OneVN configureren zoals zij dat willen.</translation>
-<translation id="7130675370997202556">Klik op je naam om OneVN te openen en begin met surfen.</translation>
-<translation id="5952898964075639679">Jezelf toevoegen aan OneVN</translation>
-<translation id="3813272600615358652">Deze extensie heeft gewijzigd welke pagina wordt weergegeven wanneer je OneVN start.</translation>
-<translation id="2576129394594491151">De extensie '<ph name="EXTENSION_NAME"/>' heeft gewijzigd welke pagina wordt weergegeven wanneer je OneVN start.</translation>
-<translation id="2675662665675552980">Hiermee wordt ook gecontroleerd welke pagina wordt weergegeven wanneer je OneVN start.</translation>
-<translation id="3215652305414474626">Hiermee wordt ook gecontroleerd welke pagina wordt weergegeven wanneer je OneVN start of op de knop 'Homepage' klikt.</translation>
-<translation id="2433912322225810055">Hiermee wordt ook gecontroleerd welke pagina wordt weergegeven wanneer je OneVN start of vanuit de omnibox zoekt.</translation>
-<translation id="2871190378186459992">Ontdek fantastische apps, games, extensies en thema's voor OneVN.</translation>
-<translation id="3350544518197210895">OneVN (mDNS-In)</translation>
-<translation id="5846303060623790781">OneVN Beta (mDNS-In)</translation>
-<translation id="3599046180970731601">OneVN Nightly (mDNS-In)</translation>
-<translation id="7881806463410697784">OneVN Dev (mDNS-In)</translation>
-<translation id="1912973375560256099">Inkomende regel zodat OneVN mDNS-verkeer toestaat.</translation>
-<translation id="8207657266087451193">Als een afbeelding geen nuttige beschrijving bevat, probeert OneVN je er een te geven. Afbeeldingen worden naar OneVN Software verzonden om beschrijvingen te maken. Je kunt dit op elk gewenst moment uitschakelen in Instellingen.</translation>
-<translation id="5499063270485366718">Als een afbeelding geen nuttige beschrijving bevat, probeert OneVN je er een te geven. Afbeeldingen worden naar OneVN Software verzonden om beschrijvingen te maken.</translation>
-<translation id="7276297358157391541">OneVN kan een betere spellingcontrole leveren door wat je in de browser typt naar OneVN Software-servers te verzenden. Hierdoor kun je profiteren van dezelfde technologie voor spellingcontrole die ook voor OneVN Software Zoeken wordt gebruikt.</translation>
-<translation id="1807774211756215222">Link openen op een nieuw OneVN-&amp;tabblad</translation>
-<translation id="4624945300945265642">Link openen in een OneVN-inco&amp;gnitovenster</translation>
-<translation id="7863882214613921971">Link openen op een nieuw OneVN-&amp;tabblad</translation>
-<translation id="6554952862405000915">Link openen in een OneVN-inco&amp;gnitovenster</translation>
-<translation id="4805806622840861220">OneVN opnieuw starten</translation>
-<translation id="2560046583427795596">Er is een nieuwe update voor OneVN beschikbaar die wordt toegepast zodra je het programma opnieuw start.</translation>
+<translation id="1820843143331379651">Vanaf Onevn 70 zijn profielen van gebruikers met beperkte rechten niet meer beschikbaar.</translation>
+<translation id="3066805437003400520">De browsergegevens van deze persoon worden verwijderd van dit apparaat. Als je de gegevens wilt herstellen, log je in bij Onevn als <ph name="USER_EMAIL"/>.</translation>
+<translation id="2827121003398607864">Onevn is nu nog beter</translation>
+<translation id="7192666605334070839">Het is nu gemakkelijker om Onevn met je Onevn Software-account en op gedeelde computers te gebruiken.</translation>
+<translation id="3511996232906761537">Hier vind je internet, bladwijzers en andere Onevn-instellingen.</translation>
+<translation id="7406627712452599344">Gasten kunnen Onevn gebruiken zonder iets achter te laten.</translation>
+<translation id="5659384504794665581">Als je een computer deelt, kunnen vrienden en familie afzonderlijk surfen en Onevn configureren zoals zij dat willen.</translation>
+<translation id="7130675370997202556">Klik op je naam om Onevn te openen en begin met surfen.</translation>
+<translation id="5952898964075639679">Jezelf toevoegen aan Onevn</translation>
+<translation id="3813272600615358652">Deze extensie heeft gewijzigd welke pagina wordt weergegeven wanneer je Onevn start.</translation>
+<translation id="2576129394594491151">De extensie '<ph name="EXTENSION_NAME"/>' heeft gewijzigd welke pagina wordt weergegeven wanneer je Onevn start.</translation>
+<translation id="2675662665675552980">Hiermee wordt ook gecontroleerd welke pagina wordt weergegeven wanneer je Onevn start.</translation>
+<translation id="3215652305414474626">Hiermee wordt ook gecontroleerd welke pagina wordt weergegeven wanneer je Onevn start of op de knop 'Homepage' klikt.</translation>
+<translation id="2433912322225810055">Hiermee wordt ook gecontroleerd welke pagina wordt weergegeven wanneer je Onevn start of vanuit de omnibox zoekt.</translation>
+<translation id="2871190378186459992">Ontdek fantastische apps, games, extensies en thema's voor Onevn.</translation>
+<translation id="3350544518197210895">Onevn (mDNS-In)</translation>
+<translation id="5846303060623790781">Onevn Beta (mDNS-In)</translation>
+<translation id="3599046180970731601">Onevn Nightly (mDNS-In)</translation>
+<translation id="7881806463410697784">Onevn Dev (mDNS-In)</translation>
+<translation id="1912973375560256099">Inkomende regel zodat Onevn mDNS-verkeer toestaat.</translation>
+<translation id="8207657266087451193">Als een afbeelding geen nuttige beschrijving bevat, probeert Onevn je er een te geven. Afbeeldingen worden naar Onevn Software verzonden om beschrijvingen te maken. Je kunt dit op elk gewenst moment uitschakelen in Instellingen.</translation>
+<translation id="5499063270485366718">Als een afbeelding geen nuttige beschrijving bevat, probeert Onevn je er een te geven. Afbeeldingen worden naar Onevn Software verzonden om beschrijvingen te maken.</translation>
+<translation id="7276297358157391541">Onevn kan een betere spellingcontrole leveren door wat je in de browser typt naar Onevn Software-servers te verzenden. Hierdoor kun je profiteren van dezelfde technologie voor spellingcontrole die ook voor Onevn Software Zoeken wordt gebruikt.</translation>
+<translation id="1807774211756215222">Link openen op een nieuw Onevn-&amp;tabblad</translation>
+<translation id="4624945300945265642">Link openen in een Onevn-inco&amp;gnitovenster</translation>
+<translation id="7863882214613921971">Link openen op een nieuw Onevn-&amp;tabblad</translation>
+<translation id="6554952862405000915">Link openen in een Onevn-inco&amp;gnitovenster</translation>
+<translation id="4805806622840861220">Onevn opnieuw starten</translation>
+<translation id="2560046583427795596">Er is een nieuwe update voor Onevn beschikbaar die wordt toegepast zodra je het programma opnieuw start.</translation>
 <translation id="2799223571221894425">Opnieuw starten</translation>
-<translation id="2522086024276534909">OneVN OS opnieuw opstarten</translation>
-<translation id="8183252473547465084">OneVN OS moet opnieuw worden gestart om de update toe te passen.</translation>
+<translation id="2522086024276534909">Onevn OS opnieuw opstarten</translation>
+<translation id="8183252473547465084">Onevn OS moet opnieuw worden gestart om de update toe te passen.</translation>
 <translation id="5895138241574237353">Opnieuw starten</translation>
-<translation id="5875673934455379806">OneVN opnieuw installeren</translation>
-<translation id="2097604701283463988">OneVN is verouderd</translation>
-<translation id="5173820533850252773">OneVN is verouderd</translation>
-<translation id="6389268239133412586">Kan OneVN niet updaten</translation>
-<translation id="7963515534397191222">OneVN kan niet worden geüpdatet naar de nieuwste versie, dus je loopt nieuwe functies en beveiligingsoplossingen mis.</translation>
-<translation id="1705567146636171298">OneVN updaten</translation>
-<translation id="3598551856834560515">OneVN updaten om de synchronisatie te starten</translation>
+<translation id="5875673934455379806">Onevn opnieuw installeren</translation>
+<translation id="2097604701283463988">Onevn is verouderd</translation>
+<translation id="5173820533850252773">Onevn is verouderd</translation>
+<translation id="6389268239133412586">Kan Onevn niet updaten</translation>
+<translation id="7963515534397191222">Onevn kan niet worden geüpdatet naar de nieuwste versie, dus je loopt nieuwe functies en beveiligingsoplossingen mis.</translation>
+<translation id="1705567146636171298">Onevn updaten</translation>
+<translation id="3598551856834560515">Onevn updaten om de synchronisatie te starten</translation>
 <translation id="4050175100176540509">Er zijn belangrijke beveiligingsverbeteringen en nieuwe functies beschikbaar in de nieuwste versie.</translation>
-<translation id="2513524988380267210">{SECONDS,plural, =1{OneVN wordt over één seconde opnieuw gestart}other{OneVN wordt over # seconden opnieuw gestart}}</translation>
-<translation id="5509303873219371662">Je moet OneVN nu opnieuw opstarten</translation>
-<translation id="8668413672647811944">Er is zojuist een speciale beveiligingsupdate voor OneVN toegepast. Start nu opnieuw op. Je tabbladen worden hersteld.</translation>
-<translation id="763369711159699222">Help ons OneVN beter te maken</translation>
-<translation id="1156940037717341650">Je kunt helpen OneVN veiliger en gebruiksvriendelijker te maken door automatisch informatie over mogelijke beveiligingsincidenten aan OneVN Software te melden.</translation>
-<translation id="6791166902140255175">OneVN-tabblad</translation>
-<translation id="2555639463117073782">OneVN opnieuw opstarten om <ph name="PLUGIN_NAME"/> in te schakelen</translation>
-<translation id="8899693649891674038">Installeer OneVN op je telefoon. We sturen een sms naar je telefoon.</translation>
-<translation id="1570795130102031380">Installeer OneVN op je telefoon. We sturen een sms naar je telefoon: <ph name="PHONE_NUMBER"/></translation>
-<translation id="1609678321160597289">Installeer OneVN op je telefoon. We sturen een sms naar het hersteltelefoonnummer voor je account.</translation>
-<translation id="2965084188004448871">Installeer OneVN op je telefoon. We sturen een sms naar het hersteltelefoonnummer voor je account: <ph name="PHONE_NUMBER"/></translation>
-<translation id="8358191771897395012">Download OneVN naar je iPhone</translation>
-<translation id="2034072705932785495">OneVN heeft toegangsrechten voor je camera nodig voor deze site</translation>
-<translation id="3335606533094650083">OneVN heeft toegangsrechten voor je microfoon nodig voor deze site</translation>
-<translation id="4831743161813926460">OneVN heeft toegangsrechten voor je camera en microfoon nodig voor deze site</translation>
-<translation id="696826782632239602">OneVN heeft toegang tot je locatie nodig om je locatie met deze site te delen</translation>
-<translation id="7798069806040634998">OneVN heeft toegang tot de opslag nodig om bestanden te downloaden</translation>
-<translation id="7685904775439037072">Zodra OneVN toegang heeft, kunnen websites je om toegang vragen.</translation>
-<translation id="5805364706385912897">Omdat deze pagina te veel geheugen gebruikt, heeft OneVN de pagina onderbroken.</translation>
-<translation id="5138664332909611586">Omdat deze pagina te veel geheugen gebruikt, heeft OneVN wat content verwijderd.</translation>
-<translation id="1744365871163268756">Wacht terwijl OneVN de nieuwste systeemupdates installeert.</translation>
-<translation id="5693614905241031118">OneVN wordt automatisch bijgewerkt, zodat je altijd beschikt over de nieuwste versie.</translation>
-<translation id="6141293433381251973">OneVN wordt automatisch bijgewerkt, zodat je altijd beschikt over de nieuwste versie. Wanneer deze download is voltooid, wordt OneVN opnieuw gestart en kun je doorgaan.</translation>
-<translation id="7808415789955822133">Voorwaarden van OneVN OS</translation>
-<translation id="7207456302801184289">Welkom bij OneVN</translation>
-<translation id="5688839044908745927">OneVN is bijna klaar.</translation>
-<translation id="7758342895140862711">Neem OneVN overal mee naartoe</translation>
-<translation id="3610173904388112975">Browsen met innovaties van OneVN Software</translation>
+<translation id="2513524988380267210">{SECONDS,plural, =1{Onevn wordt over één seconde opnieuw gestart}other{Onevn wordt over # seconden opnieuw gestart}}</translation>
+<translation id="5509303873219371662">Je moet Onevn nu opnieuw opstarten</translation>
+<translation id="8668413672647811944">Er is zojuist een speciale beveiligingsupdate voor Onevn toegepast. Start nu opnieuw op. Je tabbladen worden hersteld.</translation>
+<translation id="763369711159699222">Help ons Onevn beter te maken</translation>
+<translation id="1156940037717341650">Je kunt helpen Onevn veiliger en gebruiksvriendelijker te maken door automatisch informatie over mogelijke beveiligingsincidenten aan Onevn Software te melden.</translation>
+<translation id="6791166902140255175">Onevn-tabblad</translation>
+<translation id="2555639463117073782">Onevn opnieuw opstarten om <ph name="PLUGIN_NAME"/> in te schakelen</translation>
+<translation id="8899693649891674038">Installeer Onevn op je telefoon. We sturen een sms naar je telefoon.</translation>
+<translation id="1570795130102031380">Installeer Onevn op je telefoon. We sturen een sms naar je telefoon: <ph name="PHONE_NUMBER"/></translation>
+<translation id="1609678321160597289">Installeer Onevn op je telefoon. We sturen een sms naar het hersteltelefoonnummer voor je account.</translation>
+<translation id="2965084188004448871">Installeer Onevn op je telefoon. We sturen een sms naar het hersteltelefoonnummer voor je account: <ph name="PHONE_NUMBER"/></translation>
+<translation id="8358191771897395012">Download Onevn naar je iPhone</translation>
+<translation id="2034072705932785495">Onevn heeft toegangsrechten voor je camera nodig voor deze site</translation>
+<translation id="3335606533094650083">Onevn heeft toegangsrechten voor je microfoon nodig voor deze site</translation>
+<translation id="4831743161813926460">Onevn heeft toegangsrechten voor je camera en microfoon nodig voor deze site</translation>
+<translation id="696826782632239602">Onevn heeft toegang tot je locatie nodig om je locatie met deze site te delen</translation>
+<translation id="7798069806040634998">Onevn heeft toegang tot de opslag nodig om bestanden te downloaden</translation>
+<translation id="7685904775439037072">Zodra Onevn toegang heeft, kunnen websites je om toegang vragen.</translation>
+<translation id="5805364706385912897">Omdat deze pagina te veel geheugen gebruikt, heeft Onevn de pagina onderbroken.</translation>
+<translation id="5138664332909611586">Omdat deze pagina te veel geheugen gebruikt, heeft Onevn wat content verwijderd.</translation>
+<translation id="1744365871163268756">Wacht terwijl Onevn de nieuwste systeemupdates installeert.</translation>
+<translation id="5693614905241031118">Onevn wordt automatisch bijgewerkt, zodat je altijd beschikt over de nieuwste versie.</translation>
+<translation id="6141293433381251973">Onevn wordt automatisch bijgewerkt, zodat je altijd beschikt over de nieuwste versie. Wanneer deze download is voltooid, wordt Onevn opnieuw gestart en kun je doorgaan.</translation>
+<translation id="7808415789955822133">Voorwaarden van Onevn OS</translation>
+<translation id="7207456302801184289">Welkom bij Onevn</translation>
+<translation id="5688839044908745927">Onevn is bijna klaar.</translation>
+<translation id="7758342895140862711">Neem Onevn overal mee naartoe</translation>
+<translation id="3610173904388112975">Browsen met innovaties van Onevn Software</translation>
 <translation id="3479552764303398839">Niet nu</translation>
-<translation id="8013374903356993822">OneVN sneller openen</translation>
-<translation id="7625138338483121345">OneVN instellen als je standaardbrowser</translation>
-<translation id="5927044791090834489">OneVN vastzetten op je taakbalk</translation>
-<translation id="8933981935877469796">Selecteer <ph name="SMALL_PRODUCT_LOGO"/> <ph name="BEGIN_BOLD"/>OneVN<ph name="END_BOLD"/></translation>
+<translation id="8013374903356993822">Onevn sneller openen</translation>
+<translation id="7625138338483121345">Onevn instellen als je standaardbrowser</translation>
+<translation id="5927044791090834489">Onevn vastzetten op je taakbalk</translation>
+<translation id="8933981935877469796">Selecteer <ph name="SMALL_PRODUCT_LOGO"/> <ph name="BEGIN_BOLD"/>Onevn<ph name="END_BOLD"/></translation>
 <translation id="1585657529869845941">Klik op <ph name="BEGIN_BOLD"/>Toch overschakelen<ph name="END_BOLD"/> als die knop wordt weergegeven</translation>
-<translation id="3507835409099344374">Ga naar instellingen voor OneVN-meldingen</translation>
-<translation id="9118654140804842635">{0,plural, =0{Er is een OneVN-update beschikbaar}=1{Er is een OneVN-update beschikbaar}other{Er is al # dagen een OneVN-update beschikbaar}}</translation>
-<translation id="720532315408041257">Je beheerder vraagt je OneVN opnieuw te starten om deze update toe te passen</translation>
-<translation id="6639482638305253477">{0,plural, =1{Start OneVN binnen een dag opnieuw}other{Start OneVN binnen # dagen opnieuw}}</translation>
-<translation id="656910845148850955">{0,plural, =1{OneVN wordt over een uur opnieuw gestart}other{OneVN wordt over # uur opnieuw gestart}}</translation>
-<translation id="2927768292099217319">{0,plural, =1{OneVN wordt over één minuut opnieuw gestart}other{OneVN wordt over # minuten opnieuw gestart}}</translation>
-<translation id="2124855793980950516">{0,plural, =0{OneVN wordt nu opnieuw gestart}=1{OneVN wordt over één seconde opnieuw gestart}other{OneVN wordt over # seconden opnieuw gestart}}</translation>
-<translation id="7595187113648413294">Je beheerder vereist dat je OneVN opnieuw start om een update toe te passen</translation>
-<translation id="56801943271475640">{0,plural, =0{Er is een OneVN OS-update beschikbaar}=1{Er is een OneVN OS-update beschikbaar}other{Er is al # dagen een OneVN OS-update beschikbaar}}</translation>
-<translation id="5715362474140341294">Je beheerder vraagt je OneVN OS opnieuw op te starten om deze update toe te passen</translation>
-<translation id="8094834892392729950">{0,plural, =1{Start OneVN OS binnen een dag opnieuw op}other{Start OneVN OS binnen # dagen opnieuw op}}</translation>
-<translation id="1265795866000813420">{0,plural, =1{OneVN OS wordt over een uur opnieuw opgestart}other{OneVN OS wordt over # uur opnieuw opgestart}}</translation>
-<translation id="2031312345409605311">{0,plural, =1{OneVN OS wordt over één minuut opnieuw opgestart}other{OneVN OS wordt over # minuten opnieuw opgestart}}</translation>
-<translation id="8624602604153953835">{0,plural, =0{OneVN OS wordt nu opnieuw opgestart}=1{OneVN OS wordt over één seconde opnieuw opgestart}other{OneVN OS wordt over # seconden opnieuw opgestart}}</translation>
-<translation id="8559452515617838628">Je beheerder vereist dat je OneVN OS opnieuw opstart om een update toe te passen</translation>
-<translation id="3052349005266761501">OneVN starten…</translation>
-<translation id="1197672524850678392">Kan OneVN niet starten. Probeer het opnieuw.</translation>
+<translation id="3507835409099344374">Ga naar instellingen voor Onevn-meldingen</translation>
+<translation id="9118654140804842635">{0,plural, =0{Er is een Onevn-update beschikbaar}=1{Er is een Onevn-update beschikbaar}other{Er is al # dagen een Onevn-update beschikbaar}}</translation>
+<translation id="720532315408041257">Je beheerder vraagt je Onevn opnieuw te starten om deze update toe te passen</translation>
+<translation id="6639482638305253477">{0,plural, =1{Start Onevn binnen een dag opnieuw}other{Start Onevn binnen # dagen opnieuw}}</translation>
+<translation id="656910845148850955">{0,plural, =1{Onevn wordt over een uur opnieuw gestart}other{Onevn wordt over # uur opnieuw gestart}}</translation>
+<translation id="2927768292099217319">{0,plural, =1{Onevn wordt over één minuut opnieuw gestart}other{Onevn wordt over # minuten opnieuw gestart}}</translation>
+<translation id="2124855793980950516">{0,plural, =0{Onevn wordt nu opnieuw gestart}=1{Onevn wordt over één seconde opnieuw gestart}other{Onevn wordt over # seconden opnieuw gestart}}</translation>
+<translation id="7595187113648413294">Je beheerder vereist dat je Onevn opnieuw start om een update toe te passen</translation>
+<translation id="56801943271475640">{0,plural, =0{Er is een Onevn OS-update beschikbaar}=1{Er is een Onevn OS-update beschikbaar}other{Er is al # dagen een Onevn OS-update beschikbaar}}</translation>
+<translation id="5715362474140341294">Je beheerder vraagt je Onevn OS opnieuw op te starten om deze update toe te passen</translation>
+<translation id="8094834892392729950">{0,plural, =1{Start Onevn OS binnen een dag opnieuw op}other{Start Onevn OS binnen # dagen opnieuw op}}</translation>
+<translation id="1265795866000813420">{0,plural, =1{Onevn OS wordt over een uur opnieuw opgestart}other{Onevn OS wordt over # uur opnieuw opgestart}}</translation>
+<translation id="2031312345409605311">{0,plural, =1{Onevn OS wordt over één minuut opnieuw opgestart}other{Onevn OS wordt over # minuten opnieuw opgestart}}</translation>
+<translation id="8624602604153953835">{0,plural, =0{Onevn OS wordt nu opnieuw opgestart}=1{Onevn OS wordt over één seconde opnieuw opgestart}other{Onevn OS wordt over # seconden opnieuw opgestart}}</translation>
+<translation id="8559452515617838628">Je beheerder vereist dat je Onevn OS opnieuw opstart om een update toe te passen</translation>
+<translation id="3052349005266761501">Onevn starten…</translation>
+<translation id="1197672524850678392">Kan Onevn niet starten. Probeer het opnieuw.</translation>
 <translation id="6040143037577758943">Sluiten</translation>
-<translation id="8541922081612557424">Over OneVN</translation>
-<translation id="3262506503470845422">Hulp bij OneVN</translation>
-<translation id="1864557848095568223">OneVN updaten</translation>
-<translation id="1786715389543715322">OneVN updaten (<ph name="PROGRESS_PERCENT"/>)</translation>
-<translation id="8208853227947884571">OneVN is up-to-date</translation>
-<translation id="6686872257969654608">Over OneVN OS</translation>
-<translation id="2280363356796735201">Hulp bij OneVN OS</translation>
-<translation id="5253815230176279256">OneVN Software Pay (gekopieerd naar OneVN)</translation>
-<translation id="5468853758063275923">OneVN is je standaardbrowser</translation>
-<translation id="1775322105159056176">OneVN kan de standaardbrowser niet bepalen of instellen</translation>
-<translation id="6915252145142862992">Dit is een tweede installatie van OneVN en kan niet als standaardbrowser worden ingesteld.</translation>
-<translation id="7977435741986383568">OneVN kan webservices gebruiken om de browsefunctionaliteit te verbeteren. Je kunt deze services eventueel uitschakelen. <ph name="BEGIN_LINK"/>Meer informatie<ph name="END_LINK"/></translation>
-<translation id="2312399718665761438">OneVN verzendt de tekst die je in tekstvelden typt naar OneVN Software om spelfouten te corrigeren</translation>
-<translation id="8586264863973514035">Als je de wijzigingen wilt toepassen, start je OneVN opnieuw</translation>
-<translation id="7021823858304886493">Inloggen bij OneVN toestaan</translation>
-<translation id="1649714546770135458">Als je dit uitschakelt, kun je inloggen bij OneVN Software-sites zoals Gmail zonder in te loggen bij OneVN</translation>
-<translation id="9220324636239049437">Hiermee wordt 1 item verwijderd van dit apparaat. Als je je gegevens later wilt terughalen, log je in bij OneVN als <ph name="USER_EMAIL"/>.</translation>
-<translation id="5853262807109651878">Hiermee worden <ph name="ITEMS_COUNT"/> items verwijderd van dit apparaat. Als je je gegevens later wilt terughalen, log je in bij OneVN als <ph name="USER_EMAIL"/>.</translation>
-<translation id="4784414698887946907">Hiermee worden je browsergegevens verwijderd van dit apparaat. Als je je gegevens later wilt terughalen, log je in bij OneVN als <ph name="USER_EMAIL"/>.</translation>
-<translation id="4518479204315969707">Naam en afbeelding voor OneVN</translation>
-<translation id="8372880274820509128">Je gegevens worden voor extra beveiliging door OneVN gecodeerd.</translation>
-<translation id="7445061995866044926">Uitloggen bij OneVN?</translation>
-<translation id="7453070689008684791">OneVN gebruikt de toegang tot je Drive om suggesties te doen in de adresbalk</translation>
-<translation id="9221712274065451529">Deze taal wordt gebruikt om de OneVN OS-UI weer te geven</translation>
-<translation id="3518788198614984730">OneVN OS weergeven in deze taal</translation>
-<translation id="5757460455745382269">Deze taal wordt gebruikt om de OneVN-UI weer te geven</translation>
-<translation id="2335583906071111058">OneVN weergeven in deze taal</translation>
-<translation id="8926637909431618259">Achtergrondapps ingeschakeld houden als OneVN is gesloten</translation>
-<translation id="6056473803837713617">Help OneVN beter te maken door de <ph name="BEGIN_LINK"/>huidige instellingen<ph name="END_LINK"/> te melden</translation>
+<translation id="8541922081612557424">Over Onevn</translation>
+<translation id="3262506503470845422">Hulp bij Onevn</translation>
+<translation id="1864557848095568223">Onevn updaten</translation>
+<translation id="1786715389543715322">Onevn updaten (<ph name="PROGRESS_PERCENT"/>)</translation>
+<translation id="8208853227947884571">Onevn is up-to-date</translation>
+<translation id="6686872257969654608">Over Onevn OS</translation>
+<translation id="2280363356796735201">Hulp bij Onevn OS</translation>
+<translation id="5253815230176279256">Onevn Software Pay (gekopieerd naar Onevn)</translation>
+<translation id="5468853758063275923">Onevn is je standaardbrowser</translation>
+<translation id="1775322105159056176">Onevn kan de standaardbrowser niet bepalen of instellen</translation>
+<translation id="6915252145142862992">Dit is een tweede installatie van Onevn en kan niet als standaardbrowser worden ingesteld.</translation>
+<translation id="7977435741986383568">Onevn kan webservices gebruiken om de browsefunctionaliteit te verbeteren. Je kunt deze services eventueel uitschakelen. <ph name="BEGIN_LINK"/>Meer informatie<ph name="END_LINK"/></translation>
+<translation id="2312399718665761438">Onevn verzendt de tekst die je in tekstvelden typt naar Onevn Software om spelfouten te corrigeren</translation>
+<translation id="8586264863973514035">Als je de wijzigingen wilt toepassen, start je Onevn opnieuw</translation>
+<translation id="7021823858304886493">Inloggen bij Onevn toestaan</translation>
+<translation id="1649714546770135458">Als je dit uitschakelt, kun je inloggen bij Onevn Software-sites zoals Gmail zonder in te loggen bij Onevn</translation>
+<translation id="9220324636239049437">Hiermee wordt 1 item verwijderd van dit apparaat. Als je je gegevens later wilt terughalen, log je in bij Onevn als <ph name="USER_EMAIL"/>.</translation>
+<translation id="5853262807109651878">Hiermee worden <ph name="ITEMS_COUNT"/> items verwijderd van dit apparaat. Als je je gegevens later wilt terughalen, log je in bij Onevn als <ph name="USER_EMAIL"/>.</translation>
+<translation id="4784414698887946907">Hiermee worden je browsergegevens verwijderd van dit apparaat. Als je je gegevens later wilt terughalen, log je in bij Onevn als <ph name="USER_EMAIL"/>.</translation>
+<translation id="4518479204315969707">Naam en afbeelding voor Onevn</translation>
+<translation id="8372880274820509128">Je gegevens worden voor extra beveiliging door Onevn gecodeerd.</translation>
+<translation id="7445061995866044926">Uitloggen bij Onevn?</translation>
+<translation id="7453070689008684791">Onevn gebruikt de toegang tot je Drive om suggesties te doen in de adresbalk</translation>
+<translation id="9221712274065451529">Deze taal wordt gebruikt om de Onevn OS-UI weer te geven</translation>
+<translation id="3518788198614984730">Onevn OS weergeven in deze taal</translation>
+<translation id="5757460455745382269">Deze taal wordt gebruikt om de Onevn-UI weer te geven</translation>
+<translation id="2335583906071111058">Onevn weergeven in deze taal</translation>
+<translation id="8926637909431618259">Achtergrondapps ingeschakeld houden als Onevn is gesloten</translation>
+<translation id="6056473803837713617">Help Onevn beter te maken door de <ph name="BEGIN_LINK"/>huidige instellingen<ph name="END_LINK"/> te melden</translation>
 </translationbundle>

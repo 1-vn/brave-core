@@ -9,9 +9,9 @@
 #include "onevn/browser/importer/browser_profile_lock.h"
 #include "chrome/browser/importer/external_process_importer_host.h"
 
-class OneVNExternalProcessImporterHost : public ExternalProcessImporterHost {
+class OnevnExternalProcessImporterHost : public ExternalProcessImporterHost {
  public:
-  OneVNExternalProcessImporterHost();
+  OnevnExternalProcessImporterHost();
 
   void StartImportSettings(
       const importer::SourceProfile& source_profile,
@@ -20,7 +20,7 @@ class OneVNExternalProcessImporterHost : public ExternalProcessImporterHost {
       ProfileWriter* writer) override;
 
  private:
-  ~OneVNExternalProcessImporterHost() override;
+  ~OnevnExternalProcessImporterHost() override;
 
   // Launches the utility process that starts the import task, unless bookmark
   // or template model are not yet loaded. If load is not detected, this method
@@ -28,11 +28,11 @@ class OneVNExternalProcessImporterHost : public ExternalProcessImporterHost {
   // complete.
   void LaunchImportIfReady() override;
 
-  // Make sure that Chrome or OneVN isn't running, if import browser is Chrome
-  // or OneVN. Show to the user a dialog that notifies that is necessary to
-  // close Chrome or OneVN prior to continuing the import. Returns false iff
+  // Make sure that Chrome or Onevn isn't running, if import browser is Chrome
+  // or Onevn. Show to the user a dialog that notifies that is necessary to
+  // close Chrome or Onevn prior to continuing the import. Returns false iff
   // import should be aborted.
-  bool CheckForChromeOrOneVNLock();
+  bool CheckForChromeOrOnevnLock();
 
   // ShowWarningDialog() asks user to close the application that is owning the
   // lock. They can retry or skip the importing process.
@@ -44,13 +44,13 @@ class OneVNExternalProcessImporterHost : public ExternalProcessImporterHost {
   // the "Continue" button.
   void OnImportLockDialogEnd(bool is_continue);
 
-  // Chrome or OneVN profile lock.
+  // Chrome or Onevn profile lock.
   std::unique_ptr<BrowserProfileLock> browser_lock_;
 
   // Vends weak pointers for the importer to call us back.
-  base::WeakPtrFactory<OneVNExternalProcessImporterHost> weak_ptr_factory_;
+  base::WeakPtrFactory<OnevnExternalProcessImporterHost> weak_ptr_factory_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNExternalProcessImporterHost);
+  DISALLOW_COPY_AND_ASSIGN(OnevnExternalProcessImporterHost);
 };
 
 #endif  // ONEVN_BROWSER_IMPORTER_ONEVN_EXTERNAL_PROCESS_IMPORTER_HOST_H_

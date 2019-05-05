@@ -6,7 +6,7 @@ index 571da26670dba958e1832a7a6eec425bc22bc378..f0cc7c00e198a21790270ab9153646b9
  }
  
  void WebRtcEventLogUploaderImpl::StartUpload(const std::string& upload_data) {
-+  return; // feature disabled in OneVN
++  return; // feature disabled in Onevn
    DCHECK(io_task_runner_->RunsTasksInCurrentSequence());
  
    auto resource_request = std::make_unique<network::ResourceRequest>();

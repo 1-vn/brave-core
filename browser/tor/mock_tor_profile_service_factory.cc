@@ -34,7 +34,7 @@ MockTorProfileServiceFactory::MockTorProfileServiceFactory()
 
 //static
 void MockTorProfileServiceFactory::SetTorNavigationUIData(
-    Profile* profile, OneVNNavigationUIData* data) {
+    Profile* profile, OnevnNavigationUIData* data) {
   if (!profile->IsTorProfile())
     return;
   data->SetTorProfileService(GetForProfile(profile));

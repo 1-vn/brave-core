@@ -8,7 +8,7 @@
 #include <string>
 #include <vector>
 
-struct OneVNPublisher {
+struct OnevnPublisher {
   std::string key;
   bool verified;
   std::string name;
@@ -16,9 +16,9 @@ struct OneVNPublisher {
   std::string provider;
   int pin_percentage;
 
-  OneVNPublisher();
-  OneVNPublisher(const OneVNPublisher& other);
-  ~OneVNPublisher();
+  OnevnPublisher();
+  OnevnPublisher(const OnevnPublisher& other);
+  ~OnevnPublisher();
 };
 
 // NOTE: if we need to read more data from session-store-1,
@@ -37,14 +37,14 @@ struct SessionStoreSettings {
   bool use_alternate_private_search_engine_tor;
 };
 
-struct OneVNLedger {
-  OneVNLedger();
-  OneVNLedger(const OneVNLedger& other);
-  ~OneVNLedger();
+struct OnevnLedger {
+  OnevnLedger();
+  OnevnLedger(const OnevnLedger& other);
+  ~OnevnLedger();
 
   std::string passphrase;
   std::vector<std::string> excluded_publishers;
-  std::vector<OneVNPublisher> pinned_publishers;
+  std::vector<OnevnPublisher> pinned_publishers;
   SessionStoreSettings settings;
 };
 

@@ -1,4 +1,4 @@
-// Copyright (c) 2019 The OneVN Authors. All rights reserved.
+// Copyright (c) 2019 The Onevn Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // you can obtain one at http://mozilla.org/MPL/2.0/.
@@ -35,11 +35,11 @@
 
 using content::BrowserThread;
 
-OneVNProfileManager::OneVNProfileManager(const base::FilePath& user_data_dir)
+OnevnProfileManager::OnevnProfileManager(const base::FilePath& user_data_dir)
   : ProfileManager(user_data_dir) {}
 
 // static
-base::FilePath OneVNProfileManager::GetTorProfilePath() {
+base::FilePath OnevnProfileManager::GetTorProfilePath() {
   DCHECK_CURRENTLY_ON(BrowserThread::UI);
 
   ProfileManager* profile_manager = g_browser_process->profile_manager();
@@ -49,7 +49,7 @@ base::FilePath OneVNProfileManager::GetTorProfilePath() {
 }
 
 // static
-void OneVNProfileManager::InitTorProfileUserPrefs(Profile* profile) {
+void OnevnProfileManager::InitTorProfileUserPrefs(Profile* profile) {
   PrefService* pref_service = profile->GetPrefs();
   pref_service->SetInteger(prefs::kProfileAvatarIndex, 0);
   pref_service->SetBoolean(prefs::kProfileUsingDefaultName, false);
@@ -61,7 +61,7 @@ void OneVNProfileManager::InitTorProfileUserPrefs(Profile* profile) {
                           content::kWebRTCIPHandlingDisableNonProxiedUdp);
 }
 
-void OneVNProfileManager::InitProfileUserPrefs(Profile* profile) {
+void OnevnProfileManager::InitProfileUserPrefs(Profile* profile) {
   if (profile->GetPath() == GetTorProfilePath()) {
     InitTorProfileUserPrefs(profile);
   } else {
@@ -69,7 +69,7 @@ void OneVNProfileManager::InitProfileUserPrefs(Profile* profile) {
   }
 }
 
-std::string OneVNProfileManager::GetLastUsedProfileName() {
+std::string OnevnProfileManager::GetLastUsedProfileName() {
   PrefService* local_state = g_browser_process->local_state();
   DCHECK(local_state);
   const std::string last_used_profile_name =
@@ -80,7 +80,7 @@ std::string OneVNProfileManager::GetLastUsedProfileName() {
   return ProfileManager::GetLastUsedProfileName();
 }
 
-Profile* OneVNProfileManager::CreateProfileHelper(const base::FilePath& path) {
+Profile* OnevnProfileManager::CreateProfileHelper(const base::FilePath& path) {
   TRACE_EVENT0("browser", "ProfileManager::CreateProfileHelper");
   SCOPED_UMA_HISTOGRAM_TIMER("Profile.CreateProfileHelperTime");
   Profile* profile = ProfileManager::CreateProfileHelper(path);
@@ -91,7 +91,7 @@ Profile* OneVNProfileManager::CreateProfileHelper(const base::FilePath& path) {
 }
 
 Profile*
-OneVNProfileManager::CreateProfileAsyncHelper(const base::FilePath& path,
+OnevnProfileManager::CreateProfileAsyncHelper(const base::FilePath& path,
                                               Delegate* delegate) {
   Profile* profile = ProfileManager::CreateProfileAsyncHelper(path, delegate);
   if (path == GetTorProfilePath()) {
@@ -100,19 +100,19 @@ OneVNProfileManager::CreateProfileAsyncHelper(const base::FilePath& path,
   return profile;
 }
 
-void OneVNProfileManager::DoFinalInitForServices(Profile* profile,
+void OnevnProfileManager::DoFinalInitForServices(Profile* profile,
                                                  bool go_off_the_record) {
   ProfileManager::DoFinalInitForServices(profile, go_off_the_record);
-  // OneVNSyncService need to be created when profile initialized, otherwise
+  // OnevnSyncService need to be created when profile initialized, otherwise
   // it will only be constructed only when we open chrome:/sync/
-  onevn_sync::OneVNSyncServiceFactory::GetForProfile(profile);
+  onevn_sync::OnevnSyncServiceFactory::GetForProfile(profile);
   onevn_ads::AdsServiceFactory::GetForProfile(profile);
   onevn_rewards::RewardsServiceFactory::GetForProfile(profile);
   content::URLDataSource::Add(profile,
-      std::make_unique<onevn_content::OneVNSharedResourcesDataSource>());
+      std::make_unique<onevn_content::OnevnSharedResourcesDataSource>());
 }
 
-void OneVNProfileManager::LaunchTorProcess(Profile* profile) {
+void OnevnProfileManager::LaunchTorProcess(Profile* profile) {
   tor::TorProfileService* tor_profile_service =
     TorProfileServiceFactory::GetForProfile(profile);
   if (tor_profile_service->GetTorPid() < 0) {
@@ -128,7 +128,7 @@ void OneVNProfileManager::LaunchTorProcess(Profile* profile) {
 // This overridden method doesn't clear |kDefaultSearchProviderDataPrefName|.
 // W/o this, prefs set by TorWindowSearchEngineProviderService is cleared
 // during the initialization.
-void OneVNProfileManager::SetNonPersonalProfilePrefs(Profile* profile) {
+void OnevnProfileManager::SetNonPersonalProfilePrefs(Profile* profile) {
   PrefService* prefs = profile->GetPrefs();
   prefs->SetBoolean(prefs::kSigninAllowed, false);
   prefs->SetBoolean(bookmarks::prefs::kEditBookmarksEnabled, false);

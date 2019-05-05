@@ -20,7 +20,7 @@ class NavigatorGetBatteryDisabledTest : public InProcessBrowserTest {
 
       content_client_.reset(new ChromeContentClient);
       content::SetContentClient(content_client_.get());
-      browser_content_client_.reset(new OneVNContentBrowserClient());
+      browser_content_client_.reset(new OnevnContentBrowserClient());
       content::SetBrowserClientForTesting(browser_content_client_.get());
       content::SetupCrossSiteRedirector(embedded_test_server());
 
@@ -39,7 +39,7 @@ class NavigatorGetBatteryDisabledTest : public InProcessBrowserTest {
 
   private:
     std::unique_ptr<ChromeContentClient> content_client_;
-    std::unique_ptr<OneVNContentBrowserClient> browser_content_client_;
+    std::unique_ptr<OnevnContentBrowserClient> browser_content_client_;
     base::ScopedTempDir temp_user_data_dir_;
 };
 

@@ -7,7 +7,7 @@ index 0a6163dbd3d6f0ea1af4e76f071f84252e8f4c13..a4546e7880de67a2b6e50c26d4ccbb92
    const DWORD kBufferSize = 2;
    StackString<kBufferSize> value;
 +#if defined(ONEVN_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD)
-+  DWORD length = ::GetEnvironmentVariableW(L"OneVNSoftwareUpdateIsMachine",
++  DWORD length = ::GetEnvironmentVariableW(L"OnevnSoftwareUpdateIsMachine",
 +#else
    DWORD length = ::GetEnvironmentVariableW(L"GoogleUpdateIsMachine",
 +#endif

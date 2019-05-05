@@ -1,4 +1,4 @@
-/* Copyright 2018 The OneVN Authors. All rights reserved.
+/* Copyright 2018 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -21,11 +21,11 @@
 #include "components/bookmarks/browser/bookmark_node.h"
 #include "components/bookmarks/browser/bookmark_node_data.h"
 
-FORWARD_DECLARE_TEST(OneVNBookmarkChangeProcessorTest, IgnoreRapidCreateDelete);
-FORWARD_DECLARE_TEST(OneVNBookmarkChangeProcessorTest,
+FORWARD_DECLARE_TEST(OnevnBookmarkChangeProcessorTest, IgnoreRapidCreateDelete);
+FORWARD_DECLARE_TEST(OnevnBookmarkChangeProcessorTest,
     MigrateOrdersForPermanentNodes);
 
-class OneVNBookmarkChangeProcessorTest;
+class OnevnBookmarkChangeProcessorTest;
 
 namespace onevn_sync {
 
@@ -34,7 +34,7 @@ class BookmarkChangeProcessor : public ChangeProcessor,
  public:
   static BookmarkChangeProcessor* Create(
       Profile* profile,
-      OneVNSyncClient* sync_client,
+      OnevnSyncClient* sync_client,
       prefs::Prefs* sync_prefs);
   ~BookmarkChangeProcessor() override;
 
@@ -52,14 +52,14 @@ class BookmarkChangeProcessor : public ChangeProcessor,
   void ApplyOrder(const std::string& object_id, const std::string& order);
 
  private:
-  friend class ::OneVNBookmarkChangeProcessorTest;
-  FRIEND_TEST_ALL_PREFIXES(::OneVNBookmarkChangeProcessorTest,
+  friend class ::OnevnBookmarkChangeProcessorTest;
+  FRIEND_TEST_ALL_PREFIXES(::OnevnBookmarkChangeProcessorTest,
                                                        IgnoreRapidCreateDelete);
-  FRIEND_TEST_ALL_PREFIXES(::OneVNBookmarkChangeProcessorTest,
+  FRIEND_TEST_ALL_PREFIXES(::OnevnBookmarkChangeProcessorTest,
                                                 MigrateOrdersForPermanentNodes);
 
   BookmarkChangeProcessor(Profile* profile,
-                          OneVNSyncClient* sync_client,
+                          OnevnSyncClient* sync_client,
                           prefs::Prefs* sync_prefs);
 
   // bookmarks::BookmarkModelObserver:
@@ -120,7 +120,7 @@ class BookmarkChangeProcessor : public ChangeProcessor,
   int GetPermanentNodeIndex(const bookmarks::BookmarkNode* node) const;
   static int FindMigrateSubOrderLength(const std::string& order);
 
-  OneVNSyncClient* sync_client_;  // not owned
+  OnevnSyncClient* sync_client_;  // not owned
   prefs::Prefs* sync_prefs_;  // not owned
   Profile* profile_;  // not owned
   bookmarks::BookmarkModel* bookmark_model_;  // not owned

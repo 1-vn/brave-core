@@ -15,7 +15,7 @@
 #include "net/dns/mock_host_resolver.h"
 #include "url/gurl.h"
 
-class OneVNNetworkDelegateBrowserTest : public InProcessBrowserTest {
+class OnevnNetworkDelegateBrowserTest : public InProcessBrowserTest {
  public:
   void SetUpOnMainThread() override {
     InProcessBrowserTest::SetUpOnMainThread();
@@ -67,14 +67,14 @@ class OneVNNetworkDelegateBrowserTest : public InProcessBrowserTest {
 
 // It is important that cookies in following tests are set by response headers,
 // not by javascript. Fetching such cookies is controlled by NetworkDelegate.
-IN_PROC_BROWSER_TEST_F(OneVNNetworkDelegateBrowserTest, Iframe3PCookieBlocked) {
+IN_PROC_BROWSER_TEST_F(OnevnNetworkDelegateBrowserTest, Iframe3PCookieBlocked) {
   ui_test_utils::NavigateToURL(browser(), url_);
   const std::string cookie =
       content::GetCookies(browser()->profile(), GURL("http://c.com/"));
   EXPECT_TRUE(cookie.empty()) << "Actual cookie: " << cookie;
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNNetworkDelegateBrowserTest, Iframe3PCookieAllowed) {
+IN_PROC_BROWSER_TEST_F(OnevnNetworkDelegateBrowserTest, Iframe3PCookieAllowed) {
   AllowCookies();
   ui_test_utils::NavigateToURL(browser(), url_);
   const std::string cookie =
@@ -83,7 +83,7 @@ IN_PROC_BROWSER_TEST_F(OneVNNetworkDelegateBrowserTest, Iframe3PCookieAllowed) {
 }
 
 // Fetching not just a frame, but some other resource.
-IN_PROC_BROWSER_TEST_F(OneVNNetworkDelegateBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnNetworkDelegateBrowserTest,
                        IframeJs3PCookieBlocked) {
   ui_test_utils::NavigateToURL(browser(), nested_iframe_script_url_);
   const std::string cookie =
@@ -91,7 +91,7 @@ IN_PROC_BROWSER_TEST_F(OneVNNetworkDelegateBrowserTest,
   EXPECT_TRUE(cookie.empty()) << "Actual cookie: " << cookie;
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNNetworkDelegateBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnNetworkDelegateBrowserTest,
                        IframeJs3PCookieAllowed) {
   AllowCookies();
   ui_test_utils::NavigateToURL(browser(), nested_iframe_script_url_);

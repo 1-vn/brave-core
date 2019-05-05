@@ -14,10 +14,10 @@
 #include "ui/views/controls/button/button.h"
 #include "ui/views/controls/button/label_button.h"
 
-class OneVNProfileChooserViewTest : public InProcessBrowserTest {
+class OnevnProfileChooserViewTest : public InProcessBrowserTest {
  public:
-  OneVNProfileChooserViewTest() = default;
-  ~OneVNProfileChooserViewTest() override = default;
+  OnevnProfileChooserViewTest() = default;
+  ~OnevnProfileChooserViewTest() override = default;
 
 protected:
   void OpenProfileChooserView(Browser* browser) {
@@ -39,10 +39,10 @@ protected:
   }
 
 private:
-  DISALLOW_COPY_AND_ASSIGN(OneVNProfileChooserViewTest);
+  DISALLOW_COPY_AND_ASSIGN(OnevnProfileChooserViewTest);
 };
 
-IN_PROC_BROWSER_TEST_F(OneVNProfileChooserViewTest, TestCurrentProfileView) {
+IN_PROC_BROWSER_TEST_F(OnevnProfileChooserViewTest, TestCurrentProfileView) {
   OpenProfileChooserView(browser());
 
   EXPECT_EQ(1u, avatar_menu()->GetNumberOfItems());

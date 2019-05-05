@@ -8,13 +8,13 @@
 #include "base/logging.h"
 #include "base/threading/thread_restrictions.h"
 
-OneVNProfileLock::OneVNProfileLock(
+OnevnProfileLock::OnevnProfileLock(
     const base::FilePath& user_data_dir)
   : ChromeProfileLock(user_data_dir) {}
 
-OneVNProfileLock::~OneVNProfileLock() {}
+OnevnProfileLock::~OnevnProfileLock() {}
 
-void OneVNProfileLock::Lock() {
+void OnevnProfileLock::Lock() {
 #if defined(OS_WIN)
   ChromeProfileLock::Lock();
 #elif defined(OS_POSIX)
@@ -24,7 +24,7 @@ void OneVNProfileLock::Lock() {
 
   ProcessSingleton::NotifyResult rv =
       process_singleton_->NotifyOtherProcessOrCreate();
-  LOG(INFO) << "OneVNProfileLock::Lock: NotifyOtherProcessOrCreate rv: " << rv;
+  LOG(INFO) << "OnevnProfileLock::Lock: NotifyOtherProcessOrCreate rv: " << rv;
   lock_acquired_ = rv == ProcessSingleton::PROCESS_NONE;
 #endif
 }

@@ -7,10 +7,10 @@
 #include "chrome/test/base/in_process_browser_test.h"
 #include "ui/base/resource/resource_bundle.h"
 
-using OneVNResourcesBrowserTest = InProcessBrowserTest;
+using OnevnResourcesBrowserTest = InProcessBrowserTest;
 
 // Check onevn's theme resources pacakges are properly added.
-IN_PROC_BROWSER_TEST_F(OneVNResourcesBrowserTest, ResourceExistanceTest) {
+IN_PROC_BROWSER_TEST_F(OnevnResourcesBrowserTest, ResourceExistanceTest) {
   gfx::Image test_image =
       ui::ResourceBundle::GetSharedInstance().GetImageNamed(
           IDR_PRODUCT_LOGO_32_DEV);

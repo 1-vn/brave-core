@@ -20,12 +20,12 @@
 <translation id="8261506727792406068">삭제</translation>
 <translation id="144283815522798837"><ph name="NUMBER_OF_ITEMS_SELECTED"/>개가 선택되었습니다</translation>
 <translation id="5582839680698949063">기본 메뉴</translation>
-<translation id="3700405816184340252">OneVN 방문 기록</translation>
+<translation id="3700405816184340252">Onevn 방문 기록</translation>
 <translation id="7602079150116086782">다른 기기의 탭 없음</translation>
 <translation id="4619615317237390068">다른 기기의 탭</translation>
-<translation id="82609232232243542">OneVN에 로그인</translation>
+<translation id="82609232232243542">Onevn에 로그인</translation>
 <translation id="4627442949885028695">다른 기기에서 계속</translation>
-<translation id="7253276740368043692">다른 기기에서 탭을 가져오려면 OneVN에 로그인하세요.</translation>
+<translation id="7253276740368043692">다른 기기에서 탭을 가져오려면 Onevn에 로그인하세요.</translation>
 <translation id="6351063337294363751">이 메뉴에서 인터넷 사용 기록을 삭제할 수 있습니다.</translation>
 <translation id="6040143037577758943">닫기</translation>
 <translation id="6463795194797719782">편집(&amp;E)</translation>
@@ -90,15 +90,15 @@
 <translation id="5233736638227740678">붙여넣기(&amp;P)</translation>
 <translation id="2218515861914035131">일반 텍스트로 붙여넣기</translation>
 <translation id="1017280919048282932">사전에 추가(&amp;A)</translation>
-<translation id="1732768497619250086">OneVN Software에서 이미지 설명 가져오기</translation>
+<translation id="1732768497619250086">Onevn Software에서 이미지 설명 가져오기</translation>
 <translation id="7561196759112975576">항상</translation>
 <translation id="2241634353105152135">한 번만</translation>
 <translation id="741204030948306876">사용</translation>
 <translation id="780301667611848630">아니요, 괜찮습니다.</translation>
-<translation id="4572259796527554261">OneVN Software에 추천 단어 요청</translation>
+<translation id="4572259796527554261">Onevn Software에 추천 단어 요청</translation>
 <translation id="3435896845095436175">사용</translation>
 <translation id="8915370057835397490">추천 단어 로드 중...</translation>
-<translation id="6191804255817539692">OneVN Software의 추천 단어 없음</translation>
+<translation id="6191804255817539692">Onevn Software의 추천 단어 없음</translation>
 <translation id="1901303067676059328">전체 선택(&amp;A)</translation>
 <translation id="3797900183766075808"><ph name="SEARCH_ENGINE"/>에서 '<ph name="SEARCH_TERMS"/>' 검색(&amp;S)</translation>
 <translation id="2721037002783622288"><ph name="SEARCH_ENGINE"/>에서 이미지 검색(&amp;S)</translation>
@@ -147,11 +147,11 @@
 <translation id="9033857511263905942">붙여넣기(&amp;P)</translation>
 <translation id="1815083418640426271">일반 텍스트로 붙여넣기</translation>
 <translation id="4022426551683927403">사전에 추가(&amp;A)</translation>
-<translation id="6849870115130610913">OneVN Software에서 이미지 설명 가져오기</translation>
+<translation id="6849870115130610913">Onevn Software에서 이미지 설명 가져오기</translation>
 <translation id="372722114124766626">한 번만</translation>
 <translation id="8917490105272468696">사용</translation>
 <translation id="7473891865547856676">건너뛰기</translation>
-<translation id="2867003629889664976">OneVN Software에 추천 단어 요청</translation>
+<translation id="2867003629889664976">Onevn Software에 추천 단어 요청</translation>
 <translation id="6264365405983206840">모두 선택(&amp;A)</translation>
 <translation id="3948116654032448504"><ph name="SEARCH_ENGINE"/>에서 이미지 검색(&amp;S)</translation>
 <translation id="2932085390869194046">비밀번호 추천...</translation>
@@ -404,7 +404,7 @@
 <translation id="9148058034647219655">나가기</translation>
 <translation id="7376221878517288144">시크릿 모드를 종료하시겠습니까?</translation>
 <translation id="973473557718930265">종료</translation>
-<translation id="7707599169365957976">일부 시스템 정보와 페이지 콘텐츠를 OneVN Software로 전송하여 세이프 브라우징을 개선하도록 도와주세요.</translation>
+<translation id="7707599169365957976">일부 시스템 정보와 페이지 콘텐츠를 Onevn Software로 전송하여 세이프 브라우징을 개선하도록 도와주세요.</translation>
 <translation id="4923279099980110923">네, 돕고 싶습니다.</translation>
 <translation id="2316129865977710310">아니요, 괜찮습니다.</translation>
 <translation id="9169931577761441333">홈 화면에 <ph name="APP_NAME"/> 추가</translation>
@@ -418,8 +418,8 @@
 <translation id="3067198179881736288">앱을 설치하시겠습니까?</translation>
 <translation id="7072010813301522126">바로가기 이름</translation>
 <translation id="3275778913554317645">창으로 열기</translation>
-<translation id="8201192017531062522">OneVN 앱이 열려 있을 때 OneVN이 계속 실행됩니다.</translation>
-<translation id="7397305826909094212">모든 OneVN 앱 종료</translation>
+<translation id="8201192017531062522">Onevn 앱이 열려 있을 때 Onevn이 계속 실행됩니다.</translation>
+<translation id="7397305826909094212">모든 Onevn 앱 종료</translation>
 <translation id="5026874946691314267">이 메시지를 다시 표시하지 않음</translation>
 <translation id="91568222606626347">바로가기 만들기...</translation>
 <translation id="2783321960289401138">바로가기 만들기...</translation>
@@ -765,11 +765,11 @@
 <translation id="5799508265798272974">Linux 가상 머신: <ph name="LINUX_VM_NAME"/></translation>
 <translation id="8191453843330043793">V8 프록시 리졸버</translation>
 <translation id="5552059560155071882">CUPS IPP 파서</translation>
-<translation id="3077708072777965506">OneVN OS 입력 방법</translation>
-<translation id="7171242884588191792">OneVN 파일 유틸리티</translation>
+<translation id="3077708072777965506">Onevn OS 입력 방법</translation>
+<translation id="7171242884588191792">Onevn 파일 유틸리티</translation>
 <translation id="3183139917765991655">프로필 가져오기 도구</translation>
 <translation id="2190069059097339078">WiFi 사용자 인증 정보 Getter</translation>
-<translation id="7685901961038216503">OneVN OS 시스템 이미지 작성기</translation>
+<translation id="7685901961038216503">Onevn OS 시스템 이미지 작성기</translation>
 <translation id="4873312501243535625">미디어 파일 검사기</translation>
 <translation id="5972666587303800813">작동하지 않는 서비스</translation>
 <translation id="3061707000357573562">서비스 패치</translation>
@@ -779,7 +779,7 @@
 <translation id="2079545284768500474">원상태로 돌리기</translation>
 <translation id="2256115617011615191">지금 다시 시작</translation>
 <translation id="4545028762441890696">다시 사용 설정하려면 새 권한을 수락하세요.</translation>
-<translation id="3009487527589249344">OneVN Software에서 '<ph name="EXTENSION_NAME"/>'을(를) 악성 프로그램으로 분류했으며 설치가 금지되었습니다</translation>
+<translation id="3009487527589249344">Onevn Software에서 '<ph name="EXTENSION_NAME"/>'을(를) 악성 프로그램으로 분류했으며 설치가 금지되었습니다</translation>
 <translation id="6790497603648687708"><ph name="EXTENSION_NAME"/>이(가) 원격으로 추가됨</translation>
 <translation id="1841705068325380214"><ph name="EXTENSION_NAME"/>이(가) 사용 중지됨</translation>
 <translation id="595959584676692139">페이지를 새로고침하여 이 확장 프로그램 사용</translation>
@@ -798,14 +798,14 @@
 <translation id="3507421388498836150">'<ph name="EXTENSION_NAME"/>'의 현재 권한</translation>
 <translation id="5242724311594467048">'<ph name="EXTENSION_NAME"/>'을(를) 사용하시겠습니까?</translation>
 <translation id="4014432863917027322">'<ph name="EXTENSION_NAME"/>'을(를) 복구하시겠습니까?</translation>
-<translation id="5173189340601754836">컴퓨터의 다른 프로그램에서 OneVN 작동에 영향을 줄 수 있는 앱을 추가했습니다.
+<translation id="5173189340601754836">컴퓨터의 다른 프로그램에서 Onevn 작동에 영향을 줄 수 있는 앱을 추가했습니다.
 
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="6654312501894761082">컴퓨터의 다른 프로그램에서 OneVN 작동에 영향을 줄 수 있는 확장 프로그램을 추가했습니다. 
+<translation id="6654312501894761082">컴퓨터의 다른 프로그램에서 Onevn 작동에 영향을 줄 수 있는 확장 프로그램을 추가했습니다. 
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="3225882094369124157">컴퓨터의 다른 프로그램에서 OneVN 작동에 영향을 줄 수 있는 테마를 추가했습니다. 
+<translation id="3225882094369124157">컴퓨터의 다른 프로그램에서 Onevn 작동에 영향을 줄 수 있는 테마를 추가했습니다. 
 
 <ph name="EXTENSION_NAME"/></translation>
 <translation id="9102610709270966160">확장 프로그램 사용</translation>
@@ -814,7 +814,7 @@
 <translation id="3908501907586732282">확장 프로그램 사용</translation>
 <translation id="2327492829706409234">앱 사용</translation>
 <translation id="175772926354468439">테마 사용</translation>
-<translation id="5267531627648004734">OneVN에서 삭제</translation>
+<translation id="5267531627648004734">Onevn에서 삭제</translation>
 <translation id="4998873842614926205">변경사항 확인</translation>
 <translation id="5699533844376998780">확장 프로그램 '<ph name="EXTENSION_NAME"/>'이(가) 추가되었습니다.</translation>
 <translation id="1799071797295057738">'<ph name="EXTENSION_NAME"/>' 확장 프로그램 자동으로 사용 중지되었습니다.</translation>
@@ -912,7 +912,7 @@
 <translation id="3584169441612580296">컴퓨터에서 사진, 음악, 기타 미디어 조회 및 변경</translation>
 <translation id="5457459357461771897">컴퓨터에서 사진, 음악, 기타 미디어 조회 및 삭제</translation>
 <translation id="3270965368676314374">컴퓨터에서 사진, 음악, 기타 미디어 조회, 변경, 삭제</translation>
-<translation id="3919562953666287643">OneVN Software 드라이브 계정에 데이터 저장</translation>
+<translation id="3919562953666287643">Onevn Software 드라이브 계정에 데이터 저장</translation>
 <translation id="378312418865624974">이 컴퓨터의 고유 식별자 조회</translation>
 <translation id="5094721898978802975">협력 중인 기본 애플리케이션과 통신</translation>
 <translation id="4876895919560854374">화면 잠금 및 잠금 해제</translation>
@@ -945,7 +945,7 @@
 <translation id="1616298854599875024">확장 프로그램 '<ph name="IMPORT_NAME"/>'은(는) 공유 모듈이 아니므로 가져올 수 없습니다</translation>
 <translation id="2131077480075264"><ph name="IMPORT_NAME"/>에서 허용하지 않으므로 '<ph name="APP_NAME"/>'을(를) 설치할 수 없습니다.</translation>
 <translation id="1875387611427697908">이 프로그램은 <ph name="CHROME_WEB_STORE"/>에서만 추가할 수 있습니다</translation>
-<translation id="7613251087357271190">'kiosk_only' 매니페스트 속성을 사용하는 앱은 OneVN OS 키오스크 모드에 설치해야 합니다</translation>
+<translation id="7613251087357271190">'kiosk_only' 매니페스트 속성을 사용하는 앱은 Onevn OS 키오스크 모드에 설치해야 합니다</translation>
 <translation id="3834775135533257713">애플리케이션 '<ph name="TO_INSTALL_APP_NAME"/>'이(가) '<ph name="INSTALLED_APP_NAME"/>'와(과) 충돌하기 때문에 추가하지 못했습니다.</translation>
 <translation id="144518587530125858">테마('<ph name="IMAGE_PATH"/>')를 로드하지 못했습니다.</translation>
 <translation id="6567688344210276845">페이지 작업의 아이콘('<ph name="ICON"/>')을 로드하지 못했습니다.</translation>
@@ -1038,9 +1038,9 @@
 <translation id="6101226222197207147">새 앱이 추가됨(<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="7818135753970109980">새 테마가 추가됨(<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="9215293857209265904">'<ph name="EXTENSION_NAME"/>'이(가) 추가됨</translation>
-<translation id="6637045053447935202">컴퓨터의 다른 프로그램에서 OneVN 작동에 영향을 줄 수 있는 앱을 추가했습니다.</translation>
-<translation id="2015014930243978107">컴퓨터의 다른 프로그램에서 OneVN 작동에 영향을 줄 수 있는 확장 프로그램을 추가했습니다.</translation>
-<translation id="2060128809251156338">컴퓨터의 다른 프로그램에서 OneVN 작동에 영향을 줄 수 있는 테마를 추가했습니다.</translation>
+<translation id="6637045053447935202">컴퓨터의 다른 프로그램에서 Onevn 작동에 영향을 줄 수 있는 앱을 추가했습니다.</translation>
+<translation id="2015014930243978107">컴퓨터의 다른 프로그램에서 Onevn 작동에 영향을 줄 수 있는 확장 프로그램을 추가했습니다.</translation>
+<translation id="2060128809251156338">컴퓨터의 다른 프로그램에서 Onevn 작동에 영향을 줄 수 있는 테마를 추가했습니다.</translation>
 <translation id="2470702053775288986">지원되지 않는 확장 프로그램이 사용 중지됨</translation>
 <translation id="2809586584051668049">외 <ph name="NUMBER_ADDITIONAL_DISABLED"/>개</translation>
 <translation id="5301954838959518834">확인</translation>
@@ -1102,12 +1102,12 @@
 <translation id="8756969031206844760">비밀번호를 업데이트하시겠습니까?</translation>
 <translation id="8230134520748321204"><ph name="ORIGIN"/> 비밀번호를 저장하시겠습니까?</translation>
 <translation id="9040661932550800571"><ph name="ORIGIN"/> 비밀번호를 업데이트하시겠습니까?</translation>
-<translation id="8284000761603848448">어느 기기에서나 사용할 수 있도록 비밀번호가 OneVN Software 계정에 저장됩니다.</translation>
+<translation id="8284000761603848448">어느 기기에서나 사용할 수 있도록 비밀번호가 Onevn Software 계정에 저장됩니다.</translation>
 <translation id="8286036467436129157">로그인</translation>
 <translation id="8009225694047762179">비밀번호 관리</translation>
 <translation id="3950820424414687140">로그인</translation>
 <translation id="5624120631404540903">비밀번호 관리</translation>
-<translation id="9135262959729602463">어느 기기에서나 내 비밀번호를 사용하려면 OneVN에 로그인하세요.</translation>
+<translation id="9135262959729602463">어느 기기에서나 내 비밀번호를 사용하려면 Onevn에 로그인하세요.</translation>
 <translation id="8919275547519617350">저장된 비밀번호를 어느 기기에서나 사용하려면 로그인하여 동기화를 사용 설정하세요.</translation>
 <translation id="8470028084415844044">저장된 비밀번호를 어느 기기에서나 사용하려면 동기화를 사용 설정하세요.</translation>
 <translation id="1609170755653088773">이 비밀번호를 iPhone에 동기화</translation>
@@ -1208,8 +1208,8 @@
 <translation id="223106756035922488">클릭하여 오늘의 기념일 로고 보기</translation>
 <translation id="8676374126336081632">입력내용 지우기</translation>
 <translation id="5867841422488265304">웹 주소 검색 또는 입력</translation>
-<translation id="2129873093718581193">OneVN Software에서 검색하거나 URL을 입력하세요.</translation>
-<translation id="6363797201514053536">OneVN Software 검색 또는 URL 입력</translation>
+<translation id="2129873093718581193">Onevn Software에서 검색하거나 URL을 입력하세요.</translation>
+<translation id="6363797201514053536">Onevn Software 검색 또는 URL 입력</translation>
 <translation id="6078323886959318429">바로가기 추가</translation>
 <translation id="6324916366299863871">바로가기 수정</translation>
 <translation id="4405117686468554883">*.jpeg, *.jpg, *.png</translation>
@@ -1225,7 +1225,7 @@
 <translation id="1174073918202301297">바로가기 추가됨</translation>
 <translation id="2926085873880284723">기본 바로가기 복원</translation>
 <translation id="2942581856830209953">페이지 맞춤설정</translation>
-<translation id="5801450813341024983">OneVN 배경</translation>
+<translation id="5801450813341024983">Onevn 배경</translation>
 <translation id="2800760947029405028">이미지 업로드</translation>
 <translation id="8342861492835240085">컬렉션 선택</translation>
 <translation id="3132996321662585180">매일 새로고침</translation>
@@ -1326,8 +1326,8 @@
 <translation id="6686817083349815241">비밀번호 저장</translation>
 <translation id="8141725884565838206">비밀번호 관리</translation>
 <translation id="8275038454117074363">가져오기</translation>
-<translation id="3191314862567596053">OneVN으로 비밀번호 가져오기</translation>
-<translation id="6368144843345980623">OneVN에서 비밀번호 내보내기</translation>
+<translation id="3191314862567596053">Onevn으로 비밀번호 가져오기</translation>
+<translation id="6368144843345980623">Onevn에서 비밀번호 내보내기</translation>
 <translation id="8503813439785031346">사용자이름</translation>
 <translation id="6657585470893396449">비밀번호</translation>
 <translation id="4722735765955348426"><ph name="USERNAME"/>의 비밀번호</translation>
@@ -1354,30 +1354,30 @@
 <translation id="2982970937345031">익명으로 신고하기</translation>
 <translation id="6076448957780543068">이 스크린샷 포함</translation>
 <translation id="7052237160939977163">성능 추적 데이터 전송</translation>
-<translation id="5526928694260255286"><ph name="BEGIN_LINK"/>블루투스 로그<ph name="END_LINK"/> 첨부(OneVN Software 사내용)</translation>
-<translation id="1705635099498185261">블루투스 문제를 더 효과적으로 진단하기 위해 OneVN Software 직원이 의견 보고서에 추가 블루투스 로그를 포함할 수 있습니다. 이 옵션을 선택하면 보고서에 현재 세션의 btsnoop 및 HCI 로그가 포함됩니다. 이 로그는 개인 식별 정보가 가능한 한 적게 포함되도록 정리되며, Listnr의 OneVN OS 제품 그룹 관리자만 액세스할 수 있습니다. 해당 로그는 90일 후에 삭제됩니다.</translation>
+<translation id="5526928694260255286"><ph name="BEGIN_LINK"/>블루투스 로그<ph name="END_LINK"/> 첨부(Onevn Software 사내용)</translation>
+<translation id="1705635099498185261">블루투스 문제를 더 효과적으로 진단하기 위해 Onevn Software 직원이 의견 보고서에 추가 블루투스 로그를 포함할 수 있습니다. 이 옵션을 선택하면 보고서에 현재 세션의 btsnoop 및 HCI 로그가 포함됩니다. 이 로그는 개인 식별 정보가 가능한 한 적게 포함되도록 정리되며, Listnr의 Onevn OS 제품 그룹 관리자만 액세스할 수 있습니다. 해당 로그는 90일 후에 삭제됩니다.</translation>
 <translation id="4206323443866416204">의견 보고서</translation>
 <translation id="3681311097828166361">의견을 보내주셔서 감사합니다. 현재 오프라인 상태이므로 보고서는 나중에 전송됩니다.</translation>
 <translation id="8713570323158206935"><ph name="BEGIN_LINK1"/>시스템 정보<ph name="END_LINK1"/> 전송</translation>
 <translation id="6395423953133416962"><ph name="BEGIN_LINK1"/>시스템 정보<ph name="END_LINK1"/> 및 <ph name="BEGIN_LINK2"/>통계<ph name="END_LINK2"/> 전송</translation>
 <translation id="6270770586500173387"><ph name="BEGIN_LINK1"/>시스템 및 앱 정보<ph name="END_LINK1"/>와 <ph name="BEGIN_LINK2"/>통계<ph name="END_LINK2"/> 전송</translation>
-<translation id="8329196515830093443">디버깅을 위해 파일이 OneVN Software로 전송됩니다.</translation>
+<translation id="8329196515830093443">디버깅을 위해 파일이 Onevn Software로 전송됩니다.</translation>
 <translation id="8227119283605456246">파일 첨부</translation>
 <translation id="5367091008316207019">파일 읽는 중..</translation>
 <translation id="2554553592469060349">선택한 파일이 너무 큽니다(최대 크기: 3MB).</translation>
 <translation id="4690091457710545971">&lt;Intel Wi-Fi 펌웨어에서 csr.lst, fh_regs.lst, radio_reg.lst, monitor.lst.sysmon 의 4개 파일을 생성하였습니다. 처음 3개 파일은 레지스터 덤프를 포함하는 바이너리 파일로 Intel에서 개인정보나 기기 식별 정보를 포함하지 않도록 선언되었습니다. 4번째 파일은 Intel 펌웨어의 실행 기록으로 모든 개인정보나 기기 식별 정보가 삭제되었지만 너무 커서 여기에 표시할 수 없습니다. 이러한 4개 파일은 최근에 발생한 기기의 Wi-Fi 문제로 인해 생성되었으며 관련 문제를 해결하기 위해 Intel과 공유됩니다.&gt;</translation>
-<translation id="6972420083546794501">법적인 이유로 콘텐츠 변경을 요청하려면 <ph name="BEGIN_LINK1"/>법률 도움말 페이지<ph name="END_LINK1"/>로 이동하세요. 일부 계정 및 시스템 정보가 OneVN Software에 전송될 수 있습니다. OneVN Software에서는 제공해 주신 정보를 <ph name="BEGIN_LINK2"/>개인정보처리방침<ph name="END_LINK2"/> 및 <ph name="BEGIN_LINK3"/>서비스 약관<ph name="END_LINK3"/>에 따라 사용하여 기술적인 문제를 해결하고 서비스를 개선합니다.</translation>
+<translation id="6972420083546794501">법적인 이유로 콘텐츠 변경을 요청하려면 <ph name="BEGIN_LINK1"/>법률 도움말 페이지<ph name="END_LINK1"/>로 이동하세요. 일부 계정 및 시스템 정보가 Onevn Software에 전송될 수 있습니다. Onevn Software에서는 제공해 주신 정보를 <ph name="BEGIN_LINK2"/>개인정보처리방침<ph name="END_LINK2"/> 및 <ph name="BEGIN_LINK3"/>서비스 약관<ph name="END_LINK3"/>에 따라 사용하여 기술적인 문제를 해결하고 서비스를 개선합니다.</translation>
 <translation id="7915471803647590281">의견을 보내기 전에 현재 상황을 입력해 주세요.</translation>
 <translation id="1483493594462132177">보내기</translation>
 <translation id="6885771755599377173">시스템 정보 미리보기</translation>
 <translation id="1016566241875885511">추가 정보(선택사항)</translation>
-<translation id="6083886770200509573">OneVN 작동이 중단되거나 낯선 시작 페이지나 툴바가 표시되거나 예기치 않은 광고가 삭제되지 않거나 기타 인터넷 사용 환경이 변경되는 경우, OneVN 정리도구를 실행하여 문제를 해결할 수 있습니다.</translation>
-<translation id="7719662019953070946">OneVN 정리도구 다운로드</translation>
+<translation id="6083886770200509573">Onevn 작동이 중단되거나 낯선 시작 페이지나 툴바가 표시되거나 예기치 않은 광고가 삭제되지 않거나 기타 인터넷 사용 환경이 변경되는 경우, Onevn 정리도구를 실행하여 문제를 해결할 수 있습니다.</translation>
+<translation id="7719662019953070946">Onevn 정리도구 다운로드</translation>
 <translation id="8281886186245836920">건너뛰기</translation>
 <translation id="8026334261755873520">인터넷 사용 기록 삭제</translation>
 <translation id="7409836189476010449">Flash 실행</translation>
-<translation id="4718442817388594217">선택한 데이터가 OneVN 및 동기화된 기기에서 삭제되었습니다. <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>에서 검색이나 기타 OneVN Software 서비스에서의 활동 등 내 OneVN Software 계정에 있는 다른 형식의 탐색 기록을 확인할 수 있습니다.</translation>
-<translation id="7814200940910057384">OneVN 데이터 삭제됨</translation>
+<translation id="4718442817388594217">선택한 데이터가 Onevn 및 동기화된 기기에서 삭제되었습니다. <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>에서 검색이나 기타 Onevn Software 서비스에서의 활동 등 내 Onevn Software 계정에 있는 다른 형식의 탐색 기록을 확인할 수 있습니다.</translation>
+<translation id="7814200940910057384">Onevn 데이터 삭제됨</translation>
 <translation id="7346909386216857016">확인</translation>
 <translation id="8493236660459102203">마이크:</translation>
 <translation id="3925573269917483990">카메라:</translation>
@@ -1385,7 +1385,7 @@
 <translation id="4172051516777682613">항상 표시</translation>
 <translation id="477945296921629067">{NUM_POPUPS,plural, =1{팝업 1개 차단됨}other{팝업 #개 차단됨}}</translation>
 <translation id="3759371141211657149">핸들러 설정 관리...</translation>
-<translation id="4156865452842056672">(OneVN 오류 페이지)</translation>
+<translation id="4156865452842056672">(Onevn 오류 페이지)</translation>
 <translation id="1734824808160898225"><ph name="PRODUCT_NAME"/>에서 자동 업데이트를 수행하지 못할 수 있습니다</translation>
 <translation id="8590375307970699841">자동 업데이트 설정</translation>
 <translation id="8926389886865778422">이 메시지 그만 보기</translation>
@@ -1400,7 +1400,7 @@
 <translation id="284805635805850872">유해한 소프트웨어를 삭제하시겠습니까?</translation>
 <translation id="489985760463306091">유해한 소프트웨어 삭제를 완료하려면 컴퓨터를 다시 시작하세요.</translation>
 <translation id="7598466960084663009">컴퓨터 다시 시작</translation>
-<translation id="2819091349626575960">OneVN Software에 세부정보 신고</translation>
+<translation id="2819091349626575960">Onevn Software에 세부정보 신고</translation>
 <translation id="4099060993766194518">기본 검색 엔진을 복원하시겠습니까?</translation>
 <translation id="138784436342154190">기본 시작 페이지를 복원하시겠습니까?</translation>
 <translation id="5086874064903147617">기본 홈페이지를 복원하시겠습니까?</translation>
@@ -1479,10 +1479,10 @@
 <translation id="8658645149275195032"><ph name="APP_NAME"/>에서 <ph name="TAB_NAME"/>와(과) 내 화면 및 오디오를 공유 중입니다.</translation>
 <translation id="4364567974334641491"><ph name="APP_NAME"/>이(가) 창을 공유합니다.</translation>
 <translation id="8944964446326379280"><ph name="APP_NAME"/>에서 <ph name="TAB_NAME"/>와(과) 창을 공유 중입니다.</translation>
-<translation id="351520635355732555"><ph name="APP_NAME"/>이(가) OneVN 탭을 공유합니다.</translation>
-<translation id="5727851901710884484"><ph name="APP_NAME"/>에서 <ph name="TAB_NAME"/>와(과) OneVN 탭을 공유 중입니다.</translation>
-<translation id="5770515304879261338"><ph name="APP_NAME"/>에서 OneVN 탭과 오디오를 공유 중입니다.</translation>
-<translation id="859454237594354073"><ph name="APP_NAME"/>에서 <ph name="TAB_NAME"/>와(과) OneVN 탭과 오디오를 공유 중입니다.</translation>
+<translation id="351520635355732555"><ph name="APP_NAME"/>이(가) Onevn 탭을 공유합니다.</translation>
+<translation id="5727851901710884484"><ph name="APP_NAME"/>에서 <ph name="TAB_NAME"/>와(과) Onevn 탭을 공유 중입니다.</translation>
+<translation id="5770515304879261338"><ph name="APP_NAME"/>에서 Onevn 탭과 오디오를 공유 중입니다.</translation>
+<translation id="859454237594354073"><ph name="APP_NAME"/>에서 <ph name="TAB_NAME"/>와(과) Onevn 탭과 오디오를 공유 중입니다.</translation>
 <translation id="890616557918890486">소스 변경</translation>
 <translation id="7792388396321542707">공유 중지</translation>
 <translation id="6630752851777525409"><ph name="EXTENSION_NAME"/>에서 사용자를 대신하여 인증하기 위해 인증서에 대한 영구적인 액세스 권한을 요청합니다.</translation>
@@ -1500,11 +1500,11 @@
 <translation id="2190355936436201913">(비어있음)</translation>
 <translation id="7136984461011502314"><ph name="PRODUCT_NAME"/>에 오신 것을 환영합니다.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME"/>에서 설치 완료 준비가 되었습니다.</translation>
-<translation id="4711067597921221305">사용 통계 및 비정상 종료 보고서가 OneVN Software로 자동 전송되게 하여 <ph name="PRODUCT_NAME"/> 개선에 도움 주기</translation>
+<translation id="4711067597921221305">사용 통계 및 비정상 종료 보고서가 Onevn Software로 자동 전송되게 하여 <ph name="PRODUCT_NAME"/> 개선에 도움 주기</translation>
 <translation id="5972826969634861500"><ph name="PRODUCT_NAME"/> 시작</translation>
-<translation id="4876273079589074638">OneVN Software 엔지니어가 이 비정상 종료를 조사하고 해결할 수 있도록 도와주세요. 가능한 경우 단계를 정확히 나열해 주세요. 자세히 설명해 주시면 큰 도움이 됩니다.</translation>
+<translation id="4876273079589074638">Onevn Software 엔지니어가 이 비정상 종료를 조사하고 해결할 수 있도록 도와주세요. 가능한 경우 단계를 정확히 나열해 주세요. 자세히 설명해 주시면 큰 도움이 됩니다.</translation>
 <translation id="945522503751344254">의견 보내기</translation>
-<translation id="5418694430960033386">OneVN에 메모리가 부족하거나 웹페이지 프로세싱이 다른 이유로 종료되었습니다. 계속하려면 새로고침하거나 다른 페이지로 이동하세요.</translation>
+<translation id="5418694430960033386">Onevn에 메모리가 부족하거나 웹페이지 프로세싱이 다른 이유로 종료되었습니다. 계속하려면 새로고침하거나 다른 페이지로 이동하세요.</translation>
 <translation id="3065041951436100775">탭 사용 중지 관련 피드백</translation>
 <translation id="3941565636838060942">이 프로그램에 대한 액세스를 숨기려면 제어판의
   <ph name="CONTROL_PANEL_APPLET_NAME"/>을(를) 사용하여 프로그램을 제거해야 합니다.
@@ -1515,7 +1515,7 @@
 <translation id="6280912520669706465">ARC</translation>
 <translation id="4728558894243024398">플랫폼</translation>
 <translation id="7022562585984256452">홈페이지가 설정되었습니다.</translation>
-<translation id="7274626204661209194">OneVN Software 클라우드 프린트</translation>
+<translation id="7274626204661209194">Onevn Software 클라우드 프린트</translation>
 <translation id="4973307593867026061">프린터 추가</translation>
 <translation id="9052208328806230490"><ph name="EMAIL"/> 계정을 사용하여 프린터를 <ph name="CLOUD_PRINT_NAME"/>에 등록했습니다.</translation>
 <translation id="3792890930871100565">프린터 연결 해제</translation>
@@ -1525,17 +1525,17 @@
 <translation id="4620809267248568679">이 설정은 확장 프로그램에서 시행합니다.</translation>
 <translation id="4846680374085650406">이 설정에 대한 관리자 권장사항을 따릅니다.</translation>
 <translation id="1223853788495130632">관리자가 이 설정에 대해 특정 값을 추천합니다.</translation>
-<translation id="8839398440242019256">OneVN 웹 스토어에서 설치되지 않았습니다.</translation>
+<translation id="8839398440242019256">Onevn 웹 스토어에서 설치되지 않았습니다.</translation>
 <translation id="5337771866151525739">제3자에 의해 설치되었습니다.</translation>
 <translation id="4538792345715658285">엔터프라이즈 정책에 의해 설치됨</translation>
 <translation id="4359408040881008151">함께 설치된 확장 프로그램입니다.</translation>
 <translation id="4980805016576257426">확장 프로그램에 멀웨어가 포함되어 있습니다.</translation>
 <translation id="5522156646677899028">이 확장 프로그램에는 보안이 심각하게 취약한 요소가 있습니다.</translation>
-<translation id="6945695820322143954">이 확장 프로그램은 OneVN 웹 스토어 정책을 위반합니다.</translation>
-<translation id="177808131755847449">OneVN에서 사용 중지했습니다. 이 확장 프로그램은 안전하지 않을 수 있습니다.</translation>
+<translation id="6945695820322143954">이 확장 프로그램은 Onevn 웹 스토어 정책을 위반합니다.</translation>
+<translation id="177808131755847449">Onevn에서 사용 중지했습니다. 이 확장 프로그램은 안전하지 않을 수 있습니다.</translation>
 <translation id="1434696352799406980">시작 페이지, 새 탭 페이지, 검색 엔진, 고정 탭이 재설정됩니다. 또한 모든 확장 프로그램이 사용 중지되고 쿠키와 같은 임시 데이터가 삭제됩니다. 북마크, 기록, 저장된 비밀번호는 삭제되지 않습니다.</translation>
 <translation id="1242633766021457174"><ph name="THIRD_PARTY_TOOL_NAME"/>에서 설정을 재설정하려 합니다.</translation>
-<translation id="8073477228424628709"><ph name="THIRD_PARTY_TOOL_NAME"/>에서 OneVN 설정을 기본값으로 복원하려 합니다. 홈페이지, 새 탭 페이지, 검색 엔진이 초기화되고, 확장 프로그램이 사용 중지되며, 모든 탭이 고정 해제됩니다. 쿠키, 콘텐츠 데이터, 사이트 데이터 등 기타 임시 데이터와 캐시된 데이터도 삭제됩니다.</translation>
+<translation id="8073477228424628709"><ph name="THIRD_PARTY_TOOL_NAME"/>에서 Onevn 설정을 기본값으로 복원하려 합니다. 홈페이지, 새 탭 페이지, 검색 엔진이 초기화되고, 확장 프로그램이 사용 중지되며, 모든 탭이 고정 해제됩니다. 쿠키, 콘텐츠 데이터, 사이트 데이터 등 기타 임시 데이터와 캐시된 데이터도 삭제됩니다.</translation>
 <translation id="7581462281756524039">정리도구</translation>
 <translation id="1233721473400465416">언어</translation>
 <translation id="2907619724991574506">시작 URL</translation>
@@ -1549,7 +1549,7 @@
 <translation id="8870318296973696995">홈페이지</translation>
 <translation id="8987927404178983737">월</translation>
 <translation id="6015796118275082299">연도</translation>
-<translation id="5152275065296016556">OneVN Software Pay</translation>
+<translation id="5152275065296016556">Onevn Software Pay</translation>
 <translation id="7671130400130574146">시스템 제목 표시줄 및 테두리 사용</translation>
 <translation id="4520385623207007473">사용 중인 쿠키</translation>
 <translation id="4763408175235639573">페이지를 열었을 때 다음 쿠키가 설정됨</translation>
@@ -1568,7 +1568,7 @@
 <translation id="8930351635855238750">새 쿠키 설정은 페이지를 새로고침한 다음에 적용됩니다</translation>
 <translation id="2568774940984945469">정보 표시줄 컨테이너</translation>
 <translation id="7282992757463864530">정보 표시줄</translation>
-<translation id="1805077115206898822">북마크, 방문 기록 및 기타 설정이 OneVN Software 계정에 동기화됩니다.</translation>
+<translation id="1805077115206898822">북마크, 방문 기록 및 기타 설정이 Onevn Software 계정에 동기화됩니다.</translation>
 <translation id="1974060860693918893">고급</translation>
 <translation id="2445484935443597917">새 프로필 만들기</translation>
 <translation id="2606246518223360146">데이터 연결</translation>
@@ -1656,13 +1656,13 @@
 <translation id="3074037959626057712">로그인하고 동기화를 사용 설정함</translation>
 <translation id="1231733316453485619">동기화를 사용하시겠습니까?</translation>
 <translation id="4736292055110123391">북마크, 비밀번호, 방문 기록 등을 모든 기기에 동기화</translation>
-<translation id="5736731321935944068">OneVN Software에서 내 방문 기록을 사용하여 OneVN Software 검색, 광고 및 다른 OneVN Software 서비스를 맞춤설정할 수 있습니다.</translation>
+<translation id="5736731321935944068">Onevn Software에서 내 방문 기록을 사용하여 Onevn Software 검색, 광고 및 다른 Onevn Software 서비스를 맞춤설정할 수 있습니다.</translation>
 <translation id="4201546031411513170">언제든지 설정에서 동기화할 항목을 선택할 수 있습니다.</translation>
-<translation id="3149880132460839085">OneVN 동기화</translation>
-<translation id="3796902758602917951">북마크, 방문 기록, 비밀번호, 기타 설정이 OneVN Software 계정에 동기화되므로 모든 기기에서 사용할 수 있습니다.</translation>
-<translation id="3111958038206230539">OneVN Software 서비스 맞춤설정</translation>
-<translation id="295992419959320001">OneVN Software에서 검색, 광고 및 다른 OneVN Software 서비스를 맞춤설정하기 위하여 내 인터넷 사용 기록을 사용할 수 있습니다.</translation>
-<translation id="3070156078150543526">검색 및 다른 OneVN Software 서비스를 맞춤설정하기 위하여 OneVN Software에서 인터넷 사용 기록을 사용할 수 있습니다.</translation>
+<translation id="3149880132460839085">Onevn 동기화</translation>
+<translation id="3796902758602917951">북마크, 방문 기록, 비밀번호, 기타 설정이 Onevn Software 계정에 동기화되므로 모든 기기에서 사용할 수 있습니다.</translation>
+<translation id="3111958038206230539">Onevn Software 서비스 맞춤설정</translation>
+<translation id="295992419959320001">Onevn Software에서 검색, 광고 및 다른 Onevn Software 서비스를 맞춤설정하기 위하여 내 인터넷 사용 기록을 사용할 수 있습니다.</translation>
+<translation id="3070156078150543526">검색 및 다른 Onevn Software 서비스를 맞춤설정하기 위하여 Onevn Software에서 인터넷 사용 기록을 사용할 수 있습니다.</translation>
 <translation id="2709453993673701466">동기화 및 맞춤설정을 관리한 다음 사용 설정하시겠습니까? <ph name="BEGIN_LINK"/>설정<ph name="END_LINK"/>으로 이동하세요.</translation>
 <translation id="2497852260688568942">관리자가 동기화를 사용 중지했습니다.</translation>
 <translation id="562935524653278697">관리자가 북마크, 방문 기록, 비밀번호 및 기타 설정의 동기화를 사용 중지했습니다.</translation>
@@ -1697,8 +1697,8 @@
 <translation id="1637765355341780467">프로필을 여는 동안 문제가 발생했습니다. 일부 기능을 사용할 수 없습니다.</translation>
 <translation id="6664774537677393800">프로필을 여는 동안 문제가 발생했습니다. 로그아웃했다가 다시 로그인하세요.</translation>
 <translation id="1794791083288629568">이 문제를 해결하는 데 도움이 되도록 의견 전송</translation>
-<translation id="8234795456569844941">OneVN Software 엔지니어가 이 문제를 해결하도록 도와주세요. 프로필 오류 메시지가 표시되기 직전에 무슨 일이 있었는지 알려 주시기 바랍니다.</translation>
-<translation id="6500340165622970282">프로필을 여는 동안 문제가 발생했기 때문에 OneVN을 시작할 수 없습니다. OneVN을 다시 시작해 보세요.</translation>
+<translation id="8234795456569844941">Onevn Software 엔지니어가 이 문제를 해결하도록 도와주세요. 프로필 오류 메시지가 표시되기 직전에 무슨 일이 있었는지 알려 주시기 바랍니다.</translation>
+<translation id="6500340165622970282">프로필을 여는 동안 문제가 발생했기 때문에 Onevn을 시작할 수 없습니다. Onevn을 다시 시작해 보세요.</translation>
 <translation id="6812349420832218321"><ph name="PRODUCT_NAME"/>은(는) 루트로 실행할 수 없습니다.</translation>
 <translation id="2292848386125228270">일반 사용자로 <ph name="PRODUCT_NAME"/>을(를) 시작하세요. 개발용 루트로 실행해야 하는 경우 --no-sandbox 플래그를 사용하여 다시 실행하세요.</translation>
 <translation id="7547317915858803630">경고: <ph name="PRODUCT_NAME"/> 설정이 네트워크 드라이브에 저장되었습니다. 이로 인해 속도 저하, 비정상 종료 그리고 데이터 손실까지 발생할 수 있습니다.</translation>
@@ -1734,10 +1734,10 @@
 <translation id="6198102561359457428">로그아웃한 후 다시 로그인...</translation>
 <translation id="4634771451598206121">다시 로그인...</translation>
 <translation id="7117247127439884114">다시 로그인...</translation>
-<translation id="4251909665067750757">로그인하면 모든 기기에서 북마크, 방문 기록, 비밀번호, 기타 설정이 동기화되며 OneVN Software 서비스에 자동으로 로그인됩니다.</translation>
+<translation id="4251909665067750757">로그인하면 모든 기기에서 북마크, 방문 기록, 비밀번호, 기타 설정이 동기화되며 Onevn Software 서비스에 자동으로 로그인됩니다.</translation>
 <translation id="2749756011735116528"><ph name="PRODUCT_NAME"/>에 로그인</translation>
 <translation id="2126167708562367080">관리자가 동기화를 사용 중지했습니다.</translation>
-<translation id="5462539695964427820">OneVN Software 대시보드를 통해 동기화가 중지되었습니다.</translation>
+<translation id="5462539695964427820">Onevn Software 대시보드를 통해 동기화가 중지되었습니다.</translation>
 <translation id="8805140816472474147">동기화를 시작하려면 동기화 설정을 확인하세요.</translation>
 <translation id="4835836146030131423">로그인하는 동안 오류가 발생했습니다.</translation>
 <translation id="4365673000813822030">동기화 작업이 중지되었습니다.</translation>
@@ -1752,20 +1752,20 @@
 <translation id="1877520246462554164">인증 토큰을 가져오지 못했습니다. 로그아웃한 다음 다시 로그인하여 다시 시도해 주세요.</translation>
 <translation id="9100765901046053179">고급 설정</translation>
 <translation id="5771816112378578655">설정 진행 중...</translation>
-<translation id="3892866329866260680">이제 <ph name="SHORT_PRODUCT_NAME"/>에 로그인되었으며 북마크와 방문기록, 기타 설정이 내 OneVN Software 계정과 동기화됩니다.</translation>
+<translation id="3892866329866260680">이제 <ph name="SHORT_PRODUCT_NAME"/>에 로그인되었으며 북마크와 방문기록, 기타 설정이 내 Onevn Software 계정과 동기화됩니다.</translation>
 <translation id="1408789165795197664">고급...</translation>
 <translation id="2731700343119398978">잠시 기다려 주세요...</translation>
 <translation id="4684427112815847243">모두 동기화</translation>
-<translation id="7218743184834293955">동기화 암호로 데이터가 암호화됩니다. OneVN Software Pay의 결제 수단 및 주소는 암호화되지 않습니다.</translation>
+<translation id="7218743184834293955">동기화 암호로 데이터가 암호화됩니다. Onevn Software Pay의 결제 수단 및 주소는 암호화되지 않습니다.</translation>
 <translation id="7158251077901880179"><ph name="TIME"/>에 데이터가 동기화 암호로 암호화되었습니다.
-          OneVN Software Pay의 결제 수단 및 주소는 암호화되지 않습니다.</translation>
-<translation id="1171389789873508468"><ph name="TIME"/>에 데이터가 OneVN Software 비밀번호로 암호화되었습니다.
-          OneVN Software Pay의 결제 수단 및 주소는 암호화되지 않습니다.</translation>
+          Onevn Software Pay의 결제 수단 및 주소는 암호화되지 않습니다.</translation>
+<translation id="1171389789873508468"><ph name="TIME"/>에 데이터가 Onevn Software 비밀번호로 암호화되었습니다.
+          Onevn Software Pay의 결제 수단 및 주소는 암호화되지 않습니다.</translation>
 <translation id="2562743677925229011"><ph name="SHORT_PRODUCT_NAME"/>에 로그인되어 있지 않습니다.</translation>
 <translation id="4027804175521224372">(로그인하지 않음 - <ph name="IDS_SYNC_PROMO_NOT_SIGNED_IN_STATUS_LINK"/>)</translation>
 <translation id="3574210789297084292">로그인</translation>
 <translation id="237828693408258535">이 페이지를 번역하시겠습니까?</translation>
-<translation id="4613765529964435709">OneVN Software에서 이 페이지를 <ph name="SOURCE_LANGUAGE"/>에서 <ph name="TARGET_LANGUAGE"/>로 번역할까요?</translation>
+<translation id="4613765529964435709">Onevn Software에서 이 페이지를 <ph name="SOURCE_LANGUAGE"/>에서 <ph name="TARGET_LANGUAGE"/>로 번역할까요?</translation>
 <translation id="5990386583461751448">번역됨</translation>
 <translation id="5659833766619490117">페이지를 번역할 수 없음</translation>
 <translation id="969096075394517431">언어 변경</translation>
@@ -1927,11 +1927,11 @@
 <translation id="2762441749940182211">카메라 차단됨</translation>
 <translation id="5074318175948309511">새로운 설정을 적용하기 전에 페이지를 다시 로드해야 할 수도 있습니다.</translation>
 <translation id="8282947398454257691">고유 기기 식별자 조회</translation>
-<translation id="8329449853370113380"><ph name="URL"/>에서 보호된 콘텐츠를 재생하려고 합니다. OneVN Software에서 기기의 ID를 인증해야 합니다.</translation>
-<translation id="2650609753175229582"><ph name="URL"/>에서 보호된 콘텐츠를 재생하려고 합니다. OneVN Software에서 이 기기의 신원을 확인하며 이 사이트에서 이 기기에 액세스할 수 있습니다.</translation>
+<translation id="8329449853370113380"><ph name="URL"/>에서 보호된 콘텐츠를 재생하려고 합니다. Onevn Software에서 기기의 ID를 인증해야 합니다.</translation>
+<translation id="2650609753175229582"><ph name="URL"/>에서 보호된 콘텐츠를 재생하려고 합니다. Onevn Software에서 이 기기의 신원을 확인하며 이 사이트에서 이 기기에 액세스할 수 있습니다.</translation>
 <translation id="1322046419516468189"><ph name="SAVED_PASSWORDS_STORE"/>에 저장된 비밀번호 보기 및 관리</translation>
 <translation id="5297082477358294722">비밀번호가 저장되었습니다. <ph name="SAVED_PASSWORDS_STORE"/>에서 저장된 비밀번호를 보고 관리하세요.</translation>
-<translation id="5713644099811900409">OneVN Software 계정</translation>
+<translation id="5713644099811900409">Onevn Software 계정</translation>
 <translation id="3785727820640310185">이 사이트의 저장된 비밀번호</translation>
 <translation id="3404065873681873169">이 사이트의 비밀번호가 저장되지 않음</translation>
 <translation id="8470513973197838199"><ph name="ORIGIN"/>의 저장된 비밀번호</translation>
@@ -2070,7 +2070,7 @@
 <translation id="2505324914378689427">{SCREEN_INDEX,plural, =1{화면 #}other{화면 #}}</translation>
 <translation id="839736845446313156">등록</translation>
 <translation id="6285120908535925801">{NUM_PRINTER,plural, =1{네트워크에 새로운 프린터 있음}other{네트워크에 새로운 프린터 있음}}</translation>
-<translation id="2656240156816412333">{NUM_PRINTER,plural, =1{OneVN Software 클라우드 프린트에 프린터를 추가하여 어디서나 인쇄하세요.}other{OneVN Software 클라우드 프린트에 프린터 #개를 추가하여 어디서나 인쇄하세요.}}</translation>
+<translation id="2656240156816412333">{NUM_PRINTER,plural, =1{Onevn Software 클라우드 프린트에 프린터를 추가하여 어디서나 인쇄하세요.}other{Onevn Software 클라우드 프린트에 프린터 #개를 추가하여 어디서나 인쇄하세요.}}</translation>
 <translation id="409579654357498729">클라우드 프린트에 추가</translation>
 <translation id="4628757576491864469">기기</translation>
 <translation id="6915804003454593391">사용자:</translation>
@@ -2080,8 +2080,8 @@
 <translation id="1895934970388272448">이 프로세스를 종료하려면 프린터 등록을 확인해야 합니다. 지금 확인하세요.</translation>
 <translation id="551752069230578406">계정에 프린터를 추가하고 있습니다. 잠시만 기다려 주세요...</translation>
 <translation id="2384436799579181135">오류가 발생했습니다. 프린터를 확인한 후 다시 시도해 주세요.</translation>
-<translation id="2569908351567260524">OneVN Software 클라우드 프린트의 프린터</translation>
-<translation id="6782994146626179935">OneVN Software 클라우드 기기에서 사용하는 기기</translation>
+<translation id="2569908351567260524">Onevn Software 클라우드 프린트의 프린터</translation>
+<translation id="6782994146626179935">Onevn Software 클라우드 기기에서 사용하는 기기</translation>
 <translation id="7140928199327930795">다른 사용 가능한 기기가 없습니다.</translation>
 <translation id="8213577208796878755">사용 가능한 다른 기기가 1개 있습니다.</translation>
 <translation id="1495486559005647033">사용 가능한 다른 기기가 <ph name="NUM_PRINTERS"/>개 있습니다.</translation>
@@ -2089,15 +2089,15 @@
 <translation id="4720113199587244118">기기 추가</translation>
 <translation id="2776441542064982094">네트워크에 등록할 수 있는 기기가 없는 것 같습니다. 기기의 전원이 켜져 있고 인터넷에 연결되어 있다면 사용 설명서의 안내에 따라 등록해 보세요.</translation>
 <translation id="1007408791287232274">기기를 로드할 수 없습니다.</translation>
-<translation id="3886420006370338208">기기를 보려면 OneVN에 로그인하세요.</translation>
-<translation id="6711610692002680394">새 기기를 등록하려면 OneVN에 로그인하세요.</translation>
+<translation id="3886420006370338208">기기를 보려면 Onevn에 로그인하세요.</translation>
+<translation id="6711610692002680394">새 기기를 등록하려면 Onevn에 로그인하세요.</translation>
 <translation id="8931394284949551895">새 기기</translation>
 <translation id="3752673729237782832">내 기기</translation>
 <translation id="1721937473331968728">컴퓨터에 연결된 일반 프린터를 <ph name="CLOUD_PRINT_NAME"/>에 추가할 수 있습니다.</translation>
 <translation id="715118844758971915">일반 프린터</translation>
 <translation id="4263757076580287579">프린터 등록이 취소되었습니다.</translation>
 <translation id="8152091997436726702">프린터 등록 시간이 초과되었습니다. 프린터를 등록하려면 프린터 등록을 확인해야합니다.</translation>
-<translation id="2057904164277279211">인쇄 준비를 위해 문서를 <ph name="BEGIN_LINK_HELP"/>OneVN Software에 전송<ph name="END_LINK_HELP"/>했습니다. <ph name="BEGIN_LINK_DASHBOARD"/>OneVN Software 클라우드 프린트 대시보드<ph name="END_LINK_DASHBOARD"/>에서 프린터와 프린터 기록을 확인, 수정, 관리할 수 있습니다.</translation>
+<translation id="2057904164277279211">인쇄 준비를 위해 문서를 <ph name="BEGIN_LINK_HELP"/>Onevn Software에 전송<ph name="END_LINK_HELP"/>했습니다. <ph name="BEGIN_LINK_DASHBOARD"/>Onevn Software 클라우드 프린트 대시보드<ph name="END_LINK_DASHBOARD"/>에서 프린터와 프린터 기록을 확인, 수정, 관리할 수 있습니다.</translation>
 <translation id="3082780749197361769">이 탭은 카메라 또는 마이크를 사용 중입니다.</translation>
 <translation id="3578594933904494462">이 탭의 콘텐츠를 공유 중입니다.</translation>
 <translation id="4449996769074858870">이 탭은 오디오를 재생합니다.</translation>
@@ -2150,7 +2150,7 @@
 <translation id="4540437243849625078">이 사이트에서 시크릿 모드 외부의 앱을 사용하여 정보를 공유하려고 합니다.</translation>
 <translation id="1227836882233136433">시크릿 모드를 종료할까요?</translation>
 <translation id="662080504995468778">머무르기</translation>
-<translation id="2593289874938379417">OneVN에서 요청된 리소스에 액세스할 권한이 없습니다.</translation>
+<translation id="2593289874938379417">Onevn에서 요청된 리소스에 액세스할 권한이 없습니다.</translation>
 <translation id="760197030861754408">연결하려면 <ph name="LANDING_PAGE"/>(으)로 이동하세요.</translation>
 <translation id="3648348069317717750"><ph name="USB_DEVICE_NAME"/> 발견됨</translation>
 <translation id="2382095919147960379">이 기기를 Linux에 연결</translation>
@@ -2198,17 +2198,17 @@
 <translation id="7055152154916055070">다음 주소로의 리디렉션이 차단됨:</translation>
 <translation id="6777817260680419853">리디렉션이 차단됨</translation>
 <translation id="694592694773692225">이 페이지에서 리디렉션이 차단되었습니다.</translation>
-<translation id="8149707863742670433">나를 위해 OneVN Software이 만든 웹브라우저</translation>
-<translation id="3541561136058491590">OneVN Software 계정으로 OneVN에 로그인하고 모든 기기의 북마크, 방문 기록, 비밀번호, 기타 설정을 가져오세요.</translation>
-<translation id="8945142681652245463">OneVN으로 빠르게 탐색</translation>
-<translation id="2618024864038703735">OneVN으로 안전하게 탐색</translation>
-<translation id="8142180567942285208">OneVN으로 편리하게 탐색</translation>
+<translation id="8149707863742670433">나를 위해 Onevn Software이 만든 웹브라우저</translation>
+<translation id="3541561136058491590">Onevn Software 계정으로 Onevn에 로그인하고 모든 기기의 북마크, 방문 기록, 비밀번호, 기타 설정을 가져오세요.</translation>
+<translation id="8945142681652245463">Onevn으로 빠르게 탐색</translation>
+<translation id="2618024864038703735">Onevn으로 안전하게 탐색</translation>
+<translation id="8142180567942285208">Onevn으로 편리하게 탐색</translation>
 <translation id="8862003515646449717">빠른 브라우저로 전환</translation>
 <translation id="8438328416656800239">스마트 브라우저로 전환</translation>
 <translation id="491691592645955587">안전한 브라우저로 전환</translation>
 <translation id="683373380308365518">편리하고 안전한 브라우저로 전환</translation>
-<translation id="989239400026154074">OneVN Software에서 추천하는 OneVN</translation>
-<translation id="6676231621615806698">OneVN 열기</translation>
+<translation id="989239400026154074">Onevn Software에서 추천하는 Onevn</translation>
+<translation id="6676231621615806698">Onevn 열기</translation>
 <translation id="7494065396242762445">Windows 설정 열기</translation>
 <translation id="2137068468602026500">웹브라우저 하단의 <ph name="BEGIN_BOLD"/>Microsoft Edge<ph name="END_BOLD"/> 클릭</translation>
 <translation id="3720996970802414353">무시하고 전환</translation>
@@ -2217,7 +2217,7 @@
 <translation id="7537601449003285327">작업 표시줄에 고정</translation>
 <translation id="5250372599208556903"><ph name="SEARCH_ENGINE_NAME"/>에서 내 위치를 사용하여 지역에 맞는 콘텐츠를 제공합니다. 이 설정은 <ph name="SETTINGS_LINK"/>에서 변경할 수 있습니다.</translation>
 <translation id="3737536731758327622">다운로드 항목이 여기에 표시됩니다.</translation>
-<translation id="4782664866169793230">OneVN이 자동화된 테스트 소프트웨어에 의해 제어되고 있습니다.</translation>
+<translation id="4782664866169793230">Onevn이 자동화된 테스트 소프트웨어에 의해 제어되고 있습니다.</translation>
 <translation id="6721678857435001674">보안 키 제조업체와 모델을 확인하려고 합니다.</translation>
 <translation id="1673137583248014546"><ph name="URL"/>에서 보안 키 제조업체와 모델을 확인하려고 합니다.</translation>
 <translation id="6010869025736512584">비디오 입력 장치에 액세스 중</translation>
@@ -2433,9 +2433,9 @@
 <translation id="9011163749350026987">항상 아이콘 표시</translation>
 <translation id="1706586824377653884">관리자가 추가함</translation>
 <translation id="6467304607960172345">전체 화면 동영상 최적화</translation>
-<translation id="1597210476603167523">OneVN Software 행아웃과 같은 클라우드 기반 서비스로 전송하도록 허용합니다.</translation>
-<translation id="3653941710869291743">OneVN의 전송 환경에 오신 것을 환영합니다.</translation>
-<translation id="2841638550927239436">이 기능을 사용하면 TV 또는 다른 기기에 OneVN의 콘텐츠를 표시할 수 있습니다.</translation>
+<translation id="1597210476603167523">Onevn Software 행아웃과 같은 클라우드 기반 서비스로 전송하도록 허용합니다.</translation>
+<translation id="3653941710869291743">Onevn의 전송 환경에 오신 것을 환영합니다.</translation>
+<translation id="2841638550927239436">이 기능을 사용하면 TV 또는 다른 기기에 Onevn의 콘텐츠를 표시할 수 있습니다.</translation>
 <translation id="5234764350956374838">숨기기</translation>
 <translation id="4579581181964204535"><ph name="HOST_NAME"/>을(를) 전송할 수 없습니다.</translation>
 <translation id="8757090071857742562">데스크톱을 전송할 수 없습니다. 화면 공유 시작 메시지를 확인했는지 알아보세요.</translation>
@@ -2469,7 +2469,7 @@
 <translation id="4144218403971135344">우수한 화질의 동영상을 감상하고 배터리를 더 오래 사용하세요. 동영상은 Cast가 지원되는 화면에서만 재생됩니다.</translation>
 <translation id="236117173274098341">최적화</translation>
 <translation id="8538358978858059843">Cast에 클라우드 서비스를 사용하시겠습니까?</translation>
-<translation id="3856595552313160385">행아웃 및 교육용 Cast 사용에는 OneVN Software 개인정보처리방침이 적용됩니다.</translation>
+<translation id="3856595552313160385">행아웃 및 교육용 Cast 사용에는 Onevn Software 개인정보처리방침이 적용됩니다.</translation>
 <translation id="3700888195348409686">표시 중(<ph name="PAGE_ORIGIN"/>)</translation>
 <translation id="5285635972691565180"><ph name="DISPLAY_ID"/> 표시</translation>
 <translation id="4707302005824653064">chrome.com 페이지에서 관리자(<ph name="CUSTODIAN_EMAIL"/>)가 이용 및 방문 기록을 조회할 수 있습니다.</translation>
@@ -2633,7 +2633,7 @@
 <translation id="672213144943476270">프로필을 잠금 해제한 후에 게스트로 탐색하세요.</translation>
 <translation id="3478685642445675458">프로필을 잠금 해제한 다음 사용자를 삭제하세요.</translation>
 <translation id="4648499713050786492">프로필을 잠금 해제한 다음 사용자를 추가하세요.</translation>
-<translation id="8978225823042133615">OneVN을 사용하려면 로그인하세요</translation>
+<translation id="8978225823042133615">Onevn을 사용하려면 로그인하세요</translation>
 <translation id="4893336867552636863">기기에서 인터넷 사용 기록이 완전히 삭제됩니다.</translation>
 <translation id="2496180316473517155">인터넷 사용 기록</translation>
 <translation id="6865313869410766144">양식 데이터 자동 완성</translation>
@@ -2653,7 +2653,7 @@
 <translation id="3236289833370040187">소유권이 <ph name="DESTINATION_DOMAIN"/>(으)로 이전됩니다.</translation>
 <translation id="7765158879357617694">이동</translation>
 <translation id="8249296373107784235">중단</translation>
-<translation id="6268185425799226387">OneVN Software 드라이브</translation>
+<translation id="6268185425799226387">Onevn Software 드라이브</translation>
 <translation id="4425149324548788773">내 드라이브</translation>
 <translation id="1786636458339910689">팀 드라이브</translation>
 <translation id="5010406651457630570">컴퓨터</translation>
@@ -2760,7 +2760,7 @@
 <translation id="6227235786875481728">이 파일은 재생할 수 없습니다.</translation>
 <translation id="9154418932169119429">이 이미지는 오프라인에서 사용할 수 없습니다.</translation>
 <translation id="1844692022597038441">이 파일은 오프라인에서 사용할 수 없습니다.</translation>
-<translation id="2929414043040740704">OneVN Software 드라이브에서 복구된 파일</translation>
+<translation id="2929414043040740704">Onevn Software 드라이브에서 복구된 파일</translation>
 <translation id="2085470240340828803">이름이 '<ph name="FILENAME"/>'인 파일이 이미 존재합니다. 원하는 작업을 선택하세요.</translation>
 <translation id="4801956050125744859">모두 보관</translation>
 <translation id="1062407476771304334">바꾸기</translation>
@@ -2790,8 +2790,8 @@
 <translation id="2377319039870049694">목록 보기로 전환</translation>
 <translation id="3003633581067744647">썸네일 이미지 보기로 전환</translation>
 <translation id="604001903249547235">클라우드 백업</translation>
-<translation id="505639225383557233">OneVN OS 클라우드 백업</translation>
-<translation id="8656896237683963068">OneVN Software 드라이브에 미디어 기기의 사진과 동영상을 백업합니다.</translation>
+<translation id="505639225383557233">Onevn OS 클라우드 백업</translation>
+<translation id="8656896237683963068">Onevn Software 드라이브에 미디어 기기의 사진과 동영상을 백업합니다.</translation>
 <translation id="3057861065630527966">사진 및 동영상을 백업합니다.</translation>
 <translation id="7730494089396812859">클라우드 백업 상세정보를 표시합니다.</translation>
 <translation id="2850124913210091882">백업</translation>
@@ -2801,14 +2801,14 @@
     <ph name="LINE_BREAK1"/>
     파일 <ph name="FILE_COUNT"/>개 있음</translation>
 <translation id="3466147780910026086">미디어 기기 스캔 중...</translation>
-<translation id="2611866923243604397">모두 <ph name="BEGIN_LINK"/>OneVN Software 드라이브<ph name="END_LINK"/>에 백업했습니다.</translation>
+<translation id="2611866923243604397">모두 <ph name="BEGIN_LINK"/>Onevn Software 드라이브<ph name="END_LINK"/>에 백업했습니다.</translation>
 <translation id="3620292326130836921">백업되지 않은 파일이 없습니다.</translation>
 <translation id="1536674585581593431">파일 <ph name="FILE_COUNT"/>개가 있습니다.
     <ph name="LINE_BREAK1"/>
-    OneVN Software 드라이브 용량이 부족합니다. <ph name="FILE_SIZE"/>가 더 필요합니다.
+    Onevn Software 드라이브 용량이 부족합니다. <ph name="FILE_SIZE"/>가 더 필요합니다.
     <ph name="LINE_BREAK2"/>
     사진을 더 적게 선택해 보세요.</translation>
-<translation id="2473109739642988997">OneVN Software 드라이브 용량이 부족합니다.</translation>
+<translation id="2473109739642988997">Onevn Software 드라이브 용량이 부족합니다.</translation>
 <translation id="1148097584170732637"><ph name="FILE_COUNT"/>개가 있습니다.
     <ph name="LINE_BREAK1"/>
     로컬 저장소에 공간이 부족합니다. <ph name="FILE_SIZE"/>가 더 필요합니다.
@@ -2817,11 +2817,11 @@
 <translation id="2352947182261340447">로컬 저장소에 공간이 부족합니다.</translation>
 <translation id="1127657192797926968">파일 <ph name="FILE_COUNT"/>개 있음
     <ph name="LINE_BREAK1"/>
-    <ph name="BEGIN_LINK"/>OneVN Software 드라이브<ph name="END_LINK"/> 백업 준비 완료</translation>
+    <ph name="BEGIN_LINK"/>Onevn Software 드라이브<ph name="END_LINK"/> 백업 준비 완료</translation>
 <translation id="4905417359854579806">파일 <ph name="FILE_COUNT"/>개 백업 준비 완료</translation>
-<translation id="5029447434471675822"><ph name="BEGIN_LINK"/>OneVN Software 드라이브<ph name="END_LINK"/>에 파일 <ph name="FILE_COUNT"/>개 백업 중</translation>
+<translation id="5029447434471675822"><ph name="BEGIN_LINK"/>Onevn Software 드라이브<ph name="END_LINK"/>에 파일 <ph name="FILE_COUNT"/>개 백업 중</translation>
 <translation id="4215448920900139318">파일 <ph name="FILE_COUNT"/>개 백업 중</translation>
-<translation id="2419376816263920133">사진 <ph name="FILE_COUNT"/>장을 <ph name="BEGIN_LINK"/>OneVN Software 드라이브<ph name="END_LINK"/>에 백업</translation>
+<translation id="2419376816263920133">사진 <ph name="FILE_COUNT"/>장을 <ph name="BEGIN_LINK"/>Onevn Software 드라이브<ph name="END_LINK"/>에 백업</translation>
 <translation id="2994669386200004489"><ph name="FILE_NAME"/>을(를) 백업할 수 없음</translation>
 <translation id="4724850507808590449">사진 <ph name="FILE_COUNT"/>장을 백업했습니다.</translation>
 <translation id="1351692861129622852">파일 <ph name="FILE_COUNT"/>개를 가져오는 중...</translation>
@@ -2843,9 +2843,9 @@
 <translation id="653019979737152879"><ph name="FILE_NAME"/>을(를) 동기화하는 중...</translation>
 <translation id="8579285237314169903"><ph name="NUMBER_OF_FILES"/>개 항목 동기화 중...</translation>
 <translation id="8137331602592933310">다른 사용자가 '<ph name="FILENAME"/>'을(를) 나와 공유했습니다. 내가 소유자가 아니므로 삭제할 수 없습니다.</translation>
-<translation id="6277279884155292049">현재 OneVN Software 드라이브를 사용할 수 없습니다. OneVN Software 드라이브를 다시 사용할 수 있게 되면 자동으로 업로드가 다시 시작됩니다.</translation>
-<translation id="1114160088213746286">OneVN Software 드라이브에서 '<ph name="FILENAME"/>'을(를) 동기화하지 못했습니다. OneVN Software 드라이브에서 나중에 다시 시도합니다.</translation>
-<translation id="4893296294301184587">'<ph name="FILENAME"/>'이(가) 업로드되지 않았습니다. OneVN Software 드라이브에 충분한 여유 공간이 없습니다.</translation>
+<translation id="6277279884155292049">현재 Onevn Software 드라이브를 사용할 수 없습니다. Onevn Software 드라이브를 다시 사용할 수 있게 되면 자동으로 업로드가 다시 시작됩니다.</translation>
+<translation id="1114160088213746286">Onevn Software 드라이브에서 '<ph name="FILENAME"/>'을(를) 동기화하지 못했습니다. Onevn Software 드라이브에서 나중에 다시 시도합니다.</translation>
+<translation id="4893296294301184587">'<ph name="FILENAME"/>'이(가) 업로드되지 않았습니다. Onevn Software 드라이브에 충분한 여유 공간이 없습니다.</translation>
 <translation id="5163869187418756376">공유하지 못했습니다. 인터넷 연결을 확인하고 나중에 다시 시도해 주세요.</translation>
 <translation id="656398493051028875">'<ph name="FILENAME"/>' 삭제 중...</translation>
 <translation id="1047956942837015229"><ph name="COUNT"/>개 항목 삭제 중...</translation>
@@ -2911,7 +2911,7 @@
 <translation id="180035236176489073">이 파일에 액세스하려면 온라인 상태여야 합니다.</translation>
 <translation id="1190144681599273207">이 파일을 가져오는 데 약 <ph name="FILE_SIZE"/>의 모바일 데이터가 사용됩니다.</translation>
 <translation id="7839804798877833423">이 파일을 가져오는 데 약 <ph name="FILE_SIZE"/>의 모바일 데이터가 사용됩니다.</translation>
-<translation id="6813005947820333339">모바일 데이터를 사용할 때는 OneVN Software 드라이브 동기화가 기본적으로 사용 중지됩니다.</translation>
+<translation id="6813005947820333339">모바일 데이터를 사용할 때는 Onevn Software 드라이브 동기화가 기본적으로 사용 중지됩니다.</translation>
 <translation id="696203921837389374">모바일 데이터를 이용한 동기화 사용 설정</translation>
 <translation id="637062427944097960">파일이 다른 데스크톱에서 열려 있습니다. 파일을 보려면 <ph name="USER_NAME"/>(<ph name="MAIL_ADDRESS"/>)(으)로 이동하세요.</translation>
 <translation id="5330145655348521461">파일이 다른 데스크톱에서 열려 있습니다. 파일을 보려면 <ph name="USER_NAME"/>(<ph name="MAIL_ADDRESS"/>)(으)로 이동하세요.</translation>
@@ -2925,33 +2925,33 @@
 <translation id="7925686952655276919">모바일 데이터를 동기화에 사용하지 않습니다.</translation>
 <translation id="7106346894903675391">추가 저장용량 구입...</translation>
 <translation id="3549797760399244642">drive.google.com 사이트로 이동...</translation>
-<translation id="3451154303153932176">OneVN Software 드라이브에 남은 공간: <ph name="SPACE_AVAILABLE"/>.</translation>
+<translation id="3451154303153932176">Onevn Software 드라이브에 남은 공간: <ph name="SPACE_AVAILABLE"/>.</translation>
 <translation id="4552678318981539154">추가 저장용량 구입</translation>
 <translation id="6990081529015358884">저장 공간이 부족합니다.</translation>
-<translation id="5521447721624713749">현재 OneVN Software 드라이브에 연결할 수 없습니다.</translation>
+<translation id="5521447721624713749">현재 Onevn Software 드라이브에 연결할 수 없습니다.</translation>
 <translation id="7788080748068240085">'<ph name="FILE_NAME"/>'을(를) 오프라인에 저장하려면 다음 방법을 통해 <ph name="TOTAL_FILE_SIZE"/>의 추가 여유 공간을 확보해야 합니다.<ph name="MARKUP_1"/>
     <ph name="MARKUP_2"/>더 이상 오프라인 액세스가 필요하지 않은 파일을 고정 해제합니다.<ph name="MARKUP_3"/>
     <ph name="MARKUP_4"/>다운로드 폴더에서 파일을 삭제합니다.<ph name="MARKUP_5"/></translation>
-<translation id="7606199793785990727">OneVN Software 드라이브에 연결할 수 없습니다. <ph name="BEGIN_LINK"/>로그아웃<ph name="END_LINK"/>한 후 다시 로그인하세요.</translation>
-<translation id="585883343689351092">OneVN Software 드라이브에 오신 것을 환영합니다.</translation>
+<translation id="7606199793785990727">Onevn Software 드라이브에 연결할 수 없습니다. <ph name="BEGIN_LINK"/>로그아웃<ph name="END_LINK"/>한 후 다시 로그인하세요.</translation>
+<translation id="585883343689351092">Onevn Software 드라이브에 오신 것을 환영합니다.</translation>
 <translation id="6862635236584086457">이 폴더에 저장된 모든 파일은 온라인으로 자동 백업됨</translation>
 <translation id="7220787572447472056"><ph name="MARKUP_1"/>오프라인을 비롯하여 어디에서나 파일에 액세스하세요.<ph name="MARKUP_2"/>
-    OneVN Software 드라이브에 있는 파일은 최신 상태이며 모든 기기에서 사용할 수 있습니다.<ph name="MARKUP_3"/>
+    Onevn Software 드라이브에 있는 파일은 최신 상태이며 모든 기기에서 사용할 수 있습니다.<ph name="MARKUP_3"/>
     <ph name="MARKUP_4"/>파일을 안전하게 보관하세요.<ph name="MARKUP_5"/>
-    기기에 어떤 일이 일어나더라도 파일은 OneVN Software 드라이브에 안전하게 저장됩니다.<ph name="MARKUP_6"/>
+    기기에 어떤 일이 일어나더라도 파일은 Onevn Software 드라이브에 안전하게 저장됩니다.<ph name="MARKUP_6"/>
     <ph name="MARKUP_7"/>다른 사용자와 한 곳에서 파일을<ph name="MARKUP_8"/>
     공유하고 만들고 공동작업하세요.<ph name="MARKUP_9"/></translation>
-<translation id="4878716980734452132">이 파일 형식은 지원되지 않습니다. 이 파일 형식을 열 수 있는 앱을 찾으려면 <ph name="BEGIN_LINK"/>OneVN 웹 스토어<ph name="END_LINK"/>를 방문하세요.
+<translation id="4878716980734452132">이 파일 형식은 지원되지 않습니다. 이 파일 형식을 열 수 있는 앱을 찾으려면 <ph name="BEGIN_LINK"/>Onevn 웹 스토어<ph name="END_LINK"/>를 방문하세요.
     <ph name="BEGIN_LINK_HELP"/>자세히 알아보기<ph name="END_LINK_HELP"/></translation>
-<translation id="6230272341631206186">이 파일은 Windows 소프트웨어를 사용하는 PC용으로 설계되었으며 OneVN OS를 실행하는 기기와 호환되지 않습니다. <ph name="BEGIN_LINK_HELP"/>자세히 알아보기<ph name="END_LINK_HELP"/></translation>
-<translation id="3072401511615920367">이 파일은 Macintosh 소프트웨어를 사용하는 컴퓨터용으로 설계되었으며 OneVN OS를 실행하는 기기와 호환될 수 없습니다. 적합한 대체 앱을 찾으려면 <ph name="BEGIN_LINK"/>OneVN 웹 스토어<ph name="END_LINK"/>를 검색하세요. <ph name="BEGIN_LINK_HELP"/>자세히 알아보기<ph name="END_LINK_HELP"/></translation>
+<translation id="6230272341631206186">이 파일은 Windows 소프트웨어를 사용하는 PC용으로 설계되었으며 Onevn OS를 실행하는 기기와 호환되지 않습니다. <ph name="BEGIN_LINK_HELP"/>자세히 알아보기<ph name="END_LINK_HELP"/></translation>
+<translation id="3072401511615920367">이 파일은 Macintosh 소프트웨어를 사용하는 컴퓨터용으로 설계되었으며 Onevn OS를 실행하는 기기와 호환될 수 없습니다. 적합한 대체 앱을 찾으려면 <ph name="BEGIN_LINK"/>Onevn 웹 스토어<ph name="END_LINK"/>를 검색하세요. <ph name="BEGIN_LINK_HELP"/>자세히 알아보기<ph name="END_LINK_HELP"/></translation>
 <translation id="7589661784326793847">잠시만 기다려 주세요.</translation>
-<translation id="3096967955765855393">OneVN Software은 더 안전한 인터넷 사용 방법을 끊임없이 모색하고 있습니다. 이전에는 브라우저에 확장 프로그램을 추가하라는 메시지가 어느 웹사이트에서나 표시되었습니다. 하지만 OneVN의 최신 버전에서는 확장 프로그램 페이지를 통해 확장 프로그램을 추가함으로써 설치를 원한다는 사실을 OneVN에 명시적으로 알려야 합니다. <ph name="BEGIN_LINK"/>자세히 알아보기<ph name="END_LINK"/></translation>
+<translation id="3096967955765855393">Onevn Software은 더 안전한 인터넷 사용 방법을 끊임없이 모색하고 있습니다. 이전에는 브라우저에 확장 프로그램을 추가하라는 메시지가 어느 웹사이트에서나 표시되었습니다. 하지만 Onevn의 최신 버전에서는 확장 프로그램 페이지를 통해 확장 프로그램을 추가함으로써 설치를 원한다는 사실을 Onevn에 명시적으로 알려야 합니다. <ph name="BEGIN_LINK"/>자세히 알아보기<ph name="END_LINK"/></translation>
 <translation id="4892969127351273348"><ph name="APP_NAME"/>(으)로 열 수 없음</translation>
 <translation id="52446585071384036"><ph name="APP_NAME"/>을(를) 사용하여 파일을 열려면 먼저 파일을 Linux 파일 폴더로 복사하세요.</translation>
 <translation id="5368191757080475556">Linux와 폴더 공유</translation>
 <translation id="5857774240076772505">Linux 앱에 <ph name="FOLDER_NAME"/> 폴더의 파일을 변경할 수 있는 권한을 부여합니다.</translation>
-<translation id="2280597422213958082">Linux 앱에 OneVN Software 드라이브의 파일을 수정할 수 있는 권한을 부여합니다. 변경사항이 다른 기기에 동기화됩니다.</translation>
+<translation id="2280597422213958082">Linux 앱에 Onevn Software 드라이브의 파일을 수정할 수 있는 권한을 부여합니다. 변경사항이 다른 기기에 동기화됩니다.</translation>
 <translation id="4290535918735525311">폴더 1개가 Linux와 공유됨</translation>
 <translation id="2377590462528165447">폴더 <ph name="NUMBER_OF_ITEMS"/>개가 Linux와 공유되었습니다.</translation>
 <translation id="4572815280350369984"><ph name="FILE_TYPE"/> 파일</translation>
@@ -2969,19 +2969,19 @@
 <translation id="1049926623896334335">Word 문서</translation>
 <translation id="4784330909746505604">PowerPoint 프레젠테이션</translation>
 <translation id="8860454412039442620">Excel 스프레드시트</translation>
-<translation id="5383943761832211733">OneVN Software 문서</translation>
-<translation id="5924916971643100883">OneVN Software 스프레드시트</translation>
-<translation id="3667369474859528036">OneVN Software 프레젠테이션</translation>
-<translation id="3411013849623404696">OneVN Software 드로잉</translation>
-<translation id="7481041283483972362">OneVN Software 표</translation>
-<translation id="784862457750027723">OneVN Software 양식</translation>
-<translation id="3320425620177764157">OneVN Software 지도</translation>
-<translation id="7452737073539387970">OneVN Software 사이트</translation>
-<translation id="4445959220475380548">OneVN Software 드라이브 링크</translation>
+<translation id="5383943761832211733">Onevn Software 문서</translation>
+<translation id="5924916971643100883">Onevn Software 스프레드시트</translation>
+<translation id="3667369474859528036">Onevn Software 프레젠테이션</translation>
+<translation id="3411013849623404696">Onevn Software 드로잉</translation>
+<translation id="7481041283483972362">Onevn Software 표</translation>
+<translation id="784862457750027723">Onevn Software 양식</translation>
+<translation id="3320425620177764157">Onevn Software 지도</translation>
+<translation id="7452737073539387970">Onevn Software 사이트</translation>
+<translation id="4445959220475380548">Onevn Software 드라이브 링크</translation>
 <translation id="5288481194217812690"><ph name="FILENAME"/></translation>
-<translation id="1131292764548273687">이 파일 형식은 지원되지 않습니다. OneVN 웹 스토어에서 이 파일 형식을 열 수 있는 앱을 검색하세요.</translation>
-<translation id="9010211493509471179">이 파일은 Macintosh 소프트웨어를 사용하는 컴퓨터용으로 설계되었으며 OneVN OS를 실행하는 기기와 호환될 수 없습니다. 적합한 대체 앱을 찾으려면 OneVN 웹 스토어를 검색해 보세요.</translation>
-<translation id="5059989099965370411">이 파일은 Windows 소프트웨어를 사용하는 PC용으로 설계되었으며 OneVN OS를 실행하는 기기와 호환되지 않습니다. 적합한 대체 앱을 찾으려면 OneVN 웹 스토어를 검색하세요.</translation>
+<translation id="1131292764548273687">이 파일 형식은 지원되지 않습니다. Onevn 웹 스토어에서 이 파일 형식을 열 수 있는 앱을 검색하세요.</translation>
+<translation id="9010211493509471179">이 파일은 Macintosh 소프트웨어를 사용하는 컴퓨터용으로 설계되었으며 Onevn OS를 실행하는 기기와 호환될 수 없습니다. 적합한 대체 앱을 찾으려면 Onevn 웹 스토어를 검색해 보세요.</translation>
+<translation id="5059989099965370411">이 파일은 Windows 소프트웨어를 사용하는 PC용으로 설계되었으며 Onevn OS를 실행하는 기기와 호환되지 않습니다. 적합한 대체 앱을 찾으려면 Onevn 웹 스토어를 검색하세요.</translation>
 <translation id="5833610766403489739">파일이 어디론가 사라졌습니다. 다운로드 위치 설정을 확인하고 다시 시도해 주세요.</translation>
 <translation id="3966388904776714213">오디오 플레이어</translation>
 <translation id="3245321423178950146">알 수 없는 아티스트</translation>
@@ -3037,7 +3037,7 @@
 <translation id="2972557485845626008">펌웨어</translation>
 <translation id="4297219207642690536">다시 시작 및 재설정</translation>
 <translation id="4716483597559580346">파워워시를 사용하여 보안 강화</translation>
-<translation id="4089922565956168950">이 업그레이드를 설치하면 OneVNbook이 재설정되며, 현재 사용자 데이터가 삭제됩니다.</translation>
+<translation id="4089922565956168950">이 업그레이드를 설치하면 Onevnbook이 재설정되며, 현재 사용자 데이터가 삭제됩니다.</translation>
 <translation id="5184662919967270437">기기 업데이트 중</translation>
 <translation id="6644846457769259194">기기 업데이트 중(<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="5906655207909574370">업데이트가 거의 완료되었습니다. 업데이트를 완료하려면 기기를 다시 시작하세요.</translation>
@@ -3060,13 +3060,13 @@
 <translation id="5600706100022181951"><ph name="UPDATE_SIZE_MB"/>MB의 모바일 데이터를 사용하여 업데이트를 다운로드합니다. 계속하시겠습니까?</translation>
 <translation id="5402815541704507626">모바일 데이터를 사용하여 업데이트 다운로드</translation>
 <translation id="5085162214018721575">업데이트를 확인하는 중</translation>
-<translation id="4570609078116869893">모든 사용자의 OneVN 자동 업데이트</translation>
+<translation id="4570609078116869893">모든 사용자의 Onevn 자동 업데이트</translation>
 <translation id="7102687220333134671">자동 업데이트가 사용 설정되어 있습니다.</translation>
 <translation id="6981982820502123353">접근성</translation>
-<translation id="5840822070878669614">OneVN 웹 스토어 열기</translation>
+<translation id="5840822070878669614">Onevn 웹 스토어 열기</translation>
 <translation id="6073903501322152803">접근성 기능 추가</translation>
 <translation id="7988355189918024273">접근성 기능 사용</translation>
-<translation id="3274899353071794175">이미지에 유용한 설명이 없으면 OneVN에서 자동으로 설명을 제공합니다. OneVN Software에서 이미지를 스캔합니다.</translation>
+<translation id="3274899353071794175">이미지에 유용한 설명이 없으면 Onevn에서 자동으로 설명을 제공합니다. Onevn Software에서 이미지를 스캔합니다.</translation>
 <translation id="2558896001721082624">시스템 메뉴에 접근성 옵션 항상 표시</translation>
 <translation id="7280649757394340890">TTS 음성 설정</translation>
 <translation id="6635956300022133031">텍스트 음성 변환 기능의 음성을 선택하고 맞춤설정합니다.</translation>
@@ -3075,8 +3075,8 @@
 <translation id="4209092469652827314">크게</translation>
 <translation id="499165176004408815">고대비 모드 사용</translation>
 <translation id="142758023928848008">고정키 사용(연속으로 입력하여 단축키 사용)</translation>
-<translation id="5914872514449971753">OneVNVox(음성 피드백) 사용</translation>
-<translation id="7099511550603534982">OneVNVox 설정 열기</translation>
+<translation id="5914872514449971753">OnevnVox(음성 피드백) 사용</translation>
+<translation id="7099511550603534982">OnevnVox 설정 열기</translation>
 <translation id="8547013269961688403">전체화면 돋보기 사용</translation>
 <translation id="8743390665131937741">전체화면 돋보기 확대/축소 수준:</translation>
 <translation id="7334274148831027933">고정 돋보기 사용</translation>
@@ -3111,7 +3111,7 @@
 <translation id="2765217105034171413">작게</translation>
 <translation id="7409549334477097887">아주 크게</translation>
 <translation id="1330145147221172764">터치 키보드 사용</translation>
-<translation id="1800308196794859773">모든 텍스트 입력란에서 음성기록 기능을 지원하기 위해 OneVN Software에 음성이 전송됩니다.</translation>
+<translation id="1800308196794859773">모든 텍스트 입력란에서 음성기록 기능을 지원하기 위해 Onevn Software에 음성이 전송됩니다.</translation>
 <translation id="8758418656925882523">받아쓰기 사용(말하여 입력)</translation>
 <translation id="7580671184200851182">모든 스피커에서 동일한 오디오 실행(모노 오디오)</translation>
 <translation id="1361872463926621533">시작 시 소리 재생</translation>
@@ -3175,13 +3175,13 @@
 <translation id="2200603218210188859">USB 기기 환경설정</translation>
 <translation id="2706892089432507937">USB 기기</translation>
 <translation id="5187892128515678283">전환을 사용 설정하여 USB 기기를 Linux와 공유하세요. 기기를 분리하기 전까지만 공유됩니다.</translation>
-<translation id="2295473777859797944">OneVN Software Play 스토어</translation>
+<translation id="2295473777859797944">Onevn Software Play 스토어</translation>
 <translation id="572155275267014074">Android 설정</translation>
-<translation id="4767209642168463274">OneVNbook에 OneVN Software Play의 앱 및 게임을 설치합니다. &lt;a target="_blank" href="<ph name="URL"/>"&gt;자세히 알아보기&lt;/a&gt;</translation>
+<translation id="4767209642168463274">Onevnbook에 Onevn Software Play의 앱 및 게임을 설치합니다. &lt;a target="_blank" href="<ph name="URL"/>"&gt;자세히 알아보기&lt;/a&gt;</translation>
 <translation id="2966937470348689686">Android 환경설정 관리</translation>
-<translation id="4074367893748481070">OneVN Software Play 스토어 삭제</translation>
+<translation id="4074367893748481070">Onevn Software Play 스토어 삭제</translation>
 <translation id="2792290659606763004">Android 앱을 삭제하시겠습니까?</translation>
-<translation id="4607779957365311067">OneVN Software Play에서 다운로드한 앱이 OneVNbook에서 삭제됩니다.
+<translation id="4607779957365311067">Onevn Software Play에서 다운로드한 앱이 Onevnbook에서 삭제됩니다.
       <ph name="LINE_BREAKS1"/>
       영화, TV 프로그램, 음악, 책 또는 기타 인앱 구매 등 구매한 콘텐츠도 삭제될 수 있습니다.
       <ph name="LINE_BREAKS2"/>
@@ -3209,7 +3209,7 @@
 <translation id="1670399744444387456">기본</translation>
 <translation id="1763808908432309942">새 탭에서 열기</translation>
 <translation id="6248988683584659830">검색 설정</translation>
-<translation id="883304095704384301">원하는 자료를 찾지 못했다면 <ph name="BEGIN_LINK_CHROMIUM"/>OneVN 도움말<ph name="END_LINK_CHROMIUM"/>을 참조하세요.</translation>
+<translation id="883304095704384301">원하는 자료를 찾지 못했다면 <ph name="BEGIN_LINK_CHROMIUM"/>Onevn 도움말<ph name="END_LINK_CHROMIUM"/>을 참조하세요.</translation>
 <translation id="6406708970972405507">설정 - <ph name="SECTION_TITLE"/></translation>
 <translation id="5860033963881614850">끄기</translation>
 <translation id="5916664084637901428">사용</translation>
@@ -3227,10 +3227,10 @@
 <translation id="451515744433878153">제거</translation>
 <translation id="5029568752722684782">사본 지우기</translation>
 <translation id="2154484045852737596">카드 수정</translation>
-<translation id="3032188998195902534">OneVN Software Pay 결제 수단을 추가하거나 관리하려면 <ph name="BEGIN_LINK"/>OneVN Software 계정<ph name="END_LINK"/>을 방문하세요.</translation>
+<translation id="3032188998195902534">Onevn Software Pay 결제 수단을 추가하거나 관리하려면 <ph name="BEGIN_LINK"/>Onevn Software 계정<ph name="END_LINK"/>을 방문하세요.</translation>
 <translation id="8853586775156634952">이 카드는 이 기기에만 저장됩니다.</translation>
 <translation id="5087580092889165836">카드 추가</translation>
-<translation id="4835914736509775287">OneVN Software 계정에 카드 추가</translation>
+<translation id="4835914736509775287">Onevn Software 계정에 카드 추가</translation>
 <translation id="7255002516883565667">현재 이 기기에서만 사용할 수 있는 카드가 1장 있습니다.</translation>
 <translation id="6848388270925200958">현재 이 기기에서만 사용할 수 있는 카드가 있습니다.</translation>
 <translation id="4807098396393229769">카드 명의</translation>
@@ -3253,7 +3253,7 @@
 <translation id="7930294771522048157">저장한 결제 수단이 여기에 표시됩니다.</translation>
 <translation id="9124003689441359348">저장한 비밀번호가 여기에 표시됩니다.</translation>
 <translation id="4400367121200150367">비밀번호를 저장하지 않는 사이트가 표시됩니다.</translation>
-<translation id="3098842761938485917"><ph name="BEGIN_LINK"/>OneVN Software 계정<ph name="END_LINK"/>에서 저장된 비밀번호 보기 및 관리</translation>
+<translation id="3098842761938485917"><ph name="BEGIN_LINK"/>Onevn Software 계정<ph name="END_LINK"/>에서 저장된 비밀번호 보기 및 관리</translation>
 <translation id="5620655347161642930">비밀번호 내보내기...</translation>
 <translation id="3900966090527141178">비밀번호 내보내기</translation>
 <translation id="6914783257214138813">내보낸 파일을 볼 수 있는 모든 사용자에게 비밀번호가 표시됩니다.</translation>
@@ -3353,15 +3353,15 @@
 <translation id="3380365263193509176">알 수 없는 오류가 발생했습니다.</translation>
 <translation id="368789413795732264">파일 쓰기를 시도하는 동안 다음 오류가 발생했습니다. <ph name="ERROR_TEXT"/></translation>
 <translation id="784934925303690534">기간</translation>
-<translation id="3958004920128806270">이 기기에서만 인터넷 사용 기록을 삭제하고 OneVN Software 계정에서는 유지하려면 <ph name="BEGIN_LINK"/>로그아웃<ph name="END_LINK"/>하세요.</translation>
-<translation id="4445433576366924090">동기화된 모든 기기 및 OneVN Software 계정에서 인터넷 사용 기록을 삭제하려면 <ph name="BEGIN_LINK"/>동기화 설정을 방문<ph name="END_LINK"/>하세요.</translation>
-<translation id="563489167344291753">동기화된 모든 기기 및 OneVN Software 계정에서 인터넷 사용 기록을 삭제하려면 <ph name="BEGIN_LINK"/>암호를 입력<ph name="END_LINK"/>하세요.</translation>
-<translation id="3895809404273995788">동기화된 모든 기기 및 OneVN Software 계정에서 인터넷 사용 기록을 삭제하려면 <ph name="BEGIN_LINK"/>로그인<ph name="END_LINK"/>하세요.</translation>
+<translation id="3958004920128806270">이 기기에서만 인터넷 사용 기록을 삭제하고 Onevn Software 계정에서는 유지하려면 <ph name="BEGIN_LINK"/>로그아웃<ph name="END_LINK"/>하세요.</translation>
+<translation id="4445433576366924090">동기화된 모든 기기 및 Onevn Software 계정에서 인터넷 사용 기록을 삭제하려면 <ph name="BEGIN_LINK"/>동기화 설정을 방문<ph name="END_LINK"/>하세요.</translation>
+<translation id="563489167344291753">동기화된 모든 기기 및 Onevn Software 계정에서 인터넷 사용 기록을 삭제하려면 <ph name="BEGIN_LINK"/>암호를 입력<ph name="END_LINK"/>하세요.</translation>
+<translation id="3895809404273995788">동기화된 모든 기기 및 Onevn Software 계정에서 인터넷 사용 기록을 삭제하려면 <ph name="BEGIN_LINK"/>로그인<ph name="END_LINK"/>하세요.</translation>
 <translation id="8662811608048051533">대부분의 사이트에서 로그아웃됩니다.</translation>
-<translation id="4650925988509114690">대부분의 사이트에서 로그아웃됩니다. 동기화된 데이터를 삭제할 수 있도록 OneVN Software 계정에서는 로그아웃되지 않습니다.</translation>
+<translation id="4650925988509114690">대부분의 사이트에서 로그아웃됩니다. 동기화된 데이터를 삭제할 수 있도록 Onevn Software 계정에서는 로그아웃되지 않습니다.</translation>
 <translation id="2017836877785168846">검색주소창의 검색 기록 및 자동 완성 항목을 삭제합니다.</translation>
-<translation id="8096327394278038498">검색주소창에 저장된 방문 기록과 자동 완성 내역을 지웁니다. OneVN Software 계정의 내 활동(<ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>)에는 인터넷 사용 기록이 다른 형식으로 남아 있을 수도 있습니다.</translation>
-<translation id="8122693181154564064">로그인된 모든 기기에서 방문 기록을 지웁니다. OneVN Software 계정의 내 활동(<ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>)에는 인터넷 사용 기록이 다른 형식으로 남아 있을 수도 있습니다.</translation>
+<translation id="8096327394278038498">검색주소창에 저장된 방문 기록과 자동 완성 내역을 지웁니다. Onevn Software 계정의 내 활동(<ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>)에는 인터넷 사용 기록이 다른 형식으로 남아 있을 수도 있습니다.</translation>
+<translation id="8122693181154564064">로그인된 모든 기기에서 방문 기록을 지웁니다. Onevn Software 계정의 내 활동(<ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>)에는 인터넷 사용 기록이 다른 형식으로 남아 있을 수도 있습니다.</translation>
 <translation id="7127980134843952133">다운로드 기록</translation>
 <translation id="4699172675775169585">캐시된 이미지 또는 파일</translation>
 <translation id="1274997165432133392">쿠키 및 기타 사이트 데이터</translation>
@@ -3375,7 +3375,7 @@
 <translation id="6979737339423435258">전체 기간</translation>
 <translation id="3399432415385675819">알림이 사용 중지됩니다.</translation>
 <translation id="3459509316159669723">인쇄</translation>
-<translation id="1563008449513980623">OneVN Software 클라우드 프린트에서 프린터 설정 또는 관리</translation>
+<translation id="1563008449513980623">Onevn Software 클라우드 프린트에서 프린터 설정 또는 관리</translation>
 <translation id="8185331656081929126">네트워크에 새 프린터가 감지되면 알림 표시</translation>
 <translation id="6451180435462401570">클라우드 프린트 기기 관리</translation>
 <translation id="6985607387932385770">프린터</translation>
@@ -3408,10 +3408,10 @@
 <translation id="2462752602710430187"><ph name="PRINTER_NAME"/> 추가됨</translation>
 <translation id="9057119625587205566">주변에 프린터 없음</translation>
 <translation id="3213187967168344806">프린터를 추가할 수 없습니다. 컴퓨터를 다시 시작한 후 시도해 보세요.</translation>
-<translation id="4052689580269971502">프린터에 연결할 수 없습니다. 프린터가 켜져 있으며 Wi-Fi 또는 USB를 통해 OneVNbook에 연결되어 있는지 확인하세요.</translation>
+<translation id="4052689580269971502">프린터에 연결할 수 없습니다. 프린터가 켜져 있으며 Wi-Fi 또는 USB를 통해 Onevnbook에 연결되어 있는지 확인하세요.</translation>
 <translation id="7099337801055912064">큰 PPD를 로드할 수 없습니다. 최대 크기는 250KB입니다.</translation>
 <translation id="4310139701823742692">파일 형식이 잘못되었습니다. PPD 파일을 확인하고 다시 시도하세요.</translation>
-<translation id="6580983683519551561">PPD를 찾을 수 없습니다. OneVNbook이 온라인 상태인지 확인하고 다시 시도해 보세요.</translation>
+<translation id="6580983683519551561">PPD를 찾을 수 없습니다. Onevnbook이 온라인 상태인지 확인하고 다시 시도해 보세요.</translation>
 <translation id="4694024090038830733">프린터 구성은 관리자가 처리합니다.</translation>
 <translation id="5816434091619127343">프린터 변경을 요청하면 프린터를 사용할 수 없게 됩니다.</translation>
 <translation id="6504611359718185067">프린터를 추가하려면 인터넷에 연결하세요.</translation>
@@ -3419,7 +3419,7 @@
 <translation id="5696679855467848181">현재 사용 중인 PPD 파일: <ph name="PPD_NAME"/></translation>
 <translation id="4733793249294335256">위치</translation>
 <translation id="7754704193130578113">다운로드 전에 각 파일의 저장 위치 확인</translation>
-<translation id="5713072761819014678">OneVN Software 드라이브 계정을 연결 해제합니다.</translation>
+<translation id="5713072761819014678">Onevn Software 드라이브 계정을 연결 해제합니다.</translation>
 <translation id="486635084936119914">다운로드 후에 특정 파일 형식을 자동으로 열기</translation>
 <translation id="3653160965917900914">네트워크 파일 공유</translation>
 <translation id="5763315388120433852">네트워크 파일 공유를 설정하거나 관리합니다.</translation>
@@ -3455,12 +3455,12 @@
 <translation id="3571734092741541777">설정</translation>
 <translation id="3336664756920573711">Android 휴대전화로 <ph name="DEVICE_TYPE"/>을(를) 잠금 해제하세요.</translation>
 <translation id="1164674268730883318"><ph name="DEVICE_TYPE"/>에서 Smart Lock을 사용 중지하시겠습니까?</translation>
-<translation id="2739030071582769583"><ph name="DEVICE_TYPE"/>용 Smart Lock을 사용 중지하면 휴대전화를 사용하여 OneVN 기기를 잠금 해제할 수 없으며 비밀번호를 입력해야 합니다.</translation>
+<translation id="2739030071582769583"><ph name="DEVICE_TYPE"/>용 Smart Lock을 사용 중지하면 휴대전화를 사용하여 Onevn 기기를 잠금 해제할 수 없으며 비밀번호를 입력해야 합니다.</translation>
 <translation id="4737715515457435632">네트워크에 연결하세요.</translation>
 <translation id="5425722269016440406">Smart Lock 설정은 휴대전화 및 다른 기기와 동기화되므로 Smart Lock을 사용 중지하려면 사용자가 온라인 상태여야 합니다. 먼저 네트워크에 연결하시기 바랍니다.</translation>
 <translation id="8885197664446363138">Smart Lock을 사용할 수 없음</translation>
 <translation id="7334190995941642545">현재 Smart Lock을 사용할 수 없습니다. 나중에 다시 시도해 주세요.</translation>
-<translation id="8112427115751454716">Smart Lock을 사용하여 OneVN Software 계정에 로그인</translation>
+<translation id="8112427115751454716">Smart Lock을 사용하여 Onevn Software 계정에 로그인</translation>
 <translation id="2043818754674261542">휴대전화로 이 <ph name="DEVICE_TYPE"/>을(를) 잠금 해제하는 데 필요한 거리</translation>
 <translation id="2522791476825452208">매우 가까움</translation>
 <translation id="649454645705377674">닫기</translation>
@@ -3468,7 +3468,7 @@
 <translation id="5595152862129936745">매우 멀리 있음</translation>
 <translation id="8748384418490037181">Smart Lock 옵션</translation>
 <translation id="2433836460518180625">기기 잠금 해제만</translation>
-<translation id="3300552672525741457">기기를 잠금 해제하고 OneVN Software 계정에 로그인합니다.</translation>
+<translation id="3300552672525741457">기기를 잠금 해제하고 Onevn Software 계정에 로그인합니다.</translation>
 <translation id="2307462900900812319">네트워크 설정</translation>
 <translation id="7175037578838465313"><ph name="NAME"/> 설정</translation>
 <translation id="8662671328352114214"><ph name="TYPE"/> 네트워크에 연결</translation>
@@ -3495,7 +3495,7 @@
 <translation id="1726100011689679555">이름 서버</translation>
 <translation id="1209796539517632982">자동 이름 서버</translation>
 <translation id="4462159676511157176">맞춤 이름 서버</translation>
-<translation id="1981884748698699991">OneVN Software 이름 서버</translation>
+<translation id="1981884748698699991">Onevn Software 이름 서버</translation>
 <translation id="854655314928502177">웹 프록시 자동 탐색 URL</translation>
 <translation id="3817579325494460411">입력하지 않음</translation>
 <translation id="1280820357415527819">모바일 네트워크 검색 중</translation>
@@ -3559,13 +3559,13 @@
 <translation id="6077131872140550515">기본 네트워크에서 삭제</translation>
 <translation id="4115002065223188701">네트워크 범위를 벗어남</translation>
 <translation id="161460670679785907">휴대전화를 인식할 수 없습니다</translation>
-<translation id="1682335582099955045">인스턴트 테더링을 사용하려면 OneVN Software Play 서비스의 알림을 사용 설정하세요</translation>
+<translation id="1682335582099955045">인스턴트 테더링을 사용하려면 Onevn Software Play 서비스의 알림을 사용 설정하세요</translation>
 <translation id="7696063401938172191">'<ph name="PHONE_NAME"/>'에서 다음과 같이 설정하세요.</translation>
 <translation id="3423463006624419153">'<ph name="PHONE_NAME_1"/>' 및 '<ph name="PHONE_NAME_2"/>'에서 다음과 같이 설정하세요.</translation>
 <translation id="6997707937646349884">기기에서 다음과 같이 설정하세요.</translation>
 <translation id="7531779363494549572">설정 &gt; 앱 및 알림 &gt; 알림으로 이동합니다.</translation>
-<translation id="6921033294337262045">앱 알림 &gt; OneVN Software Play 서비스를 탭합니다.</translation>
-<translation id="5624710179837914896">OneVN Software Play 서비스를 사용 설정합니다.</translation>
+<translation id="6921033294337262045">앱 알림 &gt; Onevn Software Play 서비스를 탭합니다.</translation>
+<translation id="5624710179837914896">Onevn Software Play 서비스를 사용 설정합니다.</translation>
 <translation id="2705736684557713153">화면 하단으로 스크롤하여 인스턴트 테더링이 표시되면 사용 설정합니다. 표시되지 않으면 설정이 완료된 것입니다.</translation>
 <translation id="8720200012906404956">모바일 네트워크를 찾고 있습니다. <ph name="BEGIN_LINK"/>자세히 알아보기<ph name="END_LINK"/></translation>
 <translation id="7240339475467890413">새 핫스팟에 연결하시겠습니까?</translation>
@@ -3579,7 +3579,7 @@
 <translation id="3651488188562686558">Wi-Fi 연결 해제</translation>
 <translation id="3479552764303398839">나중에</translation>
 <translation id="7378812711085314936">데이터 연결 가져오기</translation>
-<translation id="3483333858382889684">이 기기에서 내 OneVN Software 계정이 등록되어 있으며 모바일 데이터 연결을 사용하는 다른 기기를 찾도록 허용합니다.</translation>
+<translation id="3483333858382889684">이 기기에서 내 Onevn Software 계정이 등록되어 있으며 모바일 데이터 연결을 사용하는 다른 기기를 찾도록 허용합니다.</translation>
 <translation id="5637476008227280525">모바일 데이터 사용</translation>
 <translation id="1572266655485775982">Wi-Fi 사용</translation>
 <translation id="543381445212956829">WiMAX 사용</translation>
@@ -3709,11 +3709,11 @@
 <translation id="4200689466366162458">맞춤 단어</translation>
 <translation id="7833720883933317473">저장한 맞춤 단어가 여기에 표시됩니다.</translation>
 <translation id="8509646642152301857">맞춤법 검사 사전을 다운로드하지 못했습니다.</translation>
-<translation id="8842834450537919370">네트워크 관리자에게 문의하여 방화벽이 OneVN Software 서버에서 다운로드를 차단하지 않는지 확인하시기 바랍니다.</translation>
+<translation id="8842834450537919370">네트워크 관리자에게 문의하여 방화벽이 Onevn Software 서버에서 다운로드를 차단하지 않는지 확인하시기 바랍니다.</translation>
 <translation id="9042893549633094279">개인정보 및 보안</translation>
 <translation id="654233263479157500">웹 서비스를 이용하여 탐색 오류 문제 해결</translation>
 <translation id="6697492270171225480">페이지를 찾을 수 없을 때 비슷한 페이지 제안 표시</translation>
-<translation id="4534361985432360439">사용자가 접속하려는 페이지의 웹 주소를 OneVN Software에 전송</translation>
+<translation id="4534361985432360439">사용자가 접속하려는 페이지의 웹 주소를 Onevn Software에 전송</translation>
 <translation id="6545834809683560467">예상 검색어 서비스를 사용하여 검색주소창 또는 앱 런처 검색창에 입력되는 검색어 및 URL을 더 빠르게 완성</translation>
 <translation id="340485819826776184">예상 검색어 서비스를 사용하여 검색주소창에 입력되는 검색어 및 URL 완성</translation>
 <translation id="7704317875155739195">검색어 및 URL 자동 완성</translation>
@@ -3724,16 +3724,16 @@
 <translation id="1641113438599504367">세이프 브라우징</translation>
 <translation id="773905249182896430">위험한 사이트로부터 사용자와 기기 보호</translation>
 <translation id="8983677657449185470">세이프 브라우징 개선에 참여</translation>
-<translation id="199861668945335092">일부 시스템 정보와 페이지 콘텐츠를 OneVN Software로 전송</translation>
+<translation id="199861668945335092">일부 시스템 정보와 페이지 콘텐츠를 Onevn Software로 전송</translation>
 <translation id="490074449735753175">웹 서비스를 이용하여 철자 오류 문제 해결</translation>
-<translation id="3523078749603005179">브라우저에 입력한 텍스트를 OneVN Software에 보내어 더 나은 맞춤법 검사 기능 이용</translation>
+<translation id="3523078749603005179">브라우저에 입력한 텍스트를 Onevn Software에 보내어 더 나은 맞춤법 검사 기능 이용</translation>
 <translation id="2564653188463346023">향상된 맞춤법 검사</translation>
-<translation id="9079153198295609735">사용 통계 및 비정상 종료 보고서를 OneVN Software에 자동으로 보내기</translation>
-<translation id="5941220456342415404">진단 및 사용 데이터를 OneVN Software에 자동 전송</translation>
-<translation id="918192811481327695">OneVN의 기능 및 성능 개선에 참여</translation>
-<translation id="9063160602596686558">사용 통계 및 비정상 종료 보고서를 OneVN Software로 자동 전송</translation>
+<translation id="9079153198295609735">사용 통계 및 비정상 종료 보고서를 Onevn Software에 자동으로 보내기</translation>
+<translation id="5941220456342415404">진단 및 사용 데이터를 Onevn Software에 자동 전송</translation>
+<translation id="918192811481327695">Onevn의 기능 및 성능 개선에 참여</translation>
+<translation id="9063160602596686558">사용 통계 및 비정상 종료 보고서를 Onevn Software로 자동 전송</translation>
 <translation id="8438566539970814960">검색 및 탐색 기능 개선</translation>
-<translation id="284843628681142937">방문한 페이지의 URL을 OneVN Software에 전송</translation>
+<translation id="284843628681142937">방문한 페이지의 URL을 Onevn Software에 전송</translation>
 <translation id="8791534160414513928">탐색 트래픽과 함께 ‘추적 안함’ 요청 전송</translation>
 <translation id="5299109548848736476">추적 안함</translation>
 <translation id="5282733140964383898">'추적 안함'을 사용 설정하면 요청이 탐색 트래픽에 포함됩니다. 웹사이트가 요청에 응답하는지와 요청이 어떻게 해석되는가에 따라 결과가 달라집니다. 예를 들어, 어떤 웹사이트는 사용자의 웹사이트 방문 기록과 관계없는 광고를 표시하는 방식으로 요청에 응답할 수 있습니다. 이 설정을 사용해도 대부분의 웹사이트에서는 보안을 강화하거나 웹사이트에서 콘텐츠, 서비스, 광고 및 추천 정보를 제공하거나 보고서 통계를 생성하는 등의 목적으로 사용자의 인터넷 사용 기록을 수집하고 사용됩니다. <ph name="BEGIN_LINK"/>자세히 알아보기<ph name="END_LINK"/></translation>
@@ -3751,7 +3751,7 @@
 <translation id="8632933437936028548">설정 초기화</translation>
 <translation id="5293170712604732402">설정을 기본값으로 복원</translation>
 <translation id="892706138619340876">일부 설정이 재설정됨</translation>
-<translation id="2334029754052191847">OneVN에서 다른 프로그램이 브라우저 설정을 일부 손상시키고 원래 기본값으로 재설정했음을 감지했습니다.</translation>
+<translation id="2334029754052191847">Onevn에서 다른 프로그램이 브라우저 설정을 일부 손상시키고 원래 기본값으로 재설정했음을 감지했습니다.</translation>
 <translation id="4582563038311694664">모든 설정 초기화</translation>
 <translation id="4146785383423576110">재설정 및 정리하기</translation>
 <translation id="2603115962224169880">컴퓨터 정리</translation>
@@ -3763,7 +3763,7 @@
 <translation id="7807067443225230855">검색 및 어시스턴트</translation>
 <translation id="2203682048752833055"><ph name="BEGIN_LINK"/>주소 표시줄<ph name="END_LINK"/>에서 사용되는 검색 엔진입니다.</translation>
 <translation id="1432581352905426595">검색엔진 관리</translation>
-<translation id="2862205630718215619">OneVN Software 어시스턴트</translation>
+<translation id="2862205630718215619">Onevn Software 어시스턴트</translation>
 <translation id="6978121630131642226">검색엔진</translation>
 <translation id="6410668567036790476">검색 엔진 추가</translation>
 <translation id="1128591060186966949">검색 엔진 수정</translation>
@@ -3775,9 +3775,9 @@
 <translation id="7063311912041006059">URL(검색어 자리에 <ph name="SPECIAL_SYMBOL"/> 입력)</translation>
 <translation id="6953878494808481632">관련 정보</translation>
 <translation id="4145922204387553806">어시스턴트가 화면에 표시된 내용과 관련된 정보를 표시하도록 허용합니다.</translation>
-<translation id="472896694312062378">Ok OneVN Software</translation>
-<translation id="873163986259711670">"Ok OneVN Software"이라고 말할 때마다 어시스턴트에 액세스합니다.</translation>
-<translation id="7972554217702001243">누군가 “Ok OneVN Software”이라고 말하면 어시스턴트를 활성화합니다. 배터리를 절약하기 위하여 기기가 전원에 연결되어 있는 경우에만 “Ok OneVN Software” 기능이 켜집니다.</translation>
+<translation id="472896694312062378">Ok Onevn Software</translation>
+<translation id="873163986259711670">"Ok Onevn Software"이라고 말할 때마다 어시스턴트에 액세스합니다.</translation>
+<translation id="7972554217702001243">누군가 “Ok Onevn Software”이라고 말하면 어시스턴트를 활성화합니다. 배터리를 절약하기 위하여 기기가 전원에 연결되어 있는 경우에만 “Ok Onevn Software” 기능이 켜집니다.</translation>
 <translation id="5825412242012995131">사용(권장)</translation>
 <translation id="5067399438976153555">항상 사용</translation>
 <translation id="5419405654816502573">Voice Match</translation>
@@ -3786,7 +3786,7 @@
 <translation id="5355099869024327351">어시스턴트에서 알림을 표시할 수 있도록 허용</translation>
 <translation id="133535873114485416">선호하는 입력 방식</translation>
 <translation id="6233154960150021497">키보드 대신 음성 사용을 기본값으로 설정</translation>
-<translation id="3908743412684152579">OneVN Software 어시스턴트 설정</translation>
+<translation id="3908743412684152579">Onevn Software 어시스턴트 설정</translation>
 <translation id="4933484234309072027"><ph name="URL"/>에 삽입</translation>
 <translation id="8427292751741042100">모든 호스트에 삽입됨</translation>
 <translation id="4907306957610201395">권한 카테고리</translation>
@@ -3811,7 +3811,7 @@
 <translation id="5340638867532133571">사이트에서 결제 핸들러를 설치하도록 허용(권장)</translation>
 <translation id="763632859238619983">모든 사이트에서 결제 핸들러 설치 허용 안함</translation>
 <translation id="8270242299912238708">PDF 문서</translation>
-<translation id="539658326146969381">OneVN에서 PDF 파일을 자동으로 여는 대신 다운로드</translation>
+<translation id="539658326146969381">Onevn에서 PDF 파일을 자동으로 여는 대신 다운로드</translation>
 <translation id="4434045419905280838">팝업 및 리디렉션</translation>
 <translation id="6612358246767739896">보호된 콘텐츠</translation>
 <translation id="4252852543720145436">보호된 콘텐츠 식별자</translation>
@@ -3843,7 +3843,7 @@
 <translation id="7661259717474717992">사이트에서 쿠키 데이터 저장 및 읽기 허용</translation>
 <translation id="2913331724188855103">사이트에서 쿠키 데이터를 저장하고 읽도록 허용(권장)</translation>
 <translation id="5908769186679515905">사이트에서 Flash를 실행하지 못하도록 차단</translation>
-<translation id="6096007141921397775">OneVN을 종료할 때까지 Flash 설정이 유지됩니다.</translation>
+<translation id="6096007141921397775">Onevn을 종료할 때까지 Flash 설정이 유지됩니다.</translation>
 <translation id="2972642118232180842">중요한 콘텐츠만 실행(권장)</translation>
 <translation id="7084192839369222683">중요한 콘텐츠만 실행</translation>
 <translation id="8074127646604999664">최근에 닫은 사이트에서 데이터 전송 및 수신을 완료하도록 허용</translation>
@@ -3905,7 +3905,7 @@
 <translation id="4750220700975225">현재 시크릿 세션(<ph name="EMBEDDING"/>)</translation>
 <translation id="383891835335927981">확대 또는 축소된 사이트가 없음</translation>
 <translation id="3566721612727112615">추가된 사이트 없음</translation>
-<translation id="8098574385249290065">사이트의 소리 재생 여부를 OneVN이 결정(권장)</translation>
+<translation id="8098574385249290065">사이트의 소리 재생 여부를 Onevn이 결정(권장)</translation>
 <translation id="4354344420232759511">내가 방문한 사이트가 여기에 표시됩니다.</translation>
 <translation id="3757733214359997190">사이트를 찾을 수 없습니다.</translation>
 <translation id="5763751966069581670">USB 기기를 찾을 수 없습니다.</translation>
@@ -3913,7 +3913,7 @@
 <translation id="7366415735885268578">사이트 추가</translation>
 <translation id="5052499409147950210">사이트 수정</translation>
 <translation id="2870560284913253234">사이트</translation>
-<translation id="4610862967073369855">Android 메시지가 휴대전화의 문자 메시지를 OneVNbook으로 전달하도록 허용합니다.</translation>
+<translation id="4610862967073369855">Android 메시지가 휴대전화의 문자 메시지를 Onevnbook으로 전달하도록 허용합니다.</translation>
 <translation id="6742339027238151589">스크립트에 액세스 가능</translation>
 <translation id="361106536627977100">Flash 데이터</translation>
 <translation id="8557930019681227453">매니페스트</translation>
@@ -3927,7 +3927,7 @@
 <translation id="6105877918873366097">마지막 액세스 날짜</translation>
 <translation id="1296497012903089238">인증서 유형</translation>
 <translation id="8553342806078037065">다른 사용자 관리</translation>
-<translation id="8907706281008466056">OneVN Software 프로필 사진</translation>
+<translation id="8907706281008466056">Onevn Software 프로필 사진</translation>
 <translation id="2408955596600435184">PIN 입력</translation>
 <translation id="6619990499523117484">PIN 확인</translation>
 <translation id="2023167225947895179">추측하기 쉬운 PIN입니다.</translation>
@@ -3952,9 +3952,9 @@
 <translation id="6029292188939175871">[<ph name="FINGERPRINT_NAME"/>] 삭제, 버튼</translation>
 <translation id="1927632033341042996">지문 <ph name="NEW_FINGER_NUMBER"/></translation>
 <translation id="7665369617277396874">계정 추가</translation>
-<translation id="6776811409814583709">앱 및 웹사이트에서 로그인한 모든 OneVN Software 계정을 여기에서 관리할 수 있습니다. 사용자가 허가한 앱 및 웹사이트는 정상적으로 작동하기 위해 필요한 계정 정보에 액세스할 수 있습니다.</translation>
+<translation id="6776811409814583709">앱 및 웹사이트에서 로그인한 모든 Onevn Software 계정을 여기에서 관리할 수 있습니다. 사용자가 허가한 앱 및 웹사이트는 정상적으로 작동하기 위해 필요한 계정 정보에 액세스할 수 있습니다.</translation>
 <translation id="1987317783729300807">계정</translation>
-<translation id="8418661265246754237">OneVN Software 계정</translation>
+<translation id="8418661265246754237">Onevn Software 계정</translation>
 <translation id="3297951628821704004">이 기기에서 계정 삭제</translation>
 <translation id="3158033540161634471">지문 설정</translation>
 <translation id="1587907146729660231">전원 버튼을 손가락으로 터치하세요.</translation>
@@ -3984,9 +3984,9 @@
 <translation id="2114896190328250491">사진 제공: <ph name="NAME"/></translation>
 <translation id="7155171745945906037">카메라 또는 파일의 기존 사진</translation>
 <translation id="8995603266996330174">관리자: <ph name="DOMAIN"/></translation>
-<translation id="9125982323641182972">OneVN Software로 OneVN을 더욱 스마트하게</translation>
+<translation id="9125982323641182972">Onevn Software로 Onevn을 더욱 스마트하게</translation>
 <translation id="5244474230056479698"><ph name="EMAIL"/>에 동기화</translation>
-<translation id="4326270470840334364">이 계정은 <ph name="DOMAIN"/>에 의해 관리되므로 북마크, 방문 기록, 비밀번호 및 기타 설정이 이 기기에서 삭제됩니다. 하지만 데이터는 OneVN Software 계정에 계속 저장되며 <ph name="BEGIN_LINK"/>OneVN Software 대시보드<ph name="END_LINK"/>에서 관리할 수 있습니다.</translation>
+<translation id="4326270470840334364">이 계정은 <ph name="DOMAIN"/>에 의해 관리되므로 북마크, 방문 기록, 비밀번호 및 기타 설정이 이 기기에서 삭제됩니다. 하지만 데이터는 Onevn Software 계정에 계속 저장되며 <ph name="BEGIN_LINK"/>Onevn Software 대시보드<ph name="END_LINK"/>에서 관리할 수 있습니다.</translation>
 <translation id="4037889604535939429">사용자 수정</translation>
 <translation id="6739923123728562974">바탕화면 바로가기 표시</translation>
 <translation id="2450310832094867474">동기화를 사용 중지하고 로그아웃하시겠습니까?</translation>
@@ -3994,16 +3994,16 @@
 <translation id="5643620609347735571">삭제하고 계속</translation>
 <translation id="5602765853043467355">기기에서 북마크, 방문 기록, 비밀번호 등을 삭제합니다.</translation>
 <translation id="4089235344645910861">설정이 저장되었으며, 동기화가 시작되었습니다.</translation>
-<translation id="7548737591211512046">로그인하면 모든 기기에서 북마크, 방문 기록, 비밀번호, 기타 설정이 동기화되며 OneVN Software 서비스에도 자동으로 로그인됩니다.</translation>
-<translation id="2951604498031550705">북마크, 방문 기록, 비밀번호 및 기타 설정을 변경하면 더 이상 OneVN Software 계정에 동기화되지 않습니다. 하지만 기존 데이터는 OneVN Software 계정에 계속 저장되며 <ph name="BEGIN_LINK"/>OneVN Software 대시보드<ph name="END_LINK"/>에서 관리할 수 있습니다.</translation>
-<translation id="138229770216285283">OneVN Software 계정에서 로그아웃됩니다. 북마크, 방문 기록, 비밀번호, 기타 설정이 더 이상 OneVN Software 계정에 동기화되지 않습니다. 하지만 기존 데이터는 OneVN Software 계정에 계속 저장되며 <ph name="BEGIN_LINK"/>OneVN Software 대시보드<ph name="END_LINK"/>에서 관리할 수 있습니다.</translation>
-<translation id="3169352093514419465">OneVN Software 계정에서 로그아웃됩니다. 북마크, 방문 기록, 비밀번호 등이 더 이상 동기화되지 않습니다.</translation>
+<translation id="7548737591211512046">로그인하면 모든 기기에서 북마크, 방문 기록, 비밀번호, 기타 설정이 동기화되며 Onevn Software 서비스에도 자동으로 로그인됩니다.</translation>
+<translation id="2951604498031550705">북마크, 방문 기록, 비밀번호 및 기타 설정을 변경하면 더 이상 Onevn Software 계정에 동기화되지 않습니다. 하지만 기존 데이터는 Onevn Software 계정에 계속 저장되며 <ph name="BEGIN_LINK"/>Onevn Software 대시보드<ph name="END_LINK"/>에서 관리할 수 있습니다.</translation>
+<translation id="138229770216285283">Onevn Software 계정에서 로그아웃됩니다. 북마크, 방문 기록, 비밀번호, 기타 설정이 더 이상 Onevn Software 계정에 동기화되지 않습니다. 하지만 기존 데이터는 Onevn Software 계정에 계속 저장되며 <ph name="BEGIN_LINK"/>Onevn Software 대시보드<ph name="END_LINK"/>에서 관리할 수 있습니다.</translation>
+<translation id="3169352093514419465">Onevn Software 계정에서 로그아웃됩니다. 북마크, 방문 기록, 비밀번호 등이 더 이상 동기화되지 않습니다.</translation>
 <translation id="8588866096426746242">프로필 통계 보기</translation>
 <translation id="5535941515421698170">기기에서 기존 데이터도 삭제</translation>
 <translation id="7243632151880336635">지우기 및 로그아웃</translation>
 <translation id="6406506848690869874">동기화</translation>
-<translation id="5428209950370661546">다른 OneVN Software 서비스</translation>
-<translation id="7956662517480676674">동기화 및 OneVN Software 서비스</translation>
+<translation id="5428209950370661546">다른 Onevn Software 서비스</translation>
+<translation id="7956662517480676674">동기화 및 Onevn Software 서비스</translation>
 <translation id="2453021845418314664">고급 동기화 설정</translation>
 <translation id="4314815835985389558">동기화 관리</translation>
 <translation id="659934686219830168">이 페이지에서 나가면 동기화가 시작됩니다.</translation>
@@ -4012,19 +4012,19 @@
 <translation id="4824958205181053313">동기화를 취소하시겠습니까?</translation>
 <translation id="3058498974290601450">언제든지 설정에서 동기화를 사용 설정할 수 있습니다.</translation>
 <translation id="7529411698175791732">인터넷 연결 상태를 확인하세요. 문제가 계속되면 로그아웃한 뒤 다시 로그인해보세요.</translation>
-<translation id="1125261911132334651">OneVN Software 계정 관리</translation>
+<translation id="1125261911132334651">Onevn Software 계정 관리</translation>
 <translation id="4570387585180509432">주소, 전화번호 등</translation>
 <translation id="5117427536932535467">테마와 배경화면</translation>
 <translation id="3268451620468152448">열린 탭</translation>
-<translation id="5241892180459725878">OneVN Software 드라이브 검색 추천어</translation>
+<translation id="5241892180459725878">Onevn Software 드라이브 검색 추천어</translation>
 <translation id="2120297377148151361">활동 및 상호작용</translation>
 <translation id="5833397272224757657">방문한 사이트의 콘텐츠와 브라우저 활동 및 상호작용이 맞춤설정에 사용됩니다.</translation>
-<translation id="8135094938656535588">OneVN Software 대시보드에서 동기화된 데이터 관리</translation>
-<translation id="7505421639213002314">OneVN 동기화 데이터</translation>
+<translation id="8135094938656535588">Onevn Software 대시보드에서 동기화된 데이터 관리</translation>
+<translation id="7505421639213002314">Onevn 동기화 데이터</translation>
 <translation id="6596325263575161958">암호화 옵션</translation>
-<translation id="2459230470861708651">OneVN Software 사용자 이름과 비밀번호로 동기화 데이터 암호화</translation>
-<translation id="5958351589333270173">나만의 <ph name="BEGIN_LINK"/>동기화 암호<ph name="END_LINK"/>로 동기화된 데이터를 암호화합니다. OneVN Software Pay의 결제 수단 및 주소는 암호화되지 않습니다.</translation>
-<translation id="4817583816512767754">암호를 아는 사람만 암호화된 데이터를 읽을 수 있습니다. 암호는 OneVN Software로 전송되거나 OneVN Software에 저장되지 않습니다. 암호가 기억나지 않거나 이 설정을 변경하려면 <ph name="BEGIN_LINK"/>동기화를 재설정<ph name="END_LINK"/>해야 합니다.</translation>
+<translation id="2459230470861708651">Onevn Software 사용자 이름과 비밀번호로 동기화 데이터 암호화</translation>
+<translation id="5958351589333270173">나만의 <ph name="BEGIN_LINK"/>동기화 암호<ph name="END_LINK"/>로 동기화된 데이터를 암호화합니다. Onevn Software Pay의 결제 수단 및 주소는 암호화되지 않습니다.</translation>
+<translation id="4817583816512767754">암호를 아는 사람만 암호화된 데이터를 읽을 수 있습니다. 암호는 Onevn Software로 전송되거나 Onevn Software에 저장되지 않습니다. 암호가 기억나지 않거나 이 설정을 변경하려면 <ph name="BEGIN_LINK"/>동기화를 재설정<ph name="END_LINK"/>해야 합니다.</translation>
 <translation id="7441736921018636843">이 설정을 변경하려면 <ph name="BEGIN_LINK"/>동기화를 재설정<ph name="END_LINK"/>하여 동기화 암호를 삭제하세요.</translation>
 <translation id="3873315167136380065">사용하려면 <ph name="BEGIN_LINK"/>동기화를 재설정<ph name="END_LINK"/>하여 동기화 암호를 삭제하세요.</translation>
 <translation id="988978206646512040">암호를 빈칸으로 두어서는 안 됩니다.</translation>
@@ -4070,7 +4070,7 @@
 <translation id="437184764829821926">고급 글꼴 설정</translation>
 <translation id="323803881985677942">확장 프로그램 옵션 열기</translation>
 <translation id="2166369534954157698">재빠른 갈색 여우가 게으른 개를 뛰어넘습니다.</translation>
-<translation id="8911765336506423117">OneVN 웹 스토어의 확장 프로그램 필요</translation>
+<translation id="8911765336506423117">Onevn 웹 스토어의 확장 프로그램 필요</translation>
 <translation id="6965978654500191972">기기</translation>
 <translation id="8260864402787962391">마우스</translation>
 <translation id="155865706765934889">터치패드</translation>
@@ -4107,7 +4107,7 @@
 <translation id="4673442866648850031">스타일러스가 분리되면 스타일러스 도구가 열립니다.</translation>
 <translation id="5862109781435984885">실행기에 스타일러스 도구 표시</translation>
 <translation id="4244238649050961491">스타일러스 앱 더보기</translation>
-<translation id="1163818598439831131">OneVN Software Play 열기</translation>
+<translation id="1163818598439831131">Onevn Software Play 열기</translation>
 <translation id="9116799625073598554">메모 앱</translation>
 <translation id="5458998536542739734">잠금 화면 메모</translation>
 <translation id="203574396658008164">잠금 화면에서 메모 작성 사용</translation>
@@ -4169,7 +4169,7 @@
 <translation id="6547354035488017500">최소 512MB의 저장 공간을 확보하지 않으면 기기가 응답하지 않을 것입니다. 저장 공간을 확보하려면 기기에서 파일을 삭제하세요.</translation>
 <translation id="6097480669505687979">저장 공간을 확보하지 않으면 사용자 및 데이터가 자동으로 삭제될 수 있습니다.</translation>
 <translation id="5438224778284622050">오프라인 파일을 삭제하시겠습니까?</translation>
-<translation id="9196021349904508454">OneVN Software 드라이브 오프라인 임시 파일이 삭제됩니다. 오프라인에서 사용 가능으로 설정한 파일은 이 기기에서 삭제되지 않습니다.</translation>
+<translation id="9196021349904508454">Onevn Software 드라이브 오프라인 임시 파일이 삭제됩니다. 오프라인에서 사용 가능으로 설정한 파일은 이 기기에서 삭제되지 않습니다.</translation>
 <translation id="1865678028973512614">파일 삭제</translation>
 <translation id="1529891865407786369">전원</translation>
 <translation id="354060433403403521">AC 어댑터</translation>
@@ -4191,37 +4191,37 @@
 <translation id="1889984860246851556">프록시 설정 열기</translation>
 <translation id="1940546824932169984">연결된 기기</translation>
 <translation id="3468999815377931311">Android 휴대전화</translation>
-<translation id="2789927670850159391">OneVNbook에 휴대전화를 연결하세요. <ph name="LINK_BEGIN"/>자세히 알아보기<ph name="LINK_END"/></translation>
+<translation id="2789927670850159391">Onevnbook에 휴대전화를 연결하세요. <ph name="LINK_BEGIN"/>자세히 알아보기<ph name="LINK_END"/></translation>
 <translation id="1397500194120344683">사용 가능한 기기가 없습니다. <ph name="LINK_BEGIN"/>자세히 알아보기<ph name="LINK_END"/></translation>
 <translation id="5739235828260127894">확인을 기다리는 중입니다. <ph name="LINK_BEGIN"/>자세히 알아보기<ph name="LINK_END"/></translation>
-<translation id="7179187931092694802">휴대전화로 OneVNbook을 잠금 해제하세요. <ph name="LINK_BEGIN"/>자세히 알아보기<ph name="LINK_END"/></translation>
+<translation id="7179187931092694802">휴대전화로 Onevnbook을 잠금 해제하세요. <ph name="LINK_BEGIN"/>자세히 알아보기<ph name="LINK_END"/></translation>
 <translation id="5430931332414098647">인스턴트 테더링</translation>
 <translation id="6415900369006735853">휴대전화를 통해 인터넷에 연결합니다.</translation>
 <translation id="4746351372139058112">메시지</translation>
-<translation id="2248072377758660530">OneVNbook으로 SMS를 보내고 받으세요. <ph name="LINK_BEGIN"/>자세히 알아보기<ph name="LINK_END"/></translation>
+<translation id="2248072377758660530">Onevnbook으로 SMS를 보내고 받으세요. <ph name="LINK_BEGIN"/>자세히 알아보기<ph name="LINK_END"/></translation>
 <translation id="5153234146675181447">휴대전화 지우기</translation>
-<translation id="2307631131458143837">OneVNbook에서 휴대전화를 연결 해제합니다.</translation>
-<translation id="1146102139091738471">OneVNbook에서 휴대전화를 연결 해제합니다. 더 이상 자동으로 연결되지 않습니다.</translation>
+<translation id="2307631131458143837">Onevnbook에서 휴대전화를 연결 해제합니다.</translation>
+<translation id="1146102139091738471">Onevnbook에서 휴대전화를 연결 해제합니다. 더 이상 자동으로 연결되지 않습니다.</translation>
 <translation id="7878562273885520351">비밀번호가 도용될 수도 있음</translation>
 <translation id="1089439967362294234">비밀번호 변경</translation>
-<translation id="6187156085111579405">필요한 경우 여기에 표시되지 않은 항목도 삭제됩니다. OneVN 개인정보 보호 백서에서 &lt;a href="<ph name="URL"/>"&gt;원치 않는 소프트웨어 보호&lt;/a&gt;에 관해 자세히 알아보세요.</translation>
+<translation id="6187156085111579405">필요한 경우 여기에 표시되지 않은 항목도 삭제됩니다. Onevn 개인정보 보호 백서에서 &lt;a href="<ph name="URL"/>"&gt;원치 않는 소프트웨어 보호&lt;/a&gt;에 관해 자세히 알아보세요.</translation>
 <translation id="5280174558369304332">삭제할 확장 프로그램:</translation>
 <translation id="7712836429117959503">ID가 <ph name="EXTENSION_ID"/>인 알 수 없는 확장 프로그램</translation>
 <translation id="3281892622610078515">스팸 격리 저장소에 보관할 파일 및 프로그램:</translation>
 <translation id="8549457076611407730">{NUM_ITEMS,plural, =1{항목 1개}other{항목 #개}}</translation>
 <translation id="7187428571767585875">삭제 또는 변경할 레지스트리 항목:</translation>
 <translation id="4840150926623932060">{NUM_DOWNLOAD,plural, =1{1개 더보기}other{#개 더보기}}</translation>
-<translation id="2749608811030566578">OneVN에서 유해한 소프트웨어를 제거하는 중에 오류가 발생했습니다.</translation>
-<translation id="8189483132214844139">OneVN이 컴퓨터에서 유해한 소프트웨어를 찾아 삭제할 수 있습니다.</translation>
+<translation id="2749608811030566578">Onevn에서 유해한 소프트웨어를 제거하는 중에 오류가 발생했습니다.</translation>
+<translation id="8189483132214844139">Onevn이 컴퓨터에서 유해한 소프트웨어를 찾아 삭제할 수 있습니다.</translation>
 <translation id="2910318910161511225">네트워크에 연결하고 다시 시도해 주세요</translation>
 <translation id="1426870617281699524">다시 시도를 클릭하고 컴퓨터에 표시된 메시지를 수락하세요</translation>
-<translation id="7886744396008377537">컴퓨터에 유해한 소프트웨어가 있습니다. OneVN이 유해한 소프트웨어를 삭제하고, 설정을 복원하고, 확장 프로그램을 사용 중지하는 중입니다. 이 작업이 끝나면 브라우저가 다시 정상적으로 작동합니다.</translation>
-<translation id="1484912962860902625">OneVN에서 유해한 소프트웨어를 검색하는 중에 오류가 발생했습니다.</translation>
+<translation id="7886744396008377537">컴퓨터에 유해한 소프트웨어가 있습니다. Onevn이 유해한 소프트웨어를 삭제하고, 설정을 복원하고, 확장 프로그램을 사용 중지하는 중입니다. 이 작업이 끝나면 브라우저가 다시 정상적으로 작동합니다.</translation>
+<translation id="1484912962860902625">Onevn에서 유해한 소프트웨어를 검색하는 중에 오류가 발생했습니다.</translation>
 <translation id="451407183922382411"><ph name="COMPANY_NAME"/> 제공</translation>
 <translation id="5254368820972107711">삭제할 파일 표시</translation>
 <translation id="296026337010986570">유해한 소프트웨어 삭제가 완료되었습니다. 확장 프로그램을 다시 사용 설정하려면 &lt;a href="chrome://extensions"&gt;확장 프로그램&lt;/a&gt;으로 이동하세요.</translation>
 <translation id="284975061945174219">정리하지 못했습니다.</translation>
-<translation id="9014750448058570312">계속하려면 OneVN에 권한이 필요함</translation>
+<translation id="9014750448058570312">계속하려면 Onevn에 권한이 필요함</translation>
 <translation id="1852141627593563189">유해한 소프트웨어 찾기</translation>
 <translation id="4320177379694898372">인터넷에 연결되지 않음</translation>
 <translation id="850875081535031620">유해한 소프트웨어가 발견되지 않음</translation>
@@ -4231,11 +4231,11 @@
 <translation id="8639047128869322042">유해한 소프트웨어 확인 중...</translation>
 <translation id="2653033005692233957">검색 실패</translation>
 <translation id="655483977608336153">다시 시도</translation>
-<translation id="8282772389915299166">정리 중 컴퓨터에서 발견된 유해한 소프트웨어, 시스템 설정, 프로세스에 관한 세부정보를 OneVN Software에 보고합니다.</translation>
+<translation id="8282772389915299166">정리 중 컴퓨터에서 발견된 유해한 소프트웨어, 시스템 설정, 프로세스에 관한 세부정보를 Onevn Software에 보고합니다.</translation>
 <translation id="6555810572223193255">현재 정리 기능을 사용할 수 없음</translation>
 <translation id="7117228822971127758">나중에 다시 시도해 주세요</translation>
 <translation id="443475966875174318">호환되지 않는 애플리케이션 업데이트 또는 삭제</translation>
-<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{이 애플리케이션으로 인해 OneVN이 제대로 작동하지 않을 수 있습니다.}other{이 애플리케이션으로 인해 OneVN이 제대로 작동하지 않을 수 있습니다.}}</translation>
+<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{이 애플리케이션으로 인해 Onevn이 제대로 작동하지 않을 수 있습니다.}other{이 애플리케이션으로 인해 Onevn이 제대로 작동하지 않을 수 있습니다.}}</translation>
 <translation id="599131315899248751">{NUM_APPLICATIONS,plural, =1{계속 웹을 탐색하려면 관리자에게 이 애플리케이션을 삭제해 달라고 요청하세요.}other{계속 웹을 탐색하려면 관리자에게 이 애플리케이션을 삭제해 달라고 요청하세요.}}</translation>
 <translation id="4743260470722568160"><ph name="BEGIN_LINK"/>애플리케이션 업데이트 방법 알아보기<ph name="END_LINK"/></translation>
 <translation id="964439421054175458">{NUM_APLLICATIONS,plural, =1{애플리케이션}other{애플리케이션}}</translation>
@@ -4312,7 +4312,7 @@
 <translation id="6370021412472292592">매니페스트를 로드할 수 없습니다.</translation>
 <translation id="7235716375204803342">활동을 가져오는 중...</translation>
 <translation id="7647403192093989392">최근 활동이 없음</translation>
-<translation id="38046578254905003"><ph name="BEGIN_LINK"/>OneVN 웹 스토어<ph name="END_LINK"/>에서 확장 프로그램과 테마를 찾아보세요</translation>
+<translation id="38046578254905003"><ph name="BEGIN_LINK"/>Onevn 웹 스토어<ph name="END_LINK"/>에서 확장 프로그램과 테마를 찾아보세요</translation>
 <translation id="7272674038937250585">제공된 설명이 없음</translation>
 <translation id="3855441664322950881">확장 프로그램 압축</translation>
 <translation id="2958721676848865875">확장 프로그램 패키지 경고</translation>
@@ -4324,7 +4324,7 @@
 <translation id="1992397118740194946">설정 안됨</translation>
 <translation id="6706210727756204531">범위</translation>
 <translation id="5532223876348815659">전체</translation>
-<translation id="300669147395456190">OneVN 앱</translation>
+<translation id="300669147395456190">Onevn 앱</translation>
 <translation id="6787839852456839824">단축키</translation>
 <translation id="6419546358665792306">압축해제된 확장 프로그램을 로드합니다.</translation>
 <translation id="8023801379949507775">지금 확장 프로그램 업데이트</translation>
@@ -4353,7 +4353,7 @@
 <translation id="742130257665691897">북마크 삭제됨</translation>
 <translation id="2785008241190445880">북마크가 변경됨</translation>
 <translation id="4320948194796820126">북마크할 이메일 선택</translation>
-<translation id="2950533317914339731">즐겨찾는 OneVN Software 앱에 책갈피를 추가합니다.</translation>
+<translation id="2950533317914339731">즐겨찾는 Onevn Software 앱에 책갈피를 추가합니다.</translation>
 <translation id="3409785640040772790">지도</translation>
 <translation id="6709133671862442373">뉴스</translation>
 <translation id="995782501881226248">YouTube</translation>
@@ -4363,12 +4363,12 @@
 <translation id="4359717112757026264">도시 풍경</translation>
 <translation id="6691541770654083180">지구</translation>
 <translation id="5033266061063942743">기하학적 모양</translation>
-<translation id="239760341987199724">OneVN을 기본 브라우저로 설정</translation>
-<translation id="96037229054033864">OneVN Software 검색을 비롯한 OneVN Software 제품으로 스마트하게 탐색하세요</translation>
-<translation id="296137235951584143">나만의 OneVN 만들기</translation>
+<translation id="239760341987199724">Onevn을 기본 브라우저로 설정</translation>
+<translation id="96037229054033864">Onevn Software 검색을 비롯한 Onevn Software 제품으로 스마트하게 탐색하세요</translation>
+<translation id="296137235951584143">나만의 Onevn 만들기</translation>
 <translation id="3982375475032951137">몇 단계 만에 간단하게 브라우저를 설정하세요.</translation>
 <translation id="6972754398087986839">시작하기</translation>
-<translation id="3707821975049107110">이미 OneVN을 사용 중이신가요? 로그인하세요.</translation>
+<translation id="3707821975049107110">이미 Onevn을 사용 중이신가요? 로그인하세요.</translation>
 <translation id="1573150740912592860">진행 상황 저장</translation>
 <translation id="567643736130151854">로그인 후 동기화를 사용 설정하여 모든 기기에서 내 북마크, 비밀번호 등을 사용하세요.</translation>
 <translation id="8282356762694872144">이메일로 이동하시겠습니까?</translation>
@@ -4377,7 +4377,7 @@
 <translation id="5877584842898320529">선택한 프린터가 사용할 수 없거나 제대로 설치되어 있지 않습니다. <ph name="BR"/> 프린터를 확인하거나 다른 프린터를 선택해 보세요.</translation>
 <translation id="1031362278801463162">미리보기 로드 중</translation>
 <translation id="6147020289383635445">인쇄 미리보기에 실패했습니다.</translation>
-<translation id="7413400642818115607">선택한 OneVN Software 클라우드 프린트 기기는 더 이상 지원되지 않습니다. <ph name="BR"/> 컴퓨터의 시스템 설정에서 프린터를 설정해 보세요.</translation>
+<translation id="7413400642818115607">선택한 Onevn Software 클라우드 프린트 기기는 더 이상 지원되지 않습니다. <ph name="BR"/> 컴퓨터의 시스템 설정에서 프린터를 설정해 보세요.</translation>
 <translation id="5828633471261496623">인쇄 중...</translation>
 <translation id="6295855836753816081">저장 중...</translation>
 <translation id="3587482841069643663">전체</translation>
@@ -4394,7 +4394,7 @@
 <translation id="3706463572498736864">시트당 페이지 수</translation>
 <translation id="2249605167705922988">예: 1-5, 8, 11-13</translation>
 <translation id="5746169159649715125">PDF로 저장</translation>
-<translation id="1955272076204612657">OneVN Software 드라이브에 저장</translation>
+<translation id="1955272076204612657">Onevn Software 드라이브에 저장</translation>
 <translation id="2580924999637585241">합계: <ph name="NUMBER_OF_SHEETS"/><ph name="SHEETS_LABEL"/></translation>
 <translation id="4091434297613116013">장</translation>
 <translation id="8813811964357448561">장</translation>
@@ -4423,7 +4423,7 @@
 <translation id="6991665348624301627">대상 선택</translation>
 <translation id="8800004011501252845">해당 목적지 사용자 표시</translation>
 <translation id="8996526648899750015">계정 추가...</translation>
-<translation id="5002959368039764681">OneVN Software 문서도구 또는 기타 클라우드 대상으로 인쇄합니다. OneVN Software 클라우드 프린트로 인쇄하려면 <ph name="BEGIN_LINK"/>로그인<ph name="END_LINK"/>하세요.</translation>
+<translation id="5002959368039764681">Onevn Software 문서도구 또는 기타 클라우드 대상으로 인쇄합니다. Onevn Software 클라우드 프린트로 인쇄하려면 <ph name="BEGIN_LINK"/>로그인<ph name="END_LINK"/>하세요.</translation>
 <translation id="2150139952286079145">대상 검색</translation>
 <translation id="8569682776816196752">목적지를 찾을 수 없음</translation>
 <translation id="7885253890047913815">최근 대상</translation>
@@ -4481,7 +4481,7 @@
 <translation id="7574650250151586813">텍스트를 입력하려면 Daydream 키보드 앱을 업데이트하세요.</translation>
 <translation id="983511809958454316">이 기능은 VR에서 지원되지 않습니다</translation>
 <translation id="4008291085758151621">VR에서 사이트 정보를 사용할 수 없습니다</translation>
-<translation id="1439926347196400598">OneVN에서 오디오를 녹음하도록 허용하시겠습니까?</translation>
+<translation id="1439926347196400598">Onevn에서 오디오를 녹음하도록 허용하시겠습니까?</translation>
 <translation id="6313641880021325787">VR 종료</translation>
 <translation id="2670429602441959756">이 페이지에는 아직 VR에서 지원되지 않는 기능이 있습니다. 종료합니다...</translation>
 <translation id="1802687198411089702">페이지가 응답하지 않습니다. 페이지가 응답할 때까지 기다리거나 종료할 수 있습니다.</translation>

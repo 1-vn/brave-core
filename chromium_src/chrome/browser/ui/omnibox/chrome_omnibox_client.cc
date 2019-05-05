@@ -4,7 +4,7 @@
 
 #include "onevn/browser/autocomplete/onevn_autocomplete_provider_client.h"
 
-#define ChromeAutocompleteProviderClient OneVNAutocompleteProviderClient
+#define ChromeAutocompleteProviderClient OnevnAutocompleteProviderClient
 #include "../../../../../../chrome/browser/ui/omnibox/chrome_omnibox_client.cc"
 #undef ChromeAutocompleteProviderClient
 

@@ -15,16 +15,16 @@ PROGNAME=onevn
 INSTALLDIR=/opt/1-vn.com/onevn
 
 # Display string for desktop menu/icon.
-MENUNAME="OneVN Web Browser"
+MENUNAME="Onevn Web Browser"
 
 # Brief package description.
-SHORTDESC="The web browser from OneVN"
+SHORTDESC="The web browser from Onevn"
 
 # Detailed package description.
 FULLDESC="Browse faster by blocking ads and trackers that violate your privacy and cost you time and money."
 
 # Package maintainer information.
-MAINTNAME="OneVN Software"
+MAINTNAME="Onevn Software"
 MAINTMAIL="support+laptop@1-vn.com"
 PRODUCTURL="https://1-vn.com/"
 VERSION=$(cat $BUILDDIR/version | tr -d 'v,')

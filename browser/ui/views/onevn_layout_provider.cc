@@ -6,7 +6,7 @@
 
 #include "ui/views/layout/layout_provider.h"
 
-int OneVNLayoutProvider::GetCornerRadiusMetric(
+int OnevnLayoutProvider::GetCornerRadiusMetric(
     views::EmphasisMetric emphasis_metric,
     const gfx::Size& size) const {
   switch (emphasis_metric) {

@@ -12,13 +12,13 @@
 // a method that returns tool tip text that includes origin URL.
 // This class, however, doesn't inherit from DownloadItemModel because
 // DownloadItemView has a member of DownloadItemModel type. To use this
-// extended functionality, OneVNDownloadItemView will have this model as
+// extended functionality, OnevnDownloadItemView will have this model as
 // a member.
-class OneVNDownloadItemModel {
+class OnevnDownloadItemModel {
  public:
-  // Constructs a OneVNDownloadItemModel that encapsulates DownloadItemModel.
-  explicit OneVNDownloadItemModel(DownloadUIModel& model);
-  ~OneVNDownloadItemModel();
+  // Constructs a OnevnDownloadItemModel that encapsulates DownloadItemModel.
+  explicit OnevnDownloadItemModel(DownloadUIModel& model);
+  ~OnevnDownloadItemModel();
 
   // Method that returns a string suitable for use as a tooltip. For
   // a regular download, the tooltip is the filename and the origin URL with an
@@ -37,7 +37,7 @@ class OneVNDownloadItemModel {
   // Reference to the encapsulated model.
   DownloadUIModel& model_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNDownloadItemModel);
+  DISALLOW_COPY_AND_ASSIGN(OnevnDownloadItemModel);
 };
 
 #endif

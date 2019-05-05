@@ -16,8 +16,8 @@ class Profile;
 
 namespace onevn_sync {
 
-class OneVNSyncClient;
-class OneVNSyncServiceObserver;
+class OnevnSyncClient;
+class OnevnSyncServiceObserver;
 class Settings;
 class SyncDevices;
 
@@ -25,10 +25,10 @@ bookmarks::BookmarkPermanentNodeList
 LoadExtraNodes(bookmarks::LoadExtraCallback callback, int64_t* next_node_id);
 bool IsSyncManagedNode(const bookmarks::BookmarkPermanentNode* node);
 
-class OneVNSyncService : public KeyedService {
+class OnevnSyncService : public KeyedService {
  public:
-  OneVNSyncService();
-  ~OneVNSyncService() override;
+  OnevnSyncService();
+  ~OnevnSyncService() override;
 
   typedef base::Callback<void(std::unique_ptr<onevn_sync::Settings>,
                               std::unique_ptr<onevn_sync::SyncDevices>)>
@@ -52,21 +52,21 @@ class OneVNSyncService : public KeyedService {
   virtual void OnSetSyncSavedSiteSettings(
       const bool sync_saved_site_settings) = 0;
 
-  void AddObserver(OneVNSyncServiceObserver* observer);
-  void RemoveObserver(OneVNSyncServiceObserver* observer);
+  void AddObserver(OnevnSyncServiceObserver* observer);
+  void RemoveObserver(OnevnSyncServiceObserver* observer);
 
   static bool is_enabled();
 
 #if BUILDFLAG(ENABLE_EXTENSIONS)
-  virtual OneVNSyncClient* GetSyncClient() = 0;
+  virtual OnevnSyncClient* GetSyncClient() = 0;
 #endif
 
 
  protected:
-  base::ObserverList<OneVNSyncServiceObserver> observers_;
+  base::ObserverList<OnevnSyncServiceObserver> observers_;
 
  private:
-  DISALLOW_COPY_AND_ASSIGN(OneVNSyncService);
+  DISALLOW_COPY_AND_ASSIGN(OnevnSyncService);
 };
 
 }  // namespace onevn_sync

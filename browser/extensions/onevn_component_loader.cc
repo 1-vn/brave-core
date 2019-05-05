@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -26,13 +26,13 @@
 namespace extensions {
 
 // static
-bool OneVNComponentLoader::IsPdfjsDisabled() {
+bool OnevnComponentLoader::IsPdfjsDisabled() {
   const base::CommandLine& command_line =
     *base::CommandLine::ForCurrentProcess();
   return command_line.HasSwitch(switches::kDisablePDFJSExtension);
 }
 
-OneVNComponentLoader::OneVNComponentLoader(
+OnevnComponentLoader::OnevnComponentLoader(
     ExtensionServiceInterface* extension_service,
     PrefService* profile_prefs,
     PrefService* local_state,
@@ -44,10 +44,10 @@ OneVNComponentLoader::OneVNComponentLoader(
   ObserveOpenPdfExternallySetting();
 }
 
-OneVNComponentLoader::~OneVNComponentLoader() {
+OnevnComponentLoader::~OnevnComponentLoader() {
 }
 
-void OneVNComponentLoader::OnComponentRegistered(std::string extension_id) {
+void OnevnComponentLoader::OnComponentRegistered(std::string extension_id) {
   ComponentsUI demand_updater;
   // This weird looking call is ok, it is just like this to not need
   // to patch for friend access.
@@ -55,7 +55,7 @@ void OneVNComponentLoader::OnComponentRegistered(std::string extension_id) {
       extension_id);
 }
 
-void OneVNComponentLoader::OnComponentReady(std::string extension_id,
+void OnevnComponentLoader::OnComponentReady(std::string extension_id,
     bool allow_file_access,
     const base::FilePath& install_dir,
     const std::string& manifest) {
@@ -66,35 +66,35 @@ void OneVNComponentLoader::OnComponentReady(std::string extension_id,
   }
 }
 
-void OneVNComponentLoader::AddExtension(const std::string& extension_id,
+void OnevnComponentLoader::AddExtension(const std::string& extension_id,
     const std::string& name, const std::string& public_key) {
   onevn::RegisterComponent(g_browser_process->component_updater(),
     name,
     public_key,
-    base::Bind(&OneVNComponentLoader::OnComponentRegistered,
+    base::Bind(&OnevnComponentLoader::OnComponentRegistered,
         base::Unretained(this), extension_id),
-    base::Bind(&OneVNComponentLoader::OnComponentReady,
+    base::Bind(&OnevnComponentLoader::OnComponentReady,
         base::Unretained(this), extension_id, true));
 }
 
-void OneVNComponentLoader::AddHangoutServicesExtension() {
+void OnevnComponentLoader::AddHangoutServicesExtension() {
   if (!profile_prefs_->FindPreference(kHangoutsEnabled) ||
       profile_prefs_->GetBoolean(kHangoutsEnabled)) {
     ForceAddHangoutServicesExtension();
   }
 }
 
-void OneVNComponentLoader::ForceAddHangoutServicesExtension() {
+void OnevnComponentLoader::ForceAddHangoutServicesExtension() {
   ComponentLoader::AddHangoutServicesExtension();
 }
 
-void OneVNComponentLoader::AddDefaultComponentExtensions(
+void OnevnComponentLoader::AddDefaultComponentExtensions(
     bool skip_session_components) {
   ComponentLoader::AddDefaultComponentExtensions(skip_session_components);
 
   const base::CommandLine& command_line =
       *base::CommandLine::ForCurrentProcess();
-  if (!command_line.HasSwitch(switches::kDisableOneVNExtension)) {
+  if (!command_line.HasSwitch(switches::kDisableOnevnExtension)) {
     base::FilePath onevn_extension_path(FILE_PATH_LITERAL(""));
     onevn_extension_path =
         onevn_extension_path.Append(FILE_PATH_LITERAL("onevn_extension"));
@@ -108,7 +108,7 @@ void OneVNComponentLoader::AddDefaultComponentExtensions(
   }
 
 #if BUILDFLAG(ONEVN_REWARDS_ENABLED)
-  if (!command_line.HasSwitch(switches::kDisableOneVNRewardsExtension)) {
+  if (!command_line.HasSwitch(switches::kDisableOnevnRewardsExtension)) {
     base::FilePath onevn_rewards_path(FILE_PATH_LITERAL(""));
     onevn_rewards_path =
         onevn_rewards_path.Append(FILE_PATH_LITERAL("onevn_rewards"));
@@ -126,19 +126,19 @@ void OneVNComponentLoader::AddDefaultComponentExtensions(
   }
 }
 
-void OneVNComponentLoader::ObserveOpenPdfExternallySetting() {
+void OnevnComponentLoader::ObserveOpenPdfExternallySetting() {
   // Observe the setting change only in regular profiles since the PDF settings
   // page is not available in Guest/Tor profiles.
   DCHECK(profile_ && profile_prefs_);
   if (!profile_->IsGuestSession()) {
     registrar_.Init(profile_prefs_);
     registrar_.Add(prefs::kPluginsAlwaysOpenPdfExternally,
-      base::Bind(&OneVNComponentLoader::UpdatePdfExtension,
+      base::Bind(&OnevnComponentLoader::UpdatePdfExtension,
         base::Unretained(this)));
   }
 }
 
-void OneVNComponentLoader::UpdatePdfExtension(const std::string& pref_name) {
+void OnevnComponentLoader::UpdatePdfExtension(const std::string& pref_name) {
   DCHECK(pref_name == prefs::kPluginsAlwaysOpenPdfExternally);
   DCHECK(profile_prefs_);
   if (profile_prefs_->GetBoolean(prefs::kPluginsAlwaysOpenPdfExternally) ||
@@ -154,7 +154,7 @@ void OneVNComponentLoader::UpdatePdfExtension(const std::string& pref_name) {
   }
 }
 
-void OneVNComponentLoader::set_testing_callbacks(
+void OnevnComponentLoader::set_testing_callbacks(
     TestingCallbacks* testing_callbacks) {
   testing_callbacks_ = testing_callbacks;
 }

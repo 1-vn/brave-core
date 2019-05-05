@@ -29,10 +29,10 @@ ui::NativeTheme* GetNativeThemeForWindow(aura::Window* window) {
   }
 
   // Use the appropriate native theme for the color mode pref
-  OneVNThemeType active_builtin_theme =
-                            OneVNThemeService::GetActiveOneVNThemeType(profile);
+  OnevnThemeType active_builtin_theme =
+                            OnevnThemeService::GetActiveOnevnThemeType(profile);
   const bool dark_mode = (
-      active_builtin_theme == OneVNThemeType::ONEVN_THEME_TYPE_DARK ||
+      active_builtin_theme == OnevnThemeType::ONEVN_THEME_TYPE_DARK ||
       profile->GetProfileType() == Profile::INCOGNITO_PROFILE ||
       profile->IsTorProfile());
   if (dark_mode &&
@@ -45,7 +45,7 @@ ui::NativeTheme* GetNativeThemeForWindow(aura::Window* window) {
 
 }
 
-void OneVNBrowserMainExtraPartsViewsLinux::PreEarlyInitialization() {
+void OnevnBrowserMainExtraPartsViewsLinux::PreEarlyInitialization() {
   views::LinuxUI* gtk_ui = BuildGtkUi();
   gtk_ui->SetNativeThemeOverride(base::Bind(&GetNativeThemeForWindow));
   views::LinuxUI::SetInstance(gtk_ui);

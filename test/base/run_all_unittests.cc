@@ -17,7 +17,7 @@
 #endif
 
 int main(int argc, char **argv) {
-  content::UnitTestTestSuite test_suite(new OneVNUnitTestSuite(argc, argv));
+  content::UnitTestTestSuite test_suite(new OnevnUnitTestSuite(argc, argv));
 
   base::TestIOThread test_io_thread(base::TestIOThread::kAutoStart);
   mojo::core::ScopedIPCSupport ipc_support(

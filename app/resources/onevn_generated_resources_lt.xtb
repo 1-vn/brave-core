@@ -1,26 +1,26 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="lt">
-<translation id="3333887201479867589">„OneVN Rewards“</translation>
-<translation id="7942180974165298215">„OneVN Ad Block“</translation>
+<translation id="3333887201479867589">„Onevn Rewards“</translation>
+<translation id="7942180974165298215">„Onevn Ad Block“</translation>
 <translation id="6406506848690869874">Sinchronizavimas</translation>
-<translation id="120759863357279975"><ph name="EXTENSION_NAME">$1</ph> (plėtinio ID "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") nėra leidžiamas naršyklėje „OneVN“.</translation>
+<translation id="120759863357279975"><ph name="EXTENSION_NAME">$1</ph> (plėtinio ID "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") nėra leidžiamas naršyklėje „Onevn“.</translation>
 <translation id="7450557937477381864">Užverti „Chrome“</translation>
 <translation id="7008934821596358692">Kad užbaigtumėte importuoti, užverkite visus „Chrome“ langus.</translation>
-<translation id="5735465527556462863">Užverti „OneVN“ (senąją)</translation>
-<translation id="7737066986958447692">Kad baigtumėte importuoti, užverkite visus „OneVN“ (senosios) langus.</translation>
+<translation id="5735465527556462863">Užverti „Onevn“ (senąją)</translation>
+<translation id="7737066986958447692">Kad baigtumėte importuoti, užverkite visus „Onevn“ (senosios) langus.</translation>
 <translation id="6447842834002726250">Slapukai</translation>
 <translation id="4983925687993168579">Statistika</translation>
-<translation id="6165477144235978006">„OneVN“ mokėjimai</translation>
+<translation id="6165477144235978006">„Onevn“ mokėjimai</translation>
 <translation id="3489524616427966890">Atidaryti langai ir skirtukai</translation>
 <translation id="3699882589215410581">Įdiekite ir paleiskite „Widevine“</translation>
 <translation id="8053096063396012732">Diegti „Widevine“</translation>
 <translation id="4840334696217618631">Paleiskite naršyklę iš naujo, kad „Widevine“ pradėtų veikti</translation>
-<translation id="8410111618231938546">„Google Widevine“ yra skaitmeninio teisių valdymo (DRM) kodo elementas, kuris nepriklauso „OneVN Software“ ir todėl negalime jo patikrinti. „Google Widevine“ kodas įkeliamas iš „Google“ serverių, o ne iš mūsų serverių. Jis įkeliamas tik tada, kai aktyvinate šią parinktį. Mes neskatiname naudoti DRM, bet gerbiame naudotojų pasirinkimą ir pripažįstame, kad kai kurie „OneVN“ naudotojai nori naudotis paslaugomis, kurioms DRM yra reikalingas.
+<translation id="8410111618231938546">„Google Widevine“ yra skaitmeninio teisių valdymo (DRM) kodo elementas, kuris nepriklauso „Onevn Software“ ir todėl negalime jo patikrinti. „Google Widevine“ kodas įkeliamas iš „Google“ serverių, o ne iš mūsų serverių. Jis įkeliamas tik tada, kai aktyvinate šią parinktį. Mes neskatiname naudoti DRM, bet gerbiame naudotojų pasirinkimą ir pripažįstame, kad kai kurie „Onevn“ naudotojai nori naudotis paslaugomis, kurioms DRM yra reikalingas.
 
-Įdiegdami šį plėtinį sutinkate su „Google Widevine“ naudojimo sąlygomis. Sutinkate, kad „OneVN“ nebus atsakinga už jokią žalą ar nuostolius, patirtus dėl naudojimosi „Google Widevine“.</translation>
-<translation id="6499845530162974140">„OneVN“ (senoji)</translation>
-<translation id="3198814717959506569">Importuota iš „OneVN“</translation>
+Įdiegdami šį plėtinį sutinkate su „Google Widevine“ naudojimo sąlygomis. Sutinkate, kad „Onevn“ nebus atsakinga už jokią žalą ar nuostolius, patirtus dėl naudojimosi „Google Widevine“.</translation>
+<translation id="6499845530162974140">„Onevn“ (senoji)</translation>
+<translation id="3198814717959506569">Importuota iš „Onevn“</translation>
 <translation id="453977518730680921">Automatiškai leisti mediją</translation>
 <translation id="410351446219883937">Leisti automatiškai</translation>
 <translation id="2240268017737062801">Paklausti, kai svetainė nori automatiškai leisti mediją</translation>
@@ -28,25 +28,25 @@
 <translation id="3218385319396786393">Šiame puslapyje automatinio leidimo funkcija buvo užblokuota</translation>
 <translation id="4988333904713528597">Visada leisti automatinį leidimą svetainėje <ph name="HOST">$1<ex>mail.google.com</ex></ph></translation>
 <translation id="4150684676757176434">Toliau blokuoti automatinį leidimą</translation>
-<translation id="7543906827780734027">„OneVN“ dar neperžiūrėjo šio plėtinio – jis gali būti kenkėjiškas. Ar vis tiek pridėti „<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>“?</translation>
-<translation id="2044383478723007273">„OneVN“ spalvos</translation>
+<translation id="7543906827780734027">„Onevn“ dar neperžiūrėjo šio plėtinio – jis gali būti kenkėjiškas. Ar vis tiek pridėti „<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>“?</translation>
+<translation id="2044383478723007273">„Onevn“ spalvos</translation>
 <translation id="5341901626640816374">Naudoti plačią buvimo vietos juostą</translation>
-<translation id="6123134130710658846">Slėpti mygtuką „OneVN Rewards“</translation>
-<translation id="7635711399568194460">Jei funkcija „OneVN Rewards“ neįjungta, buvimo vietos juostoje esantį mygtuką „OneVN Rewards“ paslėpti</translation>
+<translation id="6123134130710658846">Slėpti mygtuką „Onevn Rewards“</translation>
+<translation id="7635711399568194460">Jei funkcija „Onevn Rewards“ neįjungta, buvimo vietos juostoje esantį mygtuką „Onevn Rewards“ paslėpti</translation>
 <translation id="7965178729203412357">Nauja „Tor“ tapatybė</translation>
 <translation id="8784924142044142231">Išeiti iš „Tor“</translation>
 <translation id="5410152065859052603">„Tor“</translation>
 <translation id="3696187925156352769">Atverti „Tor“ langą</translation>
 <translation id="1434416574322382019">Naujas inkognito langas su „Tor“</translation>
 <translation id="4703780849509456860">Atverti nuorodą inkognito lange su „Tor“</translation>
-<translation id="3488584642074079080">Atverti nuorodą „OneVN“ inkognito lange su „Tor“</translation>
+<translation id="3488584642074079080">Atverti nuorodą „Onevn“ inkognito lange su „Tor“</translation>
 <translation id="6313675821927505581">Naujas privatus langas su Tor</translation>
 <translation id="2638041073279639246">Atidaryti saitą privačiame lange su Tor</translation>
-<translation id="3425600262621021599">Atidaryti saitą OneVN privačiame lange su Tor</translation>
+<translation id="3425600262621021599">Atidaryti saitą Onevn privačiame lange su Tor</translation>
 <translation id="3155170474926428993">„Tor“ paleidimo priemonė</translation>
 <translation id="2515126961943087659">„Bat Ads“ paslauga</translation>
 <translation id="7924918279836988121">BAT žurnalo paslauga</translation>
-<translation id="768979911142179781">„OneVN“ numatytieji skydai</translation>
+<translation id="768979911142179781">„Onevn“ numatytieji skydai</translation>
 <translation id="9185018653595759199">Socialinių tinklų mygtukai ir prisijungimo formos</translation>
 <translation id="6894114137169961038">Reklamos kontrolė</translation>
 <translation id="1096802265930928584">Slapukų kontrolė</translation>

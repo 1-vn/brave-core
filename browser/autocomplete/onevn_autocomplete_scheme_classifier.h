@@ -7,10 +7,10 @@
 
 #include "chrome/browser/autocomplete/chrome_autocomplete_scheme_classifier.h"
 
-class OneVNAutocompleteSchemeClassifier : public ChromeAutocompleteSchemeClassifier {
+class OnevnAutocompleteSchemeClassifier : public ChromeAutocompleteSchemeClassifier {
  public:
-  explicit OneVNAutocompleteSchemeClassifier(Profile* profile);
-  ~OneVNAutocompleteSchemeClassifier() override;
+  explicit OnevnAutocompleteSchemeClassifier(Profile* profile);
+  ~OnevnAutocompleteSchemeClassifier() override;
 
   metrics::OmniboxInputType GetInputTypeForScheme(
       const std::string& scheme) const override;
@@ -18,7 +18,7 @@ class OneVNAutocompleteSchemeClassifier : public ChromeAutocompleteSchemeClassif
  private:
   Profile* profile_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNAutocompleteSchemeClassifier);
+  DISALLOW_COPY_AND_ASSIGN(OnevnAutocompleteSchemeClassifier);
 };
 
 #endif  // ONEVN_BROWSER_AUTOCOMPLETE_ONEVN_AUTOCOMPLETE_SCHEME_CLASSIFIER_H_

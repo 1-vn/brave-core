@@ -67,7 +67,7 @@ void LocalDataFilesService::SetComponentIdAndBase64PublicKeyForTest(
 
 ///////////////////////////////////////////////////////////////////////////////
 
-// The onevn shields factory. Using the OneVN Shields as a singleton
+// The onevn shields factory. Using the Onevn Shields as a singleton
 // is the job of the browser process.
 std::unique_ptr<LocalDataFilesService> LocalDataFilesServiceFactory() {
   return std::make_unique<LocalDataFilesService>();

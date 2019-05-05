@@ -9,10 +9,10 @@
 
 // Subclass SpellingOptionsSubMenuObserver to override InitMenu so that we can
 // remove extaneous separator and disable the submenu if it ends up empty.
-class OneVNSpellingOptionsSubMenuObserver
+class OnevnSpellingOptionsSubMenuObserver
     : public SpellingOptionsSubMenuObserver {
  public:
-  OneVNSpellingOptionsSubMenuObserver(RenderViewContextMenuProxy* proxy,
+  OnevnSpellingOptionsSubMenuObserver(RenderViewContextMenuProxy* proxy,
                                       ui::SimpleMenuModel::Delegate* delegate,
                                       int group_id);
   void InitMenu(const content::ContextMenuParams& params) override;

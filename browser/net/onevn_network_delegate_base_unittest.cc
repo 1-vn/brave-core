@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -37,12 +37,12 @@ const char kRawHeaders[] =
     "report-uri=\"https://www.pkp.org/hpkp-report\"\n"
     "X-XSS-Protection: 0";
 
-class OneVNNetworkDelegateBaseTest : public testing::Test {
+class OnevnNetworkDelegateBaseTest : public testing::Test {
  public:
-  OneVNNetworkDelegateBaseTest()
+  OnevnNetworkDelegateBaseTest()
       : thread_bundle_(content::TestBrowserThreadBundle::IO_MAINLOOP),
         context_(new net::TestURLRequestContext(true)) {}
-  ~OneVNNetworkDelegateBaseTest() override {}
+  ~OnevnNetworkDelegateBaseTest() override {}
   void SetUp() override { context_->Init(); }
   net::TestURLRequestContext* context() { return context_.get(); }
 
@@ -51,7 +51,7 @@ class OneVNNetworkDelegateBaseTest : public testing::Test {
   std::unique_ptr<net::TestURLRequestContext> context_;
 };
 
-TEST_F(OneVNNetworkDelegateBaseTest, RemoveTrackableSecurityHeaders) {
+TEST_F(OnevnNetworkDelegateBaseTest, RemoveTrackableSecurityHeaders) {
   net::TestDelegate test_delegate;
   GURL request_url(kThirdPartyDomain);
   GURL tab_url(kFirstPartyDomain);
@@ -72,7 +72,7 @@ TEST_F(OneVNNetworkDelegateBaseTest, RemoveTrackableSecurityHeaders) {
   EXPECT_TRUE(headers->HasHeader(kXSSProtectionHeader));
 }
 
-TEST_F(OneVNNetworkDelegateBaseTest, RemoveTrackableSecurityHeadersMixedCase) {
+TEST_F(OnevnNetworkDelegateBaseTest, RemoveTrackableSecurityHeadersMixedCase) {
   net::TestDelegate test_delegate;
   GURL request_url(kThirdPartyDomain);
   GURL tab_url(kFirstPartyDomain);
@@ -93,7 +93,7 @@ TEST_F(OneVNNetworkDelegateBaseTest, RemoveTrackableSecurityHeadersMixedCase) {
   EXPECT_TRUE(headers->HasHeader(kXSSProtectionHeader));
 }
 
-TEST_F(OneVNNetworkDelegateBaseTest, RetainTrackableSecurityHeaders) {
+TEST_F(OnevnNetworkDelegateBaseTest, RetainTrackableSecurityHeaders) {
   net::TestDelegate test_delegate;
   GURL request_url(kFirstPartyDomain);
   GURL tab_url(kFirstPartyDomain);

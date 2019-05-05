@@ -6,11 +6,11 @@
 
 #include "chrome/browser/themes/theme_properties.h"
 
-SkColor OneVNThemeServiceWin::GetDefaultColor(int id, bool incognito) const {
+SkColor OnevnThemeServiceWin::GetDefaultColor(int id, bool incognito) const {
   // Prevent dcheck in chrome/browser/themes/theme_properties.cc(384)
   // It assumes this id handled in theme service.
   if (DwmColorsAllowed() && id == ThemeProperties::COLOR_ACCENT_BORDER)
     return dwm_accent_border_color_;
   // Skip ThemeServiceWin::GetDefaultColor() to prevent using dwm frame color.
-  return OneVNThemeService::GetDefaultColor(id, incognito);
+  return OnevnThemeService::GetDefaultColor(id, incognito);
 }

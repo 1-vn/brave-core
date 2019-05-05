@@ -7,10 +7,10 @@
 
 #include "chrome/browser/geolocation/geolocation_permission_context.h"
 
-class OneVNGeolocationPermissionContext : public GeolocationPermissionContext {
+class OnevnGeolocationPermissionContext : public GeolocationPermissionContext {
  public:
-  explicit OneVNGeolocationPermissionContext(Profile* profile);
-  ~OneVNGeolocationPermissionContext() override;
+  explicit OnevnGeolocationPermissionContext(Profile* profile);
+  ~OnevnGeolocationPermissionContext() override;
 
   void DecidePermission(content::WebContents* web_contents,
                         const PermissionRequestID& id,
@@ -20,7 +20,7 @@ class OneVNGeolocationPermissionContext : public GeolocationPermissionContext {
                         const BrowserPermissionCallback& callback) override;
 
  private:
-  DISALLOW_COPY_AND_ASSIGN(OneVNGeolocationPermissionContext);
+  DISALLOW_COPY_AND_ASSIGN(OnevnGeolocationPermissionContext);
 };
 
 #endif  // ONEVN_BROWSER_AUTOCOMPLETE_ONEVN_GEOLOCATION_PERMISSION_CONTEXT_H_

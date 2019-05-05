@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -44,11 +44,11 @@ namespace {
 // Content Settings are only sent to the main frame currently.
 // Chrome may fix this at some point, but for now we do this as a work-around.
 // You can verify if this is fixed by running the following test:
-// npm run test -- onevn_browser_tests --filter=OneVNContentSettingsObserverBrowserTest.*  // NOLINT
+// npm run test -- onevn_browser_tests --filter=OnevnContentSettingsObserverBrowserTest.*  // NOLINT
 // Chrome seems to also have a bug with RenderFrameHostChanged not updating
 // the content settings so this is fixed here too. That case is covered in
 // tests by:
-// npm run test -- onevn_browser_tests --filter=OneVNContentSettingsObserverBrowserTest.*  // NOLINT
+// npm run test -- onevn_browser_tests --filter=OnevnContentSettingsObserverBrowserTest.*  // NOLINT
 void UpdateContentSettingsToRendererFrames(content::WebContents* web_contents) {
   for (content::RenderFrameHost* frame : web_contents->GetAllFrames()) {
     Profile* profile =
@@ -100,46 +100,46 @@ WebContents* GetWebContents(
 
 namespace onevn_shields {
 
-base::Lock OneVNShieldsWebContentsObserver::frame_data_map_lock_;
-std::map<OneVNShieldsWebContentsObserver::RenderFrameIdKey, GURL>
-    OneVNShieldsWebContentsObserver::frame_key_to_tab_url_;
+base::Lock OnevnShieldsWebContentsObserver::frame_data_map_lock_;
+std::map<OnevnShieldsWebContentsObserver::RenderFrameIdKey, GURL>
+    OnevnShieldsWebContentsObserver::frame_key_to_tab_url_;
 std::map<int, GURL>
-    OneVNShieldsWebContentsObserver::frame_tree_node_id_to_tab_url_;
+    OnevnShieldsWebContentsObserver::frame_tree_node_id_to_tab_url_;
 
-OneVNShieldsWebContentsObserver::RenderFrameIdKey::RenderFrameIdKey()
+OnevnShieldsWebContentsObserver::RenderFrameIdKey::RenderFrameIdKey()
     : render_process_id(content::ChildProcessHost::kInvalidUniqueID),
       frame_routing_id(MSG_ROUTING_NONE) {}
 
-OneVNShieldsWebContentsObserver::RenderFrameIdKey::RenderFrameIdKey(
+OnevnShieldsWebContentsObserver::RenderFrameIdKey::RenderFrameIdKey(
     int render_process_id,
     int frame_routing_id)
     : render_process_id(render_process_id),
       frame_routing_id(frame_routing_id) {}
 
-bool OneVNShieldsWebContentsObserver::RenderFrameIdKey::operator<(
+bool OnevnShieldsWebContentsObserver::RenderFrameIdKey::operator<(
     const RenderFrameIdKey& other) const {
   return std::tie(render_process_id, frame_routing_id) <
          std::tie(other.render_process_id, other.frame_routing_id);
 }
 
-bool OneVNShieldsWebContentsObserver::RenderFrameIdKey::operator==(
+bool OnevnShieldsWebContentsObserver::RenderFrameIdKey::operator==(
     const RenderFrameIdKey& other) const {
   return render_process_id == other.render_process_id &&
          frame_routing_id == other.frame_routing_id;
 }
 
-OneVNShieldsWebContentsObserver::~OneVNShieldsWebContentsObserver() {
+OnevnShieldsWebContentsObserver::~OnevnShieldsWebContentsObserver() {
 }
 
-OneVNShieldsWebContentsObserver::OneVNShieldsWebContentsObserver(
+OnevnShieldsWebContentsObserver::OnevnShieldsWebContentsObserver(
     WebContents* web_contents)
     : WebContentsObserver(web_contents) {
 }
 
-void OneVNShieldsWebContentsObserver::RenderFrameCreated(
+void OnevnShieldsWebContentsObserver::RenderFrameCreated(
     RenderFrameHost* rfh) {
   if (rfh && allowed_script_origins_.size()) {
-    rfh->Send(new OneVNFrameMsg_AllowScriptsOnce(
+    rfh->Send(new OnevnFrameMsg_AllowScriptsOnce(
           rfh->GetRoutingID(), allowed_script_origins_));
   }
 
@@ -155,7 +155,7 @@ void OneVNShieldsWebContentsObserver::RenderFrameCreated(
   }
 }
 
-void OneVNShieldsWebContentsObserver::RenderFrameDeleted(
+void OnevnShieldsWebContentsObserver::RenderFrameDeleted(
     RenderFrameHost* rfh) {
   base::AutoLock lock(frame_data_map_lock_);
   const RenderFrameIdKey key(rfh->GetProcess()->GetID(), rfh->GetRoutingID());
@@ -163,7 +163,7 @@ void OneVNShieldsWebContentsObserver::RenderFrameDeleted(
   frame_tree_node_id_to_tab_url_.erase(rfh->GetFrameTreeNodeId());
 }
 
-void OneVNShieldsWebContentsObserver::RenderFrameHostChanged(
+void OnevnShieldsWebContentsObserver::RenderFrameHostChanged(
     RenderFrameHost* old_host, RenderFrameHost* new_host) {
   if (old_host) {
     RenderFrameDeleted(old_host);
@@ -173,7 +173,7 @@ void OneVNShieldsWebContentsObserver::RenderFrameHostChanged(
   }
 }
 
-void OneVNShieldsWebContentsObserver::DidFinishNavigation(
+void OnevnShieldsWebContentsObserver::DidFinishNavigation(
     content::NavigationHandle* navigation_handle) {
   RenderFrameHost* main_frame = web_contents()->GetMainFrame();
   if (!web_contents() || !main_frame) {
@@ -189,7 +189,7 @@ void OneVNShieldsWebContentsObserver::DidFinishNavigation(
 }
 
 // static
-GURL OneVNShieldsWebContentsObserver::GetTabURLFromRenderFrameInfo(
+GURL OnevnShieldsWebContentsObserver::GetTabURLFromRenderFrameInfo(
     int render_process_id, int render_frame_id, int render_frame_tree_node_id) {
   base::AutoLock lock(frame_data_map_lock_);
   if (-1 != render_process_id && -1 != render_frame_id) {
@@ -208,18 +208,18 @@ GURL OneVNShieldsWebContentsObserver::GetTabURLFromRenderFrameInfo(
   return GURL();
 }
 
-bool OneVNShieldsWebContentsObserver::IsBlockedSubresource(
+bool OnevnShieldsWebContentsObserver::IsBlockedSubresource(
     const std::string& subresource) {
   return blocked_url_paths_.find(subresource) != blocked_url_paths_.end();
 }
 
-void OneVNShieldsWebContentsObserver::AddBlockedSubresource(
+void OnevnShieldsWebContentsObserver::AddBlockedSubresource(
     const std::string& subresource) {
   blocked_url_paths_.insert(subresource);
 }
 
 // static
-void OneVNShieldsWebContentsObserver::DispatchBlockedEvent(
+void OnevnShieldsWebContentsObserver::DispatchBlockedEvent(
     std::string block_type,
     std::string subresource,
     int render_process_id,
@@ -232,8 +232,8 @@ void OneVNShieldsWebContentsObserver::DispatchBlockedEvent(
   DispatchBlockedEventForWebContents(block_type, subresource, web_contents);
 
   if (web_contents) {
-    OneVNShieldsWebContentsObserver* observer =
-        OneVNShieldsWebContentsObserver::FromWebContents(web_contents);
+    OnevnShieldsWebContentsObserver* observer =
+        OnevnShieldsWebContentsObserver::FromWebContents(web_contents);
     if (observer &&
         !observer->IsBlockedSubresource(subresource)) {
       observer->AddBlockedSubresource(subresource);
@@ -261,7 +261,7 @@ void OneVNShieldsWebContentsObserver::DispatchBlockedEvent(
 }
 
 // static
-void OneVNShieldsWebContentsObserver::DispatchBlockedEventForWebContents(
+void OnevnShieldsWebContentsObserver::DispatchBlockedEventForWebContents(
     const std::string& block_type, const std::string& subresource,
     WebContents* web_contents) {
   if (!web_contents) {
@@ -286,21 +286,21 @@ void OneVNShieldsWebContentsObserver::DispatchBlockedEventForWebContents(
   }
 }
 
-bool OneVNShieldsWebContentsObserver::OnMessageReceived(
+bool OnevnShieldsWebContentsObserver::OnMessageReceived(
     const IPC::Message& message, RenderFrameHost* render_frame_host) {
   bool handled = true;
-  IPC_BEGIN_MESSAGE_MAP_WITH_PARAM(OneVNShieldsWebContentsObserver,
+  IPC_BEGIN_MESSAGE_MAP_WITH_PARAM(OnevnShieldsWebContentsObserver,
         message, render_frame_host)
-    IPC_MESSAGE_HANDLER(OneVNViewHostMsg_JavaScriptBlocked,
+    IPC_MESSAGE_HANDLER(OnevnViewHostMsg_JavaScriptBlocked,
         OnJavaScriptBlockedWithDetail)
-    IPC_MESSAGE_HANDLER(OneVNViewHostMsg_FingerprintingBlocked,
+    IPC_MESSAGE_HANDLER(OnevnViewHostMsg_FingerprintingBlocked,
         OnFingerprintingBlockedWithDetail)
     IPC_MESSAGE_UNHANDLED(handled = false)
   IPC_END_MESSAGE_MAP()
   return handled;
 }
 
-void OneVNShieldsWebContentsObserver::OnJavaScriptBlockedWithDetail(
+void OnevnShieldsWebContentsObserver::OnJavaScriptBlockedWithDetail(
     RenderFrameHost* render_frame_host,
     const base::string16& details) {
   WebContents* web_contents =
@@ -312,7 +312,7 @@ void OneVNShieldsWebContentsObserver::OnJavaScriptBlockedWithDetail(
       base::UTF16ToUTF8(details), web_contents);
 }
 
-void OneVNShieldsWebContentsObserver::OnFingerprintingBlockedWithDetail(
+void OnevnShieldsWebContentsObserver::OnFingerprintingBlockedWithDetail(
     RenderFrameHost* render_frame_host,
     const base::string16& details) {
   WebContents* web_contents =
@@ -325,7 +325,7 @@ void OneVNShieldsWebContentsObserver::OnFingerprintingBlockedWithDetail(
 }
 
 // static
-void OneVNShieldsWebContentsObserver::RegisterProfilePrefs(
+void OnevnShieldsWebContentsObserver::RegisterProfilePrefs(
     PrefRegistrySimple* registry) {
   registry->RegisterUint64Pref(kAdsBlocked, 0);
   registry->RegisterUint64Pref(kTrackersBlocked, 0);
@@ -334,7 +334,7 @@ void OneVNShieldsWebContentsObserver::RegisterProfilePrefs(
   registry->RegisterUint64Pref(kFingerprintingBlocked, 0);
 }
 
-void OneVNShieldsWebContentsObserver::ReadyToCommitNavigation(
+void OnevnShieldsWebContentsObserver::ReadyToCommitNavigation(
     content::NavigationHandle* navigation_handle) {
   // when the main frame navigate away
   if (navigation_handle->IsInMainFrame() &&
@@ -345,15 +345,15 @@ void OneVNShieldsWebContentsObserver::ReadyToCommitNavigation(
   }
 
   navigation_handle->GetWebContents()->SendToAllFrames(
-      new OneVNFrameMsg_AllowScriptsOnce(
+      new OnevnFrameMsg_AllowScriptsOnce(
         MSG_ROUTING_NONE, allowed_script_origins_));
 }
 
-void OneVNShieldsWebContentsObserver::AllowScriptsOnce(
+void OnevnShieldsWebContentsObserver::AllowScriptsOnce(
     const std::vector<std::string>& origins, WebContents* contents) {
   allowed_script_origins_ = std::move(origins);
 }
 
-WEB_CONTENTS_USER_DATA_KEY_IMPL(OneVNShieldsWebContentsObserver)
+WEB_CONTENTS_USER_DATA_KEY_IMPL(OnevnShieldsWebContentsObserver)
 
 }  // namespace onevn_shields

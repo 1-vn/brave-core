@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -108,22 +108,22 @@ void AdblockDOMHandler::HandleUpdateCustomFilters(const base::ListValue* args) {
 
 }  // namespace
 
-OneVNAdblockUI::OneVNAdblockUI(content::WebUI* web_ui, const std::string& name)
-    : BasicUI(web_ui, name, kOneVNAdblockGenerated,
-        kOneVNAdblockGeneratedSize, IDR_ONEVN_ADBLOCK_HTML) {
+OnevnAdblockUI::OnevnAdblockUI(content::WebUI* web_ui, const std::string& name)
+    : BasicUI(web_ui, name, kOnevnAdblockGenerated,
+        kOnevnAdblockGeneratedSize, IDR_ONEVN_ADBLOCK_HTML) {
   Profile* profile = Profile::FromWebUI(web_ui);
   PrefService* prefs = profile->GetPrefs();
   pref_change_registrar_ = std::make_unique<PrefChangeRegistrar>();
   pref_change_registrar_->Init(prefs);
   pref_change_registrar_->Add(kAdsBlocked,
-    base::Bind(&OneVNAdblockUI::OnPreferenceChanged, base::Unretained(this)));
+    base::Bind(&OnevnAdblockUI::OnPreferenceChanged, base::Unretained(this)));
   web_ui->AddMessageHandler(std::make_unique<AdblockDOMHandler>());
 }
 
-OneVNAdblockUI::~OneVNAdblockUI() {
+OnevnAdblockUI::~OnevnAdblockUI() {
 }
 
-void OneVNAdblockUI::CustomizeWebUIProperties(
+void OnevnAdblockUI::CustomizeWebUIProperties(
     content::RenderViewHost* render_view_host) {
   DCHECK(IsSafeToSetWebUIProperties());
   Profile* profile = Profile::FromWebUI(web_ui());
@@ -134,13 +134,13 @@ void OneVNAdblockUI::CustomizeWebUIProperties(
   }
 }
 
-void OneVNAdblockUI::UpdateWebUIProperties() {
+void OnevnAdblockUI::UpdateWebUIProperties() {
   if (IsSafeToSetWebUIProperties()) {
     CustomizeWebUIProperties(GetRenderViewHost());
     web_ui()->CallJavascriptFunctionUnsafe("onevn_adblock.statsUpdated");
   }
 }
 
-void OneVNAdblockUI::OnPreferenceChanged() {
+void OnevnAdblockUI::OnPreferenceChanged() {
   UpdateWebUIProperties();
 }

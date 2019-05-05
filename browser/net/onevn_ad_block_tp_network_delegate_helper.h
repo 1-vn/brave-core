@@ -11,7 +11,7 @@ namespace onevn {
 
 int OnBeforeURLRequest_AdBlockTPPreWork(
     const ResponseCallback& next_callback,
-    std::shared_ptr<OneVNRequestInfo> ctx);
+    std::shared_ptr<OnevnRequestInfo> ctx);
 
 bool GetPolyfillForAdBlock(bool allow_onevn_shields, bool allow_ads,
     const GURL& tab_origin, const GURL& gurl, std::string* new_url_spec);

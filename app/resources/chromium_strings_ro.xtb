@@ -1,278 +1,278 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="ro">
-<translation id="5194812628624740897">Dacă deconectați utilizatorul <ph name="USERNAME"/>, vor fi șterse istoricul, marcajele, setările și alte date OneVN salvate pe acest dispozitiv. Datele salvate în Contul OneVN Software nu vor fi șterse și pot fi gestionate din <ph name="GOOGLE_DASHBOARD_LINK"/>Tabloul de bord OneVN Software<ph name="END_GOOGLE_DASHBOARD_LINK"/>.</translation>
-<translation id="939305735877869636">OneVN</translation>
-<translation id="6373767849825830651">OneVN este un browser web care rulează pagini web și aplicații cu viteza fulgerului. Este rapid, stabil și ușor de utilizat. Navigați pe web în condiții de mai multă siguranță, beneficiind de o protecție sporită, încorporată în OneVN, împotriva programelor malware și a tentativelor de phishing.</translation>
-<translation id="680297041157509674">Sistemul de operare OneVN</translation>
-<translation id="4847979153841887006">Sigla OneVN</translation>
+<translation id="5194812628624740897">Dacă deconectați utilizatorul <ph name="USERNAME"/>, vor fi șterse istoricul, marcajele, setările și alte date Onevn salvate pe acest dispozitiv. Datele salvate în Contul Onevn Software nu vor fi șterse și pot fi gestionate din <ph name="GOOGLE_DASHBOARD_LINK"/>Tabloul de bord Onevn Software<ph name="END_GOOGLE_DASHBOARD_LINK"/>.</translation>
+<translation id="939305735877869636">Onevn</translation>
+<translation id="6373767849825830651">Onevn este un browser web care rulează pagini web și aplicații cu viteza fulgerului. Este rapid, stabil și ușor de utilizat. Navigați pe web în condiții de mai multă siguranță, beneficiind de o protecție sporită, încorporată în Onevn, împotriva programelor malware și a tentativelor de phishing.</translation>
+<translation id="680297041157509674">Sistemul de operare Onevn</translation>
+<translation id="4847979153841887006">Sigla Onevn</translation>
 <translation id="7339898014177206373">Fereastră nouă</translation>
-<translation id="5935964611177478118">conectează-te la OneVN</translation>
-<translation id="5516268345616100622">Manager de activități - OneVN</translation>
-<translation id="7918740962659365265">Contribuie la îmbunătățirea proiectului OneVN trimițând la OneVN Software rapoarte de blocare și <ph name="UMA_LINK"/></translation>
-<translation id="5381622442243174305"><ph name="PAGE_TITLE"/> - OneVN</translation>
-<translation id="7830723774663008396">OneVN – <ph name="PAGE_TITLE"/></translation>
-<translation id="1403270718080126244"><ph name="PAGE_TITLE"/> – OneVN Beta</translation>
-<translation id="3943696263619956191"><ph name="PAGE_TITLE"/> – OneVN pentru dezvoltatori</translation>
-<translation id="6236814935154483927"><ph name="PAGE_TITLE"/> – OneVN Canary</translation>
-<translation id="4685833011652060085">Obțineți ajutor în legătură cu utilizarea OneVN</translation>
-<translation id="6474707902830053522">Obțineți ajutor în legătură cu utilizarea sistemului de operare OneVN</translation>
-<translation id="8992261409816268381">The OneVN Authors</translation>
-<translation id="4651430425715739110">Copyright <ph name="YEAR"/> The OneVN Authors. Toate drepturile rezervate.</translation>
-<translation id="2310890394934209120">La realizarea sistemului de operare OneVN au contribuit și alte programe <ph name="BEGIN_LINK_CROS_OSS"/>software open source<ph name="END_LINK_CROS_OSS"/>.</translation>
-<translation id="8160794320557846790">Sistemul de operare OneVN este posibil datorită unui <ph name="BEGIN_LINK_CROS_OSS"/>software open source<ph name="END_LINK_CROS_OSS"/> suplimentar, cum ar fi <ph name="BEGIN_LINK_LINUX_OSS"/>Linux (Beta)<ph name="END_LINK_LINUX_OSS"/>.</translation>
-<translation id="6913582816347128893">Este posibil ca OneVN să nu funcționeze corespunzător, deoarece nu mai este acceptat pe Mac OS X 10.9.</translation>
-<translation id="7977787072794666032">Este posibil ca OneVN să nu funcționeze corespunzător, deoarece nu mai este acceptat pe Windows XP sau Windows Vista</translation>
-<translation id="189297655255130768">OneVN nu mai răspunde. Îl reporniți acum?</translation>
-<translation id="8703492925273919597">Închideți toate ferestrele OneVN și încercați din nou.</translation>
-<translation id="335632367599648646">Sigur doriți să dezinstalați OneVN?</translation>
-<translation id="5590013613412457132">Dezinstalați OneVN</translation>
-<translation id="5019879183386042809">Setați OneVN ca browser prestabilit</translation>
-<translation id="5063987220091207247">Sistemul de operare OneVN nu poate deschide pagina.</translation>
-<translation id="4065288863231444640">Permite OneVN să ruleze în fundal</translation>
-<translation id="6797402139308059782">Permiteți OneVN să ruleze în fundal</translation>
-<translation id="2585240446624043880">OneVN nu poate citi și scrie în directorul propriu de date:
+<translation id="5935964611177478118">conectează-te la Onevn</translation>
+<translation id="5516268345616100622">Manager de activități - Onevn</translation>
+<translation id="7918740962659365265">Contribuie la îmbunătățirea proiectului Onevn trimițând la Onevn Software rapoarte de blocare și <ph name="UMA_LINK"/></translation>
+<translation id="5381622442243174305"><ph name="PAGE_TITLE"/> - Onevn</translation>
+<translation id="7830723774663008396">Onevn – <ph name="PAGE_TITLE"/></translation>
+<translation id="1403270718080126244"><ph name="PAGE_TITLE"/> – Onevn Beta</translation>
+<translation id="3943696263619956191"><ph name="PAGE_TITLE"/> – Onevn pentru dezvoltatori</translation>
+<translation id="6236814935154483927"><ph name="PAGE_TITLE"/> – Onevn Canary</translation>
+<translation id="4685833011652060085">Obțineți ajutor în legătură cu utilizarea Onevn</translation>
+<translation id="6474707902830053522">Obțineți ajutor în legătură cu utilizarea sistemului de operare Onevn</translation>
+<translation id="8992261409816268381">The Onevn Authors</translation>
+<translation id="4651430425715739110">Copyright <ph name="YEAR"/> The Onevn Authors. Toate drepturile rezervate.</translation>
+<translation id="2310890394934209120">La realizarea sistemului de operare Onevn au contribuit și alte programe <ph name="BEGIN_LINK_CROS_OSS"/>software open source<ph name="END_LINK_CROS_OSS"/>.</translation>
+<translation id="8160794320557846790">Sistemul de operare Onevn este posibil datorită unui <ph name="BEGIN_LINK_CROS_OSS"/>software open source<ph name="END_LINK_CROS_OSS"/> suplimentar, cum ar fi <ph name="BEGIN_LINK_LINUX_OSS"/>Linux (Beta)<ph name="END_LINK_LINUX_OSS"/>.</translation>
+<translation id="6913582816347128893">Este posibil ca Onevn să nu funcționeze corespunzător, deoarece nu mai este acceptat pe Mac OS X 10.9.</translation>
+<translation id="7977787072794666032">Este posibil ca Onevn să nu funcționeze corespunzător, deoarece nu mai este acceptat pe Windows XP sau Windows Vista</translation>
+<translation id="189297655255130768">Onevn nu mai răspunde. Îl reporniți acum?</translation>
+<translation id="8703492925273919597">Închideți toate ferestrele Onevn și încercați din nou.</translation>
+<translation id="335632367599648646">Sigur doriți să dezinstalați Onevn?</translation>
+<translation id="5590013613412457132">Dezinstalați Onevn</translation>
+<translation id="5019879183386042809">Setați Onevn ca browser prestabilit</translation>
+<translation id="5063987220091207247">Sistemul de operare Onevn nu poate deschide pagina.</translation>
+<translation id="4065288863231444640">Permite Onevn să ruleze în fundal</translation>
+<translation id="6797402139308059782">Permiteți Onevn să ruleze în fundal</translation>
+<translation id="2585240446624043880">Onevn nu poate citi și scrie în directorul propriu de date:
 
 <ph name="USER_DATA_DIRECTORY"/></translation>
-<translation id="8417700129970341035">Opțional: contribuie la îmbunătățirea OneVN prin trimiterea automată de statistici privind utilizarea și rapoarte de blocare la OneVN Software.</translation>
-<translation id="1489465648257900784">Profilul dvs. nu poate fi utilizat, deoarece provine de la o versiune mai nouă a sistemului de operare OneVN.
+<translation id="8417700129970341035">Opțional: contribuie la îmbunătățirea Onevn prin trimiterea automată de statistici privind utilizarea și rapoarte de blocare la Onevn Software.</translation>
+<translation id="1489465648257900784">Profilul dvs. nu poate fi utilizat, deoarece provine de la o versiune mai nouă a sistemului de operare Onevn.
 
-Este posibil ca unele funcții să nu fie disponibile. Specificați un director de profil diferit sau utilizați o versiune mai nouă de OneVN.</translation>
+Este posibil ca unele funcții să nu fie disponibile. Specificați un director de profil diferit sau utilizați o versiune mai nouă de Onevn.</translation>
 <translation id="1065672644894730302">Preferințele dvs. nu pot fi citite. Este posibil ca unele funcții să nu fie disponibile, iar modificările aduse preferințelor nu vor fi salvate.</translation>
 <translation id="3403365884036456766">Fișierul de preferințe este fie deteriorat, fie nevalid.
 
-OneVN nu poate recupera setările.</translation>
-<translation id="1477146545787277177">Hopa! OneVN s-a închis cu eroare. Reporniți acum?</translation>
-<translation id="5785919770853225148">OneVN va salva parola în Contul tău OneVN Software. Nu va trebui să o reții.</translation>
-<translation id="113959764510199339">OneVN încearcă să afișeze parolele.</translation>
-<translation id="7503098128120083822">OneVN vrea să îți exporte parolele.</translation>
-<translation id="8285294305439559616">OneVN încearcă să afișeze parolele. Pentru a permite acest lucru, introduceți parola pentru Windows.</translation>
-<translation id="5918095577778020936">OneVN vrea să îți exporte parolele. Pentru a permite asta, introdu parola pentru Windows.</translation>
-<translation id="8320964054148936490">Acest computer are deja o versiune mai recentă de OneVN. Dacă software-ul nu funcționează, dezinstalați OneVN și încercați din nou.</translation>
-<translation id="7691786510374174420">Instalarea a eșuat din cauza unei erori necunoscute. Dacă OneVN rulează în acest moment, închideți-l și încercați din nou.</translation>
-<translation id="2619516027171717873">Nu se poate instala aceeași versiune de OneVN care rulează în prezent. Închideți OneVN și încercați din nou.</translation>
-<translation id="6283840329609797763">Instalarea nu a reușit din cauza unei erori neprecizate. Descărcați OneVN din nou.</translation>
-<translation id="95624393026532554">OneVN necesită Windows 7 sau o versiune ulterioară.</translation>
-<translation id="7387051847644272380">S-a produs o eroare de sistem de operare în timpul instalării. Descărcați din nou OneVN.</translation>
-<translation id="1819119299840995223">O altă operație din OneVN este în curs de desfășurare. Încearcă din nou mai târziu.</translation>
+Onevn nu poate recupera setările.</translation>
+<translation id="1477146545787277177">Hopa! Onevn s-a închis cu eroare. Reporniți acum?</translation>
+<translation id="5785919770853225148">Onevn va salva parola în Contul tău Onevn Software. Nu va trebui să o reții.</translation>
+<translation id="113959764510199339">Onevn încearcă să afișeze parolele.</translation>
+<translation id="7503098128120083822">Onevn vrea să îți exporte parolele.</translation>
+<translation id="8285294305439559616">Onevn încearcă să afișeze parolele. Pentru a permite acest lucru, introduceți parola pentru Windows.</translation>
+<translation id="5918095577778020936">Onevn vrea să îți exporte parolele. Pentru a permite asta, introdu parola pentru Windows.</translation>
+<translation id="8320964054148936490">Acest computer are deja o versiune mai recentă de Onevn. Dacă software-ul nu funcționează, dezinstalați Onevn și încercați din nou.</translation>
+<translation id="7691786510374174420">Instalarea a eșuat din cauza unei erori necunoscute. Dacă Onevn rulează în acest moment, închideți-l și încercați din nou.</translation>
+<translation id="2619516027171717873">Nu se poate instala aceeași versiune de Onevn care rulează în prezent. Închideți Onevn și încercați din nou.</translation>
+<translation id="6283840329609797763">Instalarea nu a reușit din cauza unei erori neprecizate. Descărcați Onevn din nou.</translation>
+<translation id="95624393026532554">Onevn necesită Windows 7 sau o versiune ulterioară.</translation>
+<translation id="7387051847644272380">S-a produs o eroare de sistem de operare în timpul instalării. Descărcați din nou Onevn.</translation>
+<translation id="1819119299840995223">O altă operație din Onevn este în curs de desfășurare. Încearcă din nou mai târziu.</translation>
 <translation id="7747138024166251722">Programul de instalare nu a putut crea un director temporar. Verifică dacă există suficient spațiu liber și dacă ai drepturile necesare pentru a instala software-ul.</translation>
-<translation id="7365690458036015383">Programul de instalare nu a putut decomprima arhiva. Descărcați din nou OneVN.</translation>
-<translation id="6914496861676471566">Arhiva programului de instalare este deteriorată sau nevalidă. Descărcați din nou OneVN.</translation>
+<translation id="7365690458036015383">Programul de instalare nu a putut decomprima arhiva. Descărcați din nou Onevn.</translation>
+<translation id="6914496861676471566">Arhiva programului de instalare este deteriorată sau nevalidă. Descărcați din nou Onevn.</translation>
 <translation id="8862326446509486874">Nu ai drepturile adecvate pentru instalarea la nivel de sistem. Încearcă să rulezi din nou programul de instalare ca Administrator.</translation>
-<translation id="6666624454809779082">OneVN este instalat deja pentru toți utilizatorii de pe computerul tău.</translation>
+<translation id="6666624454809779082">Onevn este instalat deja pentru toți utilizatorii de pe computerul tău.</translation>
 <translation id="6676384891291319759">Accesează internetul</translation>
 <translation id="911206726377975832">Ștergi și datele de navigare?</translation>
 <translation id="2770231113462710648">Schimbă browserul prestabilit la:</translation>
 <translation id="2485422356828889247">Dezinstalează</translation>
-<translation id="3343095737966473035">OneVN nu este browserul prestabilit</translation>
-<translation id="6715663530666325392">Configurați sincronizarea pentru a salva funcțiile personalizate ale browserului pe web și accesați-le din OneVN de pe orice computer.</translation>
-<translation id="5536657158619734169">Este disponibilă o nouă versiune OneVN.</translation>
-<translation id="505042220086416644">Este disponibilă o nouă versiune OneVN, iar aceasta este mai rapidă ca oricând.</translation>
-<translation id="5616153642055197778">OneVN este disponibil într-o versiune nouă și mai sigură.</translation>
-<translation id="2301993384336631869">OneVN a fost actualizat, dar nu l-ați utilizat de cel puțin 30 de zile.</translation>
-<translation id="2106568569080763501">OneVN vă permite să dați clic pe un număr de telefon de pe web pentru a-l apela cu Skype!</translation>
-<translation id="5874882355102994015">OneVN nu poate afișa previzualizarea înainte de printare când vizualizatorul PDF încorporat lipsește.</translation>
-<translation id="8880183781256147665">Se adaugă la OneVN...</translation>
-<translation id="3561569806301739367">Este posibil ca <ph name="FILE_NAME"/> să fie periculos, așadar OneVN l-a blocat.</translation>
-<translation id="9067428552314418522">Fișierul este periculos, așadar OneVN l-a blocat.</translation>
-<translation id="4168372721886011198"><ph name="FILE_NAME"/> este periculos, așadar OneVN l-a blocat.</translation>
-<translation id="89367911614620585">Este posibil ca fișierul să fie periculos, așadar OneVN l-a blocat.</translation>
-<translation id="9183662282810237335">Ieși din OneVN oricum?</translation>
-<translation id="3834935463915107022">Ieși din OneVN oricum?</translation>
-<translation id="8797356639448065696">OneVN este în modul fundal.</translation>
-<translation id="2339258256897053758">Lipsesc chei pentru API-ul OneVN Software. Unele funcționalități OneVN vor fi dezactivate.</translation>
-<translation id="2182657378556811785">Aproape actualizat! Repornește OneVN pentru a finaliza actualizarea.</translation>
+<translation id="3343095737966473035">Onevn nu este browserul prestabilit</translation>
+<translation id="6715663530666325392">Configurați sincronizarea pentru a salva funcțiile personalizate ale browserului pe web și accesați-le din Onevn de pe orice computer.</translation>
+<translation id="5536657158619734169">Este disponibilă o nouă versiune Onevn.</translation>
+<translation id="505042220086416644">Este disponibilă o nouă versiune Onevn, iar aceasta este mai rapidă ca oricând.</translation>
+<translation id="5616153642055197778">Onevn este disponibil într-o versiune nouă și mai sigură.</translation>
+<translation id="2301993384336631869">Onevn a fost actualizat, dar nu l-ați utilizat de cel puțin 30 de zile.</translation>
+<translation id="2106568569080763501">Onevn vă permite să dați clic pe un număr de telefon de pe web pentru a-l apela cu Skype!</translation>
+<translation id="5874882355102994015">Onevn nu poate afișa previzualizarea înainte de printare când vizualizatorul PDF încorporat lipsește.</translation>
+<translation id="8880183781256147665">Se adaugă la Onevn...</translation>
+<translation id="3561569806301739367">Este posibil ca <ph name="FILE_NAME"/> să fie periculos, așadar Onevn l-a blocat.</translation>
+<translation id="9067428552314418522">Fișierul este periculos, așadar Onevn l-a blocat.</translation>
+<translation id="4168372721886011198"><ph name="FILE_NAME"/> este periculos, așadar Onevn l-a blocat.</translation>
+<translation id="89367911614620585">Este posibil ca fișierul să fie periculos, așadar Onevn l-a blocat.</translation>
+<translation id="9183662282810237335">Ieși din Onevn oricum?</translation>
+<translation id="3834935463915107022">Ieși din Onevn oricum?</translation>
+<translation id="8797356639448065696">Onevn este în modul fundal.</translation>
+<translation id="2339258256897053758">Lipsesc chei pentru API-ul Onevn Software. Unele funcționalități Onevn vor fi dezactivate.</translation>
+<translation id="2182657378556811785">Aproape actualizat! Repornește Onevn pentru a finaliza actualizarea.</translation>
 <translation id="5906655207909574370">Aproape actualizat! Repornește dispozitivul pentru a finaliza actualizarea.</translation>
 <translation id="5877064549588274448">Canalul a fost schimbat. Reporniți dispozitivul pentru a aplica modificările.</translation>
-<translation id="5131485705787281074">OneVN este actualizat.</translation>
+<translation id="5131485705787281074">Onevn este actualizat.</translation>
 <translation id="8667808506758191620">Dispozitivul <ph name="DEVICE_TYPE"/> este actualizat.</translation>
-<translation id="5047208012586153436">Se actualizează OneVN...</translation>
+<translation id="5047208012586153436">Se actualizează Onevn...</translation>
 <translation id="6970811910055250180">Se actualizează dispozitivul...</translation>
 <translation id="8030318113982266900">Se actualizează dispozitivul pentru canalul <ph name="CHANNEL_NAME"/>...</translation>
-<translation id="7861579472672677409">Extensia <ph name="EXTENSION_NAME"/> a fost adăugată la OneVN</translation>
-<translation id="8516116288943000095">Șterge și datele din OneVN (<ph name="URL"/>)</translation>
-<translation id="4054452651944170004">Ascunde în meniul OneVN</translation>
-<translation id="5660079256336839395">Ascunde în meniul OneVN</translation>
-<translation id="7456658570432774853">Contribuie la îmbunătățirea browserului OneVN raportând setările actuale</translation>
-<translation id="6134859571175647580">Avertisment: OneVN nu poate împiedica extensiile să înregistreze istoricul de navigare. Pentru a dezactiva această extensie în modul incognito, debifează această opțiune.</translation>
-<translation id="777113543093865885">Elimină din OneVN...</translation>
-<translation id="6078442581074612226">În OneVN</translation>
-<translation id="1448049584457347995">Pentru mai multă siguranță în OneVN, am dezactivat câteva extensii care nu sunt incluse în <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> și care este posibil să fi fost adăugate fără știrea dvs.</translation>
-<translation id="8848045066928358658">Pentru mai multă siguranță în OneVN, am dezactivat următoarea extensie care nu este inclusă în <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> și care este posibil să fi fost adăugată fără știrea ta.</translation>
-<translation id="8148611988012584308">Personalizați și controlați OneVN</translation>
-<translation id="5849446944780602366">Personalizează și controlează OneVN. Este disponibilă o actualizare.</translation>
-<translation id="6315734375101223238">Personalizează și controlează OneVN. Ceva are nevoie de atenția ta – dă clic pentru detalii.</translation>
-<translation id="9071554113102421877">&amp;Deschide în OneVN</translation>
-<translation id="2176825726964012531">Despre &amp;OneVN</translation>
-<translation id="5450493308072741203">Actualizați &amp;OneVN</translation>
-<translation id="1421502046520299169">Despre sistemul de operare &amp;OneVN</translation>
-<translation id="2534623228451928732">Actualizați sistemul de operare &amp;OneVN</translation>
-<translation id="8447483940522230788">OneVN Helper</translation>
-<translation id="3360368475735266712">Conectează-te pentru a sincroniza și a personaliza OneVN pe toate dispozitivele</translation>
-<translation id="5477319665405831211">Sincronizează și personalizează OneVN pe toate dispozitivele</translation>
-<translation id="4934157190377700991">Acum te-ai conectat la OneVN</translation>
-<translation id="4100716194836114130">Acesta este browserul dvs. OneVN</translation>
-<translation id="8296145982386097283">Folosești un computer în comun? Acum poți să configurezi OneVN exact cum îți place.</translation>
-<translation id="1672124279374861424">După ce eliminați contul din OneVN, poate fi necesar să reîncărcați filele deschise pentru ca schimbarea să se aplice.</translation>
-<translation id="9197493712748167998">În prezent, folosiți <ph name="PROFILE_EMAIL"/> pentru a sincroniza datele OneVN. Pentru a actualiza preferințele de sincronizare sau pentru a folosi OneVN fără un Cont OneVN Software, accesați <ph name="SETTINGS_LINK"/>.</translation>
-<translation id="8132634101975074716">V-ați conectat la OneVN!</translation>
+<translation id="7861579472672677409">Extensia <ph name="EXTENSION_NAME"/> a fost adăugată la Onevn</translation>
+<translation id="8516116288943000095">Șterge și datele din Onevn (<ph name="URL"/>)</translation>
+<translation id="4054452651944170004">Ascunde în meniul Onevn</translation>
+<translation id="5660079256336839395">Ascunde în meniul Onevn</translation>
+<translation id="7456658570432774853">Contribuie la îmbunătățirea browserului Onevn raportând setările actuale</translation>
+<translation id="6134859571175647580">Avertisment: Onevn nu poate împiedica extensiile să înregistreze istoricul de navigare. Pentru a dezactiva această extensie în modul incognito, debifează această opțiune.</translation>
+<translation id="777113543093865885">Elimină din Onevn...</translation>
+<translation id="6078442581074612226">În Onevn</translation>
+<translation id="1448049584457347995">Pentru mai multă siguranță în Onevn, am dezactivat câteva extensii care nu sunt incluse în <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> și care este posibil să fi fost adăugate fără știrea dvs.</translation>
+<translation id="8848045066928358658">Pentru mai multă siguranță în Onevn, am dezactivat următoarea extensie care nu este inclusă în <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> și care este posibil să fi fost adăugată fără știrea ta.</translation>
+<translation id="8148611988012584308">Personalizați și controlați Onevn</translation>
+<translation id="5849446944780602366">Personalizează și controlează Onevn. Este disponibilă o actualizare.</translation>
+<translation id="6315734375101223238">Personalizează și controlează Onevn. Ceva are nevoie de atenția ta – dă clic pentru detalii.</translation>
+<translation id="9071554113102421877">&amp;Deschide în Onevn</translation>
+<translation id="2176825726964012531">Despre &amp;Onevn</translation>
+<translation id="5450493308072741203">Actualizați &amp;Onevn</translation>
+<translation id="1421502046520299169">Despre sistemul de operare &amp;Onevn</translation>
+<translation id="2534623228451928732">Actualizați sistemul de operare &amp;Onevn</translation>
+<translation id="8447483940522230788">Onevn Helper</translation>
+<translation id="3360368475735266712">Conectează-te pentru a sincroniza și a personaliza Onevn pe toate dispozitivele</translation>
+<translation id="5477319665405831211">Sincronizează și personalizează Onevn pe toate dispozitivele</translation>
+<translation id="4934157190377700991">Acum te-ai conectat la Onevn</translation>
+<translation id="4100716194836114130">Acesta este browserul dvs. Onevn</translation>
+<translation id="8296145982386097283">Folosești un computer în comun? Acum poți să configurezi Onevn exact cum îți place.</translation>
+<translation id="1672124279374861424">După ce eliminați contul din Onevn, poate fi necesar să reîncărcați filele deschise pentru ca schimbarea să se aplice.</translation>
+<translation id="9197493712748167998">În prezent, folosiți <ph name="PROFILE_EMAIL"/> pentru a sincroniza datele Onevn. Pentru a actualiza preferințele de sincronizare sau pentru a folosi Onevn fără un Cont Onevn Software, accesați <ph name="SETTINGS_LINK"/>.</translation>
+<translation id="8132634101975074716">V-ați conectat la Onevn!</translation>
 <translation id="4567424176335768812">V-ați conectat ca <ph name="USER_EMAIL_ADDRESS"/>. Acum vă puteți accesa marcajele, istoricul și alte setări de pe toate dispozitivele pe care v-ați conectat.</translation>
-<translation id="6888049487162027489">Acum sunteți conectat(ă) la OneVN! Sincronizarea este dezactivată de administrator.</translation>
-<translation id="2925193881330501265">Ați fost conectat(ă) la OneVN ca <ph name="USER_EMAIL_ADDRESS"/>. Utilizați același cont pentru a vă conecta din nou.</translation>
-<translation id="386092803020435298">Un alt utilizator s-a conectat anterior la OneVN de pe acest computer ca <ph name="ACCOUNT_EMAIL_LAST"/>. Dacă acesta nu este contul dvs., creați un nou utilizator OneVN, pentru a vă păstra separat datele.
+<translation id="6888049487162027489">Acum sunteți conectat(ă) la Onevn! Sincronizarea este dezactivată de administrator.</translation>
+<translation id="2925193881330501265">Ați fost conectat(ă) la Onevn ca <ph name="USER_EMAIL_ADDRESS"/>. Utilizați același cont pentru a vă conecta din nou.</translation>
+<translation id="386092803020435298">Un alt utilizator s-a conectat anterior la Onevn de pe acest computer ca <ph name="ACCOUNT_EMAIL_LAST"/>. Dacă acesta nu este contul dvs., creați un nou utilizator Onevn, pentru a vă păstra separat datele.
 
-Dacă totuși vă conectați, informațiile OneVN cum ar fi marcajele, istoricul și alte setări vor fi îmbinate cu <ph name="ACCOUNT_EMAIL_NEW"/>.</translation>
-<translation id="847561904663814268">Un alt utilizator s-a conectat anterior la OneVN pe acest computer ca <ph name="ACCOUNT_EMAIL_LAST"/>. Creează un nou utilizator OneVN pentru a-ți păstra separat datele.</translation>
-<translation id="1853997773668795891">Vă conectați datele OneVN cu acest cont?</translation>
-<translation id="1326766910007115955">Vă conectați cu un cont gestionat și îi permiteți administratorului acestuia controlul asupra profilului dvs. OneVN. Datele OneVN, cum ar fi aplicațiile, marcajele, istoricul, parolele și alte setări vor fi asociate definitiv cu <ph name="USER_NAME"/>. Veți putea să ștergeți aceste date prin intermediul Tabloului de bord pentru Conturi OneVN Software, însă nu veți putea să asociați aceste date cu alt cont. <ph name="LEARN_MORE"/></translation>
-<translation id="650055380213106997">Vă conectați cu un cont gestionat și îi permiteți administratorului acestuia controlul asupra profilului dvs. OneVN. Datele OneVN, cum ar fi aplicațiile, marcajele, istoricul, parolele și alte setări vor fi asociate definitiv cu <ph name="USER_NAME"/>. Veți putea să ștergeți aceste date prin intermediul Tabloului de bord pentru Conturi OneVN Software, însă nu veți putea să asociați aceste date cu alt cont. Aveți opțiunea de a crea un profil nou, pentru a păstra separat datele OneVN existente. <ph name="LEARN_MORE"/></translation>
-<translation id="2444257125841652328">Administratorul de sistem a configurat OneVN să deschidă un browser secundar pentru a accesa <ph name="TARGET_URL_HOSTNAME"/>.</translation>
-<translation id="2591326305549412656"><ph name="USER_EMAIL_ADDRESS"/> a folosit OneVN anterior</translation>
-<translation id="1384923383737428730">Ai software dăunător pe computer. OneVN poate să îl elimine, să restabilească setările și să dezactiveze extensiile pentru ca browserul să funcționeze normal din nou.</translation>
-<translation id="8919921662052966648">OneVN nu a putut sincroniza datele. Actualizați expresia de acces pentru sincronizare.</translation>
-<translation id="2262856633481902138">OneVN nu a putut sincroniza datele, deoarece detaliile de conectare pentru contul dvs. nu sunt actualizate.</translation>
-<translation id="5419189641394808652">OneVN nu a putut sincroniza datele, deoarece sincronizarea nu este disponibilă pentru domeniul dvs.</translation>
-<translation id="2577755334620061182">OneVN nu a putut sincroniza datele din cauza unei erori la conectare.</translation>
-<translation id="8583885258305961947">Sistemul de operare OneVN</translation>
-<translation id="3968006371075376562">Sistemul de operare OneVN nu a putut sincroniza datele. Actualizați parola de acces pentru sincronizare.</translation>
-<translation id="6746636977031158624">Sistemul de operare OneVN nu a putut sincroniza datele, deoarece detaliile de conectare pentru contul dvs. nu sunt actualizate.</translation>
-<translation id="2999152167963026588">Sistemul de operare OneVN nu a putut sincroniza datele, deoarece sincronizarea nu este disponibilă pentru domeniul dvs.</translation>
-<translation id="1459786048951724030">Sistemul de operare OneVN nu a putut sincroniza datele din cauza unei erori la conectare.</translation>
-<translation id="2887570477425111999">Salvați detaliile în OneVN</translation>
-<translation id="193559141530782783">OneVN va stoca în siguranță detaliile personale, pentru a nu fi necesar să le introduci din nou.</translation>
-<translation id="663059986967017181">Copiat în OneVN</translation>
-<translation id="1457432835062259213">Lansatorul de aplicații OneVN</translation>
-<translation id="82609232232243542">Conectați-vă la OneVN</translation>
-<translation id="2924628237198507508">Trebuie să vă conectați la OneVN pentru a folosi aplicațiile. Astfel, OneVN vă poate sincroniza aplicațiile, marcajele, istoricul, parolele și alte setări pe toate dispozitivele.</translation>
-<translation id="380197516434040304">Elimină din OneVN...</translation>
-<translation id="300669147395456190">Aplicații OneVN</translation>
-<translation id="3421950102518690868"><ph name="DOMAIN"/> necesită să citiți și să acceptați Termenii și condițiile următoare înainte de a utiliza acest dispozitiv. Acești termeni nu extind, nu modifică și nu limitează Termenii pentru sistemul de operare OneVN.</translation>
-<translation id="3293668930608086049">OneVN utilizează camera foto și microfonul.</translation>
-<translation id="8919461291440820124">OneVN utilizează microfonul.</translation>
-<translation id="3205074487970075628">OneVN utilizează camera foto.</translation>
-<translation id="8142245354207161805">Profilul pare să fie utilizat de alt proces OneVN (<ph name="PROCESS_ID"/>), pe alt computer (<ph name="HOST_NAME"/>). OneVN a blocat profilul pentru a nu se deteriora. Dacă aveți certitudinea că profilul nu este utilizat de alte procese, puteți să îl deblocați și să relansați OneVN.</translation>
-<translation id="239760341987199724">Setați OneVN ca browser prestabilit</translation>
+Dacă totuși vă conectați, informațiile Onevn cum ar fi marcajele, istoricul și alte setări vor fi îmbinate cu <ph name="ACCOUNT_EMAIL_NEW"/>.</translation>
+<translation id="847561904663814268">Un alt utilizator s-a conectat anterior la Onevn pe acest computer ca <ph name="ACCOUNT_EMAIL_LAST"/>. Creează un nou utilizator Onevn pentru a-ți păstra separat datele.</translation>
+<translation id="1853997773668795891">Vă conectați datele Onevn cu acest cont?</translation>
+<translation id="1326766910007115955">Vă conectați cu un cont gestionat și îi permiteți administratorului acestuia controlul asupra profilului dvs. Onevn. Datele Onevn, cum ar fi aplicațiile, marcajele, istoricul, parolele și alte setări vor fi asociate definitiv cu <ph name="USER_NAME"/>. Veți putea să ștergeți aceste date prin intermediul Tabloului de bord pentru Conturi Onevn Software, însă nu veți putea să asociați aceste date cu alt cont. <ph name="LEARN_MORE"/></translation>
+<translation id="650055380213106997">Vă conectați cu un cont gestionat și îi permiteți administratorului acestuia controlul asupra profilului dvs. Onevn. Datele Onevn, cum ar fi aplicațiile, marcajele, istoricul, parolele și alte setări vor fi asociate definitiv cu <ph name="USER_NAME"/>. Veți putea să ștergeți aceste date prin intermediul Tabloului de bord pentru Conturi Onevn Software, însă nu veți putea să asociați aceste date cu alt cont. Aveți opțiunea de a crea un profil nou, pentru a păstra separat datele Onevn existente. <ph name="LEARN_MORE"/></translation>
+<translation id="2444257125841652328">Administratorul de sistem a configurat Onevn să deschidă un browser secundar pentru a accesa <ph name="TARGET_URL_HOSTNAME"/>.</translation>
+<translation id="2591326305549412656"><ph name="USER_EMAIL_ADDRESS"/> a folosit Onevn anterior</translation>
+<translation id="1384923383737428730">Ai software dăunător pe computer. Onevn poate să îl elimine, să restabilească setările și să dezactiveze extensiile pentru ca browserul să funcționeze normal din nou.</translation>
+<translation id="8919921662052966648">Onevn nu a putut sincroniza datele. Actualizați expresia de acces pentru sincronizare.</translation>
+<translation id="2262856633481902138">Onevn nu a putut sincroniza datele, deoarece detaliile de conectare pentru contul dvs. nu sunt actualizate.</translation>
+<translation id="5419189641394808652">Onevn nu a putut sincroniza datele, deoarece sincronizarea nu este disponibilă pentru domeniul dvs.</translation>
+<translation id="2577755334620061182">Onevn nu a putut sincroniza datele din cauza unei erori la conectare.</translation>
+<translation id="8583885258305961947">Sistemul de operare Onevn</translation>
+<translation id="3968006371075376562">Sistemul de operare Onevn nu a putut sincroniza datele. Actualizați parola de acces pentru sincronizare.</translation>
+<translation id="6746636977031158624">Sistemul de operare Onevn nu a putut sincroniza datele, deoarece detaliile de conectare pentru contul dvs. nu sunt actualizate.</translation>
+<translation id="2999152167963026588">Sistemul de operare Onevn nu a putut sincroniza datele, deoarece sincronizarea nu este disponibilă pentru domeniul dvs.</translation>
+<translation id="1459786048951724030">Sistemul de operare Onevn nu a putut sincroniza datele din cauza unei erori la conectare.</translation>
+<translation id="2887570477425111999">Salvați detaliile în Onevn</translation>
+<translation id="193559141530782783">Onevn va stoca în siguranță detaliile personale, pentru a nu fi necesar să le introduci din nou.</translation>
+<translation id="663059986967017181">Copiat în Onevn</translation>
+<translation id="1457432835062259213">Lansatorul de aplicații Onevn</translation>
+<translation id="82609232232243542">Conectați-vă la Onevn</translation>
+<translation id="2924628237198507508">Trebuie să vă conectați la Onevn pentru a folosi aplicațiile. Astfel, Onevn vă poate sincroniza aplicațiile, marcajele, istoricul, parolele și alte setări pe toate dispozitivele.</translation>
+<translation id="380197516434040304">Elimină din Onevn...</translation>
+<translation id="300669147395456190">Aplicații Onevn</translation>
+<translation id="3421950102518690868"><ph name="DOMAIN"/> necesită să citiți și să acceptați Termenii și condițiile următoare înainte de a utiliza acest dispozitiv. Acești termeni nu extind, nu modifică și nu limitează Termenii pentru sistemul de operare Onevn.</translation>
+<translation id="3293668930608086049">Onevn utilizează camera foto și microfonul.</translation>
+<translation id="8919461291440820124">Onevn utilizează microfonul.</translation>
+<translation id="3205074487970075628">Onevn utilizează camera foto.</translation>
+<translation id="8142245354207161805">Profilul pare să fie utilizat de alt proces Onevn (<ph name="PROCESS_ID"/>), pe alt computer (<ph name="HOST_NAME"/>). Onevn a blocat profilul pentru a nu se deteriora. Dacă aveți certitudinea că profilul nu este utilizat de alte procese, puteți să îl deblocați și să relansați Onevn.</translation>
+<translation id="239760341987199724">Setați Onevn ca browser prestabilit</translation>
 <translation id="5344925500065984750">Pentru a stabili ce site-uri poate accesa utilizatorul <ph name="NEW_PROFILE_NAME"/>, poți configura restricții și setări accesând <ph name="BEGIN_LINK_1"/><ph name="DISPLAY_LINK"/><ph name="END_LINK_1"/>. Dacă nu modifici setările prestabilite, utilizatorul <ph name="NEW_PROFILE_NAME"/> poate naviga oriunde pe web.
 
-Pentru a împiedica utilizatorul <ph name="NEW_PROFILE_NAME"/> să îți acceseze contul, asigură-te că îți blochezi profilul când nu folosești OneVN. Pentru a face acest lucru, dă clic pe numele de profil din colțul din dreapta sus al browserului și selectează „Ieși și blochează”.
+Pentru a împiedica utilizatorul <ph name="NEW_PROFILE_NAME"/> să îți acceseze contul, asigură-te că îți blochezi profilul când nu folosești Onevn. Pentru a face acest lucru, dă clic pe numele de profil din colțul din dreapta sus al browserului și selectează „Ieși și blochează”.
 <ph name="BEGIN_LINK_2"/>Află mai multe<ph name="END_LINK_2"/>
 
 Verifică e-mailul la <ph name="ACCOUNT_EMAIL"/> pentru instrucțiuni suplimentare.</translation>
-<translation id="1820843143331379651">Profilurile de utilizator monitorizat nu vor mai fi disponibile începând cu versiunea OneVN 70.</translation>
-<translation id="3066805437003400520">Datele de navigare ale acestei persoane vor fi șterse de pe dispozitiv. Pentru a recupera datele, conectează-te la OneVN ca <ph name="USER_EMAIL"/>.</translation>
-<translation id="2827121003398607864">OneVN a devenit și mai bun</translation>
-<translation id="7192666605334070839">Acum este mai ușor să folosiți OneVN cu Contul OneVN Software și pe computerele utilizate în comun.</translation>
-<translation id="3511996232906761537">Experiența web personalizată, marcajele și celelalte date OneVN chiar aici.</translation>
-<translation id="7406627712452599344">Invitații pot folosi OneVN fără a lăsa nicio urmă.</translation>
-<translation id="5659384504794665581">Dacă permiteți accesul la un computer, familia și prietenii pot să navigheze separat și să configureze OneVN cum doresc.</translation>
-<translation id="7130675370997202556">Dați clic pe numele dvs. pentru a deschide OneVN și a începe să navigați.</translation>
-<translation id="5952898964075639679">Adăugați-vă la OneVN</translation>
-<translation id="3813272600615358652">Această extensie a modificat ce pagină se afișează când pornești OneVN.</translation>
-<translation id="2576129394594491151">Extensia „<ph name="EXTENSION_NAME"/>” a modificat ce pagină se afișează când pornești OneVN.</translation>
-<translation id="2675662665675552980">Stabilește și ce pagină se afișează când porniți OneVN.</translation>
-<translation id="3215652305414474626">Stabilește și ce pagină se afișează când pornești OneVN sau când dai clic pe butonul Pagina principală.</translation>
-<translation id="2433912322225810055">Stabilește și ce pagină se afișează când porniți OneVN sau când căutați din caseta polivalentă.</translation>
-<translation id="2871190378186459992">Descoperă aplicații, jocuri, extensii și teme extraordinare pentru OneVN.</translation>
-<translation id="3350544518197210895">OneVN (mDNS-In)</translation>
-<translation id="1912973375560256099">Regula de intrare pentru OneVN pentru a permite traficul mDNS.</translation>
-<translation id="7276297358157391541">OneVN poate oferi o verificare a ortografiei mai inteligentă prin trimiterea textului introdus în browser la serverele OneVN Software, permițându-ți să folosești aceeași tehnologie de verificare a ortografiei folosită de Căutare OneVN Software.</translation>
-<translation id="1807774211756215222">Deschide linkul într-o &amp;filă OneVN nouă</translation>
-<translation id="4624945300945265642">Deschide linkul într-o fereastră OneVN inco&amp;gnito</translation>
-<translation id="7863882214613921971">Deschide linkul într-o &amp;filă OneVN nouă</translation>
-<translation id="6554952862405000915">Deschide linkul într-o fereastră OneVN inco&amp;gnito</translation>
-<translation id="4805806622840861220">Reporniți OneVN</translation>
-<translation id="2560046583427795596">Este disponibilă o nouă actualizare pentru OneVN, iar aceasta va fi aplicată după repornire.</translation>
+<translation id="1820843143331379651">Profilurile de utilizator monitorizat nu vor mai fi disponibile începând cu versiunea Onevn 70.</translation>
+<translation id="3066805437003400520">Datele de navigare ale acestei persoane vor fi șterse de pe dispozitiv. Pentru a recupera datele, conectează-te la Onevn ca <ph name="USER_EMAIL"/>.</translation>
+<translation id="2827121003398607864">Onevn a devenit și mai bun</translation>
+<translation id="7192666605334070839">Acum este mai ușor să folosiți Onevn cu Contul Onevn Software și pe computerele utilizate în comun.</translation>
+<translation id="3511996232906761537">Experiența web personalizată, marcajele și celelalte date Onevn chiar aici.</translation>
+<translation id="7406627712452599344">Invitații pot folosi Onevn fără a lăsa nicio urmă.</translation>
+<translation id="5659384504794665581">Dacă permiteți accesul la un computer, familia și prietenii pot să navigheze separat și să configureze Onevn cum doresc.</translation>
+<translation id="7130675370997202556">Dați clic pe numele dvs. pentru a deschide Onevn și a începe să navigați.</translation>
+<translation id="5952898964075639679">Adăugați-vă la Onevn</translation>
+<translation id="3813272600615358652">Această extensie a modificat ce pagină se afișează când pornești Onevn.</translation>
+<translation id="2576129394594491151">Extensia „<ph name="EXTENSION_NAME"/>” a modificat ce pagină se afișează când pornești Onevn.</translation>
+<translation id="2675662665675552980">Stabilește și ce pagină se afișează când porniți Onevn.</translation>
+<translation id="3215652305414474626">Stabilește și ce pagină se afișează când pornești Onevn sau când dai clic pe butonul Pagina principală.</translation>
+<translation id="2433912322225810055">Stabilește și ce pagină se afișează când porniți Onevn sau când căutați din caseta polivalentă.</translation>
+<translation id="2871190378186459992">Descoperă aplicații, jocuri, extensii și teme extraordinare pentru Onevn.</translation>
+<translation id="3350544518197210895">Onevn (mDNS-In)</translation>
+<translation id="1912973375560256099">Regula de intrare pentru Onevn pentru a permite traficul mDNS.</translation>
+<translation id="7276297358157391541">Onevn poate oferi o verificare a ortografiei mai inteligentă prin trimiterea textului introdus în browser la serverele Onevn Software, permițându-ți să folosești aceeași tehnologie de verificare a ortografiei folosită de Căutare Onevn Software.</translation>
+<translation id="1807774211756215222">Deschide linkul într-o &amp;filă Onevn nouă</translation>
+<translation id="4624945300945265642">Deschide linkul într-o fereastră Onevn inco&amp;gnito</translation>
+<translation id="7863882214613921971">Deschide linkul într-o &amp;filă Onevn nouă</translation>
+<translation id="6554952862405000915">Deschide linkul într-o fereastră Onevn inco&amp;gnito</translation>
+<translation id="4805806622840861220">Reporniți Onevn</translation>
+<translation id="2560046583427795596">Este disponibilă o nouă actualizare pentru Onevn, iar aceasta va fi aplicată după repornire.</translation>
 <translation id="2799223571221894425">Repornește</translation>
-<translation id="2522086024276534909">Repornește sistemul de operare OneVN</translation>
-<translation id="8183252473547465084">Pentru a se aplica actualizarea, sistemul de operare OneVN trebuie să fie repornit.</translation>
+<translation id="2522086024276534909">Repornește sistemul de operare Onevn</translation>
+<translation id="8183252473547465084">Pentru a se aplica actualizarea, sistemul de operare Onevn trebuie să fie repornit.</translation>
 <translation id="5895138241574237353">Reîncepe</translation>
-<translation id="5875673934455379806">Reinstalați OneVN</translation>
-<translation id="2097604701283463988">OneVN nu este actualizat</translation>
-<translation id="5173820533850252773">OneVN nu este actualizat</translation>
-<translation id="6389268239133412586">OneVN nu se poate actualiza</translation>
-<translation id="7963515534397191222">OneVN nu s-a putut actualiza la cea mai recentă versiune. Astfel, pierzi noi funcții și remedieri de securitate.</translation>
-<translation id="1705567146636171298">Actualizează OneVN</translation>
-<translation id="3598551856834560515">Actualizează OneVN pentru a începe sincronizarea</translation>
+<translation id="5875673934455379806">Reinstalați Onevn</translation>
+<translation id="2097604701283463988">Onevn nu este actualizat</translation>
+<translation id="5173820533850252773">Onevn nu este actualizat</translation>
+<translation id="6389268239133412586">Onevn nu se poate actualiza</translation>
+<translation id="7963515534397191222">Onevn nu s-a putut actualiza la cea mai recentă versiune. Astfel, pierzi noi funcții și remedieri de securitate.</translation>
+<translation id="1705567146636171298">Actualizează Onevn</translation>
+<translation id="3598551856834560515">Actualizează Onevn pentru a începe sincronizarea</translation>
 <translation id="4050175100176540509">În cea mai recentă versiune sunt disponibile îmbunătățiri de securitate și funcții noi importante.</translation>
-<translation id="2513524988380267210">{SECONDS,plural, =1{OneVN va reporni într-o secundă}few{OneVN va reporni în # secunde}other{OneVN va reporni în # de secunde}}</translation>
-<translation id="5509303873219371662">Îți recomandăm să repornești OneVN acum</translation>
-<translation id="8668413672647811944">Tocmai a fost aplicată o actualizare de securitate specială pentru OneVN. Repornește acum, iar filele vor fi restabilite.</translation>
-<translation id="763369711159699222">Să îmbunătățim OneVN</translation>
-<translation id="1156940037717341650">Puteți contribui la un produs OneVN mai sigur și mai ușor de folosit raportând automat la OneVN Software detaliile eventualelor incidente privind securitatea.</translation>
-<translation id="6791166902140255175">Fila OneVN</translation>
-<translation id="2555639463117073782">Repornește OneVN pentru a activa <ph name="PLUGIN_NAME"/></translation>
-<translation id="8899693649891674038">Instalează OneVN pe telefon. Vom trimite un SMS pe telefonul tău.</translation>
-<translation id="1570795130102031380">Instalează OneVN pe telefon. Vom trimite un SMS pe telefonul tău: <ph name="PHONE_NUMBER"/></translation>
-<translation id="1609678321160597289">Instalează OneVN pe telefon. Vom trimite un SMS la numărul de telefon de recuperare a contului.</translation>
-<translation id="2965084188004448871">Instalează OneVN pe telefon. Vom trimite un SMS la numărul de telefon de recuperare a contului: <ph name="PHONE_NUMBER"/></translation>
-<translation id="8358191771897395012">descarcă OneVN pe iPhone</translation>
-<translation id="2034072705932785495">OneVN are nevoie de permisiune ca să acceseze camera foto pentru acest site</translation>
-<translation id="3335606533094650083">OneVN are nevoie de permisiune ca să acceseze microfonul pentru acest site</translation>
-<translation id="4831743161813926460">OneVN are nevoie de permisiune ca să acceseze camera foto și microfonul pentru acest site</translation>
-<translation id="696826782632239602">OneVN are nevoie de acces la locația ta ca să permită accesul la locație pentru acest site</translation>
-<translation id="7798069806040634998">Pentru a descărca fișiere, OneVN necesită acces la stocare</translation>
-<translation id="7685904775439037072">Odată ce OneVN are acces, site-urile web îți vor putea solicita accesul.</translation>
-<translation id="5805364706385912897">Această pagină folosește prea multă memorie, prin urmare OneVN a întrerupt-o.</translation>
-<translation id="5138664332909611586">Această pagină folosește prea multă memorie, prin urmare OneVN a eliminat o parte din conținut.</translation>
-<translation id="1744365871163268756">Așteaptă până când OneVN instalează cele mai recente actualizări de sistem.</translation>
-<translation id="5693614905241031118">OneVN se actualizează automat, deci vei avea întotdeauna cea mai recentă versiune.</translation>
-<translation id="6141293433381251973">OneVN se actualizează automat, deci ai întotdeauna cea mai recentă versiune. După această descărcare, OneVN va reporni și va fi gata de utilizare.</translation>
-<translation id="7808415789955822133">Termeni pentru sistemul de operare OneVN</translation>
-<translation id="7207456302801184289">Bun venit la OneVN</translation>
-<translation id="5688839044908745927">OneVN este aproape configurat.</translation>
-<translation id="7758342895140862711">Ia OneVN pretutindeni</translation>
-<translation id="3610173904388112975">Navigare pe web cu ingeniozitatea OneVN Software</translation>
+<translation id="2513524988380267210">{SECONDS,plural, =1{Onevn va reporni într-o secundă}few{Onevn va reporni în # secunde}other{Onevn va reporni în # de secunde}}</translation>
+<translation id="5509303873219371662">Îți recomandăm să repornești Onevn acum</translation>
+<translation id="8668413672647811944">Tocmai a fost aplicată o actualizare de securitate specială pentru Onevn. Repornește acum, iar filele vor fi restabilite.</translation>
+<translation id="763369711159699222">Să îmbunătățim Onevn</translation>
+<translation id="1156940037717341650">Puteți contribui la un produs Onevn mai sigur și mai ușor de folosit raportând automat la Onevn Software detaliile eventualelor incidente privind securitatea.</translation>
+<translation id="6791166902140255175">Fila Onevn</translation>
+<translation id="2555639463117073782">Repornește Onevn pentru a activa <ph name="PLUGIN_NAME"/></translation>
+<translation id="8899693649891674038">Instalează Onevn pe telefon. Vom trimite un SMS pe telefonul tău.</translation>
+<translation id="1570795130102031380">Instalează Onevn pe telefon. Vom trimite un SMS pe telefonul tău: <ph name="PHONE_NUMBER"/></translation>
+<translation id="1609678321160597289">Instalează Onevn pe telefon. Vom trimite un SMS la numărul de telefon de recuperare a contului.</translation>
+<translation id="2965084188004448871">Instalează Onevn pe telefon. Vom trimite un SMS la numărul de telefon de recuperare a contului: <ph name="PHONE_NUMBER"/></translation>
+<translation id="8358191771897395012">descarcă Onevn pe iPhone</translation>
+<translation id="2034072705932785495">Onevn are nevoie de permisiune ca să acceseze camera foto pentru acest site</translation>
+<translation id="3335606533094650083">Onevn are nevoie de permisiune ca să acceseze microfonul pentru acest site</translation>
+<translation id="4831743161813926460">Onevn are nevoie de permisiune ca să acceseze camera foto și microfonul pentru acest site</translation>
+<translation id="696826782632239602">Onevn are nevoie de acces la locația ta ca să permită accesul la locație pentru acest site</translation>
+<translation id="7798069806040634998">Pentru a descărca fișiere, Onevn necesită acces la stocare</translation>
+<translation id="7685904775439037072">Odată ce Onevn are acces, site-urile web îți vor putea solicita accesul.</translation>
+<translation id="5805364706385912897">Această pagină folosește prea multă memorie, prin urmare Onevn a întrerupt-o.</translation>
+<translation id="5138664332909611586">Această pagină folosește prea multă memorie, prin urmare Onevn a eliminat o parte din conținut.</translation>
+<translation id="1744365871163268756">Așteaptă până când Onevn instalează cele mai recente actualizări de sistem.</translation>
+<translation id="5693614905241031118">Onevn se actualizează automat, deci vei avea întotdeauna cea mai recentă versiune.</translation>
+<translation id="6141293433381251973">Onevn se actualizează automat, deci ai întotdeauna cea mai recentă versiune. După această descărcare, Onevn va reporni și va fi gata de utilizare.</translation>
+<translation id="7808415789955822133">Termeni pentru sistemul de operare Onevn</translation>
+<translation id="7207456302801184289">Bun venit la Onevn</translation>
+<translation id="5688839044908745927">Onevn este aproape configurat.</translation>
+<translation id="7758342895140862711">Ia Onevn pretutindeni</translation>
+<translation id="3610173904388112975">Navigare pe web cu ingeniozitatea Onevn Software</translation>
 <translation id="3479552764303398839">Nu acum</translation>
-<translation id="8013374903356993822">Accesează OneVN mai rapid</translation>
-<translation id="7625138338483121345">Setează OneVN ca browser prestabilit</translation>
-<translation id="5927044791090834489">Fixează OneVN pe bara de activități</translation>
-<translation id="8933981935877469796">Selectează <ph name="SMALL_PRODUCT_LOGO"/> <ph name="BEGIN_BOLD"/>OneVN<ph name="END_BOLD"/></translation>
+<translation id="8013374903356993822">Accesează Onevn mai rapid</translation>
+<translation id="7625138338483121345">Setează Onevn ca browser prestabilit</translation>
+<translation id="5927044791090834489">Fixează Onevn pe bara de activități</translation>
+<translation id="8933981935877469796">Selectează <ph name="SMALL_PRODUCT_LOGO"/> <ph name="BEGIN_BOLD"/>Onevn<ph name="END_BOLD"/></translation>
 <translation id="1585657529869845941">Dă clic pe <ph name="BEGIN_BOLD"/>Comută oricum<ph name="END_BOLD"/>, dacă apare</translation>
-<translation id="3507835409099344374">Accesează setările pentru notificări OneVN</translation>
-<translation id="9118654140804842635">{0,plural, =0{Este disponibilă o actualizare OneVN}=1{Este disponibilă o actualizare OneVN}few{O actualizare OneVN este disponibilă de # zile}other{O actualizare OneVN este disponibilă de # de zile}}</translation>
-<translation id="720532315408041257">Administratorul solicită să relansezi OneVN pentru a aplica această actualizare</translation>
-<translation id="6639482638305253477">{0,plural, =1{Relansează OneVN în cel mult o zi}few{Relansează OneVN în cel mult # zile}other{Relansează OneVN în cel mult # de zile}}</translation>
-<translation id="656910845148850955">{0,plural, =1{OneVN se va relansa într-o oră}few{OneVN se va relansa în # ore}other{OneVN se va relansa în # de ore}}</translation>
-<translation id="2927768292099217319">{0,plural, =1{OneVN se va relansa într-un minut}few{OneVN se va relansa în # minute}other{OneVN se va relansa în # de minute}}</translation>
-<translation id="2124855793980950516">{0,plural, =0{OneVN se va relansa acum}=1{OneVN se va relansa într-o secundă}few{OneVN se va relansa în # secunde}other{OneVN se va relansa în # de secunde}}</translation>
-<translation id="7595187113648413294">Administratorul solicită să relansezi OneVN pentru a aplica o actualizare</translation>
-<translation id="56801943271475640">{0,plural, =0{Este disponibilă o actualizare a sistemului de operare OneVN}=1{Este disponibilă o actualizare a sistemului de operare OneVN}few{O actualizare a sistemului de operare OneVN este disponibilă de # zile}other{O actualizare a sistemului de operare OneVN este disponibilă de # de zile}}</translation>
-<translation id="5715362474140341294">Administratorul solicită să repornești sistemul de operare OneVN pentru a aplica această actualizare</translation>
-<translation id="8094834892392729950">{0,plural, =1{Repornește sistemul de operare OneVN în cel mult o zi}few{Repornește sistemul de operare OneVN în cel mult # zile}other{Repornește sistemul de operare OneVN în cel mult # de zile}}</translation>
-<translation id="1265795866000813420">{0,plural, =1{Sistemul de operare OneVN va reporni într-o oră}few{Sistemul de operare OneVN va reporni în # ore}other{Sistemul de operare OneVN va reporni în # de ore}}</translation>
-<translation id="2031312345409605311">{0,plural, =1{Sistemul de operare OneVN va reporni într-un minut}few{Sistemul de operare OneVN va reporni în # minute}other{Sistemul de operare OneVN va reporni în # de minute}}</translation>
-<translation id="8624602604153953835">{0,plural, =0{Sistemul de operare OneVN va reporni acum}=1{Sistemul de operare OneVN va reporni într-o secundă}few{Sistemul de operare OneVN va reporni în # secunde}other{Sistemul de operare OneVN va reporni în # de secunde}}</translation>
-<translation id="8559452515617838628">Administratorul solicită să repornești sistemul de operare OneVN pentru a aplica o actualizare</translation>
-<translation id="3052349005266761501">Se lansează OneVN...</translation>
-<translation id="1197672524850678392">OneVN nu a putut fi lansat. Încearcă din nou.</translation>
+<translation id="3507835409099344374">Accesează setările pentru notificări Onevn</translation>
+<translation id="9118654140804842635">{0,plural, =0{Este disponibilă o actualizare Onevn}=1{Este disponibilă o actualizare Onevn}few{O actualizare Onevn este disponibilă de # zile}other{O actualizare Onevn este disponibilă de # de zile}}</translation>
+<translation id="720532315408041257">Administratorul solicită să relansezi Onevn pentru a aplica această actualizare</translation>
+<translation id="6639482638305253477">{0,plural, =1{Relansează Onevn în cel mult o zi}few{Relansează Onevn în cel mult # zile}other{Relansează Onevn în cel mult # de zile}}</translation>
+<translation id="656910845148850955">{0,plural, =1{Onevn se va relansa într-o oră}few{Onevn se va relansa în # ore}other{Onevn se va relansa în # de ore}}</translation>
+<translation id="2927768292099217319">{0,plural, =1{Onevn se va relansa într-un minut}few{Onevn se va relansa în # minute}other{Onevn se va relansa în # de minute}}</translation>
+<translation id="2124855793980950516">{0,plural, =0{Onevn se va relansa acum}=1{Onevn se va relansa într-o secundă}few{Onevn se va relansa în # secunde}other{Onevn se va relansa în # de secunde}}</translation>
+<translation id="7595187113648413294">Administratorul solicită să relansezi Onevn pentru a aplica o actualizare</translation>
+<translation id="56801943271475640">{0,plural, =0{Este disponibilă o actualizare a sistemului de operare Onevn}=1{Este disponibilă o actualizare a sistemului de operare Onevn}few{O actualizare a sistemului de operare Onevn este disponibilă de # zile}other{O actualizare a sistemului de operare Onevn este disponibilă de # de zile}}</translation>
+<translation id="5715362474140341294">Administratorul solicită să repornești sistemul de operare Onevn pentru a aplica această actualizare</translation>
+<translation id="8094834892392729950">{0,plural, =1{Repornește sistemul de operare Onevn în cel mult o zi}few{Repornește sistemul de operare Onevn în cel mult # zile}other{Repornește sistemul de operare Onevn în cel mult # de zile}}</translation>
+<translation id="1265795866000813420">{0,plural, =1{Sistemul de operare Onevn va reporni într-o oră}few{Sistemul de operare Onevn va reporni în # ore}other{Sistemul de operare Onevn va reporni în # de ore}}</translation>
+<translation id="2031312345409605311">{0,plural, =1{Sistemul de operare Onevn va reporni într-un minut}few{Sistemul de operare Onevn va reporni în # minute}other{Sistemul de operare Onevn va reporni în # de minute}}</translation>
+<translation id="8624602604153953835">{0,plural, =0{Sistemul de operare Onevn va reporni acum}=1{Sistemul de operare Onevn va reporni într-o secundă}few{Sistemul de operare Onevn va reporni în # secunde}other{Sistemul de operare Onevn va reporni în # de secunde}}</translation>
+<translation id="8559452515617838628">Administratorul solicită să repornești sistemul de operare Onevn pentru a aplica o actualizare</translation>
+<translation id="3052349005266761501">Se lansează Onevn...</translation>
+<translation id="1197672524850678392">Onevn nu a putut fi lansat. Încearcă din nou.</translation>
 <translation id="6040143037577758943">Închide</translation>
-<translation id="8541922081612557424">Despre OneVN</translation>
-<translation id="3262506503470845422">Obține ajutor privind OneVN</translation>
-<translation id="1864557848095568223">OneVN se actualizează</translation>
-<translation id="1786715389543715322">OneVN se actualizează (<ph name="PROGRESS_PERCENT"/>)</translation>
-<translation id="8208853227947884571">OneVN este actualizat</translation>
-<translation id="6686872257969654608">Despre sistemul de operare OneVN</translation>
-<translation id="2280363356796735201">Obține ajutor privind sistemul de operare OneVN</translation>
-<translation id="5253815230176279256">OneVN Software Pay (copiat în OneVN)</translation>
-<translation id="5468853758063275923">OneVN este browserul prestabilit</translation>
-<translation id="1775322105159056176">OneVN nu poate determina sau seta browserul prestabilit</translation>
-<translation id="6915252145142862992">Aceasta este o instalare secundară a browserului OneVN și nu poate fi setat ca browser prestabilit.</translation>
-<translation id="7977435741986383568">Este posibil ca OneVN să folosească servicii web pentru a-ți îmbunătăți experiența de navigare. Poți să dezactivezi aceste servicii. <ph name="BEGIN_LINK"/>Află mai multe<ph name="END_LINK"/></translation>
-<translation id="2312399718665761438">Pentru a corecta erorile de scriere, OneVN trimite la OneVN Software textul pe care îl introduci în câmpurile de text</translation>
-<translation id="8586264863973514035">Pentru a aplica modificările, relansează OneVN</translation>
-<translation id="7021823858304886493">Permite conectarea la OneVN</translation>
-<translation id="1649714546770135458">Dacă dezactivezi, te poți conecta la site-uri OneVN Software ca Gmail fără a te conecta la OneVN</translation>
-<translation id="9220324636239049437">Astfel, se va șterge 1 element de pe acest dispozitiv. Pentru a recupera datele mai târziu, conectează-te la OneVN ca <ph name="USER_EMAIL"/>.</translation>
-<translation id="5853262807109651878">Astfel, se vor șterge <ph name="ITEMS_COUNT"/> elemente de pe acest dispozitiv. Pentru a recupera datele mai târziu, conectează-te la OneVN ca <ph name="USER_EMAIL"/>.</translation>
-<translation id="4784414698887946907">Astfel, se vor șterge datele de navigare de pe acest dispozitiv. Pentru a recupera datele mai târziu, conectează-te la OneVN ca <ph name="USER_EMAIL"/>.</translation>
-<translation id="4518479204315969707">Numele și imaginea profilului OneVN</translation>
-<translation id="8372880274820509128">Pentru un plus de securitate, OneVN îți va cripta datele.</translation>
-<translation id="7445061995866044926">Te deconectezi de la OneVN?</translation>
-<translation id="7453070689008684791">OneVN îți va accesa spațiul de stocare Drive pentru a face sugestii în bara de adrese</translation>
-<translation id="9221712274065451529">Această limbă este folosită pentru a afișa IU din sistemul de operare OneVN</translation>
-<translation id="3518788198614984730">Afișează sistemul de operare OneVN în această limbă</translation>
-<translation id="5757460455745382269">Această limbă este folosită pentru a afișa IU OneVN</translation>
-<translation id="2335583906071111058">Afișează OneVN în această limbă</translation>
-<translation id="8926637909431618259">Rulați în continuare aplicații de fundal când OneVN este închis</translation>
-<translation id="6056473803837713617">Contribuie la îmbunătățirea browserului OneVN raportând <ph name="BEGIN_LINK"/>setările actuale<ph name="END_LINK"/></translation>
+<translation id="8541922081612557424">Despre Onevn</translation>
+<translation id="3262506503470845422">Obține ajutor privind Onevn</translation>
+<translation id="1864557848095568223">Onevn se actualizează</translation>
+<translation id="1786715389543715322">Onevn se actualizează (<ph name="PROGRESS_PERCENT"/>)</translation>
+<translation id="8208853227947884571">Onevn este actualizat</translation>
+<translation id="6686872257969654608">Despre sistemul de operare Onevn</translation>
+<translation id="2280363356796735201">Obține ajutor privind sistemul de operare Onevn</translation>
+<translation id="5253815230176279256">Onevn Software Pay (copiat în Onevn)</translation>
+<translation id="5468853758063275923">Onevn este browserul prestabilit</translation>
+<translation id="1775322105159056176">Onevn nu poate determina sau seta browserul prestabilit</translation>
+<translation id="6915252145142862992">Aceasta este o instalare secundară a browserului Onevn și nu poate fi setat ca browser prestabilit.</translation>
+<translation id="7977435741986383568">Este posibil ca Onevn să folosească servicii web pentru a-ți îmbunătăți experiența de navigare. Poți să dezactivezi aceste servicii. <ph name="BEGIN_LINK"/>Află mai multe<ph name="END_LINK"/></translation>
+<translation id="2312399718665761438">Pentru a corecta erorile de scriere, Onevn trimite la Onevn Software textul pe care îl introduci în câmpurile de text</translation>
+<translation id="8586264863973514035">Pentru a aplica modificările, relansează Onevn</translation>
+<translation id="7021823858304886493">Permite conectarea la Onevn</translation>
+<translation id="1649714546770135458">Dacă dezactivezi, te poți conecta la site-uri Onevn Software ca Gmail fără a te conecta la Onevn</translation>
+<translation id="9220324636239049437">Astfel, se va șterge 1 element de pe acest dispozitiv. Pentru a recupera datele mai târziu, conectează-te la Onevn ca <ph name="USER_EMAIL"/>.</translation>
+<translation id="5853262807109651878">Astfel, se vor șterge <ph name="ITEMS_COUNT"/> elemente de pe acest dispozitiv. Pentru a recupera datele mai târziu, conectează-te la Onevn ca <ph name="USER_EMAIL"/>.</translation>
+<translation id="4784414698887946907">Astfel, se vor șterge datele de navigare de pe acest dispozitiv. Pentru a recupera datele mai târziu, conectează-te la Onevn ca <ph name="USER_EMAIL"/>.</translation>
+<translation id="4518479204315969707">Numele și imaginea profilului Onevn</translation>
+<translation id="8372880274820509128">Pentru un plus de securitate, Onevn îți va cripta datele.</translation>
+<translation id="7445061995866044926">Te deconectezi de la Onevn?</translation>
+<translation id="7453070689008684791">Onevn îți va accesa spațiul de stocare Drive pentru a face sugestii în bara de adrese</translation>
+<translation id="9221712274065451529">Această limbă este folosită pentru a afișa IU din sistemul de operare Onevn</translation>
+<translation id="3518788198614984730">Afișează sistemul de operare Onevn în această limbă</translation>
+<translation id="5757460455745382269">Această limbă este folosită pentru a afișa IU Onevn</translation>
+<translation id="2335583906071111058">Afișează Onevn în această limbă</translation>
+<translation id="8926637909431618259">Rulați în continuare aplicații de fundal când Onevn este închis</translation>
+<translation id="6056473803837713617">Contribuie la îmbunătățirea browserului Onevn raportând <ph name="BEGIN_LINK"/>setările actuale<ph name="END_LINK"/></translation>
 </translationbundle>

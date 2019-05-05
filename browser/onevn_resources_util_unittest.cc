@@ -1,4 +1,4 @@
-/*  Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/*  Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -18,7 +18,7 @@
 #include "ui/base/l10n/l10n_util.h"
 #endif
 
-TEST(OneVNResourcesUtil, CheckIds) {
+TEST(OnevnResourcesUtil, CheckIds) {
   const struct {
     const char* name;
     int id;
@@ -35,7 +35,7 @@ TEST(OneVNResourcesUtil, CheckIds) {
 }
 
 #if defined(OS_WIN)
-TEST(OneVNResourcesWinTest, CheckStringsForInstaller) {
+TEST(OnevnResourcesWinTest, CheckStringsForInstaller) {
   // Test whether strings for installer are filled.
   // This test is added because these strings are initially empty and filled
   // with onevn's one.

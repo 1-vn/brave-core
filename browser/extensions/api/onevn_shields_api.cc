@@ -22,7 +22,7 @@
 #include "content/public/browser/web_contents.h"
 #include "extensions/browser/extension_util.h"
 
-using onevn_shields::OneVNShieldsWebContentsObserver;
+using onevn_shields::OnevnShieldsWebContentsObserver;
 
 namespace Get = extensions::api::onevn_shields::ContentSetting::Get;
 namespace Set = extensions::api::onevn_shields::ContentSetting::Set;
@@ -49,10 +49,10 @@ bool RemoveContentType(base::ListValue* args,
 namespace extensions {
 namespace api {
 
-OneVNShieldsAllowScriptsOnceFunction::~OneVNShieldsAllowScriptsOnceFunction() {
+OnevnShieldsAllowScriptsOnceFunction::~OnevnShieldsAllowScriptsOnceFunction() {
 }
 
-ExtensionFunction::ResponseAction OneVNShieldsAllowScriptsOnceFunction::Run() {
+ExtensionFunction::ResponseAction OnevnShieldsAllowScriptsOnceFunction::Run() {
   std::unique_ptr<onevn_shields::AllowScriptsOnce::Params> params(
       onevn_shields::AllowScriptsOnce::Params::Create(*args_));
   EXTENSION_FUNCTION_VALIDATE(params.get());
@@ -71,13 +71,13 @@ ExtensionFunction::ResponseAction OneVNShieldsAllowScriptsOnceFunction::Run() {
                             base::IntToString(params->tab_id)));
   }
 
-  OneVNShieldsWebContentsObserver::FromWebContents(
+  OnevnShieldsWebContentsObserver::FromWebContents(
       contents)->AllowScriptsOnce(params->origins, contents);
   return RespondNow(NoArguments());
 }
 
 ExtensionFunction::ResponseAction
-OneVNShieldsContentSettingGetFunction::Run() {
+OnevnShieldsContentSettingGetFunction::Run() {
   ContentSettingsType content_type;
   EXTENSION_FUNCTION_VALIDATE(RemoveContentType(args_.get(), &content_type));
 
@@ -138,7 +138,7 @@ OneVNShieldsContentSettingGetFunction::Run() {
 }
 
 ExtensionFunction::ResponseAction
-OneVNShieldsContentSettingSetFunction::Run() {
+OnevnShieldsContentSettingSetFunction::Run() {
   ContentSettingsType content_type;
   EXTENSION_FUNCTION_VALIDATE(RemoveContentType(args_.get(), &content_type));
 

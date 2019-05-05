@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "name": "OneVN Rewards",
+  "name": "Onevn Rewards",
   "manifest_version": 2,
-  "description": "OneVN Rewards Extension",
+  "description": "Onevn Rewards Extension",
   "default_locale": "en_US",
   "background" : {
     "scripts": ["out/onevn_rewards_panel_background.bundle.js"],

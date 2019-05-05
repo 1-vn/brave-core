@@ -5,6 +5,6 @@
 #include "onevn/content/browser/renderer_host/onevn_plugin_registry_impl.h"
 #include "content/browser/renderer_host/plugin_registry_impl.h"
 
-#define PluginRegistryImpl OneVNPluginRegistryImpl
+#define PluginRegistryImpl OnevnPluginRegistryImpl
 #include "../../../../../content/browser/renderer_host/render_process_host_impl.cc"
 #undef PluginRegistryImpl

@@ -10,15 +10,15 @@
 #include "extensions/common/extension_id.h"
 #include "ui/base/l10n/l10n_util.h"
 
-OneVNPrompt::OneVNPrompt(ExtensionInstallPrompt::PromptType type) :
+OnevnPrompt::OnevnPrompt(ExtensionInstallPrompt::PromptType type) :
     ExtensionInstallPrompt::Prompt(type) {
 }
 
-OneVNPrompt::~OneVNPrompt() {
+OnevnPrompt::~OnevnPrompt() {
 }
 
-base::string16 OneVNPrompt::GetDialogTitle() const {
-  if (!extensions::OneVNExtensionProvider::IsVetted(extension())) {
+base::string16 OnevnPrompt::GetDialogTitle() const {
+  if (!extensions::OnevnExtensionProvider::IsVetted(extension())) {
     if (type_ == ExtensionInstallPrompt::INSTALL_PROMPT ||
         type_ == ExtensionInstallPrompt::WEBSTORE_WIDGET_PROMPT) {
       return l10n_util::GetStringFUTF16(IDS_UNVETTED_EXTENSION_INSTALL_PROMPT_TITLE,

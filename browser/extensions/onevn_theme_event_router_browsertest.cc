@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -14,22 +14,22 @@
 #include "testing/gmock/include/gmock/gmock.h"
 #include "ui/native_theme/native_theme_dark_aura.h"
 
-using OneVNThemeEventRouterBrowserTest = InProcessBrowserTest;
+using OnevnThemeEventRouterBrowserTest = InProcessBrowserTest;
 
 namespace {
 
-void SetOneVNThemeType(Profile* profile, OneVNThemeType type) {
-  profile->GetPrefs()->SetInteger(kOneVNThemeType, type);
+void SetOnevnThemeType(Profile* profile, OnevnThemeType type) {
+  profile->GetPrefs()->SetInteger(kOnevnThemeType, type);
 }
 
 }  // namespace
 
 namespace extensions {
 
-class MockOneVNThemeEventRouter : public OneVNThemeEventRouter {
+class MockOnevnThemeEventRouter : public OnevnThemeEventRouter {
  public:
-  using OneVNThemeEventRouter::OneVNThemeEventRouter;
-  ~MockOneVNThemeEventRouter() override {}
+  using OnevnThemeEventRouter::OnevnThemeEventRouter;
+  ~MockOnevnThemeEventRouter() override {}
 
   ui::NativeTheme* current_native_theme_for_testing() const {
     return current_native_theme_for_testing_;
@@ -41,29 +41,29 @@ class MockOneVNThemeEventRouter : public OneVNThemeEventRouter {
 }  // namespace extensions
 
 
-IN_PROC_BROWSER_TEST_F(OneVNThemeEventRouterBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnThemeEventRouterBrowserTest,
                        ThemeChangeTest) {
   Profile* profile = browser()->profile();
-  SetOneVNThemeType(profile, OneVNThemeType::ONEVN_THEME_TYPE_DARK);
+  SetOnevnThemeType(profile, OnevnThemeType::ONEVN_THEME_TYPE_DARK);
 
-  extensions::MockOneVNThemeEventRouter* mock_router =
-      new extensions::MockOneVNThemeEventRouter(profile);
-  OneVNThemeService* service = static_cast<OneVNThemeService*>(
+  extensions::MockOnevnThemeEventRouter* mock_router =
+      new extensions::MockOnevnThemeEventRouter(profile);
+  OnevnThemeService* service = static_cast<OnevnThemeService*>(
       ThemeServiceFactory::GetForProfile(browser()->profile()));
-  service->SetOneVNThemeEventRouterForTesting(mock_router);
+  service->SetOnevnThemeEventRouterForTesting(mock_router);
 
   EXPECT_CALL(*mock_router, Notify()).Times(1);
-  SetOneVNThemeType(profile, OneVNThemeType::ONEVN_THEME_TYPE_LIGHT);
+  SetOnevnThemeType(profile, OnevnThemeType::ONEVN_THEME_TYPE_LIGHT);
   EXPECT_EQ(
       ui::NativeTheme::GetInstanceForNativeUi(),
       mock_router->current_native_theme_for_testing());
 
   EXPECT_CALL(*mock_router, Notify()).Times(1);
-  SetOneVNThemeType(profile, OneVNThemeType::ONEVN_THEME_TYPE_DARK);
+  SetOnevnThemeType(profile, OnevnThemeType::ONEVN_THEME_TYPE_DARK);
   EXPECT_EQ(
       ui::NativeThemeDarkAura::instance(),
       mock_router->current_native_theme_for_testing());
 
   EXPECT_CALL(*mock_router, Notify()).Times(0);
-  SetOneVNThemeType(profile, OneVNThemeType::ONEVN_THEME_TYPE_DARK);
+  SetOnevnThemeType(profile, OnevnThemeType::ONEVN_THEME_TYPE_DARK);
 }

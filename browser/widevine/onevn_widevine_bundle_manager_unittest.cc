@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -51,12 +51,12 @@ class TestClient : public content::TestContentClient {
   bool empty_cdms_ = true;
 };
 
-class OneVNWidevineBundleManagerTest : public testing::Test {
+class OnevnWidevineBundleManagerTest : public testing::Test {
  public:
-  OneVNWidevineBundleManagerTest()
+  OnevnWidevineBundleManagerTest()
       : testing_profile_manager_(TestingBrowserProcess::GetGlobal()) {
   }
-  ~OneVNWidevineBundleManagerTest() override {}
+  ~OnevnWidevineBundleManagerTest() override {}
 
  protected:
   void SetUp() override {
@@ -75,7 +75,7 @@ class OneVNWidevineBundleManagerTest : public testing::Test {
     auto* registry = static_cast<user_prefs::PrefRegistrySyncable*>(
         pref_service()->DeprecatedGetPrefRegistry());
     registry->RegisterBooleanPref(kWidevineOptedIn, false);
-    OneVNWidevineBundleManager::RegisterProfilePrefs(registry);
+    OnevnWidevineBundleManager::RegisterProfilePrefs(registry);
   }
 
   void PrepareTest(bool empty_cdms) {
@@ -89,7 +89,7 @@ class OneVNWidevineBundleManagerTest : public testing::Test {
 
   void CheckPrefsStatesAreInitialState() {
     DCHECK_EQ(false, pref_service()->GetBoolean(kWidevineOptedIn));
-    DCHECK_EQ(OneVNWidevineBundleManager::kWidevineInvalidVersion,
+    DCHECK_EQ(OnevnWidevineBundleManager::kWidevineInvalidVersion,
               pref_service()->GetString(kWidevineInstalledVersion));
   }
 
@@ -100,19 +100,19 @@ class OneVNWidevineBundleManagerTest : public testing::Test {
   }
 
   content::TestBrowserThreadBundle threads_;
-  OneVNWidevineBundleManager manager_;
+  OnevnWidevineBundleManager manager_;
   TestingProfileManager testing_profile_manager_;
   base::ScopedTempDir temp_dir_;
   TestClient client_;
 };
 
-TEST_F(OneVNWidevineBundleManagerTest, InitialPrefsest) {
+TEST_F(OnevnWidevineBundleManagerTest, InitialPrefsest) {
   PrepareTest(true);
 
   CheckPrefsStatesAreInitialState();
 }
 
-TEST_F(OneVNWidevineBundleManagerTest, InitialWithCdmResteredTest) {
+TEST_F(OnevnWidevineBundleManagerTest, InitialWithCdmResteredTest) {
   PrepareTest(false);
 
   CheckPrefsStatesAreInitialState();
@@ -122,7 +122,7 @@ TEST_F(OneVNWidevineBundleManagerTest, InitialWithCdmResteredTest) {
   CheckPrefsStatesAreInstalledState();
 }
 
-TEST_F(OneVNWidevineBundleManagerTest, PrefsResetTestWithEmptyCdmRegistry) {
+TEST_F(OnevnWidevineBundleManagerTest, PrefsResetTestWithEmptyCdmRegistry) {
   PrepareTest(true);
 
   // When only prefs are set w/o cdm library, reset prefs to initial state.
@@ -134,7 +134,7 @@ TEST_F(OneVNWidevineBundleManagerTest, PrefsResetTestWithEmptyCdmRegistry) {
   CheckPrefsStatesAreInitialState();
 }
 
-TEST_F(OneVNWidevineBundleManagerTest, InProgressTest) {
+TEST_F(OnevnWidevineBundleManagerTest, InProgressTest) {
   PrepareTest(true);
 
   manager_.StartupCheck();
@@ -146,7 +146,7 @@ TEST_F(OneVNWidevineBundleManagerTest, InProgressTest) {
   DCHECK(!manager_.in_progress());
 }
 
-TEST_F(OneVNWidevineBundleManagerTest, InstallSuccessTest) {
+TEST_F(OnevnWidevineBundleManagerTest, InstallSuccessTest) {
   PrepareTest(true);
 
   DCHECK(!manager_.needs_restart());
@@ -164,7 +164,7 @@ TEST_F(OneVNWidevineBundleManagerTest, InstallSuccessTest) {
   CheckPrefsStatesAreInstalledState();
 }
 
-TEST_F(OneVNWidevineBundleManagerTest, RetryInstallAfterFail) {
+TEST_F(OnevnWidevineBundleManagerTest, RetryInstallAfterFail) {
   PrepareTest(true);
 
   DCHECK(!manager_.needs_restart());
@@ -183,7 +183,7 @@ TEST_F(OneVNWidevineBundleManagerTest, RetryInstallAfterFail) {
   DCHECK(manager_.in_progress());
 }
 
-TEST_F(OneVNWidevineBundleManagerTest, DownloadFailTest) {
+TEST_F(OnevnWidevineBundleManagerTest, DownloadFailTest) {
   PrepareTest(true);
 
   manager_.StartupCheck();
@@ -197,7 +197,7 @@ TEST_F(OneVNWidevineBundleManagerTest, DownloadFailTest) {
   CheckPrefsStatesAreInitialState();
 }
 
-TEST_F(OneVNWidevineBundleManagerTest, UnzipFailTest) {
+TEST_F(OnevnWidevineBundleManagerTest, UnzipFailTest) {
   PrepareTest(true);
 
   manager_.StartupCheck();
@@ -210,7 +210,7 @@ TEST_F(OneVNWidevineBundleManagerTest, UnzipFailTest) {
   CheckPrefsStatesAreInitialState();
 }
 
-TEST_F(OneVNWidevineBundleManagerTest, UpdateTriggerTest) {
+TEST_F(OnevnWidevineBundleManagerTest, UpdateTriggerTest) {
   PrepareTest(false);
 
   // Set installed state with different version to trigger update.
@@ -223,7 +223,7 @@ TEST_F(OneVNWidevineBundleManagerTest, UpdateTriggerTest) {
   DCHECK(manager_.update_requested_);
 }
 
-TEST_F(OneVNWidevineBundleManagerTest, MessageStringTest) {
+TEST_F(OnevnWidevineBundleManagerTest, MessageStringTest) {
   PrepareTest(true);
 
   DCHECK(!manager_.needs_restart());

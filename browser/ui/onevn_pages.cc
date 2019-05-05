@@ -11,22 +11,22 @@
 
 namespace onevn {
 
-void ShowOneVNRewards(Browser* browser) {
+void ShowOnevnRewards(Browser* browser) {
   ShowSingletonTabOverwritingNTP(
       browser,
-      GetSingletonTabNavigateParams(browser, GURL(kOneVNUIRewardsURL)));
+      GetSingletonTabNavigateParams(browser, GURL(kOnevnUIRewardsURL)));
 }
 
-void ShowOneVNAdblock(Browser* browser) {
+void ShowOnevnAdblock(Browser* browser) {
   ShowSingletonTabOverwritingNTP(
       browser,
-      GetSingletonTabNavigateParams(browser, GURL(kOneVNUIAdblockURL)));
+      GetSingletonTabNavigateParams(browser, GURL(kOnevnUIAdblockURL)));
 }
 
-void ShowOneVNSync(Browser* browser) {
+void ShowOnevnSync(Browser* browser) {
    ShowSingletonTabOverwritingNTP(
       browser,
-      GetSingletonTabNavigateParams(browser, GURL(kOneVNUISyncURL)));
+      GetSingletonTabNavigateParams(browser, GURL(kOnevnUISyncURL)));
 }
 
 }  // namespace onevn

@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -356,7 +356,7 @@ RewardsServiceImpl::RewardsServiceImpl(Profile* profile)
                                 rewards_base_path_));
   // Set up the rewards data source
   content::URLDataSource::Add(profile_,
-                              std::make_unique<OneVNRewardsSource>(profile_));
+                              std::make_unique<OnevnRewardsSource>(profile_));
 }
 
 RewardsServiceImpl::~RewardsServiceImpl() {
@@ -967,7 +967,7 @@ void RewardsServiceImpl::OnLedgerStateLoaded(
 
 void RewardsServiceImpl::LoadPublisherState(
     ledger::LedgerCallbackHandler* handler) {
-  if (!profile_->GetPrefs()->GetBoolean(prefs::kOneVNRewardsEnabledMigrated)) {
+  if (!profile_->GetPrefs()->GetBoolean(prefs::kOnevnRewardsEnabledMigrated)) {
     bat_ledger_->GetRewardsMainEnabled(
         base::BindOnce(&RewardsServiceImpl::SetRewardsMainEnabledPref,
           AsWeakPtr()));
@@ -1506,13 +1506,13 @@ void RewardsServiceImpl::GetRewardsMainEnabled(
 }
 
 void RewardsServiceImpl::SetRewardsMainEnabledPref(bool enabled) {
-  profile_->GetPrefs()->SetBoolean(prefs::kOneVNRewardsEnabled, enabled);
+  profile_->GetPrefs()->SetBoolean(prefs::kOnevnRewardsEnabled, enabled);
   SetRewardsMainEnabledMigratedPref(true);
 }
 
 void RewardsServiceImpl::SetRewardsMainEnabledMigratedPref(bool enabled) {
   profile_->GetPrefs()->SetBoolean(
-      prefs::kOneVNRewardsEnabledMigrated, true);
+      prefs::kOnevnRewardsEnabledMigrated, true);
 }
 
 void RewardsServiceImpl::SetCatalogIssuers(const std::string& json) {
@@ -2004,7 +2004,7 @@ void RewardsServiceImpl::FetchFavIcon(const std::string& url,
       net::DefineNetworkTrafficAnnotation("onevn_rewards_favicon_fetcher", R"(
         semantics {
           sender:
-            "OneVN Rewards Media Fetcher"
+            "Onevn Rewards Media Fetcher"
           description:
             "Fetches favicon for media publishers in Rewards."
           trigger:
@@ -2577,9 +2577,9 @@ void RewardsServiceImpl::HandleFlags(const std::string& options) {
 bool RewardsServiceImpl::CheckImported() {
   PrefService* prefs = profile_->GetOriginalProfile()->GetPrefs();
   const int pinned_item_count = prefs->GetInteger(
-      kOneVNPaymentsPinnedItemCount);
+      kOnevnPaymentsPinnedItemCount);
   if (pinned_item_count > 0) {
-    prefs->SetInteger(kOneVNPaymentsPinnedItemCount, 0);
+    prefs->SetInteger(kOnevnPaymentsPinnedItemCount, 0);
   }
 
   return pinned_item_count > 0;
@@ -2626,7 +2626,7 @@ void RewardsServiceImpl::SetLedgerEnvForTesting() {
   bat_ledger_service_->SetTesting();
 
   // this is needed because we are using onevnledger_bat_helper::buildURL
-  // directly in OneVNRewardsBrowserTest
+  // directly in OnevnRewardsBrowserTest
   #if defined(OFFICIAL_BUILD)
   ledger::is_production = true;
   #else

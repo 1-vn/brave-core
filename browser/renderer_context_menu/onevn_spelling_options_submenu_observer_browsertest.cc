@@ -1,4 +1,4 @@
-/* Copyright 2019 The OneVN Authors. All rights reserved.
+/* Copyright 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -24,10 +24,10 @@ namespace {
 
 // A test class used in this file. This test should be a browser test because it
 // accesses resources.
-class OneVNSpellingOptionsSubMenuObserverTest : public InProcessBrowserTest {
+class OnevnSpellingOptionsSubMenuObserverTest : public InProcessBrowserTest {
  public:
-  OneVNSpellingOptionsSubMenuObserverTest() {}
-  ~OneVNSpellingOptionsSubMenuObserverTest() override {}
+  OnevnSpellingOptionsSubMenuObserverTest() {}
+  ~OnevnSpellingOptionsSubMenuObserverTest() override {}
 
   void Clear() {
     if (menu_)
@@ -37,14 +37,14 @@ class OneVNSpellingOptionsSubMenuObserverTest : public InProcessBrowserTest {
   }
 
   void Reset(bool incognito = false,
-             OneVNSpellingOptionsSubMenuObserver::GtestMode gtest_mode =
-                 OneVNSpellingOptionsSubMenuObserver::GTEST_MODE_NORMAL) {
+             OnevnSpellingOptionsSubMenuObserver::GtestMode gtest_mode =
+                 OnevnSpellingOptionsSubMenuObserver::GTEST_MODE_NORMAL) {
     Clear();
-    menu_.reset(new OneVNMockRenderViewContextMenu(
+    menu_.reset(new OnevnMockRenderViewContextMenu(
         incognito ? browser()->profile()->GetOffTheRecordProfile()
                   : browser()->profile()));
-    std::unique_ptr<OneVNSpellingOptionsSubMenuObserver> observer =
-        std::make_unique<OneVNSpellingOptionsSubMenuObserver>(menu_.get(),
+    std::unique_ptr<OnevnSpellingOptionsSubMenuObserver> observer =
+        std::make_unique<OnevnSpellingOptionsSubMenuObserver>(menu_.get(),
                                                               menu_.get(), 1);
     observer->SetGtestMode(gtest_mode);
     observer_ = std::move(observer);
@@ -77,31 +77,31 @@ class OneVNSpellingOptionsSubMenuObserverTest : public InProcessBrowserTest {
 
   void CheckExpected() {
     for (size_t i = 0; i < menu()->GetMenuSize(); ++i) {
-      OneVNMockRenderViewContextMenu::MockMenuItem item;
+      OnevnMockRenderViewContextMenu::MockMenuItem item;
       menu()->GetMenuItem(i, &item);
       EXPECT_NE(IDC_CONTENT_CONTEXT_SPELLING_TOGGLE, item.command_id);
     }
     // Check that the menu doesn't end with a separator.
-    OneVNMockRenderViewContextMenu::MockMenuItem item;
+    OnevnMockRenderViewContextMenu::MockMenuItem item;
     menu()->GetMenuItem(menu()->GetMenuSize() - 1, &item);
     EXPECT_NE(-1, item.command_id);  // -1 == separator
   }
 
-  OneVNMockRenderViewContextMenu* menu() { return menu_.get(); }
+  OnevnMockRenderViewContextMenu* menu() { return menu_.get(); }
   SpellingOptionsSubMenuObserver* observer() { return observer_.get(); }
 
  private:
-  std::unique_ptr<OneVNMockRenderViewContextMenu> menu_;
+  std::unique_ptr<OnevnMockRenderViewContextMenu> menu_;
   std::unique_ptr<SpellingOptionsSubMenuObserver> observer_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNSpellingOptionsSubMenuObserverTest);
+  DISALLOW_COPY_AND_ASSIGN(OnevnSpellingOptionsSubMenuObserverTest);
 };
 
-// Tests that "Ask OneVN for suggestions" isn't shown in the menu and the menu
+// Tests that "Ask Onevn for suggestions" isn't shown in the menu and the menu
 // doesn't end with a separator.
 
-IN_PROC_BROWSER_TEST_F(OneVNSpellingOptionsSubMenuObserverTest,
-                       CheckAskOneVNNotShown) {
+IN_PROC_BROWSER_TEST_F(OnevnSpellingOptionsSubMenuObserverTest,
+                       CheckAskOnevnNotShown) {
   // Test with spellcheck enabled.
   Reset();
   InitMenu(true, "en-US", std::vector<std::string>(1, "en-US"));
@@ -121,18 +121,18 @@ IN_PROC_BROWSER_TEST_F(OneVNSpellingOptionsSubMenuObserverTest,
   CheckExpected();
 
   // Test empty submenu.
-  Reset(false, OneVNSpellingOptionsSubMenuObserver::GTEST_MODE_EMPTY_SUBMENU);
+  Reset(false, OnevnSpellingOptionsSubMenuObserver::GTEST_MODE_EMPTY_SUBMENU);
   InitMenu(false, "en-US", std::vector<std::string>());
   menu()->PrintMenu("Test empty submenu.");
   EXPECT_EQ(1U, menu()->GetMenuSize());
-  OneVNMockRenderViewContextMenu::MockMenuItem item;
+  OnevnMockRenderViewContextMenu::MockMenuItem item;
   menu()->GetMenuItem(0, &item);
   EXPECT_EQ(IDC_SPELLCHECK_MENU, item.command_id);
   EXPECT_FALSE(item.enabled);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNSpellingOptionsSubMenuObserverTest,
-                       CheckAskOneVNNotShownIncognito) {
+IN_PROC_BROWSER_TEST_F(OnevnSpellingOptionsSubMenuObserverTest,
+                       CheckAskOnevnNotShownIncognito) {
   // Test with spellcheck enabled.
   Reset(true);
   InitMenu(true, "en-US", std::vector<std::string>(1, "en-US"));

@@ -7,7 +7,7 @@ import * as windowTypes from '../../constants/windowTypes'
 import * as tabTypes from '../../constants/tabTypes'
 import * as webNavigationTypes from '../../constants/webNavigationTypes'
 import {
-  setAllowOneVNShields,
+  setAllowOnevnShields,
   requestShieldPanelData
 } from '../api/shieldsAPI'
 import { reloadTab } from '../api/tabsAPI'
@@ -108,7 +108,7 @@ export default function cosmeticFilterReducer (state: State = {
         console.error('Active tab not found')
         break
       }
-      setAllowOneVNShields(tabData.origin, action.setting)
+      setAllowOnevnShields(tabData.origin, action.setting)
         .then(() => {
           reloadTab(tabId, true).catch((e) => {
             console.error('Tab reload was not successful', e)

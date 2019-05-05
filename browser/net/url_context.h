@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -14,11 +14,11 @@
 #include "net/url_request/url_request.h"
 #include "url/gurl.h"
 
-class OneVNNetworkDelegateBase;
+class OnevnNetworkDelegateBase;
 
 namespace onevn {
 
-struct OneVNRequestInfo;
+struct OnevnRequestInfo;
 using ResponseCallback = base::Callback<void()>;
 
 }  // namespace onevn
@@ -26,12 +26,12 @@ using ResponseCallback = base::Callback<void()>;
 namespace onevn_rewards {
   int OnBeforeURLRequest(
       const onevn::ResponseCallback& next_callback,
-      std::shared_ptr<onevn::OneVNRequestInfo> ctx);
+      std::shared_ptr<onevn::OnevnRequestInfo> ctx);
 }  // namespace onevn_rewards
 
 namespace onevn {
 
-enum OneVNNetworkDelegateEventType {
+enum OnevnNetworkDelegateEventType {
   kOnBeforeRequest,
   kOnBeforeStartTransaction,
   kOnHeadersReceived,
@@ -47,9 +47,9 @@ enum BlockedBy {
   kOtherBlocked
 };
 
-struct OneVNRequestInfo {
-  OneVNRequestInfo();
-  ~OneVNRequestInfo();
+struct OnevnRequestInfo {
+  OnevnRequestInfo();
+  ~OnevnRequestInfo();
   GURL request_url;
   GURL tab_origin;
   GURL tab_url;
@@ -70,7 +70,7 @@ struct OneVNRequestInfo {
   const net::HttpResponseHeaders* original_response_headers = nullptr;
   scoped_refptr<net::HttpResponseHeaders>* override_response_headers = nullptr;
   GURL* allowed_unsafe_redirect_url = nullptr;
-  OneVNNetworkDelegateEventType event_type = kUnknownEventType;
+  OnevnNetworkDelegateEventType event_type = kUnknownEventType;
   const base::ListValue* referral_headers_list = nullptr;
   BlockedBy blocked_by = kNotBlocked;
   bool cancel_request_explicitly = false;
@@ -79,50 +79,50 @@ struct OneVNRequestInfo {
   content::ResourceType resource_type = content::RESOURCE_TYPE_LAST_TYPE;
 
   static void FillCTXFromRequest(const net::URLRequest* request,
-    std::shared_ptr<onevn::OneVNRequestInfo> ctx);
+    std::shared_ptr<onevn::OnevnRequestInfo> ctx);
 
  private:
   // Please don't add any more friends here if it can be avoided.
   // We should also remove the ones below.
   friend int OnBeforeURLRequest_SiteHacksWork(
       const ResponseCallback& next_callback,
-      std::shared_ptr<OneVNRequestInfo> ctx);
+      std::shared_ptr<OnevnRequestInfo> ctx);
   friend int onevn_rewards::OnBeforeURLRequest(
       const onevn::ResponseCallback& next_callback,
-      std::shared_ptr<onevn::OneVNRequestInfo> ctx);
+      std::shared_ptr<onevn::OnevnRequestInfo> ctx);
   friend int OnBeforeURLRequest_TorWork(
       const ResponseCallback& next_callback,
-      std::shared_ptr<OneVNRequestInfo> ctx);
-  friend class ::OneVNNetworkDelegateBase;
+      std::shared_ptr<OnevnRequestInfo> ctx);
+  friend class ::OnevnNetworkDelegateBase;
 
   // Don't use this directly after any dispatch
   // request is deprecated, do not use it.
   const net::URLRequest* request;
   GURL* new_url = nullptr;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNRequestInfo);
+  DISALLOW_COPY_AND_ASSIGN(OnevnRequestInfo);
 };
 
 // ResponseListener
 using OnBeforeURLRequestCallback =
     base::Callback<int(const ResponseCallback& next_callback,
-        std::shared_ptr<OneVNRequestInfo> ctx)>;
+        std::shared_ptr<OnevnRequestInfo> ctx)>;
 using OnBeforeStartTransactionCallback =
     base::Callback<int(net::URLRequest* request,
         net::HttpRequestHeaders* headers,
         const ResponseCallback& next_callback,
-        std::shared_ptr<OneVNRequestInfo> ctx)>;
+        std::shared_ptr<OnevnRequestInfo> ctx)>;
 using OnHeadersReceivedCallback =
     base::Callback<int(net::URLRequest* request,
         const net::HttpResponseHeaders* original_response_headers,
         scoped_refptr<net::HttpResponseHeaders>* override_response_headers,
         GURL* allowed_unsafe_redirect_url,
         const ResponseCallback& next_callback,
-        std::shared_ptr<OneVNRequestInfo> ctx)>;
+        std::shared_ptr<OnevnRequestInfo> ctx)>;
 using OnCanGetCookiesCallback =
-    base::Callback<bool(std::shared_ptr<OneVNRequestInfo> ctx)>;
+    base::Callback<bool(std::shared_ptr<OnevnRequestInfo> ctx)>;
 using OnCanSetCookiesCallback =
-    base::Callback<bool(std::shared_ptr<OneVNRequestInfo> ctx)>;
+    base::Callback<bool(std::shared_ptr<OnevnRequestInfo> ctx)>;
 
 }  // namespace onevn
 

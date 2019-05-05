@@ -7,14 +7,14 @@ index 77c15b7f2e822afeb855e3c0bc75556a53c74c54..e49a032361f3d5e3864cb4fbc23130c3
  namespace {
  
 +#if defined(ONEVN_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD)
-+const wchar_t kGCAPITempKey[] = L"Software\\OneVNSoftware\\GCAPITemp";
++const wchar_t kGCAPITempKey[] = L"Software\\OnevnSoftware\\GCAPITemp";
 +const wchar_t kChromeRegVersion[] = L"pv";
 +const wchar_t kNoChromeOfferUntil[] =
-+    L"SOFTWARE\\OneVNSoftware\\No Chrome Offer Until";
++    L"SOFTWARE\\OnevnSoftware\\No Chrome Offer Until";
 +const wchar_t kC1FPendingKey[] =
-+    L"Software\\OneVNSoftware\\Common\\Rlz\\Events\\C";
++    L"Software\\OnevnSoftware\\Common\\Rlz\\Events\\C";
 +const wchar_t kC1FSentKey[] =
-+    L"Software\\OneVNSoftware\\Common\\Rlz\\StatefulEvents\\C";
++    L"Software\\OnevnSoftware\\Common\\Rlz\\StatefulEvents\\C";
 +#else
  const wchar_t kGCAPITempKey[] = L"Software\\Google\\GCAPITemp";
  

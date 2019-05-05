@@ -11,7 +11,7 @@ namespace base {
 class RefCountedMemory;
 }
 
-class OneVNWebUIControllerFactory : public ChromeWebUIControllerFactory {
+class OnevnWebUIControllerFactory : public ChromeWebUIControllerFactory {
  public:
   content::WebUI::TypeID GetWebUIType(content::BrowserContext* browser_context,
                                       const GURL& url) const override;
@@ -19,16 +19,16 @@ class OneVNWebUIControllerFactory : public ChromeWebUIControllerFactory {
       content::WebUI* web_ui,
       const GURL& url) const override;
 
-  static OneVNWebUIControllerFactory* GetInstance();
+  static OnevnWebUIControllerFactory* GetInstance();
 
  protected:
-  friend struct base::DefaultSingletonTraits<OneVNWebUIControllerFactory>;
+  friend struct base::DefaultSingletonTraits<OnevnWebUIControllerFactory>;
 
-  OneVNWebUIControllerFactory();
-  ~OneVNWebUIControllerFactory() override;
+  OnevnWebUIControllerFactory();
+  ~OnevnWebUIControllerFactory() override;
 
  private:
-  DISALLOW_COPY_AND_ASSIGN(OneVNWebUIControllerFactory);
+  DISALLOW_COPY_AND_ASSIGN(OnevnWebUIControllerFactory);
 };
 
 #endif  // ONEVN_BROWSER_UI_WEBUI_CHROME_WEB_UI_CONTROLLER_FACTORY_H_

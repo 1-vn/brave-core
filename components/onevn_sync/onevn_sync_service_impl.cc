@@ -1,4 +1,4 @@
-/* Copyright 2016 The OneVN Authors. All rights reserved.
+/* Copyright 2016 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -79,8 +79,8 @@ SyncRecordPtr PrepareResolvedDevice(
 
 }  // namespace
 
-OneVNSyncServiceImpl::OneVNSyncServiceImpl(Profile* profile) :
-    sync_client_(OneVNSyncClient::Create(this, profile)),
+OnevnSyncServiceImpl::OnevnSyncServiceImpl(Profile* profile) :
+    sync_client_(OnevnSyncClient::Create(this, profile)),
     sync_initialized_(false),
     sync_words_(std::string()),
     profile_(profile),
@@ -95,27 +95,27 @@ OneVNSyncServiceImpl::OneVNSyncServiceImpl(Profile* profile) :
   profile_pref_change_registrar_.Init(profile->GetPrefs());
   profile_pref_change_registrar_.Add(
       prefs::kSyncEnabled,
-      base::Bind(&OneVNSyncServiceImpl::OnSyncPrefsChanged,
+      base::Bind(&OnevnSyncServiceImpl::OnSyncPrefsChanged,
                  base::Unretained(this)));
   profile_pref_change_registrar_.Add(
       prefs::kSyncDeviceName,
-      base::Bind(&OneVNSyncServiceImpl::OnSyncPrefsChanged,
+      base::Bind(&OnevnSyncServiceImpl::OnSyncPrefsChanged,
                  base::Unretained(this)));
   profile_pref_change_registrar_.Add(
       prefs::kSyncDeviceList,
-      base::Bind(&OneVNSyncServiceImpl::OnSyncPrefsChanged,
+      base::Bind(&OnevnSyncServiceImpl::OnSyncPrefsChanged,
                  base::Unretained(this)));
   profile_pref_change_registrar_.Add(
       prefs::kSyncBookmarksEnabled,
-      base::Bind(&OneVNSyncServiceImpl::OnSyncPrefsChanged,
+      base::Bind(&OnevnSyncServiceImpl::OnSyncPrefsChanged,
                  base::Unretained(this)));
   profile_pref_change_registrar_.Add(
       prefs::kSyncSiteSettingsEnabled,
-      base::Bind(&OneVNSyncServiceImpl::OnSyncPrefsChanged,
+      base::Bind(&OnevnSyncServiceImpl::OnSyncPrefsChanged,
                  base::Unretained(this)));
   profile_pref_change_registrar_.Add(
       prefs::kSyncHistoryEnabled,
-      base::Bind(&OneVNSyncServiceImpl::OnSyncPrefsChanged,
+      base::Bind(&OnevnSyncServiceImpl::OnSyncPrefsChanged,
                  base::Unretained(this)));
 
   if (!sync_prefs_->GetSeed().empty() &&
@@ -124,29 +124,29 @@ OneVNSyncServiceImpl::OneVNSyncServiceImpl(Profile* profile) :
   }
 }
 
-OneVNSyncServiceImpl::~OneVNSyncServiceImpl() {
+OnevnSyncServiceImpl::~OnevnSyncServiceImpl() {
 }
 
-OneVNSyncClient* OneVNSyncServiceImpl::GetSyncClient() {
+OnevnSyncClient* OnevnSyncServiceImpl::GetSyncClient() {
   return sync_client_.get();
 }
 
-bool OneVNSyncServiceImpl::IsSyncConfigured() {
+bool OnevnSyncServiceImpl::IsSyncConfigured() {
   return sync_configured_;
 }
 
-bool OneVNSyncServiceImpl::IsSyncInitialized() {
+bool OnevnSyncServiceImpl::IsSyncInitialized() {
   return sync_initialized_;
 }
 
-void OneVNSyncServiceImpl::Shutdown() {
+void OnevnSyncServiceImpl::Shutdown() {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   bookmark_change_processor_->Stop();
 
   StopLoop();
 }
 
-void OneVNSyncServiceImpl::OnSetupSyncHaveCode(const std::string& sync_words,
+void OnevnSyncServiceImpl::OnSetupSyncHaveCode(const std::string& sync_words,
     const std::string& device_name) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
 
@@ -172,7 +172,7 @@ void OneVNSyncServiceImpl::OnSetupSyncHaveCode(const std::string& sync_words,
   sync_words_ = sync_words;
 }
 
-void OneVNSyncServiceImpl::OnSetupSyncNewToSync(
+void OnevnSyncServiceImpl::OnSetupSyncNewToSync(
     const std::string& device_name) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
 
@@ -194,7 +194,7 @@ void OneVNSyncServiceImpl::OnSetupSyncNewToSync(
   sync_prefs_->SetSyncEnabled(true);
 }
 
-void OneVNSyncServiceImpl::OnDeleteDevice(const std::string& device_id) {
+void OnevnSyncServiceImpl::OnDeleteDevice(const std::string& device_id) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
 
   auto sync_devices = sync_prefs_->GetSyncDevices();
@@ -208,7 +208,7 @@ void OneVNSyncServiceImpl::OnDeleteDevice(const std::string& device_id) {
   }
 }
 
-void OneVNSyncServiceImpl::OnResetSync() {
+void OnevnSyncServiceImpl::OnResetSync() {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
 
   auto sync_devices = sync_prefs_->GetSyncDevices();
@@ -225,16 +225,16 @@ void OneVNSyncServiceImpl::OnResetSync() {
   }
 }
 
-void OneVNSyncServiceImpl::GetSettingsAndDevices(
+void OnevnSyncServiceImpl::GetSettingsAndDevices(
     const GetSettingsAndDevicesCallback& callback) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
 
-  auto settings = sync_prefs_->GetOneVNSyncSettings();
+  auto settings = sync_prefs_->GetOnevnSyncSettings();
   auto devices = sync_prefs_->GetSyncDevices();
   callback.Run(std::move(settings), std::move(devices));
 }
 
-void OneVNSyncServiceImpl::GetSyncWords() {
+void OnevnSyncServiceImpl::GetSyncWords() {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
 
   // Ask sync client
@@ -243,34 +243,34 @@ void OneVNSyncServiceImpl::GetSyncWords() {
   sync_client_->NeedSyncWords(seed);
 }
 
-std::string OneVNSyncServiceImpl::GetSeed() {
+std::string OnevnSyncServiceImpl::GetSeed() {
   return sync_prefs_->GetSeed();
 }
 
-void OneVNSyncServiceImpl::OnSetSyncEnabled(const bool sync_this_device) {
+void OnevnSyncServiceImpl::OnSetSyncEnabled(const bool sync_this_device) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   sync_prefs_->SetSyncEnabled(sync_this_device);
 }
 
-void OneVNSyncServiceImpl::OnSetSyncBookmarks(const bool sync_bookmarks) {
+void OnevnSyncServiceImpl::OnSetSyncBookmarks(const bool sync_bookmarks) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   sync_prefs_->SetSyncBookmarksEnabled(sync_bookmarks);
 }
 
-void OneVNSyncServiceImpl::OnSetSyncBrowsingHistory(
+void OnevnSyncServiceImpl::OnSetSyncBrowsingHistory(
     const bool sync_browsing_history) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   sync_prefs_->SetSyncHistoryEnabled(sync_browsing_history);
 }
 
-void OneVNSyncServiceImpl::OnSetSyncSavedSiteSettings(
+void OnevnSyncServiceImpl::OnSetSyncSavedSiteSettings(
     const bool sync_saved_site_settings) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   sync_prefs_->SetSyncSiteSettingsEnabled(sync_saved_site_settings);
 }
 
 // SyncLibToBrowserHandler overrides
-void OneVNSyncServiceImpl::BackgroundSyncStarted(bool startup) {
+void OnevnSyncServiceImpl::BackgroundSyncStarted(bool startup) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   if (startup)
     bookmark_change_processor_->Start();
@@ -278,18 +278,18 @@ void OneVNSyncServiceImpl::BackgroundSyncStarted(bool startup) {
   StartLoop();
 }
 
-void OneVNSyncServiceImpl::BackgroundSyncStopped(bool shutdown) {
+void OnevnSyncServiceImpl::BackgroundSyncStopped(bool shutdown) {
   if (shutdown)
     Shutdown();
   else
     StopLoop();
 }
 
-void OneVNSyncServiceImpl::OnSyncDebug(const std::string& message) {
+void OnevnSyncServiceImpl::OnSyncDebug(const std::string& message) {
   NotifyLogMessage(message);
 }
 
-void OneVNSyncServiceImpl::OnSyncSetupError(const std::string& error) {
+void OnevnSyncServiceImpl::OnSyncSetupError(const std::string& error) {
   if (initializing_) {
     sync_prefs_->Clear();
     initializing_ = false;
@@ -297,26 +297,26 @@ void OneVNSyncServiceImpl::OnSyncSetupError(const std::string& error) {
   NotifySyncSetupError(error);
 }
 
-void OneVNSyncServiceImpl::OnGetInitData(const std::string& sync_version) {
+void OnevnSyncServiceImpl::OnGetInitData(const std::string& sync_version) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
 
   Uint8Array seed;
   if (!sync_words_.empty()) {
-    VLOG(1) << "[OneVN Sync] Init from sync words";
+    VLOG(1) << "[Onevn Sync] Init from sync words";
   } else if (!sync_prefs_->GetSeed().empty()) {
     seed = Uint8ArrayFromString(sync_prefs_->GetSeed());
-    VLOG(1) << "[OneVN Sync] Init from prefs";
+    VLOG(1) << "[Onevn Sync] Init from prefs";
   } else {
-    VLOG(1) << "[OneVN Sync] Init new chain";
+    VLOG(1) << "[Onevn Sync] Init new chain";
   }
 
   Uint8Array device_id;
   if (!sync_prefs_->GetThisDeviceId().empty()) {
     device_id = Uint8ArrayFromString(sync_prefs_->GetThisDeviceId());
-    VLOG(1) << "[OneVN Sync] Init device id from prefs: " <<
+    VLOG(1) << "[Onevn Sync] Init device id from prefs: " <<
         StrFromUint8Array(device_id);
   } else {
-    VLOG(1) << "[OneVN Sync] Init empty device id";
+    VLOG(1) << "[Onevn Sync] Init empty device id";
   }
 
   DCHECK(!sync_version.empty());
@@ -332,7 +332,7 @@ void OneVNSyncServiceImpl::OnGetInitData(const std::string& sync_version) {
   sync_client_->SendGotInitData(seed, device_id, config, sync_words_);
 }
 
-void OneVNSyncServiceImpl::OnSaveInitData(const Uint8Array& seed,
+void OnevnSyncServiceImpl::OnSaveInitData(const Uint8Array& seed,
                                           const Uint8Array& device_id) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
 
@@ -377,7 +377,7 @@ void OneVNSyncServiceImpl::OnSaveInitData(const Uint8Array& seed,
   initializing_ = false;
 }
 
-void OneVNSyncServiceImpl::OnSyncReady() {
+void OnevnSyncServiceImpl::OnSyncReady() {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   const std::string bookmarks_base_order = sync_prefs_->GetBookmarksBaseOrder();
   if (bookmarks_base_order.empty()) {
@@ -395,7 +395,7 @@ void OneVNSyncServiceImpl::OnSyncReady() {
   RequestSyncData();
 }
 
-void OneVNSyncServiceImpl::OnGetExistingObjects(
+void OnevnSyncServiceImpl::OnGetExistingObjects(
     const std::string& category_name,
     std::unique_ptr<RecordsList> records,
     const base::Time &last_record_time_stamp,
@@ -421,7 +421,7 @@ void OneVNSyncServiceImpl::OnGetExistingObjects(
   }
 }
 
-void OneVNSyncServiceImpl::OnResolvedSyncRecords(
+void OnevnSyncServiceImpl::OnResolvedSyncRecords(
     const std::string& category_name,
     std::unique_ptr<RecordsList> records) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
@@ -437,7 +437,7 @@ void OneVNSyncServiceImpl::OnResolvedSyncRecords(
 }
 
 std::unique_ptr<SyncRecordAndExistingList>
-OneVNSyncServiceImpl::PrepareResolvedPreferences(const RecordsList& records) {
+OnevnSyncServiceImpl::PrepareResolvedPreferences(const RecordsList& records) {
   auto sync_devices = sync_prefs_->GetSyncDevices();
 
   auto records_and_existing_objects =
@@ -455,7 +455,7 @@ OneVNSyncServiceImpl::PrepareResolvedPreferences(const RecordsList& records) {
   return records_and_existing_objects;
 }
 
-void OneVNSyncServiceImpl::OnResolvedPreferences(const RecordsList& records) {
+void OnevnSyncServiceImpl::OnResolvedPreferences(const RecordsList& records) {
   const std::string this_device_id = sync_prefs_->GetThisDeviceId();
   bool this_device_deleted = false;
   bool contains_only_one_device = false;
@@ -494,7 +494,7 @@ void OneVNSyncServiceImpl::OnResolvedPreferences(const RecordsList& records) {
   }
 }
 
-void OneVNSyncServiceImpl::OnSyncPrefsChanged(const std::string& pref) {
+void OnevnSyncServiceImpl::OnSyncPrefsChanged(const std::string& pref) {
   if (pref == prefs::kSyncEnabled) {
     sync_client_->OnSyncEnabledChanged();
     if (!sync_prefs_->GetSyncEnabled())
@@ -503,34 +503,34 @@ void OneVNSyncServiceImpl::OnSyncPrefsChanged(const std::string& pref) {
   NotifySyncStateChanged();
 }
 
-void OneVNSyncServiceImpl::OnDeletedSyncUser() {
+void OnevnSyncServiceImpl::OnDeletedSyncUser() {
   NOTIMPLEMENTED();
 }
 
-void OneVNSyncServiceImpl::OnDeleteSyncSiteSettings()  {
+void OnevnSyncServiceImpl::OnDeleteSyncSiteSettings()  {
   NOTIMPLEMENTED();
 }
 
-void OneVNSyncServiceImpl::OnSaveBookmarksBaseOrder(const std::string& order)  {
+void OnevnSyncServiceImpl::OnSaveBookmarksBaseOrder(const std::string& order)  {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   DCHECK(!order.empty());
   sync_prefs_->SetBookmarksBaseOrder(order);
   OnSyncReady();
 }
 
-void OneVNSyncServiceImpl::OnSaveBookmarkOrder(const std::string& object_id,
+void OnevnSyncServiceImpl::OnSaveBookmarkOrder(const std::string& object_id,
                                                const std::string& order)  {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   DCHECK(!order.empty());
   bookmark_change_processor_->ApplyOrder(object_id, order);
 }
 
-void OneVNSyncServiceImpl::OnSyncWordsPrepared(const std::string& words) {
+void OnevnSyncServiceImpl::OnSyncWordsPrepared(const std::string& words) {
   NotifyHaveSyncWords(words);
 }
 
 // Here we query sync lib for the records after initialization (or again later)
-void OneVNSyncServiceImpl::RequestSyncData() {
+void OnevnSyncServiceImpl::RequestSyncData() {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
 
   const bool bookmarks = sync_prefs_->GetSyncBookmarksEnabled();
@@ -563,7 +563,7 @@ void OneVNSyncServiceImpl::RequestSyncData() {
   FetchSyncRecords(bookmarks, history, preferences, 1000);
 }
 
-void OneVNSyncServiceImpl::FetchSyncRecords(const bool bookmarks,
+void OnevnSyncServiceImpl::FetchSyncRecords(const bool bookmarks,
   const bool history, const bool preferences, int max_records) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   DCHECK(bookmarks || history || preferences);
@@ -595,7 +595,7 @@ void OneVNSyncServiceImpl::FetchSyncRecords(const bool bookmarks,
     max_records);
 }
 
-void OneVNSyncServiceImpl::SendCreateDevice() {
+void OnevnSyncServiceImpl::SendCreateDevice() {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
 
   std::string device_name = sync_prefs_->GetThisDeviceName();
@@ -610,7 +610,7 @@ void OneVNSyncServiceImpl::SendCreateDevice() {
       object_id);
 }
 
-void OneVNSyncServiceImpl::SendDeviceSyncRecord(
+void OnevnSyncServiceImpl::SendDeviceSyncRecord(
     const int action,
     const std::string& device_name,
     const std::string& device_id,
@@ -627,27 +627,27 @@ void OneVNSyncServiceImpl::SendDeviceSyncRecord(
 
 static const int64_t kCheckUpdatesIntervalSec = 60;
 
-void OneVNSyncServiceImpl::StartLoop() {
+void OnevnSyncServiceImpl::StartLoop() {
   timer_->Start(FROM_HERE,
                   base::TimeDelta::FromSeconds(kCheckUpdatesIntervalSec),
                   this,
-                  &OneVNSyncServiceImpl::LoopProc);
+                  &OnevnSyncServiceImpl::LoopProc);
 }
 
-void OneVNSyncServiceImpl::StopLoop() {
+void OnevnSyncServiceImpl::StopLoop() {
   timer_->Stop();
 }
 
-void OneVNSyncServiceImpl::LoopProc() {
+void OnevnSyncServiceImpl::LoopProc() {
   base::CreateSingleThreadTaskRunnerWithTraits(
     {content::BrowserThread::UI})->PostTask(
           FROM_HERE,
-          base::BindOnce(&OneVNSyncServiceImpl::LoopProcThreadAligned,
+          base::BindOnce(&OnevnSyncServiceImpl::LoopProcThreadAligned,
               // the timer will always be destroyed before the service
               base::Unretained(this)));
 }
 
-void OneVNSyncServiceImpl::LoopProcThreadAligned() {
+void OnevnSyncServiceImpl::LoopProcThreadAligned() {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   if (!sync_initialized_) {
     return;
@@ -656,30 +656,30 @@ void OneVNSyncServiceImpl::LoopProcThreadAligned() {
   RequestSyncData();
 }
 
-void OneVNSyncServiceImpl::NotifyLogMessage(const std::string& message) {
+void OnevnSyncServiceImpl::NotifyLogMessage(const std::string& message) {
   DLOG(INFO) << message;
 }
 
-void OneVNSyncServiceImpl::NotifySyncSetupError(const std::string& error) {
+void OnevnSyncServiceImpl::NotifySyncSetupError(const std::string& error) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   for (auto& observer : observers_)
     observer.OnSyncSetupError(this, error);
 }
 
-void OneVNSyncServiceImpl::NotifySyncStateChanged() {
+void OnevnSyncServiceImpl::NotifySyncStateChanged() {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   for (auto& observer : observers_)
     observer.OnSyncStateChanged(this);
 }
 
-void OneVNSyncServiceImpl::NotifyHaveSyncWords(
+void OnevnSyncServiceImpl::NotifyHaveSyncWords(
     const std::string& sync_words) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   for (auto& observer : observers_)
     observer.OnHaveSyncWords(this, sync_words);
 }
 
-void OneVNSyncServiceImpl::ResetSyncInternal() {
+void OnevnSyncServiceImpl::ResetSyncInternal() {
   bookmark_change_processor_->Reset(false);
 
   sync_prefs_->SetPrevSeed(sync_prefs_->GetSeed());
@@ -692,7 +692,7 @@ void OneVNSyncServiceImpl::ResetSyncInternal() {
   sync_prefs_->SetSyncEnabled(false);
 }
 
-void OneVNSyncServiceImpl::SetDeviceName(const std::string& name) {
+void OnevnSyncServiceImpl::SetDeviceName(const std::string& name) {
   if (name.empty()) {
     std::string hostname = net::GetHostName();
     if (hostname.empty()) {

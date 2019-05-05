@@ -20,12 +20,12 @@ inline bool EndsWith(const std::wstring& value, const std::wstring& ending) {
 }
 
 #if defined(OFFICIAL_BUILD)
-const wchar_t kPolicyRegistryKey[] = L"SOFTWARE\\Policies\\OneVNSoftware\\OneVN-Browser";
-const wchar_t kUserDataDirNameSuffix[] = L"\\OneVNSoftware\\OneVN-Browser\\User Data";
+const wchar_t kPolicyRegistryKey[] = L"SOFTWARE\\Policies\\OnevnSoftware\\Onevn-Browser";
+const wchar_t kUserDataDirNameSuffix[] = L"\\OnevnSoftware\\Onevn-Browser\\User Data";
 #else
 const wchar_t kPolicyRegistryKey[] =
-    L"SOFTWARE\\Policies\\OneVNSoftware\\OneVN-Browser-Development";
-const wchar_t kUserDataDirNameSuffix[] = L"\\OneVNSoftware\\OneVN-Browser-Development\\User Data";
+    L"SOFTWARE\\Policies\\OnevnSoftware\\Onevn-Browser-Development";
+const wchar_t kUserDataDirNameSuffix[] = L"\\OnevnSoftware\\Onevn-Browser-Development\\User Data";
 #endif
 
 const wchar_t kUserDataDirRegistryKey[] = L"UserDataDir";

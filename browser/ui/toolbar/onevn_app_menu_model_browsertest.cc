@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -19,11 +19,11 @@
 #include "content/public/browser/notification_service.h"
 #include "content/public/test/test_utils.h"
 
-using OneVNAppMenuBrowserTest = InProcessBrowserTest;
+using OnevnAppMenuBrowserTest = InProcessBrowserTest;
 
-IN_PROC_BROWSER_TEST_F(OneVNAppMenuBrowserTest, BasicTest) {
+IN_PROC_BROWSER_TEST_F(OnevnAppMenuBrowserTest, BasicTest) {
   auto* browser_view = BrowserView::GetBrowserViewForBrowser(browser());
-  OneVNAppMenuModel normal_model(browser_view->toolbar(), browser());
+  OnevnAppMenuModel normal_model(browser_view->toolbar(), browser());
   normal_model.Init();
 
   // Check normal window has both menu items.
@@ -39,7 +39,7 @@ IN_PROC_BROWSER_TEST_F(OneVNAppMenuBrowserTest, BasicTest) {
   auto* private_browser = CreateIncognitoBrowser();
   auto* private_browser_view =
       BrowserView::GetBrowserViewForBrowser(private_browser);
-  OneVNAppMenuModel private_model(private_browser_view->toolbar(),
+  OnevnAppMenuModel private_model(private_browser_view->toolbar(),
                                   private_browser);
   private_model.Init();
 
@@ -71,7 +71,7 @@ IN_PROC_BROWSER_TEST_F(OneVNAppMenuBrowserTest, BasicTest) {
 
   auto* guest_browser_view =
       BrowserView::GetBrowserViewForBrowser(guest_browser);
-  OneVNAppMenuModel guest_model(guest_browser_view->toolbar(), guest_browser);
+  OnevnAppMenuModel guest_model(guest_browser_view->toolbar(), guest_browser);
   guest_model.Init();
 
   // Check guest window doesn't have them.

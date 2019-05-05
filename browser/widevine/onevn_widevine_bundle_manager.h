@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -29,7 +29,7 @@ namespace user_prefs {
 class PrefRegistrySyncable;
 }
 
-class OneVNWidevineBundleManager {
+class OnevnWidevineBundleManager {
  public:
   static char kWidevineInvalidVersion[];
   static void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry);
@@ -37,8 +37,8 @@ class OneVNWidevineBundleManager {
   // Called when install process is finished.
   using DoneCallback = base::OnceCallback<void(const std::string& error)>;
 
-  OneVNWidevineBundleManager();
-  ~OneVNWidevineBundleManager();
+  OnevnWidevineBundleManager();
+  ~OnevnWidevineBundleManager();
 
   void InstallWidevineBundle(DoneCallback done_callback, bool user_gesture);
 
@@ -62,15 +62,15 @@ class OneVNWidevineBundleManager {
   bool is_test() const { return is_test_; }
 
  private:
-  friend class OneVNWidevineBundleManagerTest;
+  friend class OnevnWidevineBundleManagerTest;
 
-  FRIEND_TEST_ALL_PREFIXES(OneVNWidevineBundleManagerTest, InProgressTest);
-  FRIEND_TEST_ALL_PREFIXES(OneVNWidevineBundleManagerTest, UpdateTriggerTest);
-  FRIEND_TEST_ALL_PREFIXES(OneVNWidevineBundleManagerTest, InstallSuccessTest);
-  FRIEND_TEST_ALL_PREFIXES(OneVNWidevineBundleManagerTest, DownloadFailTest);
-  FRIEND_TEST_ALL_PREFIXES(OneVNWidevineBundleManagerTest, UnzipFailTest);
-  FRIEND_TEST_ALL_PREFIXES(OneVNWidevineBundleManagerTest, MessageStringTest);
-  FRIEND_TEST_ALL_PREFIXES(OneVNWidevineBundleManagerTest,
+  FRIEND_TEST_ALL_PREFIXES(OnevnWidevineBundleManagerTest, InProgressTest);
+  FRIEND_TEST_ALL_PREFIXES(OnevnWidevineBundleManagerTest, UpdateTriggerTest);
+  FRIEND_TEST_ALL_PREFIXES(OnevnWidevineBundleManagerTest, InstallSuccessTest);
+  FRIEND_TEST_ALL_PREFIXES(OnevnWidevineBundleManagerTest, DownloadFailTest);
+  FRIEND_TEST_ALL_PREFIXES(OnevnWidevineBundleManagerTest, UnzipFailTest);
+  FRIEND_TEST_ALL_PREFIXES(OnevnWidevineBundleManagerTest, MessageStringTest);
+  FRIEND_TEST_ALL_PREFIXES(OnevnWidevineBundleManagerTest,
                            RetryInstallAfterFail);
   FRIEND_TEST_ALL_PREFIXES(WidevinePermissionRequestBrowserTest,
                            TriggerTwoPermissionTest);
@@ -102,9 +102,9 @@ class OneVNWidevineBundleManager {
   std::unique_ptr<network::SimpleURLLoader> bundle_loader_;
   scoped_refptr<base::SequencedTaskRunner> file_task_runner_;
 
-  base::WeakPtrFactory<OneVNWidevineBundleManager> weak_factory_;
+  base::WeakPtrFactory<OnevnWidevineBundleManager> weak_factory_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNWidevineBundleManager);
+  DISALLOW_COPY_AND_ASSIGN(OnevnWidevineBundleManager);
 };
 
 #endif  // ONEVN_BROWSER_WIDEVINE_ONEVN_WIDEVINE_BUNDLE_MANAGER_H_

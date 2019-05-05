@@ -29,7 +29,7 @@ declare_args() {
 }
 
 if (base_sparkle_update_url == "") {
-  base_sparkle_update_url = "https://updates.onevnsoftware.com/sparkle/OneVN-Browser"
+  base_sparkle_update_url = "https://updates.onevnsoftware.com/sparkle/Onevn-Browser"
 }
 _update_channel = onevn_channel
 if (_update_channel == "") {
@@ -70,12 +70,12 @@ if (is_win) {
     _arch = "32"
   }
   onevn_installer_exe = "onevn_installer$onevn_underline_full_version.exe"
-  onevn_stub_installer_exe = "OneVNBrowser$_channel" + "Setup$_arch$onevn_underline_full_version.exe"
-  onevn_silent_stub_installer_exe = "OneVNBrowserSilent$_channel" + "Setup$_arch$onevn_underline_full_version.exe"
-  onevn_untagged_stub_installer_exe = "OneVNBrowserUntagged$_channel" + "Setup$_arch$onevn_underline_full_version.exe"
-  onevn_standalone_installer_exe = "OneVNBrowserStandalone$_channel" + "Setup$_arch$onevn_underline_full_version.exe"
-  onevn_silent_installer_exe = "OneVNBrowserStandaloneSilent$_channel" + "Setup$_arch$onevn_underline_full_version.exe"
-  onevn_untagged_installer_exe = "OneVNBrowserStandaloneUntagged$_channel" + "Setup$_arch$onevn_underline_full_version.exe"
+  onevn_stub_installer_exe = "OnevnBrowser$_channel" + "Setup$_arch$onevn_underline_full_version.exe"
+  onevn_silent_stub_installer_exe = "OnevnBrowserSilent$_channel" + "Setup$_arch$onevn_underline_full_version.exe"
+  onevn_untagged_stub_installer_exe = "OnevnBrowserUntagged$_channel" + "Setup$_arch$onevn_underline_full_version.exe"
+  onevn_standalone_installer_exe = "OnevnBrowserStandalone$_channel" + "Setup$_arch$onevn_underline_full_version.exe"
+  onevn_silent_installer_exe = "OnevnBrowserStandaloneSilent$_channel" + "Setup$_arch$onevn_underline_full_version.exe"
+  onevn_untagged_installer_exe = "OnevnBrowserStandaloneUntagged$_channel" + "Setup$_arch$onevn_underline_full_version.exe"
 } else if (is_mac) {
   onevn_exe = "$chrome_product_full_name.app"
   onevn_dmg = "$chrome_product_full_name.dmg"
@@ -95,7 +95,7 @@ if (is_win) {
   } else {
     onevn_product_dir_name_suffix = "-Development"
   }
-  onevn_product_dir_name = "OneVNSoftware/OneVN-Browser$onevn_product_dir_name_suffix"
+  onevn_product_dir_name = "OnevnSoftware/Onevn-Browser$onevn_product_dir_name_suffix"
 }
 
 onevn_platform = "darwin"

@@ -6,11 +6,11 @@
 
 namespace version_info {
 
-std::string GetOneVNVersionWithoutChromiumMajorVersion() {
+std::string GetOnevnVersionWithoutChromiumMajorVersion() {
   return std::string(ONEVN_BROWSER_VERSION);
 }
 
-std::string GetOneVNVersionNumberForDisplay() {
+std::string GetOnevnVersionNumberForDisplay() {
   return std::string(ONEVN_BROWSER_VERSION) +
       "  Chromium: " + ONEVN_CHROMIUM_VERSION;
 }

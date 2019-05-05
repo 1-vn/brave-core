@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -14,7 +14,7 @@ const SkColor kLightToolbar = SkColorSetRGB(0xf3, 0xf3, 0xf3);
 const SkColor kLightFrame = SkColorSetRGB(0xd5, 0xd9, 0xdc);
 const SkColor kLightToolbarIcon = SkColorSetRGB(0x42, 0x42, 0x42);
 
-base::Optional<SkColor> MaybeGetDefaultColorForOneVNLightUi(int id) {
+base::Optional<SkColor> MaybeGetDefaultColorForOnevnLightUi(int id) {
   switch (id) {
     // Applies when the window is active, tabs and also tab bar everywhere
     // except active tab
@@ -42,8 +42,8 @@ base::Optional<SkColor> MaybeGetDefaultColorForOneVNLightUi(int id) {
       return kLightToolbarIcon;
     case ThemeProperties::COLOR_TOOLBAR_BUTTON_ICON_INACTIVE:
       return color_utils::AlphaBlend(kLightToolbarIcon, kLightToolbar, 0.3f);
-    case OneVNThemeProperties::COLOR_FOR_TEST:
-      return OneVNThemeProperties::kLightColorForTest;
+    case OnevnThemeProperties::COLOR_FOR_TEST:
+      return OnevnThemeProperties::kLightColorForTest;
     default:
       return base::nullopt;
   }
@@ -53,7 +53,7 @@ const SkColor kDarkToolbar = SkColorSetRGB(0x39, 0x39, 0x39);
 const SkColor kDarkFrame = SkColorSetRGB(0x22, 0x22, 0x22);
 const SkColor kDarkToolbarIcon = SkColorSetRGB(0xed, 0xed, 0xed);
 
-base::Optional<SkColor> MaybeGetDefaultColorForOneVNDarkUi(int id) {
+base::Optional<SkColor> MaybeGetDefaultColorForOnevnDarkUi(int id) {
   switch (id) {
     // Applies when the window is active, tabs and also tab bar everywhere
     // except active tab
@@ -83,8 +83,8 @@ base::Optional<SkColor> MaybeGetDefaultColorForOneVNDarkUi(int id) {
       return kDarkToolbarIcon;
     case ThemeProperties::COLOR_TOOLBAR_BUTTON_ICON_INACTIVE:
       return color_utils::AlphaBlend(kDarkToolbarIcon, kDarkToolbar, 0.3f);
-    case OneVNThemeProperties::COLOR_FOR_TEST:
-      return OneVNThemeProperties::kDarkColorForTest;
+    case OnevnThemeProperties::COLOR_FOR_TEST:
+      return OnevnThemeProperties::kDarkColorForTest;
     default:
       return base::nullopt;
   }
@@ -124,19 +124,19 @@ base::Optional<SkColor> MaybeGetDefaultColorForPrivateUi(int id) {
       return kDarkToolbarIcon;
     case ThemeProperties::COLOR_TOOLBAR_BUTTON_ICON_INACTIVE:
       return color_utils::AlphaBlend(kDarkToolbarIcon, kPrivateToolbar, 0.3f);
-    case OneVNThemeProperties::COLOR_FOR_TEST:
-      return OneVNThemeProperties::kPrivateColorForTest;
+    case OnevnThemeProperties::COLOR_FOR_TEST:
+      return OnevnThemeProperties::kPrivateColorForTest;
     // The rest is covered by a dark-appropriate value
     default:
-      return MaybeGetDefaultColorForOneVNDarkUi(id);
+      return MaybeGetDefaultColorForOnevnDarkUi(id);
   }
 }
 
 }  // namespace
 
-// Returns a |nullopt| if the UI color is not handled by OneVN.
-base::Optional<SkColor> MaybeGetDefaultColorForOneVNUi(int id, bool incognito,
-    OneVNThemeType theme) {
+// Returns a |nullopt| if the UI color is not handled by Onevn.
+base::Optional<SkColor> MaybeGetDefaultColorForOnevnUi(int id, bool incognito,
+    OnevnThemeType theme) {
   // Consistent (and stable) values across all themes
   switch (id) {
     case ThemeProperties::COLOR_TAB_THROBBER_SPINNING:
@@ -151,10 +151,10 @@ base::Optional<SkColor> MaybeGetDefaultColorForOneVNUi(int id, bool incognito,
   }
   // Get Dark or Light value
   switch (theme) {
-    case OneVNThemeType::ONEVN_THEME_TYPE_LIGHT:
-      return MaybeGetDefaultColorForOneVNLightUi(id);
-    case OneVNThemeType::ONEVN_THEME_TYPE_DARK:
-      return MaybeGetDefaultColorForOneVNDarkUi(id);
+    case OnevnThemeType::ONEVN_THEME_TYPE_LIGHT:
+      return MaybeGetDefaultColorForOnevnLightUi(id);
+    case OnevnThemeType::ONEVN_THEME_TYPE_DARK:
+      return MaybeGetDefaultColorForOnevnDarkUi(id);
     default:
       NOTREACHED();
   }

@@ -18,7 +18,7 @@ namespace onevn_sync {
 
 using base::Value;
 
-std::unique_ptr<Value> OneVNSyncSettingsToValue(onevn_sync::Settings *onevn_sync_settings) {
+std::unique_ptr<Value> OnevnSyncSettingsToValue(onevn_sync::Settings *onevn_sync_settings) {
   CHECK(onevn_sync_settings);
   auto result = std::make_unique<Value>(Value::Type::DICTIONARY);
 

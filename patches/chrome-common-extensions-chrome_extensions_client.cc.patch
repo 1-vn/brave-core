@@ -14,7 +14,7 @@ index ca4cd15d7322819fb930a33d1ad8e1866a95ccba..db9b1437e9cd154f299167c2e859e897
  ChromeExtensionsClient::ChromeExtensionsClient() {
    AddAPIProvider(std::make_unique<ChromeExtensionsAPIProvider>());
    AddAPIProvider(std::make_unique<CoreExtensionsAPIProvider>());
-+  AddAPIProvider(std::make_unique<OneVNExtensionsAPIProvider>());
++  AddAPIProvider(std::make_unique<OnevnExtensionsAPIProvider>());
  }
  
  ChromeExtensionsClient::~ChromeExtensionsClient() {

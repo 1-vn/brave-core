@@ -10,16 +10,16 @@
 #include "chrome/browser/chrome_browser_main.h"
 #include "chrome/browser/chrome_browser_main_extra_parts.h"
 
-class OneVNBrowserMainExtraParts : public ChromeBrowserMainExtraParts {
+class OnevnBrowserMainExtraParts : public ChromeBrowserMainExtraParts {
  public:
-  explicit OneVNBrowserMainExtraParts();
-  ~OneVNBrowserMainExtraParts() override;
+  explicit OnevnBrowserMainExtraParts();
+  ~OnevnBrowserMainExtraParts() override;
 
   // ChromeBrowserMainExtraParts overrides.
   void PreMainMessageLoopRun() override;
 
  private:
-  DISALLOW_COPY_AND_ASSIGN(OneVNBrowserMainExtraParts);
+  DISALLOW_COPY_AND_ASSIGN(OnevnBrowserMainExtraParts);
 };
 
 #endif  // ONEVN_BROWSER_ONEVN_BROWSER_MAIN_EXTRA_PARTS_H_

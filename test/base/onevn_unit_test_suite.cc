@@ -10,10 +10,10 @@
 #include "chrome/install_static/product_install_details.h"
 #include "chrome/test/base/chrome_unit_test_suite.h"
 
-OneVNUnitTestSuite::OneVNUnitTestSuite(int argc, char** argv)
+OnevnUnitTestSuite::OnevnUnitTestSuite(int argc, char** argv)
     : ChromeUnitTestSuite(argc, argv) {}
 
-void OneVNUnitTestSuite::Initialize() {
+void OnevnUnitTestSuite::Initialize() {
 #if defined(OS_WIN) && defined(OFFICIAL_BUILD)
   // When ChromeExtensionsBrowserClient is initialized, it needs
   install_static::InitializeProductDetailsForPrimaryModule();

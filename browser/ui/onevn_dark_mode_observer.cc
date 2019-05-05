@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -14,20 +14,20 @@ using ui::NativeTheme;
 }  // namespace
 
 // static
-ui::NativeTheme* OneVNDarkModeObserver::current_native_theme_for_testing_;
+ui::NativeTheme* OnevnDarkModeObserver::current_native_theme_for_testing_;
 
-void OneVNDarkModeObserver::OnNativeThemeUpdated(NativeTheme* observed_theme) {
+void OnevnDarkModeObserver::OnNativeThemeUpdated(NativeTheme* observed_theme) {
   DCHECK(theme_observer_.IsObserving(observed_theme));
   RunCallbackIfChanged();
   ResetThemeObserver();
 }
 
-void OneVNDarkModeObserver::Start() {
+void OnevnDarkModeObserver::Start() {
   DarkModeObserver::Start();
   ResetThemeObserver();
 }
 
-void OneVNDarkModeObserver::ResetThemeObserver() {
+void OnevnDarkModeObserver::ResetThemeObserver() {
   auto* current_native_theme = theme_->SystemDarkModeEnabled()
       ? ui::NativeThemeDarkAura::instance()
       : ui::NativeTheme::GetInstanceForNativeUi();

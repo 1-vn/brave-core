@@ -1,6 +1,6 @@
 {
   "onevnRewards": {
-    "message": "OneVN Rewards",
+    "message": "Onevn Rewards",
     "description": "Title in welcome screen for the panel"
   },
   "welcomeButtonTextOne": {
@@ -28,7 +28,7 @@
     "description": "Link in the footer (takes you to rewards settings page) for welcome screen in the panel, new user"
   },
   "welcomeHeaderOne": {
-    "message": "我們為 OneVN Rewards 做了一次大更新。",
+    "message": "我們為 Onevn Rewards 做了一次大更新。",
     "description": "Main header title for welcome screen in the panel, existing user"
   },
   "welcomeHeaderTwo": {
@@ -48,7 +48,7 @@
     "description": "The whole string is 'Enable tips on YouTube for like.'"
   },
   "verifiedPublisher": {
-    "message": "OneVN 驗證出版者",
+    "message": "Onevn 驗證出版者",
     "description": "Tells user that this particular publisher is verified publisher"
   },
   "rewardsContributeAttentionScore": {
@@ -164,7 +164,7 @@
     "description": "Used in notification to dismiss notification"
   },
   "onevnAdsTitle": {
-    "message": "OneVN 廣告",
+    "message": "Onevn 廣告",
     "description": "Notification title when we display info about ads"
   },
   "onevnContributeTitle": {
@@ -194,11 +194,11 @@
     "description": "Notification title when we ask user to backup wallet"
   },
   "backupWalletNotification": {
-    "message": "請備份您的 OneVN 電子錢包。",
+    "message": "請備份您的 Onevn 電子錢包。",
     "description": "Description for backup wallet notification"
   },
   "insufficientFundsNotification": {
-    "message": "您的 OneVN Rewards 帳號正在等待存款。",
+    "message": "您的 Onevn Rewards 帳號正在等待存款。",
     "description": "Description for new insufficient funds notification"
   },
   "insufficientFunds": {
@@ -270,7 +270,7 @@
     "description": "Button text for clearing the error."
   },
   "grantGeneralErrorText": {
-    "message": "「OneVN 報酬」發生問題了。請待會再試一次。",
+    "message": "「Onevn 報酬」發生問題了。請待會再試一次。",
     "description": "Error text when user is having problems claiming a grant."
   },
   "grantGeneralErrorTitle": {
@@ -294,7 +294,7 @@
     "description": "Status of the publisher shown in the panel"
   },
   "unVerifiedText": {
-    "message": "這位建立者尚未登記接受 OneVN 使用者的提撥金。您寄發的任何小費在他們驗證之前都會留在您的錢包中。",
+    "message": "這位建立者尚未登記接受 Onevn 使用者的提撥金。您寄發的任何小費在他們驗證之前都會留在您的錢包中。",
     "description": "Notice about unverified publisher."
   },
   "unVerifiedTextMore": {
@@ -322,7 +322,7 @@
     "description": "Text for Panel's disabled state"
   },
   "disabledPanelTitle": {
-    "message": "「OneVN 報酬」是",
+    "message": "「Onevn 報酬」是",
     "description": "Title for Panel's disabled state"
   },
   "walletFailedTitle": {
@@ -358,7 +358,7 @@
     "description": "Text block for wallet disabled panel"
   },
   "enableRewards": {
-    "message": "啟用 OneVN Rewards",
+    "message": "啟用 Onevn Rewards",
     "description": "Subtitle for wallet disabled panel"
   },
   "privacyPolicy": {
@@ -366,7 +366,7 @@
     "description": "Privacy Policy"
   },
   "serviceText": {
-    "message": "透過點選「啟用 OneVN Rewards」，您即暗示您已經閱讀並同意",
+    "message": "透過點選「啟用 Onevn Rewards」，您即暗示您已經閱讀並同意",
     "description": "Terms of service main text"
   },
   "termsOfService": {

@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -35,7 +35,7 @@
 using content::BrowserThread;
 #endif
 
-using content_settings::OneVNCookieSettings;
+using content_settings::OnevnCookieSettings;
 
 namespace onevn_shields {
 
@@ -153,7 +153,7 @@ bool TrackingProtectionService::ShouldStoreState(HostContentSettingsMap* map,
           ? false
           : IsAllowContentSetting(map, starting_site, GURL(),
                                   CONTENT_SETTINGS_TYPE_PLUGINS,
-                                  onevn_shields::kOneVNShields);
+                                  onevn_shields::kOnevnShields);
 
   if (!allow_onevn_shields) {
     return true;
@@ -196,7 +196,7 @@ void TrackingProtectionService::ParseStorageTrackersData() {
 }
 #endif
 
-bool TrackingProtectionService::ShouldStoreState(OneVNCookieSettings* settings,
+bool TrackingProtectionService::ShouldStoreState(OnevnCookieSettings* settings,
                                                  HostContentSettingsMap* map,
                                                  int render_process_id,
                                                  int render_frame_id,
@@ -361,7 +361,7 @@ TrackingProtectionService::GetTaskRunner() {
 
 ///////////////////////////////////////////////////////////////////////////////
 
-// The tracking protection factory. Using the OneVN Shields as a singleton
+// The tracking protection factory. Using the Onevn Shields as a singleton
 // is the job of the browser process.
 std::unique_ptr<TrackingProtectionService> TrackingProtectionServiceFactory() {
   std::unique_ptr<TrackingProtectionService> service =

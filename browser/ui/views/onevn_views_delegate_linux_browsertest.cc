@@ -8,16 +8,16 @@
 #include "ui/base/resource/resource_bundle.h"
 #include "ui/views/views_delegate.h"
 
-using OneVNViewsDelegateViewLinuxBrowserTest = InProcessBrowserTest;
+using OnevnViewsDelegateViewLinuxBrowserTest = InProcessBrowserTest;
 
-IN_PROC_BROWSER_TEST_F(OneVNViewsDelegateViewLinuxBrowserTest, GetDefaultWindowIconTest) {
-  // In test, our OneVNViewsDelegateLinux isn't set because ChromeViewsDelegate is set
+IN_PROC_BROWSER_TEST_F(OnevnViewsDelegateViewLinuxBrowserTest, GetDefaultWindowIconTest) {
+  // In test, our OnevnViewsDelegateLinux isn't set because ChromeViewsDelegate is set
   // at the very early state by AccessibilityChecker(subclass of ChromeViewsDelegate)
   // in ctor of InProcessBrowserTest. Introduced in v68.
   // To have a test, explicitly set views delegate by initializing here.
   // This is only effective in release mode because initializing views delegate twice isn't
   // allowed by dcheck.
-  OneVNViewsDelegateLinux onevn_views_delegate;
+  OnevnViewsDelegateLinux onevn_views_delegate;
 
   auto env = base::Environment::Create();
   views::ViewsDelegate* views_delegate = views::ViewsDelegate::GetInstance();

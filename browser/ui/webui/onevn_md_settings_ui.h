@@ -15,14 +15,14 @@ class WebUIDataSource;
 
 class Profile;
 
-class OneVNMdSettingsUI : public settings::MdSettingsUI {
+class OnevnMdSettingsUI : public settings::MdSettingsUI {
  public:
-  OneVNMdSettingsUI(content::WebUI* web_ui, const std::string& host);
-  ~OneVNMdSettingsUI() override;
+  OnevnMdSettingsUI(content::WebUI* web_ui, const std::string& host);
+  ~OnevnMdSettingsUI() override;
 
   static void AddResources(content::WebUIDataSource* html_source, Profile* profile);
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNMdSettingsUI);
+  DISALLOW_COPY_AND_ASSIGN(OnevnMdSettingsUI);
 };
 
 #endif  // ONEVN_BROWSER_UI_WEBUI_ONEVN_MD_SETTINGS_UI_H_

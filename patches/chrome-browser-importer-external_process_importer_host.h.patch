@@ -12,7 +12,7 @@ index 08c6f28746cc5f345114a942834db18f5c7a1d41..9b4ba999a26fb5600fce29eed80ad6f9
    ~ExternalProcessImporterHost() override;
  
 + private:
-+  friend class OneVNExternalProcessImporterHost;
++  friend class OnevnExternalProcessImporterHost;
 +
    // Launches the utility process that starts the import task, unless bookmark
    // or template model are not yet loaded. If load is not detected, this method

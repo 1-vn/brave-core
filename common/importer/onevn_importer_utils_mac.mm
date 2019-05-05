@@ -10,7 +10,7 @@
 #include "base/files/file_util.h"
 #include "base/mac/foundation_util.h"
 
-base::FilePath GetOneVNUserDataFolder() {
+base::FilePath GetOnevnUserDataFolder() {
   base::FilePath result = base::mac::GetUserLibraryPath();
   return result.Append("Application Support").Append("onevn");
 }

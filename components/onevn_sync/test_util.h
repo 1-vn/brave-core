@@ -26,10 +26,10 @@ class BrowserContext;
 
 namespace onevn_sync {
 
-class MockOneVNSyncClient : public OneVNSyncClient {
+class MockOnevnSyncClient : public OnevnSyncClient {
  public:
-  MockOneVNSyncClient();
-  ~MockOneVNSyncClient() override;
+  MockOnevnSyncClient();
+  ~MockOnevnSyncClient() override;
 
   MOCK_METHOD0(sync_message_handler, SyncMessageHandler*());
   MOCK_METHOD4(SendGotInitData, void(const Uint8Array& seed,
@@ -54,7 +54,7 @@ class MockOneVNSyncClient : public OneVNSyncClient {
   MOCK_METHOD0(ClearOrderMap, void());
 };
 
-std::unique_ptr<Profile> CreateOneVNSyncProfile(const base::FilePath& path);
+std::unique_ptr<Profile> CreateOnevnSyncProfile(const base::FilePath& path);
 
 std::unique_ptr<KeyedService> BuildFakeBookmarkModelForTests(
      content::BrowserContext* context);

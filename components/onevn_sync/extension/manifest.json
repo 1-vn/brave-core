@@ -1,6 +1,6 @@
 {
-   "name":"OneVN Sync",
-   "description":"Extension to keep running OneVN-Sync-Js lib",
+   "name":"Onevn Sync",
+   "description":"Extension to keep running Onevn-Sync-Js lib",
    "permissions": ["storage"],
    "version":"1.0",
    "manifest_version":2,

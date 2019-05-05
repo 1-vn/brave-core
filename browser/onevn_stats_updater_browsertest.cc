@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -33,12 +33,12 @@ std::unique_ptr<net::test_server::HttpResponse> HandleRequestForStats(
 
 }  // anonymous namespace
 
-class OneVNStatsUpdaterBrowserTest : public InProcessBrowserTest {
+class OnevnStatsUpdaterBrowserTest : public InProcessBrowserTest {
  public:
   void SetUpOnMainThread() override {
     InProcessBrowserTest::SetUpOnMainThread();
-    onevn::RegisterPrefsForOneVNStatsUpdater(testing_local_state_.registry());
-    onevn::RegisterPrefsForOneVNReferralsService(
+    onevn::RegisterPrefsForOnevnStatsUpdater(testing_local_state_.registry());
+    onevn::RegisterPrefsForOnevnReferralsService(
         testing_local_state_.registry());
     InitEmbeddedTestServer();
     SetBaseUpdateURLForTest();
@@ -51,7 +51,7 @@ class OneVNStatsUpdaterBrowserTest : public InProcessBrowserTest {
   }
 
   void SetBaseUpdateURLForTest() {
-    onevn::OneVNStatsUpdater::SetBaseUpdateURLForTest(
+    onevn::OnevnStatsUpdater::SetBaseUpdateURLForTest(
         embedded_test_server()->GetURL("/1/usage/onevn-core"));
   }
 
@@ -92,7 +92,7 @@ class OneVNStatsUpdaterBrowserTest : public InProcessBrowserTest {
 };
 
 // Run the stats updater and verify that it sets the first check preference
-IN_PROC_BROWSER_TEST_F(OneVNStatsUpdaterBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnStatsUpdaterBrowserTest,
                        StatsUpdaterSetsFirstCheckPreference) {
   // Ensure that first check preference is false
   ASSERT_FALSE(GetLocalState()->GetBoolean(kFirstCheckMade));
@@ -100,14 +100,14 @@ IN_PROC_BROWSER_TEST_F(OneVNStatsUpdaterBrowserTest,
   // Start the referrals service, since the stats updater's startup
   // ping only occurs after the referrals service checks for the promo
   // code file
-  onevn::OneVNReferralsService referrals_service(GetLocalState());
+  onevn::OnevnReferralsService referrals_service(GetLocalState());
   referrals_service.Start();
 
   // Start the stats updater, wait for it to perform its startup ping,
   // and then shut it down
-  onevn::OneVNStatsUpdater stats_updater(GetLocalState());
+  onevn::OnevnStatsUpdater stats_updater(GetLocalState());
   stats_updater.SetStatsUpdatedCallback(base::BindRepeating(
-      &OneVNStatsUpdaterBrowserTest::OnStatsUpdated, base::Unretained(this)));
+      &OnevnStatsUpdaterBrowserTest::OnStatsUpdated, base::Unretained(this)));
   stats_updater.Start();
   WaitForStatsUpdatedCallback();
   stats_updater.Stop();
@@ -121,7 +121,7 @@ IN_PROC_BROWSER_TEST_F(OneVNStatsUpdaterBrowserTest,
 
 // Run the stats updater with no active referral and verify that the
 // update url specifies the default referral code
-IN_PROC_BROWSER_TEST_F(OneVNStatsUpdaterBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnStatsUpdaterBrowserTest,
                        StatsUpdaterStartupPingWithDefaultReferralCode) {
   // Ensure that checked for promo code file preference is false
   ASSERT_FALSE(GetLocalState()->GetBoolean(kReferralCheckedForPromoCodeFile));
@@ -129,14 +129,14 @@ IN_PROC_BROWSER_TEST_F(OneVNStatsUpdaterBrowserTest,
   // Start the referrals service, since the stats updater's startup
   // ping only occurs after the referrals service checks for the promo
   // code file
-  onevn::OneVNReferralsService referrals_service(GetLocalState());
+  onevn::OnevnReferralsService referrals_service(GetLocalState());
   referrals_service.Start();
 
   // Start the stats updater, wait for it to perform its startup ping,
   // and then shut it down
-  onevn::OneVNStatsUpdater stats_updater(GetLocalState());
+  onevn::OnevnStatsUpdater stats_updater(GetLocalState());
   stats_updater.SetStatsUpdatedCallback(base::BindRepeating(
-      &OneVNStatsUpdaterBrowserTest::OnStatsUpdated, base::Unretained(this)));
+      &OnevnStatsUpdaterBrowserTest::OnStatsUpdated, base::Unretained(this)));
   stats_updater.Start();
   WaitForStatsUpdatedCallback();
   stats_updater.Stop();
@@ -163,7 +163,7 @@ IN_PROC_BROWSER_TEST_F(OneVNStatsUpdaterBrowserTest,
 
 // Run the stats updater with an active referral and verify that the
 // update url includes the referral code
-IN_PROC_BROWSER_TEST_F(OneVNStatsUpdaterBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnStatsUpdaterBrowserTest,
                        StatsUpdaterStartupPingWithReferralCode) {
   // Ensure that checked for promo code file preference is false
   ASSERT_FALSE(GetLocalState()->GetBoolean(kReferralCheckedForPromoCodeFile));
@@ -176,14 +176,14 @@ IN_PROC_BROWSER_TEST_F(OneVNStatsUpdaterBrowserTest,
   // Start the referrals service, since the stats updater's startup
   // ping only occurs after the referrals service checks for the promo
   // code file
-  onevn::OneVNReferralsService referrals_service(GetLocalState());
+  onevn::OnevnReferralsService referrals_service(GetLocalState());
   referrals_service.Start();
 
   // Start the stats updater, wait for it to perform its startup ping,
   // and then shut it down
-  onevn::OneVNStatsUpdater stats_updater(GetLocalState());
+  onevn::OnevnStatsUpdater stats_updater(GetLocalState());
   stats_updater.SetStatsUpdatedCallback(base::BindRepeating(
-      &OneVNStatsUpdaterBrowserTest::OnStatsUpdated, base::Unretained(this)));
+      &OnevnStatsUpdaterBrowserTest::OnStatsUpdated, base::Unretained(this)));
   stats_updater.Start();
   WaitForStatsUpdatedCallback();
   stats_updater.Stop();

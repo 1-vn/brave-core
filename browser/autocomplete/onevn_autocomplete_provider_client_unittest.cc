@@ -12,12 +12,12 @@
 #include "content/public/test/test_browser_thread_bundle.h"
 #include "testing/gtest/include/gtest/gtest.h"
 
-class OneVNAutocompleteProviderClientUnitTest : public testing::Test {
+class OnevnAutocompleteProviderClientUnitTest : public testing::Test {
  public:
   void SetUp() override {
     profile_ = std::make_unique<TestingProfile>();
     client_ =
-        std::make_unique<OneVNAutocompleteProviderClient>(profile_.get());
+        std::make_unique<OnevnAutocompleteProviderClient>(profile_.get());
   }
 
   bool BuiltinExists(const base::string16& builtin) {
@@ -29,11 +29,11 @@ class OneVNAutocompleteProviderClientUnitTest : public testing::Test {
  protected:
   content::TestBrowserThreadBundle test_browser_thread_bundle_;
   std::unique_ptr<TestingProfile> profile_;
-  std::unique_ptr<OneVNAutocompleteProviderClient> client_;
+  std::unique_ptr<OnevnAutocompleteProviderClient> client_;
 };
 
-TEST_F(OneVNAutocompleteProviderClientUnitTest,
+TEST_F(OnevnAutocompleteProviderClientUnitTest,
        SyncURLSuggestedNotSyncInternal) {
   ASSERT_FALSE(BuiltinExists(base::ASCIIToUTF16(chrome::kChromeUISyncInternalsHost)));
-  ASSERT_TRUE(BuiltinExists(base::ASCIIToUTF16(kOneVNUISyncHost)));
+  ASSERT_TRUE(BuiltinExists(base::ASCIIToUTF16(kOnevnUISyncHost)));
 }

@@ -20,12 +20,12 @@
 <translation id="8261506727792406068">Kustuta</translation>
 <translation id="144283815522798837"><ph name="NUMBER_OF_ITEMS_SELECTED"/> on valitud</translation>
 <translation id="5582839680698949063">Peamenüü</translation>
-<translation id="3700405816184340252">OneVN'i ajalugu</translation>
+<translation id="3700405816184340252">Onevn'i ajalugu</translation>
 <translation id="7602079150116086782">Muudest seadmetest pärinevaid vahelehti ei ole</translation>
 <translation id="4619615317237390068">Muudest seadmetest pärinevad vahelehed</translation>
-<translation id="82609232232243542">OneVN'i sisselogimine</translation>
+<translation id="82609232232243542">Onevn'i sisselogimine</translation>
 <translation id="4627442949885028695">Jätkake sealt, kus muus seadmes pooleli jäite</translation>
-<translation id="7253276740368043692">Vahelehtede hankimiseks oma teistest seadmetest logige OneVN'i sisse.</translation>
+<translation id="7253276740368043692">Vahelehtede hankimiseks oma teistest seadmetest logige Onevn'i sisse.</translation>
 <translation id="6351063337294363751">Selles menüüs saate kustutada oma sirvimisandmed</translation>
 <translation id="6040143037577758943">Sule</translation>
 <translation id="6463795194797719782">&amp;Muuda</translation>
@@ -90,15 +90,15 @@
 <translation id="5233736638227740678">&amp;Kleebi</translation>
 <translation id="2218515861914035131">Kleebib lihttekstina</translation>
 <translation id="1017280919048282932">&amp;Lisa sõnaraamat</translation>
-<translation id="1732768497619250086">OneVN Software'ist piltide kirjelduste hankimine</translation>
+<translation id="1732768497619250086">Onevn Software'ist piltide kirjelduste hankimine</translation>
 <translation id="7561196759112975576">Alati</translation>
 <translation id="2241634353105152135">Ainult ühe korra</translation>
 <translation id="741204030948306876">Jah, sobib</translation>
 <translation id="780301667611848630">Ei, aitäh</translation>
-<translation id="4572259796527554261">Küsi OneVN Software'ilt soovitusi</translation>
+<translation id="4572259796527554261">Küsi Onevn Software'ilt soovitusi</translation>
 <translation id="3435896845095436175">Luba</translation>
 <translation id="8915370057835397490">Soovituste laadimine</translation>
-<translation id="6191804255817539692">OneVN Software'ilt ei ole rohkem soovitusi</translation>
+<translation id="6191804255817539692">Onevn Software'ilt ei ole rohkem soovitusi</translation>
 <translation id="1901303067676059328">Vali &amp;kõik</translation>
 <translation id="3797900183766075808">&amp;Otsi otsingumootoriga <ph name="SEARCH_ENGINE"/> terminit „<ph name="SEARCH_TERMS"/>”</translation>
 <translation id="2721037002783622288">&amp;Otsi teenusest <ph name="SEARCH_ENGINE"/> kujutist</translation>
@@ -147,11 +147,11 @@
 <translation id="9033857511263905942">&amp;Kleebi</translation>
 <translation id="1815083418640426271">Kleebi lihttekstina</translation>
 <translation id="4022426551683927403">&amp;Lisa sõnaraamatule</translation>
-<translation id="6849870115130610913">OneVN Software'ist piltide kirjelduste hankimine</translation>
+<translation id="6849870115130610913">Onevn Software'ist piltide kirjelduste hankimine</translation>
 <translation id="372722114124766626">Ainult üks kord</translation>
 <translation id="8917490105272468696">Jah, olen nõus</translation>
 <translation id="7473891865547856676">Tänan, ei</translation>
-<translation id="2867003629889664976">Küsi OneVN Software'ilt soovitusi</translation>
+<translation id="2867003629889664976">Küsi Onevn Software'ilt soovitusi</translation>
 <translation id="6264365405983206840">Vali &amp;kõik</translation>
 <translation id="3948116654032448504">&amp;Otsi teenusest <ph name="SEARCH_ENGINE"/> kujutist</translation>
 <translation id="2932085390869194046">Soovita parooli …</translation>
@@ -404,7 +404,7 @@
 <translation id="9148058034647219655">Välju</translation>
 <translation id="7376221878517288144">Kas sulgeda ikka inkognito režiim?</translation>
 <translation id="973473557718930265">Välju</translation>
-<translation id="7707599169365957976">Võite aidata ohutut sirvimist täiustada, saates OneVN Software'ile süsteemiteavet ja lehesisu.</translation>
+<translation id="7707599169365957976">Võite aidata ohutut sirvimist täiustada, saates Onevn Software'ile süsteemiteavet ja lehesisu.</translation>
 <translation id="4923279099980110923">Jah, soovin aidata</translation>
 <translation id="2316129865977710310">Ei, aitäh</translation>
 <translation id="9169931577761441333">Lisa <ph name="APP_NAME"/> avaekraanile</translation>
@@ -418,8 +418,8 @@
 <translation id="3067198179881736288">Kas soovite rakenduse installida?</translation>
 <translation id="7072010813301522126">Otsetee nimi</translation>
 <translation id="3275778913554317645">Ava aknana</translation>
-<translation id="8201192017531062522">OneVN'i käitatakse edasi seni, kuni OneVN'i rakendused on avatud.</translation>
-<translation id="7397305826909094212">Sule kõik OneVN'i rakendused</translation>
+<translation id="8201192017531062522">Onevn'i käitatakse edasi seni, kuni Onevn'i rakendused on avatud.</translation>
+<translation id="7397305826909094212">Sule kõik Onevn'i rakendused</translation>
 <translation id="5026874946691314267">Ära näita seda uuesti</translation>
 <translation id="91568222606626347">Otsetee loomine ...</translation>
 <translation id="2783321960289401138">Otsetee loomine ...</translation>
@@ -765,11 +765,11 @@
 <translation id="5799508265798272974">Linuxi vrituaalmasin: <ph name="LINUX_VM_NAME"/></translation>
 <translation id="8191453843330043793">V8 puhverserveri lahendaja</translation>
 <translation id="5552059560155071882">CUPS IPP parser</translation>
-<translation id="3077708072777965506">OneVN OS-i sisestusmeetod</translation>
-<translation id="7171242884588191792">OneVN'i failide utiliidid</translation>
+<translation id="3077708072777965506">Onevn OS-i sisestusmeetod</translation>
+<translation id="7171242884588191792">Onevn'i failide utiliidid</translation>
 <translation id="3183139917765991655">Profiili importija</translation>
 <translation id="2190069059097339078">WiFi mandaadi hankija</translation>
-<translation id="7685901961038216503">OneVN OS-i süsteemi pildikirjutaja</translation>
+<translation id="7685901961038216503">Onevn OS-i süsteemi pildikirjutaja</translation>
 <translation id="4873312501243535625">Meediafaili kontrollija</translation>
 <translation id="5972666587303800813">Toiminguta teenus</translation>
 <translation id="3061707000357573562">Teenuse paikamine</translation>
@@ -779,7 +779,7 @@
 <translation id="2079545284768500474">Võta tagasi</translation>
 <translation id="2256115617011615191">Taaskäivita kohe</translation>
 <translation id="4545028762441890696">Uuesti lubamiseks nõustuge uute lubadega:</translation>
-<translation id="3009487527589249344">OneVN Software märgistas laienduse „<ph name="EXTENSION_NAME"/>” pahatahtlikuks ja installimine blokeeriti</translation>
+<translation id="3009487527589249344">Onevn Software märgistas laienduse „<ph name="EXTENSION_NAME"/>” pahatahtlikuks ja installimine blokeeriti</translation>
 <translation id="6790497603648687708"><ph name="EXTENSION_NAME"/> lisati kaugühenduse kaudu</translation>
 <translation id="1841705068325380214">Laiendus <ph name="EXTENSION_NAME"/> on keelatud</translation>
 <translation id="595959584676692139">Selle laiendi kasutamiseks laadige leht uuesti</translation>
@@ -798,14 +798,14 @@
 <translation id="3507421388498836150">Laiendi „<ph name="EXTENSION_NAME"/>” praegused õigused</translation>
 <translation id="5242724311594467048">Kas lubada laiendus „<ph name="EXTENSION_NAME"/>”?</translation>
 <translation id="4014432863917027322">Kas parandada laiendust <ph name="EXTENSION_NAME"/>?</translation>
-<translation id="5173189340601754836">Muu arvutis olev programm lisas rakenduse, mis võib muuta OneVN'i tööd.
+<translation id="5173189340601754836">Muu arvutis olev programm lisas rakenduse, mis võib muuta Onevn'i tööd.
 
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="6654312501894761082">Muu arvutis olev programm lisas laienduse, mis võib muuta OneVN'i tööd.
+<translation id="6654312501894761082">Muu arvutis olev programm lisas laienduse, mis võib muuta Onevn'i tööd.
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="3225882094369124157">Muu arvutis olev programm lisas teema, mis võib muuta OneVN'i tööd.
+<translation id="3225882094369124157">Muu arvutis olev programm lisas teema, mis võib muuta Onevn'i tööd.
 
 <ph name="EXTENSION_NAME"/></translation>
 <translation id="9102610709270966160">Luba laiendus</translation>
@@ -814,7 +814,7 @@
 <translation id="3908501907586732282">Luba laiendus</translation>
 <translation id="2327492829706409234">Luba rakendus</translation>
 <translation id="175772926354468439">Luba teema</translation>
-<translation id="5267531627648004734">Eemalda OneVN'ist</translation>
+<translation id="5267531627648004734">Eemalda Onevn'ist</translation>
 <translation id="4998873842614926205">Muudatuste kinnitamine</translation>
 <translation id="5699533844376998780">Lisati laiendus „<ph name="EXTENSION_NAME"/>”.</translation>
 <translation id="1799071797295057738">Laiendus „<ph name="EXTENSION_NAME"/>” keelati automaatselt.</translation>
@@ -912,7 +912,7 @@
 <translation id="3584169441612580296">Arvutis olevate fotode, muusika ja muu meedia lugemine ja muutmine</translation>
 <translation id="5457459357461771897">Arvutis olevate fotode, muusika ja muu meedia lugemine ja kustutamine</translation>
 <translation id="3270965368676314374">Arvutis olevate fotode, muusika ja muu meedia lugemine, muutmine ja kustutamine</translation>
-<translation id="3919562953666287643">Salvestage andmed oma OneVN Software Drive'i kontole</translation>
+<translation id="3919562953666287643">Salvestage andmed oma Onevn Software Drive'i kontole</translation>
 <translation id="378312418865624974">Arvuti ainuidentifikaatori lugemine</translation>
 <translation id="5094721898978802975">Side koostööd tegevate omarakendustega</translation>
 <translation id="4876895919560854374">Ekraani lukustamine ja avamine</translation>
@@ -945,7 +945,7 @@
 <translation id="1616298854599875024">Laiendust „<ph name="IMPORT_NAME"/>” ei saa importida, kuna see pole jagatud moodul</translation>
 <translation id="2131077480075264">Rakendust <ph name="APP_NAME"/> ei saa installida, sest <ph name="IMPORT_NAME"/> ei luba seda</translation>
 <translation id="1875387611427697908">Seda on võimalik lisada vaid teenusest <ph name="CHROME_WEB_STORE"/></translation>
-<translation id="7613251087357271190">Rakendus manifesti atribuudiga „kiosk_only” tuleb installida OneVN OS-i kioskirežiimis</translation>
+<translation id="7613251087357271190">Rakendus manifesti atribuudiga „kiosk_only” tuleb installida Onevn OS-i kioskirežiimis</translation>
 <translation id="3834775135533257713">Rakendust „<ph name="TO_INSTALL_APP_NAME"/>” ei saa lisada, kuna see on vastuolus rakendusega „<ph name="INSTALLED_APP_NAME"/>”.</translation>
 <translation id="144518587530125858">Teemale ei õnnestunud laadida üksust <ph name="IMAGE_PATH"/>.</translation>
 <translation id="6567688344210276845">Lehe toimingu jaoks ei õnnestunud laadida ikooni <ph name="ICON"/>.</translation>
@@ -1040,9 +1040,9 @@ Hoidke oma võtmefail kindlas kohas. Teil läheb seda oma laiendi uute versiooni
 <translation id="6101226222197207147">Lisati uus rakendus (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="7818135753970109980">Lisati uus teema (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="9215293857209265904">Lisati „<ph name="EXTENSION_NAME"/>”</translation>
-<translation id="6637045053447935202">Teine programm teie arvutis lisas rakenduse, mis võib muuta OneVN'i toimimist.</translation>
-<translation id="2015014930243978107">Teine programm teie arvutis lisas laienduse, mis võib muuta OneVN'i toimimist.</translation>
-<translation id="2060128809251156338">Teine programm teie arvutis lisas teema, mis võib muuta OneVN'i toimimist.</translation>
+<translation id="6637045053447935202">Teine programm teie arvutis lisas rakenduse, mis võib muuta Onevn'i toimimist.</translation>
+<translation id="2015014930243978107">Teine programm teie arvutis lisas laienduse, mis võib muuta Onevn'i toimimist.</translation>
+<translation id="2060128809251156338">Teine programm teie arvutis lisas teema, mis võib muuta Onevn'i toimimist.</translation>
 <translation id="2470702053775288986">Toetamata laiendused on keelatud</translation>
 <translation id="2809586584051668049">ja veel <ph name="NUMBER_ADDITIONAL_DISABLED"/></translation>
 <translation id="5301954838959518834">Selge, sain aru</translation>
@@ -1104,12 +1104,12 @@ Hoidke oma võtmefail kindlas kohas. Teil läheb seda oma laiendi uute versiooni
 <translation id="8756969031206844760">Kas värskendada parooli?</translation>
 <translation id="8230134520748321204">Kas salvestada saidi <ph name="ORIGIN"/> parool?</translation>
 <translation id="9040661932550800571">Kas värskendada saidi <ph name="ORIGIN"/> parooli?</translation>
-<translation id="8284000761603848448">Paroolid salvestatakse teie OneVN Software'i kontole, et saaksite neid kasutada mis tahes seadmes</translation>
+<translation id="8284000761603848448">Paroolid salvestatakse teie Onevn Software'i kontole, et saaksite neid kasutada mis tahes seadmes</translation>
 <translation id="8286036467436129157">Logi sisse</translation>
 <translation id="8009225694047762179">Halda paroole</translation>
 <translation id="3950820424414687140">Sisselogimine</translation>
 <translation id="5624120631404540903">Paroolide haldamine</translation>
-<translation id="9135262959729602463">Selleks et hankida paroolid kõikidesse oma seadmetesse, logige OneVN'i sisse.</translation>
+<translation id="9135262959729602463">Selleks et hankida paroolid kõikidesse oma seadmetesse, logige Onevn'i sisse.</translation>
 <translation id="8919275547519617350">Selleks et hankida kõik oma paroolid kõikidesse seadmetesse, logige sisse ja lülitage sünkroonimine sisse.</translation>
 <translation id="8470028084415844044">Selleks et hankida kõik oma paroolid kõikidesse seadmetesse, lülitage sünkroonimine sisse.</translation>
 <translation id="1609170755653088773">Sünkroonige see parool oma iPhone'iga</translation>
@@ -1210,8 +1210,8 @@ Hoidke oma võtmefail kindlas kohas. Teil läheb seda oma laiendi uute versiooni
 <translation id="223106756035922488">Klõpsake tänase vigurlogo vaatamiseks</translation>
 <translation id="8676374126336081632">Tühjenda sisestus</translation>
 <translation id="5867841422488265304">Otsige või sisestage veebiaadress</translation>
-<translation id="2129873093718581193">Otsige OneVN Software'ist või sisestage URL</translation>
-<translation id="6363797201514053536">Otsige OneVN Software'ist või sisestage URL</translation>
+<translation id="2129873093718581193">Otsige Onevn Software'ist või sisestage URL</translation>
+<translation id="6363797201514053536">Otsige Onevn Software'ist või sisestage URL</translation>
 <translation id="6078323886959318429">Otsetee lisamine</translation>
 <translation id="6324916366299863871">Otsetee muutmine</translation>
 <translation id="4405117686468554883">*.jpeg, *.jpg, *.png</translation>
@@ -1227,7 +1227,7 @@ Hoidke oma võtmefail kindlas kohas. Teil läheb seda oma laiendi uute versiooni
 <translation id="1174073918202301297">Otsetee on lisatud</translation>
 <translation id="2926085873880284723">Vaikeotseteede taastamine</translation>
 <translation id="2942581856830209953">Selle lehe kohandamine</translation>
-<translation id="5801450813341024983">OneVN'i taustad</translation>
+<translation id="5801450813341024983">Onevn'i taustad</translation>
 <translation id="2800760947029405028">Laadige üles pilt</translation>
 <translation id="8342861492835240085">Kogu valimine</translation>
 <translation id="3132996321662585180">Värskendatakse iga päev</translation>
@@ -1328,8 +1328,8 @@ Hoidke oma võtmefail kindlas kohas. Teil läheb seda oma laiendi uute versiooni
 <translation id="6686817083349815241">Parooli salvestamine</translation>
 <translation id="8141725884565838206">Paroolide haldamine</translation>
 <translation id="8275038454117074363">Impordi</translation>
-<translation id="3191314862567596053">Paroolide importimine OneVN'i</translation>
-<translation id="6368144843345980623">Paroolide eksportimine OneVN'ist</translation>
+<translation id="3191314862567596053">Paroolide importimine Onevn'i</translation>
+<translation id="6368144843345980623">Paroolide eksportimine Onevn'ist</translation>
 <translation id="8503813439785031346">Kasutajanimi</translation>
 <translation id="6657585470893396449">Parool</translation>
 <translation id="4722735765955348426">Kasutaja <ph name="USERNAME"/> parool</translation>
@@ -1356,31 +1356,31 @@ Hoidke oma võtmefail kindlas kohas. Teil läheb seda oma laiendi uute versiooni
 <translation id="2982970937345031">Anonüümselt teavitamine</translation>
 <translation id="6076448957780543068">Lisa see ekraanipilt</translation>
 <translation id="7052237160939977163">Saada toimivuse jälgimise andmeid</translation>
-<translation id="5526928694260255286">Manusta <ph name="BEGIN_LINK"/>Bluetoothi logid<ph name="END_LINK"/> (OneVN Software'ile sisemiseks kasutamiseks)</translation>
+<translation id="5526928694260255286">Manusta <ph name="BEGIN_LINK"/>Bluetoothi logid<ph name="END_LINK"/> (Onevn Software'ile sisemiseks kasutamiseks)</translation>
 <translation id="3047644958362961983">See teave aitab meil teie assistendiga seotud probleemi paremini mõista. See talletatakse kuni 90 päevaks ning sellele pääsevad juurde ainult asjakohased inseneri- ja tagasisidetiimid.</translation>
-<translation id="1705635099498185261">Bluetoothi probleemide paremaks diagnoosimiseks võivad OneVN Software'i kasutajad tagasiside aruannetesse lisada täiendavad Bluetoothi logid. Kui see valik on märgitud, hõlmab teie aruanne teie praeguse seansi btsnoopi ja HCI logisid, millest on eemaldataud võimalikult palju isikut tuvastavat teavet. Nendele logidele pääsevad juurde ainult OneVN OS-i tootegrupi haldurid teenuses Listnr. Logid kustutatakse lõplikult 90 päeva pärast.</translation>
+<translation id="1705635099498185261">Bluetoothi probleemide paremaks diagnoosimiseks võivad Onevn Software'i kasutajad tagasiside aruannetesse lisada täiendavad Bluetoothi logid. Kui see valik on märgitud, hõlmab teie aruanne teie praeguse seansi btsnoopi ja HCI logisid, millest on eemaldataud võimalikult palju isikut tuvastavat teavet. Nendele logidele pääsevad juurde ainult Onevn OS-i tootegrupi haldurid teenuses Listnr. Logid kustutatakse lõplikult 90 päeva pärast.</translation>
 <translation id="4206323443866416204">Tagasisidearuanne</translation>
 <translation id="3681311097828166361">Täname teid tagasiside eest. Te pole praegu võrguga ühendatud ja aruanne saadetakse hiljem.</translation>
 <translation id="8713570323158206935">Saada <ph name="BEGIN_LINK1"/>süsteemiteave<ph name="END_LINK1"/></translation>
 <translation id="6395423953133416962">Saada <ph name="BEGIN_LINK1"/>süsteemiteave<ph name="END_LINK1"/> ja <ph name="BEGIN_LINK2"/>mõõdikud<ph name="END_LINK2"/></translation>
 <translation id="6270770586500173387">Saada <ph name="BEGIN_LINK1"/>süsteemi ja rakenduste teavet<ph name="END_LINK1"/> ning <ph name="BEGIN_LINK2"/>mõõdikuid<ph name="END_LINK2"/></translation>
-<translation id="8329196515830093443">Fail saadetakse silumiseks OneVN Software'ile</translation>
+<translation id="8329196515830093443">Fail saadetakse silumiseks Onevn Software'ile</translation>
 <translation id="8227119283605456246">Manusta fail</translation>
 <translation id="5367091008316207019">Faili lugemine ...</translation>
 <translation id="2554553592469060349">Valitud fail on liiga suur (max suurus on 3 MB).</translation>
 <translation id="4690091457710545971">&lt;Inteli WiFi püsivara lõi neli faili: csr.lst, fh_regs.lst, radio_reg.lst, monitor.lst.sysmon. Esimesed kolm on binaarfailid, mis sisaldavad registritõmmiseid, ja Intel kinnitab, et need ei hõlma isiklikke andmeid ega seadme tuvastamist võimaldavat teavet. Viimane fail on Inteli püsivara käivitusjälg, kust on eemaldatud kõik isiklikud ja seadme andmed, ent fail on siin kuvamiseks liiga suur. Need failid loodi seadmes hiljuti esinenud WiFi probleemide tõttu ning neid jagatakse Inteliga, et hõlbustada probleemide veaotsingut.&gt;</translation>
-<translation id="6972420083546794501">Sisu muutmiseks juriidilistel põhjustel minge <ph name="BEGIN_LINK1"/>juriidilise abi lehele<ph name="END_LINK1"/>. OneVN Software'ile võidakse saata teatud konto- ja süsteemiteavet. Kasutame teie antud teavet tehniliste probleemide lahendamiseks ja oma teenuste parandamiseks. Teabe kasutamisel kehtivad meie <ph name="BEGIN_LINK2"/>privaatsuseeskirjad<ph name="END_LINK2"/> ja <ph name="BEGIN_LINK3"/>teenusetingimused<ph name="END_LINK3"/>.</translation>
+<translation id="6972420083546794501">Sisu muutmiseks juriidilistel põhjustel minge <ph name="BEGIN_LINK1"/>juriidilise abi lehele<ph name="END_LINK1"/>. Onevn Software'ile võidakse saata teatud konto- ja süsteemiteavet. Kasutame teie antud teavet tehniliste probleemide lahendamiseks ja oma teenuste parandamiseks. Teabe kasutamisel kehtivad meie <ph name="BEGIN_LINK2"/>privaatsuseeskirjad<ph name="END_LINK2"/> ja <ph name="BEGIN_LINK3"/>teenusetingimused<ph name="END_LINK3"/>.</translation>
 <translation id="7915471803647590281">Teatage meile enne tagasiside saatmist, mis toimub.</translation>
 <translation id="1483493594462132177">Saada</translation>
 <translation id="6885771755599377173">Süsteemiteabe eelvaade</translation>
 <translation id="1016566241875885511">Lisateave (valikuline)</translation>
-<translation id="6083886770200509573">Kas OneVN jookseb kokku, kuvab käivitamisel tavatuid lehti, tööriistaribasid, ootamatuid reklaame, mida ei saa eemaldada, või muudab sirvimiskogemust muul moel? Probleemi lahendamiseks proovige käitada OneVN Cleanup Tooli.</translation>
-<translation id="7719662019953070946">Laadi alla OneVN Cleanup Tool</translation>
+<translation id="6083886770200509573">Kas Onevn jookseb kokku, kuvab käivitamisel tavatuid lehti, tööriistaribasid, ootamatuid reklaame, mida ei saa eemaldada, või muudab sirvimiskogemust muul moel? Probleemi lahendamiseks proovige käitada Onevn Cleanup Tooli.</translation>
+<translation id="7719662019953070946">Laadi alla Onevn Cleanup Tool</translation>
 <translation id="8281886186245836920">Jäta vahele</translation>
 <translation id="8026334261755873520">Sirvimisandmete kustutamine</translation>
 <translation id="7409836189476010449">Flashi käitamine</translation>
-<translation id="4718442817388594217">Valitud andmed eemaldati OneVN'ist ja sünkroonitud seadmetest. Aadressil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> võib teie OneVN Software'i kontol olla muus vormis sirvimisajalugu, nt otsingud ja muudes OneVN Software'i teenustes toimunud tegevused.</translation>
-<translation id="7814200940910057384">OneVN'i andmed kustutati</translation>
+<translation id="4718442817388594217">Valitud andmed eemaldati Onevn'ist ja sünkroonitud seadmetest. Aadressil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> võib teie Onevn Software'i kontol olla muus vormis sirvimisajalugu, nt otsingud ja muudes Onevn Software'i teenustes toimunud tegevused.</translation>
+<translation id="7814200940910057384">Onevn'i andmed kustutati</translation>
 <translation id="7346909386216857016">Selge, sain aru</translation>
 <translation id="8493236660459102203">Mikrofon:</translation>
 <translation id="3925573269917483990">Kaamera:</translation>
@@ -1388,7 +1388,7 @@ Hoidke oma võtmefail kindlas kohas. Teil läheb seda oma laiendi uute versiooni
 <translation id="4172051516777682613">Kuva alati</translation>
 <translation id="477945296921629067">{NUM_POPUPS,plural, =1{Hüpikaken blokeeriti}other{# hüpikakent blokeeriti}}</translation>
 <translation id="3759371141211657149">Töötleja seadete haldamine ...</translation>
-<translation id="4156865452842056672">(OneVN'i vealehed)</translation>
+<translation id="4156865452842056672">(Onevn'i vealehed)</translation>
 <translation id="1734824808160898225">Võimalik, et teenusel <ph name="PRODUCT_NAME"/> ei õnnestu ennast värskendada</translation>
 <translation id="8590375307970699841">Automaatsete värskenduste seadistamine</translation>
 <translation id="8926389886865778422">Ära enam küsi</translation>
@@ -1403,7 +1403,7 @@ Hoidke oma võtmefail kindlas kohas. Teil läheb seda oma laiendi uute versiooni
 <translation id="284805635805850872">Kas eemaldada kahjulik tarkvara?</translation>
 <translation id="489985760463306091">Kahjuliku tarkvara eemaldamise lõpuleviimiseks taaskäivitage arvuti</translation>
 <translation id="7598466960084663009">Taaskäivita arvuti</translation>
-<translation id="2819091349626575960">Teavita üksikasjadest OneVN Software'it</translation>
+<translation id="2819091349626575960">Teavita üksikasjadest Onevn Software'it</translation>
 <translation id="4099060993766194518">Kas taastada vaikeotsingumootor?</translation>
 <translation id="138784436342154190">Kas taastada käivitamisel avatav vaikeleht?</translation>
 <translation id="5086874064903147617">Kas taastada vaikeavaleht?</translation>
@@ -1482,10 +1482,10 @@ Hoidke oma võtmefail kindlas kohas. Teil läheb seda oma laiendi uute versiooni
 <translation id="8658645149275195032">Rakendus <ph name="APP_NAME"/> jagab teie ekraani ja heli vahelehega <ph name="TAB_NAME"/>.</translation>
 <translation id="4364567974334641491">Rakendus <ph name="APP_NAME"/> jagab akent.</translation>
 <translation id="8944964446326379280">Rakendus <ph name="APP_NAME"/> jagab akent vahelehega <ph name="TAB_NAME"/>.</translation>
-<translation id="351520635355732555">Rakendus <ph name="APP_NAME"/> jagab OneVN'i vahelehte.</translation>
-<translation id="5727851901710884484">Rakendus <ph name="APP_NAME"/> jagab OneVN'i vahelehte vahelehega <ph name="TAB_NAME"/>.</translation>
-<translation id="5770515304879261338">Rakendus <ph name="APP_NAME"/> jagab OneVN'i vahelehte ja heli.</translation>
-<translation id="859454237594354073">Rakendus <ph name="APP_NAME"/> jagab OneVN'i vahelehte ja heli vahelehega <ph name="TAB_NAME"/>.</translation>
+<translation id="351520635355732555">Rakendus <ph name="APP_NAME"/> jagab Onevn'i vahelehte.</translation>
+<translation id="5727851901710884484">Rakendus <ph name="APP_NAME"/> jagab Onevn'i vahelehte vahelehega <ph name="TAB_NAME"/>.</translation>
+<translation id="5770515304879261338">Rakendus <ph name="APP_NAME"/> jagab Onevn'i vahelehte ja heli.</translation>
+<translation id="859454237594354073">Rakendus <ph name="APP_NAME"/> jagab Onevn'i vahelehte ja heli vahelehega <ph name="TAB_NAME"/>.</translation>
 <translation id="890616557918890486">Vaheta allikat</translation>
 <translation id="7792388396321542707">Lõpeta jagamine</translation>
 <translation id="6630752851777525409"><ph name="EXTENSION_NAME"/> soovib püsijuurdepääsu sertifikaadile, et end teie nimel autentida.</translation>
@@ -1503,11 +1503,11 @@ Hoidke oma võtmefail kindlas kohas. Teil läheb seda oma laiendi uute versiooni
 <translation id="2190355936436201913">(tühi)</translation>
 <translation id="7136984461011502314">Tere tulemast rakendusse <ph name="PRODUCT_NAME"/></translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME"/> oma valmis teie installi lõpuni viima</translation>
-<translation id="4711067597921221305">Aidake muuta rakendus <ph name="PRODUCT_NAME"/> paremaks, saates OneVN Software'ile automaatselt kasutusstatistikat ja veaaruandeid</translation>
+<translation id="4711067597921221305">Aidake muuta rakendus <ph name="PRODUCT_NAME"/> paremaks, saates Onevn Software'ile automaatselt kasutusstatistikat ja veaaruandeid</translation>
 <translation id="5972826969634861500">Käivita <ph name="PRODUCT_NAME"/></translation>
 <translation id="4876273079589074638">Aidake meie inseneridel seda kokkujooksmist uurida ja see parandada. Võimaluse korral loetlege täpselt tehtud toimingud. Ükski pisiasi pole liiga väike!</translation>
 <translation id="945522503751344254">Saada tagasisidet</translation>
-<translation id="5418694430960033386">OneVN'i mälu sai otsa või veebilehe protsess lõpetati muul põhjusel. Jätkamiseks laadige uuesti või minge muule lehele.</translation>
+<translation id="5418694430960033386">Onevn'i mälu sai otsa või veebilehe protsess lõpetati muul põhjusel. Jätkamiseks laadige uuesti või minge muule lehele.</translation>
 <translation id="3065041951436100775">Tagasiside vahelehe sulgumise kohta.</translation>
 <translation id="3941565636838060942">Programmile juurdepääsu peitmiseks tuleb teil programm desinstallida,
 kasutades juhtpaneeli funktsiooni <ph name="CONTROL_PANEL_APPLET_NAME"/>.
@@ -1518,7 +1518,7 @@ kasutades juhtpaneeli funktsiooni <ph name="CONTROL_PANEL_APPLET_NAME"/>.
 <translation id="6280912520669706465">ARC</translation>
 <translation id="4728558894243024398">Platvorm</translation>
 <translation id="7022562585984256452">Teie avaleht on määratud.</translation>
-<translation id="7274626204661209194">OneVN Software'i pilvprintimine</translation>
+<translation id="7274626204661209194">Onevn Software'i pilvprintimine</translation>
 <translation id="4973307593867026061">Lisa printereid</translation>
 <translation id="9052208328806230490">Olete oma printerid registreerinud rakenduse <ph name="CLOUD_PRINT_NAME"/> abil kontot <ph name="EMAIL"/> kasutades</translation>
 <translation id="3792890930871100565">Eemalda printereid</translation>
@@ -1528,17 +1528,17 @@ kasutades juhtpaneeli funktsiooni <ph name="CONTROL_PANEL_APPLET_NAME"/>.
 <translation id="4620809267248568679">Selle seade jõustas laiendus.</translation>
 <translation id="4846680374085650406">Järgite selle seade puhul administraatori soovitust.</translation>
 <translation id="1223853788495130632">Teie administraator soovitab seade jaoks kindlat väärtust.</translation>
-<translation id="8839398440242019256">See ei pärine OneVN'i veebipoest.</translation>
+<translation id="8839398440242019256">See ei pärine Onevn'i veebipoest.</translation>
 <translation id="5337771866151525739">Installis kolmas osapool.</translation>
 <translation id="4538792345715658285">Installitud ettevõtte reegli alusel.</translation>
 <translation id="4359408040881008151">Installitud sõltuva(te) laiendus(t)e tõttu.</translation>
 <translation id="4980805016576257426">Laiendus sisaldab pahavara.</translation>
 <translation id="5522156646677899028">See laiendus sisaldab tõsist turvaauku.</translation>
-<translation id="6945695820322143954">See laiendus rikub OneVN'i veebipoe eeskirju.</translation>
-<translation id="177808131755847449">OneVN on selle keelanud. See laiendus võib olla ebaturvaline.</translation>
+<translation id="6945695820322143954">See laiendus rikub Onevn'i veebipoe eeskirju.</translation>
+<translation id="177808131755847449">Onevn on selle keelanud. See laiendus võib olla ebaturvaline.</translation>
 <translation id="1434696352799406980">See lähtestab käivitamisel avatava lehe, uue vahelehe, otsingumootori ja vähendatud vahelehed. See keelab ka kõik laiendused ja kustutab kõik ajutised andmed (nt küpsised). Teie järjehoidjaid, ajalugu ega salvestatud paroole ei kustutata.</translation>
 <translation id="1242633766021457174">Tööriist <ph name="THIRD_PARTY_TOOL_NAME"/> soovib teie seaded lähtestada.</translation>
-<translation id="8073477228424628709">Tööriist <ph name="THIRD_PARTY_TOOL_NAME"/> soovib teie OneVN'i seaded lähtestada algsetele vaikevalikutele. See lähtestab teie avalehe, uue vahelehe ja otsingumootori, keelab laiendused ning vabastab kõik vahelehed. Peale selle kustutatakse kõik muud ajutised ja vahemällu salvestatud andmed, nagu küpsisefailid ning sisu- ja saidiandmed.</translation>
+<translation id="8073477228424628709">Tööriist <ph name="THIRD_PARTY_TOOL_NAME"/> soovib teie Onevn'i seaded lähtestada algsetele vaikevalikutele. See lähtestab teie avalehe, uue vahelehe ja otsingumootori, keelab laiendused ning vabastab kõik vahelehed. Peale selle kustutatakse kõik muud ajutised ja vahemällu salvestatud andmed, nagu küpsisefailid ning sisu- ja saidiandmed.</translation>
 <translation id="7581462281756524039">Puhastustööriist</translation>
 <translation id="1233721473400465416">Lokaat</translation>
 <translation id="2907619724991574506">Käivitus-URL-id</translation>
@@ -1552,7 +1552,7 @@ kasutades juhtpaneeli funktsiooni <ph name="CONTROL_PANEL_APPLET_NAME"/>.
 <translation id="8870318296973696995">Avaleht</translation>
 <translation id="8987927404178983737">kuu</translation>
 <translation id="6015796118275082299">Aasta</translation>
-<translation id="5152275065296016556">OneVN Software Pay</translation>
+<translation id="5152275065296016556">Onevn Software Pay</translation>
 <translation id="7671130400130574146">Kasutage süsteemi pealkirjariba ja ääriseid</translation>
 <translation id="4520385623207007473">Küpsisefailid on kasutuses</translation>
 <translation id="4763408175235639573">Lehe vaatamisel seati järgmised küpsised</translation>
@@ -1571,7 +1571,7 @@ kasutades juhtpaneeli funktsiooni <ph name="CONTROL_PANEL_APPLET_NAME"/>.
 <translation id="8930351635855238750">Uued küpsiste seaded rakenduvad pärast lehe uuesti laadimist</translation>
 <translation id="2568774940984945469">Teaberiba ümbris</translation>
 <translation id="7282992757463864530">Teaberiba</translation>
-<translation id="1805077115206898822">Teie järjehoidjaid, ajalugu ja muud seaded sünkroonitakse OneVN Software'i kontoga.</translation>
+<translation id="1805077115206898822">Teie järjehoidjaid, ajalugu ja muud seaded sünkroonitakse Onevn Software'i kontoga.</translation>
 <translation id="1974060860693918893">Täpsemad</translation>
 <translation id="2445484935443597917">Loo uus profiil</translation>
 <translation id="2606246518223360146">Lingi andmed</translation>
@@ -1659,13 +1659,13 @@ kasutades juhtpaneeli funktsiooni <ph name="CONTROL_PANEL_APPLET_NAME"/>.
 <translation id="3074037959626057712">Olete sisse logitud ja sünkroonimise sisse lülitanud</translation>
 <translation id="1231733316453485619">Kas lülitada sünkroonimine sisse?</translation>
 <translation id="4736292055110123391">Järjehoidjate, paroolide, ajalugu ja muu sünkroonimine kõigis teie seadmetes</translation>
-<translation id="5736731321935944068">OneVN Software võib kasutada teie ajalugu otsingu, reklaamide ja muude OneVN Software'i teenuste isikupärastamiseks</translation>
+<translation id="5736731321935944068">Onevn Software võib kasutada teie ajalugu otsingu, reklaamide ja muude Onevn Software'i teenuste isikupärastamiseks</translation>
 <translation id="4201546031411513170">Jaotises Seaded saate igal ajal valida, mida sünkroonida.</translation>
-<translation id="3149880132460839085">OneVN Sync</translation>
-<translation id="3796902758602917951">Teie järjehoidjad, ajalugu, paroolid ja muud seaded sünkroonitakse teie OneVN Software'i kontoga, et saaksite neid kasutada kõigis oma seadmetes</translation>
-<translation id="3111958038206230539">OneVN Software'i teenuste isikupärastamine</translation>
-<translation id="295992419959320001">OneVN Software võib kasutada teie sirvimisajalugu otsingu, reklaamide ja muude OneVN Software'i teenuste isikupärastamiseks</translation>
-<translation id="3070156078150543526">OneVN Software võib kasutada teie sirvimisajalugu otsingu ja teiste OneVN Software'i teenuste isikupärastamiseks</translation>
+<translation id="3149880132460839085">Onevn Sync</translation>
+<translation id="3796902758602917951">Teie järjehoidjad, ajalugu, paroolid ja muud seaded sünkroonitakse teie Onevn Software'i kontoga, et saaksite neid kasutada kõigis oma seadmetes</translation>
+<translation id="3111958038206230539">Onevn Software'i teenuste isikupärastamine</translation>
+<translation id="295992419959320001">Onevn Software võib kasutada teie sirvimisajalugu otsingu, reklaamide ja muude Onevn Software'i teenuste isikupärastamiseks</translation>
+<translation id="3070156078150543526">Onevn Software võib kasutada teie sirvimisajalugu otsingu ja teiste Onevn Software'i teenuste isikupärastamiseks</translation>
 <translation id="2709453993673701466">Kas soovite sünkroonimist ja isikupärastamist enne nende sisselülitamist hallata? Avage jaotis <ph name="BEGIN_LINK"/>Seaded<ph name="END_LINK"/>.</translation>
 <translation id="2497852260688568942">Administraator on sünkroonimise keelanud</translation>
 <translation id="562935524653278697">Teie administraator on järjehoidjate, ajaloo, paroolide ja muude seadete sünkroonimise keelanud.</translation>
@@ -1701,7 +1701,7 @@ kasutades juhtpaneeli funktsiooni <ph name="CONTROL_PANEL_APPLET_NAME"/>.
 <translation id="6664774537677393800">Teie profiili avamisel läks midagi valesti. Logige välja ja seejärel uuesti sisse.</translation>
 <translation id="1794791083288629568">Saatke tagasisidet, et aidata meil see probleem lahendada.</translation>
 <translation id="8234795456569844941">Aidake meie spetsialistidel probleemi lahendada. Andke meile teada, mis toimus vahetult enne profiili veateate ilmumist.</translation>
-<translation id="6500340165622970282">OneVN'i ei saa käivitada, kuna midagi läks teie profiili avamisel valesti. Proovige OneVN taaskäivitada.</translation>
+<translation id="6500340165622970282">Onevn'i ei saa käivitada, kuna midagi läks teie profiili avamisel valesti. Proovige Onevn taaskäivitada.</translation>
 <translation id="6812349420832218321">Toodet <ph name="PRODUCT_NAME"/> ei saa juurkasutajana käitada.</translation>
 <translation id="2292848386125228270">Käivitage teenus <ph name="PRODUCT_NAME"/> tavakasutajana. Kui soovite arendamiseks käivitada juurversiooni, käivitage uuesti märgistusega --no-sandbox.</translation>
 <translation id="7547317915858803630">Hoiatus: teie rakenduse <ph name="PRODUCT_NAME"/> seaded on talletatud võrgukettal. See võib põhjustada seadme töö aeglustumist, krahhe ja isegi andmete kadumist.</translation>
@@ -1737,10 +1737,10 @@ kasutades juhtpaneeli funktsiooni <ph name="CONTROL_PANEL_APPLET_NAME"/>.
 <translation id="6198102561359457428">Logige välja ja uuesti sisse ...</translation>
 <translation id="4634771451598206121">Logi uuesti sisse ...</translation>
 <translation id="7117247127439884114">Logi uuesti sisse ...</translation>
-<translation id="4251909665067750757">Logige sisse, et teie järjehoidjad, ajalugu, paroolid ja muud seaded oleksid kõikides seadmetes saadaval. Teid logitakse ka automaatselt sisse OneVN Software'i teenustesse.</translation>
+<translation id="4251909665067750757">Logige sisse, et teie järjehoidjad, ajalugu, paroolid ja muud seaded oleksid kõikides seadmetes saadaval. Teid logitakse ka automaatselt sisse Onevn Software'i teenustesse.</translation>
 <translation id="2749756011735116528">Logi sisse teenusesse <ph name="PRODUCT_NAME"/></translation>
 <translation id="2126167708562367080">Administraator on sünkroonimise keelanud.</translation>
-<translation id="5462539695964427820">Sünkroonimine on OneVN Software Dashboardi kaudu peatatud.</translation>
+<translation id="5462539695964427820">Sünkroonimine on Onevn Software Dashboardi kaudu peatatud.</translation>
 <translation id="8805140816472474147">Sünkroonimise alustamiseks kinnitage sünkroonimisseaded.</translation>
 <translation id="4835836146030131423">Sisselogimisel ilmnes viga.</translation>
 <translation id="4365673000813822030">Vabandust, sünkroonimine on lakanud töötamast.</translation>
@@ -1755,20 +1755,20 @@ kasutades juhtpaneeli funktsiooni <ph name="CONTROL_PANEL_APPLET_NAME"/>.
 <translation id="1877520246462554164">Autentimismärgi hankimine ebaõnnestus. Uuesti proovimiseks logige välja ja seejärel uuesti sisse.</translation>
 <translation id="9100765901046053179">Täpsemad seaded</translation>
 <translation id="5771816112378578655">Seadistus käimas...</translation>
-<translation id="3892866329866260680">Olete nüüd teenusesse <ph name="SHORT_PRODUCT_NAME"/> sisse logitud. Järjehoidjad, ajalugu ja muud seaded sünkroonitakse teie OneVN Software'i kontoga.</translation>
+<translation id="3892866329866260680">Olete nüüd teenusesse <ph name="SHORT_PRODUCT_NAME"/> sisse logitud. Järjehoidjad, ajalugu ja muud seaded sünkroonitakse teie Onevn Software'i kontoga.</translation>
 <translation id="1408789165795197664">Täpsem ...</translation>
 <translation id="2731700343119398978">Oodake ...</translation>
 <translation id="4684427112815847243">Sünkrooni kõik</translation>
-<translation id="7218743184834293955">Andmed on krüpteeritud teie sünkroonimisparooliga. See ei hõlma OneVN Software Pay makseviise ja aadresse.</translation>
+<translation id="7218743184834293955">Andmed on krüpteeritud teie sünkroonimisparooliga. See ei hõlma Onevn Software Pay makseviise ja aadresse.</translation>
 <translation id="7158251077901880179">Andmed krüpteeriti teie sünkroonimisparooliga
-          <ph name="TIME"/>. See ei hõlma OneVN Software Pay makseviise ja aadresse.</translation>
-<translation id="1171389789873508468">Andmed krüpteeriti teie OneVN Software'i parooliga
-          <ph name="TIME"/>. See ei hõlma OneVN Software Pay makseviise ja aadresse.</translation>
+          <ph name="TIME"/>. See ei hõlma Onevn Software Pay makseviise ja aadresse.</translation>
+<translation id="1171389789873508468">Andmed krüpteeriti teie Onevn Software'i parooliga
+          <ph name="TIME"/>. See ei hõlma Onevn Software Pay makseviise ja aadresse.</translation>
 <translation id="2562743677925229011">Pole teenusesse <ph name="SHORT_PRODUCT_NAME"/> sisse logitud</translation>
 <translation id="4027804175521224372">(Jääte heast ilma – <ph name="IDS_SYNC_PROMO_NOT_SIGNED_IN_STATUS_LINK"/>)</translation>
 <translation id="3574210789297084292">logi sisse</translation>
 <translation id="237828693408258535">Kas tõlkida see leht?</translation>
-<translation id="4613765529964435709">Kas soovite lasta OneVN Software'il selle lehe tõlkida <ph name="SOURCE_LANGUAGE"/> keelest <ph name="TARGET_LANGUAGE"/> keelde?</translation>
+<translation id="4613765529964435709">Kas soovite lasta Onevn Software'il selle lehe tõlkida <ph name="SOURCE_LANGUAGE"/> keelest <ph name="TARGET_LANGUAGE"/> keelde?</translation>
 <translation id="5990386583461751448">Tõlgitud</translation>
 <translation id="5659833766619490117">Seda lehte ei õnnestunud tõlkida.</translation>
 <translation id="969096075394517431">Keelte vahetamine</translation>
@@ -1930,12 +1930,12 @@ kasutades juhtpaneeli funktsiooni <ph name="CONTROL_PANEL_APPLET_NAME"/>.
 <translation id="2762441749940182211">Kaamera on blokeeritud</translation>
 <translation id="5074318175948309511">Uute seadete jõustamiseks peate lehe võib-olla uuesti laadima.</translation>
 <translation id="8282947398454257691">Teave teie ainulaadse seadme koodi kohta</translation>
-<translation id="8329449853370113380"><ph name="URL"/> soovib esitada kaitstud sisu. OneVN Software kontrollib teie seadme identiteeti.</translation>
-<translation id="2650609753175229582"><ph name="URL"/> soovib esitada kaitstud sisu. OneVN Software kinnitab teie seadme identiteedi ning sait võib sellele juurde pääseda.</translation>
+<translation id="8329449853370113380"><ph name="URL"/> soovib esitada kaitstud sisu. Onevn Software kontrollib teie seadme identiteeti.</translation>
+<translation id="2650609753175229582"><ph name="URL"/> soovib esitada kaitstud sisu. Onevn Software kinnitab teie seadme identiteedi ning sait võib sellele juurde pääseda.</translation>
 <translation id="1322046419516468189">Vaadake ja hallake oma salvestatud paroole siin: <ph name="SAVED_PASSWORDS_STORE"/></translation>
 <translation id="3312599731068160560">https://passwords.google.com</translation>
 <translation id="5297082477358294722">Parool salvestati. Vaadake ja hallake salvestatud paroole siin: <ph name="SAVED_PASSWORDS_STORE"/>.</translation>
-<translation id="5713644099811900409">OneVN Software'i konto</translation>
+<translation id="5713644099811900409">Onevn Software'i konto</translation>
 <translation id="3785727820640310185">Selle saidi jaoks salvestatud paroolid</translation>
 <translation id="3404065873681873169">Selle saidi jaoks ei ole salvestatud ühtki parooli</translation>
 <translation id="8470513973197838199">Salvestatud paroolid – <ph name="ORIGIN"/></translation>
@@ -2074,7 +2074,7 @@ kasutades juhtpaneeli funktsiooni <ph name="CONTROL_PANEL_APPLET_NAME"/>.
 <translation id="2505324914378689427">{SCREEN_INDEX,plural, =1{#. ekraan}other{#. ekraan}}</translation>
 <translation id="839736845446313156">Registreerumine</translation>
 <translation id="6285120908535925801">{NUM_PRINTER,plural, =1{Teie võrgus on uus printer}other{Teie võrgus on uued printerid}}</translation>
-<translation id="2656240156816412333">{NUM_PRINTER,plural, =1{Lisage printer teenusesse OneVN Software'i pilvprintimine, et saaksite printida kõikjal.}other{Lisage # printerit teenusesse OneVN Software'i pilvprintimine, et saaksite printida kõikjal.}}</translation>
+<translation id="2656240156816412333">{NUM_PRINTER,plural, =1{Lisage printer teenusesse Onevn Software'i pilvprintimine, et saaksite printida kõikjal.}other{Lisage # printerit teenusesse Onevn Software'i pilvprintimine, et saaksite printida kõikjal.}}</translation>
 <translation id="409579654357498729">Lisa pilvprintimisse</translation>
 <translation id="4628757576491864469">Seadmed</translation>
 <translation id="6915804003454593391">Kasutaja:</translation>
@@ -2084,8 +2084,8 @@ kasutades juhtpaneeli funktsiooni <ph name="CONTROL_PANEL_APPLET_NAME"/>.
 <translation id="1895934970388272448">Protsessi lõpetamiseks peate kinnitama registreerimise oma printeris. Vaadake kohe.</translation>
 <translation id="551752069230578406">Printeri lisamine teie kontole – see võib võtta natuke aega ...</translation>
 <translation id="2384436799579181135">Ilmnes viga. Kontrollige printerit ja proovige uuesti.</translation>
-<translation id="2569908351567260524">Printer OneVN Software'i pilvprintimises</translation>
-<translation id="6782994146626179935">Seade OneVN Software'i pilvseadmetes</translation>
+<translation id="2569908351567260524">Printer Onevn Software'i pilvprintimises</translation>
+<translation id="6782994146626179935">Seade Onevn Software'i pilvseadmetes</translation>
 <translation id="7140928199327930795">Saadaval pole ühtegi muud seadet.</translation>
 <translation id="8213577208796878755">Saadaval on veel üks rakendus.</translation>
 <translation id="1495486559005647033">Saadaval on veel <ph name="NUM_PRINTERS"/> seadet.</translation>
@@ -2093,15 +2093,15 @@ kasutades juhtpaneeli funktsiooni <ph name="CONTROL_PANEL_APPLET_NAME"/>.
 <translation id="4720113199587244118">Lisa seadmed</translation>
 <translation id="2776441542064982094">Tundub, et võrgus registreerimiseks pole saadaval ühtegi seadet. Kui teie seade on sisse lülitatud ja sellel on Interneti-ühendus, proovige see registreerida seadme kasutusjuhendi juhiste järgi.</translation>
 <translation id="1007408791287232274">Seadmete laadimine ebaõnnestus.</translation>
-<translation id="3886420006370338208">Seadmete nägemiseks peate OneVN'i sisse logima</translation>
-<translation id="6711610692002680394">Uute seadmete registreerimiseks peate OneVN'i sisse logima</translation>
+<translation id="3886420006370338208">Seadmete nägemiseks peate Onevn'i sisse logima</translation>
+<translation id="6711610692002680394">Uute seadmete registreerimiseks peate Onevn'i sisse logima</translation>
 <translation id="8931394284949551895">Uued seadmed</translation>
 <translation id="3752673729237782832">Minu seadmed</translation>
 <translation id="1721937473331968728">Saate ühendada teenusega <ph name="CLOUD_PRINT_NAME"/> teie arvutiga ühendatud tavaprintereid.</translation>
 <translation id="715118844758971915">Tavaprinterid</translation>
 <translation id="4263757076580287579">Printeri registreerimine on tühistatud.</translation>
 <translation id="8152091997436726702">Printeri registreerimine on aegunud. Printeri registreerimiseks peate registreerimise printeris kinnitama.</translation>
-<translation id="2057904164277279211">Dokumendid <ph name="BEGIN_LINK_HELP"/>saadetakse OneVN Software'ile<ph name="END_LINK_HELP"/>, et need printimiseks ette valmistada. <ph name="BEGIN_LINK_DASHBOARD"/>OneVN Software'i pilvprintimise juhtpaneelil<ph name="END_LINK_DASHBOARD"/> saate printereid vaadata, muuta ja hallata.</translation>
+<translation id="2057904164277279211">Dokumendid <ph name="BEGIN_LINK_HELP"/>saadetakse Onevn Software'ile<ph name="END_LINK_HELP"/>, et need printimiseks ette valmistada. <ph name="BEGIN_LINK_DASHBOARD"/>Onevn Software'i pilvprintimise juhtpaneelil<ph name="END_LINK_DASHBOARD"/> saate printereid vaadata, muuta ja hallata.</translation>
 <translation id="3082780749197361769">See vahekaart kasutab teie kaamerat või mikrofoni.</translation>
 <translation id="3578594933904494462">Selle vahekaardi sisu jagatakse.</translation>
 <translation id="4449996769074858870">See vahekaart esitab heli.</translation>
@@ -2154,7 +2154,7 @@ kasutades juhtpaneeli funktsiooni <ph name="CONTROL_PANEL_APPLET_NAME"/>.
 <translation id="4540437243849625078">See sait jagab teavet väljaspool inkognito režiimi oleva rakendusega.</translation>
 <translation id="1227836882233136433">Kas lahkuda inkognito režiimist?</translation>
 <translation id="662080504995468778">Jää siia</translation>
-<translation id="2593289874938379417">OneVN'il pole soovitud allikale juurdepääsu.</translation>
+<translation id="2593289874938379417">Onevn'il pole soovitud allikale juurdepääsu.</translation>
 <translation id="760197030861754408">Ühenduse loomiseks minge lehele <ph name="LANDING_PAGE"/>.</translation>
 <translation id="3648348069317717750">Tuvastati <ph name="USB_DEVICE_NAME"/></translation>
 <translation id="2382095919147960379">Ühendage see seade Linuxiga</translation>
@@ -2202,17 +2202,17 @@ kasutades juhtpaneeli funktsiooni <ph name="CONTROL_PANEL_APPLET_NAME"/>.
 <translation id="7055152154916055070">Ümbersuunamine blokeeriti:</translation>
 <translation id="6777817260680419853">Ümbersuunamine blokeeriti</translation>
 <translation id="694592694773692225">Ümbersuunamine on sellel lehel blokeeritud.</translation>
-<translation id="8149707863742670433">OneVN Software'i loodud veebibrauser teie jaoks</translation>
-<translation id="3541561136058491590">Logige oma OneVN Software'i kontoga OneVN'i sisse, et hankida järjehoidjad, ajalugu, paroolid ja muud seaded kõikidesse seadmetesse.</translation>
-<translation id="8945142681652245463">OneVN Software OneVN'iga sirvite kiirelt</translation>
-<translation id="2618024864038703735">Sirvige OneVN Software OneVN'iga ohutult</translation>
-<translation id="8142180567942285208">OneVN'iga sirvite nutikalt</translation>
+<translation id="8149707863742670433">Onevn Software'i loodud veebibrauser teie jaoks</translation>
+<translation id="3541561136058491590">Logige oma Onevn Software'i kontoga Onevn'i sisse, et hankida järjehoidjad, ajalugu, paroolid ja muud seaded kõikidesse seadmetesse.</translation>
+<translation id="8945142681652245463">Onevn Software Onevn'iga sirvite kiirelt</translation>
+<translation id="2618024864038703735">Sirvige Onevn Software Onevn'iga ohutult</translation>
+<translation id="8142180567942285208">Onevn'iga sirvite nutikalt</translation>
 <translation id="8862003515646449717">Minge üle kiirele brauserile</translation>
 <translation id="8438328416656800239">Minge üle nutikale brauserile</translation>
 <translation id="491691592645955587">Minge üle turvalisele brauserile</translation>
 <translation id="683373380308365518">Minge üle nutikale ja turvalisele brauserile</translation>
-<translation id="989239400026154074">OneVN Software soovitab OneVN'i</translation>
-<translation id="6676231621615806698">Ava OneVN</translation>
+<translation id="989239400026154074">Onevn Software soovitab Onevn'i</translation>
+<translation id="6676231621615806698">Ava Onevn</translation>
 <translation id="7494065396242762445">Ava Windowsi seaded</translation>
 <translation id="2137068468602026500">Klõpsake jaotises Veebibrauser valikul <ph name="BEGIN_BOLD"/>Microsoft Edge<ph name="END_BOLD"/></translation>
 <translation id="3720996970802414353">Vaheta ikkagi</translation>
@@ -2221,7 +2221,7 @@ kasutades juhtpaneeli funktsiooni <ph name="CONTROL_PANEL_APPLET_NAME"/>.
 <translation id="7537601449003285327">Kinnita tegumiribale</translation>
 <translation id="5250372599208556903">Otsingumootor <ph name="SEARCH_ENGINE_NAME"/> kasutab teile kohaliku sisu pakkumiseks teie asukohta. Seda saate muuta menüüs <ph name="SETTINGS_LINK"/>.</translation>
 <translation id="3737536731758327622">Teie allalaadimised kuvatakse siin</translation>
-<translation id="4782664866169793230">OneVN'i juhib automatiseeritud testtarkvara.</translation>
+<translation id="4782664866169793230">Onevn'i juhib automatiseeritud testtarkvara.</translation>
 <translation id="6721678857435001674">Vaadata teie turvavõtme tootjat ja mudelit</translation>
 <translation id="1673137583248014546"><ph name="URL"/> soovib näha teie turvavõtme tootjat ja mudelit</translation>
 <translation id="6010869025736512584">Juurdepääs videosisendile</translation>
@@ -2440,9 +2440,9 @@ kasutades juhtpaneeli funktsiooni <ph name="CONTROL_PANEL_APPLET_NAME"/>.
 <translation id="9011163749350026987">Kuva alati ikoon</translation>
 <translation id="1706586824377653884">Lisas teie administraator</translation>
 <translation id="6467304607960172345">Optimeeri täisekraanrežiimis videoid</translation>
-<translation id="1597210476603167523">Lubage ülekandmine pilvepõhistesse teenustesse (nt OneVN Software Hangouts).</translation>
-<translation id="3653941710869291743">Tere tulemast OneVN'is Cast'i avastama!</translation>
-<translation id="2841638550927239436">Selle funktsiooni abil saate kuvada OneVN'ist pärinevat sisu oma teleris või muudes seadmetes.</translation>
+<translation id="1597210476603167523">Lubage ülekandmine pilvepõhistesse teenustesse (nt Onevn Software Hangouts).</translation>
+<translation id="3653941710869291743">Tere tulemast Onevn'is Cast'i avastama!</translation>
+<translation id="2841638550927239436">Selle funktsiooni abil saate kuvada Onevn'ist pärinevat sisu oma teleris või muudes seadmetes.</translation>
 <translation id="5234764350956374838">Loobu</translation>
 <translation id="4579581181964204535">Hosti <ph name="HOST_NAME"/> ei saa üle kanda.</translation>
 <translation id="8757090071857742562">Töölauda ei õnnestu üle kanda. Kontrollige, kas kinnitasite viiba ekraani jagamise alustamiseks.</translation>
@@ -2477,7 +2477,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="4144218403971135344">Vaadake parema kvaliteediga videoid ja säästke aku tööiga. Videot esitatakse ainult Casti toega ekraanikuval.</translation>
 <translation id="236117173274098341">Optimeeri</translation>
 <translation id="8538358978858059843">Kas lubada ülekandmise jaoks pilveteenused?</translation>
-<translation id="3856595552313160385">Hangoutsi ja Cast for Educationi kasutamisel kehtivad OneVN Software'i privaatsuseeskirjad.</translation>
+<translation id="3856595552313160385">Hangoutsi ja Cast for Educationi kasutamisel kehtivad Onevn Software'i privaatsuseeskirjad.</translation>
 <translation id="3700888195348409686">Esitlemine (<ph name="PAGE_ORIGIN"/>)</translation>
 <translation id="5285635972691565180">Kuva <ph name="DISPLAY_ID"/></translation>
 <translation id="4707302005824653064">Haldur (<ph name="CUSTODIAN_EMAIL"/>) saab kasutamise ja ajaloo üle vaadata aadressil chrome.com.</translation>
@@ -2641,7 +2641,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="672213144943476270">Enne külalisena sirvimist avage oma profiil.</translation>
 <translation id="3478685642445675458">Enne inimese eemaldamist avage oma profiil.</translation>
 <translation id="4648499713050786492">Enne inimese lisamist avage oma profiil.</translation>
-<translation id="8978225823042133615">OneVN'i kasutamiseks logige sisse</translation>
+<translation id="8978225823042133615">Onevn'i kasutamiseks logige sisse</translation>
 <translation id="4893336867552636863">See kustutab teie sirvimisandmed sellest seadmest jäädavalt.</translation>
 <translation id="2496180316473517155">Sirvimise ajalugu</translation>
 <translation id="6865313869410766144">Automaattäitmise vormiandmed</translation>
@@ -2661,7 +2661,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="3236289833370040187">Omandiline kuuluvus kantakse üle domeenile <ph name="DESTINATION_DOMAIN"/>.</translation>
 <translation id="7765158879357617694">Liiguta</translation>
 <translation id="8249296373107784235">Katkesta</translation>
-<translation id="6268185425799226387">OneVN Software Drive</translation>
+<translation id="6268185425799226387">Onevn Software Drive</translation>
 <translation id="4425149324548788773">Minu ketas</translation>
 <translation id="1786636458339910689">Tiimikettad</translation>
 <translation id="5010406651457630570">Arvutid</translation>
@@ -2768,7 +2768,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="6227235786875481728">Faili ei saanud esitada.</translation>
 <translation id="9154418932169119429">Kujutis ei ole võrguühenduseta saadaval.</translation>
 <translation id="1844692022597038441">Fail ei ole võrguühenduseta saadaval.</translation>
-<translation id="2929414043040740704">OneVN Software Drive'ist taastatud failid</translation>
+<translation id="2929414043040740704">Onevn Software Drive'ist taastatud failid</translation>
 <translation id="2085470240340828803">Fail nimega „<ph name="FILENAME"/>” on juba olemas. Mida te teha soovite?</translation>
 <translation id="4801956050125744859">Säilita mõlemad</translation>
 <translation id="1062407476771304334">Asenda</translation>
@@ -2798,8 +2798,8 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="2377319039870049694">Lülita loendivaatele</translation>
 <translation id="3003633581067744647">Lülita pisipildivaatele</translation>
 <translation id="604001903249547235">Pilvepõhine varundus</translation>
-<translation id="505639225383557233">OneVN OS-i pilvepõhine varundus</translation>
-<translation id="8656896237683963068">Meediaseadmel olevate fotode ja videote varundamine OneVN Software Drive'i.</translation>
+<translation id="505639225383557233">Onevn OS-i pilvepõhine varundus</translation>
+<translation id="8656896237683963068">Meediaseadmel olevate fotode ja videote varundamine Onevn Software Drive'i.</translation>
 <translation id="3057861065630527966">Fotode ja videote varundamine</translation>
 <translation id="7730494089396812859">Pilvepõhise varunduse üksikasjade kuvamine</translation>
 <translation id="2850124913210091882">Varunda</translation>
@@ -2809,14 +2809,14 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
     <ph name="LINE_BREAK1"/>
     Leiti <ph name="FILE_COUNT"/></translation>
 <translation id="3466147780910026086">Meediaseadme skannimine ...</translation>
-<translation id="2611866923243604397">Kõik failid varundati teenuses <ph name="BEGIN_LINK"/>OneVN Software Drive.<ph name="END_LINK"/></translation>
+<translation id="2611866923243604397">Kõik failid varundati teenuses <ph name="BEGIN_LINK"/>Onevn Software Drive.<ph name="END_LINK"/></translation>
 <translation id="3620292326130836921">Kõik on varundatud.</translation>
 <translation id="1536674585581593431">Leiti <ph name="FILE_COUNT"/>.
     <ph name="LINE_BREAK1"/>
-    Teie OneVN Software Drive'i kvoot pole piisavalt suur. Vaja on veel <ph name="FILE_SIZE"/>.
+    Teie Onevn Software Drive'i kvoot pole piisavalt suur. Vaja on veel <ph name="FILE_SIZE"/>.
     <ph name="LINE_BREAK2"/>
     Valige vähem fotosid.</translation>
-<translation id="2473109739642988997">Teie OneVN Software Drive'i kvoot pole piisavalt suur.</translation>
+<translation id="2473109739642988997">Teie Onevn Software Drive'i kvoot pole piisavalt suur.</translation>
 <translation id="1148097584170732637">Leiti <ph name="FILE_COUNT"/>.
     <ph name="LINE_BREAK1"/>
     Kohalikus salvestusruumis pole piisavalt ruumi. Vaja on veel <ph name="FILE_SIZE"/>.
@@ -2825,11 +2825,11 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="2352947182261340447">Kohalikus salvestusruumis ei ole piisavalt ruumi.</translation>
 <translation id="1127657192797926968">Leiti <ph name="FILE_COUNT"/>
     <ph name="LINE_BREAK1"/>
-    <ph name="BEGIN_LINK"/>OneVN Software Drive'i<ph name="END_LINK"/> varundamiseks valmis</translation>
+    <ph name="BEGIN_LINK"/>Onevn Software Drive'i<ph name="END_LINK"/> varundamiseks valmis</translation>
 <translation id="4905417359854579806">Valmis, et varundada <ph name="FILE_COUNT"/></translation>
-<translation id="5029447434471675822"><ph name="BEGIN_LINK"/>OneVN Software Drive'i<ph name="END_LINK"/> varundamine: <ph name="FILE_COUNT"/></translation>
+<translation id="5029447434471675822"><ph name="BEGIN_LINK"/>Onevn Software Drive'i<ph name="END_LINK"/> varundamine: <ph name="FILE_COUNT"/></translation>
 <translation id="4215448920900139318">Varundamine: <ph name="FILE_COUNT"/></translation>
-<translation id="2419376816263920133"><ph name="FILE_COUNT"/> fotot on varundatud teenuses <ph name="BEGIN_LINK"/>OneVN Software Drive<ph name="END_LINK"/></translation>
+<translation id="2419376816263920133"><ph name="FILE_COUNT"/> fotot on varundatud teenuses <ph name="BEGIN_LINK"/>Onevn Software Drive<ph name="END_LINK"/></translation>
 <translation id="2994669386200004489">Faili <ph name="FILE_NAME"/> ei õnnestunud varundada</translation>
 <translation id="4724850507808590449"><ph name="FILE_COUNT"/> fotot on varundatud</translation>
 <translation id="1351692861129622852"><ph name="FILE_COUNT"/> faili importimine ...</translation>
@@ -2851,9 +2851,9 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="653019979737152879">Faili <ph name="FILE_NAME"/> sünkroonimine ...</translation>
 <translation id="8579285237314169903"><ph name="NUMBER_OF_FILES"/> üksuse sünkroonimine ...</translation>
 <translation id="8137331602592933310">Faili „<ph name="FILENAME"/>” on teiega jagatud. Te ei saa seda kustutada, kuna te pole selle omanik.</translation>
-<translation id="6277279884155292049">OneVN Software Drive pole praegu saadaval. Kui OneVN Software Drive on tagasi, algab üleslaadimine automaatselt uuesti.</translation>
-<translation id="1114160088213746286">OneVN Software Drive ei saanud praegu sünkroonida faili „<ph name="FILENAME"/>”. OneVN Software Drive proovib hiljem uuesti.</translation>
-<translation id="4893296294301184587">Faili „<ph name="FILENAME"/>” ei laaditud üles. Teie OneVN Software Drive’is ei ole piisavalt vaba ruumi.</translation>
+<translation id="6277279884155292049">Onevn Software Drive pole praegu saadaval. Kui Onevn Software Drive on tagasi, algab üleslaadimine automaatselt uuesti.</translation>
+<translation id="1114160088213746286">Onevn Software Drive ei saanud praegu sünkroonida faili „<ph name="FILENAME"/>”. Onevn Software Drive proovib hiljem uuesti.</translation>
+<translation id="4893296294301184587">Faili „<ph name="FILENAME"/>” ei laaditud üles. Teie Onevn Software Drive’is ei ole piisavalt vaba ruumi.</translation>
 <translation id="5163869187418756376">Jagamine ebaõnnestus. Kontrollige ühendust ja proovige uuesti.</translation>
 <translation id="656398493051028875">Faili „<ph name="FILENAME"/>” kustutamine ...</translation>
 <translation id="1047956942837015229"><ph name="COUNT"/> üksuse kustutamine ...</translation>
@@ -2919,7 +2919,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="180035236176489073">Failide juurde pääsemiseks on vaja võrguühendust.</translation>
 <translation id="1190144681599273207">Faili toomine kasutab umbes <ph name="FILE_SIZE"/> mobiilsideandmeid.</translation>
 <translation id="7839804798877833423">Failide toomine kasutab umbes <ph name="FILE_SIZE"/> mobiilsideandmeid.</translation>
-<translation id="6813005947820333339">OneVN Software Drive'i sünkroonimine on mobiilse andmeside kasutamisel vaikimisi keelatud.</translation>
+<translation id="6813005947820333339">Onevn Software Drive'i sünkroonimine on mobiilse andmeside kasutamisel vaikimisi keelatud.</translation>
 <translation id="696203921837389374">Luba sünkroonimine mobiilse andmeside kaudu</translation>
 <translation id="637062427944097960">Fail on avatud muul töölaual. Selle vaatamiseks avage <ph name="USER_NAME"/> (<ph name="MAIL_ADDRESS"/>).</translation>
 <translation id="5330145655348521461">Failid on avatud erinevatel töölaudadel. Faili vaatamiseks avage <ph name="USER_NAME"/> (<ph name="MAIL_ADDRESS"/>).</translation>
@@ -2933,33 +2933,33 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="7925686952655276919">Ära kasuta sünkroonimiseks mobiilset andmesidet</translation>
 <translation id="7106346894903675391">Ostke rohkem salvestusruumi ...</translation>
 <translation id="3549797760399244642">Ava sait drive.google.com ...</translation>
-<translation id="3451154303153932176">OneVN Software Drive'i allesjäänud ruum: <ph name="SPACE_AVAILABLE"/>.</translation>
+<translation id="3451154303153932176">Onevn Software Drive'i allesjäänud ruum: <ph name="SPACE_AVAILABLE"/>.</translation>
 <translation id="4552678318981539154">Ostke rohkem salvestusruumi</translation>
 <translation id="6990081529015358884">Ruum sai otsa</translation>
-<translation id="5521447721624713749">OneVN Software Drive'iga ei saa praegu ühendust.</translation>
+<translation id="5521447721624713749">Onevn Software Drive'iga ei saa praegu ühendust.</translation>
 <translation id="7788080748068240085">Kui soovite salvestada faili „<ph name="FILE_NAME"/>” võrguühenduseta kasutamiseks, peate vabastama veel <ph name="TOTAL_FILE_SIZE"/> ruumi:<ph name="MARKUP_1"/>
     <ph name="MARKUP_2"/>vabastage failid, millele teil ei ole enam vaja võrguühenduseta juurde pääseda;<ph name="MARKUP_3"/>
     <ph name="MARKUP_4"/>kustutage kaustas Allalaadimised olevaid faile.<ph name="MARKUP_5"/></translation>
-<translation id="7606199793785990727">OneVN Software Drive'iga ei saadud ühendust. <ph name="BEGIN_LINK"/>Logige välja<ph name="END_LINK"/> ja tagasi sisse.</translation>
-<translation id="585883343689351092">Tere tulemast OneVN Software Drive'i!</translation>
+<translation id="7606199793785990727">Onevn Software Drive'iga ei saadud ühendust. <ph name="BEGIN_LINK"/>Logige välja<ph name="END_LINK"/> ja tagasi sisse.</translation>
+<translation id="585883343689351092">Tere tulemast Onevn Software Drive'i!</translation>
 <translation id="6862635236584086457">Kõik sellesse kausta salvestatud failid varundatakse võrgus automaatselt</translation>
 <translation id="7220787572447472056"><ph name="MARKUP_1"/>Pääsete failidele juurde kõikjalt, ka võrguühenduseta.<ph name="MARKUP_2"/>
-    OneVN Software Drive'i failid on ajakohased ja saadaval kõigis seadmetes.<ph name="MARKUP_3"/>
+    Onevn Software Drive'i failid on ajakohased ja saadaval kõigis seadmetes.<ph name="MARKUP_3"/>
     <ph name="MARKUP_4"/>Hoidke oma faile turvaliselt.<ph name="MARKUP_5"/>
-    Teie failid on OneVN Software Drive'is turvaliselt talletatud sellest olenemata, mis teie seadmega juhtub.<ph name="MARKUP_6"/>
+    Teie failid on Onevn Software Drive'is turvaliselt talletatud sellest olenemata, mis teie seadmega juhtub.<ph name="MARKUP_6"/>
     <ph name="MARKUP_7"/>Jagage ja looge faile ning tehke teistega koostööd<ph name="MARKUP_8"/>
     ühes kohas.<ph name="MARKUP_9"/></translation>
-<translation id="4878716980734452132">Seda failitüüpi ei toetata. Külastage <ph name="BEGIN_LINK"/>OneVN'i veebipoodi<ph name="END_LINK"/>, et leida rakendus, mis avab seda tüüpi faili.
+<translation id="4878716980734452132">Seda failitüüpi ei toetata. Külastage <ph name="BEGIN_LINK"/>Onevn'i veebipoodi<ph name="END_LINK"/>, et leida rakendus, mis avab seda tüüpi faili.
     <ph name="BEGIN_LINK_HELP"/>Lisateave<ph name="END_LINK_HELP"/></translation>
-<translation id="6230272341631206186">See fail on mõeldud Windowsi tarkvara kasutavale arvutile. See ei ühildu teie seadmega, mis käitab OneVN OS-i. <ph name="BEGIN_LINK_HELP"/>Lisateave<ph name="END_LINK_HELP"/></translation>
-<translation id="3072401511615920367">See fail on loodud arvuti jaoks, mis kasutab Macintoshi tarkvara. See ei ühildu teie seadmega, mis käitab OneVN OS-i. Otsige <ph name="BEGIN_LINK"/>OneVN'i veebipoest<ph name="END_LINK"/> sobivat asendusrakendust. <ph name="BEGIN_LINK_HELP"/>Lisateave<ph name="END_LINK_HELP"/></translation>
+<translation id="6230272341631206186">See fail on mõeldud Windowsi tarkvara kasutavale arvutile. See ei ühildu teie seadmega, mis käitab Onevn OS-i. <ph name="BEGIN_LINK_HELP"/>Lisateave<ph name="END_LINK_HELP"/></translation>
+<translation id="3072401511615920367">See fail on loodud arvuti jaoks, mis kasutab Macintoshi tarkvara. See ei ühildu teie seadmega, mis käitab Onevn OS-i. Otsige <ph name="BEGIN_LINK"/>Onevn'i veebipoest<ph name="END_LINK"/> sobivat asendusrakendust. <ph name="BEGIN_LINK_HELP"/>Lisateave<ph name="END_LINK_HELP"/></translation>
 <translation id="7589661784326793847">Oodake sekund</translation>
-<translation id="3096967955765855393">Otsime alati võimalusi, kuidas muuta sirvimine veelgi turvalisemaks. Varem võis iga veebisait paluda teil lisada brauserisse laiendusi. OneVN Software OneVN'i uusimas versioonis peate OneVN'ile selgelt ütlema, et soovite neid laiendusi installida, lisades need lehe Laiendused kaudu. <ph name="BEGIN_LINK"/>Lisateave<ph name="END_LINK"/></translation>
+<translation id="3096967955765855393">Otsime alati võimalusi, kuidas muuta sirvimine veelgi turvalisemaks. Varem võis iga veebisait paluda teil lisada brauserisse laiendusi. Onevn Software Onevn'i uusimas versioonis peate Onevn'ile selgelt ütlema, et soovite neid laiendusi installida, lisades need lehe Laiendused kaudu. <ph name="BEGIN_LINK"/>Lisateave<ph name="END_LINK"/></translation>
 <translation id="4892969127351273348">Ei saa rakendusega <ph name="APP_NAME"/> avada</translation>
 <translation id="52446585071384036">Kui soovite avada faile rakendusega <ph name="APP_NAME"/>, kopeerige need esmalt Linuxi failide kausta.</translation>
 <translation id="5368191757080475556">Kausta jagamine Linuxiga</translation>
 <translation id="5857774240076772505">Andke Linuxi rakendustele õigus kaustas <ph name="FOLDER_NAME"/> olevaid faile muuta</translation>
-<translation id="2280597422213958082">Andke Linuxi rakendustele luba muuta teie OneVN Software Drive'is olevaid faile. Muudatused sünkroonitakse muude seadmetega.</translation>
+<translation id="2280597422213958082">Andke Linuxi rakendustele luba muuta teie Onevn Software Drive'is olevaid faile. Muudatused sünkroonitakse muude seadmetega.</translation>
 <translation id="4290535918735525311">1 kausta jagatakse Linuxiga</translation>
 <translation id="2377590462528165447"><ph name="NUMBER_OF_ITEMS"/> kausta jagati Linuxiga</translation>
 <translation id="4572815280350369984"><ph name="FILE_TYPE"/>-file</translation>
@@ -2977,19 +2977,19 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="1049926623896334335">Wordi dokument</translation>
 <translation id="4784330909746505604">PowerPointi esitlus</translation>
 <translation id="8860454412039442620">Exceli tabel</translation>
-<translation id="5383943761832211733">OneVN Software'i dokument</translation>
-<translation id="5924916971643100883">OneVN Software'i arvutustabel</translation>
-<translation id="3667369474859528036">OneVN Software'i esitlus</translation>
-<translation id="3411013849623404696">OneVN Software joonistus</translation>
-<translation id="7481041283483972362">OneVN Software'i tabel</translation>
-<translation id="784862457750027723">OneVN Software'i vorm</translation>
-<translation id="3320425620177764157">OneVN Software'i kaart</translation>
-<translation id="7452737073539387970">OneVN Software'i sait</translation>
-<translation id="4445959220475380548">OneVN Software Drive'i link</translation>
+<translation id="5383943761832211733">Onevn Software'i dokument</translation>
+<translation id="5924916971643100883">Onevn Software'i arvutustabel</translation>
+<translation id="3667369474859528036">Onevn Software'i esitlus</translation>
+<translation id="3411013849623404696">Onevn Software joonistus</translation>
+<translation id="7481041283483972362">Onevn Software'i tabel</translation>
+<translation id="784862457750027723">Onevn Software'i vorm</translation>
+<translation id="3320425620177764157">Onevn Software'i kaart</translation>
+<translation id="7452737073539387970">Onevn Software'i sait</translation>
+<translation id="4445959220475380548">Onevn Software Drive'i link</translation>
 <translation id="5288481194217812690"><ph name="FILENAME"/></translation>
-<translation id="1131292764548273687">Seda failitüüpi ei toetata. Külastage OneVN'i veebipoodi, et leida rakendus, mis avaks seda tüüpi faili.</translation>
-<translation id="9010211493509471179">See fail on mõeldud Macintoshi tarkvara kasutavale arvutile. See ei ühildu teie seadmega, mis käitab OneVN OS-i. Otsige sobivat asendusrakendust OneVN'i veebipoest.</translation>
-<translation id="5059989099965370411">See fail on mõeldud Windowsi tarkvara kasutavale arvutile. See ei ühildu OneVN OS-i käitava seadmega. Otsige sobivat asendusrakendust OneVN'i veebipoest.</translation>
+<translation id="1131292764548273687">Seda failitüüpi ei toetata. Külastage Onevn'i veebipoodi, et leida rakendus, mis avaks seda tüüpi faili.</translation>
+<translation id="9010211493509471179">See fail on mõeldud Macintoshi tarkvara kasutavale arvutile. See ei ühildu teie seadmega, mis käitab Onevn OS-i. Otsige sobivat asendusrakendust Onevn'i veebipoest.</translation>
+<translation id="5059989099965370411">See fail on mõeldud Windowsi tarkvara kasutavale arvutile. See ei ühildu Onevn OS-i käitava seadmega. Otsige sobivat asendusrakendust Onevn'i veebipoest.</translation>
 <translation id="5833610766403489739">See fail on kuhugi kadunud. Kontrollige allalaadimise asukoha seadet ja proovige uuesti.</translation>
 <translation id="3966388904776714213">Heliesitaja</translation>
 <translation id="3245321423178950146">Tundmatu esitaja</translation>
@@ -3045,7 +3045,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="2972557485845626008">Püsivara</translation>
 <translation id="4297219207642690536">Taaskäivita ja lähtesta</translation>
 <translation id="4716483597559580346">Powerwash suurendab turvalisust</translation>
-<translation id="4089922565956168950">See üleviimine lähtestab teie OneVNbooki ja eemaldab praegused kasutaja andmed.</translation>
+<translation id="4089922565956168950">See üleviimine lähtestab teie Onevnbooki ja eemaldab praegused kasutaja andmed.</translation>
 <translation id="5184662919967270437">Teie seadme värskendamine</translation>
 <translation id="6644846457769259194">Seadme värskendamine (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="5906655207909574370">Seade on peaaegu ajakohane. Värskenduse lõpuleviimiseks taaskäivitage seade.</translation>
@@ -3068,13 +3068,13 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="5600706100022181951">Värskenduse allalaadimiseks kulub <ph name="UPDATE_SIZE_MB"/> MB mobiilset andmesidet. Kas soovite jätkata?</translation>
 <translation id="5402815541704507626">Laadite värskenduse alla mobiilse andmeside kaudu</translation>
 <translation id="5085162214018721575">Värskenduste otsimine</translation>
-<translation id="4570609078116869893">Värskenda OneVN'i automaatselt kõikide kasutajate jaoks</translation>
+<translation id="4570609078116869893">Värskenda Onevn'i automaatselt kõikide kasutajate jaoks</translation>
 <translation id="7102687220333134671">Automaatsed värskendused on sisse lülitatud</translation>
 <translation id="6981982820502123353">Juurdepääsetavus</translation>
-<translation id="5840822070878669614">Ava OneVN'i veebipood</translation>
+<translation id="5840822070878669614">Ava Onevn'i veebipood</translation>
 <translation id="6073903501322152803">Juurdepääsetavuse funktsioonide lisamine</translation>
 <translation id="7988355189918024273">Luba juurdepääsetavuse funktsioonid</translation>
-<translation id="3274899353071794175">Kui pildil puudub kasulik kirjeldus, loob OneVN selle ise. Pilte skannib OneVN Software.</translation>
+<translation id="3274899353071794175">Kui pildil puudub kasulik kirjeldus, loob Onevn selle ise. Pilte skannib Onevn Software.</translation>
 <translation id="2558896001721082624">Kuva alati juurdepääsuvalikud süsteemimenüüs</translation>
 <translation id="7280649757394340890">Kõnesünteesi hääle seaded</translation>
 <translation id="6635956300022133031">Saate valida ja kohandada kõnesünteesi hääli</translation>
@@ -3083,8 +3083,8 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="4209092469652827314">Suur</translation>
 <translation id="499165176004408815">Kasuta kõrge kontrastiga režiimi</translation>
 <translation id="142758023928848008">Luba püsiklahvid (siis saate kasutada klaviatuuri otseteid, vajutades klahve üksteise järel)</translation>
-<translation id="5914872514449971753">Luba OneVNVox (kõnena esitatud tagasiside)</translation>
-<translation id="7099511550603534982">Ava OneVNVoxi seaded</translation>
+<translation id="5914872514449971753">Luba OnevnVox (kõnena esitatud tagasiside)</translation>
+<translation id="7099511550603534982">Ava OnevnVoxi seaded</translation>
 <translation id="8547013269961688403">Luba täisekraani luup</translation>
 <translation id="8743390665131937741">Täisekraani suumitase:</translation>
 <translation id="7334274148831027933">Luba dokitud luup</translation>
@@ -3119,7 +3119,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="2765217105034171413">Väike</translation>
 <translation id="7409549334477097887">Väga suur</translation>
 <translation id="1330145147221172764">Luba ekraanil kuvatav klaviatuur</translation>
-<translation id="1800308196794859773">Saatke oma hääl OneVN Software'ile, et lubada dikteerimine kõigil tekstiväljadel.</translation>
+<translation id="1800308196794859773">Saatke oma hääl Onevn Software'ile, et lubada dikteerimine kõigil tekstiväljadel.</translation>
 <translation id="8758418656925882523">Dikteerimise lubamine (kõnelemine sisestamiseks)</translation>
 <translation id="7580671184200851182">Esita sama heli kõigist kõlaritest (monoheli)</translation>
 <translation id="1361872463926621533">Esita käivitamisel heli</translation>
@@ -3184,13 +3184,13 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="2200603218210188859">USB-seadme eelistused</translation>
 <translation id="2706892089432507937">USB-seadmed</translation>
 <translation id="5187892128515678283">Jagage USB-seadet Linuxiga, lülitades valiku sisse. Jagamine toimub vaid seni, kuni seadme ühendus katkestatakse.</translation>
-<translation id="2295473777859797944">OneVN Software Play pood</translation>
+<translation id="2295473777859797944">Onevn Software Play pood</translation>
 <translation id="572155275267014074">Androidi seaded</translation>
-<translation id="4767209642168463274">Installige rakendused ja mängud OneVN Software Playst oma OneVNbooki. &lt;a target="_blank" href="<ph name="URL"/>"&gt;Lisateave&lt;/a&gt;</translation>
+<translation id="4767209642168463274">Installige rakendused ja mängud Onevn Software Playst oma Onevnbooki. &lt;a target="_blank" href="<ph name="URL"/>"&gt;Lisateave&lt;/a&gt;</translation>
 <translation id="2966937470348689686">Androidi eelistuste haldamine</translation>
-<translation id="4074367893748481070">OneVN Software Play poe eemaldamine</translation>
+<translation id="4074367893748481070">Onevn Software Play poe eemaldamine</translation>
 <translation id="2792290659606763004">Kas soovite Androidi rakendused eemaldada?</translation>
-<translation id="4607779957365311067">OneVN Software Playst alla laaditud rakendused kustutatakse sellest OneVNbookist.
+<translation id="4607779957365311067">Onevn Software Playst alla laaditud rakendused kustutatakse sellest Onevnbookist.
       <ph name="LINE_BREAKS1"/>
       Teie ostetud sisu (nt filmid, telesaated, muusika, raamatud või muud rakendusesisesed ostud) võidakse samuti kustutada.
       <ph name="LINE_BREAKS2"/>
@@ -3218,7 +3218,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="1670399744444387456">Põhiseaded</translation>
 <translation id="1763808908432309942">Avaneb uuel vahekaardil</translation>
 <translation id="6248988683584659830">Otsinguseaded</translation>
-<translation id="883304095704384301">Kui te ei leia otsitavat, avage <ph name="BEGIN_LINK_CHROMIUM"/>OneVN Software OneVN'i abi<ph name="END_LINK_CHROMIUM"/></translation>
+<translation id="883304095704384301">Kui te ei leia otsitavat, avage <ph name="BEGIN_LINK_CHROMIUM"/>Onevn Software Onevn'i abi<ph name="END_LINK_CHROMIUM"/></translation>
 <translation id="6406708970972405507">Seaded – <ph name="SECTION_TITLE"/></translation>
 <translation id="5860033963881614850">Väljas</translation>
 <translation id="5916664084637901428">Sees</translation>
@@ -3236,10 +3236,10 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="451515744433878153">Eemalda</translation>
 <translation id="5029568752722684782">Kustuta koopia</translation>
 <translation id="2154484045852737596">Kaardi muutmine</translation>
-<translation id="3032188998195902534">OneVN Software Pay makseviiside lisamiseks või haldamiseks minge oma <ph name="BEGIN_LINK"/>OneVN Software'i kontole<ph name="END_LINK"/></translation>
+<translation id="3032188998195902534">Onevn Software Pay makseviiside lisamiseks või haldamiseks minge oma <ph name="BEGIN_LINK"/>Onevn Software'i kontole<ph name="END_LINK"/></translation>
 <translation id="8853586775156634952">Kaart salvestatakse ainult sellesse seadmesse</translation>
 <translation id="5087580092889165836">Lisa kaart</translation>
-<translation id="4835914736509775287">Salvestage kaardid oma OneVN Software'i kontole</translation>
+<translation id="4835914736509775287">Salvestage kaardid oma Onevn Software'i kontole</translation>
 <translation id="7255002516883565667">Praegu on teil üks kaart, mida saab kasutada ainult selles seadmes</translation>
 <translation id="6848388270925200958">Praegu on teil kaarte, mida saab kasutada ainult selles seadmes</translation>
 <translation id="4807098396393229769">Kaardil olev nimi</translation>
@@ -3262,7 +3262,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="7930294771522048157">Salvestatud makseviisid kuvatakse siin</translation>
 <translation id="9124003689441359348">Salvestatud paroolid kuvatakse siin</translation>
 <translation id="4400367121200150367">Siin kuvatakse saidid, millel paroole kunagi ei salvestata</translation>
-<translation id="3098842761938485917">Vaadake ja hallake salvestatud paroole oma <ph name="BEGIN_LINK"/>OneVN Software'i kontol<ph name="END_LINK"/></translation>
+<translation id="3098842761938485917">Vaadake ja hallake salvestatud paroole oma <ph name="BEGIN_LINK"/>Onevn Software'i kontol<ph name="END_LINK"/></translation>
 <translation id="5620655347161642930">Paroolide eksportimine …</translation>
 <translation id="3900966090527141178">Paroolide eksportimine</translation>
 <translation id="6914783257214138813">Teie paroolid on nähtavad kõigile, kes saavad vaadata eksporditud faili.</translation>
@@ -3362,15 +3362,15 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="3380365263193509176">Tundmatu viga</translation>
 <translation id="368789413795732264">Ilmnes viga, kui proovisite kirjutada faili: <ph name="ERROR_TEXT"/></translation>
 <translation id="784934925303690534">Ajavahemik</translation>
-<translation id="3958004920128806270">Sirvimisandmete kustutamiseks ainult sellest seadmest ja nende säilitamiseks teie OneVN Software'i kontol <ph name="BEGIN_LINK"/>logige välja<ph name="END_LINK"/>.</translation>
-<translation id="4445433576366924090">Sirvimisandmete kustutamiseks kõigist sünkroonitud seadmetest ja oma OneVN Software'i kontolt <ph name="BEGIN_LINK"/>avage sünkroonimisseaded<ph name="END_LINK"/>.</translation>
-<translation id="563489167344291753">Sirvimisandmete kustutamiseks kõigist sünkroonitud seadmetest ja oma OneVN Software'i kontolt <ph name="BEGIN_LINK"/>sisestage oma parool<ph name="END_LINK"/>.</translation>
-<translation id="3895809404273995788">Sirvimisandmete kustutamiseks kõigist sünkroonitud seadmetest ja oma OneVN Software'i kontolt <ph name="BEGIN_LINK"/>logige sisse<ph name="END_LINK"/>.</translation>
+<translation id="3958004920128806270">Sirvimisandmete kustutamiseks ainult sellest seadmest ja nende säilitamiseks teie Onevn Software'i kontol <ph name="BEGIN_LINK"/>logige välja<ph name="END_LINK"/>.</translation>
+<translation id="4445433576366924090">Sirvimisandmete kustutamiseks kõigist sünkroonitud seadmetest ja oma Onevn Software'i kontolt <ph name="BEGIN_LINK"/>avage sünkroonimisseaded<ph name="END_LINK"/>.</translation>
+<translation id="563489167344291753">Sirvimisandmete kustutamiseks kõigist sünkroonitud seadmetest ja oma Onevn Software'i kontolt <ph name="BEGIN_LINK"/>sisestage oma parool<ph name="END_LINK"/>.</translation>
+<translation id="3895809404273995788">Sirvimisandmete kustutamiseks kõigist sünkroonitud seadmetest ja oma Onevn Software'i kontolt <ph name="BEGIN_LINK"/>logige sisse<ph name="END_LINK"/>.</translation>
 <translation id="8662811608048051533">Logib teid enamikult saitidelt välja.</translation>
-<translation id="4650925988509114690">Teid logitakse enamikult saitidelt välja. Jääte oma OneVN Software'i kontole sisselogituks, et teie sünkroonitud andmed saaks kustutada.</translation>
+<translation id="4650925988509114690">Teid logitakse enamikult saitidelt välja. Jääte oma Onevn Software'i kontole sisselogituks, et teie sünkroonitud andmed saaks kustutada.</translation>
 <translation id="2017836877785168846">Kustutab aadressiribalt ajaloo ja automaatse täitmise teabe.</translation>
-<translation id="8096327394278038498">Kustutab aadressiribalt ajaloo ja automaatse täitmise andmed. Aadressil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> võib teie OneVN Software'i kontol olla muus vormis sirvimisajalugu.</translation>
-<translation id="8122693181154564064">Kustutab ajaloo kõigist sisselogitud seadmetest. Aadressil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> võib teie OneVN Software'i kontol olla muus vormis sirvimisajalugu.</translation>
+<translation id="8096327394278038498">Kustutab aadressiribalt ajaloo ja automaatse täitmise andmed. Aadressil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> võib teie Onevn Software'i kontol olla muus vormis sirvimisajalugu.</translation>
+<translation id="8122693181154564064">Kustutab ajaloo kõigist sisselogitud seadmetest. Aadressil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> võib teie Onevn Software'i kontol olla muus vormis sirvimisajalugu.</translation>
 <translation id="7127980134843952133">Allalaadimiste ajalugu</translation>
 <translation id="4699172675775169585">Vahemällu salvestatud kujutised ja failid</translation>
 <translation id="1274997165432133392">Küpsised ja muud saidi andmed</translation>
@@ -3384,7 +3384,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="6979737339423435258">Algusest</translation>
 <translation id="3399432415385675819">Märguanded keelatakse</translation>
 <translation id="3459509316159669723">Printimine</translation>
-<translation id="1563008449513980623">OneVN Software'i pilvprintimises printerite seadistamine või haldamine.</translation>
+<translation id="1563008449513980623">Onevn Software'i pilvprintimises printerite seadistamine või haldamine.</translation>
 <translation id="8185331656081929126">Kuva märguanne, kui võrgus tuvastatakse mõni uus printer</translation>
 <translation id="6451180435462401570">Pilvprintimise seadmete haldamine</translation>
 <translation id="6985607387932385770">Printerid</translation>
@@ -3417,10 +3417,10 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="2462752602710430187"><ph name="PRINTER_NAME"/> on lisatud</translation>
 <translation id="9057119625587205566">Läheduses ei ole ühtki printerit</translation>
 <translation id="3213187967168344806">Printerit ei saa lisada. Taaskäivitage arvuti ja proovige uuesti.</translation>
-<translation id="4052689580269971502">Printeriga ei saa ühendada. Kontrollige, kas printer on sisse lülitatud ja teie OneVNbookiga WiFi või USB kaudu ühendatud.</translation>
+<translation id="4052689580269971502">Printeriga ei saa ühendada. Kontrollige, kas printer on sisse lülitatud ja teie Onevnbookiga WiFi või USB kaudu ühendatud.</translation>
 <translation id="7099337801055912064">Suurt PPD-d ei saa laadida. Maksimaalne suurus on 250 kB.</translation>
 <translation id="4310139701823742692">Failivorming on vale. Kontrollige PPD-faili ja proovige uuesti.</translation>
-<translation id="6580983683519551561">PPD-d ei leita. Veenduge, et teie OneVNbook oleks võrguga ühendatud, ja proovige uuesti.</translation>
+<translation id="6580983683519551561">PPD-d ei leita. Veenduge, et teie Onevnbook oleks võrguga ühendatud, ja proovige uuesti.</translation>
 <translation id="4694024090038830733">Printeri seadistust haldab administraator.</translation>
 <translation id="5816434091619127343">Nõutud printeri muudatuste korral ei saaks printerit kasutada.</translation>
 <translation id="6504611359718185067">Printeri lisamiseks looge ühendus Internetiga</translation>
@@ -3428,7 +3428,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="5696679855467848181">Praegune kasutuses olev PPD-fail: <ph name="PPD_NAME"/></translation>
 <translation id="4733793249294335256">Asukoht</translation>
 <translation id="7754704193130578113">Küsi enne iga faili allalaadimist, kuhu see salvestada.</translation>
-<translation id="5713072761819014678">OneVN Software Drive'i konto ühenduse katkestamine</translation>
+<translation id="5713072761819014678">Onevn Software Drive'i konto ühenduse katkestamine</translation>
 <translation id="486635084936119914">Teatud failitüübid avatakse pärast allalaadimist automaatselt</translation>
 <translation id="3653160965917900914">Failide võrguhoidlad</translation>
 <translation id="5763315388120433852">Seadistage või hallake failide võrguhoidlaid.</translation>
@@ -3464,12 +3464,12 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="3571734092741541777">Seadista</translation>
 <translation id="3336664756920573711">Seadme <ph name="DEVICE_TYPE"/> avamine Android-telefoniga</translation>
 <translation id="1164674268730883318">Kas lülitada Smart Lock välja seadmes <ph name="DEVICE_TYPE"/>?</translation>
-<translation id="2739030071582769583">Kui lülitate teenuse Smart Lock seadmes <ph name="DEVICE_TYPE"/> välja, siis ei saa te OneVN'i seadmeid telefoniga avada. Sel juhul peate sisestama parooli.</translation>
+<translation id="2739030071582769583">Kui lülitate teenuse Smart Lock seadmes <ph name="DEVICE_TYPE"/> välja, siis ei saa te Onevn'i seadmeid telefoniga avada. Sel juhul peate sisestama parooli.</translation>
 <translation id="4737715515457435632">Looge ühendus võrguga</translation>
 <translation id="5425722269016440406">Smart Locki väljalülitamiseks peab teil olema võrguühendus, kuna see seade on sünkroonitud teie telefoni ja muude seadmetega. Looge esmalt ühendus võrguga.</translation>
 <translation id="8885197664446363138">Smart Lock pole saadaval</translation>
 <translation id="7334190995941642545">Smart Lock ei ole praegu saadaval. Proovige hiljem uuesti.</translation>
-<translation id="8112427115751454716">Kasutage oma OneVN Software'i kontole sisselogimiseks funktsiooni Smart Lock</translation>
+<translation id="8112427115751454716">Kasutage oma Onevn Software'i kontole sisselogimiseks funktsiooni Smart Lock</translation>
 <translation id="2043818754674261542">Seadme <ph name="DEVICE_TYPE"/> telefoniga avamiseks vajalik vahemaa</translation>
 <translation id="2522791476825452208">Väga lähedal</translation>
 <translation id="649454645705377674">Sule</translation>
@@ -3477,7 +3477,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="5595152862129936745">Väga kaugel</translation>
 <translation id="8748384418490037181">Smart Locki valikud</translation>
 <translation id="2433836460518180625">Ava ainult seade</translation>
-<translation id="3300552672525741457">Avage seade ja logige oma OneVN Software'i kontole sisse</translation>
+<translation id="3300552672525741457">Avage seade ja logige oma Onevn Software'i kontole sisse</translation>
 <translation id="2307462900900812319">Seadista võrk</translation>
 <translation id="7175037578838465313">Võrgu <ph name="NAME"/> seadistamine</translation>
 <translation id="8662671328352114214"><ph name="TYPE"/>-võrguga liitumine</translation>
@@ -3504,7 +3504,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="1726100011689679555">Nimeserverid</translation>
 <translation id="1209796539517632982">Automaatsed nimeserverid</translation>
 <translation id="4462159676511157176">Kohandatud nimeserverid</translation>
-<translation id="1981884748698699991">OneVN Software'i nimeserverid</translation>
+<translation id="1981884748698699991">Onevn Software'i nimeserverid</translation>
 <translation id="854655314928502177">Veebipõhise puhverserveri automaattuvastamise URL:</translation>
 <translation id="3817579325494460411">Puudub</translation>
 <translation id="1280820357415527819">Mobiilsidevõrkude otsimine</translation>
@@ -3568,13 +3568,13 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="6077131872140550515">Eemalda eelistatud võrkude hulgast</translation>
 <translation id="4115002065223188701">Võrk ei ole läheduses</translation>
 <translation id="161460670679785907">Teie telefoni ei saa tuvastada</translation>
-<translation id="1682335582099955045">Automaatse jagamise kasutamiseks lülitage OneVN Software Play teenuste märguanded sisse.</translation>
+<translation id="1682335582099955045">Automaatse jagamise kasutamiseks lülitage Onevn Software Play teenuste märguanded sisse.</translation>
 <translation id="7696063401938172191">Teie seadmes <ph name="PHONE_NAME"/>:</translation>
 <translation id="3423463006624419153">Teie seadmetes <ph name="PHONE_NAME_1"/> ja <ph name="PHONE_NAME_2"/>:</translation>
 <translation id="6997707937646349884">Teie seadmetes:</translation>
 <translation id="7531779363494549572">Avage jaotis Seaded &gt; Rakendused ja märguanded &gt; Märguanded.</translation>
-<translation id="6921033294337262045">Puudutage valikuid Rakenduse märguanded &gt; OneVN Software Play teenused.</translation>
-<translation id="5624710179837914896">Lülitage sisse OneVN Software Play teenused.</translation>
+<translation id="6921033294337262045">Puudutage valikuid Rakenduse märguanded &gt; Onevn Software Play teenused.</translation>
+<translation id="5624710179837914896">Lülitage sisse Onevn Software Play teenused.</translation>
 <translation id="2705736684557713153">Kerige ekraani alaossa ja lülitage sisse automaatne jagamine, kui see kuvatakse. Muidu ei ole teil vaja rohkem midagi teha.</translation>
 <translation id="8720200012906404956">Otsitakse mobiilsidevõrku. <ph name="BEGIN_LINK"/>Lisateave<ph name="END_LINK"/></translation>
 <translation id="7240339475467890413">Kas luua ühendus uue levialaga?</translation>
@@ -3588,7 +3588,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="3651488188562686558">WiFi-ühenduse katkestamine</translation>
 <translation id="3479552764303398839">Mitte praegu</translation>
 <translation id="7378812711085314936">Andmesideühenduse hankimine</translation>
-<translation id="3483333858382889684">Lubage sellel seadmel leida teisi seadmeid, mis on OneVN Software'i kontoga seotud ja millel on mobiilne andmesideühendus.</translation>
+<translation id="3483333858382889684">Lubage sellel seadmel leida teisi seadmeid, mis on Onevn Software'i kontoga seotud ja millel on mobiilne andmesideühendus.</translation>
 <translation id="5637476008227280525">Luba mobiilne andmeside</translation>
 <translation id="1572266655485775982">WiFi lubamine</translation>
 <translation id="543381445212956829">Luba WiMAX</translation>
@@ -3718,11 +3718,11 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="4200689466366162458">Kohandatud sõnad</translation>
 <translation id="7833720883933317473">Salvestatud kohandatud sõnad kuvatakse siin</translation>
 <translation id="8509646642152301857">Õigekirjakontrolli sõnastiku allalaadimine ebaõnnestus.</translation>
-<translation id="8842834450537919370">Paluge oma võrguadministraatoril tagada, et tulemüür ei blokeeriks allalaaditavaid faile OneVN Software'i serveritest.</translation>
+<translation id="8842834450537919370">Paluge oma võrguadministraatoril tagada, et tulemüür ei blokeeriks allalaaditavaid faile Onevn Software'i serveritest.</translation>
 <translation id="9042893549633094279">Privaatsus ja turvalisus</translation>
 <translation id="654233263479157500">Kasuta veebiteenust navigeerimistõrgete lahendamisele kaasaaitamiseks</translation>
 <translation id="6697492270171225480">Kui lehte ei leita, kuvatakse sarnaste lehtede soovitusi</translation>
-<translation id="4534361985432360439">Saadab OneVN Software'ile teie soovitud lehe veebiaadressi.</translation>
+<translation id="4534361985432360439">Saadab Onevn Software'ile teie soovitud lehe veebiaadressi.</translation>
 <translation id="6545834809683560467">Kasuta ennustusteenust, mis aitab lõpetada otsingud, ja URL-e, mis sisestatakse aadressiribale või rakenduste käivitaja otsingukasti</translation>
 <translation id="340485819826776184">Kasuta soovitusteenust, mis aitab lõpetada otsingud ja aadressiribale sisestatud URL-id</translation>
 <translation id="7704317875155739195">Otsingute ja URL-ide automaatne täitmine</translation>
@@ -3733,16 +3733,16 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="1641113438599504367">Ohutu sirvimine</translation>
 <translation id="773905249182896430">Kaitseb teid ja teie seadet ohtlike saitide eest</translation>
 <translation id="8983677657449185470">Aidake ohutut sirvimist paremaks muuta</translation>
-<translation id="199861668945335092">Saadab OneVN Software'ile teatud süsteemiteavet ja lehe sisu</translation>
+<translation id="199861668945335092">Saadab Onevn Software'ile teatud süsteemiteavet ja lehe sisu</translation>
 <translation id="490074449735753175">Kasuta veebiteenust õigekirjavigade parandamisele kaasaaitamiseks</translation>
-<translation id="3523078749603005179">Nutikam õigekirjakontroll, mis saadab brauserisse sisestatud teksti OneVN Software'ile</translation>
+<translation id="3523078749603005179">Nutikam õigekirjakontroll, mis saadab brauserisse sisestatud teksti Onevn Software'ile</translation>
 <translation id="2564653188463346023">Täiustatud õigekirjakontroll</translation>
-<translation id="9079153198295609735">Saada kasutusstatistika ja krahhiaruanded automaatselt OneVN Software'ile</translation>
-<translation id="5941220456342415404">Saada diagnostika- ja kasutusandmed automaatselt OneVN Software'ile</translation>
-<translation id="918192811481327695">Aidake täiustada OneVN'i funktsioone ja toimivust</translation>
-<translation id="9063160602596686558">OneVN Software'ile saadetakse automaatselt kasutusstatistikat ja krahhiaruandeid</translation>
+<translation id="9079153198295609735">Saada kasutusstatistika ja krahhiaruanded automaatselt Onevn Software'ile</translation>
+<translation id="5941220456342415404">Saada diagnostika- ja kasutusandmed automaatselt Onevn Software'ile</translation>
+<translation id="918192811481327695">Aidake täiustada Onevn'i funktsioone ja toimivust</translation>
+<translation id="9063160602596686558">Onevn Software'ile saadetakse automaatselt kasutusstatistikat ja krahhiaruandeid</translation>
 <translation id="8438566539970814960">Otsingute ja sirvimise paremaks muutmine</translation>
-<translation id="284843628681142937">Saadab OneVN Software'ile teie külastatud lehtede URL-id</translation>
+<translation id="284843628681142937">Saadab Onevn Software'ile teie külastatud lehtede URL-id</translation>
 <translation id="8791534160414513928">Saada sirvimisliiklusega taotlus „Ära jälgi”</translation>
 <translation id="5299109548848736476">Ära jälgi</translation>
 <translation id="5282733140964383898">Valiku „Ära jälgi” lubamine tähendab, et päring lisatakse teie sirvimisliiklusse. Selle toimimine oleneb sellest, kas veebisait reageerib päringule ja kuidas päringut tõlgendatakse. Näiteks võivad mõned veebisaidid päringule reageerida nii, et näitavad teile reklaame, mis ei paikne teie külastatud muudel veebisaitidel. Paljud veebisaidid siiski koguvad ning kasutavad teie sirvimisandmeid, näiteks turvalisuse täiustamiseks, sisu, teenuste, reklaamide ja soovituste pakkumiseks oma veebisaitidel ning statistikaaruande loomiseks. <ph name="BEGIN_LINK"/>Lisateave<ph name="END_LINK"/></translation>
@@ -3760,7 +3760,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="8632933437936028548">Seadete lähtestamine</translation>
 <translation id="5293170712604732402">Seadete taastamine algsetele vaikevalikutele</translation>
 <translation id="892706138619340876">Mõned seaded lähtestati</translation>
-<translation id="2334029754052191847">OneVN tuvastas, et teine programm rikkus teie seadeid, ja lähtestas need algsetele vaikevalikutele.</translation>
+<translation id="2334029754052191847">Onevn tuvastas, et teine programm rikkus teie seadeid, ja lähtestas need algsetele vaikevalikutele.</translation>
 <translation id="4582563038311694664">Lähtesta kõik seaded</translation>
 <translation id="4146785383423576110">Lähtestamine ja puhastamine</translation>
 <translation id="2603115962224169880">Puhasta arvuti</translation>
@@ -3772,7 +3772,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="7807067443225230855">Otsing ja assistent</translation>
 <translation id="2203682048752833055"><ph name="BEGIN_LINK"/>Aadressiribal<ph name="END_LINK"/> kasutatud otsingumootor</translation>
 <translation id="1432581352905426595">Halda otsingumootoreid</translation>
-<translation id="2862205630718215619">OneVN Software'i assistent</translation>
+<translation id="2862205630718215619">Onevn Software'i assistent</translation>
 <translation id="6978121630131642226">Otsingumootorid</translation>
 <translation id="6410668567036790476">Otsingumootori lisamine</translation>
 <translation id="1128591060186966949">Otsingumootori muutmine</translation>
@@ -3784,9 +3784,9 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="7063311912041006059">URL, kus päringu kohal on <ph name="SPECIAL_SYMBOL"/></translation>
 <translation id="6953878494808481632">Seotud teave</translation>
 <translation id="4145922204387553806">Saate lubada assistendil esitada ekraanil kuvatavaga seotud teavet</translation>
-<translation id="472896694312062378">„Ok OneVN Software”</translation>
-<translation id="873163986259711670">Pääsete oma assistendile juurde igal ajal, öeldes lihtsalt „Ok OneVN Software”</translation>
-<translation id="7972554217702001243">Assistendi aktiveerimine, kui keegi ütleb „Ok OneVN Software”. Aku säästmiseks toimib „Ok OneVN Software” ainult juhul, kui seade on ühendatud toiteallikaga.</translation>
+<translation id="472896694312062378">„Ok Onevn Software”</translation>
+<translation id="873163986259711670">Pääsete oma assistendile juurde igal ajal, öeldes lihtsalt „Ok Onevn Software”</translation>
+<translation id="7972554217702001243">Assistendi aktiveerimine, kui keegi ütleb „Ok Onevn Software”. Aku säästmiseks toimib „Ok Onevn Software” ainult juhul, kui seade on ühendatud toiteallikaga.</translation>
 <translation id="5825412242012995131">Sees (soovitatav)</translation>
 <translation id="5067399438976153555">Alati sees</translation>
 <translation id="5419405654816502573">Voice Match</translation>
@@ -3795,7 +3795,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="5355099869024327351">Luba assistendil märguandeid esitada</translation>
 <translation id="133535873114485416">Eelistatud sisend</translation>
 <translation id="6233154960150021497">Kasuta vaikimisi häält, mitte klaviatuuri</translation>
-<translation id="3908743412684152579">OneVN Software'i assistendi seaded</translation>
+<translation id="3908743412684152579">Onevn Software'i assistendi seaded</translation>
 <translation id="4933484234309072027">manustatud aadressil <ph name="URL"/></translation>
 <translation id="8427292751741042100">manustatud mis tahes hostile</translation>
 <translation id="4907306957610201395">Loa kategooria</translation>
@@ -3820,7 +3820,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="5340638867532133571">Luba saitidel maksetöötlejaid installida (soovitatav)</translation>
 <translation id="763632859238619983">Ära luba ühelgi saidil maksetöötlejaid installida</translation>
 <translation id="8270242299912238708">PDF-dokumendid</translation>
-<translation id="539658326146969381">Laadige PDF-failid alla selle asemel, et need OneVN'is automaatselt avada</translation>
+<translation id="539658326146969381">Laadige PDF-failid alla selle asemel, et need Onevn'is automaatselt avada</translation>
 <translation id="4434045419905280838">Hüpikaknad ja ümbersuunamised</translation>
 <translation id="6612358246767739896">Kaitstud sisu</translation>
 <translation id="4252852543720145436">Kaitstud sisu identifikaatorid</translation>
@@ -3852,7 +3852,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="7661259717474717992">Luba saitidel küpsisefailide andmeid salvestada ja lugeda</translation>
 <translation id="2913331724188855103">Lubab saitidel salvestada küpsiseid ja lugeda küpsiste andmeid (soovitatav)</translation>
 <translation id="5908769186679515905">Keela Flashi käitamine saitidel</translation>
-<translation id="6096007141921397775">Teie Flashi seaded säilitatakse kuni OneVN'ist väljumiseni.</translation>
+<translation id="6096007141921397775">Teie Flashi seaded säilitatakse kuni Onevn'ist väljumiseni.</translation>
 <translation id="2972642118232180842">Käita ainult olulist sisu (soovitatav)</translation>
 <translation id="7084192839369222683">Käita ainult olulist sisu</translation>
 <translation id="8074127646604999664">Luba hiljuti suletud saitidel lõpetada andmete saatmine ja vastuvõtmine</translation>
@@ -3914,7 +3914,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="4750220700975225">Praegune privaatne seanss (<ph name="EMBEDDING">$1<ex>embedded on google.com</ex></ph>)</translation>
 <translation id="383891835335927981">Ühtegi saiti pole sisse ega välja suumitud</translation>
 <translation id="3566721612727112615">Ühtegi saiti ei lisatud</translation>
-<translation id="8098574385249290065">Luba OneVN'il valida, millal saidid võivad heli esitada (soovitatav)</translation>
+<translation id="8098574385249290065">Luba Onevn'il valida, millal saidid võivad heli esitada (soovitatav)</translation>
 <translation id="4354344420232759511">Külastatud saidid kuvatakse siin</translation>
 <translation id="3757733214359997190">Saite ei leitud</translation>
 <translation id="5763751966069581670">USB-seadmeid ei leitud</translation>
@@ -3922,7 +3922,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="7366415735885268578">Saidi lisamine</translation>
 <translation id="5052499409147950210">Saidi muutmine</translation>
 <translation id="2870560284913253234">Sait</translation>
-<translation id="4610862967073369855">Lubab rakendusel Android Messages tekstisõnumeid telefonist OneVNbooki edastada</translation>
+<translation id="4610862967073369855">Lubab rakendusel Android Messages tekstisõnumeid telefonist Onevnbooki edastada</translation>
 <translation id="6742339027238151589">Kättesaadav skripti jaoks</translation>
 <translation id="361106536627977100">Flashi andmed</translation>
 <translation id="8557930019681227453">Manifest</translation>
@@ -3936,7 +3936,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="6105877918873366097">Viimati kasutatud</translation>
 <translation id="1296497012903089238">Sertifikaadi tüüp</translation>
 <translation id="8553342806078037065">Teiste inimeste haldamine</translation>
-<translation id="8907706281008466056">OneVN Software'i profiilifoto</translation>
+<translation id="8907706281008466056">Onevn Software'i profiilifoto</translation>
 <translation id="2408955596600435184">Sisestage PIN-kood</translation>
 <translation id="6619990499523117484">Kinnitage PIN-kood</translation>
 <translation id="2023167225947895179">PIN-koodi võib olla lihtne ära arvata</translation>
@@ -3961,9 +3961,9 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="6029292188939175871">kustuta [<ph name="FINGERPRINT_NAME"/>], nupp</translation>
 <translation id="1927632033341042996"><ph name="NEW_FINGER_NUMBER"/>. sõrm</translation>
 <translation id="7665369617277396874">Konto lisamine</translation>
-<translation id="6776811409814583709">Siin saab hallata kõiki teie OneVN Software'i kontosid, kuhu olete rakendustes ja veebisaitidel sisse loginud. Rakendused ja veebisaidid, millel on teie luba, pääsevad juurde konto teabele, mida on vaja ootuspäraseks toimimiseks.</translation>
+<translation id="6776811409814583709">Siin saab hallata kõiki teie Onevn Software'i kontosid, kuhu olete rakendustes ja veebisaitidel sisse loginud. Rakendused ja veebisaidid, millel on teie luba, pääsevad juurde konto teabele, mida on vaja ootuspäraseks toimimiseks.</translation>
 <translation id="1987317783729300807">Kontod</translation>
-<translation id="8418661265246754237">OneVN Software'i kontod</translation>
+<translation id="8418661265246754237">Onevn Software'i kontod</translation>
 <translation id="3297951628821704004">Eemalda konto sellest seadmest</translation>
 <translation id="3158033540161634471">Sõrmejälje seadistamine</translation>
 <translation id="1587907146729660231">Puudutage sõrmega toitenuppu</translation>
@@ -3993,9 +3993,9 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="2114896190328250491">Foto autor: <ph name="NAME"/></translation>
 <translation id="7155171745945906037">Olemasolev foto kaamerast või failist</translation>
 <translation id="8995603266996330174">Haldaja: <ph name="DOMAIN"/></translation>
-<translation id="9125982323641182972">OneVN Software'i nutikus OneVN'is</translation>
+<translation id="9125982323641182972">Onevn Software'i nutikus Onevn'is</translation>
 <translation id="5244474230056479698">Sünkroonimine aadressiga <ph name="EMAIL"/></translation>
-<translation id="4326270470840334364">Kuna seda kontot haldab domeen <ph name="DOMAIN"/>, kustutatakse sellest seadmest teie järjehoidjad, ajalugu, paroolid ja muud seaded. Teie andmed jäävad teie OneVN Software'i kontole siiski alles ja neid saab hallata <ph name="BEGIN_LINK"/>OneVN Software'i juhtpaneelil<ph name="END_LINK"/>.</translation>
+<translation id="4326270470840334364">Kuna seda kontot haldab domeen <ph name="DOMAIN"/>, kustutatakse sellest seadmest teie järjehoidjad, ajalugu, paroolid ja muud seaded. Teie andmed jäävad teie Onevn Software'i kontole siiski alles ja neid saab hallata <ph name="BEGIN_LINK"/>Onevn Software'i juhtpaneelil<ph name="END_LINK"/>.</translation>
 <translation id="4037889604535939429">Isiku muutmine</translation>
 <translation id="6739923123728562974">Kuva töölaua otsetee</translation>
 <translation id="2450310832094867474">Kas lülitada sünkroonimine välja ja logida välja?</translation>
@@ -4003,16 +4003,16 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="5643620609347735571">Kustuta ja jätka</translation>
 <translation id="5602765853043467355">Kustuta sellest seadmest järjehoidjad, ajalugu, paroolid ja muu</translation>
 <translation id="4089235344645910861">Seaded on salvestatud. Sünkroonimine algas.</translation>
-<translation id="7548737591211512046">Logige sisse, et teie järjehoidjad, ajalugu, paroolid ja muud seaded oleksid kõikides teie seadmetes saadaval. Teid logitakse ka automaatselt sisse OneVN Software'i teenustesse.</translation>
-<translation id="2951604498031550705">Teie järjehoidjate, ajaloo, paroolide ja muude seadete muudatusi ei sünkroonita enam teie OneVN Software'i kontoga. Teie olemasolevad andmed jäävad aga teie OneVN Software'i kontole alles ja neid saab hallata <ph name="BEGIN_LINK"/>OneVN Software'i juhtpaneelil<ph name="END_LINK"/>.</translation>
-<translation id="138229770216285283">See logib teid teie OneVN Software'i kontodelt välja. Teie järjehoidjate, ajaloo, paroolide ja muude seadete muudatusi ei sünkroonita enam teie OneVN Software'i kontoga. Teie olemasolevad andmed jäävad aga teie OneVN Software'i kontole alles ja neid saab hallata <ph name="BEGIN_LINK"/>OneVN Software'i juhtpaneelil<ph name="END_LINK"/>.</translation>
-<translation id="3169352093514419465">See logib teid teie OneVN Software'i kontodelt välja. Teie järjehoidjaid, ajalugu, paroole ja muud ei sünkroonita enam.</translation>
+<translation id="7548737591211512046">Logige sisse, et teie järjehoidjad, ajalugu, paroolid ja muud seaded oleksid kõikides teie seadmetes saadaval. Teid logitakse ka automaatselt sisse Onevn Software'i teenustesse.</translation>
+<translation id="2951604498031550705">Teie järjehoidjate, ajaloo, paroolide ja muude seadete muudatusi ei sünkroonita enam teie Onevn Software'i kontoga. Teie olemasolevad andmed jäävad aga teie Onevn Software'i kontole alles ja neid saab hallata <ph name="BEGIN_LINK"/>Onevn Software'i juhtpaneelil<ph name="END_LINK"/>.</translation>
+<translation id="138229770216285283">See logib teid teie Onevn Software'i kontodelt välja. Teie järjehoidjate, ajaloo, paroolide ja muude seadete muudatusi ei sünkroonita enam teie Onevn Software'i kontoga. Teie olemasolevad andmed jäävad aga teie Onevn Software'i kontole alles ja neid saab hallata <ph name="BEGIN_LINK"/>Onevn Software'i juhtpaneelil<ph name="END_LINK"/>.</translation>
+<translation id="3169352093514419465">See logib teid teie Onevn Software'i kontodelt välja. Teie järjehoidjaid, ajalugu, paroole ja muud ei sünkroonita enam.</translation>
 <translation id="8588866096426746242">Kuva profiili statistika</translation>
 <translation id="5535941515421698170">Eemaldage sellest seadmest ka oma olemasolevad andmed</translation>
 <translation id="7243632151880336635">Kustuta ja logi välja</translation>
 <translation id="6406506848690869874">Sünkroonimine</translation>
-<translation id="5428209950370661546">Muud OneVN Software'i teenused</translation>
-<translation id="7956662517480676674">Sünkroonimine ja OneVN Software'i teen.</translation>
+<translation id="5428209950370661546">Muud Onevn Software'i teenused</translation>
+<translation id="7956662517480676674">Sünkroonimine ja Onevn Software'i teen.</translation>
 <translation id="2453021845418314664">Täpsemad sünkroonimisseaded</translation>
 <translation id="4314815835985389558">Sünkroonimise haldamine</translation>
 <translation id="659934686219830168">Sünkroonimine algab siis, kui lehelt lahkute</translation>
@@ -4021,19 +4021,19 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="4824958205181053313">Kas tühistada sünkroonimine?</translation>
 <translation id="3058498974290601450">Saate sünkroonimise seadetes alati sisse lülitada</translation>
 <translation id="7529411698175791732">Kontrollige oma Interneti-ühendust. Probleemi jätkumisel logige välja ja uuesti sisse.</translation>
-<translation id="1125261911132334651">OneVN Software'i konto haldamine</translation>
+<translation id="1125261911132334651">Onevn Software'i konto haldamine</translation>
 <translation id="4570387585180509432">Aadressid, telefoninumbrid ja muu</translation>
 <translation id="5117427536932535467">Teemad ja taustapildid</translation>
 <translation id="3268451620468152448">Avatud vahelehed</translation>
-<translation id="5241892180459725878">OneVN Software Drive'i otsingusoovitused</translation>
+<translation id="5241892180459725878">Onevn Software Drive'i otsingusoovitused</translation>
 <translation id="2120297377148151361">Tegevused ja interaktsioonid</translation>
 <translation id="5833397272224757657">Kasutab isikupärastamiseks teie külastatavate saitide sisu ning brauseri tegevusi ja interaktsioone</translation>
-<translation id="8135094938656535588">Sünkroonitud andmete haldamine teenuses OneVN Software Dashboard</translation>
-<translation id="7505421639213002314">OneVN'i sünkroonimise teave</translation>
+<translation id="8135094938656535588">Sünkroonitud andmete haldamine teenuses Onevn Software Dashboard</translation>
+<translation id="7505421639213002314">Onevn'i sünkroonimise teave</translation>
 <translation id="6596325263575161958">Krüpteerimise valikud</translation>
-<translation id="2459230470861708651">Krüpteeri sünkroonitud paroolid minu OneVN Software'i kasutajanime ja parooliga</translation>
-<translation id="5958351589333270173">Krüpteerige sünkroonitud andmed <ph name="BEGIN_LINK"/>sünkroonimisparooliga<ph name="END_LINK"/>. See ei hõlma OneVN Software Pay makseviise ja aadresse.</translation>
-<translation id="4817583816512767754">Teie krüpteeritud andmeid saavad lugeda vaid need, kes teavad teie parooli – seda ei saadeta OneVN Software'ile ja OneVN Software ei talleta seda. Kui unustate parooli või soovite seda seadet muuta, tuleb teil <ph name="BEGIN_LINK"/>sünkroonimine lähtestada<ph name="END_LINK"/>.</translation>
+<translation id="2459230470861708651">Krüpteeri sünkroonitud paroolid minu Onevn Software'i kasutajanime ja parooliga</translation>
+<translation id="5958351589333270173">Krüpteerige sünkroonitud andmed <ph name="BEGIN_LINK"/>sünkroonimisparooliga<ph name="END_LINK"/>. See ei hõlma Onevn Software Pay makseviise ja aadresse.</translation>
+<translation id="4817583816512767754">Teie krüpteeritud andmeid saavad lugeda vaid need, kes teavad teie parooli – seda ei saadeta Onevn Software'ile ja Onevn Software ei talleta seda. Kui unustate parooli või soovite seda seadet muuta, tuleb teil <ph name="BEGIN_LINK"/>sünkroonimine lähtestada<ph name="END_LINK"/>.</translation>
 <translation id="7441736921018636843">Seade muutmiseks <ph name="BEGIN_LINK"/>lähtestage sünkroonimine<ph name="END_LINK"/>, et sünkroonimisparool eemaldada</translation>
 <translation id="3873315167136380065">Selle sisselülitamiseks <ph name="BEGIN_LINK"/>lähtestage sünkroonimine<ph name="END_LINK"/>, et eemaldada oma sünkroonimisparool</translation>
 <translation id="988978206646512040">Tühi parool ei ole lubatud</translation>
@@ -4079,7 +4079,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="437184764829821926">Täiustatud fondiseaded</translation>
 <translation id="323803881985677942">Ava laienduse valikud</translation>
 <translation id="2166369534954157698">Väle pruun rebane hüppab üle laisa koera</translation>
-<translation id="8911765336506423117">Vaja on OneVN'i veebipoest pärinevat laiendust</translation>
+<translation id="8911765336506423117">Vaja on Onevn'i veebipoest pärinevat laiendust</translation>
 <translation id="6965978654500191972">Seade</translation>
 <translation id="8260864402787962391">Hiir</translation>
 <translation id="155865706765934889">Puuteplaat</translation>
@@ -4116,7 +4116,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="4673442866648850031">Ava elektronpliiatsi tööriistad, kui elektronpliiats eemaldatakse</translation>
 <translation id="5862109781435984885">Kuva riiulis elektronpliiatsi tööriistad</translation>
 <translation id="4244238649050961491">Otsi rohkem elektronpliiatsi rakendusi</translation>
-<translation id="1163818598439831131">Ava OneVN Software Play</translation>
+<translation id="1163818598439831131">Ava Onevn Software Play</translation>
 <translation id="9116799625073598554">Märkmete tegemise rakendus</translation>
 <translation id="5458998536542739734">Lukustuskuva märkmed</translation>
 <translation id="203574396658008164">Luba lukustuskuval märkmete tegemine</translation>
@@ -4178,7 +4178,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="6547354035488017500">Vabastage vähemalt 512 MB kettaruumi, muidu seade ei reageeri. Kettaruumi vabastamiseks kustutage seadme salvestusruumist faile.</translation>
 <translation id="6097480669505687979">Kui te kettaruumi ei vabasta, võidakse kasutajad ja andmed automaatselt eemaldada.</translation>
 <translation id="5438224778284622050">Kas kustutada võrguühenduseta failid?</translation>
-<translation id="9196021349904508454">OneVN Software Drive'i ajutised võrguühenduseta failid kustutatakse. Faile, mille olete määranud võrguühenduseta kättesaadavaks, sellest seadmest ei kustutata.</translation>
+<translation id="9196021349904508454">Onevn Software Drive'i ajutised võrguühenduseta failid kustutatakse. Faile, mille olete määranud võrguühenduseta kättesaadavaks, sellest seadmest ei kustutata.</translation>
 <translation id="1865678028973512614">Kustuta failid</translation>
 <translation id="1529891865407786369">Toiteallikas</translation>
 <translation id="354060433403403521">Vahelduvvooluadapter</translation>
@@ -4199,38 +4199,38 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="1889984860246851556">Ava puhverserveri seaded</translation>
 <translation id="1940546824932169984">Ühendatud seadmed</translation>
 <translation id="3468999815377931311">Android-telefon</translation>
-<translation id="2789927670850159391">Looge OneVNbooki ja telefoni vahel ühendus. <ph name="LINK_BEGIN"/>Lisateave<ph name="LINK_END"/></translation>
+<translation id="2789927670850159391">Looge Onevnbooki ja telefoni vahel ühendus. <ph name="LINK_BEGIN"/>Lisateave<ph name="LINK_END"/></translation>
 <translation id="1397500194120344683">Sobilikke seadmeid ei ole. <ph name="LINK_BEGIN"/>Lisateave<ph name="LINK_END"/></translation>
 <translation id="5739235828260127894">Kinnitamise ootel. <ph name="LINK_BEGIN"/>Lisateave<ph name="LINK_END"/></translation>
 <translation id="6518133107902771759">Kinnita</translation>
-<translation id="7179187931092694802">Avage OneVNbook oma telefoniga. <ph name="LINK_BEGIN"/>Lisateave<ph name="LINK_END"/></translation>
+<translation id="7179187931092694802">Avage Onevnbook oma telefoniga. <ph name="LINK_BEGIN"/>Lisateave<ph name="LINK_END"/></translation>
 <translation id="5430931332414098647">Automaatne jagamine</translation>
 <translation id="6415900369006735853">Looge Interneti-ühendus telefoni kaudu</translation>
 <translation id="4746351372139058112">Sõnumid</translation>
-<translation id="2248072377758660530">Saatke ja võtke oma OneVNbookis vastu tekstisõnumeid. <ph name="LINK_BEGIN"/>Lisateave<ph name="LINK_END"/></translation>
+<translation id="2248072377758660530">Saatke ja võtke oma Onevnbookis vastu tekstisõnumeid. <ph name="LINK_BEGIN"/>Lisateave<ph name="LINK_END"/></translation>
 <translation id="5153234146675181447">Telefoni unustamine</translation>
-<translation id="2307631131458143837">Katkestage telefoni ja OneVNbooki ühendus</translation>
-<translation id="1146102139091738471">Katkestage telefoni ja OneVNbooki ühendus. Seadmed ei loo edaspidi automaatselt ühendust.</translation>
+<translation id="2307631131458143837">Katkestage telefoni ja Onevnbooki ühendus</translation>
+<translation id="1146102139091738471">Katkestage telefoni ja Onevnbooki ühendus. Seadmed ei loo edaspidi automaatselt ühendust.</translation>
 <translation id="7878562273885520351">Teie parool võib olla ohus</translation>
 <translation id="1089439967362294234">Parooli muutmine</translation>
-<translation id="6187156085111579405">Siinsest loendist puuduvad üksused võib vajaduse korral ka eemaldada. Vaadake lisateavet &lt;a href="<ph name="URL"/>"&gt;soovimatu tarkvara vastase kaitse&lt;/a&gt; kohta OneVN'i privaatsusjuhendist.</translation>
+<translation id="6187156085111579405">Siinsest loendist puuduvad üksused võib vajaduse korral ka eemaldada. Vaadake lisateavet &lt;a href="<ph name="URL"/>"&gt;soovimatu tarkvara vastase kaitse&lt;/a&gt; kohta Onevn'i privaatsusjuhendist.</translation>
 <translation id="5280174558369304332">Eemaldatavad laiendused:</translation>
 <translation id="7712836429117959503">Tundmatu laiend ID-ga <ph name="EXTENSION_ID"/></translation>
 <translation id="3281892622610078515">Karantiini pandavad failid ja programmid:</translation>
 <translation id="8549457076611407730">{NUM_ITEMS,plural, =1{1 üksus}other{# üksust}}</translation>
 <translation id="7187428571767585875">Eemaldatavad või muudetavad registrikanded:</translation>
 <translation id="4840150926623932060">{NUM_DOWNLOAD,plural, =1{Veel 1}other{Veel #}}</translation>
-<translation id="2749608811030566578">OneVN'is ilmnes ohtliku tarkvara eemaldamisel viga</translation>
-<translation id="8189483132214844139">OneVN võib teie arvutist otsida kahjulikku tarkvara ja selle eemaldada</translation>
+<translation id="2749608811030566578">Onevn'is ilmnes ohtliku tarkvara eemaldamisel viga</translation>
+<translation id="8189483132214844139">Onevn võib teie arvutist otsida kahjulikku tarkvara ja selle eemaldada</translation>
 <translation id="2910318910161511225">Looge võrguühendus ja proovige uuesti</translation>
 <translation id="1426870617281699524">Klõpsake käsul Proovi uuesti ja nõustuge arvutis kuvatud viibaga</translation>
-<translation id="7886744396008377537">Teie arvutis on kahjulik tarkvara. OneVN eemaldab selle, taastab teie seaded ja keelab laiendused. See taastab teie brauseri normaalse toimimise.</translation>
-<translation id="1484912962860902625">OneVN'is ohtliku tarkvara otsimisel ilmnes viga</translation>
+<translation id="7886744396008377537">Teie arvutis on kahjulik tarkvara. Onevn eemaldab selle, taastab teie seaded ja keelab laiendused. See taastab teie brauseri normaalse toimimise.</translation>
+<translation id="1484912962860902625">Onevn'is ohtliku tarkvara otsimisel ilmnes viga</translation>
 <translation id="451407183922382411">Toetab <ph name="COMPANY_NAME"/></translation>
 <translation id="5254368820972107711">Kuva eemaldatavad failid</translation>
 <translation id="296026337010986570">Valmis! Ohtlik tarkvara eemaldati. Laienduste uuesti sisselülitamiseks avage leht &lt;a href="chrome://extensions"&gt;Laiendused&lt;/a&gt;.</translation>
 <translation id="284975061945174219">Tühjendamine ebaõnnestus</translation>
-<translation id="9014750448058570312">OneVN vajab jätkamiseks luba</translation>
+<translation id="9014750448058570312">Onevn vajab jätkamiseks luba</translation>
 <translation id="1852141627593563189">Otsi kahjulikku tarkvara</translation>
 <translation id="4320177379694898372">Interneti-ühendus puudub</translation>
 <translation id="850875081535031620">Ohtlikku tarkvara ei leitud</translation>
@@ -4240,11 +4240,11 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="8639047128869322042">Ohtliku tarkvara otsimine …</translation>
 <translation id="2653033005692233957">Otsing ebaõnnestus</translation>
 <translation id="655483977608336153">Proovi uuesti</translation>
-<translation id="8282772389915299166">Edastage OneVN Software'ile puhastuse ajal arvutist leitud kahjuliku tarkvara, süsteemiseadete ja protsesside üksikasjad</translation>
+<translation id="8282772389915299166">Edastage Onevn Software'ile puhastuse ajal arvutist leitud kahjuliku tarkvara, süsteemiseadete ja protsesside üksikasjad</translation>
 <translation id="6555810572223193255">Puhastamine ei ole praegu saadaval</translation>
 <translation id="7117228822971127758">Proovige hiljem uuesti</translation>
 <translation id="443475966875174318">Ühildumatute rakenduste värskendamine või eemaldamine</translation>
-<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{Rakendus võib takistada OneVN'i õiget toimimist.}other{Need rakendused võivad takistada OneVN'i õiget toimimist.}}</translation>
+<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{Rakendus võib takistada Onevn'i õiget toimimist.}other{Need rakendused võivad takistada Onevn'i õiget toimimist.}}</translation>
 <translation id="599131315899248751">{NUM_APPLICATIONS,plural, =1{Kui soovite jätkuvalt veebi sirvida, paluge administraatoril see rakendus eemaldada.}other{Kui soovite jätkuvalt veebi sirvida, paluge administraatoril need rakendused eemaldada.}}</translation>
 <translation id="4743260470722568160"><ph name="BEGIN_LINK"/>Vaadake, kuidas rakendusi värskendada<ph name="END_LINK"/></translation>
 <translation id="964439421054175458">{NUM_APLLICATIONS,plural, =1{Rakendus}other{Rakendused}}</translation>
@@ -4321,7 +4321,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="6370021412472292592">Manifesti laadimine ebaõnnestus.</translation>
 <translation id="7235716375204803342">Tegevuste toomine …</translation>
 <translation id="7647403192093989392">Hiljutised tegevused puuduvad</translation>
-<translation id="38046578254905003">Otsige <ph name="BEGIN_LINK"/>OneVN'i veebipoest<ph name="END_LINK"/> laiendusi ja teemasid</translation>
+<translation id="38046578254905003">Otsige <ph name="BEGIN_LINK"/>Onevn'i veebipoest<ph name="END_LINK"/> laiendusi ja teemasid</translation>
 <translation id="7272674038937250585">Kirjeldust ei ole sisestatud</translation>
 <translation id="3855441664322950881">Paki laiendus</translation>
 <translation id="2958721676848865875">Laienduse ettevalmistamise hoiatus</translation>
@@ -4333,7 +4333,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="1992397118740194946">Pole määratud</translation>
 <translation id="6706210727756204531">Ulatus</translation>
 <translation id="5532223876348815659">Üldine</translation>
-<translation id="300669147395456190">OneVN'i rakendused</translation>
+<translation id="300669147395456190">Onevn'i rakendused</translation>
 <translation id="6787839852456839824">Klaviatuuri otseteed</translation>
 <translation id="6419546358665792306">Laadi lahti pakkimata</translation>
 <translation id="8023801379949507775">Värskenda laiendusi kohe</translation>
@@ -4362,7 +4362,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="742130257665691897">Järjehoidjad on eemaldatud</translation>
 <translation id="2785008241190445880">Järjehoidja on asendatud</translation>
 <translation id="4320948194796820126">Lisage oma e-postile järjehoidja</translation>
-<translation id="2950533317914339731">Lisage oma OneVN Software'i lemmikrakenduste järjehoidjad</translation>
+<translation id="2950533317914339731">Lisage oma Onevn Software'i lemmikrakenduste järjehoidjad</translation>
 <translation id="3409785640040772790">Maps</translation>
 <translation id="6709133671862442373">Uudised</translation>
 <translation id="995782501881226248">YouTube</translation>
@@ -4374,12 +4374,12 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="5033266061063942743">Geomeetrilised kujundid</translation>
 <translation id="7789963078219276159">Avalehe taustaks määrati <ph name="CATEGORY"/>.</translation>
 <translation id="8771300903067484968">Avalehe taust lähtestati vaiketaustale.</translation>
-<translation id="239760341987199724">Määra OneVN vaikebrauseriks</translation>
-<translation id="96037229054033864">OneVN Software'i otsing ja teadmised on sirvides alati käepärast</translation>
-<translation id="296137235951584143">Isikupärastage OneVN'i</translation>
+<translation id="239760341987199724">Määra Onevn vaikebrauseriks</translation>
+<translation id="96037229054033864">Onevn Software'i otsing ja teadmised on sirvides alati käepärast</translation>
+<translation id="296137235951584143">Isikupärastage Onevn'i</translation>
 <translation id="3982375475032951137">Seadistage brauser vaid mõne lihtsa sammuga</translation>
 <translation id="6972754398087986839">Alustamine</translation>
-<translation id="3707821975049107110">Kas olete juba OneVN'i kasutaja? Logige sisse</translation>
+<translation id="3707821975049107110">Kas olete juba Onevn'i kasutaja? Logige sisse</translation>
 <translation id="1573150740912592860">Salvestage edenemisteave</translation>
 <translation id="567643736130151854">Logige sisse ning lülitage sisse sünkroonimine, et kõikides oma seadmetes kasutada järjehoidjaid, paroole ja muud</translation>
 <translation id="8282356762694872144">Kas soovite avada meiliteenuse?</translation>
@@ -4388,7 +4388,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="5877584842898320529">Valitud printer pole saadaval või pole õigesti installitud. <ph name="BR"/> Kontrollige printerit või valige teine printer.</translation>
 <translation id="1031362278801463162">Eelvaate laadimine</translation>
 <translation id="6147020289383635445">Prindi eelvaade nurjus.</translation>
-<translation id="7413400642818115607">Valitud OneVN Software'i pilvprintimise seadet enam ei toetata. <ph name="BR"/> Proovige printer seadistada oma arvuti süsteemiseadetes.</translation>
+<translation id="7413400642818115607">Valitud Onevn Software'i pilvprintimise seadet enam ei toetata. <ph name="BR"/> Proovige printer seadistada oma arvuti süsteemiseadetes.</translation>
 <translation id="5828633471261496623">Printimine ...</translation>
 <translation id="6295855836753816081">Salvestamine ...</translation>
 <translation id="3587482841069643663">Kõik</translation>
@@ -4405,7 +4405,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="3706463572498736864">Lehekülgi lehe kohta</translation>
 <translation id="2249605167705922988">nt 1–5, 8, 11–13</translation>
 <translation id="5746169159649715125">Salvesta PDF-ina</translation>
-<translation id="1955272076204612657">Salvesta rakendusse OneVN Software Drive</translation>
+<translation id="1955272076204612657">Salvesta rakendusse Onevn Software Drive</translation>
 <translation id="2580924999637585241">Kokku: <ph name="NUMBER_OF_SHEETS"/> <ph name="SHEETS_LABEL"/></translation>
 <translation id="4091434297613116013">paberilehed</translation>
 <translation id="8813811964357448561">paberileht</translation>
@@ -4434,7 +4434,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="6991665348624301627">Valige sihtkoht</translation>
 <translation id="8800004011501252845">Sihtkohad aadressile</translation>
 <translation id="8996526648899750015">Konto lisamine ...</translation>
-<translation id="5002959368039764681">Prindib OneVN Software Docsi ja muudesse pilvesihtkohadesse. OneVN Software'i pilvprintimise teenuse kaudu printimiseks <ph name="BEGIN_LINK"/>logige sisse<ph name="END_LINK"/>.</translation>
+<translation id="5002959368039764681">Prindib Onevn Software Docsi ja muudesse pilvesihtkohadesse. Onevn Software'i pilvprintimise teenuse kaudu printimiseks <ph name="BEGIN_LINK"/>logige sisse<ph name="END_LINK"/>.</translation>
 <translation id="2150139952286079145">Otsige sihtkohti</translation>
 <translation id="8569682776816196752">Sihtkohti ei leitud</translation>
 <translation id="7885253890047913815">Hiljutised sihtkohad</translation>
@@ -4492,7 +4492,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="7574650250151586813">Teksti sisestamiseks uuendage Daydreami klaviatuuri rakendust.</translation>
 <translation id="983511809958454316">Seda funktsiooni VR-režiimis ei toetata</translation>
 <translation id="4008291085758151621">Saidi teave ei ole VR-režiimis saadaval</translation>
-<translation id="1439926347196400598">Kas lubada OneVN'il heli salvestada?</translation>
+<translation id="1439926347196400598">Kas lubada Onevn'il heli salvestada?</translation>
 <translation id="6313641880021325787">VÄLJU VR-REŽIIMIST</translation>
 <translation id="2670429602441959756">See leht sisaldab funktsioone, mida VR veel ei toeta. Väljumine …</translation>
 <translation id="1802687198411089702">Leht ei reageeri. Võite oodata või väljuda.</translation>

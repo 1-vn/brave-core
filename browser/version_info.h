@@ -8,8 +8,8 @@
 #include <string>
 
 namespace version_info {
-std::string GetOneVNVersionWithoutChromiumMajorVersion();
-std::string GetOneVNVersionNumberForDisplay();
+std::string GetOnevnVersionWithoutChromiumMajorVersion();
+std::string GetOnevnVersionNumberForDisplay();
 }  // namespace version_info
 
 #endif  // ONEVN_BROWSER_VERSION_INFO_VALUES_H_

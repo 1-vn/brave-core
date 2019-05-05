@@ -1,26 +1,26 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="ja">
-<translation id="3333887201479867589">OneVNリワード</translation>
-<translation id="7942180974165298215">OneVN広告ブロック</translation>
+<translation id="3333887201479867589">Onevnリワード</translation>
+<translation id="7942180974165298215">Onevn広告ブロック</translation>
 <translation id="6406506848690869874">同期</translation>
 <translation id="120759863357279975"><ph name="EXTENSION_NAME">$1</ph> (extension ID "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") はブレイブでは許可されていません。</translation>
 <translation id="7450557937477381864">Chromeを閉じる</translation>
 <translation id="7008934821596358692">インポートを終了するには、すべてのChromeウィンドウを閉じてください。</translation>
-<translation id="5735465527556462863">OneVN (旧) を閉じる</translation>
-<translation id="7737066986958447692">インポートを終了するには、すべての OneVN (旧) ウィンドウを閉じてください。</translation>
+<translation id="5735465527556462863">Onevn (旧) を閉じる</translation>
+<translation id="7737066986958447692">インポートを終了するには、すべての Onevn (旧) ウィンドウを閉じてください。</translation>
 <translation id="6447842834002726250">Cookie</translation>
 <translation id="4983925687993168579">統計</translation>
-<translation id="6165477144235978006">OneVN Payments</translation>
+<translation id="6165477144235978006">Onevn Payments</translation>
 <translation id="3489524616427966890">ウィンドウとタブを開く</translation>
 <translation id="3699882589215410581">Widevineをインストールして起動する</translation>
 <translation id="8053096063396012732">Widevineをインストールする</translation>
 <translation id="4840334696217618631">Widevineを有効にするためにブラウザーを再起動する</translation>
-<translation id="8410111618231938546">Google WidevineはOneVN Softwareが所有しておらず、検査できないデジタル著作権管理（DRM）コードの1つです。Google Widevineのコードは弊社のサーバーではなくGoogleのサーバーから割り当てられます。このコードはこのオプションを有効にしている際にのみ読み込まれます。弊社はDRMの使用は推奨しませんがユーザーの選択を尊重しており、一部のOneVNユーザーがGoogle Widevineを要求するサービスの利用を望んでいることは承知しております。
+<translation id="8410111618231938546">Google WidevineはOnevn Softwareが所有しておらず、検査できないデジタル著作権管理（DRM）コードの1つです。Google Widevineのコードは弊社のサーバーではなくGoogleのサーバーから割り当てられます。このコードはこのオプションを有効にしている際にのみ読み込まれます。弊社はDRMの使用は推奨しませんがユーザーの選択を尊重しており、一部のOnevnユーザーがGoogle Widevineを要求するサービスの利用を望んでいることは承知しております。
 
-この拡張をインストールすると、Google Widevineの使用条件に同意したことになります。Google Widevineの使用に関するいかなる損害や損失にもOneVNは責任を負わないことをご了承ください。</translation>
-<translation id="6499845530162974140">OneVN (旧)</translation>
-<translation id="3198814717959506569">OneVNからインポートされました</translation>
+この拡張をインストールすると、Google Widevineの使用条件に同意したことになります。Google Widevineの使用に関するいかなる損害や損失にもOnevnは責任を負わないことをご了承ください。</translation>
+<translation id="6499845530162974140">Onevn (旧)</translation>
+<translation id="3198814717959506569">Onevnからインポートされました</translation>
 <translation id="453977518730680921">メディアの自動再生</translation>
 <translation id="410351446219883937">自動再生</translation>
 <translation id="2240268017737062801">サイトが自動再生する場合は確認する</translation>
@@ -28,25 +28,25 @@
 <translation id="3218385319396786393">このページで自動再生がブロックされました</translation>
 <translation id="4988333904713528597"><ph name="HOST">$1<ex>mail.google.com</ex></ph> で自動再生を常に許可する。</translation>
 <translation id="4150684676757176434">自動再生のブロックを継続する</translation>
-<translation id="7543906827780734027">OneVNはまだこの拡張機能を再検証しておらず、害が及ぶ可能性があります。それを了承した上で、"<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>" を追加しますか？</translation>
-<translation id="2044383478723007273">OneVNカラーズ</translation>
+<translation id="7543906827780734027">Onevnはまだこの拡張機能を再検証しておらず、害が及ぶ可能性があります。それを了承した上で、"<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>" を追加しますか？</translation>
+<translation id="2044383478723007273">Onevnカラーズ</translation>
 <translation id="5341901626640816374">ワイドロケーションバーを使用する</translation>
-<translation id="6123134130710658846">[OneVN Rewards]ボタンを非表示にする</translation>
-<translation id="7635711399568194460">[OneVN Rewards]が有効になっていない場合は、ロケーションバーの[OneVN Rewards]ボタンを非表示にします</translation>
+<translation id="6123134130710658846">[Onevn Rewards]ボタンを非表示にする</translation>
+<translation id="7635711399568194460">[Onevn Rewards]が有効になっていない場合は、ロケーションバーの[Onevn Rewards]ボタンを非表示にします</translation>
 <translation id="7965178729203412357">新しいTorのID</translation>
 <translation id="8784924142044142231">Torからログアウト</translation>
 <translation id="5410152065859052603">Tor</translation>
 <translation id="3696187925156352769">Torウィンドウを開く</translation>
 <translation id="1434416574322382019">新しいプライベートウィンドウ+Tor</translation>
 <translation id="4703780849509456860">トーアのプライベートウィンドウでリンクを開く</translation>
-<translation id="3488584642074079080">OneVNプライベートウィンドウ+Tor でリンクを開く</translation>
+<translation id="3488584642074079080">Onevnプライベートウィンドウ+Tor でリンクを開く</translation>
 <translation id="6313675821927505581">Torで新しいプライベートウィンドウを開く</translation>
 <translation id="2638041073279639246">Torのプライベートウィンドウでリンクを開きます</translation>
-<translation id="3425600262621021599">Torのプライベートウィンドウで OneVN内のリンクを開く</translation>
+<translation id="3425600262621021599">Torのプライベートウィンドウで Onevn内のリンクを開く</translation>
 <translation id="3155170474926428993">Tor Launcher</translation>
 <translation id="2515126961943087659">BAT 広告サービス</translation>
 <translation id="7924918279836988121">BAT 台帳サービス</translation>
-<translation id="768979911142179781">OneVNシールドをデフォルトにする</translation>
+<translation id="768979911142179781">Onevnシールドをデフォルトにする</translation>
 <translation id="9185018653595759199">ソーシャルボタンとログイン</translation>
 <translation id="6894114137169961038">広告管理</translation>
 <translation id="1096802265930928584">クッキーの制御</translation>

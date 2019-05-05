@@ -15,13 +15,13 @@ index a238056a53f78fd23b9bac6cae144ec87ddad69a..fadeefa09f3a217e0feff3b7dc47cb57
  ChromeExtensionsBrowserClient::ChromeExtensionsBrowserClient() {
    AddAPIProvider(std::make_unique<CoreExtensionsBrowserAPIProvider>());
    AddAPIProvider(std::make_unique<ChromeExtensionsBrowserAPIProvider>());
-+  AddAPIProvider(std::make_unique<OneVNExtensionsBrowserAPIProvider>());
++  AddAPIProvider(std::make_unique<OnevnExtensionsBrowserAPIProvider>());
  
    process_manager_delegate_.reset(new ChromeProcessManagerDelegate);
    api_client_.reset(new ChromeExtensionsAPIClient);
    SetCurrentChannel(chrome::GetChannel());
 -  resource_manager_.reset(new ChromeComponentExtensionResourceManager());
-+  resource_manager_.reset(new OneVNComponentExtensionResourceManager());
++  resource_manager_.reset(new OnevnComponentExtensionResourceManager());
  }
  
  ChromeExtensionsBrowserClient::~ChromeExtensionsBrowserClient() {}

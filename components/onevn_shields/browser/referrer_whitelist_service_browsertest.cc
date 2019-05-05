@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -144,7 +144,7 @@ IN_PROC_BROWSER_TEST_F(ReferrerWhitelistServiceTest, IsWhitelistedReferrer) {
 
 // Ensure the referrer whitelist service properly clears its cache of
 // precompiled URLPatterns if initialized twice. (This can happen if
-// the parent component is updated while OneVN is running.)
+// the parent component is updated while Onevn is running.)
 IN_PROC_BROWSER_TEST_F(ReferrerWhitelistServiceTest, ClearCache) {
   ASSERT_TRUE(InstallReferrerWhitelistExtension());
   int size = GetWhitelistSize();

@@ -20,12 +20,12 @@
 <translation id="8261506727792406068">Dzēst</translation>
 <translation id="144283815522798837">Atlasīti: <ph name="NUMBER_OF_ITEMS_SELECTED"/></translation>
 <translation id="5582839680698949063">Galvenā izvēlne</translation>
-<translation id="3700405816184340252">OneVN vēsture</translation>
+<translation id="3700405816184340252">Onevn vēsture</translation>
 <translation id="7602079150116086782">Nav ciļņu no citām ierīcēm</translation>
 <translation id="4619615317237390068">Cilnes no citām ierīcēm</translation>
-<translation id="82609232232243542">Pierakstīties pārlūkā OneVN</translation>
+<translation id="82609232232243542">Pierakstīties pārlūkā Onevn</translation>
 <translation id="4627442949885028695">Turpiniet citā ierīcē</translation>
-<translation id="7253276740368043692">Pierakstieties pārlūkā OneVN, lai būtu pieejamas cilnes no citām jūsu ierīcēm.</translation>
+<translation id="7253276740368043692">Pierakstieties pārlūkā Onevn, lai būtu pieejamas cilnes no citām jūsu ierīcēm.</translation>
 <translation id="6351063337294363751">Šajā izvēlnē varat notīrīt pārlūkošanas datus.</translation>
 <translation id="6040143037577758943">Aizvērt</translation>
 <translation id="6463795194797719782">Rediģēt</translation>
@@ -90,15 +90,15 @@
 <translation id="5233736638227740678">&amp;Ielīmēt</translation>
 <translation id="2218515861914035131">Ielīmēt kā vienkāršu tekstu</translation>
 <translation id="1017280919048282932">&amp;Pievienot vārdnīcai</translation>
-<translation id="1732768497619250086">Iegūt attēlu aprakstus no OneVN Software</translation>
+<translation id="1732768497619250086">Iegūt attēlu aprakstus no Onevn Software</translation>
 <translation id="7561196759112975576">Vienmēr</translation>
 <translation id="2241634353105152135">Tikai vienreiz</translation>
 <translation id="741204030948306876">Jā, piekrītu</translation>
 <translation id="780301667611848630">Nē, paldies</translation>
-<translation id="4572259796527554261">Vaicāt ieteikumus no OneVN Software</translation>
+<translation id="4572259796527554261">Vaicāt ieteikumus no Onevn Software</translation>
 <translation id="3435896845095436175">Iespējot</translation>
 <translation id="8915370057835397490">Notiek ieteikumu ielāde...</translation>
-<translation id="6191804255817539692">Vairāk ieteikumu no OneVN Software nav pieejams</translation>
+<translation id="6191804255817539692">Vairāk ieteikumu no Onevn Software nav pieejams</translation>
 <translation id="1901303067676059328">Izvēlēties visus</translation>
 <translation id="3797900183766075808">&amp;Meklēt “<ph name="SEARCH_TERMS"/>” meklētājprogrammā <ph name="SEARCH_ENGINE"/></translation>
 <translation id="2721037002783622288">Meklēt attēlu <ph name="SEARCH_ENGINE"/> tīklā</translation>
@@ -147,11 +147,11 @@
 <translation id="9033857511263905942">&amp;Ielīmēt</translation>
 <translation id="1815083418640426271">Ielīmēt kā vienkāršu tekstu</translation>
 <translation id="4022426551683927403">Pievienot vārdnīc&amp;ai</translation>
-<translation id="6849870115130610913">Iegūt attēlu aprakstus no OneVN Software</translation>
+<translation id="6849870115130610913">Iegūt attēlu aprakstus no Onevn Software</translation>
 <translation id="372722114124766626">Tikai vienreiz</translation>
 <translation id="8917490105272468696">Jā, piekrītu</translation>
 <translation id="7473891865547856676">Nē, paldies!</translation>
-<translation id="2867003629889664976">Vaicāt ieteikumus no OneVN Software</translation>
+<translation id="2867003629889664976">Vaicāt ieteikumus no Onevn Software</translation>
 <translation id="6264365405983206840">&amp;Atlasīt visu</translation>
 <translation id="3948116654032448504">Meklēt attēlu <ph name="SEARCH_ENGINE"/> tīklā</translation>
 <translation id="2932085390869194046">Ieteikt paroli...</translation>
@@ -404,7 +404,7 @@
 <translation id="9148058034647219655">Iziet</translation>
 <translation id="7376221878517288144">Vai tik un tā iziet no inkognito režīma?</translation>
 <translation id="973473557718930265">Iziet</translation>
-<translation id="7707599169365957976">Varat palīdzēt uzlabot Drošo pārlūkošanu, nosūtot noteiktu sistēmas informāciju un lapas saturu OneVN Software serveriem.</translation>
+<translation id="7707599169365957976">Varat palīdzēt uzlabot Drošo pārlūkošanu, nosūtot noteiktu sistēmas informāciju un lapas saturu Onevn Software serveriem.</translation>
 <translation id="4923279099980110923">Jā, es vēlos palīdzēt</translation>
 <translation id="2316129865977710310">Nē, paldies</translation>
 <translation id="9169931577761441333">Pievienot lietotni <ph name="APP_NAME"/> sākuma ekrānam</translation>
@@ -418,8 +418,8 @@
 <translation id="3067198179881736288">Vai instalēt lietotni?</translation>
 <translation id="7072010813301522126">Saīsnes nosaukums</translation>
 <translation id="3275778913554317645">Atvērt kā logu</translation>
-<translation id="8201192017531062522">Pārlūks OneVN turpinās darboties, kamēr būs atvērtas OneVN lietotnes.</translation>
-<translation id="7397305826909094212">Aizvērt visas OneVN lietotnes</translation>
+<translation id="8201192017531062522">Pārlūks Onevn turpinās darboties, kamēr būs atvērtas Onevn lietotnes.</translation>
+<translation id="7397305826909094212">Aizvērt visas Onevn lietotnes</translation>
 <translation id="5026874946691314267">Vairs nerādīt šo paziņojumu</translation>
 <translation id="91568222606626347">Saīsnes izveide...</translation>
 <translation id="2783321960289401138">Izveidot saīsni...</translation>
@@ -783,11 +783,11 @@
 <translation id="5799508265798272974">Linux virtuālā mašīna: <ph name="LINUX_VM_NAME"/></translation>
 <translation id="8191453843330043793">V8 starpniekservera atrisinātājs</translation>
 <translation id="5552059560155071882">CUPS IPP parsētājs</translation>
-<translation id="3077708072777965506">OneVN OS ievades metode</translation>
-<translation id="7171242884588191792">OneVN failu utilītprogrammas</translation>
+<translation id="3077708072777965506">Onevn OS ievades metode</translation>
+<translation id="7171242884588191792">Onevn failu utilītprogrammas</translation>
 <translation id="3183139917765991655">Profilu importētājs</translation>
 <translation id="2190069059097339078">Wi-Fi akreditācijas datu ieguvējs</translation>
-<translation id="7685901961038216503">OneVN OS sistēmas attēla rakstītājs</translation>
+<translation id="7685901961038216503">Onevn OS sistēmas attēla rakstītājs</translation>
 <translation id="4873312501243535625">Multivides failu pārbaudītājs</translation>
 <translation id="5972666587303800813">Pakalpojums, kas nedarbojas</translation>
 <translation id="3061707000357573562">Ielāpu pakalpojums</translation>
@@ -797,7 +797,7 @@
 <translation id="2079545284768500474">Atsaukt</translation>
 <translation id="2256115617011615191">Restartēt tūlīt</translation>
 <translation id="4545028762441890696">Lai to atkārtoti iespējotu, piekrītiet jaunajām atļaujām:</translation>
-<translation id="3009487527589249344">OneVN Software atzīmēja paplašinājumu <ph name="EXTENSION_NAME"/> kā ļaunprātīgu un nepieļāva instalēšanu.</translation>
+<translation id="3009487527589249344">Onevn Software atzīmēja paplašinājumu <ph name="EXTENSION_NAME"/> kā ļaunprātīgu un nepieļāva instalēšanu.</translation>
 <translation id="6790497603648687708"><ph name="EXTENSION_NAME"/> tika pievienots attāli</translation>
 <translation id="1841705068325380214">“<ph name="EXTENSION_NAME"/>” ir atspējots</translation>
 <translation id="595959584676692139">Lai izmantotu šo paplašinājumu, atkārtoti ielādējiet lapu</translation>
@@ -816,13 +816,13 @@
 <translation id="3507421388498836150">“<ph name="EXTENSION_NAME"/>” pašreizējās atļaujas</translation>
 <translation id="5242724311594467048">Vai iespējot “<ph name="EXTENSION_NAME"/>”?</translation>
 <translation id="4014432863917027322">Vai labot “<ph name="EXTENSION_NAME"/>”?</translation>
-<translation id="5173189340601754836">Cita datorā instalētā programma pievienoja lietotni, kas var izmainīt OneVN darbību.
+<translation id="5173189340601754836">Cita datorā instalētā programma pievienoja lietotni, kas var izmainīt Onevn darbību.
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="6654312501894761082">Citā datorā instalētā programmā ir pievienots tāds paplašinājums, kura dēļ var tikt izmainīta pārlūkprogrammas OneVN darbība.
+<translation id="6654312501894761082">Citā datorā instalētā programmā ir pievienots tāds paplašinājums, kura dēļ var tikt izmainīta pārlūkprogrammas Onevn darbība.
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="3225882094369124157">Citā datorā instalētā programmā ir pievienots tāds motīvs, kura dēļ var tikt izmainīta pārlūkprogrammas OneVN darbība.
+<translation id="3225882094369124157">Citā datorā instalētā programmā ir pievienots tāds motīvs, kura dēļ var tikt izmainīta pārlūkprogrammas Onevn darbība.
 
 <ph name="EXTENSION_NAME"/></translation>
 <translation id="9102610709270966160">Iespējot paplašinājumu</translation>
@@ -831,7 +831,7 @@
 <translation id="3908501907586732282">Iespējot paplašinājumu</translation>
 <translation id="2327492829706409234">Iespējot lietotni</translation>
 <translation id="175772926354468439">Iespējot motīvu</translation>
-<translation id="5267531627648004734">Noņemt no pārlūka OneVN</translation>
+<translation id="5267531627648004734">Noņemt no pārlūka Onevn</translation>
 <translation id="4998873842614926205">Apstiprināt izmaiņas</translation>
 <translation id="5699533844376998780">Paplašinājums <ph name="EXTENSION_NAME"/> ir pievienots.</translation>
 <translation id="1799071797295057738">Paplašinājums “<ph name="EXTENSION_NAME"/>” tika automātiski atspējots.</translation>
@@ -929,7 +929,7 @@
 <translation id="3584169441612580296">Lasīt fotoattēus, mūziku un citu datorā esošu multivides saturu un mainīt to</translation>
 <translation id="5457459357461771897">Lasīt un dzēst fotoattēlus, mūziku un citu datorā esošu multivides saturu</translation>
 <translation id="3270965368676314374">Lasīt, mainīt un dzēst fotoattēlus, mūziku un citu datorā esošu multivides saturu</translation>
-<translation id="3919562953666287643">Saglabāt datus jūsu OneVN Software diska kontā</translation>
+<translation id="3919562953666287643">Saglabāt datus jūsu Onevn Software diska kontā</translation>
 <translation id="378312418865624974">Lasīt unikālu šī datora identifikatoru</translation>
 <translation id="5094721898978802975">Sazināties ar iebūvētām lietojumprogrammām, kas sadarbojas</translation>
 <translation id="4876895919560854374">Bloķēt un atbloķēt ekrānu</translation>
@@ -962,7 +962,7 @@
 <translation id="1616298854599875024">Nevar importēt paplašinājumu <ph name="IMPORT_NAME"/>, jo tas nav kopīgots modulis.</translation>
 <translation id="2131077480075264">Nevar instalēt lietotni “<ph name="APP_NAME"/>”, jo to neatļauj “<ph name="IMPORT_NAME"/>”.</translation>
 <translation id="1875387611427697908">To var pievienot tikai no veikala <ph name="CHROME_WEB_STORE"/>.</translation>
-<translation id="7613251087357271190">Lai instalētu lietotni ar manifesta atribūtu kiosk_only, ir jāizmanto OneVN OS kioska režīms.</translation>
+<translation id="7613251087357271190">Lai instalētu lietotni ar manifesta atribūtu kiosk_only, ir jāizmanto Onevn OS kioska režīms.</translation>
 <translation id="3834775135533257713">Neizdevās pievienot lietojumprogrammu “<ph name="TO_INSTALL_APP_NAME"/>”, jo rodas konflikts ar “<ph name="INSTALLED_APP_NAME"/>”.</translation>
 <translation id="144518587530125858">Nevarēja ielādēt motīva ceļu “<ph name="IMAGE_PATH"/>”.</translation>
 <translation id="6567688344210276845">Nevarēja ielādēt lapas darbības ikonu “<ph name="ICON"/>”.</translation>
@@ -1057,9 +1057,9 @@ Glabājiet atslēgas failu drošā vietā. Tas būs vajadzīgs, lai izveidotu ja
 <translation id="6101226222197207147">Ir pievienota jauna lietotne (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="7818135753970109980">Ir pievienots jauns motīvs (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="9215293857209265904">Ir pievienots paplašinājums <ph name="EXTENSION_NAME"/></translation>
-<translation id="6637045053447935202">Cita datorā instalēta programma ir izraisījusi tādas lietotnes pievienošanu, kas var ietekmēt pārlūkprogrammas OneVN darbību.</translation>
-<translation id="2015014930243978107">Cita datorā instalēta programma ir izraisījusi tāda paplašinājuma pievienošanu, kas var ietekmēt pārlūkprogrammas OneVN darbību.</translation>
-<translation id="2060128809251156338">Cita datorā instalēta programma ir izraisījusi tāda motīva pievienošanu, kas var ietekmēt pārlūkprogrammas OneVN darbību.</translation>
+<translation id="6637045053447935202">Cita datorā instalēta programma ir izraisījusi tādas lietotnes pievienošanu, kas var ietekmēt pārlūkprogrammas Onevn darbību.</translation>
+<translation id="2015014930243978107">Cita datorā instalēta programma ir izraisījusi tāda paplašinājuma pievienošanu, kas var ietekmēt pārlūkprogrammas Onevn darbību.</translation>
+<translation id="2060128809251156338">Cita datorā instalēta programma ir izraisījusi tāda motīva pievienošanu, kas var ietekmēt pārlūkprogrammas Onevn darbību.</translation>
 <translation id="2470702053775288986">Tika atspējoti neatbalstīti paplašinājumi</translation>
 <translation id="2809586584051668049">un vēl <ph name="NUMBER_ADDITIONAL_DISABLED"/></translation>
 <translation id="5301954838959518834">Labi, sapratu</translation>
@@ -1121,12 +1121,12 @@ Glabājiet atslēgas failu drošā vietā. Tas būs vajadzīgs, lai izveidotu ja
 <translation id="8756969031206844760">Vai atjaunināt paroli?</translation>
 <translation id="8230134520748321204">Vai saglabāt paroli vietnei <ph name="ORIGIN"/>?</translation>
 <translation id="9040661932550800571">Vai atjaunināt paroli vietnei <ph name="ORIGIN"/>?</translation>
-<translation id="8284000761603848448">Paroles tiek saglabātas jūsu OneVN Software kontā, lai jūs tās varētu izmantot jebkurā ierīcē.</translation>
+<translation id="8284000761603848448">Paroles tiek saglabātas jūsu Onevn Software kontā, lai jūs tās varētu izmantot jebkurā ierīcē.</translation>
 <translation id="8286036467436129157">Pierakstīties</translation>
 <translation id="8009225694047762179">Pārvaldīt paroles</translation>
 <translation id="3950820424414687140">Pierakstīties</translation>
 <translation id="5624120631404540903">Pārvaldīt paroles</translation>
-<translation id="9135262959729602463">Pierakstieties pārlūkā OneVN, lai jūsu paroles būtu pieejamas visās jūsu ierīcēs.</translation>
+<translation id="9135262959729602463">Pierakstieties pārlūkā Onevn, lai jūsu paroles būtu pieejamas visās jūsu ierīcēs.</translation>
 <translation id="8919275547519617350">Lai paroles būtu pieejamas visās jūsu ierīcēs, pierakstieties un ieslēdziet sinhronizēšanu.</translation>
 <translation id="8470028084415844044">Lai visas paroles būtu pieejamas visās jūsu ierīcēs, ieslēdziet sinhronizēšanu.</translation>
 <translation id="1609170755653088773">Sinhronizējiet šo paroli savā iPhone ierīcē</translation>
@@ -1227,8 +1227,8 @@ Glabājiet atslēgas failu drošā vietā. Tas būs vajadzīgs, lai izveidotu ja
 <translation id="223106756035922488">Noklikšķiniet, lai skatītu šodienas svētku logotipu.</translation>
 <translation id="8676374126336081632">Notīrīt ievadi</translation>
 <translation id="5867841422488265304">Meklējiet vai ievadiet tīmekļa adresi</translation>
-<translation id="2129873093718581193">Meklējiet OneVN Software tīklā vai ierakstiet vietrādi URL</translation>
-<translation id="6363797201514053536">Meklēt OneVN Software tīklā vai ievadīt URL</translation>
+<translation id="2129873093718581193">Meklējiet Onevn Software tīklā vai ierakstiet vietrādi URL</translation>
+<translation id="6363797201514053536">Meklēt Onevn Software tīklā vai ievadīt URL</translation>
 <translation id="6078323886959318429">Pievienot saīsni</translation>
 <translation id="6324916366299863871">Saīsnes rediģēšana</translation>
 <translation id="4405117686468554883">*.jpeg, *.jpg, *.png</translation>
@@ -1244,7 +1244,7 @@ Glabājiet atslēgas failu drošā vietā. Tas būs vajadzīgs, lai izveidotu ja
 <translation id="1174073918202301297">Saīsne pievienota</translation>
 <translation id="2926085873880284723">Atjaunot noklusējuma saīsnes</translation>
 <translation id="2942581856830209953">Pielāgot šo lapu</translation>
-<translation id="5801450813341024983">OneVN fona attēli</translation>
+<translation id="5801450813341024983">Onevn fona attēli</translation>
 <translation id="2800760947029405028">Augšupielādēt attēlu</translation>
 <translation id="8342861492835240085">Kolekcijas atlase</translation>
 <translation id="3132996321662585180">Atsvaidzināt katru dienu</translation>
@@ -1345,8 +1345,8 @@ Glabājiet atslēgas failu drošā vietā. Tas būs vajadzīgs, lai izveidotu ja
 <translation id="6686817083349815241">Saglabājiet savu paroli</translation>
 <translation id="8141725884565838206">Pārvaldīt savas paroles</translation>
 <translation id="8275038454117074363">Importēt</translation>
-<translation id="3191314862567596053">Paroļu importēšana pārlūkā OneVN</translation>
-<translation id="6368144843345980623">Paroļu eksportēšana no pārlūka OneVN</translation>
+<translation id="3191314862567596053">Paroļu importēšana pārlūkā Onevn</translation>
+<translation id="6368144843345980623">Paroļu eksportēšana no pārlūka Onevn</translation>
 <translation id="8503813439785031346">Lietotājvārds</translation>
 <translation id="6657585470893396449">Parole</translation>
 <translation id="4722735765955348426">Parole lietotājvārdam <ph name="USERNAME"/></translation>
@@ -1373,32 +1373,32 @@ Glabājiet atslēgas failu drošā vietā. Tas būs vajadzīgs, lai izveidotu ja
 <translation id="2982970937345031">Ziņot anonīmi</translation>
 <translation id="6076448957780543068">Ietvert šo ekrānuzņēmumu</translation>
 <translation id="7052237160939977163">Sūtīt veiktspējas izsekošanas datus</translation>
-<translation id="5526928694260255286">Pievienot <ph name="BEGIN_LINK"/>Bluetooth žurnālus<ph name="END_LINK"/> (tikai OneVN Software darbiniekiem)</translation>
+<translation id="5526928694260255286">Pievienot <ph name="BEGIN_LINK"/>Bluetooth žurnālus<ph name="END_LINK"/> (tikai Onevn Software darbiniekiem)</translation>
 <translation id="3047644958362961983">Šī informācija palīdz mums labāk izprast jūsu problēmu ar Asistentu. Tā tiek glabāta līdz 90 dienām, un piekļuve ir pieejama tikai attiecīgajām inženieru un atsauksmju komandām.</translation>
-<translation id="1705635099498185261">Lai precīzāk noteiktu problēmas ar Bluetooth savienojumu, OneVN Software darbinieki atsauksmju ziņojumam var pievienot papildu Bluetooth žurnālus. Ja šī opcija ir atzīmēta, ziņojumā būs iekļauti pašreizējās sesijas btsnoop un HCI žurnāli, kuros maksimāli noņemta personu identificējoša informācija. Šiem žurnāliem varēs piekļūt tikai OneVN OS produktu grupas pārvaldnieki ierīcē Listnr. Žurnāli tiks dzēsti pēc 90 dienām.</translation>
+<translation id="1705635099498185261">Lai precīzāk noteiktu problēmas ar Bluetooth savienojumu, Onevn Software darbinieki atsauksmju ziņojumam var pievienot papildu Bluetooth žurnālus. Ja šī opcija ir atzīmēta, ziņojumā būs iekļauti pašreizējās sesijas btsnoop un HCI žurnāli, kuros maksimāli noņemta personu identificējoša informācija. Šiem žurnāliem varēs piekļūt tikai Onevn OS produktu grupas pārvaldnieki ierīcē Listnr. Žurnāli tiks dzēsti pēc 90 dienām.</translation>
 <translation id="4206323443866416204">Atsauksmju ziņojums</translation>
 <translation id="3681311097828166361">Paldies par atsauksmēm! Pašlaik esat bezsaistē, un jūsu ziņojums tiks nosūtīts vēlāk.</translation>
 <translation id="8713570323158206935">Sūtīt <ph name="BEGIN_LINK1"/>sistēmas informāciju<ph name="END_LINK1"/></translation>
 <translation id="6395423953133416962">Sūtīt <ph name="BEGIN_LINK1"/>sistēmas informāciju<ph name="END_LINK1"/> un <ph name="BEGIN_LINK2"/>datus<ph name="END_LINK2"/></translation>
 <translation id="6270770586500173387">Sūtīt <ph name="BEGIN_LINK1"/>sistēmas un lietotņu informāciju<ph name="END_LINK1"/> un <ph name="BEGIN_LINK2"/>metriku<ph name="END_LINK2"/></translation>
 <translation id="3894123633473837029">Iekļaujiet neseno Asistenta vēsturi, izmantojot Sherlog. Šie dati var ietvert Jūsu identitātes, atrašanās vietas un atkļūdošanas informāciju. <ph name="BEGIN_LINK"/> Learn more <ph name="END_LINK"/></translation>
-<translation id="8329196515830093443">Fails tiks nosūtīts OneVN Software serveriem atkļūdošanai</translation>
+<translation id="8329196515830093443">Fails tiks nosūtīts Onevn Software serveriem atkļūdošanai</translation>
 <translation id="8227119283605456246">Pievienot failu</translation>
 <translation id="5367091008316207019">Notiek faila lasīšana...</translation>
 <translation id="2554553592469060349">Atlasītais fails ir pārāk liels (maksimālais lielums: 3 MB).</translation>
 <translation id="4690091457710545971">&lt;Četri Intel Wi-Fi aparātprogrammatūras ģenerēti faili: csr.lst, fh_regs.lst, radio_reg.lst, monitor.lst.sysmon. Pirmie trīs ir binārie faili, kas ietver reģistra izmetes; Intel apliecina, ka tie neietver personas informāciju vai ierīci identificējošu informāciju. Pēdējais fails ir Intel programmaparatūras izpildes trasējums; no tā ir noņemta personas informācija un ierīci identificējoša informācija, taču to nevar parādīt šeit, jo fails ir pārāk liels. Šie faili tika ģenerēti, reaģējot uz nesenām Wi-Fi problēmām jūsu ierīcē, un tie tiks kopīgoti ar Intel, lai palīdzētu novērst šīs problēmas.&gt;</translation>
-<translation id="6972420083546794501">Lai pieprasītu satura izmaiņas juridisku iemeslu dēļ, dodieties uz <ph name="BEGIN_LINK1"/>juridiskās palīdzības lapu<ph name="END_LINK1"/>. Uzņēmumam OneVN Software var tikt nosūtīta noteikta informācija par kontu un sistēmu. Informācija, ko jūs sniedzat mums, lai palīdzētu novērst tehniskas problēmas un uzlabotu mūsu pakalpojumus, tiks izmantota saskaņā ar <ph name="BEGIN_LINK2"/>konfidencialitātes politiku<ph name="END_LINK2"/> un <ph name="BEGIN_LINK3"/>pakalpojumu sniegšanas noteikumiem<ph name="END_LINK3"/>.</translation>
+<translation id="6972420083546794501">Lai pieprasītu satura izmaiņas juridisku iemeslu dēļ, dodieties uz <ph name="BEGIN_LINK1"/>juridiskās palīdzības lapu<ph name="END_LINK1"/>. Uzņēmumam Onevn Software var tikt nosūtīta noteikta informācija par kontu un sistēmu. Informācija, ko jūs sniedzat mums, lai palīdzētu novērst tehniskas problēmas un uzlabotu mūsu pakalpojumus, tiks izmantota saskaņā ar <ph name="BEGIN_LINK2"/>konfidencialitātes politiku<ph name="END_LINK2"/> un <ph name="BEGIN_LINK3"/>pakalpojumu sniegšanas noteikumiem<ph name="END_LINK3"/>.</translation>
 <translation id="7915471803647590281">Pirms atsauksmes nosūtīšanas lūdzam jūs pastāstīt, kas notiek.</translation>
 <translation id="1483493594462132177">Sūtīt</translation>
 <translation id="6885771755599377173">Sistēmas informācijas priekšskatījums</translation>
 <translation id="1016566241875885511">Papildu informācija (neobligāti)</translation>
-<translation id="6083886770200509573">Vai pārlūkprogrammā OneVN notiek avārijas, tiek rādītas neparastas sākumlapas, rīkjoslas, neparedzētas reklāmas, kuras nevarat noņemt, vai kā citādi tiek ietekmēta pārlūkošana? Iespējams, varat novērst problēmu, izmantojot OneVN tīrīšanas rīku.</translation>
-<translation id="7719662019953070946">Lejupielādēt OneVN tīrīšanas rīku</translation>
+<translation id="6083886770200509573">Vai pārlūkprogrammā Onevn notiek avārijas, tiek rādītas neparastas sākumlapas, rīkjoslas, neparedzētas reklāmas, kuras nevarat noņemt, vai kā citādi tiek ietekmēta pārlūkošana? Iespējams, varat novērst problēmu, izmantojot Onevn tīrīšanas rīku.</translation>
+<translation id="7719662019953070946">Lejupielādēt Onevn tīrīšanas rīku</translation>
 <translation id="8281886186245836920">Izlaist</translation>
 <translation id="8026334261755873520">Notīrīt pārlūkošanas datus</translation>
 <translation id="7409836189476010449">Aktivizēt Flash atskaņotāju</translation>
-<translation id="4718442817388594217">Atlasītie dati ir noņemti no pārlūka OneVN un sinhronizētajām ierīcēm. Jūsu OneVN Software kontam vietnē <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> var būt cita veida pārlūkošanas vēstures dati, piemēram, meklēšanas vaicājumi un darbības citos OneVN Software pakalpojumos.</translation>
-<translation id="7814200940910057384">OneVN dati tika notīrīti</translation>
+<translation id="4718442817388594217">Atlasītie dati ir noņemti no pārlūka Onevn un sinhronizētajām ierīcēm. Jūsu Onevn Software kontam vietnē <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> var būt cita veida pārlūkošanas vēstures dati, piemēram, meklēšanas vaicājumi un darbības citos Onevn Software pakalpojumos.</translation>
+<translation id="7814200940910057384">Onevn dati tika notīrīti</translation>
 <translation id="7346909386216857016">Labi, sapratu</translation>
 <translation id="8493236660459102203">Mikrofons:</translation>
 <translation id="3925573269917483990">Kamera:</translation>
@@ -1406,7 +1406,7 @@ Glabājiet atslēgas failu drošā vietā. Tas būs vajadzīgs, lai izveidotu ja
 <translation id="4172051516777682613">Vienmēr rādīt</translation>
 <translation id="477945296921629067">{NUM_POPUPS,plural, =1{Uznirstošais logs ir bloķēts}zero{# uznirstošie logi ir bloķēti}one{# uznirstošais logs ir bloķēts}other{# uznirstošie logi ir bloķēti}}</translation>
 <translation id="3759371141211657149">Pārvaldīt apdarinātāju iestatījumus...</translation>
-<translation id="4156865452842056672">(OneVN kļūdu lapas)</translation>
+<translation id="4156865452842056672">(Onevn kļūdu lapas)</translation>
 <translation id="1734824808160898225">Pārlūka <ph name="PRODUCT_NAME"/> automātiskā atjaunināšana, iespējams, nebūs pieejama.</translation>
 <translation id="8590375307970699841">Iestatīt automātiskos atjauninājumus</translation>
 <translation id="8926389886865778422">Nejautāt atkārtoti</translation>
@@ -1421,7 +1421,7 @@ Glabājiet atslēgas failu drošā vietā. Tas būs vajadzīgs, lai izveidotu ja
 <translation id="284805635805850872">Vai noņemt kaitīgo programmatūru?</translation>
 <translation id="489985760463306091">Lai pabeigtu kaitīgās programmatūras noņemšanu, restartējiet datoru.</translation>
 <translation id="7598466960084663009">Restartēt datoru</translation>
-<translation id="2819091349626575960">Nosūtīt informāciju uzņēmumam OneVN Software</translation>
+<translation id="2819091349626575960">Nosūtīt informāciju uzņēmumam Onevn Software</translation>
 <translation id="4099060993766194518">Vai atjaunot noklusējuma meklētājprogrammu?</translation>
 <translation id="138784436342154190">Vai atjaunot noklusējuma sākumlapu?</translation>
 <translation id="5086874064903147617">Vai atjaunot noklusējuma sākumlapu?</translation>
@@ -1500,10 +1500,10 @@ Glabājiet atslēgas failu drošā vietā. Tas būs vajadzīgs, lai izveidotu ja
 <translation id="8658645149275195032">Lietotne <ph name="APP_NAME"/> koplieto jūsu ekrānu un audio ar cilni <ph name="TAB_NAME"/>.</translation>
 <translation id="4364567974334641491">Lietotne <ph name="APP_NAME"/> koplieto logu.</translation>
 <translation id="8944964446326379280">Lietotne <ph name="APP_NAME"/> koplieto logu ar cilni <ph name="TAB_NAME"/>.</translation>
-<translation id="351520635355732555">Lietotne <ph name="APP_NAME"/> koplieto OneVN cilni.</translation>
-<translation id="5727851901710884484">Lietotne <ph name="APP_NAME"/> koplieto OneVN cilni ar cilni <ph name="TAB_NAME"/>.</translation>
-<translation id="5770515304879261338">Lietotne <ph name="APP_NAME"/> koplieto OneVN cilni un audio.</translation>
-<translation id="859454237594354073"><ph name="APP_NAME"/> koplieto OneVN cilni un audio ar cilni <ph name="TAB_NAME"/>.</translation>
+<translation id="351520635355732555">Lietotne <ph name="APP_NAME"/> koplieto Onevn cilni.</translation>
+<translation id="5727851901710884484">Lietotne <ph name="APP_NAME"/> koplieto Onevn cilni ar cilni <ph name="TAB_NAME"/>.</translation>
+<translation id="5770515304879261338">Lietotne <ph name="APP_NAME"/> koplieto Onevn cilni un audio.</translation>
+<translation id="859454237594354073"><ph name="APP_NAME"/> koplieto Onevn cilni un audio ar cilni <ph name="TAB_NAME"/>.</translation>
 <translation id="890616557918890486">Mainīt avotu</translation>
 <translation id="7792388396321542707">Pārtraukt kopīgošanu</translation>
 <translation id="6630752851777525409"><ph name="EXTENSION_NAME"/> vēlas pastāvīgu piekļuvi sertifikātam, lai varētu veikt autentificēšanu jūsu vārdā.</translation>
@@ -1521,11 +1521,11 @@ Glabājiet atslēgas failu drošā vietā. Tas būs vajadzīgs, lai izveidotu ja
 <translation id="2190355936436201913">(tukšs)</translation>
 <translation id="7136984461011502314">Laipni lūdzam programmā <ph name="PRODUCT_NAME"/></translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME"/> var pabeigt instalēšanu</translation>
-<translation id="4711067597921221305">Palīdziet uzlabot programmu <ph name="PRODUCT_NAME"/>, automātiski nosūtot lietošanas statistiku un avārijas pārskatus uzņēmumam OneVN Software</translation>
+<translation id="4711067597921221305">Palīdziet uzlabot programmu <ph name="PRODUCT_NAME"/>, automātiski nosūtot lietošanas statistiku un avārijas pārskatus uzņēmumam Onevn Software</translation>
 <translation id="5972826969634861500">Sākt <ph name="PRODUCT_NAME"/></translation>
 <translation id="4876273079589074638">Palīdziet mūsu inženieriem izpētīt un novērst šo avāriju. Ja varat, norādiet konkrētas darbības (jo detalizētāk, jo labāk).</translation>
 <translation id="945522503751344254">Sūtīt atsauksmes</translation>
-<translation id="5418694430960033386">Vai nu OneVN trūkst atmiņas resursu, vai arī tīmekļa lapas darbība tika pārtraukta kāda cita iemesla dēļ. Lai turpinātu, atkārtoti ielādējiet šo lapu vai atveriet citu.</translation>
+<translation id="5418694430960033386">Vai nu Onevn trūkst atmiņas resursu, vai arī tīmekļa lapas darbība tika pārtraukta kāda cita iemesla dēļ. Lai turpinātu, atkārtoti ielādējiet šo lapu vai atveriet citu.</translation>
 <translation id="3065041951436100775">Atsauksme par cilnes darbības pārtraukšanu.</translation>
 <translation id="3941565636838060942">Lai paslēptu piekļuvi šai programmai, tā ir jāatinstalē, izmantojot rīku
 <ph name="CONTROL_PANEL_APPLET_NAME"/>, kas ir pieejams vadības panelī.
@@ -1536,7 +1536,7 @@ Vai vēlaties palaist rīku <ph name="CONTROL_PANEL_APPLET_NAME"/>?</translation
 <translation id="6280912520669706465">ARC</translation>
 <translation id="4728558894243024398">Platforma</translation>
 <translation id="7022562585984256452">Jūsu sākumlapa ir iestatīta.</translation>
-<translation id="7274626204661209194">OneVN Software mākoņdruka</translation>
+<translation id="7274626204661209194">Onevn Software mākoņdruka</translation>
 <translation id="4973307593867026061">Pievienot printerus</translation>
 <translation id="9052208328806230490">Jūs esat reģistrējis savus printerus ar nosaukumu <ph name="CLOUD_PRINT_NAME"/>, izmantojot kontu <ph name="EMAIL"/></translation>
 <translation id="3792890930871100565">Atvienot printerus</translation>
@@ -1546,17 +1546,17 @@ Vai vēlaties palaist rīku <ph name="CONTROL_PANEL_APPLET_NAME"/>?</translation
 <translation id="4620809267248568679">Šis iestatījums tiek kontrolēts, izmantojot paplašinājumu.</translation>
 <translation id="4846680374085650406">Jūs ievērojat administratora ieteikumus attiecībā uz šo iestatījumu.</translation>
 <translation id="1223853788495130632">Jūsu administrators šim iestatījumam iesaka konkrētu vērtību.</translation>
-<translation id="8839398440242019256">Nav iegūts no OneVN interneta veikala.</translation>
+<translation id="8839398440242019256">Nav iegūts no Onevn interneta veikala.</translation>
 <translation id="5337771866151525739">Instalēts, izmantojot trešās puses lietotni.</translation>
 <translation id="4538792345715658285">Instalēts atbilstoši uzņēmuma politikai.</translation>
 <translation id="4359408040881008151">Paplašinājums tika instalēts atkarīga(-u) paplašinājuma(-u) dēļ.</translation>
 <translation id="4980805016576257426">Šis paplašinājums satur ļaunprātīgu programmatūru.</translation>
 <translation id="5522156646677899028">Šis paplašinājums nopietni apdraud drošību.</translation>
-<translation id="6945695820322143954">Šis paplašinājums pārkāpj OneVN interneta veikala politiku.</translation>
-<translation id="177808131755847449">Atspējoja pārlūks OneVN. Šis paplašinājums, iespējams, nav drošs.</translation>
+<translation id="6945695820322143954">Šis paplašinājums pārkāpj Onevn interneta veikala politiku.</translation>
+<translation id="177808131755847449">Atspējoja pārlūks Onevn. Šis paplašinājums, iespējams, nav drošs.</translation>
 <translation id="1434696352799406980">Tādējādi tiks atiestatīta jūsu sākumlapa, jaunas cilnes lapa, meklētājprogramma un piespraustās cilnes. Turklāt tiks atspējoti visi paplašinājumi, kā arī tiks notīrīti pagaidu dati, piemēram, sīkfaili. Netiks notīrītas jūsu grāmatzīmes, vēsture un saglabātās paroles.</translation>
 <translation id="1242633766021457174"><ph name="THIRD_PARTY_TOOL_NAME"/> vēlas atiestatīt jūsu iestatījumus.</translation>
-<translation id="8073477228424628709"><ph name="THIRD_PARTY_TOOL_NAME"/> vēlas atjaunot jūsu sākotnējos OneVN noklusējuma iestatījumus. Tādējādi tiks atiestatīta sākumlapa, jaunas cilnes lapa un meklētājprogramma, kā arī tiks atspējoti paplašinājumi un tiks atspraustas visas cilnes. Tiks notīrīti citi īslaicīgi glabātie dati un kešatmiņā saglabātie dati, piemēram, sīkfaili, satura un vietņu dati.</translation>
+<translation id="8073477228424628709"><ph name="THIRD_PARTY_TOOL_NAME"/> vēlas atjaunot jūsu sākotnējos Onevn noklusējuma iestatījumus. Tādējādi tiks atiestatīta sākumlapa, jaunas cilnes lapa un meklētājprogramma, kā arī tiks atspējoti paplašinājumi un tiks atspraustas visas cilnes. Tiks notīrīti citi īslaicīgi glabātie dati un kešatmiņā saglabātie dati, piemēram, sīkfaili, satura un vietņu dati.</translation>
 <translation id="7581462281756524039">Tīrīšanas rīks</translation>
 <translation id="1233721473400465416">Lokalizācija</translation>
 <translation id="2907619724991574506">Startēšanas vietrāži URL</translation>
@@ -1570,7 +1570,7 @@ Vai vēlaties palaist rīku <ph name="CONTROL_PANEL_APPLET_NAME"/>?</translation
 <translation id="8870318296973696995">Sākumlapa</translation>
 <translation id="8987927404178983737">Mēnesis</translation>
 <translation id="6015796118275082299">Gads</translation>
-<translation id="5152275065296016556">OneVN Software Pay</translation>
+<translation id="5152275065296016556">Onevn Software Pay</translation>
 <translation id="7671130400130574146">Izmantot sistēmas virsrakstjoslu un apmales</translation>
 <translation id="4520385623207007473">Izmantojamie sīkfaili</translation>
 <translation id="4763408175235639573">Kamēr aplūkojāt šo lapu, tika iestatīti tālāk norādītie sīkfaili.</translation>
@@ -1589,7 +1589,7 @@ Vai vēlaties palaist rīku <ph name="CONTROL_PANEL_APPLET_NAME"/>?</translation
 <translation id="8930351635855238750">Jaunie sīkfailu iestatījumi stāsies spēkā pēc lapas atkārtotas ielādes.</translation>
 <translation id="2568774940984945469">Informācijas joslas konteiners</translation>
 <translation id="7282992757463864530">Informācijas josla</translation>
-<translation id="1805077115206898822">Jūsu grāmatzīmes, vēsture un citi iestatījumi tiks sinhronizēti ar jūsu OneVN Software kontu</translation>
+<translation id="1805077115206898822">Jūsu grāmatzīmes, vēsture un citi iestatījumi tiks sinhronizēti ar jūsu Onevn Software kontu</translation>
 <translation id="1974060860693918893">Papildu</translation>
 <translation id="2445484935443597917">Izveidot jaunu profilu</translation>
 <translation id="2606246518223360146">Saistīt datus</translation>
@@ -1678,13 +1678,13 @@ Vai vēlaties palaist rīku <ph name="CONTROL_PANEL_APPLET_NAME"/>?</translation
 <translation id="3074037959626057712">Jūs esat pierakstījies un ieslēdzis sinhronizēšanu</translation>
 <translation id="1231733316453485619">Vai ieslēgt sinhronizāciju?</translation>
 <translation id="4736292055110123391">Sinhronizējiet grāmatzīmes, paroles, vēsturi un citu saturu visās savās ierīcēs</translation>
-<translation id="5736731321935944068">OneVN Software var izmantot jūsu vēsturi, lai personalizētu Meklēšanu, reklāmas un citus OneVN Software pakalpojumus.</translation>
+<translation id="5736731321935944068">Onevn Software var izmantot jūsu vēsturi, lai personalizētu Meklēšanu, reklāmas un citus Onevn Software pakalpojumus.</translation>
 <translation id="4201546031411513170">Jūs jebkurā laikā iestatījumos varat izvēlēties, ko sinhronizēt.</translation>
-<translation id="3149880132460839085">OneVN sinhronizācija</translation>
-<translation id="3796902758602917951">Jūsu grāmatzīmes, vēsture, paroles un citi iestatījumi tiks sinhronizēti ar jūsu OneVN Software kontu, lai jūs varētu tos izmantot visās savās ierīcēs.</translation>
-<translation id="3111958038206230539">OneVN Software pakalpojumu personalizēšana</translation>
-<translation id="295992419959320001">OneVN Software var izmantot jūsu pārlūkošanas vēsturi, lai personalizētu Meklēšanu, reklāmas un citus OneVN Software pakalpojumus.</translation>
-<translation id="3070156078150543526">OneVN Software var izmantot jūsu pārlūkošanas vēsturi, lai personalizētu Meklēšanu un citus OneVN Software pakalpojumus.</translation>
+<translation id="3149880132460839085">Onevn sinhronizācija</translation>
+<translation id="3796902758602917951">Jūsu grāmatzīmes, vēsture, paroles un citi iestatījumi tiks sinhronizēti ar jūsu Onevn Software kontu, lai jūs varētu tos izmantot visās savās ierīcēs.</translation>
+<translation id="3111958038206230539">Onevn Software pakalpojumu personalizēšana</translation>
+<translation id="295992419959320001">Onevn Software var izmantot jūsu pārlūkošanas vēsturi, lai personalizētu Meklēšanu, reklāmas un citus Onevn Software pakalpojumus.</translation>
+<translation id="3070156078150543526">Onevn Software var izmantot jūsu pārlūkošanas vēsturi, lai personalizētu Meklēšanu un citus Onevn Software pakalpojumus.</translation>
 <translation id="2709453993673701466">Vai vēlaties pirms sinhronizēšanas un personalizēšanas ieslēgšanas pārvaldīt to iestatījumus? Apmeklējiet lapu <ph name="BEGIN_LINK"/>Iestatījumi<ph name="END_LINK"/>.</translation>
 <translation id="2497852260688568942">Administrators ir atspējojis sinhronizēšanu.</translation>
 <translation id="562935524653278697">Administrators ir atspējojis grāmatzīmju, vēstures, paroļu un citu iestatījumu sinhronizēšanu.</translation>
@@ -1720,7 +1720,7 @@ Vai vēlaties palaist rīku <ph name="CONTROL_PANEL_APPLET_NAME"/>?</translation
 <translation id="6664774537677393800">Atverot jūsu profilu, radās kļūda. Lūdzu, izrakstieties un vēlreiz pierakstieties.</translation>
 <translation id="1794791083288629568">Sūtīt atsauksmes, lai palīdzētu novērst šo problēmu.</translation>
 <translation id="8234795456569844941">Palīdziet mūsu inženieriem novērst šo problēmu. Norādiet, kas notika tieši pirms tam, kad tika parādīts profila kļūdas ziņojums.</translation>
-<translation id="6500340165622970282">Nevar palaist pārlūku OneVN, jo radās kļūda, atverot profilu. Mēģiniet restartēt OneVN.</translation>
+<translation id="6500340165622970282">Nevar palaist pārlūku Onevn, jo radās kļūda, atverot profilu. Mēģiniet restartēt Onevn.</translation>
 <translation id="6812349420832218321"><ph name="PRODUCT_NAME"/> nevar darboties kā sakne.</translation>
 <translation id="2292848386125228270">Startējiet pārlūku <ph name="PRODUCT_NAME"/> kā parasts lietotājs. Ja vēlaties to palaist izstrādei kā sakni, veiciet atkārtotu palaišanu, izmantojot atzīmi --no-sandbox.</translation>
 <translation id="7547317915858803630">Brīdinājums: <ph name="PRODUCT_NAME"/> iestatījumi ir saglabāti tīkla diskā. Tādējādi var tikt palēnināta darbība, notikt avārijas vai tikt zaudēti dati.</translation>
@@ -1756,10 +1756,10 @@ Vai vēlaties palaist rīku <ph name="CONTROL_PANEL_APPLET_NAME"/>?</translation
 <translation id="6198102561359457428">Izrakstīties un tad pierakstīties vēlreiz</translation>
 <translation id="4634771451598206121">Pierakstīties vēlreiz...</translation>
 <translation id="7117247127439884114">Pierakstīties vēlreiz...</translation>
-<translation id="4251909665067750757">Pierakstieties, lai lietotu savas grāmatzīmes, vēsturi, paroles un citus iestatījumus visās savās ierīcēs. Turklāt jūs tiksiet automātiski pierakstīts savos OneVN Software pakalpojumos.</translation>
+<translation id="4251909665067750757">Pierakstieties, lai lietotu savas grāmatzīmes, vēsturi, paroles un citus iestatījumus visās savās ierīcēs. Turklāt jūs tiksiet automātiski pierakstīts savos Onevn Software pakalpojumos.</translation>
 <translation id="2749756011735116528">Pierakstīties produktā <ph name="PRODUCT_NAME"/></translation>
 <translation id="2126167708562367080">Administrators ir atspējojis sinhronizēšanu.</translation>
-<translation id="5462539695964427820">Sinhronizācija tika pārtraukta, izmantojot OneVN Software informācijas paneli.</translation>
+<translation id="5462539695964427820">Sinhronizācija tika pārtraukta, izmantojot Onevn Software informācijas paneli.</translation>
 <translation id="8805140816472474147">Lai sāktu sinhronizēšanu, apstipriniet sinhronizēšanas iestatījumus.</translation>
 <translation id="4835836146030131423">Kļūda pierakstoties.</translation>
 <translation id="4365673000813822030">Hmm! Sinhronizācija ir pārtraukusi darboties.</translation>
@@ -1774,20 +1774,20 @@ Vai vēlaties palaist rīku <ph name="CONTROL_PANEL_APPLET_NAME"/>?</translation
 <translation id="1877520246462554164">Neizdevās iegūt autentifikācijas pilnvaru. Lai mēģinātu vēlreiz, izrakstieties un vēlreiz pierakstieties.</translation>
 <translation id="9100765901046053179">Papildu iestatījumi</translation>
 <translation id="5771816112378578655">Notiek iestatīšana...</translation>
-<translation id="3892866329866260680">Šobrīd esat pierakstījies pakalpojumā <ph name="SHORT_PRODUCT_NAME"/>. Jūsu grāmatzīmes, vēsture un citi iestatījumi tiek sinhronizēti ar jūsu OneVN Software kontu.</translation>
+<translation id="3892866329866260680">Šobrīd esat pierakstījies pakalpojumā <ph name="SHORT_PRODUCT_NAME"/>. Jūsu grāmatzīmes, vēsture un citi iestatījumi tiek sinhronizēti ar jūsu Onevn Software kontu.</translation>
 <translation id="1408789165795197664">Papildu...</translation>
 <translation id="2731700343119398978">Lūdzu, uzgaidiet...</translation>
 <translation id="4684427112815847243">Sinhronizēt visu</translation>
-<translation id="7218743184834293955">Dati tika šifrēti, izmantojot sinhronizācijas ieejas frāzi. Tajā nav iekļauti maksājumu veidi un adreses no pakalpojuma OneVN Software Pay.</translation>
+<translation id="7218743184834293955">Dati tika šifrēti, izmantojot sinhronizācijas ieejas frāzi. Tajā nav iekļauti maksājumu veidi un adreses no pakalpojuma Onevn Software Pay.</translation>
 <translation id="7158251077901880179">Dati tika šifrēti, izmantojot sinhronizācijas ieejas frāzi (sinhronizācijas laiks:
-          <ph name="TIME"/>). Tajā nav iekļauti maksājumu veidi un adreses no pakalpojuma OneVN Software Pay.</translation>
-<translation id="1171389789873508468">Dati tika šifrēti, izmantojot jūsu OneVN Software paroli (sinhronizācijas laiks:
-          <ph name="TIME"/>). Tajā nav iekļauti maksājumu veidi un adreses no pakalpojuma OneVN Software Pay.</translation>
+          <ph name="TIME"/>). Tajā nav iekļauti maksājumu veidi un adreses no pakalpojuma Onevn Software Pay.</translation>
+<translation id="1171389789873508468">Dati tika šifrēti, izmantojot jūsu Onevn Software paroli (sinhronizācijas laiks:
+          <ph name="TIME"/>). Tajā nav iekļauti maksājumu veidi un adreses no pakalpojuma Onevn Software Pay.</translation>
 <translation id="2562743677925229011">Nav pierakstījies pakalpojumā <ph name="SHORT_PRODUCT_NAME"/></translation>
 <translation id="4027804175521224372">(Neesat pierakstījies — <ph name="IDS_SYNC_PROMO_NOT_SIGNED_IN_STATUS_LINK"/>)</translation>
 <translation id="3574210789297084292">pierakstīties</translation>
 <translation id="237828693408258535">Vai tulkot šo lapu?</translation>
-<translation id="4613765529964435709">Vai vēlaties, lai OneVN Software tulkotu šo lapu šādā valodu kombinācijā: <ph name="SOURCE_LANGUAGE"/>–<ph name="TARGET_LANGUAGE"/>?</translation>
+<translation id="4613765529964435709">Vai vēlaties, lai Onevn Software tulkotu šo lapu šādā valodu kombinācijā: <ph name="SOURCE_LANGUAGE"/>–<ph name="TARGET_LANGUAGE"/>?</translation>
 <translation id="5990386583461751448">Tulkojums</translation>
 <translation id="5659833766619490117">Šo lapu nevarēja pārtulkot</translation>
 <translation id="969096075394517431">Mainīt valodas</translation>
@@ -1949,12 +1949,12 @@ Vai vēlaties palaist rīku <ph name="CONTROL_PANEL_APPLET_NAME"/>?</translation
 <translation id="2762441749940182211">Kameras lietošana ir bloķēta</translation>
 <translation id="5074318175948309511">Lai jaunie iestatījumi tiktu piemēroti, iespējams, šī lapa būs jāielādē atkārtoti.</translation>
 <translation id="8282947398454257691">uzzināt jūsu unikālo ierīces identifikatoru</translation>
-<translation id="8329449853370113380">Vietne <ph name="URL"/> vēlas atskaņot aizsargātu saturu. OneVN Software verificēs jūsu ierīces identitāti.</translation>
-<translation id="2650609753175229582">Vietne <ph name="URL"/> vēlas atskaņot aizsargātu saturu. Jūsu ierīces identitāti pārbaudīs OneVN Software, un tai var piekļūt šī vietne.</translation>
+<translation id="8329449853370113380">Vietne <ph name="URL"/> vēlas atskaņot aizsargātu saturu. Onevn Software verificēs jūsu ierīces identitāti.</translation>
+<translation id="2650609753175229582">Vietne <ph name="URL"/> vēlas atskaņot aizsargātu saturu. Jūsu ierīces identitāti pārbaudīs Onevn Software, un tai var piekļūt šī vietne.</translation>
 <translation id="1322046419516468189">Saglabātās paroles varat skatīt un pārvaldīt šeit: <ph name="SAVED_PASSWORDS_STORE"/></translation>
 <translation id="3312599731068160560">https://passwords.google.com</translation>
 <translation id="5297082477358294722">Parole ir saglabāta. Skatiet un pārvaldiet saglabātās paroles šeit: <ph name="SAVED_PASSWORDS_STORE"/>.</translation>
-<translation id="5713644099811900409">OneVN Software konts</translation>
+<translation id="5713644099811900409">Onevn Software konts</translation>
 <translation id="3785727820640310185">Saglabātās paroles šai vietnei</translation>
 <translation id="3404065873681873169">Šai vietnei nav saglabāta neviena parole</translation>
 <translation id="8470513973197838199">Saglabātās paroles vietnei <ph name="ORIGIN"/></translation>
@@ -2093,7 +2093,7 @@ Vai vēlaties palaist rīku <ph name="CONTROL_PANEL_APPLET_NAME"/>?</translation
 <translation id="2505324914378689427">{SCREEN_INDEX,plural, =1{#. ekrāns}zero{#. ekrāns}one{#. ekrāns}other{#. ekrāns}}</translation>
 <translation id="839736845446313156">Reģistrējiet</translation>
 <translation id="6285120908535925801">{NUM_PRINTER,plural, =1{Jauns printeris jūsu tīklā}zero{Jauni printeri jūsu tīklā}one{Jauni printeri jūsu tīklā}other{Jauni printeri jūsu tīklā}}</translation>
-<translation id="2656240156816412333">{NUM_PRINTER,plural, =1{Pievienojiet printeri pakalpojumam OneVN Software mākoņdruka, lai varētu drukāt, atrodoties jebkurā vietā.}zero{Pievienojiet # printerus pakalpojumam OneVN Software mākoņdruka, lai varētu drukāt, atrodoties jebkurā vietā.}one{Pievienojiet # printeri pakalpojumam OneVN Software mākoņdruka, lai varētu drukāt, atrodoties jebkurā vietā.}other{Pievienojiet # printerus pakalpojumam OneVN Software mākoņdruka, lai varētu drukāt, atrodoties jebkurā vietā.}}</translation>
+<translation id="2656240156816412333">{NUM_PRINTER,plural, =1{Pievienojiet printeri pakalpojumam Onevn Software mākoņdruka, lai varētu drukāt, atrodoties jebkurā vietā.}zero{Pievienojiet # printerus pakalpojumam Onevn Software mākoņdruka, lai varētu drukāt, atrodoties jebkurā vietā.}one{Pievienojiet # printeri pakalpojumam Onevn Software mākoņdruka, lai varētu drukāt, atrodoties jebkurā vietā.}other{Pievienojiet # printerus pakalpojumam Onevn Software mākoņdruka, lai varētu drukāt, atrodoties jebkurā vietā.}}</translation>
 <translation id="409579654357498729">Pievienot mākoņdrukai</translation>
 <translation id="4628757576491864469">Ierīces</translation>
 <translation id="6915804003454593391">Lietotājs:</translation>
@@ -2103,8 +2103,8 @@ Vai vēlaties palaist rīku <ph name="CONTROL_PANEL_APPLET_NAME"/>?</translation
 <translation id="1895934970388272448">Lai pabeigtu procesu, jums ir jāapstiprina reģistrācija savā printerī. Pārbaudiet to tagad!</translation>
 <translation id="551752069230578406">Notiek printera savienošana ar jūsu kontu — tas var ilgt kādu laiku...</translation>
 <translation id="2384436799579181135">Radās kļūda. Lūdzu, pārbaudiet printeri un mēģiniet vēlreiz.</translation>
-<translation id="2569908351567260524">Printeris OneVN Software mākoņdrukā</translation>
-<translation id="6782994146626179935">Ierīce OneVN Software mākoņa ierīcēs</translation>
+<translation id="2569908351567260524">Printeris Onevn Software mākoņdrukā</translation>
+<translation id="6782994146626179935">Ierīce Onevn Software mākoņa ierīcēs</translation>
 <translation id="7140928199327930795">Nav citu pieejamu ierīču.</translation>
 <translation id="8213577208796878755">Vēl viena pieejama ierīce.</translation>
 <translation id="1495486559005647033">Vēl <ph name="NUM_PRINTERS"/> pieejamas ierīces.</translation>
@@ -2112,15 +2112,15 @@ Vai vēlaties palaist rīku <ph name="CONTROL_PANEL_APPLET_NAME"/>?</translation
 <translation id="4720113199587244118">Pievienot ierīces</translation>
 <translation id="2776441542064982094">Šķiet, ka reģistrēšanai tīklā nav pieejama neviena ierīce. Ja jūsu ierīce ir ieslēgta un ir izveidots savienojums ar internetu, mēģiniet reģistrēt šo ierīci, izmantojot tās lietošanas rokasgrāmatā sniegtos norādījumus.</translation>
 <translation id="1007408791287232274">Nevarēja ielādēt ierīces.</translation>
-<translation id="3886420006370338208">Lai skatītu savas ierīces, jums ir jāpierakstās pārlūkā OneVN.</translation>
-<translation id="6711610692002680394">Lai reģistrētu jaunas ierīces, jums ir jāpierakstās pārlūkā OneVN.</translation>
+<translation id="3886420006370338208">Lai skatītu savas ierīces, jums ir jāpierakstās pārlūkā Onevn.</translation>
+<translation id="6711610692002680394">Lai reģistrētu jaunas ierīces, jums ir jāpierakstās pārlūkā Onevn.</translation>
 <translation id="8931394284949551895">Jaunas ierīces</translation>
 <translation id="3752673729237782832">Manas ierīces</translation>
 <translation id="1721937473331968728">Varat pievienot pakalpojumam <ph name="CLOUD_PRINT_NAME"/> klasiskos printerus, ar kuriem jūsu datoram ir izveidots savienojums.</translation>
 <translation id="715118844758971915">Klasiskie printeri</translation>
 <translation id="4263757076580287579">Printera reģistrācija ir atcelta.</translation>
 <translation id="8152091997436726702">Printera reģistrācijai ir iestājusies noildze. Lai reģistrētu printeri, reģistrācija ir jāapstiprina printerī.</translation>
-<translation id="2057904164277279211">Dokumenti ir <ph name="BEGIN_LINK_HELP"/>nosūtīti OneVN Software<ph name="END_LINK_HELP"/>, lai sagatavotu tos drukāšanai. Skatiet, rediģējiet un pārvaldiet savus printerus un printeru vēsturi <ph name="BEGIN_LINK_DASHBOARD"/>OneVN Software mākoņdrukas informācijas panelī<ph name="END_LINK_DASHBOARD"/>.</translation>
+<translation id="2057904164277279211">Dokumenti ir <ph name="BEGIN_LINK_HELP"/>nosūtīti Onevn Software<ph name="END_LINK_HELP"/>, lai sagatavotu tos drukāšanai. Skatiet, rediģējiet un pārvaldiet savus printerus un printeru vēsturi <ph name="BEGIN_LINK_DASHBOARD"/>Onevn Software mākoņdrukas informācijas panelī<ph name="END_LINK_DASHBOARD"/>.</translation>
 <translation id="3082780749197361769">Šī cilne izmanto jūsu kameru vai mikrofonu.</translation>
 <translation id="3578594933904494462">Šīs cilnes saturs tiek kopīgots.</translation>
 <translation id="4449996769074858870">Šī cilne atskaņo audio.</translation>
@@ -2173,7 +2173,7 @@ Vai vēlaties palaist rīku <ph name="CONTROL_PANEL_APPLET_NAME"/>?</translation
 <translation id="4540437243849625078">Šī vietne kopīgos informāciju ar lietotni, kas nav inkognito režīmā.</translation>
 <translation id="1227836882233136433">Vai iziet no inkognito režīma?</translation>
 <translation id="662080504995468778">Palikt</translation>
-<translation id="2593289874938379417">OneVN nevar piekļūt pieprasītajam resursam.</translation>
+<translation id="2593289874938379417">Onevn nevar piekļūt pieprasītajam resursam.</translation>
 <translation id="760197030861754408">Lai izveidotu savienojumu, pārejiet uz šo lapu: <ph name="LANDING_PAGE"/>.</translation>
 <translation id="3648348069317717750">Konstatēta ierīce <ph name="USB_DEVICE_NAME"/></translation>
 <translation id="2382095919147960379">Pievienot ierīci operētājsistēmai Linux</translation>
@@ -2222,17 +2222,17 @@ Vai vēlaties palaist rīku <ph name="CONTROL_PANEL_APPLET_NAME"/>?</translation
 <translation id="7055152154916055070">Novirzīšana ir bloķēta:</translation>
 <translation id="6777817260680419853">Novirzīšana bloķēta</translation>
 <translation id="694592694773692225">Šajā lapā ir bloķēta novirzīšana.</translation>
-<translation id="8149707863742670433">OneVN Software izstrādātā tīmekļa pārlūkprogramma tieši jums</translation>
-<translation id="3541561136058491590">Pierakstieties pārlūkprogrammā OneVN, izmantojot savu OneVN Software kontu, lai iegūtu savas grāmatzīmes, vēsturi, paroles un citus iestatījumus visās ierīcēs.</translation>
-<translation id="8945142681652245463">Ātra pārlūkošana ar OneVN Software OneVN</translation>
-<translation id="2618024864038703735">Droša pārlūkošana ar OneVN Software OneVN</translation>
-<translation id="8142180567942285208">Vieda pārlūkošana ar OneVN</translation>
+<translation id="8149707863742670433">Onevn Software izstrādātā tīmekļa pārlūkprogramma tieši jums</translation>
+<translation id="3541561136058491590">Pierakstieties pārlūkprogrammā Onevn, izmantojot savu Onevn Software kontu, lai iegūtu savas grāmatzīmes, vēsturi, paroles un citus iestatījumus visās ierīcēs.</translation>
+<translation id="8945142681652245463">Ātra pārlūkošana ar Onevn Software Onevn</translation>
+<translation id="2618024864038703735">Droša pārlūkošana ar Onevn Software Onevn</translation>
+<translation id="8142180567942285208">Vieda pārlūkošana ar Onevn</translation>
 <translation id="8862003515646449717">Pāreja uz ātru pārlūku</translation>
 <translation id="8438328416656800239">Pāreja uz viedu pārlūku</translation>
 <translation id="491691592645955587">Pāreja uz drošu pārlūku</translation>
 <translation id="683373380308365518">Pāreja uz viedu un drošu pārlūku</translation>
-<translation id="989239400026154074">OneVN Software iesaka pārlūku OneVN</translation>
-<translation id="6676231621615806698">Atvērt OneVN</translation>
+<translation id="989239400026154074">Onevn Software iesaka pārlūku Onevn</translation>
+<translation id="6676231621615806698">Atvērt Onevn</translation>
 <translation id="7494065396242762445">Atvērt Windows iestatījumus</translation>
 <translation id="2137068468602026500">Zem vienuma Tīmekļa pārlūks noklikšķiniet uz <ph name="BEGIN_BOLD"/>Microsoft Edge<ph name="END_BOLD"/></translation>
 <translation id="3720996970802414353">Pārslēgt jebkurā gadījumā</translation>
@@ -2241,7 +2241,7 @@ Vai vēlaties palaist rīku <ph name="CONTROL_PANEL_APPLET_NAME"/>?</translation
 <translation id="7537601449003285327">Piespraust pie uzdevumjoslas</translation>
 <translation id="5250372599208556903"><ph name="SEARCH_ENGINE_NAME"/> izmanto jūsu atrašanās vietu, lai piedāvātu vietējo saturu. Varat to mainīt šeit: <ph name="SETTINGS_LINK"/>.</translation>
 <translation id="3737536731758327622">Jūsu lejupielādes ir redzamas šeit.</translation>
-<translation id="4782664866169793230">Pārlūkprogramma OneVN tiek kontrolēta, izmantojot automatizētas pārbaudes programmatūru.</translation>
+<translation id="4782664866169793230">Pārlūkprogramma Onevn tiek kontrolēta, izmantojot automatizētas pārbaudes programmatūru.</translation>
 <translation id="6721678857435001674">Skatīt jūsu drošības atslēgas ražotāju un modeli</translation>
 <translation id="1673137583248014546">Vietne <ph name="URL"/> vēlas skatīt jūsu drošības atslēgas ražotāju un modeli.</translation>
 <translation id="6010869025736512584">Notiek piekļūšana video ievadei</translation>
@@ -2457,9 +2457,9 @@ Vai vēlaties palaist rīku <ph name="CONTROL_PANEL_APPLET_NAME"/>?</translation
 <translation id="9011163749350026987">Vienmēr rādīt ikonu</translation>
 <translation id="1706586824377653884">Pievienoja administrators</translation>
 <translation id="6467304607960172345">Pilnekrāna videoklipu optimizēšana</translation>
-<translation id="1597210476603167523">Iespējot apraidi mākonī izvietotos pakalpojumos, piemēram, OneVN Software Hangouts.</translation>
-<translation id="3653941710869291743">Iepazīstiet Cast iespējas pārlūkā OneVN!</translation>
-<translation id="2841638550927239436">Varat izmantot šo funkciju, lai rādītu OneVN saturu televizorā vai citās ierīcēs.</translation>
+<translation id="1597210476603167523">Iespējot apraidi mākonī izvietotos pakalpojumos, piemēram, Onevn Software Hangouts.</translation>
+<translation id="3653941710869291743">Iepazīstiet Cast iespējas pārlūkā Onevn!</translation>
+<translation id="2841638550927239436">Varat izmantot šo funkciju, lai rādītu Onevn saturu televizorā vai citās ierīcēs.</translation>
 <translation id="5234764350956374838">Noraidīt</translation>
 <translation id="4579581181964204535">Nevar apraidīt <ph name="HOST_NAME"/>.</translation>
 <translation id="8757090071857742562">Nevar apraidīt darbvirsmu. Pārbaudiet, vai esat uzvednē apstiprinājis, ka vēlaties sākt ekrāna kopīgošanu.</translation>
@@ -2494,7 +2494,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="4144218403971135344">Iegūstiet labāku videoklipu kvalitāti un paildziniet akumulatora darbības laiku. Videoklipi tiks atskaņoti tikai Cast iespējotā ekrānā.</translation>
 <translation id="236117173274098341">Optimizēt</translation>
 <translation id="8538358978858059843">Vai iespējot apraidi mākoņa pakalpojumos?</translation>
-<translation id="3856595552313160385">Uz funkcijas Hangouts un paplašinājuma Cast for Education izmantošanu attiecas OneVN Software konfidencialitātes politika.</translation>
+<translation id="3856595552313160385">Uz funkcijas Hangouts un paplašinājuma Cast for Education izmantošanu attiecas Onevn Software konfidencialitātes politika.</translation>
 <translation id="3700888195348409686">Notiek prezentēšana (<ph name="PAGE_ORIGIN"/>)</translation>
 <translation id="5285635972691565180">Displejs <ph name="DISPLAY_ID"/></translation>
 <translation id="4707302005824653064">Pārvaldnieks (<ph name="CUSTODIAN_EMAIL"/>) var skatīt lietojumu un vēsturi vietnē chrome.com.</translation>
@@ -2658,7 +2658,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="672213144943476270">Pirms pārlūkošanas viesa režīmā, lūdzu, atbloķējiet savu profilu.</translation>
 <translation id="3478685642445675458">Pirms kādas personas noņemšanas, lūdzu, atbloķējiet savu profilu.</translation>
 <translation id="4648499713050786492">Pirms kādas personas pievienošanas, lūdzu, atbloķējiet savu profilu.</translation>
-<translation id="8978225823042133615">Lai izmantotu OneVN, lūdzu, pierakstieties.</translation>
+<translation id="8978225823042133615">Lai izmantotu Onevn, lūdzu, pierakstieties.</translation>
 <translation id="4893336867552636863">Veicot šo darbību, no šīs ierīces tiks neatgriezeniski izdzēsti jūsu pārlūkošanas dati.</translation>
 <translation id="2496180316473517155">Pārlūkošanas vēsture</translation>
 <translation id="6865313869410766144">Automātiskās aizpildes veidlapas dati</translation>
@@ -2678,7 +2678,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="3236289833370040187">Īpašumtiesības tiks nodotas domēnam <ph name="DESTINATION_DOMAIN"/>.</translation>
 <translation id="7765158879357617694">Pārvietot</translation>
 <translation id="8249296373107784235">Priekšlaikus pārtraukt</translation>
-<translation id="6268185425799226387">OneVN Software disks</translation>
+<translation id="6268185425799226387">Onevn Software disks</translation>
 <translation id="4425149324548788773">Mans disks</translation>
 <translation id="1786636458339910689">Komandas diski</translation>
 <translation id="5010406651457630570">Datori</translation>
@@ -2785,7 +2785,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="6227235786875481728">Šo failu nevarēja demonstrēt.</translation>
 <translation id="9154418932169119429">Šis attēls nav pieejams bezsaistē.</translation>
 <translation id="1844692022597038441">Šis fails nav pieejams bezsaistē.</translation>
-<translation id="2929414043040740704">No OneVN Software diska atkoptie faili</translation>
+<translation id="2929414043040740704">No Onevn Software diska atkoptie faili</translation>
 <translation id="2085470240340828803">Fails ar nosaukumu “<ph name="FILENAME"/>” jau pastāv. Kā vēlaties rīkoties?</translation>
 <translation id="4801956050125744859">Saglabāt abus</translation>
 <translation id="1062407476771304334">Aizstāt</translation>
@@ -2815,8 +2815,8 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="2377319039870049694">Pāriet uz saraksta skatījumu</translation>
 <translation id="3003633581067744647">Pārslēgties uz sīktēlu skatījumu</translation>
 <translation id="604001903249547235">Dublēšana mākonī</translation>
-<translation id="505639225383557233">OneVN OS dublēšana mākonī</translation>
-<translation id="8656896237683963068">Dublējiet savas multivides ierīces fotoattēlus un videoklipus OneVN Software diskā.</translation>
+<translation id="505639225383557233">Onevn OS dublēšana mākonī</translation>
+<translation id="8656896237683963068">Dublējiet savas multivides ierīces fotoattēlus un videoklipus Onevn Software diskā.</translation>
 <translation id="3057861065630527966">Dublēt fotoattēlus un videoklipus</translation>
 <translation id="7730494089396812859">Rādīt detalizētu informāciju par dublēšanu mākonī</translation>
 <translation id="2850124913210091882">Dublēt</translation>
@@ -2826,14 +2826,14 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
     <ph name="LINE_BREAK1"/>
     Atrasts: <ph name="FILE_COUNT"/></translation>
 <translation id="3466147780910026086">Notiek multivides ierīces skenēšana...</translation>
-<translation id="2611866923243604397">Visi faili ir dublēti <ph name="BEGIN_LINK"/>OneVN Software diskā<ph name="END_LINK"/>.</translation>
+<translation id="2611866923243604397">Visi faili ir dublēti <ph name="BEGIN_LINK"/>Onevn Software diskā<ph name="END_LINK"/>.</translation>
 <translation id="3620292326130836921">Visi faili ir dublēti.</translation>
 <translation id="1536674585581593431">Atrasts: <ph name="FILE_COUNT"/>.
     <ph name="LINE_BREAK1"/>
-    Jūsu OneVN Software diska kvota nav pietiekami liela. Nepieciešama papildu vieta: <ph name="FILE_SIZE"/>.
+    Jūsu Onevn Software diska kvota nav pietiekami liela. Nepieciešama papildu vieta: <ph name="FILE_SIZE"/>.
     <ph name="LINE_BREAK2"/>
     Atlasiet mazāk fotoattēlu.</translation>
-<translation id="2473109739642988997">Jūsu OneVN Software diska kvota nav pietiekami liela.</translation>
+<translation id="2473109739642988997">Jūsu Onevn Software diska kvota nav pietiekami liela.</translation>
 <translation id="1148097584170732637">Atrasts: <ph name="FILE_COUNT"/>.
     <ph name="LINE_BREAK1"/>
     Vietējā krātuvē nav pietiekami daudz vietas. Nepieciešama papildu vieta: <ph name="FILE_SIZE"/>.
@@ -2842,11 +2842,11 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="2352947182261340447">Lokālajā krātuvē nav pietiekami daudz vietas.</translation>
 <translation id="1127657192797926968">Atrasts: <ph name="FILE_COUNT"/>
     <ph name="LINE_BREAK1"/>
-    Gatavs dublēšanai <ph name="BEGIN_LINK"/>OneVN Software diskā<ph name="END_LINK"/></translation>
+    Gatavs dublēšanai <ph name="BEGIN_LINK"/>Onevn Software diskā<ph name="END_LINK"/></translation>
 <translation id="4905417359854579806">Gatavs dublēšanai: <ph name="FILE_COUNT"/></translation>
-<translation id="5029447434471675822">Dublēšana <ph name="BEGIN_LINK"/>OneVN Software diskā<ph name="END_LINK"/>: <ph name="FILE_COUNT"/></translation>
+<translation id="5029447434471675822">Dublēšana <ph name="BEGIN_LINK"/>Onevn Software diskā<ph name="END_LINK"/>: <ph name="FILE_COUNT"/></translation>
 <translation id="4215448920900139318">Dublēšana: <ph name="FILE_COUNT"/></translation>
-<translation id="2419376816263920133"><ph name="FILE_COUNT"/> fotoattēli dublēti <ph name="BEGIN_LINK"/>OneVN Software diskā<ph name="END_LINK"/></translation>
+<translation id="2419376816263920133"><ph name="FILE_COUNT"/> fotoattēli dublēti <ph name="BEGIN_LINK"/>Onevn Software diskā<ph name="END_LINK"/></translation>
 <translation id="2994669386200004489">Nevarēja dublēt failu <ph name="FILE_NAME"/>.</translation>
 <translation id="4724850507808590449">Dublēti <ph name="FILE_COUNT"/> fotoattēli</translation>
 <translation id="1351692861129622852">Notiek <ph name="FILE_COUNT"/> failu importēšana...</translation>
@@ -2868,9 +2868,9 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="653019979737152879">Notiek faila <ph name="FILE_NAME"/> sinhronizēšana...</translation>
 <translation id="8579285237314169903">Notiek <ph name="NUMBER_OF_FILES"/> vienumu sinhronizēšana...</translation>
 <translation id="8137331602592933310">Fails “<ph name="FILENAME"/>” tika kopīgots ar jums. Jūs nevarat to dzēst, jo tas nepieder jums.</translation>
-<translation id="6277279884155292049">OneVN Software disks pašlaik nav pieejams. Augšupielāde tiks automātiski atsākta, tiklīdz OneVN Software disks atkal būs pieejams.</translation>
-<translation id="1114160088213746286">OneVN Software diskā pašlaik nevar sinhronizēt failu “<ph name="FILENAME"/>”. OneVN Software diskā vēlāk tiks veikts atkārtots mēģinājums.</translation>
-<translation id="4893296294301184587">Fails “<ph name="FILENAME"/>” netika augšupielādēts. Jūsu OneVN Software diskā nepietiek vietas.</translation>
+<translation id="6277279884155292049">Onevn Software disks pašlaik nav pieejams. Augšupielāde tiks automātiski atsākta, tiklīdz Onevn Software disks atkal būs pieejams.</translation>
+<translation id="1114160088213746286">Onevn Software diskā pašlaik nevar sinhronizēt failu “<ph name="FILENAME"/>”. Onevn Software diskā vēlāk tiks veikts atkārtots mēģinājums.</translation>
+<translation id="4893296294301184587">Fails “<ph name="FILENAME"/>” netika augšupielādēts. Jūsu Onevn Software diskā nepietiek vietas.</translation>
 <translation id="5163869187418756376">Kopīgošana neizdevās. Pārbaudiet savienojumu un vēlāk mēģiniet vēlreiz.</translation>
 <translation id="656398493051028875">Notiek faila “<ph name="FILENAME"/>” dzēšana...</translation>
 <translation id="1047956942837015229">Notiek <ph name="COUNT"/> vienumu dzēšana...</translation>
@@ -2936,7 +2936,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="180035236176489073">Lai piekļūtu šiem failiem, jums ir jābūt tiešsaistē.</translation>
 <translation id="1190144681599273207">Izgūstot šo failu, tiks izmantoti aptuveni <ph name="FILE_SIZE"/> mobilo datu.</translation>
 <translation id="7839804798877833423">Izgūstot šos failus, tiks izmantoti aptuveni <ph name="FILE_SIZE"/> mobilo datu.</translation>
-<translation id="6813005947820333339">Izmantojot mobilos datus, OneVN Software diska sinhronizācija pēc noklusējuma ir atspējota.</translation>
+<translation id="6813005947820333339">Izmantojot mobilos datus, Onevn Software diska sinhronizācija pēc noklusējuma ir atspējota.</translation>
 <translation id="696203921837389374">Iespējot mobilo datu sinhronizāciju</translation>
 <translation id="637062427944097960">Šis fails tika atvērts citā darbvirsmā. Lai skatītu šo darbvirsmu, izmantojiet profilu <ph name="USER_NAME"/> (<ph name="MAIL_ADDRESS"/>).</translation>
 <translation id="5330145655348521461">Šie faili tika atvērti citā darbvirsmā. Lai skatītu šo darbvirsmu, izmantojiet profilu <ph name="USER_NAME"/> (<ph name="MAIL_ADDRESS"/>).</translation>
@@ -2950,33 +2950,33 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="7925686952655276919">Nelietot mobilos datus sinhronizācijai</translation>
 <translation id="7106346894903675391">Iegādāties papildu vietu krātuvē...</translation>
 <translation id="3549797760399244642">Doties uz drive.google.com...</translation>
-<translation id="3451154303153932176">Pakalpojumā OneVN Software disks atlikušās brīvās vietas apjoms: <ph name="SPACE_AVAILABLE"/>.</translation>
+<translation id="3451154303153932176">Pakalpojumā Onevn Software disks atlikušās brīvās vietas apjoms: <ph name="SPACE_AVAILABLE"/>.</translation>
 <translation id="4552678318981539154">Iegādāties papildu vietu krātuvē</translation>
 <translation id="6990081529015358884">Jums trūkst vietas</translation>
-<translation id="5521447721624713749">Šobrīd OneVN Software disku nevar sasniegt.</translation>
+<translation id="5521447721624713749">Šobrīd Onevn Software disku nevar sasniegt.</translation>
 <translation id="7788080748068240085">Lai failu “<ph name="FILE_NAME"/>” saglabātu bezsaistē, jums ir jāatbrīvo <ph name="TOTAL_FILE_SIZE"/> vietas.<ph name="MARKUP_1"/>
     <ph name="MARKUP_2"/>Atspraudiet failus, kuriem vairs nav jāpiekļūst bezsaistē.<ph name="MARKUP_3"/>
     <ph name="MARKUP_4"/>Dzēsiet failus no mapes Lejupielādes.<ph name="MARKUP_5"/></translation>
-<translation id="7606199793785990727">Nevarēja piekļūt OneVN Software diskam. Lūdzu, <ph name="BEGIN_LINK"/>atsakieties<ph name="END_LINK"/> un atkārtoti piesakieties.</translation>
-<translation id="585883343689351092">Laipni lūdzam pakalpojumā OneVN Software disks!</translation>
+<translation id="7606199793785990727">Nevarēja piekļūt Onevn Software diskam. Lūdzu, <ph name="BEGIN_LINK"/>atsakieties<ph name="END_LINK"/> un atkārtoti piesakieties.</translation>
+<translation id="585883343689351092">Laipni lūdzam pakalpojumā Onevn Software disks!</translation>
 <translation id="6862635236584086457">Visi faili, kas saglabāti šajā mapē, tiek automātiski dublēti tiešsaistē.</translation>
 <translation id="7220787572447472056"><ph name="MARKUP_1"/>Piekļūstiet saviem failiem, atrodoties jebkurā vietā, pat bezsaistē.<ph name="MARKUP_2"/>
-    OneVN Software diskā esošie faili ir atjaunināti, un tie ir pieejami no jebkuras ierīces.<ph name="MARKUP_3"/>
+    Onevn Software diskā esošie faili ir atjaunināti, un tie ir pieejami no jebkuras ierīces.<ph name="MARKUP_3"/>
     <ph name="MARKUP_4"/>Glabājiet savus failus drošā vietā.<ph name="MARKUP_5"/>
-    Neatkarīgi no tā, kas notiek ar jūsu ierīci, jūsu faili tiek droši glabāti OneVN Software diskā.<ph name="MARKUP_6"/>
+    Neatkarīgi no tā, kas notiek ar jūsu ierīci, jūsu faili tiek droši glabāti Onevn Software diskā.<ph name="MARKUP_6"/>
     <ph name="MARKUP_7"/>Koplietojiet un veidojiet failus vienuviet, kā arī sadarbojieties,<ph name="MARKUP_8"/>
     izmantojot failus kopā ar citiem lietotājiem.<ph name="MARKUP_9"/></translation>
-<translation id="4878716980734452132">Šis faila tips netiek atbalstīts. Lūdzu, apmeklējiet <ph name="BEGIN_LINK"/>OneVN interneta veikalu<ph name="END_LINK"/>, lai atrastu lietotni, ar kuru var atvērt šo failu.
+<translation id="4878716980734452132">Šis faila tips netiek atbalstīts. Lūdzu, apmeklējiet <ph name="BEGIN_LINK"/>Onevn interneta veikalu<ph name="END_LINK"/>, lai atrastu lietotni, ar kuru var atvērt šo failu.
     <ph name="BEGIN_LINK_HELP"/>Uzziniet vairāk<ph name="END_LINK_HELP"/></translation>
-<translation id="6230272341631206186">Šis fails ir paredzēts datoram ar Windows programmatūru. Tas nav saderīgs ar jūsu ierīci, kurā darbojas operētājsistēma OneVN OS. <ph name="BEGIN_LINK_HELP"/>Uzziniet vairāk<ph name="END_LINK_HELP"/>.</translation>
-<translation id="3072401511615920367">Šis fails ir paredzēts datoram, kurā tiek izmantota Macintosh programmatūra. Tas nav saderīgs ar jūsu ierīci, kurā darbojas OneVN OS. Atbilstošu lietotni meklējiet <ph name="BEGIN_LINK"/>OneVN interneta veikalā<ph name="END_LINK"/>. <ph name="BEGIN_LINK_HELP"/>Uzziniet vairāk<ph name="END_LINK_HELP"/>.</translation>
+<translation id="6230272341631206186">Šis fails ir paredzēts datoram ar Windows programmatūru. Tas nav saderīgs ar jūsu ierīci, kurā darbojas operētājsistēma Onevn OS. <ph name="BEGIN_LINK_HELP"/>Uzziniet vairāk<ph name="END_LINK_HELP"/>.</translation>
+<translation id="3072401511615920367">Šis fails ir paredzēts datoram, kurā tiek izmantota Macintosh programmatūra. Tas nav saderīgs ar jūsu ierīci, kurā darbojas Onevn OS. Atbilstošu lietotni meklējiet <ph name="BEGIN_LINK"/>Onevn interneta veikalā<ph name="END_LINK"/>. <ph name="BEGIN_LINK_HELP"/>Uzziniet vairāk<ph name="END_LINK_HELP"/>.</translation>
 <translation id="7589661784326793847">Mirkli uzgaidiet!</translation>
-<translation id="3096967955765855393">Mēs arvien meklējam veidus, kā papildus aizsargāt pārlūkošanu. Iepriekš jebkura vietne varēja aicināt pievienot paplašinājumu pārlūkā. Jaunākajās OneVN Software OneVN versijās lapā “Paplašinājumi” ir precīzi jānorāda, ka vēlaties instalēt šos paplašinājumus. <ph name="BEGIN_LINK"/>Uzziniet vairāk<ph name="END_LINK"/>.</translation>
+<translation id="3096967955765855393">Mēs arvien meklējam veidus, kā papildus aizsargāt pārlūkošanu. Iepriekš jebkura vietne varēja aicināt pievienot paplašinājumu pārlūkā. Jaunākajās Onevn Software Onevn versijās lapā “Paplašinājumi” ir precīzi jānorāda, ka vēlaties instalēt šos paplašinājumus. <ph name="BEGIN_LINK"/>Uzziniet vairāk<ph name="END_LINK"/>.</translation>
 <translation id="4892969127351273348">Nevar atvērt, izmantojot lietotni <ph name="APP_NAME"/></translation>
 <translation id="52446585071384036">Lai atvērtu failus, izmantojot lietotni <ph name="APP_NAME"/>, vispirms kopējiet tos uz Linux failu mapi.</translation>
 <translation id="5368191757080475556">Mapes kopīgošana ar Linux</translation>
 <translation id="5857774240076772505">Piešķiriet Linux lietotnēm atļauju pārveidot failus mapē <ph name="FOLDER_NAME"/>.</translation>
-<translation id="2280597422213958082">Piešķiriet Linux lietotnēm atļauju pārveidot failus jūsu OneVN Software diskā. Izmaiņas tiks sinhronizētas ar citām jūsu ierīcēm.</translation>
+<translation id="2280597422213958082">Piešķiriet Linux lietotnēm atļauju pārveidot failus jūsu Onevn Software diskā. Izmaiņas tiks sinhronizētas ar citām jūsu ierīcēm.</translation>
 <translation id="4290535918735525311">1 mape kopīgota ar Linux</translation>
 <translation id="2377590462528165447"><ph name="NUMBER_OF_ITEMS"/> mapes kopīgotas ar sistēmu Linux</translation>
 <translation id="4572815280350369984"><ph name="FILE_TYPE"/> fails</translation>
@@ -2994,19 +2994,19 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="1049926623896334335">Word dokuments</translation>
 <translation id="4784330909746505604">PowerPoint prezentācija</translation>
 <translation id="8860454412039442620">Excel izklājlapa</translation>
-<translation id="5383943761832211733">OneVN Software dokuments</translation>
-<translation id="5924916971643100883">OneVN Software izklājlapa</translation>
-<translation id="3667369474859528036">OneVN Software prezentācija</translation>
-<translation id="3411013849623404696">OneVN Software zīmējums</translation>
-<translation id="7481041283483972362">OneVN Software tabula</translation>
-<translation id="784862457750027723">OneVN Software veidlapa</translation>
-<translation id="3320425620177764157">OneVN Software karte</translation>
-<translation id="7452737073539387970">OneVN Software vietne</translation>
-<translation id="4445959220475380548">OneVN Software diska saite</translation>
+<translation id="5383943761832211733">Onevn Software dokuments</translation>
+<translation id="5924916971643100883">Onevn Software izklājlapa</translation>
+<translation id="3667369474859528036">Onevn Software prezentācija</translation>
+<translation id="3411013849623404696">Onevn Software zīmējums</translation>
+<translation id="7481041283483972362">Onevn Software tabula</translation>
+<translation id="784862457750027723">Onevn Software veidlapa</translation>
+<translation id="3320425620177764157">Onevn Software karte</translation>
+<translation id="7452737073539387970">Onevn Software vietne</translation>
+<translation id="4445959220475380548">Onevn Software diska saite</translation>
 <translation id="5288481194217812690"><ph name="FILENAME"/></translation>
-<translation id="1131292764548273687">Šī tipa fails netiek atbalstīts. Lūdzu, apmeklējiet OneVN interneta veikalu, lai atrastu lietotni, kas var atvērt šī tipa failus.</translation>
-<translation id="9010211493509471179">Šis fails ir paredzēts datoram, kurā tiek izmantota Macintosh programmatūra. Tas nav saderīgs ar jūsu ierīci, kurā darbojas operētājsistēma OneVN OS. Lūdzu, meklējiet OneVN interneta veikalā atbilstošu aizstājošo lietotni.</translation>
-<translation id="5059989099965370411">Šis fails ir paredzēts datoram, kurā tiek izmantota Windows programmatūra. Tas nav saderīgs ar jūsu ierīci, kurā darbojas operētājsistēma OneVN OS. Lūdzu, meklējiet OneVN interneta veikalā atbilstošu aizstājošo lietotni.</translation>
+<translation id="1131292764548273687">Šī tipa fails netiek atbalstīts. Lūdzu, apmeklējiet Onevn interneta veikalu, lai atrastu lietotni, kas var atvērt šī tipa failus.</translation>
+<translation id="9010211493509471179">Šis fails ir paredzēts datoram, kurā tiek izmantota Macintosh programmatūra. Tas nav saderīgs ar jūsu ierīci, kurā darbojas operētājsistēma Onevn OS. Lūdzu, meklējiet Onevn interneta veikalā atbilstošu aizstājošo lietotni.</translation>
+<translation id="5059989099965370411">Šis fails ir paredzēts datoram, kurā tiek izmantota Windows programmatūra. Tas nav saderīgs ar jūsu ierīci, kurā darbojas operētājsistēma Onevn OS. Lūdzu, meklējiet Onevn interneta veikalā atbilstošu aizstājošo lietotni.</translation>
 <translation id="5833610766403489739">Šo failu nevar atrast. Lūdzu, pārbaudiet lejupielādes vietas iestatījumu un mēģiniet vēlreiz.</translation>
 <translation id="3966388904776714213">Audio atskaņotājs</translation>
 <translation id="3245321423178950146">Nezināms izpildītājs</translation>
@@ -3062,7 +3062,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="2972557485845626008">Programmaparatūra</translation>
 <translation id="4297219207642690536">Restartēt un atiestatīt</translation>
 <translation id="4716483597559580346">Powerwash, lai uzlabotu drošību</translation>
-<translation id="4089922565956168950">Šis jauninājums atiestata jūsu OneVNbook datoru un noņem pašreizējos lietotāju datus.</translation>
+<translation id="4089922565956168950">Šis jauninājums atiestata jūsu Onevnbook datoru un noņem pašreizējos lietotāju datus.</translation>
 <translation id="5184662919967270437">Notiek ierīces atjaunināšana</translation>
 <translation id="6644846457769259194">Notiek ierīces atjaunināšana (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="5906655207909574370">Atjaunināšana ir gandrīz pabeigta. Restartējiet ierīci, lai pabeigtu atjaunināšanu.</translation>
@@ -3085,13 +3085,13 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="5600706100022181951">Atjauninājuma lejupielādei tiks izmantoti <ph name="UPDATE_SIZE_MB"/> MB mobilo datu. Vai vēlaties turpināt?</translation>
 <translation id="5402815541704507626">Atjauninājuma lejupielāde, izmantojot mobilo datu savienojumu</translation>
 <translation id="5085162214018721575">Notiek pārbaude, vai ir pieejami atjauninājumi.</translation>
-<translation id="4570609078116869893">Automātiski atjaunināt pārlūku OneVN visiem lietotājiem</translation>
+<translation id="4570609078116869893">Automātiski atjaunināt pārlūku Onevn visiem lietotājiem</translation>
 <translation id="7102687220333134671">Automātiskie atjauninājumi ir ieslēgti.</translation>
 <translation id="6981982820502123353">Pieejamība</translation>
-<translation id="5840822070878669614">Atveriet OneVN interneta veikalu</translation>
+<translation id="5840822070878669614">Atveriet Onevn interneta veikalu</translation>
 <translation id="6073903501322152803">Pievienot pieejamības funkcijas</translation>
 <translation id="7988355189918024273">Iespējot pieejamības funkcijas</translation>
-<translation id="3274899353071794175">Ja attēlam nav vērtīga apraksta, pārlūks OneVN jums tādu nodrošinās. Attēlus pārmeklē OneVN Software.</translation>
+<translation id="3274899353071794175">Ja attēlam nav vērtīga apraksta, pārlūks Onevn jums tādu nodrošinās. Attēlus pārmeklē Onevn Software.</translation>
 <translation id="2558896001721082624">Vienmēr rādīt piekļūstamības opcijas sistēmas izvēlnē</translation>
 <translation id="7280649757394340890">Balss iestatījumi teksta pārvēršanai runā</translation>
 <translation id="6635956300022133031">Atlasiet un pielāgojiet balsis teksta pārvēršanai runā</translation>
@@ -3100,8 +3100,8 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="4209092469652827314">Liels</translation>
 <translation id="499165176004408815">Izmantot augsta kontrasta režīmu</translation>
 <translation id="142758023928848008">Iespējot taustiņu ķēdi (lai izmantotu īsinājumtaustiņus, secīgi ievadot tos)</translation>
-<translation id="5914872514449971753">Iespējot OneVNVox (balss komentārus)</translation>
-<translation id="7099511550603534982">Atvērt OneVNVox iestatījumus</translation>
+<translation id="5914872514449971753">Iespējot OnevnVox (balss komentārus)</translation>
+<translation id="7099511550603534982">Atvērt OnevnVox iestatījumus</translation>
 <translation id="8547013269961688403">Iespējot pilnekrāna lupu</translation>
 <translation id="8743390665131937741">Pilnekrāna tālummaiņas līmenis:</translation>
 <translation id="7334274148831027933">Iespējot dokotu lupu</translation>
@@ -3136,7 +3136,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="2765217105034171413">Mazs</translation>
 <translation id="7409549334477097887">Īpaši augsts</translation>
 <translation id="1330145147221172764">Iespējot ekrāna tastatūru</translation>
-<translation id="1800308196794859773">Nosūtiet savus balss datus OneVN Software serveriem, lai atļautu diktēšanu jebkurā teksta laukā.</translation>
+<translation id="1800308196794859773">Nosūtiet savus balss datus Onevn Software serveriem, lai atļautu diktēšanu jebkurā teksta laukā.</translation>
 <translation id="8758418656925882523">Iespējot diktēšanu (rakstīšanu, izmantojot balss ievadi)</translation>
 <translation id="7580671184200851182">Atskaņot to pašu audio saturu visos skaļruņos (mono audio)</translation>
 <translation id="1361872463926621533">Atskaņot skaņu sākumā</translation>
@@ -3187,10 +3187,10 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="5270041685309222649">Kiosk Next Shell (Dev)</translation>
 <translation id="6409191325648119263">Kiosk Next Shell</translation>
 <translation id="5940519603482193359">Iespējo Kiosk Next Shell nākamajai pieteikšanās reizei.</translation>
-<translation id="407536568752283520">Atspējojiet Kiosk Next Shell un atgriezieties parastajā OneVN OS vidē.</translation>
+<translation id="407536568752283520">Atspējojiet Kiosk Next Shell un atgriezieties parastajā Onevn OS vidē.</translation>
 <translation id="6588712220520211269">Izslēdziet Kiosk Next Shell</translation>
 <translation id="2446993819525566591">Ieslēdziet Kiosk Next Shell</translation>
-<translation id="1960737068939025292">Šādi tiks ieslēgta iespēja Kiosk Next Shell, Jūs tiksiet izrakstīts(-ta) un atgriezīsieties parastajā OneVN OS vidē.</translation>
+<translation id="1960737068939025292">Šādi tiks ieslēgta iespēja Kiosk Next Shell, Jūs tiksiet izrakstīts(-ta) un atgriezīsieties parastajā Onevn OS vidē.</translation>
 <translation id="7316400597244914467">Šādi Jūs tiksiet izrakstīts(-ta), un tiks ieslēgta iespēja Kiosk Next Shell.</translation>
 <translation id="1067291318998134776">Linux (Beta versija)</translation>
 <translation id="7911118814695487383">Linux</translation>
@@ -3209,13 +3209,13 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="2200603218210188859">USB ierīču preferences</translation>
 <translation id="2706892089432507937">USB ierīces</translation>
 <translation id="5187892128515678283">Ieslēdzot slēdzi, varat kopīgot USB ierīci ar Linux. Kopīgošana turpināsies tikai līdz ierīces atvienošanas brīdim.</translation>
-<translation id="2295473777859797944">OneVN Software Play veikals</translation>
+<translation id="2295473777859797944">Onevn Software Play veikals</translation>
 <translation id="572155275267014074">Android iestatījumi</translation>
-<translation id="4767209642168463274">Instalējiet lietotnes un spēles no pakalpojuma OneVN Software Play savā OneVNbook datorā. &lt;a target="_blank" href="<ph name="URL"/>"&gt;Uzziniet vairāk&lt;/a&gt;.</translation>
+<translation id="4767209642168463274">Instalējiet lietotnes un spēles no pakalpojuma Onevn Software Play savā Onevnbook datorā. &lt;a target="_blank" href="<ph name="URL"/>"&gt;Uzziniet vairāk&lt;/a&gt;.</translation>
 <translation id="2966937470348689686">Pārvaldīt Android preferences</translation>
-<translation id="4074367893748481070">Noņemt OneVN Software Play veikalu</translation>
+<translation id="4074367893748481070">Noņemt Onevn Software Play veikalu</translation>
 <translation id="2792290659606763004">Vai noņemt Android lietotnes?</translation>
-<translation id="4607779957365311067">Pakalpojumā OneVN Software Play lejupielādētās lietotnes tiks dzēstas no šī OneVNbook datora.
+<translation id="4607779957365311067">Pakalpojumā Onevn Software Play lejupielādētās lietotnes tiks dzēstas no šī Onevnbook datora.
       <ph name="LINE_BREAKS1"/>
       Jūsu iegādātais saturs, piemēram, filmas, TV pārraides, mūzika, grāmatas vai citi lietotnē veiktie pirkumi arī var tikt izdzēsti.
       <ph name="LINE_BREAKS2"/>
@@ -3243,7 +3243,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="1670399744444387456">Pamata</translation>
 <translation id="1763808908432309942">Tiks atvērta jaunā cilnē</translation>
 <translation id="6248988683584659830">Meklēt iestatījumus</translation>
-<translation id="883304095704384301">Ja nevarat atrast meklēto saturu, pārejiet uz <ph name="BEGIN_LINK_CHROMIUM"/>OneVN Software OneVN palīdzību<ph name="END_LINK_CHROMIUM"/></translation>
+<translation id="883304095704384301">Ja nevarat atrast meklēto saturu, pārejiet uz <ph name="BEGIN_LINK_CHROMIUM"/>Onevn Software Onevn palīdzību<ph name="END_LINK_CHROMIUM"/></translation>
 <translation id="6406708970972405507">Iestatījumi — <ph name="SECTION_TITLE"/></translation>
 <translation id="5860033963881614850">Izsl.</translation>
 <translation id="5916664084637901428">Iesl.</translation>
@@ -3261,10 +3261,10 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="451515744433878153">Noņemt</translation>
 <translation id="5029568752722684782">Dzēst kopiju</translation>
 <translation id="2154484045852737596">Kartes informācijas rediģēšana</translation>
-<translation id="3032188998195902534">Lai pievienotu vai pārvaldītu OneVN Software Pay maksājumu veidus, apmeklējiet savu <ph name="BEGIN_LINK"/>OneVN Software kontu<ph name="END_LINK"/></translation>
+<translation id="3032188998195902534">Lai pievienotu vai pārvaldītu Onevn Software Pay maksājumu veidus, apmeklējiet savu <ph name="BEGIN_LINK"/>Onevn Software kontu<ph name="END_LINK"/></translation>
 <translation id="8853586775156634952">Šīs kartes dati tiks saglabāti tikai šajā ierīcē</translation>
 <translation id="5087580092889165836">Pievienot karti</translation>
-<translation id="4835914736509775287">Karšu saglabāšana OneVN Software kontā</translation>
+<translation id="4835914736509775287">Karšu saglabāšana Onevn Software kontā</translation>
 <translation id="7255002516883565667">Pašlaik vienu no savām kartēm varat izmantot tikai šajā ierīcē</translation>
 <translation id="6848388270925200958">Pašlaik dažas no savām kartēm varat izmantot tikai šajā ierīcē</translation>
 <translation id="4807098396393229769">Vārds uz kartes</translation>
@@ -3287,7 +3287,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="7930294771522048157">Šeit tiks parādīti saglabātie maksājumu veidi.</translation>
 <translation id="9124003689441359348">Šeit tiks parādītas saglabātās paroles.</translation>
 <translation id="4400367121200150367">Šeit tiks parādītas vietnes, kurās nekad netiek saglabātas paroles.</translation>
-<translation id="3098842761938485917">Skatiet un pārvaldiet saglabātās paroles savā <ph name="BEGIN_LINK"/>OneVN Software kontā<ph name="END_LINK"/></translation>
+<translation id="3098842761938485917">Skatiet un pārvaldiet saglabātās paroles savā <ph name="BEGIN_LINK"/>Onevn Software kontā<ph name="END_LINK"/></translation>
 <translation id="5620655347161642930">Eksportēt paroles...</translation>
 <translation id="3900966090527141178">Paroļu eksportēšana</translation>
 <translation id="6914783257214138813">Jūsu paroles būs redzamas ikvienam, kas var skatīt eksportēto failu.</translation>
@@ -3387,15 +3387,15 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="3380365263193509176">Nezināma kļūda</translation>
 <translation id="368789413795732264">Mēģinot rakstīt failu, radās kļūda: <ph name="ERROR_TEXT"/>.</translation>
 <translation id="784934925303690534">Laika periods</translation>
-<translation id="3958004920128806270">Lai notīrītu pārlūkošanas datus tikai no šīs ierīces un paturētu tos savā OneVN Software kontā, <ph name="BEGIN_LINK"/>izrakstieties<ph name="END_LINK"/>.</translation>
-<translation id="4445433576366924090">Lai notīrītu pārlūkošanas datus no visām savām sinhronizētajām ierīcēm un OneVN Software konta, <ph name="BEGIN_LINK"/>pārejiet uz sinhronizācijas iestatījumiem<ph name="END_LINK"/>.</translation>
-<translation id="563489167344291753">Lai notīrītu pārlūkošanas datus no visām savām sinhronizētajām ierīcēm un OneVN Software konta, <ph name="BEGIN_LINK"/>ievadiet ieejas frāzi<ph name="END_LINK"/>.</translation>
-<translation id="3895809404273995788">Lai notīrītu pārlūkošanas datus no visām savām sinhronizētajām ierīcēm un OneVN Software konta, <ph name="BEGIN_LINK"/>pierakstieties<ph name="END_LINK"/>.</translation>
+<translation id="3958004920128806270">Lai notīrītu pārlūkošanas datus tikai no šīs ierīces un paturētu tos savā Onevn Software kontā, <ph name="BEGIN_LINK"/>izrakstieties<ph name="END_LINK"/>.</translation>
+<translation id="4445433576366924090">Lai notīrītu pārlūkošanas datus no visām savām sinhronizētajām ierīcēm un Onevn Software konta, <ph name="BEGIN_LINK"/>pārejiet uz sinhronizācijas iestatījumiem<ph name="END_LINK"/>.</translation>
+<translation id="563489167344291753">Lai notīrītu pārlūkošanas datus no visām savām sinhronizētajām ierīcēm un Onevn Software konta, <ph name="BEGIN_LINK"/>ievadiet ieejas frāzi<ph name="END_LINK"/>.</translation>
+<translation id="3895809404273995788">Lai notīrītu pārlūkošanas datus no visām savām sinhronizētajām ierīcēm un Onevn Software konta, <ph name="BEGIN_LINK"/>pierakstieties<ph name="END_LINK"/>.</translation>
 <translation id="8662811608048051533">Jūs tiksiet izrakstīts no lielākās daļas vietņu.</translation>
-<translation id="4650925988509114690">Jūs tiksiet izrakstīts no lielākās daļas vietņu. Jūs paliksiet pierakstījies OneVN Software kontā, lai varētu notīrīt sinhronizētos datus.</translation>
+<translation id="4650925988509114690">Jūs tiksiet izrakstīts no lielākās daļas vietņu. Jūs paliksiet pierakstījies Onevn Software kontā, lai varētu notīrīt sinhronizētos datus.</translation>
 <translation id="2017836877785168846">Notīra vēsturi un automātiskās pabeigšanas ierakstus adreses joslā.</translation>
-<translation id="8096327394278038498">Notīra vēsturi un automātiskās pabeigšanas datus adreses joslā. Jūsu OneVN Software kontam var būt cita veida pārlūkošanas vēstures dati vietnē <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
-<translation id="8122693181154564064">Notīra vēsturi no visām ierīcēm, kurās esat pierakstījies. Jūsu OneVN Software kontam vietnē <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> var būt citu veidu pārlūkošanas vēstures dati.</translation>
+<translation id="8096327394278038498">Notīra vēsturi un automātiskās pabeigšanas datus adreses joslā. Jūsu Onevn Software kontam var būt cita veida pārlūkošanas vēstures dati vietnē <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8122693181154564064">Notīra vēsturi no visām ierīcēm, kurās esat pierakstījies. Jūsu Onevn Software kontam vietnē <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> var būt citu veidu pārlūkošanas vēstures dati.</translation>
 <translation id="7127980134843952133">Lejupielādes vēsture</translation>
 <translation id="4699172675775169585">Kešatmiņā ievietotie attēli un faili</translation>
 <translation id="1274997165432133392">Sīkfaili un citi vietņu dati</translation>
@@ -3409,7 +3409,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="6979737339423435258">Visā periodā</translation>
 <translation id="3399432415385675819">Paziņojumi tiks atspējoti</translation>
 <translation id="3459509316159669723">Drukāšana</translation>
-<translation id="1563008449513980623">Iestatīt vai pārvaldīt printerus OneVN Software mākoņdrukā.</translation>
+<translation id="1563008449513980623">Iestatīt vai pārvaldīt printerus Onevn Software mākoņdrukā.</translation>
 <translation id="8185331656081929126">Rādīt paziņojumus, kad tīklā tiek atrasti jauni printeri</translation>
 <translation id="6451180435462401570">Pārvaldīt mākoņdrukas ierīces</translation>
 <translation id="6985607387932385770">Printeri</translation>
@@ -3442,10 +3442,10 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="2462752602710430187"><ph name="PRINTER_NAME"/> pievienots</translation>
 <translation id="9057119625587205566">Tuvumā nav printeru</translation>
 <translation id="3213187967168344806">Nevar pievienot printeri. Restartējiet datoru un mēģiniet vēlreiz.</translation>
-<translation id="4052689580269971502">Nevar izveidot savienojumu ar printeri. Pārbaudiet, vai printeris ir ieslēgts un vai printerim ir izveidots savienojums ar OneVNbook datoru Wi-Fi tīklā vai izmantojot USB savienojumu.</translation>
+<translation id="4052689580269971502">Nevar izveidot savienojumu ar printeri. Pārbaudiet, vai printeris ir ieslēgts un vai printerim ir izveidots savienojums ar Onevnbook datoru Wi-Fi tīklā vai izmantojot USB savienojumu.</translation>
 <translation id="7099337801055912064">Nevar ielādēt lielu PPD failu. Maksimālais lielums ir 250 kB.</translation>
 <translation id="4310139701823742692">Nepareizs faila formāts. Pārbaudiet PPD failu un mēģiniet vēlreiz.</translation>
-<translation id="6580983683519551561">Nevar atrast PPD failu. Pārbaudiet, vai jūsu OneVNbook dators ir tiešsaistē, un mēģiniet vēlreiz.</translation>
+<translation id="6580983683519551561">Nevar atrast PPD failu. Pārbaudiet, vai jūsu Onevnbook dators ir tiešsaistē, un mēģiniet vēlreiz.</translation>
 <translation id="4694024090038830733">Printera konfigurāciju pārvalda administrators.</translation>
 <translation id="5816434091619127343">Ja tiktu veiktas pieprasītās printera izmaiņas, printeri nevarētu lietot.</translation>
 <translation id="6504611359718185067">Lai pievienotu printeri, izveidojiet savienojumu ar internetu.</translation>
@@ -3453,7 +3453,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="5696679855467848181">Pašlaik izmantotais PPD fails: <ph name="PPD_NAME"/></translation>
 <translation id="4733793249294335256">Atrašanās vieta</translation>
 <translation id="7754704193130578113">Jautāt, kur saglabāt ikvienu failu pirms lejuplādēšanas</translation>
-<translation id="5713072761819014678">Atspējot OneVN Software diska kontu</translation>
+<translation id="5713072761819014678">Atspējot Onevn Software diska kontu</translation>
 <translation id="486635084936119914">Automātiski atvērt noteikta veida failus pēc to lejupielādes</translation>
 <translation id="3653160965917900914">Tīkla failu kopīgošana</translation>
 <translation id="5763315388120433852">Izveidojiet vai pārvaldiet tīkla failu kopīgošanu.</translation>
@@ -3489,12 +3489,12 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="3571734092741541777">Iestatīt</translation>
 <translation id="3336664756920573711">Atbloķējiet ierīci <ph name="DEVICE_TYPE"/>, izmantojot savu Android tālruni.</translation>
 <translation id="1164674268730883318">Vai izslēgt Smart Lock ierīcei <ph name="DEVICE_TYPE"/>?</translation>
-<translation id="2739030071582769583">Ja izslēgsiet sistēmu Smart Lock ierīcei <ph name="DEVICE_TYPE"/>, nevarēsiet atbloķēt savas OneVN ierīces, izmantojot tālruni. Jums būs jāievada parole.</translation>
+<translation id="2739030071582769583">Ja izslēgsiet sistēmu Smart Lock ierīcei <ph name="DEVICE_TYPE"/>, nevarēsiet atbloķēt savas Onevn ierīces, izmantojot tālruni. Jums būs jāievada parole.</translation>
 <translation id="4737715515457435632">Lūdzu, izveidojiet savienojumu ar tīklu</translation>
 <translation id="5425722269016440406">Lai izslēgtu Smart Lock, jums ir jābūt tiešsaistē, jo šis iestatījums ir sinhronizēts ar jūsu tālruni un citām ierīcēm. Lūdzu, vispirms izveidojiet savienojumu ar tīklu.</translation>
 <translation id="8885197664446363138">Smart Lock nav pieejams</translation>
 <translation id="7334190995941642545">Sistēma Smart Lock pašlaik nav pieejama. Lūdzu, vēlāk mēģiniet vēlreiz.</translation>
-<translation id="8112427115751454716">Izmantot Smart Lock, lai pierakstītos OneVN Software kontā</translation>
+<translation id="8112427115751454716">Izmantot Smart Lock, lai pierakstītos Onevn Software kontā</translation>
 <translation id="2043818754674261542">Attālums, kurā tālrunis var atbloķēt šo ierīci (<ph name="DEVICE_TYPE"/>)</translation>
 <translation id="2522791476825452208">Ļoti tuvu</translation>
 <translation id="649454645705377674">Aizvērt</translation>
@@ -3502,7 +3502,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="5595152862129936745">Ļoti tālu</translation>
 <translation id="8748384418490037181">Smart Lock opcijas</translation>
 <translation id="2433836460518180625">Atbloķēt tikai ierīci</translation>
-<translation id="3300552672525741457">Atbloķēt ierīci un pierakstīties OneVN Software kontā</translation>
+<translation id="3300552672525741457">Atbloķēt ierīci un pierakstīties Onevn Software kontā</translation>
 <translation id="2307462900900812319">Konfigurēt tīklu</translation>
 <translation id="7175037578838465313">Tīkla “<ph name="NAME"/>” konfigurēšana</translation>
 <translation id="8662671328352114214">Pievienošanās <ph name="TYPE"/> tīklam</translation>
@@ -3529,7 +3529,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="1726100011689679555">Nosaukumu serveri</translation>
 <translation id="1209796539517632982">Automātiski nosaukumu serveri</translation>
 <translation id="4462159676511157176">Pielāgoti nosaukumu serveri</translation>
-<translation id="1981884748698699991">OneVN Software nosaukumu serveri</translation>
+<translation id="1981884748698699991">Onevn Software nosaukumu serveri</translation>
 <translation id="854655314928502177">Tīmekļa starpniekservera automātiskās atklāšanas URL:</translation>
 <translation id="3817579325494460411">Nav norādīts</translation>
 <translation id="1280820357415527819">Notiek mobilo tīklu meklēšana</translation>
@@ -3593,13 +3593,13 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="6077131872140550515">Noņemt no vēlamajiem</translation>
 <translation id="4115002065223188701">Tīkls nav sasniedzams</translation>
 <translation id="161460670679785907">Nevar noteikt jūsu tālruni.</translation>
-<translation id="1682335582099955045">Lai izmantotu tūlītējo piesaisti, ieslēdziet OneVN Software Play pakalpojumu paziņojumus.</translation>
+<translation id="1682335582099955045">Lai izmantotu tūlītējo piesaisti, ieslēdziet Onevn Software Play pakalpojumu paziņojumus.</translation>
 <translation id="7696063401938172191">Jūsu tālrunī “<ph name="PHONE_NAME"/>”:</translation>
 <translation id="3423463006624419153">Jūsu tālruņos “<ph name="PHONE_NAME_1"/>” un “<ph name="PHONE_NAME_2"/>”:</translation>
 <translation id="6997707937646349884">Jūsu ierīcēs:</translation>
 <translation id="7531779363494549572">Pārejiet uz sadaļu Iestatījumi &gt; Lietotnes un paziņojumi &gt; Paziņojumi.</translation>
-<translation id="6921033294337262045">Pieskarieties vienumam Lietotņu paziņojumi &gt; OneVN Software Play pakalpojumi.</translation>
-<translation id="5624710179837914896">Ieslēdziet OneVN Software Play pakalpojumus.</translation>
+<translation id="6921033294337262045">Pieskarieties vienumam Lietotņu paziņojumi &gt; Onevn Software Play pakalpojumi.</translation>
+<translation id="5624710179837914896">Ieslēdziet Onevn Software Play pakalpojumus.</translation>
 <translation id="2705736684557713153">Ritiniet līdz ekrāna apakšdaļai un ieslēdziet opciju “Tūlītējā piesaiste”, ja tā ir redzama. Ja šī opcija nav redzama, šis paziņojumu kanāls jau ir ieslēgts.</translation>
 <translation id="8720200012906404956">Notiek mobilā tīkla meklēšana. <ph name="BEGIN_LINK"/>Uzziniet vairāk<ph name="END_LINK"/>.</translation>
 <translation id="7240339475467890413">Vai izveidot savienojumu ar jaunu tīklāju?</translation>
@@ -3613,7 +3613,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="3651488188562686558">tiks atvienots Wi-Fi.</translation>
 <translation id="3479552764303398839">Vēlāk</translation>
 <translation id="7378812711085314936">Izmantot datu savienojumu</translation>
-<translation id="3483333858382889684">Ļaut šai ierīcei atrast citas ierīces, kurām ir mobilo datu savienojums un kurās esat pierakstījies savā OneVN Software kontā.</translation>
+<translation id="3483333858382889684">Ļaut šai ierīcei atrast citas ierīces, kurām ir mobilo datu savienojums un kurās esat pierakstījies savā Onevn Software kontā.</translation>
 <translation id="5637476008227280525">Iespējot mobilos datus</translation>
 <translation id="1572266655485775982">Iespējot Wi-Fi</translation>
 <translation id="543381445212956829">Iespējot WiMAX</translation>
@@ -3743,11 +3743,11 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="4200689466366162458">Pielāgotie vārdi</translation>
 <translation id="7833720883933317473">Šeit tiks parādīti saglabātie pielāgotie vārdi.</translation>
 <translation id="8509646642152301857">Pareizrakstības pārbaudes vārdnīcas lejupielāde neizdevās.</translation>
-<translation id="8842834450537919370">Lūdzu, sazinieties ar savu tīkla administratoru, lai pārliecinātos, vai ugunsmūris nebloķē lejupielādes no OneVN Software serveriem.</translation>
+<translation id="8842834450537919370">Lūdzu, sazinieties ar savu tīkla administratoru, lai pārliecinātos, vai ugunsmūris nebloķē lejupielādes no Onevn Software serveriem.</translation>
 <translation id="9042893549633094279">Konfidencialitāte un drošība</translation>
 <translation id="654233263479157500">Izmantot tīmekļa pakalpojumu, lai palīdzētu atrisināt navigācijas kļūdas</translation>
 <translation id="6697492270171225480">Ja lapu neizdotas atrast, rāda ieteikumus par līdzīgām lapām</translation>
-<translation id="4534361985432360439">Sūta OneVN Software serveriem tās lapas tīmekļa adresi, kuru mēģināt sasniegt.</translation>
+<translation id="4534361985432360439">Sūta Onevn Software serveriem tās lapas tīmekļa adresi, kuru mēģināt sasniegt.</translation>
 <translation id="6545834809683560467">Izmantot ieteikumus, lai ātrāk ievadītu meklēšanas frāzes un vietrāžus URL adreses joslā vai lietotņu palaidēja meklēšanas lodziņā.</translation>
 <translation id="340485819826776184">Izmantot ieteikumus, lai ātrāk ievadītu meklēšanas frāzes un vietrāžus URL adreses joslā</translation>
 <translation id="7704317875155739195">Automātiski pabeigt meklēšanas vaicājumus un vietrāžus URL</translation>
@@ -3758,16 +3758,16 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="1641113438599504367">Droša pārlūkošana</translation>
 <translation id="773905249182896430">Aizsargā jūs un ierīci pret bīstamām vietnēm</translation>
 <translation id="8983677657449185470">Palīdzēt uzlabot drošo pārlūkošanu</translation>
-<translation id="199861668945335092">Pārsūta noteiktu sistēmas informāciju un lapas saturu OneVN Software serveriem</translation>
+<translation id="199861668945335092">Pārsūta noteiktu sistēmas informāciju un lapas saturu Onevn Software serveriem</translation>
 <translation id="490074449735753175">Izmantot tīmekļa pakalpojumu, lai palīdzētu atrisināt pareizrakstības kļūdas</translation>
-<translation id="3523078749603005179">Efektīvāka pareizrakstības kļūdu labošana, nosūtot pārlūkā rakstīto uz OneVN Software</translation>
+<translation id="3523078749603005179">Efektīvāka pareizrakstības kļūdu labošana, nosūtot pārlūkā rakstīto uz Onevn Software</translation>
 <translation id="2564653188463346023">Uzlabota pareizrakstības pārbaude</translation>
-<translation id="9079153198295609735">Automātiski sūtīt lietošanas statistiku un avāriju pārskatus uzņēmumam OneVN Software</translation>
-<translation id="5941220456342415404">Automātiski sūtīt diagnostikas un lietojuma datus OneVN Software serveriem</translation>
-<translation id="918192811481327695">Palīdzēt uzlabot OneVN funkcijas un veiktspēju</translation>
-<translation id="9063160602596686558">Automātiski sūtīt lietojuma statistiku un avāriju pārskatus OneVN Software serveriem</translation>
+<translation id="9079153198295609735">Automātiski sūtīt lietošanas statistiku un avāriju pārskatus uzņēmumam Onevn Software</translation>
+<translation id="5941220456342415404">Automātiski sūtīt diagnostikas un lietojuma datus Onevn Software serveriem</translation>
+<translation id="918192811481327695">Palīdzēt uzlabot Onevn funkcijas un veiktspēju</translation>
+<translation id="9063160602596686558">Automātiski sūtīt lietojuma statistiku un avāriju pārskatus Onevn Software serveriem</translation>
 <translation id="8438566539970814960">Uzlabot meklēšanu un pārlūkošanu</translation>
-<translation id="284843628681142937">Nosūta OneVN Software serveriem apmeklēto lapu vietrāžus URL</translation>
+<translation id="284843628681142937">Nosūta Onevn Software serveriem apmeklēto lapu vietrāžus URL</translation>
 <translation id="8791534160414513928">Sūtīt pieprasījumu “Nesekot” savā pārlūkošanas datplūsmā</translation>
 <translation id="5299109548848736476">Nesekot</translation>
 <translation id="5282733140964383898">Iespējojot opciju “Nesekot”, jūsu pārlūkošanas datplūsmā tiks iekļauts pieprasījums. Jebkāda veida ietekme ir atkarīga no tā, vai vietne atbild uz pieprasījumu un kā pieprasījums tiek interpretēts. Piemēram, dažas vietnes var atbildēt uz šo pieprasījumu un rādīt reklāmas, neņemot vērā informāciju par citām jūsu apmeklētajām vietnēm. Daudzās vietnēs joprojām tiks apkopoti un izmantoti jūsu pārlūkošanas dati, piemēram, lai vietnēs uzlabotu drošību, nodrošinātu saturu, pakalpojumus, reklāmas un ieteikumus, kā arī veidotu pārskatu statistiku. <ph name="BEGIN_LINK"/>Uzziniet vairāk<ph name="END_LINK"/>.</translation>
@@ -3785,7 +3785,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="8632933437936028548">Iestatījumu atiestatīšana</translation>
 <translation id="5293170712604732402">Atjaunot iestatījumus uz sākotnējiem noklusējuma iestatījumiem</translation>
 <translation id="892706138619340876">Daļa iestatījumu tika atiestatīti</translation>
-<translation id="2334029754052191847">Pārlūkā OneVN tika konstatēts, ka daži jūsu iestatījumi tika bojāti citā programmā, tāpēc šie iestatījumi tika atiestatīti uz sākotnējiem noklusējuma iestatījumiem.</translation>
+<translation id="2334029754052191847">Pārlūkā Onevn tika konstatēts, ka daži jūsu iestatījumi tika bojāti citā programmā, tāpēc šie iestatījumi tika atiestatīti uz sākotnējiem noklusējuma iestatījumiem.</translation>
 <translation id="4582563038311694664">Atiestatīt visus iestatījumus</translation>
 <translation id="4146785383423576110">Atiestatiet un tīriet</translation>
 <translation id="2603115962224169880">Tīriet datoru</translation>
@@ -3797,7 +3797,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="7807067443225230855">Meklēšana un Asistents</translation>
 <translation id="2203682048752833055">Meklētājprogramma, kas tiek izmantota <ph name="BEGIN_LINK"/>adreses joslā<ph name="END_LINK"/></translation>
 <translation id="1432581352905426595">Pārvaldīt meklējumprogrammas</translation>
-<translation id="2862205630718215619">OneVN Software asistents</translation>
+<translation id="2862205630718215619">Onevn Software asistents</translation>
 <translation id="6978121630131642226">Meklētāji</translation>
 <translation id="6410668567036790476">Meklētājprogrammas pievienošana</translation>
 <translation id="1128591060186966949">Meklētājprogrammas rediģēšana</translation>
@@ -3809,9 +3809,9 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="7063311912041006059">URL ar zīmi <ph name="SPECIAL_SYMBOL"/> vaicājuma vietā</translation>
 <translation id="6953878494808481632">Saistīta informācija</translation>
 <translation id="4145922204387553806">Ļaujiet Asistentam rādīt informāciju par ekrānā redzamo saturu</translation>
-<translation id="472896694312062378">“Ok OneVN Software”</translation>
-<translation id="873163986259711670">Piekļūt Asistentam katru reizi, kad sakāt: “Ok OneVN Software”</translation>
-<translation id="7972554217702001243">Aktivizēt Asistentu, kad kāds saka: “Ok OneVN Software”. Lai paildzinātu akumulatora darbības laiku, komanda “Ok OneVN Software” ir iespējota tikai tad, kad ierīce ir pievienota strāvas avotam.</translation>
+<translation id="472896694312062378">“Ok Onevn Software”</translation>
+<translation id="873163986259711670">Piekļūt Asistentam katru reizi, kad sakāt: “Ok Onevn Software”</translation>
+<translation id="7972554217702001243">Aktivizēt Asistentu, kad kāds saka: “Ok Onevn Software”. Lai paildzinātu akumulatora darbības laiku, komanda “Ok Onevn Software” ir iespējota tikai tad, kad ierīce ir pievienota strāvas avotam.</translation>
 <translation id="5825412242012995131">Ieslēgts (ieteicams)</translation>
 <translation id="5067399438976153555">Vienmēr iespējots</translation>
 <translation id="5419405654816502573">Voice Match</translation>
@@ -3820,7 +3820,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="5355099869024327351">Ļaut Asistentam rādīt jums paziņojumus</translation>
 <translation id="133535873114485416">Vēlamā ievade</translation>
 <translation id="6233154960150021497">Kā noklusējumu iestatiet balss izmantošanu tastatūras vietā</translation>
-<translation id="3908743412684152579">OneVN Software asistenta iestatījumi</translation>
+<translation id="3908743412684152579">Onevn Software asistenta iestatījumi</translation>
 <translation id="4933484234309072027">iegults vietnē <ph name="URL"/></translation>
 <translation id="8427292751741042100">iegulta jebkurā vietnē</translation>
 <translation id="4907306957610201395">Atļaujas kategorija</translation>
@@ -3845,7 +3845,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="5340638867532133571">Atļaut vietnēm instalēt maksājumu apdarinātājus (ieteicams)</translation>
 <translation id="763632859238619983">Neatļaut nevienai vietnei instalēt maksājumu apdarinātājus</translation>
 <translation id="8270242299912238708">PDF dokumenti</translation>
-<translation id="539658326146969381">Lejupielādēt PDF failus, nevis automātiski atvērt tos pārlūkā OneVN</translation>
+<translation id="539658326146969381">Lejupielādēt PDF failus, nevis automātiski atvērt tos pārlūkā Onevn</translation>
 <translation id="4434045419905280838">Uznirstošie elem. un novirzīšana</translation>
 <translation id="6612358246767739896">Aizsargāts saturs</translation>
 <translation id="4252852543720145436">Aizsargāta satura indentifikatori</translation>
@@ -3877,7 +3877,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="7661259717474717992">Atļaut vietnēm saglabāt un nolasīt sīkfailu datus</translation>
 <translation id="2913331724188855103">Atļaut vietnēm saglabāt un lasīt sīkfailu datus (ieteicams)</translation>
 <translation id="5908769186679515905">Bloķēt Flash aktivizēšanu vietnēs</translation>
-<translation id="6096007141921397775">Flash iestatījumi tiks saglabāti, līdz aizvērsiet OneVN.</translation>
+<translation id="6096007141921397775">Flash iestatījumi tiks saglabāti, līdz aizvērsiet Onevn.</translation>
 <translation id="2972642118232180842">Palaist tikai svarīgu saturu (ieteicams)</translation>
 <translation id="7084192839369222683">Palaist tikai svarīgu saturu</translation>
 <translation id="8074127646604999664">Atļaut nesen aizvērtajām vietnēm pabeigt datu sūtīšanu un saņemšanu</translation>
@@ -3939,7 +3939,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="4750220700975225">Pašreizējā inkognito sesija (<ph name="EMBEDDING"/>)</translation>
 <translation id="383891835335927981">Nevienā vietnē nav veikta tālummaiņa.</translation>
 <translation id="3566721612727112615">Nav pievienota neviena vietne</translation>
-<translation id="8098574385249290065">Atļaut pārlūkam OneVN izvēlēties, kad vietnēs var atskaņot skaņu (ieteicams)</translation>
+<translation id="8098574385249290065">Atļaut pārlūkam Onevn izvēlēties, kad vietnēs var atskaņot skaņu (ieteicams)</translation>
 <translation id="4354344420232759511">Šeit tiks rādītas jūsu apmeklētās vietnes.</translation>
 <translation id="3757733214359997190">Neviena vietne netika atrasta</translation>
 <translation id="5763751966069581670">Nav atrasta neviena USB ierīce</translation>
@@ -3947,7 +3947,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="7366415735885268578">Vietnes pievienošana</translation>
 <translation id="5052499409147950210">Vietnes rediģēšana</translation>
 <translation id="2870560284913253234">Vietne</translation>
-<translation id="4610862967073369855">Ļauj lietotnei Android ziņojumi pārraidīt īsziņas no jūsu tālruņa uz OneVNbook datoru</translation>
+<translation id="4610862967073369855">Ļauj lietotnei Android ziņojumi pārraidīt īsziņas no jūsu tālruņa uz Onevnbook datoru</translation>
 <translation id="6742339027238151589">Pieejams skriptam</translation>
 <translation id="361106536627977100">Flash dati</translation>
 <translation id="8557930019681227453">Manifests</translation>
@@ -3961,7 +3961,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="6105877918873366097">Pēdējoreiz piekļūts</translation>
 <translation id="1296497012903089238">Sertifikāta veids</translation>
 <translation id="8553342806078037065">Pārvaldīt citas personas</translation>
-<translation id="8907706281008466056">OneVN Software profila fotoattēls</translation>
+<translation id="8907706281008466056">Onevn Software profila fotoattēls</translation>
 <translation id="2408955596600435184">Ievadiet PIN kodu</translation>
 <translation id="6619990499523117484">Apstipriniet PIN kodu</translation>
 <translation id="2023167225947895179">PIN var viegli uzminēt.</translation>
@@ -3986,9 +3986,9 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="6029292188939175871">dzēst [<ph name="FINGERPRINT_NAME"/>], poga</translation>
 <translation id="1927632033341042996"><ph name="NEW_FINGER_NUMBER"/>. pirksts</translation>
 <translation id="7665369617277396874">Pievienot kontu</translation>
-<translation id="6776811409814583709">Šeit varat pārvaldīt visus OneVN Software kontus, kuros esat pierakstījies lietotnēs un vietnēs. Lietotnes un vietnes, kurām ir piešķirta atļauja, var piekļūt konta informācijai, kas nepieciešama pareizai darbībai.</translation>
+<translation id="6776811409814583709">Šeit varat pārvaldīt visus Onevn Software kontus, kuros esat pierakstījies lietotnēs un vietnēs. Lietotnes un vietnes, kurām ir piešķirta atļauja, var piekļūt konta informācijai, kas nepieciešama pareizai darbībai.</translation>
 <translation id="1987317783729300807">Konti</translation>
-<translation id="8418661265246754237">OneVN Software konti</translation>
+<translation id="8418661265246754237">Onevn Software konti</translation>
 <translation id="3297951628821704004">Noņemt kontu no šīs ierīces</translation>
 <translation id="3158033540161634471">Iestatiet pirksta nospiedumu</translation>
 <translation id="1587907146729660231">Ar pirkstu pieskarieties barošanas pogai.</translation>
@@ -4018,9 +4018,9 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="2114896190328250491">Fotogrāfs: <ph name="NAME"/></translation>
 <translation id="7155171745945906037">Esošs fotoattēls no kameras vai faila</translation>
 <translation id="8995603266996330174">Pārvalda domēnu <ph name="DOMAIN"/></translation>
-<translation id="9125982323641182972">OneVN Software viedās tehnoloģijas pārlūkā OneVN</translation>
+<translation id="9125982323641182972">Onevn Software viedās tehnoloģijas pārlūkā Onevn</translation>
 <translation id="5244474230056479698">Sinhronizēšana ar <ph name="EMAIL"/></translation>
-<translation id="4326270470840334364">Tā kā šo kontu pārvalda <ph name="DOMAIN"/>, jūsu grāmatzīmes, vēsture, paroles un citi iestatījumi tiks dzēsti no šīs ierīces. Tomēr jūsu dati joprojām tiks glabāti jūsu OneVN Software kontā un tos var pārvaldīt <ph name="BEGIN_LINK"/>OneVN Software informācijas panelī<ph name="END_LINK"/>.</translation>
+<translation id="4326270470840334364">Tā kā šo kontu pārvalda <ph name="DOMAIN"/>, jūsu grāmatzīmes, vēsture, paroles un citi iestatījumi tiks dzēsti no šīs ierīces. Tomēr jūsu dati joprojām tiks glabāti jūsu Onevn Software kontā un tos var pārvaldīt <ph name="BEGIN_LINK"/>Onevn Software informācijas panelī<ph name="END_LINK"/>.</translation>
 <translation id="4037889604535939429">Personas informācijas rediģēšana</translation>
 <translation id="6739923123728562974">Rādīt darbvirsmas saīsni</translation>
 <translation id="2450310832094867474">Vai izslēgt sinhronizēšanu un izrakstīties?</translation>
@@ -4028,16 +4028,16 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="5643620609347735571">Notīrīt un turpināt</translation>
 <translation id="5602765853043467355">Notīrīt grāmatzīmes, vēsturi, paroles un citu saturu šajā ierīcē</translation>
 <translation id="4089235344645910861">Iestatījumi saglabāti. Sākta sinhronizācija.</translation>
-<translation id="7548737591211512046">Pierakstieties, lai lietotu savas grāmatzīmes, vēsturi, paroles un citus iestatījumus visās savās ierīcēs. Turklāt jūs tiksiet automātiski pierakstīts izmantotajos OneVN Software pakalpojumos.</translation>
-<translation id="2951604498031550705">Jūsu grāmatzīmju, vēstures, paroļu un citu iestatījumu dati vairs netiks sinhronizēti jūsu OneVN Software kontā. Tomēr jūsu esošie dati joprojām tiks glabāti jūsu OneVN Software kontā un tos var pārvaldīt <ph name="BEGIN_LINK"/>OneVN Software informācijas panelī<ph name="END_LINK"/>.</translation>
-<translation id="138229770216285283">Šādi tiksiet izrakstīts no jūsu OneVN Software kontiem. Grāmatzīmju, vēstures, paroļu un citu iestatījumu izmaiņas vairs netiks sinhronizētas jūsu OneVN Software kontā. Tomēr esošie dati joprojām tiks glabāti jūsu OneVN Software kontā un tos varēsiet pārvaldīt <ph name="BEGIN_LINK"/>OneVN Software informācijas panelī<ph name="END_LINK"/>.</translation>
-<translation id="3169352093514419465">Tādējādi tiksiet izrakstīsiet no sava OneVN Software konta. Jūsu grāmatzīmes, vēsture, paroles, kā arī cita informācija vairs netiks sinhronizēta.</translation>
+<translation id="7548737591211512046">Pierakstieties, lai lietotu savas grāmatzīmes, vēsturi, paroles un citus iestatījumus visās savās ierīcēs. Turklāt jūs tiksiet automātiski pierakstīts izmantotajos Onevn Software pakalpojumos.</translation>
+<translation id="2951604498031550705">Jūsu grāmatzīmju, vēstures, paroļu un citu iestatījumu dati vairs netiks sinhronizēti jūsu Onevn Software kontā. Tomēr jūsu esošie dati joprojām tiks glabāti jūsu Onevn Software kontā un tos var pārvaldīt <ph name="BEGIN_LINK"/>Onevn Software informācijas panelī<ph name="END_LINK"/>.</translation>
+<translation id="138229770216285283">Šādi tiksiet izrakstīts no jūsu Onevn Software kontiem. Grāmatzīmju, vēstures, paroļu un citu iestatījumu izmaiņas vairs netiks sinhronizētas jūsu Onevn Software kontā. Tomēr esošie dati joprojām tiks glabāti jūsu Onevn Software kontā un tos varēsiet pārvaldīt <ph name="BEGIN_LINK"/>Onevn Software informācijas panelī<ph name="END_LINK"/>.</translation>
+<translation id="3169352093514419465">Tādējādi tiksiet izrakstīsiet no sava Onevn Software konta. Jūsu grāmatzīmes, vēsture, paroles, kā arī cita informācija vairs netiks sinhronizēta.</translation>
 <translation id="8588866096426746242">Rādīt profila statistiku</translation>
 <translation id="5535941515421698170">Noņemt no šīs ierīces arī jūsu esošos datus</translation>
 <translation id="7243632151880336635">Dzēst un izrakstīties</translation>
 <translation id="6406506848690869874">Sinhronizācija</translation>
-<translation id="5428209950370661546">Citi OneVN Software pakalpojumi</translation>
-<translation id="7956662517480676674">Sinhronizēšana un OneVN Software pakalp.</translation>
+<translation id="5428209950370661546">Citi Onevn Software pakalpojumi</translation>
+<translation id="7956662517480676674">Sinhronizēšana un Onevn Software pakalp.</translation>
 <translation id="2453021845418314664">Papildu sinhronizācijas iestatījumi</translation>
 <translation id="4314815835985389558">Sinhronizācijas pārvaldība</translation>
 <translation id="659934686219830168">Sinhronizācija tiks sākta, kad aizvērsiet šo lapu</translation>
@@ -4046,19 +4046,19 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="4824958205181053313">Vai atcelt sinhronizāciju?</translation>
 <translation id="3058498974290601450">Jebkurā brīdī varat ieslēgt sinhronizāciju iestatījumos.</translation>
 <translation id="7529411698175791732">Pārbaudiet interneta savienojumu. Ja neizdodas novērst problēmu, izrakstieties un atkārtoti pierakstieties.</translation>
-<translation id="1125261911132334651">OneVN Software konta pārvaldība</translation>
+<translation id="1125261911132334651">Onevn Software konta pārvaldība</translation>
 <translation id="4570387585180509432">Adreses, tālruņa numurus un citus datus</translation>
 <translation id="5117427536932535467">Motīvi un fona tapetes</translation>
 <translation id="3268451620468152448">Atvērtās cilnes</translation>
-<translation id="5241892180459725878">Uz OneVN Software diska datiem balstītie meklēšanas ieteikumi</translation>
+<translation id="5241892180459725878">Uz Onevn Software diska datiem balstītie meklēšanas ieteikumi</translation>
 <translation id="2120297377148151361">Darbības un mijiedarbības</translation>
 <translation id="5833397272224757657">Personalizācijai izmanto jūsu apmeklēto vietņu saturu, kā arī darbības un mijiedarbības pārlūkā.</translation>
-<translation id="8135094938656535588">Pārvaldīt sinhronizētos datus OneVN Software informācijas panelī</translation>
-<translation id="7505421639213002314">OneVN sinhronizācijas dati</translation>
+<translation id="8135094938656535588">Pārvaldīt sinhronizētos datus Onevn Software informācijas panelī</translation>
+<translation id="7505421639213002314">Onevn sinhronizācijas dati</translation>
 <translation id="6596325263575161958">Šifrēšanas opcijas</translation>
-<translation id="2459230470861708651">Šifrēt sinhronizētās paroles, izmantojot savu OneVN Software lietotājvārdu un paroli</translation>
-<translation id="5958351589333270173">Šifrējiet sinhronizētos datus, izmantojot savu <ph name="BEGIN_LINK"/>sinhronizācijas ieejas frāzi<ph name="END_LINK"/>. Tajā nav iekļauti maksājumu veidi un adreses no pakalpojuma OneVN Software Pay.</translation>
-<translation id="4817583816512767754">Jūsu šifrētos datus var lasīt tikai personas, kurām ir zināma jūsu ieejas frāze. Ieejas frāze netiek sūtīta OneVN Software serveriem un netiek tajos glabāta. Ja aizmirsīsiet ieejas frāzi vai vēlēsieties mainīt šo iestatījumu, jums būs <ph name="BEGIN_LINK"/>jāatiestata sinhronizācija<ph name="END_LINK"/>.</translation>
+<translation id="2459230470861708651">Šifrēt sinhronizētās paroles, izmantojot savu Onevn Software lietotājvārdu un paroli</translation>
+<translation id="5958351589333270173">Šifrējiet sinhronizētos datus, izmantojot savu <ph name="BEGIN_LINK"/>sinhronizācijas ieejas frāzi<ph name="END_LINK"/>. Tajā nav iekļauti maksājumu veidi un adreses no pakalpojuma Onevn Software Pay.</translation>
+<translation id="4817583816512767754">Jūsu šifrētos datus var lasīt tikai personas, kurām ir zināma jūsu ieejas frāze. Ieejas frāze netiek sūtīta Onevn Software serveriem un netiek tajos glabāta. Ja aizmirsīsiet ieejas frāzi vai vēlēsieties mainīt šo iestatījumu, jums būs <ph name="BEGIN_LINK"/>jāatiestata sinhronizācija<ph name="END_LINK"/>.</translation>
 <translation id="7441736921018636843">Lai mainītu šo iestatījumu, <ph name="BEGIN_LINK"/>atiestatiet sinhronizāciju<ph name="END_LINK"/>, lai noņemtu sinhronizācijas ieejas frāzi.</translation>
 <translation id="3873315167136380065">Lai ieslēgtu šo funkciju un noņemtu sinhronizēšanas ieejas frāzi, <ph name="BEGIN_LINK"/>atiestatiet sinhronizāciju<ph name="END_LINK"/>.</translation>
 <translation id="988978206646512040">Nav atļauta tukša ieejas frāze.</translation>
@@ -4104,7 +4104,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="437184764829821926">Uzlaboti fonta iestatījumi</translation>
 <translation id="323803881985677942">Atvērt paplašinājumu opcijas</translation>
 <translation id="2166369534954157698">Muļķa hipiji turpat brīvi mēģina nogaršot celofāna žņaudzējčūsku</translation>
-<translation id="8911765336506423117">Nepieciešams paplašinājums no OneVN interneta veikala</translation>
+<translation id="8911765336506423117">Nepieciešams paplašinājums no Onevn interneta veikala</translation>
 <translation id="6965978654500191972">Ierīce</translation>
 <translation id="8260864402787962391">Pele</translation>
 <translation id="155865706765934889">Skārienpaliktnis</translation>
@@ -4141,7 +4141,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="4673442866648850031">Skārienekrāna pildspalvas rīki tiek atvērti, kad skārienekrāna pildspalva ir noņemta.</translation>
 <translation id="5862109781435984885">Rādīt skārienekrāna pildspalvas rīkus plauktā</translation>
 <translation id="4244238649050961491">Atrast citas skārienekrāna pildspalvas lietotnes</translation>
-<translation id="1163818598439831131">Atvērt pakalpojumu OneVN Software Play</translation>
+<translation id="1163818598439831131">Atvērt pakalpojumu Onevn Software Play</translation>
 <translation id="9116799625073598554">Piezīmju pierakstīšanas lietotne</translation>
 <translation id="5458998536542739734">Bloķēšanas ekrāna piezīmes</translation>
 <translation id="203574396658008164">Iespējot piezīmju pierakstīšanu bloķēšanas ekrānā</translation>
@@ -4203,7 +4203,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="6547354035488017500">Atbrīvojiet vismaz 512 MB vietas ierīcē, pretējā gadījumā tā nereaģēs. Lai atbrīvotu vietu, izdzēsiet failus no ierīces krātuves.</translation>
 <translation id="6097480669505687979">Ja netiks atbrīvota vieta, lietotāji un dati var tikt automātiski noņemti.</translation>
 <translation id="5438224778284622050">Vai dzēst bezsaistes failus?</translation>
-<translation id="9196021349904508454">Tiks dzēsti OneVN Software diskā īslaicīgi saglabātie bezsaistes faili. Faili, kurus esat iestatījis kā pieejamus bezsaistē, netiks dzēsti no šīs ierīces.</translation>
+<translation id="9196021349904508454">Tiks dzēsti Onevn Software diskā īslaicīgi saglabātie bezsaistes faili. Faili, kurus esat iestatījis kā pieejamus bezsaistē, netiks dzēsti no šīs ierīces.</translation>
 <translation id="1865678028973512614">Failu dzēšana</translation>
 <translation id="1529891865407786369">Barošanas avots</translation>
 <translation id="354060433403403521">Maiņstrāvas adapteris</translation>
@@ -4224,38 +4224,38 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="1889984860246851556">Atvērt starpniekservera iestatījumus</translation>
 <translation id="1940546824932169984">Pievienotās ierīces</translation>
 <translation id="3468999815377931311">Android tālrunis</translation>
-<translation id="2789927670850159391">Savienojiet OneVNbook datoru ar tālruni. <ph name="LINK_BEGIN"/>Uzziniet vairāk<ph name="LINK_END"/>.</translation>
+<translation id="2789927670850159391">Savienojiet Onevnbook datoru ar tālruni. <ph name="LINK_BEGIN"/>Uzziniet vairāk<ph name="LINK_END"/>.</translation>
 <translation id="1397500194120344683">Nav piemērotu ierīču. <ph name="LINK_BEGIN"/>Uzziniet vairāk<ph name="LINK_END"/>.</translation>
 <translation id="5739235828260127894">Tiek gaidīta verifikācija. <ph name="LINK_BEGIN"/>Uzziniet vairāk<ph name="LINK_END"/>.</translation>
 <translation id="6518133107902771759">Pārbaudīt</translation>
-<translation id="7179187931092694802">Atbloķējiet savu OneVNbook datoru, izmantojot tālruni. <ph name="LINK_BEGIN"/>Uzziniet vairāk<ph name="LINK_END"/>.</translation>
+<translation id="7179187931092694802">Atbloķējiet savu Onevnbook datoru, izmantojot tālruni. <ph name="LINK_BEGIN"/>Uzziniet vairāk<ph name="LINK_END"/>.</translation>
 <translation id="5430931332414098647">Tūlītēja piesaiste</translation>
 <translation id="6415900369006735853">Piekļūstiet internetam, izmantojot tālruni</translation>
 <translation id="4746351372139058112">Messages</translation>
-<translation id="2248072377758660530">Sūtiet īsziņas no sava OneVNbook datora, kā arī saņemiet īsziņas tajā. <ph name="LINK_BEGIN"/>Uzziniet vairāk<ph name="LINK_END"/>.</translation>
+<translation id="2248072377758660530">Sūtiet īsziņas no sava Onevnbook datora, kā arī saņemiet īsziņas tajā. <ph name="LINK_BEGIN"/>Uzziniet vairāk<ph name="LINK_END"/>.</translation>
 <translation id="5153234146675181447">Tālruņa aizmiršana</translation>
-<translation id="2307631131458143837">Atvienot tālruni no OneVNbook datora</translation>
-<translation id="1146102139091738471">Atvienojiet tālruni no OneVNbook datora. Tie vairs netiks automātiski savienoti.</translation>
+<translation id="2307631131458143837">Atvienot tālruni no Onevnbook datora</translation>
+<translation id="1146102139091738471">Atvienojiet tālruni no Onevnbook datora. Tie vairs netiks automātiski savienoti.</translation>
 <translation id="7878562273885520351">Iespējams, jūsu parole ir apdraudēta</translation>
 <translation id="1089439967362294234">Nomainīt paroli</translation>
-<translation id="6187156085111579405">Ja nepieciešams, tiks noņemti arī vienumi, kas nav norādīti šajā sarakstā. Lai uzzinātu vairāk par &lt;a href="<ph name="URL"/>"&gt;aizsardzību pret nevēlamu programmatūru&lt;/a&gt;, skatiet OneVN konfidencialitātes tehnisko dokumentu.</translation>
+<translation id="6187156085111579405">Ja nepieciešams, tiks noņemti arī vienumi, kas nav norādīti šajā sarakstā. Lai uzzinātu vairāk par &lt;a href="<ph name="URL"/>"&gt;aizsardzību pret nevēlamu programmatūru&lt;/a&gt;, skatiet Onevn konfidencialitātes tehnisko dokumentu.</translation>
 <translation id="5280174558369304332">Paplašinājumi, kas jānoņem:</translation>
 <translation id="7712836429117959503">Nezināms paplašinājums ar ID <ph name="EXTENSION_ID"/></translation>
 <translation id="3281892622610078515">Faili un programmas, kas jāievieto karantīnā:</translation>
 <translation id="8549457076611407730">{NUM_ITEMS,plural, =1{1 vienums}zero{# vienumu}one{# vienums}other{# vienumi}}</translation>
 <translation id="7187428571767585875">Noņemamie vai maināmie reģistra ieraksti:</translation>
 <translation id="4840150926623932060">{NUM_DOWNLOAD,plural, =1{Vēl 1}zero{Vēl #}one{Vēl #}other{Vēl #}}</translation>
-<translation id="2749608811030566578">Kamēr pārlūks OneVN mēģināja noņemt kaitīgu programmatūru, radās kļūda.</translation>
-<translation id="8189483132214844139">Pārlūks OneVN jūsu datorā var atrast kaitīgu programmatūru un noņemt to.</translation>
+<translation id="2749608811030566578">Kamēr pārlūks Onevn mēģināja noņemt kaitīgu programmatūru, radās kļūda.</translation>
+<translation id="8189483132214844139">Pārlūks Onevn jūsu datorā var atrast kaitīgu programmatūru un noņemt to.</translation>
 <translation id="2910318910161511225">Izveidojiet savienojumu ar tīklu un mēģiniet vēlreiz.</translation>
 <translation id="1426870617281699524">Noklikšķiniet uz “Mēģināt vēlreiz” un apstipriniet uzvedni savā datorā.</translation>
-<translation id="7886744396008377537">Jūsu datorā ir kaitīga programmatūra. Pārlūkprogramma OneVN to noņem, atjauno jūsu iestatījumus un atspējo paplašinājumus. Tādējādi jūsu pārlūkprogramma atkal normāli darbosies.</translation>
-<translation id="1484912962860902625">Kamēr pārlūks OneVN meklēja kaitīgu programmatūru, radās kļūda.</translation>
+<translation id="7886744396008377537">Jūsu datorā ir kaitīga programmatūra. Pārlūkprogramma Onevn to noņem, atjauno jūsu iestatījumus un atspējo paplašinājumus. Tādējādi jūsu pārlūkprogramma atkal normāli darbosies.</translation>
+<translation id="1484912962860902625">Kamēr pārlūks Onevn meklēja kaitīgu programmatūru, radās kļūda.</translation>
 <translation id="451407183922382411">Nodrošina <ph name="COMPANY_NAME"/></translation>
 <translation id="5254368820972107711">Rādīt noņemamos failus</translation>
 <translation id="296026337010986570">Gatavs! Kaitīgā programmatūra ir noņemta. Lai atkal ieslēgtu paplašinājumus, dodieties uz lapu &lt;a href="chrome://extensions"&gt;Paplašinājumi&lt;/a&gt;.</translation>
 <translation id="284975061945174219">Tīrīšana neizdevās</translation>
-<translation id="9014750448058570312">Pārlūkam OneVN ir nepieciešama atļauja turpināt</translation>
+<translation id="9014750448058570312">Pārlūkam Onevn ir nepieciešama atļauja turpināt</translation>
 <translation id="1852141627593563189">Atrodiet kaitīgu programmatūru</translation>
 <translation id="4320177379694898372">Nav interneta savienojuma.</translation>
 <translation id="850875081535031620">Netika atrasta neviena kaitīga programmatūra.</translation>
@@ -4265,11 +4265,11 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="8639047128869322042">Notiek kaitīgas programmatūras meklēšana...</translation>
 <translation id="2653033005692233957">Meklēšana neizdevās</translation>
 <translation id="655483977608336153">Mēģināt vēlreiz</translation>
-<translation id="8282772389915299166">Ziņojiet uzņēmumam OneVN Software par kaitīgu programmatūru, sistēmas iestatījumiem un procesiem, ko atradām jūsu datorā šīs tīrīšanas laikā.</translation>
+<translation id="8282772389915299166">Ziņojiet uzņēmumam Onevn Software par kaitīgu programmatūru, sistēmas iestatījumiem un procesiem, ko atradām jūsu datorā šīs tīrīšanas laikā.</translation>
 <translation id="6555810572223193255">Tīrīšana pašlaik nav pieejama</translation>
 <translation id="7117228822971127758">Lūdzu, vēlāk mēģiniet vēlreiz.</translation>
 <translation id="443475966875174318">Nesaderīgu lietojumprogrammu atjaunināšana vai noņemšana</translation>
-<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{Tālāk norādītā lietojumprogramma, iespējams, izraisa pārlūka OneVN nepareizu darbību.}zero{Tālāk norādītās lietojumprogrammas, iespējams, izraisa pārlūka OneVN nepareizu darbību.}one{Tālāk norādītās lietojumprogrammas, iespējams, izraisa pārlūka OneVN nepareizu darbību.}other{Tālāk norādītās lietojumprogrammas, iespējams, izraisa pārlūka OneVN nepareizu darbību.}}</translation>
+<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{Tālāk norādītā lietojumprogramma, iespējams, izraisa pārlūka Onevn nepareizu darbību.}zero{Tālāk norādītās lietojumprogrammas, iespējams, izraisa pārlūka Onevn nepareizu darbību.}one{Tālāk norādītās lietojumprogrammas, iespējams, izraisa pārlūka Onevn nepareizu darbību.}other{Tālāk norādītās lietojumprogrammas, iespējams, izraisa pārlūka Onevn nepareizu darbību.}}</translation>
 <translation id="599131315899248751">{NUM_APPLICATIONS,plural, =1{Lai nodrošinātu iespēju turpmāk pārlūkot tīmekli, palūdziet administratoram noņemt šo lietojumprogrammu.}zero{Lai nodrošinātu iespēju turpmāk pārlūkot tīmekli, palūdziet administratoram noņemt šīs lietojumprogrammas.}one{Lai nodrošinātu iespēju turpmāk pārlūkot tīmekli, palūdziet administratoram noņemt šīs lietojumprogrammas.}other{Lai nodrošinātu iespēju turpmāk pārlūkot tīmekli, palūdziet administratoram noņemt šīs lietojumprogrammas.}}</translation>
 <translation id="4743260470722568160"><ph name="BEGIN_LINK"/>Uzzināt, kā atjaunināt lietojumprogrammas<ph name="END_LINK"/></translation>
 <translation id="964439421054175458">{NUM_APLLICATIONS,plural, =1{Lietojumprogramma}zero{Lietojumprogrammas}one{Lietojumprogrammas}other{Lietojumprogrammas}}</translation>
@@ -4346,7 +4346,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="6370021412472292592">Nevarēja ielādēt manifestu.</translation>
 <translation id="7235716375204803342">Notiek darbību iegūšana...</translation>
 <translation id="7647403192093989392">Nav nesen veiktu darbību</translation>
-<translation id="38046578254905003">Atrodiet paplašinājumus un motīvus <ph name="BEGIN_LINK"/>OneVN interneta veikalā<ph name="END_LINK"/></translation>
+<translation id="38046578254905003">Atrodiet paplašinājumus un motīvus <ph name="BEGIN_LINK"/>Onevn interneta veikalā<ph name="END_LINK"/></translation>
 <translation id="7272674038937250585">Apraksts nav sniegts.</translation>
 <translation id="3855441664322950881">Pakot paplašinājumu</translation>
 <translation id="2958721676848865875">Paplašinājuma pakošanas brīdinājums</translation>
@@ -4358,7 +4358,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="1992397118740194946">Nav iestatīts</translation>
 <translation id="6706210727756204531">Tvērums</translation>
 <translation id="5532223876348815659">Visā pasaulē</translation>
-<translation id="300669147395456190">OneVN lietotnes</translation>
+<translation id="300669147395456190">Onevn lietotnes</translation>
 <translation id="6787839852456839824">Īsinājumtaustiņi</translation>
 <translation id="6419546358665792306">Ielādēt atpakotu</translation>
 <translation id="8023801379949507775">Atjaunināt paplašinājumus tūlīt</translation>
@@ -4387,7 +4387,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="742130257665691897">Grāmatzīmes tika noņemtas</translation>
 <translation id="2785008241190445880">Grāmatzīme ir aizstāta</translation>
 <translation id="4320948194796820126">Pievienojiet grāmatzīmi savam e-pastam</translation>
-<translation id="2950533317914339731">Pievienojiet grāmatzīmes savām iecienītajām OneVN Software lietotnēm</translation>
+<translation id="2950533317914339731">Pievienojiet grāmatzīmes savām iecienītajām Onevn Software lietotnēm</translation>
 <translation id="3409785640040772790">Maps</translation>
 <translation id="6709133671862442373">Ziņas</translation>
 <translation id="995782501881226248">YouTube</translation>
@@ -4399,12 +4399,12 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="5033266061063942743">Ģeometriskas formas</translation>
 <translation id="7789963078219276159">Sākumlapas fons tika nomainīts uz <ph name="CATEGORY"/>.</translation>
 <translation id="8771300903067484968">Sākumlapas fons ir atiestatīts uz noklusējuma fonu.</translation>
-<translation id="239760341987199724">Iestatīt OneVN kā noklusējuma pārlūku</translation>
-<translation id="96037229054033864">Iegūstiet iespēju izmantot OneVN Software meklēšanu un OneVN Software viedās tehnoloģijas katrā pārlūkošanas reizē</translation>
-<translation id="296137235951584143">Pielāgojiet OneVN savām prasībām</translation>
+<translation id="239760341987199724">Iestatīt Onevn kā noklusējuma pārlūku</translation>
+<translation id="96037229054033864">Iegūstiet iespēju izmantot Onevn Software meklēšanu un Onevn Software viedās tehnoloģijas katrā pārlūkošanas reizē</translation>
+<translation id="296137235951584143">Pielāgojiet Onevn savām prasībām</translation>
 <translation id="3982375475032951137">Iestatiet pārlūku, veicot dažas vienkāršas darbības</translation>
 <translation id="6972754398087986839">Sākt darbu</translation>
-<translation id="3707821975049107110">Vai esat OneVN lietotājs? Pierakstieties!</translation>
+<translation id="3707821975049107110">Vai esat Onevn lietotājs? Pierakstieties!</translation>
 <translation id="1573150740912592860">Paveiktā saglabāšana</translation>
 <translation id="567643736130151854">Pierakstieties un ieslēdziet sinhronizāciju, lai iegūtu savas grāmatzīmes, paroles un citus iestatījumus visās ierīcēs</translation>
 <translation id="8282356762694872144">Vai pāriet uz e-pastu?</translation>
@@ -4413,7 +4413,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="5877584842898320529">Atlasītais printeris nav pieejams vai nav instalēts pareizi. <ph name="BR"/> Pārbaudiet savu printeri vai pamēģiniet atlasīt citu printeri.</translation>
 <translation id="1031362278801463162">Notiek priekšskatījuma ielāde</translation>
 <translation id="6147020289383635445">Drukas priekšskatījumu neizdevās izveidot.</translation>
-<translation id="7413400642818115607">Atlasītā OneVN Software mākoņdrukas ierīce vairs netiek atbalstīta. <ph name="BR"/> Mēģiniet iestatīt printeri sava datora sistēmas iestatījumos.</translation>
+<translation id="7413400642818115607">Atlasītā Onevn Software mākoņdrukas ierīce vairs netiek atbalstīta. <ph name="BR"/> Mēģiniet iestatīt printeri sava datora sistēmas iestatījumos.</translation>
 <translation id="5828633471261496623">Notiek drukāšana...</translation>
 <translation id="6295855836753816081">Notiek saglabāšana...</translation>
 <translation id="3587482841069643663">Visi</translation>
@@ -4430,7 +4430,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="3706463572498736864">Lapas loksnē</translation>
 <translation id="2249605167705922988">piem., 1-5, 8, 11-13</translation>
 <translation id="5746169159649715125">Saglabāt kā PDF failu</translation>
-<translation id="1955272076204612657">Saglabāt OneVN Software diskā</translation>
+<translation id="1955272076204612657">Saglabāt Onevn Software diskā</translation>
 <translation id="2580924999637585241">Kopā: <ph name="NUMBER_OF_SHEETS"/> <ph name="SHEETS_LABEL"/></translation>
 <translation id="4091434297613116013">papīra lapas</translation>
 <translation id="8813811964357448561">papīra loksne</translation>
@@ -4459,7 +4459,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="6991665348624301627">Printera atlase</translation>
 <translation id="8800004011501252845">Tiek rādīti printeri šim:</translation>
 <translation id="8996526648899750015">Pievienot kontu...</translation>
-<translation id="5002959368039764681">Drukāt pakalpojumā OneVN Software dokumenti un citos mākoņa galamērķos. <ph name="BEGIN_LINK"/>Pierakstieties<ph name="END_LINK"/>, lai drukātu, izmantojot OneVN Software mākoņdruku.</translation>
+<translation id="5002959368039764681">Drukāt pakalpojumā Onevn Software dokumenti un citos mākoņa galamērķos. <ph name="BEGIN_LINK"/>Pierakstieties<ph name="END_LINK"/>, lai drukātu, izmantojot Onevn Software mākoņdruku.</translation>
 <translation id="2150139952286079145">Meklēt printerus</translation>
 <translation id="8569682776816196752">Neatrada nevienu galamērķi.</translation>
 <translation id="7885253890047913815">Nesenie printeri</translation>
@@ -4517,7 +4517,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="7574650250151586813">Lai ievadītu tekstu, atjauniniet Daydream tastatūras lietotni</translation>
 <translation id="983511809958454316">Šī funkcija virtuālajā realitātē netiek atbalstīta</translation>
 <translation id="4008291085758151621">Virtuālajā realitātē vietnes informācija nav pieejama</translation>
-<translation id="1439926347196400598">Vai atļaut pārlūkam OneVN ierakstīt audio?</translation>
+<translation id="1439926347196400598">Vai atļaut pārlūkam Onevn ierakstīt audio?</translation>
 <translation id="6313641880021325787">IZIET NO VR</translation>
 <translation id="2670429602441959756">Šajā lapā ir funkcijas, kas vēl netiek atbalstītas virtuālajā realitātē. Notiek aizvēršana...</translation>
 <translation id="1802687198411089702">Lapa nereaģē. Varat uzgaidīt vai iziet no lapas.</translation>

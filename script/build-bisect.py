@@ -180,13 +180,13 @@ def install(download_dir, path):
         result_lines = result.splitlines()
         for x in result_lines:
             x = x.strip()
-            index = x.find('/Volumes/OneVN')
+            index = x.find('/Volumes/Onevn')
             if index > -1:
                 volume = x[index:]
                 break
 
         if volume is None:
-            raise Exception('[ERROR] did not find "/Volumes/OneVN" sub-string in mount list!\n \
+            raise Exception('[ERROR] did not find "/Volumes/Onevn" sub-string in mount list!\n \
                              Full response from "hdiutil":\n' + result)
 
         print('-> mounted as "' + volume + '"')

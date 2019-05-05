@@ -6,7 +6,7 @@
 #include "../../../../../chrome/installer/setup/setup_main.cc"
 #undef wWinMain
 
-const char kOneVNReferralCode[] = "onevn-referral-code";
+const char kOnevnReferralCode[] = "onevn-referral-code";
 
 int WINAPI wWinMain(HINSTANCE instance, HINSTANCE prev_instance,
                     wchar_t* command_line, int show_command) {
@@ -14,9 +14,9 @@ int WINAPI wWinMain(HINSTANCE instance, HINSTANCE prev_instance,
                                           show_command);
   if (!return_code) {
     const base::CommandLine& cmd_line = *base::CommandLine::ForCurrentProcess();
-    if (cmd_line.HasSwitch(kOneVNReferralCode)) {
+    if (cmd_line.HasSwitch(kOnevnReferralCode)) {
       const std::string referral_code =
-          cmd_line.GetSwitchValueASCII(kOneVNReferralCode);
+          cmd_line.GetSwitchValueASCII(kOnevnReferralCode);
       if (!referral_code.empty()) {
         base::FilePath user_data_dir;
         base::PathService::Get(chrome::DIR_USER_DATA, &user_data_dir);

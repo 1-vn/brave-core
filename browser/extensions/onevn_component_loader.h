@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -12,18 +12,18 @@
 #include "chrome/browser/extensions/component_loader.h"
 #include "components/prefs/pref_change_registrar.h"
 
-class OneVNComponentLoaderTest;
+class OnevnComponentLoaderTest;
 
 namespace extensions {
 
 // For registering, loading, and unloading component extensions.
-class OneVNComponentLoader : public ComponentLoader {
+class OnevnComponentLoader : public ComponentLoader {
  public:
-  OneVNComponentLoader(ExtensionServiceInterface* extension_service,
+  OnevnComponentLoader(ExtensionServiceInterface* extension_service,
                   PrefService* prefs,
                   PrefService* local_state,
                   Profile* browser_context);
-  ~OneVNComponentLoader() override;
+  ~OnevnComponentLoader() override;
 
   // Adds the default component extensions. If |skip_session_components|
   // the loader will skip loading component extensions that weren't supposed to
@@ -45,7 +45,7 @@ class OneVNComponentLoader : public ComponentLoader {
 
  private:
   void AddHangoutServicesExtension() override;
-  friend class ::OneVNComponentLoaderTest;
+  friend class ::OnevnComponentLoaderTest;
   void ObserveOpenPdfExternallySetting();
   // Callback for changes to the AlwaysOpenPdfExternally setting.
   void UpdatePdfExtension(const std::string& pref_name);
@@ -65,7 +65,7 @@ class OneVNComponentLoader : public ComponentLoader {
   PrefService* profile_prefs_;
   PrefChangeRegistrar registrar_;
   TestingCallbacks* testing_callbacks_;
-  DISALLOW_COPY_AND_ASSIGN(OneVNComponentLoader);
+  DISALLOW_COPY_AND_ASSIGN(OnevnComponentLoader);
 };
 
 }  // namespace extensions

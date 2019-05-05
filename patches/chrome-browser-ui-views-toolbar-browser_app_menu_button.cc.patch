@@ -15,7 +15,7 @@ index 22ac7e15a6660db1e945237db566761a3f0c7bc8..9e7a1930e8a0c11084749bdca288347e
    base::TimeTicks menu_open_time = base::TimeTicks::Now();
    RunMenu(
 -      std::make_unique<AppMenuModel>(toolbar_view_, browser,
-+      std::make_unique<OneVNAppMenuModel>(toolbar_view_, browser,
++      std::make_unique<OnevnAppMenuModel>(toolbar_view_, browser,
                                       toolbar_view_->app_menu_icon_controller()),
        browser, for_drop ? AppMenu::FOR_DROP : AppMenu::NO_FLAGS,
        alert_reopen_tab_items);

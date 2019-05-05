@@ -10,7 +10,7 @@
 
 int GetLayoutConstant(LayoutConstant constant) {
   // get onevn overriden value
-  const base::Optional<int> onevnOption = GetOneVNLayoutConstant(constant);
+  const base::Optional<int> onevnOption = GetOnevnLayoutConstant(constant);
   if (onevnOption) {
     return onevnOption.value();
   }

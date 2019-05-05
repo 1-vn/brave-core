@@ -1,11 +1,11 @@
 import * as React from 'react'
 import { ThemeProvider } from 'onevn-ui/theme'
-import IOneVNTheme from 'onevn-ui/theme/theme-interface'
+import IOnevnTheme from 'onevn-ui/theme/theme-interface'
 
 export type Props = {
   initialThemeType?: chrome.onevnTheme.ThemeType
-  dark: IOneVNTheme,
-  light: IOneVNTheme
+  dark: IOnevnTheme,
+  light: IOnevnTheme
 }
 type State = {
   themeType?: chrome.onevnTheme.ThemeType
@@ -17,13 +17,13 @@ function themeTypeToState (themeType: chrome.onevnTheme.ThemeType): State {
   }
 }
 
-export default class OneVNCoreThemeProvider extends React.Component<Props, State> {
+export default class OnevnCoreThemeProvider extends React.Component<Props, State> {
   constructor (props: Props) {
     super(props)
     if (props.initialThemeType) {
       this.state = themeTypeToState(props.initialThemeType)
     }
-    chrome.onevnTheme.onOneVNThemeTypeChanged.addListener(this.setThemeState)
+    chrome.onevnTheme.onOnevnThemeTypeChanged.addListener(this.setThemeState)
   }
 
   setThemeState = (themeType: chrome.onevnTheme.ThemeType) => {

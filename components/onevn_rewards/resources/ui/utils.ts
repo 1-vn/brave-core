@@ -127,9 +127,9 @@ export const donationTotal = (report: Rewards.Report) => {
 }
 
 export const constructBackupString = (backupKey: string) => {
-  return `OneVN Wallet Recovery Key\nDate created: ${new Date(Date.now()).toLocaleDateString()} \n\nRecovery Key: ${backupKey}` +
-    '\n\nNote: This key is not stored on OneVN servers. ' +
-    'This key is your only method of recovering your OneVN wallet. ' +
-    'Save this key in a safe place, separate from your OneVN browser. ' +
+  return `Onevn Wallet Recovery Key\nDate created: ${new Date(Date.now()).toLocaleDateString()} \n\nRecovery Key: ${backupKey}` +
+    '\n\nNote: This key is not stored on Onevn servers. ' +
+    'This key is your only method of recovering your Onevn wallet. ' +
+    'Save this key in a safe place, separate from your Onevn browser. ' +
     'Make sure you keep this key private, or else your wallet will be compromised.'
 }

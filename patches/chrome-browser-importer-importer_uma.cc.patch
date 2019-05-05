@@ -10,7 +10,7 @@ index da87e84ffe7c2193ea16d24f1ee1174c51c9503f..fb80acdfd3997df06189334a8575f394
 +      // TODO: Wire this up if we want to record metrics on users who import from Chrome
 +      break;
 +    case TYPE_ONEVN:
-+      // TODO: Wire this up if we want to record metrics on users who import from OneVN
++      // TODO: Wire this up if we want to record metrics on users who import from Onevn
 +      break;
    }
  

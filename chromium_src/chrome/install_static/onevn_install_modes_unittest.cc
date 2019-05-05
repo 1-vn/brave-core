@@ -119,7 +119,7 @@ TEST(InstallModes, GetClientsKeyPath) {
 
   if (kUseGoogleUpdateIntegration) {
     ASSERT_THAT(GetClientsKeyPath(kAppGuid),
-                StrEq(L"Software\\OneVNSoftware\\Update\\Clients\\test"));
+                StrEq(L"Software\\OnevnSoftware\\Update\\Clients\\test"));
   } else {
     ASSERT_THAT(GetClientsKeyPath(kAppGuid),
                 StrEq(std::wstring(L"Software\\").append(kProductPathName)));
@@ -131,7 +131,7 @@ TEST(InstallModes, GetClientStateKeyPath) {
 
   if (kUseGoogleUpdateIntegration) {
     ASSERT_THAT(GetClientStateKeyPath(kAppGuid),
-                StrEq(L"Software\\OneVNSoftware\\Update\\ClientState\\test"));
+                StrEq(L"Software\\OnevnSoftware\\Update\\ClientState\\test"));
   } else {
     ASSERT_THAT(GetClientStateKeyPath(kAppGuid),
                 StrEq(std::wstring(L"Software\\").append(kProductPathName)));
@@ -142,7 +142,7 @@ TEST(InstallModes, GetBinariesClientsKeyPath) {
   if (kUseGoogleUpdateIntegration) {
     ASSERT_THAT(
         GetBinariesClientsKeyPath(),
-        StrEq(std::wstring(L"Software\\OneVNSoftware\\Update\\Clients\\")
+        StrEq(std::wstring(L"Software\\OnevnSoftware\\Update\\Clients\\")
                   .append(kBinariesAppGuid)));
   } else {
     ASSERT_THAT(
@@ -155,7 +155,7 @@ TEST(InstallModes, GetBinariesClientStateKeyPath) {
   if (kUseGoogleUpdateIntegration) {
     ASSERT_THAT(
         GetBinariesClientStateKeyPath(),
-        StrEq(std::wstring(L"Software\\OneVNSoftware\\Update\\ClientState\\")
+        StrEq(std::wstring(L"Software\\OnevnSoftware\\Update\\ClientState\\")
                   .append(kBinariesAppGuid)));
   } else {
     ASSERT_THAT(GetBinariesClientStateKeyPath(),
@@ -169,7 +169,7 @@ TEST(InstallModes, GetClientStateMediumKeyPath) {
   if (kUseGoogleUpdateIntegration) {
     ASSERT_THAT(
         GetClientStateMediumKeyPath(kAppGuid),
-        StrEq(L"Software\\OneVNSoftware\\Update\\ClientStateMedium\\test"));
+        StrEq(L"Software\\OnevnSoftware\\Update\\ClientStateMedium\\test"));
   } else {
     ASSERT_THAT(GetClientStateMediumKeyPath(kAppGuid),
                 StrEq(std::wstring(L"Software\\").append(kProductPathName)));
@@ -180,7 +180,7 @@ TEST(InstallModes, GetBinariesClientStateMediumKeyPath) {
   if (kUseGoogleUpdateIntegration) {
     ASSERT_THAT(
         GetBinariesClientStateMediumKeyPath(),
-        StrEq(std::wstring(L"Software\\OneVNSoftware\\Update\\"
+        StrEq(std::wstring(L"Software\\OnevnSoftware\\Update\\"
                             "ClientStateMedium\\").append(kBinariesAppGuid)));
   } else {
     ASSERT_THAT(GetBinariesClientStateMediumKeyPath(),

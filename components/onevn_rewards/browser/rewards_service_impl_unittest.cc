@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -64,7 +64,7 @@ class RewardsServiceTest : public testing::Test {
  protected:
   void SetUp() override {
     ASSERT_TRUE(temp_dir_.CreateUniqueTempDir());
-    profile_ = CreateOneVNRewardsProfile(temp_dir_.GetPath());
+    profile_ = CreateOnevnRewardsProfile(temp_dir_.GetPath());
     ASSERT_TRUE(profile_.get() != NULL);
     rewards_service_ = static_cast<RewardsServiceImpl*>(
         RewardsServiceFactory::GetForProfile(profile()));

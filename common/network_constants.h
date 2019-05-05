@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -6,12 +6,12 @@
 #ifndef ONEVN_COMMON_NETWORK_CONSTANTS_H_
 #define ONEVN_COMMON_NETWORK_CONSTANTS_H_
 
-extern const char kOneVNUpdatesExtensionsEndpoint[];
+extern const char kOnevnUpdatesExtensionsEndpoint[];
 
-extern const char kOneVNReferralsServer[];
-extern const char kOneVNReferralsHeadersPath[];
-extern const char kOneVNReferralsInitPath[];
-extern const char kOneVNReferralsActivityPath[];
+extern const char kOnevnReferralsServer[];
+extern const char kOnevnReferralsHeadersPath[];
+extern const char kOnevnReferralsInitPath[];
+extern const char kOnevnReferralsActivityPath[];
 
 extern const char kCRXDownloadPrefix[];
 extern const char kEmptyDataURI[];
@@ -34,7 +34,7 @@ extern const char kTwitterRedirectURL[];
 extern const char kCookieHeader[];
 extern const char kRefererHeader[];
 extern const char kUserAgentHeader[];
-extern const char kOneVNPartnerHeader[];
+extern const char kOnevnPartnerHeader[];
 
 extern const char kBittorrentMimeType[];
 extern const char kOctetStreamMimeType[];

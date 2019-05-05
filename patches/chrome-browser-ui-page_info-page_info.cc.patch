@@ -6,7 +6,7 @@ index 44cb3ac172a0dc3adc9f8984f41ec25e102517a9..a60c6370677f5af34e1f511c0502dc1a
      HostContentSettingsMap* content_settings,
      content::WebContents* web_contents,
      TabSpecificContentSettings* tab_specific_content_settings) {
-+  if (!OneVNShouldShowPermission(info, web_contents)) return false;
++  if (!OnevnShouldShowPermission(info, web_contents)) return false;
    // Note |CONTENT_SETTINGS_TYPE_ADS| will show up regardless of its default
    // value when it has been activated on the current origin.
    if (info.type == CONTENT_SETTINGS_TYPE_ADS) {

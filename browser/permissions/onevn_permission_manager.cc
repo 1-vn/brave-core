@@ -6,7 +6,7 @@
 
 #include "onevn/browser/autoplay/autoplay_permission_context.h"
 
-OneVNPermissionManager::OneVNPermissionManager(Profile* profile)
+OnevnPermissionManager::OnevnPermissionManager(Profile* profile)
   : PermissionManager(profile) {
   permission_contexts_[CONTENT_SETTINGS_TYPE_AUTOPLAY] =
       std::make_unique<AutoplayPermissionContext>(profile);

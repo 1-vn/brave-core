@@ -9,13 +9,13 @@
 
 namespace extensions {
 
-class OneVNComponentExtensionResourceManager
+class OnevnComponentExtensionResourceManager
     : public ChromeComponentExtensionResourceManager {
  public:
-  OneVNComponentExtensionResourceManager();
-  ~OneVNComponentExtensionResourceManager() override;
+  OnevnComponentExtensionResourceManager();
+  ~OnevnComponentExtensionResourceManager() override;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNComponentExtensionResourceManager);
+  DISALLOW_COPY_AND_ASSIGN(OnevnComponentExtensionResourceManager);
 };
 
 }  // namespace extensions

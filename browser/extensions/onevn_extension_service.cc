@@ -11,7 +11,7 @@
 
 namespace extensions {
 
-OneVNExtensionService::OneVNExtensionService(Profile* profile,
+OnevnExtensionService::OnevnExtensionService(Profile* profile,
     const base::CommandLine* command_line,
     const base::FilePath& install_directory,
     ExtensionPrefs* extension_prefs,
@@ -23,18 +23,18 @@ OneVNExtensionService::OneVNExtensionService(Profile* profile,
         blacklist, autoupdate_enabled, extensions_enabled, ready) {
 }
 
-OneVNExtensionService::~OneVNExtensionService() {
+OnevnExtensionService::~OnevnExtensionService() {
 }
 
-void OneVNExtensionService::AddComponentExtension(const Extension* extension) {
+void OnevnExtensionService::AddComponentExtension(const Extension* extension) {
   ExtensionService::AddComponentExtension(extension);
 
-  // Disable OneVN Rewards extension action for Guest and Tor profiles on all
+  // Disable Onevn Rewards extension action for Guest and Tor profiles on all
   // tabs right after loading the extension for these profiles. Can't do the
   // same for the regular off the record (incognito) profile as there doesn't
   // appear to be a separate from the regular profile action manager for it, so
   // disabling it would apply to the regular profile as well. Instead, catch
-  // the extension when OneVNActionViewController is queried about the
+  // the extension when OnevnActionViewController is queried about the
   // visibility of the action.
   if ((extension->id() == onevn_rewards_extension_id) &&
       (profile_->IsGuestSession() || profile_->IsTorProfile())) {

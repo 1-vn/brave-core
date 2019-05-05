@@ -1,4 +1,4 @@
-/* Copyright 2019 The OneVN Authors. All rights reserved.
+/* Copyright 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -22,36 +22,36 @@
 namespace onevn_sync {
 
 // static
-OneVNSyncService* OneVNSyncServiceFactory::GetForProfile(Profile* profile) {
+OnevnSyncService* OnevnSyncServiceFactory::GetForProfile(Profile* profile) {
   if (profile->IsOffTheRecord())
     return NULL;
 
-  return static_cast<OneVNSyncService*>(
+  return static_cast<OnevnSyncService*>(
       GetInstance()->GetServiceForBrowserContext(profile, true));
 }
 
 // static
-OneVNSyncServiceFactory* OneVNSyncServiceFactory::GetInstance() {
-  return base::Singleton<OneVNSyncServiceFactory>::get();
+OnevnSyncServiceFactory* OnevnSyncServiceFactory::GetInstance() {
+  return base::Singleton<OnevnSyncServiceFactory>::get();
 }
 
-OneVNSyncServiceFactory::OneVNSyncServiceFactory()
+OnevnSyncServiceFactory::OnevnSyncServiceFactory()
     : BrowserContextKeyedServiceFactory(
-        "OneVNSyncService",
+        "OnevnSyncService",
         BrowserContextDependencyManager::GetInstance()) {
   DependsOn(BookmarkModelFactory::GetInstance());
 }
 
-OneVNSyncServiceFactory::~OneVNSyncServiceFactory() = default;
+OnevnSyncServiceFactory::~OnevnSyncServiceFactory() = default;
 
-KeyedService* OneVNSyncServiceFactory::BuildServiceInstanceFor(
+KeyedService* OnevnSyncServiceFactory::BuildServiceInstanceFor(
     content::BrowserContext* context) const {
-  std::unique_ptr<OneVNSyncServiceImpl> onevn_sync_service(
-      new OneVNSyncServiceImpl(Profile::FromBrowserContext(context)));
+  std::unique_ptr<OnevnSyncServiceImpl> onevn_sync_service(
+      new OnevnSyncServiceImpl(Profile::FromBrowserContext(context)));
   return onevn_sync_service.release();
 }
 
-void OneVNSyncServiceFactory::RegisterProfilePrefs(
+void OnevnSyncServiceFactory::RegisterProfilePrefs(
     user_prefs::PrefRegistrySyncable* registry) {
   registry->RegisterStringPref(prefs::kSyncDeviceId, std::string());
   registry->RegisterStringPref(prefs::kSyncSeed, std::string());
@@ -72,12 +72,12 @@ void OneVNSyncServiceFactory::RegisterProfilePrefs(
   registry->RegisterIntegerPref(prefs::kSyncMigrateBookmarksVersion, 0);
 }
 
-content::BrowserContext* OneVNSyncServiceFactory::GetBrowserContextToUse(
+content::BrowserContext* OnevnSyncServiceFactory::GetBrowserContextToUse(
     content::BrowserContext* context) const {
   return chrome::GetBrowserContextRedirectedInIncognito(context);
 }
 
-bool OneVNSyncServiceFactory::ServiceIsNULLWhileTesting() const {
+bool OnevnSyncServiceFactory::ServiceIsNULLWhileTesting() const {
   return false;
 }
 

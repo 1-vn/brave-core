@@ -128,10 +128,10 @@ private:
 
 } //namespace
 
-class OneVNPDFDownloadTest : public extensions::ExtensionFunctionalTest {
+class OnevnPDFDownloadTest : public extensions::ExtensionFunctionalTest {
 public:
-  OneVNPDFDownloadTest() = default;
-  ~OneVNPDFDownloadTest() override = default;
+  OnevnPDFDownloadTest() = default;
+  ~OnevnPDFDownloadTest() override = default;
 
 protected:
   bool ShouldEnableInstallVerification() override {
@@ -172,7 +172,7 @@ protected:
   }
 };
 
-IN_PROC_BROWSER_TEST_F(OneVNPDFDownloadTest, VerifyChromiumPDFExntension) {
+IN_PROC_BROWSER_TEST_F(OnevnPDFDownloadTest, VerifyChromiumPDFExntension) {
   // On Win and Mac extension install verification puts blacklisted
   // Chromium PDF extension into disabled extensions.
 #if (defined(OS_WIN) || defined(OS_MACOSX))
@@ -188,7 +188,7 @@ IN_PROC_BROWSER_TEST_F(OneVNPDFDownloadTest, VerifyChromiumPDFExntension) {
   EXPECT_EQ(helper.id(), std::string());
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNPDFDownloadTest, DownloadPDF) {
+IN_PROC_BROWSER_TEST_F(OnevnPDFDownloadTest, DownloadPDF) {
   ExtensionRegistry* registry =
       ExtensionRegistry::Get(browser()->profile());
   CheckPDFJSExtensionNotLoaded(registry);

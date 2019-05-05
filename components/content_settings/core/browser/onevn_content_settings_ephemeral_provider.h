@@ -9,11 +9,11 @@
 
 namespace content_settings {
 
-// See the comments of OneVNPrefProvider.
-class OneVNEphemeralProvider : public EphemeralProvider {
+// See the comments of OnevnPrefProvider.
+class OnevnEphemeralProvider : public EphemeralProvider {
  public:
   using EphemeralProvider::EphemeralProvider;
-  ~OneVNEphemeralProvider() override {}
+  ~OnevnEphemeralProvider() override {}
 
  private:
   // EphemeralProvider overrides:
@@ -23,7 +23,7 @@ class OneVNEphemeralProvider : public EphemeralProvider {
                          const ResourceIdentifier& resource_identifier,
                          base::Value* value) override;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNEphemeralProvider);
+  DISALLOW_COPY_AND_ASSIGN(OnevnEphemeralProvider);
 };
 
 }  // namespace content_settings

@@ -126,7 +126,7 @@ void DispatchOnUI(
 
 int OnBeforeURLRequest(
   const onevn::ResponseCallback& next_callback,
-  std::shared_ptr<onevn::OneVNRequestInfo> ctx) {
+  std::shared_ptr<onevn::OnevnRequestInfo> ctx) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::IO);
 
   if (IsMediaLink(ctx->request_url,

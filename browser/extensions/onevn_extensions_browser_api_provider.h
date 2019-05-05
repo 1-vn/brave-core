@@ -10,15 +10,15 @@
 
 namespace extensions {
 
-class OneVNExtensionsBrowserAPIProvider : public ExtensionsBrowserAPIProvider {
+class OnevnExtensionsBrowserAPIProvider : public ExtensionsBrowserAPIProvider {
  public:
-  OneVNExtensionsBrowserAPIProvider();
-  ~OneVNExtensionsBrowserAPIProvider() override;
+  OnevnExtensionsBrowserAPIProvider();
+  ~OnevnExtensionsBrowserAPIProvider() override;
 
   void RegisterExtensionFunctions(ExtensionFunctionRegistry* registry) override;
 
  private:
-  DISALLOW_COPY_AND_ASSIGN(OneVNExtensionsBrowserAPIProvider);
+  DISALLOW_COPY_AND_ASSIGN(OnevnExtensionsBrowserAPIProvider);
 };
 
 }  // namespace extensions

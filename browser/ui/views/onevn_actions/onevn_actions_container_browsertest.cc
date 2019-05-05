@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -24,10 +24,10 @@
 #include "content/public/browser/notification_service.h"
 #include "content/public/test/test_utils.h"
 
-class OneVNActionsContainerTest : public InProcessBrowserTest {
+class OnevnActionsContainerTest : public InProcessBrowserTest {
  public:
-  OneVNActionsContainerTest() = default;
-  ~OneVNActionsContainerTest() override = default;
+  OnevnActionsContainerTest() = default;
+  ~OnevnActionsContainerTest() override = default;
 
   void SetUpOnMainThread() override {
     Init(browser());
@@ -37,64 +37,64 @@ class OneVNActionsContainerTest : public InProcessBrowserTest {
     BrowserView* browser_view =
         BrowserView::GetBrowserViewForBrowser(browser);
     ASSERT_NE(browser_view, nullptr);
-    OneVNLocationBarView* onevn_location_bar_view =
-        static_cast<OneVNLocationBarView*>(browser_view->GetLocationBarView());
+    OnevnLocationBarView* onevn_location_bar_view =
+        static_cast<OnevnLocationBarView*>(browser_view->GetLocationBarView());
     ASSERT_NE(onevn_location_bar_view, nullptr);
     onevn_actions_ = onevn_location_bar_view->onevn_actions_;
     ASSERT_NE(onevn_actions_, nullptr);
     prefs_ = browser->profile()->GetPrefs();
   }
 
-  void CheckOneVNRewardsActionShown(bool expected_shown) {
+  void CheckOnevnRewardsActionShown(bool expected_shown) {
     const bool shown =
         onevn_actions_->IsActionShown(onevn_rewards_extension_id);
     ASSERT_EQ(shown, expected_shown);
   }
 
  protected:
-  OneVNActionsContainer* onevn_actions_;
+  OnevnActionsContainer* onevn_actions_;
   PrefService* prefs_;
-  DISALLOW_COPY_AND_ASSIGN(OneVNActionsContainerTest);
+  DISALLOW_COPY_AND_ASSIGN(OnevnActionsContainerTest);
 };
 
-IN_PROC_BROWSER_TEST_F(OneVNActionsContainerTest, HideOneVNRewardsAction) {
+IN_PROC_BROWSER_TEST_F(OnevnActionsContainerTest, HideOnevnRewardsAction) {
   // By default the action should be shown.
-  EXPECT_FALSE(prefs_->GetBoolean(onevn_rewards::prefs::kOneVNRewardsEnabled));
-  EXPECT_FALSE(prefs_->GetBoolean(kHideOneVNRewardsButton));
-  CheckOneVNRewardsActionShown(true);
+  EXPECT_FALSE(prefs_->GetBoolean(onevn_rewards::prefs::kOnevnRewardsEnabled));
+  EXPECT_FALSE(prefs_->GetBoolean(kHideOnevnRewardsButton));
+  CheckOnevnRewardsActionShown(true);
 
   // Set to hide.
-  prefs_->SetBoolean(kHideOneVNRewardsButton, true);
-  CheckOneVNRewardsActionShown(false);
+  prefs_->SetBoolean(kHideOnevnRewardsButton, true);
+  CheckOnevnRewardsActionShown(false);
 
   // Set to show.
-  prefs_->SetBoolean(kHideOneVNRewardsButton, false);
-  CheckOneVNRewardsActionShown(true);
+  prefs_->SetBoolean(kHideOnevnRewardsButton, false);
+  CheckOnevnRewardsActionShown(true);
 
   // Set to hide.
-  prefs_->SetBoolean(kHideOneVNRewardsButton, true);
-  CheckOneVNRewardsActionShown(false);
+  prefs_->SetBoolean(kHideOnevnRewardsButton, true);
+  CheckOnevnRewardsActionShown(false);
 
-  // Enable OneVN Rewards.
-  prefs_->SetBoolean(onevn_rewards::prefs::kOneVNRewardsEnabled, true);
-  CheckOneVNRewardsActionShown(true);
+  // Enable Onevn Rewards.
+  prefs_->SetBoolean(onevn_rewards::prefs::kOnevnRewardsEnabled, true);
+  CheckOnevnRewardsActionShown(true);
 
   // Toggle to show and back to hide.
-  prefs_->SetBoolean(kHideOneVNRewardsButton, false);
-  prefs_->SetBoolean(kHideOneVNRewardsButton, true);
-  CheckOneVNRewardsActionShown(true);
+  prefs_->SetBoolean(kHideOnevnRewardsButton, false);
+  prefs_->SetBoolean(kHideOnevnRewardsButton, true);
+  CheckOnevnRewardsActionShown(true);
 
-  // Disable OneVN Rewards.
-  prefs_->SetBoolean(onevn_rewards::prefs::kOneVNRewardsEnabled, false);
-  CheckOneVNRewardsActionShown(false);
+  // Disable Onevn Rewards.
+  prefs_->SetBoolean(onevn_rewards::prefs::kOnevnRewardsEnabled, false);
+  CheckOnevnRewardsActionShown(false);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNActionsContainerTest,
-                       OneVNRewadsActionHiddenInGuestSession) {
+IN_PROC_BROWSER_TEST_F(OnevnActionsContainerTest,
+                       OnevnRewadsActionHiddenInGuestSession) {
     // By default the action should be shown.
-  EXPECT_FALSE(prefs_->GetBoolean(onevn_rewards::prefs::kOneVNRewardsEnabled));
-  EXPECT_FALSE(prefs_->GetBoolean(kHideOneVNRewardsButton));
-  CheckOneVNRewardsActionShown(true);
+  EXPECT_FALSE(prefs_->GetBoolean(onevn_rewards::prefs::kOnevnRewardsEnabled));
+  EXPECT_FALSE(prefs_->GetBoolean(kHideOnevnRewardsButton));
+  CheckOnevnRewardsActionShown(true);
 
   // Open a Guest window.
   EXPECT_EQ(1U, BrowserList::GetInstance()->size());
@@ -118,5 +118,5 @@ IN_PROC_BROWSER_TEST_F(OneVNActionsContainerTest,
   Browser* browser = chrome::FindAnyBrowser(guest, true);
   EXPECT_TRUE(browser);
   Init(browser);
-  CheckOneVNRewardsActionShown(false);
+  CheckOnevnRewardsActionShown(false);
 }

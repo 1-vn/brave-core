@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -11,16 +11,16 @@
 
 class HostContentSettingsMap;
 
-class OneVNRenderMessageFilter : public ChromeRenderMessageFilter {
+class OnevnRenderMessageFilter : public ChromeRenderMessageFilter {
  public:
   using ChromeRenderMessageFilter::ChromeRenderMessageFilter;
-  OneVNRenderMessageFilter(int render_process_id, Profile* profile);
+  OnevnRenderMessageFilter(int render_process_id, Profile* profile);
   bool OnMessageReceived(const IPC::Message& message) override;
 
  private:
-  friend class base::DeleteHelper<OneVNRenderMessageFilter>;
+  friend class base::DeleteHelper<OnevnRenderMessageFilter>;
 
-  ~OneVNRenderMessageFilter() override;
+  ~OnevnRenderMessageFilter() override;
 
   void OnAllowDatabase(int render_frame_id,
                        const GURL& origin_url,
@@ -44,7 +44,7 @@ class OneVNRenderMessageFilter : public ChromeRenderMessageFilter {
                         bool* allowed);
 
   HostContentSettingsMap* host_content_settings_map_;
-  DISALLOW_COPY_AND_ASSIGN(OneVNRenderMessageFilter);
+  DISALLOW_COPY_AND_ASSIGN(OnevnRenderMessageFilter);
 };
 
 #endif  // ONEVN_BROWSER_RENDERER_HOST_ONEVN_RENDER_MESSAGE_FILTER_H_

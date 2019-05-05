@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -12,7 +12,7 @@
 
 namespace TemplateURLPrepopulateData {
 
-extern const int kOneVNCurrentDataVersion;
+extern const int kOnevnCurrentDataVersion;
 
 // See comments on prepopulated engines ids in
 // components/search_engines/prepopulated_engines_schema.json above the
@@ -21,7 +21,7 @@ extern const int kOneVNCurrentDataVersion;
 // Currently taken ids range under 90, but we'd want to leave room for
 // additions by Chromium, so starting our ids from 500. Potential problem:
 // Chromium adds one of these engines to their list with a different id.
-enum OneVNPrepopulatedEngineID : unsigned int {
+enum OnevnPrepopulatedEngineID : unsigned int {
   PREPOPULATED_ENGINE_ID_INVALID = 0,
 
   // These engine IDs are already defined in prepopulated_engines.json

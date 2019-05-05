@@ -9,9 +9,9 @@ class Browser;
 
 namespace onevn {
 
-void ShowOneVNAdblock(Browser* browser);
-void ShowOneVNRewards(Browser* browser);
-void ShowOneVNSync(Browser* browser);
+void ShowOnevnAdblock(Browser* browser);
+void ShowOnevnRewards(Browser* browser);
+void ShowOnevnSync(Browser* browser);
 
 }  // namespace onevn
 

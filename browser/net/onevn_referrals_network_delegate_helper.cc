@@ -18,17 +18,17 @@ int OnBeforeStartTransaction_ReferralsWork(
     net::URLRequest* request,
     net::HttpRequestHeaders* headers,
     const ResponseCallback& next_callback,
-    std::shared_ptr<OneVNRequestInfo> ctx) {
+    std::shared_ptr<OnevnRequestInfo> ctx) {
   if (!ctx->referral_headers_list)
     return net::OK;
   // If the domain for this request matches one of our target domains,
   // set the associated custom headers.
   const base::DictionaryValue* request_headers_dict = nullptr;
-  if (!OneVNReferralsService::GetMatchingReferralHeaders(
+  if (!OnevnReferralsService::GetMatchingReferralHeaders(
           *ctx->referral_headers_list, &request_headers_dict, request->url()))
     return net::OK;
   for (const auto& it : request_headers_dict->DictItems()) {
-    if (it.first == kOneVNPartnerHeader) {
+    if (it.first == kOnevnPartnerHeader) {
       headers->SetHeader(it.first, it.second.GetString());
     }
   }

@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -167,10 +167,10 @@ void CustomizeWebUIHTMLSource(const std::string &name,
     }, {
       std::string("welcome"), {
         { "welcome", IDS_ONEVN_WELCOME_PAGE_MAIN_TITLE },
-        { "whatIsOneVN", IDS_ONEVN_WELCOME_PAGE_MAIN_DESC },
+        { "whatIsOnevn", IDS_ONEVN_WELCOME_PAGE_MAIN_DESC },
         { "letsGo", IDS_ONEVN_WELCOME_PAGE_MAIN_BUTTON },
-        { "enableOneVNRewards", IDS_ONEVN_WELCOME_PAGE_REWARDS_TITLE },
-        { "setupOneVNRewards", IDS_ONEVN_WELCOME_PAGE_REWARDS_DESC },
+        { "enableOnevnRewards", IDS_ONEVN_WELCOME_PAGE_REWARDS_TITLE },
+        { "setupOnevnRewards", IDS_ONEVN_WELCOME_PAGE_REWARDS_DESC },
         { "enableRewards", IDS_ONEVN_WELCOME_PAGE_REWARDS_BUTTON },
         { "importFromAnotherBrowser", IDS_ONEVN_WELCOME_PAGE_IMPORT_TITLE },
         { "setupImport", IDS_ONEVN_WELCOME_PAGE_IMPORT_DESC },
@@ -450,9 +450,9 @@ void CustomizeWebUIHTMLSource(const std::string &name,
         { "welcomeFooterTextTwo", IDS_ONEVN_UI_WELCOME_FOOTER_TEXT_TWO},
         { "welcomeHeaderOne", IDS_ONEVN_UI_WELCOME_HEADER_ONE},
         { "welcomeHeaderTwo", IDS_ONEVN_UI_WELCOME_HEADER_TWO},
-        { "whyOneVNRewards", IDS_ONEVN_UI_WHY_ONEVN_REWARDS },
-        { "whyOneVNRewardsDesc1", IDS_ONEVN_UI_WHY_ONEVN_REWARDS_DESC_1 },
-        { "whyOneVNRewardsDesc2", IDS_ONEVN_UI_WHY_ONEVN_REWARDS_DESC_2 },
+        { "whyOnevnRewards", IDS_ONEVN_UI_WHY_ONEVN_REWARDS },
+        { "whyOnevnRewardsDesc1", IDS_ONEVN_UI_WHY_ONEVN_REWARDS_DESC_1 },
+        { "whyOnevnRewardsDesc2", IDS_ONEVN_UI_WHY_ONEVN_REWARDS_DESC_2 },
         { "yourWallet", IDS_ONEVN_UI_YOUR_WALLET },
 
         { "and", IDS_ONEVN_UI_AND },

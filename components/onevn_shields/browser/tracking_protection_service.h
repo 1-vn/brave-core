@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -32,7 +32,7 @@ class HostContentSettingsMap;
 class TrackingProtectionServiceTest;
 
 namespace content_settings {
-class OneVNCookieSettings;
+class OnevnCookieSettings;
 }
 
 namespace onevn_shields {
@@ -49,7 +49,7 @@ class TrackingProtectionService : public BaseLocalDataFilesObserver {
                           bool* matching_exception_filter,
                           bool* cancel_request_explicitly);
 
-  bool ShouldStoreState(content_settings::OneVNCookieSettings* settings,
+  bool ShouldStoreState(content_settings::OnevnCookieSettings* settings,
                         HostContentSettingsMap* map,
                         int render_process_id,
                         int render_frame_id,

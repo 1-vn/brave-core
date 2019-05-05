@@ -6,7 +6,7 @@
 
 #import "onevn/browser/mac/sparkle_glue.h"
 
-void OneVNBrowserMainPartsMac::PreMainMessageLoopStart() {
+void OnevnBrowserMainPartsMac::PreMainMessageLoopStart() {
   ChromeBrowserMainPartsMac::PreMainMessageLoopStart();
 
   // It would be no-op if udpate is disabled.

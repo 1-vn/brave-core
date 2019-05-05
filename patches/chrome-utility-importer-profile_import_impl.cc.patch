@@ -30,7 +30,7 @@ index 9c578d4cc46b57093e0d66dd82a83db512960aa9..92b270509b757114c235cad1ec619cff
 +                              "Chromium", base::CompareCase::SENSITIVE)) {
 +    command_line->AppendSwitch("import-chromium");
 +  } else if (base::StartsWith(base::UTF16ToUTF8(source_profile.importer_name),
-+                              "OneVN", base::CompareCase::SENSITIVE)) {
++                              "Onevn", base::CompareCase::SENSITIVE)) {
 +    command_line->AppendSwitch("import-onevn");
 +  }
 +
@@ -42,7 +42,7 @@ index 9c578d4cc46b57093e0d66dd82a83db512960aa9..92b270509b757114c235cad1ec619cff
      ImporterCleanup();
    }
 -  bridge_ = new ExternalProcessImporterBridge(
-+  bridge_ = new OneVNExternalProcessImporterBridge(
++  bridge_ = new OnevnExternalProcessImporterBridge(
        localized_strings,
        ThreadSafeProfileImportObserverPtr::Create(std::move(observer)));
    import_thread_->task_runner()->PostTask(

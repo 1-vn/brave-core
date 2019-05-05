@@ -14,7 +14,7 @@
 #include "components/content_settings/core/browser/host_content_settings_map.h"
 #include "ui/base/l10n/l10n_util.h"
 
-OneVNContentSettingPluginBubbleModel::OneVNContentSettingPluginBubbleModel(
+OnevnContentSettingPluginBubbleModel::OnevnContentSettingPluginBubbleModel(
     Delegate* delegate, content::WebContents* web_contents)
     : ContentSettingSimpleBubbleModel(delegate, web_contents,
         CONTENT_SETTINGS_TYPE_PLUGINS) {
@@ -45,16 +45,16 @@ OneVNContentSettingPluginBubbleModel::OneVNContentSettingPluginBubbleModel(
           ->load_plugins_link_enabled());
 }
 
-void OneVNContentSettingPluginBubbleModel::OnLearnMoreClicked() {
+void OnevnContentSettingPluginBubbleModel::OnLearnMoreClicked() {
   if (delegate())
     delegate()->ShowLearnMorePage(CONTENT_SETTINGS_TYPE_PLUGINS);
 }
 
-void OneVNContentSettingPluginBubbleModel::OnCustomLinkClicked() {
+void OnevnContentSettingPluginBubbleModel::OnCustomLinkClicked() {
   RunPluginsOnPage();
 }
 
-void OneVNContentSettingPluginBubbleModel::RunPluginsOnPage() {
+void OnevnContentSettingPluginBubbleModel::RunPluginsOnPage() {
   // Web contents can be NULL if the tab was closed while the plugins
   // settings bubble is visible.
   if (!web_contents())

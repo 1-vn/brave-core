@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -15,16 +15,16 @@
 
 namespace onevn {
 
-base::Time OneVNStatsUpdaterParams::g_current_time;
+base::Time OnevnStatsUpdaterParams::g_current_time;
 
-OneVNStatsUpdaterParams::OneVNStatsUpdaterParams(PrefService* pref_service)
-    : OneVNStatsUpdaterParams(pref_service,
+OnevnStatsUpdaterParams::OnevnStatsUpdaterParams(PrefService* pref_service)
+    : OnevnStatsUpdaterParams(pref_service,
                               GetCurrentDateAsYMD(),
                               GetCurrentISOWeekNumber(),
                               GetCurrentMonth()) {
 }
 
-OneVNStatsUpdaterParams::OneVNStatsUpdaterParams(PrefService* pref_service,
+OnevnStatsUpdaterParams::OnevnStatsUpdaterParams(PrefService* pref_service,
                                                  const std::string& ymd,
                                                  int woy,
                                                  int month)
@@ -32,36 +32,36 @@ OneVNStatsUpdaterParams::OneVNStatsUpdaterParams(PrefService* pref_service,
   LoadPrefs();
 }
 
-OneVNStatsUpdaterParams::~OneVNStatsUpdaterParams() {
+OnevnStatsUpdaterParams::~OnevnStatsUpdaterParams() {
 }
 
-std::string OneVNStatsUpdaterParams::GetDailyParam() const {
+std::string OnevnStatsUpdaterParams::GetDailyParam() const {
   return BooleanToString(
       base::CompareCaseInsensitiveASCII(ymd_, last_check_ymd_) == 1);
 }
 
-std::string OneVNStatsUpdaterParams::GetWeeklyParam() const {
+std::string OnevnStatsUpdaterParams::GetWeeklyParam() const {
   return BooleanToString(last_check_woy_ == 0 || woy_ != last_check_woy_);
 }
 
-std::string OneVNStatsUpdaterParams::GetMonthlyParam() const {
+std::string OnevnStatsUpdaterParams::GetMonthlyParam() const {
   return BooleanToString(last_check_month_ == 0 ||
                          month_ != last_check_month_);
 }
 
-std::string OneVNStatsUpdaterParams::GetFirstCheckMadeParam() const {
+std::string OnevnStatsUpdaterParams::GetFirstCheckMadeParam() const {
   return BooleanToString(!first_check_made_);
 }
 
-std::string OneVNStatsUpdaterParams::GetWeekOfInstallationParam() const {
+std::string OnevnStatsUpdaterParams::GetWeekOfInstallationParam() const {
   return week_of_installation_;
 }
 
-std::string OneVNStatsUpdaterParams::GetReferralCodeParam() const {
+std::string OnevnStatsUpdaterParams::GetReferralCodeParam() const {
   return referral_promo_code_.empty() ? "none" : referral_promo_code_;
 }
 
-void OneVNStatsUpdaterParams::LoadPrefs() {
+void OnevnStatsUpdaterParams::LoadPrefs() {
   last_check_ymd_ = pref_service_->GetString(kLastCheckYMD);
   last_check_woy_ = pref_service_->GetInteger(kLastCheckWOY);
   last_check_month_ = pref_service_->GetInteger(kLastCheckMonth);
@@ -72,7 +72,7 @@ void OneVNStatsUpdaterParams::LoadPrefs() {
   referral_promo_code_ = pref_service_->GetString(kReferralPromoCode);
 }
 
-void OneVNStatsUpdaterParams::SavePrefs() {
+void OnevnStatsUpdaterParams::SavePrefs() {
   pref_service_->SetString(kLastCheckYMD, ymd_);
   pref_service_->SetInteger(kLastCheckWOY, woy_);
   pref_service_->SetInteger(kLastCheckMonth, month_);
@@ -80,15 +80,15 @@ void OneVNStatsUpdaterParams::SavePrefs() {
   pref_service_->SetString(kWeekOfInstallation, week_of_installation_);
 }
 
-std::string OneVNStatsUpdaterParams::BooleanToString(bool bool_value) const {
+std::string OnevnStatsUpdaterParams::BooleanToString(bool bool_value) const {
   return bool_value ? "true" : "false";
 }
 
-std::string OneVNStatsUpdaterParams::GetCurrentDateAsYMD() const {
+std::string OnevnStatsUpdaterParams::GetCurrentDateAsYMD() const {
   return onevn::GetDateAsYMD(GetCurrentTimeNow());
 }
 
-std::string OneVNStatsUpdaterParams::GetLastMondayAsYMD() const {
+std::string OnevnStatsUpdaterParams::GetLastMondayAsYMD() const {
   base::Time now = GetCurrentTimeNow();
   base::Time::Exploded exploded;
   now.LocalExplode(&exploded);
@@ -101,14 +101,14 @@ std::string OneVNStatsUpdaterParams::GetLastMondayAsYMD() const {
   return onevn::GetDateAsYMD(last_monday);
 }
 
-int OneVNStatsUpdaterParams::GetCurrentMonth() const {
+int OnevnStatsUpdaterParams::GetCurrentMonth() const {
   base::Time now = GetCurrentTimeNow();
   base::Time::Exploded exploded;
   now.LocalExplode(&exploded);
   return exploded.month;
 }
 
-int OneVNStatsUpdaterParams::GetCurrentISOWeekNumber() const {
+int OnevnStatsUpdaterParams::GetCurrentISOWeekNumber() const {
   base::Time now = GetCurrentTimeNow();
   base::Time::Exploded now_exploded;
   now.LocalExplode(&now_exploded);
@@ -143,12 +143,12 @@ int OneVNStatsUpdaterParams::GetCurrentISOWeekNumber() const {
                  7);
 }
 
-base::Time OneVNStatsUpdaterParams::GetCurrentTimeNow() const {
+base::Time OnevnStatsUpdaterParams::GetCurrentTimeNow() const {
   return g_current_time.is_null() ? base::Time::Now() : g_current_time;
 }
 
 // static
-void OneVNStatsUpdaterParams::SetCurrentTimeForTest(
+void OnevnStatsUpdaterParams::SetCurrentTimeForTest(
     const base::Time& current_time) {
   g_current_time = current_time;
 }

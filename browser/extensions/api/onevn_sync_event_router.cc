@@ -12,13 +12,13 @@ using extensions::api::onevn_sync::RecordAndExistingObject;
 
 namespace extensions {
 
-OneVNSyncEventRouter::OneVNSyncEventRouter(Profile* profile) :
+OnevnSyncEventRouter::OnevnSyncEventRouter(Profile* profile) :
     event_router_(EventRouter::Get(profile)) {
 }
 
-OneVNSyncEventRouter::~OneVNSyncEventRouter() {}
+OnevnSyncEventRouter::~OnevnSyncEventRouter() {}
 
-void OneVNSyncEventRouter::GotInitData(
+void OnevnSyncEventRouter::GotInitData(
     const onevn_sync::Uint8Array& seed,
     const onevn_sync::Uint8Array& device_id,
     const extensions::api::onevn_sync::Config& config,
@@ -39,7 +39,7 @@ void OneVNSyncEventRouter::GotInitData(
   event_router_->BroadcastEvent(std::move(event));
 }
 
-void OneVNSyncEventRouter::FetchSyncRecords(
+void OnevnSyncEventRouter::FetchSyncRecords(
     const std::vector<std::string>& category_names,
     const base::Time& startAt,
     const int max_records) {
@@ -54,7 +54,7 @@ void OneVNSyncEventRouter::FetchSyncRecords(
   event_router_->BroadcastEvent(std::move(event));
 }
 
-void OneVNSyncEventRouter::FetchSyncDevices() {
+void OnevnSyncEventRouter::FetchSyncDevices() {
   std::unique_ptr<base::ListValue> args(
      extensions::api::onevn_sync::OnFetchSyncDevices::Create()
        .release());
@@ -66,7 +66,7 @@ void OneVNSyncEventRouter::FetchSyncDevices() {
   event_router_->BroadcastEvent(std::move(event));
 }
 
-void OneVNSyncEventRouter::ResolveSyncRecords(
+void OnevnSyncEventRouter::ResolveSyncRecords(
     const std::string& category_name,
     const std::vector<RecordAndExistingObject>& records_and_existing_objects) {
   for (const auto & entry : records_and_existing_objects) {
@@ -90,7 +90,7 @@ void OneVNSyncEventRouter::ResolveSyncRecords(
   event_router_->BroadcastEvent(std::move(event));
 }
 
-void OneVNSyncEventRouter::SendSyncRecords(
+void OnevnSyncEventRouter::SendSyncRecords(
     const std::string& category_name,
     const std::vector<api::onevn_sync::SyncRecord>& records) {
   std::unique_ptr<base::ListValue> args(
@@ -105,7 +105,7 @@ void OneVNSyncEventRouter::SendSyncRecords(
   event_router_->BroadcastEvent(std::move(event));
 }
 
-void OneVNSyncEventRouter::SendGetBookmarksBaseOrder(
+void OnevnSyncEventRouter::SendGetBookmarksBaseOrder(
     const std::string& device_id,
     const std::string& platform) {
   std::unique_ptr<base::ListValue> args(
@@ -119,7 +119,7 @@ void OneVNSyncEventRouter::SendGetBookmarksBaseOrder(
   event_router_->BroadcastEvent(std::move(event));
 }
 
-void OneVNSyncEventRouter::NeedSyncWords(const std::string& seed) {
+void OnevnSyncEventRouter::NeedSyncWords(const std::string& seed) {
   std::unique_ptr<base::ListValue> args(
      extensions::api::onevn_sync::OnNeedSyncWords::Create(seed)
        .release());
@@ -130,7 +130,7 @@ void OneVNSyncEventRouter::NeedSyncWords(const std::string& seed) {
   event_router_->BroadcastEvent(std::move(event));
 }
 
-void OneVNSyncEventRouter::LoadClient() {
+void OnevnSyncEventRouter::LoadClient() {
   std::unique_ptr<base::ListValue> args(
      extensions::api::onevn_sync::OnLoadClient::Create()
        .release());
@@ -142,7 +142,7 @@ void OneVNSyncEventRouter::LoadClient() {
   event_router_->BroadcastEvent(std::move(event));
 }
 
-void OneVNSyncEventRouter::ClearOrderMap() {
+void OnevnSyncEventRouter::ClearOrderMap() {
   auto args = std::make_unique<base::ListValue>();
   std::unique_ptr<Event> event(
      new Event(extensions::events::FOR_TEST,

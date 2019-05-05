@@ -6,6 +6,6 @@
 #include "chrome/browser/autocomplete/chrome_autocomplete_provider_client.h"
 #include "components/omnibox/browser/autocomplete_controller.h"
 
-#define AutocompleteController OneVNAutocompleteController
+#define AutocompleteController OnevnAutocompleteController
 #include "../../../../../../../chrome/browser/ui/webui/omnibox/omnibox_page_handler.cc"
 #undef AutocompleteController

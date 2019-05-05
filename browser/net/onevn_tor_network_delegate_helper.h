@@ -7,13 +7,13 @@
 
 #include "onevn/browser/net/url_context.h"
 
-struct OneVNRequestInfo;
+struct OnevnRequestInfo;
 
 namespace onevn {
 
 int OnBeforeURLRequest_TorWork(
     const ResponseCallback& next_callback,
-    std::shared_ptr<OneVNRequestInfo> ctx);
+    std::shared_ptr<OnevnRequestInfo> ctx);
 
 }  // namespace onevn
 

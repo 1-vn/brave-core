@@ -6,7 +6,7 @@ index 81dd6a83ac9279273b5eb02fe7c4a06cc8b94c96..00739b4d13f966f6e5b4fda5bd699c70
    FeaturePromoBubbleView* new_tab_promo() { return new_tab_promo_; }
  
   private:
-+  friend class OneVNNewTabButton;
++  friend class OnevnNewTabButton;
  // views::ImageButton:
  #if defined(OS_WIN)
    void OnMouseReleased(const ui::MouseEvent& event) override;

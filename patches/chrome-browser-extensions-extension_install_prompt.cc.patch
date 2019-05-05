@@ -15,7 +15,7 @@ index c445a3941c356b5504b3473cb476f1df07256f7e..976d21fd09e2993873fd2678347e189d
      const ShowDialogCallback& show_dialog_callback) {
    ShowDialog(done_callback, extension, icon,
 -             std::make_unique<Prompt>(INSTALL_PROMPT), show_dialog_callback);
-+             std::make_unique<OneVNPrompt>(INSTALL_PROMPT), show_dialog_callback);
++             std::make_unique<OnevnPrompt>(INSTALL_PROMPT), show_dialog_callback);
  }
  
  void ExtensionInstallPrompt::ShowDialog(

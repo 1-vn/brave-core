@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -39,9 +39,9 @@ namespace component_updater {
 
 namespace {
 
-class OneVNConfigurator : public update_client::Configurator {
+class OnevnConfigurator : public update_client::Configurator {
  public:
-  OneVNConfigurator(const base::CommandLine* cmdline,
+  OnevnConfigurator(const base::CommandLine* cmdline,
                     PrefService* pref_service);
 
   // update_client::Configurator overrides.
@@ -77,19 +77,19 @@ class OneVNConfigurator : public update_client::Configurator {
   update_client::RecoveryCRXElevator GetRecoveryCRXElevator() const override;
 
  private:
-  friend class base::RefCountedThreadSafe<OneVNConfigurator>;
+  friend class base::RefCountedThreadSafe<OnevnConfigurator>;
 
   ConfiguratorImpl configurator_impl_;
   PrefService* pref_service_;  // This member is not owned by this class.
   scoped_refptr<update_client::NetworkFetcherFactory> network_fetcher_factory_;
 
-  ~OneVNConfigurator() override {}
+  ~OnevnConfigurator() override {}
 };
 
 // Allows the component updater to use non-encrypted communication with the
 // update backend. The security of the update checks is enforced using
 // a custom message signing protocol and it does not depend on using HTTPS.
-OneVNConfigurator::OneVNConfigurator(
+OnevnConfigurator::OnevnConfigurator(
     const base::CommandLine* cmdline,
     PrefService* pref_service)
     : configurator_impl_(ComponentUpdaterCommandLineConfigPolicy(cmdline),
@@ -98,65 +98,65 @@ OneVNConfigurator::OneVNConfigurator(
   DCHECK(pref_service_);
 }
 
-int OneVNConfigurator::InitialDelay() const {
+int OnevnConfigurator::InitialDelay() const {
   return configurator_impl_.InitialDelay();
 }
 
-int OneVNConfigurator::NextCheckDelay() const {
+int OnevnConfigurator::NextCheckDelay() const {
   return configurator_impl_.NextCheckDelay();
 }
 
-int OneVNConfigurator::OnDemandDelay() const {
+int OnevnConfigurator::OnDemandDelay() const {
   return configurator_impl_.OnDemandDelay();
 }
 
-int OneVNConfigurator::UpdateDelay() const {
+int OnevnConfigurator::UpdateDelay() const {
   return configurator_impl_.UpdateDelay();
 }
 
-std::vector<GURL> OneVNConfigurator::UpdateUrl() const {
+std::vector<GURL> OnevnConfigurator::UpdateUrl() const {
   return configurator_impl_.UpdateUrl();
 }
 
-std::vector<GURL> OneVNConfigurator::PingUrl() const {
+std::vector<GURL> OnevnConfigurator::PingUrl() const {
   return configurator_impl_.PingUrl();
 }
 
-std::string OneVNConfigurator::GetProdId() const {
+std::string OnevnConfigurator::GetProdId() const {
   return std::string();
 }
 
-base::Version OneVNConfigurator::GetBrowserVersion() const {
+base::Version OnevnConfigurator::GetBrowserVersion() const {
   return configurator_impl_.GetBrowserVersion();
 }
 
-std::string OneVNConfigurator::GetChannel() const {
+std::string OnevnConfigurator::GetChannel() const {
   return std::string("stable");
 }
 
-std::string OneVNConfigurator::GetBrand() const {
+std::string OnevnConfigurator::GetBrand() const {
   return std::string();
 }
 
-std::string OneVNConfigurator::GetLang() const {
+std::string OnevnConfigurator::GetLang() const {
   return std::string();
 }
 
-std::string OneVNConfigurator::GetOSLongName() const {
+std::string OnevnConfigurator::GetOSLongName() const {
   return configurator_impl_.GetOSLongName();
 }
 
 base::flat_map<std::string, std::string>
-OneVNConfigurator::ExtraRequestParams() const {
+OnevnConfigurator::ExtraRequestParams() const {
   return configurator_impl_.ExtraRequestParams();
 }
 
-std::string OneVNConfigurator::GetDownloadPreference() const {
+std::string OnevnConfigurator::GetDownloadPreference() const {
   return std::string();
 }
 
 scoped_refptr<update_client::NetworkFetcherFactory>
-OneVNConfigurator::GetNetworkFetcherFactory() {
+OnevnConfigurator::GetNetworkFetcherFactory() {
   if (!network_fetcher_factory_) {
     network_fetcher_factory_ =
         base::MakeRefCounted<update_client::NetworkFetcherChromiumFactory>(
@@ -167,56 +167,56 @@ OneVNConfigurator::GetNetworkFetcherFactory() {
 }
 
 std::unique_ptr<service_manager::Connector>
-OneVNConfigurator::CreateServiceManagerConnector() const {
+OnevnConfigurator::CreateServiceManagerConnector() const {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   return content::ServiceManagerConnection::GetForProcess()
       ->GetConnector()
       ->Clone();
 }
 
-bool OneVNConfigurator::EnabledDeltas() const {
+bool OnevnConfigurator::EnabledDeltas() const {
   return configurator_impl_.EnabledDeltas();
 }
 
-bool OneVNConfigurator::EnabledComponentUpdates() const {
+bool OnevnConfigurator::EnabledComponentUpdates() const {
   return pref_service_->GetBoolean(prefs::kComponentUpdatesEnabled);
 }
 
-bool OneVNConfigurator::EnabledBackgroundDownloader() const {
+bool OnevnConfigurator::EnabledBackgroundDownloader() const {
   return configurator_impl_.EnabledBackgroundDownloader();
 }
 
-bool OneVNConfigurator::EnabledCupSigning() const {
+bool OnevnConfigurator::EnabledCupSigning() const {
   return false;
 }
 
-PrefService* OneVNConfigurator::GetPrefService() const {
+PrefService* OnevnConfigurator::GetPrefService() const {
   return pref_service_;
 }
 
-update_client::ActivityDataService* OneVNConfigurator::GetActivityDataService()
+update_client::ActivityDataService* OnevnConfigurator::GetActivityDataService()
     const {
   return nullptr;
 }
 
-bool OneVNConfigurator::IsPerUserInstall() const {
+bool OnevnConfigurator::IsPerUserInstall() const {
   return false;
 }
 
-std::vector<uint8_t> OneVNConfigurator::GetRunActionKeyHash() const {
+std::vector<uint8_t> OnevnConfigurator::GetRunActionKeyHash() const {
   return configurator_impl_.GetRunActionKeyHash();
 }
 
-std::string OneVNConfigurator::GetAppGuid() const {
+std::string OnevnConfigurator::GetAppGuid() const {
   return configurator_impl_.GetAppGuid();
 }
 
 std::unique_ptr<update_client::ProtocolHandlerFactory>
-OneVNConfigurator::GetProtocolHandlerFactory() const {
+OnevnConfigurator::GetProtocolHandlerFactory() const {
   return std::make_unique<update_client::ProtocolHandlerFactoryXml>();
 }
 
-update_client::RecoveryCRXElevator OneVNConfigurator::GetRecoveryCRXElevator()
+update_client::RecoveryCRXElevator OnevnConfigurator::GetRecoveryCRXElevator()
     const {
 #if defined(GOOGLE_CHROME_BUILD) && defined(OS_WIN)
   return base::BindOnce(&RunRecoveryCRXElevated);
@@ -227,17 +227,17 @@ update_client::RecoveryCRXElevator OneVNConfigurator::GetRecoveryCRXElevator()
 
 }  // namespace
 
-void RegisterPrefsForOneVNComponentUpdaterConfigurator(
+void RegisterPrefsForOnevnComponentUpdaterConfigurator(
     PrefRegistrySimple* registry) {
   // The component updates are enabled by default, if the preference is not set.
   registry->RegisterBooleanPref(prefs::kComponentUpdatesEnabled, true);
 }
 
 scoped_refptr<update_client::Configurator>
-MakeOneVNComponentUpdaterConfigurator(
+MakeOnevnComponentUpdaterConfigurator(
     const base::CommandLine* cmdline,
     PrefService* pref_service) {
-  return base::MakeRefCounted<OneVNConfigurator>(cmdline, pref_service);
+  return base::MakeRefCounted<OnevnConfigurator>(cmdline, pref_service);
 }
 
 }  // namespace component_updater

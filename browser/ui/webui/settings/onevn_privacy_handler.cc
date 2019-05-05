@@ -14,20 +14,20 @@
 #include "content/public/common/webrtc_ip_handling_policy.h"
 #include "content/public/browser/web_ui.h"
 
-void OneVNPrivacyHandler::RegisterMessages() {
+void OnevnPrivacyHandler::RegisterMessages() {
   profile_ = Profile::FromWebUI(web_ui());
 
   web_ui()->RegisterMessageCallback(
       "getWebRTCPolicy",
-      base::BindRepeating(&OneVNPrivacyHandler::GetWebRTCPolicy,
+      base::BindRepeating(&OnevnPrivacyHandler::GetWebRTCPolicy,
                           base::Unretained(this)));
   web_ui()->RegisterMessageCallback(
       "setWebRTCPolicy",
-      base::BindRepeating(&OneVNPrivacyHandler::SetWebRTCPolicy,
+      base::BindRepeating(&OnevnPrivacyHandler::SetWebRTCPolicy,
                           base::Unretained(this)));
 }
 
-void OneVNPrivacyHandler::SetWebRTCPolicy(const base::ListValue* args) {
+void OnevnPrivacyHandler::SetWebRTCPolicy(const base::ListValue* args) {
   CHECK_EQ(args->GetSize(), 1U);
   CHECK(profile_);
 
@@ -36,7 +36,7 @@ void OneVNPrivacyHandler::SetWebRTCPolicy(const base::ListValue* args) {
   profile_->GetPrefs()->SetString(prefs::kWebRTCIPHandlingPolicy, policy);
 }
 
-void OneVNPrivacyHandler::GetWebRTCPolicy(const base::ListValue* args) {
+void OnevnPrivacyHandler::GetWebRTCPolicy(const base::ListValue* args) {
   CHECK_EQ(args->GetSize(), 1U);
   CHECK(profile_);
 

@@ -17,11 +17,11 @@ namespace content_settings {
 // Because of this reasion, shields configuration was also ephemeral.
 // However, we want shilelds configuration persisted. To do this, we make
 // EphemeralProvider ignore shields type and this class handles.
-class OneVNPrefProvider : public PrefProvider {
+class OnevnPrefProvider : public PrefProvider {
  public:
-  OneVNPrefProvider(
+  OnevnPrefProvider(
       PrefService* prefs, bool incognito, bool store_last_modified);
-  ~OneVNPrefProvider() override {}
+  ~OnevnPrefProvider() override {}
 
  private:
   // content_settings::PrefProvider overrides:
@@ -36,7 +36,7 @@ class OneVNPrefProvider : public PrefProvider {
   // PrefProvider::pref_change_registrar_ alreay has plugin type.
   PrefChangeRegistrar onevn_pref_change_registrar_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNPrefProvider);
+  DISALLOW_COPY_AND_ASSIGN(OnevnPrefProvider);
 };
 
 }  //  namespace content_settings

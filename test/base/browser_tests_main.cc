@@ -31,6 +31,6 @@ int main(int argc, char** argv) {
 #endif  // defined(OS_WIN)
 
   ChromeTestSuiteRunner runner;
-  OneVNTestLauncherDelegate delegate(&runner);
+  OnevnTestLauncherDelegate delegate(&runner);
   return LaunchChromeTests(parallel_jobs, &delegate, argc, argv);
 }

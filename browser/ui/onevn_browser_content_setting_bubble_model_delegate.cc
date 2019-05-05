@@ -8,29 +8,29 @@
 #include "chrome/browser/ui/browser.h"
 #include "chrome/browser/ui/browser_tabstrip.h"
 
-const char kOneVNCommunitySupportUrl[] = "https://community.1-vn.com/";
+const char kOnevnCommunitySupportUrl[] = "https://community.1-vn.com/";
 
-OneVNBrowserContentSettingBubbleModelDelegate::
-OneVNBrowserContentSettingBubbleModelDelegate(Browser* browser) :
+OnevnBrowserContentSettingBubbleModelDelegate::
+OnevnBrowserContentSettingBubbleModelDelegate(Browser* browser) :
     BrowserContentSettingBubbleModelDelegate(browser),
     browser_(browser) {
 }
 
-OneVNBrowserContentSettingBubbleModelDelegate::
-~OneVNBrowserContentSettingBubbleModelDelegate() {
+OnevnBrowserContentSettingBubbleModelDelegate::
+~OnevnBrowserContentSettingBubbleModelDelegate() {
 }
 
 void
-OneVNBrowserContentSettingBubbleModelDelegate::ShowWidevineLearnMorePage() {
+OnevnBrowserContentSettingBubbleModelDelegate::ShowWidevineLearnMorePage() {
   GURL learn_more_url = GURL(kWidevineTOS);
   chrome::AddSelectedTabWithURL(browser_, learn_more_url,
                                 ui::PAGE_TRANSITION_LINK);
 }
 
-void OneVNBrowserContentSettingBubbleModelDelegate::ShowLearnMorePage(
+void OnevnBrowserContentSettingBubbleModelDelegate::ShowLearnMorePage(
     ContentSettingsType type) {
   // TODO: Use specific support pages for each content setting type
-  GURL learn_more_url(kOneVNCommunitySupportUrl);
+  GURL learn_more_url(kOnevnCommunitySupportUrl);
   chrome::AddSelectedTabWithURL(browser_, learn_more_url,
                                 ui::PAGE_TRANSITION_LINK);
 }

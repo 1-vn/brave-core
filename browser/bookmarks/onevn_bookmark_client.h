@@ -7,9 +7,9 @@
 
 #include "chrome/browser/bookmarks/chrome_bookmark_client.h"
 
-class OneVNBookmarkClient : public ChromeBookmarkClient {
+class OnevnBookmarkClient : public ChromeBookmarkClient {
  public:
-  OneVNBookmarkClient(
+  OnevnBookmarkClient(
       Profile* profile,
       bookmarks::ManagedBookmarkService* managed_bookmark_service,
       sync_bookmarks::BookmarkSyncService* bookmark_sync_service);
@@ -19,7 +19,7 @@ class OneVNBookmarkClient : public ChromeBookmarkClient {
       const bookmarks::BookmarkPermanentNode* node) override;
 
  private:
-  DISALLOW_COPY_AND_ASSIGN(OneVNBookmarkClient);
+  DISALLOW_COPY_AND_ASSIGN(OnevnBookmarkClient);
 };
 
 #endif  // ONEVN_BROWSER_BOOKMARKS_ONEVN_BOOKMARK_CLIENT_H_

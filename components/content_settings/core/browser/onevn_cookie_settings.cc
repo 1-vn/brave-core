@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -19,7 +19,7 @@ namespace content_settings {
 
 using namespace net::registry_controlled_domains;  // NOLINT
 
-OneVNCookieSettings::OneVNCookieSettings(
+OnevnCookieSettings::OnevnCookieSettings(
     HostContentSettingsMap* host_content_settings_map,
     PrefService* prefs,
     const char* extension_scheme)
@@ -28,13 +28,13 @@ OneVNCookieSettings::OneVNCookieSettings(
   pref_change_registrar_.Init(prefs);
   pref_change_registrar_.Add(
       kGoogleLoginControlType,
-      base::BindRepeating(&OneVNCookieSettings::OnAllowGoogleAuthChanged,
+      base::BindRepeating(&OnevnCookieSettings::OnAllowGoogleAuthChanged,
                           base::Unretained(this)));
 }
 
-OneVNCookieSettings::~OneVNCookieSettings() {}
+OnevnCookieSettings::~OnevnCookieSettings() {}
 
-void OneVNCookieSettings::GetCookieSetting(
+void OnevnCookieSettings::GetCookieSetting(
     const GURL& url,
     const GURL& first_party_url,
     content_settings::SettingSource* source,
@@ -43,7 +43,7 @@ void OneVNCookieSettings::GetCookieSetting(
                    cookie_setting);
 }
 
-void OneVNCookieSettings::GetCookieSetting(
+void OnevnCookieSettings::GetCookieSetting(
     const GURL& url,
     const GURL& first_party_url,
     const GURL& tab_url,
@@ -81,7 +81,7 @@ void OneVNCookieSettings::GetCookieSetting(
   ContentSetting onevn_shields_setting =
       host_content_settings_map_->GetContentSetting(
           primary_url, GURL(), CONTENT_SETTINGS_TYPE_PLUGINS,
-          onevn_shields::kOneVNShields);
+          onevn_shields::kOnevnShields);
   ContentSetting onevn_1p_setting =
       host_content_settings_map_->GetContentSetting(
           primary_url, GURL("https://firstParty/"),
@@ -102,7 +102,7 @@ void OneVNCookieSettings::GetCookieSetting(
   }
 }
 
-bool OneVNCookieSettings::IsCookieAccessAllowed(const GURL& url,
+bool OnevnCookieSettings::IsCookieAccessAllowed(const GURL& url,
                                                 const GURL& first_party_url,
                                                 const GURL& tab_url) const {
   ContentSetting setting;
@@ -115,7 +115,7 @@ bool OneVNCookieSettings::IsCookieAccessAllowed(const GURL& url,
          setting == CONTENT_SETTING_SESSION_ONLY;
 }
 
-void OneVNCookieSettings::OnAllowGoogleAuthChanged() {
+void OnevnCookieSettings::OnAllowGoogleAuthChanged() {
   DCHECK(thread_checker_.CalledOnValidThread());
   base::AutoLock auto_lock(lock_);
   allow_google_auth_ =

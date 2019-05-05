@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -22,7 +22,7 @@ namespace onevn {
 
 int OnBeforeURLRequest_TorWork(
     const ResponseCallback& next_callback,
-    std::shared_ptr<OneVNRequestInfo> ctx) {
+    std::shared_ptr<OnevnRequestInfo> ctx) {
   DCHECK_CURRENTLY_ON(BrowserThread::IO);
 
   ResourceRequestInfo* resource_info =
@@ -31,8 +31,8 @@ int OnBeforeURLRequest_TorWork(
     return net::OK;
   }
 
-  const OneVNNavigationUIData* ui_data =
-    static_cast<const OneVNNavigationUIData*>(
+  const OnevnNavigationUIData* ui_data =
+    static_cast<const OnevnNavigationUIData*>(
         resource_info->GetNavigationUIData());
   if (!ui_data) {
     return net::OK;

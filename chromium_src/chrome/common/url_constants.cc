@@ -1,4 +1,4 @@
-/* Copyright 2019 The OneVN Authors. All rights reserved.
+/* Copyright 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -9,7 +9,7 @@ namespace chrome {
 
 const char kAutomaticSettingsResetLearnMoreURL[] =
     "https://support.1-vn.com/hc/en-us/articles/"
-    "360017903152-How-do-I-reset-OneVN-settings-to-default-";
+    "360017903152-How-do-I-reset-Onevn-settings-to-default-";
 
 const char kBluetoothAdapterOffHelpURL[] =
 #if defined(OS_CHROMEOS)
@@ -88,25 +88,25 @@ const char kChromiumProjectURL[] = "https://github.com/1-vn/onevn-browser/";
 const char kCloudPrintLearnMoreURL[] =
 #if defined(OS_CHROMEOS)
     "https://support.1-vn.com/hc/en-us/articles/"
-    "360017880792-How-do-I-print-from-OneVN-";
+    "360017880792-How-do-I-print-from-Onevn-";
 #else
     "https://support.1-vn.com/hc/en-us/articles/"
-    "360017880792-How-do-I-print-from-OneVN-";
+    "360017880792-How-do-I-print-from-Onevn-";
 #endif
 
 const char kCloudPrintCertificateErrorLearnMoreURL[] =
 #if defined(OS_CHROMEOS)
     "https://support.1-vn.com/hc/en-us/articles/"
-    "360017880792-How-do-I-print-from-OneVN-";
+    "360017880792-How-do-I-print-from-Onevn-";
 #elif defined(OS_MACOSX)
     "https://support.1-vn.com/hc/en-us/articles/"
-    "360017880792-How-do-I-print-from-OneVN-";
+    "360017880792-How-do-I-print-from-Onevn-";
 #elif defined(OS_WIN)
     "https://support.1-vn.com/hc/en-us/articles/"
-    "360017880792-How-do-I-print-from-OneVN-";
+    "360017880792-How-do-I-print-from-Onevn-";
 #else
     "https://support.1-vn.com/hc/en-us/articles/"
-    "360017880792-How-do-I-print-from-OneVN-";
+    "360017880792-How-do-I-print-from-Onevn-";
 #endif
 
 const char kContentSettingsExceptionsLearnMoreURL[] =
@@ -224,11 +224,11 @@ const char kPrivacyLearnMoreURL[] =
 
 const char kRemoveNonCWSExtensionURL[] =
     "https://support.1-vn.com/hc/en-us/articles/"
-    "360017914832-Why-am-I-seeing-the-message-extensions-disabled-by-OneVN-";
+    "360017914832-Why-am-I-seeing-the-message-extensions-disabled-by-Onevn-";
 
 const char kResetProfileSettingsLearnMoreURL[] =
     "https://support.1-vn.com/hc/en-us/articles/"
-    "360017903152-How-do-I-reset-OneVN-settings-to-default-";
+    "360017903152-How-do-I-reset-Onevn-settings-to-default-";
 
 const char kSettingsSearchHelpURL[] =
 #if defined(OS_CHROMEOS)
@@ -258,7 +258,7 @@ const char kSyncLearnMoreURL[] =
 
 const char kUpgradeHelpCenterBaseURL[] =
     "https://support.1-vn.com/hc/en-us/articles/"
-    "360025390311-How-do-I-download-and-install-OneVN-";
+    "360025390311-How-do-I-download-and-install-Onevn-";
 
 #if defined(OS_ANDROID)
 const char kAndroidAppScheme[] = "android-app";
@@ -347,7 +347,7 @@ const char kChromeEnterpriseSignInLearnMoreURL[] =
 
 const char kMac10_9_ObsoleteURL[] =
     "https://support.1-vn.com/hc/en-us/articles/"
-    "360025390311-How-do-I-download-and-install-OneVN-";
+    "360025390311-How-do-I-download-and-install-Onevn-";
 #endif
 
 #if defined(OS_WIN)

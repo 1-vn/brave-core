@@ -7,7 +7,7 @@ index 89c2c186f9c095d6c2a9210ca2c4e8a94ee64b98..9f7ba1eb42bb50d21cdc2a905dd45e5d
  // Google Update group policy settings.
  const wchar_t kGoogleUpdatePoliciesKey[] =
 +#if defined(ONEVN_CHROMIUM_BUILD)
-+    L"SOFTWARE\\Policies\\OneVNSoftware\\Update";
++    L"SOFTWARE\\Policies\\OnevnSoftware\\Update";
 +#else
      L"SOFTWARE\\Policies\\Google\\Update";
 +#endif
@@ -25,9 +25,9 @@ index 89c2c186f9c095d6c2a9210ca2c4e8a94ee64b98..9f7ba1eb42bb50d21cdc2a905dd45e5d
  
  // Google Update registry settings.
 +#if defined(ONEVN_CHROMIUM_BUILD)
-+const wchar_t kRegPathGoogleUpdate[] = L"Software\\OneVNSoftware\\Update";
++const wchar_t kRegPathGoogleUpdate[] = L"Software\\OnevnSoftware\\Update";
 +const wchar_t kRegPathClientsGoogleUpdate[] =
-+    L"Software\\OneVNSoftware\\Update\\Clients\\"
++    L"Software\\OnevnSoftware\\Update\\Clients\\"
 +    L"{B131C935-9BE6-41DA-9599-1F776BEB8019}";
 +#else
  const wchar_t kRegPathGoogleUpdate[] = L"Software\\Google\\Update";

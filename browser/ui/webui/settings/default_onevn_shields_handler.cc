@@ -16,43 +16,43 @@
 #include "components/prefs/pref_service.h"
 #include "content/public/browser/web_ui.h"
 
-void DefaultOneVNShieldsHandler::RegisterMessages() {
+void DefaultOnevnShieldsHandler::RegisterMessages() {
   profile_ = Profile::FromWebUI(web_ui());
   web_ui()->RegisterMessageCallback(
       "getAdControlType",
-      base::BindRepeating(&DefaultOneVNShieldsHandler::GetAdControlType,
+      base::BindRepeating(&DefaultOnevnShieldsHandler::GetAdControlType,
                           base::Unretained(this)));
   web_ui()->RegisterMessageCallback(
       "setAdControlType",
-      base::BindRepeating(&DefaultOneVNShieldsHandler::SetAdControlType,
+      base::BindRepeating(&DefaultOnevnShieldsHandler::SetAdControlType,
                           base::Unretained(this)));
   web_ui()->RegisterMessageCallback(
       "getCookieControlType",
-      base::BindRepeating(&DefaultOneVNShieldsHandler::GetCookieControlType,
+      base::BindRepeating(&DefaultOnevnShieldsHandler::GetCookieControlType,
                           base::Unretained(this)));
   web_ui()->RegisterMessageCallback(
       "setCookieControlType",
-      base::BindRepeating(&DefaultOneVNShieldsHandler::SetCookieControlType,
+      base::BindRepeating(&DefaultOnevnShieldsHandler::SetCookieControlType,
                           base::Unretained(this)));
   web_ui()->RegisterMessageCallback(
       "getFingerprintingControlType",
-      base::BindRepeating(&DefaultOneVNShieldsHandler::GetFingerprintingControlType,
+      base::BindRepeating(&DefaultOnevnShieldsHandler::GetFingerprintingControlType,
                           base::Unretained(this)));
   web_ui()->RegisterMessageCallback(
       "setFingerprintingControlType",
-      base::BindRepeating(&DefaultOneVNShieldsHandler::SetFingerprintingControlType,
+      base::BindRepeating(&DefaultOnevnShieldsHandler::SetFingerprintingControlType,
                           base::Unretained(this)));
   web_ui()->RegisterMessageCallback(
       "setHTTPSEverywhereControlType",
-      base::BindRepeating(&DefaultOneVNShieldsHandler::SetHTTPSEverywhereControlType,
+      base::BindRepeating(&DefaultOnevnShieldsHandler::SetHTTPSEverywhereControlType,
                           base::Unretained(this)));
   web_ui()->RegisterMessageCallback(
       "setNoScriptControlType",
-      base::BindRepeating(&DefaultOneVNShieldsHandler::SetNoScriptControlType,
+      base::BindRepeating(&DefaultOnevnShieldsHandler::SetNoScriptControlType,
                           base::Unretained(this)));
 }
 
-void DefaultOneVNShieldsHandler::GetAdControlType(const base::ListValue* args) {
+void DefaultOnevnShieldsHandler::GetAdControlType(const base::ListValue* args) {
   CHECK_EQ(args->GetSize(), 1U);
   CHECK(profile_);
 
@@ -66,7 +66,7 @@ void DefaultOneVNShieldsHandler::GetAdControlType(const base::ListValue* args) {
       base::Value(setting == CONTENT_SETTING_ALLOW ? "allow" : "block"));
 }
 
-void DefaultOneVNShieldsHandler::SetAdControlType(const base::ListValue* args) {
+void DefaultOnevnShieldsHandler::SetAdControlType(const base::ListValue* args) {
   CHECK_EQ(args->GetSize(), 1U);
   CHECK(profile_);
   std::string value;
@@ -88,7 +88,7 @@ void DefaultOneVNShieldsHandler::SetAdControlType(const base::ListValue* args) {
         value == "allow" ? CONTENT_SETTING_ALLOW : CONTENT_SETTING_BLOCK);
 }
 
-void DefaultOneVNShieldsHandler::GetCookieControlType(const base::ListValue* args) {
+void DefaultOnevnShieldsHandler::GetCookieControlType(const base::ListValue* args) {
   CHECK_EQ(args->GetSize(), 1U);
   CHECK(profile_);
 
@@ -112,7 +112,7 @@ void DefaultOneVNShieldsHandler::GetCookieControlType(const base::ListValue* arg
       base::Value(value));
 }
 
-void DefaultOneVNShieldsHandler::SetCookieControlType(const base::ListValue* args) {
+void DefaultOnevnShieldsHandler::SetCookieControlType(const base::ListValue* args) {
   CHECK_EQ(args->GetSize(), 1U);
   CHECK(profile_);
   std::string value;
@@ -141,7 +141,7 @@ void DefaultOneVNShieldsHandler::SetCookieControlType(const base::ListValue* arg
       value == "block" ? CONTENT_SETTING_BLOCK : CONTENT_SETTING_ALLOW);
 }
 
-void DefaultOneVNShieldsHandler::GetFingerprintingControlType(const base::ListValue* args) {
+void DefaultOnevnShieldsHandler::GetFingerprintingControlType(const base::ListValue* args) {
   CHECK_EQ(args->GetSize(), 1U);
   CHECK(profile_);
 
@@ -165,7 +165,7 @@ void DefaultOneVNShieldsHandler::GetFingerprintingControlType(const base::ListVa
       base::Value(value));
 }
 
-void DefaultOneVNShieldsHandler::SetFingerprintingControlType(const base::ListValue* args) {
+void DefaultOnevnShieldsHandler::SetFingerprintingControlType(const base::ListValue* args) {
   CHECK_EQ(args->GetSize(), 1U);
   CHECK(profile_);
   std::string value;
@@ -187,7 +187,7 @@ void DefaultOneVNShieldsHandler::SetFingerprintingControlType(const base::ListVa
       value == "block" ? CONTENT_SETTING_BLOCK : CONTENT_SETTING_ALLOW);
 }
 
-void DefaultOneVNShieldsHandler::SetHTTPSEverywhereControlType(const base::ListValue* args) {
+void DefaultOnevnShieldsHandler::SetHTTPSEverywhereControlType(const base::ListValue* args) {
   CHECK_EQ(args->GetSize(), 1U);
   CHECK(profile_);
   bool value;
@@ -202,7 +202,7 @@ void DefaultOneVNShieldsHandler::SetHTTPSEverywhereControlType(const base::ListV
         value ? CONTENT_SETTING_BLOCK : CONTENT_SETTING_ALLOW);
 }
 
-void DefaultOneVNShieldsHandler::SetNoScriptControlType(const base::ListValue* args) {
+void DefaultOnevnShieldsHandler::SetNoScriptControlType(const base::ListValue* args) {
   CHECK_EQ(args->GetSize(), 1U);
   CHECK(profile_);
   bool value;

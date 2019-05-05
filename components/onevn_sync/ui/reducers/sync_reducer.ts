@@ -57,7 +57,7 @@ const syncReducer: Reducer<Sync.State | undefined> = (state: Sync.State | undefi
       }
 
       // if this device is deleted or only one device on sync chain,
-      // OneVNSyncService will do reset but we must clear
+      // OnevnSyncService will do reset but we must clear
       // previous sync state
       if (!state.isSyncConfigured) {
         state = { ...storage.defaultState }

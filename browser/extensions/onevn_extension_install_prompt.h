@@ -7,14 +7,14 @@
 
 #include "chrome/browser/extensions/extension_install_prompt.h"
 
-class OneVNPrompt : public ExtensionInstallPrompt::Prompt {
+class OnevnPrompt : public ExtensionInstallPrompt::Prompt {
  public:
-  explicit OneVNPrompt(ExtensionInstallPrompt::PromptType type);
-  ~OneVNPrompt() override;
+  explicit OnevnPrompt(ExtensionInstallPrompt::PromptType type);
+  ~OnevnPrompt() override;
 
   base::string16 GetDialogTitle() const override;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNPrompt);
+  DISALLOW_COPY_AND_ASSIGN(OnevnPrompt);
 };
 
 #endif  // ONEVN_BROWSER_EXTENSIONS_ONEVN_EXTENSION_INSTALL_PROMPT_H_

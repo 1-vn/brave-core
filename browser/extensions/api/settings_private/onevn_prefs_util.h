@@ -8,7 +8,7 @@
 #include "chrome/browser/extensions/api/settings_private/prefs_util.h"
 namespace extensions{
 
-class OneVNPrefsUtil : public PrefsUtil {
+class OnevnPrefsUtil : public PrefsUtil {
   public:
     using PrefsUtil::PrefsUtil;
     // Gets the list of whitelisted pref keys -- that is, those which correspond

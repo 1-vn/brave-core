@@ -1,4 +1,4 @@
-// Copyright (c) 2019 The OneVN Authors. All rights reserved.
+// Copyright (c) 2019 The Onevn Authors. All rights reserved.
 
 #ifndef ONEVN_BROWSER_EXTENSIONS_UPDATER_ONEVN_UPDATE_CLIENT_CONFIG_H_
 #define ONEVN_BROWSER_EXTENSIONS_UPDATER_ONEVN_UPDATE_CLIENT_CONFIG_H_
@@ -29,13 +29,13 @@ namespace extensions {
 
 class ExtensionUpdateClientBaseTest;
 
-class OneVNUpdateClientConfig : public update_client::Configurator {
+class OnevnUpdateClientConfig : public update_client::Configurator {
  public:
   using FactoryCallback =
-      base::RepeatingCallback<scoped_refptr<OneVNUpdateClientConfig>(
+      base::RepeatingCallback<scoped_refptr<OnevnUpdateClientConfig>(
           content::BrowserContext* context)>;
 
-  static scoped_refptr<OneVNUpdateClientConfig> Create(
+  static scoped_refptr<OnevnUpdateClientConfig> Create(
       content::BrowserContext* context);
 
   int InitialDelay() const override;
@@ -70,15 +70,15 @@ class OneVNUpdateClientConfig : public update_client::Configurator {
   update_client::RecoveryCRXElevator GetRecoveryCRXElevator() const override;
 
  protected:
-  friend class base::RefCountedThreadSafe<OneVNUpdateClientConfig>;
+  friend class base::RefCountedThreadSafe<OnevnUpdateClientConfig>;
   friend class ExtensionUpdateClientBaseTest;
 
-  explicit OneVNUpdateClientConfig(content::BrowserContext* context);
-  ~OneVNUpdateClientConfig() override;
+  explicit OnevnUpdateClientConfig(content::BrowserContext* context);
+  ~OnevnUpdateClientConfig() override;
 
   // Injects a new client config by changing the creation factory.
   // Should be used for tests only.
-  static void SetOneVNUpdateClientConfigFactoryForTesting(
+  static void SetOnevnUpdateClientConfigFactoryForTesting(
       FactoryCallback factory);
 
  private:
@@ -88,7 +88,7 @@ class OneVNUpdateClientConfig : public update_client::Configurator {
   std::unique_ptr<update_client::ActivityDataService> activity_data_service_;
   scoped_refptr<update_client::NetworkFetcherFactory> network_fetcher_factory_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNUpdateClientConfig);
+  DISALLOW_COPY_AND_ASSIGN(OnevnUpdateClientConfig);
 };
 
 }  // namespace extensions

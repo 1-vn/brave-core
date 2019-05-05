@@ -1,4 +1,4 @@
-/* Copyright 2016 The OneVN Authors. All rights reserved.
+/* Copyright 2016 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -49,10 +49,10 @@ class ScopedPauseObserver {
 const char kDeletedBookmarksTitle[] = "Deleted Bookmarks";
 const char kPendingBookmarksTitle[] = "Pending Bookmarks";
 
-std::unique_ptr<onevn_sync::OneVNBookmarkPermanentNode>
+std::unique_ptr<onevn_sync::OnevnBookmarkPermanentNode>
     MakePermanentNode(const std::string& title, int64_t* next_node_id) {
-  using onevn_sync::OneVNBookmarkPermanentNode;
-  auto node = std::make_unique<OneVNBookmarkPermanentNode>(*next_node_id);
+  using onevn_sync::OnevnBookmarkPermanentNode;
+  auto node = std::make_unique<OnevnBookmarkPermanentNode>(*next_node_id);
   (*next_node_id)++;
   node->set_type(bookmarks::BookmarkNode::FOLDER);
   node->set_visible(false);
@@ -237,14 +237,14 @@ const bookmarks::BookmarkNode* FindParent(bookmarks::BookmarkModel* model,
 // static
 BookmarkChangeProcessor* BookmarkChangeProcessor::Create(
     Profile* profile,
-    OneVNSyncClient* sync_client,
+    OnevnSyncClient* sync_client,
     prefs::Prefs* sync_prefs) {
   return new BookmarkChangeProcessor(profile, sync_client, sync_prefs);
 }
 
 BookmarkChangeProcessor::BookmarkChangeProcessor(
     Profile* profile,
-    OneVNSyncClient* sync_client,
+    OnevnSyncClient* sync_client,
     prefs::Prefs* sync_prefs)
     : sync_client_(sync_client),
       sync_prefs_(sync_prefs),
@@ -381,7 +381,7 @@ void BookmarkChangeProcessor::BookmarkMetaInfoChanged(
     BookmarkModel* model, const BookmarkNode* node) {
   // Ignore metadata changes.
   // These are:
-  // OneVN managed: "object_id", "order", "sync_timestamp",
+  // Onevn managed: "object_id", "order", "sync_timestamp",
   //      "last_send_time", "last_updated_time"
   // Chromium managed: kBookmarkLastVisitDateOnMobileKey,
   //      kBookmarkLastVisitDateOnDesktopKey, kBookmarkDismissedFromNTP,
@@ -660,11 +660,11 @@ int BookmarkChangeProcessor::GetPermanentNodeIndex(
   } else if (node == bookmark_model_->other_node()) {
     return 2;
   } else if (node == bookmark_model_->mobile_node()) {
-    LOG(WARNING) << "[OneVNSync] " << __func__ << " unexpected mobile_node";
+    LOG(WARNING) << "[OnevnSync] " << __func__ << " unexpected mobile_node";
     return 3;
   } else if (node ==
         const_cast<BookmarkChangeProcessor*>(this)->GetDeletedNodeRoot()) {
-    // OneVN defined pseudo node for storing deleted bookmark until get
+    // Onevn defined pseudo node for storing deleted bookmark until get
     // acknowledge about record present in sync cloud
     return 4;
   } else {

@@ -6,9 +6,9 @@
 
 namespace {
 
-class OneVNBrowserMainExtraPartsProfiles : public ChromeBrowserMainExtraPartsProfiles {
+class OnevnBrowserMainExtraPartsProfiles : public ChromeBrowserMainExtraPartsProfiles {
  public:
-  OneVNBrowserMainExtraPartsProfiles() : ChromeBrowserMainExtraPartsProfiles() {}
+  OnevnBrowserMainExtraPartsProfiles() : ChromeBrowserMainExtraPartsProfiles() {}
 
   void PreProfileInit() override {
     ChromeBrowserMainExtraPartsProfiles::PreProfileInit();
@@ -16,7 +16,7 @@ class OneVNBrowserMainExtraPartsProfiles : public ChromeBrowserMainExtraPartsPro
   }
 
  private:
-  DISALLOW_COPY_AND_ASSIGN(OneVNBrowserMainExtraPartsProfiles);
+  DISALLOW_COPY_AND_ASSIGN(OnevnBrowserMainExtraPartsProfiles);
 };
 
 }  // namespace
@@ -24,7 +24,7 @@ class OneVNBrowserMainExtraPartsProfiles : public ChromeBrowserMainExtraPartsPro
 namespace chrome {
 
 void AddProfilesExtraParts(ChromeBrowserMainParts* main_parts) {
-  main_parts->AddParts(new OneVNBrowserMainExtraPartsProfiles());
+  main_parts->AddParts(new OnevnBrowserMainExtraPartsProfiles());
 }
 
 }  // namespace chrome

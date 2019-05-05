@@ -28,10 +28,10 @@ class BindingAccessChecker;
 
 // The custom implementation of the contentSettings.ContentSetting type exposed
 // to APIs.
-class OneVNShieldsContentSetting final
-    : public gin::Wrappable<OneVNShieldsContentSetting> {
+class OnevnShieldsContentSetting final
+    : public gin::Wrappable<OnevnShieldsContentSetting> {
  public:
-  ~OneVNShieldsContentSetting() override;
+  ~OnevnShieldsContentSetting() override;
 
   // Creates a ContentSetting object for the given property.
   static v8::Local<v8::Object> Create(
@@ -50,7 +50,7 @@ class OneVNShieldsContentSetting final
   const char* GetTypeName() override;
 
  private:
-  OneVNShieldsContentSetting(APIRequestHandler* request_handler,
+  OnevnShieldsContentSetting(APIRequestHandler* request_handler,
                  const APITypeReferenceMap* type_refs,
                  const BindingAccessChecker* access_checker,
                  const std::string& pref_name,
@@ -78,7 +78,7 @@ class OneVNShieldsContentSetting final
   // on the preference it manages).
   ArgumentSpec argument_spec_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNShieldsContentSetting);
+  DISALLOW_COPY_AND_ASSIGN(OnevnShieldsContentSetting);
 };
 
 }  // namespace extensions

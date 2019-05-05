@@ -7,7 +7,7 @@ import * as windowTypes from '../../constants/windowTypes'
 import * as tabTypes from '../../constants/tabTypes'
 import * as webNavigationTypes from '../../constants/webNavigationTypes'
 import {
-  setAllowOneVNShields,
+  setAllowOnevnShields,
   setAllowAds,
   setAllowTrackers,
   setAllowHTTPUpgradableResources,
@@ -131,7 +131,7 @@ export default function shieldsPanelReducer (state: State = { tabs: {}, windows:
         console.error('Active tab not found')
         break
       }
-      setAllowOneVNShields(tabData.origin, action.setting)
+      setAllowOnevnShields(tabData.origin, action.setting)
         .then(() => {
           reloadTab(tabId, true).catch(() => {
             console.error('Tab reload was not successful')

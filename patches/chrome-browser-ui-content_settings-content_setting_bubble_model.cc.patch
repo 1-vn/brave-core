@@ -15,7 +15,7 @@ index 345cb725802aa21dd384d9e7abf5e12b759d16a1..41fed6f0fa93f383a38f7ce25871272d
    }
    if (content_type == CONTENT_SETTINGS_TYPE_PLUGINS) {
 -    return std::make_unique<ContentSettingPluginBubbleModel>(delegate,
-+    return std::make_unique<OneVNContentSettingPluginBubbleModel>(delegate,
++    return std::make_unique<OnevnContentSettingPluginBubbleModel>(delegate,
                                                               web_contents);
    }
    if (content_type == CONTENT_SETTINGS_TYPE_MIXEDSCRIPT) {

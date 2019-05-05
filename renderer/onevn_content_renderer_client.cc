@@ -5,11 +5,11 @@
 #include "onevn/renderer/onevn_content_renderer_client.h"
 #include "third_party/blink/public/platform/web_runtime_features.h"
 
-OneVNContentRendererClient::OneVNContentRendererClient()
+OnevnContentRendererClient::OnevnContentRendererClient()
     : ChromeContentRendererClient() {}
 
-void OneVNContentRendererClient::SetRuntimeFeaturesDefaultsBeforeBlinkInitialization() {
+void OnevnContentRendererClient::SetRuntimeFeaturesDefaultsBeforeBlinkInitialization() {
   blink::WebRuntimeFeatures::EnableWebUsb(false);
   blink::WebRuntimeFeatures::EnableSharedArrayBuffer(false);
 }
-OneVNContentRendererClient::~OneVNContentRendererClient() = default;
+OnevnContentRendererClient::~OnevnContentRendererClient() = default;

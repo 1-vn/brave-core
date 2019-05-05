@@ -6,7 +6,7 @@ index 341fbf78a96bb1b0b8e10bf9579dea9b930bec13..5d1d80b412cc8669c0acfd3b707651af
  
  namespace component_updater {
  
-+class OneVNCrxUpdateService;
++class OnevnCrxUpdateService;
  class OnDemandUpdater;
  
  using CrxInstaller = update_client::CrxInstaller;
@@ -14,7 +14,7 @@ index 341fbf78a96bb1b0b8e10bf9579dea9b930bec13..5d1d80b412cc8669c0acfd3b707651af
                        Callback callback) override;
  
   private:
-+  friend class OneVNCrxUpdateService;
++  friend class OnevnCrxUpdateService;
    void Start();
    void Stop();
  

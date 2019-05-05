@@ -10,7 +10,7 @@
 namespace extensions {
 namespace {
 
-class OneVNShieldsExtensionApiTest : public ExtensionApiTest {
+class OnevnShieldsExtensionApiTest : public ExtensionApiTest {
  public:
   void SetUp() override {
     onevn::RegisterPathProvider();
@@ -24,7 +24,7 @@ class OneVNShieldsExtensionApiTest : public ExtensionApiTest {
   base::FilePath extension_dir_;
 };
 
-IN_PROC_BROWSER_TEST_F(OneVNShieldsExtensionApiTest, OneVNExtensionHasAccess) {
+IN_PROC_BROWSER_TEST_F(OnevnShieldsExtensionApiTest, OnevnExtensionHasAccess) {
   ResultCatcher catcher;
   const Extension* extension =
     LoadExtension(extension_dir_.AppendASCII("onevnShields"));
@@ -32,11 +32,11 @@ IN_PROC_BROWSER_TEST_F(OneVNShieldsExtensionApiTest, OneVNExtensionHasAccess) {
   ASSERT_TRUE(catcher.GetNextResult()) << message_;
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNShieldsExtensionApiTest, NotOneVNExtensionHasNoAccess) {
+IN_PROC_BROWSER_TEST_F(OnevnShieldsExtensionApiTest, NotOnevnExtensionHasNoAccess) {
   LOG(ERROR) << "======= This is an intentional fail:";
   ResultCatcher catcher;
   const Extension* extension =
-    LoadExtension(extension_dir_.AppendASCII("notOneVNShields"));
+    LoadExtension(extension_dir_.AppendASCII("notOnevnShields"));
   ASSERT_TRUE(extension);
   ASSERT_FALSE(catcher.GetNextResult()) << message_;
 }

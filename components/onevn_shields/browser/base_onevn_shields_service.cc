@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -21,7 +21,7 @@
 
 namespace onevn_shields {
 
-BaseOneVNShieldsService::BaseOneVNShieldsService()
+BaseOnevnShieldsService::BaseOnevnShieldsService()
     : initialized_(false),
       task_runner_(
           base::CreateSequencedTaskRunnerWithTraits({base::MayBlock(),
@@ -29,21 +29,21 @@ BaseOneVNShieldsService::BaseOneVNShieldsService()
               base::TaskShutdownBehavior::SKIP_ON_SHUTDOWN})) {
 }
 
-BaseOneVNShieldsService::~BaseOneVNShieldsService() {
+BaseOnevnShieldsService::~BaseOnevnShieldsService() {
 }
 
-bool BaseOneVNShieldsService::IsInitialized() const {
+bool BaseOnevnShieldsService::IsInitialized() const {
   return initialized_;
 }
 
-void BaseOneVNShieldsService::InitShields() {
+void BaseOnevnShieldsService::InitShields() {
   if (Init()) {
     std::lock_guard<std::mutex> guard(initialized_mutex_);
     initialized_ = true;
   }
 }
 
-bool BaseOneVNShieldsService::Start() {
+bool BaseOnevnShieldsService::Start() {
   if (initialized_) {
     return true;
   }
@@ -52,13 +52,13 @@ bool BaseOneVNShieldsService::Start() {
   return false;
 }
 
-void BaseOneVNShieldsService::Stop() {
+void BaseOnevnShieldsService::Stop() {
   std::lock_guard<std::mutex> guard(initialized_mutex_);
   Cleanup();
   initialized_ = false;
 }
 
-bool BaseOneVNShieldsService::ShouldStartRequest(const GURL& url,
+bool BaseOnevnShieldsService::ShouldStartRequest(const GURL& url,
     content::ResourceType resource_type,
     const std::string& tab_host,
     bool* did_match_exception,
@@ -71,7 +71,7 @@ bool BaseOneVNShieldsService::ShouldStartRequest(const GURL& url,
 }
 
 scoped_refptr<base::SequencedTaskRunner>
-BaseOneVNShieldsService::GetTaskRunner() {
+BaseOnevnShieldsService::GetTaskRunner() {
   return task_runner_;
 }
 

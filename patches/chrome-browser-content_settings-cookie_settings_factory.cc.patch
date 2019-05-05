@@ -15,7 +15,7 @@ index 2bdf232aa502d4e94febb5ee9d62132c699b946b..32de4d66f4787c5684b53b8e814e40de
        "Privacy.DoNotTrackSetting",
        profile->GetPrefs()->GetBoolean(prefs::kEnableDoNotTrack));
 -  return new content_settings::CookieSettings(
-+  return new content_settings::OneVNCookieSettings(
++  return new content_settings::OnevnCookieSettings(
        HostContentSettingsMapFactory::GetForProfile(profile),
        profile->GetPrefs(),
        extensions::kExtensionScheme);

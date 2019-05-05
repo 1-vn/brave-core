@@ -307,7 +307,7 @@ bool ParseJSON(base::StringPiece json,
       }
     ],
     "entries": [
-      // OneVN
+      // Onevn
       { "name": "ledger.mercury.basicattentiontoken.org", "policy": "custom", "mode": "force-https", "pins": "onevn"},
       { "name": "ledger-staging.mercury.basicattentiontoken.org", "policy": "custom", "mode": "force-https", "pins": "onevn"},
       { "name": "balance.mercury.basicattentiontoken.org", "policy": "custom", "mode": "force-https", "pins": "onevn"},

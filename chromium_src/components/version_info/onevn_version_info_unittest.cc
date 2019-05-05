@@ -10,7 +10,7 @@ using version_info::GetChannelString;
 using version_info::Channel;
 
 // We use |nightly| instead of |canary|.
-TEST(OneVNVersionInfoTest, ChannelStringTest) {
+TEST(OnevnVersionInfoTest, ChannelStringTest) {
   EXPECT_EQ("stable", GetChannelString(Channel::STABLE));
   EXPECT_EQ("beta", GetChannelString(Channel::BETA));
   EXPECT_EQ("dev", GetChannelString(Channel::DEV));

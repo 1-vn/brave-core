@@ -9,12 +9,12 @@
 #include "base/sequenced_task_runner.h"
 #include "onevn/browser/extensions/onevn_component_extension.h"
 
-class OneVNTorClientUpdaterTest;
+class OnevnTorClientUpdaterTest;
 
 namespace extensions {
 
 #if defined(OS_WIN)
-const std::string kTorClientComponentName("OneVN Tor Client Updater (Windows)");
+const std::string kTorClientComponentName("Onevn Tor Client Updater (Windows)");
 const std::string kTorClientComponentId("cpoalefficncklhjfpglfiplenlpccdb");
 const std::string kTorClientComponentBase64PublicKey =
     "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1AYAsmR/VoRwkZCsjRpD"
@@ -25,7 +25,7 @@ const std::string kTorClientComponentBase64PublicKey =
     "IuZjyySVzGNcOfASeHkhxhlwMQSQuhCN5mdFW5YBnVZ/5QWx8WzbhqBny/ZynS4e"
     "rQIDAQAB";
 #elif defined(OS_MACOSX)
-const std::string kTorClientComponentName("OneVN Tor Client Updater (Mac)");
+const std::string kTorClientComponentName("Onevn Tor Client Updater (Mac)");
 const std::string kTorClientComponentId("cldoidikboihgcjfkhdeidbpclkineef");
 const std::string kTorClientComponentBase64PublicKey =
     "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw2QUXSbVuRxYpItYApZ8"
@@ -36,7 +36,7 @@ const std::string kTorClientComponentBase64PublicKey =
     "9CBOMNjaHeCVz0MKxdCWGPieQM0R7S1KvDCVqAkss6NAbLB6AVM0JulqxC9b+hr/"
     "xwIDAQAB";
 #elif defined(OS_LINUX)
-const std::string kTorClientComponentName("OneVN Tor Client Updater (Linux)");
+const std::string kTorClientComponentName("Onevn Tor Client Updater (Linux)");
 const std::string kTorClientComponentId("biahpgbdmdkfgndcmfiipgcebobojjkp");
 const std::string kTorClientComponentBase64PublicKey =
     "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAseuq8dXKawkZC7RSE7xb"
@@ -48,10 +48,10 @@ const std::string kTorClientComponentBase64PublicKey =
     "2QIDAQAB";
 #endif
 
-class OneVNTorClientUpdater : public OneVNComponentExtension {
+class OnevnTorClientUpdater : public OnevnComponentExtension {
  public:
-   OneVNTorClientUpdater();
-   ~OneVNTorClientUpdater() override;
+   OnevnTorClientUpdater();
+   ~OnevnTorClientUpdater() override;
 
   void Register();
   base::FilePath GetExecutablePath() const;
@@ -65,7 +65,7 @@ class OneVNTorClientUpdater : public OneVNComponentExtension {
       const std::string& manifest) override;
 
  private:
-  friend class ::OneVNTorClientUpdaterTest;
+  friend class ::OnevnTorClientUpdaterTest;
   static std::string g_tor_client_component_name_;
   static std::string g_tor_client_component_id_;
   static std::string g_tor_client_component_base64_public_key_;
@@ -77,11 +77,11 @@ class OneVNTorClientUpdater : public OneVNComponentExtension {
   bool registered_;
   base::FilePath executable_path_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNTorClientUpdater);
+  DISALLOW_COPY_AND_ASSIGN(OnevnTorClientUpdater);
 };
 
-// Creates the OneVNTorClientUpdater
-std::unique_ptr<OneVNTorClientUpdater> OneVNTorClientUpdaterFactory();
+// Creates the OnevnTorClientUpdater
+std::unique_ptr<OnevnTorClientUpdater> OnevnTorClientUpdaterFactory();
 
 }  // namespace extensions
 

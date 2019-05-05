@@ -55,7 +55,7 @@ class AutoplayPermissionContextBrowserTest : public InProcessBrowserTest {
 
       content_client_.reset(new ChromeContentClient);
       content::SetContentClient(content_client_.get());
-      browser_content_client_.reset(new OneVNContentBrowserClient());
+      browser_content_client_.reset(new OnevnContentBrowserClient());
       content::SetBrowserClientForTesting(browser_content_client_.get());
 
       host_resolver()->AddRule("*", "127.0.0.1");
@@ -161,7 +161,7 @@ class AutoplayPermissionContextBrowserTest : public InProcessBrowserTest {
     GURL file_autoplay_attr_url_;
     ContentSettingsPattern top_level_page_pattern_;
     std::unique_ptr<ChromeContentClient> content_client_;
-    std::unique_ptr<OneVNContentBrowserClient> browser_content_client_;
+    std::unique_ptr<OnevnContentBrowserClient> browser_content_client_;
 };
 
 class AutoplayWhitelistServiceTest : public ExtensionBrowserTest {

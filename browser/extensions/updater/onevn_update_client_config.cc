@@ -1,4 +1,4 @@
-// Copyright (c) 2019 The OneVN Authors. All rights reserved.
+// Copyright (c) 2019 The Onevn Authors. All rights reserved.
 
 #include "onevn/browser/extensions/updater/onevn_update_client_config.h"
 
@@ -29,7 +29,7 @@ namespace extensions {
 
 namespace {
 
-using FactoryCallback = OneVNUpdateClientConfig::FactoryCallback;
+using FactoryCallback = OnevnUpdateClientConfig::FactoryCallback;
 
 // static
 static FactoryCallback& GetFactoryCallback() {
@@ -92,7 +92,7 @@ void ExtensionActivityDataService::ClearActiveBit(const std::string& id) {
 
 // For privacy reasons, requires encryption of the component updater
 // communication with the update backend.
-OneVNUpdateClientConfig::OneVNUpdateClientConfig(
+OnevnUpdateClientConfig::OnevnUpdateClientConfig(
     content::BrowserContext* context)
     : context_(context),
       impl_(ExtensionUpdateClientCommandLineConfigPolicy(
@@ -104,68 +104,68 @@ OneVNUpdateClientConfig::OneVNUpdateClientConfig(
   DCHECK(pref_service_);
 }
 
-int OneVNUpdateClientConfig::InitialDelay() const {
+int OnevnUpdateClientConfig::InitialDelay() const {
   return impl_.InitialDelay();
 }
 
-int OneVNUpdateClientConfig::NextCheckDelay() const {
+int OnevnUpdateClientConfig::NextCheckDelay() const {
   return impl_.NextCheckDelay();
 }
 
-int OneVNUpdateClientConfig::OnDemandDelay() const {
+int OnevnUpdateClientConfig::OnDemandDelay() const {
   return impl_.OnDemandDelay();
 }
 
-int OneVNUpdateClientConfig::UpdateDelay() const {
+int OnevnUpdateClientConfig::UpdateDelay() const {
   return impl_.UpdateDelay();
 }
 
-std::vector<GURL> OneVNUpdateClientConfig::UpdateUrl() const {
+std::vector<GURL> OnevnUpdateClientConfig::UpdateUrl() const {
   return impl_.UpdateUrl();
 }
 
-std::vector<GURL> OneVNUpdateClientConfig::PingUrl() const {
+std::vector<GURL> OnevnUpdateClientConfig::PingUrl() const {
   return impl_.PingUrl();
 }
 
-std::string OneVNUpdateClientConfig::GetProdId() const {
+std::string OnevnUpdateClientConfig::GetProdId() const {
   return update_client::UpdateQueryParams::GetProdIdString(
       update_client::UpdateQueryParams::ProdId::CRX);
 }
 
-base::Version OneVNUpdateClientConfig::GetBrowserVersion() const {
+base::Version OnevnUpdateClientConfig::GetBrowserVersion() const {
   return impl_.GetBrowserVersion();
 }
 
-std::string OneVNUpdateClientConfig::GetChannel() const {
+std::string OnevnUpdateClientConfig::GetChannel() const {
   return std::string("stable");;
 }
 
-std::string OneVNUpdateClientConfig::GetBrand() const {
+std::string OnevnUpdateClientConfig::GetBrand() const {
   std::string brand;
   google_brand::GetBrand(&brand);
   return brand;
 }
 
-std::string OneVNUpdateClientConfig::GetLang() const {
+std::string OnevnUpdateClientConfig::GetLang() const {
   return ChromeUpdateQueryParamsDelegate::GetLang();
 }
 
-std::string OneVNUpdateClientConfig::GetOSLongName() const {
+std::string OnevnUpdateClientConfig::GetOSLongName() const {
   return impl_.GetOSLongName();
 }
 
 base::flat_map<std::string, std::string>
-OneVNUpdateClientConfig::ExtraRequestParams() const {
+OnevnUpdateClientConfig::ExtraRequestParams() const {
   return impl_.ExtraRequestParams();
 }
 
-std::string OneVNUpdateClientConfig::GetDownloadPreference() const {
+std::string OnevnUpdateClientConfig::GetDownloadPreference() const {
   return std::string();
 }
 
 scoped_refptr<update_client::NetworkFetcherFactory>
-OneVNUpdateClientConfig::GetNetworkFetcherFactory() {
+OnevnUpdateClientConfig::GetNetworkFetcherFactory() {
   if (!network_fetcher_factory_) {
     network_fetcher_factory_ =
         base::MakeRefCounted<update_client::NetworkFetcherChromiumFactory>(
@@ -176,59 +176,59 @@ OneVNUpdateClientConfig::GetNetworkFetcherFactory() {
 }
 
 std::unique_ptr<service_manager::Connector>
-OneVNUpdateClientConfig::CreateServiceManagerConnector() const {
+OnevnUpdateClientConfig::CreateServiceManagerConnector() const {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   return content::ServiceManagerConnection::GetForProcess()
       ->GetConnector()
       ->Clone();
 }
 
-bool OneVNUpdateClientConfig::EnabledDeltas() const {
+bool OnevnUpdateClientConfig::EnabledDeltas() const {
   return impl_.EnabledDeltas();
 }
 
-bool OneVNUpdateClientConfig::EnabledComponentUpdates() const {
+bool OnevnUpdateClientConfig::EnabledComponentUpdates() const {
   return impl_.EnabledComponentUpdates();
 }
 
-bool OneVNUpdateClientConfig::EnabledBackgroundDownloader() const {
+bool OnevnUpdateClientConfig::EnabledBackgroundDownloader() const {
   return impl_.EnabledBackgroundDownloader();
 }
 
 // Disabling cup signing
-bool OneVNUpdateClientConfig::EnabledCupSigning() const {
+bool OnevnUpdateClientConfig::EnabledCupSigning() const {
   return false;
 }
 
-PrefService* OneVNUpdateClientConfig::GetPrefService() const {
+PrefService* OnevnUpdateClientConfig::GetPrefService() const {
   return pref_service_;
 }
 
 update_client::ActivityDataService*
-OneVNUpdateClientConfig::GetActivityDataService() const {
+OnevnUpdateClientConfig::GetActivityDataService() const {
   return activity_data_service_.get();
 }
 
-bool OneVNUpdateClientConfig::IsPerUserInstall() const {
+bool OnevnUpdateClientConfig::IsPerUserInstall() const {
   return component_updater::IsPerUserInstall();
 }
 
-std::vector<uint8_t> OneVNUpdateClientConfig::GetRunActionKeyHash() const {
+std::vector<uint8_t> OnevnUpdateClientConfig::GetRunActionKeyHash() const {
   return impl_.GetRunActionKeyHash();
 }
 
-std::string OneVNUpdateClientConfig::GetAppGuid() const {
+std::string OnevnUpdateClientConfig::GetAppGuid() const {
   return impl_.GetAppGuid();
 }
 
 // Always use XML ProtocolHandler
 std::unique_ptr<update_client::ProtocolHandlerFactory>
-OneVNUpdateClientConfig::GetProtocolHandlerFactory() const {
+OnevnUpdateClientConfig::GetProtocolHandlerFactory() const {
   return std::make_unique<update_client::ProtocolHandlerFactoryXml>();
 }
 
 update_client::RecoveryCRXElevator
-OneVNUpdateClientConfig::GetRecoveryCRXElevator() const {
+OnevnUpdateClientConfig::GetRecoveryCRXElevator() const {
 #if defined(GOOGLE_CHROME_BUILD) && defined(OS_WIN)
   return base::BindOnce(&RunRecoveryCRXElevated);
 #else
@@ -236,19 +236,19 @@ OneVNUpdateClientConfig::GetRecoveryCRXElevator() const {
 #endif
 }
 
-OneVNUpdateClientConfig::~OneVNUpdateClientConfig() {}
+OnevnUpdateClientConfig::~OnevnUpdateClientConfig() {}
 
 // static
-scoped_refptr<OneVNUpdateClientConfig> OneVNUpdateClientConfig::Create(
+scoped_refptr<OnevnUpdateClientConfig> OnevnUpdateClientConfig::Create(
     content::BrowserContext* context) {
   FactoryCallback& factory = GetFactoryCallback();
-  return factory.is_null() ? scoped_refptr<OneVNUpdateClientConfig>(
-                                 new OneVNUpdateClientConfig(context))
+  return factory.is_null() ? scoped_refptr<OnevnUpdateClientConfig>(
+                                 new OnevnUpdateClientConfig(context))
                            : factory.Run(context);
 }
 
 // static
-void OneVNUpdateClientConfig::SetOneVNUpdateClientConfigFactoryForTesting(
+void OnevnUpdateClientConfig::SetOnevnUpdateClientConfigFactoryForTesting(
     FactoryCallback factory) {
   DCHECK(!factory.is_null());
   GetFactoryCallback() = factory;

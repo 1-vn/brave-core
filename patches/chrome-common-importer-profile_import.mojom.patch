@@ -15,13 +15,13 @@ index 081955be7142f8a1ffdd68e19e30baa3b303586e..d506cbcff13b4f089770d9c1f3c06203
  struct ImporterIE7PasswordInfo;
  
 +[Native]
-+struct OneVNStats;
++struct OnevnStats;
 +
 +[Native]
-+struct OneVNLedger;
++struct OnevnLedger;
 +
 +[Native]
-+struct OneVNReferral;
++struct OnevnReferral;
 +
 +[Native]
 +struct ImportedBrowserTab;
@@ -44,9 +44,9 @@ index 081955be7142f8a1ffdd68e19e30baa3b303586e..d506cbcff13b4f089770d9c1f3c06203
        array<ImporterAutofillFormDataEntry> autofill_form_data_entry_group);
 +  OnCookiesImportStart(uint32 total_cookies_count);
 +  OnCookiesImportGroup(array<network.mojom.CanonicalCookie> cookies_group);
-+  OnStatsImportReady(OneVNStats stats);
-+  OnLedgerImportReady(OneVNLedger ledger);
-+  OnReferralImportReady(OneVNReferral referral);
++  OnStatsImportReady(OnevnStats stats);
++  OnLedgerImportReady(OnevnLedger ledger);
++  OnReferralImportReady(OnevnReferral referral);
 +  OnWindowsImportReady(ImportedWindowState window_state);
 +  OnSettingsImportReady(SessionStoreSettings settings);
  };

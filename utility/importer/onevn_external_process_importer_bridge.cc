@@ -17,7 +17,7 @@ const int kNumCookiesToSend = 100;
 
 }  // namespace
 
-void OneVNExternalProcessImporterBridge::SetCookies(
+void OnevnExternalProcessImporterBridge::SetCookies(
     const std::vector<net::CanonicalCookie>& cookies) {
   (*observer_)->OnCookiesImportStart(cookies.size());
 
@@ -39,36 +39,36 @@ void OneVNExternalProcessImporterBridge::SetCookies(
   DCHECK_EQ(0, cookies_left);
 }
 
-void OneVNExternalProcessImporterBridge::UpdateStats(
-    const OneVNStats& stats) {
+void OnevnExternalProcessImporterBridge::UpdateStats(
+    const OnevnStats& stats) {
   (*observer_)->OnStatsImportReady(stats);
 }
 
-void OneVNExternalProcessImporterBridge::UpdateLedger(
-    const OneVNLedger& ledger) {
+void OnevnExternalProcessImporterBridge::UpdateLedger(
+    const OnevnLedger& ledger) {
   (*observer_)->OnLedgerImportReady(ledger);
 }
 
-void OneVNExternalProcessImporterBridge::UpdateReferral(
-    const OneVNReferral& referral) {
+void OnevnExternalProcessImporterBridge::UpdateReferral(
+    const OnevnReferral& referral) {
   (*observer_)->OnReferralImportReady(referral);
 }
 
-void OneVNExternalProcessImporterBridge::UpdateWindows(
+void OnevnExternalProcessImporterBridge::UpdateWindows(
     const ImportedWindowState& windowState) {
   (*observer_)->OnWindowsImportReady(windowState);
 }
 
 
-void OneVNExternalProcessImporterBridge::UpdateSettings(
+void OnevnExternalProcessImporterBridge::UpdateSettings(
       const SessionStoreSettings& settings) {
   (*observer_)->OnSettingsImportReady(settings);
 }
 
 
-OneVNExternalProcessImporterBridge::OneVNExternalProcessImporterBridge(
+OnevnExternalProcessImporterBridge::OnevnExternalProcessImporterBridge(
     const base::flat_map<uint32_t, std::string>& localized_strings,
     scoped_refptr<chrome::mojom::ThreadSafeProfileImportObserverPtr> observer)
   : ExternalProcessImporterBridge(localized_strings, observer) {}
 
-OneVNExternalProcessImporterBridge::~OneVNExternalProcessImporterBridge() {}
+OnevnExternalProcessImporterBridge::~OnevnExternalProcessImporterBridge() {}

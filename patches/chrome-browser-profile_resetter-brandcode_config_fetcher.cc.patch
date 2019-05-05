@@ -7,7 +7,7 @@ index ccd3dc215fe58a482c5f4a6482e5301d8c7d5b1d..a524b4e95e0e51c752385a51664e99df
      const std::string& brandcode)
      : fetch_callback_(callback) {
 +  base::ResetAndReturn(&fetch_callback_).Run(); // tell caller we're done
-+  return; // but don't actually do anything (this feature is disabled in OneVN)
++  return; // but don't actually do anything (this feature is disabled in Onevn)
    DCHECK(!brandcode.empty());
    net::NetworkTrafficAnnotationTag traffic_annotation =
        net::DefineNetworkTrafficAnnotation("brandcode_config", R"(

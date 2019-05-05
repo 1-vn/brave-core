@@ -12,35 +12,35 @@
 
 namespace extensions {
 
-std::string OneVNTorClientUpdater::g_tor_client_component_id_(
+std::string OnevnTorClientUpdater::g_tor_client_component_id_(
     kTorClientComponentId);
-std::string OneVNTorClientUpdater::g_tor_client_component_base64_public_key_(
+std::string OnevnTorClientUpdater::g_tor_client_component_base64_public_key_(
     kTorClientComponentBase64PublicKey);
 
-OneVNTorClientUpdater::OneVNTorClientUpdater()
+OnevnTorClientUpdater::OnevnTorClientUpdater()
     : task_runner_(
           base::CreateSequencedTaskRunnerWithTraits({base::MayBlock()})),
       registered_(false) {
 }
 
-OneVNTorClientUpdater::~OneVNTorClientUpdater() {
+OnevnTorClientUpdater::~OnevnTorClientUpdater() {
 }
 
-void OneVNTorClientUpdater::Register() {
+void OnevnTorClientUpdater::Register() {
   if (registered_)
     return;
 
-  OneVNComponentExtension::Register(kTorClientComponentName,
+  OnevnComponentExtension::Register(kTorClientComponentName,
                                     g_tor_client_component_id_,
                                     g_tor_client_component_base64_public_key_);
   registered_ = true;
 }
 
-base::FilePath OneVNTorClientUpdater::GetExecutablePath() const {
+base::FilePath OnevnTorClientUpdater::GetExecutablePath() const {
   return executable_path_;
 }
 
-void OneVNTorClientUpdater::InitExecutablePath(
+void OnevnTorClientUpdater::InitExecutablePath(
     const base::FilePath& install_dir) {
   base::FilePath executable_path;
   base::FileEnumerator traversal(install_dir, false,
@@ -76,17 +76,17 @@ void OneVNTorClientUpdater::InitExecutablePath(
   executable_path_ = executable_path;
 }
 
-void OneVNTorClientUpdater::OnComponentReady(
+void OnevnTorClientUpdater::OnComponentReady(
     const std::string& component_id,
     const base::FilePath& install_dir,
     const std::string& manifest) {
   GetTaskRunner()->PostTask(
-      FROM_HERE, base::Bind(&OneVNTorClientUpdater::InitExecutablePath,
+      FROM_HERE, base::Bind(&OnevnTorClientUpdater::InitExecutablePath,
                             base::Unretained(this), install_dir));
 }
 
 // static
-void OneVNTorClientUpdater::SetComponentIdAndBase64PublicKeyForTest(
+void OnevnTorClientUpdater::SetComponentIdAndBase64PublicKeyForTest(
     const std::string& component_id,
     const std::string& component_base64_public_key) {
   g_tor_client_component_id_ = component_id;
@@ -95,9 +95,9 @@ void OneVNTorClientUpdater::SetComponentIdAndBase64PublicKeyForTest(
 
 ///////////////////////////////////////////////////////////////////////////////
 
-// The OneVN Tor client extension factory.
-std::unique_ptr<OneVNTorClientUpdater> OneVNTorClientUpdaterFactory() {
-  return std::make_unique<OneVNTorClientUpdater>();
+// The Onevn Tor client extension factory.
+std::unique_ptr<OnevnTorClientUpdater> OnevnTorClientUpdaterFactory() {
+  return std::make_unique<OnevnTorClientUpdater>();
 }
 
 }  // namespace extensions

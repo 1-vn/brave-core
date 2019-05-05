@@ -6,10 +6,10 @@ index b16b16bdc439014bf647f80ca9b7ce8215cfbb6c..cf36aac8b0d18fb0a1dd6f9018dcd53e
    if enable_hidpi == '1':
      CopySectionFilesToStagingDir(config, 'HIDPI', staging_dir, build_dir)
  
-+  CopyOneVNExtensionLocalization(config, staging_dir)
-+  CopyOneVNRewardsExtensionLocalization(config, staging_dir)
++  CopyOnevnExtensionLocalization(config, staging_dir)
++  CopyOnevnRewardsExtensionLocalization(config, staging_dir)
 +
-+def CopyOneVNExtensionLocalization(config, staging_dir):
++def CopyOnevnExtensionLocalization(config, staging_dir):
 +  """Copies extension localization files from
 +  \\onevn\components/onevn_extension\extension/onevn_extension\_locales to
 +  \\<out_gen_dir>\chrome\installer\mini_installer\mini_installer\temp_installer_archive\Chrome-bin\<version>\resources\onevn_extension\_locales
@@ -35,7 +35,7 @@ index b16b16bdc439014bf647f80ca9b7ce8215cfbb6c..cf36aac8b0d18fb0a1dd6f9018dcd53e
 +        candidate = os.path.join('.', 'resources', 'onevn_extension' '_locales', rel_file)
 +        g_archive_inputs.append(candidate)
 +
-+def CopyOneVNRewardsExtensionLocalization(config, staging_dir):
++def CopyOnevnRewardsExtensionLocalization(config, staging_dir):
 +  """Copies extension localization files from
 +  \\onevn\components\onevn_rewards\extension\onevn_rewards\_locales to
 +  \\<out_gen_dir>\chrome\installer\mini_installer\mini_installer\temp_installer_archive\Chrome-bin\<version>\resources\onevn_rewards\_locales

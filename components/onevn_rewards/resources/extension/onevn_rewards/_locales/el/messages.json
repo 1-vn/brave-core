@@ -1,6 +1,6 @@
 {
   "onevnRewards": {
-    "message": "Επιβραβεύσεις OneVN",
+    "message": "Επιβραβεύσεις Onevn",
     "description": "Title in welcome screen for the panel"
   },
   "welcomeButtonTextOne": {
@@ -28,7 +28,7 @@
     "description": "Link in the footer (takes you to rewards settings page) for welcome screen in the panel, new user"
   },
   "welcomeHeaderOne": {
-    "message": "Έχουμε κάνει μια μεγάλη αναβάθμιση των Ανταμοιβών OneVN.",
+    "message": "Έχουμε κάνει μια μεγάλη αναβάθμιση των Ανταμοιβών Onevn.",
     "description": "Main header title for welcome screen in the panel, existing user"
   },
   "welcomeHeaderTwo": {
@@ -48,7 +48,7 @@
     "description": "The whole string is 'Enable tips on YouTube for like.'"
   },
   "verifiedPublisher": {
-    "message": "Επαληθευμένος Εκδότης OneVN",
+    "message": "Επαληθευμένος Εκδότης Onevn",
     "description": "Tells user that this particular publisher is verified publisher"
   },
   "rewardsContributeAttentionScore": {
@@ -164,7 +164,7 @@
     "description": "Used in notification to dismiss notification"
   },
   "onevnAdsTitle": {
-    "message": "Διαφημίσεις OneVN",
+    "message": "Διαφημίσεις Onevn",
     "description": "Notification title when we display info about ads"
   },
   "onevnContributeTitle": {
@@ -194,11 +194,11 @@
     "description": "Notification title when we ask user to backup wallet"
   },
   "backupWalletNotification": {
-    "message": "Παρακαλώ κρατήστε αντίγραφο ασφαλείας του OneVN πορτοφολιού σας.",
+    "message": "Παρακαλώ κρατήστε αντίγραφο ασφαλείας του Onevn πορτοφολιού σας.",
     "description": "Description for backup wallet notification"
   },
   "insufficientFundsNotification": {
-    "message": "Ο λογαριασμός σας Ανταμοιβών OneVN αναμένει μια κατάθεση.",
+    "message": "Ο λογαριασμός σας Ανταμοιβών Onevn αναμένει μια κατάθεση.",
     "description": "Description for new insufficient funds notification"
   },
   "insufficientFunds": {
@@ -270,7 +270,7 @@
     "description": "Button text for clearing the error."
   },
   "grantGeneralErrorText": {
-    "message": "Οι OneVN ανταμοιβές παρουσιάζουν κάποιο πρόβλημα. Παρακαλώ προσπαθήστε ξανά αργότερα.",
+    "message": "Οι Onevn ανταμοιβές παρουσιάζουν κάποιο πρόβλημα. Παρακαλώ προσπαθήστε ξανά αργότερα.",
     "description": "Error text when user is having problems claiming a grant."
   },
   "grantGeneralErrorTitle": {
@@ -294,7 +294,7 @@
     "description": "Status of the publisher shown in the panel"
   },
   "unVerifiedText": {
-    "message": "Αυτός ο δημιουργός δεν έχει ακόμη εγγραφεί για να λάβει συνεισφορές από χρήστες OneVN. Οποιαδήποτε φιλοδωρήματα θα στείλετε θα παραμείνουν στο πορτοφόλι σας μέχρι να επαληθευτούν.",
+    "message": "Αυτός ο δημιουργός δεν έχει ακόμη εγγραφεί για να λάβει συνεισφορές από χρήστες Onevn. Οποιαδήποτε φιλοδωρήματα θα στείλετε θα παραμείνουν στο πορτοφόλι σας μέχρι να επαληθευτούν.",
     "description": "Notice about unverified publisher."
   },
   "unVerifiedTextMore": {
@@ -322,7 +322,7 @@
     "description": "Text for Panel's disabled state"
   },
   "disabledPanelTitle": {
-    "message": "Η OneVN ανταμοιβή είναι",
+    "message": "Η Onevn ανταμοιβή είναι",
     "description": "Title for Panel's disabled state"
   },
   "walletFailedTitle": {
@@ -358,7 +358,7 @@
     "description": "Text block for wallet disabled panel"
   },
   "enableRewards": {
-    "message": "Ενεργοποίηση Ανταμοιβών OneVN",
+    "message": "Ενεργοποίηση Ανταμοιβών Onevn",
     "description": "Subtitle for wallet disabled panel"
   },
   "privacyPolicy": {
@@ -366,7 +366,7 @@
     "description": "Privacy Policy"
   },
   "serviceText": {
-    "message": "Κάνοντας κλικ στο 'Ενεργοποίηση Ανταμοιβών OneVN', υποδηλώνετε ότι έχετε διαβάσει και συμφωνείτε με",
+    "message": "Κάνοντας κλικ στο 'Ενεργοποίηση Ανταμοιβών Onevn', υποδηλώνετε ότι έχετε διαβάσει και συμφωνείτε με",
     "description": "Terms of service main text"
   },
   "termsOfService": {

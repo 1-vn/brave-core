@@ -195,7 +195,7 @@ net::URLRequestJob* AdBlockInterceptor::MaybeInterceptRequest(
     net::URLRequest* request,
     net::NetworkDelegate* network_delegate) const {
   std::string header;
-  if (request->extra_request_headers().GetHeader("X-OneVN-Block", &header)) {
+  if (request->extra_request_headers().GetHeader("X-Onevn-Block", &header)) {
     VLOG(1) << "Intercepting request: " << request->url().spec();
     return new Http200OkJob(request, network_delegate);
   }

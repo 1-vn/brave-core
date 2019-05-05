@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -16,11 +16,11 @@ using tor::TorProfileService;
 
 enum class WindowOpenDisposition;
 
-class OneVNNavigationUIData : public ChromeNavigationUIData {
+class OnevnNavigationUIData : public ChromeNavigationUIData {
  public:
-  OneVNNavigationUIData();
-  explicit OneVNNavigationUIData(NavigationHandle* navigation_handle);
-  ~OneVNNavigationUIData() override;
+  OnevnNavigationUIData();
+  explicit OnevnNavigationUIData(NavigationHandle* navigation_handle);
+  ~OnevnNavigationUIData() override;
 
   static std::unique_ptr<ChromeNavigationUIData> CreateForMainFrameNavigation(
       content::WebContents* web_contents,
@@ -35,7 +35,7 @@ class OneVNNavigationUIData : public ChromeNavigationUIData {
  private:
   TorProfileService* tor_profile_service_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNNavigationUIData);
+  DISALLOW_COPY_AND_ASSIGN(OnevnNavigationUIData);
 };
 
 #endif  // ONEVN_BROWSER_RENDERER_HOST_ONEVN_NAVIGATION_UI_DATA_H_

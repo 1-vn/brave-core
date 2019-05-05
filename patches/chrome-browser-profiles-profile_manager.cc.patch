@@ -6,7 +6,7 @@ index af40358b9ef20c08c61c896b1bbb0a32cf6e89de..443a9b2843528d8bc4c967bd62441675
    const base::FilePath last_used_profile_path =
        GetLastUsedProfileDir(user_data_dir_);
    const base::FilePath guest_profile_path = GetGuestProfilePath();
-+  const base::FilePath tor_profile_path = OneVNProfileManager::GetTorProfilePath();
++  const base::FilePath tor_profile_path = OnevnProfileManager::GetTorProfilePath();
    Profile* last_used_profile = GetProfileByPath(last_used_profile_path);
    if (last_used_profile_path != profile_dir &&
        last_used_profile_path != guest_profile_path &&
@@ -34,7 +34,7 @@ index af40358b9ef20c08c61c896b1bbb0a32cf6e89de..443a9b2843528d8bc4c967bd62441675
      base::FilePath entry_path = entry->GetPath();
      if (entry_path == profile_dir ||
          entry_path == GetGuestProfilePath() ||
-+        entry_path == OneVNProfileManager::GetTorProfilePath() ||
++        entry_path == OnevnProfileManager::GetTorProfilePath() ||
          entry->IsLegacySupervised() ||
          IsProfileDirectoryMarkedForDeletion(entry_path))
        continue;

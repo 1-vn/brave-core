@@ -9,7 +9,7 @@
 #include "onevn/browser/net/url_context.h"
 
 namespace onevn {
-struct OneVNRequestInfo;
+struct OnevnRequestInfo;
 }
 
 namespace net {
@@ -24,7 +24,7 @@ int OnHeadersReceived_TorrentRedirectWork(
     scoped_refptr<net::HttpResponseHeaders>* override_response_headers,
     GURL* allowed_unsafe_redirect_url,
     const onevn::ResponseCallback& next_callback,
-    std::shared_ptr<onevn::OneVNRequestInfo> ctx);
+    std::shared_ptr<onevn::OnevnRequestInfo> ctx);
 
 }  // namespace webtorrent
 

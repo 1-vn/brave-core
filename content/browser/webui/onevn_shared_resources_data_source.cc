@@ -63,8 +63,8 @@ void AddResourcesToMap(ResourcesMap* resources_map) {
   const std::map<std::string, std::string> aliases =
       CreatePathPrefixAliasesMap();
 
-  for (size_t i = 0; i < kOneVNWebuiResourcesSize; ++i) {
-    const auto& resource = kOneVNWebuiResources[i];
+  for (size_t i = 0; i < kOnevnWebuiResourcesSize; ++i) {
+    const auto& resource = kOnevnWebuiResources[i];
 
     AddResource(resource.name, resource.value, resource.gzipped, resources_map);
 
@@ -99,17 +99,17 @@ int GetIdrForPath(const std::string& path) {
 
 }  // namespace
 
-OneVNSharedResourcesDataSource::OneVNSharedResourcesDataSource() {
+OnevnSharedResourcesDataSource::OnevnSharedResourcesDataSource() {
 }
 
-OneVNSharedResourcesDataSource::~OneVNSharedResourcesDataSource() {
+OnevnSharedResourcesDataSource::~OnevnSharedResourcesDataSource() {
 }
 
-std::string OneVNSharedResourcesDataSource::GetSource() const {
+std::string OnevnSharedResourcesDataSource::GetSource() const {
   return "onevn-resources";
 }
 
-void OneVNSharedResourcesDataSource::StartDataRequest(
+void OnevnSharedResourcesDataSource::StartDataRequest(
     const std::string& path,
     const ResourceRequestInfo::WebContentsGetter& wc_getter,
     const URLDataSource::GotDataCallback& callback) {
@@ -126,13 +126,13 @@ void OneVNSharedResourcesDataSource::StartDataRequest(
   callback.Run(bytes.get());
 }
 
-bool OneVNSharedResourcesDataSource::AllowCaching() const {
+bool OnevnSharedResourcesDataSource::AllowCaching() const {
   // Should not be cached to reflect dynamically-generated contents that may
   // depend on the current locale.
   return true;
 }
 
-std::string OneVNSharedResourcesDataSource::GetMimeType(
+std::string OnevnSharedResourcesDataSource::GetMimeType(
     const std::string& path) const {
   if (path.empty())
     return "text/html";
@@ -173,18 +173,18 @@ std::string OneVNSharedResourcesDataSource::GetMimeType(
   return "text/plain";
 }
 
-bool OneVNSharedResourcesDataSource::ShouldServeMimeTypeAsContentTypeHeader() const {
+bool OnevnSharedResourcesDataSource::ShouldServeMimeTypeAsContentTypeHeader() const {
   return true;
 }
 
 scoped_refptr<base::SingleThreadTaskRunner>
-OneVNSharedResourcesDataSource::TaskRunnerForRequestPath(
+OnevnSharedResourcesDataSource::TaskRunnerForRequestPath(
     const std::string& path) const {
   return nullptr;
 }
 
 std::string
-OneVNSharedResourcesDataSource::GetAccessControlAllowOriginForOrigin(
+OnevnSharedResourcesDataSource::GetAccessControlAllowOriginForOrigin(
     const std::string& origin) const {
   // For now we give access only for "chrome://*" origins.
   // According to CORS spec, Access-Control-Allow-Origin header doesn't support
@@ -199,7 +199,7 @@ OneVNSharedResourcesDataSource::GetAccessControlAllowOriginForOrigin(
   return origin;
 }
 
-bool OneVNSharedResourcesDataSource::IsGzipped(const std::string& path) const {
+bool OnevnSharedResourcesDataSource::IsGzipped(const std::string& path) const {
   auto it = GetResourcesMap().find(path);
   DCHECK(it != GetResourcesMap().end()) << "missing shared resource: " << path;
   return it != GetResourcesMap().end() ? it->second.gzipped : false;

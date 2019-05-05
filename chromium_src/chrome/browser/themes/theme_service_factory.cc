@@ -8,11 +8,11 @@
 #if defined(OS_WIN)
 #include "onevn/browser/themes/onevn_theme_service_win.h"
 #undef ThemeServiceWin
-#define ThemeServiceWin OneVNThemeServiceWin
+#define ThemeServiceWin OnevnThemeServiceWin
 #elif !defined(USE_X11)
 #include "onevn/browser/themes/onevn_theme_service.h"
 #undef ThemeService
-#define ThemeService OneVNThemeService
+#define ThemeService OnevnThemeService
 #endif
 
 #include "../../../../../chrome/browser/themes/theme_service_factory.cc"

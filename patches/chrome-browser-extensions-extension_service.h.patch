@@ -6,7 +6,7 @@ index 06a883897845bfed6aea09b6b24aeb087b0c0023..e81439c29d20c096d7297e8c53e07ea0
    }
  
   private:
-+  friend class OneVNExtensionService;
++  friend class OnevnExtensionService;
    // Loads extensions specified via a command line flag/switch.
    void LoadExtensionsFromCommandLineFlag(const char* switch_name);
  

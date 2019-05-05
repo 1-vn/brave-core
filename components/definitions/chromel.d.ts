@@ -131,8 +131,8 @@ declare namespace chrome.onevnShields {
 declare namespace chrome.onevnTheme {
   type ThemeType = 'Light' | 'Dark'
   type ThemeTypeCallback = (themeType: ThemeType) => void
-  const getOneVNThemeType: (themeType: ThemeTypeCallback) => void
-  const onOneVNThemeTypeChanged: {
+  const getOnevnThemeType: (themeType: ThemeTypeCallback) => void
+  const onOnevnThemeTypeChanged: {
     addListener: (callback: ThemeTypeCallback) => void
   }
 }

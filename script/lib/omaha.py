@@ -106,7 +106,7 @@ def get_app_info(appinfo, args):
         appinfo['short_version'] = chrome_major + '.' + get_upload_version()
         appinfo['version'] = appinfo['short_version'].split('.')[2] + \
             '.' + appinfo['short_version'].split('.')[3]
-    appinfo['release_notes'] = 'OneVN Browser version: {}\n\n<a href="{}">OneVN Changelog</a>'\
+    appinfo['release_notes'] = 'Onevn Browser version: {}\n\n<a href="{}">Onevn Changelog</a>'\
         .format(appinfo['version'] if appinfo['platform'] in 'win32' else appinfo['short_version'],
                 changelog_url)
 

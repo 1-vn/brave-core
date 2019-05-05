@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -12,11 +12,11 @@ namespace content {
 class BrowsingDataRemover;
 }
 class Profile;
-class OneVNClearDataOnExitTest;
+class OnevnClearDataOnExitTest;
 
 namespace content {
 
-class OneVNClearBrowsingData {
+class OnevnClearBrowsingData {
  public:
   // Clears browsing data for all loaded non-off-the-record profiles.
   // Profile's *OnExit preferences determine what gets cleared.
@@ -34,7 +34,7 @@ class OneVNClearBrowsingData {
   };
 
  protected:
-  friend class ::OneVNClearDataOnExitTest;
+  friend class ::OnevnClearDataOnExitTest;
 
   // Used for testing only.
   static void SetOnExitTestingCallback(OnExitTestingCallback* callback);
@@ -42,7 +42,7 @@ class OneVNClearBrowsingData {
  private:
   static OnExitTestingCallback* on_exit_testing_callback_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNClearBrowsingData);
+  DISALLOW_COPY_AND_ASSIGN(OnevnClearBrowsingData);
 };
 
 }  // namespace content

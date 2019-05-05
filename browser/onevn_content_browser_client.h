@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -19,11 +19,11 @@ namespace content {
 class BrowserContext;
 }
 
-class OneVNContentBrowserClient : public ChromeContentBrowserClient {
+class OnevnContentBrowserClient : public ChromeContentBrowserClient {
  public:
-  OneVNContentBrowserClient(
+  OnevnContentBrowserClient(
       ChromeFeatureListCreator* chrome_feature_list_creator = nullptr);
-  ~OneVNContentBrowserClient() override;
+  ~OnevnContentBrowserClient() override;
 
   // Overridden from ChromeContentBrowserClient:
   content::BrowserMainParts* CreateBrowserMainParts(
@@ -88,7 +88,7 @@ class OneVNContentBrowserClient : public ChromeContentBrowserClient {
       pref_change_registrar_;
   bool allow_google_auth_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNContentBrowserClient);
+  DISALLOW_COPY_AND_ASSIGN(OnevnContentBrowserClient);
 };
 
 #endif  // ONEVN_BROWSER_ONEVN_CONTENT_BROWSER_CLIENT_H_

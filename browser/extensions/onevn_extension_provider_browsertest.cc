@@ -18,7 +18,7 @@
 #include "chrome/test/base/ui_test_utils.h"
 #include "content/public/test/browser_test_utils.h"
 
-class OneVNExtensionProviderTest : public extensions::ExtensionFunctionalTest {
+class OnevnExtensionProviderTest : public extensions::ExtensionFunctionalTest {
  public:
   void SetUpOnMainThread() override {
     extensions::ExtensionFunctionalTest::SetUpOnMainThread();
@@ -27,7 +27,7 @@ class OneVNExtensionProviderTest : public extensions::ExtensionFunctionalTest {
 
 namespace extensions {
 
-IN_PROC_BROWSER_TEST_F(OneVNExtensionProviderTest, BlacklistExtension) {
+IN_PROC_BROWSER_TEST_F(OnevnExtensionProviderTest, BlacklistExtension) {
   base::FilePath test_data_dir;
   GetTestDataDir(&test_data_dir);
   const extensions::Extension* extension =
@@ -35,7 +35,7 @@ IN_PROC_BROWSER_TEST_F(OneVNExtensionProviderTest, BlacklistExtension) {
   ASSERT_FALSE(extension);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNExtensionProviderTest, WhitelistedExtension) {
+IN_PROC_BROWSER_TEST_F(OnevnExtensionProviderTest, WhitelistedExtension) {
   base::FilePath test_data_dir;
   GetTestDataDir(&test_data_dir);
   const extensions::Extension* extension = InstallExtension(
@@ -44,7 +44,7 @@ IN_PROC_BROWSER_TEST_F(OneVNExtensionProviderTest, WhitelistedExtension) {
   ASSERT_TRUE(extension);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNExtensionProviderTest, PDFJSInstalls) {
+IN_PROC_BROWSER_TEST_F(OnevnExtensionProviderTest, PDFJSInstalls) {
   base::FilePath test_data_dir;
   GetTestDataDir(&test_data_dir);
   InstallExtensionSilently(extension_service(),
@@ -74,7 +74,7 @@ IN_PROC_BROWSER_TEST_F(OneVNExtensionProviderTest, PDFJSInstalls) {
 
 // Load an extension page with an ad image, and make sure it is NOT blocked.
 // It would otherwise be blocked though if it wasn't an extension.
-IN_PROC_BROWSER_TEST_F(OneVNExtensionProviderTest, AdsNotBlockedByDefaultBlockerInExtension) {
+IN_PROC_BROWSER_TEST_F(OnevnExtensionProviderTest, AdsNotBlockedByDefaultBlockerInExtension) {
   base::FilePath test_data_dir;
   GetTestDataDir(&test_data_dir);
   const extensions::Extension* extension = InstallExtensionSilently(extension_service(),
@@ -96,7 +96,7 @@ IN_PROC_BROWSER_TEST_F(OneVNExtensionProviderTest, AdsNotBlockedByDefaultBlocker
   EXPECT_EQ(browser()->profile()->GetPrefs()->GetUint64(kAdsBlocked), 0ULL);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNExtensionProviderTest, ExtensionsCanGetCookies) {
+IN_PROC_BROWSER_TEST_F(OnevnExtensionProviderTest, ExtensionsCanGetCookies) {
   base::FilePath test_data_dir;
   GetTestDataDir(&test_data_dir);
   const extensions::Extension* extension = InstallExtensionSilently(extension_service(),
@@ -116,7 +116,7 @@ IN_PROC_BROWSER_TEST_F(OneVNExtensionProviderTest, ExtensionsCanGetCookies) {
   EXPECT_TRUE(as_expected);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNExtensionProviderTest, ExtensionsCanSetCookies) {
+IN_PROC_BROWSER_TEST_F(OnevnExtensionProviderTest, ExtensionsCanSetCookies) {
   base::FilePath test_data_dir;
   GetTestDataDir(&test_data_dir);
   const extensions::Extension* extension = InstallExtensionSilently(extension_service(),

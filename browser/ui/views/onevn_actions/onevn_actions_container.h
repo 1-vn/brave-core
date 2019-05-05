@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -18,8 +18,8 @@
 #include "extensions/common/extension.h"
 #include "ui/views/view.h"
 
-class OneVNActionsContainerTest;
-class OneVNRewardsBrowserTest;
+class OnevnActionsContainerTest;
+class OnevnRewardsBrowserTest;
 
 namespace extensions {
 class ExtensionActionManager;
@@ -27,16 +27,16 @@ class ExtensionRegistry;
 class ExtensionRegistryObserver;
 }
 
-// This View contains all the built-in OneVNActions such as Shields and Payments
+// This View contains all the built-in OnevnActions such as Shields and Payments
 // TODO(petemill): consider splitting to separate model, like
 // ToolbarActionsModel and ToolbarActionsBar
-class OneVNActionsContainer : public views::View,
+class OnevnActionsContainer : public views::View,
                              public extensions::ExtensionActionAPI::Observer,
                              public extensions::ExtensionRegistryObserver,
                              public ToolbarActionView::Delegate {
  public:
-  OneVNActionsContainer(Browser* browser, Profile* profile);
-  ~OneVNActionsContainer() override;
+  OnevnActionsContainer(Browser* browser, Profile* profile);
+  ~OnevnActionsContainer() override;
   void Init();
   void Update();
   void SetShouldHide(bool should_hide);
@@ -80,24 +80,24 @@ class OneVNActionsContainer : public views::View,
       content::WebContents* web_contents,
       content::BrowserContext* browser_context) override;
 
-  // OneVN Rewards preferences change observers callback.
-  void OnOneVNRewardsPreferencesChanged();
+  // Onevn Rewards preferences change observers callback.
+  void OnOnevnRewardsPreferencesChanged();
 
   // views::View:
   void ChildPreferredSizeChanged(views::View* child) override;
 
  private:
-  friend class ::OneVNActionsContainerTest;
-  friend class ::OneVNRewardsBrowserTest;
+  friend class ::OnevnActionsContainerTest;
+  friend class ::OnevnRewardsBrowserTest;
   // Special positions in the container designators
   enum ActionPosition : int {
     ACTION_ANY_POSITION = -1,
   };
 
   // Action info container
-  struct OneVNActionInfo {
-    OneVNActionInfo();
-    ~OneVNActionInfo();
+  struct OnevnActionInfo {
+    OnevnActionInfo();
+    ~OnevnActionInfo();
     // Reset view and view controller
     void Reset();
 
@@ -107,11 +107,11 @@ class OneVNActionsContainer : public views::View,
   };
 
   // Actions that belong to the container
-  std::map<std::string, OneVNActionInfo> actions_;
+  std::map<std::string, OnevnActionInfo> actions_;
 
   // Actions operations
   bool ShouldAddAction(const std::string& id) const;
-  bool ShouldAddOneVNRewardsAction() const;
+  bool ShouldAddOnevnRewardsAction() const;
   bool IsContainerAction(const std::string& id) const;
   void AddAction(const extensions::Extension* extension,
                  int pos = ACTION_ANY_POSITION);
@@ -143,13 +143,13 @@ class OneVNActionsContainer : public views::View,
                  extensions::ExtensionActionAPI::Observer>
       extension_action_observer_;
 
-  // Listen for OneVN Rewards preferences changes.
+  // Listen for Onevn Rewards preferences changes.
   BooleanPrefMember onevn_rewards_enabled_;
   BooleanPrefMember hide_onevn_rewards_button_;
 
-  base::WeakPtrFactory<OneVNActionsContainer> weak_ptr_factory_;
+  base::WeakPtrFactory<OnevnActionsContainer> weak_ptr_factory_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNActionsContainer);
+  DISALLOW_COPY_AND_ASSIGN(OnevnActionsContainer);
 };
 
 #endif  // ONEVN_BROWSER_UI_VIEWS_ONEVN_ACTIONS_ONEVN_ACTIONS_CONTAINER_H_

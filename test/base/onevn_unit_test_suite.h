@@ -13,16 +13,16 @@
 #include "base/test/test_discardable_memory_allocator.h"
 #include "chrome/test/base/chrome_unit_test_suite.h"
 
-class OneVNUnitTestSuite : public ChromeUnitTestSuite {
+class OnevnUnitTestSuite : public ChromeUnitTestSuite {
  public:
-  OneVNUnitTestSuite(int argc, char** argv);
+  OnevnUnitTestSuite(int argc, char** argv);
 
  protected:
   // base::TestSuite overrides:
   void Initialize() override;
 
  private:
-  DISALLOW_COPY_AND_ASSIGN(OneVNUnitTestSuite);
+  DISALLOW_COPY_AND_ASSIGN(OnevnUnitTestSuite);
 };
 
 #endif  // ONEVN_TEST_BASE_ONEVN_UNIT_TEST_SUITE_H_

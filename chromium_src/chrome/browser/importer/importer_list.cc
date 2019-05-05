@@ -1,4 +1,4 @@
-/* Copyright 2019 The OneVN Authors. All rights reserved.
+/* Copyright 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -70,14 +70,14 @@ void DetectChromeProfiles(std::vector<importer::SourceProfile>* profiles) {
                       brandChromium);
 }
 
-void DetectOneVNProfiles(std::vector<importer::SourceProfile>* profiles) {
+void DetectOnevnProfiles(std::vector<importer::SourceProfile>* profiles) {
   base::ScopedBlockingCall scoped_blocking_call(FROM_HERE,
                                                 base::BlockingType::WILL_BLOCK);
 
-  base::FilePath onevn_user_data_folder = GetOneVNUserDataFolder();
+  base::FilePath onevn_user_data_folder = GetOnevnUserDataFolder();
 
   uint16_t items = importer::NONE;
-  if (!OneVNImporterCanImport(onevn_user_data_folder, &items))
+  if (!OnevnImporterCanImport(onevn_user_data_folder, &items))
     return;
 
   importer::SourceProfile onevn;

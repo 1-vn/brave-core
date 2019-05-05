@@ -72,15 +72,15 @@ def main():
 
 
 def parse_args():
-    desc = "Parse OneVN Browser changelog and add markdown to release notes for tag"
+    desc = "Parse Onevn Browser changelog and add markdown to release notes for tag"
 
     parser = argparse.ArgumentParser(
         description=desc, formatter_class=RawTextHelpFormatter)
     parser.add_argument('-d', '--debug', action='store_true',
                         help='Print debug statements')
     parser.add_argument('-t', '--tag',
-                        help='OneVN version tag (allowed format: "v0.60.45" or "refs/tags/v0.60.45")', required=True)
-    parser.add_argument('-u', '--url', help='URL for OneVN Browser raw markdown file (required)', required=True)
+                        help='Onevn version tag (allowed format: "v0.60.45" or "refs/tags/v0.60.45")', required=True)
+    parser.add_argument('-u', '--url', help='URL for Onevn Browser raw markdown file (required)', required=True)
     return parser.parse_args()
 
 

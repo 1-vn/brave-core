@@ -9,8 +9,8 @@
 
 namespace onevn {
 
-bool OnCanGetCookiesForOneVNShields(std::shared_ptr<OneVNRequestInfo> ctx);
-bool OnCanSetCookiesForOneVNShields(std::shared_ptr<OneVNRequestInfo> ctx);
+bool OnCanGetCookiesForOnevnShields(std::shared_ptr<OnevnRequestInfo> ctx);
+bool OnCanSetCookiesForOnevnShields(std::shared_ptr<OnevnRequestInfo> ctx);
 
 }  // namespace onevn
 

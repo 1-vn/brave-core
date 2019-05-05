@@ -19,7 +19,7 @@
 #include "ui/gfx/paint_vector_icon.h"
 #include "ui/gfx/scoped_canvas.h"
 
-bool OneVNActionViewController::IsEnabled(
+bool OnevnActionViewController::IsEnabled(
     content::WebContents* web_contents) const {
   bool is_enabled = ExtensionActionViewController::IsEnabled(web_contents);
   if (is_enabled && extension_->id() == onevn_rewards_extension_id &&
@@ -28,35 +28,35 @@ bool OneVNActionViewController::IsEnabled(
   return is_enabled;
 }
 
-void OneVNActionViewController::HideActivePopup() {
+void OnevnActionViewController::HideActivePopup() {
   // Usually, for an extension this should call the main extensions
   // toolbar_actions_bar_->HideActivePopup(), but we don't have a reference
   // to that, and it doesn't seem neccessary, whether the extension is opened
   // via mouse or keyboard (if a `commands` extension property is present)
 }
 
-bool OneVNActionViewController::DisabledClickOpensMenu() const {
+bool OnevnActionViewController::DisabledClickOpensMenu() const {
   // disabled is a per-tab state
   return false;
 }
 
-ui::MenuModel* OneVNActionViewController::GetContextMenu() {
+ui::MenuModel* OnevnActionViewController::GetContextMenu() {
   // no context menu for onevn actions button
   return nullptr;
 }
 
-gfx::Image OneVNActionViewController::GetIcon(
+gfx::Image OnevnActionViewController::GetIcon(
     content::WebContents* web_contents,
     const gfx::Size& size) {
   return gfx::Image(gfx::ImageSkia(GetIconImageSource(web_contents, size), size));
 }
 
-std::unique_ptr<OneVNActionIconWithBadgeImageSource> OneVNActionViewController::GetIconImageSource(
+std::unique_ptr<OnevnActionIconWithBadgeImageSource> OnevnActionViewController::GetIconImageSource(
   content::WebContents* web_contents, const gfx::Size& size) {
   int tab_id = SessionTabHelper::IdForTab(web_contents).id();
   // generate icon
-  std::unique_ptr<OneVNActionIconWithBadgeImageSource> image_source(
-      new OneVNActionIconWithBadgeImageSource(size));
+  std::unique_ptr<OnevnActionIconWithBadgeImageSource> image_source(
+      new OnevnActionIconWithBadgeImageSource(size));
   image_source->SetIcon(icon_factory_.GetIcon(tab_id));
   // set text
   std::unique_ptr<IconWithBadgeImageSource::Badge> badge;

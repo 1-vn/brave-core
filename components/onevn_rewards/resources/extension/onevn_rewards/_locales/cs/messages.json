@@ -1,6 +1,6 @@
 {
   "onevnRewards": {
-    "message": "Odměny OneVN",
+    "message": "Odměny Onevn",
     "description": "Title in welcome screen for the panel"
   },
   "welcomeButtonTextOne": {
@@ -28,7 +28,7 @@
     "description": "Link in the footer (takes you to rewards settings page) for welcome screen in the panel, new user"
   },
   "welcomeHeaderOne": {
-    "message": "OneVN Rewards se dočkaly důkladné aktualizace.",
+    "message": "Onevn Rewards se dočkaly důkladné aktualizace.",
     "description": "Main header title for welcome screen in the panel, existing user"
   },
   "welcomeHeaderTwo": {
@@ -48,7 +48,7 @@
     "description": "The whole string is 'Enable tips on YouTube for like.'"
   },
   "verifiedPublisher": {
-    "message": "Vydavatel ověřený společností OneVN ",
+    "message": "Vydavatel ověřený společností Onevn ",
     "description": "Tells user that this particular publisher is verified publisher"
   },
   "rewardsContributeAttentionScore": {
@@ -164,7 +164,7 @@
     "description": "Used in notification to dismiss notification"
   },
   "onevnAdsTitle": {
-    "message": "Reklamy OneVN ",
+    "message": "Reklamy Onevn ",
     "description": "Notification title when we display info about ads"
   },
   "onevnContributeTitle": {
@@ -194,11 +194,11 @@
     "description": "Notification title when we ask user to backup wallet"
   },
   "backupWalletNotification": {
-    "message": "Zálohujte prosím svoji OneVN peněženku.",
+    "message": "Zálohujte prosím svoji Onevn peněženku.",
     "description": "Description for backup wallet notification"
   },
   "insufficientFundsNotification": {
-    "message": "Váš účet OneVN Rewards čeká na převod prostředků.",
+    "message": "Váš účet Onevn Rewards čeká na převod prostředků.",
     "description": "Description for new insufficient funds notification"
   },
   "insufficientFunds": {
@@ -270,7 +270,7 @@
     "description": "Button text for clearing the error."
   },
   "grantGeneralErrorText": {
-    "message": "Odměny OneVN se setkaly s problémem. Zkuste to prosím později znovu.",
+    "message": "Odměny Onevn se setkaly s problémem. Zkuste to prosím později znovu.",
     "description": "Error text when user is having problems claiming a grant."
   },
   "grantGeneralErrorTitle": {
@@ -294,7 +294,7 @@
     "description": "Status of the publisher shown in the panel"
   },
   "unVerifiedText": {
-    "message": "Tento tvůrce se dosud nepřihlásil k přijímání příspěvků od uživatelů OneVN. Veškeré zaslané příspěvky zůstanou ve vaší peněžence, dokud nedojde k ověření.",
+    "message": "Tento tvůrce se dosud nepřihlásil k přijímání příspěvků od uživatelů Onevn. Veškeré zaslané příspěvky zůstanou ve vaší peněžence, dokud nedojde k ověření.",
     "description": "Notice about unverified publisher."
   },
   "unVerifiedTextMore": {
@@ -322,7 +322,7 @@
     "description": "Text for Panel's disabled state"
   },
   "disabledPanelTitle": {
-    "message": "Odměny OneVN jsou",
+    "message": "Odměny Onevn jsou",
     "description": "Title for Panel's disabled state"
   },
   "walletFailedTitle": {
@@ -358,7 +358,7 @@
     "description": "Text block for wallet disabled panel"
   },
   "enableRewards": {
-    "message": "Povolit OneVN Rewards",
+    "message": "Povolit Onevn Rewards",
     "description": "Subtitle for wallet disabled panel"
   },
   "privacyPolicy": {
@@ -366,7 +366,7 @@
     "description": "Privacy Policy"
   },
   "serviceText": {
-    "message": "Kliknutím na 'Povolit OneVN Rewards' potvrzujete, že jste si přečetli a souhlasili s",
+    "message": "Kliknutím na 'Povolit Onevn Rewards' potvrzujete, že jste si přečetli a souhlasili s",
     "description": "Terms of service main text"
   },
   "termsOfService": {

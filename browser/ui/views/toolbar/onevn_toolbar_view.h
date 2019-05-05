@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -11,10 +11,10 @@
 
 class BookmarkButton;
 
-class OneVNToolbarView : public ToolbarView {
+class OnevnToolbarView : public ToolbarView {
  public:
-  explicit OneVNToolbarView(Browser* browser, BrowserView* browser_view);
-  ~OneVNToolbarView() override;
+  explicit OnevnToolbarView(Browser* browser, BrowserView* browser_view);
+  ~OnevnToolbarView() override;
 
   BookmarkButton* bookmark_button() const { return bookmark_; }
   void Init() override;

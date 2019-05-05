@@ -38,7 +38,7 @@ constexpr int kDownloadUnlockIconHeightDecr = 1;
 
 } // namespace
 
-OneVNDownloadItemView::OneVNDownloadItemView(
+OnevnDownloadItemView::OnevnDownloadItemView(
     DownloadUIModel::DownloadUIModelPtr download,
     DownloadShelfView* parent,
     views::View* accessible_alert)
@@ -51,16 +51,16 @@ OneVNDownloadItemView::OneVNDownloadItemView(
       rb.GetFontList(ui::ResourceBundle::BaseFont).DeriveWithSizeDelta(-1);
 }
 
-OneVNDownloadItemView::~OneVNDownloadItemView() {}
+OnevnDownloadItemView::~OnevnDownloadItemView() {}
 
 // View overrides.
 
-gfx::Size OneVNDownloadItemView::CalculatePreferredSize() const {
+gfx::Size OnevnDownloadItemView::CalculatePreferredSize() const {
   // Call base class to get the width.
   gfx::Size size = DownloadItemView::CalculatePreferredSize();
   // Calculate the height accounting for the extra line.
-  int child_height = font_list_.GetHeight() + kOneVNVerticalTextPadding +
-                     origin_url_font_list_.GetHeight() + kOneVNVerticalTextPadding +
+  int child_height = font_list_.GetHeight() + kOnevnVerticalTextPadding +
+                     origin_url_font_list_.GetHeight() + kOnevnVerticalTextPadding +
                      status_font_list_.GetHeight();
   if (IsShowingWarningDialog()) {
     child_height =
@@ -71,14 +71,14 @@ gfx::Size OneVNDownloadItemView::CalculatePreferredSize() const {
   return size;
 }
 
-void OneVNDownloadItemView::OnPaint(gfx::Canvas* canvas) {
+void OnevnDownloadItemView::OnPaint(gfx::Canvas* canvas) {
   DownloadItemView::OnPaint(canvas);
   DrawOriginURL(canvas);
 }
 
 // download::DownloadItem::Observer overrides.
 
-void OneVNDownloadItemView::OnDownloadUpdated() {
+void OnevnDownloadItemView::OnDownloadUpdated() {
   // Check for conditions that would disregard origin url change and fall back
   // onto base implementation to handle them.
   if (!model()->ShouldShowInShelf() ||
@@ -122,32 +122,32 @@ void OneVNDownloadItemView::OnDownloadUpdated() {
 
 // Positioning routines.
 
-int OneVNDownloadItemView::GetYForFilenameText() const {
+int OnevnDownloadItemView::GetYForFilenameText() const {
   int text_height = font_list_.GetHeight();
   if (!origin_url_text_.empty())
     text_height +=
-        kOneVNVerticalTextPadding + origin_url_font_list_.GetHeight();
+        kOnevnVerticalTextPadding + origin_url_font_list_.GetHeight();
   if (!status_text_.empty())
-    text_height += kOneVNVerticalTextPadding + status_font_list_.GetHeight();
+    text_height += kOnevnVerticalTextPadding + status_font_list_.GetHeight();
   return (height() - text_height) / 2;
 }
 
-int OneVNDownloadItemView::GetYForOriginURLText() const {
+int OnevnDownloadItemView::GetYForOriginURLText() const {
   int y = GetYForFilenameText();
-  y += (font_list_.GetHeight() + kOneVNVerticalTextPadding);
+  y += (font_list_.GetHeight() + kOnevnVerticalTextPadding);
   return y;
 }
 
-int OneVNDownloadItemView::GetYForStatusText() const {
+int OnevnDownloadItemView::GetYForStatusText() const {
   int y = GetYForOriginURLText();
   if (!origin_url_text_.empty())
-    y += (origin_url_font_list_.GetHeight() + kOneVNVerticalTextPadding);
+    y += (origin_url_font_list_.GetHeight() + kOnevnVerticalTextPadding);
   return y;
 }
 
 // Drawing routines.
 
-void OneVNDownloadItemView::DrawStatusText(gfx::Canvas* canvas) {
+void OnevnDownloadItemView::DrawStatusText(gfx::Canvas* canvas) {
   if (status_text_.empty() || IsShowingWarningDialog())
     return;
 
@@ -160,7 +160,7 @@ void OneVNDownloadItemView::DrawStatusText(gfx::Canvas* canvas) {
                                    status_font_list_.GetHeight()));
 }
 
-void OneVNDownloadItemView::DrawOriginURL(gfx::Canvas* canvas) {
+void OnevnDownloadItemView::DrawOriginURL(gfx::Canvas* canvas) {
   if (origin_url_text_.empty() || IsShowingWarningDialog())
     return;
 
@@ -185,7 +185,7 @@ void OneVNDownloadItemView::DrawOriginURL(gfx::Canvas* canvas) {
                 origin_url_font_list_.GetHeight()));
 }
 
-void OneVNDownloadItemView::DrawLockIcon(gfx::Canvas* canvas) {
+void OnevnDownloadItemView::DrawLockIcon(gfx::Canvas* canvas) {
   if (origin_url_text_.empty() || IsShowingWarningDialog())
     return;
 
@@ -201,13 +201,13 @@ void OneVNDownloadItemView::DrawLockIcon(gfx::Canvas* canvas) {
 }
 
 // Get lock icon from vector icons.
-gfx::ImageSkia OneVNDownloadItemView::GetLockIcon(int height) {
+gfx::ImageSkia OnevnDownloadItemView::GetLockIcon(int height) {
   return gfx::CreateVectorIcon(kDownloadUnlockIcon, height,
     kDownloadUnlockIconColor);
 }
 
 // Update accessible name with origin URL.
-void OneVNDownloadItemView::UpdateAccessibleName() {
+void OnevnDownloadItemView::UpdateAccessibleName() {
   DownloadItemView::UpdateAccessibleName();
   if (IsShowingWarningDialog())
     return;

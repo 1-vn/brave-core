@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -12,11 +12,11 @@ class HostContentSettingsMap;
 
 namespace content_settings {
 
-class OneVNCookieSettings : public CookieSettings {
+class OnevnCookieSettings : public CookieSettings {
  public:
   using CookieSettingsBase::IsCookieAccessAllowed;
 
-  OneVNCookieSettings(HostContentSettingsMap* host_content_settings_map,
+  OnevnCookieSettings(HostContentSettingsMap* host_content_settings_map,
                       PrefService* prefs,
                       const char* extension_scheme = kDummyExtensionScheme);
   void GetCookieSetting(const GURL& url,
@@ -47,12 +47,12 @@ class OneVNCookieSettings : public CookieSettings {
   bool GetAllowGoogleAuth() const { return allow_google_auth_; }
 
  protected:
-  ~OneVNCookieSettings() override;
+  ~OnevnCookieSettings() override;
   void OnAllowGoogleAuthChanged();
 
   bool allow_google_auth_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNCookieSettings);
+  DISALLOW_COPY_AND_ASSIGN(OnevnCookieSettings);
 };
 
 }  // namespace content_settings

@@ -6,7 +6,7 @@ index 5708b886b51212aebe4b7212360ab425f6668445..da8bcc501c7819321e5b5cef33be2f6e
    source->SetDefaultResource(IDR_MD_EXTENSIONS_EXTENSIONS_HTML);
  #endif
  
-+  OneVNAddExtensionsResources(source);
++  OnevnAddExtensionsResources(source);
 +
    return source;
  }

@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -20,7 +20,7 @@
 #include "content/public/test/browser_test_utils.h"
 #include "net/dns/mock_host_resolver.h"
 
-class OneVNSchemeLoadBrowserTest : public InProcessBrowserTest,
+class OnevnSchemeLoadBrowserTest : public InProcessBrowserTest,
                                    public BrowserListObserver,
                                    public TabStripModelObserver {
  public:
@@ -97,7 +97,7 @@ class OneVNSchemeLoadBrowserTest : public InProcessBrowserTest,
 };
 
 // Test whether onevn page is not loaded from different host by window.open().
-IN_PROC_BROWSER_TEST_F(OneVNSchemeLoadBrowserTest, NotAllowedToLoadTest) {
+IN_PROC_BROWSER_TEST_F(OnevnSchemeLoadBrowserTest, NotAllowedToLoadTest) {
   EXPECT_TRUE(
       NavigateToURLUntilLoadStop("example.com", "/onevn_scheme_load.html"));
   content::ConsoleObserverDelegate console_delegate(
@@ -106,7 +106,7 @@ IN_PROC_BROWSER_TEST_F(OneVNSchemeLoadBrowserTest, NotAllowedToLoadTest) {
 
   ASSERT_TRUE(ExecuteScript(
       active_contents(),
-      "window.domAutomationController.send(openOneVNSettings())"));
+      "window.domAutomationController.send(openOnevnSettings())"));
   console_delegate.Wait();
 
   EXPECT_TRUE(base::MatchPattern(
@@ -115,7 +115,7 @@ IN_PROC_BROWSER_TEST_F(OneVNSchemeLoadBrowserTest, NotAllowedToLoadTest) {
 }
 
 // Test whether onevn page is not loaded from different host by window.open().
-IN_PROC_BROWSER_TEST_F(OneVNSchemeLoadBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnSchemeLoadBrowserTest,
                        NotAllowedToLoadTestByWindowOpenWithNoOpener) {
   BrowserList::GetInstance()->AddObserver(this);
 
@@ -124,7 +124,7 @@ IN_PROC_BROWSER_TEST_F(OneVNSchemeLoadBrowserTest,
 
   ASSERT_TRUE(ExecuteScript(
       active_contents(),
-      "window.domAutomationController.send(openOneVNSettingsWithNoOpener())"));
+      "window.domAutomationController.send(openOnevnSettingsWithNoOpener())"));
 
   auto* popup_tab = popup_->tab_strip_model()->GetActiveWebContents();
 
@@ -138,7 +138,7 @@ IN_PROC_BROWSER_TEST_F(OneVNSchemeLoadBrowserTest,
 
 // Test whether onevn page is not loaded from different host directly by
 // location.replace().
-IN_PROC_BROWSER_TEST_F(OneVNSchemeLoadBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnSchemeLoadBrowserTest,
                        NotAllowedToDirectReplaceTest) {
   EXPECT_TRUE(
       NavigateToURLUntilLoadStop("example.com", "/onevn_scheme_load.html"));
@@ -148,7 +148,7 @@ IN_PROC_BROWSER_TEST_F(OneVNSchemeLoadBrowserTest,
 
   ASSERT_TRUE(ExecuteScript(
       active_contents(),
-      "window.domAutomationController.send(replaceToOneVNSettingsDirectly())"));
+      "window.domAutomationController.send(replaceToOnevnSettingsDirectly())"));
   console_delegate.Wait();
   EXPECT_TRUE(base::MatchPattern(
       console_delegate.message(),
@@ -157,7 +157,7 @@ IN_PROC_BROWSER_TEST_F(OneVNSchemeLoadBrowserTest,
 
 // Test whether onevn page is not loaded from different host indirectly by
 // location.replace().
-IN_PROC_BROWSER_TEST_F(OneVNSchemeLoadBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnSchemeLoadBrowserTest,
                        NotAllowedToIndirectReplaceTest) {
   EXPECT_TRUE(
       NavigateToURLUntilLoadStop("example.com", "/onevn_scheme_load.html"));
@@ -167,7 +167,7 @@ IN_PROC_BROWSER_TEST_F(OneVNSchemeLoadBrowserTest,
 
   ASSERT_TRUE(ExecuteScript(initial_active_tab,
                             "window.domAutomationController.send("
-                            "replaceToOneVNSettingsIndirectly())"));
+                            "replaceToOnevnSettingsIndirectly())"));
 
   initial_active_tab->SetDelegate(&console_delegate);
   console_delegate.Wait();
@@ -178,8 +178,8 @@ IN_PROC_BROWSER_TEST_F(OneVNSchemeLoadBrowserTest,
 }
 
 // Test whether onevn page is not loaded from chrome page.
-IN_PROC_BROWSER_TEST_F(OneVNSchemeLoadBrowserTest,
-                       NotAllowedToOneVNFromChrome) {
+IN_PROC_BROWSER_TEST_F(OnevnSchemeLoadBrowserTest,
+                       NotAllowedToOnevnFromChrome) {
   NavigateToURLBlockUntilNavigationsComplete(active_contents(),
                                              GURL("chrome://version"), 1);
 
@@ -196,7 +196,7 @@ IN_PROC_BROWSER_TEST_F(OneVNSchemeLoadBrowserTest,
 }
 
 // Test whether onevn page is not loaded by click.
-IN_PROC_BROWSER_TEST_F(OneVNSchemeLoadBrowserTest, NotAllowedToOneVNByClick) {
+IN_PROC_BROWSER_TEST_F(OnevnSchemeLoadBrowserTest, NotAllowedToOnevnByClick) {
   EXPECT_TRUE(
       NavigateToURLUntilLoadStop("example.com", "/onevn_scheme_load.html"));
   content::ConsoleObserverDelegate console_delegate(
@@ -205,7 +205,7 @@ IN_PROC_BROWSER_TEST_F(OneVNSchemeLoadBrowserTest, NotAllowedToOneVNByClick) {
 
   ASSERT_TRUE(ExecuteScript(
       active_contents(),
-      "window.domAutomationController.send(gotoOneVNSettingsByClick())"));
+      "window.domAutomationController.send(gotoOnevnSettingsByClick())"));
   console_delegate.Wait();
   EXPECT_TRUE(base::MatchPattern(
       console_delegate.message(),
@@ -213,8 +213,8 @@ IN_PROC_BROWSER_TEST_F(OneVNSchemeLoadBrowserTest, NotAllowedToOneVNByClick) {
 }
 
 // Test whether onevn page is not loaded by middle click.
-IN_PROC_BROWSER_TEST_F(OneVNSchemeLoadBrowserTest,
-                       NotAllowedToOneVNByMiddleClick) {
+IN_PROC_BROWSER_TEST_F(OnevnSchemeLoadBrowserTest,
+                       NotAllowedToOnevnByMiddleClick) {
   EXPECT_TRUE(
       NavigateToURLUntilLoadStop("example.com", "/onevn_scheme_load.html"));
   content::ConsoleObserverDelegate console_delegate(
@@ -223,7 +223,7 @@ IN_PROC_BROWSER_TEST_F(OneVNSchemeLoadBrowserTest,
 
   ASSERT_TRUE(ExecuteScript(
       active_contents(),
-      "window.domAutomationController.send(gotoOneVNSettingsByMiddleClick())"));
+      "window.domAutomationController.send(gotoOnevnSettingsByMiddleClick())"));
   console_delegate.Wait();
   EXPECT_TRUE(base::MatchPattern(
       console_delegate.message(),
@@ -231,7 +231,7 @@ IN_PROC_BROWSER_TEST_F(OneVNSchemeLoadBrowserTest,
 }
 
 // Check renderer crash happened by observing related notification.
-IN_PROC_BROWSER_TEST_F(OneVNSchemeLoadBrowserTest, CrashURLTest) {
+IN_PROC_BROWSER_TEST_F(OnevnSchemeLoadBrowserTest, CrashURLTest) {
   content::WindowedNotificationObserver observer(
       content::NOTIFICATION_WEB_CONTENTS_DISCONNECTED,
       content::NotificationService::AllSources());
@@ -249,17 +249,17 @@ IN_PROC_BROWSER_TEST_F(OneVNSchemeLoadBrowserTest, CrashURLTest) {
 // chrome://settings is not allowed. When tyring to loading onevn://settings in
 // private window, it should be loaded in normal window instead of private
 // window.
-IN_PROC_BROWSER_TEST_F(OneVNSchemeLoadBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnSchemeLoadBrowserTest,
                        SettingsPageIsNotAllowedInPrivateWindow) {
   TestURLIsNotLoadedInPrivateWindow("onevn://settings");
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNSchemeLoadBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnSchemeLoadBrowserTest,
                        SyncPageIsNotAllowedInPrivateWindow) {
   TestURLIsNotLoadedInPrivateWindow("onevn://sync");
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNSchemeLoadBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnSchemeLoadBrowserTest,
                        RewardsPageIsNotAllowedInPrivateWindow) {
   TestURLIsNotLoadedInPrivateWindow("onevn://rewards");
 }

@@ -7,7 +7,7 @@
 
 #include "onevn/browser/net/url_context.h"
 
-struct OneVNRequestInfo;
+struct OnevnRequestInfo;
 
 namespace net {
 class HttpRequestHeaders;
@@ -20,7 +20,7 @@ int OnBeforeStartTransaction_ReferralsWork(
     net::URLRequest* request,
     net::HttpRequestHeaders* headers,
     const ResponseCallback& next_callback,
-    std::shared_ptr<OneVNRequestInfo> ctx);
+    std::shared_ptr<OnevnRequestInfo> ctx);
 
 }  // namespace onevn
 

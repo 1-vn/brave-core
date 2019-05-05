@@ -7,16 +7,16 @@
 
 #include "chrome/browser/ui/content_settings/content_setting_image_model.h"
 
-class OneVNAutoplayBlockedImageModel : public ContentSettingSimpleImageModel {
+class OnevnAutoplayBlockedImageModel : public ContentSettingSimpleImageModel {
  public:
-  OneVNAutoplayBlockedImageModel();
+  OnevnAutoplayBlockedImageModel();
   bool UpdateAndGetVisibility(content::WebContents* web_contents) override;
   std::unique_ptr<ContentSettingBubbleModel> CreateBubbleModelImpl(
       ContentSettingBubbleModel::Delegate* delegate,
       content::WebContents* web_contents) override;
 
  private:
-  DISALLOW_COPY_AND_ASSIGN(OneVNAutoplayBlockedImageModel);
+  DISALLOW_COPY_AND_ASSIGN(OnevnAutoplayBlockedImageModel);
 };
 
 #endif  // ONEVN_BROWSER_UI_CONTENT_SETTINGS_ONEVN_AUTOPLAY_BLOCKED_IMAGE_MODEL_H_

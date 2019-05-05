@@ -15,7 +15,7 @@ index afaee36cf39fae81aef937aa9fe3189ba7b1f2f6..c1ada370ccc002eac0a87282896b3dbd
    for (auto type : kContentSettingImageOrder)
      result.push_back(CreateForContentType(type));
 +#if defined(ONEVN_CHROMIUM_BUILD)
-+  OneVNGenerateContentSettingImageModels(result);
++  OnevnGenerateContentSettingImageModels(result);
 +#endif
  
    return result;

@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -14,10 +14,10 @@ const char kWelcomeHost[] = "welcome";
 const char kWelcomeJS[] = "onevn_welcome.js";
 const char kDonateHost[] = "donate";
 const char kDonateJS[] = "onevn_donate.js";
-const char kOneVNNewTabJS[] = "onevn_new_tab.js";
-const char kOneVNUISyncHost[] = "sync";
-const char kOneVNSyncJS[] = "onevn_sync.js";
-const char kOneVNUIRewardsURL[] = "chrome://rewards/";
-const char kOneVNUIAdblockURL[] = "chrome://adblock/";
-const char kOneVNUIDonateURL[] = "chrome://donate/";
-const char kOneVNUISyncURL[] = "chrome://sync/";
+const char kOnevnNewTabJS[] = "onevn_new_tab.js";
+const char kOnevnUISyncHost[] = "sync";
+const char kOnevnSyncJS[] = "onevn_sync.js";
+const char kOnevnUIRewardsURL[] = "chrome://rewards/";
+const char kOnevnUIAdblockURL[] = "chrome://adblock/";
+const char kOnevnUIDonateURL[] = "chrome://donate/";
+const char kOnevnUISyncURL[] = "chrome://sync/";

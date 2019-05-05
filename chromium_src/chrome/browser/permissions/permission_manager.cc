@@ -17,7 +17,7 @@ ContentSettingsType PermissionTypeToContentSetting(PermissionType permission) {
 
 } // namespace
 
-#define GeolocationPermissionContext OneVNGeolocationPermissionContext
-#define PermissionManagerFactory OneVNPermissionManagerFactory
+#define GeolocationPermissionContext OnevnGeolocationPermissionContext
+#define PermissionManagerFactory OnevnPermissionManagerFactory
 #include "../../../../../chrome/browser/permissions/permission_manager.cc"
 #undef GeolocationPermissionContext

@@ -7,15 +7,15 @@
 
 #include "chrome/browser/ui/views/chrome_views_delegate.h"
 
-class OneVNViewsDelegateLinux : public ChromeViewsDelegate {
+class OnevnViewsDelegateLinux : public ChromeViewsDelegate {
  public:
-  OneVNViewsDelegateLinux() = default;
-  ~OneVNViewsDelegateLinux() override = default;
+  OnevnViewsDelegateLinux() = default;
+  ~OnevnViewsDelegateLinux() override = default;
  private:
   // ChromeViewsDelegate overrides:
   gfx::ImageSkia* GetDefaultWindowIcon() const override;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNViewsDelegateLinux);
+  DISALLOW_COPY_AND_ASSIGN(OnevnViewsDelegateLinux);
 };
 
 #endif  // ONEVN_BROWSER_UI_VIEWS_ONEVN_VIEWS_DELEGATE_LINUX_H_

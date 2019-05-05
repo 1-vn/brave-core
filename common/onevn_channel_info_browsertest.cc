@@ -7,9 +7,9 @@
 #include "chrome/test/base/in_process_browser_test.h"
 #include "components/version_info/channel.h"
 
-using OneVNChannelInfoBrowserTest = InProcessBrowserTest;
+using OnevnChannelInfoBrowserTest = InProcessBrowserTest;
 
-IN_PROC_BROWSER_TEST_F(OneVNChannelInfoBrowserTest, DefaultChannelTest) {
+IN_PROC_BROWSER_TEST_F(OnevnChannelInfoBrowserTest, DefaultChannelTest) {
 #if defined(OFFICIAL_BUILD)
 #if defined(OS_LINUX)
   // Set channel info explicitly to test. Linux uses this env vars to determine

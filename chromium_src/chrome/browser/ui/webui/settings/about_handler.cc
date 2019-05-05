@@ -4,6 +4,6 @@
 
 #include "onevn/browser/version_info.h"
 
-#define GetVersionNumber GetOneVNVersionNumberForDisplay
+#define GetVersionNumber GetOnevnVersionNumberForDisplay
 #include "../../../../../../../chrome/browser/ui/webui/settings/about_handler.cc"
 #undef GetVersionNumber

@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -22,31 +22,31 @@
 #include "extensions/browser/extension_registry.h"
 #include "extensions/browser/extension_system.h"
 
-OneVNDefaultExtensionsHandler::OneVNDefaultExtensionsHandler()
+OnevnDefaultExtensionsHandler::OnevnDefaultExtensionsHandler()
   : weak_ptr_factory_(this) {
 }
 
-OneVNDefaultExtensionsHandler::~OneVNDefaultExtensionsHandler() {
+OnevnDefaultExtensionsHandler::~OnevnDefaultExtensionsHandler() {
 }
 
-void OneVNDefaultExtensionsHandler::RegisterMessages() {
+void OnevnDefaultExtensionsHandler::RegisterMessages() {
   profile_ = Profile::FromWebUI(web_ui());
   web_ui()->RegisterMessageCallback(
       "setWebTorrentEnabled",
-      base::BindRepeating(&OneVNDefaultExtensionsHandler::SetWebTorrentEnabled,
+      base::BindRepeating(&OnevnDefaultExtensionsHandler::SetWebTorrentEnabled,
                           base::Unretained(this)));
   web_ui()->RegisterMessageCallback(
       "setHangoutsEnabled",
-      base::BindRepeating(&OneVNDefaultExtensionsHandler::SetHangoutsEnabled,
+      base::BindRepeating(&OnevnDefaultExtensionsHandler::SetHangoutsEnabled,
                           base::Unretained(this)));
   web_ui()->RegisterMessageCallback(
       "setIPFSCompanionEnabled",
       base::BindRepeating(
-        &OneVNDefaultExtensionsHandler::SetIPFSCompanionEnabled,
+        &OnevnDefaultExtensionsHandler::SetIPFSCompanionEnabled,
         base::Unretained(this)));
 }
 
-void OneVNDefaultExtensionsHandler::SetWebTorrentEnabled(
+void OnevnDefaultExtensionsHandler::SetWebTorrentEnabled(
     const base::ListValue* args) {
   CHECK_EQ(args->GetSize(), 1U);
   CHECK(profile_);
@@ -71,7 +71,7 @@ void OneVNDefaultExtensionsHandler::SetWebTorrentEnabled(
   }
 }
 
-void OneVNDefaultExtensionsHandler::SetHangoutsEnabled(
+void OnevnDefaultExtensionsHandler::SetHangoutsEnabled(
     const base::ListValue* args) {
   CHECK_EQ(args->GetSize(), 1U);
   CHECK(profile_);
@@ -84,7 +84,7 @@ void OneVNDefaultExtensionsHandler::SetHangoutsEnabled(
   if (enabled) {
     extensions::ComponentLoader* loader = service->component_loader();
     if (!loader->Exists(hangouts_extension_id)) {
-      static_cast<extensions::OneVNComponentLoader*>(loader)->
+      static_cast<extensions::OnevnComponentLoader*>(loader)->
           ForceAddHangoutServicesExtension();
     }
     service->EnableExtension(hangouts_extension_id);
@@ -94,7 +94,7 @@ void OneVNDefaultExtensionsHandler::SetHangoutsEnabled(
   }
 }
 
-bool OneVNDefaultExtensionsHandler::IsExtensionInstalled(
+bool OnevnDefaultExtensionsHandler::IsExtensionInstalled(
     const std::string& extension_id) const {
   extensions::ExtensionRegistry* registry =
     extensions::ExtensionRegistry::Get(
@@ -102,7 +102,7 @@ bool OneVNDefaultExtensionsHandler::IsExtensionInstalled(
   return registry && registry->GetInstalledExtension(extension_id);
 }
 
-void OneVNDefaultExtensionsHandler::OnInstallResult(
+void OnevnDefaultExtensionsHandler::OnInstallResult(
     const std::string& pref_name,
     bool success, const std::string& error,
     extensions::webstore_install::Result result) {
@@ -112,7 +112,7 @@ void OneVNDefaultExtensionsHandler::OnInstallResult(
   }
 }
 
-void OneVNDefaultExtensionsHandler::SetIPFSCompanionEnabled(
+void OnevnDefaultExtensionsHandler::SetIPFSCompanionEnabled(
     const base::ListValue* args) {
   CHECK_EQ(args->GetSize(), 1U);
   CHECK(profile_);
@@ -126,7 +126,7 @@ void OneVNDefaultExtensionsHandler::SetIPFSCompanionEnabled(
       scoped_refptr<extensions::WebstoreInstallWithPrompt> installer =
         new extensions::WebstoreInstallWithPrompt(
             ipfs_companion_extension_id, profile_,
-            base::BindOnce(&OneVNDefaultExtensionsHandler::OnInstallResult,
+            base::BindOnce(&OnevnDefaultExtensionsHandler::OnInstallResult,
               weak_ptr_factory_.GetWeakPtr(), kIPFSCompanionEnabled));
       installer->BeginInstall();
     }

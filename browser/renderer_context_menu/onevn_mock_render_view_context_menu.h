@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -17,7 +17,7 @@
 #include "ui/base/models/simple_menu_model.h"
 #include "ui/gfx/image/image.h"
 
-class OneVNMockRenderViewContextMenu;
+class OnevnMockRenderViewContextMenu;
 class PrefService;
 class Profile;
 class RenderViewContextMenuObserver;
@@ -25,7 +25,7 @@ class RenderViewContextMenuObserver;
 // A mock context menu proxy used in tests. This class overrides virtual methods
 // derived from the RenderViewContextMenuProxy class to monitor calls from a
 // MenuObserver class.
-class OneVNMockRenderViewContextMenu : public ui::SimpleMenuModel::Delegate,
+class OnevnMockRenderViewContextMenu : public ui::SimpleMenuModel::Delegate,
                                        public RenderViewContextMenuProxy {
  public:
   // A menu item used in this test.
@@ -47,8 +47,8 @@ class OneVNMockRenderViewContextMenu : public ui::SimpleMenuModel::Delegate,
     bool has_submenu;  // This item is a submenu.
   };
 
-  explicit OneVNMockRenderViewContextMenu(Profile* profile);
-  ~OneVNMockRenderViewContextMenu() override;
+  explicit OnevnMockRenderViewContextMenu(Profile* profile);
+  ~OnevnMockRenderViewContextMenu() override;
 
   // SimpleMenuModel::Delegate implementation.
   bool IsCommandIdChecked(int command_id) const override;
@@ -106,7 +106,7 @@ class OneVNMockRenderViewContextMenu : public ui::SimpleMenuModel::Delegate,
   // Is menu printing enabled.
   bool enable_print_menu_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNMockRenderViewContextMenu);
+  DISALLOW_COPY_AND_ASSIGN(OnevnMockRenderViewContextMenu);
 };
 
 #endif  // ONEVN_BROWSER_RENDERER_CONTEXT_MENU_ONEVN_MOCK_RENDER_VIEW_CONTEXT_MENU_H_

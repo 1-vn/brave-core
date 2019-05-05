@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -12,22 +12,22 @@
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser.h"
 
-OneVNAppMenuModel::OneVNAppMenuModel(
+OnevnAppMenuModel::OnevnAppMenuModel(
     ui::AcceleratorProvider* provider,
     Browser* browser,
     AppMenuIconController* app_menu_icon_controller)
     : AppMenuModel(provider, browser, app_menu_icon_controller),
       browser_(browser) {}
 
-OneVNAppMenuModel::~OneVNAppMenuModel() {}
+OnevnAppMenuModel::~OnevnAppMenuModel() {}
 
-void OneVNAppMenuModel::Build() {
+void OnevnAppMenuModel::Build() {
   // Insert onevn items after build chromium items.
   AppMenuModel::Build();
-  InsertOneVNMenuItems();
+  InsertOnevnMenuItems();
 }
 
-void OneVNAppMenuModel::InsertOneVNMenuItems() {
+void OnevnAppMenuModel::InsertOnevnMenuItems() {
   // Sync & Rewards pages are redirected to normal window when it is loaded in
   // private window. So, only hide them in guest(tor) window.
   if (!browser_->profile()->IsGuestSession()) {
@@ -35,7 +35,7 @@ void OneVNAppMenuModel::InsertOneVNMenuItems() {
         GetIndexOfCommandId(IDC_SHOW_DOWNLOADS),
         IDC_SHOW_ONEVN_REWARDS,
         IDS_SHOW_ONEVN_REWARDS);
-    if (onevn_sync::OneVNSyncService::is_enabled()) {
+    if (onevn_sync::OnevnSyncService::is_enabled()) {
       InsertItemWithStringIdAt(
           GetIndexOfCommandId(IDC_SHOW_ONEVN_REWARDS),
           IDC_SHOW_ONEVN_SYNC,

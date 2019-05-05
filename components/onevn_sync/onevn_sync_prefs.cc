@@ -1,4 +1,4 @@
-/* Copyright 2019 The OneVN Authors. All rights reserved.
+/* Copyright 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -73,7 +73,7 @@ void Prefs::SetBookmarksBaseOrder(const std::string& order) {
 }
 
 bool Prefs::GetSyncEnabled() const {
-  return OneVNSyncService::is_enabled() &&
+  return OnevnSyncService::is_enabled() &&
     pref_service_->GetBoolean(kSyncEnabled);
 }
 
@@ -106,7 +106,7 @@ void Prefs::SetSyncHistoryEnabled(const bool sync_history_enabled) {
   pref_service_->SetBoolean(kSyncHistoryEnabled, sync_history_enabled);
 }
 
-std::unique_ptr<onevn_sync::Settings> Prefs::GetOneVNSyncSettings() const {
+std::unique_ptr<onevn_sync::Settings> Prefs::GetOnevnSyncSettings() const {
   auto settings = std::make_unique<onevn_sync::Settings>();
 
   settings->this_device_name_ = GetThisDeviceName();

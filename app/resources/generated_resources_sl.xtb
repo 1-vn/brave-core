@@ -23,9 +23,9 @@
 <translation id="3700405816184340252">Zgodovina v Chromu</translation>
 <translation id="7602079150116086782">Ni zavihkov iz drugih naprav</translation>
 <translation id="4619615317237390068">Zavihki iz drugih naprav</translation>
-<translation id="82609232232243542">Prijava v OneVN Software OneVN</translation>
+<translation id="82609232232243542">Prijava v Onevn Software Onevn</translation>
 <translation id="4627442949885028695">Nadaljevanje iz druge naprave</translation>
-<translation id="7253276740368043692">Če želite dostopati do zavihkov v drugih napravah, se prijavite v OneVN.</translation>
+<translation id="7253276740368043692">Če želite dostopati do zavihkov v drugih napravah, se prijavite v Onevn.</translation>
 <translation id="6351063337294363751">Podatke o brskanju lahko izbrišete v tem meniju</translation>
 <translation id="6040143037577758943">Zapri</translation>
 <translation id="6463795194797719782">&amp;Urejanje</translation>
@@ -95,7 +95,7 @@
 <translation id="2241634353105152135">Samo enkrat</translation>
 <translation id="741204030948306876">Da, sem za</translation>
 <translation id="780301667611848630">Ne, hvala</translation>
-<translation id="4572259796527554261">Vprašaj OneVN Software za predloge</translation>
+<translation id="4572259796527554261">Vprašaj Onevn Software za predloge</translation>
 <translation id="3435896845095436175">Omogoči</translation>
 <translation id="8915370057835397490">Nalaganje predloga</translation>
 <translation id="6191804255817539692">Nič več Googlovih predlogov</translation>
@@ -151,7 +151,7 @@
 <translation id="372722114124766626">Samo enkrat</translation>
 <translation id="8917490105272468696">Da, sem za</translation>
 <translation id="7473891865547856676">Ne, hvala</translation>
-<translation id="2867003629889664976">Vprašaj OneVN Software za predloge</translation>
+<translation id="2867003629889664976">Vprašaj Onevn Software za predloge</translation>
 <translation id="6264365405983206840">Izberi &amp;vse</translation>
 <translation id="3948116654032448504">&amp;Išči sliko tu: <ph name="SEARCH_ENGINE"/></translation>
 <translation id="2932085390869194046">Predlagaj geslo …</translation>
@@ -418,8 +418,8 @@
 <translation id="3067198179881736288">Želite namestiti aplikacijo?</translation>
 <translation id="7072010813301522126">Ime bližnjice</translation>
 <translation id="3275778913554317645">Odpri kot okno</translation>
-<translation id="8201192017531062522">OneVN se izvaja naprej, dokler so odprte aplikacije za OneVN.</translation>
-<translation id="7397305826909094212">Zapri vse aplikacije za OneVN</translation>
+<translation id="8201192017531062522">Onevn se izvaja naprej, dokler so odprte aplikacije za Onevn.</translation>
+<translation id="7397305826909094212">Zapri vse aplikacije za Onevn</translation>
 <translation id="5026874946691314267">Ne prikaži več tega</translation>
 <translation id="91568222606626347">Ustvari bližnjico ...</translation>
 <translation id="2783321960289401138">Ustvari bližnjico ...</translation>
@@ -766,11 +766,11 @@ Poskrbite, da ne boste razkrili morebitnih občutljivih podatkov.</translation>
 <translation id="5799508265798272974">Navidezni računalnik za Linux: <ph name="LINUX_VM_NAME"/></translation>
 <translation id="8191453843330043793">Razreševalnik za proxy mehanizma V8</translation>
 <translation id="5552059560155071882">Razčlenjevalnik CUPS IPP</translation>
-<translation id="3077708072777965506">Način vnosa v okolju OS OneVN</translation>
+<translation id="3077708072777965506">Način vnosa v okolju OS Onevn</translation>
 <translation id="7171242884588191792">Chromova orodja za datoteke</translation>
 <translation id="3183139917765991655">Uvoznik profilov</translation>
 <translation id="2190069059097339078">Pripomoček za pridobivanje poverilnic za WiFi</translation>
-<translation id="7685901961038216503">Zapisovalnik sistemskih slik za OS OneVN</translation>
+<translation id="7685901961038216503">Zapisovalnik sistemskih slik za OS Onevn</translation>
 <translation id="4873312501243535625">Pripomoček za preverjanje predstavnostnih datotek</translation>
 <translation id="5972666587303800813">Nedelujoča storitev</translation>
 <translation id="3061707000357573562">Storitev za popravke</translation>
@@ -780,7 +780,7 @@ Poskrbite, da ne boste razkrili morebitnih občutljivih podatkov.</translation>
 <translation id="2079545284768500474">Razveljavi</translation>
 <translation id="2256115617011615191">Znova zaženi</translation>
 <translation id="4545028762441890696">Če jo želite znova omogočiti, sprejmite nova dovoljenja:</translation>
-<translation id="3009487527589249344">OneVN Software je z zastavico označil razširitev »<ph name="EXTENSION_NAME"/>« kot zlonamerno in preprečil namestitev</translation>
+<translation id="3009487527589249344">Onevn Software je z zastavico označil razširitev »<ph name="EXTENSION_NAME"/>« kot zlonamerno in preprečil namestitev</translation>
 <translation id="6790497603648687708"><ph name="EXTENSION_NAME"/>: dodano na daljavo</translation>
 <translation id="1841705068325380214">Razširitev <ph name="EXTENSION_NAME"/> je onemogočena</translation>
 <translation id="595959584676692139">Znova naložite stran, če želite uporabljati to razširitev</translation>
@@ -913,7 +913,7 @@ Poskrbite, da ne boste razkrili morebitnih občutljivih podatkov.</translation>
 <translation id="3584169441612580296">Branje in spreminjanje fotografij, glasbe in drugih predstavnosti v računalniku</translation>
 <translation id="5457459357461771897">Branje in izbris fotografij, glasbe in drugih predstavnosti v računalniku</translation>
 <translation id="3270965368676314374">Branje, spreminjanje in izbris fotografij, glasbe in drugih predstavnosti v računalniku</translation>
-<translation id="3919562953666287643">Shranjevanje podatkov v računu za OneVN Software Drive</translation>
+<translation id="3919562953666287643">Shranjevanje podatkov v računu za Onevn Software Drive</translation>
 <translation id="378312418865624974">Branje enoličnega identifikatorja za ta računalnik</translation>
 <translation id="5094721898978802975">Komuniciranje s sodelujočimi izvornimi aplikacijami</translation>
 <translation id="4876895919560854374">Zaklepanje in odklepanje zaslona</translation>
@@ -946,7 +946,7 @@ Poskrbite, da ne boste razkrili morebitnih občutljivih podatkov.</translation>
 <translation id="1616298854599875024">Razširitve »<ph name="IMPORT_NAME"/>« ni mogoče uvoziti, ker ni modul v skupni rabi.</translation>
 <translation id="2131077480075264">»<ph name="APP_NAME"/>« ni mogoče namestiti, ker »<ph name="IMPORT_NAME"/>« tega ne dovoli.</translation>
 <translation id="1875387611427697908">To je mogoče dodati samo z mesta <ph name="CHROME_WEB_STORE"/></translation>
-<translation id="7613251087357271190">Aplikacijo z atributom manifesta »kiosk_only« je treba namestiti v načinu kioska sistema OS OneVN</translation>
+<translation id="7613251087357271190">Aplikacijo z atributom manifesta »kiosk_only« je treba namestiti v načinu kioska sistema OS Onevn</translation>
 <translation id="3834775135533257713">Aplikacije »<ph name="TO_INSTALL_APP_NAME"/>« ni bilo mogoče dodati, ker je v sporu z aplikacijo »<ph name="INSTALLED_APP_NAME"/>«.</translation>
 <translation id="144518587530125858">Ni bilo mogoče naložiti slike »<ph name="IMAGE_PATH"/>« za temo.</translation>
 <translation id="6567688344210276845">Ikone »<ph name="ICON"/>« za dejanje strani ni bilo mogoče naložiti.</translation>
@@ -1105,12 +1105,12 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="8756969031206844760">Želite posodobiti geslo?</translation>
 <translation id="8230134520748321204">Želite shraniti geslo za <ph name="ORIGIN"/>?</translation>
 <translation id="9040661932550800571">Želite posodobiti geslo za <ph name="ORIGIN"/>?</translation>
-<translation id="8284000761603848448">Gesla so shranjena v OneVN Software Računu, da jih lahko uporabite v kateri koli napravi</translation>
+<translation id="8284000761603848448">Gesla so shranjena v Onevn Software Računu, da jih lahko uporabite v kateri koli napravi</translation>
 <translation id="8286036467436129157">Prijava</translation>
 <translation id="8009225694047762179">Upravljanje gesel</translation>
 <translation id="3950820424414687140">Prijava</translation>
 <translation id="5624120631404540903">Upravljanje gesel</translation>
-<translation id="9135262959729602463">Če želite dostopati do nastavitev v vseh napravah, se prijavite v OneVN.</translation>
+<translation id="9135262959729602463">Če želite dostopati do nastavitev v vseh napravah, se prijavite v Onevn.</translation>
 <translation id="8919275547519617350">Če želite dostopati do vseh gesel v vseh napravah, se prijavite in vklopite sinhronizacijo.</translation>
 <translation id="8470028084415844044">Če želite dostopati do vseh gesel v vseh napravah, vklopite sinhronizacijo.</translation>
 <translation id="1609170755653088773">Sinhronizacija tega gesla z iPhonom</translation>
@@ -1211,7 +1211,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="223106756035922488">Kliknite, če si želite ogledati današnji priložnostni logotip</translation>
 <translation id="8676374126336081632">Izbriši vnos</translation>
 <translation id="5867841422488265304">Iščite ali vnesite spletni naslov</translation>
-<translation id="2129873093718581193">Iščite v OneVN Software ali vnesite URL</translation>
+<translation id="2129873093718581193">Iščite v Onevn Software ali vnesite URL</translation>
 <translation id="6363797201514053536">Iščite v Googlu ali vnesite URL</translation>
 <translation id="6078323886959318429">Dodajanje bližnjice</translation>
 <translation id="6324916366299863871">Urejanje bližnjice</translation>
@@ -1228,7 +1228,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="1174073918202301297">Bližnjica je bila dodana</translation>
 <translation id="2926085873880284723">Obnovi privzete bližnjice</translation>
 <translation id="2942581856830209953">Prilagajanje te strani</translation>
-<translation id="5801450813341024983">Ozadja za OneVN</translation>
+<translation id="5801450813341024983">Ozadja za Onevn</translation>
 <translation id="2800760947029405028">Naloži sliko</translation>
 <translation id="8342861492835240085">Izberi zbirko</translation>
 <translation id="3132996321662585180">Dnevno osveževanje</translation>
@@ -1329,7 +1329,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="6686817083349815241">Shranite geslo</translation>
 <translation id="8141725884565838206">Upravljanje gesel</translation>
 <translation id="8275038454117074363">Uvozi</translation>
-<translation id="3191314862567596053">Uvoz gesel v OneVN</translation>
+<translation id="3191314862567596053">Uvoz gesel v Onevn</translation>
 <translation id="6368144843345980623">Izvoz gesel iz Chroma</translation>
 <translation id="8503813439785031346">Uporabniško ime</translation>
 <translation id="6657585470893396449">Geslo</translation>
@@ -1357,9 +1357,9 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="2982970937345031">Anonimna prijava</translation>
 <translation id="6076448957780543068">Vključuje ta posnetek zaslona</translation>
 <translation id="7052237160939977163">Pošlji podatke za sledenje učinkovitosti delovanja</translation>
-<translation id="5526928694260255286">Priložite <ph name="BEGIN_LINK"/>Dnevnike za Bluetooth<ph name="END_LINK"/> (OneVN Software – interno)</translation>
+<translation id="5526928694260255286">Priložite <ph name="BEGIN_LINK"/>Dnevnike za Bluetooth<ph name="END_LINK"/> (Onevn Software – interno)</translation>
 <translation id="3047644958362961983">S temi podatki si pomagamo pri razumevanju vaše težave s Pomočnikom. Shranjeni so do 90 dni in dostop je omogočen samo ustreznim skupinam inženirjev in skupinam za povratne informacije.</translation>
-<translation id="1705635099498185261">Googlovi uporabniki lahko za boljše diagnosticiranje težav z Bluetoothom v poročila s povratnimi informacijami vključijo dodatne dnevnike za Bluetooth. Če je označena ta možnost, bosta v vašem poročilu vključena dnevnika btsnoop in HCI iz trenutne seje, in sicer prečiščena tako, da je odstranjenih čim več podatkov, ki omogočajo osebno prepoznavo. Dostop do teh dnevnikov bo omejen na skrbnike skupine izdelkov OS OneVN za Listnr. Dnevniki bodo trajno odstranjeni po 90 dneh.</translation>
+<translation id="1705635099498185261">Googlovi uporabniki lahko za boljše diagnosticiranje težav z Bluetoothom v poročila s povratnimi informacijami vključijo dodatne dnevnike za Bluetooth. Če je označena ta možnost, bosta v vašem poročilu vključena dnevnika btsnoop in HCI iz trenutne seje, in sicer prečiščena tako, da je odstranjenih čim več podatkov, ki omogočajo osebno prepoznavo. Dostop do teh dnevnikov bo omejen na skrbnike skupine izdelkov OS Onevn za Listnr. Dnevniki bodo trajno odstranjeni po 90 dneh.</translation>
 <translation id="4206323443866416204">Poročilo s povratnimi informacijami</translation>
 <translation id="3681311097828166361">Hvala za povratne informacije. Trenutno nimate povezave, zato bo poročilo poslano pozneje.</translation>
 <translation id="8713570323158206935">Pošlji <ph name="BEGIN_LINK1"/>podatke o sistemu<ph name="END_LINK1"/></translation>
@@ -1375,12 +1375,12 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="1483493594462132177">Pošlji</translation>
 <translation id="6885771755599377173">Pregled informacij o sistemu</translation>
 <translation id="1016566241875885511">Dodatni podatki (izbirno)</translation>
-<translation id="6083886770200509573">Ali se OneVN pogosto zruši, prikazuje nenavadne začetne strani ali orodne vrstice, nepričakovane oglase, ki jih ne morete odstraniti, ali kako drugače spreminja brskanje? Težavo boste morda lahko odpravili z Chromovim orodjem za čiščenje.</translation>
+<translation id="6083886770200509573">Ali se Onevn pogosto zruši, prikazuje nenavadne začetne strani ali orodne vrstice, nepričakovane oglase, ki jih ne morete odstraniti, ali kako drugače spreminja brskanje? Težavo boste morda lahko odpravili z Chromovim orodjem za čiščenje.</translation>
 <translation id="7719662019953070946">Prenesite Chromovo orodje za čiščenje</translation>
 <translation id="8281886186245836920">Preskoči</translation>
 <translation id="8026334261755873520">Izbriši podatke brskanja</translation>
 <translation id="7409836189476010449">izvajati Flash</translation>
-<translation id="4718442817388594217">Izbrani podatki so bili odstranjeni iz Chroma in sinhroniziranih naprav. V OneVN Software Računu so morda druge vrste zgodovine brskanja, kot so iskanja in dejavnosti iz drugih Googlovih storitev, na <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="4718442817388594217">Izbrani podatki so bili odstranjeni iz Chroma in sinhroniziranih naprav. V Onevn Software Računu so morda druge vrste zgodovine brskanja, kot so iskanja in dejavnosti iz drugih Googlovih storitev, na <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="7814200940910057384">Chromovi podatki so izbrisani.</translation>
 <translation id="7346909386216857016">V redu, razumem</translation>
 <translation id="8493236660459102203">Mikrofon:</translation>
@@ -1508,7 +1508,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="5972826969634861500">Zaženi <ph name="PRODUCT_NAME"/></translation>
 <translation id="4876273079589074638">Pomagajte našim tehnikom preučiti in odpraviti to zrušitev. Natančno navedite svoje korake, če lahko. Pomembna je vsaka podrobnost.</translation>
 <translation id="945522503751344254">Pošlji povratne informacije</translation>
-<translation id="5418694430960033386">OneVN je zmanjkalo pomnilnika ali pa se je proces spletne strani končal iz drugih razlogov. Če želite nadaljevati, znova naložite ali pojdite na drugo stran.</translation>
+<translation id="5418694430960033386">Onevn je zmanjkalo pomnilnika ali pa se je proces spletne strani končal iz drugih razlogov. Če želite nadaljevati, znova naložite ali pojdite na drugo stran.</translation>
 <translation id="3065041951436100775">Povratne informacije o zaustavitvi zavihka.</translation>
 <translation id="3941565636838060942">Če želite skriti dostop do tega programa, ga morate odstraniti z možnostjo
   <ph name="CONTROL_PANEL_APPLET_NAME"/> na nadzorni plošči.
@@ -1519,7 +1519,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="6280912520669706465">ARC</translation>
 <translation id="4728558894243024398">Okolje</translation>
 <translation id="7022562585984256452">Domača stran je nastavljena.</translation>
-<translation id="7274626204661209194">OneVN Software Tiskanje v oblaku</translation>
+<translation id="7274626204661209194">Onevn Software Tiskanje v oblaku</translation>
 <translation id="4973307593867026061">Dodajte tiskalnike</translation>
 <translation id="9052208328806230490">Tiskalnike ste registrirali za uporabo storitve <ph name="CLOUD_PRINT_NAME"/> z računom <ph name="EMAIL"/>.</translation>
 <translation id="3792890930871100565">Prekinite povezave s tiskalniki</translation>
@@ -1529,17 +1529,17 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="4620809267248568679">To nastavitev je vsilila razširitev.</translation>
 <translation id="4846680374085650406">Upoštevate priporočila skrbnika za to nastavitev.</translation>
 <translation id="1223853788495130632">Skrbnik priporoča za to nastavitev posebno vrednost.</translation>
-<translation id="8839398440242019256">Ni iz Spletne trgovine OneVN.</translation>
+<translation id="8839398440242019256">Ni iz Spletne trgovine Onevn.</translation>
 <translation id="5337771866151525739">Namestil jo je drug ponudnik.</translation>
 <translation id="4538792345715658285">Nameščeno s pravilnikom podjetja.</translation>
 <translation id="4359408040881008151">Nameščeno zaradi odvisnih razširitev.</translation>
 <translation id="4980805016576257426">Ta razširitev vsebuje zlonamerno programsko opremo.</translation>
 <translation id="5522156646677899028">Ta razširitev vsebuje veliko varnostno ranljivost.</translation>
-<translation id="6945695820322143954">Ta razširitev krši pravilnik Spletne trgovine OneVN.</translation>
-<translation id="177808131755847449">Razširitev je onemogočil OneVN, ker morda ni varna.</translation>
+<translation id="6945695820322143954">Ta razširitev krši pravilnik Spletne trgovine Onevn.</translation>
+<translation id="177808131755847449">Razširitev je onemogočil Onevn, ker morda ni varna.</translation>
 <translation id="1434696352799406980">S tem bodo ponastavljeni začetna stran, nov zavihek s povezavami, iskalnik in pripeti zavihki. Prav tako bodo onemogočene vse razširitve in izbrisani bodo začasni podatki, kot so piškotki. Zaznamki, zgodovina in shranjena gesla ne bodo izbrisani.</translation>
 <translation id="1242633766021457174"><ph name="THIRD_PARTY_TOOL_NAME"/> želi ponastaviti nastavitve.</translation>
-<translation id="8073477228424628709"><ph name="THIRD_PARTY_TOOL_NAME"/> želi vaše nastavitve za OneVN ponastaviti na izvirne privzete nastavitve. S tem bodo ponastavljeni domača stran, nov zavihek s povezavami in iskalnik ter onemogočene razširitve in odpeti vsi zavihki. S tem bodo tudi izbrisani začasni in predpomnjeni podatki, kot so piškotki, vsebina in podatki spletnih mest.</translation>
+<translation id="8073477228424628709"><ph name="THIRD_PARTY_TOOL_NAME"/> želi vaše nastavitve za Onevn ponastaviti na izvirne privzete nastavitve. S tem bodo ponastavljeni domača stran, nov zavihek s povezavami in iskalnik ter onemogočene razširitve in odpeti vsi zavihki. S tem bodo tudi izbrisani začasni in predpomnjeni podatki, kot so piškotki, vsebina in podatki spletnih mest.</translation>
 <translation id="7581462281756524039">Orodje za čiščenje</translation>
 <translation id="1233721473400465416">Jezik</translation>
 <translation id="2907619724991574506">Zagonski URL-ji</translation>
@@ -1553,7 +1553,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="8870318296973696995">Domača stran</translation>
 <translation id="8987927404178983737">Mesec</translation>
 <translation id="6015796118275082299">Leto</translation>
-<translation id="5152275065296016556">OneVN Software Pay</translation>
+<translation id="5152275065296016556">Onevn Software Pay</translation>
 <translation id="7671130400130574146">Uporabi sistemsko naslovno vrstico in obrobe</translation>
 <translation id="4520385623207007473">Piškotki v uporabi</translation>
 <translation id="4763408175235639573">Ko ste si ogledovali to stran, so bili poslani ti piškotki</translation>
@@ -1572,7 +1572,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="8930351635855238750">Nove nastavitve za piškotke bodo začele veljati, ko znova naložite stran</translation>
 <translation id="2568774940984945469">Vsebnik informacijske vrstice</translation>
 <translation id="7282992757463864530">Informacijska vrstica</translation>
-<translation id="1805077115206898822">Vaši zaznamki, zgodovina in druge nastavitve bodo sinhronizirani z OneVN Software Računom.</translation>
+<translation id="1805077115206898822">Vaši zaznamki, zgodovina in druge nastavitve bodo sinhronizirani z Onevn Software Računom.</translation>
 <translation id="1974060860693918893">Dodatno</translation>
 <translation id="2445484935443597917">Ustvari nov profil</translation>
 <translation id="2606246518223360146">Poveži podatke</translation>
@@ -1660,13 +1660,13 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="3074037959626057712">Prijavili ste se in vklopili sinhronizacijo</translation>
 <translation id="1231733316453485619">Želite vklopiti sinhronizacijo?</translation>
 <translation id="4736292055110123391">Sinhronizirajte zaznamke, gesla, zgodovino in druge podatke v vseh vaših napravah</translation>
-<translation id="5736731321935944068">OneVN Software lahko vašo zgodovino uporabi za prilagajanje Iskanja OneVN Software, oglasov in drugih Googlovih storitev</translation>
+<translation id="5736731321935944068">Onevn Software lahko vašo zgodovino uporabi za prilagajanje Iskanja Onevn Software, oglasov in drugih Googlovih storitev</translation>
 <translation id="4201546031411513170">V nastavitvah lahko kadar koli izberete, kaj želite sinhronizirati.</translation>
-<translation id="3149880132460839085">OneVN Sync</translation>
-<translation id="3796902758602917951">Vaši zaznamki, zgodovina, gesla in druge nastavitve bodo sinhronizirani z OneVN Software Računom, tako da jih boste lahko uporabljali v vseh svojih napravah.</translation>
+<translation id="3149880132460839085">Onevn Sync</translation>
+<translation id="3796902758602917951">Vaši zaznamki, zgodovina, gesla in druge nastavitve bodo sinhronizirani z Onevn Software Računom, tako da jih boste lahko uporabljali v vseh svojih napravah.</translation>
 <translation id="3111958038206230539">Prilagajanje Googlovih storitev</translation>
-<translation id="295992419959320001">OneVN Software lahko vašo zgodovino brskanja uporabi za prilagajanje Iskanja OneVN Software, oglasov in drugih Googlovih storitev.</translation>
-<translation id="3070156078150543526">OneVN Software lahko vašo zgodovino brskanja uporabi za prilagajanje Iskanja OneVN Software in drugih Googlovih storitev</translation>
+<translation id="295992419959320001">Onevn Software lahko vašo zgodovino brskanja uporabi za prilagajanje Iskanja Onevn Software, oglasov in drugih Googlovih storitev.</translation>
+<translation id="3070156078150543526">Onevn Software lahko vašo zgodovino brskanja uporabi za prilagajanje Iskanja Onevn Software in drugih Googlovih storitev</translation>
 <translation id="2709453993673701466">Ali želite upravljati sinhronizacijo in prilagajanje, preden ju vklopite? Odprite <ph name="BEGIN_LINK"/>nastavitve<ph name="END_LINK"/>.</translation>
 <translation id="2497852260688568942">Sinhronizacijo je onemogočil skrbnik</translation>
 <translation id="562935524653278697">Skrbnik je onemogočil sinhroniziranje zaznamkov, zgodovine, gesel in drugih nastavitev.</translation>
@@ -1702,7 +1702,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="6664774537677393800">Pri odpiranju profila je prišlo do težave. Odjavite se in se znova prijavite.</translation>
 <translation id="1794791083288629568">Pošiljanje povratnih informacij zaradi odpravljanja te težave.</translation>
 <translation id="8234795456569844941">Pomagajte našim tehnikom odpraviti to težavo. Opišite, kaj se je zgodilo, tik preden se je prikazalo sporočilo o napaki profila:</translation>
-<translation id="6500340165622970282">Chroma ni mogoče zagnati, ker je prišlo do težave pri odpiranju profila. Poskusite znova zagnati OneVN.</translation>
+<translation id="6500340165622970282">Chroma ni mogoče zagnati, ker je prišlo do težave pri odpiranju profila. Poskusite znova zagnati Onevn.</translation>
 <translation id="6812349420832218321">Programa <ph name="PRODUCT_NAME"/> ni mogoče zagnati kot korenski uporabnik.</translation>
 <translation id="2292848386125228270">Zaženite <ph name="PRODUCT_NAME"/> kot običajni uporabnik. Če ga morate zaradi razvoja izvajati kot korenski uporabnik, ga znova zaženite z zastavico »--no-sandbox«.</translation>
 <translation id="7547317915858803630">Opozorilo: Nastavitve za <ph name="PRODUCT_NAME"/> so shranjene v omrežnem pogonu, zaradi česa lahko pride do upočasnitev, zrušitev ali celo izgube podatkov.</translation>
@@ -1741,10 +1741,10 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="4251909665067750757">Prijavite se, če želite uporabljati zaznamke, zgodovino, gesla in druge nastavitve v vseh napravah. Prav tako boste samodejno prijavljeni v Googlove storitve.</translation>
 <translation id="2749756011735116528">Prijavite se v storitev <ph name="PRODUCT_NAME"/></translation>
 <translation id="2126167708562367080">Sinhronizacijo je onemogočil skrbnik.</translation>
-<translation id="5462539695964427820">Sinhronizacija je bila ustavljena prek OneVN Software Nadzorne plošče.</translation>
+<translation id="5462539695964427820">Sinhronizacija je bila ustavljena prek Onevn Software Nadzorne plošče.</translation>
 <translation id="8805140816472474147">Potrdite nastavitve sinhronizacije, če želite začeti sinhronizacijo.</translation>
 <translation id="4835836146030131423">Napaka pri prijavi.</translation>
-<translation id="4365673000813822030">Ojej, OneVN Software Sinhronizacija je nehala delovati.</translation>
+<translation id="4365673000813822030">Ojej, Onevn Software Sinhronizacija je nehala delovati.</translation>
 <translation id="3492788708641132712">Sinhronizacija ne deluje. Poskusite se znova prijaviti.</translation>
 <translation id="6349170655202535379">Sinhronizacija ne deluje. Poskusite se odjaviti in znova prijaviti.</translation>
 <translation id="974555521953189084">Vnesite geslo, če želite začeti sinhronizacijo</translation>
@@ -1756,20 +1756,20 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="1877520246462554164">Ni bilo mogoče dobiti žetona za preverjanje pristnosti. Odjavite se, nato se ponovno prijavite in poskusite znova.</translation>
 <translation id="9100765901046053179">Dodatne nastavitve</translation>
 <translation id="5771816112378578655">Poteka nastavitev ...</translation>
-<translation id="3892866329866260680">Zdaj ste prijavljeni v <ph name="SHORT_PRODUCT_NAME"/>. Zaznamki, zgodovina in druge nastavitve se sinhronizirajo z vašim OneVN Software Računom.</translation>
+<translation id="3892866329866260680">Zdaj ste prijavljeni v <ph name="SHORT_PRODUCT_NAME"/>. Zaznamki, zgodovina in druge nastavitve se sinhronizirajo z vašim Onevn Software Računom.</translation>
 <translation id="1408789165795197664">Dodatno ...</translation>
 <translation id="2731700343119398978">Počakajte ...</translation>
 <translation id="4684427112815847243">Sinhroniziraj vse</translation>
 <translation id="7218743184834293955">Podatki so šifrirani z vašim geslom za sinhronizacijo. To ne vključuje plačilnih sredstev in naslovov iz Googla Pay.</translation>
 <translation id="7158251077901880179">Podatki so bili šifrirani z geslom za sinhronizacijo
           <ph name="TIME"/>. To ne vključuje plačilnih sredstev in naslovov iz Googla Pay.</translation>
-<translation id="1171389789873508468">Podatki so bili šifrirani z vašim geslom za OneVN Software Račun z dnem
+<translation id="1171389789873508468">Podatki so bili šifrirani z vašim geslom za Onevn Software Račun z dnem
           <ph name="TIME"/>. To ne vključuje plačilnih sredstev in naslovov iz Googla Pay.</translation>
 <translation id="2562743677925229011">Niste prijavljeni v <ph name="SHORT_PRODUCT_NAME"/></translation>
 <translation id="4027804175521224372">(Zamujate dogajanje – <ph name="IDS_SYNC_PROMO_NOT_SIGNED_IN_STATUS_LINK"/>)</translation>
 <translation id="3574210789297084292">prijava</translation>
 <translation id="237828693408258535">Želite prevod te strani?</translation>
-<translation id="4613765529964435709">Ali želite, da OneVN Software prevede to stran iz jezika <ph name="SOURCE_LANGUAGE"/> v jezik <ph name="TARGET_LANGUAGE"/>?</translation>
+<translation id="4613765529964435709">Ali želite, da Onevn Software prevede to stran iz jezika <ph name="SOURCE_LANGUAGE"/> v jezik <ph name="TARGET_LANGUAGE"/>?</translation>
 <translation id="5990386583461751448">Prevedeno</translation>
 <translation id="5659833766619490117">Te strani ni bilo mogoče prevesti</translation>
 <translation id="969096075394517431">Spreminjanje jezikov</translation>
@@ -1931,11 +1931,11 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="2762441749940182211">Kamera je blokirana</translation>
 <translation id="5074318175948309511">Nove nastavitve bodo morda začele veljati, šele ko znova naložite to stran.</translation>
 <translation id="8282947398454257691">podatke o edinstvenem identifikatorju naprave</translation>
-<translation id="8329449853370113380"><ph name="URL"/> želi predvajati zaščiteno vsebino. OneVN Software bo preveril identiteto vaše naprave.</translation>
-<translation id="2650609753175229582"><ph name="URL"/> želi predvajati zaščiteno vsebino. OneVN Software bo preveril identiteto naprave in do nje bo morda dostopalo to spletno mesto.</translation>
+<translation id="8329449853370113380"><ph name="URL"/> želi predvajati zaščiteno vsebino. Onevn Software bo preveril identiteto vaše naprave.</translation>
+<translation id="2650609753175229582"><ph name="URL"/> želi predvajati zaščiteno vsebino. Onevn Software bo preveril identiteto naprave in do nje bo morda dostopalo to spletno mesto.</translation>
 <translation id="1322046419516468189">Ogled in upravljanje shranjenih gesel tukaj: <ph name="SAVED_PASSWORDS_STORE"/></translation>
 <translation id="5297082477358294722">Geslo je shranjeno. Shranjena gesla si lahko ogledate in jih upravljate tukaj: <ph name="SAVED_PASSWORDS_STORE"/>.</translation>
-<translation id="5713644099811900409">OneVN Software Račun</translation>
+<translation id="5713644099811900409">Onevn Software Račun</translation>
 <translation id="3785727820640310185">Shranjena gesla za to spletno mesto</translation>
 <translation id="3404065873681873169">Za to spletno mesto ni shranjenih gesel</translation>
 <translation id="8470513973197838199">Shranjena gesla za <ph name="ORIGIN"/></translation>
@@ -2074,8 +2074,8 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="2505324914378689427">{SCREEN_INDEX,plural, =1{Zaslon #}one{Zaslon #}two{Zaslon #}few{Zaslon #}other{Zaslon #}}</translation>
 <translation id="839736845446313156">Registracija</translation>
 <translation id="6285120908535925801">{NUM_PRINTER,plural, =1{Nov tiskalnik v vašem omrežju}one{Novi tiskalniki v vašem omrežju}two{Novi tiskalniki v vašem omrežju}few{Novi tiskalniki v vašem omrežju}other{Novi tiskalniki v vašem omrežju}}</translation>
-<translation id="2656240156816412333">{NUM_PRINTER,plural, =1{Dodajte tiskalnik v OneVN Software Tiskanje v oblaku, da boste lahko tiskali od koder koli.}one{Dodajte # tiskalnik v OneVN Software Tiskanje v oblaku, da boste lahko tiskali od koder koli.}two{Dodajte # tiskalnika v OneVN Software Tiskanje v oblaku, da boste lahko tiskali od koder koli.}few{Dodajte # tiskalnike v OneVN Software Tiskanje v oblaku, da boste lahko tiskali od koder koli.}other{Dodajte # tiskalnikov v OneVN Software Tiskanje v oblaku, da boste lahko tiskali od koder koli.}}</translation>
-<translation id="409579654357498729">Dodaj v OneVN Software Tiskanje v oblaku</translation>
+<translation id="2656240156816412333">{NUM_PRINTER,plural, =1{Dodajte tiskalnik v Onevn Software Tiskanje v oblaku, da boste lahko tiskali od koder koli.}one{Dodajte # tiskalnik v Onevn Software Tiskanje v oblaku, da boste lahko tiskali od koder koli.}two{Dodajte # tiskalnika v Onevn Software Tiskanje v oblaku, da boste lahko tiskali od koder koli.}few{Dodajte # tiskalnike v Onevn Software Tiskanje v oblaku, da boste lahko tiskali od koder koli.}other{Dodajte # tiskalnikov v Onevn Software Tiskanje v oblaku, da boste lahko tiskali od koder koli.}}</translation>
+<translation id="409579654357498729">Dodaj v Onevn Software Tiskanje v oblaku</translation>
 <translation id="4628757576491864469">Naprave</translation>
 <translation id="6915804003454593391">Uporabnik:</translation>
 <translation id="7290594223351252791">Potrditev registracije</translation>
@@ -2084,7 +2084,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="1895934970388272448">Ta postopek končate tako, da v tiskalniku potrdite registracijo – preverite jo zdaj.</translation>
 <translation id="551752069230578406">Dodajanje tiskalnika računu – to lahko traja nekaj časa ...</translation>
 <translation id="2384436799579181135">Prišlo je do napake. Preverite tiskalnik in poskusite znova.</translation>
-<translation id="2569908351567260524">Tiskalnik v OneVN Software Tiskanju v oblaku</translation>
+<translation id="2569908351567260524">Tiskalnik v Onevn Software Tiskanju v oblaku</translation>
 <translation id="6782994146626179935">Naprava v Googlovih napravah v oblaku</translation>
 <translation id="7140928199327930795">Ni drugih razpoložljivih naprav.</translation>
 <translation id="8213577208796878755">Ena druga razpoložljiva naprava.</translation>
@@ -2093,15 +2093,15 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="4720113199587244118">Dodaj naprave</translation>
 <translation id="2776441542064982094">Zdi se, da ni naprav, ki bi jih bilo mogoče registrirati v omrežju. Če je vaša naprava vklopljena in ima internetno povezavo, jo poskušajte registrirati po postopku iz priročnika z navodili za napravo.</translation>
 <translation id="1007408791287232274">Naprav ni bilo mogoče naložiti.</translation>
-<translation id="3886420006370338208">Če želite videti svoje naprave, se morate prijaviti v OneVN</translation>
-<translation id="6711610692002680394">Za registracijo novih naprav se morate prijaviti v OneVN</translation>
+<translation id="3886420006370338208">Če želite videti svoje naprave, se morate prijaviti v Onevn</translation>
+<translation id="6711610692002680394">Za registracijo novih naprav se morate prijaviti v Onevn</translation>
 <translation id="8931394284949551895">Nove naprave</translation>
 <translation id="3752673729237782832">Moje naprave</translation>
 <translation id="1721937473331968728">V <ph name="CLOUD_PRINT_NAME"/> lahko dodate navadne tiskalnike, priključene na računalnik.</translation>
 <translation id="715118844758971915">Navadni tiskalniki</translation>
 <translation id="4263757076580287579">Registracija tiskalnika je bila preklicana.</translation>
 <translation id="8152091997436726702">Časovna omejitev za registracijo tiskalnika je potekla. Če želite tiskalnik registrirati, potrdite registracijo v tiskalniku.</translation>
-<translation id="2057904164277279211">Dokumenti so <ph name="BEGIN_LINK_HELP"/>poslani Googlu<ph name="END_LINK_HELP"/> zaradi priprave na tiskanje. Tiskalnike in zgodovino tiskalnikov si lahko ogledate in jo urejate ter upravljate na <ph name="BEGIN_LINK_DASHBOARD"/>nadzorni plošči OneVN Software Tiskanja v oblaku<ph name="END_LINK_DASHBOARD"/>.</translation>
+<translation id="2057904164277279211">Dokumenti so <ph name="BEGIN_LINK_HELP"/>poslani Googlu<ph name="END_LINK_HELP"/> zaradi priprave na tiskanje. Tiskalnike in zgodovino tiskalnikov si lahko ogledate in jo urejate ter upravljate na <ph name="BEGIN_LINK_DASHBOARD"/>nadzorni plošči Onevn Software Tiskanja v oblaku<ph name="END_LINK_DASHBOARD"/>.</translation>
 <translation id="3082780749197361769">Zavihek uporablja vašo kamero ali mikrofon.</translation>
 <translation id="3578594933904494462">Vsebina tega zavihka je v skupni rabi.</translation>
 <translation id="4449996769074858870">Na tem zavihku se predvaja zvok.</translation>
@@ -2154,7 +2154,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="4540437243849625078">To spletno mesto bo delilo podatke z aplikacijo zunaj načina brez beleženja zgodovine.</translation>
 <translation id="1227836882233136433">Izklop načina brez belež. zgod.?</translation>
 <translation id="662080504995468778">Ostani</translation>
-<translation id="2593289874938379417">OneVN nima dostopa do zahtevanega vira</translation>
+<translation id="2593289874938379417">Onevn nima dostopa do zahtevanega vira</translation>
 <translation id="760197030861754408">Odprite <ph name="LANDING_PAGE"/>, če želite vzpostaviti povezavo.</translation>
 <translation id="3648348069317717750">Zaznana naprava USB: <ph name="USB_DEVICE_NAME"/></translation>
 <translation id="2382095919147960379">Povežite to napravo z Linuxom</translation>
@@ -2203,16 +2203,16 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="6777817260680419853">Preusmeritev je blokirana</translation>
 <translation id="694592694773692225">Preusmeritev je na tej strani blokirana.</translation>
 <translation id="8149707863742670433">Googlov brskalnik za vas</translation>
-<translation id="3541561136058491590">Prijavite se v OneVN z OneVN Software Računom, če želite dostopati do zaznamkov, zgodovine, gesel in drugih nastavitev v vseh napravah.</translation>
-<translation id="8945142681652245463">Hitro brskanje z OneVN Software Chromom</translation>
-<translation id="2618024864038703735">Varno brskanje z OneVN Software Chromom</translation>
+<translation id="3541561136058491590">Prijavite se v Onevn z Onevn Software Računom, če želite dostopati do zaznamkov, zgodovine, gesel in drugih nastavitev v vseh napravah.</translation>
+<translation id="8945142681652245463">Hitro brskanje z Onevn Software Chromom</translation>
+<translation id="2618024864038703735">Varno brskanje z Onevn Software Chromom</translation>
 <translation id="8142180567942285208">Pametno brskanje s Chromom</translation>
 <translation id="8862003515646449717">Preklop na hitrejši brskalnik</translation>
 <translation id="8438328416656800239">Preklop na pametni brskalnik</translation>
 <translation id="491691592645955587">Preklop na varni brskalnik</translation>
 <translation id="683373380308365518">Preklop na pametni in varni brskalnik</translation>
-<translation id="989239400026154074">OneVN Software priporoča OneVN</translation>
-<translation id="6676231621615806698">Odpri OneVN</translation>
+<translation id="989239400026154074">Onevn Software priporoča Onevn</translation>
+<translation id="6676231621615806698">Odpri Onevn</translation>
 <translation id="7494065396242762445">Odpiranje nastavitev sistema Windows</translation>
 <translation id="2137068468602026500">V razdelku »Brskalnik« kliknite <ph name="BEGIN_BOLD"/>Microsoft Edge<ph name="END_BOLD"/></translation>
 <translation id="3720996970802414353">Vseeno preklopi</translation>
@@ -2221,7 +2221,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="7537601449003285327">Pripenjanje v opravilno vrstico</translation>
 <translation id="5250372599208556903"><ph name="SEARCH_ENGINE_NAME"/> uporablja lokacijo za zagotavljanje lokalne vsebine. To lahko spremenite tukaj: <ph name="SETTINGS_LINK"/>.</translation>
 <translation id="3737536731758327622">Tu so prikazani prenosi</translation>
-<translation id="4782664866169793230">OneVN upravlja avtomatizirana preskusna programska oprema.</translation>
+<translation id="4782664866169793230">Onevn upravlja avtomatizirana preskusna programska oprema.</translation>
 <translation id="6721678857435001674">Ogled znamke in modela varnostnega ključa</translation>
 <translation id="1673137583248014546"><ph name="URL"/> si želi ogledati znamko in model varnostnega ključa</translation>
 <translation id="6010869025736512584">Dostopanje do videovhoda</translation>
@@ -2437,7 +2437,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="9011163749350026987">Vedno pokaži ikono</translation>
 <translation id="1706586824377653884">Dodal skrbnik</translation>
 <translation id="6467304607960172345">Optimiziranje celozaslonskih videoposnetkov</translation>
-<translation id="1597210476603167523">Omogočanje predvajanja v storitvah v oblaku, kot je OneVN Software Hangouts.</translation>
+<translation id="1597210476603167523">Omogočanje predvajanja v storitvah v oblaku, kot je Onevn Software Hangouts.</translation>
 <translation id="3653941710869291743">Pozdravljeni v doživetju predvajanja v Chromu.</translation>
 <translation id="2841638550927239436">To funkcijo lahko uporabite za prikaz vsebine v Chromu prek televizorja ali drugih naprav.</translation>
 <translation id="5234764350956374838">Opusti</translation>
@@ -2470,9 +2470,9 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="4271396100647220620">Ni ujemanj</translation>
 <translation id="6972180789171089114">Zvok/video</translation>
 <translation id="2541002089857695151">Želite optimizirati celozaslonsko predvajanje?</translation>
-<translation id="4144218403971135344">Boljša kakovost videoposnetkov in prihranek energije v akumulatorju. Videoposnetki se bodo predvajali samo na zaslonu, ki podpira OneVN Software Cast.</translation>
+<translation id="4144218403971135344">Boljša kakovost videoposnetkov in prihranek energije v akumulatorju. Videoposnetki se bodo predvajali samo na zaslonu, ki podpira Onevn Software Cast.</translation>
 <translation id="236117173274098341">Optimizacija</translation>
-<translation id="8538358978858059843">Želite omogočiti oblačne storitve za OneVN Software Cast?</translation>
+<translation id="8538358978858059843">Želite omogočiti oblačne storitve za Onevn Software Cast?</translation>
 <translation id="3856595552313160385">Uporabo aplikacije Hangouts in razširitve Cast for Education ureja Googlov pravilnik o zasebnosti.</translation>
 <translation id="3700888195348409686">Predstavljanje (<ph name="PAGE_ORIGIN"/>)</translation>
 <translation id="5285635972691565180">Zaslon <ph name="DISPLAY_ID"/></translation>
@@ -2637,7 +2637,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="672213144943476270">Preden brskate kot gost, odklenite profil.</translation>
 <translation id="3478685642445675458">Preden odstranite osebo, odklenite profil.</translation>
 <translation id="4648499713050786492">Preden dodate osebo, odklenite profil.</translation>
-<translation id="8978225823042133615">Če želite uporabljati OneVN, se prijavite</translation>
+<translation id="8978225823042133615">Če želite uporabljati Onevn, se prijavite</translation>
 <translation id="4893336867552636863">S tem boste iz te naprave trajno izbrisali podatke o brskanju.</translation>
 <translation id="2496180316473517155">Zgodovina brskanja</translation>
 <translation id="6865313869410766144">Podatki za samodejno izpolnjevanje obrazcev</translation>
@@ -2657,7 +2657,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="3236289833370040187">Lastništvo bo preneseno v domeno <ph name="DESTINATION_DOMAIN"/>.</translation>
 <translation id="7765158879357617694">Premakni</translation>
 <translation id="8249296373107784235">Prekini</translation>
-<translation id="6268185425799226387">OneVN Software Drive</translation>
+<translation id="6268185425799226387">Onevn Software Drive</translation>
 <translation id="4425149324548788773">Moj disk</translation>
 <translation id="1786636458339910689">Diski ekip</translation>
 <translation id="5010406651457630570">Računalniki</translation>
@@ -2715,7 +2715,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="7928710562641958568">Izpni napravo</translation>
 <translation id="7864662577698025113">Dodaj novo storitev</translation>
 <translation id="1943097386230153518">Namesti novo storitev</translation>
-<translation id="2562685439590298522">OneVN Software Dokumenti</translation>
+<translation id="2562685439590298522">Onevn Software Dokumenti</translation>
 <translation id="2925966894897775835">Preglednice</translation>
 <translation id="2943400156390503548">Predstavitve</translation>
 <translation id="5649768706273821470">Poslušajte</translation>
@@ -2794,8 +2794,8 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="2377319039870049694">Preklop na pogled seznama</translation>
 <translation id="3003633581067744647">Preklop na pogled sličic</translation>
 <translation id="604001903249547235">Varnostno kopiranje v oblak</translation>
-<translation id="505639225383557233">Varnostna kopija sistema OneVN OS v oblaku</translation>
-<translation id="8656896237683963068">Varnostno kopiranje fotografij in videoposnetkov iz predstavnostne naprave v OneVN Software Drive.</translation>
+<translation id="505639225383557233">Varnostna kopija sistema Onevn OS v oblaku</translation>
+<translation id="8656896237683963068">Varnostno kopiranje fotografij in videoposnetkov iz predstavnostne naprave v Onevn Software Drive.</translation>
 <translation id="3057861065630527966">Varnostno kopiranje fotografij videoposnetkov</translation>
 <translation id="7730494089396812859">Prikaz podrobnosti varnostnega kopiranja v oblak</translation>
 <translation id="2850124913210091882">Varnostno kopiranje</translation>
@@ -2805,14 +2805,14 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
     <ph name="LINE_BREAK1"/>
     Št. najdenih: <ph name="FILE_COUNT"/></translation>
 <translation id="3466147780910026086">Pregledovanje predstavnostne naprave ...</translation>
-<translation id="2611866923243604397">Vse varnostno kopirano v <ph name="BEGIN_LINK"/>OneVN Software Drive!<ph name="END_LINK"/></translation>
+<translation id="2611866923243604397">Vse varnostno kopirano v <ph name="BEGIN_LINK"/>Onevn Software Drive!<ph name="END_LINK"/></translation>
 <translation id="3620292326130836921">Vse je varnostno kopirano!</translation>
 <translation id="1536674585581593431">Št. najdenih: <ph name="FILE_COUNT"/>.
     <ph name="LINE_BREAK1"/>
-    Vaša kvota za OneVN Software Drive ni dovolj velika. Potrebujete dodatnih <ph name="FILE_SIZE"/>.
+    Vaša kvota za Onevn Software Drive ni dovolj velika. Potrebujete dodatnih <ph name="FILE_SIZE"/>.
     <ph name="LINE_BREAK2"/>
     Poskušajte izbrati manj fotografij.</translation>
-<translation id="2473109739642988997">Vaša kvota za OneVN Software Drive ni dovolj velika.</translation>
+<translation id="2473109739642988997">Vaša kvota za Onevn Software Drive ni dovolj velika.</translation>
 <translation id="1148097584170732637">Št. najdenih: <ph name="FILE_COUNT"/>.
     <ph name="LINE_BREAK1"/>
     V lokalni shrambi ni dovolj prostora. Potrebujete dodatnih <ph name="FILE_SIZE"/>.
@@ -2821,11 +2821,11 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="2352947182261340447">V lokalni shrambi ni dovolj prostora.</translation>
 <translation id="1127657192797926968">Št. najdenih: <ph name="FILE_COUNT"/>
     <ph name="LINE_BREAK1"/>
-    Pripravljen za varnostno kopiranje v <ph name="BEGIN_LINK"/>OneVN Software Drive<ph name="END_LINK"/></translation>
+    Pripravljen za varnostno kopiranje v <ph name="BEGIN_LINK"/>Onevn Software Drive<ph name="END_LINK"/></translation>
 <translation id="4905417359854579806">Pripravljeno za varnostno kopiranje: <ph name="FILE_COUNT"/></translation>
-<translation id="5029447434471675822">Varnostno kopiranje v <ph name="BEGIN_LINK"/>OneVN Software Drive<ph name="END_LINK"/>: <ph name="FILE_COUNT"/></translation>
+<translation id="5029447434471675822">Varnostno kopiranje v <ph name="BEGIN_LINK"/>Onevn Software Drive<ph name="END_LINK"/>: <ph name="FILE_COUNT"/></translation>
 <translation id="4215448920900139318">Varnostno kopiranje: <ph name="FILE_COUNT"/></translation>
-<translation id="2419376816263920133">V <ph name="BEGIN_LINK"/>OneVN Software Drive<ph name="END_LINK"/> je varnostno kopiranih toliko fotografij: <ph name="FILE_COUNT"/></translation>
+<translation id="2419376816263920133">V <ph name="BEGIN_LINK"/>Onevn Software Drive<ph name="END_LINK"/> je varnostno kopiranih toliko fotografij: <ph name="FILE_COUNT"/></translation>
 <translation id="2994669386200004489">Varnostno kopiranje ni uspelo: <ph name="FILE_NAME"/></translation>
 <translation id="4724850507808590449">Št. varnostno kopiranih fotografij: <ph name="FILE_COUNT"/></translation>
 <translation id="1351692861129622852">Uvoz toliko datotek: <ph name="FILE_COUNT"/> ...</translation>
@@ -2847,8 +2847,8 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="653019979737152879"><ph name="FILE_NAME"/> – sinhroniziranje ...</translation>
 <translation id="8579285237314169903">Sinhroniziranje datotek (<ph name="NUMBER_OF_FILES"/>) ...</translation>
 <translation id="8137331602592933310">Datoteka »<ph name="FILENAME"/>« je v skupni rabi z vami. Ne morete je izbrisati, ker niste njen lastnik.</translation>
-<translation id="6277279884155292049">OneVN Software Drive trenutno ni na voljo. Ko bo spet na voljo, se bo prenos samodejno začel znova.</translation>
-<translation id="1114160088213746286">OneVN Software Drive trenutno ne more sinhronizirati datoteke »<ph name="FILENAME"/>«. OneVN Software Drive bo poskusil znova pozneje.</translation>
+<translation id="6277279884155292049">Onevn Software Drive trenutno ni na voljo. Ko bo spet na voljo, se bo prenos samodejno začel znova.</translation>
+<translation id="1114160088213746286">Onevn Software Drive trenutno ne more sinhronizirati datoteke »<ph name="FILENAME"/>«. Onevn Software Drive bo poskusil znova pozneje.</translation>
 <translation id="4893296294301184587">Datoteka »<ph name="FILENAME"/>« ni bila naložena. V Googlu Drive nimate dovolj razpoložljivega prostora.</translation>
 <translation id="5163869187418756376">Souporaba ni uspela. Preverite povezavo in poskusite znova.</translation>
 <translation id="656398493051028875">Brisanje datoteke »<ph name="FILENAME"/>« ...</translation>
@@ -2919,8 +2919,8 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="696203921837389374">Omogoči sinhronizacijo prek prenosa podatkov v mobilnih omrežjih</translation>
 <translation id="637062427944097960">Ta datoteka je odprta na drugem namizju. Če si jo želite ogledati, preklopite na uporabnika <ph name="USER_NAME"/> (<ph name="MAIL_ADDRESS"/>).</translation>
 <translation id="5330145655348521461">Te datoteke so odprte na drugem namizju. Če si jih želite ogledati, preklopite na uporabnika <ph name="USER_NAME"/> (<ph name="MAIL_ADDRESS"/>).</translation>
-<translation id="8686213429977032554">Ta datoteka v storitvi OneVN Software Drive še ni v skupni rabi</translation>
-<translation id="7850851215703745691">Te datoteke v storitvi OneVN Software Drive še niso v skupni rabi</translation>
+<translation id="8686213429977032554">Ta datoteka v storitvi Onevn Software Drive še ni v skupni rabi</translation>
+<translation id="7850851215703745691">Te datoteke v storitvi Onevn Software Drive še niso v skupni rabi</translation>
 <translation id="1839704667838141620">Spremeni način skupne rabe te datoteke</translation>
 <translation id="1864676585353837027">Spremenite način skupne rabe teh datotek</translation>
 <translation id="197560921582345123">Urejanje dovoljeno</translation>
@@ -2929,15 +2929,15 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="7925686952655276919">Ne uporabi mobilnih podatkov za sinhronizacijo</translation>
 <translation id="7106346894903675391">Nakup dodatnega prostora za shranjevanje ...</translation>
 <translation id="3549797760399244642">Pojdite na drive.google.com ...</translation>
-<translation id="3451154303153932176">Preostali prostor v OneVN Software Driveu: <ph name="SPACE_AVAILABLE"/>.</translation>
+<translation id="3451154303153932176">Preostali prostor v Onevn Software Driveu: <ph name="SPACE_AVAILABLE"/>.</translation>
 <translation id="4552678318981539154">Nakup dodatnega prostora za shranjevanje ...</translation>
 <translation id="6990081529015358884">Zmanjkalo vam je prostora</translation>
-<translation id="5521447721624713749">Storitev OneVN Software Drive trenutno ni na voljo.</translation>
+<translation id="5521447721624713749">Storitev Onevn Software Drive trenutno ni na voljo.</translation>
 <translation id="7788080748068240085">Če želite datoteko »<ph name="FILE_NAME"/>« shraniti brez povezave, morate sprostiti še toliko prostora: <ph name="TOTAL_FILE_SIZE"/>:<ph name="MARKUP_1"/>
         <ph name="MARKUP_2"/>odpnite datoteke, do kateri vam ni več treba dostopati brez povezave<ph name="MARKUP_3"/>
         <ph name="MARKUP_4"/>izbrišite datoteke iz mape »Prenosi«<ph name="MARKUP_5"/></translation>
-<translation id="7606199793785990727">OneVN Software Drive ni dosegljiv. <ph name="BEGIN_LINK"/>Odjavite se<ph name="END_LINK"/> in se znova prijavite.</translation>
-<translation id="585883343689351092">Pozdravljeni v storitvi OneVN Software Drive!</translation>
+<translation id="7606199793785990727">Onevn Software Drive ni dosegljiv. <ph name="BEGIN_LINK"/>Odjavite se<ph name="END_LINK"/> in se znova prijavite.</translation>
+<translation id="585883343689351092">Pozdravljeni v storitvi Onevn Software Drive!</translation>
 <translation id="6862635236584086457">Datoteke, shranjene v teh mapi, se samodejno varnostno kopirajo v splet</translation>
 <translation id="7220787572447472056"><ph name="MARKUP_1"/>Dostopajte do datotek povsod, tudi brez povezave.<ph name="MARKUP_2"/>
         Datoteke v Googlu Drive so posodobljene in na voljo v vsaki napravi.<ph name="MARKUP_3"/>
@@ -2945,12 +2945,12 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
         Datoteke so varno shranjene v Googlu Drive ne glede na to, kaj se zgodi z napravo.<ph name="MARKUP_6"/>
         <ph name="MARKUP_7"/>Delite datoteke z drugimi, jih ustvarjajte in sodelujte<ph name="MARKUP_8"/>
         na enem mestu.<ph name="MARKUP_9"/></translation>
-<translation id="4878716980734452132">Ta vrsta datoteke ni podprta. V <ph name="BEGIN_LINK"/>Spletni trgovini OneVN<ph name="END_LINK"/> poiščite aplikacijo, s katero lahko odprete to vrsto datoteke.
+<translation id="4878716980734452132">Ta vrsta datoteke ni podprta. V <ph name="BEGIN_LINK"/>Spletni trgovini Onevn<ph name="END_LINK"/> poiščite aplikacijo, s katero lahko odprete to vrsto datoteke.
         <ph name="BEGIN_LINK_HELP"/>Več o tem<ph name="END_LINK_HELP"/></translation>
-<translation id="6230272341631206186">Ta datoteka je namenjena za računalnike s programsko opremo Windows in ni združljiva z vašo napravo, ki uporablja OS OneVN. <ph name="BEGIN_LINK_HELP"/>Več o tem<ph name="END_LINK_HELP"/></translation>
-<translation id="3072401511615920367">Ta datoteka je zasnovana za računalnik, ki uporablja programsko opremo Macintosh. Ni združljiva z vašo napravo, ki uporablja sistem OneVN OS. Poiščite ustrezno nadomestno aplikacijo v <ph name="BEGIN_LINK"/>Spletni trgovini OneVN<ph name="END_LINK"/>.<ph name="BEGIN_LINK_HELP"/>Več o tem<ph name="END_LINK_HELP"/></translation>
+<translation id="6230272341631206186">Ta datoteka je namenjena za računalnike s programsko opremo Windows in ni združljiva z vašo napravo, ki uporablja OS Onevn. <ph name="BEGIN_LINK_HELP"/>Več o tem<ph name="END_LINK_HELP"/></translation>
+<translation id="3072401511615920367">Ta datoteka je zasnovana za računalnik, ki uporablja programsko opremo Macintosh. Ni združljiva z vašo napravo, ki uporablja sistem Onevn OS. Poiščite ustrezno nadomestno aplikacijo v <ph name="BEGIN_LINK"/>Spletni trgovini Onevn<ph name="END_LINK"/>.<ph name="BEGIN_LINK_HELP"/>Več o tem<ph name="END_LINK_HELP"/></translation>
 <translation id="7589661784326793847">Počakajte trenutek</translation>
-<translation id="3096967955765855393">Stalno si prizadevamo zagotoviti, da bi bilo brskanje varnejše. Prej vas je lahko vsako spletno mesto pozvalo, da dodate razširitev v brskalnik. V zadnjih različicah OneVN Software Chroma pa morate Chromu izrecno povedati, da želite te razširitve namestiti, tako da jih dodate na strani »Razširitve«. <ph name="BEGIN_LINK"/>Več o tem<ph name="END_LINK"/></translation>
+<translation id="3096967955765855393">Stalno si prizadevamo zagotoviti, da bi bilo brskanje varnejše. Prej vas je lahko vsako spletno mesto pozvalo, da dodate razširitev v brskalnik. V zadnjih različicah Onevn Software Chroma pa morate Chromu izrecno povedati, da želite te razširitve namestiti, tako da jih dodate na strani »Razširitve«. <ph name="BEGIN_LINK"/>Več o tem<ph name="END_LINK"/></translation>
 <translation id="4892969127351273348">Ni mogoče odpreti z aplikacijo <ph name="APP_NAME"/></translation>
 <translation id="52446585071384036">Če želite datoteke odpirati z aplikacijo <ph name="APP_NAME"/>, jih najprej kopirajte v mapo z datotekami za Linux.</translation>
 <translation id="5368191757080475556">Skupna raba mape z Linuxom</translation>
@@ -2981,11 +2981,11 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="784862457750027723">Googlov obrazec</translation>
 <translation id="3320425620177764157">Googlov zemljevid</translation>
 <translation id="7452737073539387970">Googlovo spletno mesto</translation>
-<translation id="4445959220475380548">Povezava OneVN Software Drive</translation>
+<translation id="4445959220475380548">Povezava Onevn Software Drive</translation>
 <translation id="5288481194217812690"><ph name="FILENAME"/></translation>
-<translation id="1131292764548273687">Ta vrsta datoteke ni podprta. Obiščite spletno trgovino OneVN in poiščite aplikacijo, ki lahko odpre to vrsto datoteke.</translation>
-<translation id="9010211493509471179">Ta datoteka je namenjena za računalnike s programsko opremo Macintosh in ni združljiva z vašo napravo, ki uporablja OneVN OS. V Spletni trgovini OneVN poiščite ustrezno nadomestno aplikacijo.</translation>
-<translation id="5059989099965370411">Ta datoteka je namenjena za računalnike s programsko opremo Windows in ni združljiva z vašo napravo, ki uporablja OneVN OS. V Spletni trgovini OneVN poiščite ustrezno nadomestno aplikacijo.</translation>
+<translation id="1131292764548273687">Ta vrsta datoteke ni podprta. Obiščite spletno trgovino Onevn in poiščite aplikacijo, ki lahko odpre to vrsto datoteke.</translation>
+<translation id="9010211493509471179">Ta datoteka je namenjena za računalnike s programsko opremo Macintosh in ni združljiva z vašo napravo, ki uporablja Onevn OS. V Spletni trgovini Onevn poiščite ustrezno nadomestno aplikacijo.</translation>
+<translation id="5059989099965370411">Ta datoteka je namenjena za računalnike s programsko opremo Windows in ni združljiva z vašo napravo, ki uporablja Onevn OS. V Spletni trgovini Onevn poiščite ustrezno nadomestno aplikacijo.</translation>
 <translation id="5833610766403489739">Ta datoteka se je nekje izgubila. Preverite nastavitev mesta za prenos in poskusite znova.</translation>
 <translation id="3966388904776714213">Zvočni predvajalnik</translation>
 <translation id="3245321423178950146">Neznan izvajalec</translation>
@@ -2997,7 +2997,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="1358735829858566124">Neuporabna datoteka ali imenik.</translation>
 <translation id="8342318071240498787">Datoteka ali imenik s tem imenom že obstaja.</translation>
 <translation id="8965697826696209160">Na voljo ni dovolj prostora.</translation>
-<translation id="7126604456862387217">»&lt;b&gt;<ph name="SEARCH_STRING"/>&lt;/b&gt;« – &lt;em&gt;iskanje v storitvi OneVN Software Drive&lt;/em&gt;</translation>
+<translation id="7126604456862387217">»&lt;b&gt;<ph name="SEARCH_STRING"/>&lt;/b&gt;« – &lt;em&gt;iskanje v storitvi Onevn Software Drive&lt;/em&gt;</translation>
 <translation id="2888807692577297075">Noben element se ne ujema s poizvedbo &lt;b&gt;»<ph name="SEARCH_STRING"/>«&lt;/b&gt;</translation>
 <translation id="2843806747483486897">Spremeni privzeto dejanje ...</translation>
 <translation id="3254434849914415189">Izberite privzeto aplikacijo za datoteke <ph name="FILE_TYPE"/>:</translation>
@@ -3041,7 +3041,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="2972557485845626008">Vdelana programska oprema</translation>
 <translation id="4297219207642690536">Znova zaženi in ponastavi</translation>
 <translation id="4716483597559580346">Opravite postopek »Powerwash« zaradi dodane varnosti</translation>
-<translation id="4089922565956168950">S to nadgradnjo bo ponastavljen OneVNbook in odstranjeni bodo trenutni uporabniški podatki.</translation>
+<translation id="4089922565956168950">S to nadgradnjo bo ponastavljen Onevnbook in odstranjeni bodo trenutni uporabniški podatki.</translation>
 <translation id="5184662919967270437">Posodabljanje naprave</translation>
 <translation id="6644846457769259194">Posodabljanje naprave (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="5906655207909574370">Samo še malo. Znova zaženite napravo, da dokončate posodobitev.</translation>
@@ -3064,13 +3064,13 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="5600706100022181951">Posodobitev bo prenesena v mobilnem omrežju, pri čimer bo prenesenih toliko podatkov: <ph name="UPDATE_SIZE_MB"/> MB. Ali želite nadaljevati?</translation>
 <translation id="5402815541704507626">Prenos posodobitve s prenosom podatkov v mobilnem omrežju</translation>
 <translation id="5085162214018721575">Preverjanje, ali so na voljo posodobitve</translation>
-<translation id="4570609078116869893">Samodejno posodobi OneVN za vse uporabnike</translation>
+<translation id="4570609078116869893">Samodejno posodobi Onevn za vse uporabnike</translation>
 <translation id="7102687220333134671">Samodejne posodobitve so vklopljene</translation>
 <translation id="6981982820502123353">Dostopnost</translation>
-<translation id="5840822070878669614">Odpiranje Spletne trgovine OneVN</translation>
+<translation id="5840822070878669614">Odpiranje Spletne trgovine Onevn</translation>
 <translation id="6073903501322152803">Dodajanje funkcij za ljudi s posebnimi potrebami</translation>
 <translation id="7988355189918024273">Omogoči funkcije za ljudi s posebnimi potrebami</translation>
-<translation id="3274899353071794175">Če slika nima koristnega opisa, ga bo OneVN poskušal zagotoviti. Slike pregleduje OneVN Software.</translation>
+<translation id="3274899353071794175">Če slika nima koristnega opisa, ga bo Onevn poskušal zagotoviti. Slike pregleduje Onevn Software.</translation>
 <translation id="2558896001721082624">Vedno pokaži možnosti funkcij za ljudi s posebnimi potrebami v sistemskem meniju</translation>
 <translation id="7280649757394340890">Glasovne nastavitve pretvorbe besedila v govor</translation>
 <translation id="6635956300022133031">Izbira in prilagajanje glasov za pretvorbo besedila v govor</translation>
@@ -3079,8 +3079,8 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="4209092469652827314">Velika</translation>
 <translation id="499165176004408815">Uporabi visokokontrastni način</translation>
 <translation id="142758023928848008">Omogočanje zaklepanja tipk (za vnos bližnjičnih tipk z zaporednim tipkanjem)</translation>
-<translation id="5914872514449971753">Omogoči OneVNVox (izgovarjava povratnih informacij)</translation>
-<translation id="7099511550603534982">Odpri nastavitve OneVNVoxa</translation>
+<translation id="5914872514449971753">Omogoči OnevnVox (izgovarjava povratnih informacij)</translation>
+<translation id="7099511550603534982">Odpri nastavitve OnevnVoxa</translation>
 <translation id="8547013269961688403">Omogoči celozaslonsko lupo</translation>
 <translation id="8743390665131937741">Stopnja povečave celozaslonske lupe:</translation>
 <translation id="7334274148831027933">Omogoči zasidrano lupo</translation>
@@ -3179,13 +3179,13 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="2200603218210188859">Nastavitve naprave USB</translation>
 <translation id="2706892089432507937">Naprave USB</translation>
 <translation id="5187892128515678283">Deljenje naprave USB z Linuxom s premikom stikala v vklopljeni položaj. Deljenje bo vklopljeno samo, dokler je naprava povezana.</translation>
-<translation id="2295473777859797944">Trgovina OneVN Software Play</translation>
+<translation id="2295473777859797944">Trgovina Onevn Software Play</translation>
 <translation id="572155275267014074">Nastavitve za Android</translation>
-<translation id="4767209642168463274">Namestite aplikacije in igre iz Googla Play v OneVNbooku. &lt;a target="_blank" href="<ph name="URL"/>"&gt;Več o tem&lt;/a&gt;</translation>
+<translation id="4767209642168463274">Namestite aplikacije in igre iz Googla Play v Onevnbooku. &lt;a target="_blank" href="<ph name="URL"/>"&gt;Več o tem&lt;/a&gt;</translation>
 <translation id="2966937470348689686">Upravljanje nastavitev Androida</translation>
-<translation id="4074367893748481070">Odstranitev Trgovine OneVN Software Play</translation>
+<translation id="4074367893748481070">Odstranitev Trgovine Onevn Software Play</translation>
 <translation id="2792290659606763004">Želite odstraniti aplikacije za Android?</translation>
-<translation id="4607779957365311067">Aplikacije, ki ste jih prenesli iz Googla Play, bodo izbrisane iz tega OneVNbooka.
+<translation id="4607779957365311067">Aplikacije, ki ste jih prenesli iz Googla Play, bodo izbrisane iz tega Onevnbooka.
       <ph name="LINE_BREAKS1"/>
       Kupljena vsebina, na primer filmi, TV-oddaje, glasba, knjige ali drugi nakupi v aplikacijah, bo morda tudi izbrisana.
       <ph name="LINE_BREAKS2"/>
@@ -3213,7 +3213,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="1670399744444387456">Osnovno</translation>
 <translation id="1763808908432309942">Odpre se na novem zavihku</translation>
 <translation id="6248988683584659830">Nastavitve iskanja</translation>
-<translation id="883304095704384301">Odprite <ph name="BEGIN_LINK_CHROMIUM"/>pomoč za OneVN Software OneVN<ph name="END_LINK_CHROMIUM"/>, če ne najdete tega, kar iščete</translation>
+<translation id="883304095704384301">Odprite <ph name="BEGIN_LINK_CHROMIUM"/>pomoč za Onevn Software Onevn<ph name="END_LINK_CHROMIUM"/>, če ne najdete tega, kar iščete</translation>
 <translation id="6406708970972405507">Nastavitve – <ph name="SECTION_TITLE"/></translation>
 <translation id="5860033963881614850">Izklopljeno</translation>
 <translation id="5916664084637901428">Vklopljeno</translation>
@@ -3231,10 +3231,10 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="451515744433878153">Odstrani</translation>
 <translation id="5029568752722684782">Počisti kopijo</translation>
 <translation id="2154484045852737596">Urejanje kartice</translation>
-<translation id="3032188998195902534">Če želite dodati ali upravljati plačilna sredstva za OneVN Software Pay, obiščite <ph name="BEGIN_LINK"/>račun za OneVN Software<ph name="END_LINK"/></translation>
+<translation id="3032188998195902534">Če želite dodati ali upravljati plačilna sredstva za Onevn Software Pay, obiščite <ph name="BEGIN_LINK"/>račun za Onevn Software<ph name="END_LINK"/></translation>
 <translation id="8853586775156634952">Ta kartica bo shranjena samo v to napravo</translation>
 <translation id="5087580092889165836">Dodaj kartico</translation>
-<translation id="4835914736509775287">Shranjevanje kartic v OneVN Software Računu</translation>
+<translation id="4835914736509775287">Shranjevanje kartic v Onevn Software Računu</translation>
 <translation id="7255002516883565667">Trenutno je mogoče eno vašo kartico uporabljati samo v tej napravi.</translation>
 <translation id="6848388270925200958">Trenutno je mogoče nekatere vaše kartice uporabljati samo v tej napravi</translation>
 <translation id="4807098396393229769">Ime na kartici</translation>
@@ -3257,7 +3257,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="7930294771522048157">Shranjena plačilna sredstva bodo prikazana tu</translation>
 <translation id="9124003689441359348">Shranjena gesla bodo prikazana tukaj</translation>
 <translation id="4400367121200150367">Mesta, ki nikoli ne shranjujejo gesel, bodo prikazana tukaj</translation>
-<translation id="3098842761938485917">Ogled in upravljanje shranjenih gesel v <ph name="BEGIN_LINK"/>OneVN Software Računu<ph name="END_LINK"/></translation>
+<translation id="3098842761938485917">Ogled in upravljanje shranjenih gesel v <ph name="BEGIN_LINK"/>Onevn Software Računu<ph name="END_LINK"/></translation>
 <translation id="5620655347161642930">Izvoz gesel ...</translation>
 <translation id="3900966090527141178">Izvoz gesel</translation>
 <translation id="6914783257214138813">Gesla bodo vidna vsakomur, ki si lahko ogleda izvoženo datoteko z gesli.</translation>
@@ -3357,15 +3357,15 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="3380365263193509176">Neznana napaka</translation>
 <translation id="368789413795732264">Pri zapisovanju datoteke je prišlo do napake: <ph name="ERROR_TEXT"/>.</translation>
 <translation id="784934925303690534">Časovno obdobje</translation>
-<translation id="3958004920128806270">Če želite izbrisati podatke brskanja samo iz te naprave, v OneVN Software Računu pa jih želite ohraniti, <ph name="BEGIN_LINK"/>se odjavite<ph name="END_LINK"/>.</translation>
-<translation id="4445433576366924090">Če želite izbrisati podatke brskanja iz vseh sinhroniziranih naprav in OneVN Software Računa, <ph name="BEGIN_LINK"/>odprite nastavitve sinhronizacije<ph name="END_LINK"/>.</translation>
-<translation id="563489167344291753">Če želite izbrisati podatke brskanja iz vseh sinhroniziranih naprav in OneVN Software Računa, <ph name="BEGIN_LINK"/>vnesite geslo<ph name="END_LINK"/>.</translation>
-<translation id="3895809404273995788">Če želite izbrisati podatke brskanja iz vseh sinhroniziranih naprav in OneVN Software Računa, <ph name="BEGIN_LINK"/>se prijavite<ph name="END_LINK"/>.</translation>
+<translation id="3958004920128806270">Če želite izbrisati podatke brskanja samo iz te naprave, v Onevn Software Računu pa jih želite ohraniti, <ph name="BEGIN_LINK"/>se odjavite<ph name="END_LINK"/>.</translation>
+<translation id="4445433576366924090">Če želite izbrisati podatke brskanja iz vseh sinhroniziranih naprav in Onevn Software Računa, <ph name="BEGIN_LINK"/>odprite nastavitve sinhronizacije<ph name="END_LINK"/>.</translation>
+<translation id="563489167344291753">Če želite izbrisati podatke brskanja iz vseh sinhroniziranih naprav in Onevn Software Računa, <ph name="BEGIN_LINK"/>vnesite geslo<ph name="END_LINK"/>.</translation>
+<translation id="3895809404273995788">Če želite izbrisati podatke brskanja iz vseh sinhroniziranih naprav in Onevn Software Računa, <ph name="BEGIN_LINK"/>se prijavite<ph name="END_LINK"/>.</translation>
 <translation id="8662811608048051533">Odjavi vas iz večine spletnih mest.</translation>
-<translation id="4650925988509114690">Odjavi vas iz večine spletnih mest. Ostali boste prijavljeni v OneVN Software Račun, da bo mogoče izbrisati sinhronizirane podatke.</translation>
+<translation id="4650925988509114690">Odjavi vas iz večine spletnih mest. Ostali boste prijavljeni v Onevn Software Račun, da bo mogoče izbrisati sinhronizirane podatke.</translation>
 <translation id="2017836877785168846">Izbriše zgodovino in samodokončanja v naslovni vrstici.</translation>
-<translation id="8096327394278038498">Izbriše zgodovino in samodokončanja v naslovni vrstici. V OneVN Software Računu so morda druge vrste zgodovine brskanja na <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
-<translation id="8122693181154564064">Izbriše zgodovino iz vseh naprav, v katerih ste prijavljeni. V OneVN Software Računu so morda druge vrste zgodovine brskanja na <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8096327394278038498">Izbriše zgodovino in samodokončanja v naslovni vrstici. V Onevn Software Računu so morda druge vrste zgodovine brskanja na <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8122693181154564064">Izbriše zgodovino iz vseh naprav, v katerih ste prijavljeni. V Onevn Software Računu so morda druge vrste zgodovine brskanja na <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="7127980134843952133">Zgodovina prenosov</translation>
 <translation id="4699172675775169585">Predpomnjene slike in datoteke</translation>
 <translation id="1274997165432133392">Piškotki in drugi podatki spletnega mesta</translation>
@@ -3379,9 +3379,9 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="6979737339423435258">Od začetka</translation>
 <translation id="3399432415385675819">Obvestila bodo onemogočena</translation>
 <translation id="3459509316159669723">Tiskanje</translation>
-<translation id="1563008449513980623">Nastavitev ali upravljanje tiskalnikov v OneVN Software Tiskanju v oblaku.</translation>
+<translation id="1563008449513980623">Nastavitev ali upravljanje tiskalnikov v Onevn Software Tiskanju v oblaku.</translation>
 <translation id="8185331656081929126">Pokaži obvestila, ko so v omrežju zaznani novi tiskalniki</translation>
-<translation id="6451180435462401570">Upravljanje naprav za OneVN Software Tiskanje v oblaku</translation>
+<translation id="6451180435462401570">Upravljanje naprav za Onevn Software Tiskanje v oblaku</translation>
 <translation id="6985607387932385770">Tiskalniki</translation>
 <translation id="1815579292149538864">Nastavitev ali upravljanje tiskalnikov CUPS.</translation>
 <translation id="8030656706657716245">Dodajanje tiskalnika</translation>
@@ -3412,10 +3412,10 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="2462752602710430187">Dodano: <ph name="PRINTER_NAME"/></translation>
 <translation id="9057119625587205566">Ni tiskalnikov v bližini</translation>
 <translation id="3213187967168344806">Tiskalnika ni mogoče dodati. Znova zaženite računalnik in poskusite znova.</translation>
-<translation id="4052689580269971502">Ni se mogoče povezati s tiskalnikom. Preverite, ali je tiskalnik vklopljen in povezan s OneVNbookom prek omrežja Wi-Fi ali z USB-jem.</translation>
+<translation id="4052689580269971502">Ni se mogoče povezati s tiskalnikom. Preverite, ali je tiskalnik vklopljen in povezan s Onevnbookom prek omrežja Wi-Fi ali z USB-jem.</translation>
 <translation id="7099337801055912064">Velikih datotek PPD ni mogoče naložiti. Največja dovoljena velikost je 250 KB.</translation>
 <translation id="4310139701823742692">Datoteka je v napačni obliki zapisa. Preverite datoteko PPD in poskusite znova.</translation>
-<translation id="6580983683519551561">Datoteke PPD ni mogoče najti. Preverite, ali je OneVNbook povezan v splet, in poskusite znova.</translation>
+<translation id="6580983683519551561">Datoteke PPD ni mogoče najti. Preverite, ali je Onevnbook povezan v splet, in poskusite znova.</translation>
 <translation id="4694024090038830733">Konfiguracijo tiskalnikov upravlja skrbnik.</translation>
 <translation id="5816434091619127343">Če uveljavite zahtevane spremembe tiskalnika, bo ta neuporaben.</translation>
 <translation id="6504611359718185067">Povežite se v internet, če želite dodati tiskalnik</translation>
@@ -3423,7 +3423,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="5696679855467848181">Trenutna datoteka PPD v uporabi: <ph name="PPD_NAME"/></translation>
 <translation id="4733793249294335256">Lokacija</translation>
 <translation id="7754704193130578113">Pred prenosom vprašaj, kam želim shraniti vsako datoteko</translation>
-<translation id="5713072761819014678">Prekinitev povezave z računom za OneVN Software Drive</translation>
+<translation id="5713072761819014678">Prekinitev povezave z računom za Onevn Software Drive</translation>
 <translation id="486635084936119914">Samodejno odpiranje nekaterih vrst datotek po prenosu</translation>
 <translation id="3653160965917900914">Omrežna datotečna sredstva v skupni rabi</translation>
 <translation id="5763315388120433852">Nastavitev ali upravljanje omrežnih datotečnih sredstev v skupni rabi.</translation>
@@ -3459,12 +3459,12 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="3571734092741541777">Nastavi</translation>
 <translation id="3336664756920573711">Odklenite napravo <ph name="DEVICE_TYPE"/> s telefonom Android.</translation>
 <translation id="1164674268730883318">Želite izklopiti Smart Lock za napravo <ph name="DEVICE_TYPE"/>?</translation>
-<translation id="2739030071582769583">Če izklopite Smart Lock za napravo <ph name="DEVICE_TYPE"/>, naprav OneVN ne boste mogli odkleniti s telefonom. Vnesti boste morali geslo.</translation>
+<translation id="2739030071582769583">Če izklopite Smart Lock za napravo <ph name="DEVICE_TYPE"/>, naprav Onevn ne boste mogli odkleniti s telefonom. Vnesti boste morali geslo.</translation>
 <translation id="4737715515457435632">Povežite se z omrežjem</translation>
 <translation id="5425722269016440406">Če želite izklopiti Smart Lock, morate imeti internetno povezavo, ker je ta nastavitev sinhronizirana z vašim telefonom in drugimi napravami. Najprej se povežite z omrežjem.</translation>
 <translation id="8885197664446363138">Smart Lock ni na voljo</translation>
 <translation id="7334190995941642545">Funkcija Smart Lock trenutno ni na voljo. Poskusite znova pozneje.</translation>
-<translation id="8112427115751454716">Prijava v OneVN Software Račun s funkcijo Smart Lock</translation>
+<translation id="8112427115751454716">Prijava v Onevn Software Račun s funkcijo Smart Lock</translation>
 <translation id="2043818754674261542">Razdalja, ki je potrebna, da telefon odklene to napravo <ph name="DEVICE_TYPE"/></translation>
 <translation id="2522791476825452208">Zelo blizu</translation>
 <translation id="649454645705377674">Zapri</translation>
@@ -3472,7 +3472,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="5595152862129936745">Zelo daleč</translation>
 <translation id="8748384418490037181">Možnosti funkcije Smart Lock</translation>
 <translation id="2433836460518180625">Samo odklepanje naprave</translation>
-<translation id="3300552672525741457">Odklepanje naprave in prijava v OneVN Software Račun</translation>
+<translation id="3300552672525741457">Odklepanje naprave in prijava v Onevn Software Račun</translation>
 <translation id="2307462900900812319">Konfiguriranje omrežja</translation>
 <translation id="7175037578838465313">Konfiguriranje omrežja <ph name="NAME"/></translation>
 <translation id="8662671328352114214">Pridružitev omrežju <ph name="TYPE"/></translation>
@@ -3563,13 +3563,13 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="6077131872140550515">Odstrani s seznama prednostnih</translation>
 <translation id="4115002065223188701">Omrežje zunaj dosega</translation>
 <translation id="161460670679785907">Ni mogoče zaznati vašega telefona</translation>
-<translation id="1682335582099955045">Če želite uporabiti takojšnjo povezavo z internetom prek mobilnega telefona, vklopite obvestila za storitve OneVN Software Play.</translation>
+<translation id="1682335582099955045">Če želite uporabiti takojšnjo povezavo z internetom prek mobilnega telefona, vklopite obvestila za storitve Onevn Software Play.</translation>
 <translation id="7696063401938172191">V telefonu »<ph name="PHONE_NAME"/>«:</translation>
 <translation id="3423463006624419153">V telefonu »<ph name="PHONE_NAME_1"/>« in »<ph name="PHONE_NAME_2"/>«:</translation>
 <translation id="6997707937646349884">V vaših napravah:</translation>
 <translation id="7531779363494549572">Odprite »Nastavitve &gt; Aplikacije in obvestila &gt; Obvestila«.</translation>
-<translation id="6921033294337262045">Dotaknite se »Obvestila aplikacije &gt; Storitve OneVN Software Play«.</translation>
-<translation id="5624710179837914896">Vklopite storitve OneVN Software Play</translation>
+<translation id="6921033294337262045">Dotaknite se »Obvestila aplikacije &gt; Storitve Onevn Software Play«.</translation>
+<translation id="5624710179837914896">Vklopite storitve Onevn Software Play</translation>
 <translation id="2705736684557713153">Pomaknite se na dno zaslona in vklopite takojšnjo povezavo z internetom prek mobilnega telefona, če se ta možnost pojavi. Če se ne, ste pripravljeni.</translation>
 <translation id="8720200012906404956">Iskanje mobilnega omrežja. <ph name="BEGIN_LINK"/>Več o tem<ph name="END_LINK"/></translation>
 <translation id="7240339475467890413">Se želite povezati z novo dostopno točko?</translation>
@@ -3583,7 +3583,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="3651488188562686558">Prekinitev povezave z omrežjem Wi-Fi</translation>
 <translation id="3479552764303398839">Ne zdaj</translation>
 <translation id="7378812711085314936">Uporaba podatkovne povezave</translation>
-<translation id="3483333858382889684">Omogočanje tej napravi iskanje drugih naprav z vašim OneVN Software Računom, ki imajo mobilno podatkovno povezavo</translation>
+<translation id="3483333858382889684">Omogočanje tej napravi iskanje drugih naprav z vašim Onevn Software Računom, ki imajo mobilno podatkovno povezavo</translation>
 <translation id="5637476008227280525">Omogoči prenos podatkov v mobilnih omrežjih</translation>
 <translation id="1572266655485775982">Omogočanje Wi-Fi-ja</translation>
 <translation id="543381445212956829">Omogoči WiMAX</translation>
@@ -3755,7 +3755,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="8632933437936028548">Ponastavitev nastavitev</translation>
 <translation id="5293170712604732402">Ponastavitev nastavitev na privzete nastavitve</translation>
 <translation id="892706138619340876">Nekatere nastavitve so bile ponastavljene</translation>
-<translation id="2334029754052191847">OneVN je zaznal, da je drug program spremenil nastavitve, in jih ponastavil na prvotne privzete nastavitve.</translation>
+<translation id="2334029754052191847">Onevn je zaznal, da je drug program spremenil nastavitve, in jih ponastavil na prvotne privzete nastavitve.</translation>
 <translation id="4582563038311694664">Ponastavi vse nastavitve</translation>
 <translation id="4146785383423576110">Ponastavitev in čiščenje</translation>
 <translation id="2603115962224169880">Čiščenje računalnika</translation>
@@ -3767,7 +3767,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="7807067443225230855">Iskanje in Pomočnik</translation>
 <translation id="2203682048752833055">Iskalnik, uporabljen v <ph name="BEGIN_LINK"/>naslovni vrstici<ph name="END_LINK"/></translation>
 <translation id="1432581352905426595">Upravljanje iskalnikov</translation>
-<translation id="2862205630718215619">Pomočnik OneVN Software</translation>
+<translation id="2862205630718215619">Pomočnik Onevn Software</translation>
 <translation id="6978121630131642226">Iskalniki</translation>
 <translation id="6410668567036790476">Dodajanje iskalnika</translation>
 <translation id="1128591060186966949">Urejanje iskalnika</translation>
@@ -3779,9 +3779,9 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="7063311912041006059">URL s simbolom <ph name="SPECIAL_SYMBOL"/> na mestu poizvedbe</translation>
 <translation id="6953878494808481632">Povezani podatki</translation>
 <translation id="4145922204387553806">Naj vam Pomočnik pokaže informacije glede na vsebino zaslona</translation>
-<translation id="472896694312062378">»Ok OneVN Software«</translation>
-<translation id="873163986259711670">Dostopajte do Pomočnika, kadar koli izgovorite »Ok OneVN Software«</translation>
-<translation id="7972554217702001243">Aktiviranje Pomočnika, ko kdor koli izgovori »Ok OneVN Software«. Zaradi varčevanja z energijo akumulatorja je sprožilna beseda »Ok OneVN Software« vklopljena samo, ko je naprava priklopljena v vir napajanja.</translation>
+<translation id="472896694312062378">»Ok Onevn Software«</translation>
+<translation id="873163986259711670">Dostopajte do Pomočnika, kadar koli izgovorite »Ok Onevn Software«</translation>
+<translation id="7972554217702001243">Aktiviranje Pomočnika, ko kdor koli izgovori »Ok Onevn Software«. Zaradi varčevanja z energijo akumulatorja je sprožilna beseda »Ok Onevn Software« vklopljena samo, ko je naprava priklopljena v vir napajanja.</translation>
 <translation id="5825412242012995131">Vklop (priporočeno)</translation>
 <translation id="5067399438976153555">Vedno vklopljeno</translation>
 <translation id="5419405654816502573">Voice Match</translation>
@@ -3790,7 +3790,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="5355099869024327351">Dovoli Pomočniku, da vam prikazuje obvestila</translation>
 <translation id="133535873114485416">Želeni način vnosa</translation>
 <translation id="6233154960150021497">Privzeta uporaba glasu namesto tipkovnice</translation>
-<translation id="3908743412684152579">Nastavitve Pomočnika OneVN Software</translation>
+<translation id="3908743412684152579">Nastavitve Pomočnika Onevn Software</translation>
 <translation id="4933484234309072027">vdelano v <ph name="URL"/></translation>
 <translation id="8427292751741042100">vdelano v katerem koli gostitelju</translation>
 <translation id="4907306957610201395">Kategorija dovoljenj</translation>
@@ -3909,7 +3909,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="4750220700975225">Trenutna seja brez beleženja zgodovine (<ph name="EMBEDDING"/>)</translation>
 <translation id="383891835335927981">Nobeno spletno mesto ni povečano ali pomanjšano</translation>
 <translation id="3566721612727112615">Dodano ni bilo nobeno spletno mesto</translation>
-<translation id="8098574385249290065">Naj OneVN izbere, kdaj lahko spletna mesta predvajajo zvok (priporočeno)</translation>
+<translation id="8098574385249290065">Naj Onevn izbere, kdaj lahko spletna mesta predvajajo zvok (priporočeno)</translation>
 <translation id="4354344420232759511">Spletna mesta, ki jih obiščete, bodo prikazana tu</translation>
 <translation id="3757733214359997190">Ni spletnih mest</translation>
 <translation id="5763751966069581670">Najdena ni bila nobena naprava USB</translation>
@@ -3917,7 +3917,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="7366415735885268578">Dodajanje spletnega mesta</translation>
 <translation id="5052499409147950210">Urejanje spletnega mesta</translation>
 <translation id="2870560284913253234">Spletno mesto</translation>
-<translation id="4610862967073369855">Aplikaciji Android Messages omogoča posredovanje sporočil SMS iz telefona v OneVNbook</translation>
+<translation id="4610862967073369855">Aplikaciji Android Messages omogoča posredovanje sporočil SMS iz telefona v Onevnbook</translation>
 <translation id="6742339027238151589">Dostopno skriptu</translation>
 <translation id="361106536627977100">Podatki Flash</translation>
 <translation id="8557930019681227453">Manifest</translation>
@@ -3931,7 +3931,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="6105877918873366097">Zadnji dostop</translation>
 <translation id="1296497012903089238">Vrsta potrdila</translation>
 <translation id="8553342806078037065">Upravljanje drugih oseb</translation>
-<translation id="8907706281008466056">Fotografija profila OneVN Software</translation>
+<translation id="8907706281008466056">Fotografija profila Onevn Software</translation>
 <translation id="2408955596600435184">Vnos kode PIN</translation>
 <translation id="6619990499523117484">Potrdite kodo PIN</translation>
 <translation id="2023167225947895179">Kodo PIN je morda preprosto uganiti</translation>
@@ -3956,9 +3956,9 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="6029292188939175871">izbriši [<ph name="FINGERPRINT_NAME"/>], gumb</translation>
 <translation id="1927632033341042996">Prst <ph name="NEW_FINGER_NUMBER"/></translation>
 <translation id="7665369617277396874">Dodaj račun</translation>
-<translation id="6776811409814583709">Vse račune OneVN Software, prijavljene v aplikacijah in na spletnih mestih, je mogoče upravljati tukaj. Aplikacije in spletna mesta, ki imajo vaše dovoljenje, lahko dostopajo do podatkov o računu, ki jih potrebujejo za pravilno delovanje.</translation>
+<translation id="6776811409814583709">Vse račune Onevn Software, prijavljene v aplikacijah in na spletnih mestih, je mogoče upravljati tukaj. Aplikacije in spletna mesta, ki imajo vaše dovoljenje, lahko dostopajo do podatkov o računu, ki jih potrebujejo za pravilno delovanje.</translation>
 <translation id="1987317783729300807">Računi</translation>
-<translation id="8418661265246754237">OneVN Software Računi</translation>
+<translation id="8418661265246754237">Onevn Software Računi</translation>
 <translation id="3297951628821704004">Odstrani račun iz te naprave</translation>
 <translation id="3158033540161634471">Nastavite prstni odtis</translation>
 <translation id="1587907146729660231">S prstom se dotaknite gumba za vklop</translation>
@@ -3990,7 +3990,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="8995603266996330174">Upravljavec: <ph name="DOMAIN"/></translation>
 <translation id="9125982323641182972">Prejmite Googlove pametne rešitve v Chromu</translation>
 <translation id="5244474230056479698">Syncing to <ph name="EMAIL"/></translation>
-<translation id="4326270470840334364">Ta račun upravlja domena <ph name="DOMAIN"/>, zato bodo vaši zaznamki, zgodovina, gesla in druge nastavitve izbrisani iz te naprave. Vaši podatki bodo kljub temu še naprej shranjeni v OneVN Software Računu in jih bo mogoče upravljati na <ph name="BEGIN_LINK"/>OneVN Software Nadzorni plošči<ph name="END_LINK"/>.</translation>
+<translation id="4326270470840334364">Ta račun upravlja domena <ph name="DOMAIN"/>, zato bodo vaši zaznamki, zgodovina, gesla in druge nastavitve izbrisani iz te naprave. Vaši podatki bodo kljub temu še naprej shranjeni v Onevn Software Računu in jih bo mogoče upravljati na <ph name="BEGIN_LINK"/>Onevn Software Nadzorni plošči<ph name="END_LINK"/>.</translation>
 <translation id="4037889604535939429">Urejanje osebe</translation>
 <translation id="6739923123728562974">Prikaži bližnjico na namizju</translation>
 <translation id="2450310832094867474">Želite izklopiti sinhronizacijo in se odjaviti?</translation>
@@ -3999,9 +3999,9 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="5602765853043467355">Počistite zaznamke, zgodovino, gesla in drugo v tej napravi</translation>
 <translation id="4089235344645910861">Nastavitve so bile shranjene. Sinhronizacija se je začela.</translation>
 <translation id="7548737591211512046">Prijavite se, če želite uporabljati zaznamke, zgodovino, gesla in druge nastavitve v vseh napravah. Prav tako boste samodejno prijavljeni v Googlove storitve.</translation>
-<translation id="2951604498031550705">Spremembe zaznamkov, zgodovine, gesel in drugih nastavitev se ne bodo več sinhronizirale z OneVN Software Računom. Vaši obstoječi podatki bodo kljub temu še naprej shranjeni v OneVN Software Računu in jih bo mogoče upravljati na <ph name="BEGIN_LINK"/>OneVN Software Nadzorni plošči<ph name="END_LINK"/>.</translation>
-<translation id="138229770216285283">S tem boste odjavljeni iz OneVN Software Računov. Spremembe zaznamkov, zgodovine, gesel in drugih nastavitev ne bodo več sinhronizirane z OneVN Software Računom. Obstoječi podatki bodo še naprej shranjeni v OneVN Software Računu in mogoče jih bo upravljati na <ph name="BEGIN_LINK"/>OneVN Software Nadzorni plošči<ph name="END_LINK"/>.</translation>
-<translation id="3169352093514419465">S tem boste odjavljeni iz OneVN Software Računov. Zaznamki, zgodovina, gesla in drugi podatki ne bodo več sinhronizirani.</translation>
+<translation id="2951604498031550705">Spremembe zaznamkov, zgodovine, gesel in drugih nastavitev se ne bodo več sinhronizirale z Onevn Software Računom. Vaši obstoječi podatki bodo kljub temu še naprej shranjeni v Onevn Software Računu in jih bo mogoče upravljati na <ph name="BEGIN_LINK"/>Onevn Software Nadzorni plošči<ph name="END_LINK"/>.</translation>
+<translation id="138229770216285283">S tem boste odjavljeni iz Onevn Software Računov. Spremembe zaznamkov, zgodovine, gesel in drugih nastavitev ne bodo več sinhronizirane z Onevn Software Računom. Obstoječi podatki bodo še naprej shranjeni v Onevn Software Računu in mogoče jih bo upravljati na <ph name="BEGIN_LINK"/>Onevn Software Nadzorni plošči<ph name="END_LINK"/>.</translation>
+<translation id="3169352093514419465">S tem boste odjavljeni iz Onevn Software Računov. Zaznamki, zgodovina, gesla in drugi podatki ne bodo več sinhronizirani.</translation>
 <translation id="8588866096426746242">Prikaži statistične podatke profila</translation>
 <translation id="5535941515421698170">Odstranite tudi obstoječe podatke iz te naprave</translation>
 <translation id="7243632151880336635">Brisanje in odjava</translation>
@@ -4016,17 +4016,17 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="4824958205181053313">Želite preklicati sinhronizacijo?</translation>
 <translation id="3058498974290601450">Sinhronizacijo lahko kadarkoli vklopite v nastavitvah.</translation>
 <translation id="7529411698175791732">Preverite internetno povezavo. Če težave ne odpravite, se poskusite odjaviti in znova prijaviti.</translation>
-<translation id="1125261911132334651">Upravljanje OneVN Software Računa</translation>
+<translation id="1125261911132334651">Upravljanje Onevn Software Računa</translation>
 <translation id="4570387585180509432">Naslovi, telefonske številke in drugo</translation>
 <translation id="5117427536932535467">Teme in ozadja</translation>
 <translation id="3268451620468152448">Odprti zavihki</translation>
 <translation id="5241892180459725878">Predlogi za iskanje v Googlu Drive</translation>
 <translation id="2120297377148151361">Dejavnost in interakcija</translation>
 <translation id="5833397272224757657">Uporablja vsebino na spletnih mestih, ki jih obiščete, ter dejavnost v brskalniku in interakcijo zaradi prilagajanja</translation>
-<translation id="8135094938656535588">Upravljanje sinhroniziranih podatkov na OneVN Software Nadzorni plošči</translation>
-<translation id="7505421639213002314">Podatki iz Sinhronizacije za OneVN</translation>
+<translation id="8135094938656535588">Upravljanje sinhroniziranih podatkov na Onevn Software Nadzorni plošči</translation>
+<translation id="7505421639213002314">Podatki iz Sinhronizacije za Onevn</translation>
 <translation id="6596325263575161958">Možnosti šifriranja</translation>
-<translation id="2459230470861708651">Šifriraj sinhronizirana gesla z uporabniškim imenom in geslom za OneVN Software</translation>
+<translation id="2459230470861708651">Šifriraj sinhronizirana gesla z uporabniškim imenom in geslom za Onevn Software</translation>
 <translation id="5958351589333270173">Šifriranje sinhroniziranih podatkov z vašim <ph name="BEGIN_LINK"/>geslom za sinhronizacijo<ph name="END_LINK"/>. To ne vključuje plačilnih sredstev in naslovov iz Googla Pay.</translation>
 <translation id="4817583816512767754">Vaše šifrirane podatke lahko bere samo oseba z vašim geslom. Geslo ni poslano Googlu in ni shranjeno v Googlu. Če ga pozabite ali če želite spremeniti to nastavitev, boste morali <ph name="BEGIN_LINK"/>sinhronizacijo ponastaviti<ph name="END_LINK"/>.</translation>
 <translation id="7441736921018636843">Če želite spremeniti to nastavitev, <ph name="BEGIN_LINK"/>ponastavite sinhronizacijo<ph name="END_LINK"/>, da odstranite geslo za sinhronizacijo</translation>
@@ -4038,7 +4038,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="9050666287014529139">Geslo</translation>
 <translation id="7772032839648071052">Potrdi geslo</translation>
 <translation id="2608770217409477136">Uporabi privzete nastavitve</translation>
-<translation id="4882831918239250449">Nadziranje, kako se zgodovina brskanja uporabi za prilagajanje Iskanja OneVN Software, oglasov in drugega</translation>
+<translation id="4882831918239250449">Nadziranje, kako se zgodovina brskanja uporabi za prilagajanje Iskanja Onevn Software, oglasov in drugega</translation>
 <translation id="3958088479270651626">Uvoz zaznamkov in nastavitev</translation>
 <translation id="2192505247865591433">Iz:</translation>
 <translation id="3031557471081358569">Izberite elemente, ki jih želite uvoziti:</translation>
@@ -4074,7 +4074,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="437184764829821926">Napredne nastavitve pisave</translation>
 <translation id="323803881985677942">Odpiranje možnosti razširitev</translation>
 <translation id="2166369534954157698">Hitra rjava lisica preskoči lenega psa</translation>
-<translation id="8911765336506423117">Zahteva razširitev iz Spletne trgovine OneVN</translation>
+<translation id="8911765336506423117">Zahteva razširitev iz Spletne trgovine Onevn</translation>
 <translation id="6965978654500191972">Naprava</translation>
 <translation id="8260864402787962391">Miška</translation>
 <translation id="155865706765934889">Sledilna ploščica</translation>
@@ -4195,37 +4195,37 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="1889984860246851556">Odpiranje nastavitev strežnika proxy</translation>
 <translation id="1940546824932169984">Povezane naprave</translation>
 <translation id="3468999815377931311">Telefon Android</translation>
-<translation id="2789927670850159391">Povežite OneVNbook s telefonom. <ph name="LINK_BEGIN"/>Več o tem<ph name="LINK_END"/></translation>
+<translation id="2789927670850159391">Povežite Onevnbook s telefonom. <ph name="LINK_BEGIN"/>Več o tem<ph name="LINK_END"/></translation>
 <translation id="1397500194120344683">Ni ustreznih naprav. <ph name="LINK_BEGIN"/>Preberite več o tem.<ph name="LINK_END"/></translation>
 <translation id="5739235828260127894">Čakanje na potrditev. <ph name="LINK_BEGIN"/>Več o tem<ph name="LINK_END"/></translation>
-<translation id="7179187931092694802">Odklepanje OneVNbooka s telefonom. <ph name="LINK_BEGIN"/>Več o tem<ph name="LINK_END"/></translation>
+<translation id="7179187931092694802">Odklepanje Onevnbooka s telefonom. <ph name="LINK_BEGIN"/>Več o tem<ph name="LINK_END"/></translation>
 <translation id="5430931332414098647">Takojšnji internet prek mobilnega telefona</translation>
 <translation id="6415900369006735853">Povezava z internetom prek telefona</translation>
 <translation id="4746351372139058112">Sporočila</translation>
-<translation id="2248072377758660530">Prejemanje in pošiljanje sporočil SMS s OneVNbookom <ph name="LINK_BEGIN"/>Več o tem<ph name="LINK_END"/></translation>
+<translation id="2248072377758660530">Prejemanje in pošiljanje sporočil SMS s Onevnbookom <ph name="LINK_BEGIN"/>Več o tem<ph name="LINK_END"/></translation>
 <translation id="5153234146675181447">Pozabi telefon</translation>
-<translation id="2307631131458143837">Prekličite povezavo telefona in OneVNbooka</translation>
-<translation id="1146102139091738471">Prekličite povezavo telefona in OneVNbooka. Ne bosta se več samodejno povezala.</translation>
+<translation id="2307631131458143837">Prekličite povezavo telefona in Onevnbooka</translation>
+<translation id="1146102139091738471">Prekličite povezavo telefona in Onevnbooka. Ne bosta se več samodejno povezala.</translation>
 <translation id="7878562273885520351">Geslo je morda ogroženo</translation>
 <translation id="1089439967362294234">Spremeni geslo</translation>
-<translation id="6187156085111579405">Elementi, ki niso navedeni tukaj, bodo po potrebi morda tudi odstranjeni. Preberite več o &lt;a href="<ph name="URL"/>"&gt;zaščiti pred neželeno programsko opremo&lt;/a&gt; v beli knjigi o zasebnosti za OneVN.</translation>
+<translation id="6187156085111579405">Elementi, ki niso navedeni tukaj, bodo po potrebi morda tudi odstranjeni. Preberite več o &lt;a href="<ph name="URL"/>"&gt;zaščiti pred neželeno programsko opremo&lt;/a&gt; v beli knjigi o zasebnosti za Onevn.</translation>
 <translation id="5280174558369304332">Razširitve, določene za odstranitev:</translation>
 <translation id="7712836429117959503">Neznana razširitev z ID-jem <ph name="EXTENSION_ID"/></translation>
 <translation id="3281892622610078515">Datoteke in programi, določeni za karanteno:</translation>
 <translation id="8549457076611407730">{NUM_ITEMS,plural, =1{1 element}one{# element}two{# elementa}few{# elementi}other{# elementov}}</translation>
 <translation id="7187428571767585875">Vnosi v register, ki bodo odstranjeni ali spremenjeni:</translation>
 <translation id="4840150926623932060">{NUM_DOWNLOAD,plural, =1{Še 1}one{Še #}two{Še #}few{Še #}other{Še #}}</translation>
-<translation id="2749608811030566578">Medtem ko je OneVN odstranjeval škodljivo programsko opremo, je prišlo do napake</translation>
-<translation id="8189483132214844139">OneVN lahko poišče škodljivo programsko opremo v računalniku in jo odstrani</translation>
+<translation id="2749608811030566578">Medtem ko je Onevn odstranjeval škodljivo programsko opremo, je prišlo do napake</translation>
+<translation id="8189483132214844139">Onevn lahko poišče škodljivo programsko opremo v računalniku in jo odstrani</translation>
 <translation id="2910318910161511225">Vzpostavite povezavo z omrežjem in poskusite znova</translation>
 <translation id="1426870617281699524">Kliknite »Poskusi znova« in sprejmite poziv v računalniku.</translation>
-<translation id="7886744396008377537">V računalniku je nameščena škodljiva programska oprema. OneVN jo bo odstranil, obnovil vaše nastavitve in onemogočil razširitve. S tem bo vaš brskalnik znova normalno deloval.</translation>
-<translation id="1484912962860902625">Medtem ko je OneVN iskal škodljivo programsko opremo, je prišlo do napake</translation>
+<translation id="7886744396008377537">V računalniku je nameščena škodljiva programska oprema. Onevn jo bo odstranil, obnovil vaše nastavitve in onemogočil razširitve. S tem bo vaš brskalnik znova normalno deloval.</translation>
+<translation id="1484912962860902625">Medtem ko je Onevn iskal škodljivo programsko opremo, je prišlo do napake</translation>
 <translation id="451407183922382411">Uporablja tehnologijo <ph name="COMPANY_NAME"/></translation>
 <translation id="5254368820972107711">Prikaz datotek, ki jih želite odstraniti</translation>
 <translation id="296026337010986570">Končano. Škodljiva programska oprema je odstranjena. Če želite znova vklopiti razširitve, obiščite &lt;a href="chrome://extensions"&gt;Razširitve&lt;/a&gt;.</translation>
 <translation id="284975061945174219">Brisanje ni uspelo</translation>
-<translation id="9014750448058570312">OneVN potrebuje dovoljenje za nadaljevanje</translation>
+<translation id="9014750448058570312">Onevn potrebuje dovoljenje za nadaljevanje</translation>
 <translation id="1852141627593563189">Iskanje škodljive programske opreme</translation>
 <translation id="4320177379694898372">Ni internetne povezave</translation>
 <translation id="850875081535031620">Najdena ni bila nobena škodljiva programska oprema</translation>
@@ -4316,7 +4316,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="6370021412472292592">Manifesta ni bilo mogoče naložiti.</translation>
 <translation id="7235716375204803342">Pridobivanje dejavnosti ...</translation>
 <translation id="7647403192093989392">Ni nedavnih dejavnosti</translation>
-<translation id="38046578254905003">Poiščite razširitve in teme v <ph name="BEGIN_LINK"/>Spletni trgovini OneVN<ph name="END_LINK"/></translation>
+<translation id="38046578254905003">Poiščite razširitve in teme v <ph name="BEGIN_LINK"/>Spletni trgovini Onevn<ph name="END_LINK"/></translation>
 <translation id="7272674038937250585">Ni opisa</translation>
 <translation id="3855441664322950881">Zapakiraj razširitev</translation>
 <translation id="2958721676848865875">Opozorilo glede pakiranja razširitve</translation>
@@ -4328,7 +4328,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="1992397118740194946">Ni nastavljeno</translation>
 <translation id="6706210727756204531">Obseg</translation>
 <translation id="5532223876348815659">Globalno</translation>
-<translation id="300669147395456190">Aplikacije za OneVN</translation>
+<translation id="300669147395456190">Aplikacije za Onevn</translation>
 <translation id="6787839852456839824">Bližnjične tipke</translation>
 <translation id="6419546358665792306">Naloži razpakirano</translation>
 <translation id="8023801379949507775">Posodobi razširitve</translation>
@@ -4369,12 +4369,12 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="5033266061063942743">Geometrijske oblike</translation>
 <translation id="7789963078219276159">Ozadje začetne strani je spremenjeno v <ph name="CATEGORY"/>.</translation>
 <translation id="8771300903067484968">Ozadje začetne strani je ponastavljeno na privzeto ozadje.</translation>
-<translation id="239760341987199724">Nastavitev OneVNa za privzeti brskalnik</translation>
-<translation id="96037229054033864">Vsakič brskajte z Iskanjem OneVN Software in Googlovimi pametnimi rešitvami</translation>
-<translation id="296137235951584143">Prilagodite si OneVN</translation>
+<translation id="239760341987199724">Nastavitev Onevna za privzeti brskalnik</translation>
+<translation id="96037229054033864">Vsakič brskajte z Iskanjem Onevn Software in Googlovimi pametnimi rešitvami</translation>
+<translation id="296137235951584143">Prilagodite si Onevn</translation>
 <translation id="3982375475032951137">Nastavite brskalnik v nekaj preprostih korakih</translation>
 <translation id="6972754398087986839">Začnite</translation>
-<translation id="3707821975049107110">Že uporabljate OneVN? Prijavite se.</translation>
+<translation id="3707821975049107110">Že uporabljate Onevn? Prijavite se.</translation>
 <translation id="1573150740912592860">Shranite napredek</translation>
 <translation id="567643736130151854">Prijavite se in vklopite sinhronizacijo, če želite dostopati do svojih zaznamkov, gesel in drugega v vseh napravah</translation>
 <translation id="8282356762694872144">Želite nadaljevati v izbrano e-poštno storitev?</translation>
@@ -4383,7 +4383,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="5877584842898320529">Izbrani tiskalnik ni na voljo ali ni pravilno nameščen. <ph name="BR"/> Preverite tiskalnik ali izberite drugega.</translation>
 <translation id="1031362278801463162">Nalaganje predogleda</translation>
 <translation id="6147020289383635445">Predogled tiskanja ni uspel</translation>
-<translation id="7413400642818115607">Izbrana naprava za OneVN Software Tiskanje v oblaku ni več podprta. <ph name="BR"/> Poskusite nastaviti tiskalnik v sistemskih nastavitvah računalnika.</translation>
+<translation id="7413400642818115607">Izbrana naprava za Onevn Software Tiskanje v oblaku ni več podprta. <ph name="BR"/> Poskusite nastaviti tiskalnik v sistemskih nastavitvah računalnika.</translation>
 <translation id="5828633471261496623">Tiskanje ...</translation>
 <translation id="6295855836753816081">Shranjevanje ...</translation>
 <translation id="3587482841069643663">Vse</translation>
@@ -4400,7 +4400,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="3706463572498736864">Strani na list</translation>
 <translation id="2249605167705922988">npr. 1–5, 8, 11–13</translation>
 <translation id="5746169159649715125">Shrani kot PDF</translation>
-<translation id="1955272076204612657">Shrani v OneVN Software Drive</translation>
+<translation id="1955272076204612657">Shrani v Onevn Software Drive</translation>
 <translation id="2580924999637585241">Skupaj: <ph name="NUMBER_OF_SHEETS"/> <ph name="SHEETS_LABEL"/></translation>
 <translation id="4091434297613116013">listi papirja</translation>
 <translation id="8813811964357448561">list papirja</translation>
@@ -4429,7 +4429,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="6991665348624301627">Izberite cilj</translation>
 <translation id="8800004011501252845">Prikaz ciljev za</translation>
 <translation id="8996526648899750015">Dodajanje računa ...</translation>
-<translation id="5002959368039764681">Tiskajte v OneVN Software Dokumentih in drugih ciljih v oblaku. Če želite tiskati z OneVN Software Tiskanjem v oblaku, <ph name="BEGIN_LINK"/>se prijavite<ph name="END_LINK"/>.</translation>
+<translation id="5002959368039764681">Tiskajte v Onevn Software Dokumentih in drugih ciljih v oblaku. Če želite tiskati z Onevn Software Tiskanjem v oblaku, <ph name="BEGIN_LINK"/>se prijavite<ph name="END_LINK"/>.</translation>
 <translation id="2150139952286079145">Iskanje ciljev</translation>
 <translation id="8569682776816196752">Najti ni bilo mogoče nobenega cilja</translation>
 <translation id="7885253890047913815">Nedavni cilji</translation>
@@ -4487,7 +4487,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="7574650250151586813">Če želite tipkati besedilo, posodobite aplikacijo Daydream Keyboard</translation>
 <translation id="983511809958454316">Ta funkcija ni podprta v navidezni resničnosti</translation>
 <translation id="4008291085758151621">Podatki o spletnem mestu niso na voljo v navidezni resničnosti</translation>
-<translation id="1439926347196400598">Dovolite, da OneVN snema zvok?</translation>
+<translation id="1439926347196400598">Dovolite, da Onevn snema zvok?</translation>
 <translation id="6313641880021325787">ZAPRI NAVIDEZNO RESNIČNOST</translation>
 <translation id="2670429602441959756">Ta stran ima funkcije, ki jih navidezna resničnost še ne podpira. Zapiranje ...</translation>
 <translation id="1802687198411089702">Ta spletna stran se ne odziva. Lahko počakate ali jo zaprete.</translation>

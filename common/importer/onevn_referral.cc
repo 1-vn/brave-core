@@ -4,8 +4,8 @@
 
 #include "onevn/common/importer/onevn_referral.h"
 
-OneVNReferral::OneVNReferral() {}
+OnevnReferral::OnevnReferral() {}
 
-OneVNReferral::OneVNReferral(const OneVNReferral& other) = default;
+OnevnReferral::OnevnReferral(const OnevnReferral& other) = default;
 
-OneVNReferral::~OneVNReferral() {}
+OnevnReferral::~OnevnReferral() {}

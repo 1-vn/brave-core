@@ -12,7 +12,7 @@
 #include "base/memory/scoped_refptr.h"
 #include "url/gurl.h"
 
-class OneVNStatsUpdaterBrowserTest;
+class OnevnStatsUpdaterBrowserTest;
 class PrefChangeRegistrar;
 class PrefRegistrySimple;
 class PrefService;
@@ -32,12 +32,12 @@ class SimpleURLLoader;
 
 namespace onevn {
 
-class OneVNStatsUpdaterParams;
+class OnevnStatsUpdaterParams;
 
-class OneVNStatsUpdater {
+class OnevnStatsUpdater {
  public:
-  OneVNStatsUpdater(PrefService* pref_service);
-  ~OneVNStatsUpdater();
+  OnevnStatsUpdater(PrefService* pref_service);
+  ~OnevnStatsUpdater();
 
   void Start();
   void Stop();
@@ -50,7 +50,7 @@ class OneVNStatsUpdater {
  private:
   // Invoked from SimpleURLLoader after download is complete.
   void OnSimpleLoaderComplete(
-      std::unique_ptr<onevn::OneVNStatsUpdaterParams> stats_updater_params,
+      std::unique_ptr<onevn::OnevnStatsUpdaterParams> stats_updater_params,
       scoped_refptr<net::HttpResponseHeaders> headers);
 
   // Invoked when server ping timer fires.
@@ -62,7 +62,7 @@ class OneVNStatsUpdater {
   void StartServerPingStartupTimer();
   void SendServerPing();
 
-  friend class ::OneVNStatsUpdaterBrowserTest;
+  friend class ::OnevnStatsUpdaterBrowserTest;
   static void SetBaseUpdateURLForTest(const GURL& base_update_url);
   static GURL g_base_update_url_;
 
@@ -73,15 +73,15 @@ class OneVNStatsUpdater {
   std::unique_ptr<base::RepeatingTimer> server_ping_periodic_timer_;
   std::unique_ptr<PrefChangeRegistrar> pref_change_registrar_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNStatsUpdater);
+  DISALLOW_COPY_AND_ASSIGN(OnevnStatsUpdater);
 };
 
-// Creates the OneVNStatsUpdater
-std::unique_ptr<OneVNStatsUpdater> OneVNStatsUpdaterFactory(
+// Creates the OnevnStatsUpdater
+std::unique_ptr<OnevnStatsUpdater> OnevnStatsUpdaterFactory(
     PrefService* pref_service);
 
-// Registers the preferences used by OneVNStatsUpdater
-void RegisterPrefsForOneVNStatsUpdater(PrefRegistrySimple* registry);
+// Registers the preferences used by OnevnStatsUpdater
+void RegisterPrefsForOnevnStatsUpdater(PrefRegistrySimple* registry);
 
 }  // namespace onevn
 

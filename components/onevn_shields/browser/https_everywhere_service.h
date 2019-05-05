@@ -26,7 +26,7 @@ class HTTPSEverywhereServiceTest;
 
 namespace onevn_shields {
 
-const std::string kHTTPSEverywhereComponentName("OneVN HTTPS Everywhere Updater");
+const std::string kHTTPSEverywhereComponentName("Onevn HTTPS Everywhere Updater");
 const std::string kHTTPSEverywhereComponentId("oofiananboodjbbmdelgdommihjbkfag");
 
 const std::string kHTTPSEverywhereComponentBase64PublicKey =
@@ -50,7 +50,7 @@ public:
     unsigned int redirects_;
 };
 
-class HTTPSEverywhereService : public BaseOneVNShieldsService {
+class HTTPSEverywhereService : public BaseOnevnShieldsService {
  public:
    HTTPSEverywhereService();
    ~HTTPSEverywhereService() override;

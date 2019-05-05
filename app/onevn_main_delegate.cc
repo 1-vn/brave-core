@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -43,26 +43,26 @@
 #endif
 
 #if !defined(CHROME_MULTIPLE_DLL_BROWSER)
-base::LazyInstance<OneVNContentRendererClient>::DestructorAtExit
+base::LazyInstance<OnevnContentRendererClient>::DestructorAtExit
     g_onevn_content_renderer_client = LAZY_INSTANCE_INITIALIZER;
-base::LazyInstance<OneVNContentUtilityClient>::DestructorAtExit
+base::LazyInstance<OnevnContentUtilityClient>::DestructorAtExit
     g_onevn_content_utility_client = LAZY_INSTANCE_INITIALIZER;
 #endif
 #if !defined(CHROME_MULTIPLE_DLL_CHILD)
-base::LazyInstance<OneVNContentBrowserClient>::DestructorAtExit
+base::LazyInstance<OnevnContentBrowserClient>::DestructorAtExit
     g_onevn_content_browser_client = LAZY_INSTANCE_INITIALIZER;
 #endif
 
-OneVNMainDelegate::OneVNMainDelegate()
+OnevnMainDelegate::OnevnMainDelegate()
     : ChromeMainDelegate() {}
 
-OneVNMainDelegate::OneVNMainDelegate(base::TimeTicks exe_entry_point_ticks)
+OnevnMainDelegate::OnevnMainDelegate(base::TimeTicks exe_entry_point_ticks)
     : ChromeMainDelegate(exe_entry_point_ticks) {}
 
-OneVNMainDelegate::~OneVNMainDelegate() {}
+OnevnMainDelegate::~OnevnMainDelegate() {}
 
 content::ContentBrowserClient*
-OneVNMainDelegate::CreateContentBrowserClient() {
+OnevnMainDelegate::CreateContentBrowserClient() {
 #if defined(CHROME_MULTIPLE_DLL_CHILD)
   return NULL;
 #else
@@ -70,7 +70,7 @@ OneVNMainDelegate::CreateContentBrowserClient() {
     DCHECK(!chrome_feature_list_creator_);
     chrome_feature_list_creator_ = std::make_unique<ChromeFeatureListCreator>();
     chrome_content_browser_client_ =
-        std::make_unique<OneVNContentBrowserClient>(
+        std::make_unique<OnevnContentBrowserClient>(
             chrome_feature_list_creator_.get());
   }
   return chrome_content_browser_client_.get();
@@ -78,7 +78,7 @@ OneVNMainDelegate::CreateContentBrowserClient() {
 }
 
 content::ContentRendererClient*
-OneVNMainDelegate::CreateContentRendererClient() {
+OnevnMainDelegate::CreateContentRendererClient() {
 #if defined(CHROME_MULTIPLE_DLL_BROWSER)
   return NULL;
 #else
@@ -87,7 +87,7 @@ OneVNMainDelegate::CreateContentRendererClient() {
 }
 
 content::ContentUtilityClient*
-OneVNMainDelegate::CreateContentUtilityClient() {
+OnevnMainDelegate::CreateContentUtilityClient() {
 #if defined(CHROME_MULTIPLE_DLL_BROWSER)
   return NULL;
 #else
@@ -95,7 +95,7 @@ OneVNMainDelegate::CreateContentUtilityClient() {
 #endif
 }
 
-void OneVNMainDelegate::PreSandboxStartup() {
+void OnevnMainDelegate::PreSandboxStartup() {
   ChromeMainDelegate::PreSandboxStartup();
 #if defined(OS_POSIX)
   // Setup NativeMessagingHosts to point to the default Chrome locations
@@ -124,8 +124,8 @@ void OneVNMainDelegate::PreSandboxStartup() {
   }
 }
 
-bool OneVNMainDelegate::BasicStartupComplete(int* exit_code) {
-  OneVNCommandLineHelper command_line(base::CommandLine::ForCurrentProcess());
+bool OnevnMainDelegate::BasicStartupComplete(int* exit_code) {
+  OnevnCommandLineHelper command_line(base::CommandLine::ForCurrentProcess());
 #if BUILDFLAG(ONEVN_ADS_ENABLED)
   command_line.AppendSwitch(switches::kEnableDomDistiller);
 #endif

@@ -1,4 +1,4 @@
-/* Copyright 2016 The OneVN Authors. All rights reserved.
+/* Copyright 2016 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -30,7 +30,7 @@
 #include "testing/gmock/include/gmock/gmock.h"
 #include "testing/gtest/include/gtest/gtest.h"
 
-// npm run test -- onevn_unit_tests --filter=OneVNBookmarkChangeProcessorTest.*
+// npm run test -- onevn_unit_tests --filter=OnevnBookmarkChangeProcessorTest.*
 
 // BookmarkChangeProcessor::methods
 // Name                        | Covered
@@ -66,7 +66,7 @@ using bookmarks::BookmarkModel;
 using bookmarks::BookmarkNode;
 
 using onevn_sync::jslib::SyncRecord;
-using onevn_sync::MockOneVNSyncClient;
+using onevn_sync::MockOnevnSyncClient;
 using onevn_sync::RecordsList;
 using onevn_sync::SimpleBookmarkSyncRecord;
 using onevn_sync::SimpleFolderSyncRecord;
@@ -104,19 +104,19 @@ MATCHER_P(AllRecordsHaveAction, expected_action,
   return true;
 }
 
-class OneVNBookmarkChangeProcessorTest : public testing::Test {
+class OnevnBookmarkChangeProcessorTest : public testing::Test {
  public:
-  OneVNBookmarkChangeProcessorTest() {}
-  ~OneVNBookmarkChangeProcessorTest() override {}
+  OnevnBookmarkChangeProcessorTest() {}
+  ~OnevnBookmarkChangeProcessorTest() override {}
 
  protected:
   void SetUp() override {
     EXPECT_TRUE(temp_dir_.CreateUniqueTempDir());
 
-    profile_ = onevn_sync::CreateOneVNSyncProfile(temp_dir_.GetPath());
+    profile_ = onevn_sync::CreateOnevnSyncProfile(temp_dir_.GetPath());
     EXPECT_TRUE(profile_.get() != NULL);
 
-    sync_client_.reset(new MockOneVNSyncClient());
+    sync_client_.reset(new MockOnevnSyncClient());
 
     BookmarkModelFactory::GetInstance()->SetTestingFactory(
        profile_.get(),
@@ -144,7 +144,7 @@ class OneVNBookmarkChangeProcessorTest : public testing::Test {
     profile_.reset();
   }
 
-  MockOneVNSyncClient* sync_client() { return sync_client_.get(); }
+  MockOnevnSyncClient* sync_client() { return sync_client_.get(); }
   BookmarkClient* bookmark_client() { return model_->client(); }
   BookmarkModel* model() { return model_; }
   onevn_sync::prefs::Prefs* sync_prefs() { return sync_prefs_.get(); }
@@ -173,7 +173,7 @@ class OneVNBookmarkChangeProcessorTest : public testing::Test {
   // base::test::ScopedTaskEnvironment
   content::TestBrowserThreadBundle thread_bundle_;
 
-  std::unique_ptr<MockOneVNSyncClient> sync_client_;
+  std::unique_ptr<MockOnevnSyncClient> sync_client_;
   BookmarkModel* model_;  // Not owns
   std::unique_ptr<onevn_sync::BookmarkChangeProcessor> change_processor_;
   std::unique_ptr<Profile> profile_;
@@ -181,7 +181,7 @@ class OneVNBookmarkChangeProcessorTest : public testing::Test {
   base::ScopedTempDir temp_dir_;
 };
 
-TEST_F(OneVNBookmarkChangeProcessorTest, StartObserver) {
+TEST_F(OnevnBookmarkChangeProcessorTest, StartObserver) {
   // The mark of observer processed: metainfo "last_updated_time" is set
   const auto* node_a = model()->AddURL(model()->other_node(), 0,
                                        base::ASCIIToUTF16("A.com - title"),
@@ -202,7 +202,7 @@ TEST_F(OneVNBookmarkChangeProcessorTest, StartObserver) {
   EXPECT_TRUE(!last_updated_time_b.empty());
 }
 
-TEST_F(OneVNBookmarkChangeProcessorTest, StopObserver) {
+TEST_F(OnevnBookmarkChangeProcessorTest, StopObserver) {
   // The mark of observer processed: metainfo "last_updated_time" is set
   change_processor()->Start();
   const auto* node_a = model()->AddURL(model()->other_node(), 0,
@@ -224,7 +224,7 @@ TEST_F(OneVNBookmarkChangeProcessorTest, StopObserver) {
   EXPECT_TRUE(last_updated_time_b.empty());
 }
 
-bool OneVNBookmarkChangeProcessorTest::HasAnySyncMetaInfo(
+bool OnevnBookmarkChangeProcessorTest::HasAnySyncMetaInfo(
                                                     const BookmarkNode* node) {
   DCHECK(node);
   const std::vector<std::string> keys = {"object_id", "order", "sync_timestamp",
@@ -238,7 +238,7 @@ bool OneVNBookmarkChangeProcessorTest::HasAnySyncMetaInfo(
   return false;
 }
 
-void OneVNBookmarkChangeProcessorTest::AddSimpleHierarchy(
+void OnevnBookmarkChangeProcessorTest::AddSimpleHierarchy(
     const BookmarkNode** folder1, const BookmarkNode** node_a,
     const BookmarkNode** node_b, const BookmarkNode** node_c) {
   *folder1 = model()->AddFolder(model()->other_node(), 0,
@@ -257,7 +257,7 @@ void OneVNBookmarkChangeProcessorTest::AddSimpleHierarchy(
                            GURL("https://c.com/"));
 }
 
-TEST_F(OneVNBookmarkChangeProcessorTest, ResetClearMeta) {
+TEST_F(OnevnBookmarkChangeProcessorTest, ResetClearMeta) {
   // Reset does clear of the metainfo, but
   // to fillup the metainfo now need to send it to sync
   change_processor()->Start();
@@ -296,7 +296,7 @@ TEST_F(OneVNBookmarkChangeProcessorTest, ResetClearMeta) {
   EXPECT_TRUE(GetPendingNodeRoot()->empty());
 }
 
-TEST_F(OneVNBookmarkChangeProcessorTest, ResetPreserveMeta) {
+TEST_F(OnevnBookmarkChangeProcessorTest, ResetPreserveMeta) {
   // Reset does clear of the metainfo, but
   // to fillup the metainfo now need to send it to sync
   change_processor()->Start();
@@ -336,12 +336,12 @@ TEST_F(OneVNBookmarkChangeProcessorTest, ResetPreserveMeta) {
 }
 
 
-TEST_F(OneVNBookmarkChangeProcessorTest, DISABLED_InitialSync) {
+TEST_F(OnevnBookmarkChangeProcessorTest, DISABLED_InitialSync) {
   // BookmarkChangeProcessor::InitialSync does not do anything now
   // All work for obtaining order is done in background.js
 }
 
-void OneVNBookmarkChangeProcessorTest::BookmarkAddedImpl() {
+void OnevnBookmarkChangeProcessorTest::BookmarkAddedImpl() {
   change_processor()->Start();
 
   bookmarks::AddIfNotBookmarked(model(),
@@ -355,11 +355,11 @@ void OneVNBookmarkChangeProcessorTest::BookmarkAddedImpl() {
   change_processor()->SendUnsynced(base::TimeDelta::FromMinutes(10));
 }
 
-TEST_F(OneVNBookmarkChangeProcessorTest, BookmarkAdded) {
+TEST_F(OnevnBookmarkChangeProcessorTest, BookmarkAdded) {
   BookmarkAddedImpl();
 }
 
-TEST_F(OneVNBookmarkChangeProcessorTest, BookmarkDeleted) {
+TEST_F(OnevnBookmarkChangeProcessorTest, BookmarkDeleted) {
   // Add bookmark first
   BookmarkAddedImpl();
   using onevn_sync::jslib::SyncRecord;
@@ -377,7 +377,7 @@ TEST_F(OneVNBookmarkChangeProcessorTest, BookmarkDeleted) {
   EXPECT_FALSE(GetDeletedNodeRoot()->IsVisible());
 }
 
-TEST_F(OneVNBookmarkChangeProcessorTest, BookmarkModified) {
+TEST_F(OnevnBookmarkChangeProcessorTest, BookmarkModified) {
   // Add bookmark first
   BookmarkAddedImpl();
   using onevn_sync::jslib::SyncRecord;
@@ -395,7 +395,7 @@ TEST_F(OneVNBookmarkChangeProcessorTest, BookmarkModified) {
   change_processor()->SendUnsynced(base::TimeDelta::FromMinutes(10));
 }
 
-TEST_F(OneVNBookmarkChangeProcessorTest, BookmarkMovedInFolder) {
+TEST_F(OnevnBookmarkChangeProcessorTest, BookmarkMovedInFolder) {
   change_processor()->Start();
 
   const BookmarkNode* folder1;
@@ -441,7 +441,7 @@ TEST_F(OneVNBookmarkChangeProcessorTest, BookmarkMovedInFolder) {
   change_processor()->SendUnsynced(base::TimeDelta::FromMinutes(0));
 }
 
-TEST_F(OneVNBookmarkChangeProcessorTest, DISABLED_MoveNodesBetweenDirs) {
+TEST_F(OnevnBookmarkChangeProcessorTest, DISABLED_MoveNodesBetweenDirs) {
   // 1. Create these:
   // Other
   //   Folder1
@@ -472,7 +472,7 @@ TEST_F(OneVNBookmarkChangeProcessorTest, DISABLED_MoveNodesBetweenDirs) {
   change_processor()->SendUnsynced(base::TimeDelta::FromMinutes(10));
 }
 
-TEST_F(OneVNBookmarkChangeProcessorTest, DeleteFolderWithNodes) {
+TEST_F(OnevnBookmarkChangeProcessorTest, DeleteFolderWithNodes) {
   // 1. Create these:
   // Other
   //   Folder1
@@ -504,7 +504,7 @@ TEST_F(OneVNBookmarkChangeProcessorTest, DeleteFolderWithNodes) {
 // Without any mocks
 // May ignore order, because it will be moved into background.js
 
-void OneVNBookmarkChangeProcessorTest::BookmarkCreatedFromSyncImpl() {
+void OnevnBookmarkChangeProcessorTest::BookmarkCreatedFromSyncImpl() {
   change_processor()->Start();
 
   RecordsList records;
@@ -553,11 +553,11 @@ void OneVNBookmarkChangeProcessorTest::BookmarkCreatedFromSyncImpl() {
                                       bookmarks::prefs::kShowBookmarkBar));
 }
 
-TEST_F(OneVNBookmarkChangeProcessorTest, BookmarkCreatedFromSync) {
+TEST_F(OnevnBookmarkChangeProcessorTest, BookmarkCreatedFromSync) {
   BookmarkCreatedFromSyncImpl();
 }
 
-TEST_F(OneVNBookmarkChangeProcessorTest, BookmarkRemovedFromSync) {
+TEST_F(OnevnBookmarkChangeProcessorTest, BookmarkRemovedFromSync) {
   BookmarkCreatedFromSyncImpl();
 
   RecordsList records;
@@ -581,7 +581,7 @@ TEST_F(OneVNBookmarkChangeProcessorTest, BookmarkRemovedFromSync) {
   EXPECT_EQ(node_b->url().spec(), "https://b.com/");
 }
 
-TEST_F(OneVNBookmarkChangeProcessorTest, NestedFoldersCreatedFromSync) {
+TEST_F(OnevnBookmarkChangeProcessorTest, NestedFoldersCreatedFromSync) {
   // Create these:
   // Other
   //    Folder1
@@ -652,7 +652,7 @@ TEST_F(OneVNBookmarkChangeProcessorTest, NestedFoldersCreatedFromSync) {
   EXPECT_EQ(node_b->url().spec(), "https://b.com/");
 }
 
-TEST_F(OneVNBookmarkChangeProcessorTest, ChildrenOfPermanentNodesFromSync) {
+TEST_F(OnevnBookmarkChangeProcessorTest, ChildrenOfPermanentNodesFromSync) {
   // Record with 1.x.y order, with hideInToolbar=false and empty
   //      parent_object_id should go to toolbar node
   // Record with 2.x.y order, without parent_object_id should go to mobile_node
@@ -700,7 +700,7 @@ TEST_F(OneVNBookmarkChangeProcessorTest, ChildrenOfPermanentNodesFromSync) {
   EXPECT_EQ(base::UTF16ToUTF8(folder3->GetTitle()), "Folder3");
 }
 
-TEST_F(OneVNBookmarkChangeProcessorTest, Utf8FromSync) {
+TEST_F(OnevnBookmarkChangeProcessorTest, Utf8FromSync) {
   // Send Greek text
   const wchar_t* const title_wide =
       L"\x03a0\x03b1\x03b3\x03ba\x03cc\x03c3\x03bc\x03b9"
@@ -728,7 +728,7 @@ TEST_F(OneVNBookmarkChangeProcessorTest, Utf8FromSync) {
   EXPECT_EQ(folder1->GetTitle(), title_utf16);
 }
 
-TEST_F(OneVNBookmarkChangeProcessorTest, ChangeOrderUnderSameParentFromSync) {
+TEST_F(OnevnBookmarkChangeProcessorTest, ChangeOrderUnderSameParentFromSync) {
   BookmarkCreatedFromSyncImpl();
 
   RecordsList records;
@@ -804,7 +804,7 @@ TEST_F(OneVNBookmarkChangeProcessorTest, ChangeOrderUnderSameParentFromSync) {
   return ::testing::AssertionSuccess();
 }
 
-TEST_F(OneVNBookmarkChangeProcessorTest, GetAllSyncData) {
+TEST_F(OnevnBookmarkChangeProcessorTest, GetAllSyncData) {
   // This is a resolve operation in terms of sync js lib
   // 1) ApplyChangesFromSyncModel
   // 2) GetAllSyncData() => (must resolve) => SyncRecordAndExistingList
@@ -893,7 +893,7 @@ TEST_F(OneVNBookmarkChangeProcessorTest, GetAllSyncData) {
   EXPECT_EQ(pair_at_2->second.get(), nullptr);
 }
 
-TEST_F(OneVNBookmarkChangeProcessorTest, TitleCustomTitle) {
+TEST_F(OnevnBookmarkChangeProcessorTest, TitleCustomTitle) {
   // Should be able to create folder when title = "" and customTitle != ""
   // Create these:
   // Other
@@ -930,7 +930,7 @@ TEST_F(OneVNBookmarkChangeProcessorTest, TitleCustomTitle) {
   EXPECT_EQ(base::UTF16ToUTF8(folder2->GetTitle()), "Folder2");
 }
 
-TEST_F(OneVNBookmarkChangeProcessorTest, BookmarkFromMobileGoesToToolbar) {
+TEST_F(OnevnBookmarkChangeProcessorTest, BookmarkFromMobileGoesToToolbar) {
   change_processor()->Start();
   auto a_record = SimpleBookmarkSyncRecord(
     SyncRecord::Action::A_CREATE,
@@ -951,7 +951,7 @@ TEST_F(OneVNBookmarkChangeProcessorTest, BookmarkFromMobileGoesToToolbar) {
   EXPECT_EQ(node_a->url().spec(), "https://a.com/");
 }
 
-TEST_F(OneVNBookmarkChangeProcessorTest, ItemAheadOfFolder) {
+TEST_F(OnevnBookmarkChangeProcessorTest, ItemAheadOfFolder) {
   // Create these:
   // Other
   //    Folder1
@@ -1013,7 +1013,7 @@ TEST_F(OneVNBookmarkChangeProcessorTest, ItemAheadOfFolder) {
   EXPECT_FALSE(GetPendingNodeRoot()->IsVisible());
 }
 
-TEST_F(OneVNBookmarkChangeProcessorTest, ItemAheadOfFolderAgressive) {
+TEST_F(OnevnBookmarkChangeProcessorTest, ItemAheadOfFolderAgressive) {
   // Send these:
   // Other
   //    Folder1
@@ -1135,7 +1135,7 @@ TEST_F(OneVNBookmarkChangeProcessorTest, ItemAheadOfFolderAgressive) {
   EXPECT_FALSE(GetPendingNodeRoot()->IsVisible());
 }
 
-TEST_F(OneVNBookmarkChangeProcessorTest,
+TEST_F(OnevnBookmarkChangeProcessorTest,
     ItemAheadOfFolderRequireStrictSorting) {
   // Send these:
   // Other
@@ -1312,7 +1312,7 @@ TEST_F(OneVNBookmarkChangeProcessorTest,
   EXPECT_FALSE(GetPendingNodeRoot()->IsVisible());
 }
 
-TEST_F(OneVNBookmarkChangeProcessorTest, IgnoreRapidCreateDelete) {
+TEST_F(OnevnBookmarkChangeProcessorTest, IgnoreRapidCreateDelete) {
   change_processor()->Start();
 
   const auto* node_a = model()->AddURL(model()->other_node(), 0,
@@ -1327,7 +1327,7 @@ TEST_F(OneVNBookmarkChangeProcessorTest, IgnoreRapidCreateDelete) {
   change_processor()->SendUnsynced(base::TimeDelta::FromMinutes(10));
 }
 
-TEST_F(OneVNBookmarkChangeProcessorTest, IgnoreMetadataSet) {
+TEST_F(OnevnBookmarkChangeProcessorTest, IgnoreMetadataSet) {
   change_processor()->Start();
 
   const auto* node_a = model()->AddURL(model()->other_node(), 0,
@@ -1343,7 +1343,7 @@ TEST_F(OneVNBookmarkChangeProcessorTest, IgnoreMetadataSet) {
   change_processor()->SendUnsynced(base::TimeDelta::FromMinutes(10));
 }
 
-TEST_F(OneVNBookmarkChangeProcessorTest, MigrateOrdersForPermanentNodes) {
+TEST_F(OnevnBookmarkChangeProcessorTest, MigrateOrdersForPermanentNodes) {
   EXPECT_EQ(change_processor()->GetPermanentNodeIndex(
       model()->bookmark_bar_node()), 1);
   EXPECT_EQ(change_processor()->GetPermanentNodeIndex(
@@ -1388,7 +1388,7 @@ TEST_F(OneVNBookmarkChangeProcessorTest, MigrateOrdersForPermanentNodes) {
   EXPECT_EQ(sync_prefs()->GetMigratedBookmarksVersion(), 1);
 }
 
-TEST_F(OneVNBookmarkChangeProcessorTest, ApplyOrder) {
+TEST_F(OnevnBookmarkChangeProcessorTest, ApplyOrder) {
   BookmarkCreatedFromSyncImpl();
   const char* record_a_object_id =
       "121, 194, 37, 61, 199, 11, 166, 234, "

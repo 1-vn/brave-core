@@ -8,14 +8,14 @@
 #include "chrome/app/chrome_main_delegate.h"
 
 // Chrome implementation of ContentMainDelegate.
-class OneVNMainDelegate : public ChromeMainDelegate {
+class OnevnMainDelegate : public ChromeMainDelegate {
  public:
-  OneVNMainDelegate();
+  OnevnMainDelegate();
 
   // |exe_entry_point_ticks| is the time at which the main function of the
   // executable was entered, or null if not available.
-  explicit OneVNMainDelegate(base::TimeTicks exe_entry_point_ticks);
-  ~OneVNMainDelegate() override;
+  explicit OnevnMainDelegate(base::TimeTicks exe_entry_point_ticks);
+  ~OnevnMainDelegate() override;
 
  protected:
   // content::ContentMainDelegate implementation:
@@ -26,7 +26,7 @@ class OneVNMainDelegate : public ChromeMainDelegate {
   content::ContentUtilityClient* CreateContentUtilityClient() override;
   void PreSandboxStartup() override;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNMainDelegate);
+  DISALLOW_COPY_AND_ASSIGN(OnevnMainDelegate);
 };
 
 #endif  // ONEVN_APP_ONEVN_MAIN_DELEGATE_H_

@@ -6,7 +6,7 @@ index cd2ade8119331caa626270056a1863165afd3fb4..f3691ded29969615dd7225246467da8a
  // Returns true on success. Otherwise, if changing params leads the browser into
  // an erroneous state, returns false.
  bool AdjustNavigateParamsForURL(NavigateParams* params) {
-+  AdjustNavigateParamsForURLOneVNImpl(params);
++  AdjustNavigateParamsForURLOnevnImpl(params);
    if (params->contents_to_insert || params->switch_to_singleton_tab ||
        IsURLAllowedInIncognito(params->url, params->initiating_profile) ||
        params->initiating_profile->IsGuestSession()) {
@@ -14,7 +14,7 @@ index cd2ade8119331caa626270056a1863165afd3fb4..f3691ded29969615dd7225246467da8a
  bool IsHostAllowedInIncognito(const GURL& url) {
    std::string scheme = url.scheme();
    base::StringPiece host = url.host_piece();
-+  if (!IsHostAllowedInIncognitoOneVNImpl(host)) return false;
++  if (!IsHostAllowedInIncognitoOnevnImpl(host)) return false;
    if (scheme == chrome::kChromeSearchScheme) {
      return host != chrome::kChromeUIThumbnailHost &&
             host != chrome::kChromeUIThumbnailHost2 &&

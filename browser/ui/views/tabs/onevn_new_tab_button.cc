@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * you can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -19,20 +19,20 @@ namespace {
 }
 
 // static
-const gfx::Size OneVNNewTabButton::kButtonSize{20, 20};
+const gfx::Size OnevnNewTabButton::kButtonSize{20, 20};
 
-gfx::Size OneVNNewTabButton::CalculatePreferredSize() const {
-  // Overriden so that we use OneVN's custom button size
+gfx::Size OnevnNewTabButton::CalculatePreferredSize() const {
+  // Overriden so that we use Onevn's custom button size
   gfx::Size size = GetButtonSize();
   const auto insets = GetInsets();
   size.Enlarge(insets.width(), insets.height());
   return size;
 }
 
-SkPath OneVNNewTabButton::GetBorderPath(const gfx::Point& origin,
+SkPath OnevnNewTabButton::GetBorderPath(const gfx::Point& origin,
                                       float scale,
                                       bool extend_to_top) const {
-  // Overriden to use OneVN's non-circular shape
+  // Overriden to use Onevn's non-circular shape
   gfx::PointF scaled_origin(origin);
   scaled_origin.Scale(scale);
   const float radius = GetCornerRadius() * scale;
@@ -48,7 +48,7 @@ SkPath OneVNNewTabButton::GetBorderPath(const gfx::Point& origin,
   return path;
 }
 
-void OneVNNewTabButton::PaintPlusIcon(gfx::Canvas* canvas) const {
+void OnevnNewTabButton::PaintPlusIcon(gfx::Canvas* canvas) const {
   // Overriden to fix chromium assumption that border radius
   // will be 50% of width.
   gfx::ScopedCanvas scoped_canvas(canvas);

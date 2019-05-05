@@ -11,11 +11,11 @@ class Profile;
 
 using content::WebContents;
 
-class OneVNAutoplayContentSettingBubbleModel : public ContentSettingSimpleBubbleModel {
+class OnevnAutoplayContentSettingBubbleModel : public ContentSettingSimpleBubbleModel {
  public:
-   OneVNAutoplayContentSettingBubbleModel(Delegate* delegate,
+   OnevnAutoplayContentSettingBubbleModel(Delegate* delegate,
                                           WebContents* web_contents);
-   ~OneVNAutoplayContentSettingBubbleModel() override;
+   ~OnevnAutoplayContentSettingBubbleModel() override;
 
   // ContentSettingSimpleBubbleModel:
   void CommitChanges() override;
@@ -30,7 +30,7 @@ class OneVNAutoplayContentSettingBubbleModel : public ContentSettingSimpleBubble
 
   ContentSetting block_setting_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNAutoplayContentSettingBubbleModel);
+  DISALLOW_COPY_AND_ASSIGN(OnevnAutoplayContentSettingBubbleModel);
 };
 
 #endif // ONEVN_BROWSER_UI_CONTENT_SETTINGS_ONEVN_AUTOPLAY_CONTENT_SETTING_BUBBLE_MODEL_H_

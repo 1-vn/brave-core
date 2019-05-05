@@ -8,13 +8,13 @@
 #include "base/macros.h"
 #include "chrome/browser/ui/webui/constrained_web_dialog_ui.h"
 
-class OneVNDonateUI : public ConstrainedWebDialogUI {
+class OnevnDonateUI : public ConstrainedWebDialogUI {
  public:
-  OneVNDonateUI(content::WebUI* web_ui, const std::string& host);
-  ~OneVNDonateUI() override;
+  OnevnDonateUI(content::WebUI* web_ui, const std::string& host);
+  ~OnevnDonateUI() override;
 
  private:
-  DISALLOW_COPY_AND_ASSIGN(OneVNDonateUI);
+  DISALLOW_COPY_AND_ASSIGN(OnevnDonateUI);
 };
 
 #endif

@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -9,9 +9,9 @@
 #include "components/unified_consent/feature.h"
 #include "content/public/common/content_features.h"
 
-using OneVNFeaturesBrowserTest = InProcessBrowserTest;
+using OnevnFeaturesBrowserTest = InProcessBrowserTest;
 
-IN_PROC_BROWSER_TEST_F(OneVNFeaturesBrowserTest, AutoFillServerCommunication) {
+IN_PROC_BROWSER_TEST_F(OnevnFeaturesBrowserTest, AutoFillServerCommunication) {
   EXPECT_FALSE(
     base::FeatureList::IsEnabled(
       autofill::features::kAutofillServerCommunication));
@@ -19,6 +19,6 @@ IN_PROC_BROWSER_TEST_F(OneVNFeaturesBrowserTest, AutoFillServerCommunication) {
     base::FeatureList::IsEnabled(features::kAudioServiceOutOfProcess));
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNFeaturesBrowserTest, UnifiedConsent) {
+IN_PROC_BROWSER_TEST_F(OnevnFeaturesBrowserTest, UnifiedConsent) {
   EXPECT_FALSE(base::FeatureList::IsEnabled(unified_consent::kUnifiedConsent));
 }

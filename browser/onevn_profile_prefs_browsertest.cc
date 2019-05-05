@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -14,15 +14,15 @@
 #include "components/spellcheck/browser/pref_names.h"
 #include "components/sync/base/pref_names.h"
 
-using OneVNProfilePrefsBrowserTest = InProcessBrowserTest;
+using OnevnProfilePrefsBrowserTest = InProcessBrowserTest;
 
 // Check download prompt preference is set to true by default.
-IN_PROC_BROWSER_TEST_F(OneVNProfilePrefsBrowserTest, DownloadPromptDefault) {
+IN_PROC_BROWSER_TEST_F(OnevnProfilePrefsBrowserTest, DownloadPromptDefault) {
   EXPECT_TRUE(
       browser()->profile()->GetPrefs()->GetBoolean(prefs::kPromptForDownload));
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNProfilePrefsBrowserTest, MiscOneVNPrefs) {
+IN_PROC_BROWSER_TEST_F(OnevnProfilePrefsBrowserTest, MiscOnevnPrefs) {
   EXPECT_FALSE(
       browser()->profile()->GetPrefs()->GetBoolean(kWidevineOptedIn));
   EXPECT_TRUE(browser()->profile()->GetPrefs()->GetBoolean(
@@ -42,12 +42,12 @@ IN_PROC_BROWSER_TEST_F(OneVNProfilePrefsBrowserTest, MiscOneVNPrefs) {
   EXPECT_TRUE(
       browser()->profile()->GetPrefs()->GetBoolean(kHangoutsEnabled));
   EXPECT_FALSE(
-      browser()->profile()->GetPrefs()->GetBoolean(kHideOneVNRewardsButton));
+      browser()->profile()->GetPrefs()->GetBoolean(kHideOnevnRewardsButton));
   EXPECT_FALSE(
       browser()->profile()->GetPrefs()->GetBoolean(kIPFSCompanionEnabled));
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNProfilePrefsBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnProfilePrefsBrowserTest,
                        DisableGoogleServicesByDefault) {
   EXPECT_FALSE(browser()->profile()->GetPrefs()->GetBoolean(
       prefs::kAlternateErrorPagesEnabled));

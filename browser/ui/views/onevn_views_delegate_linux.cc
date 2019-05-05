@@ -30,7 +30,7 @@ int GetWindowIconResourceId() {
 
 }  // namespace
 
-gfx::ImageSkia* OneVNViewsDelegateLinux::GetDefaultWindowIcon() const {
+gfx::ImageSkia* OnevnViewsDelegateLinux::GetDefaultWindowIcon() const {
   ui::ResourceBundle& rb = ui::ResourceBundle::GetSharedInstance();
   return rb.GetImageSkiaNamed(GetWindowIconResourceId());
 }

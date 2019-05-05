@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -20,14 +20,14 @@
 
 namespace onevn {
 
-OneVNRequestInfo::OneVNRequestInfo() {
+OnevnRequestInfo::OnevnRequestInfo() {
 }
 
-OneVNRequestInfo::~OneVNRequestInfo() {
+OnevnRequestInfo::~OnevnRequestInfo() {
 }
 
-void OneVNRequestInfo::FillCTXFromRequest(const net::URLRequest* request,
-    std::shared_ptr<onevn::OneVNRequestInfo> ctx) {
+void OnevnRequestInfo::FillCTXFromRequest(const net::URLRequest* request,
+    std::shared_ptr<onevn::OnevnRequestInfo> ctx) {
   ctx->request_identifier = request->identifier();
   ctx->request_url = request->url();
   if (request->initiator().has_value()) {
@@ -46,7 +46,7 @@ void OneVNRequestInfo::FillCTXFromRequest(const net::URLRequest* request,
   } else {
     // We can not always use site_for_cookies since it can be empty in certain
     // cases. See the comments in url_request.h
-    ctx->tab_url = onevn_shields::OneVNShieldsWebContentsObserver::
+    ctx->tab_url = onevn_shields::OnevnShieldsWebContentsObserver::
         GetTabURLFromRenderFrameInfo(ctx->render_process_id,
                                      ctx->render_frame_id,
                                      ctx->frame_tree_node_id).GetOrigin();
@@ -54,7 +54,7 @@ void OneVNRequestInfo::FillCTXFromRequest(const net::URLRequest* request,
   ctx->tab_origin = ctx->tab_url.GetOrigin();
   ctx->allow_onevn_shields = onevn_shields::IsAllowContentSettingFromIO(
       request, ctx->tab_origin, ctx->tab_origin, CONTENT_SETTINGS_TYPE_PLUGINS,
-      onevn_shields::kOneVNShields) &&
+      onevn_shields::kOnevnShields) &&
     !request->site_for_cookies().SchemeIs(kChromeExtensionScheme);
   ctx->allow_ads = onevn_shields::IsAllowContentSettingFromIO(
       request, ctx->tab_origin, ctx->tab_origin, CONTENT_SETTINGS_TYPE_PLUGINS,

@@ -20,16 +20,16 @@
 // However, ChromeAutocompleteProviderClient exposes many other services based
 // on profiles.
 // We don't want to change other services. Only wanted to get proper
-// TemplateURLService. To achieve this, OneVNAutocompleteProviderClient is
+// TemplateURLService. To achieve this, OnevnAutocompleteProviderClient is
 // introduced. It initializes ChromeAutocompleteProviderClient with original
 // profile and only overrided TemplateURLService getter.
-// OneVNAutocompleteSchemeClassifier also initialize
+// OnevnAutocompleteSchemeClassifier also initialize
 // ChromeAutocompleteSchemeClassifier with original profile for same reason.
-class OneVNAutocompleteProviderClient
+class OnevnAutocompleteProviderClient
     : public ChromeAutocompleteProviderClient {
  public:
-  explicit OneVNAutocompleteProviderClient(Profile* profile);
-  ~OneVNAutocompleteProviderClient() override;
+  explicit OnevnAutocompleteProviderClient(Profile* profile);
+  ~OnevnAutocompleteProviderClient() override;
 
   TemplateURLService* GetTemplateURLService() override;
   const TemplateURLService* GetTemplateURLService() const override;
@@ -38,7 +38,7 @@ class OneVNAutocompleteProviderClient
  private:
   Profile* profile_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNAutocompleteProviderClient);
+  DISALLOW_COPY_AND_ASSIGN(OnevnAutocompleteProviderClient);
 };
 
 #endif  // ONEVN_BROWSER_AUTOCOMPLETE_ONEVN_AUTOCOMPLETE_PROVIDER_CLIENT_H_

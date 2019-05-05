@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -57,9 +57,9 @@ void CheckDisabledFeatures(base::CommandLine& command_line,
 
 }  // namespace
 
-TEST(OneVNCommandLineHelperUnitTest, TestAppendSwitch) {
+TEST(OnevnCommandLineHelperUnitTest, TestAppendSwitch) {
   base::CommandLine& command_line = *base::CommandLine::ForCurrentProcess();
-  OneVNCommandLineHelper helper(&command_line);
+  OnevnCommandLineHelper helper(&command_line);
   // Test that append switch works.
   helper.AppendSwitch("a");
   ASSERT_TRUE(command_line.HasSwitch("a"));
@@ -76,11 +76,11 @@ TEST(OneVNCommandLineHelperUnitTest, TestAppendSwitch) {
   ASSERT_EQ(2, CountA(command_line.argv()));
 }
 
-TEST(OneVNCommandLineHelperUnitTest, TestParseFeatures) {
+TEST(OnevnCommandLineHelperUnitTest, TestParseFeatures) {
   base::CommandLine& command_line = *base::CommandLine::ForCurrentProcess();
   command_line.AppendSwitchASCII(switches::kEnableFeatures, "a,b,x");
   command_line.AppendSwitchASCII(switches::kDisableFeatures, "x,y,z");
-  OneVNCommandLineHelper helper(&command_line);
+  OnevnCommandLineHelper helper(&command_line);
   // Test that intersecting enabled and disabled features have been removed from
   // enabled set.
   const std::unordered_set<std::string>& enabled = helper.enabled_features();
@@ -91,9 +91,9 @@ TEST(OneVNCommandLineHelperUnitTest, TestParseFeatures) {
             FeaturesToSet("x,y,z"));
 }
 
-TEST(OneVNCommandLineHelperUnitTest, TestAppendFeatures) {
+TEST(OnevnCommandLineHelperUnitTest, TestAppendFeatures) {
   base::CommandLine& command_line = *base::CommandLine::ForCurrentProcess();
-  OneVNCommandLineHelper helper(&command_line);
+  OnevnCommandLineHelper helper(&command_line);
   // Test enabled features: none on command line.
   helper.AppendFeatures({"a"}, {});
   CheckEnabledFeatures(command_line, "a");

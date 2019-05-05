@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -106,7 +106,7 @@ scoped_refptr<base::SequencedTaskRunner>
 
 ///////////////////////////////////////////////////////////////////////////////
 
-// The referrer whitelist factory. Using the OneVN Shields as a singleton
+// The referrer whitelist factory. Using the Onevn Shields as a singleton
 // is the job of the browser process.
 std::unique_ptr<ReferrerWhitelistService> ReferrerWhitelistServiceFactory() {
   std::unique_ptr<ReferrerWhitelistService> service =

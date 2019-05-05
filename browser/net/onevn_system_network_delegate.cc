@@ -7,9 +7,9 @@
 #include "onevn/browser/net/onevn_common_static_redirect_network_delegate_helper.h"
 #include "onevn/browser/net/onevn_static_redirect_network_delegate_helper.h"
 
-OneVNSystemNetworkDelegate::OneVNSystemNetworkDelegate(
+OnevnSystemNetworkDelegate::OnevnSystemNetworkDelegate(
     extensions::EventRouterForwarder* event_router) :
-    OneVNNetworkDelegateBase(event_router) {
+    OnevnNetworkDelegateBase(event_router) {
   onevn::OnBeforeURLRequestCallback callback =
       base::Bind(
           onevn::OnBeforeURLRequest_StaticRedirectWork);
@@ -19,5 +19,5 @@ OneVNSystemNetworkDelegate::OneVNSystemNetworkDelegate(
   before_url_request_callbacks_.push_back(callback);
 }
 
-OneVNSystemNetworkDelegate::~OneVNSystemNetworkDelegate() {
+OnevnSystemNetworkDelegate::~OnevnSystemNetworkDelegate() {
 }

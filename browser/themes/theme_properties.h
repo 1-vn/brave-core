@@ -9,7 +9,7 @@
 #include "third_party/skia/include/core/SkColor.h"
 #include "onevn/browser/themes/onevn_theme_service.h"
 
-namespace OneVNThemeProperties {
+namespace OnevnThemeProperties {
 
   const SkColor kPrivateColorForTest = SkColorSetRGB(0xFF, 0x00, 0x00);
   const SkColor kLightColorForTest = SkColorSetRGB(0xFF, 0xFF, 0xFF);
@@ -21,6 +21,6 @@ namespace OneVNThemeProperties {
 
 }
 
-base::Optional<SkColor> MaybeGetDefaultColorForOneVNUi(int id, bool incognito, OneVNThemeType theme);
+base::Optional<SkColor> MaybeGetDefaultColorForOnevnUi(int id, bool incognito, OnevnThemeType theme);
 
 #endif  // ONEVN_BROWSER_THEMES_THEME_PROPERTIES_H_

@@ -325,11 +325,11 @@ i.e. to launch using Staging Server and logging for INFO, WARNING and ERROR on m
 ```
 cd /Applications
 
-cd OneVN\ Browser\ Dev.app/
+cd Onevn\ Browser\ Dev.app/
 
 cd Contents
 
-./OneVN\ Browser\ Dev --onevn-ads-staging --enable-logging=stderr --log-level=2
+./Onevn\ Browser\ Dev --onevn-ads-staging --enable-logging=stderr --log-level=2
 ```
 
 ## Unit Tests

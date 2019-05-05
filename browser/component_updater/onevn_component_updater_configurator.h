@@ -25,11 +25,11 @@ namespace component_updater {
 // for Chrome. The preferences must be registered with the local pref store
 // before they can be queried by the configurator instance.
 // This function is called before MakeChromeComponentUpdaterConfigurator.
-void RegisterPrefsForOneVNComponentUpdaterConfigurator(
+void RegisterPrefsForOnevnComponentUpdaterConfigurator(
     PrefRegistrySimple* registry);
 
 scoped_refptr<update_client::Configurator>
-MakeOneVNComponentUpdaterConfigurator(
+MakeOnevnComponentUpdaterConfigurator(
     const base::CommandLine* cmdline,
     PrefService* pref_service);
 

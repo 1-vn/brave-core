@@ -30,18 +30,18 @@ enum AutoupdateStatus {
   kAutoupdateInstallFailed,   // no version
 };
 
-// kOneVNAutoupdateStatusNotification is the name of the notification posted
+// kOnevnAutoupdateStatusNotification is the name of the notification posted
 // when -checkForUpdate and -installUpdate complete.  This notification will be
 // sent with with its sender object set to the SparkleGlue instance sending
 // the notification.  Its userInfo dictionary will contain an AutoupdateStatus
-// value as an intValue at key kOneVNAutoupdateStatusStatus.  If a version is
+// value as an intValue at key kOnevnAutoupdateStatusStatus.  If a version is
 // available (see AutoupdateStatus), it will be present at key
-// kOneVNAutoupdateStatusVersion.  If any error messages were supplied by
-// Sparkle, they will be present at key kOneVNAutoupdateStatusErrorMessages.
-extern NSString* const kOneVNAutoupdateStatusNotification;
-extern NSString* const kOneVNAutoupdateStatusStatus;
-extern NSString* const kOneVNAutoupdateStatusVersion;
-extern NSString* const kOneVNAutoupdateStatusErrorMessages;
+// kOnevnAutoupdateStatusVersion.  If any error messages were supplied by
+// Sparkle, they will be present at key kOnevnAutoupdateStatusErrorMessages.
+extern NSString* const kOnevnAutoupdateStatusNotification;
+extern NSString* const kOnevnAutoupdateStatusStatus;
+extern NSString* const kOnevnAutoupdateStatusVersion;
+extern NSString* const kOnevnAutoupdateStatusErrorMessages;
 
 @interface SparkleGlue : NSObject
 

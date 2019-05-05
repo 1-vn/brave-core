@@ -4,7 +4,7 @@
 
 cr.define('settings', function() {
   /** @interface */
-  class DefaultOneVNShieldsBrowserProxy {
+  class DefaultOnevnShieldsBrowserProxy {
     /**
      * @return {!Promise<string>}
      */
@@ -44,9 +44,9 @@ cr.define('settings', function() {
   }
 
   /**
-   * @implements {settings.DefaultOneVNShieldsBrowserProxy}
+   * @implements {settings.DefaultOnevnShieldsBrowserProxy}
    */
-  class DefaultOneVNShieldsBrowserProxyImpl {
+  class DefaultOnevnShieldsBrowserProxyImpl {
     /** @override */
     getAdControlType() {
       return cr.sendWithPromise('getAdControlType');
@@ -88,10 +88,10 @@ cr.define('settings', function() {
     }
   }
 
-  cr.addSingletonGetter(DefaultOneVNShieldsBrowserProxyImpl);
+  cr.addSingletonGetter(DefaultOnevnShieldsBrowserProxyImpl);
 
   return {
-    DefaultOneVNShieldsBrowserProxy,
-    DefaultOneVNShieldsBrowserProxyImpl
+    DefaultOnevnShieldsBrowserProxy,
+    DefaultOnevnShieldsBrowserProxyImpl
   };
 });

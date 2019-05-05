@@ -9,20 +9,20 @@
 #include "components/renderer_context_menu/render_view_context_menu_proxy.h"
 #include "ui/base/l10n/l10n_util.h"
 
-OneVNSpellingOptionsSubMenuObserver::OneVNSpellingOptionsSubMenuObserver(
+OnevnSpellingOptionsSubMenuObserver::OnevnSpellingOptionsSubMenuObserver(
     RenderViewContextMenuProxy* proxy,
     ui::SimpleMenuModel::Delegate* delegate,
     int group_id)
     : SpellingOptionsSubMenuObserver(proxy, delegate, group_id),
       gtest_mode_(GTEST_MODE_DISABLED) {}
 
-void OneVNSpellingOptionsSubMenuObserver::InitMenu(
+void OnevnSpellingOptionsSubMenuObserver::InitMenu(
     const content::ContextMenuParams& params) {
   // Let Chromium build the submenu.
   SpellingOptionsSubMenuObserver::InitMenu(params);
 
   // Assumptions:
-  // 1. Use of spelling service is disabled in OneVN profile preferences.
+  // 1. Use of spelling service is disabled in Onevn profile preferences.
   // 2. We overrode RenderViewContextMenu::AddSpellCheckServiceItem so that the
   // spelling suggestions toggle isn't added to the menu by the base class.
   DCHECK(!use_spelling_service_.GetValue());
@@ -63,7 +63,7 @@ void OneVNSpellingOptionsSubMenuObserver::InitMenu(
         l10n_util::GetStringUTF16(IDS_CONTENT_CONTEXT_SPELLCHECK_MENU));
 }
 
-void OneVNSpellingOptionsSubMenuObserver::SetGtestMode(
-    OneVNSpellingOptionsSubMenuObserver::GtestMode mode) {
+void OnevnSpellingOptionsSubMenuObserver::SetGtestMode(
+    OnevnSpellingOptionsSubMenuObserver::GtestMode mode) {
   gtest_mode_ = mode;
 }

@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors
+/* Copyright (c) 2019 The Onevn Authors
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -23,37 +23,37 @@
 #include "onevn/browser/ui/webui/settings/onevn_relaunch_handler_mac.h"
 #endif
 
-OneVNMdSettingsUI::OneVNMdSettingsUI(content::WebUI* web_ui,
+OnevnMdSettingsUI::OnevnMdSettingsUI(content::WebUI* web_ui,
                                      const std::string& host)
     : MdSettingsUI(web_ui) {
   web_ui->AddMessageHandler(
     std::make_unique<settings::MetricsReportingHandler>());
-  web_ui->AddMessageHandler(std::make_unique<OneVNPrivacyHandler>());
-  web_ui->AddMessageHandler(std::make_unique<DefaultOneVNShieldsHandler>());
-  web_ui->AddMessageHandler(std::make_unique<OneVNDefaultExtensionsHandler>());
+  web_ui->AddMessageHandler(std::make_unique<OnevnPrivacyHandler>());
+  web_ui->AddMessageHandler(std::make_unique<DefaultOnevnShieldsHandler>());
+  web_ui->AddMessageHandler(std::make_unique<OnevnDefaultExtensionsHandler>());
 #if defined(OS_MACOSX)
   // Use sparkle's relaunch api for browser relaunch on update.
-  web_ui->AddMessageHandler(std::make_unique<OneVNRelaunchHandler>());
+  web_ui->AddMessageHandler(std::make_unique<OnevnRelaunchHandler>());
 #endif
 }
 
-OneVNMdSettingsUI::~OneVNMdSettingsUI() {
+OnevnMdSettingsUI::~OnevnMdSettingsUI() {
 }
 
 // static
-void OneVNMdSettingsUI::AddResources(content::WebUIDataSource* html_source,
+void OnevnMdSettingsUI::AddResources(content::WebUIDataSource* html_source,
                                 Profile* profile) {
-  for (size_t i = 0; i < kOneVNSettingsResourcesSize; ++i) {
-    html_source->AddResourcePath(kOneVNSettingsResources[i].name,
-                                 kOneVNSettingsResources[i].value);
+  for (size_t i = 0; i < kOnevnSettingsResourcesSize; ++i) {
+    html_source->AddResourcePath(kOnevnSettingsResources[i].name,
+                                 kOnevnSettingsResources[i].value);
   }
 
   html_source->AddBoolean("isPdfjsDisabled",
-                          extensions::OneVNComponentLoader::IsPdfjsDisabled());
+                          extensions::OnevnComponentLoader::IsPdfjsDisabled());
   const base::CommandLine& command_line =
       *base::CommandLine::ForCurrentProcess();
   html_source->AddBoolean("isSyncDisabled",
-                          command_line.HasSwitch(switches::kDisableOneVNSync));
+                          command_line.HasSwitch(switches::kDisableOnevnSync));
   html_source->AddString("onevnProductVersion",
-    version_info::GetOneVNVersionWithoutChromiumMajorVersion());
+    version_info::GetOnevnVersionWithoutChromiumMajorVersion());
 }

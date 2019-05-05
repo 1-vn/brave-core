@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -97,27 +97,27 @@ void RemoveTrackableSecurityHeadersForThirdParty(
   }
 }
 
-OneVNNetworkDelegateBase::OneVNNetworkDelegateBase(
+OnevnNetworkDelegateBase::OnevnNetworkDelegateBase(
     extensions::EventRouterForwarder* event_router)
     : ChromeNetworkDelegate(event_router), referral_headers_list_(nullptr),
       allow_google_auth_(true) {
   // Initialize the preference change registrar.
   base::PostTaskWithTraits(
       FROM_HERE, {BrowserThread::UI},
-      base::Bind(&OneVNNetworkDelegateBase::InitPrefChangeRegistrarOnUI,
+      base::Bind(&OnevnNetworkDelegateBase::InitPrefChangeRegistrarOnUI,
                  base::Unretained(this)));
 }
 
-OneVNNetworkDelegateBase::~OneVNNetworkDelegateBase() {}
+OnevnNetworkDelegateBase::~OnevnNetworkDelegateBase() {}
 
-void OneVNNetworkDelegateBase::InitPrefChangeRegistrarOnUI() {
+void OnevnNetworkDelegateBase::InitPrefChangeRegistrarOnUI() {
   DCHECK_CURRENTLY_ON(BrowserThread::UI);
   PrefService* prefs = g_browser_process->local_state();
   pref_change_registrar_.reset(new PrefChangeRegistrar());
   pref_change_registrar_->Init(prefs);
   pref_change_registrar_->Add(
       kReferralHeaders,
-      base::Bind(&OneVNNetworkDelegateBase::OnReferralHeadersChanged,
+      base::Bind(&OnevnNetworkDelegateBase::OnReferralHeadersChanged,
                  base::Unretained(this)));
   // Retrieve current referral headers, if any.
   OnReferralHeadersChanged();
@@ -127,19 +127,19 @@ void OneVNNetworkDelegateBase::InitPrefChangeRegistrarOnUI() {
   user_pref_change_registrar_->Init(user_prefs);
   user_pref_change_registrar_->Add(
       kGoogleLoginControlType,
-      base::BindRepeating(&OneVNNetworkDelegateBase::OnPreferenceChanged,
+      base::BindRepeating(&OnevnNetworkDelegateBase::OnPreferenceChanged,
                           base::Unretained(this), kGoogleLoginControlType));
   user_pref_change_registrar_->Add(
       kFBEmbedControlType,
-      base::BindRepeating(&OneVNNetworkDelegateBase::OnPreferenceChanged,
+      base::BindRepeating(&OnevnNetworkDelegateBase::OnPreferenceChanged,
                           base::Unretained(this), kFBEmbedControlType));
   user_pref_change_registrar_->Add(
       kTwitterEmbedControlType,
-      base::BindRepeating(&OneVNNetworkDelegateBase::OnPreferenceChanged,
+      base::BindRepeating(&OnevnNetworkDelegateBase::OnPreferenceChanged,
                           base::Unretained(this), kTwitterEmbedControlType));
   user_pref_change_registrar_->Add(
       kLinkedInEmbedControlType,
-      base::BindRepeating(&OneVNNetworkDelegateBase::OnPreferenceChanged,
+      base::BindRepeating(&OnevnNetworkDelegateBase::OnPreferenceChanged,
                           base::Unretained(this), kLinkedInEmbedControlType));
   UpdateAdBlockFromPref(kFBEmbedControlType);
   UpdateAdBlockFromPref(kTwitterEmbedControlType);
@@ -147,24 +147,24 @@ void OneVNNetworkDelegateBase::InitPrefChangeRegistrarOnUI() {
   allow_google_auth_ = user_prefs->GetBoolean(kGoogleLoginControlType);
 }
 
-void OneVNNetworkDelegateBase::OnReferralHeadersChanged() {
+void OnevnNetworkDelegateBase::OnReferralHeadersChanged() {
   DCHECK_CURRENTLY_ON(BrowserThread::UI);
   if (const base::ListValue* referral_headers =
           g_browser_process->local_state()->GetList(kReferralHeaders)) {
     base::PostTaskWithTraits(
         FROM_HERE, {BrowserThread::IO},
-        base::Bind(&OneVNNetworkDelegateBase::SetReferralHeaders,
+        base::Bind(&OnevnNetworkDelegateBase::SetReferralHeaders,
                    base::Unretained(this), referral_headers->DeepCopy()));
   }
 }
 
-void OneVNNetworkDelegateBase::SetReferralHeaders(
+void OnevnNetworkDelegateBase::SetReferralHeaders(
     base::ListValue* referral_headers) {
   DCHECK_CURRENTLY_ON(BrowserThread::IO);
   referral_headers_list_.reset(referral_headers);
 }
 
-int OneVNNetworkDelegateBase::OnBeforeURLRequest(
+int OnevnNetworkDelegateBase::OnBeforeURLRequest(
     URLRequest* request,
     net::CompletionOnceCallback callback,
     GURL* new_url) {
@@ -172,8 +172,8 @@ int OneVNNetworkDelegateBase::OnBeforeURLRequest(
     return ChromeNetworkDelegate::OnBeforeURLRequest(
         request, std::move(callback), new_url);
   }
-  std::shared_ptr<onevn::OneVNRequestInfo> ctx(new onevn::OneVNRequestInfo());
-  onevn::OneVNRequestInfo::FillCTXFromRequest(request, ctx);
+  std::shared_ptr<onevn::OnevnRequestInfo> ctx(new onevn::OnevnRequestInfo());
+  onevn::OnevnRequestInfo::FillCTXFromRequest(request, ctx);
   ctx->new_url = new_url;
   ctx->event_type = onevn::kOnBeforeRequest;
   callbacks_[request->identifier()] = std::move(callback);
@@ -181,7 +181,7 @@ int OneVNNetworkDelegateBase::OnBeforeURLRequest(
   return net::ERR_IO_PENDING;
 }
 
-int OneVNNetworkDelegateBase::OnBeforeStartTransaction(
+int OnevnNetworkDelegateBase::OnBeforeStartTransaction(
     URLRequest* request,
     net::CompletionOnceCallback callback,
     net::HttpRequestHeaders* headers) {
@@ -189,8 +189,8 @@ int OneVNNetworkDelegateBase::OnBeforeStartTransaction(
     return ChromeNetworkDelegate::OnBeforeStartTransaction(
         request, std::move(callback), headers);
   }
-  std::shared_ptr<onevn::OneVNRequestInfo> ctx(new onevn::OneVNRequestInfo());
-  onevn::OneVNRequestInfo::FillCTXFromRequest(request, ctx);
+  std::shared_ptr<onevn::OnevnRequestInfo> ctx(new onevn::OnevnRequestInfo());
+  onevn::OnevnRequestInfo::FillCTXFromRequest(request, ctx);
   ctx->event_type = onevn::kOnBeforeStartTransaction;
   ctx->headers = headers;
   ctx->referral_headers_list = referral_headers_list_.get();
@@ -199,7 +199,7 @@ int OneVNNetworkDelegateBase::OnBeforeStartTransaction(
   return net::ERR_IO_PENDING;
 }
 
-int OneVNNetworkDelegateBase::OnHeadersReceived(
+int OnevnNetworkDelegateBase::OnHeadersReceived(
     URLRequest* request,
     net::CompletionOnceCallback callback,
     const net::HttpResponseHeaders* original_response_headers,
@@ -214,9 +214,9 @@ int OneVNNetworkDelegateBase::OnHeadersReceived(
         override_response_headers, allowed_unsafe_redirect_url);
   }
 
-  std::shared_ptr<onevn::OneVNRequestInfo> ctx(new onevn::OneVNRequestInfo());
+  std::shared_ptr<onevn::OnevnRequestInfo> ctx(new onevn::OnevnRequestInfo());
   callbacks_[request->identifier()] = std::move(callback);
-  onevn::OneVNRequestInfo::FillCTXFromRequest(request, ctx);
+  onevn::OnevnRequestInfo::FillCTXFromRequest(request, ctx);
   ctx->event_type = onevn::kOnHeadersReceived;
   ctx->original_response_headers = original_response_headers;
   ctx->override_response_headers = override_response_headers;
@@ -228,18 +228,18 @@ int OneVNNetworkDelegateBase::OnHeadersReceived(
   // to set awaiting_callback_ back to false.
   base::PostTaskWithTraits(
       FROM_HERE, {BrowserThread::IO},
-      base::Bind(&OneVNNetworkDelegateBase::RunNextCallback,
+      base::Bind(&OnevnNetworkDelegateBase::RunNextCallback,
                  base::Unretained(this), request, ctx));
   return net::ERR_IO_PENDING;
 }
 
-bool OneVNNetworkDelegateBase::OnCanGetCookies(
+bool OnevnNetworkDelegateBase::OnCanGetCookies(
     const URLRequest& request,
     const net::CookieList& cookie_list,
     bool allowed_from_caller) {
-  std::shared_ptr<onevn::OneVNRequestInfo> ctx(new onevn::OneVNRequestInfo());
+  std::shared_ptr<onevn::OnevnRequestInfo> ctx(new onevn::OnevnRequestInfo());
   ctx->allow_google_auth = allow_google_auth_;
-  onevn::OneVNRequestInfo::FillCTXFromRequest(&request, ctx);
+  onevn::OnevnRequestInfo::FillCTXFromRequest(&request, ctx);
   ctx->event_type = onevn::kOnCanGetCookies;
   bool allow = std::all_of(can_get_cookies_callbacks_.begin(),
                            can_get_cookies_callbacks_.end(),
@@ -259,14 +259,14 @@ bool OneVNNetworkDelegateBase::OnCanGetCookies(
   return allow;
 }
 
-bool OneVNNetworkDelegateBase::OnCanSetCookie(
+bool OnevnNetworkDelegateBase::OnCanSetCookie(
     const URLRequest& request,
     const net::CanonicalCookie& cookie,
     net::CookieOptions* options,
     bool allowed_from_caller) {
-  std::shared_ptr<onevn::OneVNRequestInfo> ctx(new onevn::OneVNRequestInfo());
+  std::shared_ptr<onevn::OnevnRequestInfo> ctx(new onevn::OnevnRequestInfo());
   ctx->allow_google_auth = allow_google_auth_;
-  onevn::OneVNRequestInfo::FillCTXFromRequest(&request, ctx);
+  onevn::OnevnRequestInfo::FillCTXFromRequest(&request, ctx);
   ctx->event_type = onevn::kOnCanSetCookies;
 
   bool allow = std::all_of(can_set_cookies_callbacks_.begin(),
@@ -287,7 +287,7 @@ bool OneVNNetworkDelegateBase::OnCanSetCookie(
   return allow;
 }
 
-void OneVNNetworkDelegateBase::RunCallbackForRequestIdentifier(
+void OnevnNetworkDelegateBase::RunCallbackForRequestIdentifier(
     uint64_t request_identifier,
     int rv) {
   std::map<uint64_t, net::CompletionOnceCallback>::iterator it =
@@ -295,9 +295,9 @@ void OneVNNetworkDelegateBase::RunCallbackForRequestIdentifier(
   std::move(it->second).Run(rv);
 }
 
-void OneVNNetworkDelegateBase::RunNextCallback(
+void OnevnNetworkDelegateBase::RunNextCallback(
     URLRequest* request,
-    std::shared_ptr<onevn::OneVNRequestInfo> ctx) {
+    std::shared_ptr<onevn::OnevnRequestInfo> ctx) {
   DCHECK_CURRENTLY_ON(BrowserThread::IO);
 
   if (!ContainsKey(callbacks_, ctx->request_identifier)) {
@@ -317,7 +317,7 @@ void OneVNNetworkDelegateBase::RunNextCallback(
       onevn::OnBeforeURLRequestCallback callback =
           before_url_request_callbacks_[ctx->next_url_request_index++];
       onevn::ResponseCallback next_callback =
-          base::Bind(&OneVNNetworkDelegateBase::RunNextCallback,
+          base::Bind(&OnevnNetworkDelegateBase::RunNextCallback,
                      base::Unretained(this), request, ctx);
       rv = callback.Run(next_callback, ctx);
       if (rv == net::ERR_IO_PENDING) {
@@ -333,7 +333,7 @@ void OneVNNetworkDelegateBase::RunNextCallback(
       onevn::OnBeforeStartTransactionCallback callback =
           before_start_transaction_callbacks_[ctx->next_url_request_index++];
       onevn::ResponseCallback next_callback =
-          base::Bind(&OneVNNetworkDelegateBase::RunNextCallback,
+          base::Bind(&OnevnNetworkDelegateBase::RunNextCallback,
                      base::Unretained(this), request, ctx);
       rv = callback.Run(request, ctx->headers, next_callback, ctx);
       if (rv == net::ERR_IO_PENDING) {
@@ -348,7 +348,7 @@ void OneVNNetworkDelegateBase::RunNextCallback(
       onevn::OnHeadersReceivedCallback callback =
           headers_received_callbacks_[ctx->next_url_request_index++];
       onevn::ResponseCallback next_callback =
-          base::Bind(&OneVNNetworkDelegateBase::RunNextCallback,
+          base::Bind(&OnevnNetworkDelegateBase::RunNextCallback,
                      base::Unretained(this), request, ctx);
       rv = callback.Run(request, ctx->original_response_headers,
                         ctx->override_response_headers,
@@ -368,7 +368,7 @@ void OneVNNetworkDelegateBase::RunNextCallback(
   }
 
   net::CompletionOnceCallback wrapped_callback =
-      base::BindOnce(&OneVNNetworkDelegateBase::RunCallbackForRequestIdentifier,
+      base::BindOnce(&OnevnNetworkDelegateBase::RunCallbackForRequestIdentifier,
                      base::Unretained(this), ctx->request_identifier);
 
   if (ctx->event_type == onevn::kOnBeforeRequest) {
@@ -386,7 +386,7 @@ void OneVNNetworkDelegateBase::RunNextCallback(
             net::ERR_ABORTED);
         return;
       }
-      request->SetExtraRequestHeaderByName("X-OneVN-Block", "", true);
+      request->SetExtraRequestHeaderByName("X-Onevn-Block", "", true);
     }
     rv = ChromeNetworkDelegate::OnBeforeURLRequest(
         request, std::move(wrapped_callback), ctx->new_url);
@@ -406,24 +406,24 @@ void OneVNNetworkDelegateBase::RunNextCallback(
   }
 }
 
-void OneVNNetworkDelegateBase::OnURLRequestDestroyed(URLRequest* request) {
+void OnevnNetworkDelegateBase::OnURLRequestDestroyed(URLRequest* request) {
   if (ContainsKey(callbacks_, request->identifier())) {
     callbacks_.erase(request->identifier());
   }
   ChromeNetworkDelegate::OnURLRequestDestroyed(request);
 }
 
-bool OneVNNetworkDelegateBase::IsRequestIdentifierValid(
+bool OnevnNetworkDelegateBase::IsRequestIdentifierValid(
     uint64_t request_identifier) {
   return ContainsKey(callbacks_, request_identifier);
 }
 
-void OneVNNetworkDelegateBase::OnPreferenceChanged(
+void OnevnNetworkDelegateBase::OnPreferenceChanged(
     const std::string& pref_name) {
   UpdateAdBlockFromPref(pref_name);
 }
 
-void OneVNNetworkDelegateBase::UpdateAdBlockFromPref(
+void OnevnNetworkDelegateBase::UpdateAdBlockFromPref(
     const std::string& pref_name) {
   DCHECK_CURRENTLY_ON(BrowserThread::UI);
   PrefService* user_prefs = ProfileManager::GetActiveUserProfile()->GetPrefs();

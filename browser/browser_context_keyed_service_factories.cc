@@ -15,7 +15,7 @@ namespace onevn {
 void EnsureBrowserContextKeyedServiceFactoriesBuilt() {
   onevn_ads::AdsServiceFactory::GetInstance();
   onevn_rewards::RewardsServiceFactory::GetInstance();
-  onevn_sync::OneVNSyncServiceFactory::GetInstance();
+  onevn_sync::OnevnSyncServiceFactory::GetInstance();
   TorProfileServiceFactory::GetInstance();
   SearchEngineProviderServiceFactory::GetInstance();
 }

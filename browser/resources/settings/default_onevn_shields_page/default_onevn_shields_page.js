@@ -53,12 +53,12 @@ Polymer({
     fingerprintingControlType_: String,
   },
 
-  /** @private {?settings.DefaultOneVNShieldsBrowserProxy} */
+  /** @private {?settings.DefaultOnevnShieldsBrowserProxy} */
   browserProxy_: null,
 
   /** @override */
   created: function() {
-    this.browserProxy_ = settings.DefaultOneVNShieldsBrowserProxyImpl.getInstance();
+    this.browserProxy_ = settings.DefaultOnevnShieldsBrowserProxyImpl.getInstance();
   },
 
   /** @override */

@@ -17,7 +17,7 @@
 
 namespace onevn_rewards {
 
-std::unique_ptr<Profile> CreateOneVNRewardsProfile(const base::FilePath& path) {
+std::unique_ptr<Profile> CreateOnevnRewardsProfile(const base::FilePath& path) {
   // Bitmap fetcher service needed for rewards service
   BitmapFetcherServiceFactory::GetInstance();
   RewardsServiceFactory::GetInstance();

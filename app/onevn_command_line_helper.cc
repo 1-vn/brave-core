@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -12,22 +12,22 @@
 #include "base/command_line.h"
 #include "base/strings/string_split.h"
 
-OneVNCommandLineHelper::OneVNCommandLineHelper(base::CommandLine* command_line)
+OnevnCommandLineHelper::OnevnCommandLineHelper(base::CommandLine* command_line)
     : command_line_(*command_line) {
   Parse();
 }
 
 const std::unordered_set<std::string>&
-OneVNCommandLineHelper::enabled_features() const {
+OnevnCommandLineHelper::enabled_features() const {
   return enabled_features_;
 }
 
 const std::unordered_set<std::string>&
-OneVNCommandLineHelper::disabled_features() const {
+OnevnCommandLineHelper::disabled_features() const {
   return disabled_features_;
 }
 
-void OneVNCommandLineHelper::ParseCSV(
+void OnevnCommandLineHelper::ParseCSV(
     const std::string& value,
     std::unordered_set<std::string>* dest) const {
   DCHECK(dest);
@@ -39,7 +39,7 @@ void OneVNCommandLineHelper::ParseCSV(
                std::make_move_iterator(values.end()));
 }
 
-void OneVNCommandLineHelper::Parse() {
+void OnevnCommandLineHelper::Parse() {
   ParseCSV(command_line_.GetSwitchValueASCII(switches::kEnableFeatures),
            &enabled_features_);
   ParseCSV(command_line_.GetSwitchValueASCII(switches::kDisableFeatures),
@@ -56,12 +56,12 @@ void OneVNCommandLineHelper::Parse() {
   }
 }
 
-void OneVNCommandLineHelper::AppendSwitch(const char* switch_key) {
+void OnevnCommandLineHelper::AppendSwitch(const char* switch_key) {
   if (!command_line_.HasSwitch(switch_key))
     command_line_.AppendSwitch(switch_key);
 }
 
-void OneVNCommandLineHelper::AppendFeatures(
+void OnevnCommandLineHelper::AppendFeatures(
     const std::unordered_set<const char*>& enabled,
     const std::unordered_set<const char*>& disabled) {
   // Assuming that the two passed in sets do not intersect, but in case they do
@@ -82,7 +82,7 @@ void OneVNCommandLineHelper::AppendFeatures(
     AppendCSV(switches::kDisableFeatures, disabled_features_);
 }
 
-void OneVNCommandLineHelper::AppendCSV(
+void OnevnCommandLineHelper::AppendCSV(
     const char* switch_key,
     const std::unordered_set<std::string>& values) {
   std::stringstream ss;

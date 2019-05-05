@@ -16,7 +16,7 @@ index e4096511164296749fa9be0eccf4fdd8ab5213f5..a0913c777d5ef17fe3d43ac510c9f4d5
                                  PermissionAction::NUM);
        break;
 +    case CONTENT_SETTINGS_TYPE_AUTOPLAY:
-+      OneVNRecordPermissionAction(permission, secure_origin, action);
++      OnevnRecordPermissionAction(permission, secure_origin, action);
 +      break;
      // The user is not prompted for these permissions, thus there is no
      // permission action recorded for them.

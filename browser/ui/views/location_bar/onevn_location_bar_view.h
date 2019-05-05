@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -8,14 +8,14 @@
 
 #include "chrome/browser/ui/views/location_bar/location_bar_view.h"
 
-class OneVNActionsContainer;
-class OneVNActionsContainerTest;
-class OneVNRewardsBrowserTest;
+class OnevnActionsContainer;
+class OnevnActionsContainerTest;
+class OnevnRewardsBrowserTest;
 enum class OmniboxTint;
 
 // The purposes of this subclass are to:
-// - Add the OneVNActionsContainer to the location bar
-class OneVNLocationBarView : public LocationBarView {
+// - Add the OnevnActionsContainer to the location bar
+class OnevnLocationBarView : public LocationBarView {
  public:
   using LocationBarView::LocationBarView;
   void Init() override;
@@ -31,13 +31,13 @@ class OneVNLocationBarView : public LocationBarView {
   ContentSettingImageView* GetContentSettingsImageViewForTesting(size_t idx);
 
  private:
-  friend class ::OneVNActionsContainerTest;
-  friend class ::OneVNRewardsBrowserTest;
+  friend class ::OnevnActionsContainerTest;
+  friend class ::OnevnRewardsBrowserTest;
   void UpdateBookmarkStarVisibility() override;
   OmniboxTint GetTint() override;
-  OneVNActionsContainer* onevn_actions_ = nullptr;
+  OnevnActionsContainer* onevn_actions_ = nullptr;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNLocationBarView);
+  DISALLOW_COPY_AND_ASSIGN(OnevnLocationBarView);
 };
 
 #endif  // ONEVN_BROWSER_UI_VIEWS_LOCATION_BAR_ONEVN_LOCATION_BAR_VIEW_H_

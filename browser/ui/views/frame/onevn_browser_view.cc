@@ -11,13 +11,13 @@
 #include "onevn/browser/ui/views/update_recommended_message_box_mac.h"
 #endif
 
-void OneVNBrowserView::SetStarredState(bool is_starred) {
-  BookmarkButton* button = ((OneVNToolbarView *)toolbar())->bookmark_button();
+void OnevnBrowserView::SetStarredState(bool is_starred) {
+  BookmarkButton* button = ((OnevnToolbarView *)toolbar())->bookmark_button();
   if (button)
     button->SetToggled(is_starred);
 }
 
-void OneVNBrowserView::ShowUpdateChromeDialog() {
+void OnevnBrowserView::ShowUpdateChromeDialog() {
 #if defined(OS_MACOSX)
   // On mac, sparkle frameworks's relaunch api is used.
   UpdateRecommendedMessageBoxMac::Show(GetNativeWindow());

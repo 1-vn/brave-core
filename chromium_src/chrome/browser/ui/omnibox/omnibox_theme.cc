@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -18,7 +18,7 @@ SkColor GetOmniboxColor(OmniboxPart part,
 
 namespace {
 
-OmniboxTint OneVNTintToChromiumTint(OmniboxTint onevn_tint) {
+OmniboxTint OnevnTintToChromiumTint(OmniboxTint onevn_tint) {
   switch (onevn_tint) {
     case OmniboxTint::PRIVATE:
     case OmniboxTint::DARK:
@@ -97,6 +97,6 @@ SkColor GetOmniboxColor(OmniboxPart part,
   }
 
   // All other values, call original function
-  OmniboxTint translate_value = OneVNTintToChromiumTint(tint);
+  OmniboxTint translate_value = OnevnTintToChromiumTint(tint);
   return GetOmniboxColor_ChromiumImpl(part, translate_value, state);
 }

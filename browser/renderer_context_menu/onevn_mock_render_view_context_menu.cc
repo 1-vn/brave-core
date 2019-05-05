@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -19,7 +19,7 @@
 #include "testing/gtest/include/gtest/gtest.h"
 #include "ui/base/l10n/l10n_util.h"
 
-OneVNMockRenderViewContextMenu::MockMenuItem::MockMenuItem()
+OnevnMockRenderViewContextMenu::MockMenuItem::MockMenuItem()
     : command_id(0),
       enabled(false),
       checked(false),
@@ -27,16 +27,16 @@ OneVNMockRenderViewContextMenu::MockMenuItem::MockMenuItem()
       is_submenu(false),
       has_submenu(false) {}
 
-OneVNMockRenderViewContextMenu::MockMenuItem::MockMenuItem(
+OnevnMockRenderViewContextMenu::MockMenuItem::MockMenuItem(
     const MockMenuItem& other) = default;
 
-OneVNMockRenderViewContextMenu::MockMenuItem::~MockMenuItem() {}
+OnevnMockRenderViewContextMenu::MockMenuItem::~MockMenuItem() {}
 
-OneVNMockRenderViewContextMenu::MockMenuItem&
-OneVNMockRenderViewContextMenu::MockMenuItem::operator=(
+OnevnMockRenderViewContextMenu::MockMenuItem&
+OnevnMockRenderViewContextMenu::MockMenuItem::operator=(
     const MockMenuItem& other) = default;
 
-void OneVNMockRenderViewContextMenu::MockMenuItem::PrintMockMenuItem(
+void OnevnMockRenderViewContextMenu::MockMenuItem::PrintMockMenuItem(
     unsigned int offset) const {
   std::cout << std::setfill(' ');
   if (offset)
@@ -62,29 +62,29 @@ void OneVNMockRenderViewContextMenu::MockMenuItem::PrintMockMenuItem(
   std::cout << std::endl;
 }
 
-OneVNMockRenderViewContextMenu::OneVNMockRenderViewContextMenu(Profile* profile)
+OnevnMockRenderViewContextMenu::OnevnMockRenderViewContextMenu(Profile* profile)
     : observer_(nullptr), profile_(profile), enable_print_menu_(false) {}
 
-OneVNMockRenderViewContextMenu::~OneVNMockRenderViewContextMenu() {}
+OnevnMockRenderViewContextMenu::~OnevnMockRenderViewContextMenu() {}
 
 // SimpleMenuModel::Delegate implementation.
 
-bool OneVNMockRenderViewContextMenu::IsCommandIdChecked(int command_id) const {
+bool OnevnMockRenderViewContextMenu::IsCommandIdChecked(int command_id) const {
   return observer_->IsCommandIdChecked(command_id);
 }
 
-bool OneVNMockRenderViewContextMenu::IsCommandIdEnabled(int command_id) const {
+bool OnevnMockRenderViewContextMenu::IsCommandIdEnabled(int command_id) const {
   return observer_->IsCommandIdEnabled(command_id);
 }
 
-void OneVNMockRenderViewContextMenu::ExecuteCommand(int command_id,
+void OnevnMockRenderViewContextMenu::ExecuteCommand(int command_id,
                                                     int event_flags) {
   observer_->ExecuteCommand(command_id);
 }
 
 // RenderViewContextMenuProxy implementation.
 
-void OneVNMockRenderViewContextMenu::AddMenuItem(int command_id,
+void OnevnMockRenderViewContextMenu::AddMenuItem(int command_id,
                                                  const base::string16& title) {
   MockMenuItem item;
   item.command_id = command_id;
@@ -95,7 +95,7 @@ void OneVNMockRenderViewContextMenu::AddMenuItem(int command_id,
   items_.push_back(item);
 }
 
-void OneVNMockRenderViewContextMenu::AddCheckItem(int command_id,
+void OnevnMockRenderViewContextMenu::AddCheckItem(int command_id,
                                                   const base::string16& title) {
   MockMenuItem item;
   item.command_id = command_id;
@@ -106,7 +106,7 @@ void OneVNMockRenderViewContextMenu::AddCheckItem(int command_id,
   items_.push_back(item);
 }
 
-void OneVNMockRenderViewContextMenu::AddSeparator() {
+void OnevnMockRenderViewContextMenu::AddSeparator() {
   MockMenuItem item;
   item.command_id = -1;
   item.enabled = false;
@@ -115,7 +115,7 @@ void OneVNMockRenderViewContextMenu::AddSeparator() {
   items_.push_back(item);
 }
 
-void OneVNMockRenderViewContextMenu::AddSubMenu(int command_id,
+void OnevnMockRenderViewContextMenu::AddSubMenu(int command_id,
                                                 const base::string16& label,
                                                 ui::MenuModel* model) {
   MockMenuItem item;
@@ -147,7 +147,7 @@ void OneVNMockRenderViewContextMenu::AddSubMenu(int command_id,
   }
 }
 
-void OneVNMockRenderViewContextMenu::UpdateMenuItem(
+void OnevnMockRenderViewContextMenu::UpdateMenuItem(
     int command_id,
     bool enabled,
     bool hidden,
@@ -165,7 +165,7 @@ void OneVNMockRenderViewContextMenu::UpdateMenuItem(
          << " command_id: " << command_id;
 }
 
-void OneVNMockRenderViewContextMenu::UpdateMenuIcon(int command_id,
+void OnevnMockRenderViewContextMenu::UpdateMenuIcon(int command_id,
                                                     const gfx::Image& image) {
   for (auto& item : items_) {
     if (item.command_id == command_id) {
@@ -177,7 +177,7 @@ void OneVNMockRenderViewContextMenu::UpdateMenuIcon(int command_id,
          << " command_id: " << command_id;
 }
 
-void OneVNMockRenderViewContextMenu::RemoveMenuItem(int command_id) {
+void OnevnMockRenderViewContextMenu::RemoveMenuItem(int command_id) {
   auto it = items_.begin();
   while (it != items_.end()) {
     if (it->command_id == command_id) {
@@ -194,44 +194,44 @@ void OneVNMockRenderViewContextMenu::RemoveMenuItem(int command_id) {
   }
 }
 
-void OneVNMockRenderViewContextMenu::RemoveAdjacentSeparators() {}
+void OnevnMockRenderViewContextMenu::RemoveAdjacentSeparators() {}
 
-void OneVNMockRenderViewContextMenu::AddSpellCheckServiceItem(bool is_checked) {
+void OnevnMockRenderViewContextMenu::AddSpellCheckServiceItem(bool is_checked) {
   // Call the static method of RenderViewContextMenu which should our override
   // that doesn't add the item.
   RenderViewContextMenu::AddSpellCheckServiceItem(nullptr, is_checked);
 }
 
-void OneVNMockRenderViewContextMenu::AddAccessibilityLabelsServiceItem(
+void OnevnMockRenderViewContextMenu::AddAccessibilityLabelsServiceItem(
     bool is_checked) {
 }
 
-content::RenderViewHost* OneVNMockRenderViewContextMenu::GetRenderViewHost()
+content::RenderViewHost* OnevnMockRenderViewContextMenu::GetRenderViewHost()
     const {
   return nullptr;
 }
 
-content::BrowserContext* OneVNMockRenderViewContextMenu::GetBrowserContext()
+content::BrowserContext* OnevnMockRenderViewContextMenu::GetBrowserContext()
     const {
   return profile_;
 }
 
-content::WebContents* OneVNMockRenderViewContextMenu::GetWebContents() const {
+content::WebContents* OnevnMockRenderViewContextMenu::GetWebContents() const {
   return nullptr;
 }
 
 // Methods that don't implement inherited interfaces.
 
-void OneVNMockRenderViewContextMenu::SetObserver(
+void OnevnMockRenderViewContextMenu::SetObserver(
     RenderViewContextMenuObserver* observer) {
   observer_ = observer;
 }
 
-size_t OneVNMockRenderViewContextMenu::GetMenuSize() const {
+size_t OnevnMockRenderViewContextMenu::GetMenuSize() const {
   return items_.size();
 }
 
-bool OneVNMockRenderViewContextMenu::GetMenuItem(size_t index,
+bool OnevnMockRenderViewContextMenu::GetMenuItem(size_t index,
                                                  MockMenuItem* item) const {
   if (index >= items_.size())
     return false;
@@ -239,11 +239,11 @@ bool OneVNMockRenderViewContextMenu::GetMenuItem(size_t index,
   return true;
 }
 
-PrefService* OneVNMockRenderViewContextMenu::GetPrefs() {
+PrefService* OnevnMockRenderViewContextMenu::GetPrefs() {
   return profile_->GetPrefs();
 }
 
-void OneVNMockRenderViewContextMenu::PrintMenu(const std::string& title) const {
+void OnevnMockRenderViewContextMenu::PrintMenu(const std::string& title) const {
   if (!enable_print_menu_)
     return;
 
@@ -254,6 +254,6 @@ void OneVNMockRenderViewContextMenu::PrintMenu(const std::string& title) const {
   std::cout << std::setfill('-') << std::setw(40) << '-' << std::endl;
 }
 
-void OneVNMockRenderViewContextMenu::EnablePrintMenu(bool enable) {
+void OnevnMockRenderViewContextMenu::EnablePrintMenu(bool enable) {
   enable_print_menu_ = enable;
 }

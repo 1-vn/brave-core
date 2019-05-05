@@ -4,8 +4,8 @@
 
 #include "net/cookies/canonical_cookie.h"
 
-struct OneVNLedger;
-struct OneVNStats;
+struct OnevnLedger;
+struct OnevnStats;
 struct ImportedWindowState;
 
 #include "../../../../../chrome/browser/importer/external_process_importer_client.h"

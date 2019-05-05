@@ -1,4 +1,4 @@
-// Copyright (c) 2019 The OneVN Authors. All rights reserved.
+// Copyright (c) 2019 The Onevn Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // you can obtain one at http://mozilla.org/MPL/2.0/.
@@ -34,7 +34,7 @@ function createMenuElement (title, href, iconName) {
 function getMenuElement (templateContent, href) {
   const menuEl = templateContent.querySelector(`a[href="${href}"]`)
   if (!menuEl) {
-    console.error(`[OneVN Settings Overrides] Could not find menu item '${href}'`)
+    console.error(`[Onevn Settings Overrides] Could not find menu item '${href}'`)
   }
   return menuEl
 }
@@ -42,20 +42,20 @@ function getMenuElement (templateContent, href) {
 function getSectionElement (templateContent, sectionName) {
   const sectionEl = templateContent.querySelector(`template[if="[[showPage_(pageVisibility.${sectionName})]]"]`)
   if (!sectionEl) {
-    console.error(`[OneVN Settings Overrides] Could not find section '${sectionName}'`)
+    console.error(`[Onevn Settings Overrides] Could not find section '${sectionName}'`)
   }
   return sectionEl
 }
 
-if (!OneVNPatching) {
-  console.error('OneVNPatching was not available to onevn_settings_overrides.js')
+if (!OnevnPatching) {
+  console.error('OnevnPatching was not available to onevn_settings_overrides.js')
 }
 
 //
 // Override, extend or modify existing modules
 //
 
-const OneVNClearSettingsMenuHighlightBehavior = {
+const OnevnClearSettingsMenuHighlightBehavior = {
   ready: function() {
     // Clear menu selection after scrolling away.
     // Chromium's menu is not persistant, so does not have
@@ -103,20 +103,20 @@ const OneVNClearSettingsMenuHighlightBehavior = {
 }
 
 // Polymer Component Behavior injection (like superclasses)
-OneVNPatching.RegisterPolymerComponentBehaviors({
+OnevnPatching.RegisterPolymerComponentBehaviors({
   'settings-clear-browsing-data-dialog': [
-    OneVNClearBrowsingDataOnExitBehavior
+    OnevnClearBrowsingDataOnExitBehavior
   ],
   'settings-reset-profile-dialog': [
-    OneVNResetProfileDialogBehavior
+    OnevnResetProfileDialogBehavior
   ],
   'settings-ui': [
-    OneVNClearSettingsMenuHighlightBehavior
+    OnevnClearSettingsMenuHighlightBehavior
   ]
 })
 
 // Templates
-OneVNPatching.RegisterPolymerTemplateModifications({
+OnevnPatching.RegisterPolymerTemplateModifications({
   'settings-ui': (templateContent) => {
     // Take settings menu out of drawer and put permanently in DOM
     // TODO(petemill): If this becomes flakey on chromium rebases, consider
@@ -124,7 +124,7 @@ OneVNPatching.RegisterPolymerTemplateModifications({
     const settingsMenuTemplate = templateContent.querySelector('#drawerTemplate')
     const container = templateContent.querySelector('#container')
     if (!settingsMenuTemplate || !container) {
-      console.warn('[OneVN Settings Overrides] settings-ui: could not find all the required elements for modification', { settingsMenuTemplate, container })
+      console.warn('[Onevn Settings Overrides] settings-ui: could not find all the required elements for modification', { settingsMenuTemplate, container })
     }
     container.insertAdjacentElement('afterbegin', settingsMenuTemplate.content.querySelector('settings-menu'))
   },
@@ -135,14 +135,14 @@ OneVNPatching.RegisterPolymerTemplateModifications({
     titleEl.innerHTML = loadTimeData.getString('settings')
     const topMenuEl = templateContent.querySelector('#topMenu')
     if (!topMenuEl) {
-      console.error('[OneVN Settings Overrides] Could not find topMenu element to add title after')
+      console.error('[Onevn Settings Overrides] Could not find topMenu element to add title after')
     } else {
       topMenuEl.insertAdjacentElement('afterbegin', titleEl)
     }
     // Advanced text
     const advancedToggle = templateContent.querySelector('#advancedButton span')
     if (!advancedToggle) {
-      console.error('[OneVN Settings Overrides] Could not find advancedButton to modify text')
+      console.error('[Onevn Settings Overrides] Could not find advancedButton to modify text')
     }
     advancedToggle.innerText = loadTimeData.getString('onevnAdditionalSettingsTitle')
     // Add 'Get Started' item
@@ -182,13 +182,13 @@ OneVNPatching.RegisterPolymerTemplateModifications({
     // Remove extensions link
     const extensionsLinkEl = templateContent.querySelector('#extensionsLink')
     if (!extensionsLinkEl) {
-      console.error('[OneVN Settings Overrides] Could not find extensionsLinkEl to remove')
+      console.error('[Onevn Settings Overrides] Could not find extensionsLinkEl to remove')
     }
     extensionsLinkEl.remove()
     // Add version number to 'about' link
     const aboutEl = templateContent.querySelector('#about-menu')
     if (!aboutEl) {
-      console.error('[OneVN Settings Overrides] Could not find about-menun element')
+      console.error('[Onevn Settings Overrides] Could not find about-menun element')
     }
     const aboutTitleContent = aboutEl.innerHTML
     aboutEl.innerHTML = `
@@ -205,7 +205,7 @@ OneVNPatching.RegisterPolymerTemplateModifications({
     // Routes
     const r = settings.router.routes_
     if (!r.BASIC) {
-      console.error('[OneVN Settings Overrides] Routes: could not find BASIC page')
+      console.error('[Onevn Settings Overrides] Routes: could not find BASIC page')
     }
     r.GET_STARTED = r.BASIC.createSection('/getStarted', 'getStarted')
     r.SHIELDS = r.BASIC.createSection('/shields', 'shields')
@@ -213,13 +213,13 @@ OneVNPatching.RegisterPolymerTemplateModifications({
     r.EXTENSIONS = r.BASIC.createSection('/extensions', 'extensions')
     r.ONEVN_SYNC = r.BASIC.createSection('/onevnSync', 'onevnSync')
     if (!r.SITE_SETTINGS) {
-      console.error('[OneVN Settings Overrides] Routes: could not find SITE_SETTINGS page')
+      console.error('[Onevn Settings Overrides] Routes: could not find SITE_SETTINGS page')
     }
     r.SITE_SETTINGS_AUTOPLAY = r.SITE_SETTINGS.createChild('autoplay')
     // Autofill route is moved to advanced,
     // otherwise its sections won't show up when opened.
     if (!r.AUTOFILL || !r.ADVANCED) {
-      console.error('[OneVN Settings Overrides] Could not move autofill route to advanced route', r)
+      console.error('[Onevn Settings Overrides] Could not move autofill route to advanced route', r)
     } else {
       r.AUTOFILL.parent = r.ADVANCED
     }
@@ -227,12 +227,12 @@ OneVNPatching.RegisterPolymerTemplateModifications({
     // Entire content is wrapped in another conditional template
     const actualTemplate = templateContent.querySelector('template')
     if (!actualTemplate) {
-      console.error('[OneVN Settings Overrides] Could not find basic-page template')
+      console.error('[Onevn Settings Overrides] Could not find basic-page template')
       return
     }
     const basicPageEl = actualTemplate.content.querySelector('#basicPage')
     if (!basicPageEl) {
-      console.error('[OneVN Settings Overrides] Could not find basicPage element to insert Getting Started section')
+      console.error('[Onevn Settings Overrides] Could not find basicPage element to insert Getting Started section')
     } else {
       const sectionsFromTop = document.createElement('div')
       sectionsFromTop.innerHTML = `
@@ -277,19 +277,19 @@ OneVNPatching.RegisterPolymerTemplateModifications({
       // Advanced
       const advancedTemplate = templateContent.querySelector('template[if="[[showAdvancedSettings_(pageVisibility.advancedSettings)]]"]')
       if (!advancedTemplate) {
-        console.error('[OneVN Settings Overrides] Could not find advanced section')
+        console.error('[Onevn Settings Overrides] Could not find advanced section')
       }
       const advancedSubSectionsTemplate = advancedTemplate.content.querySelector('settings-idle-load template')
       if (!advancedSubSectionsTemplate) {
-        console.error('[OneVN Settings Overrides] Could not find advanced sub-sections container')
+        console.error('[Onevn Settings Overrides] Could not find advanced sub-sections container')
       }
       const advancedToggleTemplate = advancedTemplate.content.querySelector('template')
       if (!advancedToggleTemplate) {
-        console.error('[OneVN Settings Overrides] Could not find advanced toggle template')
+        console.error('[Onevn Settings Overrides] Could not find advanced toggle template')
       }
       const advancedToggleText = advancedToggleTemplate.content.querySelector('paper-button span')
       if (!advancedToggleText) {
-        console.error('[OneVN Settings Overrides] Could not find advanced toggle text')
+        console.error('[Onevn Settings Overrides] Could not find advanced toggle text')
       }
       advancedToggleText.innerText = loadTimeData.getString('onevnAdditionalSettingsTitle')
       // Move autofill to after privacy
@@ -310,28 +310,28 @@ OneVNPatching.RegisterPolymerTemplateModifications({
     // Import item needs to know it's the first in the section
     const importItem = templateContent.querySelector('.settings-box[on-click="onImportDataTap_"]')
     if (!importItem) {
-      console.error('[OneVN Settings Overrides] Could not find import item in people_page')
+      console.error('[Onevn Settings Overrides] Could not find import item in people_page')
     }
     importItem.classList.add('first')
   },
   'settings-payments-section': (templateContent) => {
     const manageLink = templateContent.querySelector('#manageLink')
     if (!manageLink) {
-      console.error('[OneVN Settings Overrides] Could not find manage payments link')
+      console.error('[Onevn Settings Overrides] Could not find manage payments link')
     }
     manageLink.remove()
   }
 })
 
 // Icons
-OneVNPatching.OverrideIronIcons('settings', 'onevn_settings', {
+OnevnPatching.OverrideIronIcons('settings', 'onevn_settings', {
   palette: 'appearance',
   assignment: 'autofill',
   language: 'language',
   build: 'system',
   restore: 'reset-settings'
 })
-OneVNPatching.OverrideIronIcons('cr', 'onevn_settings', {
+OnevnPatching.OverrideIronIcons('cr', 'onevn_settings', {
   security: 'privacy-security',
   search: 'search-engine',
   ['file-download']: 'download',

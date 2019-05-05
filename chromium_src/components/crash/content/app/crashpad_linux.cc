@@ -8,7 +8,7 @@
 
 namespace crashpad {
 
-class OneVNCrashpadClient {
+class OnevnCrashpadClient {
  public:
   bool StartHandlerAtCrash(const base::FilePath& handler,
                            const base::FilePath& database,
@@ -29,16 +29,16 @@ class OneVNCrashpadClient {
 
 namespace crash_reporter {
 
-crashpad::OneVNCrashpadClient& GetOneVNCrashpadClient() {
-  static crashpad::OneVNCrashpadClient* const client =
-      new crashpad::OneVNCrashpadClient();
+crashpad::OnevnCrashpadClient& GetOnevnCrashpadClient() {
+  static crashpad::OnevnCrashpadClient* const client =
+      new crashpad::OnevnCrashpadClient();
   return *client;
 }
 
 } // namespace crash_reporter
 
 #define COMPONENTS_CRASH_CONTENT_APP_CRASHPAD_H_
-#define GetCrashpadClient GetOneVNCrashpadClient
+#define GetCrashpadClient GetOnevnCrashpadClient
 #include "../../../../../../components/crash/content/app/crashpad_linux.cc"
 #undef GetCrashpadClient
 
@@ -48,7 +48,7 @@ crashpad::CrashpadClient& GetCrashpadClient();
 
 namespace crashpad {
 
-bool OneVNCrashpadClient::StartHandlerAtCrash(
+bool OnevnCrashpadClient::StartHandlerAtCrash(
     const base::FilePath& handler,
     const base::FilePath& database,
     const base::FilePath& metrics_dir,
@@ -61,7 +61,7 @@ bool OneVNCrashpadClient::StartHandlerAtCrash(
 }
 
 // static
-bool OneVNCrashpadClient::StartHandlerForClient(
+bool OnevnCrashpadClient::StartHandlerForClient(
     const base::FilePath& handler,
     const base::FilePath& database,
     const base::FilePath& metrics_dir,

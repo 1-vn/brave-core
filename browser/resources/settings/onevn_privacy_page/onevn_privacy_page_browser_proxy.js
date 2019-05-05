@@ -4,7 +4,7 @@
 
 cr.define('settings', function() {
   /** @interface */
-  class OneVNPrivacyBrowserProxy {
+  class OnevnPrivacyBrowserProxy {
     /**
      * @return {!Promise<string>}
      */
@@ -16,9 +16,9 @@ cr.define('settings', function() {
   }
 
   /**
-   * @implements {settings.OneVNPrivacyBrowserProxy}
+   * @implements {settings.OnevnPrivacyBrowserProxy}
    */
-  class OneVNPrivacyBrowserProxyImpl {
+  class OnevnPrivacyBrowserProxyImpl {
     /** @override */
     getWebRTCPolicy() {
       return cr.sendWithPromise('getWebRTCPolicy');
@@ -30,10 +30,10 @@ cr.define('settings', function() {
     }
   }
 
-  cr.addSingletonGetter(OneVNPrivacyBrowserProxyImpl);
+  cr.addSingletonGetter(OnevnPrivacyBrowserProxyImpl);
 
   return {
-    OneVNPrivacyBrowserProxy: OneVNPrivacyBrowserProxy,
-    OneVNPrivacyBrowserProxyImpl: OneVNPrivacyBrowserProxyImpl,
+    OnevnPrivacyBrowserProxy: OnevnPrivacyBrowserProxy,
+    OnevnPrivacyBrowserProxyImpl: OnevnPrivacyBrowserProxyImpl,
   };
 });

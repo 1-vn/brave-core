@@ -1,4 +1,4 @@
-/* Copyright 2016 The OneVN Authors. All rights reserved.
+/* Copyright 2016 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -17,26 +17,26 @@
 #include "onevn/components/onevn_sync/client/onevn_sync_client.h"
 #include "components/prefs/pref_change_registrar.h"
 
-FORWARD_DECLARE_TEST(OneVNSyncServiceTest, BookmarkAdded);
-FORWARD_DECLARE_TEST(OneVNSyncServiceTest, BookmarkDeleted);
-FORWARD_DECLARE_TEST(OneVNSyncServiceTest, GetSyncWords);
-FORWARD_DECLARE_TEST(OneVNSyncServiceTest, GetSeed);
-FORWARD_DECLARE_TEST(OneVNSyncServiceTest, OnDeleteDevice);
-FORWARD_DECLARE_TEST(OneVNSyncServiceTest, OnDeleteDeviceWhenOneDevice);
-FORWARD_DECLARE_TEST(OneVNSyncServiceTest, OnDeleteDeviceWhenSelfDeleted);
-FORWARD_DECLARE_TEST(OneVNSyncServiceTest, OnResetSync);
-FORWARD_DECLARE_TEST(OneVNSyncServiceTest, ClientOnGetInitData);
-FORWARD_DECLARE_TEST(OneVNSyncServiceTest, OnGetInitData);
-FORWARD_DECLARE_TEST(OneVNSyncServiceTest, OnSaveBookmarksBaseOrder);
-FORWARD_DECLARE_TEST(OneVNSyncServiceTest, OnSyncPrefsChanged);
-FORWARD_DECLARE_TEST(OneVNSyncServiceTest, OnSyncDebug);
-FORWARD_DECLARE_TEST(OneVNSyncServiceTest, OnSyncReadyAlreadyWithSync);
-FORWARD_DECLARE_TEST(OneVNSyncServiceTest, OnSyncReadyNewToSync);
-FORWARD_DECLARE_TEST(OneVNSyncServiceTest, OnGetExistingObjects);
-FORWARD_DECLARE_TEST(OneVNSyncServiceTest, BackgroundSyncStarted);
-FORWARD_DECLARE_TEST(OneVNSyncServiceTest, BackgroundSyncStopped);
+FORWARD_DECLARE_TEST(OnevnSyncServiceTest, BookmarkAdded);
+FORWARD_DECLARE_TEST(OnevnSyncServiceTest, BookmarkDeleted);
+FORWARD_DECLARE_TEST(OnevnSyncServiceTest, GetSyncWords);
+FORWARD_DECLARE_TEST(OnevnSyncServiceTest, GetSeed);
+FORWARD_DECLARE_TEST(OnevnSyncServiceTest, OnDeleteDevice);
+FORWARD_DECLARE_TEST(OnevnSyncServiceTest, OnDeleteDeviceWhenOneDevice);
+FORWARD_DECLARE_TEST(OnevnSyncServiceTest, OnDeleteDeviceWhenSelfDeleted);
+FORWARD_DECLARE_TEST(OnevnSyncServiceTest, OnResetSync);
+FORWARD_DECLARE_TEST(OnevnSyncServiceTest, ClientOnGetInitData);
+FORWARD_DECLARE_TEST(OnevnSyncServiceTest, OnGetInitData);
+FORWARD_DECLARE_TEST(OnevnSyncServiceTest, OnSaveBookmarksBaseOrder);
+FORWARD_DECLARE_TEST(OnevnSyncServiceTest, OnSyncPrefsChanged);
+FORWARD_DECLARE_TEST(OnevnSyncServiceTest, OnSyncDebug);
+FORWARD_DECLARE_TEST(OnevnSyncServiceTest, OnSyncReadyAlreadyWithSync);
+FORWARD_DECLARE_TEST(OnevnSyncServiceTest, OnSyncReadyNewToSync);
+FORWARD_DECLARE_TEST(OnevnSyncServiceTest, OnGetExistingObjects);
+FORWARD_DECLARE_TEST(OnevnSyncServiceTest, BackgroundSyncStarted);
+FORWARD_DECLARE_TEST(OnevnSyncServiceTest, BackgroundSyncStopped);
 
-class OneVNSyncServiceTest;
+class OnevnSyncServiceTest;
 
 namespace base {
 class RepeatingTimer;
@@ -57,17 +57,17 @@ using SendDeviceSyncRecordCallback = base::OnceCallback<void(const int,
                                                            const std::string&,
                                                            const std::string&)>;
 
-class OneVNSyncServiceImpl
-    : public OneVNSyncService,
+class OnevnSyncServiceImpl
+    : public OnevnSyncService,
       public SyncMessageHandler {
  public:
-  explicit OneVNSyncServiceImpl(Profile *profile);
-  ~OneVNSyncServiceImpl() override;
+  explicit OnevnSyncServiceImpl(Profile *profile);
+  ~OnevnSyncServiceImpl() override;
 
   // KeyedService overrides
   void Shutdown() override;
 
-  // OneVNSyncService messages from UI
+  // OnevnSyncService messages from UI
   void OnSetupSyncHaveCode(const std::string& sync_words,
     const std::string& device_name) override;
   void OnSetupSyncNewToSync(const std::string& device_name) override;
@@ -86,29 +86,29 @@ class OneVNSyncServiceImpl
   bool IsSyncConfigured();
   bool IsSyncInitialized();
 
-  OneVNSyncClient* GetSyncClient() override;
+  OnevnSyncClient* GetSyncClient() override;
 
  private:
-  FRIEND_TEST_ALL_PREFIXES(::OneVNSyncServiceTest, BookmarkAdded);
-  FRIEND_TEST_ALL_PREFIXES(::OneVNSyncServiceTest, BookmarkDeleted);
-  FRIEND_TEST_ALL_PREFIXES(::OneVNSyncServiceTest, GetSyncWords);
-  FRIEND_TEST_ALL_PREFIXES(::OneVNSyncServiceTest, GetSeed);
-  FRIEND_TEST_ALL_PREFIXES(::OneVNSyncServiceTest, OnDeleteDevice);
-  FRIEND_TEST_ALL_PREFIXES(::OneVNSyncServiceTest, OnDeleteDeviceWhenOneDevice);
-  FRIEND_TEST_ALL_PREFIXES(::OneVNSyncServiceTest,
+  FRIEND_TEST_ALL_PREFIXES(::OnevnSyncServiceTest, BookmarkAdded);
+  FRIEND_TEST_ALL_PREFIXES(::OnevnSyncServiceTest, BookmarkDeleted);
+  FRIEND_TEST_ALL_PREFIXES(::OnevnSyncServiceTest, GetSyncWords);
+  FRIEND_TEST_ALL_PREFIXES(::OnevnSyncServiceTest, GetSeed);
+  FRIEND_TEST_ALL_PREFIXES(::OnevnSyncServiceTest, OnDeleteDevice);
+  FRIEND_TEST_ALL_PREFIXES(::OnevnSyncServiceTest, OnDeleteDeviceWhenOneDevice);
+  FRIEND_TEST_ALL_PREFIXES(::OnevnSyncServiceTest,
                            OnDeleteDeviceWhenSelfDeleted);
-  FRIEND_TEST_ALL_PREFIXES(::OneVNSyncServiceTest, OnResetSync);
-  FRIEND_TEST_ALL_PREFIXES(::OneVNSyncServiceTest, ClientOnGetInitData);
-  FRIEND_TEST_ALL_PREFIXES(::OneVNSyncServiceTest, OnSaveBookmarksBaseOrder);
-  FRIEND_TEST_ALL_PREFIXES(::OneVNSyncServiceTest, OnGetInitData);
-  FRIEND_TEST_ALL_PREFIXES(::OneVNSyncServiceTest, OnSyncPrefsChanged);
-  FRIEND_TEST_ALL_PREFIXES(::OneVNSyncServiceTest, OnSyncDebug);
-  FRIEND_TEST_ALL_PREFIXES(::OneVNSyncServiceTest, OnSyncReadyAlreadyWithSync);
-  FRIEND_TEST_ALL_PREFIXES(::OneVNSyncServiceTest, OnSyncReadyNewToSync);
-  FRIEND_TEST_ALL_PREFIXES(::OneVNSyncServiceTest, OnGetExistingObjects);
-  FRIEND_TEST_ALL_PREFIXES(::OneVNSyncServiceTest, BackgroundSyncStarted);
-  FRIEND_TEST_ALL_PREFIXES(::OneVNSyncServiceTest, BackgroundSyncStopped);
-  friend class ::OneVNSyncServiceTest;
+  FRIEND_TEST_ALL_PREFIXES(::OnevnSyncServiceTest, OnResetSync);
+  FRIEND_TEST_ALL_PREFIXES(::OnevnSyncServiceTest, ClientOnGetInitData);
+  FRIEND_TEST_ALL_PREFIXES(::OnevnSyncServiceTest, OnSaveBookmarksBaseOrder);
+  FRIEND_TEST_ALL_PREFIXES(::OnevnSyncServiceTest, OnGetInitData);
+  FRIEND_TEST_ALL_PREFIXES(::OnevnSyncServiceTest, OnSyncPrefsChanged);
+  FRIEND_TEST_ALL_PREFIXES(::OnevnSyncServiceTest, OnSyncDebug);
+  FRIEND_TEST_ALL_PREFIXES(::OnevnSyncServiceTest, OnSyncReadyAlreadyWithSync);
+  FRIEND_TEST_ALL_PREFIXES(::OnevnSyncServiceTest, OnSyncReadyNewToSync);
+  FRIEND_TEST_ALL_PREFIXES(::OnevnSyncServiceTest, OnGetExistingObjects);
+  FRIEND_TEST_ALL_PREFIXES(::OnevnSyncServiceTest, BackgroundSyncStarted);
+  FRIEND_TEST_ALL_PREFIXES(::OnevnSyncServiceTest, BackgroundSyncStopped);
+  friend class ::OnevnSyncServiceTest;
 
   // SyncMessageHandler overrides
   void BackgroundSyncStarted(bool startup) override;
@@ -176,7 +176,7 @@ class OneVNSyncServiceImpl
 
   void SetDeviceName(const std::string& name);
 
-  std::unique_ptr<OneVNSyncClient> sync_client_;
+  std::unique_ptr<OnevnSyncClient> sync_client_;
 
   // True when is in active sync chain
   bool sync_configured_ = false;
@@ -209,7 +209,7 @@ class OneVNSyncServiceImpl
   // Registrar used to monitor the profile prefs.
   PrefChangeRegistrar profile_pref_change_registrar_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNSyncServiceImpl);
+  DISALLOW_COPY_AND_ASSIGN(OnevnSyncServiceImpl);
 };
 
 }  // namespace onevn_sync

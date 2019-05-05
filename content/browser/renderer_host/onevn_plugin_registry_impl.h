@@ -11,10 +11,10 @@ namespace content {
 
 class ResourceContext;
 
-class OneVNPluginRegistryImpl : public PluginRegistryImpl {
+class OnevnPluginRegistryImpl : public PluginRegistryImpl {
  public:
-  OneVNPluginRegistryImpl(ResourceContext* resource_context);
-  ~OneVNPluginRegistryImpl() override;
+  OnevnPluginRegistryImpl(ResourceContext* resource_context);
+  ~OnevnPluginRegistryImpl() override;
 
   void GetPlugins(bool refresh,
                   const url::Origin& main_frame_origin,

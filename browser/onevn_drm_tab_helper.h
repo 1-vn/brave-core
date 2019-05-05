@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -13,13 +13,13 @@
 #include "third_party/widevine/cdm/buildflags.h"
 
 // Reacts to DRM content detected on the renderer side.
-class OneVNDrmTabHelper final
+class OnevnDrmTabHelper final
     : public content::WebContentsObserver,
-      public content::WebContentsUserData<OneVNDrmTabHelper>,
-      public blink::mojom::OneVNDRM {
+      public content::WebContentsUserData<OnevnDrmTabHelper>,
+      public blink::mojom::OnevnDRM {
  public:
-  explicit OneVNDrmTabHelper(content::WebContents* contents);
-  ~OneVNDrmTabHelper() override;
+  explicit OnevnDrmTabHelper(content::WebContents* contents);
+  ~OnevnDrmTabHelper() override;
 
   bool ShouldShowWidevineOptIn() const;
 
@@ -27,13 +27,13 @@ class OneVNDrmTabHelper final
   void DidStartNavigation(
       content::NavigationHandle* navigation_handle) override;
 
-  // blink::mojom::OneVNDRM
+  // blink::mojom::OnevnDRM
   void OnWidevineKeySystemAccessRequest() override;
 
   WEB_CONTENTS_USER_DATA_KEY_DECL();
 
  private:
-  content::WebContentsFrameBindingSet<blink::mojom::OneVNDRM> bindings_;
+  content::WebContentsFrameBindingSet<blink::mojom::OnevnDRM> bindings_;
 
 #if BUILDFLAG(ENABLE_WIDEVINE_CDM_COMPONENT) || BUILDFLAG(BUNDLE_WIDEVINE_CDM)
   // Permission request is done only once during the navigation. If user

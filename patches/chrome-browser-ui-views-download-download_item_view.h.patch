@@ -6,7 +6,7 @@ index 90842a870ada7b54b6d85e48eca7a98a73f0642b..f1cd0a0ad24914d3d61cc5674d368703
    void OnThemeChanged() override;
  
   private:
-+  friend class OneVNDownloadItemView;
++  friend class OnevnDownloadItemView;
    FRIEND_TEST_ALL_PREFIXES(DownloadItemViewDangerousDownloadLabelTest,
                             AdjustTextAndGetSize);
  

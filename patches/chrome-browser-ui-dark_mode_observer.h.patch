@@ -15,7 +15,7 @@ index 2f81334a8f292450c57dce7be8ddff191a704aad..2ac608d5f10ff9bb0df088559cf2ce31
    bool InDarkMode() const { return in_dark_mode_; }
  
   private:
-+  friend class OneVNDarkModeObserver;
++  friend class OnevnDarkModeObserver;
    // ui::NativeThemeObserver:
    void OnNativeThemeUpdated(ui::NativeTheme* observed_theme) override;
  

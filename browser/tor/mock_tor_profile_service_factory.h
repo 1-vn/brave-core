@@ -8,7 +8,7 @@
 #include "base/memory/singleton.h"
 #include "components/keyed_service/content/browser_context_keyed_service_factory.h"
 
-class OneVNNavigationUIData;
+class OnevnNavigationUIData;
 class Profile;
 
 namespace tor {
@@ -24,7 +24,7 @@ class MockTorProfileServiceFactory : public BrowserContextKeyedServiceFactory {
   static MockTorProfileServiceFactory* GetInstance();
 
   static void SetTorNavigationUIData(Profile* profile,
-                                     OneVNNavigationUIData* data);
+                                     OnevnNavigationUIData* data);
 
  private:
   friend struct base::DefaultSingletonTraits<MockTorProfileServiceFactory>;

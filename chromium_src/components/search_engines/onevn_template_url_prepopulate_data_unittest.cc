@@ -40,7 +40,7 @@ std::string GetHostFromTemplateURLData(const TemplateURLData& data) {
 
 using namespace TemplateURLPrepopulateData;  // NOLINT
 
-const PrepopulatedEngine* const kOneVNAddedEngines[] = {
+const PrepopulatedEngine* const kOnevnAddedEngines[] = {
     &startpage,
 };
 
@@ -50,14 +50,14 @@ const std::unordered_set<std::wstring> kOverriddenEnginesNames = {L"DuckDuckGo",
 std::vector<const PrepopulatedEngine*> GetAllPrepopulatedEngines() {
   std::vector<const PrepopulatedEngine*> engines =
       TemplateURLPrepopulateData::GetAllPrepopulatedEngines();
-  engines.insert(engines.end(), std::begin(kOneVNAddedEngines),
-                 std::end(kOneVNAddedEngines));
+  engines.insert(engines.end(), std::begin(kOnevnAddedEngines),
+                 std::end(kOnevnAddedEngines));
   return engines;
 }
 
 }  // namespace
 
-class OneVNTemplateURLPrepopulateDataTest : public testing::Test {
+class OnevnTemplateURLPrepopulateDataTest : public testing::Test {
  public:
   void SetUp() override {
     TemplateURLPrepopulateData::RegisterProfilePrefs(prefs_.registry());
@@ -69,8 +69,8 @@ class OneVNTemplateURLPrepopulateDataTest : public testing::Test {
 
 // Verifies that the set of all prepopulate data doesn't contain entries with
 // duplicate keywords. This should make us notice if Chromium adds a search
-// engine in the future that OneVN already added.
-TEST_F(OneVNTemplateURLPrepopulateDataTest, UniqueKeywords) {
+// engine in the future that Onevn already added.
+TEST_F(OnevnTemplateURLPrepopulateDataTest, UniqueKeywords) {
   using PrepopulatedEngine = TemplateURLPrepopulateData::PrepopulatedEngine;
   const std::vector<const PrepopulatedEngine*> all_engines =
       ::GetAllPrepopulatedEngines();
@@ -82,7 +82,7 @@ TEST_F(OneVNTemplateURLPrepopulateDataTest, UniqueKeywords) {
 }
 
 // Verifies that engines we override are used and not the original engines.
-TEST_F(OneVNTemplateURLPrepopulateDataTest, OverriddenEngines) {
+TEST_F(OnevnTemplateURLPrepopulateDataTest, OverriddenEngines) {
   using PrepopulatedEngine = TemplateURLPrepopulateData::PrepopulatedEngine;
   const std::vector<const PrepopulatedEngine*> all_engines =
       ::GetAllPrepopulatedEngines();
@@ -95,7 +95,7 @@ TEST_F(OneVNTemplateURLPrepopulateDataTest, OverriddenEngines) {
 
 // Verifies that the set of prepopulate data for each locale
 // doesn't contain entries with duplicate ids.
-TEST_F(OneVNTemplateURLPrepopulateDataTest, UniqueIDs) {
+TEST_F(OnevnTemplateURLPrepopulateDataTest, UniqueIDs) {
   const int kCountryIds[] = {
     'D' << 8 | 'E',
     'F' << 8 | 'R',
@@ -117,7 +117,7 @@ TEST_F(OneVNTemplateURLPrepopulateDataTest, UniqueIDs) {
 }
 
 // Verifies that each prepopulate data entry has required fields
-TEST_F(OneVNTemplateURLPrepopulateDataTest, ProvidersFromPrepopulated) {
+TEST_F(OnevnTemplateURLPrepopulateDataTest, ProvidersFromPrepopulated) {
   size_t default_index;
   std::vector<std::unique_ptr<TemplateURLData>> t_urls =
       TemplateURLPrepopulateData::GetPrepopulatedEngines(&prefs_,
@@ -139,7 +139,7 @@ TEST_F(OneVNTemplateURLPrepopulateDataTest, ProvidersFromPrepopulated) {
 }
 
 // Verifies default search provider for locale
-TEST_F(OneVNTemplateURLPrepopulateDataTest, DefaultSearchProvidersForLocale) {
+TEST_F(OnevnTemplateURLPrepopulateDataTest, DefaultSearchProvidersForLocale) {
   // Use United States.
   prefs_.SetInteger(kCountryIDAtInstall, 'U' << 8 | 'S');
   size_t default_index;

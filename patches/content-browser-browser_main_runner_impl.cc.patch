@@ -16,7 +16,7 @@ index 5e6c0fff5d4d033bd8a2685c933df1bd13bc88eb..15199dde0b0fa96424a17d428e4dabee
  
 -    main_loop_.reset(
 -        new BrowserMainLoop(parameters, std::move(scoped_execution_fence_)));
-+    main_loop_.reset(new onevn::OneVNBrowserMainLoop(
++    main_loop_.reset(new onevn::OnevnBrowserMainLoop(
 +        parameters, std::move(scoped_execution_fence_)));
  
      main_loop_->Init();

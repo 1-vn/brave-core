@@ -20,7 +20,7 @@ namespace onevn_sync {
 
 class Settings;
 
-std::unique_ptr<base::Value> OneVNSyncSettingsToValue(onevn_sync::Settings *onevn_sync_settings);
+std::unique_ptr<base::Value> OnevnSyncSettingsToValue(onevn_sync::Settings *onevn_sync_settings);
 
 template <typename TEnum>
 TEnum ExtractEnum(const base::Value *val, const std::string &fileld_name,

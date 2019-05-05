@@ -9,10 +9,10 @@
 
 class Profile;
 
-class DefaultOneVNShieldsHandler : public settings::SettingsPageUIHandler {
+class DefaultOnevnShieldsHandler : public settings::SettingsPageUIHandler {
  public:
-  DefaultOneVNShieldsHandler() = default;
-  ~DefaultOneVNShieldsHandler() override = default;
+  DefaultOnevnShieldsHandler() = default;
+  ~DefaultOnevnShieldsHandler() override = default;
 
  private:
   // SettingsPageUIHandler overrides:
@@ -33,7 +33,7 @@ class DefaultOneVNShieldsHandler : public settings::SettingsPageUIHandler {
 
   Profile* profile_ = nullptr;
 
-  DISALLOW_COPY_AND_ASSIGN(DefaultOneVNShieldsHandler);
+  DISALLOW_COPY_AND_ASSIGN(DefaultOnevnShieldsHandler);
 };
 
 #endif  // ONEVN_BROWSER_UI_WEBUI_SETTINGS_DEFAULT_ONEVN_SHIELDS_HANDLER_H_

@@ -25,9 +25,9 @@ const std::string kTorClientUpdaterComponentTestBase64PublicKey =
     "+NJdHcu+jj2LIEcxmZ8TjtbK9kfWORHhA/ELjTx4ScvKfVKJgdLpxy5QOBFFnTLR"
     "QQIDAQAB";
 
-class OneVNTorClientUpdaterTest : public ExtensionBrowserTest {
+class OnevnTorClientUpdaterTest : public ExtensionBrowserTest {
 public:
-  OneVNTorClientUpdaterTest() {}
+  OnevnTorClientUpdaterTest() {}
 
   void SetUp() override {
     InitEmbeddedTestServer();
@@ -60,7 +60,7 @@ public:
   void SetComponentIdAndBase64PublicKeyForTest(
       const std::string& component_id,
       const std::string& component_base64_public_key) {
-    extensions::OneVNTorClientUpdater::SetComponentIdAndBase64PublicKeyForTest(
+    extensions::OnevnTorClientUpdater::SetComponentIdAndBase64PublicKeyForTest(
         component_id, component_base64_public_key);
   }
 
@@ -103,7 +103,7 @@ public:
 
 // Load the Tor client updater extension and verify that it correctly
 // installs the client.
-IN_PROC_BROWSER_TEST_F(OneVNTorClientUpdaterTest, TorClientInstalls) {
+IN_PROC_BROWSER_TEST_F(OnevnTorClientUpdaterTest, TorClientInstalls) {
   SetComponentIdAndBase64PublicKeyForTest(
       kTorClientUpdaterComponentTestId,
       kTorClientUpdaterComponentTestBase64PublicKey);
@@ -116,7 +116,7 @@ IN_PROC_BROWSER_TEST_F(OneVNTorClientUpdaterTest, TorClientInstalls) {
 
 // Load the Tor client updater extension and verify that we can launch
 // the client.
-IN_PROC_BROWSER_TEST_F(OneVNTorClientUpdaterTest, TorClientLaunches) {
+IN_PROC_BROWSER_TEST_F(OnevnTorClientUpdaterTest, TorClientLaunches) {
   SetComponentIdAndBase64PublicKeyForTest(
       kTorClientUpdaterComponentTestId,
       kTorClientUpdaterComponentTestBase64PublicKey);

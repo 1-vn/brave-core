@@ -1,4 +1,4 @@
-/* Copyright 2019 The OneVN Authors. All rights reserved.
+/* Copyright 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -25,7 +25,7 @@ const char kTestReferralHeaders[] = R"(
          "barrons.com"
       ],
       "headers": {
-         "X-OneVN-Partner":"dowjones",
+         "X-Onevn-Partner":"dowjones",
          "X-Invalid": "test"
       },
       "cookieNames": [
@@ -41,7 +41,7 @@ const char kTestReferralHeaders[] = R"(
          "popcrush.com"
       ],
       "headers": {
-         "X-OneVN-Partner":"townsquare"
+         "X-Onevn-Partner":"townsquare"
       },
       "cookieNames":[
       ],
@@ -51,13 +51,13 @@ const char kTestReferralHeaders[] = R"(
 
 namespace {
 
-class OneVNReferralsNetworkDelegateHelperTest : public testing::Test {
+class OnevnReferralsNetworkDelegateHelperTest : public testing::Test {
  public:
-  OneVNReferralsNetworkDelegateHelperTest()
+  OnevnReferralsNetworkDelegateHelperTest()
       : thread_bundle_(content::TestBrowserThreadBundle::IO_MAINLOOP),
         context_(new net::TestURLRequestContext(true)) {
   }
-  ~OneVNReferralsNetworkDelegateHelperTest() override {}
+  ~OnevnReferralsNetworkDelegateHelperTest() override {}
   void SetUp() override {
     context_->Init();
   }
@@ -68,7 +68,7 @@ class OneVNReferralsNetworkDelegateHelperTest : public testing::Test {
   std::unique_ptr<net::TestURLRequestContext> context_;
 };
 
-TEST_F(OneVNReferralsNetworkDelegateHelperTest,
+TEST_F(OnevnReferralsNetworkDelegateHelperTest,
        ReplaceHeadersForMatchingDomain) {
   GURL url("https://www.marketwatch.com");
   net::TestDelegate test_delegate;
@@ -85,14 +85,14 @@ TEST_F(OneVNReferralsNetworkDelegateHelperTest,
 
   net::HttpRequestHeaders headers;
   onevn::ResponseCallback callback;
-  std::shared_ptr<onevn::OneVNRequestInfo> onevn_request_info(
-      new onevn::OneVNRequestInfo());
+  std::shared_ptr<onevn::OnevnRequestInfo> onevn_request_info(
+      new onevn::OnevnRequestInfo());
   onevn_request_info->referral_headers_list = referral_headers_list;
   int ret = onevn::OnBeforeStartTransaction_ReferralsWork(
       request.get(), &headers, callback, onevn_request_info);
 
   std::string partner_header;
-  headers.GetHeader("X-OneVN-Partner", &partner_header);
+  headers.GetHeader("X-Onevn-Partner", &partner_header);
   EXPECT_EQ(partner_header, "dowjones");
 
   std::string invalid_partner_header;
@@ -102,7 +102,7 @@ TEST_F(OneVNReferralsNetworkDelegateHelperTest,
   EXPECT_EQ(ret, net::OK);
 }
 
-TEST_F(OneVNReferralsNetworkDelegateHelperTest,
+TEST_F(OnevnReferralsNetworkDelegateHelperTest,
        NoReplaceHeadersForNonMatchingDomain) {
   GURL url("https://www.google.com");
   net::TestDelegate test_delegate;
@@ -119,13 +119,13 @@ TEST_F(OneVNReferralsNetworkDelegateHelperTest,
 
   net::HttpRequestHeaders headers;
   onevn::ResponseCallback callback;
-  std::shared_ptr<onevn::OneVNRequestInfo> onevn_request_info(
-      new onevn::OneVNRequestInfo());
+  std::shared_ptr<onevn::OnevnRequestInfo> onevn_request_info(
+      new onevn::OnevnRequestInfo());
   onevn_request_info->referral_headers_list = referral_headers_list;
   int ret = onevn::OnBeforeStartTransaction_ReferralsWork(
       request.get(), &headers, callback, onevn_request_info);
 
-  EXPECT_FALSE(headers.HasHeader("X-OneVN-Partner"));
+  EXPECT_FALSE(headers.HasHeader("X-Onevn-Partner"));
 
   EXPECT_EQ(ret, net::OK);
 }

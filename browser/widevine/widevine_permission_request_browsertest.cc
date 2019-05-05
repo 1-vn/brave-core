@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -70,8 +70,8 @@ class WidevinePermissionRequestBrowserTest
     return PermissionRequestManager::FromWebContents(GetActiveWebContents());
   }
 
-  OneVNDrmTabHelper* GetOneVNDrmTabHelper() {
-    return OneVNDrmTabHelper::FromWebContents(GetActiveWebContents());
+  OnevnDrmTabHelper* GetOnevnDrmTabHelper() {
+    return OnevnDrmTabHelper::FromWebContents(GetActiveWebContents());
   }
 
   TestObserver observer;
@@ -80,7 +80,7 @@ class WidevinePermissionRequestBrowserTest
 IN_PROC_BROWSER_TEST_F(WidevinePermissionRequestBrowserTest, VisibilityTest) {
   GetPermissionRequestManager()->set_auto_response_for_test(
       PermissionRequestManager::DISMISS);
-  auto* drm_tab_helper = GetOneVNDrmTabHelper();
+  auto* drm_tab_helper = GetOnevnDrmTabHelper();
 
   // Check permission bubble is visible.
   drm_tab_helper->OnWidevineKeySystemAccessRequest();
@@ -107,7 +107,7 @@ IN_PROC_BROWSER_TEST_F(WidevinePermissionRequestBrowserTest, BubbleTest) {
   auto* permission_request_manager =
       GetPermissionRequestManager();
   EXPECT_FALSE(permission_request_manager->IsBubbleVisible());
-  GetOneVNDrmTabHelper()->OnWidevineKeySystemAccessRequest();
+  GetOnevnDrmTabHelper()->OnWidevineKeySystemAccessRequest();
   content::RunAllTasksUntilIdle();
   EXPECT_TRUE(permission_request_manager->IsBubbleVisible());
 
@@ -127,7 +127,7 @@ IN_PROC_BROWSER_TEST_F(WidevinePermissionRequestBrowserTest, BubbleTest) {
 }
 
 // OptedInPref of bundling tests are done by
-// OneVNWidevineBundleManagerBrowserTest.
+// OnevnWidevineBundleManagerBrowserTest.
 #if BUILDFLAG(ENABLE_WIDEVINE_CDM_COMPONENT)
 IN_PROC_BROWSER_TEST_F(WidevinePermissionRequestBrowserTest,
                        CheckOptedInPrefStateForComponent) {
@@ -137,7 +137,7 @@ IN_PROC_BROWSER_TEST_F(WidevinePermissionRequestBrowserTest,
 
   GetPermissionRequestManager()->set_auto_response_for_test(
       PermissionRequestManager::ACCEPT_ALL);
-  auto* drm_tab_helper = GetOneVNDrmTabHelper();
+  auto* drm_tab_helper = GetOnevnDrmTabHelper();
   drm_tab_helper->OnWidevineKeySystemAccessRequest();
   content::RunAllTasksUntilIdle();
 
@@ -169,7 +169,7 @@ IN_PROC_BROWSER_TEST_F(WidevinePermissionRequestBrowserTest,
   permission_request_manager->set_auto_response_for_test(
       PermissionRequestManager::ACCEPT_ALL);
 
-  GetOneVNDrmTabHelper()->OnWidevineKeySystemAccessRequest();
+  GetOnevnDrmTabHelper()->OnWidevineKeySystemAccessRequest();
   content::RunAllTasksUntilIdle();
   bundle_manager->InstallDone(std::string());
   content::RunAllTasksUntilIdle();

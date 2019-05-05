@@ -11,7 +11,7 @@
     },
     "events": [
       {
-        "name": "onOneVNThemeTypeChanged",
+        "name": "onOnevnThemeTypeChanged",
         "type": "function",
         "description": "Fired when onevn theme is changed",
         "parameters": [
@@ -25,7 +25,7 @@
     ],
     "functions": [
       {
-        "name": "getOneVNThemeList",
+        "name": "getOnevnThemeList",
         "type": "function",
         "description": "Get available onevn theme list",
         "parameters": [
@@ -44,7 +44,7 @@
         ]
       },
       {
-        "name": "getOneVNThemeType",
+        "name": "getOnevnThemeType",
         "type": "function",
         "description": "Get current onevn theme",
         "parameters": [

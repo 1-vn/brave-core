@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -20,10 +20,10 @@ class ComponentsUI {
                       const std::string& component_id);
 };
 
-class OneVNComponentExtension : public ComponentsUI {
+class OnevnComponentExtension : public ComponentsUI {
  public:
-  OneVNComponentExtension();
-  virtual ~OneVNComponentExtension();
+  OnevnComponentExtension();
+  virtual ~OnevnComponentExtension();
   void Register(const std::string& component_name,
                 const std::string& component_id,
                 const std::string& component_base64_public_key);

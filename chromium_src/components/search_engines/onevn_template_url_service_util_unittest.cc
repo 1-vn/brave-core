@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -35,7 +35,7 @@ std::unique_ptr<TemplateURLData> CreatePrepopulateTemplateURLData(
 
 }  // namespace
 
-class OneVNTemplateURLServiceUtilTest : public testing::Test {
+class OnevnTemplateURLServiceUtilTest : public testing::Test {
  public:
   void SetUp() override {
     TemplateURLPrepopulateData::RegisterProfilePrefs(prefs_.registry());
@@ -45,7 +45,7 @@ class OneVNTemplateURLServiceUtilTest : public testing::Test {
   sync_preferences::TestingPrefServiceSyncable prefs_;
 };
 
-TEST_F(OneVNTemplateURLServiceUtilTest, GetSearchProvidersUsingKeywordResult) {
+TEST_F(OnevnTemplateURLServiceUtilTest, GetSearchProvidersUsingKeywordResult) {
   std::vector<TemplateURLData> local_turls;
   // Create a sets of TURLs in order different from prepopulated TURLs.
   local_turls.push_back(*CreatePrepopulateTemplateURLData(511, ":sp", 1));

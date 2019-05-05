@@ -10,15 +10,15 @@
 
 // Subclasses MaterialRefresh layout though if this class start to override most
 // members, then it should directly subclass ChromeLayoutProvider.
-class OneVNLayoutProvider : public MaterialRefreshLayoutProvider {
+class OnevnLayoutProvider : public MaterialRefreshLayoutProvider {
   public:
-    OneVNLayoutProvider() = default;
-    ~OneVNLayoutProvider() override = default;
+    OnevnLayoutProvider() = default;
+    ~OnevnLayoutProvider() override = default;
 
     int GetCornerRadiusMetric(views::EmphasisMetric emphasis_metric,
                             const gfx::Size& size = gfx::Size()) const override;
   private:
-    DISALLOW_COPY_AND_ASSIGN(OneVNLayoutProvider);
+    DISALLOW_COPY_AND_ASSIGN(OnevnLayoutProvider);
 };
 
 #endif

@@ -5,50 +5,50 @@
 #include "onevn/browser/importer/onevn_in_process_importer_bridge.h"
 #include "chrome/browser/importer/external_process_importer_host.h"
 
-OneVNInProcessImporterBridge::OneVNInProcessImporterBridge(
+OnevnInProcessImporterBridge::OnevnInProcessImporterBridge(
     ProfileWriter* writer,
     base::WeakPtr<ExternalProcessImporterHost> host) :
   InProcessImporterBridge(writer, host),
-  writer_(static_cast<OneVNProfileWriter*>(writer)) {
+  writer_(static_cast<OnevnProfileWriter*>(writer)) {
 }
 
-void OneVNInProcessImporterBridge::SetCookies(
+void OnevnInProcessImporterBridge::SetCookies(
     const std::vector<net::CanonicalCookie>& cookies) {
   writer_->AddCookies(cookies);
 }
 
-void OneVNInProcessImporterBridge::UpdateStats(const OneVNStats& stats) {
+void OnevnInProcessImporterBridge::UpdateStats(const OnevnStats& stats) {
   writer_->UpdateStats(stats);
 }
 
-void OneVNInProcessImporterBridge::UpdateLedger(
-    const OneVNLedger& ledger) {
+void OnevnInProcessImporterBridge::UpdateLedger(
+    const OnevnLedger& ledger) {
   writer_->SetBridge(this);
   writer_->UpdateLedger(ledger);
 }
 
-void OneVNInProcessImporterBridge::FinishLedgerImport () {
+void OnevnInProcessImporterBridge::FinishLedgerImport () {
   NotifyItemEnded(importer::LEDGER);
   NotifyEnded();
 }
 
-void OneVNInProcessImporterBridge::Cancel () {
+void OnevnInProcessImporterBridge::Cancel () {
   host_->Cancel();
 }
 
-void OneVNInProcessImporterBridge::UpdateReferral(const OneVNReferral& referral) {
+void OnevnInProcessImporterBridge::UpdateReferral(const OnevnReferral& referral) {
   writer_->UpdateReferral(referral);
 }
 
-void OneVNInProcessImporterBridge::UpdateWindows(
+void OnevnInProcessImporterBridge::UpdateWindows(
     const ImportedWindowState& windowState) {
   // TODO: Can we just restore windows/tabs here? Do we even need to do anything with the ProfileWriter?
   writer_->UpdateWindows(windowState);
 }
 
-void OneVNInProcessImporterBridge::UpdateSettings(
+void OnevnInProcessImporterBridge::UpdateSettings(
       const SessionStoreSettings& settings) {
   writer_->UpdateSettings(settings);
 }
 
-OneVNInProcessImporterBridge::~OneVNInProcessImporterBridge() {}
+OnevnInProcessImporterBridge::~OnevnInProcessImporterBridge() {}

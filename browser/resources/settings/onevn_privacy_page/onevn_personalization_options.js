@@ -25,12 +25,12 @@ Polymer({
     webRTCPolicy_: String,
   },
 
-  /** @private {?settings.OneVNPrivacyBrowserProxy} */
+  /** @private {?settings.OnevnPrivacyBrowserProxy} */
   browserProxy_: null,
 
   /** @override */
   created: function() {
-    this.browserProxy_ = settings.OneVNPrivacyBrowserProxyImpl.getInstance();
+    this.browserProxy_ = settings.OnevnPrivacyBrowserProxyImpl.getInstance();
   },
 
   /** @override */

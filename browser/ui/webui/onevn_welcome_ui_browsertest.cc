@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -29,10 +29,10 @@ Browser* OpenNewBrowser(Profile* profile) {
 }
 }
 
-using OneVNWelcomeUIBrowserTest = InProcessBrowserTest;
+using OnevnWelcomeUIBrowserTest = InProcessBrowserTest;
 
 // Check whether startup url at first run is our welcome page.
-IN_PROC_BROWSER_TEST_F(OneVNWelcomeUIBrowserTest, PRE_StartupURLTest) {
+IN_PROC_BROWSER_TEST_F(OnevnWelcomeUIBrowserTest, PRE_StartupURLTest) {
   Browser* new_browser = OpenNewBrowser(browser()->profile());
   ASSERT_TRUE(new_browser);
   TabStripModel* tab_strip = new_browser->tab_strip_model();
@@ -47,7 +47,7 @@ IN_PROC_BROWSER_TEST_F(OneVNWelcomeUIBrowserTest, PRE_StartupURLTest) {
 }
 
 // Check wheter startup url is not welcome ui at second run.
-IN_PROC_BROWSER_TEST_F(OneVNWelcomeUIBrowserTest, StartupURLTest) {
+IN_PROC_BROWSER_TEST_F(OnevnWelcomeUIBrowserTest, StartupURLTest) {
   Browser* new_browser = OpenNewBrowser(browser()->profile());
   ASSERT_TRUE(new_browser);
   TabStripModel* tab_strip = new_browser->tab_strip_model();

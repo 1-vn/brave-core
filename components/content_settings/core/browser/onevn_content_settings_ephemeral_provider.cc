@@ -15,7 +15,7 @@ bool IsShieldsResourceID(
       resource_identifier == onevn_shields::kHTTPUpgradableResources ||
       resource_identifier == onevn_shields::kJavaScript ||
       resource_identifier == onevn_shields::kFingerprinting ||
-      resource_identifier == onevn_shields::kOneVNShields ||
+      resource_identifier == onevn_shields::kOnevnShields ||
       resource_identifier == onevn_shields::kReferrers ||
       resource_identifier == onevn_shields::kCookies) {
     return true;
@@ -28,7 +28,7 @@ bool IsShieldsResourceID(
 
 namespace content_settings {
 
-bool OneVNEphemeralProvider::SetWebsiteSetting(
+bool OnevnEphemeralProvider::SetWebsiteSetting(
     const ContentSettingsPattern& primary_pattern,
     const ContentSettingsPattern& secondary_pattern,
     ContentSettingsType content_type,

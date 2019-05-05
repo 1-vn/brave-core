@@ -27,14 +27,14 @@ using ReadyCallback = base::Callback<void(const base::FilePath&,
 
 namespace onevn {
 
-class OneVNComponentInstallerPolicy :
+class OnevnComponentInstallerPolicy :
     public component_updater::ComponentInstallerPolicy {
  public:
-  explicit OneVNComponentInstallerPolicy(const std::string& name,
+  explicit OnevnComponentInstallerPolicy(const std::string& name,
       const std::string& base64_public_key,
       const ReadyCallback& ready_callback);
 
-  ~OneVNComponentInstallerPolicy() override;
+  ~OnevnComponentInstallerPolicy() override;
 
  private:
   // The following methods override ComponentInstallerPolicy
@@ -61,7 +61,7 @@ class OneVNComponentInstallerPolicy :
   std::string public_key_;
   ReadyCallback ready_callback_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNComponentInstallerPolicy);
+  DISALLOW_COPY_AND_ASSIGN(OnevnComponentInstallerPolicy);
 };
 
 void RegisterComponent(component_updater::ComponentUpdateService* cus,

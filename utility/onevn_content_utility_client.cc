@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -26,10 +26,10 @@
 
 #include "content/public/utility/utility_thread.h"
 
-OneVNContentUtilityClient::OneVNContentUtilityClient()
+OnevnContentUtilityClient::OnevnContentUtilityClient()
     : ChromeContentUtilityClient() {}
 
-OneVNContentUtilityClient::~OneVNContentUtilityClient() = default;
+OnevnContentUtilityClient::~OnevnContentUtilityClient() = default;
 
 namespace {
 
@@ -64,7 +64,7 @@ std::unique_ptr<service_manager::Service> CreateBatLedgerService(
 
 }  // namespace
 
-bool OneVNContentUtilityClient::HandleServiceRequest(
+bool OnevnContentUtilityClient::HandleServiceRequest(
     const std::string& service_name,
     service_manager::mojom::ServiceRequest request) {
 

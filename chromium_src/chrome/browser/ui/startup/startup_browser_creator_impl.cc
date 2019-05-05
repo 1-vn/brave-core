@@ -1,9 +1,9 @@
 #include "chrome/browser/ui/startup/google_api_keys_infobar_delegate.h"
 #include "components/infobars/core/confirm_infobar_delegate.h"
 
-#define GoogleApiKeysInfoBarDelegate OneVNGoogleKeysInfoBarDelegate
+#define GoogleApiKeysInfoBarDelegate OnevnGoogleKeysInfoBarDelegate
 
-class OneVNGoogleKeysInfoBarDelegate {
+class OnevnGoogleKeysInfoBarDelegate {
  public:
    static void Create(InfoBarService* infobar_service) {
      // lulz

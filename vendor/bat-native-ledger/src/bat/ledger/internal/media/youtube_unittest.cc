@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -547,11 +547,11 @@ TEST(MediaYouTubeTest, GetChannelId) {
   std::string channel_id(MediaYouTube::GetChannelId(data));
   EXPECT_TRUE(channel_id.empty());
 
-  data = "<div id=\"microformat\"><title>OneVN</title><link rel=\"canonical\" h"
+  data = "<div id=\"microformat\"><title>Onevn</title><link rel=\"canonical\" h"
          "ref=\"https://www.youtube.com/channel/UCFNTTISby1c_H-rm5Ww5rZg\"><met"
          "a property=\"og:site_name\" content=\"YouTube\"><meta property=\"og:u"
          "rl\" content=\"https://www.youtube.com/channel/UCFNTTISby1c_H-rm5Ww5r"
-         "Zg\"><meta property=\"og:title\" content=\"OneVN\"><meta property=\"o"
+         "Zg\"><meta property=\"og:title\" content=\"Onevn\"><meta property=\"o"
          "g:description\" content=\"\">";
   channel_id = MediaYouTube::GetChannelId(data);
   std::string expected_channel_id("UCFNTTISby1c_H-rm5Ww5rZg");

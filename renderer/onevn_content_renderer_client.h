@@ -7,14 +7,14 @@
 
 #include "chrome/renderer/chrome_content_renderer_client.h"
 
-class OneVNContentRendererClient : public ChromeContentRendererClient {
+class OnevnContentRendererClient : public ChromeContentRendererClient {
  public:
-  OneVNContentRendererClient();
-  ~OneVNContentRendererClient() override;
+  OnevnContentRendererClient();
+  ~OnevnContentRendererClient() override;
   void SetRuntimeFeaturesDefaultsBeforeBlinkInitialization() override;
 
  private:
-  DISALLOW_COPY_AND_ASSIGN(OneVNContentRendererClient);
+  DISALLOW_COPY_AND_ASSIGN(OnevnContentRendererClient);
 };
 
 #endif  // ONEVN_RENDERER_ONEVN_CONTENT_RENDERER_CLIENT_H_

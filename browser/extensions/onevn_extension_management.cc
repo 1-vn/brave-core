@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -23,34 +23,34 @@
 
 namespace extensions {
 
-OneVNExtensionManagement::OneVNExtensionManagement(Profile* profile)
+OnevnExtensionManagement::OnevnExtensionManagement(Profile* profile)
     : ExtensionManagement(profile),
       extension_registry_observer_(this) {
   extension_registry_observer_.Add(ExtensionRegistry::Get(
         static_cast<content::BrowserContext*>(profile)));
   providers_.push_back(
-      std::make_unique<OneVNExtensionProvider>());
-  RegisterOneVNExtensions();
+      std::make_unique<OnevnExtensionProvider>());
+  RegisterOnevnExtensions();
 }
 
-OneVNExtensionManagement::~OneVNExtensionManagement() {
+OnevnExtensionManagement::~OnevnExtensionManagement() {
 }
 
-void OneVNExtensionManagement::RegisterOneVNExtensions() {
+void OnevnExtensionManagement::RegisterOnevnExtensions() {
   const base::CommandLine& command_line =
       *base::CommandLine::ForCurrentProcess();
   if (!command_line.HasSwitch(switches::kDisableTorClientUpdaterExtension))
     g_onevn_browser_process->tor_client_updater()->Register();
 }
 
-void OneVNExtensionManagement::OnExtensionLoaded(
+void OnevnExtensionManagement::OnExtensionLoaded(
     content::BrowserContext* browser_context,
     const Extension* extension) {
   if (extension->id() == ipfs_companion_extension_id)
     pref_service_->SetBoolean(kIPFSCompanionEnabled, true);
 }
 
-void OneVNExtensionManagement::OnExtensionUnloaded(
+void OnevnExtensionManagement::OnExtensionUnloaded(
     content::BrowserContext* browser_context,
     const Extension* extension,
     UnloadedExtensionReason reason) {

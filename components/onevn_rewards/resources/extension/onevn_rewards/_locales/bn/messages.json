@@ -1,6 +1,6 @@
 {
   "onevnRewards": {
-    "message": "OneVN রিওয়ার্ডস",
+    "message": "Onevn রিওয়ার্ডস",
     "description": "Title in welcome screen for the panel"
   },
   "welcomeButtonTextOne": {
@@ -16,7 +16,7 @@
     "description": "Entry text for welcome screen in the panel, existing user"
   },
   "welcomeDescTwo": {
-    "message": "আপনি এখন গোপনীয়তা কেন্দ্রিক OneVN বিজ্ঞাপন দেখে টোকেন উপার্জন করতে পারেন| আপনার অবদান একই থাকে|",
+    "message": "আপনি এখন গোপনীয়তা কেন্দ্রিক Onevn বিজ্ঞাপন দেখে টোকেন উপার্জন করতে পারেন| আপনার অবদান একই থাকে|",
     "description": "Entry text for welcome screen in the panel, new user"
   },
   "welcomeFooterTextOne": {
@@ -28,7 +28,7 @@
     "description": "Link in the footer (takes you to rewards settings page) for welcome screen in the panel, new user"
   },
   "welcomeHeaderOne": {
-    "message": "আমরা OneVN পুরস্কারগুলিকে একটি বড় আপগ্রেড প্রদান করেছি|",
+    "message": "আমরা Onevn পুরস্কারগুলিকে একটি বড় আপগ্রেড প্রদান করেছি|",
     "description": "Main header title for welcome screen in the panel, existing user"
   },
   "welcomeHeaderTwo": {
@@ -48,7 +48,7 @@
     "description": "The whole string is 'Enable tips on YouTube for like.'"
   },
   "verifiedPublisher": {
-    "message": "OneVN দ্বারা যাচাই করা প্রকাশক",
+    "message": "Onevn দ্বারা যাচাই করা প্রকাশক",
     "description": "Tells user that this particular publisher is verified publisher"
   },
   "rewardsContributeAttentionScore": {
@@ -164,7 +164,7 @@
     "description": "Used in notification to dismiss notification"
   },
   "onevnAdsTitle": {
-    "message": "OneVN বিজ্ঞাপন",
+    "message": "Onevn বিজ্ঞাপন",
     "description": "Notification title when we display info about ads"
   },
   "onevnContributeTitle": {
@@ -194,11 +194,11 @@
     "description": "Notification title when we ask user to backup wallet"
   },
   "backupWalletNotification": {
-    "message": "অনুগ্রহ করে আপনার OneVN ওয়ালেটটিতে ব্যাকআপ নিন।",
+    "message": "অনুগ্রহ করে আপনার Onevn ওয়ালেটটিতে ব্যাকআপ নিন।",
     "description": "Description for backup wallet notification"
   },
   "insufficientFundsNotification": {
-    "message": "আপনার OneVN পুরস্কারের অ্যাকাউন্ট একটি জমার জন্য অপেক্ষা করছে।",
+    "message": "আপনার Onevn পুরস্কারের অ্যাকাউন্ট একটি জমার জন্য অপেক্ষা করছে।",
     "description": "Description for new insufficient funds notification"
   },
   "insufficientFunds": {
@@ -270,7 +270,7 @@
     "description": "Button text for clearing the error."
   },
   "grantGeneralErrorText": {
-    "message": "OneVN পুরস্কারে একটি সমস্যা হচ্ছে। অনুগ্রহ করে পরে আবার চেষ্টা করুন।",
+    "message": "Onevn পুরস্কারে একটি সমস্যা হচ্ছে। অনুগ্রহ করে পরে আবার চেষ্টা করুন।",
     "description": "Error text when user is having problems claiming a grant."
   },
   "grantGeneralErrorTitle": {
@@ -294,7 +294,7 @@
     "description": "Status of the publisher shown in the panel"
   },
   "unVerifiedText": {
-    "message": "এই নির্মাতাটি OneVN ব্যবহারকারীদের থেকে অবদানগুলি পেতে এখনও সাইন আপ করেনি। আপনার পাঠানো যে কোনও টিপস যাচাই না হওয়া অবধি আপনার ওয়ালেটে থেকে যাবে।",
+    "message": "এই নির্মাতাটি Onevn ব্যবহারকারীদের থেকে অবদানগুলি পেতে এখনও সাইন আপ করেনি। আপনার পাঠানো যে কোনও টিপস যাচাই না হওয়া অবধি আপনার ওয়ালেটে থেকে যাবে।",
     "description": "Notice about unverified publisher."
   },
   "unVerifiedTextMore": {
@@ -322,7 +322,7 @@
     "description": "Text for Panel's disabled state"
   },
   "disabledPanelTitle": {
-    "message": "OneVN রিওয়ার্ডস হল",
+    "message": "Onevn রিওয়ার্ডস হল",
     "description": "Title for Panel's disabled state"
   },
   "walletFailedTitle": {
@@ -358,7 +358,7 @@
     "description": "Text block for wallet disabled panel"
   },
   "enableRewards": {
-    "message": "OneVN রিওয়ার্ডস সক্ষম করুন",
+    "message": "Onevn রিওয়ার্ডস সক্ষম করুন",
     "description": "Subtitle for wallet disabled panel"
   },
   "privacyPolicy": {
@@ -366,7 +366,7 @@
     "description": "Privacy Policy"
   },
   "serviceText": {
-    "message": "'OneVN পুরস্কারগুলি সক্রিয় করুন' এ ক্লিক করে, আপনি নির্দেশ করছেন যে আপনি এটি পড়েছেন এবং গোপনীয়তা নীতির সাথে",
+    "message": "'Onevn পুরস্কারগুলি সক্রিয় করুন' এ ক্লিক করে, আপনি নির্দেশ করছেন যে আপনি এটি পড়েছেন এবং গোপনীয়তা নীতির সাথে",
     "description": "Terms of service main text"
   },
   "termsOfService": {

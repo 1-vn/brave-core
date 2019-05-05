@@ -4,14 +4,14 @@
 
 #include "onevn/common/importer/onevn_ledger.h"
 
-OneVNPublisher::OneVNPublisher() {}
+OnevnPublisher::OnevnPublisher() {}
 
-OneVNPublisher::OneVNPublisher(const OneVNPublisher& other) = default;
+OnevnPublisher::OnevnPublisher(const OnevnPublisher& other) = default;
 
-OneVNPublisher::~OneVNPublisher() {}
+OnevnPublisher::~OnevnPublisher() {}
 
-OneVNLedger::OneVNLedger() {}
+OnevnLedger::OnevnLedger() {}
 
-OneVNLedger::OneVNLedger(const OneVNLedger& other) = default;
+OnevnLedger::OnevnLedger(const OnevnLedger& other) = default;
 
-OneVNLedger::~OneVNLedger() {}
+OnevnLedger::~OnevnLedger() {}

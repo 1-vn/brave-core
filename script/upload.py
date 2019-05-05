@@ -61,7 +61,7 @@ def main():
         release = create_release_draft(repo, tag)
 
     print('[INFO] Uploading release {}'.format(release['tag_name']))
-    # Upload OneVN with GitHub Releases API.
+    # Upload Onevn with GitHub Releases API.
     upload_onevn(repo, release, os.path.join(dist_dir(), DIST_NAME),
                  force=args.force)
     upload_onevn(repo, release, os.path.join(dist_dir(), SYMBOLS_NAME),
@@ -162,12 +162,12 @@ def get_onevn_packages(dir, channel, version):
             file_path = os.path.join(dir, file)
             if PLATFORM == 'darwin':
                 if channel_capitalized == 'Release':
-                    file_desired = 'OneVN-Browser.dmg'
-                    file_desired_pkg = 'OneVN-Browser.pkg'
-                    if file == 'OneVN Browser.dmg':
+                    file_desired = 'Onevn-Browser.dmg'
+                    file_desired_pkg = 'Onevn-Browser.pkg'
+                    if file == 'Onevn Browser.dmg':
                         filecopy(file_path, file_desired)
                         pkgs.append(file_desired)
-                    elif file == 'OneVN Browser.pkg':
+                    elif file == 'Onevn Browser.pkg':
                         filecopy(file_path, file_desired_pkg)
                         pkgs.append(file_desired_pkg)
                     elif file == file_desired and file_desired not in pkgs:
@@ -175,9 +175,9 @@ def get_onevn_packages(dir, channel, version):
                     elif file == file_desired_pkg and file_desired_pkg not in pkgs:
                         pkgs.append(file_desired_pkg)
                 else:
-                    file_desired = ('OneVN-Browser-' +
+                    file_desired = ('Onevn-Browser-' +
                                     channel_capitalized + '.dmg')
-                    if re.match(r'OneVN Browser ' +
+                    if re.match(r'Onevn Browser ' +
                                 channel_capitalized + r'.*\.dmg$', file):
                         filecopy(file_path, file_desired)
                         pkgs.append(file_desired)
@@ -200,91 +200,91 @@ def get_onevn_packages(dir, channel, version):
                 if get_target_arch() == 'x64':
                     if channel_capitalized == 'Release':
                         file_desired_standalone = (
-                            'OneVNBrowserStandaloneSetup.exe')
+                            'OnevnBrowserStandaloneSetup.exe')
                         file_desired_standalone_silent = (
-                            'OneVNBrowserStandaloneSilentSetup.exe')
+                            'OnevnBrowserStandaloneSilentSetup.exe')
                         file_desired_standalone_untagged = (
-                            'OneVNBrowserStandaloneUntaggedSetup.exe')
-                        file_desired_stub = 'OneVNBrowserSetup.exe'
-                        file_desired_stub_silent = 'OneVNBrowserSilentSetup.exe'
-                        file_desired_stub_untagged = 'OneVNBrowserUntaggedSetup.exe'
-                        if re.match(r'OneVNBrowserSetup_.*\.exe', file):
+                            'OnevnBrowserStandaloneUntaggedSetup.exe')
+                        file_desired_stub = 'OnevnBrowserSetup.exe'
+                        file_desired_stub_silent = 'OnevnBrowserSilentSetup.exe'
+                        file_desired_stub_untagged = 'OnevnBrowserUntaggedSetup.exe'
+                        if re.match(r'OnevnBrowserSetup_.*\.exe', file):
                             filecopy(file_path, file_desired_stub)
                             pkgs.append(file_desired_stub)
-                        elif re.match(r'OneVNBrowserSilentSetup_.*\.exe', file):
+                        elif re.match(r'OnevnBrowserSilentSetup_.*\.exe', file):
                             filecopy(file_path, file_desired_stub_silent)
                             pkgs.append(file_desired_stub_silent)
-                        elif re.match(r'OneVNBrowserUntaggedSetup_.*\.exe', file):
+                        elif re.match(r'OnevnBrowserUntaggedSetup_.*\.exe', file):
                             filecopy(file_path, file_desired_stub_untagged)
                             pkgs.append(file_desired_stub_untagged)
                         elif re.match(
-                                r'OneVNBrowserStandaloneSetup_.*\.exe',
+                                r'OnevnBrowserStandaloneSetup_.*\.exe',
                                 file):
                             filecopy(file_path, file_desired_standalone)
                             pkgs.append(file_desired_standalone)
                         elif re.match(
-                                r'OneVNBrowserStandaloneSilentSetup_.*\.exe',
+                                r'OnevnBrowserStandaloneSilentSetup_.*\.exe',
                                 file):
                             filecopy(file_path, file_desired_standalone_silent)
                             pkgs.append(file_desired_standalone_silent)
                         elif re.match(
-                                r'OneVNBrowserStandaloneUntaggedSetup_.*\.exe',
+                                r'OnevnBrowserStandaloneUntaggedSetup_.*\.exe',
                                 file):
                             filecopy(file_path, file_desired_standalone_untagged)
                             pkgs.append(file_desired_standalone_untagged)
                     elif channel_capitalized == 'Beta':
                         file_desired_standalone = (
-                            'OneVNBrowserStandaloneBetaSetup.exe')
+                            'OnevnBrowserStandaloneBetaSetup.exe')
                         file_desired_standalone_silent = (
-                            'OneVNBrowserStandaloneSilentBetaSetup.exe')
+                            'OnevnBrowserStandaloneSilentBetaSetup.exe')
                         file_desired_standalone_untagged = (
-                            'OneVNBrowserStandaloneUntaggedBetaSetup.exe')
-                        file_desired_stub = 'OneVNBrowserBetaSetup.exe'
-                        file_desired_stub_silent = 'OneVNBrowserSilentBetaSetup.exe'
-                        file_desired_stub_untagged = 'OneVNBrowserUntaggedBetaSetup.exe'
+                            'OnevnBrowserStandaloneUntaggedBetaSetup.exe')
+                        file_desired_stub = 'OnevnBrowserBetaSetup.exe'
+                        file_desired_stub_silent = 'OnevnBrowserSilentBetaSetup.exe'
+                        file_desired_stub_untagged = 'OnevnBrowserUntaggedBetaSetup.exe'
                     elif channel_capitalized == 'Dev':
                         file_desired_standalone = (
-                            'OneVNBrowserStandaloneDevSetup.exe')
+                            'OnevnBrowserStandaloneDevSetup.exe')
                         file_desired_standalone_silent = (
-                            'OneVNBrowserStandaloneSilentDevSetup.exe')
+                            'OnevnBrowserStandaloneSilentDevSetup.exe')
                         file_desired_standalone_untagged = (
-                            'OneVNBrowserStandaloneUntaggedDevSetup.exe')
-                        file_desired_stub = 'OneVNBrowserDevSetup.exe'
-                        file_desired_stub_silent = 'OneVNBrowserSilentDevSetup.exe'
-                        file_desired_stub_untagged = 'OneVNBrowserUntaggedDevSetup.exe'
+                            'OnevnBrowserStandaloneUntaggedDevSetup.exe')
+                        file_desired_stub = 'OnevnBrowserDevSetup.exe'
+                        file_desired_stub_silent = 'OnevnBrowserSilentDevSetup.exe'
+                        file_desired_stub_untagged = 'OnevnBrowserUntaggedDevSetup.exe'
                     elif channel_capitalized == 'Nightly':
                         file_desired_standalone = (
-                            'OneVNBrowserStandaloneNightlySetup.exe')
+                            'OnevnBrowserStandaloneNightlySetup.exe')
                         file_desired_standalone_silent = (
-                            'OneVNBrowserStandaloneSilentNightlySetup.exe')
+                            'OnevnBrowserStandaloneSilentNightlySetup.exe')
                         file_desired_standalone_untagged = (
-                            'OneVNBrowserStandaloneUntaggedNightlySetup.exe')
-                        file_desired_stub = 'OneVNBrowserNightlySetup.exe'
-                        file_desired_stub_silent = 'OneVNBrowserSilentNightlySetup.exe'
-                        file_desired_stub_untagged = 'OneVNBrowserUntaggedNightlySetup.exe'
-                    if re.match(r'OneVNBrowser' + channel_capitalized +
+                            'OnevnBrowserStandaloneUntaggedNightlySetup.exe')
+                        file_desired_stub = 'OnevnBrowserNightlySetup.exe'
+                        file_desired_stub_silent = 'OnevnBrowserSilentNightlySetup.exe'
+                        file_desired_stub_untagged = 'OnevnBrowserUntaggedNightlySetup.exe'
+                    if re.match(r'OnevnBrowser' + channel_capitalized +
                                 r'Setup_.*\.exe', file):
                         filecopy(file_path, file_desired_stub)
                         pkgs.append(file_desired_stub)
-                    elif re.match(r'OneVNBrowserSilent' + channel_capitalized +
+                    elif re.match(r'OnevnBrowserSilent' + channel_capitalized +
                                   r'Setup_.*\.exe', file):
                         filecopy(file_path, file_desired_stub_silent)
                         pkgs.append(file_desired_stub_silent)
-                    elif re.match(r'OneVNBrowserUntagged' + channel_capitalized +
+                    elif re.match(r'OnevnBrowserUntagged' + channel_capitalized +
                                   r'Setup_.*\.exe', file):
                         filecopy(file_path, file_desired_stub_untagged)
                         pkgs.append(file_desired_stub_untagged)
-                    elif re.match(r'OneVNBrowserStandalone' +
+                    elif re.match(r'OnevnBrowserStandalone' +
                                   channel_capitalized + r'Setup_.*\.exe',
                                   file):
                         filecopy(file_path, file_desired_standalone)
                         pkgs.append(file_desired_standalone)
-                    elif re.match(r'OneVNBrowserStandaloneSilent' +
+                    elif re.match(r'OnevnBrowserStandaloneSilent' +
                                   channel_capitalized + r'Setup_.*\.exe',
                                   file):
                         filecopy(file_path, file_desired_standalone_silent)
                         pkgs.append(file_desired_standalone_silent)
-                    elif re.match(r'OneVNBrowserStandaloneUntagged' +
+                    elif re.match(r'OnevnBrowserStandaloneUntagged' +
                                   channel_capitalized + r'Setup_.*\.exe',
                                   file):
                         filecopy(file_path, file_desired_standalone_untagged)
@@ -292,91 +292,91 @@ def get_onevn_packages(dir, channel, version):
                 else:
                     if channel_capitalized == 'Release':
                         file_desired_standalone = (
-                            'OneVNBrowserStandaloneSetup32.exe')
+                            'OnevnBrowserStandaloneSetup32.exe')
                         file_desired_standalone_silent = (
-                            'OneVNBrowserStandaloneSilentSetup32.exe')
+                            'OnevnBrowserStandaloneSilentSetup32.exe')
                         file_desired_standalone_untagged = (
-                            'OneVNBrowserStandaloneUntaggedSetup32.exe')
-                        file_desired_stub = 'OneVNBrowserSetup32.exe'
-                        file_desired_stub_silent = 'OneVNBrowserSilentSetup32.exe'
-                        file_desired_stub_untagged = 'OneVNBrowserUntaggedSetup32.exe'
-                        if re.match(r'OneVNBrowserSetup32_.*\.exe', file):
+                            'OnevnBrowserStandaloneUntaggedSetup32.exe')
+                        file_desired_stub = 'OnevnBrowserSetup32.exe'
+                        file_desired_stub_silent = 'OnevnBrowserSilentSetup32.exe'
+                        file_desired_stub_untagged = 'OnevnBrowserUntaggedSetup32.exe'
+                        if re.match(r'OnevnBrowserSetup32_.*\.exe', file):
                             filecopy(file_path, file_desired_stub)
                             pkgs.append(file_desired_stub)
-                        elif re.match(r'OneVNBrowserSilentSetup32_.*\.exe', file):
+                        elif re.match(r'OnevnBrowserSilentSetup32_.*\.exe', file):
                             filecopy(file_path, file_desired_stub_silent)
                             pkgs.append(file_desired_stub_silent)
-                        elif re.match(r'OneVNBrowserUntaggedSetup32_.*\.exe', file):
+                        elif re.match(r'OnevnBrowserUntaggedSetup32_.*\.exe', file):
                             filecopy(file_path, file_desired_stub_untagged)
                             pkgs.append(file_desired_stub_untagged)
                         elif re.match(
-                                r'OneVNBrowserStandaloneSetup32_.*\.exe',
+                                r'OnevnBrowserStandaloneSetup32_.*\.exe',
                                 file):
                             filecopy(file_path, file_desired_standalone)
                             pkgs.append(file_desired_standalone)
                         elif re.match(
-                                r'OneVNBrowserStandaloneSilentSetup32_.*\.exe',
+                                r'OnevnBrowserStandaloneSilentSetup32_.*\.exe',
                                 file):
                             filecopy(file_path, file_desired_standalone_silent)
                             pkgs.append(file_desired_standalone_silent)
                         elif re.match(
-                                r'OneVNBrowserStandaloneUntaggedSetup32_.*\.exe',
+                                r'OnevnBrowserStandaloneUntaggedSetup32_.*\.exe',
                                 file):
                             filecopy(file_path, file_desired_standalone_untagged)
                             pkgs.append(file_desired_standalone_untagged)
                     elif channel_capitalized == 'Beta':
                         file_desired_standalone = (
-                            'OneVNBrowserStandaloneBetaSetup32.exe')
+                            'OnevnBrowserStandaloneBetaSetup32.exe')
                         file_desired_standalone_silent = (
-                            'OneVNBrowserStandaloneSilentBetaSetup32.exe')
+                            'OnevnBrowserStandaloneSilentBetaSetup32.exe')
                         file_desired_standalone_untagged = (
-                            'OneVNBrowserStandaloneUntaggedBetaSetup32.exe')
-                        file_desired_stub = 'OneVNBrowserBetaSetup32.exe'
-                        file_desired_stub_silent = 'OneVNBrowserSilentBetaSetup32.exe'
-                        file_desired_stub_untagged = 'OneVNBrowserUntaggedBetaSetup32.exe'
+                            'OnevnBrowserStandaloneUntaggedBetaSetup32.exe')
+                        file_desired_stub = 'OnevnBrowserBetaSetup32.exe'
+                        file_desired_stub_silent = 'OnevnBrowserSilentBetaSetup32.exe'
+                        file_desired_stub_untagged = 'OnevnBrowserUntaggedBetaSetup32.exe'
                     elif channel_capitalized == 'Dev':
                         file_desired_standalone = (
-                            'OneVNBrowserStandaloneDevSetup32.exe')
+                            'OnevnBrowserStandaloneDevSetup32.exe')
                         file_desired_standalone_silent = (
-                            'OneVNBrowserStandaloneSilentDevSetup32.exe')
+                            'OnevnBrowserStandaloneSilentDevSetup32.exe')
                         file_desired_standalone_untagged = (
-                            'OneVNBrowserStandaloneUntaggedDevSetup32.exe')
-                        file_desired_stub = 'OneVNBrowserDevSetup32.exe'
-                        file_desired_stub_silent = 'OneVNBrowserSilentDevSetup32.exe'
-                        file_desired_stub_untagged = 'OneVNBrowserUntaggedDevSetup32.exe'
+                            'OnevnBrowserStandaloneUntaggedDevSetup32.exe')
+                        file_desired_stub = 'OnevnBrowserDevSetup32.exe'
+                        file_desired_stub_silent = 'OnevnBrowserSilentDevSetup32.exe'
+                        file_desired_stub_untagged = 'OnevnBrowserUntaggedDevSetup32.exe'
                     elif channel_capitalized == 'Nightly':
                         file_desired_standalone = (
-                            'OneVNBrowserStandaloneNightlySetup32.exe')
+                            'OnevnBrowserStandaloneNightlySetup32.exe')
                         file_desired_standalone_silent = (
-                            'OneVNBrowserStandaloneSilentNightlySetup32.exe')
+                            'OnevnBrowserStandaloneSilentNightlySetup32.exe')
                         file_desired_standalone_untagged = (
-                            'OneVNBrowserStandaloneUntaggedNightlySetup32.exe')
-                        file_desired_stub = 'OneVNBrowserNightlySetup32.exe'
-                        file_desired_stub_silent = 'OneVNBrowserSilentNightlySetup32.exe'
-                        file_desired_stub_untagged = 'OneVNBrowserUntaggedNightlySetup32.exe'
-                    if re.match(r'OneVNBrowser' + channel_capitalized +
+                            'OnevnBrowserStandaloneUntaggedNightlySetup32.exe')
+                        file_desired_stub = 'OnevnBrowserNightlySetup32.exe'
+                        file_desired_stub_silent = 'OnevnBrowserSilentNightlySetup32.exe'
+                        file_desired_stub_untagged = 'OnevnBrowserUntaggedNightlySetup32.exe'
+                    if re.match(r'OnevnBrowser' + channel_capitalized +
                                 r'Setup32_.*\.exe', file):
                         filecopy(file_path, file_desired_stub)
                         pkgs.append(file_desired_stub)
-                    elif re.match(r'OneVNBrowserSilent' + channel_capitalized +
+                    elif re.match(r'OnevnBrowserSilent' + channel_capitalized +
                                   r'Setup32_.*\.exe', file):
                         filecopy(file_path, file_desired_stub_silent)
                         pkgs.append(file_desired_stub_silent)
-                    elif re.match(r'OneVNBrowserUntagged' + channel_capitalized +
+                    elif re.match(r'OnevnBrowserUntagged' + channel_capitalized +
                                   r'Setup32_.*\.exe', file):
                         filecopy(file_path, file_desired_stub_untagged)
                         pkgs.append(file_desired_stub_untagged)
-                    elif re.match(r'OneVNBrowserStandalone' +
+                    elif re.match(r'OnevnBrowserStandalone' +
                                   channel_capitalized + r'Setup32_.*\.exe',
                                   file):
                         filecopy(file_path, file_desired_standalone)
                         pkgs.append(file_desired_standalone)
-                    elif re.match(r'OneVNBrowserStandaloneSilent' +
+                    elif re.match(r'OnevnBrowserStandaloneSilent' +
                                   channel_capitalized + r'Setup32_.*\.exe',
                                   file):
                         filecopy(file_path, file_desired_standalone_silent)
                         pkgs.append(file_desired_standalone_silent)
-                    elif re.match(r'OneVNBrowserStandaloneUntagged' +
+                    elif re.match(r'OnevnBrowserStandaloneUntagged' +
                                   channel_capitalized + r'Setup32_.*\.exe',
                                   file):
                         filecopy(file_path, file_desired_standalone_untagged)
@@ -442,19 +442,19 @@ def create_release_draft(repo, tag):
     # TODO: Parse release notes from CHANGELOG.md
 
     nightly_winstallers = (
-        '`OneVNBrowserNightlySetup.exe` and `OneVNBrowserNightlySetup32.exe`')
+        '`OnevnBrowserNightlySetup.exe` and `OnevnBrowserNightlySetup32.exe`')
     dev_winstallers = (
-        '`OneVNBrowserDevSetup.exe` and `OneVNBrowserDevSetup32.exe`')
+        '`OnevnBrowserDevSetup.exe` and `OnevnBrowserDevSetup32.exe`')
     beta_winstallers = (
-        '`OneVNBrowserBetaSetup.exe` and `OneVNBrowserBetaSetup32.exe`')
+        '`OnevnBrowserBetaSetup.exe` and `OnevnBrowserBetaSetup32.exe`')
     release_winstallers = (
-        '`OneVNBrowserSetup.exe` and `OneVNBrowserSetup32.exe`')
+        '`OnevnBrowserSetup.exe` and `OnevnBrowserSetup32.exe`')
 
-    nightly_dev_beta_warning = '''*This is not the released version of OneVN.
+    nightly_dev_beta_warning = '''*This is not the released version of Onevn.
 **Be careful** - things are unstable and might even be broken.*
 
 These builds are an unpolished and unfinished early preview for the new
-version of OneVN on the desktop. These builds show our work in progress and
+version of Onevn on the desktop. These builds show our work in progress and
 they aren't for the faint-of-heart. Features may be missing or broken in new
 and exciting ways; familiar functionality may have unfamiliar side-effects.
 These builds showcase the newest advances that we're bringing to your browser,
@@ -477,7 +477,7 @@ you're looking for a little extra spice and adventure in your browsing.'''
     body = '''{warning}
 
 ### Mac installation
-Install OneVN-Browser.dmg on your system.
+Install Onevn-Browser.dmg on your system.
 
 ### Linux install instructions
 http://onevn-browser.readthedocs.io/en/latest/installing-onevn.html#linux

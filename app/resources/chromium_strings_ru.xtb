@@ -1,274 +1,274 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="ru">
-<translation id="5194812628624740897">Если вы отключите аккаунт <ph name="USERNAME"/>, все сохраненные на этом устройстве закладки, настройки, история и другие данные OneVN будут удалены. Данные в вашем аккаунте OneVN Software сохранятся, и вы сможете управлять ими в <ph name="GOOGLE_DASHBOARD_LINK"/>Личном кабинете OneVN Software<ph name="END_GOOGLE_DASHBOARD_LINK"/>.</translation>
-<translation id="939305735877869636">OneVN</translation>
-<translation id="6373767849825830651">OneVN – браузер, который открывает веб-страницы и приложения за секунды. Он быстр, стабилен в работе и прост в использовании. Встроенная в OneVN защита от мошенничества и вредоносного ПО обеспечивает максимально безопасную работу в Интернете.</translation>
-<translation id="680297041157509674">OneVN OS</translation>
-<translation id="4847979153841887006">Логотип OneVN</translation>
+<translation id="5194812628624740897">Если вы отключите аккаунт <ph name="USERNAME"/>, все сохраненные на этом устройстве закладки, настройки, история и другие данные Onevn будут удалены. Данные в вашем аккаунте Onevn Software сохранятся, и вы сможете управлять ими в <ph name="GOOGLE_DASHBOARD_LINK"/>Личном кабинете Onevn Software<ph name="END_GOOGLE_DASHBOARD_LINK"/>.</translation>
+<translation id="939305735877869636">Onevn</translation>
+<translation id="6373767849825830651">Onevn – браузер, который открывает веб-страницы и приложения за секунды. Он быстр, стабилен в работе и прост в использовании. Встроенная в Onevn защита от мошенничества и вредоносного ПО обеспечивает максимально безопасную работу в Интернете.</translation>
+<translation id="680297041157509674">Onevn OS</translation>
+<translation id="4847979153841887006">Логотип Onevn</translation>
 <translation id="7339898014177206373">Новое окно</translation>
-<translation id="5935964611177478118">войдите в OneVN</translation>
-<translation id="5516268345616100622">Диспетчер задач – OneVN</translation>
-<translation id="7918740962659365265">Помочь улучшить OneVN, отправляя в OneVN Software отчеты о сбоях и <ph name="UMA_LINK"/></translation>
-<translation id="5381622442243174305"><ph name="PAGE_TITLE"/> – OneVN</translation>
-<translation id="7830723774663008396">OneVN – <ph name="PAGE_TITLE"/></translation>
-<translation id="1403270718080126244"><ph name="PAGE_TITLE"/> – OneVN (бета-версия)</translation>
-<translation id="3943696263619956191"><ph name="PAGE_TITLE"/> – OneVN для разработчиков</translation>
-<translation id="6236814935154483927"><ph name="PAGE_TITLE"/> – OneVN Canary</translation>
-<translation id="4685833011652060085">Помощь по использованию OneVN</translation>
-<translation id="6474707902830053522">Помощь по использованию OneVN OS</translation>
-<translation id="8992261409816268381">Авторы OneVN</translation>
-<translation id="4651430425715739110">© The OneVN Authors, <ph name="YEAR"/> . Все права защищены.</translation>
-<translation id="2310890394934209120">OneVN OS обязана своим появлением дополнительному <ph name="BEGIN_LINK_CROS_OSS"/>программному обеспечению с открытым исходным кодом<ph name="END_LINK_CROS_OSS"/>.</translation>
-<translation id="8160794320557846790">OneVN OS, как и <ph name="BEGIN_LINK_LINUX_OSS"/>Linux (бета-версия)<ph name="END_LINK_LINUX_OSS"/>, работает благодаря дополнительному <ph name="BEGIN_LINK_CROS_OSS"/>программному обеспечению с открытым исходным кодом<ph name="END_LINK_CROS_OSS"/>.</translation>
-<translation id="6913582816347128893">В работе OneVN могут возникать сбои, так как браузер больше не поддерживает Mac OS X 10.9.</translation>
-<translation id="7977787072794666032">В работе OneVN могут возникать сбои, так как браузер больше не поддерживает Windows XP и Windows Vista.</translation>
-<translation id="189297655255130768">OneVN не отвечает. Перезапустить сейчас?</translation>
-<translation id="8703492925273919597">Закройте все окна OneVN и повторите попытку снова.</translation>
-<translation id="335632367599648646">Вы действительно хотите удалить OneVN?</translation>
-<translation id="5590013613412457132">Удаление OneVN</translation>
-<translation id="5019879183386042809">Назначить OneVN браузером по умолчанию</translation>
-<translation id="5063987220091207247">OneVN OS не может открыть эту страницу</translation>
-<translation id="4065288863231444640">Разрешить OneVN работать в фоновом режиме</translation>
-<translation id="6797402139308059782">Разрешить OneVN работать в фоновом режиме</translation>
-<translation id="2585240446624043880">OneVN не может выполнять операции чтения и записи в своем каталоге: <ph name="USER_DATA_DIRECTORY"/></translation>
-<translation id="8417700129970341035">(Необязательно) Помогите сделать OneVN лучше, автоматически отправляя статистику использования и отчеты об ошибках в OneVN Software.</translation>
-<translation id="1489465648257900784">Ваш профиль не может использоваться, поскольку он от более новой версии OneVN.
+<translation id="5935964611177478118">войдите в Onevn</translation>
+<translation id="5516268345616100622">Диспетчер задач – Onevn</translation>
+<translation id="7918740962659365265">Помочь улучшить Onevn, отправляя в Onevn Software отчеты о сбоях и <ph name="UMA_LINK"/></translation>
+<translation id="5381622442243174305"><ph name="PAGE_TITLE"/> – Onevn</translation>
+<translation id="7830723774663008396">Onevn – <ph name="PAGE_TITLE"/></translation>
+<translation id="1403270718080126244"><ph name="PAGE_TITLE"/> – Onevn (бета-версия)</translation>
+<translation id="3943696263619956191"><ph name="PAGE_TITLE"/> – Onevn для разработчиков</translation>
+<translation id="6236814935154483927"><ph name="PAGE_TITLE"/> – Onevn Canary</translation>
+<translation id="4685833011652060085">Помощь по использованию Onevn</translation>
+<translation id="6474707902830053522">Помощь по использованию Onevn OS</translation>
+<translation id="8992261409816268381">Авторы Onevn</translation>
+<translation id="4651430425715739110">© The Onevn Authors, <ph name="YEAR"/> . Все права защищены.</translation>
+<translation id="2310890394934209120">Onevn OS обязана своим появлением дополнительному <ph name="BEGIN_LINK_CROS_OSS"/>программному обеспечению с открытым исходным кодом<ph name="END_LINK_CROS_OSS"/>.</translation>
+<translation id="8160794320557846790">Onevn OS, как и <ph name="BEGIN_LINK_LINUX_OSS"/>Linux (бета-версия)<ph name="END_LINK_LINUX_OSS"/>, работает благодаря дополнительному <ph name="BEGIN_LINK_CROS_OSS"/>программному обеспечению с открытым исходным кодом<ph name="END_LINK_CROS_OSS"/>.</translation>
+<translation id="6913582816347128893">В работе Onevn могут возникать сбои, так как браузер больше не поддерживает Mac OS X 10.9.</translation>
+<translation id="7977787072794666032">В работе Onevn могут возникать сбои, так как браузер больше не поддерживает Windows XP и Windows Vista.</translation>
+<translation id="189297655255130768">Onevn не отвечает. Перезапустить сейчас?</translation>
+<translation id="8703492925273919597">Закройте все окна Onevn и повторите попытку снова.</translation>
+<translation id="335632367599648646">Вы действительно хотите удалить Onevn?</translation>
+<translation id="5590013613412457132">Удаление Onevn</translation>
+<translation id="5019879183386042809">Назначить Onevn браузером по умолчанию</translation>
+<translation id="5063987220091207247">Onevn OS не может открыть эту страницу</translation>
+<translation id="4065288863231444640">Разрешить Onevn работать в фоновом режиме</translation>
+<translation id="6797402139308059782">Разрешить Onevn работать в фоновом режиме</translation>
+<translation id="2585240446624043880">Onevn не может выполнять операции чтения и записи в своем каталоге: <ph name="USER_DATA_DIRECTORY"/></translation>
+<translation id="8417700129970341035">(Необязательно) Помогите сделать Onevn лучше, автоматически отправляя статистику использования и отчеты об ошибках в Onevn Software.</translation>
+<translation id="1489465648257900784">Ваш профиль не может использоваться, поскольку он от более новой версии Onevn.
 
-Некоторые возможности могут быть недоступны. Укажите другой каталог профиля либо используйте более новую версию OneVN.</translation>
+Некоторые возможности могут быть недоступны. Укажите другой каталог профиля либо используйте более новую версию Onevn.</translation>
 <translation id="1065672644894730302">Не удается получить настройки. Некоторые функции могут быть недоступны, а изменения настроек не будут сохраняться.</translation>
-<translation id="3403365884036456766">Файл настроек поврежден или недействителен. OneVN не может восстановить ваши параметры.</translation>
-<translation id="1477146545787277177">Произошел сбой OneVN. Перезапустить?</translation>
-<translation id="5785919770853225148">Этот пароль будет сохранен в аккаунте OneVN Software. Вам не нужно его запоминать.</translation>
-<translation id="113959764510199339">Вводимые пароли будут отображаться в OneVN.</translation>
-<translation id="7503098128120083822">Вы собираетесь экспортировать пароли из OneVN.</translation>
+<translation id="3403365884036456766">Файл настроек поврежден или недействителен. Onevn не может восстановить ваши параметры.</translation>
+<translation id="1477146545787277177">Произошел сбой Onevn. Перезапустить?</translation>
+<translation id="5785919770853225148">Этот пароль будет сохранен в аккаунте Onevn Software. Вам не нужно его запоминать.</translation>
+<translation id="113959764510199339">Вводимые пароли будут отображаться в Onevn.</translation>
+<translation id="7503098128120083822">Вы собираетесь экспортировать пароли из Onevn.</translation>
 <translation id="8285294305439559616">Чтобы просмотреть пароли, введите пароль своего аккаунта Windows.</translation>
-<translation id="5918095577778020936">Чтобы экспортировать пароли из OneVN, введите пароль своего аккаунта Windows.</translation>
-<translation id="8320964054148936490">На этом компьютере установлена актуальная версия OneVN. Если программа не работает, удалите OneVN и повторите попытку.</translation>
-<translation id="7691786510374174420">Установка не удалась из-за неизвестной ошибки. Если OneVN продолжает работать, закройте его и повторите попытку.</translation>
-<translation id="2619516027171717873">Невозможно установить ту же версию OneVN, которая уже присутствует в системе. Закройте OneVN и повторите попытку.</translation>
-<translation id="6283840329609797763">В процессе установки произошла неизвестная ошибка. Скачайте OneVN ещё раз.</translation>
-<translation id="95624393026532554">Для работы OneVN необходима ОС Windows 7 или более поздней версии.</translation>
-<translation id="7387051847644272380">В процессе установки произошла ошибка в операционной системе. Скачайте OneVN ещё раз.</translation>
-<translation id="1819119299840995223">OneVN выполняет другую операцию. Повторите попытку позже.</translation>
+<translation id="5918095577778020936">Чтобы экспортировать пароли из Onevn, введите пароль своего аккаунта Windows.</translation>
+<translation id="8320964054148936490">На этом компьютере установлена актуальная версия Onevn. Если программа не работает, удалите Onevn и повторите попытку.</translation>
+<translation id="7691786510374174420">Установка не удалась из-за неизвестной ошибки. Если Onevn продолжает работать, закройте его и повторите попытку.</translation>
+<translation id="2619516027171717873">Невозможно установить ту же версию Onevn, которая уже присутствует в системе. Закройте Onevn и повторите попытку.</translation>
+<translation id="6283840329609797763">В процессе установки произошла неизвестная ошибка. Скачайте Onevn ещё раз.</translation>
+<translation id="95624393026532554">Для работы Onevn необходима ОС Windows 7 или более поздней версии.</translation>
+<translation id="7387051847644272380">В процессе установки произошла ошибка в операционной системе. Скачайте Onevn ещё раз.</translation>
+<translation id="1819119299840995223">Onevn выполняет другую операцию. Повторите попытку позже.</translation>
 <translation id="7747138024166251722">Программе установки не удалось создать временный каталог. Возможно, у вас нет прав на установку приложений или недостаточно места на диске.</translation>
-<translation id="7365690458036015383">Установка прервана на этапе распаковки архива. Скачайте OneVN ещё раз.</translation>
-<translation id="6914496861676471566">Установочный архив поврежден. Скачайте OneVN ещё раз.</translation>
+<translation id="7365690458036015383">Установка прервана на этапе распаковки архива. Скачайте Onevn ещё раз.</translation>
+<translation id="6914496861676471566">Установочный архив поврежден. Скачайте Onevn ещё раз.</translation>
 <translation id="8862326446509486874">У вас нет прав, необходимых для установки на системном уровне. Запустите программу установки еще раз в качестве администратора.</translation>
-<translation id="6666624454809779082">OneVN уже установлен для всех пользователей вашего компьютера</translation>
+<translation id="6666624454809779082">Onevn уже установлен для всех пользователей вашего компьютера</translation>
 <translation id="6676384891291319759">Доступ в Интернет</translation>
 <translation id="911206726377975832">Также удалить данные о работе в браузере?</translation>
 <translation id="2770231113462710648">Назначить браузером по умолчанию:</translation>
 <translation id="2485422356828889247">Удалить</translation>
-<translation id="3343095737966473035">OneVN не является браузером по умолчанию.</translation>
-<translation id="6715663530666325392">Настройте синхронизацию, чтобы сохранить в облаке персонализированные функции браузера и получить к ним доступ из OneVN с любого компьютера.</translation>
-<translation id="5536657158619734169">Доступна новая версия OneVN.</translation>
-<translation id="505042220086416644">Доступна новая версия OneVN, которая стала еще быстрее.</translation>
-<translation id="5616153642055197778">Доступна новая, еще более быстрая версия OneVN.</translation>
-<translation id="2301993384336631869">OneVN был обновлен, однако вы не использовали его в течение последних 30 дней.</translation>
-<translation id="2106568569080763501">В OneVN вы можете нажать на любой номер телефона и позвонить на него через Skype.</translation>
-<translation id="5874882355102994015">Если отсутствует встроенная программа для работы с PDF-файлами, предварительный просмотр в OneVN невозможен.</translation>
-<translation id="8880183781256147665">Добавление в OneVN...</translation>
-<translation id="3561569806301739367">OneVN заблокировал файл <ph name="FILE_NAME"/> как потенциально опасный.</translation>
-<translation id="9067428552314418522">OneVN заблокировал этот файл как опасный.</translation>
-<translation id="4168372721886011198">OneVN заблокировал файл <ph name="FILE_NAME"/> как опасный.</translation>
-<translation id="89367911614620585">OneVN заблокировал этот файл как потенциально опасный.</translation>
-<translation id="9183662282810237335">Закрыть OneVN?</translation>
-<translation id="3834935463915107022">Завершить работу OneVN?</translation>
-<translation id="8797356639448065696">OneVN работает в фоновом режиме</translation>
-<translation id="2339258256897053758">Отсутствуют ключи API OneVN Software. Некоторые функции OneVN могут не работать.</translation>
-<translation id="2182657378556811785">Чтобы завершить обновление, перезапустите OneVN.</translation>
+<translation id="3343095737966473035">Onevn не является браузером по умолчанию.</translation>
+<translation id="6715663530666325392">Настройте синхронизацию, чтобы сохранить в облаке персонализированные функции браузера и получить к ним доступ из Onevn с любого компьютера.</translation>
+<translation id="5536657158619734169">Доступна новая версия Onevn.</translation>
+<translation id="505042220086416644">Доступна новая версия Onevn, которая стала еще быстрее.</translation>
+<translation id="5616153642055197778">Доступна новая, еще более быстрая версия Onevn.</translation>
+<translation id="2301993384336631869">Onevn был обновлен, однако вы не использовали его в течение последних 30 дней.</translation>
+<translation id="2106568569080763501">В Onevn вы можете нажать на любой номер телефона и позвонить на него через Skype.</translation>
+<translation id="5874882355102994015">Если отсутствует встроенная программа для работы с PDF-файлами, предварительный просмотр в Onevn невозможен.</translation>
+<translation id="8880183781256147665">Добавление в Onevn...</translation>
+<translation id="3561569806301739367">Onevn заблокировал файл <ph name="FILE_NAME"/> как потенциально опасный.</translation>
+<translation id="9067428552314418522">Onevn заблокировал этот файл как опасный.</translation>
+<translation id="4168372721886011198">Onevn заблокировал файл <ph name="FILE_NAME"/> как опасный.</translation>
+<translation id="89367911614620585">Onevn заблокировал этот файл как потенциально опасный.</translation>
+<translation id="9183662282810237335">Закрыть Onevn?</translation>
+<translation id="3834935463915107022">Завершить работу Onevn?</translation>
+<translation id="8797356639448065696">Onevn работает в фоновом режиме</translation>
+<translation id="2339258256897053758">Отсутствуют ключи API Onevn Software. Некоторые функции Onevn могут не работать.</translation>
+<translation id="2182657378556811785">Чтобы завершить обновление, перезапустите Onevn.</translation>
 <translation id="5906655207909574370">Чтобы завершить обновление, перезапустите устройство.</translation>
 <translation id="5877064549588274448">Канал изменен. Чтобы изменения вступили в силу, перезапустите устройство.</translation>
-<translation id="5131485705787281074">Вы используете актуальную версию OneVN.</translation>
-<translation id="8667808506758191620">На устройстве <ph name="DEVICE_TYPE"/> используется последняя версия OneVN OS.</translation>
-<translation id="5047208012586153436">Выполняется обновление OneVN...</translation>
+<translation id="5131485705787281074">Вы используете актуальную версию Onevn.</translation>
+<translation id="8667808506758191620">На устройстве <ph name="DEVICE_TYPE"/> используется последняя версия Onevn OS.</translation>
+<translation id="5047208012586153436">Выполняется обновление Onevn...</translation>
 <translation id="6970811910055250180">Обновление операционной системы…</translation>
 <translation id="8030318113982266900">Переключение устройства на канал <ph name="CHANNEL_NAME"/>...</translation>
-<translation id="7861579472672677409">Расширение "<ph name="EXTENSION_NAME"/>" добавлено в OneVN</translation>
-<translation id="8516116288943000095">Также удалить данные из OneVN (<ph name="URL"/>)</translation>
-<translation id="4054452651944170004">Не показывать в меню OneVN</translation>
-<translation id="5660079256336839395">Не показывать в Меню OneVN</translation>
-<translation id="7456658570432774853">Отправьте отчет о текущих настройках OneVN и помогите усовершенствовать работу браузера</translation>
-<translation id="6134859571175647580">Внимание! OneVN не может запретить расширениям записывать историю просмотров. Чтобы отключить данное расширение в режиме инкогнито, снимите этот флажок.</translation>
-<translation id="777113543093865885">Удалить из OneVN</translation>
-<translation id="6078442581074612226">В OneVN</translation>
-<translation id="1448049584457347995">Чтобы обеспечить безопасность ваших данных, некоторые расширения OneVN были отключены, так как <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> не содержит сведений о них, то есть эти компоненты могли быть установлены без вашего ведома.</translation>
+<translation id="7861579472672677409">Расширение "<ph name="EXTENSION_NAME"/>" добавлено в Onevn</translation>
+<translation id="8516116288943000095">Также удалить данные из Onevn (<ph name="URL"/>)</translation>
+<translation id="4054452651944170004">Не показывать в меню Onevn</translation>
+<translation id="5660079256336839395">Не показывать в Меню Onevn</translation>
+<translation id="7456658570432774853">Отправьте отчет о текущих настройках Onevn и помогите усовершенствовать работу браузера</translation>
+<translation id="6134859571175647580">Внимание! Onevn не может запретить расширениям записывать историю просмотров. Чтобы отключить данное расширение в режиме инкогнито, снимите этот флажок.</translation>
+<translation id="777113543093865885">Удалить из Onevn</translation>
+<translation id="6078442581074612226">В Onevn</translation>
+<translation id="1448049584457347995">Чтобы обеспечить безопасность ваших данных, некоторые расширения Onevn были отключены, так как <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> не содержит сведений о них, то есть эти компоненты могли быть установлены без вашего ведома.</translation>
 <translation id="8848045066928358658">Чтобы обеспечить безопасность ваших данных, некоторые расширения были отключены, так как <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> не содержит сведений о них (то есть они могли быть установлены без вашего ведома).</translation>
-<translation id="8148611988012584308">Настройка и управление OneVN</translation>
-<translation id="5849446944780602366">Новая версия OneVN уже вышла!</translation>
-<translation id="6315734375101223238">Настройка и управление OneVN Требуется ваше внимание. Нажмите, чтобы получить подробную информацию.</translation>
-<translation id="9071554113102421877">&amp;Открыть в OneVN</translation>
-<translation id="2176825726964012531">О &amp;OneVN</translation>
-<translation id="5450493308072741203">Обновить &amp;OneVN</translation>
-<translation id="1421502046520299169">О &amp;OneVN OS</translation>
-<translation id="2534623228451928732">Обновить &amp;OneVN OS</translation>
-<translation id="8447483940522230788">Помощник по OneVN</translation>
-<translation id="3360368475735266712">Войдите, чтобы синхронизировать данные OneVN на всех устройствах</translation>
-<translation id="5477319665405831211">Синхронизируйте данные OneVN на всех устройствах</translation>
-<translation id="4934157190377700991">Вы вошли в OneVN</translation>
-<translation id="4100716194836114130">Ваш персональный OneVN</translation>
-<translation id="8296145982386097283">Пользуетесь компьютером вместе с коллегой или другом? Теперь каждый из вас сможет настроить OneVN по своему вкусу.</translation>
-<translation id="1672124279374861424">После удаления вашего аккаунта из OneVN может понадобиться перезагрузить открытые вкладки, чтобы изменения вступили в силу.</translation>
-<translation id="9197493712748167998">Для синхронизации данных OneVN используется аккаунт <ph name="PROFILE_EMAIL"/>. Изменить параметры синхронизации или отключить аккаунт можно в <ph name="SETTINGS_LINK"/>.</translation>
-<translation id="8132634101975074716">Добро пожаловать в OneVN!</translation>
+<translation id="8148611988012584308">Настройка и управление Onevn</translation>
+<translation id="5849446944780602366">Новая версия Onevn уже вышла!</translation>
+<translation id="6315734375101223238">Настройка и управление Onevn Требуется ваше внимание. Нажмите, чтобы получить подробную информацию.</translation>
+<translation id="9071554113102421877">&amp;Открыть в Onevn</translation>
+<translation id="2176825726964012531">О &amp;Onevn</translation>
+<translation id="5450493308072741203">Обновить &amp;Onevn</translation>
+<translation id="1421502046520299169">О &amp;Onevn OS</translation>
+<translation id="2534623228451928732">Обновить &amp;Onevn OS</translation>
+<translation id="8447483940522230788">Помощник по Onevn</translation>
+<translation id="3360368475735266712">Войдите, чтобы синхронизировать данные Onevn на всех устройствах</translation>
+<translation id="5477319665405831211">Синхронизируйте данные Onevn на всех устройствах</translation>
+<translation id="4934157190377700991">Вы вошли в Onevn</translation>
+<translation id="4100716194836114130">Ваш персональный Onevn</translation>
+<translation id="8296145982386097283">Пользуетесь компьютером вместе с коллегой или другом? Теперь каждый из вас сможет настроить Onevn по своему вкусу.</translation>
+<translation id="1672124279374861424">После удаления вашего аккаунта из Onevn может понадобиться перезагрузить открытые вкладки, чтобы изменения вступили в силу.</translation>
+<translation id="9197493712748167998">Для синхронизации данных Onevn используется аккаунт <ph name="PROFILE_EMAIL"/>. Изменить параметры синхронизации или отключить аккаунт можно в <ph name="SETTINGS_LINK"/>.</translation>
+<translation id="8132634101975074716">Добро пожаловать в Onevn!</translation>
 <translation id="4567424176335768812">Вы вошли с помощью аккаунта <ph name="USER_EMAIL_ADDRESS"/>. Ваши закладки, история и другие настройки теперь доступны на всех устройствах, где вы используете этот аккаунт.</translation>
-<translation id="6888049487162027489">Добро пожаловать в OneVN! Синхронизация отключена администратором.</translation>
-<translation id="2925193881330501265">Ранее вы входили в OneVN как <ph name="USER_EMAIL_ADDRESS"/>. Войдите снова, используя тот же аккаунт.</translation>
-<translation id="386092803020435298">Ранее вход в OneVN на этом компьютере выполнялся с помощью аккаунта <ph name="ACCOUNT_EMAIL_LAST"/>. Если это не ваш аккаунт и вы хотите закрыть доступ к ранее сохраненным в OneVN данным, создайте новый профиль OneVN. 
+<translation id="6888049487162027489">Добро пожаловать в Onevn! Синхронизация отключена администратором.</translation>
+<translation id="2925193881330501265">Ранее вы входили в Onevn как <ph name="USER_EMAIL_ADDRESS"/>. Войдите снова, используя тот же аккаунт.</translation>
+<translation id="386092803020435298">Ранее вход в Onevn на этом компьютере выполнялся с помощью аккаунта <ph name="ACCOUNT_EMAIL_LAST"/>. Если это не ваш аккаунт и вы хотите закрыть доступ к ранее сохраненным в Onevn данным, создайте новый профиль Onevn. 
 
-Если войти в систему сейчас, закладки, история и прочие данные OneVN будут синхронизированы с новым аккаунтом: <ph name="ACCOUNT_EMAIL_NEW"/>.</translation>
-<translation id="847561904663814268">Ранее вход в OneVN на этом компьютере выполнялся из аккаунта <ph name="ACCOUNT_EMAIL_LAST"/>. Чтобы ваши данные хранились отдельно, создайте новый профиль OneVN.</translation>
-<translation id="1853997773668795891">Связать данные OneVN с этим аккаунтом?</translation>
-<translation id="1326766910007115955">Выполнив вход в управляемый аккаунт, вы предоставляете администратору право контролировать настройки вашего профиля OneVN. Ваши данные OneVN (приложения, закладки, история, пароли и другие настройки) будут временно связаны с аккаунтом <ph name="USER_NAME"/>. Эти данные можно удалить в Личном кабинете OneVN Software, но их нельзя связать с другим аккаунтом. <ph name="LEARN_MORE"/></translation>
-<translation id="650055380213106997">Выполнив вход в управляемый аккаунт, вы предоставляете администратору право контролировать настройки вашего профиля OneVN. Ваши данные OneVN (приложения, закладки, история, пароли и другие настройки) будут временно связаны с аккаунтом <ph name="USER_NAME"/>. Эти данные можно удалить в Личном кабинете OneVN Software, но их нельзя связать с другим аккаунтом. Чтобы сохранить данные OneVN отдельно, создайте новый профиль. <ph name="LEARN_MORE"/></translation>
-<translation id="2444257125841652328">Ваш системный администратор задал настройки, согласно которым OneVN должен запускать альтернативный браузер для доступа к сайту<ph name="TARGET_URL_HOSTNAME"/>.</translation>
-<translation id="2591326305549412656">Адрес <ph name="USER_EMAIL_ADDRESS"/> уже использовался в OneVN</translation>
-<translation id="1384923383737428730">На компьютере обнаружено вредоносное ПО. OneVN может удалить его, восстановить настройки и отключить расширения. Это вернет браузер в обычное состояние.</translation>
-<translation id="8919921662052966648">OneVN не удалось синхронизировать данные. Обновите кодовую фразу в Sync.</translation>
-<translation id="2262856633481902138">OneVN не удалось синхронизировать данные, поскольку ваши учетные сведения устарели.</translation>
-<translation id="5419189641394808652">OneVN не удалось синхронизировать данные, поскольку служба Sync недоступна для вашего домена.</translation>
-<translation id="2577755334620061182">OneVN не удалось синхронизировать данные из-за ошибки входа в систему.</translation>
-<translation id="8583885258305961947">OneVN OS</translation>
+Если войти в систему сейчас, закладки, история и прочие данные Onevn будут синхронизированы с новым аккаунтом: <ph name="ACCOUNT_EMAIL_NEW"/>.</translation>
+<translation id="847561904663814268">Ранее вход в Onevn на этом компьютере выполнялся из аккаунта <ph name="ACCOUNT_EMAIL_LAST"/>. Чтобы ваши данные хранились отдельно, создайте новый профиль Onevn.</translation>
+<translation id="1853997773668795891">Связать данные Onevn с этим аккаунтом?</translation>
+<translation id="1326766910007115955">Выполнив вход в управляемый аккаунт, вы предоставляете администратору право контролировать настройки вашего профиля Onevn. Ваши данные Onevn (приложения, закладки, история, пароли и другие настройки) будут временно связаны с аккаунтом <ph name="USER_NAME"/>. Эти данные можно удалить в Личном кабинете Onevn Software, но их нельзя связать с другим аккаунтом. <ph name="LEARN_MORE"/></translation>
+<translation id="650055380213106997">Выполнив вход в управляемый аккаунт, вы предоставляете администратору право контролировать настройки вашего профиля Onevn. Ваши данные Onevn (приложения, закладки, история, пароли и другие настройки) будут временно связаны с аккаунтом <ph name="USER_NAME"/>. Эти данные можно удалить в Личном кабинете Onevn Software, но их нельзя связать с другим аккаунтом. Чтобы сохранить данные Onevn отдельно, создайте новый профиль. <ph name="LEARN_MORE"/></translation>
+<translation id="2444257125841652328">Ваш системный администратор задал настройки, согласно которым Onevn должен запускать альтернативный браузер для доступа к сайту<ph name="TARGET_URL_HOSTNAME"/>.</translation>
+<translation id="2591326305549412656">Адрес <ph name="USER_EMAIL_ADDRESS"/> уже использовался в Onevn</translation>
+<translation id="1384923383737428730">На компьютере обнаружено вредоносное ПО. Onevn может удалить его, восстановить настройки и отключить расширения. Это вернет браузер в обычное состояние.</translation>
+<translation id="8919921662052966648">Onevn не удалось синхронизировать данные. Обновите кодовую фразу в Sync.</translation>
+<translation id="2262856633481902138">Onevn не удалось синхронизировать данные, поскольку ваши учетные сведения устарели.</translation>
+<translation id="5419189641394808652">Onevn не удалось синхронизировать данные, поскольку служба Sync недоступна для вашего домена.</translation>
+<translation id="2577755334620061182">Onevn не удалось синхронизировать данные из-за ошибки входа в систему.</translation>
+<translation id="8583885258305961947">Onevn OS</translation>
 <translation id="3968006371075376562">Не удалось синхронизировать данные. Обновите кодовую фразу в Sync.</translation>
 <translation id="6746636977031158624">Не удалось выполнить синхронизацию, так как учетные данные устарели.</translation>
 <translation id="2999152167963026588">Не удалось синхронизировать данные, поскольку сервис Sync недоступен в вашем домене.</translation>
 <translation id="1459786048951724030">Не удалось синхронизировать данные из-за ошибки входа в аккаунт.</translation>
-<translation id="2887570477425111999">Сохранять данные в OneVN</translation>
-<translation id="193559141530782783">OneVN будет хранить ваши данные в защищенном виде, поэтому их не придется вводить повторно.</translation>
-<translation id="663059986967017181">Скопировано в OneVN</translation>
-<translation id="1457432835062259213">Панель запуска OneVN</translation>
-<translation id="82609232232243542">Войдите в OneVN</translation>
-<translation id="2924628237198507508">Для работы с приложениями необходимо выполнить вход в OneVN. Это обеспечит синхронизацию приложений, закладок, истории, паролей и настроек, сохраненных на всех ваших устройствах.</translation>
-<translation id="380197516434040304">Удалить из OneVN</translation>
-<translation id="300669147395456190">Приложения OneVN</translation>
-<translation id="3421950102518690868">Прежде чем приступать к работе, ознакомьтесь с Условиями использования на сайте <ph name="DOMAIN"/> и примите их. Эти условия не дополняют, не заменяют и не ограничивают Условий использования OneVN OS.</translation>
-<translation id="3293668930608086049">OneVN использует камеру и микрофон.</translation>
-<translation id="8919461291440820124">OneVN использует микрофон.</translation>
-<translation id="3205074487970075628">OneVN использует камеру.</translation>
-<translation id="8142245354207161805">Скорее всего, профиль используется другим процессом OneVN (<ph name="PROCESS_ID"/>) на другом компьютере (<ph name="HOST_NAME"/>). Во избежание сбоев профиль был заблокирован. Если вы уверены, что профиль не используется другими процессами, разблокируйте его и перезапустите OneVN.</translation>
-<translation id="239760341987199724">Сделать OneVN браузером по умолчанию</translation>
+<translation id="2887570477425111999">Сохранять данные в Onevn</translation>
+<translation id="193559141530782783">Onevn будет хранить ваши данные в защищенном виде, поэтому их не придется вводить повторно.</translation>
+<translation id="663059986967017181">Скопировано в Onevn</translation>
+<translation id="1457432835062259213">Панель запуска Onevn</translation>
+<translation id="82609232232243542">Войдите в Onevn</translation>
+<translation id="2924628237198507508">Для работы с приложениями необходимо выполнить вход в Onevn. Это обеспечит синхронизацию приложений, закладок, истории, паролей и настроек, сохраненных на всех ваших устройствах.</translation>
+<translation id="380197516434040304">Удалить из Onevn</translation>
+<translation id="300669147395456190">Приложения Onevn</translation>
+<translation id="3421950102518690868">Прежде чем приступать к работе, ознакомьтесь с Условиями использования на сайте <ph name="DOMAIN"/> и примите их. Эти условия не дополняют, не заменяют и не ограничивают Условий использования Onevn OS.</translation>
+<translation id="3293668930608086049">Onevn использует камеру и микрофон.</translation>
+<translation id="8919461291440820124">Onevn использует микрофон.</translation>
+<translation id="3205074487970075628">Onevn использует камеру.</translation>
+<translation id="8142245354207161805">Скорее всего, профиль используется другим процессом Onevn (<ph name="PROCESS_ID"/>) на другом компьютере (<ph name="HOST_NAME"/>). Во избежание сбоев профиль был заблокирован. Если вы уверены, что профиль не используется другими процессами, разблокируйте его и перезапустите Onevn.</translation>
+<translation id="239760341987199724">Сделать Onevn браузером по умолчанию</translation>
 <translation id="5344925500065984750">Чтобы ограничить пользователю <ph name="NEW_PROFILE_NAME"/> доступ к каким-либо страницам, перейдите по этой ссылке: <ph name="BEGIN_LINK_1"/><ph name="DISPLAY_LINK"/><ph name="END_LINK_1"/>. Если вы оставите настройки по умолчанию, <ph name="NEW_PROFILE_NAME"/> сможет открывать все сайты.
 
-Чтобы пользователь <ph name="NEW_PROFILE_NAME"/> не получил доступ к вашему аккаунту, при выходе из OneVN нажмите на свое имя профиля в правом верхнем углу экрана и выберите "Выйти и заблокировать".
+Чтобы пользователь <ph name="NEW_PROFILE_NAME"/> не получил доступ к вашему аккаунту, при выходе из Onevn нажмите на свое имя профиля в правом верхнем углу экрана и выберите "Выйти и заблокировать".
 <ph name="BEGIN_LINK_2"/>Подробнее…<ph name="END_LINK_2"/>
 
 Дальнейшие инструкции отправлены на адрес <ph name="ACCOUNT_EMAIL"/>.</translation>
-<translation id="1820843143331379651">Начиная с версии OneVN 70 контролируемые профили станут недоступны.</translation>
-<translation id="3066805437003400520">Данные о работе этого пользователя в браузере будут удалены с устройства. Чтобы восстановить их, войдите в OneVN как <ph name="USER_EMAIL"/>.</translation>
-<translation id="2827121003398607864">OneVN становится все лучше</translation>
-<translation id="7192666605334070839">Теперь с OneVN ещё удобнее работать в аккаунте OneVN Software, в том числе на общих компьютерах.</translation>
-<translation id="3511996232906761537">Все веб-страницы, закладки и другие данные OneVN можно найти здесь.</translation>
-<translation id="7406627712452599344">Используйте OneVN в гостевом режиме, если не хотите сохранять данные о посещенных сайтах.</translation>
-<translation id="5659384504794665581">Если, кроме вас, компьютером пользуется кто-то ещё, например родные или друзья, они тоже смогут настроить OneVN на свой вкус.</translation>
-<translation id="7130675370997202556">Нажмите на свое имя, чтобы войти в OneVN.</translation>
-<translation id="5952898964075639679">Добавить пользователя OneVN</translation>
-<translation id="3813272600615358652">Расширение изменило стартовую страницу OneVN.</translation>
-<translation id="2576129394594491151">Расширение "<ph name="EXTENSION_NAME"/>" изменило стартовую страницу OneVN.</translation>
-<translation id="2675662665675552980">Кроме того, расширение изменило стартовую страницу OneVN.</translation>
-<translation id="3215652305414474626">Кроме того, расширение изменило стартовую страницу OneVN и страницу, отображаемую при нажатии кнопки "Главная страница".</translation>
-<translation id="2433912322225810055">Кроме того, расширение изменило стартовую страницу OneVN и поисковую систему, используемую по умолчанию при вводе запроса в омнибокс.</translation>
-<translation id="2871190378186459992">Широкий выбор приложений, игр, расширений и тем для OneVN.</translation>
-<translation id="3350544518197210895">OneVN (mDNS-In)</translation>
-<translation id="1912973375560256099">Разрешить в OneVN передачу входящего трафика по протоколу mDNS</translation>
-<translation id="7276297358157391541">OneVN предлагает интеллектуальную технологию проверки правописания. Введенный вами текст отправляется на серверы OneVN Software, что позволяет использовать механизмы проверки OneVN Software Поиска.</translation>
-<translation id="1807774211756215222">Открыть ссылку в новой вкладке браузера OneVN</translation>
-<translation id="4624945300945265642">Открыть ссылку в режиме инкогнито браузера OneVN</translation>
-<translation id="7863882214613921971">Открыть ссылку в новой вкладке браузера OneVN</translation>
-<translation id="6554952862405000915">Открыть ссылку в режиме инкогнито браузера OneVN</translation>
-<translation id="4805806622840861220">Перезапустить OneVN</translation>
-<translation id="2560046583427795596">Для OneVN доступно обновление. Оно будет установлено при перезапуске браузера.</translation>
+<translation id="1820843143331379651">Начиная с версии Onevn 70 контролируемые профили станут недоступны.</translation>
+<translation id="3066805437003400520">Данные о работе этого пользователя в браузере будут удалены с устройства. Чтобы восстановить их, войдите в Onevn как <ph name="USER_EMAIL"/>.</translation>
+<translation id="2827121003398607864">Onevn становится все лучше</translation>
+<translation id="7192666605334070839">Теперь с Onevn ещё удобнее работать в аккаунте Onevn Software, в том числе на общих компьютерах.</translation>
+<translation id="3511996232906761537">Все веб-страницы, закладки и другие данные Onevn можно найти здесь.</translation>
+<translation id="7406627712452599344">Используйте Onevn в гостевом режиме, если не хотите сохранять данные о посещенных сайтах.</translation>
+<translation id="5659384504794665581">Если, кроме вас, компьютером пользуется кто-то ещё, например родные или друзья, они тоже смогут настроить Onevn на свой вкус.</translation>
+<translation id="7130675370997202556">Нажмите на свое имя, чтобы войти в Onevn.</translation>
+<translation id="5952898964075639679">Добавить пользователя Onevn</translation>
+<translation id="3813272600615358652">Расширение изменило стартовую страницу Onevn.</translation>
+<translation id="2576129394594491151">Расширение "<ph name="EXTENSION_NAME"/>" изменило стартовую страницу Onevn.</translation>
+<translation id="2675662665675552980">Кроме того, расширение изменило стартовую страницу Onevn.</translation>
+<translation id="3215652305414474626">Кроме того, расширение изменило стартовую страницу Onevn и страницу, отображаемую при нажатии кнопки "Главная страница".</translation>
+<translation id="2433912322225810055">Кроме того, расширение изменило стартовую страницу Onevn и поисковую систему, используемую по умолчанию при вводе запроса в омнибокс.</translation>
+<translation id="2871190378186459992">Широкий выбор приложений, игр, расширений и тем для Onevn.</translation>
+<translation id="3350544518197210895">Onevn (mDNS-In)</translation>
+<translation id="1912973375560256099">Разрешить в Onevn передачу входящего трафика по протоколу mDNS</translation>
+<translation id="7276297358157391541">Onevn предлагает интеллектуальную технологию проверки правописания. Введенный вами текст отправляется на серверы Onevn Software, что позволяет использовать механизмы проверки Onevn Software Поиска.</translation>
+<translation id="1807774211756215222">Открыть ссылку в новой вкладке браузера Onevn</translation>
+<translation id="4624945300945265642">Открыть ссылку в режиме инкогнито браузера Onevn</translation>
+<translation id="7863882214613921971">Открыть ссылку в новой вкладке браузера Onevn</translation>
+<translation id="6554952862405000915">Открыть ссылку в режиме инкогнито браузера Onevn</translation>
+<translation id="4805806622840861220">Перезапустить Onevn</translation>
+<translation id="2560046583427795596">Для Onevn доступно обновление. Оно будет установлено при перезапуске браузера.</translation>
 <translation id="2799223571221894425">Перезапустить</translation>
-<translation id="2522086024276534909">Перезапуск OneVN OS</translation>
-<translation id="8183252473547465084">Перезагрузите OneVN OS, чтобы установить обновление.</translation>
+<translation id="2522086024276534909">Перезапуск Onevn OS</translation>
+<translation id="8183252473547465084">Перезагрузите Onevn OS, чтобы установить обновление.</translation>
 <translation id="5895138241574237353">Перезапустить</translation>
-<translation id="5875673934455379806">Переустановить OneVN</translation>
-<translation id="2097604701283463988">Версия OneVN устарела</translation>
-<translation id="5173820533850252773">Версия OneVN устарела</translation>
-<translation id="6389268239133412586">Не удалось обновить OneVN</translation>
-<translation id="7963515534397191222">Не удалось установить последнюю версию OneVN, в которой добавлены новые функции и обновления системы безопасности.</translation>
-<translation id="1705567146636171298">Обновить OneVN</translation>
-<translation id="3598551856834560515">Чтобы начать синхронизацию, обновите OneVN</translation>
+<translation id="5875673934455379806">Переустановить Onevn</translation>
+<translation id="2097604701283463988">Версия Onevn устарела</translation>
+<translation id="5173820533850252773">Версия Onevn устарела</translation>
+<translation id="6389268239133412586">Не удалось обновить Onevn</translation>
+<translation id="7963515534397191222">Не удалось установить последнюю версию Onevn, в которой добавлены новые функции и обновления системы безопасности.</translation>
+<translation id="1705567146636171298">Обновить Onevn</translation>
+<translation id="3598551856834560515">Чтобы начать синхронизацию, обновите Onevn</translation>
 <translation id="4050175100176540509">В последней версии улучшена защита и добавлены новые функции.</translation>
-<translation id="2513524988380267210">{SECONDS,plural, =1{OneVN перезапустится через 1 секунду}one{OneVN перезапустится через # секунду}few{OneVN перезапустится через # секунды}many{OneVN перезапустится через # секунд}other{OneVN перезапустится через # секунды}}</translation>
-<translation id="5509303873219371662">Перезапустите OneVN</translation>
-<translation id="8668413672647811944">Установлено специальное обновление системы безопасности. Перезапустите OneVN (все вкладки будут восстановлены).</translation>
-<translation id="763369711159699222">Сделайте OneVN лучше</translation>
-<translation id="1156940037717341650">Вы можете сделать защиту OneVN ещё надежнее. Просто разрешите автоматически отправлять в OneVN Software информацию о возможных проблемах безопасности</translation>
-<translation id="6791166902140255175">Вкладка OneVN</translation>
-<translation id="2555639463117073782">Перезапустите OneVN, чтобы включить плагин "<ph name="PLUGIN_NAME"/>"</translation>
-<translation id="8899693649891674038">Установите OneVN на телефон. Мы отправим вам SMS.</translation>
-<translation id="1570795130102031380">Установите OneVN на телефон. Мы отправим вам SMS на номер <ph name="PHONE_NUMBER"/>.</translation>
-<translation id="1609678321160597289">Установите OneVN на телефон. Мы отправим SMS на номер, указанный в вашем аккаунте.</translation>
-<translation id="2965084188004448871">Установите OneVN на телефон. Мы отправим SMS на номер, указанный в вашем аккаунте: <ph name="PHONE_NUMBER"/>.</translation>
-<translation id="8358191771897395012">скачайте OneVN для iOS</translation>
-<translation id="2034072705932785495">Для этого сайта OneVN запрашивает доступ к камере.</translation>
-<translation id="3335606533094650083">Для этого сайта OneVN запрашивает доступ к микрофону.</translation>
-<translation id="4831743161813926460">Для этого сайта OneVN запрашивает доступ к камере и микрофону.</translation>
-<translation id="696826782632239602">Для этого сайта OneVN запрашивает доступ к данным о вашем местоположении.</translation>
-<translation id="7798069806040634998">Для скачивания файлов браузеру OneVN требуется доступ к хранилищу.</translation>
-<translation id="7685904775439037072">Когда вы предоставите доступ OneVN, веб-сайты также смогут запрашивать у вас доступ.</translation>
+<translation id="2513524988380267210">{SECONDS,plural, =1{Onevn перезапустится через 1 секунду}one{Onevn перезапустится через # секунду}few{Onevn перезапустится через # секунды}many{Onevn перезапустится через # секунд}other{Onevn перезапустится через # секунды}}</translation>
+<translation id="5509303873219371662">Перезапустите Onevn</translation>
+<translation id="8668413672647811944">Установлено специальное обновление системы безопасности. Перезапустите Onevn (все вкладки будут восстановлены).</translation>
+<translation id="763369711159699222">Сделайте Onevn лучше</translation>
+<translation id="1156940037717341650">Вы можете сделать защиту Onevn ещё надежнее. Просто разрешите автоматически отправлять в Onevn Software информацию о возможных проблемах безопасности</translation>
+<translation id="6791166902140255175">Вкладка Onevn</translation>
+<translation id="2555639463117073782">Перезапустите Onevn, чтобы включить плагин "<ph name="PLUGIN_NAME"/>"</translation>
+<translation id="8899693649891674038">Установите Onevn на телефон. Мы отправим вам SMS.</translation>
+<translation id="1570795130102031380">Установите Onevn на телефон. Мы отправим вам SMS на номер <ph name="PHONE_NUMBER"/>.</translation>
+<translation id="1609678321160597289">Установите Onevn на телефон. Мы отправим SMS на номер, указанный в вашем аккаунте.</translation>
+<translation id="2965084188004448871">Установите Onevn на телефон. Мы отправим SMS на номер, указанный в вашем аккаунте: <ph name="PHONE_NUMBER"/>.</translation>
+<translation id="8358191771897395012">скачайте Onevn для iOS</translation>
+<translation id="2034072705932785495">Для этого сайта Onevn запрашивает доступ к камере.</translation>
+<translation id="3335606533094650083">Для этого сайта Onevn запрашивает доступ к микрофону.</translation>
+<translation id="4831743161813926460">Для этого сайта Onevn запрашивает доступ к камере и микрофону.</translation>
+<translation id="696826782632239602">Для этого сайта Onevn запрашивает доступ к данным о вашем местоположении.</translation>
+<translation id="7798069806040634998">Для скачивания файлов браузеру Onevn требуется доступ к хранилищу.</translation>
+<translation id="7685904775439037072">Когда вы предоставите доступ Onevn, веб-сайты также смогут запрашивать у вас доступ.</translation>
 <translation id="5805364706385912897">Эта страница расходовала слишком много памяти, поэтому работа ее скриптов была приостановлена.</translation>
 <translation id="5138664332909611586">Эта страница расходовала слишком много памяти, поэтому часть контента была удалена.</translation>
-<translation id="1744365871163268756">Подождите, пока OneVN устанавливает последние обновления системы</translation>
-<translation id="5693614905241031118">OneVN обновляется автоматически, поэтому у вас всегда будет установлена последняя версия.</translation>
-<translation id="6141293433381251973">OneVN обновляется автоматически, поэтому у вас всегда будет установлена последняя версия. После завершения скачивания и перезагрузки вы сможете продолжить работу.</translation>
-<translation id="7808415789955822133">Условия использования OneVN OS</translation>
-<translation id="7207456302801184289">Добро пожаловать в OneVN</translation>
-<translation id="5688839044908745927">OneVN почти готов к работе</translation>
-<translation id="7758342895140862711">OneVN всегда под рукой</translation>
-<translation id="3610173904388112975">Технологии OneVN Software для простого и быстрого поиска в Интернете.</translation>
+<translation id="1744365871163268756">Подождите, пока Onevn устанавливает последние обновления системы</translation>
+<translation id="5693614905241031118">Onevn обновляется автоматически, поэтому у вас всегда будет установлена последняя версия.</translation>
+<translation id="6141293433381251973">Onevn обновляется автоматически, поэтому у вас всегда будет установлена последняя версия. После завершения скачивания и перезагрузки вы сможете продолжить работу.</translation>
+<translation id="7808415789955822133">Условия использования Onevn OS</translation>
+<translation id="7207456302801184289">Добро пожаловать в Onevn</translation>
+<translation id="5688839044908745927">Onevn почти готов к работе</translation>
+<translation id="7758342895140862711">Onevn всегда под рукой</translation>
+<translation id="3610173904388112975">Технологии Onevn Software для простого и быстрого поиска в Интернете.</translation>
 <translation id="3479552764303398839">Не сейчас</translation>
-<translation id="8013374903356993822">Открывайте OneVN ещё быстрее</translation>
-<translation id="7625138338483121345">Как сделать OneVN браузером по умолчанию</translation>
-<translation id="5927044791090834489">Как прикрепить OneVN на панель задач</translation>
-<translation id="8933981935877469796">Выберите <ph name="SMALL_PRODUCT_LOGO"/> <ph name="BEGIN_BOLD"/>OneVN<ph name="END_BOLD"/></translation>
+<translation id="8013374903356993822">Открывайте Onevn ещё быстрее</translation>
+<translation id="7625138338483121345">Как сделать Onevn браузером по умолчанию</translation>
+<translation id="5927044791090834489">Как прикрепить Onevn на панель задач</translation>
+<translation id="8933981935877469796">Выберите <ph name="SMALL_PRODUCT_LOGO"/> <ph name="BEGIN_BOLD"/>Onevn<ph name="END_BOLD"/></translation>
 <translation id="1585657529869845941">Если появится кнопка <ph name="BEGIN_BOLD"/>Изменить<ph name="END_BOLD"/>, нажмите ее.</translation>
-<translation id="3507835409099344374">Открыть настройки уведомлений OneVN</translation>
-<translation id="9118654140804842635">{0,plural, =0{Доступно обновление OneVN}=1{Доступно обновление OneVN}one{Обновление OneVN доступно # день}few{Обновление OneVN доступно # дня}many{Обновление OneVN доступно # дней}other{Обновление OneVN доступно # дня}}</translation>
-<translation id="720532315408041257">Администратор просит перезапустить OneVN для установки обновления</translation>
-<translation id="6639482638305253477">{0,plural, =1{Перезапустите OneVN в течение дня}one{Перезапустите OneVN в течение # дня}few{Перезапустите OneVN в течение # дней}many{Перезапустите OneVN в течение # дней}other{Перезапустите OneVN в течение # дня}}</translation>
-<translation id="656910845148850955">{0,plural, =1{OneVN перезапустится через 1 час}one{OneVN перезапустится через # час}few{OneVN перезапустится через # часа}many{OneVN перезапустится через # часов}other{OneVN перезапустится через # часа}}</translation>
-<translation id="2927768292099217319">{0,plural, =1{OneVN перезапустится через 1 минуту}one{OneVN перезапустится через # минуту}few{OneVN перезапустится через # минуты}many{OneVN перезапустится через # минут}other{OneVN перезапустится через # минуты}}</translation>
-<translation id="2124855793980950516">{0,plural, =0{OneVN перезапускается}=1{OneVN перезапустится через 1 секунду}one{OneVN перезапустится через # секунду}few{OneVN перезапустится через # секунды}many{OneVN перезапустится через # секунд}other{OneVN перезапустится через # секунды}}</translation>
-<translation id="7595187113648413294">Администратор требует перезапустить OneVN для установки обновления</translation>
-<translation id="56801943271475640">{0,plural, =0{Доступно обновление OneVN OS}=1{Доступно обновление OneVN OS}one{Обновление OneVN OS доступно # день}few{Обновление OneVN OS доступно # дня}many{Обновление OneVN OS доступно # дней}other{Обновление OneVN OS доступно # дня}}</translation>
-<translation id="5715362474140341294">Администратор просит перезапустить OneVN OS для установки обновления.</translation>
-<translation id="8094834892392729950">{0,plural, =1{Перезапустите OneVN OS в течение 1 дня}one{Перезапустите OneVN OS в течение # дня}few{Перезапустите OneVN OS в течение # дней}many{Перезапустите OneVN OS в течение # дней}other{Перезапустите OneVN OS в течение # дня}}</translation>
-<translation id="1265795866000813420">{0,plural, =1{OneVN OS перезапустится через 1 час}one{OneVN OS перезапустится через # час}few{OneVN OS перезапустится через # часа}many{OneVN OS перезапустится через # часов}other{OneVN OS перезапустится через # часа}}</translation>
-<translation id="2031312345409605311">{0,plural, =1{OneVN OS перезапустится через 1 минуту}one{OneVN OS перезапустится через # минуту}few{OneVN OS перезапустится через # минуты}many{OneVN OS перезапустится через # минут}other{OneVN OS перезапустится через # минуты}}</translation>
-<translation id="8624602604153953835">{0,plural, =0{OneVN OS перезапускается}=1{OneVN OS перезапустится через 1 секунду}one{OneVN OS перезапустится через # секунду}few{OneVN OS перезапустится через # секунды}many{OneVN OS перезапустится через # секунд}other{OneVN OS перезапустится через # секунды}}</translation>
-<translation id="8559452515617838628">Администратор требует перезапустить OneVN OS для установки обновления.</translation>
-<translation id="3052349005266761501">Запуск OneVN...</translation>
-<translation id="1197672524850678392">Не удалось запустить OneVN. Повторите попытку.</translation>
+<translation id="3507835409099344374">Открыть настройки уведомлений Onevn</translation>
+<translation id="9118654140804842635">{0,plural, =0{Доступно обновление Onevn}=1{Доступно обновление Onevn}one{Обновление Onevn доступно # день}few{Обновление Onevn доступно # дня}many{Обновление Onevn доступно # дней}other{Обновление Onevn доступно # дня}}</translation>
+<translation id="720532315408041257">Администратор просит перезапустить Onevn для установки обновления</translation>
+<translation id="6639482638305253477">{0,plural, =1{Перезапустите Onevn в течение дня}one{Перезапустите Onevn в течение # дня}few{Перезапустите Onevn в течение # дней}many{Перезапустите Onevn в течение # дней}other{Перезапустите Onevn в течение # дня}}</translation>
+<translation id="656910845148850955">{0,plural, =1{Onevn перезапустится через 1 час}one{Onevn перезапустится через # час}few{Onevn перезапустится через # часа}many{Onevn перезапустится через # часов}other{Onevn перезапустится через # часа}}</translation>
+<translation id="2927768292099217319">{0,plural, =1{Onevn перезапустится через 1 минуту}one{Onevn перезапустится через # минуту}few{Onevn перезапустится через # минуты}many{Onevn перезапустится через # минут}other{Onevn перезапустится через # минуты}}</translation>
+<translation id="2124855793980950516">{0,plural, =0{Onevn перезапускается}=1{Onevn перезапустится через 1 секунду}one{Onevn перезапустится через # секунду}few{Onevn перезапустится через # секунды}many{Onevn перезапустится через # секунд}other{Onevn перезапустится через # секунды}}</translation>
+<translation id="7595187113648413294">Администратор требует перезапустить Onevn для установки обновления</translation>
+<translation id="56801943271475640">{0,plural, =0{Доступно обновление Onevn OS}=1{Доступно обновление Onevn OS}one{Обновление Onevn OS доступно # день}few{Обновление Onevn OS доступно # дня}many{Обновление Onevn OS доступно # дней}other{Обновление Onevn OS доступно # дня}}</translation>
+<translation id="5715362474140341294">Администратор просит перезапустить Onevn OS для установки обновления.</translation>
+<translation id="8094834892392729950">{0,plural, =1{Перезапустите Onevn OS в течение 1 дня}one{Перезапустите Onevn OS в течение # дня}few{Перезапустите Onevn OS в течение # дней}many{Перезапустите Onevn OS в течение # дней}other{Перезапустите Onevn OS в течение # дня}}</translation>
+<translation id="1265795866000813420">{0,plural, =1{Onevn OS перезапустится через 1 час}one{Onevn OS перезапустится через # час}few{Onevn OS перезапустится через # часа}many{Onevn OS перезапустится через # часов}other{Onevn OS перезапустится через # часа}}</translation>
+<translation id="2031312345409605311">{0,plural, =1{Onevn OS перезапустится через 1 минуту}one{Onevn OS перезапустится через # минуту}few{Onevn OS перезапустится через # минуты}many{Onevn OS перезапустится через # минут}other{Onevn OS перезапустится через # минуты}}</translation>
+<translation id="8624602604153953835">{0,plural, =0{Onevn OS перезапускается}=1{Onevn OS перезапустится через 1 секунду}one{Onevn OS перезапустится через # секунду}few{Onevn OS перезапустится через # секунды}many{Onevn OS перезапустится через # секунд}other{Onevn OS перезапустится через # секунды}}</translation>
+<translation id="8559452515617838628">Администратор требует перезапустить Onevn OS для установки обновления.</translation>
+<translation id="3052349005266761501">Запуск Onevn...</translation>
+<translation id="1197672524850678392">Не удалось запустить Onevn. Повторите попытку.</translation>
 <translation id="6040143037577758943">Закрыть</translation>
-<translation id="8541922081612557424">О OneVN</translation>
-<translation id="3262506503470845422">Справка OneVN</translation>
-<translation id="1864557848095568223">Обновление OneVN…</translation>
-<translation id="1786715389543715322">Обновление OneVN (<ph name="PROGRESS_PERCENT"/>)…</translation>
-<translation id="8208853227947884571">Вы используете последнюю версию OneVN</translation>
-<translation id="6686872257969654608">О OneVN OS</translation>
-<translation id="2280363356796735201">Справка OneVN OS</translation>
-<translation id="5253815230176279256">OneVN Software Pay (скопирована в OneVN)</translation>
-<translation id="5468853758063275923">OneVN используется как браузер по умолчанию</translation>
-<translation id="1775322105159056176">OneVN не удалось определить или задать браузер по умолчанию</translation>
-<translation id="6915252145142862992">Это дополнительная установка OneVN. Его нельзя сделать браузером по умолчанию.</translation>
-<translation id="7977435741986383568">Для более качественной работы OneVN может использовать веб-сервисы. При необходимости отключите их. <ph name="BEGIN_LINK"/>Подробнее…<ph name="END_LINK"/></translation>
-<translation id="2312399718665761438">Для проверки правописания OneVN отправляет введенный вами текст в OneVN Software.</translation>
-<translation id="8586264863973514035">Чтобы изменения вступили в силу, перезапустите OneVN.</translation>
-<translation id="7021823858304886493">Разрешить вход в OneVN</translation>
-<translation id="1649714546770135458">Отключив эту функцию, вы сможете входить в систему на сайтах OneVN Software (например, Gmail) без необходимости выполнять вход в OneVN.</translation>
-<translation id="9220324636239049437">С устройства будет удален 1 объект. Чтобы восстановить данные позже, войдите в OneVN как <ph name="USER_EMAIL"/>.</translation>
-<translation id="5853262807109651878">С устройства будут удалены объекты (<ph name="ITEMS_COUNT"/>). Чтобы восстановить данные позже, войдите в OneVN как <ph name="USER_EMAIL"/>.</translation>
-<translation id="4784414698887946907">Данные о работе в браузере будут удалены с устройства. Чтобы восстановить их позже, войдите в OneVN как <ph name="USER_EMAIL"/>.</translation>
-<translation id="4518479204315969707">Имя и изображение профиля OneVN</translation>
-<translation id="8372880274820509128">В целях повышения безопасности OneVN шифрует ваши данные.</translation>
-<translation id="7445061995866044926">Выйти из OneVN?</translation>
-<translation id="7453070689008684791">OneVN получит доступ к вашему OneVN Software Диску, чтобы вы могли просматривать рекомендации в адресной строке.</translation>
-<translation id="9221712274065451529">На этом языке отображается интерфейс OneVN OS</translation>
-<translation id="3518788198614984730">Отображать OneVN OS на этом языке</translation>
-<translation id="5757460455745382269">На этом языке отображается интерфейс OneVN</translation>
-<translation id="2335583906071111058">Отображать OneVN на этом языке</translation>
-<translation id="8926637909431618259">Продолжить выполнение фоновых приложений после закрытия OneVN</translation>
-<translation id="6056473803837713617">Отправьте отчет о <ph name="BEGIN_LINK"/>текущих настройках OneVN<ph name="END_LINK"/>, чтобы помочь нам улучшить браузер</translation>
+<translation id="8541922081612557424">О Onevn</translation>
+<translation id="3262506503470845422">Справка Onevn</translation>
+<translation id="1864557848095568223">Обновление Onevn…</translation>
+<translation id="1786715389543715322">Обновление Onevn (<ph name="PROGRESS_PERCENT"/>)…</translation>
+<translation id="8208853227947884571">Вы используете последнюю версию Onevn</translation>
+<translation id="6686872257969654608">О Onevn OS</translation>
+<translation id="2280363356796735201">Справка Onevn OS</translation>
+<translation id="5253815230176279256">Onevn Software Pay (скопирована в Onevn)</translation>
+<translation id="5468853758063275923">Onevn используется как браузер по умолчанию</translation>
+<translation id="1775322105159056176">Onevn не удалось определить или задать браузер по умолчанию</translation>
+<translation id="6915252145142862992">Это дополнительная установка Onevn. Его нельзя сделать браузером по умолчанию.</translation>
+<translation id="7977435741986383568">Для более качественной работы Onevn может использовать веб-сервисы. При необходимости отключите их. <ph name="BEGIN_LINK"/>Подробнее…<ph name="END_LINK"/></translation>
+<translation id="2312399718665761438">Для проверки правописания Onevn отправляет введенный вами текст в Onevn Software.</translation>
+<translation id="8586264863973514035">Чтобы изменения вступили в силу, перезапустите Onevn.</translation>
+<translation id="7021823858304886493">Разрешить вход в Onevn</translation>
+<translation id="1649714546770135458">Отключив эту функцию, вы сможете входить в систему на сайтах Onevn Software (например, Gmail) без необходимости выполнять вход в Onevn.</translation>
+<translation id="9220324636239049437">С устройства будет удален 1 объект. Чтобы восстановить данные позже, войдите в Onevn как <ph name="USER_EMAIL"/>.</translation>
+<translation id="5853262807109651878">С устройства будут удалены объекты (<ph name="ITEMS_COUNT"/>). Чтобы восстановить данные позже, войдите в Onevn как <ph name="USER_EMAIL"/>.</translation>
+<translation id="4784414698887946907">Данные о работе в браузере будут удалены с устройства. Чтобы восстановить их позже, войдите в Onevn как <ph name="USER_EMAIL"/>.</translation>
+<translation id="4518479204315969707">Имя и изображение профиля Onevn</translation>
+<translation id="8372880274820509128">В целях повышения безопасности Onevn шифрует ваши данные.</translation>
+<translation id="7445061995866044926">Выйти из Onevn?</translation>
+<translation id="7453070689008684791">Onevn получит доступ к вашему Onevn Software Диску, чтобы вы могли просматривать рекомендации в адресной строке.</translation>
+<translation id="9221712274065451529">На этом языке отображается интерфейс Onevn OS</translation>
+<translation id="3518788198614984730">Отображать Onevn OS на этом языке</translation>
+<translation id="5757460455745382269">На этом языке отображается интерфейс Onevn</translation>
+<translation id="2335583906071111058">Отображать Onevn на этом языке</translation>
+<translation id="8926637909431618259">Продолжить выполнение фоновых приложений после закрытия Onevn</translation>
+<translation id="6056473803837713617">Отправьте отчет о <ph name="BEGIN_LINK"/>текущих настройках Onevn<ph name="END_LINK"/>, чтобы помочь нам улучшить браузер</translation>
 </translationbundle>

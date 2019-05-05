@@ -6,6 +6,6 @@
 #include "chrome/browser/extensions/component_loader.h"
 #include "chrome/browser/extensions/extension_service.h"
 
-#define ComponentLoader OneVNComponentLoader
+#define ComponentLoader OnevnComponentLoader
 #include "../../../../../chrome/browser/extensions/extension_service.cc"
 #undef ComponentLoader

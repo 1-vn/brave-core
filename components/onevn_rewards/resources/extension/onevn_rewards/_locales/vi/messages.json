@@ -1,6 +1,6 @@
 {
   "onevnRewards": {
-    "message": "Phần thưởng của OneVN",
+    "message": "Phần thưởng của Onevn",
     "description": "Title in welcome screen for the panel"
   },
   "welcomeButtonTextOne": {
@@ -28,7 +28,7 @@
     "description": "Link in the footer (takes you to rewards settings page) for welcome screen in the panel, new user"
   },
   "welcomeHeaderOne": {
-    "message": "Chúng tôi đã thực hiện nâng cấp lớn cho Tiền thưởng OneVN.",
+    "message": "Chúng tôi đã thực hiện nâng cấp lớn cho Tiền thưởng Onevn.",
     "description": "Main header title for welcome screen in the panel, existing user"
   },
   "welcomeHeaderTwo": {
@@ -48,7 +48,7 @@
     "description": "The whole string is 'Enable tips on YouTube for like.'"
   },
   "verifiedPublisher": {
-    "message": "Nhà xuất bản Chứng thực bởi OneVN",
+    "message": "Nhà xuất bản Chứng thực bởi Onevn",
     "description": "Tells user that this particular publisher is verified publisher"
   },
   "rewardsContributeAttentionScore": {
@@ -164,7 +164,7 @@
     "description": "Used in notification to dismiss notification"
   },
   "onevnAdsTitle": {
-    "message": "Quảng cáo OneVN",
+    "message": "Quảng cáo Onevn",
     "description": "Notification title when we display info about ads"
   },
   "onevnContributeTitle": {
@@ -194,11 +194,11 @@
     "description": "Notification title when we ask user to backup wallet"
   },
   "backupWalletNotification": {
-    "message": "Vui lòng sao lưu ví OneVN của bạn.",
+    "message": "Vui lòng sao lưu ví Onevn của bạn.",
     "description": "Description for backup wallet notification"
   },
   "insufficientFundsNotification": {
-    "message": "Tài khoản Tiền thưởng OneVN của bạn đang chờ khoản tiền gửi.",
+    "message": "Tài khoản Tiền thưởng Onevn của bạn đang chờ khoản tiền gửi.",
     "description": "Description for new insufficient funds notification"
   },
   "insufficientFunds": {
@@ -270,7 +270,7 @@
     "description": "Button text for clearing the error."
   },
   "grantGeneralErrorText": {
-    "message": "Phần thưởng OneVN đang gặp sự cố. Vui lòng thử lại sau.",
+    "message": "Phần thưởng Onevn đang gặp sự cố. Vui lòng thử lại sau.",
     "description": "Error text when user is having problems claiming a grant."
   },
   "grantGeneralErrorTitle": {
@@ -294,7 +294,7 @@
     "description": "Status of the publisher shown in the panel"
   },
   "unVerifiedText": {
-    "message": "Người sáng tạo này vẫn chưa đăng ký để nhận đóng góp từ người dùng OneVN. Bất kỳ khoản tiền tip nào mà bạn gửi sẽ vẫn còn trong ví của bạn cho đến khi họ xác minh.",
+    "message": "Người sáng tạo này vẫn chưa đăng ký để nhận đóng góp từ người dùng Onevn. Bất kỳ khoản tiền tip nào mà bạn gửi sẽ vẫn còn trong ví của bạn cho đến khi họ xác minh.",
     "description": "Notice about unverified publisher."
   },
   "unVerifiedTextMore": {
@@ -322,7 +322,7 @@
     "description": "Text for Panel's disabled state"
   },
   "disabledPanelTitle": {
-    "message": "Phần thưởng OneVN là",
+    "message": "Phần thưởng Onevn là",
     "description": "Title for Panel's disabled state"
   },
   "walletFailedTitle": {
@@ -358,7 +358,7 @@
     "description": "Text block for wallet disabled panel"
   },
   "enableRewards": {
-    "message": "Kích hoạt Phần thưởng của OneVN",
+    "message": "Kích hoạt Phần thưởng của Onevn",
     "description": "Subtitle for wallet disabled panel"
   },
   "privacyPolicy": {
@@ -366,7 +366,7 @@
     "description": "Privacy Policy"
   },
   "serviceText": {
-    "message": "Bằng cách nhấp vào \"Bật Tiền thưởng OneVN\", bạn cho biết rằng bạn đã đọc và đồng ý với",
+    "message": "Bằng cách nhấp vào \"Bật Tiền thưởng Onevn\", bạn cho biết rằng bạn đã đọc và đồng ý với",
     "description": "Terms of service main text"
   },
   "termsOfService": {

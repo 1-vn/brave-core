@@ -81,10 +81,10 @@ class PerformBridge : public base::RefCountedThreadSafe<PerformBridge> {
 
 }  // namespace
 
-NSString* const kOneVNAutoupdateStatusNotification = @"AutoupdateStatusNotification";
-NSString* const kOneVNAutoupdateStatusStatus = @"status";
-NSString* const kOneVNAutoupdateStatusVersion = @"version";
-NSString* const kOneVNAutoupdateStatusErrorMessages = @"errormessages";
+NSString* const kOnevnAutoupdateStatusNotification = @"AutoupdateStatusNotification";
+NSString* const kOnevnAutoupdateStatusStatus = @"status";
+NSString* const kOnevnAutoupdateStatusVersion = @"version";
+NSString* const kOnevnAutoupdateStatusErrorMessages = @"errormessages";
 
 @implementation SparkleGlue
 {
@@ -98,7 +98,7 @@ NSString* const kOneVNAutoupdateStatusErrorMessages = @"errormessages";
   NSString* new_version_;
 
   std::string channel_;
-  // The most recent kOneVNAutoupdateStatusNotification notification posted.
+  // The most recent kOnevnAutoupdateStatusNotification notification posted.
   base::scoped_nsobject<NSNotification> recentNotification_;
 }
 
@@ -166,7 +166,7 @@ NSString* const kOneVNAutoupdateStatusErrorMessages = @"errormessages";
 }
 
 - (void)registerWithSparkle {
-  // This can be called by OneVNBrowserMainPartsMac::PreMainMessageLoopStart()
+  // This can be called by OnevnBrowserMainPartsMac::PreMainMessageLoopStart()
   // again when browser is relaunched.
   if (registered_)
     return;
@@ -181,8 +181,8 @@ NSString* const kOneVNAutoupdateStatusErrorMessages = @"errormessages";
   [su_updater_ setDelegate:self];
 
   // Background update check interval.
-  constexpr NSTimeInterval kOneVNUpdateCheckIntervalInSec = 3 * 60 * 60;
-  [su_updater_ setUpdateCheckInterval:kOneVNUpdateCheckIntervalInSec];
+  constexpr NSTimeInterval kOnevnUpdateCheckIntervalInSec = 3 * 60 * 60;
+  [su_updater_ setUpdateCheckInterval:kOnevnUpdateCheckIntervalInSec];
   [su_updater_ setAutomaticallyChecksForUpdates:YES];
   [su_updater_ setAutomaticallyDownloadsUpdates:YES];
 
@@ -241,16 +241,16 @@ NSString* const kOneVNAutoupdateStatusErrorMessages = @"errormessages";
   NSNumber* statusNumber = [NSNumber numberWithInt:status];
   NSMutableDictionary* dictionary =
       [NSMutableDictionary dictionaryWithObject:statusNumber
-                                         forKey:kOneVNAutoupdateStatusStatus];
+                                         forKey:kOnevnAutoupdateStatusStatus];
   if ([version length]) {
-    [dictionary setObject:version forKey:kOneVNAutoupdateStatusVersion];
+    [dictionary setObject:version forKey:kOnevnAutoupdateStatusVersion];
   }
   if ([error length]) {
-    [dictionary setObject:error forKey:kOneVNAutoupdateStatusErrorMessages];
+    [dictionary setObject:error forKey:kOnevnAutoupdateStatusErrorMessages];
   }
 
   NSNotification* notification =
-      [NSNotification notificationWithName:kOneVNAutoupdateStatusNotification
+      [NSNotification notificationWithName:kOnevnAutoupdateStatusNotification
                                     object:self
                                   userInfo:dictionary];
   recentNotification_.reset([notification retain]);
@@ -301,7 +301,7 @@ NSString* const kOneVNAutoupdateStatusErrorMessages = @"errormessages";
 - (AutoupdateStatus)recentStatus {
   NSDictionary* dictionary = [recentNotification_ userInfo];
   NSNumber* status = base::mac::ObjCCastStrict<NSNumber>(
-      [dictionary objectForKey:kOneVNAutoupdateStatusStatus]);
+      [dictionary objectForKey:kOnevnAutoupdateStatusStatus]);
   return static_cast<AutoupdateStatus>([status intValue]);
 }
 

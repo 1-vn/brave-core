@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -28,13 +28,13 @@ namespace onevn {
 
 void AttachTabHelpers(content::WebContents* web_contents) {
 #if !defined(OS_ANDROID)
-  onevn_shields::OneVNShieldsWebContentsObserver::CreateForWebContents(
+  onevn_shields::OnevnShieldsWebContentsObserver::CreateForWebContents(
       web_contents);
 #if BUILDFLAG(ONEVN_REWARDS_ENABLED)
   onevn_rewards::RewardsHelper::CreateForWebContents(web_contents);
 #endif
   // Add tab helpers here unless they are intended for android too
-  OneVNDrmTabHelper::CreateForWebContents(web_contents);
+  OnevnDrmTabHelper::CreateForWebContents(web_contents);
 #if BUILDFLAG(ONEVN_STP_ENABLED)
   if (TrackingProtectionHelper::IsSmartTrackingProtectionEnabled()) {
     onevn_shields::TrackingProtectionHelper::CreateForWebContents(web_contents);

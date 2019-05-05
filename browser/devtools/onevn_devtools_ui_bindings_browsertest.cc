@@ -16,15 +16,15 @@
 #include "content/public/browser/web_contents.h"
 #include "components/prefs/pref_service.h"
 
-using BTS = OneVNThemeService;
+using BTS = OnevnThemeService;
 
 namespace {
-void SetOneVNThemeType(Profile* profile, OneVNThemeType type) {
-  profile->GetPrefs()->SetInteger(kOneVNThemeType, type);
+void SetOnevnThemeType(Profile* profile, OnevnThemeType type) {
+  profile->GetPrefs()->SetInteger(kOnevnThemeType, type);
 }
 }  // namespace
 
-class OneVNDevToolsUIBindingsBrowserTest : public InProcessBrowserTest {
+class OnevnDevToolsUIBindingsBrowserTest : public InProcessBrowserTest {
  public:
   void GetPreferenceCallback(const base::Value* value) {
     ui_theme_ = value->FindKey("uiTheme")->GetString();
@@ -33,25 +33,25 @@ class OneVNDevToolsUIBindingsBrowserTest : public InProcessBrowserTest {
   std::string ui_theme_;
 };
 
-IN_PROC_BROWSER_TEST_F(OneVNDevToolsUIBindingsBrowserTest, ThemeTest) {
+IN_PROC_BROWSER_TEST_F(OnevnDevToolsUIBindingsBrowserTest, ThemeTest) {
   auto* profile = browser()->profile();
   auto* tab_strip_model = browser()->tab_strip_model();
   content::WebContents* web_contents = tab_strip_model->GetActiveWebContents();
   DCHECK(web_contents);
 
-  SetOneVNThemeType(profile, OneVNThemeType::ONEVN_THEME_TYPE_DARK);
-  auto* devtools_ui_bindings = new OneVNDevToolsUIBindings(web_contents);
+  SetOnevnThemeType(profile, OnevnThemeType::ONEVN_THEME_TYPE_DARK);
+  auto* devtools_ui_bindings = new OnevnDevToolsUIBindings(web_contents);
   DCHECK(devtools_ui_bindings);
   devtools_ui_bindings->GetPreferences(
-      base::Bind(&OneVNDevToolsUIBindingsBrowserTest::GetPreferenceCallback,
+      base::Bind(&OnevnDevToolsUIBindingsBrowserTest::GetPreferenceCallback,
                  base::Unretained(this)));
   // Check current devtools' theme is same as native theme when user doesn't
   // change devtools' theme explicitely.
   EXPECT_EQ(ui_theme_, "\"dark\"");
 
-  SetOneVNThemeType(profile, OneVNThemeType::ONEVN_THEME_TYPE_LIGHT);
+  SetOnevnThemeType(profile, OnevnThemeType::ONEVN_THEME_TYPE_LIGHT);
   devtools_ui_bindings->GetPreferences(
-      base::Bind(&OneVNDevToolsUIBindingsBrowserTest::GetPreferenceCallback,
+      base::Bind(&OnevnDevToolsUIBindingsBrowserTest::GetPreferenceCallback,
                  base::Unretained(this)));
   // In devtools, default is used as light.
   EXPECT_EQ(ui_theme_, "\"default\"");
@@ -59,7 +59,7 @@ IN_PROC_BROWSER_TEST_F(OneVNDevToolsUIBindingsBrowserTest, ThemeTest) {
   // When user sets devtools' theme explicitely, respect user's setting.
   devtools_ui_bindings->SetPreference("uiTheme", "\"dark\"");
   devtools_ui_bindings->GetPreferences(
-      base::Bind(&OneVNDevToolsUIBindingsBrowserTest::GetPreferenceCallback,
+      base::Bind(&OnevnDevToolsUIBindingsBrowserTest::GetPreferenceCallback,
                  base::Unretained(this)));
   EXPECT_EQ(ui_theme_, "\"dark\"");
 }

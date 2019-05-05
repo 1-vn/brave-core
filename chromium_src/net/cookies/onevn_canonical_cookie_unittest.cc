@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
@@ -23,7 +23,7 @@ static const std::string cookie_line5 =
 
 namespace net {
 
-TEST(OneVNCanonicalCookieTest, ClientSide) {
+TEST(OnevnCanonicalCookieTest, ClientSide) {
   using base::TimeDelta;
 
   GURL url("https://www.example.com/test");
@@ -57,7 +57,7 @@ TEST(OneVNCanonicalCookieTest, ClientSide) {
   EXPECT_FALSE(cookie.get());
 }
 
-TEST(OneVNCanonicalCookieTest, ServerSide) {
+TEST(OnevnCanonicalCookieTest, ServerSide) {
   using base::TimeDelta;
 
   GURL url("https://www.example.com/test");

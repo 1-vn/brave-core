@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -7,7 +7,7 @@
 #include "base/stl_util.h"
 
 namespace settings {
-void OneVNAddLocalizedStrings(content::WebUIDataSource*, Profile*);
+void OnevnAddLocalizedStrings(content::WebUIDataSource*, Profile*);
 }  // namespace settings
 #include "../../../../../../chrome/browser/ui/webui/settings/md_settings_localized_strings_provider.cc"  // NOLINT
 
@@ -16,7 +16,7 @@ void OneVNAddLocalizedStrings(content::WebUIDataSource*, Profile*);
 
 namespace settings {
 
-void OneVNAddImportDataStrings(content::WebUIDataSource* html_source) {
+void OnevnAddImportDataStrings(content::WebUIDataSource* html_source) {
   LocalizedString localized_strings[] = {
     {"importCookies", IDS_SETTINGS_IMPORT_COOKIES_CHECKBOX},
     {"importStats", IDS_SETTINGS_IMPORT_STATS_CHECKBOX},
@@ -31,7 +31,7 @@ const char kWebRTCLearnMoreURL[] =
   "https://support.1-vn.com/hc/en-us/articles/"
   "360017989132-How-do-I-change-my-Privacy-Settings-#webrtc";
 
-void OneVNAddCommonStrings(content::WebUIDataSource* html_source,
+void OnevnAddCommonStrings(content::WebUIDataSource* html_source,
                            Profile* profile) {
   LocalizedString localized_strings[] = {
     {"siteSettingsAutoplay",
@@ -46,13 +46,13 @@ void OneVNAddCommonStrings(content::WebUIDataSource* html_source,
       IDS_SETTINGS_ONEVN_GET_STARTED_TITLE},
     {"onevnAdditionalSettingsTitle",
       IDS_SETTINGS_ONEVN_ADDITIONAL_SETTINGS},
-    {"appearanceSettingsOneVNTheme",
+    {"appearanceSettingsOnevnTheme",
       IDS_SETTINGS_APPEARANCE_SETTINGS_ONEVN_THEMES},
     {"appearanceSettingsLocationBarIsWide",
       IDS_SETTINGS_APPEARANCE_SETTINGS_LOCATION_BAR_IS_WIDE},
-    {"appearanceSettingsHideOneVNRewardsButtonLabel",
+    {"appearanceSettingsHideOnevnRewardsButtonLabel",
        IDS_SETTINGS_HIDE_ONEVN_REWARDS_BUTTON_LABEL},
-    {"appearanceSettingsHideOneVNRewardsButtonDesc",
+    {"appearanceSettingsHideOnevnRewardsButtonDesc",
        IDS_SETTINGS_HIDE_ONEVN_REWARDS_BUTTON_DESC},
     {"onevnShieldsTitle",
       IDS_SETTINGS_ONEVN_SHIELDS_TITLE},
@@ -131,16 +131,16 @@ void OneVNAddCommonStrings(content::WebUIDataSource* html_source,
       base::ASCIIToUTF16(kWebRTCLearnMoreURL));
 }
 
-void OneVNAddResources(content::WebUIDataSource* html_source,
+void OnevnAddResources(content::WebUIDataSource* html_source,
                        Profile* profile) {
-  OneVNMdSettingsUI::AddResources(html_source, profile);
+  OnevnMdSettingsUI::AddResources(html_source, profile);
 }
 
-void OneVNAddLocalizedStrings(content::WebUIDataSource* html_source,
+void OnevnAddLocalizedStrings(content::WebUIDataSource* html_source,
                               Profile* profile) {
-  OneVNAddImportDataStrings(html_source);
-  OneVNAddCommonStrings(html_source, profile);
-  OneVNAddResources(html_source, profile);
+  OnevnAddImportDataStrings(html_source);
+  OnevnAddCommonStrings(html_source, profile);
+  OnevnAddResources(html_source, profile);
 }
 
 }  // namespace settings

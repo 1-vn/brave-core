@@ -7,9 +7,9 @@
 #include "chrome/browser/ui/browser.h"
 #include "chrome/test/base/in_process_browser_test.h"
 
-using OneVNGoogleURLTrackerClientTest = InProcessBrowserTest;
+using OnevnGoogleURLTrackerClientTest = InProcessBrowserTest;
 
-IN_PROC_BROWSER_TEST_F(OneVNGoogleURLTrackerClientTest, DisablesGoogleURLTrackerClient) {
+IN_PROC_BROWSER_TEST_F(OnevnGoogleURLTrackerClientTest, DisablesGoogleURLTrackerClient) {
   EXPECT_TRUE(base::CommandLine::ForCurrentProcess()->HasSwitch(
       switches::kDisableChromeGoogleURLTrackingClient));
 

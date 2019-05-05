@@ -47,14 +47,14 @@ class PageReloadWaiter {
 
 }  // namespace
 
-class OneVNContentSettingsObserverFlashBrowserTest : public InProcessBrowserTest {
+class OnevnContentSettingsObserverFlashBrowserTest : public InProcessBrowserTest {
   public:
     void SetUpOnMainThread() override {
       InProcessBrowserTest::SetUpOnMainThread();
 
       content_client_.reset(new ChromeContentClient);
       content::SetContentClient(content_client_.get());
-      browser_content_client_.reset(new OneVNContentBrowserClient());
+      browser_content_client_.reset(new OnevnContentBrowserClient());
       content::SetBrowserClientForTesting(browser_content_client_.get());
 
       host_resolver()->AddRule("*", "127.0.0.1");
@@ -133,13 +133,13 @@ class OneVNContentSettingsObserverFlashBrowserTest : public InProcessBrowserTest
     ContentSettingsPattern top_level_page_pattern_;
     ContentSettingsPattern empty_pattern_;
     std::unique_ptr<ChromeContentClient> content_client_;
-    std::unique_ptr<OneVNContentBrowserClient> browser_content_client_;
+    std::unique_ptr<OnevnContentBrowserClient> browser_content_client_;
 
     base::ScopedTempDir temp_user_data_dir_;
 };
 
 // Flash is blocked by default
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverFlashBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsObserverFlashBrowserTest,
     BlockFlashByDefault) {
   NavigateToURLUntilLoadStop(url());
   int len;
@@ -149,7 +149,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverFlashBrowserTest,
 }
 
 // Flash is unblocked and click to play eventually allows
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverFlashBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsObserverFlashBrowserTest,
     UnblockFlash) {
   UnblockFlash();
   NavigateToURLUntilLoadStop(url());
@@ -187,7 +187,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverFlashBrowserTest,
 }
 
 // Flash is explicitly allowed
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverFlashBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsObserverFlashBrowserTest,
     AllowFlashExplicitAllows) {
   AllowFlash();
   NavigateToURLUntilLoadStop(url());

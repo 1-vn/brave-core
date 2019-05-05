@@ -6,7 +6,7 @@ import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import * as shieldsPanelActions from '../actions/shieldsPanelActions'
 import * as shieldsPanelState from '../state/shieldsPanelState'
-import OneVNShields from '../components/onevnShields'
+import OnevnShields from '../components/onevnShields'
 import { State } from '../types/state/mainState'
 
 const mapStateToProps = (state: State) => ({
@@ -20,4 +20,4 @@ const mapDispatchToProps = (dispatch: any) => ({
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(OneVNShields as any) // TODO remove any
+)(OnevnShields as any) // TODO remove any

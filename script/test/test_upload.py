@@ -35,7 +35,7 @@ class TestGetDraft(unittest.TestCase):
         self.assertEquals(upload.get_release(self.repo, 'test'), None)
 
 
-class TestGetOneVNPackages(unittest.TestCase):
+class TestGetOnevnPackages(unittest.TestCase):
     get_pkgs_dir = os.path.join(os.path.dirname(
         os.path.realpath(__file__)), 'test_get_pkgs')
     _is_setup = False
@@ -45,9 +45,9 @@ class TestGetOneVNPackages(unittest.TestCase):
             for chan in ['Nightly', 'Dev', 'Beta', 'Release']:
                 if chan not in 'Release':
                     for mode in ['Stub', 'Standalone']:
-                        name = 'OneVNBrowser{}{}Setup_70_0_56_8.exe'.format(
+                        name = 'OnevnBrowser{}{}Setup_70_0_56_8.exe'.format(
                             mode if mode not in 'Stub' else '', chan)
-                        name32 = ('OneVNBrowser{}{}Setup32_70_0_56_8.exe'
+                        name32 = ('OnevnBrowser{}{}Setup32_70_0_56_8.exe'
                                   .format(mode if mode not in 'Stub'
                                           else '', chan))
                         with open(os.path.join(self.get_pkgs_dir,
@@ -58,9 +58,9 @@ class TestGetOneVNPackages(unittest.TestCase):
                             f.write(name32 + '\n')
                 else:
                     for mode in ['Stub', 'Standalone']:
-                        name = 'OneVNBrowser{}Setup_70_0_56_8.exe'.format(
+                        name = 'OnevnBrowser{}Setup_70_0_56_8.exe'.format(
                             mode if mode not in 'Stub' else '')
-                        name32 = 'OneVNBrowser{}Setup32_70_0_56_8.exe'.format(
+                        name32 = 'OnevnBrowser{}Setup32_70_0_56_8.exe'.format(
                             mode if mode not in 'Stub' else '')
                         with open(os.path.join(
                                 self.get_pkgs_dir, 'win32', name), 'w') as f:
@@ -74,27 +74,27 @@ class TestGetOneVNPackages(unittest.TestCase):
         upload.PLATFORM = 'darwin'
         pkgs = list(upload.get_onevn_packages(os.path.join(
             self.get_pkgs_dir, upload.PLATFORM), 'nightly', '0.50.8'))
-        self.assertEquals(pkgs, ['OneVN-Browser-Nightly.dmg'])
+        self.assertEquals(pkgs, ['Onevn-Browser-Nightly.dmg'])
 
     def test_only_returns_dev_darwin_package(self):
         upload.PLATFORM = 'darwin'
         pkgs = list(upload.get_onevn_packages(os.path.join(
             self.get_pkgs_dir, upload.PLATFORM), 'dev', '0.50.8'))
-        self.assertEquals(pkgs, ['OneVN-Browser-Dev.dmg'])
+        self.assertEquals(pkgs, ['Onevn-Browser-Dev.dmg'])
 
     def test_only_returns_beta_darwin_package(self):
         upload.PLATFORM = 'darwin'
         pkgs = list(upload.get_onevn_packages(
             os.path.join(self.get_pkgs_dir, upload.PLATFORM),
             'beta', '0.50.8'))
-        self.assertEquals(pkgs, ['OneVN-Browser-Beta.dmg'])
+        self.assertEquals(pkgs, ['Onevn-Browser-Beta.dmg'])
 
     def test_only_returns_release_darwin_package(self):
         upload.PLATFORM = 'darwin'
         pkgs = list(upload.get_onevn_packages(
             os.path.join(self.get_pkgs_dir, upload.PLATFORM),
             'release', '0.50.8'))
-        self.assertEquals(pkgs, ['OneVN-Browser.dmg', 'OneVN-Browser.pkg'])
+        self.assertEquals(pkgs, ['Onevn-Browser.dmg', 'Onevn-Browser.pkg'])
 
     def test_only_returns_nightly_linux_packages(self):
         upload.PLATFORM = 'linux'
@@ -138,7 +138,7 @@ class TestGetOneVNPackages(unittest.TestCase):
         pkgs = list(upload.get_onevn_packages(os.path.join(
             self.get_pkgs_dir, upload.PLATFORM), 'nightly', '0.56.8'))
         self.assertEquals(
-            pkgs, ['OneVNBrowserNightlySetup.exe', 'OneVNBrowserStandaloneNightlySetup.exe'])
+            pkgs, ['OnevnBrowserNightlySetup.exe', 'OnevnBrowserStandaloneNightlySetup.exe'])
 
     def test_only_returns_nightly_win_ia32_package(self):
         upload.PLATFORM = 'win32'
@@ -146,8 +146,8 @@ class TestGetOneVNPackages(unittest.TestCase):
         pkgs = list(upload.get_onevn_packages(
             os.path.join(self.get_pkgs_dir, upload.PLATFORM), 'nightly', '0.56.8'))
         self.assertEquals(
-            sorted(pkgs), sorted(['OneVNBrowserNightlySetup32.exe',
-                                  'OneVNBrowserStandaloneNightlySetup32.exe']))
+            sorted(pkgs), sorted(['OnevnBrowserNightlySetup32.exe',
+                                  'OnevnBrowserStandaloneNightlySetup32.exe']))
 
     def test_only_returns_dev_win_x64_package(self):
         upload.PLATFORM = 'win32'
@@ -155,8 +155,8 @@ class TestGetOneVNPackages(unittest.TestCase):
         pkgs = list(upload.get_onevn_packages(os.path.join(
             self.get_pkgs_dir, upload.PLATFORM), 'dev', '0.56.8'))
         self.assertEquals(
-            sorted(pkgs), sorted(['OneVNBrowserDevSetup.exe',
-                                  'OneVNBrowserStandaloneDevSetup.exe']))
+            sorted(pkgs), sorted(['OnevnBrowserDevSetup.exe',
+                                  'OnevnBrowserStandaloneDevSetup.exe']))
 
     def test_only_returns_dev_win_ia32_package(self):
         upload.PLATFORM = 'win32'
@@ -164,8 +164,8 @@ class TestGetOneVNPackages(unittest.TestCase):
         pkgs = list(upload.get_onevn_packages(
             os.path.join(self.get_pkgs_dir, upload.PLATFORM), 'dev', '0.56.8'))
         self.assertEquals(
-            sorted(pkgs), sorted(['OneVNBrowserDevSetup32.exe',
-                                  'OneVNBrowserStandaloneDevSetup32.exe']))
+            sorted(pkgs), sorted(['OnevnBrowserDevSetup32.exe',
+                                  'OnevnBrowserStandaloneDevSetup32.exe']))
 
     def test_only_returns_beta_win_x64_package(self):
         upload.PLATFORM = 'win32'
@@ -174,8 +174,8 @@ class TestGetOneVNPackages(unittest.TestCase):
             os.path.join(self.get_pkgs_dir, upload.PLATFORM),
             'beta', '0.56.8'))
         self.assertEquals(
-            sorted(pkgs), sorted(['OneVNBrowserBetaSetup.exe',
-                                  'OneVNBrowserStandaloneBetaSetup.exe']))
+            sorted(pkgs), sorted(['OnevnBrowserBetaSetup.exe',
+                                  'OnevnBrowserStandaloneBetaSetup.exe']))
 
     def test_only_returns_beta_win_ia32_package(self):
         upload.PLATFORM = 'win32'
@@ -184,8 +184,8 @@ class TestGetOneVNPackages(unittest.TestCase):
             os.path.join(self.get_pkgs_dir, upload.PLATFORM),
             'beta', '0.56.8'))
         self.assertEquals(
-            sorted(pkgs), sorted(['OneVNBrowserBetaSetup32.exe',
-                                  'OneVNBrowserStandaloneBetaSetup32.exe']))
+            sorted(pkgs), sorted(['OnevnBrowserBetaSetup32.exe',
+                                  'OnevnBrowserStandaloneBetaSetup32.exe']))
 
     def test_only_returns_release_win_x64_package(self):
         upload.PLATFORM = 'win32'
@@ -193,8 +193,8 @@ class TestGetOneVNPackages(unittest.TestCase):
         pkgs = list(upload.get_onevn_packages(
             os.path.join(self.get_pkgs_dir, upload.PLATFORM),
             'release', '0.56.8'))
-        self.assertEquals(sorted(pkgs), sorted(['OneVNBrowserSetup.exe',
-                                                'OneVNBrowserStandaloneSetup.exe']))
+        self.assertEquals(sorted(pkgs), sorted(['OnevnBrowserSetup.exe',
+                                                'OnevnBrowserStandaloneSetup.exe']))
 
     def test_only_returns_release_win_ia32_package(self):
         upload.PLATFORM = 'win32'
@@ -202,23 +202,23 @@ class TestGetOneVNPackages(unittest.TestCase):
         pkgs = list(upload.get_onevn_packages(
             os.path.join(self.get_pkgs_dir, upload.PLATFORM),
             'release', '0.56.8'))
-        self.assertEquals(sorted(pkgs), sorted(['OneVNBrowserStandaloneSetup32.exe',
-                                                'OneVNBrowserSetup32.exe']))
+        self.assertEquals(sorted(pkgs), sorted(['OnevnBrowserStandaloneSetup32.exe',
+                                                'OnevnBrowserSetup32.exe']))
 
 
 # uploading a single file to GitHub
-class TestUploadOneVN(unittest.TestCase):
+class TestUploadOnevn(unittest.TestCase):
     def setUp(self):
         self.repo = Repo()
         self.file_path = os.path.join(os.path.dirname(
             os.path.realpath(__file__)),
             'test_get_pkgs',
             'win32',
-            'OneVNBrowserSetup.exe')
+            'OnevnBrowserSetup.exe')
         self.release = Release()
         self.release.id = 1
         self.release.tag_name = 'release-tag-here'
-        self.asset = Asset(1, 'OneVNBrowserSetup.exe')
+        self.asset = Asset(1, 'OnevnBrowserSetup.exe')
         self.release.assets._assets.append(self.asset)
         self.repo.releases._releases = [self.release]
         self.repo.releases.assets = self.release.assets

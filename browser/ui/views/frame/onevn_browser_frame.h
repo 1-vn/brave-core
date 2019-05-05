@@ -9,17 +9,17 @@
 
 class BrowserView;
 
-class OneVNBrowserFrame : public BrowserFrame {
+class OnevnBrowserFrame : public BrowserFrame {
   public:
-    explicit OneVNBrowserFrame(BrowserView* browser_view);
-    ~OneVNBrowserFrame() override;
+    explicit OnevnBrowserFrame(BrowserView* browser_view);
+    ~OnevnBrowserFrame() override;
     const ui::NativeTheme* GetNativeTheme() const override;
 
   private:
     // The BrowserView is our ClientView. This is a pointer to it.
     BrowserView* browser_view_;
 
-    DISALLOW_COPY_AND_ASSIGN(OneVNBrowserFrame);
+    DISALLOW_COPY_AND_ASSIGN(OnevnBrowserFrame);
 };
 
 #endif

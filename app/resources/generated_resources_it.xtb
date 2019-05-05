@@ -20,12 +20,12 @@
 <translation id="8261506727792406068">Elimina</translation>
 <translation id="144283815522798837"><ph name="NUMBER_OF_ITEMS_SELECTED"/> selezionati</translation>
 <translation id="5582839680698949063">Menu principale</translation>
-<translation id="3700405816184340252">Cronologia di OneVN</translation>
+<translation id="3700405816184340252">Cronologia di Onevn</translation>
 <translation id="7602079150116086782">Nessuna scheda di altri dispositivi</translation>
 <translation id="4619615317237390068">Schede di altri dispositivi</translation>
-<translation id="82609232232243542">Accedi a OneVN</translation>
+<translation id="82609232232243542">Accedi a Onevn</translation>
 <translation id="4627442949885028695">Continua da un altro dispositivo</translation>
-<translation id="7253276740368043692">Accedi a OneVN per trovare le tue schede degli altri dispositivi.</translation>
+<translation id="7253276740368043692">Accedi a Onevn per trovare le tue schede degli altri dispositivi.</translation>
 <translation id="6351063337294363751">Puoi cancellare i tuoi dati di navigazione da questo menu</translation>
 <translation id="6040143037577758943">Chiudi</translation>
 <translation id="6463795194797719782">&amp;Modifica</translation>
@@ -90,15 +90,15 @@
 <translation id="5233736638227740678">&amp;Incolla</translation>
 <translation id="2218515861914035131">Incolla come solo testo</translation>
 <translation id="1017280919048282932">&amp;Aggiungi al dizionario</translation>
-<translation id="1732768497619250086">Scarica le descrizioni delle immagini da OneVN Software</translation>
+<translation id="1732768497619250086">Scarica le descrizioni delle immagini da Onevn Software</translation>
 <translation id="7561196759112975576">Sempre</translation>
 <translation id="2241634353105152135">Solo una volta</translation>
 <translation id="741204030948306876">Sì, accetto</translation>
 <translation id="780301667611848630">No grazie</translation>
-<translation id="4572259796527554261">Chiedi suggerimenti a OneVN Software</translation>
+<translation id="4572259796527554261">Chiedi suggerimenti a Onevn Software</translation>
 <translation id="3435896845095436175">Abilita</translation>
 <translation id="8915370057835397490">Caricamento suggerimento</translation>
-<translation id="6191804255817539692">Nessun altro suggerimento da OneVN Software</translation>
+<translation id="6191804255817539692">Nessun altro suggerimento da Onevn Software</translation>
 <translation id="1901303067676059328">Seleziona &amp;tutto</translation>
 <translation id="3797900183766075808">&amp;Cerca "<ph name="SEARCH_TERMS"/>" su <ph name="SEARCH_ENGINE"/></translation>
 <translation id="2721037002783622288">&amp;Cerca l'immagine su <ph name="SEARCH_ENGINE"/></translation>
@@ -147,11 +147,11 @@
 <translation id="9033857511263905942">&amp;Incolla</translation>
 <translation id="1815083418640426271">Incolla come solo testo</translation>
 <translation id="4022426551683927403">&amp;Aggiungi al dizionario</translation>
-<translation id="6849870115130610913">Scarica le descrizioni delle immagini da OneVN Software</translation>
+<translation id="6849870115130610913">Scarica le descrizioni delle immagini da Onevn Software</translation>
 <translation id="372722114124766626">Solo una volta</translation>
 <translation id="8917490105272468696">Sì, accetto</translation>
 <translation id="7473891865547856676">No grazie</translation>
-<translation id="2867003629889664976">Chiedi suggerimenti a OneVN Software</translation>
+<translation id="2867003629889664976">Chiedi suggerimenti a Onevn Software</translation>
 <translation id="6264365405983206840">Seleziona &amp;tutto</translation>
 <translation id="3948116654032448504">&amp;Cerca l'immagine su <ph name="SEARCH_ENGINE"/></translation>
 <translation id="2932085390869194046">Suggerisci password...</translation>
@@ -404,7 +404,7 @@
 <translation id="9148058034647219655">Esci</translation>
 <translation id="7376221878517288144">Vuoi uscire comunque dalla modalità di navigazione in incognito?</translation>
 <translation id="973473557718930265">Esci</translation>
-<translation id="7707599169365957976">Puoi contribuire a migliorare la Navigazione sicura, grazie all'invio di informazioni di sistema e contenuti delle pagine a OneVN Software.</translation>
+<translation id="7707599169365957976">Puoi contribuire a migliorare la Navigazione sicura, grazie all'invio di informazioni di sistema e contenuti delle pagine a Onevn Software.</translation>
 <translation id="4923279099980110923">Sì, desidero dare il mio contributo</translation>
 <translation id="2316129865977710310">No, grazie</translation>
 <translation id="9169931577761441333">Aggiungi <ph name="APP_NAME"/> alla schermata Home</translation>
@@ -418,8 +418,8 @@
 <translation id="3067198179881736288">Vuoi installare l'app?</translation>
 <translation id="7072010813301522126">Nome scorciatoia</translation>
 <translation id="3275778913554317645">Apri come finestra</translation>
-<translation id="8201192017531062522">OneVN rimane in esecuzione se ci sono app di OneVN aperte.</translation>
-<translation id="7397305826909094212">Chiudi tutte le app di OneVN</translation>
+<translation id="8201192017531062522">Onevn rimane in esecuzione se ci sono app di Onevn aperte.</translation>
+<translation id="7397305826909094212">Chiudi tutte le app di Onevn</translation>
 <translation id="5026874946691314267">Non visualizzare più</translation>
 <translation id="91568222606626347">Crea scorciatoia...</translation>
 <translation id="2783321960289401138">Crea scorciatoia...</translation>
@@ -774,11 +774,11 @@
 <translation id="5799508265798272974">Macchina virtuale Linux: <ph name="LINUX_VM_NAME"/></translation>
 <translation id="8191453843330043793">V8 Proxy Resolver</translation>
 <translation id="5552059560155071882">Analizzatore sintattico IPP CUPS</translation>
-<translation id="3077708072777965506">Metodo di immissione di OneVN OS</translation>
-<translation id="7171242884588191792">Utilità dei file OneVN</translation>
+<translation id="3077708072777965506">Metodo di immissione di Onevn OS</translation>
+<translation id="7171242884588191792">Utilità dei file Onevn</translation>
 <translation id="3183139917765991655">Profile Importer</translation>
 <translation id="2190069059097339078">WiFi Credentials Getter</translation>
-<translation id="7685901961038216503">OneVN OS System Image Writer</translation>
+<translation id="7685901961038216503">Onevn OS System Image Writer</translation>
 <translation id="4873312501243535625">Media File Checker</translation>
 <translation id="5972666587303800813">Servizio autonomo</translation>
 <translation id="3061707000357573562">Servizio di applicazione patch</translation>
@@ -788,7 +788,7 @@
 <translation id="2079545284768500474">Annulla operazione</translation>
 <translation id="2256115617011615191">Riavvia adesso</translation>
 <translation id="4545028762441890696">Per riattivarla, accetta le nuove autorizzazioni:</translation>
-<translation id="3009487527589249344">OneVN Software ha contrassegnato l'estensione "<ph name="EXTENSION_NAME"/>" come dannosa ed è stata impedita l'installazione</translation>
+<translation id="3009487527589249344">Onevn Software ha contrassegnato l'estensione "<ph name="EXTENSION_NAME"/>" come dannosa ed è stata impedita l'installazione</translation>
 <translation id="6790497603648687708">L'estensione <ph name="EXTENSION_NAME"/> è stata aggiunta da remoto</translation>
 <translation id="1841705068325380214">L'estensione <ph name="EXTENSION_NAME"/> è stata disattivata</translation>
 <translation id="595959584676692139">Ricarica la pagina per utilizzare questa estensione</translation>
@@ -807,14 +807,14 @@
 <translation id="3507421388498836150">Autorizzazioni attuali di "<ph name="EXTENSION_NAME"/>"</translation>
 <translation id="5242724311594467048">Attivare "<ph name="EXTENSION_NAME"/>"?</translation>
 <translation id="4014432863917027322">Riparare "<ph name="EXTENSION_NAME"/>"?</translation>
-<translation id="5173189340601754836">Un altro programma sul computer ha aggiunto un'app che potrebbe modificare il funzionamento di OneVN.
+<translation id="5173189340601754836">Un altro programma sul computer ha aggiunto un'app che potrebbe modificare il funzionamento di Onevn.
 
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="6654312501894761082">Un altro programma sul computer ha aggiunto un'estensione che potrebbe modificare il funzionamento di OneVN.
+<translation id="6654312501894761082">Un altro programma sul computer ha aggiunto un'estensione che potrebbe modificare il funzionamento di Onevn.
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="3225882094369124157">Un altro programma sul computer ha aggiunto un tema che potrebbe modificare il funzionamento di OneVN.
+<translation id="3225882094369124157">Un altro programma sul computer ha aggiunto un tema che potrebbe modificare il funzionamento di Onevn.
 
 <ph name="EXTENSION_NAME"/></translation>
 <translation id="9102610709270966160">Attiva estensione</translation>
@@ -823,7 +823,7 @@
 <translation id="3908501907586732282">Attiva estensione</translation>
 <translation id="2327492829706409234">Attiva applicazione</translation>
 <translation id="175772926354468439">Attiva tema</translation>
-<translation id="5267531627648004734">Rimuovi da OneVN</translation>
+<translation id="5267531627648004734">Rimuovi da Onevn</translation>
 <translation id="4998873842614926205">Conferma modifiche</translation>
 <translation id="5699533844376998780">L'estensione "<ph name="EXTENSION_NAME"/>" è stata aggiunta.</translation>
 <translation id="1799071797295057738">L'estensione "<ph name="EXTENSION_NAME"/>" è stata disattivata automaticamente.</translation>
@@ -921,7 +921,7 @@
 <translation id="3584169441612580296">Lettura e modifica di foto, musica e altri contenuti multimediali del computer</translation>
 <translation id="5457459357461771897">Lettura ed eliminazione di foto, musica e altri contenuti multimediali del computer</translation>
 <translation id="3270965368676314374">Leggere, modificare ed eliminare foto, musica e altri contenuti multimediali del computer</translation>
-<translation id="3919562953666287643">Memorizza dati nel tuo account OneVN Software Drive</translation>
+<translation id="3919562953666287643">Memorizza dati nel tuo account Onevn Software Drive</translation>
 <translation id="378312418865624974">Leggere un identificatore univoco di questo computer</translation>
 <translation id="5094721898978802975">Comunicazione con applicazioni native interoperative</translation>
 <translation id="4876895919560854374">Blocco e sblocco dello schermo</translation>
@@ -954,7 +954,7 @@
 <translation id="1616298854599875024">Impossibile importare l'estensione "<ph name="IMPORT_NAME"/>" perché non è un modulo condiviso</translation>
 <translation id="2131077480075264">Impossibile installare "<ph name="APP_NAME"/>" perché non è consentita da "<ph name="IMPORT_NAME"/>"</translation>
 <translation id="1875387611427697908">È possibile aggiungerla soltanto dal <ph name="CHROME_WEB_STORE"/></translation>
-<translation id="7613251087357271190">L'app con l'attributo del file manifest "kiosk_only" deve essere installata in modalità kiosk di OneVN OS</translation>
+<translation id="7613251087357271190">L'app con l'attributo del file manifest "kiosk_only" deve essere installata in modalità kiosk di Onevn OS</translation>
 <translation id="3834775135533257713">Impossibile aggiungere l'applicazione "<ph name="TO_INSTALL_APP_NAME"/>" perché è in conflitto con "<ph name="INSTALLED_APP_NAME"/>".</translation>
 <translation id="144518587530125858">Impossibile caricare "<ph name="IMAGE_PATH"/>" per il tema.</translation>
 <translation id="6567688344210276845">Impossibile caricare l'icona "<ph name="ICON"/>" per l'azione della pagina.</translation>
@@ -1049,9 +1049,9 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="6101226222197207147">Nuova applicazione aggiunta (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="7818135753970109980">Nuovo tema aggiunto (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="9215293857209265904">"<ph name="EXTENSION_NAME"/>" aggiunta</translation>
-<translation id="6637045053447935202">Un altro programma sul computer ha aggiunto un'applicazione che potrebbe modificare il funzionamento di OneVN.</translation>
-<translation id="2015014930243978107">Un altro programma sul computer ha aggiunto un'estensione che potrebbe modificare il funzionamento di OneVN.</translation>
-<translation id="2060128809251156338">Un altro programma sul computer ha aggiunto un tema che potrebbe modificare il funzionamento di OneVN.</translation>
+<translation id="6637045053447935202">Un altro programma sul computer ha aggiunto un'applicazione che potrebbe modificare il funzionamento di Onevn.</translation>
+<translation id="2015014930243978107">Un altro programma sul computer ha aggiunto un'estensione che potrebbe modificare il funzionamento di Onevn.</translation>
+<translation id="2060128809251156338">Un altro programma sul computer ha aggiunto un tema che potrebbe modificare il funzionamento di Onevn.</translation>
 <translation id="2470702053775288986">Estensioni non supportate disattivate</translation>
 <translation id="2809586584051668049">e altre <ph name="NUMBER_ADDITIONAL_DISABLED"/></translation>
 <translation id="5301954838959518834">OK</translation>
@@ -1113,12 +1113,12 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="8756969031206844760">Aggiornare la password?</translation>
 <translation id="8230134520748321204">Salvare la password per <ph name="ORIGIN"/>?</translation>
 <translation id="9040661932550800571">Aggiornare la password per <ph name="ORIGIN"/>?</translation>
-<translation id="8284000761603848448">Le password vengono salvate nel tuo Account OneVN Software affinché tu possa usarle su qualsiasi dispositivo</translation>
+<translation id="8284000761603848448">Le password vengono salvate nel tuo Account Onevn Software affinché tu possa usarle su qualsiasi dispositivo</translation>
 <translation id="8286036467436129157">Accedi</translation>
 <translation id="8009225694047762179">Gestisci password</translation>
 <translation id="3950820424414687140">Accedi</translation>
 <translation id="5624120631404540903">Gestisci password</translation>
-<translation id="9135262959729602463">Accedi a OneVN per trovare le tue password su tutti i dispositivi.</translation>
+<translation id="9135262959729602463">Accedi a Onevn per trovare le tue password su tutti i dispositivi.</translation>
 <translation id="8919275547519617350">Accedi e attiva la sincronizzazione per trovare tutte le tue password su tutti i dispositivi.</translation>
 <translation id="8470028084415844044">Attiva la sincronizzazione per trovare tutte le tue password su tutti i dispositivi.</translation>
 <translation id="1609170755653088773">Sincronizza questa password con l'iPhone</translation>
@@ -1219,8 +1219,8 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="223106756035922488">Fai clic per visualizzare il doodle di oggi</translation>
 <translation id="8676374126336081632">Cancella testo inserito</translation>
 <translation id="5867841422488265304">Cerca o digita un indirizzo web</translation>
-<translation id="2129873093718581193">Cerca su OneVN Software o digita un URL</translation>
-<translation id="6363797201514053536">Cerca con OneVN Software o digita un URL</translation>
+<translation id="2129873093718581193">Cerca su Onevn Software o digita un URL</translation>
+<translation id="6363797201514053536">Cerca con Onevn Software o digita un URL</translation>
 <translation id="6078323886959318429">Aggiungi scorciatoia</translation>
 <translation id="6324916366299863871">Modifica scorciatoia</translation>
 <translation id="4405117686468554883">*.jpeg, *.jpg, *.png</translation>
@@ -1236,7 +1236,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="1174073918202301297">Scorciatoia aggiunta</translation>
 <translation id="2926085873880284723">Ripristina scorciatoie predefinite</translation>
 <translation id="2942581856830209953">Personalizza questa pagina</translation>
-<translation id="5801450813341024983">Sfondi di OneVN</translation>
+<translation id="5801450813341024983">Sfondi di Onevn</translation>
 <translation id="2800760947029405028">Carica un'immagine</translation>
 <translation id="8342861492835240085">Seleziona una raccolta</translation>
 <translation id="3132996321662585180">Aggiorna ogni giorno</translation>
@@ -1337,8 +1337,8 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="6686817083349815241">Salva la password</translation>
 <translation id="8141725884565838206">Gestisci le tue password</translation>
 <translation id="8275038454117074363">Importa</translation>
-<translation id="3191314862567596053">Importa le password in OneVN</translation>
-<translation id="6368144843345980623">Esporta le password da OneVN</translation>
+<translation id="3191314862567596053">Importa le password in Onevn</translation>
+<translation id="6368144843345980623">Esporta le password da Onevn</translation>
 <translation id="8503813439785031346">Nome utente</translation>
 <translation id="6657585470893396449">Password</translation>
 <translation id="4722735765955348426">Password di <ph name="USERNAME"/></translation>
@@ -1365,31 +1365,31 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="2982970937345031">Segnalazione anonima</translation>
 <translation id="6076448957780543068">Includi questo screenshot</translation>
 <translation id="7052237160939977163">Invia dati di rilevamento del rendimento</translation>
-<translation id="5526928694260255286">Allega <ph name="BEGIN_LINK"/>log Bluetooth<ph name="END_LINK"/> (interno di OneVN Software)</translation>
+<translation id="5526928694260255286">Allega <ph name="BEGIN_LINK"/>log Bluetooth<ph name="END_LINK"/> (interno di Onevn Software)</translation>
 <translation id="3047644958362961983">Queste informazioni ci aiutano a capire meglio il tuo problema con l'assistente. Vengono memorizzate per massimo 90 giorni e l'accesso è limitato ai team di tecnici e responsabili dei feedback competenti.</translation>
-<translation id="1705635099498185261">Per meglio diagnosticare i problemi del Bluetooth, i OneVN Softwarer possono includere log Bluetooth aggiuntivi nei loro rapporti di feedback. Quando questa opzione è selezionata, il rapporto includerà i log btsnoop e HCI relativi alla tua sessione attuale, sottoposti a sanitizzazione per rimuovere il maggior numero possibile di PII. L'accesso a questi log verrà limitato agli amministratori del gruppo di prodotti OneVN OS in Listnr. I log verranno eliminati dopo 90 giorni.</translation>
+<translation id="1705635099498185261">Per meglio diagnosticare i problemi del Bluetooth, i Onevn Softwarer possono includere log Bluetooth aggiuntivi nei loro rapporti di feedback. Quando questa opzione è selezionata, il rapporto includerà i log btsnoop e HCI relativi alla tua sessione attuale, sottoposti a sanitizzazione per rimuovere il maggior numero possibile di PII. L'accesso a questi log verrà limitato agli amministratori del gruppo di prodotti Onevn OS in Listnr. I log verranno eliminati dopo 90 giorni.</translation>
 <translation id="4206323443866416204">Rapporto di feedback</translation>
 <translation id="3681311097828166361">Grazie per il tuo feedback. Adesso sei offline; il tuo rapporto verrà inviato in un secondo momento.</translation>
 <translation id="8713570323158206935">Invia <ph name="BEGIN_LINK1"/>informazioni sul sistema<ph name="END_LINK1"/></translation>
 <translation id="6395423953133416962">Invia <ph name="BEGIN_LINK1"/>informazioni di sistema<ph name="END_LINK1"/> e <ph name="BEGIN_LINK2"/>metriche<ph name="END_LINK2"/></translation>
 <translation id="6270770586500173387">Invia <ph name="BEGIN_LINK1"/>informazioni relative al sistema/alle app<ph name="END_LINK1"/> e <ph name="BEGIN_LINK2"/>metriche<ph name="END_LINK2"/></translation>
-<translation id="8329196515830093443">Il file sarà inviato a OneVN Software per il debug</translation>
+<translation id="8329196515830093443">Il file sarà inviato a Onevn Software per il debug</translation>
 <translation id="8227119283605456246">Allega file</translation>
 <translation id="5367091008316207019">Lettura del file in corso...</translation>
 <translation id="2554553592469060349">Il file selezionato è troppo grande (dimensioni massime: 3 mb).</translation>
 <translation id="4690091457710545971">&lt;Quattro file generati dal firmware Intel Wi-Fi: csr.lst, fh_regs.lst, radio_reg.lst, monitor.lst.sysmon. I primi tre sono file binari che contengono dump di registro e che, secondo quanto dichiarato da Intel, non contengono informazioni personali o di identificazione del dispositivo. L'ultimo file è una traccia di esecuzione dal firmware Intel, privato di ogni informazione personale o di identificazione del dispositivo, ma troppo grande per essere mostrato qui. Questi file sono stati generati in risposta ai recenti problemi del tuo dispositivo con la rete Wi-Fi e verranno condivisi con Intel per agevolare la risoluzione di tali problemi.&gt;</translation>
-<translation id="6972420083546794501">Visita la <ph name="BEGIN_LINK1"/>pagina Assistenza legale<ph name="END_LINK1"/> per richiedere modifiche ai contenuti per motivi legali. Alcune informazioni sull'account e sul sistema potrebbero essere inviate a OneVN Software, che le userà per risolvere problemi tecnici e migliorare i suoi servizi nel rispetto delle sue <ph name="BEGIN_LINK2"/>Norme sulla privacy<ph name="END_LINK2"/> e dei suoi <ph name="BEGIN_LINK3"/>Termini di servizio<ph name="END_LINK3"/>.</translation>
+<translation id="6972420083546794501">Visita la <ph name="BEGIN_LINK1"/>pagina Assistenza legale<ph name="END_LINK1"/> per richiedere modifiche ai contenuti per motivi legali. Alcune informazioni sull'account e sul sistema potrebbero essere inviate a Onevn Software, che le userà per risolvere problemi tecnici e migliorare i suoi servizi nel rispetto delle sue <ph name="BEGIN_LINK2"/>Norme sulla privacy<ph name="END_LINK2"/> e dei suoi <ph name="BEGIN_LINK3"/>Termini di servizio<ph name="END_LINK3"/>.</translation>
 <translation id="7915471803647590281">Comunicaci cosa sta accadendo prima di inviare il feedback.</translation>
 <translation id="1483493594462132177">Invia</translation>
 <translation id="6885771755599377173">Anteprima informazioni di sistema</translation>
 <translation id="1016566241875885511">Informazioni aggiuntive (facoltativo)</translation>
-<translation id="6083886770200509573">Se OneVN si arresta in modo anomalo, vengono mostrati annunci imprevisti, barre degli strumenti o pagine iniziali insolite che non riesci a eliminare oppure si verificano altre alterazioni dell'esperienza di navigazione, dovresti poter risolvere il problema avviando OneVN Software Cleaner.</translation>
-<translation id="7719662019953070946">Scarica OneVN Software Cleaner</translation>
+<translation id="6083886770200509573">Se Onevn si arresta in modo anomalo, vengono mostrati annunci imprevisti, barre degli strumenti o pagine iniziali insolite che non riesci a eliminare oppure si verificano altre alterazioni dell'esperienza di navigazione, dovresti poter risolvere il problema avviando Onevn Software Cleaner.</translation>
+<translation id="7719662019953070946">Scarica Onevn Software Cleaner</translation>
 <translation id="8281886186245836920">Salta</translation>
 <translation id="8026334261755873520">Cancella dati di navigazione</translation>
 <translation id="7409836189476010449">Esegui Flash</translation>
-<translation id="4718442817388594217">I dati selezionati sono stati rimossi da OneVN e dai dispositivi sincronizzati. Il tuo account OneVN Software potrebbe avere altre forme di cronologia di navigazione, ad esempio ricerche e attività, di altri servizi OneVN Software all'indirizzo <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
-<translation id="7814200940910057384">Dati di OneVN cancellati</translation>
+<translation id="4718442817388594217">I dati selezionati sono stati rimossi da Onevn e dai dispositivi sincronizzati. Il tuo account Onevn Software potrebbe avere altre forme di cronologia di navigazione, ad esempio ricerche e attività, di altri servizi Onevn Software all'indirizzo <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="7814200940910057384">Dati di Onevn cancellati</translation>
 <translation id="7346909386216857016">OK</translation>
 <translation id="8493236660459102203">Microfono:</translation>
 <translation id="3925573269917483990">Fotocamera:</translation>
@@ -1397,7 +1397,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="4172051516777682613">Mostra sempre</translation>
 <translation id="477945296921629067">{NUM_POPUPS,plural, =1{Popup bloccato}other{# popup bloccati}}</translation>
 <translation id="3759371141211657149">Gestisci impostazioni gestore...</translation>
-<translation id="4156865452842056672">(pagine di errore OneVN)</translation>
+<translation id="4156865452842056672">(pagine di errore Onevn)</translation>
 <translation id="1734824808160898225"><ph name="PRODUCT_NAME"/> potrebbe non essere in grado di aggiornarsi automaticamente</translation>
 <translation id="8590375307970699841">Imposta aggiornamenti automatici</translation>
 <translation id="8926389886865778422">Non visualizzare più questo avviso</translation>
@@ -1412,7 +1412,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="284805635805850872">Rimuovere il software dannoso?</translation>
 <translation id="489985760463306091">Per terminare la rimozione di software dannoso, riavvia il computer</translation>
 <translation id="7598466960084663009">Riavvia il computer</translation>
-<translation id="2819091349626575960">Segnala i dettagli a OneVN Software</translation>
+<translation id="2819091349626575960">Segnala i dettagli a Onevn Software</translation>
 <translation id="4099060993766194518">Ripristinare il motore di ricerca predefinito?</translation>
 <translation id="138784436342154190">Ripristinare la pagina iniziale predefinita?</translation>
 <translation id="5086874064903147617">Ripristinare la home page predefinita?</translation>
@@ -1491,10 +1491,10 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="8658645149275195032"><ph name="APP_NAME"/> condivide l'audio e il tuo schermo con <ph name="TAB_NAME"/>.</translation>
 <translation id="4364567974334641491"><ph name="APP_NAME"/> condivide una finestra.</translation>
 <translation id="8944964446326379280"><ph name="APP_NAME"/> condivide una finestra con <ph name="TAB_NAME"/>.</translation>
-<translation id="351520635355732555"><ph name="APP_NAME"/> condivide una scheda OneVN.</translation>
-<translation id="5727851901710884484"><ph name="APP_NAME"/> condivide una scheda OneVN con <ph name="TAB_NAME"/>.</translation>
-<translation id="5770515304879261338"><ph name="APP_NAME"/> condivide l'audio e una scheda OneVN.</translation>
-<translation id="859454237594354073"><ph name="APP_NAME"/> condivide l'audio e una scheda OneVN con <ph name="TAB_NAME"/>.</translation>
+<translation id="351520635355732555"><ph name="APP_NAME"/> condivide una scheda Onevn.</translation>
+<translation id="5727851901710884484"><ph name="APP_NAME"/> condivide una scheda Onevn con <ph name="TAB_NAME"/>.</translation>
+<translation id="5770515304879261338"><ph name="APP_NAME"/> condivide l'audio e una scheda Onevn.</translation>
+<translation id="859454237594354073"><ph name="APP_NAME"/> condivide l'audio e una scheda Onevn con <ph name="TAB_NAME"/>.</translation>
 <translation id="890616557918890486">Cambia origine</translation>
 <translation id="7792388396321542707">Interrompi condivisione</translation>
 <translation id="6630752851777525409"><ph name="EXTENSION_NAME"/> desidera un accesso permanente a un certificato per eseguire l'autenticazione a tuo nome.</translation>
@@ -1512,11 +1512,11 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="2190355936436201913">(vuoto)</translation>
 <translation id="7136984461011502314">Benvenuto in <ph name="PRODUCT_NAME"/></translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME"/> è pronto a completare l'installazione</translation>
-<translation id="4711067597921221305">Aiutaci a migliorare <ph name="PRODUCT_NAME"/> inviando automaticamente a OneVN Software le statistiche sull'utilizzo e segnalazioni sugli arresti anomali</translation>
+<translation id="4711067597921221305">Aiutaci a migliorare <ph name="PRODUCT_NAME"/> inviando automaticamente a Onevn Software le statistiche sull'utilizzo e segnalazioni sugli arresti anomali</translation>
 <translation id="5972826969634861500">Avvia <ph name="PRODUCT_NAME"/></translation>
 <translation id="4876273079589074638">Aiuta i nostri ingegneri a effettuare accertamenti e risolvere il problema che causa l'arresto anomalo. Se puoi, elenca i passaggi esatti fornendo il maggior numero possibile di dettagli.</translation>
 <translation id="945522503751344254">Invia feedback</translation>
-<translation id="5418694430960033386">OneVN Software OneVN ha esaurito la memoria o il processo relativo alla pagina web è stato chiuso per qualche altro motivo. Per continuare, ricarica la pagina o aprine un'altra.</translation>
+<translation id="5418694430960033386">Onevn Software Onevn ha esaurito la memoria o il processo relativo alla pagina web è stato chiuso per qualche altro motivo. Per continuare, ricarica la pagina o aprine un'altra.</translation>
 <translation id="3065041951436100775">Feedback relativo alle schede ignorate</translation>
 <translation id="3941565636838060942">Per impedire l'accesso a questo programma, è necessario disinstallarlo utilizzando
   <ph name="CONTROL_PANEL_APPLET_NAME"/> nel Pannello di controllo.
@@ -1527,7 +1527,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="6280912520669706465">ARC</translation>
 <translation id="4728558894243024398">Piattaforma</translation>
 <translation id="7022562585984256452">La tua pagina iniziale è stata impostata.</translation>
-<translation id="7274626204661209194">OneVN Software Cloud Print</translation>
+<translation id="7274626204661209194">Onevn Software Cloud Print</translation>
 <translation id="4973307593867026061">Aggiungi stampanti</translation>
 <translation id="9052208328806230490">Hai registrato le stampanti con <ph name="CLOUD_PRINT_NAME"/> utilizzando l'account <ph name="EMAIL"/></translation>
 <translation id="3792890930871100565">Scollega stampanti</translation>
@@ -1537,17 +1537,17 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="4620809267248568679">Questa impostazione è applicata da un'estensione.</translation>
 <translation id="4846680374085650406">Stai seguendo il consiglio dell'amministratore per questa impostazione.</translation>
 <translation id="1223853788495130632">L'amministratore consiglia un valore specifico per questa impostazione.</translation>
-<translation id="8839398440242019256">Non dal OneVN Web Store.</translation>
+<translation id="8839398440242019256">Non dal Onevn Web Store.</translation>
 <translation id="5337771866151525739">Installata da una terza parte.</translation>
 <translation id="4538792345715658285">Installata per norma aziendale.</translation>
 <translation id="4359408040881008151">Installata a causa di estensioni dipendenti.</translation>
 <translation id="4980805016576257426">Questa estensione contiene malware.</translation>
 <translation id="5522156646677899028">Questa estensione contiene una grave vulnerabilità di sicurezza.</translation>
-<translation id="6945695820322143954">Questa estensione vìola le norme del OneVN Web Store.</translation>
-<translation id="177808131755847449">Estensione disattivata da OneVN perché potrebbe non essere sicura.</translation>
+<translation id="6945695820322143954">Questa estensione vìola le norme del Onevn Web Store.</translation>
+<translation id="177808131755847449">Estensione disattivata da Onevn perché potrebbe non essere sicura.</translation>
 <translation id="1434696352799406980">L'operazione reimposterà la pagina iniziale, la pagina Nuova scheda, il motore di ricerca e le schede bloccate. Inoltre, disattiverà tutte le estensioni e rimuoverà i dati temporanei, come i cookie. La cronologia, le password salvate e i preferiti non saranno invece cancellati.</translation>
 <translation id="1242633766021457174"><ph name="THIRD_PARTY_TOOL_NAME"/> vuole ripristinare le impostazioni.</translation>
-<translation id="8073477228424628709"><ph name="THIRD_PARTY_TOOL_NAME"/> vuole ripristinare le impostazioni predefinite originali di OneVN. Questa operazione comporta la reimpostazione di pagina iniziale, pagina Nuova scheda e motore di ricerca, oltre alla disattivazione delle estensioni e allo sblocco di tutte le schede. Verranno inoltre cancellati altri dati temporanei e memorizzati nella cache, come cookie e dati relativi a contenuti e siti.</translation>
+<translation id="8073477228424628709"><ph name="THIRD_PARTY_TOOL_NAME"/> vuole ripristinare le impostazioni predefinite originali di Onevn. Questa operazione comporta la reimpostazione di pagina iniziale, pagina Nuova scheda e motore di ricerca, oltre alla disattivazione delle estensioni e allo sblocco di tutte le schede. Verranno inoltre cancellati altri dati temporanei e memorizzati nella cache, come cookie e dati relativi a contenuti e siti.</translation>
 <translation id="7581462281756524039">Uno strumento per la pulizia</translation>
 <translation id="1233721473400465416">Lingua</translation>
 <translation id="2907619724991574506">URL di avvio</translation>
@@ -1561,7 +1561,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="8870318296973696995">Pagina iniziale</translation>
 <translation id="8987927404178983737">Mese</translation>
 <translation id="6015796118275082299">Anno</translation>
-<translation id="5152275065296016556">OneVN Software Pay</translation>
+<translation id="5152275065296016556">Onevn Software Pay</translation>
 <translation id="7671130400130574146">Usa barra del titolo di sistema e bordi</translation>
 <translation id="4520385623207007473">Cookie in uso</translation>
 <translation id="4763408175235639573">Durante la visualizzazione della pagina sono stati impostati i seguenti cookie</translation>
@@ -1580,7 +1580,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="8930351635855238750">Le nuove impostazioni dei cookie verranno applicate dopo aver ricaricato la pagina</translation>
 <translation id="2568774940984945469">Infobar Container</translation>
 <translation id="7282992757463864530">Barra delle informazioni</translation>
-<translation id="1805077115206898822">I Preferiti, la cronologia e le altre impostazioni verranno sincronizzati con il tuo account OneVN Software.</translation>
+<translation id="1805077115206898822">I Preferiti, la cronologia e le altre impostazioni verranno sincronizzati con il tuo account Onevn Software.</translation>
 <translation id="1974060860693918893">Avanzate</translation>
 <translation id="2445484935443597917">Crea un nuovo profilo</translation>
 <translation id="2606246518223360146">Collega dati</translation>
@@ -1668,13 +1668,13 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="3074037959626057712">Hai eseguito l'accesso e attivato la sincronizzazione</translation>
 <translation id="1231733316453485619">Attivare la sincronizzazione?</translation>
 <translation id="4736292055110123391">Sincronizza i preferiti, le password, la cronologia e non solo su tutti i tuoi dispositivi</translation>
-<translation id="5736731321935944068">OneVN Software può utilizzare la tua cronologia per personalizzare la Ricerca, gli annunci e altri servizi OneVN Software</translation>
+<translation id="5736731321935944068">Onevn Software può utilizzare la tua cronologia per personalizzare la Ricerca, gli annunci e altri servizi Onevn Software</translation>
 <translation id="4201546031411513170">Puoi scegliere in qualsiasi momento i dati da sincronizzare nelle impostazioni.</translation>
-<translation id="3149880132460839085">OneVN Sync</translation>
-<translation id="3796902758602917951">I tuoi preferiti, la cronologia, le password e altre impostazioni verranno sincronizzati con il tuo account OneVN Software per consentirti di utilizzarli su tutti i tuoi dispositivi</translation>
-<translation id="3111958038206230539">Personalizza i servizi OneVN Software</translation>
-<translation id="295992419959320001">OneVN Software può utilizzare la tua cronologia di navigazione per personalizzare la Ricerca, gli annunci e altri servizi OneVN Software.</translation>
-<translation id="3070156078150543526">OneVN Software può utilizzare la tua cronologia di navigazione per personalizzare la Ricerca e altri servizi OneVN Software</translation>
+<translation id="3149880132460839085">Onevn Sync</translation>
+<translation id="3796902758602917951">I tuoi preferiti, la cronologia, le password e altre impostazioni verranno sincronizzati con il tuo account Onevn Software per consentirti di utilizzarli su tutti i tuoi dispositivi</translation>
+<translation id="3111958038206230539">Personalizza i servizi Onevn Software</translation>
+<translation id="295992419959320001">Onevn Software può utilizzare la tua cronologia di navigazione per personalizzare la Ricerca, gli annunci e altri servizi Onevn Software.</translation>
+<translation id="3070156078150543526">Onevn Software può utilizzare la tua cronologia di navigazione per personalizzare la Ricerca e altri servizi Onevn Software</translation>
 <translation id="2709453993673701466">Vuoi gestire la sincronizzazione e la personalizzazione prima di attivarle? Visita le <ph name="BEGIN_LINK"/>Impostazioni<ph name="END_LINK"/>.</translation>
 <translation id="2497852260688568942">La sincronizzazione è stata disattivata dall'amministratore</translation>
 <translation id="562935524653278697">L'amministratore ha disattivato la sincronizzazione dei tuoi preferiti, della cronologia, delle password e di altre impostazioni.</translation>
@@ -1710,7 +1710,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="6664774537677393800">Si è verificato un problema durante l'apertura del profilo. Esci e accedi di nuovo.</translation>
 <translation id="1794791083288629568">Invia feedback per aiutarci a risolvere questo problema.</translation>
 <translation id="8234795456569844941">Aiuta i nostri tecnici a risolvere il problema. Descrivi cosa è accaduto subito prima di ricevere il messaggio di errore del profilo:</translation>
-<translation id="6500340165622970282">Impossibile avviare OneVN perché si è verificato un errore durante l'apertura del profilo. Prova a riavviare il browser.</translation>
+<translation id="6500340165622970282">Impossibile avviare Onevn perché si è verificato un errore durante l'apertura del profilo. Prova a riavviare il browser.</translation>
 <translation id="6812349420832218321"><ph name="PRODUCT_NAME"/> non può essere eseguito come root.</translation>
 <translation id="2292848386125228270">Avvia <ph name="PRODUCT_NAME"/> come utente normale. Per eseguirlo come root a fini di sviluppo, esegui di nuovo il flag --no-sandbox.</translation>
 <translation id="7547317915858803630">Avviso. Le tue impostazioni <ph name="PRODUCT_NAME"/> sono memorizzate su un'unità di rete. Potrebbero verificarsi rallentamenti, arresti anomali o persino perdite di dati.</translation>
@@ -1746,10 +1746,10 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="6198102561359457428">Esci e accedi di nuovo...</translation>
 <translation id="4634771451598206121">Esegui di nuovo l'accesso...</translation>
 <translation id="7117247127439884114">Esegui di nuovo l'accesso...</translation>
-<translation id="4251909665067750757">Accedi per trovare i tuoi segnalibri, la cronologia, le password e altre impostazioni su tutti i tuoi dispositivi. Verrà inoltre eseguito l'accesso automatico ai tuoi servizi OneVN Software.</translation>
+<translation id="4251909665067750757">Accedi per trovare i tuoi segnalibri, la cronologia, le password e altre impostazioni su tutti i tuoi dispositivi. Verrà inoltre eseguito l'accesso automatico ai tuoi servizi Onevn Software.</translation>
 <translation id="2749756011735116528">Accedi a <ph name="PRODUCT_NAME"/></translation>
 <translation id="2126167708562367080">La sincronizzazione è stata disattivata dall'amministratore.</translation>
-<translation id="5462539695964427820">La sincronizzazione è stata interrotta tramite OneVN Software Dashboard.</translation>
+<translation id="5462539695964427820">La sincronizzazione è stata interrotta tramite Onevn Software Dashboard.</translation>
 <translation id="8805140816472474147">Conferma le impostazioni di sincronizzazione per avviare l'operazione.</translation>
 <translation id="4835836146030131423">Errore durante l'accesso.</translation>
 <translation id="4365673000813822030">Spiacenti, la sincronizzazione si è interrotta.</translation>
@@ -1764,18 +1764,18 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="1877520246462554164">Recupero del token di autenticazione non riuscito. Esci e accedi nuovamente per riprovare.</translation>
 <translation id="9100765901046053179">Impostazioni avanzate</translation>
 <translation id="5771816112378578655">Configurazione in corso...</translation>
-<translation id="3892866329866260680">Hai eseguito l'accesso a <ph name="SHORT_PRODUCT_NAME"/>. I tuoi Preferiti, la tua cronologia e le altre impostazioni sono in fase di sincronizzazione con il tuo account OneVN Software.</translation>
+<translation id="3892866329866260680">Hai eseguito l'accesso a <ph name="SHORT_PRODUCT_NAME"/>. I tuoi Preferiti, la tua cronologia e le altre impostazioni sono in fase di sincronizzazione con il tuo account Onevn Software.</translation>
 <translation id="1408789165795197664">Avanzate...</translation>
 <translation id="2731700343119398978">Attendi...</translation>
 <translation id="4684427112815847243">Sincronizza tutto</translation>
-<translation id="7218743184834293955">I dati vengono criptati con la tua passphrase di sincronizzazione. Non sono inclusi i metodi di pagamento e gli indirizzi di OneVN Software Pay.</translation>
-<translation id="7158251077901880179">I dati sono stati criptati con la tua passphrase di sincronizzazione il giorno <ph name="TIME"/>. Non sono inclusi i metodi di pagamento e gli indirizzi di OneVN Software Pay.</translation>
-<translation id="1171389789873508468">I dati sono stati criptati con la tua password OneVN Software dal giorno <ph name="TIME"/>. Non sono inclusi i metodi di pagamento e gli indirizzi di OneVN Software Pay.</translation>
+<translation id="7218743184834293955">I dati vengono criptati con la tua passphrase di sincronizzazione. Non sono inclusi i metodi di pagamento e gli indirizzi di Onevn Software Pay.</translation>
+<translation id="7158251077901880179">I dati sono stati criptati con la tua passphrase di sincronizzazione il giorno <ph name="TIME"/>. Non sono inclusi i metodi di pagamento e gli indirizzi di Onevn Software Pay.</translation>
+<translation id="1171389789873508468">I dati sono stati criptati con la tua password Onevn Software dal giorno <ph name="TIME"/>. Non sono inclusi i metodi di pagamento e gli indirizzi di Onevn Software Pay.</translation>
 <translation id="2562743677925229011">Non connesso a <ph name="SHORT_PRODUCT_NAME"/></translation>
 <translation id="4027804175521224372">(Resta sincronizzato, <ph name="IDS_SYNC_PROMO_NOT_SIGNED_IN_STATUS_LINK"/>)</translation>
 <translation id="3574210789297084292">accedi</translation>
 <translation id="237828693408258535">Vuoi tradurre questa pagina?</translation>
-<translation id="4613765529964435709">Vuoi che OneVN Software traduca la pagina da <ph name="SOURCE_LANGUAGE"/> in <ph name="TARGET_LANGUAGE"/>?</translation>
+<translation id="4613765529964435709">Vuoi che Onevn Software traduca la pagina da <ph name="SOURCE_LANGUAGE"/> in <ph name="TARGET_LANGUAGE"/>?</translation>
 <translation id="5990386583461751448">Tradotta</translation>
 <translation id="5659833766619490117">Impossibile tradurre questa pagina</translation>
 <translation id="969096075394517431">Cambia le lingue</translation>
@@ -1937,12 +1937,12 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="2762441749940182211">Videocamera bloccata</translation>
 <translation id="5074318175948309511">Potrebbe essere necessario ricaricare la pagina per applicare le nuove impostazioni.</translation>
 <translation id="8282947398454257691">Conoscere l'identificatore univoco del dispositivo</translation>
-<translation id="8329449853370113380"><ph name="URL"/> vuole riprodurre contenuti protetti. OneVN Software verificherà l'identità del tuo dispositivo.</translation>
-<translation id="2650609753175229582"><ph name="URL"/> chiede di riprodurre contenuti protetti. OneVN Software verificherà l'identità del tuo dispositivo e questo sito potrebbe avervi accesso.</translation>
+<translation id="8329449853370113380"><ph name="URL"/> vuole riprodurre contenuti protetti. Onevn Software verificherà l'identità del tuo dispositivo.</translation>
+<translation id="2650609753175229582"><ph name="URL"/> chiede di riprodurre contenuti protetti. Onevn Software verificherà l'identità del tuo dispositivo e questo sito potrebbe avervi accesso.</translation>
 <translation id="1322046419516468189">Visualizza e gestisci le password salvate in <ph name="SAVED_PASSWORDS_STORE"/></translation>
 <translation id="3312599731068160560">https://passwords.google.com</translation>
 <translation id="5297082477358294722">Password salvata. Visualizza e gestisci le password salvate in <ph name="SAVED_PASSWORDS_STORE"/>.</translation>
-<translation id="5713644099811900409">OneVN Software Account</translation>
+<translation id="5713644099811900409">Onevn Software Account</translation>
 <translation id="3785727820640310185">Password salvate per questo sito</translation>
 <translation id="3404065873681873169">Nessuna password salvata per questo sito</translation>
 <translation id="8470513973197838199">Password salvate per il sito <ph name="ORIGIN"/></translation>
@@ -2081,7 +2081,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="2505324914378689427">{SCREEN_INDEX,plural, =1{Schermo #}other{Schermo #}}</translation>
 <translation id="839736845446313156">Registrati</translation>
 <translation id="6285120908535925801">{NUM_PRINTER,plural, =1{Nuova stampante in rete}other{Nuove stampanti in rete}}</translation>
-<translation id="2656240156816412333">{NUM_PRINTER,plural, =1{Aggiungi la stampante a OneVN Software Cloud Print per poter stampare ovunque.}other{Aggiungi # stampanti a OneVN Software Cloud Print per poter stampare ovunque.}}</translation>
+<translation id="2656240156816412333">{NUM_PRINTER,plural, =1{Aggiungi la stampante a Onevn Software Cloud Print per poter stampare ovunque.}other{Aggiungi # stampanti a Onevn Software Cloud Print per poter stampare ovunque.}}</translation>
 <translation id="409579654357498729">Aggiungi a Cloud Print</translation>
 <translation id="4628757576491864469">Dispositivi</translation>
 <translation id="6915804003454593391">Utente:</translation>
@@ -2091,8 +2091,8 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="1895934970388272448">Devi confermare la registrazione della stampante per terminare la procedura. Controlla.</translation>
 <translation id="551752069230578406">Aggiunta della stampante al tuo account; potrebbe occorrere un istante...</translation>
 <translation id="2384436799579181135">Si è verificato un errore. Controlla la tua stampante e riprova.</translation>
-<translation id="2569908351567260524">Stampante su OneVN Software Cloud Print</translation>
-<translation id="6782994146626179935">Dispositivo su OneVN Software Cloud Devices</translation>
+<translation id="2569908351567260524">Stampante su Onevn Software Cloud Print</translation>
+<translation id="6782994146626179935">Dispositivo su Onevn Software Cloud Devices</translation>
 <translation id="7140928199327930795">Non ci sono altri dispositivi disponibili.</translation>
 <translation id="8213577208796878755">Un altro dispositivo disponibile.</translation>
 <translation id="1495486559005647033">Ci sono altri <ph name="NUM_PRINTERS"/> dispositivi disponibili.</translation>
@@ -2100,15 +2100,15 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="4720113199587244118">Aggiungi dispositivi</translation>
 <translation id="2776441542064982094">Sembra che non siano disponibili dispositivi da registrare sulla rete. Se il tuo dispositivo è acceso e connesso a Internet, prova a registrarlo utilizzando le istruzioni nel relativo manuale di istruzioni.</translation>
 <translation id="1007408791287232274">Impossibile caricare i dispositivi.</translation>
-<translation id="3886420006370338208">Devi accedere a OneVN per visualizzare i tuoi dispositivi</translation>
-<translation id="6711610692002680394">Devi accedere a OneVN per registrare nuovi dispositivi</translation>
+<translation id="3886420006370338208">Devi accedere a Onevn per visualizzare i tuoi dispositivi</translation>
+<translation id="6711610692002680394">Devi accedere a Onevn per registrare nuovi dispositivi</translation>
 <translation id="8931394284949551895">Nuovi dispositivi</translation>
 <translation id="3752673729237782832">I miei dispositivi</translation>
 <translation id="1721937473331968728">Puoi aggiungere a <ph name="CLOUD_PRINT_NAME"/> stampanti classiche collegate al tuo computer.</translation>
 <translation id="715118844758971915">Stampanti classiche</translation>
 <translation id="4263757076580287579">Registrazione della stampante annullata.</translation>
 <translation id="8152091997436726702">La registrazione della stampante è scaduta. Per registrare una stampante devi confermarne la registrazione.</translation>
-<translation id="2057904164277279211">I documenti vengono <ph name="BEGIN_LINK_HELP"/>inviati a OneVN Software<ph name="END_LINK_HELP"/> per essere preparati per la stampa. Visualizza, modifica e gestisci le tue stampanti e la cronologia delle stampanti nella <ph name="BEGIN_LINK_DASHBOARD"/>dashboard di OneVN Software Cloud Print<ph name="END_LINK_DASHBOARD"/>.</translation>
+<translation id="2057904164277279211">I documenti vengono <ph name="BEGIN_LINK_HELP"/>inviati a Onevn Software<ph name="END_LINK_HELP"/> per essere preparati per la stampa. Visualizza, modifica e gestisci le tue stampanti e la cronologia delle stampanti nella <ph name="BEGIN_LINK_DASHBOARD"/>dashboard di Onevn Software Cloud Print<ph name="END_LINK_DASHBOARD"/>.</translation>
 <translation id="3082780749197361769">Questa scheda utilizza la fotocamera o il microfono.</translation>
 <translation id="3578594933904494462">I contenuti di questa scheda vengono condivisi.</translation>
 <translation id="4449996769074858870">In questa scheda c'è audio in riproduzione.</translation>
@@ -2161,7 +2161,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="4540437243849625078">Questo sito sta per condividere informazioni con un'app esterna alla modalità di navigazione in incognito.</translation>
 <translation id="1227836882233136433">Uscire da modalità in incognito?</translation>
 <translation id="662080504995468778">Rimani</translation>
-<translation id="2593289874938379417">OneVN non ha accesso alla risorsa richiesta.</translation>
+<translation id="2593289874938379417">Onevn non ha accesso alla risorsa richiesta.</translation>
 <translation id="760197030861754408">Vai alla pagina <ph name="LANDING_PAGE"/> per la connessione.</translation>
 <translation id="3648348069317717750">Rilevato dispositivo <ph name="USB_DEVICE_NAME"/></translation>
 <translation id="2382095919147960379">Collega questo dispositivo a Linux</translation>
@@ -2209,17 +2209,17 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="7055152154916055070">Reindirizzamento bloccato:</translation>
 <translation id="6777817260680419853">Reindirizzamento bloccato</translation>
 <translation id="694592694773692225">Reindirizzamento bloccato in questa pagina.</translation>
-<translation id="8149707863742670433">Il browser web di OneVN Software, per te</translation>
-<translation id="3541561136058491590">Accedi a OneVN con il tuo account OneVN Software per trovare i tuoi preferiti, la cronologia, le password e altre impostazioni su tutti i tuoi dispositivi.</translation>
-<translation id="8945142681652245463">Naviga velocemente con OneVN Software OneVN</translation>
-<translation id="2618024864038703735">Naviga in sicurezza con OneVN Software OneVN</translation>
-<translation id="8142180567942285208">Naviga in modo intelligente con OneVN</translation>
+<translation id="8149707863742670433">Il browser web di Onevn Software, per te</translation>
+<translation id="3541561136058491590">Accedi a Onevn con il tuo account Onevn Software per trovare i tuoi preferiti, la cronologia, le password e altre impostazioni su tutti i tuoi dispositivi.</translation>
+<translation id="8945142681652245463">Naviga velocemente con Onevn Software Onevn</translation>
+<translation id="2618024864038703735">Naviga in sicurezza con Onevn Software Onevn</translation>
+<translation id="8142180567942285208">Naviga in modo intelligente con Onevn</translation>
 <translation id="8862003515646449717">Passa a un browser veloce</translation>
 <translation id="8438328416656800239">Passa a un browser intelligente</translation>
 <translation id="491691592645955587">Passa a un browser sicuro</translation>
 <translation id="683373380308365518">Passa a un browser intelligente e sicuro</translation>
-<translation id="989239400026154074">OneVN Software consiglia OneVN</translation>
-<translation id="6676231621615806698">Apri OneVN</translation>
+<translation id="989239400026154074">Onevn Software consiglia Onevn</translation>
+<translation id="6676231621615806698">Apri Onevn</translation>
 <translation id="7494065396242762445">Apri Impostazioni Windows</translation>
 <translation id="2137068468602026500">Fai clic su <ph name="BEGIN_BOLD"/>Microsoft Edge<ph name="END_BOLD"/> nella sezione Browser web</translation>
 <translation id="3720996970802414353">Switch anyway (Passa comunque)</translation>
@@ -2228,7 +2228,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="7537601449003285327">Aggiungi alla barra delle applicazioni</translation>
 <translation id="5250372599208556903"><ph name="SEARCH_ENGINE_NAME"/> utilizza la tua posizione per fornirti contenuti locali. Puoi modificare questa preferenza nelle <ph name="SETTINGS_LINK"/>.</translation>
 <translation id="3737536731758327622">I tuoi download vengono visualizzati qui</translation>
-<translation id="4782664866169793230">OneVN è controllato da software di test automatizzato.</translation>
+<translation id="4782664866169793230">Onevn è controllato da software di test automatizzato.</translation>
 <translation id="6721678857435001674">Accedere a marca e modello del token di sicurezza</translation>
 <translation id="1673137583248014546"><ph name="URL"/> vuole accedere a marca e modello del token di sicurezza</translation>
 <translation id="6010869025736512584">Accesso all'input video in corso</translation>
@@ -2444,9 +2444,9 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="9011163749350026987">Mostra sempre l'icona</translation>
 <translation id="1706586824377653884">Aggiunta dall'amministratore</translation>
 <translation id="6467304607960172345">Ottimizza video a schermo intero</translation>
-<translation id="1597210476603167523">Abilita la trasmissione ai servizi basati sulla cloud quali OneVN Software Hangouts.</translation>
-<translation id="3653941710869291743">Benvenuto nell'esperienza Cast di OneVN.</translation>
-<translation id="2841638550927239436">Puoi utilizzare questa funzione per visualizzare i contenuti di OneVN alla TV o su altri dispositivi.</translation>
+<translation id="1597210476603167523">Abilita la trasmissione ai servizi basati sulla cloud quali Onevn Software Hangouts.</translation>
+<translation id="3653941710869291743">Benvenuto nell'esperienza Cast di Onevn.</translation>
+<translation id="2841638550927239436">Puoi utilizzare questa funzione per visualizzare i contenuti di Onevn alla TV o su altri dispositivi.</translation>
 <translation id="5234764350956374838">Ignora</translation>
 <translation id="4579581181964204535">Impossibile trasmettere <ph name="HOST_NAME"/>.</translation>
 <translation id="8757090071857742562">Impossibile trasmettere il desktop. Verifica di avere confermato la richiesta di avvio della condivisione dello schermo.</translation>
@@ -2477,10 +2477,10 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="4271396100647220620">Nessuna corrispondenza</translation>
 <translation id="6972180789171089114">Audio/video</translation>
 <translation id="2541002089857695151">Vuoi ottimizzare la trasmissione a schermo intero?</translation>
-<translation id="4144218403971135344">Migliora la qualità dei video e fai durare di più la batteria. I video verranno riprodotti soltanto sullo schermo compatibile con OneVN Software Cast.</translation>
+<translation id="4144218403971135344">Migliora la qualità dei video e fai durare di più la batteria. I video verranno riprodotti soltanto sullo schermo compatibile con Onevn Software Cast.</translation>
 <translation id="236117173274098341">Ottimizza</translation>
 <translation id="8538358978858059843">Vuoi attivare i servizi cloud per la trasmissione?</translation>
-<translation id="3856595552313160385">L'utilizzo di Hangouts e Cast for Education è regolato dalle Norme sulla privacy di OneVN Software.</translation>
+<translation id="3856595552313160385">L'utilizzo di Hangouts e Cast for Education è regolato dalle Norme sulla privacy di Onevn Software.</translation>
 <translation id="3700888195348409686">Presentazione di (<ph name="PAGE_ORIGIN"/>)</translation>
 <translation id="5285635972691565180">Schermo <ph name="DISPLAY_ID"/></translation>
 <translation id="4707302005824653064">Il gestore (<ph name="CUSTODIAN_EMAIL"/>) può esaminare l'utilizzo e la cronologia su chrome.com.</translation>
@@ -2644,7 +2644,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="672213144943476270">Sblocca il tuo profilo prima di navigare come ospite.</translation>
 <translation id="3478685642445675458">Sblocca il tuo profilo prima di rimuovere una persona.</translation>
 <translation id="4648499713050786492">Sblocca il tuo profilo prima di aggiungere una persona.</translation>
-<translation id="8978225823042133615">Accedi per usare OneVN</translation>
+<translation id="8978225823042133615">Accedi per usare Onevn</translation>
 <translation id="4893336867552636863">I tuoi dati di navigazione verranno eliminati definitivamente da questo dispositivo.</translation>
 <translation id="2496180316473517155">Cronologia di navigazione</translation>
 <translation id="6865313869410766144">Dati della Compilazione automatica dei moduli</translation>
@@ -2653,7 +2653,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="6365411474437319296">Aggiungi amici e familiari</translation>
 <translation id="7388044238629873883">La procedura è quasi terminata.</translation>
 <translation id="8688579245973331962">Non riesci a visualizzare il tuo nome?</translation>
-<translation id="5788127256798019331">File OneVN Software Play</translation>
+<translation id="5788127256798019331">File Onevn Software Play</translation>
 <translation id="174173592514158117">Mostra tutte le cartelle di Play</translation>
 <translation id="5024856940085636730">Un'operazione richiede più tempo del previsto. Vuoi interromperla?</translation>
 <translation id="6205710420833115353">Alcune operazioni richiedono più tempo del previsto. Vuoi interromperle?</translation>
@@ -2664,7 +2664,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="3236289833370040187">La proprietà verrà trasferita a <ph name="DESTINATION_DOMAIN"/>.</translation>
 <translation id="7765158879357617694">Sposta</translation>
 <translation id="8249296373107784235">Interrompi</translation>
-<translation id="6268185425799226387">OneVN Software Drive</translation>
+<translation id="6268185425799226387">Onevn Software Drive</translation>
 <translation id="4425149324548788773">I miei file</translation>
 <translation id="1786636458339910689">Drive del team</translation>
 <translation id="5010406651457630570">Computer</translation>
@@ -2771,7 +2771,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="6227235786875481728">Impossibile riprodurre il file.</translation>
 <translation id="9154418932169119429">Questa immagine non è disponibile offline.</translation>
 <translation id="1844692022597038441">Questo file non è disponibile offline.</translation>
-<translation id="2929414043040740704">File recuperati da OneVN Software Drive</translation>
+<translation id="2929414043040740704">File recuperati da Onevn Software Drive</translation>
 <translation id="2085470240340828803">Esiste già un file denominato "<ph name="FILENAME"/>". Che cosa vuoi fare?</translation>
 <translation id="4801956050125744859">Conserva entrambe</translation>
 <translation id="1062407476771304334">Sostituisci</translation>
@@ -2801,8 +2801,8 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="2377319039870049694">Passa alla visualizzazione elenco</translation>
 <translation id="3003633581067744647">Passa alla visualizzazione miniatura</translation>
 <translation id="604001903249547235">Backup nella cloud</translation>
-<translation id="505639225383557233">Backup nella cloud OneVN OS</translation>
-<translation id="8656896237683963068">Effettua il backup su OneVN Software Drive di foto e video memorizzati sul tuo dispositivo multimediale.</translation>
+<translation id="505639225383557233">Backup nella cloud Onevn OS</translation>
+<translation id="8656896237683963068">Effettua il backup su Onevn Software Drive di foto e video memorizzati sul tuo dispositivo multimediale.</translation>
 <translation id="3057861065630527966">Effettua il backup di foto e video</translation>
 <translation id="7730494089396812859">Mostra dettagli backup nella cloud</translation>
 <translation id="2850124913210091882">Backup</translation>
@@ -2812,14 +2812,14 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
     <ph name="LINE_BREAK1"/>
     Elementi trovati: <ph name="FILE_COUNT"/></translation>
 <translation id="3466147780910026086">Scansione del dispositivo multimediale...</translation>
-<translation id="2611866923243604397">Backup di tutti gli elementi su <ph name="BEGIN_LINK"/>OneVN Software Drive<ph name="END_LINK"/> completato.</translation>
+<translation id="2611866923243604397">Backup di tutti gli elementi su <ph name="BEGIN_LINK"/>Onevn Software Drive<ph name="END_LINK"/> completato.</translation>
 <translation id="3620292326130836921">Backup di tutti i contenuti completato.</translation>
 <translation id="1536674585581593431">Elementi trovati: <ph name="FILE_COUNT"/>.
     <ph name="LINE_BREAK1"/>
-    Lo spazio di archiviazione di OneVN Software Drive non è sufficiente. Sono necessari altri <ph name="FILE_SIZE"/>.
+    Lo spazio di archiviazione di Onevn Software Drive non è sufficiente. Sono necessari altri <ph name="FILE_SIZE"/>.
     <ph name="LINE_BREAK2"/>
     Prova a selezionare meno foto.</translation>
-<translation id="2473109739642988997">Lo spazio di archiviazione di OneVN Software Drive non è sufficiente.</translation>
+<translation id="2473109739642988997">Lo spazio di archiviazione di Onevn Software Drive non è sufficiente.</translation>
 <translation id="1148097584170732637">Elementi trovati: <ph name="FILE_COUNT"/>.
     <ph name="LINE_BREAK1"/>
     Spazio nella memoria locale insufficiente. Sono necessari altri <ph name="FILE_SIZE"/>.
@@ -2828,11 +2828,11 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="2352947182261340447">Spazio nella memoria locale insufficiente.</translation>
 <translation id="1127657192797926968">Elementi trovati: <ph name="FILE_COUNT"/>
     <ph name="LINE_BREAK1"/>
-    Pronti per il backup su <ph name="BEGIN_LINK"/>OneVN Software Drive<ph name="END_LINK"/></translation>
+    Pronti per il backup su <ph name="BEGIN_LINK"/>Onevn Software Drive<ph name="END_LINK"/></translation>
 <translation id="4905417359854579806">Pronto per il backup di <ph name="FILE_COUNT"/></translation>
-<translation id="5029447434471675822">Backup di <ph name="FILE_COUNT"/> su <ph name="BEGIN_LINK"/>OneVN Software Drive<ph name="END_LINK"/> in corso</translation>
+<translation id="5029447434471675822">Backup di <ph name="FILE_COUNT"/> su <ph name="BEGIN_LINK"/>Onevn Software Drive<ph name="END_LINK"/> in corso</translation>
 <translation id="4215448920900139318">Backup di <ph name="FILE_COUNT"/> in corso</translation>
-<translation id="2419376816263920133">Backup di <ph name="FILE_COUNT"/> foto su <ph name="BEGIN_LINK"/>OneVN Software Drive<ph name="END_LINK"/> completato</translation>
+<translation id="2419376816263920133">Backup di <ph name="FILE_COUNT"/> foto su <ph name="BEGIN_LINK"/>Onevn Software Drive<ph name="END_LINK"/> completato</translation>
 <translation id="2994669386200004489">Impossibile effettuare il backup di <ph name="FILE_NAME"/></translation>
 <translation id="4724850507808590449">Backup di <ph name="FILE_COUNT"/> foto completato</translation>
 <translation id="1351692861129622852">Importazione di <ph name="FILE_COUNT"/> file...</translation>
@@ -2854,9 +2854,9 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="653019979737152879">Sincronizzazione del file <ph name="FILE_NAME"/> in corso...</translation>
 <translation id="8579285237314169903">Sincronizzazione di <ph name="NUMBER_OF_FILES"/> elementi...</translation>
 <translation id="8137331602592933310">Il file "<ph name="FILENAME"/>" è stato condiviso con te. Non puoi eliminarlo perché non ne sei il proprietario.</translation>
-<translation id="6277279884155292049">OneVN Software Drive non è al momento disponibile. Il caricamento riprenderà automaticamente una volta che OneVN Software Drive sarà tornato operativo.</translation>
-<translation id="1114160088213746286">Al momento non è possibile sincronizzare il file "<ph name="FILENAME"/>" con OneVN Software Drive. OneVN Software Drive riproverà più tardi.</translation>
-<translation id="4893296294301184587">Impossibile caricare "<ph name="FILENAME"/>". Lo spazio disponibile su OneVN Software Drive non è sufficiente.</translation>
+<translation id="6277279884155292049">Onevn Software Drive non è al momento disponibile. Il caricamento riprenderà automaticamente una volta che Onevn Software Drive sarà tornato operativo.</translation>
+<translation id="1114160088213746286">Al momento non è possibile sincronizzare il file "<ph name="FILENAME"/>" con Onevn Software Drive. Onevn Software Drive riproverà più tardi.</translation>
+<translation id="4893296294301184587">Impossibile caricare "<ph name="FILENAME"/>". Lo spazio disponibile su Onevn Software Drive non è sufficiente.</translation>
 <translation id="5163869187418756376">Condivisione non riuscita. Controlla la connessione e riprova più tardi.</translation>
 <translation id="656398493051028875">Eliminazione di "<ph name="FILENAME"/>"...</translation>
 <translation id="1047956942837015229">Eliminazione di <ph name="COUNT"/> elementi...</translation>
@@ -2922,7 +2922,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="180035236176489073">Per poter accedere a questi file devi essere online.</translation>
 <translation id="1190144681599273207">Per il recupero di questo file verranno utilizzati circa <ph name="FILE_SIZE"/> di dati mobili.</translation>
 <translation id="7839804798877833423">Per il recupero di questi file verranno utilizzati circa <ph name="FILE_SIZE"/> di dati mobili.</translation>
-<translation id="6813005947820333339">La sincronizzazione con OneVN Software Drive è disattivata per impostazione predefinita quando vengono utilizzati i dati mobili.</translation>
+<translation id="6813005947820333339">La sincronizzazione con Onevn Software Drive è disattivata per impostazione predefinita quando vengono utilizzati i dati mobili.</translation>
 <translation id="696203921837389374">Attiva sincronizzazione tramite dati mobili</translation>
 <translation id="637062427944097960">Questo file è aperto su un desktop differente. Passa a <ph name="USER_NAME"/> (<ph name="MAIL_ADDRESS"/>) per visualizzarlo.</translation>
 <translation id="5330145655348521461">Questi file sono aperti su un desktop differente. Passa a <ph name="USER_NAME"/> (<ph name="MAIL_ADDRESS"/>) per visualizzarli.</translation>
@@ -2936,32 +2936,32 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="7925686952655276919">Non utilizzare dati mobili per la sincronizzazione</translation>
 <translation id="7106346894903675391">Acquista più spazio di archiviazione...</translation>
 <translation id="3549797760399244642">Vai all'indirizzo drive.google.com...</translation>
-<translation id="3451154303153932176">Spazio libero rimanente su OneVN Software Drive: <ph name="SPACE_AVAILABLE"/>.</translation>
+<translation id="3451154303153932176">Spazio libero rimanente su Onevn Software Drive: <ph name="SPACE_AVAILABLE"/>.</translation>
 <translation id="4552678318981539154">Acquista più spazio di archiviazione</translation>
 <translation id="6990081529015358884">Spazio disponibile esaurito</translation>
-<translation id="5521447721624713749">Al momento non è possibile raggiungere OneVN Software Drive.</translation>
+<translation id="5521447721624713749">Al momento non è possibile raggiungere Onevn Software Drive.</translation>
 <translation id="7788080748068240085">Per poter salvare il file "<ph name="FILE_NAME"/>" offline, devi liberare altri <ph name="TOTAL_FILE_SIZE"/> di spazio:<ph name="MARKUP_1"/>
     <ph name="MARKUP_2"/>sblocca i file a cui non devi più accedere offline<ph name="MARKUP_3"/>
     <ph name="MARKUP_4"/>elimina file dalla cartella Download<ph name="MARKUP_5"/></translation>
-<translation id="7606199793785990727">Impossibile raggiungere OneVN Software Drive. <ph name="BEGIN_LINK"/>Esci<ph name="END_LINK"/> e accedi di nuovo.</translation>
-<translation id="585883343689351092">Benvenuto in OneVN Software Drive.</translation>
+<translation id="7606199793785990727">Impossibile raggiungere Onevn Software Drive. <ph name="BEGIN_LINK"/>Esci<ph name="END_LINK"/> e accedi di nuovo.</translation>
+<translation id="585883343689351092">Benvenuto in Onevn Software Drive.</translation>
 <translation id="6862635236584086457">Per tutti i file salvati in questa cartella viene effettuato automaticamente il backup online</translation>
 <translation id="7220787572447472056"><ph name="MARKUP_1"/>Accedi ai file ovunque, anche offline.<ph name="MARKUP_2"/>
-    I file in OneVN Software Drive sono aggiornati e disponibili da qualsiasi dispositivo.<ph name="MARKUP_3"/>
+    I file in Onevn Software Drive sono aggiornati e disponibili da qualsiasi dispositivo.<ph name="MARKUP_3"/>
     <ph name="MARKUP_4"/>Tieni al sicuro i tuoi file.<ph name="MARKUP_5"/>
-    Qualsiasi cosa accada al tuo dispositivo, i tuoi file rimangono memorizzati al sicuro in OneVN Software Drive.<ph name="MARKUP_6"/>
+    Qualsiasi cosa accada al tuo dispositivo, i tuoi file rimangono memorizzati al sicuro in Onevn Software Drive.<ph name="MARKUP_6"/>
     <ph name="MARKUP_7"/>Condividi, crea e collabora<ph name="MARKUP_8"/> a file con altre persone, il tutto in un'unica posizione.<ph name="MARKUP_9"/></translation>
-<translation id="4878716980734452132">Questo tipo di file non è supportato. Visita il <ph name="BEGIN_LINK"/>OneVN Web Store<ph name="END_LINK"/> per trovare un'app in grado di aprire questo tipo di file.
+<translation id="4878716980734452132">Questo tipo di file non è supportato. Visita il <ph name="BEGIN_LINK"/>Onevn Web Store<ph name="END_LINK"/> per trovare un'app in grado di aprire questo tipo di file.
     <ph name="BEGIN_LINK_HELP"/>Ulteriori informazioni<ph name="END_LINK_HELP"/></translation>
-<translation id="6230272341631206186">Questo file è supportato su PC con software Windows. Non è compatibile con il tuo dispositivo OneVN OS. <ph name="BEGIN_LINK_HELP"/>Ulteriori informazioni<ph name="END_LINK_HELP"/></translation>
-<translation id="3072401511615920367">Questo file è supportato su computer con software Macintosh. Non è compatibile con i dispositivi con OneVN OS. Cerca sul <ph name="BEGIN_LINK"/>OneVN Web Store<ph name="END_LINK"/> un'app sostitutiva adatta.<ph name="BEGIN_LINK_HELP"/>Ulteriori informazioni<ph name="END_LINK_HELP"/></translation>
+<translation id="6230272341631206186">Questo file è supportato su PC con software Windows. Non è compatibile con il tuo dispositivo Onevn OS. <ph name="BEGIN_LINK_HELP"/>Ulteriori informazioni<ph name="END_LINK_HELP"/></translation>
+<translation id="3072401511615920367">Questo file è supportato su computer con software Macintosh. Non è compatibile con i dispositivi con Onevn OS. Cerca sul <ph name="BEGIN_LINK"/>Onevn Web Store<ph name="END_LINK"/> un'app sostitutiva adatta.<ph name="BEGIN_LINK_HELP"/>Ulteriori informazioni<ph name="END_LINK_HELP"/></translation>
 <translation id="7589661784326793847">Aspetta solo un secondo</translation>
-<translation id="3096967955765855393">Cerchiamo costantemente nuovi modi per rendere più sicura la navigazione. In passato, qualsiasi sito web poteva chiederti di aggiungere un'estensione nel browser. Nelle ultime versioni di OneVN Software OneVN, devi indicare esplicitamente a OneVN di voler installare le estensioni aggiungendole tramite la pagina Estensioni. <ph name="BEGIN_LINK"/>Ulteriori informazioni<ph name="END_LINK"/></translation>
+<translation id="3096967955765855393">Cerchiamo costantemente nuovi modi per rendere più sicura la navigazione. In passato, qualsiasi sito web poteva chiederti di aggiungere un'estensione nel browser. Nelle ultime versioni di Onevn Software Onevn, devi indicare esplicitamente a Onevn di voler installare le estensioni aggiungendole tramite la pagina Estensioni. <ph name="BEGIN_LINK"/>Ulteriori informazioni<ph name="END_LINK"/></translation>
 <translation id="4892969127351273348">Impossibile aprire con <ph name="APP_NAME"/></translation>
 <translation id="52446585071384036">Per aprire i file con <ph name="APP_NAME"/>, devi prima copiarli nella cartella File di Linux.</translation>
 <translation id="5368191757080475556">Condividi cartella con Linux</translation>
 <translation id="5857774240076772505">Concedi a Linux l'autorizzazione di modificare i file nella cartella <ph name="FOLDER_NAME"/></translation>
-<translation id="2280597422213958082">Concedi a Linux l'autorizzazione per modificare i file nel tuo OneVN Software Drive. Le modifiche verranno sincronizzate con i tuoi altri dispositivi.</translation>
+<translation id="2280597422213958082">Concedi a Linux l'autorizzazione per modificare i file nel tuo Onevn Software Drive. Le modifiche verranno sincronizzate con i tuoi altri dispositivi.</translation>
 <translation id="4290535918735525311">1 cartella condivisa con Linux</translation>
 <translation id="2377590462528165447"><ph name="NUMBER_OF_ITEMS"/> cartelle condivise con Linux</translation>
 <translation id="4572815280350369984">File <ph name="FILE_TYPE"/></translation>
@@ -2979,19 +2979,19 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="1049926623896334335">Documento di Word</translation>
 <translation id="4784330909746505604">Presentazione PowerPoint</translation>
 <translation id="8860454412039442620">Foglio di calcolo Excel</translation>
-<translation id="5383943761832211733">Documento OneVN Software</translation>
-<translation id="5924916971643100883">Foglio di calcolo OneVN Software</translation>
-<translation id="3667369474859528036">Presentazione OneVN Software</translation>
-<translation id="3411013849623404696">Disegno OneVN Software</translation>
-<translation id="7481041283483972362">Tabella OneVN Software</translation>
-<translation id="784862457750027723">Modulo OneVN Software</translation>
-<translation id="3320425620177764157">Mappa OneVN Software</translation>
-<translation id="7452737073539387970">Sito OneVN Software</translation>
-<translation id="4445959220475380548">Link OneVN Software Drive</translation>
+<translation id="5383943761832211733">Documento Onevn Software</translation>
+<translation id="5924916971643100883">Foglio di calcolo Onevn Software</translation>
+<translation id="3667369474859528036">Presentazione Onevn Software</translation>
+<translation id="3411013849623404696">Disegno Onevn Software</translation>
+<translation id="7481041283483972362">Tabella Onevn Software</translation>
+<translation id="784862457750027723">Modulo Onevn Software</translation>
+<translation id="3320425620177764157">Mappa Onevn Software</translation>
+<translation id="7452737073539387970">Sito Onevn Software</translation>
+<translation id="4445959220475380548">Link Onevn Software Drive</translation>
 <translation id="5288481194217812690"><ph name="FILENAME"/></translation>
-<translation id="1131292764548273687">Questo tipo di file non è supportato. Visita il OneVN Web Store per trovare un'applicazione in grado di aprire questo tipo di file.</translation>
-<translation id="9010211493509471179">Questo file è supportato su computer con software Macintosh. Non è compatibile con il tuo dispositivo OneVN OS. Cerca sul OneVN Web Store un'app sostitutiva adatta.</translation>
-<translation id="5059989099965370411">Questo file è supportato su PC con software Windows. Non è compatibile con il tuo dispositivo OneVN OS. Cerca sul OneVN Web Store un'app sostitutiva adatta.</translation>
+<translation id="1131292764548273687">Questo tipo di file non è supportato. Visita il Onevn Web Store per trovare un'applicazione in grado di aprire questo tipo di file.</translation>
+<translation id="9010211493509471179">Questo file è supportato su computer con software Macintosh. Non è compatibile con il tuo dispositivo Onevn OS. Cerca sul Onevn Web Store un'app sostitutiva adatta.</translation>
+<translation id="5059989099965370411">Questo file è supportato su PC con software Windows. Non è compatibile con il tuo dispositivo Onevn OS. Cerca sul Onevn Web Store un'app sostitutiva adatta.</translation>
 <translation id="5833610766403489739">Il file deve essere altrove. Controlla l'impostazione del percorso di download e riprova.</translation>
 <translation id="3966388904776714213">Lettore audio</translation>
 <translation id="3245321423178950146">Artista sconosciuto</translation>
@@ -3047,7 +3047,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="2972557485845626008">Firmware</translation>
 <translation id="4297219207642690536">Riavvia e reimposta</translation>
 <translation id="4716483597559580346">Powerwash per maggiore sicurezza</translation>
-<translation id="4089922565956168950">Questo upgrade ripristina il OneVNbook e rimuove i dati utente correnti.</translation>
+<translation id="4089922565956168950">Questo upgrade ripristina il Onevnbook e rimuove i dati utente correnti.</translation>
 <translation id="5184662919967270437">Aggiornamento del dispositivo in corso</translation>
 <translation id="6644846457769259194">Aggiornamento del dispositivo in corso (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="5906655207909574370">Aggiornamento quasi completato. Riavvia il dispositivo per terminare l'aggiornamento.</translation>
@@ -3070,13 +3070,13 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="5600706100022181951">Il download dell'aggiornamento richiederà <ph name="UPDATE_SIZE_MB"/> MB di dati mobili. Vuoi continuare?</translation>
 <translation id="5402815541704507626">Scarica l'aggiornamento usando i dati mobili</translation>
 <translation id="5085162214018721575">Verifica disponibilità aggiornamenti</translation>
-<translation id="4570609078116869893">Aggiorna automaticamente OneVN per tutti gli utenti</translation>
+<translation id="4570609078116869893">Aggiorna automaticamente Onevn per tutti gli utenti</translation>
 <translation id="7102687220333134671">Gli aggiornamenti automatici sono attivi</translation>
 <translation id="6981982820502123353">Accessibilità</translation>
-<translation id="5840822070878669614">Apri OneVN Web Store</translation>
+<translation id="5840822070878669614">Apri Onevn Web Store</translation>
 <translation id="6073903501322152803">Aggiungi funzioni di accessibilità</translation>
 <translation id="7988355189918024273">Attiva funzioni di accessibilità</translation>
-<translation id="3274899353071794175">Se un'immagine è senza descrizione utile, OneVN proverà a fornirne una. Le immagini vengono sottoposte a scansione da OneVN Software.</translation>
+<translation id="3274899353071794175">Se un'immagine è senza descrizione utile, Onevn proverà a fornirne una. Le immagini vengono sottoposte a scansione da Onevn Software.</translation>
 <translation id="2558896001721082624">Mostra sempre le opzioni di accessibilità nel menu di sistema</translation>
 <translation id="7280649757394340890">Impostazioni voce per sintesi vocale</translation>
 <translation id="6635956300022133031">Seleziona e personalizza le voci per la sintesi vocale</translation>
@@ -3085,8 +3085,8 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="4209092469652827314">Grande</translation>
 <translation id="499165176004408815">Usa modalità ad alto contrasto</translation>
 <translation id="142758023928848008">Attiva tasti bloccati (per eseguire scorciatoie da tastiera digitandole in sequenza)</translation>
-<translation id="5914872514449971753">Attiva OneVNVox (lettura vocale)</translation>
-<translation id="7099511550603534982">Apri le impostazioni OneVNVox</translation>
+<translation id="5914872514449971753">Attiva OnevnVox (lettura vocale)</translation>
+<translation id="7099511550603534982">Apri le impostazioni OnevnVox</translation>
 <translation id="8547013269961688403">Attiva lente d'ingrandimento a schermo intero</translation>
 <translation id="8743390665131937741">Livello di zoom schermo intero</translation>
 <translation id="7334274148831027933">Attiva lente d'ingrandimento ancorata</translation>
@@ -3121,7 +3121,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="2765217105034171413">Piccolo</translation>
 <translation id="7409549334477097887">Molto alta</translation>
 <translation id="1330145147221172764">Attiva tastiera sullo schermo</translation>
-<translation id="1800308196794859773">Invia i tuoi dati audio a OneVN Software per consentire la dettatura in tutti i campi di testo.</translation>
+<translation id="1800308196794859773">Invia i tuoi dati audio a Onevn Software per consentire la dettatura in tutti i campi di testo.</translation>
 <translation id="8758418656925882523">Attiva dettatura (parla per digitare)</translation>
 <translation id="7580671184200851182">Riproduci lo stesso audio su tutti gli altoparlanti (audio mono)</translation>
 <translation id="1361872463926621533">Riproduci suono all'avvio</translation>
@@ -3185,13 +3185,13 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="2200603218210188859">Preferenze per il dispositivo USB</translation>
 <translation id="2706892089432507937">Dispositivi USB</translation>
 <translation id="5187892128515678283">Condividi un dispositivo USB con Linux mediante l'attivazione dell'apposito pulsante. La condivisione durerà solo fino a quando il dispositivo viene scollegato.</translation>
-<translation id="2295473777859797944">OneVN Software Play Store</translation>
+<translation id="2295473777859797944">Onevn Software Play Store</translation>
 <translation id="572155275267014074">Impostazioni di Android</translation>
-<translation id="4767209642168463274">Installa app e giochi di OneVN Software Play sul OneVNbook. &lt;a target="_blank" href="<ph name="URL"/>"&gt;Ulteriori informazioni&lt;/a&gt;</translation>
+<translation id="4767209642168463274">Installa app e giochi di Onevn Software Play sul Onevnbook. &lt;a target="_blank" href="<ph name="URL"/>"&gt;Ulteriori informazioni&lt;/a&gt;</translation>
 <translation id="2966937470348689686">Gestisci le preferenze Android</translation>
-<translation id="4074367893748481070">Rimuovi il OneVN Software Play Store</translation>
+<translation id="4074367893748481070">Rimuovi il Onevn Software Play Store</translation>
 <translation id="2792290659606763004">Rimuovere le app Android?</translation>
-<translation id="4607779957365311067">Le app che hai scaricato da OneVN Software Play verranno eliminate da questo OneVNbook.
+<translation id="4607779957365311067">Le app che hai scaricato da Onevn Software Play verranno eliminate da questo Onevnbook.
       <ph name="LINE_BREAKS1"/>
       Potrebbero essere eliminati anche i contenuti che hai acquistato, ad esempio film, programmi TV, musica, libri o altri acquisti in-app.
       <ph name="LINE_BREAKS2"/>
@@ -3219,7 +3219,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="1670399744444387456">Di base</translation>
 <translation id="1763808908432309942">Si apre in una nuova scheda</translation>
 <translation id="6248988683584659830">Impostazioni di ricerca</translation>
-<translation id="883304095704384301">Visita la <ph name="BEGIN_LINK_CHROMIUM"/>guida di OneVN Software OneVN<ph name="END_LINK_CHROMIUM"/> se non riesci a trovare quello che cerchi</translation>
+<translation id="883304095704384301">Visita la <ph name="BEGIN_LINK_CHROMIUM"/>guida di Onevn Software Onevn<ph name="END_LINK_CHROMIUM"/> se non riesci a trovare quello che cerchi</translation>
 <translation id="6406708970972405507">Impostazioni - <ph name="SECTION_TITLE"/></translation>
 <translation id="5860033963881614850">Spento</translation>
 <translation id="5916664084637901428">On</translation>
@@ -3237,10 +3237,10 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="451515744433878153">Rimuovi</translation>
 <translation id="5029568752722684782">Cancella copia</translation>
 <translation id="2154484045852737596">Modifica la carta</translation>
-<translation id="3032188998195902534">Per aggiungere o gestire i metodi di pagamento di OneVN Software Pay, visita il tuo <ph name="BEGIN_LINK"/>Account OneVN Software<ph name="END_LINK"/></translation>
+<translation id="3032188998195902534">Per aggiungere o gestire i metodi di pagamento di Onevn Software Pay, visita il tuo <ph name="BEGIN_LINK"/>Account Onevn Software<ph name="END_LINK"/></translation>
 <translation id="8853586775156634952">Questa carta verrà salvata solo su questo dispositivo</translation>
 <translation id="5087580092889165836">Aggiungi carta</translation>
-<translation id="4835914736509775287">Salva carte nel tuo Account OneVN Software</translation>
+<translation id="4835914736509775287">Salva carte nel tuo Account Onevn Software</translation>
 <translation id="7255002516883565667">Al momento hai una carta che può essere utilizzata solo su questo dispositivo.</translation>
 <translation id="6848388270925200958">Al momento hai delle carte che possono essere utilizzate solo da questo dispositivo.</translation>
 <translation id="4807098396393229769">Nome sulla carta di credito</translation>
@@ -3263,7 +3263,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="7930294771522048157">I metodi di pagamento salvati verranno visualizzati qui</translation>
 <translation id="9124003689441359348">Le password salvate verranno visualizzate qui</translation>
 <translation id="4400367121200150367">I siti che non salvano mai le password verranno visualizzati qui</translation>
-<translation id="3098842761938485917">Visualizza e gestisci le password salvate nel tuo <ph name="BEGIN_LINK"/>Account OneVN Software<ph name="END_LINK"/></translation>
+<translation id="3098842761938485917">Visualizza e gestisci le password salvate nel tuo <ph name="BEGIN_LINK"/>Account Onevn Software<ph name="END_LINK"/></translation>
 <translation id="5620655347161642930">Esporta password...</translation>
 <translation id="3900966090527141178">Esportazione delle password</translation>
 <translation id="6914783257214138813">Le tue password saranno visibili a chiunque abbia accesso al file esportato.</translation>
@@ -3363,15 +3363,15 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="3380365263193509176">Errore sconosciuto</translation>
 <translation id="368789413795732264">Si è verificato un errore durante la scrittura del file: <ph name="ERROR_TEXT"/>.</translation>
 <translation id="784934925303690534">Intervallo di tempo</translation>
-<translation id="3958004920128806270"><ph name="BEGIN_LINK"/>Esci<ph name="END_LINK"/> per cancellare i dati di navigazione soltanto da questo dispositivo e non dal tuo Account OneVN Software.</translation>
-<translation id="4445433576366924090"><ph name="BEGIN_LINK"/>Accedi alle impostazioni di sincronizzazione<ph name="END_LINK"/> per cancellare i dati di navigazione da tutti i dispositivi sincronizzati e dal tuo Account OneVN Software.</translation>
-<translation id="563489167344291753"><ph name="BEGIN_LINK"/>Inserisci la passphrase<ph name="END_LINK"/> per cancellare i dati di navigazione da tutti i dispositivi sincronizzati e dal tuo Account OneVN Software.</translation>
-<translation id="3895809404273995788"><ph name="BEGIN_LINK"/>Accedi<ph name="END_LINK"/> per cancellare i dati di navigazione da tutti i dispositivi sincronizzati e dal tuo Account OneVN Software.</translation>
+<translation id="3958004920128806270"><ph name="BEGIN_LINK"/>Esci<ph name="END_LINK"/> per cancellare i dati di navigazione soltanto da questo dispositivo e non dal tuo Account Onevn Software.</translation>
+<translation id="4445433576366924090"><ph name="BEGIN_LINK"/>Accedi alle impostazioni di sincronizzazione<ph name="END_LINK"/> per cancellare i dati di navigazione da tutti i dispositivi sincronizzati e dal tuo Account Onevn Software.</translation>
+<translation id="563489167344291753"><ph name="BEGIN_LINK"/>Inserisci la passphrase<ph name="END_LINK"/> per cancellare i dati di navigazione da tutti i dispositivi sincronizzati e dal tuo Account Onevn Software.</translation>
+<translation id="3895809404273995788"><ph name="BEGIN_LINK"/>Accedi<ph name="END_LINK"/> per cancellare i dati di navigazione da tutti i dispositivi sincronizzati e dal tuo Account Onevn Software.</translation>
 <translation id="8662811608048051533">Vieni scollegato dalla maggior parte dei siti.</translation>
-<translation id="4650925988509114690">Uscirai dalla maggior parte dei siti, ma non dal tuo Account OneVN Software, quindi i dati sincronizzati possono essere cancellati.</translation>
+<translation id="4650925988509114690">Uscirai dalla maggior parte dei siti, ma non dal tuo Account Onevn Software, quindi i dati sincronizzati possono essere cancellati.</translation>
 <translation id="2017836877785168846">Consente di cancellare la cronologia e i completamenti automatici nella barra degli indirizzi.</translation>
-<translation id="8096327394278038498">Consente di cancellare la cronologia e i completamenti automatici nella barra degli indirizzi. Il tuo account OneVN Software potrebbe avere altri tipi di cronologia di navigazione all'indirizzo <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
-<translation id="8122693181154564064">Consente di cancellare la cronologia da tutti i dispositivi su cui hai eseguito l'accesso. Il tuo account OneVN Software potrebbe avere altri tipi di cronologia di navigazione all'indirizzo <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8096327394278038498">Consente di cancellare la cronologia e i completamenti automatici nella barra degli indirizzi. Il tuo account Onevn Software potrebbe avere altri tipi di cronologia di navigazione all'indirizzo <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8122693181154564064">Consente di cancellare la cronologia da tutti i dispositivi su cui hai eseguito l'accesso. Il tuo account Onevn Software potrebbe avere altri tipi di cronologia di navigazione all'indirizzo <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="7127980134843952133">Cronologia download</translation>
 <translation id="4699172675775169585">Immagini e file memorizzati nella cache</translation>
 <translation id="1274997165432133392">Cookie e altri dati dei siti</translation>
@@ -3385,7 +3385,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="6979737339423435258">Tutto</translation>
 <translation id="3399432415385675819">Le notifiche verranno disattivate</translation>
 <translation id="3459509316159669723">Stampa</translation>
-<translation id="1563008449513980623">Imposta o gestisci stampanti in OneVN Software Cloud Print.</translation>
+<translation id="1563008449513980623">Imposta o gestisci stampanti in Onevn Software Cloud Print.</translation>
 <translation id="8185331656081929126">Mostra notifiche quando vengono rilevate nuove stampanti in rete</translation>
 <translation id="6451180435462401570">Gestisci dispositivi Cloud Print</translation>
 <translation id="6985607387932385770">Stampanti</translation>
@@ -3418,10 +3418,10 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="2462752602710430187">È stata aggiunta la stampante <ph name="PRINTER_NAME"/></translation>
 <translation id="9057119625587205566">Nessuna stampante nelle vicinanze</translation>
 <translation id="3213187967168344806">Impossibile aggiungere la stampante. Riavvia il computer e riprova.</translation>
-<translation id="4052689580269971502">Impossibile connettere la stampante. Verifica che sia accesa e collegata al OneVNbook tramite Wi-Fi o USB.</translation>
+<translation id="4052689580269971502">Impossibile connettere la stampante. Verifica che sia accesa e collegata al Onevnbook tramite Wi-Fi o USB.</translation>
 <translation id="7099337801055912064">Impossibile caricare il file PPD. Dimensioni massime: 250 kB.</translation>
 <translation id="4310139701823742692">Il formato del file è sbagliato. Controlla il file PPD e riprova.</translation>
-<translation id="6580983683519551561">Impossibile trovare il file PPD. Assicurati che il OneVNbook sia online e riprova.</translation>
+<translation id="6580983683519551561">Impossibile trovare il file PPD. Assicurati che il Onevnbook sia online e riprova.</translation>
 <translation id="4694024090038830733">Le stampanti vengono configurate dall'amministratore.</translation>
 <translation id="5816434091619127343">Le modifiche richieste renderebbero la stampante inutilizzabile.</translation>
 <translation id="6504611359718185067">Connettiti a Internet per aggiungere una stampante</translation>
@@ -3429,7 +3429,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="5696679855467848181">File PPD attualmente in uso: <ph name="PPD_NAME"/></translation>
 <translation id="4733793249294335256">Posizione</translation>
 <translation id="7754704193130578113">Chiedi dove salvare il file prima di scaricarlo</translation>
-<translation id="5713072761819014678">Scollega account OneVN Software Drive</translation>
+<translation id="5713072761819014678">Scollega account Onevn Software Drive</translation>
 <translation id="486635084936119914">Apri automaticamente determinati tipi di file dopo il download</translation>
 <translation id="3653160965917900914">Condivisioni file di rete</translation>
 <translation id="5763315388120433852">Configura o gestisci condivisioni file di rete.</translation>
@@ -3465,12 +3465,12 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="3571734092741541777">Configura</translation>
 <translation id="3336664756920573711">Sblocca il tuo dispositivo <ph name="DEVICE_TYPE"/> usando il tuo telefono Android</translation>
 <translation id="1164674268730883318">Disattivare Smart Lock per <ph name="DEVICE_TYPE"/>?</translation>
-<translation id="2739030071582769583">Se disattivi Smart Lock per <ph name="DEVICE_TYPE"/>, non puoi sbloccare i tuoi dispositivi OneVN utilizzando il telefono. Dovrai digitare la password.</translation>
+<translation id="2739030071582769583">Se disattivi Smart Lock per <ph name="DEVICE_TYPE"/>, non puoi sbloccare i tuoi dispositivi Onevn utilizzando il telefono. Dovrai digitare la password.</translation>
 <translation id="4737715515457435632">Collegati a una rete</translation>
 <translation id="5425722269016440406">Devi essere online per poter disattivare Smart Lock perché questa impostazione viene sincronizzata con il telefono e con altri dispositivi. Collegati prima a una rete.</translation>
 <translation id="8885197664446363138">Smart Lock non disponibile</translation>
 <translation id="7334190995941642545">La funzione Smart Lock non è al momento disponibile. Riprova più tardi.</translation>
-<translation id="8112427115751454716">Usa Smart Lock per accedere al tuo account OneVN Software</translation>
+<translation id="8112427115751454716">Usa Smart Lock per accedere al tuo account Onevn Software</translation>
 <translation id="2043818754674261542">Distanza necessaria per poter sbloccare questo dispositivo <ph name="DEVICE_TYPE"/> con il telefono</translation>
 <translation id="2522791476825452208">Molto vicino</translation>
 <translation id="649454645705377674">Chiudi</translation>
@@ -3478,7 +3478,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="5595152862129936745">Molto lontano</translation>
 <translation id="8748384418490037181">Opzioni Smart Lock</translation>
 <translation id="2433836460518180625">Sblocca solo il dispositivo</translation>
-<translation id="3300552672525741457">Sblocca il dispositivo e accedi all'account OneVN Software</translation>
+<translation id="3300552672525741457">Sblocca il dispositivo e accedi all'account Onevn Software</translation>
 <translation id="2307462900900812319">Configura rete</translation>
 <translation id="7175037578838465313">Configura <ph name="NAME"/></translation>
 <translation id="8662671328352114214">Aggiungi la rete <ph name="TYPE"/></translation>
@@ -3505,7 +3505,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="1726100011689679555">Server dei nomi</translation>
 <translation id="1209796539517632982">Assegnazione automatica nomi ai server</translation>
 <translation id="4462159676511157176">Assegna nomi personalizzati a server</translation>
-<translation id="1981884748698699991">Assegnazione nomi ai server da OneVN Software</translation>
+<translation id="1981884748698699991">Assegnazione nomi ai server da Onevn Software</translation>
 <translation id="854655314928502177">URL rilevamento automatico proxy web:</translation>
 <translation id="3817579325494460411">Non fornito</translation>
 <translation id="1280820357415527819">Ricerca di reti mobili in corso</translation>
@@ -3569,13 +3569,13 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="6077131872140550515">Rimuovi dai preferiti</translation>
 <translation id="4115002065223188701">Rete fuori portata</translation>
 <translation id="161460670679785907">Impossibile rilevare il tuo telefono</translation>
-<translation id="1682335582099955045">Per usare il tethering istantaneo devi attivare le notifiche di OneVN Software Play Services.</translation>
+<translation id="1682335582099955045">Per usare il tethering istantaneo devi attivare le notifiche di Onevn Software Play Services.</translation>
 <translation id="7696063401938172191">Sul tuo telefono "<ph name="PHONE_NAME"/>":</translation>
 <translation id="3423463006624419153">Sui telefoni "<ph name="PHONE_NAME_1"/>" e "<ph name="PHONE_NAME_2"/>":</translation>
 <translation id="6997707937646349884">Sui tuoi dispositivi:</translation>
 <translation id="7531779363494549572">Seleziona Impostazioni &gt; App e notifiche &gt; Notifiche.</translation>
-<translation id="6921033294337262045">Tocca Notifiche app &gt; OneVN Software Play Services.</translation>
-<translation id="5624710179837914896">Attiva OneVN Software Play Services.</translation>
+<translation id="6921033294337262045">Tocca Notifiche app &gt; Onevn Software Play Services.</translation>
+<translation id="5624710179837914896">Attiva Onevn Software Play Services.</translation>
 <translation id="2705736684557713153">Scorri fino alla parte inferiore dello schermo e attiva la funzione Tethering istantaneo, se presente. In caso contrario non devi fare nulla.</translation>
 <translation id="8720200012906404956">Ricerca di una rete mobile in corso. <ph name="BEGIN_LINK"/>Ulteriori informazioni<ph name="END_LINK"/></translation>
 <translation id="7240339475467890413">Eseguire la connessione al nuovo hotspot?</translation>
@@ -3589,7 +3589,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="3651488188562686558">Disconnessione dalla rete Wi-Fi</translation>
 <translation id="3479552764303398839">Non adesso</translation>
 <translation id="7378812711085314936">Ricevi connessione dati</translation>
-<translation id="3483333858382889684">Consenti a questo dispositivo di individuare altri dispositivi su cui è configurato il tuo account OneVN Software che abbiano una connessione dati mobili</translation>
+<translation id="3483333858382889684">Consenti a questo dispositivo di individuare altri dispositivi su cui è configurato il tuo account Onevn Software che abbiano una connessione dati mobili</translation>
 <translation id="5637476008227280525">Attivazione dati mobili</translation>
 <translation id="1572266655485775982">Attiva Wi-Fi</translation>
 <translation id="543381445212956829">Attivazione WiMAX</translation>
@@ -3719,11 +3719,11 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="4200689466366162458">Parole del dizionario personale</translation>
 <translation id="7833720883933317473">Le parole personalizzate salvate verranno visualizzate qui</translation>
 <translation id="8509646642152301857">Download del dizionario per il controllo ortografico non riuscito.</translation>
-<translation id="8842834450537919370">Rivolgiti al tuo amministratore di rete per verificare che il firewall non blocchi i download dai server di OneVN Software.</translation>
+<translation id="8842834450537919370">Rivolgiti al tuo amministratore di rete per verificare che il firewall non blocchi i download dai server di Onevn Software.</translation>
 <translation id="9042893549633094279">Privacy e sicurezza</translation>
 <translation id="654233263479157500">Utilizza un servizio web per risolvere gli errori di navigazione</translation>
 <translation id="6697492270171225480">Mostra suggerimenti per pagine simili quando una pagina non viene trovata</translation>
-<translation id="4534361985432360439">Invia a OneVN Software l'indirizzo web della pagina a cui stai tentando di accedere</translation>
+<translation id="4534361985432360439">Invia a Onevn Software l'indirizzo web della pagina a cui stai tentando di accedere</translation>
 <translation id="6545834809683560467">Utilizza un servizio di previsione per il completamento delle ricerche e degli URL digitati nella barra degli indirizzi o nella casella di ricerca di Avvio applicazioni</translation>
 <translation id="340485819826776184">Utilizza le previsioni per completare i termini di ricerca e gli URL digitati nella barra degli indirizzi</translation>
 <translation id="7704317875155739195">Completamento automatico di ricerche e URL</translation>
@@ -3734,16 +3734,16 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="1641113438599504367">Navigazione sicura</translation>
 <translation id="773905249182896430">Protegge te e il tuo dispositivo da siti pericolosi</translation>
 <translation id="8983677657449185470">Contribuisci a migliorare Navigazione sicura</translation>
-<translation id="199861668945335092">Invia a OneVN Software alcune informazioni sul sistema e alcuni contenuti delle pagine</translation>
+<translation id="199861668945335092">Invia a Onevn Software alcune informazioni sul sistema e alcuni contenuti delle pagine</translation>
 <translation id="490074449735753175">Utilizza un servizio web per correggere gli errori ortografici</translation>
-<translation id="3523078749603005179">Controllo ortografico più utile grazie all'invio a OneVN Software del testo digitato nel browser</translation>
+<translation id="3523078749603005179">Controllo ortografico più utile grazie all'invio a Onevn Software del testo digitato nel browser</translation>
 <translation id="2564653188463346023">Controllo ortografico avanzato</translation>
-<translation id="9079153198295609735">Invia automaticamente a OneVN Software statistiche sull'utilizzo e rapporti sugli arresti anomali</translation>
-<translation id="5941220456342415404">Invia automaticamente a OneVN Software dati di diagnostica e utilizzo</translation>
-<translation id="918192811481327695">Contribuisci a migliorare le funzioni e le prestazioni di OneVN</translation>
-<translation id="9063160602596686558">Invia automaticamente a OneVN Software statistiche sull'utilizzo e rapporti sugli arresti anomali</translation>
+<translation id="9079153198295609735">Invia automaticamente a Onevn Software statistiche sull'utilizzo e rapporti sugli arresti anomali</translation>
+<translation id="5941220456342415404">Invia automaticamente a Onevn Software dati di diagnostica e utilizzo</translation>
+<translation id="918192811481327695">Contribuisci a migliorare le funzioni e le prestazioni di Onevn</translation>
+<translation id="9063160602596686558">Invia automaticamente a Onevn Software statistiche sull'utilizzo e rapporti sugli arresti anomali</translation>
 <translation id="8438566539970814960">Migliora le ricerche e le attività di navigazione</translation>
-<translation id="284843628681142937">Invia a OneVN Software gli URL delle pagine che visiti</translation>
+<translation id="284843628681142937">Invia a Onevn Software gli URL delle pagine che visiti</translation>
 <translation id="8791534160414513928">Invia una richiesta "Non tenere traccia" con il tuo traffico di navigazione</translation>
 <translation id="5299109548848736476">Non tenere traccia</translation>
 <translation id="5282733140964383898">Se attivi "Non tenere traccia", viene inclusa una richiesta con il tuo traffico di navigazione. Gli eventuali effetti dipendono dalla risposta o meno di un sito web alla richiesta e dalla modalità di interpretazione della richiesta. Ad esempio, alcuni siti web potrebbero rispondere alla richiesta visualizzando annunci non basati su altri siti web che hai visitato. Molti siti web raccoglieranno e utilizzeranno comunque i tuoi dati di navigazione per diversi scopi, ad esempio per aumentare la sicurezza, fornire contenuti, servizi, annunci e consigli sui loro siti web o generare statistiche sui rapporti. <ph name="BEGIN_LINK"/>Ulteriori informazioni<ph name="END_LINK"/></translation>
@@ -3761,7 +3761,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="8632933437936028548">Reimposta</translation>
 <translation id="5293170712604732402">Ripristina le impostazioni predefinite originali</translation>
 <translation id="892706138619340876">Alcune impostazioni sono state reimpostate</translation>
-<translation id="2334029754052191847">OneVN ha rilevato che alcune impostazioni sono state danneggiate da un altro programma e le ha ripristinate con i valori originali predefiniti.</translation>
+<translation id="2334029754052191847">Onevn ha rilevato che alcune impostazioni sono state danneggiate da un altro programma e le ha ripristinate con i valori originali predefiniti.</translation>
 <translation id="4582563038311694664">Ripristina tutte le impostazioni</translation>
 <translation id="4146785383423576110">Reimpostazione e pulizia</translation>
 <translation id="2603115962224169880">Pulisci il computer</translation>
@@ -3773,7 +3773,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="7807067443225230855">Ricerca e assistente</translation>
 <translation id="2203682048752833055">Motore di ricerca utilizzato nella <ph name="BEGIN_LINK"/>barra degli indirizzi<ph name="END_LINK"/></translation>
 <translation id="1432581352905426595">Imposta motori di ricerca</translation>
-<translation id="2862205630718215619">Assistente OneVN Software</translation>
+<translation id="2862205630718215619">Assistente Onevn Software</translation>
 <translation id="6978121630131642226">Motori di ricerca</translation>
 <translation id="6410668567036790476">Aggiungi motore di ricerca</translation>
 <translation id="1128591060186966949">Modifica motore di ricerca</translation>
@@ -3785,9 +3785,9 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="7063311912041006059">URL con <ph name="SPECIAL_SYMBOL"/> al posto della query</translation>
 <translation id="6953878494808481632">Informazioni correlate</translation>
 <translation id="4145922204387553806">Permetti all'assistente di mostrarti informazioni basate sui contenuti dello schermo</translation>
-<translation id="472896694312062378">Ok OneVN Software</translation>
-<translation id="873163986259711670">Accedi all'assistente ogni volta che dici "Ok OneVN Software"</translation>
-<translation id="7972554217702001243">Attiva l'assistente quando qualcuno dice "Ok OneVN Software". Per consumare meno batteria, la hotword "Ok OneVN Software" è attiva solo quando il dispositivo è collegato a una fonte di alimentazione.</translation>
+<translation id="472896694312062378">Ok Onevn Software</translation>
+<translation id="873163986259711670">Accedi all'assistente ogni volta che dici "Ok Onevn Software"</translation>
+<translation id="7972554217702001243">Attiva l'assistente quando qualcuno dice "Ok Onevn Software". Per consumare meno batteria, la hotword "Ok Onevn Software" è attiva solo quando il dispositivo è collegato a una fonte di alimentazione.</translation>
 <translation id="5825412242012995131">On (opzione consigliata)</translation>
 <translation id="5067399438976153555">Sempre attivo</translation>
 <translation id="5419405654816502573">Voice Match</translation>
@@ -3796,7 +3796,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="5355099869024327351">Consenti all'assistente di mostrarti le notifiche</translation>
 <translation id="133535873114485416">Metodo di immissione preferito</translation>
 <translation id="6233154960150021497">Imposta come predefinito l'uso della voce invece della tastiera</translation>
-<translation id="3908743412684152579">Impostazioni dell'Assistente OneVN Software</translation>
+<translation id="3908743412684152579">Impostazioni dell'Assistente Onevn Software</translation>
 <translation id="4933484234309072027">incorporata su <ph name="URL"/></translation>
 <translation id="8427292751741042100">incorporata su qualsiasi host</translation>
 <translation id="4907306957610201395">Categoria di autorizzazione</translation>
@@ -3821,7 +3821,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="5340638867532133571">Consenti ai siti di installare gestori dei pagamenti (opzione consigliata)</translation>
 <translation id="763632859238619983">Non consentire ai siti di installare gestori dei pagamenti</translation>
 <translation id="8270242299912238708">Documenti PDF</translation>
-<translation id="539658326146969381">Scarica i file PDF anziché aprirli automaticamente in OneVN</translation>
+<translation id="539658326146969381">Scarica i file PDF anziché aprirli automaticamente in Onevn</translation>
 <translation id="4434045419905280838">Popup e reindirizzamenti</translation>
 <translation id="6612358246767739896">Contenuti protetti</translation>
 <translation id="4252852543720145436">Identificatori di contenuti protetti</translation>
@@ -3853,7 +3853,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="7661259717474717992">Consenti ai siti di salvare e leggere i dati dei cookie</translation>
 <translation id="2913331724188855103">Consenti ai siti di salvare e leggere i dati dei cookie (opzione consigliata)</translation>
 <translation id="5908769186679515905">Impedisci ai siti di eseguire Flash</translation>
-<translation id="6096007141921397775">Le impostazioni Flash rimarranno memorizzate fino all'uscita da OneVN.</translation>
+<translation id="6096007141921397775">Le impostazioni Flash rimarranno memorizzate fino all'uscita da Onevn.</translation>
 <translation id="2972642118232180842">Esegui solo contenuti importanti (consigliata)</translation>
 <translation id="7084192839369222683">Esegui solo contenuti importanti</translation>
 <translation id="8074127646604999664">Consenti ai siti chiusi di recente di terminare l'invio e la ricezione di dati</translation>
@@ -3915,7 +3915,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="4750220700975225">Sessione di navigazione in incognito corrente (<ph name="EMBEDDING"/>)</translation>
 <translation id="383891835335927981">Non è stato aumentato o diminuito lo zoom di alcun sito</translation>
 <translation id="3566721612727112615">Nessun sito aggiunto</translation>
-<translation id="8098574385249290065">Consenti a OneVN di scegliere quando i siti possono riprodurre audio (opzione consigliata)</translation>
+<translation id="8098574385249290065">Consenti a Onevn di scegliere quando i siti possono riprodurre audio (opzione consigliata)</translation>
 <translation id="4354344420232759511">Qui verranno visualizzati i siti visitati</translation>
 <translation id="3757733214359997190">Nessun sito trovato</translation>
 <translation id="5763751966069581670">Nessun dispositivo USB trovato</translation>
@@ -3923,7 +3923,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="7366415735885268578">Aggiunta di un sito</translation>
 <translation id="5052499409147950210">Modifica del sito</translation>
 <translation id="2870560284913253234">Sito</translation>
-<translation id="4610862967073369855">Consenti ad Android Messaggi di trasmettere gli SMS dal telefono al OneVNbook</translation>
+<translation id="4610862967073369855">Consenti ad Android Messaggi di trasmettere gli SMS dal telefono al Onevnbook</translation>
 <translation id="6742339027238151589">Accessibile allo script</translation>
 <translation id="361106536627977100">Dati Flash</translation>
 <translation id="8557930019681227453">Manifest</translation>
@@ -3937,7 +3937,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="6105877918873366097">Ultimo accesso</translation>
 <translation id="1296497012903089238">Tipo di certificato</translation>
 <translation id="8553342806078037065">Gestisci altre persone</translation>
-<translation id="8907706281008466056">Foto profilo OneVN Software</translation>
+<translation id="8907706281008466056">Foto profilo Onevn Software</translation>
 <translation id="2408955596600435184">Inserisci il codice PIN</translation>
 <translation id="6619990499523117484">Conferma il codice PIN</translation>
 <translation id="2023167225947895179">Il PIN potrebbe essere facile da scoprire</translation>
@@ -3962,9 +3962,9 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="6029292188939175871">elimina [<ph name="FINGERPRINT_NAME"/>], pulsante</translation>
 <translation id="1927632033341042996">Impronta <ph name="NEW_FINGER_NUMBER"/></translation>
 <translation id="7665369617277396874">Aggiungi account</translation>
-<translation id="6776811409814583709">Qui puoi gestire tutti i tuoi Account OneVN Software a cui accedi da app e siti web. Le app e i siti web autorizzati possono accedere ai dati degli account necessari per il loro corretto funzionamento.</translation>
+<translation id="6776811409814583709">Qui puoi gestire tutti i tuoi Account Onevn Software a cui accedi da app e siti web. Le app e i siti web autorizzati possono accedere ai dati degli account necessari per il loro corretto funzionamento.</translation>
 <translation id="1987317783729300807">Account</translation>
-<translation id="8418661265246754237">Account OneVN Software</translation>
+<translation id="8418661265246754237">Account Onevn Software</translation>
 <translation id="3297951628821704004">Rimuovi account da questo dispositivo</translation>
 <translation id="3158033540161634471">Imposta la tua impronta</translation>
 <translation id="1587907146729660231">Tocca il tasto di accensione con un dito</translation>
@@ -3994,9 +3994,9 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="2114896190328250491">Foto di <ph name="NAME"/></translation>
 <translation id="7155171745945906037">Foto esistente da fotocamera o file</translation>
 <translation id="8995603266996330174">Gestito da <ph name="DOMAIN"/></translation>
-<translation id="9125982323641182972">Tutta l'intelligenza OneVN Software in OneVN</translation>
+<translation id="9125982323641182972">Tutta l'intelligenza Onevn Software in Onevn</translation>
 <translation id="5244474230056479698">Sincronizzazione con <ph name="EMAIL"/></translation>
-<translation id="4326270470840334364">Questo account è gestito da <ph name="DOMAIN"/>, pertanto i preferiti, la cronologia, le password e altre impostazioni verranno cancellati da questo dispositivo. I tuoi dati rimarranno però memorizzati nel tuo account OneVN Software e potrai gestirli su <ph name="BEGIN_LINK"/>OneVN Software Dashboard<ph name="END_LINK"/>.</translation>
+<translation id="4326270470840334364">Questo account è gestito da <ph name="DOMAIN"/>, pertanto i preferiti, la cronologia, le password e altre impostazioni verranno cancellati da questo dispositivo. I tuoi dati rimarranno però memorizzati nel tuo account Onevn Software e potrai gestirli su <ph name="BEGIN_LINK"/>Onevn Software Dashboard<ph name="END_LINK"/>.</translation>
 <translation id="4037889604535939429">Modifica persona</translation>
 <translation id="6739923123728562974">Mostra collegamento sul desktop</translation>
 <translation id="2450310832094867474">Vuoi disattivare la sincronizzazione e uscire?</translation>
@@ -4004,16 +4004,16 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="5643620609347735571">Cancella e continua</translation>
 <translation id="5602765853043467355">Cancella preferiti, cronologia, password e altro da questo dispositivo</translation>
 <translation id="4089235344645910861">Impostazioni salvate. Sincronizzazione avviata.</translation>
-<translation id="7548737591211512046">Accedi per trovare i tuoi segnalibri, la cronologia, le password e altre impostazioni su tutti i tuoi dispositivi. Verrà inoltre eseguito l'accesso automatico ai tuoi servizi OneVN Software.</translation>
-<translation id="2951604498031550705">Le modifiche apportate a preferiti, cronologia, password e altre impostazioni non verranno più sincronizzate con il tuo account OneVN Software. I dati esistenti rimarranno invece memorizzati nel tuo account OneVN Software e potranno essere gestiti su <ph name="BEGIN_LINK"/>OneVN Software Dashboard<ph name="END_LINK"/>.</translation>
-<translation id="138229770216285283">I tuoi account OneVN Software verranno scollegati. Le modifiche apportate a preferiti, cronologia, password e altre impostazioni non verranno più sincronizzate con il tuo account OneVN Software. I dati esistenti rimarranno invece memorizzati nel tuo account OneVN Software e potranno essere gestiti su <ph name="BEGIN_LINK"/>OneVN Software Dashboard<ph name="END_LINK"/>.</translation>
-<translation id="3169352093514419465">I tuoi Account OneVN Software verranno scollegati e verrà interrotta la sincronizzazione di preferiti, cronologia, password e altro.</translation>
+<translation id="7548737591211512046">Accedi per trovare i tuoi segnalibri, la cronologia, le password e altre impostazioni su tutti i tuoi dispositivi. Verrà inoltre eseguito l'accesso automatico ai tuoi servizi Onevn Software.</translation>
+<translation id="2951604498031550705">Le modifiche apportate a preferiti, cronologia, password e altre impostazioni non verranno più sincronizzate con il tuo account Onevn Software. I dati esistenti rimarranno invece memorizzati nel tuo account Onevn Software e potranno essere gestiti su <ph name="BEGIN_LINK"/>Onevn Software Dashboard<ph name="END_LINK"/>.</translation>
+<translation id="138229770216285283">I tuoi account Onevn Software verranno scollegati. Le modifiche apportate a preferiti, cronologia, password e altre impostazioni non verranno più sincronizzate con il tuo account Onevn Software. I dati esistenti rimarranno invece memorizzati nel tuo account Onevn Software e potranno essere gestiti su <ph name="BEGIN_LINK"/>Onevn Software Dashboard<ph name="END_LINK"/>.</translation>
+<translation id="3169352093514419465">I tuoi Account Onevn Software verranno scollegati e verrà interrotta la sincronizzazione di preferiti, cronologia, password e altro.</translation>
 <translation id="8588866096426746242">Mostra le statistiche del profilo</translation>
 <translation id="5535941515421698170">Rimuovi anche i dati esistenti da questo dispositivo</translation>
 <translation id="7243632151880336635">Cancella ed esci</translation>
 <translation id="6406506848690869874">Sincronizzazione</translation>
-<translation id="5428209950370661546">Altri servizi OneVN Software</translation>
-<translation id="7956662517480676674">Sincronizzazione e servizi OneVN Software</translation>
+<translation id="5428209950370661546">Altri servizi Onevn Software</translation>
+<translation id="7956662517480676674">Sincronizzazione e servizi Onevn Software</translation>
 <translation id="2453021845418314664">Impostazioni di sincronizzazione avanzate</translation>
 <translation id="4314815835985389558">Gestisci sincronizzazione</translation>
 <translation id="659934686219830168">La sincronizzazione inizierà dopo l'uscita da questa pagina</translation>
@@ -4022,19 +4022,19 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="4824958205181053313">Vuoi annullare la sincronizzazione?</translation>
 <translation id="3058498974290601450">Puoi attivare la sincronizzazione in qualsiasi momento nelle impostazioni</translation>
 <translation id="7529411698175791732">Controlla la connessione a Internet. Se il problema persiste, prova a uscire e ad accedere di nuovo.</translation>
-<translation id="1125261911132334651">Gestisci il tuo Account OneVN Software</translation>
+<translation id="1125261911132334651">Gestisci il tuo Account Onevn Software</translation>
 <translation id="4570387585180509432">Indirizzi, numeri di telefono e non solo</translation>
 <translation id="5117427536932535467">Temi e sfondi</translation>
 <translation id="3268451620468152448">Schede aperte</translation>
-<translation id="5241892180459725878">Suggerimenti di ricerca di OneVN Software Drive</translation>
+<translation id="5241892180459725878">Suggerimenti di ricerca di Onevn Software Drive</translation>
 <translation id="2120297377148151361">Attività e interazioni</translation>
 <translation id="5833397272224757657">Utilizza i contenuti dei siti visitati oltre ad attività e interazioni relative al browser per la personalizzazione</translation>
-<translation id="8135094938656535588">Gestisci dati sincronizzati sulla Dashboard di OneVN Software</translation>
-<translation id="7505421639213002314">Dati dalla Sincronizzazione OneVN</translation>
+<translation id="8135094938656535588">Gestisci dati sincronizzati sulla Dashboard di Onevn Software</translation>
+<translation id="7505421639213002314">Dati dalla Sincronizzazione Onevn</translation>
 <translation id="6596325263575161958">Opzioni di crittografia</translation>
-<translation id="2459230470861708651">Cripta le password sincronizzate con la password e il nome utente del tuo account OneVN Software</translation>
-<translation id="5958351589333270173">Cripta i dati sincronizzati con la tua <ph name="BEGIN_LINK"/>passphrase di sincronizzazione<ph name="END_LINK"/>. Non sono inclusi i metodi di pagamento e gli indirizzi di OneVN Software Pay.</translation>
-<translation id="4817583816512767754">Soltanto chi conosce la tua passphrase può leggere i tuoi dati criptati. La passphrase non viene inviata a OneVN Software né memorizzata. Se dimentichi la passphrase o vuoi modificare questa impostazione, dovrai <ph name="BEGIN_LINK"/>reimpostare la sincronizzazione<ph name="END_LINK"/>.</translation>
+<translation id="2459230470861708651">Cripta le password sincronizzate con la password e il nome utente del tuo account Onevn Software</translation>
+<translation id="5958351589333270173">Cripta i dati sincronizzati con la tua <ph name="BEGIN_LINK"/>passphrase di sincronizzazione<ph name="END_LINK"/>. Non sono inclusi i metodi di pagamento e gli indirizzi di Onevn Software Pay.</translation>
+<translation id="4817583816512767754">Soltanto chi conosce la tua passphrase può leggere i tuoi dati criptati. La passphrase non viene inviata a Onevn Software né memorizzata. Se dimentichi la passphrase o vuoi modificare questa impostazione, dovrai <ph name="BEGIN_LINK"/>reimpostare la sincronizzazione<ph name="END_LINK"/>.</translation>
 <translation id="7441736921018636843">Per modificare questa impostazione, <ph name="BEGIN_LINK"/>reimposta la sincronizzazione<ph name="END_LINK"/> per rimuovere la passphrase di sincronizzazione.</translation>
 <translation id="3873315167136380065">Per attivare questa funzione, <ph name="BEGIN_LINK"/>reimposta la sincronizzazione<ph name="END_LINK"/> per rimuovere la passphrase di sincronizzazione</translation>
 <translation id="988978206646512040">Non è consentita una passphrase vuota</translation>
@@ -4080,7 +4080,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="437184764829821926">Impostazioni avanzate carattere</translation>
 <translation id="323803881985677942">Apri opzioni estensione</translation>
 <translation id="2166369534954157698">Pranzo d'acqua fa volti sghembi</translation>
-<translation id="8911765336506423117">Richiede estensione dal OneVN Web Store</translation>
+<translation id="8911765336506423117">Richiede estensione dal Onevn Web Store</translation>
 <translation id="6965978654500191972">Dispositivo</translation>
 <translation id="8260864402787962391">Mouse</translation>
 <translation id="155865706765934889">Touchpad</translation>
@@ -4117,7 +4117,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="4673442866648850031">Apri strumenti stilo quando lo stilo viene rimosso</translation>
 <translation id="5862109781435984885">Mostra strumenti stilo nello shelf</translation>
 <translation id="4244238649050961491">Trova altre app per stilo</translation>
-<translation id="1163818598439831131">Apri OneVN Software Play</translation>
+<translation id="1163818598439831131">Apri Onevn Software Play</translation>
 <translation id="9116799625073598554">App per creare note</translation>
 <translation id="5458998536542739734">Note sulla schermata di blocco</translation>
 <translation id="203574396658008164">Attiva la scrittura di note dalla schermata di blocco</translation>
@@ -4179,7 +4179,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="6547354035488017500">Libera almeno 512 MB di spazio, altrimenti il tuo dispositivo non risponderà più ai comandi. Per liberare spazio, elimina i file dallo spazio di archiviazione.</translation>
 <translation id="6097480669505687979">Se non liberi spazio, utenti e dati potrebbero essere rimossi automaticamente.</translation>
 <translation id="5438224778284622050">Eliminare i file offline?</translation>
-<translation id="9196021349904508454">I file offline temporanei di OneVN Software Drive verranno eliminati. I file impostati come disponibili offline non verranno eliminati dal dispositivo.</translation>
+<translation id="9196021349904508454">I file offline temporanei di Onevn Software Drive verranno eliminati. I file impostati come disponibili offline non verranno eliminati dal dispositivo.</translation>
 <translation id="1865678028973512614">Elimina file</translation>
 <translation id="1529891865407786369">Fonte di alimentazione</translation>
 <translation id="354060433403403521">Adattatore CA</translation>
@@ -4201,38 +4201,38 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="1889984860246851556">Apri le impostazioni proxy</translation>
 <translation id="1940546824932169984">Dispositivi collegati</translation>
 <translation id="3468999815377931311">Telefono Android</translation>
-<translation id="2789927670850159391">Collega il OneVNbook al telefono. <ph name="LINK_BEGIN"/>Ulteriori informazioni<ph name="LINK_END"/></translation>
+<translation id="2789927670850159391">Collega il Onevnbook al telefono. <ph name="LINK_BEGIN"/>Ulteriori informazioni<ph name="LINK_END"/></translation>
 <translation id="1397500194120344683">Nessun dispositivo idoneo. <ph name="LINK_BEGIN"/>Ulteriori informazioni<ph name="LINK_END"/></translation>
 <translation id="5739235828260127894">In attesa di verifica. <ph name="LINK_BEGIN"/>Ulteriori informazioni<ph name="LINK_END"/></translation>
 <translation id="6518133107902771759">Verifica</translation>
-<translation id="7179187931092694802">Sblocca il OneVNbook con il telefono. <ph name="LINK_BEGIN"/>Ulteriori informazioni<ph name="LINK_END"/></translation>
+<translation id="7179187931092694802">Sblocca il Onevnbook con il telefono. <ph name="LINK_BEGIN"/>Ulteriori informazioni<ph name="LINK_END"/></translation>
 <translation id="5430931332414098647">Tethering istantaneo</translation>
 <translation id="6415900369006735853">Connettiti a Internet tramite il telefono</translation>
 <translation id="4746351372139058112">Messaggi</translation>
-<translation id="2248072377758660530">Invia e ricevi SMS dal OneVNbook. <ph name="LINK_BEGIN"/>Ulteriori informazioni<ph name="LINK_END"/></translation>
+<translation id="2248072377758660530">Invia e ricevi SMS dal Onevnbook. <ph name="LINK_BEGIN"/>Ulteriori informazioni<ph name="LINK_END"/></translation>
 <translation id="5153234146675181447">Elimina telefono</translation>
-<translation id="2307631131458143837">Scollega il telefono dal OneVNbook</translation>
-<translation id="1146102139091738471">Scollega il telefono dal OneVNbook. I due dispositivi non si connetteranno più automaticamente.</translation>
+<translation id="2307631131458143837">Scollega il telefono dal Onevnbook</translation>
+<translation id="1146102139091738471">Scollega il telefono dal Onevnbook. I due dispositivi non si connetteranno più automaticamente.</translation>
 <translation id="7878562273885520351">La tua password potrebbe essere stata compromessa</translation>
 <translation id="1089439967362294234">Cambia password</translation>
-<translation id="6187156085111579405">Se necessario verranno rimossi anche elementi non elencati qui. Leggi ulteriori informazioni sulla &lt;a href="<ph name="URL"/>"&gt;protezione da software indesiderato&lt;/a&gt; nel whitepaper sulla privacy di OneVN.</translation>
+<translation id="6187156085111579405">Se necessario verranno rimossi anche elementi non elencati qui. Leggi ulteriori informazioni sulla &lt;a href="<ph name="URL"/>"&gt;protezione da software indesiderato&lt;/a&gt; nel whitepaper sulla privacy di Onevn.</translation>
 <translation id="5280174558369304332">Estensioni che verranno rimosse:</translation>
 <translation id="7712836429117959503">Estensione sconosciuta con ID <ph name="EXTENSION_ID"/></translation>
 <translation id="3281892622610078515">File e programmi che saranno messi in quarantena:</translation>
 <translation id="8549457076611407730">{NUM_ITEMS,plural, =1{1 elemento}other{# elementi}}</translation>
 <translation id="7187428571767585875">Voci del registro da rimuovere o modificare:</translation>
 <translation id="4840150926623932060">{NUM_DOWNLOAD,plural, =1{1 altro elemento}other{# altri elementi}}</translation>
-<translation id="2749608811030566578">Si è verificato un errore in OneVN durante la rimozione di software dannoso</translation>
-<translation id="8189483132214844139">OneVN può trovare software dannoso sul computer e rimuoverlo</translation>
+<translation id="2749608811030566578">Si è verificato un errore in Onevn durante la rimozione di software dannoso</translation>
+<translation id="8189483132214844139">Onevn può trovare software dannoso sul computer e rimuoverlo</translation>
 <translation id="2910318910161511225">Collegati a una rete e riprova</translation>
 <translation id="1426870617281699524">Fai clic su Riprova e accetta la richiesta sul computer</translation>
-<translation id="7886744396008377537">È stato rilevato software dannoso sul tuo computer. OneVN lo rimuoverà, ripristinerà le tue impostazioni e disattiverà le estensioni. In questo modo verrà ripristinato il normale funzionamento del browser.</translation>
-<translation id="1484912962860902625">Si è verificato un errore in OneVN durante la ricerca di software dannoso</translation>
+<translation id="7886744396008377537">È stato rilevato software dannoso sul tuo computer. Onevn lo rimuoverà, ripristinerà le tue impostazioni e disattiverà le estensioni. In questo modo verrà ripristinato il normale funzionamento del browser.</translation>
+<translation id="1484912962860902625">Si è verificato un errore in Onevn durante la ricerca di software dannoso</translation>
 <translation id="451407183922382411">Con tecnologia <ph name="COMPANY_NAME"/></translation>
 <translation id="5254368820972107711">Mostra i file da rimuovere</translation>
 <translation id="296026337010986570">Fatto! Software dannoso rimosso. Per riattivare le estensioni, visita la pagina &lt;a href="chrome://extensions"&gt;Estensioni&lt;/a&gt;.</translation>
 <translation id="284975061945174219">Pulizia non riuscita</translation>
-<translation id="9014750448058570312">OneVN ha bisogno dell'autorizzazione per continuare</translation>
+<translation id="9014750448058570312">Onevn ha bisogno dell'autorizzazione per continuare</translation>
 <translation id="1852141627593563189">Trova software dannoso</translation>
 <translation id="4320177379694898372">Nessuna connessione Internet</translation>
 <translation id="850875081535031620">Nessun software dannoso trovato</translation>
@@ -4242,11 +4242,11 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="8639047128869322042">Controllo della presenza di software dannoso...</translation>
 <translation id="2653033005692233957">Ricerca non riuscita</translation>
 <translation id="655483977608336153">Riprova</translation>
-<translation id="8282772389915299166">Segnala a OneVN Software i dettagli relativi a software dannoso, impostazioni di sistema e processi trovati sul tuo computer durante questa pulizia</translation>
+<translation id="8282772389915299166">Segnala a Onevn Software i dettagli relativi a software dannoso, impostazioni di sistema e processi trovati sul tuo computer durante questa pulizia</translation>
 <translation id="6555810572223193255">Pulizia al momento non disponibile</translation>
 <translation id="7117228822971127758">Riprova più tardi</translation>
 <translation id="443475966875174318">Aggiorna o rimuovi le applicazioni non compatibili</translation>
-<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{Questa applicazione potrebbe impedire il corretto funzionamento di OneVN.}other{Queste applicazioni potrebbero impedire il corretto funzionamento di OneVN.}}</translation>
+<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{Questa applicazione potrebbe impedire il corretto funzionamento di Onevn.}other{Queste applicazioni potrebbero impedire il corretto funzionamento di Onevn.}}</translation>
 <translation id="599131315899248751">{NUM_APPLICATIONS,plural, =1{Per assicurarti di poter continuare a navigare sul Web, chiedi al tuo amministratore di rimuovere questa applicazione.}other{Per assicurarti di poter continuare a navigare sul Web, chiedi al tuo amministratore di rimuovere queste applicazioni.}}</translation>
 <translation id="4743260470722568160"><ph name="BEGIN_LINK"/>Scopri come aggiornare le applicazioni<ph name="END_LINK"/></translation>
 <translation id="964439421054175458">{NUM_APLLICATIONS,plural, =1{Applicazione}other{Applicazioni}}</translation>
@@ -4323,7 +4323,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="6370021412472292592">Impossibile caricare il file manifest.</translation>
 <translation id="7235716375204803342">Recupero delle attività in corso...</translation>
 <translation id="7647403192093989392">Nessuna attività recente</translation>
-<translation id="38046578254905003">Trova estensioni e temi nel <ph name="BEGIN_LINK"/>OneVN Web Store<ph name="END_LINK"/></translation>
+<translation id="38046578254905003">Trova estensioni e temi nel <ph name="BEGIN_LINK"/>Onevn Web Store<ph name="END_LINK"/></translation>
 <translation id="7272674038937250585">Nessuna descrizione fornita</translation>
 <translation id="3855441664322950881">Crea pacchetto estensione</translation>
 <translation id="2958721676848865875">Avviso sul pacchetto estensione</translation>
@@ -4335,7 +4335,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="1992397118740194946">Non impostata</translation>
 <translation id="6706210727756204531">Ambito</translation>
 <translation id="5532223876348815659">Generali</translation>
-<translation id="300669147395456190">Applicazioni OneVN</translation>
+<translation id="300669147395456190">Applicazioni Onevn</translation>
 <translation id="6787839852456839824">Scorciatoie da tastiera</translation>
 <translation id="6419546358665792306">Carica estensione non pacchettizzata</translation>
 <translation id="8023801379949507775">Aggiorna estensioni adesso</translation>
@@ -4364,7 +4364,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="742130257665691897">Preferiti rimossi</translation>
 <translation id="2785008241190445880">Segnalibro sostituito</translation>
 <translation id="4320948194796820126">Aggiungi il servizio email ai preferiti</translation>
-<translation id="2950533317914339731">Aggiungi le tue app OneVN Software preferite ai Preferiti</translation>
+<translation id="2950533317914339731">Aggiungi le tue app Onevn Software preferite ai Preferiti</translation>
 <translation id="3409785640040772790">Maps</translation>
 <translation id="6709133671862442373">Notizie</translation>
 <translation id="995782501881226248">YouTube</translation>
@@ -4376,12 +4376,12 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="5033266061063942743">Forme geometriche</translation>
 <translation id="7789963078219276159">Lo sfondo della pagina iniziale è ora <ph name="CATEGORY"/>.</translation>
 <translation id="8771300903067484968">Lo sfondo della pagina iniziale è stato reimpostato allo sfondo predefinito.</translation>
-<translation id="239760341987199724">Imposta OneVN come browser predefinito</translation>
-<translation id="96037229054033864">Sfrutta tutti i vantaggi di Ricerca OneVN Software e OneVN Software ogni volta che navighi</translation>
-<translation id="296137235951584143">Personalizza il tuo OneVN</translation>
+<translation id="239760341987199724">Imposta Onevn come browser predefinito</translation>
+<translation id="96037229054033864">Sfrutta tutti i vantaggi di Ricerca Onevn Software e Onevn Software ogni volta che navighi</translation>
+<translation id="296137235951584143">Personalizza il tuo Onevn</translation>
 <translation id="3982375475032951137">Configura il browser con pochi e semplici passaggi</translation>
 <translation id="6972754398087986839">Inizia</translation>
-<translation id="3707821975049107110">Sei già un utente di OneVN? Accedi</translation>
+<translation id="3707821975049107110">Sei già un utente di Onevn? Accedi</translation>
 <translation id="1573150740912592860">Salva i tuoi progressi</translation>
 <translation id="567643736130151854">Accedi e attiva la sincronizzazione per trovare i tuoi preferiti, le password e altre impostazioni su tutti i tuoi dispositivi</translation>
 <translation id="8282356762694872144">Vuoi continuare sul tuo servizio email?</translation>
@@ -4390,7 +4390,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="5877584842898320529">La stampante selezionata non è disponibile o non è installata correttamente. <ph name="BR"/> Controlla la stampante o prova a selezionarne un'altra.</translation>
 <translation id="1031362278801463162">Caricamento anteprima in corso</translation>
 <translation id="6147020289383635445">Anteprima di stampa non riuscita.</translation>
-<translation id="7413400642818115607">Il dispositivo OneVN Software Cloud Print selezionato non è più supportato. <ph name="BR"/> Prova a configurare la stampante nelle impostazioni di sistema del computer.</translation>
+<translation id="7413400642818115607">Il dispositivo Onevn Software Cloud Print selezionato non è più supportato. <ph name="BR"/> Prova a configurare la stampante nelle impostazioni di sistema del computer.</translation>
 <translation id="5828633471261496623">Stampa in corso...</translation>
 <translation id="6295855836753816081">Salvataggio in corso...</translation>
 <translation id="3587482841069643663">Tutti</translation>
@@ -4407,7 +4407,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="3706463572498736864">Pagine per foglio</translation>
 <translation id="2249605167705922988">ad es. 1-5, 8, 11-13</translation>
 <translation id="5746169159649715125">Salva come PDF</translation>
-<translation id="1955272076204612657">Salva in OneVN Software Drive</translation>
+<translation id="1955272076204612657">Salva in Onevn Software Drive</translation>
 <translation id="2580924999637585241">Totale: <ph name="NUMBER_OF_SHEETS"/> <ph name="SHEETS_LABEL"/></translation>
 <translation id="4091434297613116013">fogli</translation>
 <translation id="8813811964357448561">foglio</translation>
@@ -4436,7 +4436,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="6991665348624301627">Seleziona una destinazione</translation>
 <translation id="8800004011501252845">Destinazioni per</translation>
 <translation id="8996526648899750015">Aggiungi account...</translation>
-<translation id="5002959368039764681">Stampa con OneVN Software Documenti e altre destinazioni nella cloud. <ph name="BEGIN_LINK"/>Accedi<ph name="END_LINK"/> per stampare con OneVN Software Cloud Print.</translation>
+<translation id="5002959368039764681">Stampa con Onevn Software Documenti e altre destinazioni nella cloud. <ph name="BEGIN_LINK"/>Accedi<ph name="END_LINK"/> per stampare con Onevn Software Cloud Print.</translation>
 <translation id="2150139952286079145">Cerca destinazioni</translation>
 <translation id="8569682776816196752">Nessuna destinazione trovata</translation>
 <translation id="7885253890047913815">Destinazioni recenti</translation>
@@ -4494,7 +4494,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="7574650250151586813">Per digitare il testo, aggiorna l'app Tastiera Daydream</translation>
 <translation id="983511809958454316">Questa funzione non è supportata in realtà virtuale</translation>
 <translation id="4008291085758151621">Informazioni sul sito non disponibili in realtà virtuale</translation>
-<translation id="1439926347196400598">Vuoi consentire la registrazione dell'audio in OneVN?</translation>
+<translation id="1439926347196400598">Vuoi consentire la registrazione dell'audio in Onevn?</translation>
 <translation id="6313641880021325787">ESCI DA REALTÀ VIRTUALE</translation>
 <translation id="2670429602441959756">Questa pagina contiene funzioni non ancora supportate nella realtà virtuale. Uscita in corso...</translation>
 <translation id="1802687198411089702">La pagina non risponde. Puoi aspettare oppure chiuderla.</translation>

@@ -11,11 +11,11 @@
 #include "chrome/browser/loader/chrome_resource_dispatcher_host_delegate.h"
 
 
-class OneVNResourceDispatcherHostDelegate
+class OnevnResourceDispatcherHostDelegate
     : public ChromeResourceDispatcherHostDelegate {
  public:
-  OneVNResourceDispatcherHostDelegate();
-  ~OneVNResourceDispatcherHostDelegate() override;
+  OnevnResourceDispatcherHostDelegate();
+  ~OnevnResourceDispatcherHostDelegate() override;
 
  protected:
   void AppendStandardResourceThrottles(
@@ -25,7 +25,7 @@ class OneVNResourceDispatcherHostDelegate
       std::vector<std::unique_ptr<content::ResourceThrottle>>* throttles)
     override;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNResourceDispatcherHostDelegate);
+  DISALLOW_COPY_AND_ASSIGN(OnevnResourceDispatcherHostDelegate);
 };
 
 #endif  // ONEVN_BROWSER_LOADER_ONEVN_RESOURCE_DISPATCHER_HOST_DELEGATE_H_

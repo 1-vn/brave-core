@@ -1,4 +1,4 @@
-/* Copyright 2019 The OneVN Authors. All rights reserved.
+/* Copyright 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -29,7 +29,7 @@ namespace {
 constexpr int kIconSize = 16;
 }  // namespace
 
-OneVNProfileChooserView::OneVNProfileChooserView(
+OnevnProfileChooserView::OnevnProfileChooserView(
     views::Button* anchor_button,
     const gfx::Rect& anchor_rect,
     gfx::NativeView parent_window,
@@ -47,10 +47,10 @@ OneVNProfileChooserView::OneVNProfileChooserView(
                          access_point,
                          is_source_keyboard) {}
 
-OneVNProfileChooserView::~OneVNProfileChooserView() {}
+OnevnProfileChooserView::~OnevnProfileChooserView() {}
 
 
-void OneVNProfileChooserView::ButtonPressed(views::Button* sender,
+void OnevnProfileChooserView::ButtonPressed(views::Button* sender,
                                             const ui::Event& event) {
   if (sender == tor_profile_button_) {
     profiles::SwitchToTorProfile(ProfileManager::CreateCallback());
@@ -65,7 +65,7 @@ void OneVNProfileChooserView::ButtonPressed(views::Button* sender,
   }
 }
 
-void OneVNProfileChooserView::AddTorButton(views::GridLayout* layout) {
+void OnevnProfileChooserView::AddTorButton(views::GridLayout* layout) {
   if (!browser()->profile()->IsTorProfile() &&
       !g_onevn_browser_process->tor_client_updater()
         ->GetExecutablePath().empty()) {
@@ -78,12 +78,12 @@ void OneVNProfileChooserView::AddTorButton(views::GridLayout* layout) {
   }
 }
 
-void OneVNProfileChooserView::ResetView() {
+void OnevnProfileChooserView::ResetView() {
   ProfileChooserView::ResetView();
   tor_profile_button_ = nullptr;
 }
 
-views::View* OneVNProfileChooserView::OneVNCreateDiceSyncErrorView(
+views::View* OnevnProfileChooserView::OnevnCreateDiceSyncErrorView(
     const AvatarMenu::Item& avatar_item,
     sync_ui_util::AvatarSyncErrorType error,
     int button_string_id) {

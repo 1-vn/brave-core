@@ -22,23 +22,23 @@
 
 using namespace onevn_actions;
 
-base::Optional<int> OneVNActionIconWithBadgeImageSource::GetCustomGraphicSize() {
-  return kOneVNActionGraphicSize;
+base::Optional<int> OnevnActionIconWithBadgeImageSource::GetCustomGraphicSize() {
+  return kOnevnActionGraphicSize;
 }
 
-base::Optional<int> OneVNActionIconWithBadgeImageSource::GetCustomGraphicXOffset() {
+base::Optional<int> OnevnActionIconWithBadgeImageSource::GetCustomGraphicXOffset() {
   return std::floor(
-    (size().width() - kOneVNActionRightMargin - kOneVNActionGraphicSize) / 2.0
+    (size().width() - kOnevnActionRightMargin - kOnevnActionGraphicSize) / 2.0
   );
 }
 
-base::Optional<int> OneVNActionIconWithBadgeImageSource::GetCustomGraphicYOffset() {
+base::Optional<int> OnevnActionIconWithBadgeImageSource::GetCustomGraphicYOffset() {
   return std::floor(
-    (size().height() - kOneVNActionGraphicSize) / 2.0
+    (size().height() - kOnevnActionGraphicSize) / 2.0
   );
 }
 
-void OneVNActionIconWithBadgeImageSource::PaintBadge(gfx::Canvas* canvas) {
+void OnevnActionIconWithBadgeImageSource::PaintBadge(gfx::Canvas* canvas) {
     if (!badge_ || badge_->text.empty())
     return;
 
@@ -72,7 +72,7 @@ void OneVNActionIconWithBadgeImageSource::PaintBadge(gfx::Canvas* canvas) {
                              0, gfx::Canvas::NO_ELLIPSIS);
   // Leaving extremely verbose log lines commented in case we want to change
   // any sizes in this algorithm, these logs are helpful.
-  // LOG(ERROR) << "OneVNAction badge text size initial, "
+  // LOG(ERROR) << "OnevnAction badge text size initial, "
   //            << "w:"
   //            << text_width
   //            << " h:"
@@ -157,6 +157,6 @@ void OneVNActionIconWithBadgeImageSource::PaintBadge(gfx::Canvas* canvas) {
                                   gfx::Canvas::TEXT_ALIGN_CENTER);
 }
 
-gfx::Rect OneVNActionIconWithBadgeImageSource::GetIconAreaRect() const {
+gfx::Rect OnevnActionIconWithBadgeImageSource::GetIconAreaRect() const {
   return gfx::Rect(size());
 }

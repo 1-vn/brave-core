@@ -11,10 +11,10 @@
 
 class PrefChangeRegistrar;
 
-class OneVNNewTabUI : public BasicUI {
+class OnevnNewTabUI : public BasicUI {
  public:
-  OneVNNewTabUI(content::WebUI* web_ui, const std::string& host);
-  ~OneVNNewTabUI() override;
+  OnevnNewTabUI(content::WebUI* web_ui, const std::string& host);
+  ~OnevnNewTabUI() override;
 
  private:
   // BasicUI overrides
@@ -25,7 +25,7 @@ class OneVNNewTabUI : public BasicUI {
 
   std::unique_ptr<PrefChangeRegistrar> pref_change_registrar_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNNewTabUI);
+  DISALLOW_COPY_AND_ASSIGN(OnevnNewTabUI);
 };
 
 #endif  // ONEVN_BROWSER_UI_WEBUI_ONEVN_NEW_TAB_UI_H_

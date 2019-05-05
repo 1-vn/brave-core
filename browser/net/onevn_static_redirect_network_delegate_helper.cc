@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -16,7 +16,7 @@ namespace onevn {
 
 int OnBeforeURLRequest_StaticRedirectWork(
     const ResponseCallback& next_callback,
-    std::shared_ptr<OneVNRequestInfo> ctx) {
+    std::shared_ptr<OnevnRequestInfo> ctx) {
   GURL::Replacements replacements;
   static URLPattern geo_pattern(URLPattern::SCHEME_HTTPS, kGeoLocationsPattern);
   static URLPattern safeBrowsing_pattern(URLPattern::SCHEME_HTTPS,
@@ -86,21 +86,21 @@ int OnBeforeURLRequest_StaticRedirectWork(
     replacements.SetQueryStr(ctx->request_url.query_piece());
     replacements.SetPathStr(ctx->request_url.path_piece());
     ctx->new_url_spec =
-      GURL(kOneVNTranslateEndpoint).ReplaceComponents(replacements).spec();
+      GURL(kOnevnTranslateEndpoint).ReplaceComponents(replacements).spec();
     return net::OK;
   }
 
   if (translate_language_pattern.MatchesURL(ctx->request_url)) {
-    ctx->new_url_spec = GURL(kOneVNTranslateLanguageEndpoint).spec();
+    ctx->new_url_spec = GURL(kOnevnTranslateLanguageEndpoint).spec();
     return net::OK;
   }
 
 #if !defined(NDEBUG)
   GURL gurl = ctx->request_url;
   static std::vector<URLPattern> allowed_patterns({
-      // OneVN updates
+      // Onevn updates
       URLPattern(URLPattern::SCHEME_HTTPS, "https://go-updater.1-vn.com/*"),
-      // OneVN promo referrals, production and staging (laptop-updates
+      // Onevn promo referrals, production and staging (laptop-updates
       // proxies to promo-services)
       // TODO(@emerick): In the future, we may want to specify the value of the
       // ONEVN_REFERRALS_SERVER environment variable rather than
@@ -146,8 +146,8 @@ int OnBeforeURLRequest_StaticRedirectWork(
       URLPattern(URLPattern::SCHEME_HTTPS, "https://crlsets.1-vn.com/*"),
       URLPattern(URLPattern::SCHEME_HTTPS, "https://crxdownload.1-vn.com/*"),
 
-      // OneVN's translation relay server
-      URLPattern(URLPattern::SCHEME_HTTPS, kOneVNTranslateServerPrefix),
+      // Onevn's translation relay server
+      URLPattern(URLPattern::SCHEME_HTTPS, kOnevnTranslateServerPrefix),
   });
 
   // Check to make sure the URL being requested matches at least one of the

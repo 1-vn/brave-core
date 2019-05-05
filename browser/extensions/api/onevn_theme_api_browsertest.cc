@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -13,16 +13,16 @@
 #include "components/prefs/pref_service.h"
 #include "extensions/common/extension_builder.h"
 
-using BTS = OneVNThemeService;
-using extensions::api::OneVNThemeGetOneVNThemeTypeFunction;
+using BTS = OnevnThemeService;
+using extensions::api::OnevnThemeGetOnevnThemeTypeFunction;
 using extension_function_test_utils::RunFunctionAndReturnSingleResult;
 
 namespace {
-void SetOneVNThemeType(Profile* profile, OneVNThemeType type) {
-  profile->GetPrefs()->SetInteger(kOneVNThemeType, type);
+void SetOnevnThemeType(Profile* profile, OnevnThemeType type) {
+  profile->GetPrefs()->SetInteger(kOnevnThemeType, type);
 }
 }  // namespace
-class OneVNThemeAPIBrowserTest : public InProcessBrowserTest {
+class OnevnThemeAPIBrowserTest : public InProcessBrowserTest {
  public:
   void SetUpOnMainThread() override {
     InProcessBrowserTest::SetUpOnMainThread();
@@ -37,17 +37,17 @@ class OneVNThemeAPIBrowserTest : public InProcessBrowserTest {
   scoped_refptr<const extensions::Extension> extension_;
 };
 
-IN_PROC_BROWSER_TEST_F(OneVNThemeAPIBrowserTest,
-                       OneVNThemeGetOneVNThemeTypeTest) {
+IN_PROC_BROWSER_TEST_F(OnevnThemeAPIBrowserTest,
+                       OnevnThemeGetOnevnThemeTypeTest) {
   Profile* profile = browser()->profile();
 
   // Change to Light type and check it from api.
-  SetOneVNThemeType(profile, OneVNThemeType::ONEVN_THEME_TYPE_LIGHT);
-  EXPECT_EQ(OneVNThemeType::ONEVN_THEME_TYPE_LIGHT,
-            BTS::GetActiveOneVNThemeType(profile));
+  SetOnevnThemeType(profile, OnevnThemeType::ONEVN_THEME_TYPE_LIGHT);
+  EXPECT_EQ(OnevnThemeType::ONEVN_THEME_TYPE_LIGHT,
+            BTS::GetActiveOnevnThemeType(profile));
 
-  scoped_refptr<OneVNThemeGetOneVNThemeTypeFunction> get_function(
-      new OneVNThemeGetOneVNThemeTypeFunction());
+  scoped_refptr<OnevnThemeGetOnevnThemeTypeFunction> get_function(
+      new OnevnThemeGetOnevnThemeTypeFunction());
   get_function->set_extension(extension().get());
   std::unique_ptr<base::Value> value;
   value.reset(RunFunctionAndReturnSingleResult(get_function.get(),

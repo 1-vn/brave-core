@@ -9,28 +9,28 @@
 #include "onevn/components/onevn_webtorrent/browser/webtorrent_util.h"
 #include "chrome/browser/profiles/profile.h"
 
-// See the OneVNAutocompleteProviderClient why GetOriginalProfile() is fetched.
+// See the OnevnAutocompleteProviderClient why GetOriginalProfile() is fetched.
 // All services except TemplateURLService exposed from AutocompleteClassifier
 // uses original profile. So, |profile_| should be original profile same as
 // base class does.
-OneVNAutocompleteSchemeClassifier::OneVNAutocompleteSchemeClassifier(
+OnevnAutocompleteSchemeClassifier::OnevnAutocompleteSchemeClassifier(
     Profile* profile)
     : ChromeAutocompleteSchemeClassifier(profile->GetOriginalProfile()),
       profile_(profile->GetOriginalProfile()) {
 }
 
-OneVNAutocompleteSchemeClassifier::~OneVNAutocompleteSchemeClassifier() {
+OnevnAutocompleteSchemeClassifier::~OnevnAutocompleteSchemeClassifier() {
 }
 
 // Without this override, typing in onevn:// URLs will search Google
 metrics::OmniboxInputType
-OneVNAutocompleteSchemeClassifier::GetInputTypeForScheme(
+OnevnAutocompleteSchemeClassifier::GetInputTypeForScheme(
     const std::string& scheme) const {
   if (scheme.empty()) {
     return metrics::OmniboxInputType::INVALID;
   }
   if (base::IsStringASCII(scheme) &&
-      (base::LowerCaseEqualsASCII(scheme, kOneVNUIScheme) ||
+      (base::LowerCaseEqualsASCII(scheme, kOnevnUIScheme) ||
        (webtorrent::IsWebtorrentEnabled(profile_) &&
         base::LowerCaseEqualsASCII(scheme, kMagnetScheme)))) {
     return metrics::OmniboxInputType::URL;

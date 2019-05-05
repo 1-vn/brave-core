@@ -6,7 +6,7 @@ index f4c3eeda228573ce92b71d3e4e4090e8e26d8bfd..93d59373d63dc72aa4f23c1174bc9d8d
            service_manager::switches::kNoSandbox)) {
      base::LaunchOptions options;
      options.handles_to_inherit = handles_to_inherit;
-+    OneVNLaunchOption(cmd_line, &options);
++    OnevnLaunchOption(cmd_line, &options);
      BOOL in_job = true;
      // Prior to Windows 8 nested jobs aren't possible.
      if (sandbox_type == SANDBOX_TYPE_NETWORK &&

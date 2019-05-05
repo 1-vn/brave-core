@@ -13,9 +13,9 @@ namespace gfx {
 }
 
 // The purpose of this subclass is to:
-// - Paint the OneVNAction badge in a custom location and with a different size
+// - Paint the OnevnAction badge in a custom location and with a different size
 //   to regular BrowserAction extensions.
-class OneVNActionIconWithBadgeImageSource : public IconWithBadgeImageSource {
+class OnevnActionIconWithBadgeImageSource : public IconWithBadgeImageSource {
   public:
     using IconWithBadgeImageSource::IconWithBadgeImageSource;
   private:
@@ -24,7 +24,7 @@ class OneVNActionIconWithBadgeImageSource : public IconWithBadgeImageSource {
     base::Optional<int> GetCustomGraphicYOffset() override;
     void PaintBadge(gfx::Canvas* canvas) override;
     gfx::Rect GetIconAreaRect() const override;
-    DISALLOW_COPY_AND_ASSIGN(OneVNActionIconWithBadgeImageSource);
+    DISALLOW_COPY_AND_ASSIGN(OnevnActionIconWithBadgeImageSource);
 };
 
 #endif

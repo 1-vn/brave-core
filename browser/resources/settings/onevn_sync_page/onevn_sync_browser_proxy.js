@@ -4,17 +4,17 @@
 
  cr.define('settings', function() {
   /** @interface */
-  class DefaultOneVNSyncBrowserProxy {}
+  class DefaultOnevnSyncBrowserProxy {}
 
   /**
-   * @implements {settings.DefaultOneVNSyncBrowserProxy}
+   * @implements {settings.DefaultOnevnSyncBrowserProxy}
    */
-  class DefaultOneVNSyncBrowserProxyImpl {}
+  class DefaultOnevnSyncBrowserProxyImpl {}
 
-  cr.addSingletonGetter(DefaultOneVNSyncBrowserProxyImpl);
+  cr.addSingletonGetter(DefaultOnevnSyncBrowserProxyImpl);
 
   return {
-    DefaultOneVNSyncBrowserProxy,
-    DefaultOneVNSyncBrowserProxyImpl
+    DefaultOnevnSyncBrowserProxy,
+    DefaultOnevnSyncBrowserProxyImpl
   };
 });

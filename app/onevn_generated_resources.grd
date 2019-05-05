@@ -120,17 +120,17 @@
   </translations>
   <release seq="1">
     <messages fallback_to_english="true">
-      <message name="IDS_SHOW_ONEVN_REWARDS" desc="The show OneVN Rewards menu in the app menu">
-        OneVN Rewards
+      <message name="IDS_SHOW_ONEVN_REWARDS" desc="The show Onevn Rewards menu in the app menu">
+        Onevn Rewards
       </message>
-      <message name="IDS_SHOW_ONEVN_ADBLOCK" desc="The show OneVN Ad Block menu in the app menu">
-        OneVN Ad Block
+      <message name="IDS_SHOW_ONEVN_ADBLOCK" desc="The show Onevn Ad Block menu in the app menu">
+        Onevn Ad Block
       </message>
       <message name="IDS_SHOW_ONEVN_SYNC" desc="The show onevn sync menu in the app menu">
         Sync
       </message>
-      <message name="IDS_EXTENSION_CANT_INSTALL_ON_ONEVN" desc="Error message when user tries to install an extension that is not allowed in OneVN.">
-        <ph name="EXTENSION_NAME">$1</ph> (extension ID "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") is not allowed in OneVN.
+      <message name="IDS_EXTENSION_CANT_INSTALL_ON_ONEVN" desc="Error message when user tries to install an extension that is not allowed in Onevn.">
+        <ph name="EXTENSION_NAME">$1</ph> (extension ID "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") is not allowed in Onevn.
       </message>
       <!-- Importer Lock Dialog -->
       <message name="IDS_CHROME_IMPORTER_LOCK_TITLE" desc="Dialog title for Chrome importer lock dialog">
@@ -139,11 +139,11 @@
       <message name="IDS_CHROME_IMPORTER_LOCK_TEXT" desc="The message to be displayed in the Chrome importer lock dialog">
 	To finish importing, close all Chrome windows.
       </message>
-      <message name="IDS_ONEVN_IMPORTER_LOCK_TITLE" desc="Dialog title for OneVN importer lock dialog">
-	Close OneVN (old)
+      <message name="IDS_ONEVN_IMPORTER_LOCK_TITLE" desc="Dialog title for Onevn importer lock dialog">
+	Close Onevn (old)
       </message>
-      <message name="IDS_ONEVN_IMPORTER_LOCK_TEXT" desc="The message to be displayed in the OneVN importer lock dialog">
-	To finish importing, close all OneVN (old) windows.
+      <message name="IDS_ONEVN_IMPORTER_LOCK_TEXT" desc="The message to be displayed in the Onevn importer lock dialog">
+	To finish importing, close all Onevn (old) windows.
       </message>
       <message name="IDS_SETTINGS_IMPORT_COOKIES_CHECKBOX" desc="Checkbox for importing cookies">
         Cookies
@@ -152,7 +152,7 @@
         Stats
       </message>
       <message name="IDS_SETTINGS_IMPORT_LEDGER_CHECKBOX" desc="Checkbox for importing ledger">
-        OneVN Payments
+        Onevn Payments
       </message>
       <message name="IDS_SETTINGS_IMPORT_WINDOWS_CHECKBOX" desc="Checkbox for importing open windows and tabs">
         Open windows and tabs
@@ -169,16 +169,16 @@
         </message>
       </if>
       <message name="IDS_WIDEVINE_INSTALL_MESSAGE" desc="Bubble info text when Widevine is not installed. 'Widevine' is the name of a plugin and should not be translated.">
-        Google Widevine is a piece of Digital Rights Management (DRM) code that we at OneVN Software do not own and cannot inspect. The Google Widevine code is loaded from Google servers, not from our servers. It is loaded only when you enable this option. We discourage the use of DRM, but we respect user choice and acknowledge that some OneVN users would like to use services that require it.
+        Google Widevine is a piece of Digital Rights Management (DRM) code that we at Onevn Software do not own and cannot inspect. The Google Widevine code is loaded from Google servers, not from our servers. It is loaded only when you enable this option. We discourage the use of DRM, but we respect user choice and acknowledge that some Onevn users would like to use services that require it.
 
-By installing this extension, you are agreeing to the Google Widevine Terms of Use. You agree that OneVN is not responsible for any damages or losses in connection with your use of Google Widevine.
+By installing this extension, you are agreeing to the Google Widevine Terms of Use. You agree that Onevn is not responsible for any damages or losses in connection with your use of Google Widevine.
       </message>
-      <!-- OneVN Importer -->
-      <message name="IDS_IMPORT_FROM_ONEVN" desc="browser combo box: OneVN">
-        OneVN (old)
+      <!-- Onevn Importer -->
+      <message name="IDS_IMPORT_FROM_ONEVN" desc="browser combo box: Onevn">
+        Onevn (old)
       </message>
-      <message name="IDS_BOOKMARK_GROUP_FROM_ONEVN" desc="The group name of bookmarks from OneVN">
-        Imported From OneVN
+      <message name="IDS_BOOKMARK_GROUP_FROM_ONEVN" desc="The group name of bookmarks from Onevn">
+        Imported From Onevn
       </message>
       <!-- Autoplay -->
       <message name="IDS_AUTOPLAY_PERMISSION_FRAGMENT" desc="Permission request shown if the user is visiting a site that wants to autoplay media. Follows a prompt: 'This site would like to:'">
@@ -203,21 +203,21 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
         Continue blocking autoplay
       </message>
       <!-- Extensions -->
-      <message name="IDS_UNVETTED_EXTENSION_INSTALL_PROMPT_TITLE" desc="Titlebar of the extension or app installation prompt which was not vetted by OneVN. Asks the user if they want to install a particular extension or app.">
-        OneVN hasn't reviewed this extension yet - it might be malicious. Add "<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>" anyway?
+      <message name="IDS_UNVETTED_EXTENSION_INSTALL_PROMPT_TITLE" desc="Titlebar of the extension or app installation prompt which was not vetted by Onevn. Asks the user if they want to install a particular extension or app.">
+        Onevn hasn't reviewed this extension yet - it might be malicious. Add "<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>" anyway?
       </message>
       <!-- Appearance -->
       <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_ONEVN_THEMES" desc="The label for onevn theme change setting options">
-        OneVN colors
+        Onevn colors
       </message>
       <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_LOCATION_BAR_IS_WIDE" desc="The label for whether the location bar should display wide or not">
         Use wide location bar
       </message>
-      <message name="IDS_SETTINGS_HIDE_ONEVN_REWARDS_BUTTON_LABEL" desc="The label for settings switch controlling the visibility of OneVN Rewards button">
-        Hide OneVN Rewards button
+      <message name="IDS_SETTINGS_HIDE_ONEVN_REWARDS_BUTTON_LABEL" desc="The label for settings switch controlling the visibility of Onevn Rewards button">
+        Hide Onevn Rewards button
       </message>
-      <message name="IDS_SETTINGS_HIDE_ONEVN_REWARDS_BUTTON_DESC" desc="The description for settings switch controlling the visibility of OneVN Rewards button">
-        Hides the OneVN Rewards button in the location bar when OneVN Rewards is not enabled
+      <message name="IDS_SETTINGS_HIDE_ONEVN_REWARDS_BUTTON_DESC" desc="The description for settings switch controlling the visibility of Onevn Rewards button">
+        Hides the Onevn Rewards button in the location bar when Onevn Rewards is not enabled
       </message>
       <!-- Tor -->
       <message name="IDS_NEW_TOR_IDENTITY" desc="The text label of a menu item for requesting new Tor identity">
@@ -240,7 +240,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
           Open Link in Private Window with Tor
         </message>
         <message name="IDS_CONTENT_CONTEXT_OPENLINKTOR_INAPP" desc="Title case: The name of the open a link in private window with Tor command">
-          Open Link in OneVN Private Window with Tor
+          Open Link in Onevn Private Window with Tor
         </message>
       </if>
       <if expr="not use_titlecase">
@@ -251,7 +251,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
           Open link in private window with Tor
         </message>
         <message name="IDS_CONTENT_CONTEXT_OPENLINKTOR_INAPP" desc="The name of the open a link in private window with Tor command">
-          Open link in OneVN private window with Tor
+          Open link in Onevn private window with Tor
         </message>
       </if>
       <message name="IDS_PROFILES_TOR_PROFILE_NAME" desc="Name of the Tor profile.">
@@ -272,32 +272,32 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
       <message name="IDS_SETTINGS_ONEVN_ADDITIONAL_SETTINGS" desc="The title for a group of settings which are more advanced">
         Additional settings
       </message>
-      <!-- OneVN Shields  -->
-      <message name="IDS_SETTINGS_ONEVN_SHIELDS_TITLE" desc="The title for OneVN shields section in settings">
+      <!-- Onevn Shields  -->
+      <message name="IDS_SETTINGS_ONEVN_SHIELDS_TITLE" desc="The title for Onevn shields section in settings">
         Shields
       </message>
-      <message name="IDS_SETTINGS_ONEVN_SHIELDS_DEFAULTS_TITLE" desc="The title for OneVN shields Defaults sub-section in settings">
+      <message name="IDS_SETTINGS_ONEVN_SHIELDS_DEFAULTS_TITLE" desc="The title for Onevn shields Defaults sub-section in settings">
         Defaults
       </message>
-      <message name="IDS_SETTINGS_ONEVN_SHIELDS_DEFAULTS_DESCRIPTION" desc="The description for OneVN shields Defaults sub-section in settings">
+      <message name="IDS_SETTINGS_ONEVN_SHIELDS_DEFAULTS_DESCRIPTION" desc="The description for Onevn shields Defaults sub-section in settings">
         Your current per-site settings will be retained.
       </message>
       <message name="IDS_SETTINGS_SOCIAL_BLOCKING_DEFAULTS_TITLE" desc="The title the settings section which has options for blocking third-party embeds, commonly from social media sites">
         Social media blocking
       </message>
-      <message name="IDS_SETTINGS_ONEVN_SHIELDS_AD_CONTROL_LABEL" desc="Default OneVN ad control setting label">
+      <message name="IDS_SETTINGS_ONEVN_SHIELDS_AD_CONTROL_LABEL" desc="Default Onevn ad control setting label">
         Ad control
       </message>
-      <message name="IDS_SETTINGS_ONEVN_SHIELDS_COOKIE_CONTROL_LABEL" desc="Default OneVN cookie control setting label">
+      <message name="IDS_SETTINGS_ONEVN_SHIELDS_COOKIE_CONTROL_LABEL" desc="Default Onevn cookie control setting label">
         Cookie control
       </message>
-      <message name="IDS_SETTINGS_ONEVN_SHIELDS_FINGERPRINTING_CONTROL_LABEL" desc="Default OneVN fingerprinting control setting label">
+      <message name="IDS_SETTINGS_ONEVN_SHIELDS_FINGERPRINTING_CONTROL_LABEL" desc="Default Onevn fingerprinting control setting label">
         Fingerprinting protection
       </message>
-      <message name="IDS_SETTINGS_ONEVN_SHIELDS_HTTPS_EVERYWHERE_CONTROL_LABEL" desc="Default OneVN HTTPS Everywhere control setting label">
+      <message name="IDS_SETTINGS_ONEVN_SHIELDS_HTTPS_EVERYWHERE_CONTROL_LABEL" desc="Default Onevn HTTPS Everywhere control setting label">
         HTTPS Everywhere
       </message>
-      <message name="IDS_SETTINGS_ONEVN_SHIELDS_NO_SCRIPT_CONTROL_LABEL" desc="Default OneVN script blocking control setting label">
+      <message name="IDS_SETTINGS_ONEVN_SHIELDS_NO_SCRIPT_CONTROL_LABEL" desc="Default Onevn script blocking control setting label">
         Script blocking
       </message>
       <message name="IDS_SETTINGS_ONEVN_SHIELDS_GOOGLE_LOGIN_LABEL" desc="Label for a switch control which allows Google social buttons to be enabled/disabled">
@@ -355,14 +355,14 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
       <message name="IDS_SETTINGS_WEBRTC_POLICY_DISABLE_NON_PROXIED_UDP" desc="Select value">
         Disable non-proxied UDP
       </message>
-      <!-- OneVN Sync Settings -->
-      <message name="IDS_SETTINGS_ONEVN_SYNC_TITLE" desc="The title for OneVN Sync in settings">
+      <!-- Onevn Sync Settings -->
+      <message name="IDS_SETTINGS_ONEVN_SYNC_TITLE" desc="The title for Onevn Sync in settings">
         Sync
       </message>
-      <message name="IDS_SETTINGS_ONEVN_SYNC_LINK_LABEL" desc="OneVN Sync link label">
+      <message name="IDS_SETTINGS_ONEVN_SYNC_LINK_LABEL" desc="Onevn Sync link label">
         Access Sync via
       </message>
-      <!-- OneVN Theme -->
+      <!-- Onevn Theme -->
       <message name="IDS_ONEVN_THEME_TYPE_LIGHT" desc="Text for light theme type">
         Light
       </message>
@@ -384,8 +384,8 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
           Same as macOS
         </message>
       </if>
-      <!-- OneVN Default Extensions -->
-      <message name="IDS_SETTINGS_ONEVN_DEFAULT_EXTENSIONS_TITLE" desc="The title for OneVN default extensions in settings">
+      <!-- Onevn Default Extensions -->
+      <message name="IDS_SETTINGS_ONEVN_DEFAULT_EXTENSIONS_TITLE" desc="The title for Onevn default extensions in settings">
         Extensions
       </message>
       <message name="IDS_SETTINGS_WEBTORRENT_ENABLED_DESC" desc="The description for WebTorrent switch in settings">
@@ -407,7 +407,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
       <message name="IDS_MD_EXTENSIONS_ONEVN_ITEM_CHROME_WEB_STORE" desc="Label for button to visit the Web Extensions Store.">
         View in Web Extensions Store
       </message>
-      <!-- OneVN Clear Browsing Data On Exit Settings -->
+      <!-- Onevn Clear Browsing Data On Exit Settings -->
       <message name="IDS_SETTINGS_ONEVN_ON_EXIT" desc="Clear Browsing Data dialog On exit tab label">
         On exit
       </message>

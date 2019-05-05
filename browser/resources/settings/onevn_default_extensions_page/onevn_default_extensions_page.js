@@ -12,12 +12,12 @@
 Polymer({
   is: 'settings-onevn-default-extensions-page',
 
-  /** @private {?settings.OneVNDefaultExtensionsBrowserProxy} */
+  /** @private {?settings.OnevnDefaultExtensionsBrowserProxy} */
   browserProxy_: null,
 
   /** @override */
   created: function() {
-    this.browserProxy_ = settings.OneVNDefaultExtensionsBrowserProxyImpl.getInstance();
+    this.browserProxy_ = settings.OnevnDefaultExtensionsBrowserProxyImpl.getInstance();
   },
 
   /** @override */

@@ -8,9 +8,9 @@
 #include "components/omnibox/browser/autocomplete_classifier.h"
 #include "components/omnibox/browser/autocomplete_controller.h"
 
-#define AutocompleteController OneVNAutocompleteController
-#define ChromeAutocompleteProviderClient OneVNAutocompleteProviderClient
-#define ChromeAutocompleteSchemeClassifier OneVNAutocompleteSchemeClassifier
+#define AutocompleteController OnevnAutocompleteController
+#define ChromeAutocompleteProviderClient OnevnAutocompleteProviderClient
+#define ChromeAutocompleteSchemeClassifier OnevnAutocompleteSchemeClassifier
 #include "../../../../../chrome/browser/autocomplete/autocomplete_classifier_factory.cc"
 #undef ChromeAutocompleteSchemeClassifier
 #undef ChromeAutocompleteProviderClient

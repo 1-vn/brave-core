@@ -8,7 +8,7 @@
   </outputs>
   <release seq="1">
     <includes>
-      <!-- WebUI OneVN Rewards resources -->
+      <!-- WebUI Onevn Rewards resources -->
       <include name="IDR_ONEVN_REWARDS_HTML" file="ui/onevn_rewards.html" type="BINDATA" />
       <include name="IDR_ONEVN_REWARDS_IMG_WALLET_BG" file="img/wallet_bg.svg" type="BINDATA" />
       <include name="IDR_ONEVN_REWARDS_IMG_CAPTCHA_BAT" file="img/captcha_bat.png" type="BINDATA" />
@@ -21,7 +21,7 @@
       <include name="IDR_ONEVN_REWARDS_NICEWARE_LIST" file="../../../vendor/bat-native-ledger/niceware/wordlist" type="BINDATA" />
       <include name="IDR_ONEVN_REWARDS_FAVICON" file="img/favicon.ico" type="BINDATA" />
 
-      <!-- WebUI OneVN Rewards Internals resources -->
+      <!-- WebUI Onevn Rewards Internals resources -->
       <include name="IDR_ONEVN_REWARDS_INTERNALS_HTML" file="ui/internals/onevn_rewards_internals.html" type="BINDATA" />
 
       <!-- WebUI donate resources -->

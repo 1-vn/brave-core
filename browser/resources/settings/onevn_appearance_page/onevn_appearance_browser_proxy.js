@@ -4,27 +4,27 @@
 
 cr.define('settings', function() {
   /** @interface */
-  class OneVNAppearanceBrowserProxy {
+  class OnevnAppearanceBrowserProxy {
     /**
      * @return {!Promise<string>}
      */
-    getOneVNThemeList() {}
+    getOnevnThemeList() {}
   }
 
   /**
-   * @implements {settings.OneVNAppearanceBrowserProxy}
+   * @implements {settings.OnevnAppearanceBrowserProxy}
    */
-  class OneVNAppearanceBrowserProxyImpl {
+  class OnevnAppearanceBrowserProxyImpl {
     /** @override */
-    getOneVNThemeList() {
-      return new Promise(resolve => chrome.onevnTheme.getOneVNThemeList(resolve))
+    getOnevnThemeList() {
+      return new Promise(resolve => chrome.onevnTheme.getOnevnThemeList(resolve))
     }
   }
 
-  cr.addSingletonGetter(OneVNAppearanceBrowserProxyImpl);
+  cr.addSingletonGetter(OnevnAppearanceBrowserProxyImpl);
 
   return {
-    OneVNAppearanceBrowserProxy: OneVNAppearanceBrowserProxy,
-    OneVNAppearanceBrowserProxyImpl: OneVNAppearanceBrowserProxyImpl,
+    OnevnAppearanceBrowserProxy: OnevnAppearanceBrowserProxy,
+    OnevnAppearanceBrowserProxyImpl: OnevnAppearanceBrowserProxyImpl,
   };
 });

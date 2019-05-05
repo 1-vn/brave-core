@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -29,10 +29,10 @@ using onevn_ads::AdsServiceFactory;
 namespace extensions {
 namespace api {
 
-OneVNRewardsCreateWalletFunction::~OneVNRewardsCreateWalletFunction() {
+OnevnRewardsCreateWalletFunction::~OnevnRewardsCreateWalletFunction() {
 }
 
-ExtensionFunction::ResponseAction OneVNRewardsCreateWalletFunction::Run() {
+ExtensionFunction::ResponseAction OnevnRewardsCreateWalletFunction::Run() {
   Profile* profile = Profile::FromBrowserContext(browser_context());
   auto* rewards_service = RewardsServiceFactory::GetForProfile(profile);
   if (rewards_service) {
@@ -41,10 +41,10 @@ ExtensionFunction::ResponseAction OneVNRewardsCreateWalletFunction::Run() {
   return RespondNow(NoArguments());
 }
 
-OneVNRewardsDonateToSiteFunction::~OneVNRewardsDonateToSiteFunction() {
+OnevnRewardsDonateToSiteFunction::~OnevnRewardsDonateToSiteFunction() {
 }
 
-ExtensionFunction::ResponseAction OneVNRewardsDonateToSiteFunction::Run() {
+ExtensionFunction::ResponseAction OnevnRewardsDonateToSiteFunction::Run() {
   std::unique_ptr<onevn_rewards::DonateToSite::Params> params(
       onevn_rewards::DonateToSite::Params::Create(*args_));
   EXTENSION_FUNCTION_VALIDATE(params.get());
@@ -74,15 +74,15 @@ ExtensionFunction::ResponseAction OneVNRewardsDonateToSiteFunction::Run() {
   return RespondNow(NoArguments());
 }
 
-OneVNRewardsGetPublisherDataFunction::~OneVNRewardsGetPublisherDataFunction() {
+OnevnRewardsGetPublisherDataFunction::~OnevnRewardsGetPublisherDataFunction() {
 }
 
-OneVNRewardsIncludeInAutoContributionFunction::
-  ~OneVNRewardsIncludeInAutoContributionFunction() {
+OnevnRewardsIncludeInAutoContributionFunction::
+  ~OnevnRewardsIncludeInAutoContributionFunction() {
 }
 
 ExtensionFunction::ResponseAction
-  OneVNRewardsIncludeInAutoContributionFunction::Run() {
+  OnevnRewardsIncludeInAutoContributionFunction::Run() {
   std::unique_ptr<onevn_rewards::IncludeInAutoContribution::Params> params(
     onevn_rewards::IncludeInAutoContribution::Params::Create(*args_));
   Profile* profile = Profile::FromBrowserContext(browser_context());
@@ -95,7 +95,7 @@ ExtensionFunction::ResponseAction
   return RespondNow(NoArguments());
 }
 
-ExtensionFunction::ResponseAction OneVNRewardsGetPublisherDataFunction::Run() {
+ExtensionFunction::ResponseAction OnevnRewardsGetPublisherDataFunction::Run() {
   std::unique_ptr<onevn_rewards::GetPublisherData::Params> params(
       onevn_rewards::GetPublisherData::Params::Create(*args_));
   Profile* profile = Profile::FromBrowserContext(browser_context());
@@ -109,12 +109,12 @@ ExtensionFunction::ResponseAction OneVNRewardsGetPublisherDataFunction::Run() {
   return RespondNow(NoArguments());
 }
 
-OneVNRewardsGetWalletPropertiesFunction::
-~OneVNRewardsGetWalletPropertiesFunction() {
+OnevnRewardsGetWalletPropertiesFunction::
+~OnevnRewardsGetWalletPropertiesFunction() {
 }
 
 ExtensionFunction::ResponseAction
-OneVNRewardsGetWalletPropertiesFunction::Run() {
+OnevnRewardsGetWalletPropertiesFunction::Run() {
   Profile* profile = Profile::FromBrowserContext(browser_context());
   auto* rewards_service = RewardsServiceFactory::GetForProfile(profile);
   if (rewards_service) {
@@ -123,10 +123,10 @@ OneVNRewardsGetWalletPropertiesFunction::Run() {
   return RespondNow(NoArguments());
 }
 
-OneVNRewardsGetCurrentReportFunction::~OneVNRewardsGetCurrentReportFunction() {
+OnevnRewardsGetCurrentReportFunction::~OnevnRewardsGetCurrentReportFunction() {
 }
 
-ExtensionFunction::ResponseAction OneVNRewardsGetCurrentReportFunction::Run() {
+ExtensionFunction::ResponseAction OnevnRewardsGetCurrentReportFunction::Run() {
   Profile* profile = Profile::FromBrowserContext(browser_context());
   auto* rewards_service = RewardsServiceFactory::GetForProfile(profile);
   if (rewards_service) {
@@ -135,10 +135,10 @@ ExtensionFunction::ResponseAction OneVNRewardsGetCurrentReportFunction::Run() {
   return RespondNow(NoArguments());
 }
 
-OneVNRewardsGetGrantsFunction::~OneVNRewardsGetGrantsFunction() {
+OnevnRewardsGetGrantsFunction::~OnevnRewardsGetGrantsFunction() {
 }
 
-ExtensionFunction::ResponseAction OneVNRewardsGetGrantsFunction::Run() {
+ExtensionFunction::ResponseAction OnevnRewardsGetGrantsFunction::Run() {
   Profile* profile = Profile::FromBrowserContext(browser_context());
   RewardsService* rewards_service =
     RewardsServiceFactory::GetForProfile(profile);
@@ -148,10 +148,10 @@ ExtensionFunction::ResponseAction OneVNRewardsGetGrantsFunction::Run() {
   return RespondNow(NoArguments());
 }
 
-OneVNRewardsGetGrantCaptchaFunction::~OneVNRewardsGetGrantCaptchaFunction() {
+OnevnRewardsGetGrantCaptchaFunction::~OnevnRewardsGetGrantCaptchaFunction() {
 }
 
-ExtensionFunction::ResponseAction OneVNRewardsGetGrantCaptchaFunction::Run() {
+ExtensionFunction::ResponseAction OnevnRewardsGetGrantCaptchaFunction::Run() {
   std::unique_ptr<onevn_rewards::GetGrantCaptcha::Params> params(
       onevn_rewards::GetGrantCaptcha::Params::Create(*args_));
   Profile* profile = Profile::FromBrowserContext(browser_context());
@@ -164,11 +164,11 @@ ExtensionFunction::ResponseAction OneVNRewardsGetGrantCaptchaFunction::Run() {
   return RespondNow(NoArguments());
 }
 
-OneVNRewardsSolveGrantCaptchaFunction::
-~OneVNRewardsSolveGrantCaptchaFunction() {
+OnevnRewardsSolveGrantCaptchaFunction::
+~OnevnRewardsSolveGrantCaptchaFunction() {
 }
 
-ExtensionFunction::ResponseAction OneVNRewardsSolveGrantCaptchaFunction::Run() {
+ExtensionFunction::ResponseAction OnevnRewardsSolveGrantCaptchaFunction::Run() {
   std::unique_ptr<onevn_rewards::SolveGrantCaptcha::Params> params(
       onevn_rewards::SolveGrantCaptcha::Params::Create(*args_));
   Profile* profile = Profile::FromBrowserContext(browser_context());
@@ -180,12 +180,12 @@ ExtensionFunction::ResponseAction OneVNRewardsSolveGrantCaptchaFunction::Run() {
   return RespondNow(NoArguments());
 }
 
-OneVNRewardsGetPendingContributionsTotalFunction::
-~OneVNRewardsGetPendingContributionsTotalFunction() {
+OnevnRewardsGetPendingContributionsTotalFunction::
+~OnevnRewardsGetPendingContributionsTotalFunction() {
 }
 
 ExtensionFunction::ResponseAction
-OneVNRewardsGetPendingContributionsTotalFunction::Run() {
+OnevnRewardsGetPendingContributionsTotalFunction::Run() {
   Profile* profile = Profile::FromBrowserContext(browser_context());
   RewardsService* rewards_service =
     RewardsServiceFactory::GetForProfile(profile);
@@ -196,22 +196,22 @@ OneVNRewardsGetPendingContributionsTotalFunction::Run() {
   }
 
   rewards_service->GetPendingContributionsTotal(base::Bind(
-        &OneVNRewardsGetPendingContributionsTotalFunction::OnGetPendingTotal,
+        &OnevnRewardsGetPendingContributionsTotalFunction::OnGetPendingTotal,
         this));
   return RespondLater();
 }
 
-void OneVNRewardsGetPendingContributionsTotalFunction::OnGetPendingTotal(
+void OnevnRewardsGetPendingContributionsTotalFunction::OnGetPendingTotal(
     double amount) {
   Respond(OneArgument(std::make_unique<base::Value>(amount)));
 }
 
-OneVNRewardsGetRewardsMainEnabledFunction::
-~OneVNRewardsGetRewardsMainEnabledFunction() {
+OnevnRewardsGetRewardsMainEnabledFunction::
+~OnevnRewardsGetRewardsMainEnabledFunction() {
 }
 
 ExtensionFunction::ResponseAction
-OneVNRewardsGetRewardsMainEnabledFunction::Run() {
+OnevnRewardsGetRewardsMainEnabledFunction::Run() {
   Profile* profile = Profile::FromBrowserContext(browser_context());
   RewardsService* rewards_service =
     RewardsServiceFactory::GetForProfile(profile);
@@ -221,20 +221,20 @@ OneVNRewardsGetRewardsMainEnabledFunction::Run() {
   }
 
   rewards_service->GetRewardsMainEnabled(base::Bind(
-        &OneVNRewardsGetRewardsMainEnabledFunction::OnGetRewardsMainEnabled,
+        &OnevnRewardsGetRewardsMainEnabledFunction::OnGetRewardsMainEnabled,
         this));
   return RespondLater();
 }
 
-void OneVNRewardsGetRewardsMainEnabledFunction::OnGetRewardsMainEnabled(
+void OnevnRewardsGetRewardsMainEnabledFunction::OnGetRewardsMainEnabled(
     bool enabled) {
   Respond(OneArgument(std::make_unique<base::Value>(enabled)));
 }
 
-OneVNRewardsSaveAdsSettingFunction::~OneVNRewardsSaveAdsSettingFunction() {
+OnevnRewardsSaveAdsSettingFunction::~OnevnRewardsSaveAdsSettingFunction() {
 }
 
-ExtensionFunction::ResponseAction OneVNRewardsSaveAdsSettingFunction::Run() {
+ExtensionFunction::ResponseAction OnevnRewardsSaveAdsSettingFunction::Run() {
   std::unique_ptr<onevn_rewards::SaveAdsSetting::Params> params(
       onevn_rewards::SaveAdsSetting::Params::Create(*args_));
   Profile* profile = Profile::FromBrowserContext(browser_context());
@@ -247,12 +247,12 @@ ExtensionFunction::ResponseAction OneVNRewardsSaveAdsSettingFunction::Run() {
   return RespondNow(NoArguments());
 }
 
-OneVNRewardsGetACEnabledFunction::
-~OneVNRewardsGetACEnabledFunction() {
+OnevnRewardsGetACEnabledFunction::
+~OnevnRewardsGetACEnabledFunction() {
 }
 
 ExtensionFunction::ResponseAction
-OneVNRewardsGetACEnabledFunction::Run() {
+OnevnRewardsGetACEnabledFunction::Run() {
   Profile* profile = Profile::FromBrowserContext(browser_context());
   RewardsService* rewards_service =
     RewardsServiceFactory::GetForProfile(profile);
@@ -262,19 +262,19 @@ OneVNRewardsGetACEnabledFunction::Run() {
   }
 
   rewards_service->GetAutoContribute(base::BindOnce(
-        &OneVNRewardsGetACEnabledFunction::OnGetACEnabled,
+        &OnevnRewardsGetACEnabledFunction::OnGetACEnabled,
         this));
   return RespondLater();
 }
 
-void OneVNRewardsGetACEnabledFunction::OnGetACEnabled(bool enabled) {
+void OnevnRewardsGetACEnabledFunction::OnGetACEnabled(bool enabled) {
   Respond(OneArgument(std::make_unique<base::Value>(enabled)));
 }
 
-OneVNRewardsSaveSettingFunction::~OneVNRewardsSaveSettingFunction() {
+OnevnRewardsSaveSettingFunction::~OnevnRewardsSaveSettingFunction() {
 }
 
-ExtensionFunction::ResponseAction OneVNRewardsSaveSettingFunction::Run() {
+ExtensionFunction::ResponseAction OnevnRewardsSaveSettingFunction::Run() {
   std::unique_ptr<onevn_rewards::SaveSetting::Params> params(
       onevn_rewards::SaveSetting::Params::Create(*args_));
 
@@ -292,12 +292,12 @@ ExtensionFunction::ResponseAction OneVNRewardsSaveSettingFunction::Run() {
   return RespondNow(NoArguments());
 }
 
-OneVNRewardsSaveRecurringTipFunction::
-~OneVNRewardsSaveRecurringTipFunction() {
+OnevnRewardsSaveRecurringTipFunction::
+~OnevnRewardsSaveRecurringTipFunction() {
 }
 
 ExtensionFunction::ResponseAction
-OneVNRewardsSaveRecurringTipFunction::Run() {
+OnevnRewardsSaveRecurringTipFunction::Run() {
   std::unique_ptr<onevn_rewards::SaveRecurringTip::Params> params(
     onevn_rewards::SaveRecurringTip::Params::Create(*args_));
 
@@ -313,12 +313,12 @@ OneVNRewardsSaveRecurringTipFunction::Run() {
   return RespondNow(NoArguments());
 }
 
-OneVNRewardsRemoveRecurringTipFunction::
-~OneVNRewardsRemoveRecurringTipFunction() {
+OnevnRewardsRemoveRecurringTipFunction::
+~OnevnRewardsRemoveRecurringTipFunction() {
 }
 
 ExtensionFunction::ResponseAction
-OneVNRewardsRemoveRecurringTipFunction::Run() {
+OnevnRewardsRemoveRecurringTipFunction::Run() {
   std::unique_ptr<onevn_rewards::RemoveRecurringTip::Params> params(
     onevn_rewards::RemoveRecurringTip::Params::Create(*args_));
 
@@ -333,12 +333,12 @@ OneVNRewardsRemoveRecurringTipFunction::Run() {
   return RespondNow(NoArguments());
 }
 
-OneVNRewardsGetRecurringTipsFunction::
-~OneVNRewardsGetRecurringTipsFunction() {
+OnevnRewardsGetRecurringTipsFunction::
+~OnevnRewardsGetRecurringTipsFunction() {
 }
 
 ExtensionFunction::ResponseAction
-OneVNRewardsGetRecurringTipsFunction::Run() {
+OnevnRewardsGetRecurringTipsFunction::Run() {
   Profile* profile = Profile::FromBrowserContext(browser_context());
   RewardsService* rewards_service =
     RewardsServiceFactory::GetForProfile(profile);
@@ -348,12 +348,12 @@ OneVNRewardsGetRecurringTipsFunction::Run() {
   }
 
   rewards_service->GetRecurringTipsUI(base::Bind(
-        &OneVNRewardsGetRecurringTipsFunction::OnGetRecurringTips,
+        &OnevnRewardsGetRecurringTipsFunction::OnGetRecurringTips,
         this));
   return RespondLater();
 }
 
-void OneVNRewardsGetRecurringTipsFunction::OnGetRecurringTips(
+void OnevnRewardsGetRecurringTipsFunction::OnGetRecurringTips(
     std::unique_ptr<::onevn_rewards::ContentSiteList> list) {
   std::unique_ptr<base::DictionaryValue> result(new base::DictionaryValue());
   auto recurringTips = std::make_unique<base::ListValue>();
@@ -371,12 +371,12 @@ void OneVNRewardsGetRecurringTipsFunction::OnGetRecurringTips(
   Respond(OneArgument(std::move(result)));
 }
 
-OneVNRewardsGetPublisherBannerFunction::
-~OneVNRewardsGetPublisherBannerFunction() {
+OnevnRewardsGetPublisherBannerFunction::
+~OnevnRewardsGetPublisherBannerFunction() {
 }
 
 ExtensionFunction::ResponseAction
-OneVNRewardsGetPublisherBannerFunction::Run() {
+OnevnRewardsGetPublisherBannerFunction::Run() {
   std::unique_ptr<onevn_rewards::GetPublisherBanner::Params> params(
     onevn_rewards::GetPublisherBanner::Params::Create(*args_));
 
@@ -391,12 +391,12 @@ OneVNRewardsGetPublisherBannerFunction::Run() {
   rewards_service->GetPublisherBanner(
       params->publisher_key,
       base::BindOnce(
-        &OneVNRewardsGetPublisherBannerFunction::OnPublisherBanner,
+        &OnevnRewardsGetPublisherBannerFunction::OnPublisherBanner,
         this));
   return RespondLater();
 }
 
-void OneVNRewardsGetPublisherBannerFunction::OnPublisherBanner(
+void OnevnRewardsGetPublisherBannerFunction::OnPublisherBanner(
     std::unique_ptr<::onevn_rewards::PublisherBanner> banner) {
   std::unique_ptr<base::DictionaryValue> result(new base::DictionaryValue());
 
@@ -426,10 +426,10 @@ void OneVNRewardsGetPublisherBannerFunction::OnPublisherBanner(
   Respond(OneArgument(std::move(result)));
 }
 
-OneVNRewardsRefreshPublisherFunction::~OneVNRewardsRefreshPublisherFunction() {
+OnevnRewardsRefreshPublisherFunction::~OnevnRewardsRefreshPublisherFunction() {
 }
 
-ExtensionFunction::ResponseAction OneVNRewardsRefreshPublisherFunction::Run() {
+ExtensionFunction::ResponseAction OnevnRewardsRefreshPublisherFunction::Run() {
   std::unique_ptr<onevn_rewards::RefreshPublisher::Params> params(
       onevn_rewards::RefreshPublisher::Params::Create(*args_));
 
@@ -444,23 +444,23 @@ ExtensionFunction::ResponseAction OneVNRewardsRefreshPublisherFunction::Run() {
   rewards_service->RefreshPublisher(
       params->publisher_key,
       base::BindOnce(
-        &OneVNRewardsRefreshPublisherFunction::OnRefreshPublisher,
+        &OnevnRewardsRefreshPublisherFunction::OnRefreshPublisher,
         this));
   return RespondLater();
 }
 
-void OneVNRewardsRefreshPublisherFunction::OnRefreshPublisher(
+void OnevnRewardsRefreshPublisherFunction::OnRefreshPublisher(
     bool verified, const std::string& publisher_key) {
   Respond(TwoArguments(std::make_unique<base::Value>(verified),
                        std::make_unique<base::Value>(publisher_key)));
 }
 
-OneVNRewardsGetAllNotificationsFunction::
-~OneVNRewardsGetAllNotificationsFunction() {
+OnevnRewardsGetAllNotificationsFunction::
+~OnevnRewardsGetAllNotificationsFunction() {
 }
 
 ExtensionFunction::ResponseAction
-OneVNRewardsGetAllNotificationsFunction::Run() {
+OnevnRewardsGetAllNotificationsFunction::Run() {
   Profile* profile = Profile::FromBrowserContext(browser_context());
   RewardsService* rewards_service =
     RewardsServiceFactory::GetForProfile(profile);

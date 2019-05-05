@@ -7,13 +7,13 @@
 
 #include "onevn/browser/ui/webui/basic_ui.h"
 
-class OneVNWelcomeUI : public BasicUI {
+class OnevnWelcomeUI : public BasicUI {
  public:
-  OneVNWelcomeUI(content::WebUI* web_ui, const std::string& host);
-  ~OneVNWelcomeUI() override;
+  OnevnWelcomeUI(content::WebUI* web_ui, const std::string& host);
+  ~OnevnWelcomeUI() override;
 
  private:
-  DISALLOW_COPY_AND_ASSIGN(OneVNWelcomeUI);
+  DISALLOW_COPY_AND_ASSIGN(OnevnWelcomeUI);
 };
 
 #endif  // ONEVN_BROWSER_UI_WEBUI_ONEVN_WELCOME_UI_H_

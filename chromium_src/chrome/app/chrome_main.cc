@@ -4,6 +4,6 @@
 
 #include "onevn/app/onevn_main_delegate.h"
 
-#define ChromeMainDelegate OneVNMainDelegate
+#define ChromeMainDelegate OnevnMainDelegate
 #include "../../../../chrome/app/chrome_main.cc"
 #undef ChromeMainDelegate

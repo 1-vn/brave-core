@@ -4,6 +4,6 @@
 
 #include "onevn/browser/devtools/onevn_devtools_ui_bindings.h"
 
-#define DevToolsUIBindings OneVNDevToolsUIBindings
+#define DevToolsUIBindings OnevnDevToolsUIBindings
 #include "../../../../../../chrome/browser/ui/webui/devtools_ui.h"
 #undef DevToolsUIBindings

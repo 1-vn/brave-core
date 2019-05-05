@@ -10,27 +10,27 @@
 #include "chrome/utility/importer/external_process_importer_bridge.h"
 #include "net/cookies/canonical_cookie.h"
 
-class OneVNExternalProcessImporterBridge :
+class OnevnExternalProcessImporterBridge :
                                       public ExternalProcessImporterBridge {
  public:
   // |observer| must outlive this object.
-  OneVNExternalProcessImporterBridge(
+  OnevnExternalProcessImporterBridge(
       const base::flat_map<uint32_t, std::string>& localized_strings,
       scoped_refptr<chrome::mojom::ThreadSafeProfileImportObserverPtr>
           observer);
 
   void SetCookies(const std::vector<net::CanonicalCookie>& cookies) override;
-  void UpdateStats(const OneVNStats& stats) override;
-  void UpdateLedger(const OneVNLedger& ledger) override;
-  void UpdateReferral(const OneVNReferral& referral) override;
+  void UpdateStats(const OnevnStats& stats) override;
+  void UpdateLedger(const OnevnLedger& ledger) override;
+  void UpdateReferral(const OnevnReferral& referral) override;
   void UpdateWindows(const ImportedWindowState& windowState) override;
   void UpdateSettings(const SessionStoreSettings& settings) override;
 
 
  private:
-  ~OneVNExternalProcessImporterBridge() override;
+  ~OnevnExternalProcessImporterBridge() override;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNExternalProcessImporterBridge);
+  DISALLOW_COPY_AND_ASSIGN(OnevnExternalProcessImporterBridge);
 };
 
 #endif  // ONEVN_UTILITY_IMPORTER_ONEVN_EXTERNAL_PROCESS_IMPORTER_BRIDGE_H_

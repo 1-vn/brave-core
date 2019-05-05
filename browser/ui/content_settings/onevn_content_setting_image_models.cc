@@ -7,7 +7,7 @@
 #include "onevn/browser/ui/content_settings/onevn_autoplay_blocked_image_model.h"
 #include "third_party/widevine/cdm/buildflags.h"
 
-void OneVNGenerateContentSettingImageModels(
+void OnevnGenerateContentSettingImageModels(
     std::vector<std::unique_ptr<ContentSettingImageModel>>& result) {
   // Remove the cookies content setting image model
   // https://github.com/1-vn/onevn-browser/issues/1197
@@ -22,5 +22,5 @@ void OneVNGenerateContentSettingImageModels(
     }
   }
 
-  result.push_back(std::make_unique<OneVNAutoplayBlockedImageModel>());
+  result.push_back(std::make_unique<OnevnAutoplayBlockedImageModel>());
 }

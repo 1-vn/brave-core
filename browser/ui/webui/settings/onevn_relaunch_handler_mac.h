@@ -9,10 +9,10 @@
 
 class Profile;
 
-class OneVNRelaunchHandler : public settings::SettingsPageUIHandler {
+class OnevnRelaunchHandler : public settings::SettingsPageUIHandler {
  public:
-  OneVNRelaunchHandler() = default;
-  ~OneVNRelaunchHandler() override = default;
+  OnevnRelaunchHandler() = default;
+  ~OnevnRelaunchHandler() override = default;
 
  private:
   // SettingsPageUIHandler overrides:
@@ -22,7 +22,7 @@ class OneVNRelaunchHandler : public settings::SettingsPageUIHandler {
 
   void Relaunch(const base::ListValue* args);
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNRelaunchHandler);
+  DISALLOW_COPY_AND_ASSIGN(OnevnRelaunchHandler);
 };
 
 #endif  // ONEVN_BROWSER_UI_WEBUI_SETTINGS_ONEVN_RELAUNCH_HANDLER_H_

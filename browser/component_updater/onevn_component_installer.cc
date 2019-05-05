@@ -76,7 +76,7 @@ std::string GetManifestString(const base::DictionaryValue& manifest,
 
 namespace onevn {
 
-OneVNComponentInstallerPolicy::OneVNComponentInstallerPolicy(
+OnevnComponentInstallerPolicy::OnevnComponentInstallerPolicy(
     const std::string& name,
     const std::string& base64_public_key,
     const ReadyCallback& ready_callback)
@@ -86,9 +86,9 @@ OneVNComponentInstallerPolicy::OneVNComponentInstallerPolicy(
   base::Base64Decode(base64_public_key, &public_key_);
 }
 
-OneVNComponentInstallerPolicy::~OneVNComponentInstallerPolicy() {}
+OnevnComponentInstallerPolicy::~OnevnComponentInstallerPolicy() {}
 
-bool OneVNComponentInstallerPolicy::VerifyInstallation(
+bool OnevnComponentInstallerPolicy::VerifyInstallation(
     const base::DictionaryValue& manifest,
     const base::FilePath& install_dir) const {
   // The manifest file will generate a random ID if we don't provide one.
@@ -101,31 +101,31 @@ bool OneVNComponentInstallerPolicy::VerifyInstallation(
       install_dir.Append(FILE_PATH_LITERAL("manifest.json")));
 }
 
-bool OneVNComponentInstallerPolicy::SupportsGroupPolicyEnabledComponentUpdates() const {
+bool OnevnComponentInstallerPolicy::SupportsGroupPolicyEnabledComponentUpdates() const {
   return false;
 }
 
-bool OneVNComponentInstallerPolicy::RequiresNetworkEncryption() const {
+bool OnevnComponentInstallerPolicy::RequiresNetworkEncryption() const {
   return false;
 }
 
-update_client::CrxInstaller::Result OneVNComponentInstallerPolicy::OnCustomInstall(
+update_client::CrxInstaller::Result OnevnComponentInstallerPolicy::OnCustomInstall(
   const base::DictionaryValue& manifest,
   const base::FilePath& install_dir) {
   return Result(InstallError::NONE);
 }
 
-void OneVNComponentInstallerPolicy::OnCustomUninstall() {
+void OnevnComponentInstallerPolicy::OnCustomUninstall() {
 }
 
-void OneVNComponentInstallerPolicy::ComponentReady(
+void OnevnComponentInstallerPolicy::ComponentReady(
   const base::Version& version,
   const base::FilePath& install_dir,
   std::unique_ptr<base::DictionaryValue> manifest) {
   ready_callback_.Run(install_dir, GetManifestString(*manifest, base64_public_key_));
 }
 
-base::FilePath OneVNComponentInstallerPolicy::GetRelativeInstallDir() const {
+base::FilePath OnevnComponentInstallerPolicy::GetRelativeInstallDir() const {
   // Get the extension ID from the public key
   std::string extension_id = crx_file::id_util::GenerateId(public_key_);
   return base::FilePath(
@@ -133,20 +133,20 @@ base::FilePath OneVNComponentInstallerPolicy::GetRelativeInstallDir() const {
       base::FilePath::StringType(extension_id.begin(), extension_id.end()));
 }
 
-void OneVNComponentInstallerPolicy::GetHash(std::vector<uint8_t>* hash) const {
+void OnevnComponentInstallerPolicy::GetHash(std::vector<uint8_t>* hash) const {
   const std::string public_key_sha256 = crypto::SHA256HashString(public_key_);
   hash->assign(public_key_sha256.begin(), public_key_sha256.end());
 }
 
-std::string OneVNComponentInstallerPolicy::GetName() const {
+std::string OnevnComponentInstallerPolicy::GetName() const {
   return name_;
 }
 
-std::vector<std::string> OneVNComponentInstallerPolicy::GetMimeTypes() const {
+std::vector<std::string> OnevnComponentInstallerPolicy::GetMimeTypes() const {
   return std::vector<std::string>();
 }
 
-update_client::InstallerAttributes OneVNComponentInstallerPolicy::GetInstallerAttributes() const {
+update_client::InstallerAttributes OnevnComponentInstallerPolicy::GetInstallerAttributes() const {
   return update_client::InstallerAttributes();
 }
 
@@ -157,7 +157,7 @@ void RegisterComponent(
     const base::Closure& registered_callback,
     const ReadyCallback& ready_callback) {
   auto installer = base::MakeRefCounted<component_updater::ComponentInstaller>(
-    std::make_unique<OneVNComponentInstallerPolicy>(name, base64_public_key, ready_callback));
+    std::make_unique<OnevnComponentInstallerPolicy>(name, base64_public_key, ready_callback));
   installer->Register(cus, registered_callback);
 }
 

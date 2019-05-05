@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -25,11 +25,11 @@ class PrefRegistrySimple;
 
 namespace onevn_shields {
 
-class OneVNShieldsWebContentsObserver : public content::WebContentsObserver,
-    public content::WebContentsUserData<OneVNShieldsWebContentsObserver> {
+class OnevnShieldsWebContentsObserver : public content::WebContentsObserver,
+    public content::WebContentsUserData<OnevnShieldsWebContentsObserver> {
  public:
-  explicit OneVNShieldsWebContentsObserver(content::WebContents*);
-  ~OneVNShieldsWebContentsObserver() override;
+  explicit OnevnShieldsWebContentsObserver(content::WebContents*);
+  ~OnevnShieldsWebContentsObserver() override;
 
   static void RegisterProfilePrefs(PrefRegistrySimple* registry);
   static void DispatchBlockedEventForWebContents(
@@ -93,14 +93,14 @@ class OneVNShieldsWebContentsObserver : public content::WebContentsObserver,
   static std::map<int, GURL> frame_tree_node_id_to_tab_url_;
 
  private:
-  friend class content::WebContentsUserData<OneVNShieldsWebContentsObserver>;
+  friend class content::WebContentsUserData<OnevnShieldsWebContentsObserver>;
   std::vector<std::string> allowed_script_origins_;
   // We keep a set of the current page's blocked URLs in case the page
   // continually tries to load the same blocked URLs.
   std::set<std::string> blocked_url_paths_;
 
   WEB_CONTENTS_USER_DATA_KEY_DECL();
-  DISALLOW_COPY_AND_ASSIGN(OneVNShieldsWebContentsObserver);
+  DISALLOW_COPY_AND_ASSIGN(OnevnShieldsWebContentsObserver);
 };
 
 }  // namespace onevn_shields

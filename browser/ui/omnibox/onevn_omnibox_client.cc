@@ -9,14 +9,14 @@
 #include "chrome/browser/ui/omnibox/chrome_omnibox_client.h"
 #include "chrome/browser/ui/omnibox/chrome_omnibox_edit_controller.h"
 
-OneVNOmniboxClient::OneVNOmniboxClient(OmniboxEditController* controller,
+OnevnOmniboxClient::OnevnOmniboxClient(OmniboxEditController* controller,
                                                         Profile* profile)
       : ChromeOmniboxClient(controller, profile),
         scheme_classifier_(profile) {}
 
-OneVNOmniboxClient::~OneVNOmniboxClient() {}
+OnevnOmniboxClient::~OnevnOmniboxClient() {}
 
 const AutocompleteSchemeClassifier&
-                          OneVNOmniboxClient::GetSchemeClassifier() const {
+                          OnevnOmniboxClient::GetSchemeClassifier() const {
   return scheme_classifier_;
 }

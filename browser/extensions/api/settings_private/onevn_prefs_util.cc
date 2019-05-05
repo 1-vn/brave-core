@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -15,7 +15,7 @@ namespace extensions {
 
 namespace settings_api = api::settings_private;
 
-const PrefsUtil::TypedPrefMap& OneVNPrefsUtil::GetWhitelistedKeys() {
+const PrefsUtil::TypedPrefMap& OnevnPrefsUtil::GetWhitelistedKeys() {
   // Static cache, similar to parent class
   static PrefsUtil::TypedPrefMap* s_onevn_whitelist = nullptr;
   if (s_onevn_whitelist)
@@ -24,7 +24,7 @@ const PrefsUtil::TypedPrefMap& OneVNPrefsUtil::GetWhitelistedKeys() {
   // Start with parent class whitelist
   const auto chromium_prefs = PrefsUtil::GetWhitelistedKeys();
   s_onevn_whitelist->insert(chromium_prefs.begin(), chromium_prefs.end());
-  // Add OneVN values to the whitelist
+  // Add Onevn values to the whitelist
   // import data
   (*s_onevn_whitelist)[::prefs::kImportDialogCookies] =
       settings_api::PrefType::PREF_TYPE_BOOLEAN;
@@ -34,7 +34,7 @@ const PrefsUtil::TypedPrefMap& OneVNPrefsUtil::GetWhitelistedKeys() {
       settings_api::PrefType::PREF_TYPE_BOOLEAN;
   (*s_onevn_whitelist)[::prefs::kImportDialogWindows] =
       settings_api::PrefType::PREF_TYPE_BOOLEAN;
-  // Default OneVN shields
+  // Default Onevn shields
   (*s_onevn_whitelist)[kHTTPSEVerywhereControlType] =
       settings_api::PrefType::PREF_TYPE_BOOLEAN;
   (*s_onevn_whitelist)[kNoScriptControlType] =
@@ -51,9 +51,9 @@ const PrefsUtil::TypedPrefMap& OneVNPrefsUtil::GetWhitelistedKeys() {
   // appearance prefs
   (*s_onevn_whitelist)[kLocationBarIsWide] =
     settings_api::PrefType::PREF_TYPE_BOOLEAN;
-  (*s_onevn_whitelist)[kHideOneVNRewardsButton] =
+  (*s_onevn_whitelist)[kHideOnevnRewardsButton] =
       settings_api::PrefType::PREF_TYPE_BOOLEAN;
-  (*s_onevn_whitelist)[kOneVNThemeType] =
+  (*s_onevn_whitelist)[kOnevnThemeType] =
       settings_api::PrefType::PREF_TYPE_NUMBER;
   // Clear browsing data on exit prefs.
   (*s_onevn_whitelist)[browsing_data::prefs::kDeleteBrowsingHistoryOnExit] =

@@ -7,17 +7,17 @@
 
 #include "chrome/browser/devtools/devtools_ui_bindings.h"
 
-class OneVNDevToolsUIBindings : public DevToolsUIBindings {
+class OnevnDevToolsUIBindings : public DevToolsUIBindings {
  public:
   using DevToolsUIBindings::DevToolsUIBindings;
 
  private:
-  FRIEND_TEST_ALL_PREFIXES(OneVNDevToolsUIBindingsBrowserTest, ThemeTest);
+  FRIEND_TEST_ALL_PREFIXES(OnevnDevToolsUIBindingsBrowserTest, ThemeTest);
 
   // DevToolsUIBindings overrides:
   void GetPreferences(const DispatchCallback& callback) override;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNDevToolsUIBindings);
+  DISALLOW_COPY_AND_ASSIGN(OnevnDevToolsUIBindings);
 };
 
 #endif  // ONEVN_BROWSER_DEVTOOLS_ONEVN_DEVTOOLS_UI_BINDINGS_H_

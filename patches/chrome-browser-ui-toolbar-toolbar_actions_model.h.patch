@@ -6,7 +6,7 @@ index 2913475eba35deba0a2099f475ca90d3d6a93bbb..59f82413d9a6f93ad5d918bc51a079ca
  class Profile;
  class ToolbarActionsBar;
  class ToolbarActionViewController;
-+class OneVNToolbarActionsModel;
++class OnevnToolbarActionsModel;
  
  namespace extensions {
  class ExtensionActionManager;
@@ -14,7 +14,7 @@ index 2913475eba35deba0a2099f475ca90d3d6a93bbb..59f82413d9a6f93ad5d918bc51a079ca
                              public extensions::ExtensionRegistryObserver,
                              public KeyedService {
   public:
-+  friend class OneVNToolbarActionsModel;
++  friend class OnevnToolbarActionsModel;
    using ActionId = std::string;
  
    // The different options for highlighting.

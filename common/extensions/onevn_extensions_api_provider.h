@@ -10,10 +10,10 @@
 
 namespace extensions {
 
-class OneVNExtensionsAPIProvider : public ExtensionsAPIProvider {
+class OnevnExtensionsAPIProvider : public ExtensionsAPIProvider {
  public:
-  OneVNExtensionsAPIProvider();
-  ~OneVNExtensionsAPIProvider() override;
+  OnevnExtensionsAPIProvider();
+  ~OnevnExtensionsAPIProvider() override;
 
   // ExtensionsAPIProvider:
   void AddAPIFeatures(FeatureProvider* provider) override;
@@ -27,7 +27,7 @@ class OneVNExtensionsAPIProvider : public ExtensionsAPIProvider {
   void RegisterManifestHandlers() override;
 
  private:
-  DISALLOW_COPY_AND_ASSIGN(OneVNExtensionsAPIProvider);
+  DISALLOW_COPY_AND_ASSIGN(OnevnExtensionsAPIProvider);
 };
 
 }  // namespace extensions

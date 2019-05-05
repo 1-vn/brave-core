@@ -94,7 +94,7 @@ template("onevn_extra_paks") {
   }
 }
 
-# Defines repack() targets used by OneVN. Specifically:
+# Defines repack() targets used by Onevn. Specifically:
 # * onevn_100_percent.pak
 # * onevn_200_percent.pak (optionally)
 # * resources.pak

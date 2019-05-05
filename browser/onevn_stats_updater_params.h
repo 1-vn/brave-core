@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -10,7 +10,7 @@
 
 #include "base/macros.h"
 
-class OneVNStatsUpdaterTest;
+class OnevnStatsUpdaterTest;
 class PrefService;
 
 namespace base {
@@ -19,14 +19,14 @@ class Time;
 
 namespace onevn {
 
-class OneVNStatsUpdaterParams {
+class OnevnStatsUpdaterParams {
  public:
-  explicit OneVNStatsUpdaterParams(PrefService* pref_service);
-  OneVNStatsUpdaterParams(PrefService* pref_service,
+  explicit OnevnStatsUpdaterParams(PrefService* pref_service);
+  OnevnStatsUpdaterParams(PrefService* pref_service,
                           const std::string& ymd,
                           int woy,
                           int month);
-  ~OneVNStatsUpdaterParams();
+  ~OnevnStatsUpdaterParams();
 
   std::string GetDailyParam() const;
   std::string GetWeeklyParam() const;
@@ -38,7 +38,7 @@ class OneVNStatsUpdaterParams {
   void SavePrefs();
 
  private:
-  friend class ::OneVNStatsUpdaterTest;
+  friend class ::OnevnStatsUpdaterTest;
   PrefService* pref_service_;
   std::string ymd_;
   int woy_;
@@ -64,7 +64,7 @@ class OneVNStatsUpdaterParams {
 
   static void SetCurrentTimeForTest(const base::Time& current_time);
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNStatsUpdaterParams);
+  DISALLOW_COPY_AND_ASSIGN(OnevnStatsUpdaterParams);
 };
 
 }  // namespace onevn

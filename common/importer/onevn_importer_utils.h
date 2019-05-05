@@ -15,12 +15,12 @@ class FilePath;
 class ListValue;
 }
 
-base::FilePath GetOneVNUserDataFolder();
+base::FilePath GetOnevnUserDataFolder();
 
-base::ListValue* GetOneVNSourceProfiles(
+base::ListValue* GetOnevnSourceProfiles(
     const base::FilePath& user_data_folder);
 
-bool OneVNImporterCanImport(const base::FilePath& profile,
+bool OnevnImporterCanImport(const base::FilePath& profile,
 			    uint16_t* services_supported);
 
 #endif  // ONEVN_COMMON_IMPORTER_ONEVN_IMPORTER_UTILS_H_

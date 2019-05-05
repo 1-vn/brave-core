@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -51,7 +51,7 @@ class RedirectObserver : public WebContentsObserver {
   DISALLOW_COPY_AND_ASSIGN(RedirectObserver);
 };
 
-class OneVNNetworkDelegateBaseBrowserTest : public InProcessBrowserTest {
+class OnevnNetworkDelegateBaseBrowserTest : public InProcessBrowserTest {
  public:
   void SetUpOnMainThread() override {
     InProcessBrowserTest::SetUpOnMainThread();
@@ -80,7 +80,7 @@ class OneVNNetworkDelegateBaseBrowserTest : public InProcessBrowserTest {
   ContentSettingsPattern iframe_pattern_;
 };
 
-IN_PROC_BROWSER_TEST_F(OneVNNetworkDelegateBaseBrowserTest, FirstPartySTS) {
+IN_PROC_BROWSER_TEST_F(OnevnNetworkDelegateBaseBrowserTest, FirstPartySTS) {
   const GURL third_party =
       embedded_test_server()->GetURL("c.com", "/iframe_hsts.html");
 
@@ -90,7 +90,7 @@ IN_PROC_BROWSER_TEST_F(OneVNNetworkDelegateBaseBrowserTest, FirstPartySTS) {
   EXPECT_TRUE(redirect_observer.has_sts_header(third_party));
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNNetworkDelegateBaseBrowserTest, ThirdPartySTS) {
+IN_PROC_BROWSER_TEST_F(OnevnNetworkDelegateBaseBrowserTest, ThirdPartySTS) {
   const GURL third_party =
       embedded_test_server()->GetURL("c.com", "/iframe_hsts.html");
   const GURL first_party =

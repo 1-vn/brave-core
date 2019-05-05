@@ -12,13 +12,13 @@
 
 namespace {
 
-class OneVNHTTPSENetworkDelegateHelperTest: public testing::Test {
+class OnevnHTTPSENetworkDelegateHelperTest: public testing::Test {
  public:
-  OneVNHTTPSENetworkDelegateHelperTest()
+  OnevnHTTPSENetworkDelegateHelperTest()
       : thread_bundle_(content::TestBrowserThreadBundle::IO_MAINLOOP),
         context_(new net::TestURLRequestContext(true)) {
   }
-  ~OneVNHTTPSENetworkDelegateHelperTest() override {}
+  ~OnevnHTTPSENetworkDelegateHelperTest() override {}
   void SetUp() override {
     context_->Init();
   }
@@ -30,14 +30,14 @@ class OneVNHTTPSENetworkDelegateHelperTest: public testing::Test {
 };
 
 
-TEST_F(OneVNHTTPSENetworkDelegateHelperTest, AlreadySetNewURLNoOp) {
+TEST_F(OnevnHTTPSENetworkDelegateHelperTest, AlreadySetNewURLNoOp) {
   net::TestDelegate test_delegate;
   GURL url("http://bradhatesprimes.1-vn.com/composite_numbers_ftw");
   std::unique_ptr<net::URLRequest> request =
       context()->CreateRequest(url, net::IDLE, &test_delegate,
                                TRAFFIC_ANNOTATION_FOR_TESTS);
-  std::shared_ptr<onevn::OneVNRequestInfo>
-      onevn_request_info(new onevn::OneVNRequestInfo());
+  std::shared_ptr<onevn::OnevnRequestInfo>
+      onevn_request_info(new onevn::OnevnRequestInfo());
   request->set_site_for_cookies(
       GURL("http://brad.1-vn.com/hide_all_primes_in_ui/composites_forever"));
   onevn_request_info->new_url_spec = "data:image/png;base64,iVB";

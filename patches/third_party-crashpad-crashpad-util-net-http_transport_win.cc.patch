@@ -6,7 +6,7 @@ index 09876882d8ff5274bba37e370a3e385b7526fd3e..7f32e0c445e17095393a1ed1e82d9327
      return false;
    }
  
-+  OneVNSetSessionOptions(session.get());
++  OnevnSetSessionOptions(session.get());
 +
    int timeout_in_ms = static_cast<int>(timeout() * 1000);
    if (!WinHttpSetTimeouts(session.get(),

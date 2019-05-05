@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -25,7 +25,7 @@ bool FixupBrowserAboutURL(GURL* url,
     *url = url->ReplaceComponents(replacements);
   }
 
-  if (url->SchemeIs(kOneVNUIScheme)) {
+  if (url->SchemeIs(kOnevnUIScheme)) {
     GURL::Replacements replacements;
     replacements.SetSchemeStr(content::kChromeUIScheme);
     *url = url->ReplaceComponents(replacements);

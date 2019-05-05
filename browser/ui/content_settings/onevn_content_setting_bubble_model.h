@@ -4,9 +4,9 @@
 
 #include "chrome/browser/ui/content_settings/content_setting_bubble_model.h"
 
-class OneVNContentSettingPluginBubbleModel : public ContentSettingSimpleBubbleModel {
+class OnevnContentSettingPluginBubbleModel : public ContentSettingSimpleBubbleModel {
  public:
-  OneVNContentSettingPluginBubbleModel(Delegate* delegate,
+  OnevnContentSettingPluginBubbleModel(Delegate* delegate,
       content::WebContents* web_contents);
  private:
   void OnLearnMoreClicked() override;
@@ -14,5 +14,5 @@ class OneVNContentSettingPluginBubbleModel : public ContentSettingSimpleBubbleMo
 
   void RunPluginsOnPage();
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNContentSettingPluginBubbleModel);
+  DISALLOW_COPY_AND_ASSIGN(OnevnContentSettingPluginBubbleModel);
 };

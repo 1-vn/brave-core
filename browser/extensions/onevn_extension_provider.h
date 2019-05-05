@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -12,10 +12,10 @@
 
 namespace extensions {
 
-class OneVNExtensionProvider : public ManagementPolicy::Provider {
+class OnevnExtensionProvider : public ManagementPolicy::Provider {
  public:
-  OneVNExtensionProvider();
-  ~OneVNExtensionProvider() override;
+  OnevnExtensionProvider();
+  ~OnevnExtensionProvider() override;
   std::string GetDebugPolicyProviderName() const override;
   bool UserMayLoad(const Extension* extension,
                    base::string16* error) const override;
@@ -24,7 +24,7 @@ class OneVNExtensionProvider : public ManagementPolicy::Provider {
   static bool IsVetted(const extensions::Extension* extension);
   static bool IsVetted(const std::string id);
  private:
-  DISALLOW_COPY_AND_ASSIGN(OneVNExtensionProvider);
+  DISALLOW_COPY_AND_ASSIGN(OnevnExtensionProvider);
 };
 
 }  // namespace extensions

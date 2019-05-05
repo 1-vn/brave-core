@@ -2,12 +2,12 @@
 
 namespace onevn_sync {
 
-OneVNBookmarkPermanentNode::OneVNBookmarkPermanentNode(int64_t id)
+OnevnBookmarkPermanentNode::OnevnBookmarkPermanentNode(int64_t id)
     : bookmarks::BookmarkPermanentNode(id) {}
 
-OneVNBookmarkPermanentNode::~OneVNBookmarkPermanentNode() = default;
+OnevnBookmarkPermanentNode::~OnevnBookmarkPermanentNode() = default;
 
-bool OneVNBookmarkPermanentNode::IsVisible() const {
+bool OnevnBookmarkPermanentNode::IsVisible() const {
   return visible_;
 }
 

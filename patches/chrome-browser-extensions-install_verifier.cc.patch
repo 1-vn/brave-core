@@ -14,7 +14,7 @@ index 1f4e4f27248764e9b375a5c46af8c9a2179bb964..5839db767901a1953d3571bbb2e22b4d
  
  // static
  bool InstallVerifier::IsFromStore(const Extension& extension) {
-+  // Do not fetch signatures for PDFJS which is hosted by OneVN, not CWS
++  // Do not fetch signatures for PDFJS which is hosted by Onevn, not CWS
 +  if (extension.id() == pdfjs_extension_id) {
 +    return false;
 +  }

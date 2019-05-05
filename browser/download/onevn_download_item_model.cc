@@ -17,13 +17,13 @@
 
 using download::DownloadItem;
 
-OneVNDownloadItemModel::OneVNDownloadItemModel(DownloadUIModel& model)
+OnevnDownloadItemModel::OnevnDownloadItemModel(DownloadUIModel& model)
     : model_(model) {}
 
-OneVNDownloadItemModel::~OneVNDownloadItemModel() {}
+OnevnDownloadItemModel::~OnevnDownloadItemModel() {}
 
 // Adds origin url to the tooltip text and "Not secure", if needed.
-base::string16 OneVNDownloadItemModel::GetTooltipText(
+base::string16 OnevnDownloadItemModel::GetTooltipText(
   const gfx::FontList& font_list,
   int max_width) {
   base::string16 tooltip =
@@ -47,7 +47,7 @@ base::string16 OneVNDownloadItemModel::GetTooltipText(
 }
 
 // Returns origin url text and sets |is_secure|.
-base::string16 OneVNDownloadItemModel::GetOriginURLText(bool& is_secure) {
+base::string16 OnevnDownloadItemModel::GetOriginURLText(bool& is_secure) {
   is_secure = false;
   const GURL gurl = model_.download()->GetURL();
   if (gurl.is_empty())

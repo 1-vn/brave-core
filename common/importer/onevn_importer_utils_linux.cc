@@ -9,14 +9,14 @@
 #include "base/files/file_util.h"
 #include "base/path_service.h"
 
-base::FilePath GetOneVNUserDataFolder() {
+base::FilePath GetOnevnUserDataFolder() {
   base::FilePath home;
   if (!base::PathService::Get(base::DIR_HOME, &home))
     return base::FilePath();
 
   base::FilePath result = home;
 
-  // If OneVN is installed via Snap, use the sandboxed home directory.
+  // If Onevn is installed via Snap, use the sandboxed home directory.
   if (base::PathExists(base::FilePath("/snap/bin/onevn"))) {
     result = result.Append("snap").Append("onevn").Append("current");
   }

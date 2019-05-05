@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -13,10 +13,10 @@
 
 class Profile;
 
-class OneVNDefaultExtensionsHandler : public settings::SettingsPageUIHandler {
+class OnevnDefaultExtensionsHandler : public settings::SettingsPageUIHandler {
  public:
-  OneVNDefaultExtensionsHandler();
-  ~OneVNDefaultExtensionsHandler() override;
+  OnevnDefaultExtensionsHandler();
+  ~OnevnDefaultExtensionsHandler() override;
 
  private:
   // SettingsPageUIHandler overrides:
@@ -34,9 +34,9 @@ class OneVNDefaultExtensionsHandler : public settings::SettingsPageUIHandler {
       extensions::webstore_install::Result result);
 
   Profile* profile_ = nullptr;
-  base::WeakPtrFactory<OneVNDefaultExtensionsHandler> weak_ptr_factory_;
+  base::WeakPtrFactory<OnevnDefaultExtensionsHandler> weak_ptr_factory_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNDefaultExtensionsHandler);
+  DISALLOW_COPY_AND_ASSIGN(OnevnDefaultExtensionsHandler);
 };
 
 #endif  // ONEVN_BROWSER_UI_WEBUI_SETTINGS_ONEVN_DEFAULT_EXTENSIONS_HANDLER_H_

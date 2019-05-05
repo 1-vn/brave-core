@@ -14,12 +14,12 @@
 
     properties: {},
 
-    /** @private {?settings.DefaultOneVNSyncBrowserProxy} */
+    /** @private {?settings.DefaultOnevnSyncBrowserProxy} */
     browserProxy_: null,
 
     /** @override */
     created: function() {
-      this.browserProxy_ = settings.DefaultOneVNSyncBrowserProxyImpl.getInstance();
+      this.browserProxy_ = settings.DefaultOnevnSyncBrowserProxyImpl.getInstance();
     },
 
     /** @override */

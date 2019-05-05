@@ -58,7 +58,7 @@ TEST(InstallDetailsTest, GetClientStateKeyPath) {
   FakeInstallDetails details;
   if (kUseGoogleUpdateIntegration) {
     EXPECT_THAT(details.GetClientStateKeyPath(),
-                StrEq(L"Software\\OneVNSoftware\\Update\\ClientState\\testguid"));
+                StrEq(L"Software\\OnevnSoftware\\Update\\ClientState\\testguid"));
   } else {
     EXPECT_THAT(details.GetClientStateKeyPath(),
                 StrEq(std::wstring(L"Software\\").append(kProductPathName)));
@@ -70,7 +70,7 @@ TEST(InstallDetailsTest, GetClientStateMediumKeyPath) {
   if (kUseGoogleUpdateIntegration) {
     EXPECT_THAT(
         details.GetClientStateMediumKeyPath(),
-        StrEq(L"Software\\OneVNSoftware\\Update\\ClientStateMedium\\testguid"));
+        StrEq(L"Software\\OnevnSoftware\\Update\\ClientStateMedium\\testguid"));
   } else {
     EXPECT_THAT(details.GetClientStateKeyPath(),
                 StrEq(std::wstring(L"Software\\").append(kProductPathName)));

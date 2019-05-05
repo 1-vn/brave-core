@@ -1,280 +1,280 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="fil">
-<translation id="5194812628624740897">Iki-clear ng pagdiskonekta kay <ph name="USERNAME"/> ang iyong history, mga bookmark, setting at iba pang data ng OneVN na naka-imbak sa device na ito. Hindi iki-clear ang data na naka-imbak sa iyong OneVN Software Account at maaaring pamahalaan sa <ph name="GOOGLE_DASHBOARD_LINK"/>OneVN Software Dashboard<ph name="END_GOOGLE_DASHBOARD_LINK"/>.</translation>
-<translation id="939305735877869636">OneVN</translation>
-<translation id="6373767849825830651">Ang OneVN ay isang web browser na nagpapatakbo ng mga webpage at application sa bilis ng kidlat. Ito ay mabilis, maaasahan, at madaling gamitin. Mas maingat na mag-browse sa web gamit ang proteksyon ng OneVN laban sa malware at phishing.</translation>
-<translation id="680297041157509674">OneVN OS</translation>
-<translation id="4847979153841887006">Logo ng OneVN</translation>
+<translation id="5194812628624740897">Iki-clear ng pagdiskonekta kay <ph name="USERNAME"/> ang iyong history, mga bookmark, setting at iba pang data ng Onevn na naka-imbak sa device na ito. Hindi iki-clear ang data na naka-imbak sa iyong Onevn Software Account at maaaring pamahalaan sa <ph name="GOOGLE_DASHBOARD_LINK"/>Onevn Software Dashboard<ph name="END_GOOGLE_DASHBOARD_LINK"/>.</translation>
+<translation id="939305735877869636">Onevn</translation>
+<translation id="6373767849825830651">Ang Onevn ay isang web browser na nagpapatakbo ng mga webpage at application sa bilis ng kidlat. Ito ay mabilis, maaasahan, at madaling gamitin. Mas maingat na mag-browse sa web gamit ang proteksyon ng Onevn laban sa malware at phishing.</translation>
+<translation id="680297041157509674">Onevn OS</translation>
+<translation id="4847979153841887006">Logo ng Onevn</translation>
 <translation id="7339898014177206373">Bagong window</translation>
-<translation id="5935964611177478118">mag-sign in sa OneVN</translation>
-<translation id="5516268345616100622">Task Manager - OneVN</translation>
-<translation id="7918740962659365265">Tumulong na gawing mas mahusay ang OneVN sa pamamagitan ng pagpapadala ng mga ulat ng pag-crash at <ph name="UMA_LINK"/> sa OneVN Software</translation>
-<translation id="5381622442243174305"><ph name="PAGE_TITLE"/> - OneVN</translation>
-<translation id="7830723774663008396">OneVN - <ph name="PAGE_TITLE"/></translation>
-<translation id="1403270718080126244"><ph name="PAGE_TITLE"/> - OneVN Beta</translation>
-<translation id="3943696263619956191"><ph name="PAGE_TITLE"/> - OneVN Dev</translation>
-<translation id="6236814935154483927"><ph name="PAGE_TITLE"/> - OneVN Canary</translation>
-<translation id="4685833011652060085">Kumuha ng tulong sa paggamit ng OneVN</translation>
-<translation id="6474707902830053522">Kumuha ng tulong sa paggamit ng OneVN OS</translation>
-<translation id="8992261409816268381">Ang Mga May-akda ng OneVN</translation>
-<translation id="4651430425715739110">Copyright <ph name="YEAR"/> Ang Mga May-akda ng OneVN. Nakalaan ang lahat ng karapatan.</translation>
-<translation id="2310890394934209120">Nagiging posible ang OneVN OS sa pamamagitan ng karagdagang <ph name="BEGIN_LINK_CROS_OSS"/>open source na software<ph name="END_LINK_CROS_OSS"/>.</translation>
-<translation id="8160794320557846790">Ginagawang posible ang OneVN OS ng karagdagang <ph name="BEGIN_LINK_CROS_OSS"/>open source na software<ph name="END_LINK_CROS_OSS"/>, gayundin ng <ph name="BEGIN_LINK_LINUX_OSS"/>Linux (Beta)<ph name="END_LINK_LINUX_OSS"/>.</translation>
-<translation id="6913582816347128893">Maaaring hindi gumana nang maayos ang OneVN dahil hindi na ito sinusuportahan sa Mac OS X 10.9.</translation>
-<translation id="7977787072794666032">Maaaring hindi gumana nang maayos ang OneVN dahil hindi na ito sinusuportahan sa Windows XP o Windows Vista</translation>
-<translation id="189297655255130768">Hindi gumagana ang OneVN. Muling ilunsad ngayon?</translation>
-<translation id="8703492925273919597">Pakisara ang lahat ng window sa OneVN at subukang muli.</translation>
-<translation id="335632367599648646">Sigurado ka bang nais mong i-uninstall ang OneVN?</translation>
-<translation id="5590013613412457132">I-uninstall ang OneVN</translation>
-<translation id="5019879183386042809">Gawing default na browser ang OneVN</translation>
-<translation id="5063987220091207247">Hindi mabuksan ng OneVN OS ang page na ito.</translation>
-<translation id="4065288863231444640">Hayaang Tumakbo ang OneVN sa Background</translation>
-<translation id="6797402139308059782">Hayaang tumakbo ang OneVN sa background</translation>
-<translation id="2585240446624043880">Hindi makakapag-read at makakapag-write ang OneVN sa direktoryo ng data nito:
+<translation id="5935964611177478118">mag-sign in sa Onevn</translation>
+<translation id="5516268345616100622">Task Manager - Onevn</translation>
+<translation id="7918740962659365265">Tumulong na gawing mas mahusay ang Onevn sa pamamagitan ng pagpapadala ng mga ulat ng pag-crash at <ph name="UMA_LINK"/> sa Onevn Software</translation>
+<translation id="5381622442243174305"><ph name="PAGE_TITLE"/> - Onevn</translation>
+<translation id="7830723774663008396">Onevn - <ph name="PAGE_TITLE"/></translation>
+<translation id="1403270718080126244"><ph name="PAGE_TITLE"/> - Onevn Beta</translation>
+<translation id="3943696263619956191"><ph name="PAGE_TITLE"/> - Onevn Dev</translation>
+<translation id="6236814935154483927"><ph name="PAGE_TITLE"/> - Onevn Canary</translation>
+<translation id="4685833011652060085">Kumuha ng tulong sa paggamit ng Onevn</translation>
+<translation id="6474707902830053522">Kumuha ng tulong sa paggamit ng Onevn OS</translation>
+<translation id="8992261409816268381">Ang Mga May-akda ng Onevn</translation>
+<translation id="4651430425715739110">Copyright <ph name="YEAR"/> Ang Mga May-akda ng Onevn. Nakalaan ang lahat ng karapatan.</translation>
+<translation id="2310890394934209120">Nagiging posible ang Onevn OS sa pamamagitan ng karagdagang <ph name="BEGIN_LINK_CROS_OSS"/>open source na software<ph name="END_LINK_CROS_OSS"/>.</translation>
+<translation id="8160794320557846790">Ginagawang posible ang Onevn OS ng karagdagang <ph name="BEGIN_LINK_CROS_OSS"/>open source na software<ph name="END_LINK_CROS_OSS"/>, gayundin ng <ph name="BEGIN_LINK_LINUX_OSS"/>Linux (Beta)<ph name="END_LINK_LINUX_OSS"/>.</translation>
+<translation id="6913582816347128893">Maaaring hindi gumana nang maayos ang Onevn dahil hindi na ito sinusuportahan sa Mac OS X 10.9.</translation>
+<translation id="7977787072794666032">Maaaring hindi gumana nang maayos ang Onevn dahil hindi na ito sinusuportahan sa Windows XP o Windows Vista</translation>
+<translation id="189297655255130768">Hindi gumagana ang Onevn. Muling ilunsad ngayon?</translation>
+<translation id="8703492925273919597">Pakisara ang lahat ng window sa Onevn at subukang muli.</translation>
+<translation id="335632367599648646">Sigurado ka bang nais mong i-uninstall ang Onevn?</translation>
+<translation id="5590013613412457132">I-uninstall ang Onevn</translation>
+<translation id="5019879183386042809">Gawing default na browser ang Onevn</translation>
+<translation id="5063987220091207247">Hindi mabuksan ng Onevn OS ang page na ito.</translation>
+<translation id="4065288863231444640">Hayaang Tumakbo ang Onevn sa Background</translation>
+<translation id="6797402139308059782">Hayaang tumakbo ang Onevn sa background</translation>
+<translation id="2585240446624043880">Hindi makakapag-read at makakapag-write ang Onevn sa direktoryo ng data nito:
 
 <ph name="USER_DATA_DIRECTORY"/></translation>
-<translation id="8417700129970341035">Opsyonal: Tumulong na pahusayin ang OneVN sa pamamagitan ng awtomatikong pagpapadala sa OneVN Software ng mga istatistika ng paggamit at mga ulat ng pag-crash.</translation>
-<translation id="1489465648257900784">Hindi maaaring gamitin ang iyong profile dahil mula ito sa isang mas bagong bersyon ng OneVN.
+<translation id="8417700129970341035">Opsyonal: Tumulong na pahusayin ang Onevn sa pamamagitan ng awtomatikong pagpapadala sa Onevn Software ng mga istatistika ng paggamit at mga ulat ng pag-crash.</translation>
+<translation id="1489465648257900784">Hindi maaaring gamitin ang iyong profile dahil mula ito sa isang mas bagong bersyon ng Onevn.
 
-Maaaring hindi available ang ilang tampok. Mangyaring tumukoy ng ibang direktoryo ng profile o gumamit ng mas bagong bersyon ng OneVN.</translation>
+Maaaring hindi available ang ilang tampok. Mangyaring tumukoy ng ibang direktoryo ng profile o gumamit ng mas bagong bersyon ng Onevn.</translation>
 <translation id="1065672644894730302">Hindi mabasa ang iyong mga kagustuhan.
 
 Maaaring hindi available ang ilang tampok at hindi mase-save ang mga pagbabago sa mga kagustuhan.</translation>
 <translation id="3403365884036456766">Sira o di-wasto ang file ng iyong mga kagustuhan.
 
-Hindi mabawi ng OneVN ang iyong mga setting.</translation>
-<translation id="1477146545787277177">Whoa! Nag-crash ang OneVN. Muling ilunsad ngayon?</translation>
-<translation id="5785919770853225148">Ise-save ng OneVN ang password na ito sa iyong OneVN Software Account. Hindi mo na ito kailangang tandaan.</translation>
-<translation id="113959764510199339">Sinusubukan ng OneVN na magpakita ng mga password.</translation>
-<translation id="7503098128120083822">Gustong i-export ng OneVN ang iyong mga password.</translation>
-<translation id="8285294305439559616">Sinusubukan ng OneVN na ipakita ang mga password. I-type ang password sa Windows upang payagan ito.</translation>
-<translation id="5918095577778020936">Gustong i-export ng OneVN ang iyong mga password. I-type ang iyong password sa Windows para payagan ito.</translation>
-<translation id="8320964054148936490">May mas bagong bersyon ng OneVN na ang computer na ito. Kung hindi gumagana ang software, mangyaring i-uninstall ang OneVN at subukang muli.</translation>
-<translation id="7691786510374174420">Nabigo ang pag-install dahil sa hindi natukoy na error. Kung kasalukuyang tumatakbo ang OneVN, pakisara ito at subukang muli.</translation>
-<translation id="2619516027171717873">Hindi ma-install ang parehong Bersyon ng OneVN na kasalukuyang tumatakbo. Pakisara ang OneVN at subukang muli.</translation>
-<translation id="6283840329609797763">Nabigo ang pag-install dahil sa hindi natukoy na error. Mangyaring i-download muli ang OneVN.</translation>
-<translation id="95624393026532554">Kailangan ng OneVN ng Windows 7 o mas bago.</translation>
-<translation id="7387051847644272380">May naganap na error sa operating system sa panahon ng pag-install. Mangyaring i-download muli ang OneVN.</translation>
-<translation id="1819119299840995223">May kasalukuyang isinasagawang isa pang pagpapatakbo sa OneVN. Pakisubukang muli sa ibang pagkakataon.</translation>
+Hindi mabawi ng Onevn ang iyong mga setting.</translation>
+<translation id="1477146545787277177">Whoa! Nag-crash ang Onevn. Muling ilunsad ngayon?</translation>
+<translation id="5785919770853225148">Ise-save ng Onevn ang password na ito sa iyong Onevn Software Account. Hindi mo na ito kailangang tandaan.</translation>
+<translation id="113959764510199339">Sinusubukan ng Onevn na magpakita ng mga password.</translation>
+<translation id="7503098128120083822">Gustong i-export ng Onevn ang iyong mga password.</translation>
+<translation id="8285294305439559616">Sinusubukan ng Onevn na ipakita ang mga password. I-type ang password sa Windows upang payagan ito.</translation>
+<translation id="5918095577778020936">Gustong i-export ng Onevn ang iyong mga password. I-type ang iyong password sa Windows para payagan ito.</translation>
+<translation id="8320964054148936490">May mas bagong bersyon ng Onevn na ang computer na ito. Kung hindi gumagana ang software, mangyaring i-uninstall ang Onevn at subukang muli.</translation>
+<translation id="7691786510374174420">Nabigo ang pag-install dahil sa hindi natukoy na error. Kung kasalukuyang tumatakbo ang Onevn, pakisara ito at subukang muli.</translation>
+<translation id="2619516027171717873">Hindi ma-install ang parehong Bersyon ng Onevn na kasalukuyang tumatakbo. Pakisara ang Onevn at subukang muli.</translation>
+<translation id="6283840329609797763">Nabigo ang pag-install dahil sa hindi natukoy na error. Mangyaring i-download muli ang Onevn.</translation>
+<translation id="95624393026532554">Kailangan ng Onevn ng Windows 7 o mas bago.</translation>
+<translation id="7387051847644272380">May naganap na error sa operating system sa panahon ng pag-install. Mangyaring i-download muli ang Onevn.</translation>
+<translation id="1819119299840995223">May kasalukuyang isinasagawang isa pang pagpapatakbo sa Onevn. Pakisubukang muli sa ibang pagkakataon.</translation>
 <translation id="7747138024166251722">Hindi makalikha ng pansamantalang direktoryo ang installer. Paki-suri para sa puwang sa disk na walang laman at pahintulot upang i-install ang software.</translation>
-<translation id="7365690458036015383">Nabigong i-uncompress ng installer ang archive. Mangyaring i-download muli ang OneVN.</translation>
-<translation id="6914496861676471566">Sira o di-wasto ang archive ng installer. Mangyaring i-download muli ang OneVN.</translation>
+<translation id="7365690458036015383">Nabigong i-uncompress ng installer ang archive. Mangyaring i-download muli ang Onevn.</translation>
+<translation id="6914496861676471566">Sira o di-wasto ang archive ng installer. Mangyaring i-download muli ang Onevn.</translation>
 <translation id="8862326446509486874">Wala kang naaangkop na mga karapatan para sa pag-install sa antas ng system. Subukan muling patakbuhin ang installer bilang Administrator.</translation>
-<translation id="6666624454809779082">Naka-install na ang OneVN para sa lahat ng user sa iyong computer.</translation>
+<translation id="6666624454809779082">Naka-install na ang Onevn para sa lahat ng user sa iyong computer.</translation>
 <translation id="6676384891291319759">I-access ang Internet</translation>
 <translation id="911206726377975832">Tatanggalin din ang iyong data sa pag-browse?</translation>
 <translation id="2770231113462710648">Baguhin ang default na browser sa:</translation>
 <translation id="2485422356828889247">I-uninstall</translation>
-<translation id="3343095737966473035">Hindi OneVN ang iyong default na browser</translation>
-<translation id="6715663530666325392">I-set up ang Pag-sync upang i-save ang iyong personalized na mga tampok ng browser sa web at i-access ang mga iyon mula sa OneVN sa anumang computer.</translation>
-<translation id="5536657158619734169">May available na isang bagong bersyon ng OneVN.</translation>
-<translation id="505042220086416644">May available na bagong bersyon ng OneVN, at mas mabilis ito kaysa sa dati.</translation>
-<translation id="5616153642055197778">May available na bago at mas ligtas na bersyon ng OneVN.</translation>
-<translation id="2301993384336631869">Na-update na ang OneVN, ngunit hindi mo pa ito nagagamit sa loob ng hindi bababa sa 30 araw.</translation>
-<translation id="2106568569080763501">Pinapayagan ka ng OneVN Software OneVN na mag-click sa isang numero ng telepono sa web at tawagan ito gamit ang Skype!</translation>
-<translation id="5874882355102994015">Hindi maipapakita ng OneVN ang preview ng pag-print kapag nawawala ang built-in na PDF viewer.</translation>
-<translation id="8880183781256147665">Idinaragdag sa OneVN...</translation>
-<translation id="3561569806301739367">Maaaring mapanganib ang <ph name="FILE_NAME"/>, kaya na-block ito ng OneVN.</translation>
-<translation id="9067428552314418522">Mapanganib ang file na ito, kaya na-block ito ng OneVN.</translation>
-<translation id="4168372721886011198">Mapanganib ang <ph name="FILE_NAME"/>, kaya na-block ito ng OneVN.</translation>
-<translation id="89367911614620585">Maaaring mapanganib ang file na ito, kaya na-block ito ng OneVN.</translation>
-<translation id="9183662282810237335">Lumabas pa rin sa OneVN?</translation>
-<translation id="3834935463915107022">Umalis pa rin sa OneVN?</translation>
-<translation id="8797356639448065696">Nasa background mode ang OneVN.</translation>
-<translation id="2339258256897053758">Nawawala ang mga OneVN Software API key. Madi-disable ang ilang pagpapagana ng OneVN.</translation>
-<translation id="2182657378556811785">Halos napapanahon na! Muling ilunsad ang OneVN upang tapusin ang pag-a-update.</translation>
+<translation id="3343095737966473035">Hindi Onevn ang iyong default na browser</translation>
+<translation id="6715663530666325392">I-set up ang Pag-sync upang i-save ang iyong personalized na mga tampok ng browser sa web at i-access ang mga iyon mula sa Onevn sa anumang computer.</translation>
+<translation id="5536657158619734169">May available na isang bagong bersyon ng Onevn.</translation>
+<translation id="505042220086416644">May available na bagong bersyon ng Onevn, at mas mabilis ito kaysa sa dati.</translation>
+<translation id="5616153642055197778">May available na bago at mas ligtas na bersyon ng Onevn.</translation>
+<translation id="2301993384336631869">Na-update na ang Onevn, ngunit hindi mo pa ito nagagamit sa loob ng hindi bababa sa 30 araw.</translation>
+<translation id="2106568569080763501">Pinapayagan ka ng Onevn Software Onevn na mag-click sa isang numero ng telepono sa web at tawagan ito gamit ang Skype!</translation>
+<translation id="5874882355102994015">Hindi maipapakita ng Onevn ang preview ng pag-print kapag nawawala ang built-in na PDF viewer.</translation>
+<translation id="8880183781256147665">Idinaragdag sa Onevn...</translation>
+<translation id="3561569806301739367">Maaaring mapanganib ang <ph name="FILE_NAME"/>, kaya na-block ito ng Onevn.</translation>
+<translation id="9067428552314418522">Mapanganib ang file na ito, kaya na-block ito ng Onevn.</translation>
+<translation id="4168372721886011198">Mapanganib ang <ph name="FILE_NAME"/>, kaya na-block ito ng Onevn.</translation>
+<translation id="89367911614620585">Maaaring mapanganib ang file na ito, kaya na-block ito ng Onevn.</translation>
+<translation id="9183662282810237335">Lumabas pa rin sa Onevn?</translation>
+<translation id="3834935463915107022">Umalis pa rin sa Onevn?</translation>
+<translation id="8797356639448065696">Nasa background mode ang Onevn.</translation>
+<translation id="2339258256897053758">Nawawala ang mga Onevn Software API key. Madi-disable ang ilang pagpapagana ng Onevn.</translation>
+<translation id="2182657378556811785">Halos napapanahon na! Muling ilunsad ang Onevn upang tapusin ang pag-a-update.</translation>
 <translation id="5906655207909574370">Halos napapanahon na! I-restart ang iyong device upang tapusin ang pag-a-update.</translation>
 <translation id="5877064549588274448">Binago ang channel. I-restart ang iyong device upang ilapat ang mga pagbabago.</translation>
-<translation id="5131485705787281074">Napapanahon ang OneVN.</translation>
+<translation id="5131485705787281074">Napapanahon ang Onevn.</translation>
 <translation id="8667808506758191620">Napapanahon ang iyong <ph name="DEVICE_TYPE"/>.</translation>
-<translation id="5047208012586153436">Ina-update ang OneVN...</translation>
+<translation id="5047208012586153436">Ina-update ang Onevn...</translation>
 <translation id="6970811910055250180">Ina-update ang iyong device...</translation>
 <translation id="8030318113982266900">Ina-update ang iyong device sa <ph name="CHANNEL_NAME"/> na channel...</translation>
-<translation id="7861579472672677409">Naidagdag na ang <ph name="EXTENSION_NAME"/> sa OneVN</translation>
-<translation id="8516116288943000095">I-clear din ang data sa OneVN (<ph name="URL"/>)</translation>
-<translation id="4054452651944170004">Itago sa menu ng OneVN</translation>
-<translation id="5660079256336839395">Itago sa Menu ng OneVN</translation>
-<translation id="7456658570432774853">Tumulong na pahusayin ang OneVN sa pamamagitan ng pag-uulat sa mga kasalukuyang setting</translation>
-<translation id="6134859571175647580">Babala: Hindi mapipigilan ng OneVN ang pagtatala ng mga extension sa iyong history ng pag-browse. Upang i-disable ang extension na ito sa incognito mode, alisin sa pagkakapili ang opsyong ito.</translation>
-<translation id="777113543093865885">Alisin sa OneVN...</translation>
-<translation id="6078442581074612226">Sa OneVN</translation>
-<translation id="1448049584457347995">Upang gawing mas ligtas ang OneVN, nag-disable kami ng ilang extension na hindi nakalista sa <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> at maaaring naidagdag nang hindi mo nalalaman.</translation>
-<translation id="8848045066928358658">Upang mas gawing ligtas ang OneVN, na-disable namin ang sumusunod na extension na hindi nakalista sa <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> na maaaring naidagdag nang hindi mo nalalalaman.</translation>
-<translation id="8148611988012584308">I-customize at kontrolin ang OneVN</translation>
-<translation id="5849446944780602366">I-customize at kontrolin ang OneVN. May available na update.</translation>
-<translation id="6315734375101223238">I-customize at kontrolin ang OneVN. May kailangan kang pagtuunan ng pansin - mag-click para sa mga detalye.</translation>
-<translation id="9071554113102421877">&amp;Buksan sa OneVN</translation>
-<translation id="2176825726964012531">Tungkol sa &amp;OneVN</translation>
-<translation id="5450493308072741203">I-update ang &amp;OneVN</translation>
-<translation id="1421502046520299169">Tungkol sa &amp;OneVN OS</translation>
-<translation id="2534623228451928732">I-update ang &amp;OneVN OS</translation>
-<translation id="8447483940522230788">Helper ng OneVN</translation>
-<translation id="3360368475735266712">Mag-sign in para i-sync at i-personalize ang OneVN sa lahat ng iyong device</translation>
-<translation id="5477319665405831211">I-sync at i-personalize ang OneVN sa lahat ng iyong device</translation>
-<translation id="4934157190377700991">Naka-sign in ka ngayon sa OneVN</translation>
-<translation id="4100716194836114130">Ito ang iyong OneVN</translation>
-<translation id="8296145982386097283">Magbabahagi ng computer? Ngayon, maaari mong i-set up ang OneVN sa paraang gusto mo.</translation>
-<translation id="1672124279374861424">Pagkatapos alisin ang iyong account sa OneVN, maaaring kailangan mong i-reload ang mga nakabukas mong tab upang magkabisa.</translation>
-<translation id="9197493712748167998">Ginagamit mo ang <ph name="PROFILE_EMAIL"/> upang i-sync ang iyong bagay sa OneVN. Upang ma-update ang iyong kagustuhan sa pag-sync o upang magamit ang OneVN nang walang OneVN Software account, bisitahin ang <ph name="SETTINGS_LINK"/>.</translation>
-<translation id="8132634101975074716">Naka-sign in ka sa OneVN!</translation>
+<translation id="7861579472672677409">Naidagdag na ang <ph name="EXTENSION_NAME"/> sa Onevn</translation>
+<translation id="8516116288943000095">I-clear din ang data sa Onevn (<ph name="URL"/>)</translation>
+<translation id="4054452651944170004">Itago sa menu ng Onevn</translation>
+<translation id="5660079256336839395">Itago sa Menu ng Onevn</translation>
+<translation id="7456658570432774853">Tumulong na pahusayin ang Onevn sa pamamagitan ng pag-uulat sa mga kasalukuyang setting</translation>
+<translation id="6134859571175647580">Babala: Hindi mapipigilan ng Onevn ang pagtatala ng mga extension sa iyong history ng pag-browse. Upang i-disable ang extension na ito sa incognito mode, alisin sa pagkakapili ang opsyong ito.</translation>
+<translation id="777113543093865885">Alisin sa Onevn...</translation>
+<translation id="6078442581074612226">Sa Onevn</translation>
+<translation id="1448049584457347995">Upang gawing mas ligtas ang Onevn, nag-disable kami ng ilang extension na hindi nakalista sa <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> at maaaring naidagdag nang hindi mo nalalaman.</translation>
+<translation id="8848045066928358658">Upang mas gawing ligtas ang Onevn, na-disable namin ang sumusunod na extension na hindi nakalista sa <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> na maaaring naidagdag nang hindi mo nalalalaman.</translation>
+<translation id="8148611988012584308">I-customize at kontrolin ang Onevn</translation>
+<translation id="5849446944780602366">I-customize at kontrolin ang Onevn. May available na update.</translation>
+<translation id="6315734375101223238">I-customize at kontrolin ang Onevn. May kailangan kang pagtuunan ng pansin - mag-click para sa mga detalye.</translation>
+<translation id="9071554113102421877">&amp;Buksan sa Onevn</translation>
+<translation id="2176825726964012531">Tungkol sa &amp;Onevn</translation>
+<translation id="5450493308072741203">I-update ang &amp;Onevn</translation>
+<translation id="1421502046520299169">Tungkol sa &amp;Onevn OS</translation>
+<translation id="2534623228451928732">I-update ang &amp;Onevn OS</translation>
+<translation id="8447483940522230788">Helper ng Onevn</translation>
+<translation id="3360368475735266712">Mag-sign in para i-sync at i-personalize ang Onevn sa lahat ng iyong device</translation>
+<translation id="5477319665405831211">I-sync at i-personalize ang Onevn sa lahat ng iyong device</translation>
+<translation id="4934157190377700991">Naka-sign in ka ngayon sa Onevn</translation>
+<translation id="4100716194836114130">Ito ang iyong Onevn</translation>
+<translation id="8296145982386097283">Magbabahagi ng computer? Ngayon, maaari mong i-set up ang Onevn sa paraang gusto mo.</translation>
+<translation id="1672124279374861424">Pagkatapos alisin ang iyong account sa Onevn, maaaring kailangan mong i-reload ang mga nakabukas mong tab upang magkabisa.</translation>
+<translation id="9197493712748167998">Ginagamit mo ang <ph name="PROFILE_EMAIL"/> upang i-sync ang iyong bagay sa Onevn. Upang ma-update ang iyong kagustuhan sa pag-sync o upang magamit ang Onevn nang walang Onevn Software account, bisitahin ang <ph name="SETTINGS_LINK"/>.</translation>
+<translation id="8132634101975074716">Naka-sign in ka sa Onevn!</translation>
 <translation id="4567424176335768812">Naka-sign in ka bilang <ph name="USER_EMAIL_ADDRESS"/>. Maaari mo na ngayong i-access ang iyong mga bookmark, kasaysayan, at iba pang setting sa lahat ng iyong device na naka-sign in.</translation>
-<translation id="6888049487162027489">Naka-sign in ka na ngayon sa OneVN! Na-disable ng iyong administrator ang pag-sync.</translation>
-<translation id="2925193881330501265">Naka-sign in ka sa OneVN bilang <ph name="USER_EMAIL_ADDRESS"/>. Pakigamit ang parehong account upang mag-sign in muli.</translation>
-<translation id="386092803020435298">May nag-sign in dati sa OneVN sa computer na ito bilang <ph name="ACCOUNT_EMAIL_LAST"/>. Kung hindi iyon ang iyong account, lumikha ng bagong user ng OneVN upang ihiwalay ang iyong impormasyon.
+<translation id="6888049487162027489">Naka-sign in ka na ngayon sa Onevn! Na-disable ng iyong administrator ang pag-sync.</translation>
+<translation id="2925193881330501265">Naka-sign in ka sa Onevn bilang <ph name="USER_EMAIL_ADDRESS"/>. Pakigamit ang parehong account upang mag-sign in muli.</translation>
+<translation id="386092803020435298">May nag-sign in dati sa Onevn sa computer na ito bilang <ph name="ACCOUNT_EMAIL_LAST"/>. Kung hindi iyon ang iyong account, lumikha ng bagong user ng Onevn upang ihiwalay ang iyong impormasyon.
 
-Kapag nag-sign in ka pa rin, isasama sa <ph name="ACCOUNT_EMAIL_NEW"/> ang impormasyon sa OneVN gaya ng mga bookmark, kasaysayan, at iba pang mga setting.</translation>
-<translation id="847561904663814268">May nag-sign in dati sa OneVN sa computer na ito bilang <ph name="ACCOUNT_EMAIL_LAST"/>. Mangyaring gumawa ng bagong user ng OneVN upang ihiwalay ang iyong impormasyon.</translation>
-<translation id="1853997773668795891">I-link ang iyong data sa OneVN sa account na ito?</translation>
-<translation id="1326766910007115955">Nagsa-sign in ka gamit ang isang pinamamahalaang account at nagbibigay sa administrator nito ng kontrol sa iyong profile sa OneVN. Permanenteng mauugnay ang iyong data sa OneVN, gaya ng iyong apps, mga bookmark, kasaysayan, password, at iba pang mga setting sa <ph name="USER_NAME"/>. Matatanggal mo ang data na ito sa OneVN Software Accounts Dashboard, ngunit hindi mo maiuugnay ang data na ito sa isa pang account. <ph name="LEARN_MORE"/></translation>
-<translation id="650055380213106997">Nagsa-sign in ka gamit ang isang pinamamahalaang account at nagbibigay sa administrator nito ng kontrol sa iyong profile sa OneVN. Permanenteng mauugnay ang iyong data sa OneVN, gaya ng iyong apps, mga bookmark, kasaysayan, password, at iba pang mga setting sa <ph name="USER_NAME"/>. Matatanggal mo ang data na ito sa OneVN Software Accounts Dashboard, ngunit hindi mo maiuugnay ang data na ito sa isa pang account. Maaari ka ring gumawa ng bagong profile upang ihiwalay ang iyong umiiral na data sa OneVN. <ph name="LEARN_MORE"/></translation>
-<translation id="2444257125841652328">Na-configure ng iyong system administrator ang OneVN na magbukas ng alternatibong browser para i-access ang <ph name="TARGET_URL_HOSTNAME"/>.</translation>
-<translation id="2591326305549412656">OneVN ang dating ginagamit ng <ph name="USER_EMAIL_ADDRESS"/></translation>
-<translation id="1384923383737428730">May mapaminsalang software sa iyong computer. Magagawa ng OneVN na alisin ito, i-restore ang iyong mga setting, at i-disable ang mga extension para muling mapagana nang normal ang browser mo.</translation>
-<translation id="8919921662052966648">Hindi mai-sync ng OneVN ang iyong data. Paki-update ang iyong passphrase sa Pag-sync.</translation>
-<translation id="2262856633481902138">Hindi mai-sync ng OneVN ang iyong data dahil hindi napapanahon ang mga detalye sa pag-sign in ng iyong account.</translation>
-<translation id="5419189641394808652">Hindi mai-sync ng OneVN ang iyong data dahil hindi available ang Pag-sync para sa iyong domain.</translation>
-<translation id="2577755334620061182">Hindi mai-sync ng OneVN ang iyong data dahil sa isang error sa pagsa-sign in.</translation>
-<translation id="8583885258305961947">OneVN OS System</translation>
-<translation id="3968006371075376562">Hindi ma-sync ng OneVN OS ang iyong data. Paki-update ang iyong Passphrase sa pag-sync.</translation>
-<translation id="6746636977031158624">Hindi ma-sync ng OneVN OS ang iyong data dahil hindi napapanahon ang mga detalye sa pag-sign in sa iyong account.</translation>
-<translation id="2999152167963026588">Hindi ma-sync ng OneVN OS ang iyong data dahil hindi available ang Pag-sync para sa iyong domain.</translation>
-<translation id="1459786048951724030">Hindi ma-sync ng OneVN OS ang iyong data dahil sa isang error sa pagsa-sign in.</translation>
-<translation id="2887570477425111999">I-save ang mga detalye sa OneVN</translation>
-<translation id="193559141530782783">Secure na iiimbak ng OneVN ang iyong mga personal na detalye nang sa gayon ay hindi mo na kailangang i-type muli ang mga ito.</translation>
-<translation id="663059986967017181">Kinopya sa OneVN</translation>
-<translation id="1457432835062259213">App Launcher ng OneVN</translation>
-<translation id="82609232232243542">Mag-sign in sa OneVN</translation>
-<translation id="2924628237198507508">Kailangang naka-sign in ka sa OneVN upang makagamit ng mga app. Nagbibigay-daan ito sa OneVN na i-sync ang iyong mga app, bookmark, kasaysayan, password at iba pang mga setting sa mga device.</translation>
-<translation id="380197516434040304">Alisin Sa OneVN...</translation>
-<translation id="300669147395456190">OneVN Apps</translation>
-<translation id="3421950102518690868">Kinakailangan ng <ph name="DOMAIN"/> na basahin mo at tanggapin ang sumusunod na Mga Tuntunin ng Serbisyo bago gamitin ang device na ito. Hindi pinapalawak, binabago o nililimitahan ng mga tuntuning ito ang Mga Tuntunin ng OneVN OS.</translation>
-<translation id="3293668930608086049">Ginagamit ng OneVN ang iyong camera at mikropono.</translation>
-<translation id="8919461291440820124">Ginagamit ng OneVN ang iyong mikropono.</translation>
-<translation id="3205074487970075628">Ginagamit ng OneVN ang iyong camera.</translation>
-<translation id="8142245354207161805">Mukhang ginagamit ang profile ng iba pang proseso ng OneVN (<ph name="PROCESS_ID"/>) sa iba pang computer (<ph name="HOST_NAME"/>).  Ni-lock ng OneVN ang profile upang hindi ito ma-corrupt.  Kung nakakatiyak ka na walang ibang mga proseso ang gumagamit sa profile na ito, maaari mong i-unlock ang profile at ilunsad muli ang OneVN.</translation>
-<translation id="239760341987199724">Itakda ang OneVN bilang iyong default na browser</translation>
+Kapag nag-sign in ka pa rin, isasama sa <ph name="ACCOUNT_EMAIL_NEW"/> ang impormasyon sa Onevn gaya ng mga bookmark, kasaysayan, at iba pang mga setting.</translation>
+<translation id="847561904663814268">May nag-sign in dati sa Onevn sa computer na ito bilang <ph name="ACCOUNT_EMAIL_LAST"/>. Mangyaring gumawa ng bagong user ng Onevn upang ihiwalay ang iyong impormasyon.</translation>
+<translation id="1853997773668795891">I-link ang iyong data sa Onevn sa account na ito?</translation>
+<translation id="1326766910007115955">Nagsa-sign in ka gamit ang isang pinamamahalaang account at nagbibigay sa administrator nito ng kontrol sa iyong profile sa Onevn. Permanenteng mauugnay ang iyong data sa Onevn, gaya ng iyong apps, mga bookmark, kasaysayan, password, at iba pang mga setting sa <ph name="USER_NAME"/>. Matatanggal mo ang data na ito sa Onevn Software Accounts Dashboard, ngunit hindi mo maiuugnay ang data na ito sa isa pang account. <ph name="LEARN_MORE"/></translation>
+<translation id="650055380213106997">Nagsa-sign in ka gamit ang isang pinamamahalaang account at nagbibigay sa administrator nito ng kontrol sa iyong profile sa Onevn. Permanenteng mauugnay ang iyong data sa Onevn, gaya ng iyong apps, mga bookmark, kasaysayan, password, at iba pang mga setting sa <ph name="USER_NAME"/>. Matatanggal mo ang data na ito sa Onevn Software Accounts Dashboard, ngunit hindi mo maiuugnay ang data na ito sa isa pang account. Maaari ka ring gumawa ng bagong profile upang ihiwalay ang iyong umiiral na data sa Onevn. <ph name="LEARN_MORE"/></translation>
+<translation id="2444257125841652328">Na-configure ng iyong system administrator ang Onevn na magbukas ng alternatibong browser para i-access ang <ph name="TARGET_URL_HOSTNAME"/>.</translation>
+<translation id="2591326305549412656">Onevn ang dating ginagamit ng <ph name="USER_EMAIL_ADDRESS"/></translation>
+<translation id="1384923383737428730">May mapaminsalang software sa iyong computer. Magagawa ng Onevn na alisin ito, i-restore ang iyong mga setting, at i-disable ang mga extension para muling mapagana nang normal ang browser mo.</translation>
+<translation id="8919921662052966648">Hindi mai-sync ng Onevn ang iyong data. Paki-update ang iyong passphrase sa Pag-sync.</translation>
+<translation id="2262856633481902138">Hindi mai-sync ng Onevn ang iyong data dahil hindi napapanahon ang mga detalye sa pag-sign in ng iyong account.</translation>
+<translation id="5419189641394808652">Hindi mai-sync ng Onevn ang iyong data dahil hindi available ang Pag-sync para sa iyong domain.</translation>
+<translation id="2577755334620061182">Hindi mai-sync ng Onevn ang iyong data dahil sa isang error sa pagsa-sign in.</translation>
+<translation id="8583885258305961947">Onevn OS System</translation>
+<translation id="3968006371075376562">Hindi ma-sync ng Onevn OS ang iyong data. Paki-update ang iyong Passphrase sa pag-sync.</translation>
+<translation id="6746636977031158624">Hindi ma-sync ng Onevn OS ang iyong data dahil hindi napapanahon ang mga detalye sa pag-sign in sa iyong account.</translation>
+<translation id="2999152167963026588">Hindi ma-sync ng Onevn OS ang iyong data dahil hindi available ang Pag-sync para sa iyong domain.</translation>
+<translation id="1459786048951724030">Hindi ma-sync ng Onevn OS ang iyong data dahil sa isang error sa pagsa-sign in.</translation>
+<translation id="2887570477425111999">I-save ang mga detalye sa Onevn</translation>
+<translation id="193559141530782783">Secure na iiimbak ng Onevn ang iyong mga personal na detalye nang sa gayon ay hindi mo na kailangang i-type muli ang mga ito.</translation>
+<translation id="663059986967017181">Kinopya sa Onevn</translation>
+<translation id="1457432835062259213">App Launcher ng Onevn</translation>
+<translation id="82609232232243542">Mag-sign in sa Onevn</translation>
+<translation id="2924628237198507508">Kailangang naka-sign in ka sa Onevn upang makagamit ng mga app. Nagbibigay-daan ito sa Onevn na i-sync ang iyong mga app, bookmark, kasaysayan, password at iba pang mga setting sa mga device.</translation>
+<translation id="380197516434040304">Alisin Sa Onevn...</translation>
+<translation id="300669147395456190">Onevn Apps</translation>
+<translation id="3421950102518690868">Kinakailangan ng <ph name="DOMAIN"/> na basahin mo at tanggapin ang sumusunod na Mga Tuntunin ng Serbisyo bago gamitin ang device na ito. Hindi pinapalawak, binabago o nililimitahan ng mga tuntuning ito ang Mga Tuntunin ng Onevn OS.</translation>
+<translation id="3293668930608086049">Ginagamit ng Onevn ang iyong camera at mikropono.</translation>
+<translation id="8919461291440820124">Ginagamit ng Onevn ang iyong mikropono.</translation>
+<translation id="3205074487970075628">Ginagamit ng Onevn ang iyong camera.</translation>
+<translation id="8142245354207161805">Mukhang ginagamit ang profile ng iba pang proseso ng Onevn (<ph name="PROCESS_ID"/>) sa iba pang computer (<ph name="HOST_NAME"/>).  Ni-lock ng Onevn ang profile upang hindi ito ma-corrupt.  Kung nakakatiyak ka na walang ibang mga proseso ang gumagamit sa profile na ito, maaari mong i-unlock ang profile at ilunsad muli ang Onevn.</translation>
+<translation id="239760341987199724">Itakda ang Onevn bilang iyong default na browser</translation>
 <translation id="5344925500065984750">Upang itakda kung aling mga website ang matitingnan ni <ph name="NEW_PROFILE_NAME"/>, maaari mong i-configure ang mga paghihigpit at setting sa pamamagitan ng pagbisita sa <ph name="BEGIN_LINK_1"/><ph name="DISPLAY_LINK"/><ph name="END_LINK_1"/>. Kung hindi mo babaguhin ang mga default na setting, maba-browse ni <ph name="NEW_PROFILE_NAME"/> ang lahat ng nasa web.
 
-Upang mapigilan si <ph name="NEW_PROFILE_NAME"/> na ma-access ang iyong account, tiyaking ila-lock mo ang iyong profile kapag hindi ka gumagamit ng OneVN. Upang gawin ito, i-click ang pangalan ng iyong profile sa kanang sulok sa itaas ng browser, at piliin ang "Lumabas at i-childlock."
+Upang mapigilan si <ph name="NEW_PROFILE_NAME"/> na ma-access ang iyong account, tiyaking ila-lock mo ang iyong profile kapag hindi ka gumagamit ng Onevn. Upang gawin ito, i-click ang pangalan ng iyong profile sa kanang sulok sa itaas ng browser, at piliin ang "Lumabas at i-childlock."
 <ph name="BEGIN_LINK_2"/>Matuto nang higit pa<ph name="END_LINK_2"/>
 
 Pakitingnan ang iyong email sa <ph name="ACCOUNT_EMAIL"/> para sa mga karagdagang tagubilin.</translation>
-<translation id="1820843143331379651">Mawawala na ang mga profile ng pinangangasiwaang user simula sa OneVN 70.</translation>
-<translation id="3066805437003400520">Made-delete sa device na ito ang data mula sa pag-browse ng taong ito. Para ma-recover ang data, mag-sign in sa OneVN bilang <ph name="USER_EMAIL"/>.</translation>
-<translation id="2827121003398607864">Mas mahusay na ang OneVN</translation>
-<translation id="7192666605334070839">Ngayon, mas madali nang gamitin ang OneVN sa iyong OneVN Software Account at sa mga nakabahaging computer.</translation>
-<translation id="3511996232906761537">Makikita dito ang iyong web, mga bookmark at iba pang mga bagay-bagay sa OneVN.</translation>
-<translation id="7406627712452599344">Makakagamit ng OneVN ang mga bisita nang hindi nag-iiwan ng anumang bakas.</translation>
-<translation id="5659384504794665581">Kung nagpapahiram ka ng computer, ang mga kaibigan at kapamilya ay maaaring mag-browse nang hiwalay at i-set up ang OneVN sa paraang gusto nila.</translation>
-<translation id="7130675370997202556">I-click ang iyong pangalan upang buksan ang OneVN at simulan ang pagba-browse.</translation>
-<translation id="5952898964075639679">Idagdag ang iyong sarili sa OneVN</translation>
+<translation id="1820843143331379651">Mawawala na ang mga profile ng pinangangasiwaang user simula sa Onevn 70.</translation>
+<translation id="3066805437003400520">Made-delete sa device na ito ang data mula sa pag-browse ng taong ito. Para ma-recover ang data, mag-sign in sa Onevn bilang <ph name="USER_EMAIL"/>.</translation>
+<translation id="2827121003398607864">Mas mahusay na ang Onevn</translation>
+<translation id="7192666605334070839">Ngayon, mas madali nang gamitin ang Onevn sa iyong Onevn Software Account at sa mga nakabahaging computer.</translation>
+<translation id="3511996232906761537">Makikita dito ang iyong web, mga bookmark at iba pang mga bagay-bagay sa Onevn.</translation>
+<translation id="7406627712452599344">Makakagamit ng Onevn ang mga bisita nang hindi nag-iiwan ng anumang bakas.</translation>
+<translation id="5659384504794665581">Kung nagpapahiram ka ng computer, ang mga kaibigan at kapamilya ay maaaring mag-browse nang hiwalay at i-set up ang Onevn sa paraang gusto nila.</translation>
+<translation id="7130675370997202556">I-click ang iyong pangalan upang buksan ang Onevn at simulan ang pagba-browse.</translation>
+<translation id="5952898964075639679">Idagdag ang iyong sarili sa Onevn</translation>
 <translation id="3813272600615358652">Binago ng extension na ito ang ipinapakitang page kapag sinimulan mo ang Chronium.</translation>
-<translation id="2576129394594491151">Binago ng extension na "<ph name="EXTENSION_NAME"/>" ang ipinapakitang page kapag sinimulan mo ang OneVN.</translation>
-<translation id="2675662665675552980">Kinokontrol din nito kung anong pahina ang ipinapakita kapag sinimulan mo ang OneVN.</translation>
-<translation id="3215652305414474626">Kinokontrol din nito kung anong pahina ang ipinapakita kapag sinimulan mo ang OneVN o na-click ang button ng Home.</translation>
-<translation id="2433912322225810055">Kinokontrol din nito kung anong pahina ang ipinapakita kapag sinimulan mo ang OneVN o naghanap mula sa Omnibox.</translation>
-<translation id="2871190378186459992">Tumuklas ng mahuhusay na app, laro, extension at tema para sa OneVN.</translation>
-<translation id="3350544518197210895">OneVN (mDNS-In)</translation>
-<translation id="1912973375560256099">Inbound na panuntunan para sa OneVN upang payagan ang trapiko ng mDNS.</translation>
-<translation id="7276297358157391541">Maaaring magbigay ang OneVN ng mas pinahusay na pag-i-spell check sa pamamagitan ng pagpapadala sa mga server ng OneVN Software ng tina-type mo sa browser, na nagbibigay-daan sa iyo na gamitin ang parehong teknolohiya ng pag-i-spell check na ginamit ng paghahanap sa OneVN Software.</translation>
-<translation id="1807774211756215222">Buksan ang link sa bagong &amp;tab ng OneVN</translation>
-<translation id="4624945300945265642">Buksan ang link sa inco&amp;gnito window ng OneVN</translation>
-<translation id="7863882214613921971">Buksan ang Link sa bagong &amp;tab ng OneVN</translation>
-<translation id="6554952862405000915">Buksan ang Link sa Inco&amp;gnito Window ng OneVN</translation>
-<translation id="4805806622840861220">Muling ilunsad ang OneVN</translation>
-<translation id="2560046583427795596">May available na bagong update para sa OneVN at ilalapat ito sa sandaling muli kang maglunsad.</translation>
+<translation id="2576129394594491151">Binago ng extension na "<ph name="EXTENSION_NAME"/>" ang ipinapakitang page kapag sinimulan mo ang Onevn.</translation>
+<translation id="2675662665675552980">Kinokontrol din nito kung anong pahina ang ipinapakita kapag sinimulan mo ang Onevn.</translation>
+<translation id="3215652305414474626">Kinokontrol din nito kung anong pahina ang ipinapakita kapag sinimulan mo ang Onevn o na-click ang button ng Home.</translation>
+<translation id="2433912322225810055">Kinokontrol din nito kung anong pahina ang ipinapakita kapag sinimulan mo ang Onevn o naghanap mula sa Omnibox.</translation>
+<translation id="2871190378186459992">Tumuklas ng mahuhusay na app, laro, extension at tema para sa Onevn.</translation>
+<translation id="3350544518197210895">Onevn (mDNS-In)</translation>
+<translation id="1912973375560256099">Inbound na panuntunan para sa Onevn upang payagan ang trapiko ng mDNS.</translation>
+<translation id="7276297358157391541">Maaaring magbigay ang Onevn ng mas pinahusay na pag-i-spell check sa pamamagitan ng pagpapadala sa mga server ng Onevn Software ng tina-type mo sa browser, na nagbibigay-daan sa iyo na gamitin ang parehong teknolohiya ng pag-i-spell check na ginamit ng paghahanap sa Onevn Software.</translation>
+<translation id="1807774211756215222">Buksan ang link sa bagong &amp;tab ng Onevn</translation>
+<translation id="4624945300945265642">Buksan ang link sa inco&amp;gnito window ng Onevn</translation>
+<translation id="7863882214613921971">Buksan ang Link sa bagong &amp;tab ng Onevn</translation>
+<translation id="6554952862405000915">Buksan ang Link sa Inco&amp;gnito Window ng Onevn</translation>
+<translation id="4805806622840861220">Muling ilunsad ang Onevn</translation>
+<translation id="2560046583427795596">May available na bagong update para sa Onevn at ilalapat ito sa sandaling muli kang maglunsad.</translation>
 <translation id="2799223571221894425">Ilunsad Muli</translation>
-<translation id="2522086024276534909">I-restart ang OneVN OS</translation>
-<translation id="8183252473547465084">Kailangang ma-restart ang OneVN OS upang mailapat ang update.</translation>
+<translation id="2522086024276534909">I-restart ang Onevn OS</translation>
+<translation id="8183252473547465084">Kailangang ma-restart ang Onevn OS upang mailapat ang update.</translation>
 <translation id="5895138241574237353">I-restart</translation>
-<translation id="5875673934455379806">Muling i-install ang OneVN</translation>
-<translation id="2097604701283463988">Luma na ang OneVN</translation>
-<translation id="5173820533850252773">Luma na ang OneVN</translation>
-<translation id="6389268239133412586">Hindi ma-update ang OneVN</translation>
-<translation id="7963515534397191222">Hindi ma-update ang OneVN sa pinakabagong bersyon, kaya may napapalampas kang mga bagong feature at pag-aayos sa seguridad.</translation>
-<translation id="1705567146636171298">I-update ang OneVN</translation>
-<translation id="3598551856834560515">I-update ang OneVN upang simulan ang pag-sync</translation>
+<translation id="5875673934455379806">Muling i-install ang Onevn</translation>
+<translation id="2097604701283463988">Luma na ang Onevn</translation>
+<translation id="5173820533850252773">Luma na ang Onevn</translation>
+<translation id="6389268239133412586">Hindi ma-update ang Onevn</translation>
+<translation id="7963515534397191222">Hindi ma-update ang Onevn sa pinakabagong bersyon, kaya may napapalampas kang mga bagong feature at pag-aayos sa seguridad.</translation>
+<translation id="1705567146636171298">I-update ang Onevn</translation>
+<translation id="3598551856834560515">I-update ang Onevn upang simulan ang pag-sync</translation>
 <translation id="4050175100176540509">May available na mahahalagang pagpapahusay sa seguridad at mga bagong feature sa pinakabagong bersyon.</translation>
-<translation id="2513524988380267210">{SECONDS,plural, =1{Magre-restart ang OneVN pagkalipas ng 1 segundo}one{Magre-restart ang OneVN pagkalipas ng # segundo}other{Magre-restart ang OneVN pagkalipas ng # na segundo}}</translation>
-<translation id="5509303873219371662">Dapat mo nang i-restart ang OneVN</translation>
-<translation id="8668413672647811944">Naglapat ng espesyal na update sa seguridad para sa OneVN. Mag-restart na at ire-restore namin ang iyong mga tab.</translation>
-<translation id="763369711159699222">Tumulong sa pagpapahusay ng OneVN</translation>
-<translation id="1156940037717341650">Makakatulong ka na gawing mas ligtas at mas madaling gamitin ang OneVN sa pamamagitan ng awtomatikong pag-uulat sa OneVN Software ng mga detalye ng mga posibleng isyu sa seguridad.</translation>
-<translation id="6791166902140255175">Tab ng OneVN</translation>
-<translation id="2555639463117073782">I-restart ang OneVN upang ma-enable ang <ph name="PLUGIN_NAME"/></translation>
-<translation id="8899693649891674038">I-install ang OneVN sa iyong telepono. Magpapadala kami ng SMS sa telepono mo.</translation>
-<translation id="1570795130102031380">I-install ang OneVN sa iyong telepono. Magpapadala kami ng SMS sa telepono mo: <ph name="PHONE_NUMBER"/></translation>
-<translation id="1609678321160597289">I-install ang OneVN sa telepono mo. Magpapadala kami ng SMS sa iyong numero ng telepono para sa pag-recover ng account.</translation>
-<translation id="2965084188004448871">I-install ang OneVN sa telepono mo. Magpapadala kami ng SMS sa iyong numero ng telepono para sa pag-recover ng account: <ph name="PHONE_NUMBER"/></translation>
-<translation id="8358191771897395012">kunin ang OneVN sa iyong iPhone</translation>
-<translation id="2034072705932785495">Kailangan ng OneVN ng pahintulot na i-access ang iyong camera para sa site na ito</translation>
-<translation id="3335606533094650083">Kailangan ng OneVN ng pahintulot na i-access ang iyong mikropono para sa site na ito</translation>
-<translation id="4831743161813926460">Kailangan ng OneVN ng pahintulot na i-access ang iyong camera at mikropono para sa site na ito</translation>
-<translation id="696826782632239602">Kailangan ng OneVN ng access sa iyong lokasyon upang maibahagi ang lokasyon mo sa site na ito</translation>
-<translation id="7798069806040634998">Kailangan ng OneVN ang access sa storage upang maka-download ng mga file</translation>
-<translation id="7685904775439037072">Kapag mayroon nang access ang OneVN, makakahingi na ang mga website ng access sa iyo.</translation>
-<translation id="5805364706385912897">Masyadong malaki ang ginagamit na memory ng page na ito kaya na-pause ito ng OneVN.</translation>
-<translation id="5138664332909611586">Masyadong malaki ang ginagamit na memory ng page na ito, kaya inalis ng OneVN ang ilang content.</translation>
-<translation id="1744365871163268756">Mangyaring maghintay habang ini-install ng OneVN ang mga pinakabagong update sa system.</translation>
-<translation id="5693614905241031118">Awtomatikong nag-a-update ang OneVN upang palagi kang may pinakabagong bersyon.</translation>
-<translation id="6141293433381251973">Awtomatikong nag-a-update ang OneVN upang palagi kang may pinakabagong bersyon. Kapag nakumpleto ang pag-download na ito, magre-restart ang OneVN at makakapagpatuloy ka na.</translation>
-<translation id="7808415789955822133">Mga tuntunin ng OneVN OS</translation>
-<translation id="7207456302801184289">Maligayang Pagdating sa OneVN</translation>
-<translation id="5688839044908745927">Halos handa na ang OneVN.</translation>
-<translation id="7758342895140862711">Dalhin ang OneVN sa lahat ng lugar</translation>
-<translation id="3610173904388112975">Pag-browse sa web gamit ang mga smart na feature ng OneVN Software</translation>
+<translation id="2513524988380267210">{SECONDS,plural, =1{Magre-restart ang Onevn pagkalipas ng 1 segundo}one{Magre-restart ang Onevn pagkalipas ng # segundo}other{Magre-restart ang Onevn pagkalipas ng # na segundo}}</translation>
+<translation id="5509303873219371662">Dapat mo nang i-restart ang Onevn</translation>
+<translation id="8668413672647811944">Naglapat ng espesyal na update sa seguridad para sa Onevn. Mag-restart na at ire-restore namin ang iyong mga tab.</translation>
+<translation id="763369711159699222">Tumulong sa pagpapahusay ng Onevn</translation>
+<translation id="1156940037717341650">Makakatulong ka na gawing mas ligtas at mas madaling gamitin ang Onevn sa pamamagitan ng awtomatikong pag-uulat sa Onevn Software ng mga detalye ng mga posibleng isyu sa seguridad.</translation>
+<translation id="6791166902140255175">Tab ng Onevn</translation>
+<translation id="2555639463117073782">I-restart ang Onevn upang ma-enable ang <ph name="PLUGIN_NAME"/></translation>
+<translation id="8899693649891674038">I-install ang Onevn sa iyong telepono. Magpapadala kami ng SMS sa telepono mo.</translation>
+<translation id="1570795130102031380">I-install ang Onevn sa iyong telepono. Magpapadala kami ng SMS sa telepono mo: <ph name="PHONE_NUMBER"/></translation>
+<translation id="1609678321160597289">I-install ang Onevn sa telepono mo. Magpapadala kami ng SMS sa iyong numero ng telepono para sa pag-recover ng account.</translation>
+<translation id="2965084188004448871">I-install ang Onevn sa telepono mo. Magpapadala kami ng SMS sa iyong numero ng telepono para sa pag-recover ng account: <ph name="PHONE_NUMBER"/></translation>
+<translation id="8358191771897395012">kunin ang Onevn sa iyong iPhone</translation>
+<translation id="2034072705932785495">Kailangan ng Onevn ng pahintulot na i-access ang iyong camera para sa site na ito</translation>
+<translation id="3335606533094650083">Kailangan ng Onevn ng pahintulot na i-access ang iyong mikropono para sa site na ito</translation>
+<translation id="4831743161813926460">Kailangan ng Onevn ng pahintulot na i-access ang iyong camera at mikropono para sa site na ito</translation>
+<translation id="696826782632239602">Kailangan ng Onevn ng access sa iyong lokasyon upang maibahagi ang lokasyon mo sa site na ito</translation>
+<translation id="7798069806040634998">Kailangan ng Onevn ang access sa storage upang maka-download ng mga file</translation>
+<translation id="7685904775439037072">Kapag mayroon nang access ang Onevn, makakahingi na ang mga website ng access sa iyo.</translation>
+<translation id="5805364706385912897">Masyadong malaki ang ginagamit na memory ng page na ito kaya na-pause ito ng Onevn.</translation>
+<translation id="5138664332909611586">Masyadong malaki ang ginagamit na memory ng page na ito, kaya inalis ng Onevn ang ilang content.</translation>
+<translation id="1744365871163268756">Mangyaring maghintay habang ini-install ng Onevn ang mga pinakabagong update sa system.</translation>
+<translation id="5693614905241031118">Awtomatikong nag-a-update ang Onevn upang palagi kang may pinakabagong bersyon.</translation>
+<translation id="6141293433381251973">Awtomatikong nag-a-update ang Onevn upang palagi kang may pinakabagong bersyon. Kapag nakumpleto ang pag-download na ito, magre-restart ang Onevn at makakapagpatuloy ka na.</translation>
+<translation id="7808415789955822133">Mga tuntunin ng Onevn OS</translation>
+<translation id="7207456302801184289">Maligayang Pagdating sa Onevn</translation>
+<translation id="5688839044908745927">Halos handa na ang Onevn.</translation>
+<translation id="7758342895140862711">Dalhin ang Onevn sa lahat ng lugar</translation>
+<translation id="3610173904388112975">Pag-browse sa web gamit ang mga smart na feature ng Onevn Software</translation>
 <translation id="3479552764303398839">Hindi ngayon</translation>
-<translation id="8013374903356993822">Pumunta sa OneVN nang mas mabilis</translation>
-<translation id="7625138338483121345">Gawing default mong browser ang OneVN</translation>
-<translation id="5927044791090834489">I-pin ang OneVN sa iyong taskbar</translation>
-<translation id="8933981935877469796">Piliin ang <ph name="SMALL_PRODUCT_LOGO"/> <ph name="BEGIN_BOLD"/>OneVN<ph name="END_BOLD"/></translation>
+<translation id="8013374903356993822">Pumunta sa Onevn nang mas mabilis</translation>
+<translation id="7625138338483121345">Gawing default mong browser ang Onevn</translation>
+<translation id="5927044791090834489">I-pin ang Onevn sa iyong taskbar</translation>
+<translation id="8933981935877469796">Piliin ang <ph name="SMALL_PRODUCT_LOGO"/> <ph name="BEGIN_BOLD"/>Onevn<ph name="END_BOLD"/></translation>
 <translation id="1585657529869845941">I-click ang <ph name="BEGIN_BOLD"/>Lumipat pa rin<ph name="END_BOLD"/>, kung lalabas ito</translation>
-<translation id="3507835409099344374">Pumunta sa mga setting ng notification ng OneVN</translation>
-<translation id="9118654140804842635">{0,plural, =0{May available na update sa OneVN}=1{May available na update sa OneVN}one{# araw nang may available na update sa OneVN}other{# na araw nang may available na update sa OneVN}}</translation>
-<translation id="720532315408041257">Hinihiling sa iyo ng administrator mo na muli mong ilunsad ang OneVN para malapat ang update na ito</translation>
-<translation id="6639482638305253477">{0,plural, =1{Muling ilunsad ang OneVN sa loob ng isang araw}one{Muling ilunsad ang OneVN sa loob ng # araw}other{Muling ilunsad ang OneVN sa loob ng # na araw}}</translation>
-<translation id="656910845148850955">{0,plural, =1{Muling ilulunsad ang OneVN sa loob ng isang oras}one{Muling ilulunsad ang OneVN sa loob ng # oras}other{Muling ilulunsad ang OneVN sa loob ng # na oras}}</translation>
-<translation id="2927768292099217319">{0,plural, =1{Muling ilulunsad ang OneVN sa loob ng 1 minuto}one{Muling ilulunsad ang OneVN sa loob ng # minuto}other{Muling ilulunsad ang OneVN sa loob ng # na minuto}}</translation>
-<translation id="2124855793980950516">{0,plural, =0{Muli nang ilulunsad ang OneVN}=1{Muling ilulunsad ang OneVN sa loob ng 1 segundo}one{Muling ilulunsad ang OneVN sa loob ng # segundo}other{Muling ilulunsad ang OneVN sa loob ng # na segundo}}</translation>
-<translation id="7595187113648413294">Inaatasan ka ng iyong administrator na muling ilunsad ang OneVN para malapat ang update</translation>
-<translation id="56801943271475640">{0,plural, =0{May available na update sa OneVN OS}=1{May available na update sa OneVN OS}one{# araw nang may available na update sa OneVN OS}other{# na araw nang may available na update sa OneVN OS}}</translation>
-<translation id="5715362474140341294">Hinihiling sa iyo ng administrator mo na i-restart ang OneVN OS para mailapat ang update na ito</translation>
-<translation id="8094834892392729950">{0,plural, =1{I-restart ang OneVN OS sa loob ng isang araw}one{I-restart ang OneVN OS sa loob ng # araw}other{I-restart ang OneVN OS sa loob ng # na araw}}</translation>
-<translation id="1265795866000813420">{0,plural, =1{Magre-restart ang OneVN OS sa loob ng isang oras}one{Magre-restart ang OneVN OS sa loob ng # oras}other{Magre-restart ang OneVN OS sa loob ng # na oras}}</translation>
-<translation id="2031312345409605311">{0,plural, =1{Magre-restart ang OneVN OS sa loob ng 1 minuto}one{Magre-restart ang OneVN OS sa loob ng # minuto}other{Magre-restart ang OneVN OS sa loob ng # na minuto}}</translation>
-<translation id="8624602604153953835">{0,plural, =0{Magre-restart na ang OneVN OS}=1{Magre-restart ang OneVN OS sa loob ng 1 segundo}one{Magre-restart ang OneVN OS sa loob ng # segundo}other{Magre-restart ang OneVN OS sa loob ng # na segundo}}</translation>
-<translation id="8559452515617838628">Inaatasan ka ng iyong administrator na i-restart ang OneVN OS para maglapat ng update</translation>
-<translation id="3052349005266761501">Inilulunsad ang OneVN...</translation>
-<translation id="1197672524850678392">Hindi mailunsad ang OneVN. Subukang muli.</translation>
+<translation id="3507835409099344374">Pumunta sa mga setting ng notification ng Onevn</translation>
+<translation id="9118654140804842635">{0,plural, =0{May available na update sa Onevn}=1{May available na update sa Onevn}one{# araw nang may available na update sa Onevn}other{# na araw nang may available na update sa Onevn}}</translation>
+<translation id="720532315408041257">Hinihiling sa iyo ng administrator mo na muli mong ilunsad ang Onevn para malapat ang update na ito</translation>
+<translation id="6639482638305253477">{0,plural, =1{Muling ilunsad ang Onevn sa loob ng isang araw}one{Muling ilunsad ang Onevn sa loob ng # araw}other{Muling ilunsad ang Onevn sa loob ng # na araw}}</translation>
+<translation id="656910845148850955">{0,plural, =1{Muling ilulunsad ang Onevn sa loob ng isang oras}one{Muling ilulunsad ang Onevn sa loob ng # oras}other{Muling ilulunsad ang Onevn sa loob ng # na oras}}</translation>
+<translation id="2927768292099217319">{0,plural, =1{Muling ilulunsad ang Onevn sa loob ng 1 minuto}one{Muling ilulunsad ang Onevn sa loob ng # minuto}other{Muling ilulunsad ang Onevn sa loob ng # na minuto}}</translation>
+<translation id="2124855793980950516">{0,plural, =0{Muli nang ilulunsad ang Onevn}=1{Muling ilulunsad ang Onevn sa loob ng 1 segundo}one{Muling ilulunsad ang Onevn sa loob ng # segundo}other{Muling ilulunsad ang Onevn sa loob ng # na segundo}}</translation>
+<translation id="7595187113648413294">Inaatasan ka ng iyong administrator na muling ilunsad ang Onevn para malapat ang update</translation>
+<translation id="56801943271475640">{0,plural, =0{May available na update sa Onevn OS}=1{May available na update sa Onevn OS}one{# araw nang may available na update sa Onevn OS}other{# na araw nang may available na update sa Onevn OS}}</translation>
+<translation id="5715362474140341294">Hinihiling sa iyo ng administrator mo na i-restart ang Onevn OS para mailapat ang update na ito</translation>
+<translation id="8094834892392729950">{0,plural, =1{I-restart ang Onevn OS sa loob ng isang araw}one{I-restart ang Onevn OS sa loob ng # araw}other{I-restart ang Onevn OS sa loob ng # na araw}}</translation>
+<translation id="1265795866000813420">{0,plural, =1{Magre-restart ang Onevn OS sa loob ng isang oras}one{Magre-restart ang Onevn OS sa loob ng # oras}other{Magre-restart ang Onevn OS sa loob ng # na oras}}</translation>
+<translation id="2031312345409605311">{0,plural, =1{Magre-restart ang Onevn OS sa loob ng 1 minuto}one{Magre-restart ang Onevn OS sa loob ng # minuto}other{Magre-restart ang Onevn OS sa loob ng # na minuto}}</translation>
+<translation id="8624602604153953835">{0,plural, =0{Magre-restart na ang Onevn OS}=1{Magre-restart ang Onevn OS sa loob ng 1 segundo}one{Magre-restart ang Onevn OS sa loob ng # segundo}other{Magre-restart ang Onevn OS sa loob ng # na segundo}}</translation>
+<translation id="8559452515617838628">Inaatasan ka ng iyong administrator na i-restart ang Onevn OS para maglapat ng update</translation>
+<translation id="3052349005266761501">Inilulunsad ang Onevn...</translation>
+<translation id="1197672524850678392">Hindi mailunsad ang Onevn. Subukang muli.</translation>
 <translation id="6040143037577758943">Isara</translation>
-<translation id="8541922081612557424">Tungkol sa OneVN</translation>
-<translation id="3262506503470845422">Humingi ng tulong sa OneVN</translation>
-<translation id="1864557848095568223">Ina-update ang OneVN</translation>
-<translation id="1786715389543715322">Ina-update ang OneVN (<ph name="PROGRESS_PERCENT"/>)</translation>
-<translation id="8208853227947884571">Napapanahon ang OneVN</translation>
-<translation id="6686872257969654608">Tungkol sa OneVN OS</translation>
-<translation id="2280363356796735201">Humingi ng tulong sa OneVN OS</translation>
-<translation id="5253815230176279256">OneVN Software Pay (kinopya sa OneVN)</translation>
-<translation id="5468853758063275923">OneVN ang iyong default na browser</translation>
-<translation id="1775322105159056176">Hindi matukoy o maitakda ng OneVN ang default na browser</translation>
-<translation id="6915252145142862992">Pangalawang pag-install ito ng OneVN at hindi ito maaaring gawing iyong default na browser.</translation>
-<translation id="7977435741986383568">Maaaring gumamit ang OneVN ng mga serbisyo sa web upang mapahusay ang iyong karanasan sa pag-browse. Opsyonal mong madi-disable ang mga serbisyong ito. <ph name="BEGIN_LINK"/>Matuto pa<ph name="END_LINK"/></translation>
-<translation id="2312399718665761438">Para maayos ang mga error sa pagbabaybay, ipinapadala ng OneVN sa OneVN Software ang text na na-type mo sa mga text field</translation>
-<translation id="8586264863973514035">Para ilapat ang iyong mga pagbabago, muling ilunsad ang OneVN</translation>
-<translation id="7021823858304886493">Pagayan ang pag-sign in sa OneVN</translation>
-<translation id="1649714546770135458">Kapag na-off ito, maaari kang mag-sign in sa mga site ng OneVN Software tulad ng Gmail nang hindi nagsa-sign in sa OneVN</translation>
-<translation id="9220324636239049437">Magde-delete ito ng 1 item sa device na ito. Upang makuha ang iyong data sa ibang pagkakataon, mag-sign in sa OneVN bilang <ph name="USER_EMAIL"/>.</translation>
-<translation id="5853262807109651878">Magde-delete ito ng <ph name="ITEMS_COUNT"/> (na) item sa device na ito. Upang makuha ang iyong data sa ibang pagkakataon, mag-sign in sa OneVN bilang <ph name="USER_EMAIL"/>.</translation>
-<translation id="4784414698887946907">Ide-delete nito ang iyong data mula sa pag-browse sa device na ito. Upang makuha ang iyong data sa ibang pagkakataon, mag-sign in sa OneVN bilang <ph name="USER_EMAIL"/>.</translation>
-<translation id="4518479204315969707">pangalan at larawan sa OneVN</translation>
-<translation id="8372880274820509128">Para sa karagdagang seguridad, ie-encrypt ng OneVN ang iyong data.</translation>
-<translation id="7445061995866044926">Mag-sign out sa OneVN?</translation>
-<translation id="7453070689008684791">Ia-access ng OneVN ang iyong Drive para makapagmungkahi sa address bar</translation>
-<translation id="9221712274065451529">Ginagamit ang wikang ito para ipakita ang OneVN OS UI</translation>
-<translation id="3518788198614984730">Ipakita ang OneVN OS sa wikang ito</translation>
-<translation id="5757460455745382269">Ginagamit ang wikang ito para ipakita ang OneVN UI</translation>
-<translation id="2335583906071111058">Ipakita ang OneVN sa wikang ito</translation>
-<translation id="8926637909431618259">Patuloy na magpatakbo ng background na apps kapag nakasara ang OneVN</translation>
-<translation id="6056473803837713617">Tulungang pahusayin ang OneVN sa pamamagitan ng pag-ulat sa <ph name="BEGIN_LINK"/>mga kasalukuyang setting<ph name="END_LINK"/></translation>
+<translation id="8541922081612557424">Tungkol sa Onevn</translation>
+<translation id="3262506503470845422">Humingi ng tulong sa Onevn</translation>
+<translation id="1864557848095568223">Ina-update ang Onevn</translation>
+<translation id="1786715389543715322">Ina-update ang Onevn (<ph name="PROGRESS_PERCENT"/>)</translation>
+<translation id="8208853227947884571">Napapanahon ang Onevn</translation>
+<translation id="6686872257969654608">Tungkol sa Onevn OS</translation>
+<translation id="2280363356796735201">Humingi ng tulong sa Onevn OS</translation>
+<translation id="5253815230176279256">Onevn Software Pay (kinopya sa Onevn)</translation>
+<translation id="5468853758063275923">Onevn ang iyong default na browser</translation>
+<translation id="1775322105159056176">Hindi matukoy o maitakda ng Onevn ang default na browser</translation>
+<translation id="6915252145142862992">Pangalawang pag-install ito ng Onevn at hindi ito maaaring gawing iyong default na browser.</translation>
+<translation id="7977435741986383568">Maaaring gumamit ang Onevn ng mga serbisyo sa web upang mapahusay ang iyong karanasan sa pag-browse. Opsyonal mong madi-disable ang mga serbisyong ito. <ph name="BEGIN_LINK"/>Matuto pa<ph name="END_LINK"/></translation>
+<translation id="2312399718665761438">Para maayos ang mga error sa pagbabaybay, ipinapadala ng Onevn sa Onevn Software ang text na na-type mo sa mga text field</translation>
+<translation id="8586264863973514035">Para ilapat ang iyong mga pagbabago, muling ilunsad ang Onevn</translation>
+<translation id="7021823858304886493">Pagayan ang pag-sign in sa Onevn</translation>
+<translation id="1649714546770135458">Kapag na-off ito, maaari kang mag-sign in sa mga site ng Onevn Software tulad ng Gmail nang hindi nagsa-sign in sa Onevn</translation>
+<translation id="9220324636239049437">Magde-delete ito ng 1 item sa device na ito. Upang makuha ang iyong data sa ibang pagkakataon, mag-sign in sa Onevn bilang <ph name="USER_EMAIL"/>.</translation>
+<translation id="5853262807109651878">Magde-delete ito ng <ph name="ITEMS_COUNT"/> (na) item sa device na ito. Upang makuha ang iyong data sa ibang pagkakataon, mag-sign in sa Onevn bilang <ph name="USER_EMAIL"/>.</translation>
+<translation id="4784414698887946907">Ide-delete nito ang iyong data mula sa pag-browse sa device na ito. Upang makuha ang iyong data sa ibang pagkakataon, mag-sign in sa Onevn bilang <ph name="USER_EMAIL"/>.</translation>
+<translation id="4518479204315969707">pangalan at larawan sa Onevn</translation>
+<translation id="8372880274820509128">Para sa karagdagang seguridad, ie-encrypt ng Onevn ang iyong data.</translation>
+<translation id="7445061995866044926">Mag-sign out sa Onevn?</translation>
+<translation id="7453070689008684791">Ia-access ng Onevn ang iyong Drive para makapagmungkahi sa address bar</translation>
+<translation id="9221712274065451529">Ginagamit ang wikang ito para ipakita ang Onevn OS UI</translation>
+<translation id="3518788198614984730">Ipakita ang Onevn OS sa wikang ito</translation>
+<translation id="5757460455745382269">Ginagamit ang wikang ito para ipakita ang Onevn UI</translation>
+<translation id="2335583906071111058">Ipakita ang Onevn sa wikang ito</translation>
+<translation id="8926637909431618259">Patuloy na magpatakbo ng background na apps kapag nakasara ang Onevn</translation>
+<translation id="6056473803837713617">Tulungang pahusayin ang Onevn sa pamamagitan ng pag-ulat sa <ph name="BEGIN_LINK"/>mga kasalukuyang setting<ph name="END_LINK"/></translation>
 </translationbundle>

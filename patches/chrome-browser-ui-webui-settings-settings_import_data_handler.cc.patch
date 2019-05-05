@@ -16,13 +16,13 @@ index f546887fdfcd5907b99ed0d04822ecb28de5b69e..ae65da03e1d667e398eb29be9e4cee0c
    import_did_succeed_ = false;
  
 -  importer_host_ = new ExternalProcessImporterHost();
-+  importer_host_ = new OneVNExternalProcessImporterHost();
++  importer_host_ = new OnevnExternalProcessImporterHost();
    importer_host_->set_observer(this);
    Profile* profile = Profile::FromWebUI(web_ui());
    importer_host_->StartImportSettings(source_profile, profile,
                                        imported_items,
 -                                      new ProfileWriter(profile));
-+                                      new OneVNProfileWriter(profile));
++                                      new OnevnProfileWriter(profile));
  
    importer::LogImporterUseToMetrics("ImportDataHandler",
                                      source_profile.importer_type);

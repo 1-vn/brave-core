@@ -8,14 +8,14 @@
 #include "components/prefs/pref_service.h"
 #include "onevn/common/tor/pref_names.h"
 
-OneVNGeolocationPermissionContext::OneVNGeolocationPermissionContext(
+OnevnGeolocationPermissionContext::OnevnGeolocationPermissionContext(
   Profile* profile) : GeolocationPermissionContext(profile) {
 }
 
-OneVNGeolocationPermissionContext::~OneVNGeolocationPermissionContext() {
+OnevnGeolocationPermissionContext::~OnevnGeolocationPermissionContext() {
 }
 
-void OneVNGeolocationPermissionContext::DecidePermission(
+void OnevnGeolocationPermissionContext::DecidePermission(
   content::WebContents* web_contents,
   const PermissionRequestID& id,
   const GURL& requesting_origin,

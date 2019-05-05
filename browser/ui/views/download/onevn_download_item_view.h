@@ -10,11 +10,11 @@
 
 // The purpose of this subclass is to add URL origin and lock icon to the
 // download item view (shown in the download shelf).
-class OneVNDownloadItemView : public DownloadItemView {
+class OnevnDownloadItemView : public DownloadItemView {
  public:
-  OneVNDownloadItemView(DownloadUIModel::DownloadUIModelPtr download,
+  OnevnDownloadItemView(DownloadUIModel::DownloadUIModelPtr download,
       DownloadShelfView* parent, views::View* accessible_alert);
-  ~OneVNDownloadItemView() override;
+  ~OnevnDownloadItemView() override;
 
   // views::View:
   gfx::Size CalculatePreferredSize() const override;
@@ -31,7 +31,7 @@ class OneVNDownloadItemView : public DownloadItemView {
   static constexpr int kOriginURLIconRightPadding = 2;
 
   // Vertical padding between text lines.
-  static constexpr int kOneVNVerticalTextPadding = 3;
+  static constexpr int kOnevnVerticalTextPadding = 3;
 
   // These functions calculates the vertical coordinates for each text line.
   int GetYForFilenameText() const override;
@@ -49,8 +49,8 @@ class OneVNDownloadItemView : public DownloadItemView {
   // Overrides the accessible name construction to reflect the origin URL.
   void UpdateAccessibleName() override;
 
-  // OneVN download item model.
-  OneVNDownloadItemModel onevn_model_;
+  // Onevn download item model.
+  OnevnDownloadItemModel onevn_model_;
 
   // The font list used to draw the origin URL text.
   gfx::FontList origin_url_font_list_;
@@ -59,7 +59,7 @@ class OneVNDownloadItemView : public DownloadItemView {
   base::string16 origin_url_text_;
   bool is_origin_url_secure_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNDownloadItemView);
+  DISALLOW_COPY_AND_ASSIGN(OnevnDownloadItemView);
 };
 
 #endif

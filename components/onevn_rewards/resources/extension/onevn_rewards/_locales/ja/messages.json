@@ -1,6 +1,6 @@
 {
   "onevnRewards": {
-    "message": "OneVNリワード",
+    "message": "Onevnリワード",
     "description": "Title in welcome screen for the panel"
   },
   "welcomeButtonTextOne": {
@@ -28,7 +28,7 @@
     "description": "Link in the footer (takes you to rewards settings page) for welcome screen in the panel, new user"
   },
   "welcomeHeaderOne": {
-    "message": "OneVNリワードに大きな更新がありました。",
+    "message": "Onevnリワードに大きな更新がありました。",
     "description": "Main header title for welcome screen in the panel, existing user"
   },
   "welcomeHeaderTwo": {
@@ -48,7 +48,7 @@
     "description": "The whole string is 'Enable tips on YouTube for like.'"
   },
   "verifiedPublisher": {
-    "message": "OneVNが検証済みのパブリッシャー",
+    "message": "Onevnが検証済みのパブリッシャー",
     "description": "Tells user that this particular publisher is verified publisher"
   },
   "rewardsContributeAttentionScore": {
@@ -164,7 +164,7 @@
     "description": "Used in notification to dismiss notification"
   },
   "onevnAdsTitle": {
-    "message": "OneVN広告",
+    "message": "Onevn広告",
     "description": "Notification title when we display info about ads"
   },
   "onevnContributeTitle": {
@@ -198,7 +198,7 @@
     "description": "Description for backup wallet notification"
   },
   "insufficientFundsNotification": {
-    "message": "あなたの[OneVN Rewards]アカウントは入金を待っています。",
+    "message": "あなたの[Onevn Rewards]アカウントは入金を待っています。",
     "description": "Description for new insufficient funds notification"
   },
   "insufficientFunds": {
@@ -270,7 +270,7 @@
     "description": "Button text for clearing the error."
   },
   "grantGeneralErrorText": {
-    "message": "OneVN リワードに問題が発生しました。後からもう一度試してみてください。",
+    "message": "Onevn リワードに問題が発生しました。後からもう一度試してみてください。",
     "description": "Error text when user is having problems claiming a grant."
   },
   "grantGeneralErrorTitle": {
@@ -294,7 +294,7 @@
     "description": "Status of the publisher shown in the panel"
   },
   "unVerifiedText": {
-    "message": "このクリエイターは、OneVNユーザーから寄付を受け取る登録をまだ行っていません。彼らが認証するまでは、贈ったチップはあなたのウォレットに保留されます。",
+    "message": "このクリエイターは、Onevnユーザーから寄付を受け取る登録をまだ行っていません。彼らが認証するまでは、贈ったチップはあなたのウォレットに保留されます。",
     "description": "Notice about unverified publisher."
   },
   "unVerifiedTextMore": {
@@ -322,7 +322,7 @@
     "description": "Text for Panel's disabled state"
   },
   "disabledPanelTitle": {
-    "message": "OneVN リワードは、",
+    "message": "Onevn リワードは、",
     "description": "Title for Panel's disabled state"
   },
   "walletFailedTitle": {
@@ -358,7 +358,7 @@
     "description": "Text block for wallet disabled panel"
   },
   "enableRewards": {
-    "message": "OneVN Rewardsを有効にする",
+    "message": "Onevn Rewardsを有効にする",
     "description": "Subtitle for wallet disabled panel"
   },
   "privacyPolicy": {
@@ -366,7 +366,7 @@
     "description": "Privacy Policy"
   },
   "serviceText": {
-    "message": "[OneVN Rewardsを有効にする]をクリックすることによって、あなたは[…]を読んで同意したことを表明します",
+    "message": "[Onevn Rewardsを有効にする]をクリックすることによって、あなたは[…]を読んで同意したことを表明します",
     "description": "Terms of service main text"
   },
   "termsOfService": {

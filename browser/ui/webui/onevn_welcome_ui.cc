@@ -60,9 +60,9 @@ void WelcomeDOMHandler::HandleImportNowRequested(const base::ListValue* args) {
 
 }  // namespace
 
-OneVNWelcomeUI::OneVNWelcomeUI(content::WebUI* web_ui, const std::string& name)
-    : BasicUI(web_ui, name, kOneVNWelcomeGenerated,
-        kOneVNWelcomeGeneratedSize, IDR_ONEVN_WELCOME_HTML) {
+OnevnWelcomeUI::OnevnWelcomeUI(content::WebUI* web_ui, const std::string& name)
+    : BasicUI(web_ui, name, kOnevnWelcomeGenerated,
+        kOnevnWelcomeGeneratedSize, IDR_ONEVN_WELCOME_HTML) {
 
   auto handler_owner = std::make_unique<WelcomeDOMHandler>();
   WelcomeDOMHandler* handler = handler_owner.get();
@@ -77,5 +77,5 @@ OneVNWelcomeUI::OneVNWelcomeUI(content::WebUI* web_ui, const std::string& name)
 #endif
 }
 
-OneVNWelcomeUI::~OneVNWelcomeUI() {
+OnevnWelcomeUI::~OnevnWelcomeUI() {
 }

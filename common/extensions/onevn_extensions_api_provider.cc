@@ -10,49 +10,49 @@
 
 namespace extensions {
 
-OneVNExtensionsAPIProvider::OneVNExtensionsAPIProvider() {}
-OneVNExtensionsAPIProvider::~OneVNExtensionsAPIProvider() = default;
+OnevnExtensionsAPIProvider::OnevnExtensionsAPIProvider() {}
+OnevnExtensionsAPIProvider::~OnevnExtensionsAPIProvider() = default;
 
-void OneVNExtensionsAPIProvider::AddAPIFeatures(FeatureProvider* provider) {
-  AddOneVNAPIFeatures(provider);
+void OnevnExtensionsAPIProvider::AddAPIFeatures(FeatureProvider* provider) {
+  AddOnevnAPIFeatures(provider);
 }
 
-void OneVNExtensionsAPIProvider::AddManifestFeatures(
+void OnevnExtensionsAPIProvider::AddManifestFeatures(
     FeatureProvider* provider) {
-  AddOneVNManifestFeatures(provider);
+  AddOnevnManifestFeatures(provider);
 }
 
-void OneVNExtensionsAPIProvider::AddPermissionFeatures(
+void OnevnExtensionsAPIProvider::AddPermissionFeatures(
     FeatureProvider* provider) {
-  AddOneVNPermissionFeatures(provider);
+  AddOnevnPermissionFeatures(provider);
 }
 
-void OneVNExtensionsAPIProvider::AddBehaviorFeatures(
+void OnevnExtensionsAPIProvider::AddBehaviorFeatures(
     FeatureProvider* provider) {
   // No onevn-specific behavior features.
 }
 
-void OneVNExtensionsAPIProvider::AddAPIJSONSources(
+void OnevnExtensionsAPIProvider::AddAPIJSONSources(
     JSONFeatureProviderSource* json_source) {
   json_source->LoadJSON(IDR_ONEVN_EXTENSION_API_FEATURES);
 }
 
-bool OneVNExtensionsAPIProvider::IsAPISchemaGenerated(
+bool OnevnExtensionsAPIProvider::IsAPISchemaGenerated(
     const std::string& name) {
-  return api::OneVNGeneratedSchemas::IsGenerated(name);
+  return api::OnevnGeneratedSchemas::IsGenerated(name);
 }
 
-base::StringPiece OneVNExtensionsAPIProvider::GetAPISchema(
+base::StringPiece OnevnExtensionsAPIProvider::GetAPISchema(
     const std::string& name) {
-  return api::OneVNGeneratedSchemas::Get(name);
+  return api::OnevnGeneratedSchemas::Get(name);
 }
 
-void OneVNExtensionsAPIProvider::RegisterPermissions(
+void OnevnExtensionsAPIProvider::RegisterPermissions(
     PermissionsInfo* permissions_info) {
   // No onevn-specific permissions.
 }
 
-void OneVNExtensionsAPIProvider::RegisterManifestHandlers() {
+void OnevnExtensionsAPIProvider::RegisterManifestHandlers() {
   // No onevn-specific manifest handlers.
 }
 

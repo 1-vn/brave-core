@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -14,14 +14,14 @@ namespace extensions {
 
 class ExtensionRegistry;
 
-class OneVNExtensionManagement : public ExtensionManagement,
+class OnevnExtensionManagement : public ExtensionManagement,
                                  public ExtensionRegistryObserver {
  public:
-  explicit OneVNExtensionManagement(Profile* profile);
-  ~OneVNExtensionManagement() override;
+  explicit OnevnExtensionManagement(Profile* profile);
+  ~OnevnExtensionManagement() override;
 
  private:
-  void RegisterOneVNExtensions();
+  void RegisterOnevnExtensions();
 
   // ExtensionRegistryObserver implementation.
   void OnExtensionLoaded(
@@ -35,7 +35,7 @@ class OneVNExtensionManagement : public ExtensionManagement,
   ScopedObserver<ExtensionRegistry, ExtensionRegistryObserver>
     extension_registry_observer_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNExtensionManagement);
+  DISALLOW_COPY_AND_ASSIGN(OnevnExtensionManagement);
 };
 
 }  // namespace extensions

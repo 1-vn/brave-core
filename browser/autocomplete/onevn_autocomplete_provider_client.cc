@@ -10,32 +10,32 @@
 #include "chrome/browser/search_engines/template_url_service_factory.h"
 #include "chrome/common/webui_url_constants.h"
 
-OneVNAutocompleteProviderClient::OneVNAutocompleteProviderClient(
+OnevnAutocompleteProviderClient::OnevnAutocompleteProviderClient(
     Profile* profile)
     : ChromeAutocompleteProviderClient(profile->GetOriginalProfile()),
       profile_(profile) {
 }
 
-OneVNAutocompleteProviderClient::~OneVNAutocompleteProviderClient() {
+OnevnAutocompleteProviderClient::~OnevnAutocompleteProviderClient() {
 }
 
-TemplateURLService* OneVNAutocompleteProviderClient::GetTemplateURLService() {
+TemplateURLService* OnevnAutocompleteProviderClient::GetTemplateURLService() {
   return TemplateURLServiceFactory::GetForProfile(profile_);
 }
 
 const TemplateURLService*
-OneVNAutocompleteProviderClient::GetTemplateURLService() const {
+OnevnAutocompleteProviderClient::GetTemplateURLService() const {
   return TemplateURLServiceFactory::GetForProfile(profile_);
 }
 
-std::vector<base::string16> OneVNAutocompleteProviderClient::GetBuiltinURLs() {
+std::vector<base::string16> OnevnAutocompleteProviderClient::GetBuiltinURLs() {
   std::vector<base::string16> v =
       ChromeAutocompleteProviderClient::GetBuiltinURLs();
   auto it = std::find(v.begin(), v.end(),
       base::ASCIIToUTF16(chrome::kChromeUISyncInternalsHost));
   DCHECK(it != v.end());
   if (it != v.end()) {
-    *it = base::ASCIIToUTF16(kOneVNUISyncHost);
+    *it = base::ASCIIToUTF16(kOnevnUISyncHost);
   }
   return v;
 }

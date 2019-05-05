@@ -33,7 +33,7 @@ interface Props {
   actions: any
 }
 
-export class OneVNWebtorrentPage extends React.Component<Props, {}> {
+export class OnevnWebtorrentPage extends React.Component<Props, {}> {
   render () {
     const { actions, torrentState, torrentObj } = this.props
     let torrentId = decodeURIComponent(window.location.search.substring(1))
@@ -77,4 +77,4 @@ export const mapDispatchToProps = (dispatch: Dispatch) => ({
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(OneVNWebtorrentPage)
+)(OnevnWebtorrentPage)

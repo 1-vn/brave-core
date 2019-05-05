@@ -6,7 +6,7 @@ index eba1cb2596d71b91e06183209503f3fc83b0e593..e6261a982859a6a66caa00d362f290d2
    ~ThemeServiceWin() override;
  
   private:
-+  friend class OneVNThemeServiceWin;
++  friend class OnevnThemeServiceWin;
    // ThemeService:
    bool ShouldUseNativeFrame() const override;
    SkColor GetDefaultColor(int id, bool incognito) const override;

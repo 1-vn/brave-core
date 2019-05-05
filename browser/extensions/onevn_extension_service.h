@@ -9,11 +9,11 @@
 
 namespace extensions {
 
-class OneVNExtensionService : public ExtensionService {
+class OnevnExtensionService : public ExtensionService {
  public:
   // Constructor stores pointers to |profile| and |extension_prefs| but
   // ownership remains at caller.
-  OneVNExtensionService(Profile* profile,
+  OnevnExtensionService(Profile* profile,
                         const base::CommandLine* command_line,
                         const base::FilePath& install_directory,
                         ExtensionPrefs* extension_prefs,
@@ -21,11 +21,11 @@ class OneVNExtensionService : public ExtensionService {
                         bool autoupdate_enabled,
                         bool extensions_enabled,
                         OneShotEvent* ready);
-  ~OneVNExtensionService() override;
+  ~OnevnExtensionService() override;
 
   void AddComponentExtension(const Extension* extension) override;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNExtensionService);
+  DISALLOW_COPY_AND_ASSIGN(OnevnExtensionService);
 };
 
 }  // namespace extensions

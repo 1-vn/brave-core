@@ -15,7 +15,7 @@ index d007c018c95fd6d66cb70dfeb7be92ec3f9786b6..2e3196d5e5b4f279d5e88f6533185e02
        base::CommandLine::ForCurrentProcess()->HasSwitch(
            switches::kInstantProcess);
 -  ContentSettingsObserver* content_settings = new ContentSettingsObserver(
-+  ContentSettingsObserver* content_settings = new OneVNContentSettingsObserver(
++  ContentSettingsObserver* content_settings = new OnevnContentSettingsObserver(
        render_frame, should_whitelist_for_content_settings, registry);
  #if BUILDFLAG(ENABLE_EXTENSIONS)
    content_settings->SetExtensionDispatcher(

@@ -1,4 +1,4 @@
-/* Copyright 2019 The OneVN Authors. All rights reserved.
+/* Copyright 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -70,7 +70,7 @@ std::string BuildReferralEndpoint(const std::string& path) {
   std::string referral_server;
   env->GetVar("ONEVN_REFERRALS_SERVER", &referral_server);
   if (referral_server.empty())
-    referral_server = kOneVNReferralsServer;
+    referral_server = kOnevnReferralsServer;
   return base::StringPrintf("https://%s%s", referral_server.c_str(),
                             path.c_str());
 }
@@ -79,7 +79,7 @@ std::string BuildReferralEndpoint(const std::string& path) {
 
 namespace onevn {
 
-OneVNReferralsService::OneVNReferralsService(PrefService* pref_service)
+OnevnReferralsService::OnevnReferralsService(PrefService* pref_service)
     : initialized_(false),
       task_runner_(
           base::CreateSequencedTaskRunnerWithTraits({base::MayBlock()})),
@@ -87,16 +87,16 @@ OneVNReferralsService::OneVNReferralsService(PrefService* pref_service)
       weak_factory_(this) {
 }
 
-OneVNReferralsService::~OneVNReferralsService() {
+OnevnReferralsService::~OnevnReferralsService() {
 }
 
-void OneVNReferralsService::Start() {
+void OnevnReferralsService::Start() {
   if (initialized_)
     return;
 
   // Retrieve first run sentinel creation time.
   task_runner_->PostTask(FROM_HERE,
-                         base::Bind(&OneVNReferralsService::GetFirstRunTime,
+                         base::Bind(&OnevnReferralsService::GetFirstRunTime,
                                     base::Unretained(this)));
 
   // Fetch the referral headers on startup.
@@ -109,7 +109,7 @@ void OneVNReferralsService::Start() {
       FROM_HERE,
       base::TimeDelta::FromSeconds(kFetchReferralHeadersFrequency +
                                    base::RandInt(0, 60 * 10)),
-      this, &OneVNReferralsService::OnFetchReferralHeadersTimerFired);
+      this, &OnevnReferralsService::OnFetchReferralHeadersTimerFired);
   DCHECK(fetch_referral_headers_timer_->IsRunning());
 
   // On first run, read the promo code from user-data-dir and
@@ -120,21 +120,21 @@ void OneVNReferralsService::Start() {
   if (!checked_for_promo_code_file && download_id.empty())
     task_runner_->PostTaskAndReply(
         FROM_HERE,
-        base::Bind(&OneVNReferralsService::ReadPromoCode,
+        base::Bind(&OnevnReferralsService::ReadPromoCode,
                    base::Unretained(this)),
-        base::Bind(&OneVNReferralsService::OnReadPromoCodeComplete,
+        base::Bind(&OnevnReferralsService::OnReadPromoCodeComplete,
                    weak_factory_.GetWeakPtr()));
 
   initialized_ = true;
 }
 
-void OneVNReferralsService::Stop() {
+void OnevnReferralsService::Stop() {
   fetch_referral_headers_timer_.reset();
   initialized_ = false;
 }
 
 // static
-bool OneVNReferralsService::GetMatchingReferralHeaders(
+bool OnevnReferralsService::GetMatchingReferralHeaders(
     const base::ListValue& referral_headers_list,
     const base::DictionaryValue** request_headers_dict,
     const GURL& url) {
@@ -168,11 +168,11 @@ bool OneVNReferralsService::GetMatchingReferralHeaders(
   return false;
 }
 
-void OneVNReferralsService::OnFetchReferralHeadersTimerFired() {
+void OnevnReferralsService::OnFetchReferralHeadersTimerFired() {
   FetchReferralHeaders();
 }
 
-void OneVNReferralsService::OnReferralHeadersLoadComplete(
+void OnevnReferralsService::OnReferralHeadersLoadComplete(
     std::unique_ptr<std::string> response_body) {
   int response_code = -1;
   if (referral_headers_loader_->ResponseInfo() &&
@@ -200,7 +200,7 @@ void OneVNReferralsService::OnReferralHeadersLoadComplete(
   pref_service_->Set(kReferralHeaders, root.value());
 }
 
-void OneVNReferralsService::OnReferralInitLoadComplete(
+void OnevnReferralsService::OnReferralInitLoadComplete(
     std::unique_ptr<std::string> response_body) {
   int response_code = -1;
   if (referral_init_loader_->ResponseInfo() &&
@@ -253,11 +253,11 @@ void OneVNReferralsService::OnReferralInitLoadComplete(
   }
 
   task_runner_->PostTask(FROM_HERE,
-                         base::Bind(&OneVNReferralsService::DeletePromoCodeFile,
+                         base::Bind(&OnevnReferralsService::DeletePromoCodeFile,
                                     base::Unretained(this)));
 }
 
-void OneVNReferralsService::OnReferralFinalizationCheckLoadComplete(
+void OnevnReferralsService::OnReferralFinalizationCheckLoadComplete(
     std::unique_ptr<std::string> response_body) {
   int response_code = -1;
   if (referral_finalization_check_loader_->ResponseInfo() &&
@@ -295,7 +295,7 @@ void OneVNReferralsService::OnReferralFinalizationCheckLoadComplete(
   pref_service_->ClearPref(kReferralAttemptCount);
 }
 
-void OneVNReferralsService::OnReadPromoCodeComplete() {
+void OnevnReferralsService::OnReadPromoCodeComplete() {
   pref_service_->SetBoolean(kReferralCheckedForPromoCodeFile, true);
   if (!promo_code_.empty()) {
     pref_service_->SetString(kReferralPromoCode, promo_code_);
@@ -303,7 +303,7 @@ void OneVNReferralsService::OnReadPromoCodeComplete() {
   }
 }
 
-void OneVNReferralsService::GetFirstRunTime() {
+void OnevnReferralsService::GetFirstRunTime() {
   first_run_timestamp_ = first_run::GetFirstRunSentinelCreationTime();
   if (first_run_timestamp_.is_null())
     return;
@@ -311,23 +311,23 @@ void OneVNReferralsService::GetFirstRunTime() {
   // Delete the promo code preference, if appropriate.
   base::PostTaskWithTraits(
       FROM_HERE, {content::BrowserThread::UI},
-      base::BindOnce(&OneVNReferralsService::MaybeDeletePromoCodePref,
+      base::BindOnce(&OnevnReferralsService::MaybeDeletePromoCodePref,
                      base::Unretained(this)));
 
   // Check for referral finalization, if appropriate.
   base::PostTaskWithTraits(
       FROM_HERE, {content::BrowserThread::UI},
-      base::BindOnce(&OneVNReferralsService::MaybeCheckForReferralFinalization,
+      base::BindOnce(&OnevnReferralsService::MaybeCheckForReferralFinalization,
                      base::Unretained(this)));
 }
 
-base::FilePath OneVNReferralsService::GetPromoCodeFileName() const {
+base::FilePath OnevnReferralsService::GetPromoCodeFileName() const {
   base::FilePath user_data_dir;
   base::PathService::Get(chrome::DIR_USER_DATA, &user_data_dir);
   return user_data_dir.AppendASCII("promoCode");
 }
 
-void OneVNReferralsService::ReadPromoCode() {
+void OnevnReferralsService::ReadPromoCode() {
   base::FilePath promo_code_file = GetPromoCodeFileName();
   if (!base::PathExists(promo_code_file)) {
     promo_code_ = kDefaultPromoCode;
@@ -346,7 +346,7 @@ void OneVNReferralsService::ReadPromoCode() {
   }
 }
 
-void OneVNReferralsService::DeletePromoCodeFile() const {
+void OnevnReferralsService::DeletePromoCodeFile() const {
   base::FilePath promo_code_file = GetPromoCodeFileName();
   if (!base::DeleteFile(promo_code_file, false)) {
     LOG(ERROR) << "Failed to delete referral promo code file "
@@ -355,7 +355,7 @@ void OneVNReferralsService::DeletePromoCodeFile() const {
   }
 }
 
-void OneVNReferralsService::MaybeCheckForReferralFinalization() {
+void OnevnReferralsService::MaybeCheckForReferralFinalization() {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
 
   std::string download_id = pref_service_->GetString(kReferralDownloadID);
@@ -396,7 +396,7 @@ void OneVNReferralsService::MaybeCheckForReferralFinalization() {
   CheckForReferralFinalization();
 }
 
-void OneVNReferralsService::MaybeDeletePromoCodePref() const {
+void OnevnReferralsService::MaybeDeletePromoCodePref() const {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
 
   uint64_t delete_time = 90 * 24 * 60 * 60;
@@ -411,7 +411,7 @@ void OneVNReferralsService::MaybeDeletePromoCodePref() const {
     pref_service_->ClearPref(kReferralPromoCode);
 }
 
-std::string OneVNReferralsService::BuildReferralInitPayload() const {
+std::string OnevnReferralsService::BuildReferralInitPayload() const {
   std::string api_key = ONEVN_REFERRALS_API_KEY;
   std::unique_ptr<base::Environment> env(base::Environment::Create());
   if (env->HasVar("ONEVN_REFERRALS_API_KEY"))
@@ -428,7 +428,7 @@ std::string OneVNReferralsService::BuildReferralInitPayload() const {
   return result;
 }
 
-std::string OneVNReferralsService::BuildReferralFinalizationCheckPayload()
+std::string OnevnReferralsService::BuildReferralFinalizationCheckPayload()
     const {
   std::string api_key = ONEVN_REFERRALS_API_KEY;
   std::unique_ptr<base::Environment> env(base::Environment::Create());
@@ -446,18 +446,18 @@ std::string OneVNReferralsService::BuildReferralFinalizationCheckPayload()
   return result;
 }
 
-void OneVNReferralsService::FetchReferralHeaders() {
+void OnevnReferralsService::FetchReferralHeaders() {
   net::NetworkTrafficAnnotationTag traffic_annotation =
       net::DefineNetworkTrafficAnnotation(
         "onevn_referral_headers_fetcher", R"(
         semantics {
           sender:
-            "OneVN Referrals Service"
+            "Onevn Referrals Service"
           description:
-            "Fetches referral headers from OneVN."
+            "Fetches referral headers from Onevn."
           trigger:
             "An update timer indicates that it's time to fetch referral headers."
-          data: "OneVN referral headers."
+          data: "Onevn referral headers."
           destination: WEBSITE
         }
         policy {
@@ -469,7 +469,7 @@ void OneVNReferralsService::FetchReferralHeaders() {
         })");
   auto resource_request = std::make_unique<network::ResourceRequest>();
   resource_request->url =
-      GURL(BuildReferralEndpoint(kOneVNReferralsHeadersPath));
+      GURL(BuildReferralEndpoint(kOnevnReferralsHeadersPath));
   resource_request->load_flags =
       net::LOAD_DO_NOT_SEND_COOKIES | net::LOAD_DO_NOT_SAVE_COOKIES |
       net::LOAD_BYPASS_CACHE | net::LOAD_DISABLE_CACHE |
@@ -482,23 +482,23 @@ void OneVNReferralsService::FetchReferralHeaders() {
   referral_headers_loader_->SetAllowHttpErrorResults(true);
   referral_headers_loader_->DownloadToString(
       loader_factory,
-      base::BindOnce(&OneVNReferralsService::OnReferralHeadersLoadComplete,
+      base::BindOnce(&OnevnReferralsService::OnReferralHeadersLoadComplete,
                      base::Unretained(this)),
       kMaxReferralServerResponseSizeBytes);
 }
 
-void OneVNReferralsService::InitReferral() {
+void OnevnReferralsService::InitReferral() {
   net::NetworkTrafficAnnotationTag traffic_annotation =
       net::DefineNetworkTrafficAnnotation("onevn_referral_initializer", R"(
         semantics {
           sender:
-            "OneVN Referrals Service"
+            "Onevn Referrals Service"
           description:
-            "Validates the current referral offer with OneVN, potentially "
+            "Validates the current referral offer with Onevn, potentially "
             "unlocking special features and/or services."
           trigger:
-            "On startup, sends the current referral code to OneVN."
-          data: "OneVN referral metadata."
+            "On startup, sends the current referral code to Onevn."
+          data: "Onevn referral metadata."
           destination: WEBSITE
         }
         policy {
@@ -510,7 +510,7 @@ void OneVNReferralsService::InitReferral() {
         })");
   auto resource_request = std::make_unique<network::ResourceRequest>();
   resource_request->method = "PUT";
-  resource_request->url = GURL(BuildReferralEndpoint(kOneVNReferralsInitPath));
+  resource_request->url = GURL(BuildReferralEndpoint(kOnevnReferralsInitPath));
   resource_request->load_flags =
       net::LOAD_DO_NOT_SEND_COOKIES | net::LOAD_DO_NOT_SAVE_COOKIES |
       net::LOAD_BYPASS_CACHE | net::LOAD_DISABLE_CACHE |
@@ -525,23 +525,23 @@ void OneVNReferralsService::InitReferral() {
                                                "application/json");
   referral_init_loader_->DownloadToString(
       loader_factory,
-      base::BindOnce(&OneVNReferralsService::OnReferralInitLoadComplete,
+      base::BindOnce(&OnevnReferralsService::OnReferralInitLoadComplete,
                      base::Unretained(this)),
       kMaxReferralServerResponseSizeBytes);
 }
 
-void OneVNReferralsService::CheckForReferralFinalization() {
+void OnevnReferralsService::CheckForReferralFinalization() {
   net::NetworkTrafficAnnotationTag traffic_annotation =
       net::DefineNetworkTrafficAnnotation("onevn_referral_finalization_checker",
         R"(
         semantics {
           sender:
-            "OneVN Referrals Service"
+            "Onevn Referrals Service"
           description:
-            "Fetches referral finalization data from OneVN."
+            "Fetches referral finalization data from Onevn."
           trigger:
             ""
-          data: "OneVN referral finalization status."
+          data: "Onevn referral finalization status."
           destination: WEBSITE
         }
         policy {
@@ -554,7 +554,7 @@ void OneVNReferralsService::CheckForReferralFinalization() {
   auto resource_request = std::make_unique<network::ResourceRequest>();
   resource_request->method = "PUT";
   resource_request->url =
-      GURL(BuildReferralEndpoint(kOneVNReferralsActivityPath));
+      GURL(BuildReferralEndpoint(kOnevnReferralsActivityPath));
   resource_request->load_flags =
       net::LOAD_DO_NOT_SEND_COOKIES | net::LOAD_DO_NOT_SAVE_COOKIES |
       net::LOAD_BYPASS_CACHE | net::LOAD_DISABLE_CACHE |
@@ -570,12 +570,12 @@ void OneVNReferralsService::CheckForReferralFinalization() {
   referral_finalization_check_loader_->DownloadToString(
       loader_factory,
       base::BindOnce(
-          &OneVNReferralsService::OnReferralFinalizationCheckLoadComplete,
+          &OnevnReferralsService::OnReferralFinalizationCheckLoadComplete,
           base::Unretained(this)),
       kMaxReferralServerResponseSizeBytes);
 }
 
-std::string OneVNReferralsService::FormatExtraHeaders(
+std::string OnevnReferralsService::FormatExtraHeaders(
     const base::Value* referral_headers,
     const GURL& url) {
   if (!referral_headers)
@@ -603,12 +603,12 @@ std::string OneVNReferralsService::FormatExtraHeaders(
 
 ///////////////////////////////////////////////////////////////////////////////
 
-std::unique_ptr<OneVNReferralsService> OneVNReferralsServiceFactory(
+std::unique_ptr<OnevnReferralsService> OnevnReferralsServiceFactory(
     PrefService* pref_service) {
-  return std::make_unique<OneVNReferralsService>(pref_service);
+  return std::make_unique<OnevnReferralsService>(pref_service);
 }
 
-void RegisterPrefsForOneVNReferralsService(PrefRegistrySimple* registry) {
+void RegisterPrefsForOnevnReferralsService(PrefRegistrySimple* registry) {
   registry->RegisterBooleanPref(kReferralCheckedForPromoCodeFile, false);
   registry->RegisterStringPref(kReferralPromoCode, std::string());
   registry->RegisterStringPref(kReferralDownloadID, std::string());

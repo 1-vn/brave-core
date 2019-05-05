@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -44,10 +44,10 @@ const base::FilePath::CharType kDefaultTargetFilePath[] =
 const base::FilePath::CharType kDefaultDisplayFileName[] =
     FILE_PATH_LITERAL("foo.bar");
 
-class OneVNDownloadItemModelTest : public testing::Test {
+class OnevnDownloadItemModelTest : public testing::Test {
  public:
-  OneVNDownloadItemModelTest() : model_(&item_), onevn_model_(model_) {}
-  ~OneVNDownloadItemModelTest() override {}
+  OnevnDownloadItemModelTest() : model_(&item_), onevn_model_(model_) {}
+  ~OnevnDownloadItemModelTest() override {}
 
  protected:
   void SetupDownloadItemDefaults() {
@@ -70,17 +70,17 @@ class OneVNDownloadItemModelTest : public testing::Test {
   }
 
   download::MockDownloadItem& item() { return item_; }
-  OneVNDownloadItemModel& model() { return onevn_model_; }
+  OnevnDownloadItemModel& model() { return onevn_model_; }
 
  private:
   NiceMock<download::MockDownloadItem> item_;
   DownloadItemModel model_;
-  OneVNDownloadItemModel onevn_model_;
+  OnevnDownloadItemModel onevn_model_;
 };
 
 }  // namespace
 
-TEST_F(OneVNDownloadItemModelTest, GetOriginUrlText) {
+TEST_F(OnevnDownloadItemModelTest, GetOriginUrlText) {
   // Test that we have the correct origin URL text.
   const struct TestCase {
     // The url.
@@ -118,7 +118,7 @@ TEST_F(OneVNDownloadItemModelTest, GetOriginUrlText) {
   }
 }
 
-TEST_F(OneVNDownloadItemModelTest, GetTooltipText) {
+TEST_F(OnevnDownloadItemModelTest, GetTooltipText) {
   // Test that we have the correct tooltip text that includes origin URL.
   const struct TestCase {
     // The url.

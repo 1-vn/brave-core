@@ -6,7 +6,7 @@ index 1efb721e103ad43bb8799ceed2ce3fc199ccd9e6..9818f8be199a7c378721bf4b90222c25
    // If |in_host| represents an IPv6 address, it should not bracket the address.
    HostPortPair(const std::string& in_host, uint16_t in_port);
  
-+  // OneVN addition.  Nudges HostPortPair past Chromium's style
++  // Onevn addition.  Nudges HostPortPair past Chromium's style
 +  // threshold for in-line constructors and destructors.
 +  HostPortPair(const std::string& username, const std::string& password,
 +               const std::string& in_host, uint16_t in_port);

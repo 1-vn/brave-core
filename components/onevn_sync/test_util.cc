@@ -24,7 +24,7 @@ using namespace bookmarks;
 
 void AddPermanentNode(BookmarkPermanentNodeList* extra_nodes, int64_t id,
       const std::string& title) {
-  auto node = std::make_unique<onevn_sync::OneVNBookmarkPermanentNode>(id);
+  auto node = std::make_unique<onevn_sync::OnevnBookmarkPermanentNode>(id);
   node->set_type(bookmarks::BookmarkNode::FOLDER);
   node->set_visible(false);
   node->SetTitle(base::UTF8ToUTF16(title));
@@ -35,12 +35,12 @@ void AddPermanentNode(BookmarkPermanentNodeList* extra_nodes, int64_t id,
 
 namespace onevn_sync {
 
-MockOneVNSyncClient::MockOneVNSyncClient() {}
+MockOnevnSyncClient::MockOnevnSyncClient() {}
 
-MockOneVNSyncClient::~MockOneVNSyncClient() {}
+MockOnevnSyncClient::~MockOnevnSyncClient() {}
 
-std::unique_ptr<Profile> CreateOneVNSyncProfile(const base::FilePath& path) {
-  OneVNSyncServiceFactory::GetInstance();
+std::unique_ptr<Profile> CreateOnevnSyncProfile(const base::FilePath& path) {
+  OnevnSyncServiceFactory::GetInstance();
 
   sync_preferences::PrefServiceMockFactory factory;
   auto registry = base::MakeRefCounted<user_prefs::PrefRegistrySyncable>();

@@ -8,98 +8,98 @@
 
 namespace mini_installer {
 
-class OneVNMiniInstallerTest: public testing::Test {
+class OnevnMiniInstallerTest: public testing::Test {
  public:
-  OneVNMiniInstallerTest() {
+  OnevnMiniInstallerTest() {
   }
-  ~OneVNMiniInstallerTest() override {}
+  ~OnevnMiniInstallerTest() override {}
 };
 
 
-TEST_F(OneVNMiniInstallerTest, HasNoReferralCode) {
+TEST_F(OnevnMiniInstallerTest, HasNoReferralCode) {
   ReferralCodeString referral_code;
-  EXPECT_FALSE(ParseReferralCode(L"OneVNBrowserSetup.exe", referral_code));
+  EXPECT_FALSE(ParseReferralCode(L"OnevnBrowserSetup.exe", referral_code));
 }
 
-TEST_F(OneVNMiniInstallerTest, HasStandardReferralCode) {
+TEST_F(OnevnMiniInstallerTest, HasStandardReferralCode) {
   ReferralCodeString referral_code;
-  EXPECT_TRUE(ParseReferralCode(L"OneVNBrowserSetup-FOO123.exe", referral_code));
+  EXPECT_TRUE(ParseReferralCode(L"OnevnBrowserSetup-FOO123.exe", referral_code));
   EXPECT_STREQ(referral_code.get(), L"FOO123");
 }
 
-TEST_F(OneVNMiniInstallerTest, HasStandardReferralCodeWithPath) {
+TEST_F(OnevnMiniInstallerTest, HasStandardReferralCodeWithPath) {
   ReferralCodeString referral_code;
-  EXPECT_TRUE(ParseReferralCode(L"c:/foo/bar/OneVNBrowserSetup-FOO123.exe", referral_code));
+  EXPECT_TRUE(ParseReferralCode(L"c:/foo/bar/OnevnBrowserSetup-FOO123.exe", referral_code));
   EXPECT_STREQ(referral_code.get(), L"FOO123");
 }
 
-TEST_F(OneVNMiniInstallerTest, HasStandardReferralCodeWithDeduplicatingSuffix) {
+TEST_F(OnevnMiniInstallerTest, HasStandardReferralCodeWithDeduplicatingSuffix) {
   ReferralCodeString referral_code;
-  EXPECT_TRUE(ParseReferralCode(L"c:/foo/bar/OneVNBrowserSetup-FOO123 (1).exe", referral_code));
+  EXPECT_TRUE(ParseReferralCode(L"c:/foo/bar/OnevnBrowserSetup-FOO123 (1).exe", referral_code));
   EXPECT_STREQ(referral_code.get(), L"FOO123");
 }
 
-TEST_F(OneVNMiniInstallerTest, HasStandardReferralCodeWithDeduplicatingSuffixNoSpaces) {
+TEST_F(OnevnMiniInstallerTest, HasStandardReferralCodeWithDeduplicatingSuffixNoSpaces) {
   ReferralCodeString referral_code;
-  EXPECT_TRUE(ParseReferralCode(L"c:/foo/bar/OneVNBrowserSetup-FOO123(1).exe", referral_code));
+  EXPECT_TRUE(ParseReferralCode(L"c:/foo/bar/OnevnBrowserSetup-FOO123(1).exe", referral_code));
   EXPECT_STREQ(referral_code.get(), L"FOO123");
 }
 
-TEST_F(OneVNMiniInstallerTest, HasStandardReferralCodeWithDeduplicatingSuffixExtraSpaces) {
+TEST_F(OnevnMiniInstallerTest, HasStandardReferralCodeWithDeduplicatingSuffixExtraSpaces) {
   ReferralCodeString referral_code;
-  EXPECT_TRUE(ParseReferralCode(L"c:/foo/bar/OneVNBrowserSetup-FOO123   (1).exe", referral_code));
+  EXPECT_TRUE(ParseReferralCode(L"c:/foo/bar/OnevnBrowserSetup-FOO123   (1).exe", referral_code));
   EXPECT_STREQ(referral_code.get(), L"FOO123");
 }
 
-TEST_F(OneVNMiniInstallerTest, HasInvalidStandardReferralCodeReversed) {
+TEST_F(OnevnMiniInstallerTest, HasInvalidStandardReferralCodeReversed) {
   ReferralCodeString referral_code;
-  EXPECT_FALSE(ParseReferralCode(L"OneVNBrowserSetup-123FOO.exe", referral_code));
+  EXPECT_FALSE(ParseReferralCode(L"OnevnBrowserSetup-123FOO.exe", referral_code));
 }
 
-TEST_F(OneVNMiniInstallerTest, HasInvalidStandardReferralCodeNoDigits) {
+TEST_F(OnevnMiniInstallerTest, HasInvalidStandardReferralCodeNoDigits) {
   ReferralCodeString referral_code;
-  EXPECT_FALSE(ParseReferralCode(L"OneVNBrowserSetup-FOO.exe", referral_code));
+  EXPECT_FALSE(ParseReferralCode(L"OnevnBrowserSetup-FOO.exe", referral_code));
 }
 
-TEST_F(OneVNMiniInstallerTest, HasInvalidStandardReferralCodeNoLetters) {
+TEST_F(OnevnMiniInstallerTest, HasInvalidStandardReferralCodeNoLetters) {
   ReferralCodeString referral_code;
-  EXPECT_FALSE(ParseReferralCode(L"OneVNBrowserSetup-123.exe", referral_code));
+  EXPECT_FALSE(ParseReferralCode(L"OnevnBrowserSetup-123.exe", referral_code));
 }
 
-TEST_F(OneVNMiniInstallerTest, HasInvalidStandardReferralCodeTooManyDigits) {
+TEST_F(OnevnMiniInstallerTest, HasInvalidStandardReferralCodeTooManyDigits) {
   ReferralCodeString referral_code;
-  EXPECT_FALSE(ParseReferralCode(L"OneVNBrowserSetup-FOO1234.exe", referral_code));
+  EXPECT_FALSE(ParseReferralCode(L"OnevnBrowserSetup-FOO1234.exe", referral_code));
 }
 
-TEST_F(OneVNMiniInstallerTest, HasInvalidStandardReferralCodeTooFewDigits) {
+TEST_F(OnevnMiniInstallerTest, HasInvalidStandardReferralCodeTooFewDigits) {
   ReferralCodeString referral_code;
-  EXPECT_FALSE(ParseReferralCode(L"OneVNBrowserSetup-FOO12.exe", referral_code));
+  EXPECT_FALSE(ParseReferralCode(L"OnevnBrowserSetup-FOO12.exe", referral_code));
 }
 
-TEST_F(OneVNMiniInstallerTest, HasInvalidStandardReferralCodeTooManyLetters) {
+TEST_F(OnevnMiniInstallerTest, HasInvalidStandardReferralCodeTooManyLetters) {
   ReferralCodeString referral_code;
-  EXPECT_FALSE(ParseReferralCode(L"OneVNBrowserSetup-FOOO123.exe", referral_code));
+  EXPECT_FALSE(ParseReferralCode(L"OnevnBrowserSetup-FOOO123.exe", referral_code));
 }
 
-TEST_F(OneVNMiniInstallerTest, HasInvalidStandardReferralCodeTooFewLetters) {
+TEST_F(OnevnMiniInstallerTest, HasInvalidStandardReferralCodeTooFewLetters) {
   ReferralCodeString referral_code;
-  EXPECT_FALSE(ParseReferralCode(L"OneVNBrowserSetup-FO123.exe", referral_code));
+  EXPECT_FALSE(ParseReferralCode(L"OnevnBrowserSetup-FO123.exe", referral_code));
 }
 
-TEST_F(OneVNMiniInstallerTest, HasExtendedReferralCode) {
+TEST_F(OnevnMiniInstallerTest, HasExtendedReferralCode) {
   ReferralCodeString referral_code;
-  EXPECT_TRUE(ParseReferralCode(L"OneVNBrowserSetup-extended-code.exe", referral_code));
+  EXPECT_TRUE(ParseReferralCode(L"OnevnBrowserSetup-extended-code.exe", referral_code));
   EXPECT_STREQ(referral_code.get(), L"extended-code");
 }
 
-TEST_F(OneVNMiniInstallerTest, HasInvalidExtendedReferralCodeNonAlphabeticCharacters) {
+TEST_F(OnevnMiniInstallerTest, HasInvalidExtendedReferralCodeNonAlphabeticCharacters) {
   ReferralCodeString referral_code;
-  EXPECT_FALSE(ParseReferralCode(L"OneVNBrowserSetup-invalid-extended-c0de.exe", referral_code));
+  EXPECT_FALSE(ParseReferralCode(L"OnevnBrowserSetup-invalid-extended-c0de.exe", referral_code));
 }
 
-TEST_F(OneVNMiniInstallerTest, HasInvalidExtendedReferralCodeTooFewWords) {
+TEST_F(OnevnMiniInstallerTest, HasInvalidExtendedReferralCodeTooFewWords) {
   ReferralCodeString referral_code;
-  EXPECT_FALSE(ParseReferralCode(L"OneVNBrowserSetup-invalidextendedcode.exe", referral_code));
+  EXPECT_FALSE(ParseReferralCode(L"OnevnBrowserSetup-invalidextendedcode.exe", referral_code));
 }
 
 }  // namespace mini_installer

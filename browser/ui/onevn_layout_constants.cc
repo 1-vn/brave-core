@@ -7,8 +7,8 @@
 #include "chrome/browser/ui/layout_constants.h"
 #include "ui/base/material_design/material_design_controller.h"
 
-// Returns a |nullopt| if the UI color is not handled by OneVN.
-base::Optional<int> GetOneVNLayoutConstant(LayoutConstant constant) {
+// Returns a |nullopt| if the UI color is not handled by Onevn.
+base::Optional<int> GetOnevnLayoutConstant(LayoutConstant constant) {
   const bool touch = ui::MaterialDesignController::touch_ui();
   // const bool hybrid = mode == ui::MaterialDesignController::MATERIAL_HYBRID;
   // const bool touch_optimized_material =

@@ -12,7 +12,7 @@ from lib.changelog import *
 def main():
     """
     Download the onevn-browser/CHANGELOG.md file, parse it, and
-    return either markdown or html for a particular OneVN tag.
+    return either markdown or html for a particular Onevn tag.
 
     Example:
     python script/changelog.py -t refs/tags/v0.61.51 \
@@ -20,7 +20,7 @@ def main():
 
     ## [0.61.51](https://github.com/1-vn/onevn-browser/releases/tag/v0.61.51)
 
-    - Added new setting that allows OneVN Rewards icon in the URL to be hidden if Rewards \
+    - Added new setting that allows Onevn Rewards icon in the URL to be hidden if Rewards \
         is inactive. ([#2975](https://github.com/1-vn/onevn-browser/issues/2975))
 
     """
@@ -59,7 +59,7 @@ def main():
 
 
 def parse_args():
-    desc = "Parse OneVN Browser changelog and return changes for a tag"
+    desc = "Parse Onevn Browser changelog and return changes for a tag"
 
     parser = argparse.ArgumentParser(
         description=desc, formatter_class=RawTextHelpFormatter)
@@ -67,8 +67,8 @@ def parse_args():
                         help='Print debug statements')
     parser.add_argument('-o', '--output', help='Output format: markdown or html', required=True)
     parser.add_argument('-t', '--tag',
-                        help='OneVN version tag (allowed format: "v0.60.45" or "refs/tags/v0.60.45")', required=True)
-    parser.add_argument('-u', '--url', help='URL for OneVN Browser raw markdown file (required)', required=True)
+                        help='Onevn version tag (allowed format: "v0.60.45" or "refs/tags/v0.60.45")', required=True)
+    parser.add_argument('-u', '--url', help='URL for Onevn Browser raw markdown file (required)', required=True)
     return parser.parse_args()
 
 

@@ -6,7 +6,7 @@ index 1bc28ee49583590caad4585715e2637d514716c3..32233f43c6a7ced84f748c30dc2f94c8
      const GURL& url,
      RankerURLFetcher::Callback callback,
      network::mojom::URLLoaderFactory* url_loader_factory) {
-+  return false; // feature disabled in OneVN
++  return false; // feature disabled in Onevn
    // This function is not supposed to be called if the previous operation is not
    // finished.
    if (state_ == REQUESTING) {

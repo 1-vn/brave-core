@@ -24,7 +24,7 @@
 
 namespace extensions {
 
-v8::Local<v8::Object> OneVNShieldsContentSetting::Create(
+v8::Local<v8::Object> OnevnShieldsContentSetting::Create(
     v8::Isolate* isolate,
     const std::string& property_name,
     const base::ListValue* property_values,
@@ -37,13 +37,13 @@ v8::Local<v8::Object> OneVNShieldsContentSetting::Create(
   const base::DictionaryValue* value_spec = nullptr;
   CHECK(property_values->GetDictionary(1u, &value_spec));
 
-  gin::Handle<OneVNShieldsContentSetting> handle = gin::CreateHandle(
-      isolate, new OneVNShieldsContentSetting(request_handler, type_refs, access_checker,
+  gin::Handle<OnevnShieldsContentSetting> handle = gin::CreateHandle(
+      isolate, new OnevnShieldsContentSetting(request_handler, type_refs, access_checker,
                                   pref_name, *value_spec));
   return handle.ToV8().As<v8::Object>();
 }
 
-OneVNShieldsContentSetting::OneVNShieldsContentSetting(APIRequestHandler* request_handler,
+OnevnShieldsContentSetting::OnevnShieldsContentSetting(APIRequestHandler* request_handler,
                                const APITypeReferenceMap* type_refs,
                                const BindingAccessChecker* access_checker,
                                const std::string& pref_name,
@@ -81,30 +81,30 @@ OneVNShieldsContentSetting::OneVNShieldsContentSetting(APIRequestHandler* reques
   argument_spec_.set_properties(std::move(properties));
 }
 
-OneVNShieldsContentSetting::~OneVNShieldsContentSetting() = default;
+OnevnShieldsContentSetting::~OnevnShieldsContentSetting() = default;
 
-gin::WrapperInfo OneVNShieldsContentSetting::kWrapperInfo = {gin::kEmbedderNativeGin};
+gin::WrapperInfo OnevnShieldsContentSetting::kWrapperInfo = {gin::kEmbedderNativeGin};
 
-gin::ObjectTemplateBuilder OneVNShieldsContentSetting::GetObjectTemplateBuilder(
+gin::ObjectTemplateBuilder OnevnShieldsContentSetting::GetObjectTemplateBuilder(
     v8::Isolate* isolate) {
-  return Wrappable<OneVNShieldsContentSetting>::GetObjectTemplateBuilder(isolate)
-      .SetMethod("get", &OneVNShieldsContentSetting::Get)
-      .SetMethod("set", &OneVNShieldsContentSetting::Set);
+  return Wrappable<OnevnShieldsContentSetting>::GetObjectTemplateBuilder(isolate)
+      .SetMethod("get", &OnevnShieldsContentSetting::Get)
+      .SetMethod("set", &OnevnShieldsContentSetting::Set);
 }
 
-const char* OneVNShieldsContentSetting::GetTypeName() {
+const char* OnevnShieldsContentSetting::GetTypeName() {
   return "ContentSetting";
 }
 
-void OneVNShieldsContentSetting::Get(gin::Arguments* arguments) {
+void OnevnShieldsContentSetting::Get(gin::Arguments* arguments) {
   HandleFunction("get", arguments);
 }
 
-void OneVNShieldsContentSetting::Set(gin::Arguments* arguments) {
+void OnevnShieldsContentSetting::Set(gin::Arguments* arguments) {
   HandleFunction("set", arguments);
 }
 
-void OneVNShieldsContentSetting::HandleFunction(const std::string& method_name,
+void OnevnShieldsContentSetting::HandleFunction(const std::string& method_name,
                                     gin::Arguments* arguments) {
   v8::Isolate* isolate = arguments->isolate();
   v8::HandleScope handle_scope(isolate);

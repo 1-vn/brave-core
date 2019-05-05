@@ -15,7 +15,7 @@
 
 #if defined(OS_MACOSX)
 // GetChannelByName is only supported on MacOS.
-TEST(OneVNChannelInfoTest, ChannelByNameTest) {
+TEST(OnevnChannelInfoTest, ChannelByNameTest) {
 #if defined(OFFICIAL_BUILD)
   EXPECT_EQ(version_info::Channel::STABLE,
             chrome::GetChannelByName(""));
@@ -33,49 +33,49 @@ TEST(OneVNChannelInfoTest, ChannelByNameTest) {
 #endif  // OS_MACOSX
 
 #if defined(OS_LINUX)
-TEST(OneVNChannelInfoTest, ParentDirectoryOfUserDataDirectoryTest) {
+TEST(OnevnChannelInfoTest, ParentDirectoryOfUserDataDirectoryTest) {
   base::FilePath path;
   EXPECT_TRUE(chrome::GetDefaultUserDataDirectory(&path));
-  EXPECT_EQ("OneVNSoftware", path.DirName().BaseName().AsUTF8Unsafe());
+  EXPECT_EQ("OnevnSoftware", path.DirName().BaseName().AsUTF8Unsafe());
 }
 
-TEST(OneVNChannelInfoTest, DefaultUserDataDirectoryAndChannelTest) {
+TEST(OnevnChannelInfoTest, DefaultUserDataDirectoryAndChannelTest) {
   base::FilePath path;
 #if defined(OFFICIAL_BUILD)
   auto env = base::Environment::Create();
 
   env->SetVar("CHROME_VERSION_EXTRA", LINUX_CHANNEL_STABLE);
   EXPECT_TRUE(chrome::GetDefaultUserDataDirectory(&path));
-  EXPECT_EQ("OneVN-Browser", path.BaseName().AsUTF8Unsafe());
+  EXPECT_EQ("Onevn-Browser", path.BaseName().AsUTF8Unsafe());
   EXPECT_EQ(version_info::Channel::STABLE, chrome::GetChannel());
   EXPECT_EQ(ONEVN_LINUX_CHANNEL_STABLE, chrome::GetChannelName());
 
   env->SetVar("CHROME_VERSION_EXTRA", LINUX_CHANNEL_BETA);
   EXPECT_TRUE(chrome::GetDefaultUserDataDirectory(&path));
-  EXPECT_EQ("OneVN-Browser-Beta", path.BaseName().AsUTF8Unsafe());
+  EXPECT_EQ("Onevn-Browser-Beta", path.BaseName().AsUTF8Unsafe());
   EXPECT_EQ(version_info::Channel::BETA, chrome::GetChannel());
   EXPECT_EQ(LINUX_CHANNEL_BETA, chrome::GetChannelName());
 
   env->SetVar("CHROME_VERSION_EXTRA", ONEVN_LINUX_CHANNEL_DEV);
   EXPECT_TRUE(chrome::GetDefaultUserDataDirectory(&path));
-  EXPECT_EQ("OneVN-Browser-Dev", path.BaseName().AsUTF8Unsafe());
+  EXPECT_EQ("Onevn-Browser-Dev", path.BaseName().AsUTF8Unsafe());
   EXPECT_EQ(version_info::Channel::DEV, chrome::GetChannel());
   EXPECT_EQ(ONEVN_LINUX_CHANNEL_DEV, chrome::GetChannelName());
 
   env->SetVar("CHROME_VERSION_EXTRA", LINUX_CHANNEL_DEV);
   EXPECT_TRUE(chrome::GetDefaultUserDataDirectory(&path));
-  EXPECT_EQ("OneVN-Browser-Dev", path.BaseName().AsUTF8Unsafe());
+  EXPECT_EQ("Onevn-Browser-Dev", path.BaseName().AsUTF8Unsafe());
   EXPECT_EQ(version_info::Channel::DEV, chrome::GetChannel());
   EXPECT_EQ(ONEVN_LINUX_CHANNEL_DEV, chrome::GetChannelName());
 
   env->SetVar("CHROME_VERSION_EXTRA", ONEVN_LINUX_CHANNEL_NIGHTLY);
   EXPECT_TRUE(chrome::GetDefaultUserDataDirectory(&path));
-  EXPECT_EQ("OneVN-Browser-Nightly", path.BaseName().AsUTF8Unsafe());
+  EXPECT_EQ("Onevn-Browser-Nightly", path.BaseName().AsUTF8Unsafe());
   EXPECT_EQ(version_info::Channel::CANARY, chrome::GetChannel());
   EXPECT_EQ(ONEVN_LINUX_CHANNEL_NIGHTLY, chrome::GetChannelName());
 #else  // OFFICIAL_BUILD
   EXPECT_TRUE(chrome::GetDefaultUserDataDirectory(&path));
-  EXPECT_EQ("OneVN-Browser-Development", path.BaseName().AsUTF8Unsafe());
+  EXPECT_EQ("Onevn-Browser-Development", path.BaseName().AsUTF8Unsafe());
   EXPECT_EQ(version_info::Channel::UNKNOWN, chrome::GetChannel());
   EXPECT_EQ(ONEVN_LINUX_CHANNEL_STABLE, chrome::GetChannelName());
 #endif  // !OFFICIAL_BUILD

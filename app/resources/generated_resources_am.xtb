@@ -20,12 +20,12 @@
 <translation id="8261506727792406068">ሰርዝ</translation>
 <translation id="144283815522798837"><ph name="NUMBER_OF_ITEMS_SELECTED"/> ተመርጠዋል</translation>
 <translation id="5582839680698949063">ዋና ምናሌ</translation>
-<translation id="3700405816184340252">የOneVN ታሪክ</translation>
+<translation id="3700405816184340252">የOnevn ታሪክ</translation>
 <translation id="7602079150116086782">ከሌሎች መሣሪያዎች ምንም ትሮች የሉም</translation>
 <translation id="4619615317237390068">ከሌሎች መሣሪያዎች የመጡ ትሮች</translation>
-<translation id="82609232232243542">OneVN ውስጥ ይግቡ</translation>
+<translation id="82609232232243542">Onevn ውስጥ ይግቡ</translation>
 <translation id="4627442949885028695">ከሌላ መሣሪያ ላይ ቀጥል</translation>
-<translation id="7253276740368043692">ትሮችዎን ከሌሎች መሣሪያዎችዎ ለማግኘት ወደ OneVN ይግቡ።</translation>
+<translation id="7253276740368043692">ትሮችዎን ከሌሎች መሣሪያዎችዎ ለማግኘት ወደ Onevn ይግቡ።</translation>
 <translation id="6351063337294363751">የእርስዎን የአሰሳ አደራረግ ውሂብ ከዚህ ምናሌ ላይ ማጽዳት ይችላሉ</translation>
 <translation id="6040143037577758943">ዝጋ</translation>
 <translation id="6463795194797719782">&amp;አርትዕ</translation>
@@ -90,15 +90,15 @@
 <translation id="5233736638227740678">&amp;ለጥፍ</translation>
 <translation id="2218515861914035131">እንደ ስነጣ አልባ ጽሑፍ ለጥፍ</translation>
 <translation id="1017280919048282932">&amp;ወደ መዝገበ ቃላት አክል</translation>
-<translation id="1732768497619250086">የምስል ዝርዝሮችን ከOneVN Software ያግኙ</translation>
+<translation id="1732768497619250086">የምስል ዝርዝሮችን ከOnevn Software ያግኙ</translation>
 <translation id="7561196759112975576">ሁልጊዜ</translation>
 <translation id="2241634353105152135">አንድ ጊዜ ብቻ</translation>
 <translation id="741204030948306876">አዎ፣ ገብቼያለሁ</translation>
 <translation id="780301667611848630">አይ፣ አመሰግናለሁ</translation>
-<translation id="4572259796527554261">ለጥቆማ አስተያየቶችን OneVN Softwareን ይጠይቁ</translation>
+<translation id="4572259796527554261">ለጥቆማ አስተያየቶችን Onevn Softwareን ይጠይቁ</translation>
 <translation id="3435896845095436175">አንቃ</translation>
 <translation id="8915370057835397490">የጥቆማ አስተያየት በመጫን ላይ</translation>
-<translation id="6191804255817539692">ከOneVN Software ተጨማሪ የጥቆማ አስተያየቶች የሉም</translation>
+<translation id="6191804255817539692">ከOnevn Software ተጨማሪ የጥቆማ አስተያየቶች የሉም</translation>
 <translation id="1901303067676059328">&amp;ሁሉንም ምረጥ</translation>
 <translation id="3797900183766075808">«<ph name="SEARCH_TERMS"/>»ን በ<ph name="SEARCH_ENGINE"/> ውስጥ &amp;ፈልግ</translation>
 <translation id="2721037002783622288"><ph name="SEARCH_ENGINE"/>ን ለምስል ይ&amp;ፈልጉ</translation>
@@ -147,11 +147,11 @@
 <translation id="9033857511263905942">&amp;ለጥፍ</translation>
 <translation id="1815083418640426271">እንደ ስነጣ አልባ ጽሑፍ ለጥፍ</translation>
 <translation id="4022426551683927403">&amp;ወደ መዝገበ ቃላት አክል</translation>
-<translation id="6849870115130610913">የምስል መግለጫዎችን ከOneVN Software አግኝ</translation>
+<translation id="6849870115130610913">የምስል መግለጫዎችን ከOnevn Software አግኝ</translation>
 <translation id="372722114124766626">አንድ ጊዜ ብቻ</translation>
 <translation id="8917490105272468696">አዎ፣ ገብቼያለሁ</translation>
 <translation id="7473891865547856676">አይ፣ አመሰግናለሁ</translation>
-<translation id="2867003629889664976">ለጥቆማ አስተያየቶችን OneVN Softwareን ይጠይቁ</translation>
+<translation id="2867003629889664976">ለጥቆማ አስተያየቶችን Onevn Softwareን ይጠይቁ</translation>
 <translation id="6264365405983206840">&amp;ሁሉንም ምረጥ</translation>
 <translation id="3948116654032448504">ለምስል <ph name="SEARCH_ENGINE"/>ን ይ&amp;ፈልጉ</translation>
 <translation id="2932085390869194046">የይለፍ ቃል ጠቁም...</translation>
@@ -404,7 +404,7 @@
 <translation id="9148058034647219655">ውጣ</translation>
 <translation id="7376221878517288144">ለማንኛውም ማንነት ከማያሳውቅ ሁነታ ይውጡ?</translation>
 <translation id="973473557718930265">አቋርጥ</translation>
-<translation id="7707599169365957976">አንዳንድ የሥርዓት መረጃ እና የገጽ ይዘትን ወደ OneVN Software በመላክ የጥንቃቄ አሰሳን ለማሻሻል እንዲቻል ማገዝ ይችላሉ።</translation>
+<translation id="7707599169365957976">አንዳንድ የሥርዓት መረጃ እና የገጽ ይዘትን ወደ Onevn Software በመላክ የጥንቃቄ አሰሳን ለማሻሻል እንዲቻል ማገዝ ይችላሉ።</translation>
 <translation id="4923279099980110923">አዎ፣ ማገዝ እፈልጋለሁ</translation>
 <translation id="2316129865977710310">አይ፣ አመሰግናለሁ</translation>
 <translation id="9169931577761441333"><ph name="APP_NAME"/>ን ወደ መነሻ ገጽ ያክሉ</translation>
@@ -418,8 +418,8 @@
 <translation id="3067198179881736288">መተግበሪያ ይጫን?</translation>
 <translation id="7072010813301522126">አቋራጭ ስም</translation>
 <translation id="3275778913554317645">እንደ መስኮት ክፈት</translation>
-<translation id="8201192017531062522">OneVN መተግበሪያዎች ክፍት ሲሆኑ OneVN መስራቱን ይቀጥላል።</translation>
-<translation id="7397305826909094212">ከሁሉም የOneVN መተግበሪያዎች ውጣ</translation>
+<translation id="8201192017531062522">Onevn መተግበሪያዎች ክፍት ሲሆኑ Onevn መስራቱን ይቀጥላል።</translation>
+<translation id="7397305826909094212">ከሁሉም የOnevn መተግበሪያዎች ውጣ</translation>
 <translation id="5026874946691314267">ይህን ዳግም አታሳይ</translation>
 <translation id="91568222606626347">አቋራጭ ፍጠር...</translation>
 <translation id="2783321960289401138">አቋራጭ ፍጠር...</translation>
@@ -765,11 +765,11 @@
 <translation id="5799508265798272974">የLinux ምናባዊ ማሽን፦ <ph name="LINUX_VM_NAME"/></translation>
 <translation id="8191453843330043793">V8 Proxy Resolver</translation>
 <translation id="5552059560155071882">የCUPS IPP ተንታኝ</translation>
-<translation id="3077708072777965506">የOneVN OS የግቤት ዘዴ</translation>
-<translation id="7171242884588191792">የOneVN ፋይል መገልገያዎች</translation>
+<translation id="3077708072777965506">የOnevn OS የግቤት ዘዴ</translation>
+<translation id="7171242884588191792">የOnevn ፋይል መገልገያዎች</translation>
 <translation id="3183139917765991655">የመገለጫ አስመጪ</translation>
 <translation id="2190069059097339078">WiFi አሳማኝ ምስክርነቶችን አግኝ</translation>
-<translation id="7685901961038216503">የOneVN OS ስርዓት ምስል ጸሐፊ</translation>
+<translation id="7685901961038216503">የOnevn OS ስርዓት ምስል ጸሐፊ</translation>
 <translation id="4873312501243535625">የሚዲያ ፋይል ፈታሽ</translation>
 <translation id="5972666587303800813">ክወና-አልባ አገልግሎት</translation>
 <translation id="3061707000357573562">የመጠገኛ አገልግሎት</translation>
@@ -779,7 +779,7 @@
 <translation id="2079545284768500474">ቀልብስ</translation>
 <translation id="2256115617011615191">አሁን ዳግም አስጀምር</translation>
 <translation id="4545028762441890696">ለማንቃት አዲሶቹን ፍቃዶች ይቀበሉ፦</translation>
-<translation id="3009487527589249344">OneVN Software «<ph name="EXTENSION_NAME"/>»ን ተንኮል-አዘል ብሎ ጠቁሞታል፣ እና እንዳይጫን ተከልክሏል</translation>
+<translation id="3009487527589249344">Onevn Software «<ph name="EXTENSION_NAME"/>»ን ተንኮል-አዘል ብሎ ጠቁሞታል፣ እና እንዳይጫን ተከልክሏል</translation>
 <translation id="6790497603648687708"><ph name="EXTENSION_NAME"/> በርቀት ታክሏል</translation>
 <translation id="1841705068325380214"><ph name="EXTENSION_NAME"/> ተሰናክሏል</translation>
 <translation id="595959584676692139">ይህን ቅጥያ ለመጠቀም ገጹን ዳግም ይጫኑ</translation>
@@ -798,14 +798,14 @@
 <translation id="3507421388498836150">ለ«<ph name="EXTENSION_NAME"/>» አሁን ያሉት ፈቃዶች</translation>
 <translation id="5242724311594467048">«<ph name="EXTENSION_NAME"/>» ይንቃ?</translation>
 <translation id="4014432863917027322">«<ph name="EXTENSION_NAME"/>» ይጠገን?</translation>
-<translation id="5173189340601754836">ሌላ ፕሮግራም OneVN የሚሰራበትን መንገድ የሚለውጥ መተግበሪያ በኮምፒውተርዎ ታክሏል።
+<translation id="5173189340601754836">ሌላ ፕሮግራም Onevn የሚሰራበትን መንገድ የሚለውጥ መተግበሪያ በኮምፒውተርዎ ታክሏል።
 
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="6654312501894761082">በኮምፒውተርዎ ላይ ያለ ሌላ ፕሮግራም OneVN የሚሰራበት መንገድ ሊቀይር የሚችል አንድ ቅጥያ አክሏል።
+<translation id="6654312501894761082">በኮምፒውተርዎ ላይ ያለ ሌላ ፕሮግራም Onevn የሚሰራበት መንገድ ሊቀይር የሚችል አንድ ቅጥያ አክሏል።
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="3225882094369124157">በኮምፒውተርዎ ላይ ያለ ሌላ ፕሮግራም OneVN የሚሰራበት መንገድ ሊቀይር የሚችል አንድ ገጽታ አክሏል።
+<translation id="3225882094369124157">በኮምፒውተርዎ ላይ ያለ ሌላ ፕሮግራም Onevn የሚሰራበት መንገድ ሊቀይር የሚችል አንድ ገጽታ አክሏል።
 
 <ph name="EXTENSION_NAME"/></translation>
 <translation id="9102610709270966160">ቅጥያውን አንቃ</translation>
@@ -814,7 +814,7 @@
 <translation id="3908501907586732282">ቅጥያውን አንቃ</translation>
 <translation id="2327492829706409234">መተግበሪያን አንቃ</translation>
 <translation id="175772926354468439">ገጽታን አንቃ</translation>
-<translation id="5267531627648004734">ከOneVN አስወግድ</translation>
+<translation id="5267531627648004734">ከOnevn አስወግድ</translation>
 <translation id="4998873842614926205">ለውጦችን ያረጋግጡ</translation>
 <translation id="5699533844376998780">የ«<ph name="EXTENSION_NAME"/>» ቅጥያው ታክሏል።</translation>
 <translation id="1799071797295057738">የ«<ph name="EXTENSION_NAME"/>» ቅጥያ በራስ-ሰር ተሰናክሏል።</translation>
@@ -912,7 +912,7 @@
 <translation id="3584169441612580296">በኮምፒውተርዎ ላይ ያሉ ፎቶዎችን፣ ሙዚቃን እና ሌላ ማህደረመረጃ ያነብባል እና ይቀይራል</translation>
 <translation id="5457459357461771897">በኮምፒውተርዎ ላይ ፎቶዎችን፣ ሙዚቃ እና ሌላ ማህደረ መረጃን ያነብባል</translation>
 <translation id="3270965368676314374">በኮምፒውተርዎ ላይ ያሉ ፎቶዎችን፣ ሙዚቃን እና ሌላ ማህደረመረጃ ያነብባል፣ ይቀይራል እና ይሰርዛል</translation>
-<translation id="3919562953666287643">ውሂብ በእርስዎ OneVN Software Drive መለያ ላይ ያከማቹ</translation>
+<translation id="3919562953666287643">ውሂብ በእርስዎ Onevn Software Drive መለያ ላይ ያከማቹ</translation>
 <translation id="378312418865624974">የዚህ ኮምፒውተር ልዩ መለያውን ያነብባል</translation>
 <translation id="5094721898978802975">ከተባባሪ ቤተኛ መተግበሪያዎች ጋር ተገናኝ</translation>
 <translation id="4876895919560854374">ማያ ገጹን ይከፍተዋል እና ይዘገዋል</translation>
@@ -945,7 +945,7 @@
 <translation id="1616298854599875024">የ«<ph name="IMPORT_NAME"/>» ቅጥያ የተጋራ ሞዱል ስላልሆነ እሱን ማስመጣት አልተቻለም</translation>
 <translation id="2131077480075264">በ«<ph name="IMPORT_NAME"/>» ስላልተፈቀደ «<ph name="APP_NAME"/>»ን መጫን አልተቻለም</translation>
 <translation id="1875387611427697908">ይሄ ከ<ph name="CHROME_WEB_STORE"/> ብቻ ነው ሊታከል የሚችለው</translation>
-<translation id="7613251087357271190">የ«kiosk_only» ዝርዝር ሰነድ አይነታ ያለው መተግበሪያ በOneVN OS ኪዮስክ ሁኔታ ላይ መጫን አለበት።</translation>
+<translation id="7613251087357271190">የ«kiosk_only» ዝርዝር ሰነድ አይነታ ያለው መተግበሪያ በOnevn OS ኪዮስክ ሁኔታ ላይ መጫን አለበት።</translation>
 <translation id="3834775135533257713">ከ«<ph name="TO_INSTALL_APP_NAME"/>» ጋር ስለሚጋጭ የ<ph name="INSTALLED_APP_NAME"/> መተግበሪያውን ማከል አልተቻለም።</translation>
 <translation id="144518587530125858">«<ph name="IMAGE_PATH"/>»ን ለገጽታ መጫን አልተቻለም።</translation>
 <translation id="6567688344210276845">አዶ «<ph name="ICON"/>» ለገጽ እርምጃ መጫን አልተቻለም።</translation>
@@ -1043,9 +1043,9 @@ nil</translation>
 <translation id="6101226222197207147">አዲስ መተግበሪያ ታክሏል (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="7818135753970109980">አዲስ ገጽታ ታክሏል (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="9215293857209265904">«<ph name="EXTENSION_NAME"/>» ታክሏል</translation>
-<translation id="6637045053447935202">በኮምፒውተርዎ ላይ ያለ ሌላ ፕሮግራም OneVN የሚሰራበት መንገድ ሊቀይር የሚችል አንድ መተግበሪያ አክሏል።</translation>
-<translation id="2015014930243978107">በኮምፒውተርዎ ላይ ያለ ሌላ ፕሮግራም OneVN የሚሰራበት መንገድ ሊቀይር የሚችል አንድ ቅጥያ አክሏል።</translation>
-<translation id="2060128809251156338">በኮምፒውተርዎ ላይ ያለ ሌላ ፕሮግራም OneVN የሚሰራበት መንገድ ሊቀይር የሚችል አንድ ገጽታ አክሏል።</translation>
+<translation id="6637045053447935202">በኮምፒውተርዎ ላይ ያለ ሌላ ፕሮግራም Onevn የሚሰራበት መንገድ ሊቀይር የሚችል አንድ መተግበሪያ አክሏል።</translation>
+<translation id="2015014930243978107">በኮምፒውተርዎ ላይ ያለ ሌላ ፕሮግራም Onevn የሚሰራበት መንገድ ሊቀይር የሚችል አንድ ቅጥያ አክሏል።</translation>
+<translation id="2060128809251156338">በኮምፒውተርዎ ላይ ያለ ሌላ ፕሮግራም Onevn የሚሰራበት መንገድ ሊቀይር የሚችል አንድ ገጽታ አክሏል።</translation>
 <translation id="2470702053775288986">የማይደገፉ ቅጥያዎች ተሰናክለዋል</translation>
 <translation id="2809586584051668049">እና <ph name="NUMBER_ADDITIONAL_DISABLED"/> ተጨማሪ</translation>
 <translation id="5301954838959518834">እሺ፣ ገባኝ</translation>
@@ -1107,12 +1107,12 @@ nil</translation>
 <translation id="8756969031206844760">የይለፍ ቃል ይዘምን?</translation>
 <translation id="8230134520748321204">ለ<ph name="ORIGIN"/> የይለፍ ቃል ይቀመጥ?</translation>
 <translation id="9040661932550800571">ለ<ph name="ORIGIN"/> የይለፍ ቃል ይዘምን?</translation>
-<translation id="8284000761603848448">በማናቸውም መሣሪያ ላይ እርስዎ ሊጠቀሙባቸው እንዲችሉ የይለፍ ቃላት በእርስዎ OneVN Software መለያ ውስጥ ይቀመጣሉ</translation>
+<translation id="8284000761603848448">በማናቸውም መሣሪያ ላይ እርስዎ ሊጠቀሙባቸው እንዲችሉ የይለፍ ቃላት በእርስዎ Onevn Software መለያ ውስጥ ይቀመጣሉ</translation>
 <translation id="8286036467436129157">ግባ</translation>
 <translation id="8009225694047762179">የይለፍ ቃላትን ያቀናብሩ</translation>
 <translation id="3950820424414687140">ይግቡ</translation>
 <translation id="5624120631404540903">የይለፍ ቃሎችን አስተዳድር</translation>
-<translation id="9135262959729602463">የእርስዎን የይለፍ ቃላት በሁሉም መሣሪያዎችዎ ላይ ለማግኘት ወደ OneVN ይግቡ።</translation>
+<translation id="9135262959729602463">የእርስዎን የይለፍ ቃላት በሁሉም መሣሪያዎችዎ ላይ ለማግኘት ወደ Onevn ይግቡ።</translation>
 <translation id="8919275547519617350">ሁሉንም የእርስዎ የይለፍ ቃላት በሁሉም መሣሪያዎችዎ ላይ ለማግኘት በመለያ ይግቡና ስምረትን ያብሩ።</translation>
 <translation id="8470028084415844044">ሁሉንም የእርስዎ የይለፍ ቃላት በሁሉም መሣሪያዎችዎ ላይ ለማግኘት ስምረትን ያብሩ።</translation>
 <translation id="1609170755653088773">ይህን የይለፍ ቃል ከእርስዎ iPhone ያስምሩ</translation>
@@ -1213,8 +1213,8 @@ nil</translation>
 <translation id="223106756035922488">የዛሬውን doodle ለማየት ጠቅ ያድርጉ</translation>
 <translation id="8676374126336081632">ግቤቱን አጽዳ</translation>
 <translation id="5867841422488265304">የድር አድራሻ ይፈልጉ ወይም ይተይቡ</translation>
-<translation id="2129873093718581193">በOneVN Software ይፈልጉ ወይም ዩአርኤል ይተይቡ</translation>
-<translation id="6363797201514053536">OneVN Softwareን ይፈልጉ ወይም ዩአርኤል ይተይቡ</translation>
+<translation id="2129873093718581193">በOnevn Software ይፈልጉ ወይም ዩአርኤል ይተይቡ</translation>
+<translation id="6363797201514053536">Onevn Softwareን ይፈልጉ ወይም ዩአርኤል ይተይቡ</translation>
 <translation id="6078323886959318429">አቋራጭ አክል</translation>
 <translation id="6324916366299863871">አቋራጭን ያርትዑ</translation>
 <translation id="4405117686468554883">*.jpeg፣ *.jpg፣ *.png</translation>
@@ -1230,7 +1230,7 @@ nil</translation>
 <translation id="1174073918202301297">አቋራጭ ታክሏል</translation>
 <translation id="2926085873880284723">ነባሪ አቋራጮችን ወደነበሩበት መልስ</translation>
 <translation id="2942581856830209953">ይህን ገጽ ብጁ ያድርጉ</translation>
-<translation id="5801450813341024983">OneVN በስተጀርባዎች</translation>
+<translation id="5801450813341024983">Onevn በስተጀርባዎች</translation>
 <translation id="2800760947029405028">ምስል ስቀል</translation>
 <translation id="8342861492835240085">አንድ ስብስብ ይምረጡ</translation>
 <translation id="3132996321662585180">በየቀኑ ዳግም አድስ</translation>
@@ -1331,8 +1331,8 @@ nil</translation>
 <translation id="6686817083349815241">የይለፍ ቃልዎን ያስቀምጡ</translation>
 <translation id="8141725884565838206">የይለፍ ቃልዎችዎን ያስተዳድሩ</translation>
 <translation id="8275038454117074363">ከውጭ አስመጣ</translation>
-<translation id="3191314862567596053">የይለፍ ቃላትን ወደ OneVN ያስመጡ</translation>
-<translation id="6368144843345980623">የይለፍ ቃላትን ከOneVN ወደ ውጭ ይላኩ</translation>
+<translation id="3191314862567596053">የይለፍ ቃላትን ወደ Onevn ያስመጡ</translation>
+<translation id="6368144843345980623">የይለፍ ቃላትን ከOnevn ወደ ውጭ ይላኩ</translation>
 <translation id="8503813439785031346">የተጣቃሚ ስም</translation>
 <translation id="6657585470893396449">የይለፍ ቃል፦</translation>
 <translation id="4722735765955348426">የ<ph name="USERNAME"/> ይለፍ ቃል</translation>
@@ -1359,31 +1359,31 @@ nil</translation>
 <translation id="2982970937345031">ስም-አልባ ሆነው ሪፖርት ያድርጉ</translation>
 <translation id="6076448957780543068">ይህን ቅጽበታዊ ገጽ እይታን ያካትቱ</translation>
 <translation id="7052237160939977163">አፈጻጸም መከታተያ ውሂብ ይላኩ</translation>
-<translation id="5526928694260255286"><ph name="BEGIN_LINK"/>የብሉቱዝ ምዝግብ ማስታወሻ<ph name="END_LINK"/>ን ያያይዙ (OneVN Software ውስጣዊ)</translation>
+<translation id="5526928694260255286"><ph name="BEGIN_LINK"/>የብሉቱዝ ምዝግብ ማስታወሻ<ph name="END_LINK"/>ን ያያይዙ (Onevn Software ውስጣዊ)</translation>
 <translation id="3047644958362961983">ይህ መረጃ የረዳትዎ ችግር በተሻለ ሁኔታ እንድንረዳ ያግዘናል። እስከ 90 ቀኖች ድረስ የሚከማች ሲሆን መዳረሻ አግባብ ለሆኑ የምሕንድስና እና የግብረመልስ ቡድኖች የተገደበ ነው።</translation>
-<translation id="1705635099498185261">የብሉቱዝ ችግሮችን በተሻለ ሁኔታ ለመመርመር የOneVN Software ሰራተኛዎች ተጨማሪ የብሉቱዝ ምዝግብ ማስታወሻን ከግብረመልስ ሪፖርቶቻቸው ጋር ማካተት ይችላሉ። ይህ አማራጭ ምልክት ሲደረግበት ሪፖርትዎ ከአሁኑ ክፍለ-ጊዜዎ የbtsnoop እና HCI ምዝግብ ማስታወሻዎችን ያካትታል፣ የተቻለውን ያህል PII ተወግዶ። የእነዚህ ምዝግብ ማስታወሻዎች መዳረሻ በListnr ቡድን ውስጥ ላሉ የOneVN OS ምርት አቀናባሪዎች የተገደበ ነው። የምዝግብ ማስታወሻዎች ከ90 ቀኖች በኋላ ሙሉ ለሙሉ ይወገዳሉ።</translation>
+<translation id="1705635099498185261">የብሉቱዝ ችግሮችን በተሻለ ሁኔታ ለመመርመር የOnevn Software ሰራተኛዎች ተጨማሪ የብሉቱዝ ምዝግብ ማስታወሻን ከግብረመልስ ሪፖርቶቻቸው ጋር ማካተት ይችላሉ። ይህ አማራጭ ምልክት ሲደረግበት ሪፖርትዎ ከአሁኑ ክፍለ-ጊዜዎ የbtsnoop እና HCI ምዝግብ ማስታወሻዎችን ያካትታል፣ የተቻለውን ያህል PII ተወግዶ። የእነዚህ ምዝግብ ማስታወሻዎች መዳረሻ በListnr ቡድን ውስጥ ላሉ የOnevn OS ምርት አቀናባሪዎች የተገደበ ነው። የምዝግብ ማስታወሻዎች ከ90 ቀኖች በኋላ ሙሉ ለሙሉ ይወገዳሉ።</translation>
 <translation id="4206323443866416204">የግብረመልስ ሪፖርት</translation>
 <translation id="3681311097828166361">ለሰጡን ግብረመልስ እናመሰግናለን። አሁን ከመስመር ውጭ ነዎት፣ እና የእርስዎ ሪፖርት በኋላ ላይ ይላካል።</translation>
 <translation id="8713570323158206935"><ph name="BEGIN_LINK1"/>የስርዓት መረጃ<ph name="END_LINK1"/> ላክ</translation>
 <translation id="6395423953133416962"><ph name="BEGIN_LINK1"/>የስርዓት መረጃ<ph name="END_LINK1"/> እና <ph name="BEGIN_LINK2"/>ልኬቶች<ph name="END_LINK2"/> ይላኩ</translation>
 <translation id="6270770586500173387"><ph name="BEGIN_LINK1"/>የስርዓት እና መተግበሪያ መረጃ<ph name="END_LINK1"/>፣ እና <ph name="BEGIN_LINK2"/>መለኪያዎች<ph name="END_LINK2"/>ን ላክ</translation>
-<translation id="8329196515830093443">ፋይሉ ለመታረም ወደ OneVN Software ይላካል</translation>
+<translation id="8329196515830093443">ፋይሉ ለመታረም ወደ Onevn Software ይላካል</translation>
 <translation id="8227119283605456246">ፋይል አያይዝ</translation>
 <translation id="5367091008316207019">ፋይል በማንበብ ላይ..</translation>
 <translation id="2554553592469060349">የተመረጠው ፋይል በጣም ትልቅ ነው (ከፍተኛ የፋይል መጠን፦ 3 ሜባ)።</translation>
 <translation id="4690091457710545971">&lt;አራት ፋይሎች በIntel Wi-Fi ፈርምዌር መንጭተዋል፦ csr.lst፣ fh_regs.lst፣ radio_reg.lst፣ monitor.lst.sysmon። የመጀመሪያዎቹ ሦስት የመዝገብ ተወጋጆችን የያዙ የሁለትዮሽ ፋይሎች ናቸው፣ እና ምንም የግል ወይም መሣሪያን ለይቶ የሚያሳውቅ መረጃን እንዳልያዙ በIntel የተረጋገጡ ናቸው። የመጨረሻው ፋይል ከIntel ፈርምዌር የሥራ ማስፈጸሚያ ዱካ ነው፤ ማናቸውም የግል ወይም መሣሪያን ለይቶ የሚያሳውቅ መረጃው እንዲራገፍ ተደርጓል።  እነዚህ ፋይሎች የመነጩት በቅርቡ በእርስዎ መሣሪያ ላይ ከWi-Fi ጋር ለነበሩ ችግሮች እንደ ምላሽ ነው፣ እና ለእነዚህ ችግሮች መላ ለመፈለግ ለIntel ይጋራሉ።&gt;</translation>
-<translation id="6972420083546794501">በሕግ ነክ ምክንያቶች የይዘት ለውጦችን ለመጠየቅ ወደ <ph name="BEGIN_LINK1"/>ሕጋዊ እገዛ ገጽ<ph name="END_LINK1"/> ይሂዱ። አንዳንድ የመለያ እና የሥርዓት መረጃ ወደ OneVN Software ሊላክ ይችል ይሆናል። እርስዎ ለእኛ የሚሰጡንን መረጃ በእኛ <ph name="BEGIN_LINK2"/>የግላዊነት መመሪያ<ph name="END_LINK2"/> እና <ph name="BEGIN_LINK3"/>የአገልግሎት ውሎች<ph name="END_LINK3"/> መሠረት ቴክኒክ ችግሮችን መፍትሔ ለመስጠት እና የእኛን አገልግሎቶች ለማሻሻል እንዲያግዘን እንጠቀምበታለን።</translation>
+<translation id="6972420083546794501">በሕግ ነክ ምክንያቶች የይዘት ለውጦችን ለመጠየቅ ወደ <ph name="BEGIN_LINK1"/>ሕጋዊ እገዛ ገጽ<ph name="END_LINK1"/> ይሂዱ። አንዳንድ የመለያ እና የሥርዓት መረጃ ወደ Onevn Software ሊላክ ይችል ይሆናል። እርስዎ ለእኛ የሚሰጡንን መረጃ በእኛ <ph name="BEGIN_LINK2"/>የግላዊነት መመሪያ<ph name="END_LINK2"/> እና <ph name="BEGIN_LINK3"/>የአገልግሎት ውሎች<ph name="END_LINK3"/> መሠረት ቴክኒክ ችግሮችን መፍትሔ ለመስጠት እና የእኛን አገልግሎቶች ለማሻሻል እንዲያግዘን እንጠቀምበታለን።</translation>
 <translation id="7915471803647590281">ግብረ መልሱን ከመላክዎ በፊት እባክዎ ምን እየተከሰተ እንደሆነ ይንገሩን።</translation>
 <translation id="1483493594462132177">ላክ</translation>
 <translation id="6885771755599377173">የሥርዓት መረጃ ቅድመ-ዕይታ</translation>
 <translation id="1016566241875885511">ተጨማሪ መረጃ (ከተፈለገ)</translation>
-<translation id="6083886770200509573">OneVN ተበላሽቷል፣  ያልተለመዱ የጅማሬ ገጾች ወይም የመሣሪያ አሞሌዎች፣ ሊያስወግዱዋቸው የማይችሉዋቸው ወይም በሌላ መልኩ የእርስዎን የአሰሳ ተሞክሮ የሚለውጡ ያልተጠበቁ ማስታወቂያዎች እያሳየ ነው? የOneVN ማጽጃ መሳሪያ በማስኬድ ችግሩን ሊያስተካክሉት ይችሉ ይሆናል።</translation>
-<translation id="7719662019953070946">የOneVN ማጽጃ መሣሪያን አውርድ</translation>
+<translation id="6083886770200509573">Onevn ተበላሽቷል፣  ያልተለመዱ የጅማሬ ገጾች ወይም የመሣሪያ አሞሌዎች፣ ሊያስወግዱዋቸው የማይችሉዋቸው ወይም በሌላ መልኩ የእርስዎን የአሰሳ ተሞክሮ የሚለውጡ ያልተጠበቁ ማስታወቂያዎች እያሳየ ነው? የOnevn ማጽጃ መሳሪያ በማስኬድ ችግሩን ሊያስተካክሉት ይችሉ ይሆናል።</translation>
+<translation id="7719662019953070946">የOnevn ማጽጃ መሣሪያን አውርድ</translation>
 <translation id="8281886186245836920">ዝለል</translation>
 <translation id="8026334261755873520">የአሰሳ ውሂብ አጽዳ</translation>
 <translation id="7409836189476010449">Flash አሂድ</translation>
-<translation id="4718442817388594217">የተመረጠው ውሂብ ከOneVN እና የሰመሩ መሣሪያዎች ተወግዷል። የOneVN Software መለያዎ <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> ላይ እንደ የሌሎች OneVN Software አገልግሎቶች ፍለጋዎች እና እንቅስቃሴ ያለ ሌሎች የአሰሳ ታሪክ ዓይነት ሊኖረው ይችላል።</translation>
-<translation id="7814200940910057384">የOneVN ውሂብ ጸድቷል</translation>
+<translation id="4718442817388594217">የተመረጠው ውሂብ ከOnevn እና የሰመሩ መሣሪያዎች ተወግዷል። የOnevn Software መለያዎ <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> ላይ እንደ የሌሎች Onevn Software አገልግሎቶች ፍለጋዎች እና እንቅስቃሴ ያለ ሌሎች የአሰሳ ታሪክ ዓይነት ሊኖረው ይችላል።</translation>
+<translation id="7814200940910057384">የOnevn ውሂብ ጸድቷል</translation>
 <translation id="7346909386216857016">እሺ፣ ገባኝ</translation>
 <translation id="8493236660459102203">ማይክሮፎን፦</translation>
 <translation id="3925573269917483990">ካሜራ፦</translation>
@@ -1391,7 +1391,7 @@ nil</translation>
 <translation id="4172051516777682613">ሁልጊዜ አሳይ</translation>
 <translation id="477945296921629067">{NUM_POPUPS,plural, =1{ብቅ-ባይ ታግዷል}one{# ብቅ-ባዮች ታግዷል}other{# ብቅ-ባዮች ታግዷል}}</translation>
 <translation id="3759371141211657149">የከዋኝ ቅንብሮችን ያቀናብሩ...</translation>
-<translation id="4156865452842056672">(OneVN ስህተት ገጾች)</translation>
+<translation id="4156865452842056672">(Onevn ስህተት ገጾች)</translation>
 <translation id="1734824808160898225"><ph name="PRODUCT_NAME"/> ራሱን እያዘመነ ላይቀጥል ይችላል</translation>
 <translation id="8590375307970699841">አውቶማቲክ ዝምኖችን አዋቅር</translation>
 <translation id="8926389886865778422">ደግመው አይጠይቁ</translation>
@@ -1406,7 +1406,7 @@ nil</translation>
 <translation id="284805635805850872">ጎጂ ሶፍትዌር ይወገድ?</translation>
 <translation id="489985760463306091">ጎጂ ሶፍትዌርን ማስወገዱን ለመጨረስ ኮምፒውተርዎን ዳግም ያስነሱት</translation>
 <translation id="7598466960084663009">ኮምፒውተርን ዳግም አስነሳ</translation>
-<translation id="2819091349626575960">ዝርዝሮችን ለOneVN Software ሪፖርት አድርግ</translation>
+<translation id="2819091349626575960">ዝርዝሮችን ለOnevn Software ሪፖርት አድርግ</translation>
 <translation id="4099060993766194518">ነባሪ የፍለጋ ፕሮግራም ወደነበረበት ይመለስ?</translation>
 <translation id="138784436342154190">ነባሪ የጅምር ገጽ ወደነበረበት ገጽ ይመለስ?</translation>
 <translation id="5086874064903147617">ነባሪ ጅምር ገጽ ወደነበረበት ይመለስ?</translation>
@@ -1485,10 +1485,10 @@ nil</translation>
 <translation id="8658645149275195032"><ph name="APP_NAME"/> የእርስዎን ማያ ገጽ እና ኦዲዮ ለ<ph name="TAB_NAME"/> እያጋራ ነው።</translation>
 <translation id="4364567974334641491"><ph name="APP_NAME"/> አንድ መስኮት እያጋራ ነው።</translation>
 <translation id="8944964446326379280"><ph name="APP_NAME"/> አንድ መስኮት ለ<ph name="TAB_NAME"/> እያጋራ ነው።</translation>
-<translation id="351520635355732555"><ph name="APP_NAME"/> የOneVN ትር እያጋራ ነው።</translation>
-<translation id="5727851901710884484"><ph name="APP_NAME"/> አንድ የOneVN ትር ለ<ph name="TAB_NAME"/> እያጋራ ነው።</translation>
-<translation id="5770515304879261338"><ph name="APP_NAME"/> የOneVN ትር እና ኦዲዮ እያጋራ ነው።</translation>
-<translation id="859454237594354073"><ph name="APP_NAME"/> አንድ የOneVN ትር እና ኦዲዮ ለ<ph name="TAB_NAME"/> እያጋራ ነው።</translation>
+<translation id="351520635355732555"><ph name="APP_NAME"/> የOnevn ትር እያጋራ ነው።</translation>
+<translation id="5727851901710884484"><ph name="APP_NAME"/> አንድ የOnevn ትር ለ<ph name="TAB_NAME"/> እያጋራ ነው።</translation>
+<translation id="5770515304879261338"><ph name="APP_NAME"/> የOnevn ትር እና ኦዲዮ እያጋራ ነው።</translation>
+<translation id="859454237594354073"><ph name="APP_NAME"/> አንድ የOnevn ትር እና ኦዲዮ ለ<ph name="TAB_NAME"/> እያጋራ ነው።</translation>
 <translation id="890616557918890486">ምንጭ ይለውጡ</translation>
 <translation id="7792388396321542707">ማጋራት አቁም</translation>
 <translation id="6630752851777525409"><ph name="EXTENSION_NAME"/> እርስዎን ወክሎ እራሱን ለማረጋገጥ የአንድ እውቅና ማረጋገጫ ዘላቂ መዳረሻ ይፈልጋል።</translation>
@@ -1506,11 +1506,11 @@ nil</translation>
 <translation id="2190355936436201913">(ባዶ)</translation>
 <translation id="7136984461011502314">ወደ <ph name="PRODUCT_NAME"/> እንኳን ደህና መጡ</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME"/> ጭነትዎን ለማጠናቀቅ ዝግጁ ነው</translation>
-<translation id="4711067597921221305">የአጠቃቀም ስታቲክሶችን እና የስንኩል ሪፖርቶችን ወደ OneVN Software በቀጥታ በመላክ <ph name="PRODUCT_NAME"/>ን የተሻለ ለማድረግ እገዛ ያድርጉ።</translation>
+<translation id="4711067597921221305">የአጠቃቀም ስታቲክሶችን እና የስንኩል ሪፖርቶችን ወደ Onevn Software በቀጥታ በመላክ <ph name="PRODUCT_NAME"/>ን የተሻለ ለማድረግ እገዛ ያድርጉ።</translation>
 <translation id="5972826969634861500"><ph name="PRODUCT_NAME"/>ን ጀምር</translation>
 <translation id="4876273079589074638">መሐንዲሶቻችን ይህን ስንክል እንዲመረምሩና እንዲጠግኑት ያግዟቸው። ከቻሉ የተከተሏቸውን ደረጃዎች በሙሉ በትክክል ይግለጹ። ምንም አይረባም የሚባል ዝርዝር የለም!</translation>
 <translation id="945522503751344254">ግብረ መልስ ላክ</translation>
-<translation id="5418694430960033386">ወይም OneVN ማህደረ ትውስታ አልቆበታል ወይም የድረ-ገጹ ሂደት በሌላ ምክንያት ተቋርጧል። ለመቀጠል ዳግም ይጫኑ ወይም ወደ ሌላ ገጽ ይሂዱ።</translation>
+<translation id="5418694430960033386">ወይም Onevn ማህደረ ትውስታ አልቆበታል ወይም የድረ-ገጹ ሂደት በሌላ ምክንያት ተቋርጧል። ለመቀጠል ዳግም ይጫኑ ወይም ወደ ሌላ ገጽ ይሂዱ።</translation>
 <translation id="3065041951436100775">የትር ተገድሏል ግብረመልስ።</translation>
 <translation id="3941565636838060942">የዚህ ፕሮግራም መዳረሻን ለመደበቅ በመቆጣጠሪያ ፓነል ውስጥ ያለውን
   <ph name="CONTROL_PANEL_APPLET_NAME"/> መጠቀም ማራገፍ አለብዎት።
@@ -1521,7 +1521,7 @@ nil</translation>
 <translation id="6280912520669706465">ኤአርሲ</translation>
 <translation id="4728558894243024398">የመሣሪያ ስርዓት</translation>
 <translation id="7022562585984256452">የእርስዎ መነሻ ገጽ ተዋቅሯል።</translation>
-<translation id="7274626204661209194">OneVN Software ዳመና ህትመት</translation>
+<translation id="7274626204661209194">Onevn Software ዳመና ህትመት</translation>
 <translation id="4973307593867026061">አታሚዎችን ያክሉ</translation>
 <translation id="9052208328806230490"><ph name="EMAIL"/>ን ተጠቅመው አታሚዎችዎን በ<ph name="CLOUD_PRINT_NAME"/> መዝግበዋል።</translation>
 <translation id="3792890930871100565">አታሚዎችን ያላቅቁ</translation>
@@ -1531,17 +1531,17 @@ nil</translation>
 <translation id="4620809267248568679">ይህ ቅንብር በአንድ ቅጥያ ነው የሚፈጸመው።</translation>
 <translation id="4846680374085650406">አስተዳዳሪው ለዚህ ቅንብር የሰጠውን ምክር ነው እየተከተሉ ያሉት።</translation>
 <translation id="1223853788495130632">አስተዳዳሪዎ ለዚህ ቅንብር አንድ የተወሰነ እሴት ይመክራል።</translation>
-<translation id="8839398440242019256">ከOneVN ድር  መደብር  አይደለም የመጣው።</translation>
+<translation id="8839398440242019256">ከOnevn ድር  መደብር  አይደለም የመጣው።</translation>
 <translation id="5337771866151525739">በሶስተኛ ወገን የተጫነ።</translation>
 <translation id="4538792345715658285">በድርጅት መመሪያ የተጫነ።</translation>
 <translation id="4359408040881008151">በጥገኛ ቅጥያ(ዎች) ምክንያት ተጭኗል።</translation>
 <translation id="4980805016576257426">ይህ ቅጥያ ተንኮል-አዘል ዌር ይዟል።</translation>
 <translation id="5522156646677899028">ይህ ቅጥያ ከባድ የደህንነት ተጋላጭነት ያካትታል።</translation>
-<translation id="6945695820322143954">ይህ ቅጥያ የOneVN ድር ማከማቻ መመሪያን ይጥሳል።</translation>
-<translation id="177808131755847449">በOneVN ተሰናክሏል። ይህ ቅጥያ ደህንነቱ ያልተጠበቀ ሊሆን ይችላል።</translation>
+<translation id="6945695820322143954">ይህ ቅጥያ የOnevn ድር ማከማቻ መመሪያን ይጥሳል።</translation>
+<translation id="177808131755847449">በOnevn ተሰናክሏል። ይህ ቅጥያ ደህንነቱ ያልተጠበቀ ሊሆን ይችላል።</translation>
 <translation id="1434696352799406980">ይህ የእርስዎን የመነሻ ገጽ፣ አዲስ የትር ገጽ፣ የፍለጋ ፕሮግራምን እና የተሰኩ ትሮችን ዳግም ያቀናብራቸዋል። እንዲሁም ሁሉንም ቅጥያዎች ያሰናክላል እና እንደ ኩኪዎች ያለ ጊዜያዊ ውሂብን ያጸዳል። የእርስዎ ዕልባቶች፣ ታሪክ እና የተቀመጡ የይለፍ ቃላት አይጸዱም።</translation>
 <translation id="1242633766021457174"><ph name="THIRD_PARTY_TOOL_NAME"/> ቅንብሮችዎን ዳግም ማስጀመር ይፈልጋሉ።</translation>
-<translation id="8073477228424628709"><ph name="THIRD_PARTY_TOOL_NAME"/>የእርስዎ OneVN ቅንብሮች ወደ የመጀመሪያቸው ነባሪዎች መመለስ ፈልጓል። ይሄ የእርስዎን መነሻ ገጽ፣ አዲስ የትር ገጽ እና የፍለጋ ፕሮግራም ዳግም ያስጀምራቸዋል፣ ቅጥያዎችዎን ያሰናክላቸዋል፣ እና ሁሉንም ትሮች ይነቅላቸዋል። እንዲሁም ሌሎች እንደ ኩኪዎች፣ ይዘት እና የጣቢያ ውሂብ ያለ ጊዜያዊ እና የተሸጎጠ ውሂብንም ያጸዳል።</translation>
+<translation id="8073477228424628709"><ph name="THIRD_PARTY_TOOL_NAME"/>የእርስዎ Onevn ቅንብሮች ወደ የመጀመሪያቸው ነባሪዎች መመለስ ፈልጓል። ይሄ የእርስዎን መነሻ ገጽ፣ አዲስ የትር ገጽ እና የፍለጋ ፕሮግራም ዳግም ያስጀምራቸዋል፣ ቅጥያዎችዎን ያሰናክላቸዋል፣ እና ሁሉንም ትሮች ይነቅላቸዋል። እንዲሁም ሌሎች እንደ ኩኪዎች፣ ይዘት እና የጣቢያ ውሂብ ያለ ጊዜያዊ እና የተሸጎጠ ውሂብንም ያጸዳል።</translation>
 <translation id="7581462281756524039">የማጽጃ መሣሪያ</translation>
 <translation id="1233721473400465416">አካባቢ</translation>
 <translation id="2907619724991574506">ጀማሪ ዩ አር ኤሎች</translation>
@@ -1555,7 +1555,7 @@ nil</translation>
 <translation id="8870318296973696995">መነሻ ገጽ</translation>
 <translation id="8987927404178983737">ወር</translation>
 <translation id="6015796118275082299">ዓመት</translation>
-<translation id="5152275065296016556">OneVN Software Pay</translation>
+<translation id="5152275065296016556">Onevn Software Pay</translation>
 <translation id="7671130400130574146">የሥርዓት ርእሰ አሞሌ እና ጠርዞች</translation>
 <translation id="4520385623207007473">ጥቅም ላይ የዋሉ ኩኪዎች</translation>
 <translation id="4763408175235639573">ይህን ገጽ ሲመለከቱት የሚከተሉት ኩኪዎች ተቀናብረዋል</translation>
@@ -1574,7 +1574,7 @@ nil</translation>
 <translation id="8930351635855238750">አዲስ የኩኪ ቅንብሮች ገጹ ዳግም ከተጫነ በኋላ ይተገበራሉ</translation>
 <translation id="2568774940984945469">መረጃ አሞሌ መያዣ</translation>
 <translation id="7282992757463864530">የመረጃ አሞሌ</translation>
-<translation id="1805077115206898822">የእርስዎ እልባቶች፣ ታሪክ እና ሌሎች ቅንብሮች ወደ የእርስዎ OneVN Software መለያ እንዲመሳሰሉ ይደረጋሉ።</translation>
+<translation id="1805077115206898822">የእርስዎ እልባቶች፣ ታሪክ እና ሌሎች ቅንብሮች ወደ የእርስዎ Onevn Software መለያ እንዲመሳሰሉ ይደረጋሉ።</translation>
 <translation id="1974060860693918893">የላቀ</translation>
 <translation id="2445484935443597917">አዲስ መገለጫ ፍጠር</translation>
 <translation id="2606246518223360146">ውሂብ አገናኝ</translation>
@@ -1662,13 +1662,13 @@ nil</translation>
 <translation id="3074037959626057712">በመለያ ገብተው ስምረትን አብርተዋል</translation>
 <translation id="1231733316453485619">አስምር ይብራ?</translation>
 <translation id="4736292055110123391">የእርስዎን ዕልባቶች፣ የይለፍ ቃላት፣ ታሪክ እና ተጨማሪ ነገሮች በሁሉም መሣሪያዎችዎ ላይ ያሳምሩ</translation>
-<translation id="5736731321935944068">OneVN Software ፍለጋን፣ ማስታወቂያዎችን እና ሌሎች የOneVN Software አገልግሎቶችን ግላዊነት ለማላበስ የእርስዎን ታሪክ ሊጠቀም ይችላል</translation>
+<translation id="5736731321935944068">Onevn Software ፍለጋን፣ ማስታወቂያዎችን እና ሌሎች የOnevn Software አገልግሎቶችን ግላዊነት ለማላበስ የእርስዎን ታሪክ ሊጠቀም ይችላል</translation>
 <translation id="4201546031411513170">በማንኛውም ጊዜ በቅንብሮች ውስጥ ምን ለማስመር መምረጥ ይችላሉ።</translation>
 <translation id="3149880132460839085">የብሬቭ ማመሳሰል</translation>
-<translation id="3796902758602917951">የእርስዎን ዕልባቶች፣ ታሪክ፣ የይለፍ ቃላት እና ሌሎች ቅንብሮች በሁሉም መሣሪያዎችዎ ላይ መጠቀም እንዲችሉ ከOneVN Software መለያዎ ጋር ይሰምራሉ</translation>
-<translation id="3111958038206230539">የOneVN Software አገልግሎቶችን ግላዊነት አላብስ</translation>
-<translation id="295992419959320001">OneVN Software ፍለጋን፣ ማስታወቂያዎችን እና ሌሎች የOneVN Software አገልግሎቶችን ግላዊነት ለማላበስ ሲል የአሰሳ ታሪክዎን ሊጠቀም ይችላል።</translation>
-<translation id="3070156078150543526">OneVN Software ፍለጋን እና ሌሎች የOneVN Software አገልግሎቶችን ግላዊነት ለማላበስ የአሰሳ ታሪክዎን ሊጠቀም ይችላል</translation>
+<translation id="3796902758602917951">የእርስዎን ዕልባቶች፣ ታሪክ፣ የይለፍ ቃላት እና ሌሎች ቅንብሮች በሁሉም መሣሪያዎችዎ ላይ መጠቀም እንዲችሉ ከOnevn Software መለያዎ ጋር ይሰምራሉ</translation>
+<translation id="3111958038206230539">የOnevn Software አገልግሎቶችን ግላዊነት አላብስ</translation>
+<translation id="295992419959320001">Onevn Software ፍለጋን፣ ማስታወቂያዎችን እና ሌሎች የOnevn Software አገልግሎቶችን ግላዊነት ለማላበስ ሲል የአሰሳ ታሪክዎን ሊጠቀም ይችላል።</translation>
+<translation id="3070156078150543526">Onevn Software ፍለጋን እና ሌሎች የOnevn Software አገልግሎቶችን ግላዊነት ለማላበስ የአሰሳ ታሪክዎን ሊጠቀም ይችላል</translation>
 <translation id="2709453993673701466">ስምረት እና ግላዊነት ማላበስ ከመብራታቸው በፊት ማቀናበር ይፈልጋሉ? <ph name="BEGIN_LINK"/>ቅንብሮች<ph name="END_LINK"/>ን ይጎብኙ።</translation>
 <translation id="2497852260688568942">ስምረት በእርስዎ አስተዳዳሪ ተሰናክሏል</translation>
 <translation id="562935524653278697">የእርስዎ አስተዳዳሪ የእርስዎን ዕልባቶች፣ ታሪክ፣ የይለፍ ቃላት እና ሌሎች ቅንብሮች ስምረትን አሰናክለዋል።</translation>
@@ -1704,7 +1704,7 @@ nil</translation>
 <translation id="6664774537677393800">የእርስዎን መገለጫ በመክፈት ላይ የሆነ ችግር ተፈጥሯል። እባክዎ ዘግተው ይውጡና እንደገና ተመልሰው ይግቡ።</translation>
 <translation id="1794791083288629568">እኛ ይህን ችግር እንድንፈታው ለማገዝ ግብረመልስ ይላኩ።</translation>
 <translation id="8234795456569844941">እባክዎ መሐንዲሶቻችን ይህን ችግር እንዲፈቱት ያግዟቸው። ልክ የመገለጫ ስህተት መልዕክቱን ከማግኘትዎ በፊት ምን እንደተከሰተ ይንገሩን፦</translation>
-<translation id="6500340165622970282">የእርስዎን መገለጫ በመክፈት ላይ ሳለ የሆነ ችግር ስለተፈጠረ OneVNን ማስጀምር አይቻልም። OneVNን ዳግም ለማስጀመር ይሞክሩ።</translation>
+<translation id="6500340165622970282">የእርስዎን መገለጫ በመክፈት ላይ ሳለ የሆነ ችግር ስለተፈጠረ Onevnን ማስጀምር አይቻልም። Onevnን ዳግም ለማስጀመር ይሞክሩ።</translation>
 <translation id="6812349420832218321"><ph name="PRODUCT_NAME"/> እንደ ስር ሊሄድ አይችልም።</translation>
 <translation id="2292848386125228270"><ph name="PRODUCT_NAME"/> እባክዎ እንደ መደበኛ ተጠቃሚ ያስጀምሩት። እንደ ለግንባታ ስርወ ሆኖ ማሄድ ካስፈለግዎት፣ ከ--no-sandbox ጠቁም ጋር እንደገና ያሂዱት።</translation>
 <translation id="7547317915858803630">ማስጠንቀቂያ፦ የ<ph name="PRODUCT_NAME"/> ቅንብሮችዎ በአውታረ መረብ አንጻፊ ላይ ነው የተከማቹት። ይሄ ማንቀራፈፍ፣ ብልሽቶች እና እንዲያውም የውሂብ መጥፋት ሊያስከትል ይችላል።</translation>
@@ -1740,10 +1740,10 @@ nil</translation>
 <translation id="6198102561359457428">ዘግተው ይውጡና ከዚያ እንደገና ይግቡ...</translation>
 <translation id="4634771451598206121">እንደገና ይግቡ...</translation>
 <translation id="7117247127439884114">እንደገና ይግቡ...</translation>
-<translation id="4251909665067750757">የእርስዎን ዕልባቶች፣ ታሪክ፣ የይለፍ ቃሎች እና ሌሎች ቅንብሮች በሁሉም መሣሪያዎችዎ ላይ ለማግኘት በመለያ ይግቡ። እንዲሁም በራስ-ሰር ወደ የእርስዎ OneVN Software አገልግሎቶች እንዲገቡ ይደረጋሉ።</translation>
+<translation id="4251909665067750757">የእርስዎን ዕልባቶች፣ ታሪክ፣ የይለፍ ቃሎች እና ሌሎች ቅንብሮች በሁሉም መሣሪያዎችዎ ላይ ለማግኘት በመለያ ይግቡ። እንዲሁም በራስ-ሰር ወደ የእርስዎ Onevn Software አገልግሎቶች እንዲገቡ ይደረጋሉ።</translation>
 <translation id="2749756011735116528"><ph name="PRODUCT_NAME"/> ውስጥ ይግቡ</translation>
 <translation id="2126167708562367080">ስምረት በእርስዎ አስተዳዳሪ ተሰናክሏል።</translation>
-<translation id="5462539695964427820">ስምረት በOneVN Software ዳሽቦርዱ በኩል ቆሟል።</translation>
+<translation id="5462539695964427820">ስምረት በOnevn Software ዳሽቦርዱ በኩል ቆሟል።</translation>
 <translation id="8805140816472474147">ስምረትን ለመጀመር የስምረት ቅንብሮችን ያረጋግጡ።</translation>
 <translation id="4835836146030131423">በመግባት ጊዜ ስህተት።</translation>
 <translation id="4365673000813822030">ውይ፣ ማመሳሰል መስራት አቁሟል።</translation>
@@ -1758,18 +1758,18 @@ nil</translation>
 <translation id="1877520246462554164">የማረጋገጫ ማስመሰያውን ማግኘት አልተሳካም። እንደገና ለመሞከር እባክዎ ዘግተው ይውጡና እንደገና ይግቡ።</translation>
 <translation id="9100765901046053179">የላቁ ቅንብሮች</translation>
 <translation id="5771816112378578655">ጭነቱ በሂደት ላይ…</translation>
-<translation id="3892866329866260680">አሁን ወደ <ph name="SHORT_PRODUCT_NAME"/> ገብተዋል። ዕልባቶችዎ፣ ታሪክዎ እና ሌሎች ቅንብሮችዎ ከOneVN Software መለያዎ ጋር እየተመሳሰሉ ናቸው።</translation>
+<translation id="3892866329866260680">አሁን ወደ <ph name="SHORT_PRODUCT_NAME"/> ገብተዋል። ዕልባቶችዎ፣ ታሪክዎ እና ሌሎች ቅንብሮችዎ ከOnevn Software መለያዎ ጋር እየተመሳሰሉ ናቸው።</translation>
 <translation id="1408789165795197664">የላቁ...</translation>
 <translation id="2731700343119398978">እባክዎ ይጠብቁ...</translation>
 <translation id="4684427112815847243">ሁሉንም ያመሳስሉ</translation>
-<translation id="7218743184834293955">ውሂብ በስምረት ይለፍ ሐረግዎ ተመስጥሯል። ይህ ከOneVN Software Pay የመክፈያ ዘዴዎችን እና አድራሻዎችን አያካትትም።</translation>
-<translation id="7158251077901880179">ውሂብ <ph name="TIME"/> ላይ በነበረው የስምረት ይለፍ ሐረግዎ የተመሠጠረ ነው። ይህ ከOneVN Software Pay የመክፈያ ዘዴዎችን እና አድራሻዎችን አያካትትም።</translation>
-<translation id="1171389789873508468">ውሂብ <ph name="TIME"/> ላይ በነበረው የOneVN Software ይለፍ ቃልዎ ተመስጥሯል። ይህ ከOneVN Software Pay የመክፈያ ዘዴዎችን እና አድራሻዎችን አያካትትም።</translation>
+<translation id="7218743184834293955">ውሂብ በስምረት ይለፍ ሐረግዎ ተመስጥሯል። ይህ ከOnevn Software Pay የመክፈያ ዘዴዎችን እና አድራሻዎችን አያካትትም።</translation>
+<translation id="7158251077901880179">ውሂብ <ph name="TIME"/> ላይ በነበረው የስምረት ይለፍ ሐረግዎ የተመሠጠረ ነው። ይህ ከOnevn Software Pay የመክፈያ ዘዴዎችን እና አድራሻዎችን አያካትትም።</translation>
+<translation id="1171389789873508468">ውሂብ <ph name="TIME"/> ላይ በነበረው የOnevn Software ይለፍ ቃልዎ ተመስጥሯል። ይህ ከOnevn Software Pay የመክፈያ ዘዴዎችን እና አድራሻዎችን አያካትትም።</translation>
 <translation id="2562743677925229011"><ph name="SHORT_PRODUCT_NAME"/> ውስጥ አልገቡም</translation>
 <translation id="4027804175521224372">(እያመለጠዎት ነው—<ph name="IDS_SYNC_PROMO_NOT_SIGNED_IN_STATUS_LINK"/>)</translation>
 <translation id="3574210789297084292">ግባ</translation>
 <translation id="237828693408258535">ይህ ገጽ ይተርጎም?</translation>
-<translation id="4613765529964435709">OneVN Software ይህን ገጽ ከ<ph name="SOURCE_LANGUAGE"/> ወደ <ph name="TARGET_LANGUAGE"/> እንዲተረጉመው ይፈልጋሉ?</translation>
+<translation id="4613765529964435709">Onevn Software ይህን ገጽ ከ<ph name="SOURCE_LANGUAGE"/> ወደ <ph name="TARGET_LANGUAGE"/> እንዲተረጉመው ይፈልጋሉ?</translation>
 <translation id="5990386583461751448">የተተረጎመ</translation>
 <translation id="5659833766619490117">ይህ ገጽ ሊተረጎም አልቻለም</translation>
 <translation id="969096075394517431">ቋንቋዎችን ይቀይሩ</translation>
@@ -1931,11 +1931,11 @@ nil</translation>
 <translation id="2762441749940182211">ካሜራ ታግዷል</translation>
 <translation id="5074318175948309511">አዲሶቹ ቅንብሮች ከመተግበራቸው በፊት ይህ ገጽ ዳግም መጫን ሊኖርበት ይችላል።</translation>
 <translation id="8282947398454257691">የእርስዎን ልዩ የመሣሪያ ለይቶ ማወቂያ ይወቁ</translation>
-<translation id="8329449853370113380"><ph name="URL"/> የተጠበቀ ይዘትን ማጫወት ይፈልጋል። የመሣሪያዎ ማንነት በOneVN Software ይረጋገጣል።</translation>
-<translation id="2650609753175229582"><ph name="URL"/> የተጠበቀ ይዘትን ማጫወት ይፈልጋል። የመሣሪያዎ ማንነት በOneVN Software የሚረጋገጥ ሲሆን በዚህ ጣቢያ ሊደረስበት ይችላል።</translation>
+<translation id="8329449853370113380"><ph name="URL"/> የተጠበቀ ይዘትን ማጫወት ይፈልጋል። የመሣሪያዎ ማንነት በOnevn Software ይረጋገጣል።</translation>
+<translation id="2650609753175229582"><ph name="URL"/> የተጠበቀ ይዘትን ማጫወት ይፈልጋል። የመሣሪያዎ ማንነት በOnevn Software የሚረጋገጥ ሲሆን በዚህ ጣቢያ ሊደረስበት ይችላል።</translation>
 <translation id="1322046419516468189">በእርስዎ <ph name="SAVED_PASSWORDS_STORE"/> ውስጥ የተቀመጡ የይለፍ ቃላትን ይመልከቱ እና ያስተዳድሩ</translation>
 <translation id="5297082477358294722">የይለፍ ቃል ተቀምጧል። የተቀመጡ የይለፍ ቃላትን በእርስዎ <ph name="SAVED_PASSWORDS_STORE"/> ይመልከቱ እና ያስተዳድሩ።</translation>
-<translation id="5713644099811900409">የOneVN Software መለያ</translation>
+<translation id="5713644099811900409">የOnevn Software መለያ</translation>
 <translation id="3785727820640310185">የተቀመጡ የዚህ ጣቢያ የይለፍ ቃላት</translation>
 <translation id="3404065873681873169">ለዚህ ጣቢያ ምንም የይለፍ ቃላት አልተቀመጡም</translation>
 <translation id="8470513973197838199">የተቀመጡ የ<ph name="ORIGIN"/> የይለፍ ቃላት</translation>
@@ -2074,7 +2074,7 @@ nil</translation>
 <translation id="2505324914378689427">{SCREEN_INDEX,plural, =1{ማያ ገጽ #}one{ማያ ገጽ #}other{ማያ ገጽ #}}</translation>
 <translation id="839736845446313156">ይመዝገቡ</translation>
 <translation id="6285120908535925801">{NUM_PRINTER,plural, =1{በእርስዎ አውታረ መረብ ላይ ያለ አዲስ አታሚ}one{በእርስዎ አውታረ መረብ ላይ ያሉ አዲስ አታሚዎች}other{በእርስዎ አውታረ መረብ ላይ ያሉ አዲስ አታሚዎች}}</translation>
-<translation id="2656240156816412333">{NUM_PRINTER,plural, =1{ከማንኛውም ቦታ ሆነው ማተም እንዲችሉ አታሚውን ወደ OneVN Software Cloud አታሚ ያክሉ።}one{ከማንኛውም ቦታ ሆነው ማተም እንዲችሉ # አታሚዎችን ወደ OneVN Software Cloud አታሚ ያክሉ።}other{ከማንኛውም ቦታ ሆነው ማተም እንዲችሉ # አታሚዎችን ወደ OneVN Software Cloud አታሚ ያክሉ።}}</translation>
+<translation id="2656240156816412333">{NUM_PRINTER,plural, =1{ከማንኛውም ቦታ ሆነው ማተም እንዲችሉ አታሚውን ወደ Onevn Software Cloud አታሚ ያክሉ።}one{ከማንኛውም ቦታ ሆነው ማተም እንዲችሉ # አታሚዎችን ወደ Onevn Software Cloud አታሚ ያክሉ።}other{ከማንኛውም ቦታ ሆነው ማተም እንዲችሉ # አታሚዎችን ወደ Onevn Software Cloud አታሚ ያክሉ።}}</translation>
 <translation id="409579654357498729">ወደ የደመና ህትመት ያክሉ</translation>
 <translation id="4628757576491864469">መሣሪያዎች</translation>
 <translation id="6915804003454593391">ተጠቃሚ፦</translation>
@@ -2084,8 +2084,8 @@ nil</translation>
 <translation id="1895934970388272448">ይህን ሂደት ለማጠናቀቅ በእርስዎ አታሚ ላይ ምዝገባ ማረጋገጥ አለብዎት - አሁን ያረጋግጡት።</translation>
 <translation id="551752069230578406">አታሚውን ወደ የእርስዎ መለያ በማከል ላይ - ይሄ ትንሽ ጊዜ ሊወስድ ይችላል...</translation>
 <translation id="2384436799579181135">አንድ ስህተት ተከስቷል። እባክዎ የእርስዎን አታሚ ያረጋግጡና እንደገና ይሞክሩ።</translation>
-<translation id="2569908351567260524">በOneVN Software ደመና ህትመት ላይ ያለ አታሚ</translation>
-<translation id="6782994146626179935">በOneVN Software የደመና መሣሪያዎች ላይ ያለ መሣሪያ</translation>
+<translation id="2569908351567260524">በOnevn Software ደመና ህትመት ላይ ያለ አታሚ</translation>
+<translation id="6782994146626179935">በOnevn Software የደመና መሣሪያዎች ላይ ያለ መሣሪያ</translation>
 <translation id="7140928199327930795">ሌሎች የሚገኙ ምንም መሣሪያዎች የሉም።</translation>
 <translation id="8213577208796878755">አንድ ሌላ የሚገኝ መሣሪያ።</translation>
 <translation id="1495486559005647033"><ph name="NUM_PRINTERS"/> የሚገኙ ሌሎች መሣሪያዎች።</translation>
@@ -2093,15 +2093,15 @@ nil</translation>
 <translation id="4720113199587244118">መሣሪያዎችን አክል</translation>
 <translation id="2776441542064982094">በአውታረ መረቡ ላይ ሊመዘገቡ የሚችሉ ምንም መሣሪያዎች የሌሉ ይመስላል። የእርስዎ መሣሪያ ከበራ እና ከበይነመረቡ ጋር የተገናኘ ከሆነ በመመሪያው ላይ ያሉ ትዕዛዞችን በመከተል እሱን ለማስመዝገብ ይሞክሩ።</translation>
 <translation id="1007408791287232274">መሣሪያዎችን መጫን አልተቻለም።</translation>
-<translation id="3886420006370338208">የእርስዎን መሣሪያዎች ለማየት በመለያ ወደ የእርስዎ OneVN መግባት አለብዎት</translation>
-<translation id="6711610692002680394">አዲስ መሣሪያዎችን ለማስመዝገብ በመለያ ወደ OneVN መግባት አለብዎት</translation>
+<translation id="3886420006370338208">የእርስዎን መሣሪያዎች ለማየት በመለያ ወደ የእርስዎ Onevn መግባት አለብዎት</translation>
+<translation id="6711610692002680394">አዲስ መሣሪያዎችን ለማስመዝገብ በመለያ ወደ Onevn መግባት አለብዎት</translation>
 <translation id="8931394284949551895">አዲስ መሣሪያዎች</translation>
 <translation id="3752673729237782832">የእኔ መሣሪያዎች</translation>
 <translation id="1721937473331968728">ከእርስዎ ኮምፒውተር ጋር የተገናኙ የሚታወቁ አይነት አታሚዎችን ወደ <ph name="CLOUD_PRINT_NAME"/> ማከል ይችላሉ።</translation>
 <translation id="715118844758971915">አይነታቸው የሚታወቁ አታሚዎች</translation>
 <translation id="4263757076580287579">የአታሚ ምዝገባ ተሰርዟል።</translation>
 <translation id="8152091997436726702">የአታሚ ምዝገባ እረፍት ወስዷል። አንድ አታሚ ለማስመዝገብ በአታሚው ላይ ምዝገባ ማረጋገጥ አለብዎት።</translation>
-<translation id="2057904164277279211">ለሕትመት እነርሱን ለማዘጋጀት ሰነዶች <ph name="BEGIN_LINK_HELP"/>ወደ OneVN Software ተልከዋል<ph name="END_LINK_HELP"/>። የእርስዎን አታሚዎች እና የሕትመት ታሪክ በ<ph name="BEGIN_LINK_DASHBOARD"/>OneVN Software Cloud Print ዳሽቦርድ<ph name="END_LINK_DASHBOARD"/> ላይ ይመልከቱ፣ አርትዕ ያድርጉ እና ያስተዳድሩ።</translation>
+<translation id="2057904164277279211">ለሕትመት እነርሱን ለማዘጋጀት ሰነዶች <ph name="BEGIN_LINK_HELP"/>ወደ Onevn Software ተልከዋል<ph name="END_LINK_HELP"/>። የእርስዎን አታሚዎች እና የሕትመት ታሪክ በ<ph name="BEGIN_LINK_DASHBOARD"/>Onevn Software Cloud Print ዳሽቦርድ<ph name="END_LINK_DASHBOARD"/> ላይ ይመልከቱ፣ አርትዕ ያድርጉ እና ያስተዳድሩ።</translation>
 <translation id="3082780749197361769">ይህ ትር የእርስዎን ካሜራ ወይም ማይክሮፎን እየተጠቀመ ነው።</translation>
 <translation id="3578594933904494462">የዚህ ትር ይዘት በመጋራት ላይ ነው።</translation>
 <translation id="4449996769074858870">ይህ ትር ድምጽ እያጫወተ ነው።</translation>
@@ -2154,7 +2154,7 @@ nil</translation>
 <translation id="4540437243849625078">ይህ ጣቢያ ማንነት ከማያሳውቅ ሁነታ ውጭ ላለ መተግበሪያ መረጃ ሊያጋራ ነው።</translation>
 <translation id="1227836882233136433">ከማንነት የማያሳውቅ ሁነታ ይውጣ?</translation>
 <translation id="662080504995468778">ቆይ</translation>
-<translation id="2593289874938379417">OneVN የተጠየቀው ግብዓት መዳረሻ የለውም።</translation>
+<translation id="2593289874938379417">Onevn የተጠየቀው ግብዓት መዳረሻ የለውም።</translation>
 <translation id="760197030861754408">ለመገናኘት ወደ <ph name="LANDING_PAGE"/> ይሂዱ።</translation>
 <translation id="3648348069317717750"><ph name="USB_DEVICE_NAME"/> ተገኝቷል</translation>
 <translation id="2382095919147960379">ይህን መሣሪያ ከLinux ጋር አገናኝ</translation>
@@ -2202,17 +2202,17 @@ nil</translation>
 <translation id="7055152154916055070">አቅጣጫ ማዞር ታግዷል፦</translation>
 <translation id="6777817260680419853">አቅጣጫ ማዞር ታግዷል</translation>
 <translation id="694592694773692225">በዚህ ገጽ ላይ አቅጣጫ ማዞር ታግዷል።</translation>
-<translation id="8149707863742670433">በOneVN Software የቀረበ የድር አሳሽ፣ ለእርስዎ</translation>
-<translation id="3541561136058491590">የእርስዎን ዕልባቶች፣ ታሪክ፣ የይለፍ ቃላት እና ሌሎች ቅንብሮችን በሁሉም መሣሪያዎችዎ ላይ ለማግኘት በOneVN Software መለያዎ ወደ OneVN ይግቡ።</translation>
-<translation id="8945142681652245463">ከOneVN Software OneVN ጋር በፍጥነት ያስሱ</translation>
-<translation id="2618024864038703735">ከOneVN Software OneVN ጋር ደህንነቱ በተጠበቀ ሁኔታ ያስሱ</translation>
-<translation id="8142180567942285208">ከOneVN ጋር በዘመናዊ መንገድ ያስሱ</translation>
+<translation id="8149707863742670433">በOnevn Software የቀረበ የድር አሳሽ፣ ለእርስዎ</translation>
+<translation id="3541561136058491590">የእርስዎን ዕልባቶች፣ ታሪክ፣ የይለፍ ቃላት እና ሌሎች ቅንብሮችን በሁሉም መሣሪያዎችዎ ላይ ለማግኘት በOnevn Software መለያዎ ወደ Onevn ይግቡ።</translation>
+<translation id="8945142681652245463">ከOnevn Software Onevn ጋር በፍጥነት ያስሱ</translation>
+<translation id="2618024864038703735">ከOnevn Software Onevn ጋር ደህንነቱ በተጠበቀ ሁኔታ ያስሱ</translation>
+<translation id="8142180567942285208">ከOnevn ጋር በዘመናዊ መንገድ ያስሱ</translation>
 <translation id="8862003515646449717">ወደ ፈጣን አሳሽ ቀይር</translation>
 <translation id="8438328416656800239">ወደ ዘመናዊ አሳሽ ቀይር</translation>
 <translation id="491691592645955587">ደህንነቱ ወደተጠበቀ አሳሽ ቀይር</translation>
 <translation id="683373380308365518">ወደ ዘመናዊ እና ደህንነቱ የተጠበቀ አሳሽ ይቀይሩ</translation>
-<translation id="989239400026154074">OneVN Software OneVNን ይመክራል</translation>
-<translation id="6676231621615806698">OneVNን ክፈት</translation>
+<translation id="989239400026154074">Onevn Software Onevnን ይመክራል</translation>
+<translation id="6676231621615806698">Onevnን ክፈት</translation>
 <translation id="7494065396242762445">የWindows ቅንብሮችን ክፈት</translation>
 <translation id="2137068468602026500"><ph name="BEGIN_BOLD"/>Microsoft Edge<ph name="END_BOLD"/> ከድር ማሰሻ ስር ጠቅ ያድርጉ</translation>
 <translation id="3720996970802414353">ለማንኛውም ቀይር</translation>
@@ -2221,7 +2221,7 @@ nil</translation>
 <translation id="7537601449003285327">ከተግባር አሞሌ ጋር አያይዝ</translation>
 <translation id="5250372599208556903"><ph name="SEARCH_ENGINE_NAME"/> አካባቢያዊ ይዘትን ለእርስዎ ለመስጠት አካባቢዎን ይጠቀማል። ይህን በ<ph name="SETTINGS_LINK"/> ውስጥ መቀየር ይችላሉ።</translation>
 <translation id="3737536731758327622">የእርስዎ ውርዶች እዚህ ይታያሉ</translation>
-<translation id="4782664866169793230">OneVN በራስ-ሰር የሙከራ ሶፍትዌር ቁጥጥር ሥር ነው።</translation>
+<translation id="4782664866169793230">Onevn በራስ-ሰር የሙከራ ሶፍትዌር ቁጥጥር ሥር ነው።</translation>
 <translation id="6721678857435001674">የደህንነት ቁልፍዎን ስሪት እና ሞዴል ይመልከቱ</translation>
 <translation id="1673137583248014546"><ph name="URL"/> የደህንነት ቁልፍዎን ስሪት እና ሞዴል ማየት ይፈልጋል</translation>
 <translation id="6010869025736512584">የቪዲዮ ግብዓትን በመድረስ ላይ</translation>
@@ -2437,9 +2437,9 @@ nil</translation>
 <translation id="9011163749350026987">ሁልጊዜ አዶን አሳይ</translation>
 <translation id="1706586824377653884">በእርስዎ አስተዳዳሪ ታክሏል</translation>
 <translation id="6467304607960172345">ባለሙሉ ማያ ቪዲዮዎችን አትባ</translation>
-<translation id="1597210476603167523">እንደ OneVN Software Hangouts ወዳሉ በደመና ላይ ለተመሠረቱ አገልግሎቶች cast ማድረግን ያንቁ።</translation>
-<translation id="3653941710869291743">እንኳን ወደ በOneVN ውስጥ የCast ተሞክሮ በደህና መጡ!</translation>
-<translation id="2841638550927239436">ከOneVN የመጡ ይዘቶችን በእርስዎ ቴሌቪዥን ወይም በሌሎች መሣሪያዎች ላይ ለማሳየት ይህን ባሕሪ መጠቀም ይችላሉ።</translation>
+<translation id="1597210476603167523">እንደ Onevn Software Hangouts ወዳሉ በደመና ላይ ለተመሠረቱ አገልግሎቶች cast ማድረግን ያንቁ።</translation>
+<translation id="3653941710869291743">እንኳን ወደ በOnevn ውስጥ የCast ተሞክሮ በደህና መጡ!</translation>
+<translation id="2841638550927239436">ከOnevn የመጡ ይዘቶችን በእርስዎ ቴሌቪዥን ወይም በሌሎች መሣሪያዎች ላይ ለማሳየት ይህን ባሕሪ መጠቀም ይችላሉ።</translation>
 <translation id="5234764350956374838">አሰናብት</translation>
 <translation id="4579581181964204535"><ph name="HOST_NAME"/>ን cast ማድረግ አልተቻለም።</translation>
 <translation id="8757090071857742562">ዴስክቶፑን cast ማድረግ አልተቻለም።  ማያ ገጽዎን ማጋራት ለመጀመር ጥያቄውን ማረጋገጥዎን ይመልከቱ።</translation>
@@ -2473,7 +2473,7 @@ nil</translation>
 <translation id="4144218403971135344">የተሻለ ጥራት ያለውን ቪዲዮ ያግኙ እና የባትሪ ዕድሜ ይቆጥቡ። ቪዲዮ በእርስዎ የCast-የነቃ ማያ ገጽ ላይ ብቻ ይጫወታል።</translation>
 <translation id="236117173274098341">አትባ</translation>
 <translation id="8538358978858059843">ለCast የደመና አገልግሎቶች ይንቁ?</translation>
-<translation id="3856595552313160385">የHangouts እና Cast for Education አጠቃቀም በOneVN Software ግላዊነት መመሪያ ነው የሚተዳደሩት።</translation>
+<translation id="3856595552313160385">የHangouts እና Cast for Education አጠቃቀም በOnevn Software ግላዊነት መመሪያ ነው የሚተዳደሩት።</translation>
 <translation id="3700888195348409686">(<ph name="PAGE_ORIGIN"/>) በማቅረብ ላይ</translation>
 <translation id="5285635972691565180"><ph name="DISPLAY_ID"/>ን አሳይ</translation>
 <translation id="4707302005824653064">አጠቃቀም እና ታሪክ chrome.com ላይ በአቀናባሪው (<ph name="CUSTODIAN_EMAIL"/>) ሊከለሱ ይችላሉ።</translation>
@@ -2637,7 +2637,7 @@ nil</translation>
 <translation id="672213144943476270">እንደ እንግዳ ከማሰስዎ በፊት የእርስዎን መገለጫ እባክዎ ይክፈቱ።</translation>
 <translation id="3478685642445675458">አንድ ሰው ከማስወገድዎ በፊት እባክዎ የእርስዎን መገለጫ ይክፈቱ።</translation>
 <translation id="4648499713050786492">አንድ ሰው ከማከልዎ በፊት እባክዎ የእርስዎን መገለጫ ይክፈቱ።</translation>
-<translation id="8978225823042133615">OneVNን ለመጠቀም እባክዎ በመለያ ያግቡ</translation>
+<translation id="8978225823042133615">Onevnን ለመጠቀም እባክዎ በመለያ ያግቡ</translation>
 <translation id="4893336867552636863">ይሄ የአሰሳ ውሂብዎን ለዘለዓለም ከዚህ መሣሪያ ይሰርዘዋል።</translation>
 <translation id="2496180316473517155">ታሪክ አሰሳ</translation>
 <translation id="6865313869410766144">የራስ-ሙላ ቅጽ ውሂብ</translation>
@@ -2657,7 +2657,7 @@ nil</translation>
 <translation id="3236289833370040187">ባለቤትነትን ወደ <ph name="DESTINATION_DOMAIN"/> ይዛወራል።</translation>
 <translation id="7765158879357617694">ውሰድ</translation>
 <translation id="8249296373107784235">አጨንግፍ</translation>
-<translation id="6268185425799226387">OneVN Software Drive</translation>
+<translation id="6268185425799226387">Onevn Software Drive</translation>
 <translation id="4425149324548788773">የእኔ Drive</translation>
 <translation id="1786636458339910689">የቡድን Drives</translation>
 <translation id="5010406651457630570">ኮምፒውተሮች</translation>
@@ -2764,7 +2764,7 @@ nil</translation>
 <translation id="6227235786875481728">ይህ ፋይል ሊጫወት አይችልም።</translation>
 <translation id="9154418932169119429">ይህ ምስል ከመስመር ውጪ አይገኝም።</translation>
 <translation id="1844692022597038441">ይህ ፋይል ከመስመር ውጪ አይገኝም።</translation>
-<translation id="2929414043040740704">ከOneVN Software Drive መልሰው የተገኙ ፋይሎች</translation>
+<translation id="2929414043040740704">ከOnevn Software Drive መልሰው የተገኙ ፋይሎች</translation>
 <translation id="2085470240340828803">«<ph name="FILENAME"/>» የሚባል ፋይል አስቀድሞ አለ። ምን ማድረግ ይፈልጋሉ?</translation>
 <translation id="4801956050125744859">ሁለቱንም አስቀምጥ</translation>
 <translation id="1062407476771304334">ተካ</translation>
@@ -2794,8 +2794,8 @@ nil</translation>
 <translation id="2377319039870049694">ወደ የዝርዝር እይታ ቀይር</translation>
 <translation id="3003633581067744647">ወደ የድንክዬ እይታ ቀይር</translation>
 <translation id="604001903249547235">የክላውድ ምትኬ</translation>
-<translation id="505639225383557233">የOneVN OS የክላውድ ምትኬ</translation>
-<translation id="8656896237683963068">የእርስዎን ሚዲያ መሣሪያ ፎቶዎች እና ቪዲዮዎች ወደ OneVN Software Drive በምትኬ ያስቀምጡ።</translation>
+<translation id="505639225383557233">የOnevn OS የክላውድ ምትኬ</translation>
+<translation id="8656896237683963068">የእርስዎን ሚዲያ መሣሪያ ፎቶዎች እና ቪዲዮዎች ወደ Onevn Software Drive በምትኬ ያስቀምጡ።</translation>
 <translation id="3057861065630527966">የእርስዎን ፎቶዎች እና ቪዲዮዎች በምትኬ ያስቀምጡ</translation>
 <translation id="7730494089396812859">የክላውድ ምትኬ ዝርዝሮችን አሳይ</translation>
 <translation id="2850124913210091882">በምትኬ አስቀምጥ</translation>
@@ -2805,14 +2805,14 @@ nil</translation>
     <ph name="LINE_BREAK1"/>
     <ph name="FILE_COUNT"/> ተገኝቷል</translation>
 <translation id="3466147780910026086">የእርስዎን ሚዲያ መሣሪያ በመቃኘት ላይ...</translation>
-<translation id="2611866923243604397">ሁሉም ወደ <ph name="BEGIN_LINK"/>OneVN Software Drive<ph name="END_LINK"/> በምትኬ ተቀምጠዋል!</translation>
+<translation id="2611866923243604397">ሁሉም ወደ <ph name="BEGIN_LINK"/>Onevn Software Drive<ph name="END_LINK"/> በምትኬ ተቀምጠዋል!</translation>
 <translation id="3620292326130836921">ሁሉም በምትኬ ተቀምጧል!</translation>
 <translation id="1536674585581593431"><ph name="FILE_COUNT"/> ተገኝቷል።
     <ph name="LINE_BREAK1"/>
-    የእርስዎ የOneVN Software Drive ኮታ ያን ያህል በቂ አይደለም። ተጨማሪ <ph name="FILE_SIZE"/> ያስፈልጋል።
+    የእርስዎ የOnevn Software Drive ኮታ ያን ያህል በቂ አይደለም። ተጨማሪ <ph name="FILE_SIZE"/> ያስፈልጋል።
     <ph name="LINE_BREAK2"/>
     መጠናቸው አነስ ያሉ ፎቶዎችን ይሞክሩ።</translation>
-<translation id="2473109739642988997">የእርስዎ OneVN Software Drive ኮታ ያን ያህል በቂ አይደለም።</translation>
+<translation id="2473109739642988997">የእርስዎ Onevn Software Drive ኮታ ያን ያህል በቂ አይደለም።</translation>
 <translation id="1148097584170732637"><ph name="FILE_COUNT"/> ተገኝቷል።
     <ph name="LINE_BREAK1"/>
     በአካባቢያዊ ማከማቻ ውስጥ በቂ ቦታ የለም። ተጨማሪ <ph name="FILE_SIZE"/> ያስፈልጋል።
@@ -2821,11 +2821,11 @@ nil</translation>
 <translation id="2352947182261340447">በአካባቢያዊ ማከማቻው ውስጥ በቂ ቦታ የለም።</translation>
 <translation id="1127657192797926968"><ph name="FILE_COUNT"/> ተገኝቷል
     <ph name="LINE_BREAK1"/>
-    ምትኬ ወደ <ph name="BEGIN_LINK"/>OneVN Software Drive<ph name="END_LINK"/> ለማስቀመጥ ዝግጁ</translation>
+    ምትኬ ወደ <ph name="BEGIN_LINK"/>Onevn Software Drive<ph name="END_LINK"/> ለማስቀመጥ ዝግጁ</translation>
 <translation id="4905417359854579806">የ<ph name="FILE_COUNT"/>ን ምትኬ ለማስቀመጥ ዝግጁ</translation>
-<translation id="5029447434471675822">የ<ph name="FILE_COUNT"/>ን ምትኬ ወደ <ph name="BEGIN_LINK"/>OneVN Software Drive<ph name="END_LINK"/> በማስቀመጥ ላይ</translation>
+<translation id="5029447434471675822">የ<ph name="FILE_COUNT"/>ን ምትኬ ወደ <ph name="BEGIN_LINK"/>Onevn Software Drive<ph name="END_LINK"/> በማስቀመጥ ላይ</translation>
 <translation id="4215448920900139318">የ<ph name="FILE_COUNT"/>ን ምትኬ በማስቀመጥ ላይ</translation>
-<translation id="2419376816263920133"><ph name="FILE_COUNT"/> ፎቶዎች ወደ <ph name="BEGIN_LINK"/>OneVN Software Drive<ph name="END_LINK"/> በምትኬ ተቀምጠዋል</translation>
+<translation id="2419376816263920133"><ph name="FILE_COUNT"/> ፎቶዎች ወደ <ph name="BEGIN_LINK"/>Onevn Software Drive<ph name="END_LINK"/> በምትኬ ተቀምጠዋል</translation>
 <translation id="2994669386200004489">የ<ph name="FILE_NAME"/>ን ምትኬ ማስቀመጥ አልተቻለም</translation>
 <translation id="4724850507808590449"><ph name="FILE_COUNT"/> ፎቶዎች በምትኬ ተቀምጠዋል</translation>
 <translation id="1351692861129622852"><ph name="FILE_COUNT"/> ፋይሎችን በማስመጣት ላይ...</translation>
@@ -2847,9 +2847,9 @@ nil</translation>
 <translation id="653019979737152879"><ph name="FILE_NAME"/>ን በማመሳሰል ላይ...</translation>
 <translation id="8579285237314169903"><ph name="NUMBER_OF_FILES"/> ንጥሎችን በማመሳሰል ላይ...</translation>
 <translation id="8137331602592933310">«<ph name="FILENAME"/>» ለእርስዎ ተጋርቷል። እርስዎ ባለቤቱ ስላልሆኑ ሊሰርዙት አይችሉም።</translation>
-<translation id="6277279884155292049">OneVN Software Drive አሁን አይገኝም። OneVN Software Drive ተመልሶ እንደመጣ መስቀል በራስ-ሰር ዳግም ይጀመራል።</translation>
-<translation id="1114160088213746286">OneVN Software Drive አሁን «<ph name="FILENAME"/>» ማስመር አልቻለም። OneVN Software Drive ቆይቶ እንደገና ይሞክራል።</translation>
-<translation id="4893296294301184587">«<ph name="FILENAME"/>» አልተሰቀለም። በእርስዎ OneVN Software Drive ውስጥ በቂ የሆነ ነፃ ቦታ የለም።</translation>
+<translation id="6277279884155292049">Onevn Software Drive አሁን አይገኝም። Onevn Software Drive ተመልሶ እንደመጣ መስቀል በራስ-ሰር ዳግም ይጀመራል።</translation>
+<translation id="1114160088213746286">Onevn Software Drive አሁን «<ph name="FILENAME"/>» ማስመር አልቻለም። Onevn Software Drive ቆይቶ እንደገና ይሞክራል።</translation>
+<translation id="4893296294301184587">«<ph name="FILENAME"/>» አልተሰቀለም። በእርስዎ Onevn Software Drive ውስጥ በቂ የሆነ ነፃ ቦታ የለም።</translation>
 <translation id="5163869187418756376">ማጋራት አልተሳካም። ግንኙነትዎን ይፈትሹ እና ቆይተው እንደገና ይሞክሩ።</translation>
 <translation id="656398493051028875">«<ph name="FILENAME"/>»ን በመሰረዝ ላይ...</translation>
 <translation id="1047956942837015229"><ph name="COUNT"/> ንጥሎችን በመሰረዝ ላይ...</translation>
@@ -2915,7 +2915,7 @@ nil</translation>
 <translation id="180035236176489073">እነዚህን ፋይሎች ለመድረስ መስመር ላይ መሆን አለብዎት።</translation>
 <translation id="1190144681599273207">ይህን ፋይል ማምጣት <ph name="FILE_SIZE"/> አካባቢ የተንቀሳቃሽ ውሂብ ይጠቀማል።</translation>
 <translation id="7839804798877833423">እነዚህን ፋይሎች ማምጣት <ph name="FILE_SIZE"/> ገደማ የተንቀሳቃሽ ስልክ ውሂብ ይጠቀማል።</translation>
-<translation id="6813005947820333339">የሞባይል ውሂብ ጥቅም ላይ በሚውልበት ጊዜ OneVN Software Drive ማመሳሰል በነባሪ ይሰናከላል።</translation>
+<translation id="6813005947820333339">የሞባይል ውሂብ ጥቅም ላይ በሚውልበት ጊዜ Onevn Software Drive ማመሳሰል በነባሪ ይሰናከላል።</translation>
 <translation id="696203921837389374">በሞባይል ውሂብ ላይ ማመሳሰልን አንቃ</translation>
 <translation id="637062427944097960">ይህ ፋይል በሌላ ዴስክቶፕ ላይ ተከፍቷል። እሱን ለማየት ወደ <ph name="USER_NAME"/> (<ph name="MAIL_ADDRESS"/>) ይውሰዱት።</translation>
 <translation id="5330145655348521461">እነዚህ ፋይሎች በተለየ ዴስክቶፕ ላይ ተከፍተዋል። ለማየት ወደ <ph name="USER_NAME"/> (<ph name="MAIL_ADDRESS"/>) ይውሰዱት።</translation>
@@ -2929,32 +2929,32 @@ nil</translation>
 <translation id="7925686952655276919">ለማመሳሰል የተንቀሳቃሽ ስልክ ውሂብን አትጠቀም</translation>
 <translation id="7106346894903675391">ተጨማሪ ማከማቻ ይግዙ...</translation>
 <translation id="3549797760399244642">ወደ drive.google.com ይሂዱ...</translation>
-<translation id="3451154303153932176">የቀረው የOneVN Software Drive ማከማቻ ቦታ፦ <ph name="SPACE_AVAILABLE"/>።</translation>
+<translation id="3451154303153932176">የቀረው የOnevn Software Drive ማከማቻ ቦታ፦ <ph name="SPACE_AVAILABLE"/>።</translation>
 <translation id="4552678318981539154">ተጨማሪ ማከማቻ ይግዙ</translation>
 <translation id="6990081529015358884">ቦታ አልቆዎብዎታል</translation>
-<translation id="5521447721624713749">OneVN Software Drive በዚህ ጊዜ ሊደረስበት አይችልም።</translation>
+<translation id="5521447721624713749">Onevn Software Drive በዚህ ጊዜ ሊደረስበት አይችልም።</translation>
 <translation id="7788080748068240085">«<ph name="FILE_NAME"/>»ን ከመስመር ውጪ ለማስቀመጥ ተጨማሪ የሆነ <ph name="TOTAL_FILE_SIZE"/> የማከማቻ ቦታ ነጻ ማስለቀቅ አለብዎት፦<ph name="MARKUP_1"/>
         <ph name="MARKUP_2"/>ከአሁን በኋላ ከመስመር ውጪ ለመድረስ የማያስፈልጉዎትን ፋይሎች ይንቀሱ<ph name="MARKUP_3"/>
         <ph name="MARKUP_4"/>ፋይሎችን ከወረዱ ማስቀመጫ አቃፊዎ ይሰርዙ<ph name="MARKUP_5"/></translation>
-<translation id="7606199793785990727">OneVN Software Drive ሊደረስበት አልተቻለም። እባክዎ <ph name="BEGIN_LINK"/>ዘግተው ይውጡ<ph name="END_LINK"/>ና ተመልሰው ይግቡ።</translation>
-<translation id="585883343689351092">ወደ OneVN Software Drive እንኳን በደህና መጡ!</translation>
+<translation id="7606199793785990727">Onevn Software Drive ሊደረስበት አልተቻለም። እባክዎ <ph name="BEGIN_LINK"/>ዘግተው ይውጡ<ph name="END_LINK"/>ና ተመልሰው ይግቡ።</translation>
+<translation id="585883343689351092">ወደ Onevn Software Drive እንኳን በደህና መጡ!</translation>
 <translation id="6862635236584086457">በዚህ አቃፊ ውስጥ የተቀመጡ ፋይሎች ሁሉ በራስ-ሰር መስመር ላይ መጠባበቂያ ይቀመጥላቸዋል</translation>
 <translation id="7220787572447472056"><ph name="MARKUP_1"/>ከየትኛውም ቦታ ሆነው ፋይሎችን ይድረሱባቸው፣ ከመስመር ውጪ ሆነውም እንኳ።<ph name="MARKUP_2"/>
-        በOneVN Software Drive ውስጥ ያሉ ፋይሎች የተዘመኑ እና ከማንኛውም መሣሪያ ተደራሽ የሆኑ ናቸው።<ph name="MARKUP_3"/>
+        በOnevn Software Drive ውስጥ ያሉ ፋይሎች የተዘመኑ እና ከማንኛውም መሣሪያ ተደራሽ የሆኑ ናቸው።<ph name="MARKUP_3"/>
         <ph name="MARKUP_4"/>የፋይሎችዎ ደህንነት ይጠብቁ።<ph name="MARKUP_5"/>
-        መሣሪያዎ ምንም ነገር ቢሆን ፋይሎችዎ በጥንቃቄ OneVN Software Drive ላይ ተከማችተዋል።<ph name="MARKUP_6"/>
+        መሣሪያዎ ምንም ነገር ቢሆን ፋይሎችዎ በጥንቃቄ Onevn Software Drive ላይ ተከማችተዋል።<ph name="MARKUP_6"/>
         ፋይሎችን በአንድ ቦታ ላይ 
         <ph name="MARKUP_7"/>ያጋሩ፣ ይፍጠሩ እና ያቀናጁ<ph name="MARKUP_8"/>።<ph name="MARKUP_9"/></translation>
-<translation id="4878716980734452132">ይህ የፋይል ዓይነት አይደገፍም። እባክዎ የዚህ አይነት ፋይል መክፈት የሚችል መተግበሪያ ለማግኘት <ph name="BEGIN_LINK"/>OneVN የድር መደብር<ph name="END_LINK"/>ን ይጎብኙ። <ph name="BEGIN_LINK_HELP"/>ተጨማሪ ለመረዳት<ph name="END_LINK_HELP"/></translation>
-<translation id="6230272341631206186">ይህ ፍፋይል የWindows ሶፍትዌር ለሚጠቀም ፒሲ የተነደፈ ነው። ይህ OneVN OS ከሚያሄደው መሣሪያዎ ጋር ተኳኋኝ አይደለም። <ph name="BEGIN_LINK_HELP"/>የበለጠ ለመረዳት<ph name="END_LINK_HELP"/></translation>
-<translation id="3072401511615920367">ይህ ፋይል የMacintosh ሶፍትዌር ለሚጠቀም ኮምፒውተር ነው የተቀየሰው። ይሄ OneVN OS ከሚያሄደው መሣሪያዎ ጋር ተኳሃኝ አይደለም። ተገቢ ምትክ መተግበሪያ ለማግኘት እባክዎ <ph name="BEGIN_LINK"/>የOneVN ድር መደብሩን<ph name="END_LINK"/> ይፈልጉ።<ph name="BEGIN_LINK_HELP"/>ተጨማሪ ለመረዳት<ph name="END_LINK_HELP"/></translation>
+<translation id="4878716980734452132">ይህ የፋይል ዓይነት አይደገፍም። እባክዎ የዚህ አይነት ፋይል መክፈት የሚችል መተግበሪያ ለማግኘት <ph name="BEGIN_LINK"/>Onevn የድር መደብር<ph name="END_LINK"/>ን ይጎብኙ። <ph name="BEGIN_LINK_HELP"/>ተጨማሪ ለመረዳት<ph name="END_LINK_HELP"/></translation>
+<translation id="6230272341631206186">ይህ ፍፋይል የWindows ሶፍትዌር ለሚጠቀም ፒሲ የተነደፈ ነው። ይህ Onevn OS ከሚያሄደው መሣሪያዎ ጋር ተኳኋኝ አይደለም። <ph name="BEGIN_LINK_HELP"/>የበለጠ ለመረዳት<ph name="END_LINK_HELP"/></translation>
+<translation id="3072401511615920367">ይህ ፋይል የMacintosh ሶፍትዌር ለሚጠቀም ኮምፒውተር ነው የተቀየሰው። ይሄ Onevn OS ከሚያሄደው መሣሪያዎ ጋር ተኳሃኝ አይደለም። ተገቢ ምትክ መተግበሪያ ለማግኘት እባክዎ <ph name="BEGIN_LINK"/>የOnevn ድር መደብሩን<ph name="END_LINK"/> ይፈልጉ።<ph name="BEGIN_LINK_HELP"/>ተጨማሪ ለመረዳት<ph name="END_LINK_HELP"/></translation>
 <translation id="7589661784326793847">አንድ ሰከንድ ብቻ ይጠብቁ</translation>
-<translation id="3096967955765855393">የእርስዎን አሰሳ ይበልጥ ደህንነቱ የተጠበቀ የሚሆንባቸው መንገዶችን በቋሚነት እየፈለግን ነው። ከዚህ ቀደም ማንኛውም ድር ጣቢያ ቅጥያ በአሳሽዎ ላይ እንዲያክሉ ሊጠይቅዎ ይችል ነበር። በቅርቦቹ የOneVN Software OneVN ስሪቶች ላይ እነዚህን ቅጥያዎች በቅጥያዎች ገጹ በኩል በማከል እንደሚፈልጓቸው በግልጽ ለOneVN መንገር አለብዎት። <ph name="BEGIN_LINK"/>ተጨማሪ ለመረዳት<ph name="END_LINK"/></translation>
+<translation id="3096967955765855393">የእርስዎን አሰሳ ይበልጥ ደህንነቱ የተጠበቀ የሚሆንባቸው መንገዶችን በቋሚነት እየፈለግን ነው። ከዚህ ቀደም ማንኛውም ድር ጣቢያ ቅጥያ በአሳሽዎ ላይ እንዲያክሉ ሊጠይቅዎ ይችል ነበር። በቅርቦቹ የOnevn Software Onevn ስሪቶች ላይ እነዚህን ቅጥያዎች በቅጥያዎች ገጹ በኩል በማከል እንደሚፈልጓቸው በግልጽ ለOnevn መንገር አለብዎት። <ph name="BEGIN_LINK"/>ተጨማሪ ለመረዳት<ph name="END_LINK"/></translation>
 <translation id="4892969127351273348">በ<ph name="APP_NAME"/> መክፈት አልተቻለም</translation>
 <translation id="52446585071384036">ፋይሎችን በ<ph name="APP_NAME"/> ለመክፈት መጀመሪያ ወደ የLinux ፋይሎች አቃፊ ይቅዱ።</translation>
 <translation id="5368191757080475556">ከLinux ጋር አቃፊን አጋራ</translation>
 <translation id="5857774240076772505">የLinux መተግበሪያዎች በ<ph name="FOLDER_NAME"/> አቃፊ ውስጥ ያሉ ፋይሎችን እንዲቀይሩ ይፍቀዱ</translation>
-<translation id="2280597422213958082">የLinux መተግበሪያዎች በእርስዎ OneVN Software Drive ውስጥ ፋይሎችን የመቀየር ፈቃድ ይስጧቸው። ለውጦች ከሌሎች መሣሪያዎችዎ ጋር ይሳመራሉ።</translation>
+<translation id="2280597422213958082">የLinux መተግበሪያዎች በእርስዎ Onevn Software Drive ውስጥ ፋይሎችን የመቀየር ፈቃድ ይስጧቸው። ለውጦች ከሌሎች መሣሪያዎችዎ ጋር ይሳመራሉ።</translation>
 <translation id="4290535918735525311">1 አቃፊ ከLinux ጋር ተጋርቷል</translation>
 <translation id="2377590462528165447"><ph name="NUMBER_OF_ITEMS"/> አቃፊዎች ለLinux ተጋርተዋል</translation>
 <translation id="4572815280350369984"><ph name="FILE_TYPE"/> ፋይል</translation>
@@ -2972,19 +2972,19 @@ nil</translation>
 <translation id="1049926623896334335">የWord ሰነድ</translation>
 <translation id="4784330909746505604">PowerPoint ማቅረቢያ</translation>
 <translation id="8860454412039442620">የExcel ተመን ሉህ</translation>
-<translation id="5383943761832211733">OneVN Software ሰነድ</translation>
-<translation id="5924916971643100883">OneVN Software ተመን ሉህ</translation>
-<translation id="3667369474859528036">OneVN Software ማቅረቢያ</translation>
-<translation id="3411013849623404696">OneVN Software ስዕል</translation>
-<translation id="7481041283483972362">OneVN Software ሠንጠረዥ</translation>
-<translation id="784862457750027723">OneVN Software ቅጽ</translation>
-<translation id="3320425620177764157">OneVN Software ካርታ</translation>
-<translation id="7452737073539387970">የOneVN Software ጣቢያ</translation>
-<translation id="4445959220475380548">OneVN Software Drive አገናኝ</translation>
+<translation id="5383943761832211733">Onevn Software ሰነድ</translation>
+<translation id="5924916971643100883">Onevn Software ተመን ሉህ</translation>
+<translation id="3667369474859528036">Onevn Software ማቅረቢያ</translation>
+<translation id="3411013849623404696">Onevn Software ስዕል</translation>
+<translation id="7481041283483972362">Onevn Software ሠንጠረዥ</translation>
+<translation id="784862457750027723">Onevn Software ቅጽ</translation>
+<translation id="3320425620177764157">Onevn Software ካርታ</translation>
+<translation id="7452737073539387970">የOnevn Software ጣቢያ</translation>
+<translation id="4445959220475380548">Onevn Software Drive አገናኝ</translation>
 <translation id="5288481194217812690"><ph name="FILENAME"/></translation>
-<translation id="1131292764548273687">ይህ ፋይል አይነት አይደገፍም። የዚህ አይነት ፋይል መክፈት የሚችል መተግበሪያን ለማግኘት እባክዎ OneVN የድር ሱቁን ይጎብኙ።</translation>
-<translation id="9010211493509471179">ይህ ፋይል የMacintosh ሶፍትዌር ለሚጠቀም ኮምፒውተር ነው የተሰራው። ይሄ OneVN OSን ከሚያሄደው መሣሪያዎ ጋር ተኳሃኝ አይደለም። አግባብ የሆነውን መተኪያ መተግበሪያ ለማግኘት እባክዎ OneVN የድር መደብሩን ይፈልጉ።</translation>
-<translation id="5059989099965370411">ይህ ፋይል የተሰራው የWindows ሶፍትዌር ለሚጠቀም ተኮ ነው። ይሄ OneVN OSን ከሚያሄደው መሣሪያዎ ጋር ተኳሃኝ አይደለም። አግባብ የሆነውን ተተኪ መተግበሪያ ለማግኘት እባክዎ የOneVN ድር መደብሩን ይፈልጉ።</translation>
+<translation id="1131292764548273687">ይህ ፋይል አይነት አይደገፍም። የዚህ አይነት ፋይል መክፈት የሚችል መተግበሪያን ለማግኘት እባክዎ Onevn የድር ሱቁን ይጎብኙ።</translation>
+<translation id="9010211493509471179">ይህ ፋይል የMacintosh ሶፍትዌር ለሚጠቀም ኮምፒውተር ነው የተሰራው። ይሄ Onevn OSን ከሚያሄደው መሣሪያዎ ጋር ተኳሃኝ አይደለም። አግባብ የሆነውን መተኪያ መተግበሪያ ለማግኘት እባክዎ Onevn የድር መደብሩን ይፈልጉ።</translation>
+<translation id="5059989099965370411">ይህ ፋይል የተሰራው የWindows ሶፍትዌር ለሚጠቀም ተኮ ነው። ይሄ Onevn OSን ከሚያሄደው መሣሪያዎ ጋር ተኳሃኝ አይደለም። አግባብ የሆነውን ተተኪ መተግበሪያ ለማግኘት እባክዎ የOnevn ድር መደብሩን ይፈልጉ።</translation>
 <translation id="5833610766403489739">ይህ ፋይል ወደሆነ ቦታ ሄዷል። እባክዎ የውርድ አካባቢዎን ያረጋግጡና እንደገና ይሞክሩ።</translation>
 <translation id="3966388904776714213">የድምጽ አጫዋች</translation>
 <translation id="3245321423178950146">ያልታወቀ አርቲስት</translation>
@@ -3040,7 +3040,7 @@ nil</translation>
 <translation id="2972557485845626008">ጽኑ ትዕዛዝ</translation>
 <translation id="4297219207642690536">ዳግም ይጀምሩ እና ዳግም ያቀናብሩ</translation>
 <translation id="4716483597559580346">Powerwash ለደህንነት ታክሏል</translation>
-<translation id="4089922565956168950">ይህ ማላቅ የእርስዎን OneVNbook ዳግም ያስጀምረውና የአሁኑን ተጠቃሚ ውሂብ ያስወግዳል።</translation>
+<translation id="4089922565956168950">ይህ ማላቅ የእርስዎን Onevnbook ዳግም ያስጀምረውና የአሁኑን ተጠቃሚ ውሂብ ያስወግዳል።</translation>
 <translation id="5184662919967270437">መሣሪያዎን በማዘመን ላይ</translation>
 <translation id="6644846457769259194">የእርስዎን መሣሪያ በማዘመን ላይ (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="5906655207909574370">የተዘመነ ለመሆን ጥቂት ብቻ ቀርቷል! ዝማኔውን ለማጠናቀቅ መሣሪያዎን ዳግም ያስጀምሩት።</translation>
@@ -3063,13 +3063,13 @@ nil</translation>
 <translation id="5600706100022181951">ዝማኔው ከሞባይል ውሂብ <ph name="UPDATE_SIZE_MB"/> ሜባ በመጠቀም ይወርዳል። መቀጠል ይፈልጋሉ?</translation>
 <translation id="5402815541704507626">የተንቀሳቃሽ ስልክ ውሂብን በመጠቀም ዝማኔን ያውርዱ</translation>
 <translation id="5085162214018721575">ዝማኔዎችን በመፈተሽ ላይ</translation>
-<translation id="4570609078116869893">OneVNን ለሁሉም ተጠቃሚዎች በራስ-ሰር አዘምን</translation>
+<translation id="4570609078116869893">Onevnን ለሁሉም ተጠቃሚዎች በራስ-ሰር አዘምን</translation>
 <translation id="7102687220333134671">ራስ-ሰር ዝማኔዎች በርተዋል</translation>
 <translation id="6981982820502123353">ተደራሽነት</translation>
-<translation id="5840822070878669614">OneVN የድር መደብርን ይክፈቱ</translation>
+<translation id="5840822070878669614">Onevn የድር መደብርን ይክፈቱ</translation>
 <translation id="6073903501322152803">የተደራሽነት ባህሪያትን ያክሉ</translation>
 <translation id="7988355189918024273">የተደራሽነት ቅንብሮች ያንቁ</translation>
-<translation id="3274899353071794175">አንድ ምስል ጠቃሚ መግለጫ ከሌለው OneVN ለእርስዎ አንድ ያቀርብልዎታል። ምስሎች የተቃኙት በOneVN Software ነው።</translation>
+<translation id="3274899353071794175">አንድ ምስል ጠቃሚ መግለጫ ከሌለው Onevn ለእርስዎ አንድ ያቀርብልዎታል። ምስሎች የተቃኙት በOnevn Software ነው።</translation>
 <translation id="2558896001721082624">በሥርዓት ምናሌ ውስጥ የተደራሽነት አማራጮችን ሁልጊዜ አሳይ</translation>
 <translation id="7280649757394340890">የጽሑፍ-ወደ-ንግግር ድምጽ ቅንብሮች</translation>
 <translation id="6635956300022133031">የጽሑፍ-ወደ-ንግግር ድምጾችን ይምረጡና ያብጁ</translation>
@@ -3078,8 +3078,8 @@ nil</translation>
 <translation id="4209092469652827314">ትልቅ</translation>
 <translation id="499165176004408815">ባለከፍተኛ ንፅፅር ሁነታ ተጠቀም</translation>
 <translation id="142758023928848008">ተጣባቂ ቁልፎችን ያንቁ (የቁልፍ ሰሌዳ አቋራጮችን በቅደም ተከተል በመተየብ ለማከናወን)</translation>
-<translation id="5914872514449971753">OneVNVoxን (የሚነገር ግብረመልስ) አንቃ</translation>
-<translation id="7099511550603534982">የOneVNVox ቅንብሮችን ክፈት</translation>
+<translation id="5914872514449971753">OnevnVoxን (የሚነገር ግብረመልስ) አንቃ</translation>
+<translation id="7099511550603534982">የOnevnVox ቅንብሮችን ክፈት</translation>
 <translation id="8547013269961688403">የሙሉ ገጽ እይታ ማጉያን ያንቁ</translation>
 <translation id="8743390665131937741">የሙሉ ገጽ እይታ ማጉያ ደረጃ፦</translation>
 <translation id="7334274148831027933">የተተከለ ማጉያን ያንቁ</translation>
@@ -3114,7 +3114,7 @@ nil</translation>
 <translation id="2765217105034171413">ትንሽ</translation>
 <translation id="7409549334477097887">በጣም ትልቅ</translation>
 <translation id="1330145147221172764">የታይታ የቁልፍ ሰሌዳን አንቃ</translation>
-<translation id="1800308196794859773">ወደ ማናቸውም የጽሑፍ መስክ በቃል ማስጻፍን ለመፍቀድ ድምጽዎን ወደ OneVN Software ይላኩ።</translation>
+<translation id="1800308196794859773">ወደ ማናቸውም የጽሑፍ መስክ በቃል ማስጻፍን ለመፍቀድ ድምጽዎን ወደ Onevn Software ይላኩ።</translation>
 <translation id="8758418656925882523">በቃል ማጻፍን አንቃ (ለመተየብ ይናገሩ)</translation>
 <translation id="7580671184200851182">ተመሳሳዩን ኦዲዮ በሁሉም ድምፅ ማጉያዎች በኩል አጫውት (ሞኖ ኦዲዮ)</translation>
 <translation id="1361872463926621533">ጅምር ላይ ድምጽ አጫውት</translation>
@@ -3178,13 +3178,13 @@ nil</translation>
 <translation id="2200603218210188859">የዩኤስቢ መሣሪያ ምርጫዎች</translation>
 <translation id="2706892089432507937">USB መሣሪያዎች</translation>
 <translation id="5187892128515678283">የዩኤስቢ መሣሪያ ከLinux ጋር መቀያየሪያውን በማብራት ያጋሩ። ማጋራት መሣሪያው እስከሚነጣጠል ድረስ ብቻ ይቆያል።</translation>
-<translation id="2295473777859797944">OneVN Software Play መደብር</translation>
+<translation id="2295473777859797944">Onevn Software Play መደብር</translation>
 <translation id="572155275267014074">የAndroid ቅንብሮች</translation>
-<translation id="4767209642168463274">በእርስዎ OneVNbook ላይ መተግበሪያዎችን እና ጨዋታዎችን ከOneVN Software Play ይጫኑ። &lt;a target="_blank" href="<ph name="URL"/>"&gt;የበለጠ ለመረዳት&lt;/a&gt;</translation>
+<translation id="4767209642168463274">በእርስዎ Onevnbook ላይ መተግበሪያዎችን እና ጨዋታዎችን ከOnevn Software Play ይጫኑ። &lt;a target="_blank" href="<ph name="URL"/>"&gt;የበለጠ ለመረዳት&lt;/a&gt;</translation>
 <translation id="2966937470348689686">የAndroid ምርጫዎችን ያቀናብሩ</translation>
-<translation id="4074367893748481070">OneVN Software Play መደብርን አስወግድ</translation>
+<translation id="4074367893748481070">Onevn Software Play መደብርን አስወግድ</translation>
 <translation id="2792290659606763004">የAndroid መተግበሪያዎች ይወገዱ?</translation>
-<translation id="4607779957365311067">እርስዎ ከOneVN Software Play ያወረዷቸው መተግበሪያዎች ከዚህ OneVNbook ይሰረዛሉ።
+<translation id="4607779957365311067">እርስዎ ከOnevn Software Play ያወረዷቸው መተግበሪያዎች ከዚህ Onevnbook ይሰረዛሉ።
       <ph name="LINE_BREAKS1"/>
       እንዲሁም እንደ ፊልሞች፣ የቴሌቪዥን ትርኢቶች፣ ሙዚቃ፣ መጽሐፍት ወይም ሌሎች የውስጠ-መተግበሪያ ግዢዎች ያሉ እርስዎ የገዟቸው ይዘቶች ሊሰረዙ ይችላሉ።
       <ph name="LINE_BREAKS2"/>
@@ -3212,7 +3212,7 @@ nil</translation>
 <translation id="1670399744444387456">መሠረታዊ</translation>
 <translation id="1763808908432309942">በአዲስ ትር ውስጥ ይከፍታል</translation>
 <translation id="6248988683584659830">ቅንብሩን ይፈልጉ</translation>
-<translation id="883304095704384301">የሚፈልጉትን ነገር ማግኘት ካልቻሉ ወደ <ph name="BEGIN_LINK_CHROMIUM"/>OneVN Software OneVN እገዛ<ph name="END_LINK_CHROMIUM"/> ይሂዱ</translation>
+<translation id="883304095704384301">የሚፈልጉትን ነገር ማግኘት ካልቻሉ ወደ <ph name="BEGIN_LINK_CHROMIUM"/>Onevn Software Onevn እገዛ<ph name="END_LINK_CHROMIUM"/> ይሂዱ</translation>
 <translation id="6406708970972405507">ቅንብሮች - <ph name="SECTION_TITLE"/></translation>
 <translation id="5860033963881614850">አጥፋ</translation>
 <translation id="5916664084637901428">በርቷል</translation>
@@ -3230,10 +3230,10 @@ nil</translation>
 <translation id="451515744433878153">አስወግድ</translation>
 <translation id="5029568752722684782">ቅጂን አጽዳ</translation>
 <translation id="2154484045852737596">ካርትን ያርትዑ</translation>
-<translation id="3032188998195902534">የ OneVN Software Pay ክፍያ ዘዴዎችን ለማከል ወይም ለማስተዳደር፣ የእርስዎን <ph name="BEGIN_LINK"/>OneVN Software መለያ<ph name="END_LINK"/> ይጎብኙ</translation>
+<translation id="3032188998195902534">የ Onevn Software Pay ክፍያ ዘዴዎችን ለማከል ወይም ለማስተዳደር፣ የእርስዎን <ph name="BEGIN_LINK"/>Onevn Software መለያ<ph name="END_LINK"/> ይጎብኙ</translation>
 <translation id="8853586775156634952">ይህ ካርድ ወደዚህ መሣሪያ ብቻ ይቀመጣል</translation>
 <translation id="5087580092889165836">ካርድ አክል</translation>
-<translation id="4835914736509775287">ወደ የእርስዎ የOneVN Software መለያ ካርዶችን ያስቀምጡ</translation>
+<translation id="4835914736509775287">ወደ የእርስዎ የOnevn Software መለያ ካርዶችን ያስቀምጡ</translation>
 <translation id="7255002516883565667">አሁን ላይ በዚህ መሣሪያ ላይ ጥቅም ላይ ሊውል የሚችል አንድ መሣሪያ ብቻ አልዎት</translation>
 <translation id="6848388270925200958">አሁን ላይ በዚህ መሣሪያ ላይ ብቻ ጥቅም ላይ ሊውሉ የሚችሉ አንዳንድ ካርዶች አልዎት</translation>
 <translation id="4807098396393229769">በካርድ ላይ ያለ ስም</translation>
@@ -3256,7 +3256,7 @@ nil</translation>
 <translation id="7930294771522048157">የተቀመጡ የመክፈያ ዘዴዎች እዚህ ላይ ብቅ ይላሉ</translation>
 <translation id="9124003689441359348">የተቀመጡ የይለፍ ቃላትዎ እዚህ ይታያሉ</translation>
 <translation id="4400367121200150367">የይለፍ ቃላትን በጭራሽ የማያስቀምጡ ድር ጣቢያዎች እዚህ ይታያሉ</translation>
-<translation id="3098842761938485917">የተቀመጡ የይለፍ ቃላትን በእርስዎ <ph name="BEGIN_LINK"/>OneVN Software መለያ<ph name="END_LINK"/> ውስጥ ይመልከቱ እና ያስተዳድሩ</translation>
+<translation id="3098842761938485917">የተቀመጡ የይለፍ ቃላትን በእርስዎ <ph name="BEGIN_LINK"/>Onevn Software መለያ<ph name="END_LINK"/> ውስጥ ይመልከቱ እና ያስተዳድሩ</translation>
 <translation id="5620655347161642930">የይለፍ ቃላትን ወደ ውጭ በመላክ ላይ...</translation>
 <translation id="3900966090527141178">የይለፍ ቃላትን ወደ ውጭ ይላኩ</translation>
 <translation id="6914783257214138813">የእርስዎ የይለፍ ቃላት ወደ ውጭ የተላከውን ፋይልን መመልከት ለሚችል ማንኛውም ሰው የሚታዩ ይሆናሉ።</translation>
@@ -3356,15 +3356,15 @@ nil</translation>
 <translation id="3380365263193509176">ያልታወቀ ስህተት</translation>
 <translation id="368789413795732264">ይህን ፋይል ለመጻፍ በመሞከር ላይ ሳለ ስህተት ነበር፦ <ph name="ERROR_TEXT"/>።</translation>
 <translation id="784934925303690534">የጊዜ ወሰን</translation>
-<translation id="3958004920128806270">በእርስዎ የOneVN Software መለያ ውስጥ እንዳለ ሆኖ ከዚህ መሣሪያ ብቻ የአሰሳ ውሂብን ለማጽዳት <ph name="BEGIN_LINK"/>ዘግተው ይውጡ<ph name="END_LINK"/>።</translation>
-<translation id="4445433576366924090">ከሁሉም የእርስዎ የተመሳሰሉ መሣሪያዎች እና የእርስዎ የOneVN Software መለያ ላይ የአሰሳ ውሂብን ለማጽዳት፣ <ph name="BEGIN_LINK"/>የአስምር ቅንብሮችን ይጎብኙ<ph name="END_LINK"/>።</translation>
-<translation id="563489167344291753">ከሁሉም የእርስዎ የተመሳሰሉ መሣሪያዎች እና የእርስዎ የOneVN Software መለያ ላይ የአሰሳ ውሂብን ለማጽዳት፣ <ph name="BEGIN_LINK"/>የእርስዎን የይለፍ ሐረግ ያስገቡ<ph name="END_LINK"/>።</translation>
-<translation id="3895809404273995788">ከሁሉም የእርስዎ የተመሳሰሉ መሣሪያዎች እና የእርስዎ የOneVN Software መለያ ላይ የአሰሳ ውሂብን ለማጽዳት፣ <ph name="BEGIN_LINK"/>በመለያ ይግቡ<ph name="END_LINK"/>።</translation>
+<translation id="3958004920128806270">በእርስዎ የOnevn Software መለያ ውስጥ እንዳለ ሆኖ ከዚህ መሣሪያ ብቻ የአሰሳ ውሂብን ለማጽዳት <ph name="BEGIN_LINK"/>ዘግተው ይውጡ<ph name="END_LINK"/>።</translation>
+<translation id="4445433576366924090">ከሁሉም የእርስዎ የተመሳሰሉ መሣሪያዎች እና የእርስዎ የOnevn Software መለያ ላይ የአሰሳ ውሂብን ለማጽዳት፣ <ph name="BEGIN_LINK"/>የአስምር ቅንብሮችን ይጎብኙ<ph name="END_LINK"/>።</translation>
+<translation id="563489167344291753">ከሁሉም የእርስዎ የተመሳሰሉ መሣሪያዎች እና የእርስዎ የOnevn Software መለያ ላይ የአሰሳ ውሂብን ለማጽዳት፣ <ph name="BEGIN_LINK"/>የእርስዎን የይለፍ ሐረግ ያስገቡ<ph name="END_LINK"/>።</translation>
+<translation id="3895809404273995788">ከሁሉም የእርስዎ የተመሳሰሉ መሣሪያዎች እና የእርስዎ የOnevn Software መለያ ላይ የአሰሳ ውሂብን ለማጽዳት፣ <ph name="BEGIN_LINK"/>በመለያ ይግቡ<ph name="END_LINK"/>።</translation>
 <translation id="8662811608048051533">ከአብዛኛዎቹ ጣቢያዎች ዘግተው እንዲወጡ ያደርገዎታል።</translation>
-<translation id="4650925988509114690">ከአብዛኛዎቹ ጣቢያዎች ዘግተው ያስወጣዎታል። በእርስዎ የOneVN Software መለያ ውስጥ በመለያ እንደገቡ ስለሚቆዩ የእርስዎ የሰመረ ውሂብ ሊጸዳ ይችላል።</translation>
+<translation id="4650925988509114690">ከአብዛኛዎቹ ጣቢያዎች ዘግተው ያስወጣዎታል። በእርስዎ የOnevn Software መለያ ውስጥ በመለያ እንደገቡ ስለሚቆዩ የእርስዎ የሰመረ ውሂብ ሊጸዳ ይችላል።</translation>
 <translation id="2017836877785168846">በአድራሻ አሞሌው ውስጥ ታሪክን እና ራስ-ሰር ማጠናቀቆችን ያጸዳል።</translation>
-<translation id="8096327394278038498">በአድራሻ አሞሌው ላይ ታሪክን እና ራስ-ማጠናቀቆችን ያጸዳል። የእርስዎ OneVN Software መለያ <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> ላይ ሌሎች የአሰሳ ታሪክ አይነቶች ሊኖሩት ይችላል።</translation>
-<translation id="8122693181154564064">ታሪክን በመለያ ከገቡ ሁሉም መሣሪያዎች ላይ ያጸዳል። የእርስዎ OneVN Software መለያ <ph name="BEGIN_LINK"/>history.google.com<ph name="END_LINK"/> ላይ ሌሎች የአሰሳ ታሪክ ዓይነቶች ሊኖረው ይችላል</translation>
+<translation id="8096327394278038498">በአድራሻ አሞሌው ላይ ታሪክን እና ራስ-ማጠናቀቆችን ያጸዳል። የእርስዎ Onevn Software መለያ <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> ላይ ሌሎች የአሰሳ ታሪክ አይነቶች ሊኖሩት ይችላል።</translation>
+<translation id="8122693181154564064">ታሪክን በመለያ ከገቡ ሁሉም መሣሪያዎች ላይ ያጸዳል። የእርስዎ Onevn Software መለያ <ph name="BEGIN_LINK"/>history.google.com<ph name="END_LINK"/> ላይ ሌሎች የአሰሳ ታሪክ ዓይነቶች ሊኖረው ይችላል</translation>
 <translation id="7127980134843952133">የአውርድ ታሪክ</translation>
 <translation id="4699172675775169585">የተሸጎጡ ምስሎች እና ፋይሎች</translation>
 <translation id="1274997165432133392">ኩኪዎች እና የሌላ ጣቢያ ውሂብ</translation>
@@ -3378,7 +3378,7 @@ nil</translation>
 <translation id="6979737339423435258">የምንጊዜም</translation>
 <translation id="3399432415385675819">ማሳወቂያዎች ይሰናከላሉ</translation>
 <translation id="3459509316159669723">ማተም</translation>
-<translation id="1563008449513980623">በOneVN Software ደመና ህትመት ውስጥ አታሚዎችን ያዋቅሩ ወይም ያቀናብሩ።</translation>
+<translation id="1563008449513980623">በOnevn Software ደመና ህትመት ውስጥ አታሚዎችን ያዋቅሩ ወይም ያቀናብሩ።</translation>
 <translation id="8185331656081929126">አዲስ አታሚዎች በአውታረ መረቡ ላይ ሲገኙ ማሳወቂያዎችን አሳይ።</translation>
 <translation id="6451180435462401570">የደመና ሕትመት መሣሪያዎችን ያስተዳድሩ</translation>
 <translation id="6985607387932385770">አታሚዎች</translation>
@@ -3411,10 +3411,10 @@ nil</translation>
 <translation id="2462752602710430187"><ph name="PRINTER_NAME"/> ታክሏል</translation>
 <translation id="9057119625587205566">በአቅራቢያ ምንም አታሚዎች የሉም</translation>
 <translation id="3213187967168344806">አታሚን ማከል አልተቻለም። ኮምፒውተርዎን እንደገና ያስነሱትና እንደገና ይሞክሩ።</translation>
-<translation id="4052689580269971502">ከአታሚ ጋር መገናኘት አልተቻለም። አታሚው መብራቱንና በWi-Fi ወይም በዩኤስቢ ከእርስዎ OneVNbook ጋር መገናኘቱን ያረጋግጡ።</translation>
+<translation id="4052689580269971502">ከአታሚ ጋር መገናኘት አልተቻለም። አታሚው መብራቱንና በWi-Fi ወይም በዩኤስቢ ከእርስዎ Onevnbook ጋር መገናኘቱን ያረጋግጡ።</translation>
 <translation id="7099337801055912064">ትልቅ PPDን መጫን አልተቻለም። ከፍተኛው መጠን 250 ኪባ ነው።</translation>
 <translation id="4310139701823742692">ፋይሉ በተሳሳተ ቅርጸት ነው ያለው። የPPD ፋይሉን ይመልከቱና እንደገና ይሞክሩ።</translation>
-<translation id="6580983683519551561">PPDን ማግኘት አልተቻለም። የእርስዎ OneVNbook መስመር ላይ መሆኑን ያረጋግጡና እንደገና ይሞክሩ።</translation>
+<translation id="6580983683519551561">PPDን ማግኘት አልተቻለም። የእርስዎ Onevnbook መስመር ላይ መሆኑን ያረጋግጡና እንደገና ይሞክሩ።</translation>
 <translation id="4694024090038830733">የአታሚ ውቅረት በአስተዳዳሪው ነው የሚሰራው።</translation>
 <translation id="5816434091619127343">የተጠየቁት የአታሚ ለውጦች አታሚው ጥቅም እንዳይሰጥ ያደርጉታል።</translation>
 <translation id="6504611359718185067">አታሚን ለማከል ከበይነመረብ ጋር ያገናኙ</translation>
@@ -3422,7 +3422,7 @@ nil</translation>
 <translation id="5696679855467848181">አሁን ጥቅም ላይ የዋለ የPPD ፋይል፦ <ph name="PPD_NAME"/></translation>
 <translation id="4733793249294335256">አካባቢ</translation>
 <translation id="7754704193130578113">እያንዳንዱ ፋይል ከመውረዱ በፊት የት እንደሚቀመጥ ጠይቅ</translation>
-<translation id="5713072761819014678">የOneVN Software Drive መለያን አላቅቅ</translation>
+<translation id="5713072761819014678">የOnevn Software Drive መለያን አላቅቅ</translation>
 <translation id="486635084936119914">ካወረዱ በኋላ የተወሰኑ የፋይል አይነቶችን ክፈት</translation>
 <translation id="3653160965917900914">የአውታረ መረብ ፋይል ማጋራቶች</translation>
 <translation id="5763315388120433852">የአውታረ መረብ ፋይል ማጋራቶችን ያዋቅሩ ወይም ያቀናብሩ።</translation>
@@ -3458,12 +3458,12 @@ nil</translation>
 <translation id="3571734092741541777">አዋቅር</translation>
 <translation id="3336664756920573711">የእርስዎን <ph name="DEVICE_TYPE"/> በAndroid ስልክዎ ይክፈቱት</translation>
 <translation id="1164674268730883318">Smart Lock ለ<ph name="DEVICE_TYPE"/> ያጥፉ?</translation>
-<translation id="2739030071582769583">ዘመናዊ ቁልፍን ለ<ph name="DEVICE_TYPE"/> ካጠፉ ስልክዎን ተጠቅመው የOneVN መሣሪያዎችዎን ማስከፈት አይችሉም። የይለፍ ቃልዎን መተየብ ይኖርብዎታል።</translation>
+<translation id="2739030071582769583">ዘመናዊ ቁልፍን ለ<ph name="DEVICE_TYPE"/> ካጠፉ ስልክዎን ተጠቅመው የOnevn መሣሪያዎችዎን ማስከፈት አይችሉም። የይለፍ ቃልዎን መተየብ ይኖርብዎታል።</translation>
 <translation id="4737715515457435632">እባክዎ ከአንድ አውታረ መረብ ጋር ይገናኙ</translation>
 <translation id="5425722269016440406">ይህ ቅንብር በስልኩ ላይ እና በሌሎች መሣሪያዎች ላይ እንዲመሳሰል ስለተደረገ Smart Lockን ለማጥፋት መስመር ላይ መሆን አለብዎት። በመጀመሪያ እባክዎ ወደ አውታረ መረብ ያገናኙ።</translation>
 <translation id="8885197664446363138">Smart Lock ሊገኝ አይችልም</translation>
 <translation id="7334190995941642545">Smart Lock በአሁኑ ጊዜ አይገኝም። እባክዎ ቆይተው እንደገና ይሞክሩ።</translation>
-<translation id="8112427115751454716">ወደ የእርስዎ OneVN Software መለያ ለመግባት Smart Lockን ይጠቀሙ</translation>
+<translation id="8112427115751454716">ወደ የእርስዎ Onevn Software መለያ ለመግባት Smart Lockን ይጠቀሙ</translation>
 <translation id="2043818754674261542">ይህን <ph name="DEVICE_TYPE"/> ለመክፈት ለስልኩ ርቀት ያስፈልገዋል</translation>
 <translation id="2522791476825452208">በጣም ቅርብ</translation>
 <translation id="649454645705377674">ዝጋ</translation>
@@ -3471,7 +3471,7 @@ nil</translation>
 <translation id="5595152862129936745">በጣም ሩቅ</translation>
 <translation id="8748384418490037181">Smart Lock አማራጮች</translation>
 <translation id="2433836460518180625">መሣሪያ ብቻ ክፈት</translation>
-<translation id="3300552672525741457">መሣሪያን ይክፈቱ እና ወደ OneVN Software በመለያ ይግቡ</translation>
+<translation id="3300552672525741457">መሣሪያን ይክፈቱ እና ወደ Onevn Software በመለያ ይግቡ</translation>
 <translation id="2307462900900812319">አውታረ መረብ አዋቅር</translation>
 <translation id="7175037578838465313"><ph name="NAME"/>ን አዋቅር</translation>
 <translation id="8662671328352114214">የ<ph name="TYPE"/> አውታረ መረብን ይቀላቀሉ</translation>
@@ -3498,7 +3498,7 @@ nil</translation>
 <translation id="1726100011689679555">የስም አገልጋዩች</translation>
 <translation id="1209796539517632982">የራስ-ሰር ስም አገልጋዮች</translation>
 <translation id="4462159676511157176">የብጁ ስም አገልጋዮች</translation>
-<translation id="1981884748698699991">የOneVN Software ስም አገልጋዮች</translation>
+<translation id="1981884748698699991">የOnevn Software ስም አገልጋዮች</translation>
 <translation id="854655314928502177">የድር ተኪ ራስ-ሰር ማግኛ ዩአርኤል፦</translation>
 <translation id="3817579325494460411">አልቀረበም</translation>
 <translation id="1280820357415527819">የተንቀሳቃሽ ስልክ አውታረ መረቦችን በመፈለግ ላይ</translation>
@@ -3562,13 +3562,13 @@ nil</translation>
 <translation id="6077131872140550515">ከሚመረጡ አስወግድ</translation>
 <translation id="4115002065223188701">አውታረ መረብ ከክልል ውጭ ነው</translation>
 <translation id="161460670679785907">ስልክዎን ማግኘት አልተቻለም</translation>
-<translation id="1682335582099955045">ቅጽበታዊ እንደ ሞደም መሰካትን ለመጠቀም ለOneVN Software Play አገልግሎቶች ማሳወቂያዎችን ያብሩ።</translation>
+<translation id="1682335582099955045">ቅጽበታዊ እንደ ሞደም መሰካትን ለመጠቀም ለOnevn Software Play አገልግሎቶች ማሳወቂያዎችን ያብሩ።</translation>
 <translation id="7696063401938172191">በእርስዎ «<ph name="PHONE_NAME"/>» ላይ፦</translation>
 <translation id="3423463006624419153">በእርስዎ «<ph name="PHONE_NAME_1"/>» እና «<ph name="PHONE_NAME_2"/>» ላይ፦</translation>
 <translation id="6997707937646349884">በእርስዎ መሣሪያዎች ላይ፦</translation>
 <translation id="7531779363494549572">ወደ ቅንብሮች &gt; መተግበሪያዎች እና ማሳወቂያዎች &gt; ማሳወቂያዎች ይሂዱ።</translation>
-<translation id="6921033294337262045">የመተግበሪያ ማሳወቂያዎች &gt; OneVN Software Play አገልግሎቶችን መታ ያድርጉ።</translation>
-<translation id="5624710179837914896">OneVN Software Play አገልግሎቶችን ያብሩ።</translation>
+<translation id="6921033294337262045">የመተግበሪያ ማሳወቂያዎች &gt; Onevn Software Play አገልግሎቶችን መታ ያድርጉ።</translation>
+<translation id="5624710179837914896">Onevn Software Play አገልግሎቶችን ያብሩ።</translation>
 <translation id="2705736684557713153">ወደ ማያ ገጹ ግርጌ ወደ ታች ይሸብልሉና ብቅ ካለ ቅጽበታዊ እንደ ሞደም መሰካትን ያብሩ። ብቅ ካላለ ሙሉ በሙሉ ተዘጋጅተዋል።</translation>
 <translation id="8720200012906404956">ለተንቀሳቃሽ አውታረ መረብ በመፈለግ ላይ። <ph name="BEGIN_LINK"/>የበለጠ ለመረዳት<ph name="END_LINK"/></translation>
 <translation id="7240339475467890413">ከአዲስ መገናኛ ነጥብ ጋር ይገናኝ?</translation>
@@ -3582,7 +3582,7 @@ nil</translation>
 <translation id="3651488188562686558">ከWi-Fi አላቅቅ</translation>
 <translation id="3479552764303398839">አሁን አይደለም</translation>
 <translation id="7378812711085314936">የውሂብ ግንኙነት ያግኙ</translation>
-<translation id="3483333858382889684">ይህ መሣሪያ በOneVN Software መለያዎ የተንቀሳቃሽ ስልክ ግንኙነት ያላቸውን ሌሎች መሣሪያዎችን ያግኝ</translation>
+<translation id="3483333858382889684">ይህ መሣሪያ በOnevn Software መለያዎ የተንቀሳቃሽ ስልክ ግንኙነት ያላቸውን ሌሎች መሣሪያዎችን ያግኝ</translation>
 <translation id="5637476008227280525">የተንቀሳቃሽ ስልክ ውሂብን አንቃ</translation>
 <translation id="1572266655485775982">Wi-Fi አንቃ</translation>
 <translation id="543381445212956829">WiMAXን አንቃ</translation>
@@ -3712,11 +3712,11 @@ nil</translation>
 <translation id="4200689466366162458">ብጁ ቃላት</translation>
 <translation id="7833720883933317473">የተቀመጡ ብጁ ቃላት እዚህ ይታያሉ</translation>
 <translation id="8509646642152301857">የፊደል ማረሚያ መዝገበ-ቃላት ማውረድ አልተሳካም።</translation>
-<translation id="8842834450537919370">ኬላው ከOneVN Software አገልጋዩች የሚመጡ ውርዶችን እያገደ አለመሆኑን ለማረጋገጥ እባክዎ የአውታረ መረብ አስተዳዳሪዎን ያግኙ።</translation>
+<translation id="8842834450537919370">ኬላው ከOnevn Software አገልጋዩች የሚመጡ ውርዶችን እያገደ አለመሆኑን ለማረጋገጥ እባክዎ የአውታረ መረብ አስተዳዳሪዎን ያግኙ።</translation>
 <translation id="9042893549633094279">ግላዊነት እና ደኅንነት</translation>
 <translation id="654233263479157500">የአሰሳ ስህተቶችን ለመቅረፍ እንዲያግዝ የድር አገልግሎት ይጠቀሙ</translation>
 <translation id="6697492270171225480">አንድ ገጽ ሊገኝ ካልቻለ የተመሳሳይ ገጾች የአስተያየት ጥቆማዎችን አሳይ</translation>
-<translation id="4534361985432360439">ለመድረስ እየሞከሩት ያለው የገጽ ድር አድራሻ ወደ OneVN Software ይልካል</translation>
+<translation id="4534361985432360439">ለመድረስ እየሞከሩት ያለው የገጽ ድር አድራሻ ወደ Onevn Software ይልካል</translation>
 <translation id="6545834809683560467">በአድራሻ አሞሌ ወይም በመተግበሪያ ማስጀመሪያ ሳጥኑ ውስጥ የተተየቡ ፍለጋዎችን እና ዩአርኤሎችን ለማጠናቀቅ የመገመቻ አገልግሎት ይጠቀሙ።</translation>
 <translation id="340485819826776184">በአድራሻ አሞሌው የሚተየቡት ፍለጋዎችን እና ዩአርኤልዎችን ለማጠናቀቅ እንዲያግዝ የመገመቻ አገልግሎት ይጠቀሙ።</translation>
 <translation id="7704317875155739195">ፍለጋዎችን እና ዩአርኤልዎችን በራስ-አጠናቅቅ</translation>
@@ -3727,16 +3727,16 @@ nil</translation>
 <translation id="1641113438599504367">የጥንቃቄ አሰሳ</translation>
 <translation id="773905249182896430">እርስዎን እና መሣሪያዎን ከአደገኛ ጣቢያዎች ይጠብቃል</translation>
 <translation id="8983677657449185470">የጥንቃቄ አሰሳ እንዲሻሻል ያግዙ</translation>
-<translation id="199861668945335092">አንዳንድ የስርዓት መረጃ እና የገጽ ይዘት ወደ OneVN Software ይልካል</translation>
+<translation id="199861668945335092">አንዳንድ የስርዓት መረጃ እና የገጽ ይዘት ወደ Onevn Software ይልካል</translation>
 <translation id="490074449735753175">የፊደል ስህተቶች መፍታት ለማገዝ የድር አገልግሎትን ይጠቀሙ</translation>
-<translation id="3523078749603005179">በአሳሹ ላይ ምን እንደሚተይቡ ለOneVN Software በመላክ ይበልጥ ዘመናዊ የሆነ የፊደል ማረሚያ</translation>
+<translation id="3523078749603005179">በአሳሹ ላይ ምን እንደሚተይቡ ለOnevn Software በመላክ ይበልጥ ዘመናዊ የሆነ የፊደል ማረሚያ</translation>
 <translation id="2564653188463346023">የላቀ ፊደል አራሚ</translation>
-<translation id="9079153198295609735">የአጠቃቀም ስታስቲክስ እና የብልሽት ሪፖርቶች በራስ ሰር ወደ OneVN Software ይላኩ።</translation>
-<translation id="5941220456342415404">የምርመራ እና የአጠቃቀም ውሂብ በራስ-ሰር ወደ OneVN Software ላክ</translation>
-<translation id="918192811481327695">የOneVN ባህሪያት እና አፈጻጸም እንዲሻሻል ያግዙ</translation>
-<translation id="9063160602596686558">የአጠቃቀም ስታስቲክስን እና የብልሽት ሪፖርቶችን በራስ-ሰር ወደ OneVN Software ይልካል</translation>
+<translation id="9079153198295609735">የአጠቃቀም ስታስቲክስ እና የብልሽት ሪፖርቶች በራስ ሰር ወደ Onevn Software ይላኩ።</translation>
+<translation id="5941220456342415404">የምርመራ እና የአጠቃቀም ውሂብ በራስ-ሰር ወደ Onevn Software ላክ</translation>
+<translation id="918192811481327695">የOnevn ባህሪያት እና አፈጻጸም እንዲሻሻል ያግዙ</translation>
+<translation id="9063160602596686558">የአጠቃቀም ስታስቲክስን እና የብልሽት ሪፖርቶችን በራስ-ሰር ወደ Onevn Software ይልካል</translation>
 <translation id="8438566539970814960">ፍለጋዎችን እና አሰሳን የተሻለ አድርግ</translation>
-<translation id="284843628681142937">የሚጎበኙዋቸውን ገጾች ዩአርኤሎች ወደ OneVN Software ይልካል</translation>
+<translation id="284843628681142937">የሚጎበኙዋቸውን ገጾች ዩአርኤሎች ወደ Onevn Software ይልካል</translation>
 <translation id="8791534160414513928">ከአሰሳ ትራፊክዎ ጋር የ«አትከታተል» ጥያቄ ይላኩ</translation>
 <translation id="5299109548848736476">አትከታተል</translation>
 <translation id="5282733140964383898">«አትከታተል»ን ማንቃት ማለት አንድ ጥያቄ ከአሰሳ ትራፊክዎ ጋር አብሮ ይካተታል ማለት ነው። ማንኛውም ውጤት አንድ ድር ጣቢያ ለጥያቄው መልስ መስጠቱ ላይ እና ጥያቄው በተተረጎመበት መንገድ ላይ የሚወሰን ይሆናል። ለምሳሌ፣ አንዳንድ ድር ጣቢያዎች በጎበኟቸው ሌሎች ድር ጣቢያዎች ላይ ያልተመሰረቱ ማስታወቂያዎች በማሳየት ለዚህ ጥያቄ ምላሽ ሊሰጡ ይችላሉ። ብዙ ድር ጣቢያዎች አሁንም የአሰሳ ውሂብዎን ይሰበስቡ እና ይጠቀሙበታል - ለምሳሌ፣ ደህንነትን ለማሻሻል፣ ይዘት፣ አገልግሎቶች፣ ማስታወቂያዎች እና ምክሮችን በድር ጣቢያዎቻቸው ላይ ለማቅረብ፣ እና የሪፖርት ስታቲስቲክስን ለማመንጨት። <ph name="BEGIN_LINK"/>የበለጠ ለመረዳት<ph name="END_LINK"/></translation>
@@ -3754,7 +3754,7 @@ nil</translation>
 <translation id="8632933437936028548">ቅንብሮችን ዳግም ያስጀምሩ</translation>
 <translation id="5293170712604732402">ቅንብሮች ወደ የመጀመሪያቸው ነባሪዎች መልሳቸው</translation>
 <translation id="892706138619340876">አንዳንድ ቅንብሮች ዳግም ተጀምረዋል</translation>
-<translation id="2334029754052191847">OneVN አንዳንድ ቅንብሮችዎ በሌላ ፕሮግራም መበላሸቱን አስተውሏል፣ እና ወደ የመጀመሪያዎቹ ነባሪዎቻቸው መልሷቸዋል።</translation>
+<translation id="2334029754052191847">Onevn አንዳንድ ቅንብሮችዎ በሌላ ፕሮግራም መበላሸቱን አስተውሏል፣ እና ወደ የመጀመሪያዎቹ ነባሪዎቻቸው መልሷቸዋል።</translation>
 <translation id="4582563038311694664">ሁሉንም ቅንብሮች ዳግም አስጀምር</translation>
 <translation id="4146785383423576110">ዳግም አዘጋጅ እና አጽዳ</translation>
 <translation id="2603115962224169880">ኮምፒውተርን አጽዳ</translation>
@@ -3766,7 +3766,7 @@ nil</translation>
 <translation id="7807067443225230855">ፍለጋ እና ረዳት</translation>
 <translation id="2203682048752833055">በ<ph name="BEGIN_LINK"/>አድራሻ አሞሌው<ph name="END_LINK"/> ላይ ሥራ ላይ የዋለው የፍለጋ ፕሮግራም</translation>
 <translation id="1432581352905426595">የፍለጋ ፕሮግራሞችን ያቀናብሩ</translation>
-<translation id="2862205630718215619">OneVN Software ረዳት</translation>
+<translation id="2862205630718215619">Onevn Software ረዳት</translation>
 <translation id="6978121630131642226">የፍለጋ ፕሮግራሞች</translation>
 <translation id="6410668567036790476">የፍለጋ ፕሮግራም ያክሉ</translation>
 <translation id="1128591060186966949">የፍለጋ ፕሮግራምን ያርትዑ</translation>
@@ -3778,9 +3778,9 @@ nil</translation>
 <translation id="7063311912041006059">ከመጠይቅ ይልቅ <ph name="SPECIAL_SYMBOL"/> ያለው ዩአርኤል</translation>
 <translation id="6953878494808481632">ተዛማጅ መረጃ</translation>
 <translation id="4145922204387553806">ረዳቱ በእርስዎ ማያ ገጽ ላይ ካለው ጋር ተዛማጅ መረጃ ለእርስዎ እንዲሰጥዎት ያድርጉ</translation>
-<translation id="472896694312062378">«Ok OneVN Software»</translation>
-<translation id="873163986259711670">«Ok OneVN Software» ባሉ ማንኛውም ጊዜ ረዳትዎን ይድረሱ</translation>
-<translation id="7972554217702001243">የሆነ ሰው «Ok OneVN Software» ሲል ረዳቱን ያግብሩ። ባትሪን ለመቆጠብ ሲባል «Ok OneVN Software» የሚበራው መሣሪያዎ ከኃይል ምንጭ ጋር ሲገናኝ ብቻ ነው።</translation>
+<translation id="472896694312062378">«Ok Onevn Software»</translation>
+<translation id="873163986259711670">«Ok Onevn Software» ባሉ ማንኛውም ጊዜ ረዳትዎን ይድረሱ</translation>
+<translation id="7972554217702001243">የሆነ ሰው «Ok Onevn Software» ሲል ረዳቱን ያግብሩ። ባትሪን ለመቆጠብ ሲባል «Ok Onevn Software» የሚበራው መሣሪያዎ ከኃይል ምንጭ ጋር ሲገናኝ ብቻ ነው።</translation>
 <translation id="5825412242012995131">በርቷል (የሚመከር)</translation>
 <translation id="5067399438976153555">ሁሌም አብራ</translation>
 <translation id="5419405654816502573">Voice match</translation>
@@ -3789,7 +3789,7 @@ nil</translation>
 <translation id="5355099869024327351">ረዳቱ ማሳውቂያዎችን ለእርስዎ እንዲያሳይ ፍቀድ</translation>
 <translation id="133535873114485416">ተመራጭ ግቤት</translation>
 <translation id="6233154960150021497">በቁልፍ ሰሌዳ ፈንታ ድምፅን ለመጠቀም ነባሪ</translation>
-<translation id="3908743412684152579">የOneVN Software ረዳት ቅንብሮች</translation>
+<translation id="3908743412684152579">የOnevn Software ረዳት ቅንብሮች</translation>
 <translation id="4933484234309072027"><ph name="URL"/> ላይ ተከትቷል</translation>
 <translation id="8427292751741042100">በማንኛውም አስተናጋጅ ላይ ተከትቷል</translation>
 <translation id="4907306957610201395">የፈቃድ ምድብ</translation>
@@ -3814,7 +3814,7 @@ nil</translation>
 <translation id="5340638867532133571">ጣቢያዎች የክፍያ ተቆጣጣሪዎችን እንዲጭኑ ይፍቀዱ (የሚመከር)</translation>
 <translation id="763632859238619983">ማንኛውም ጣቢያ የክፍያ ተቆጣጣሪዎችን እንዲጭን አትፍቀድ</translation>
 <translation id="8270242299912238708">የፒዲኤፍ ሰነዶች</translation>
-<translation id="539658326146969381">በOneVN ውስጥ በራስ-ሰር ከመክፈት ይልቅ የፒዲኤፍ ፋይሎችን አውርድ</translation>
+<translation id="539658326146969381">በOnevn ውስጥ በራስ-ሰር ከመክፈት ይልቅ የፒዲኤፍ ፋይሎችን አውርድ</translation>
 <translation id="4434045419905280838">ብቅ-ባዮች እና አቅጣጫ ማዞሮች</translation>
 <translation id="6612358246767739896">ጥበቃ የሚደረግለት ይዘት</translation>
 <translation id="4252852543720145436">የተጠበቀ ይዘት ለዪዎች</translation>
@@ -3846,7 +3846,7 @@ nil</translation>
 <translation id="7661259717474717992">ጣቢያዎች የኩኪ ውሂብ እንዲስቀምጡ እና እንዲያነብቡ ፍቀድ</translation>
 <translation id="2913331724188855103">ጣቢያዎች የኩኪ ውሂብ እንዲያስቀምጡ እና እንዲያነቡ ይፍቀዱ (የሚመከር)</translation>
 <translation id="5908769186679515905">ጣቢያዎች Flashን እንዳያሄዱ አግድ</translation>
-<translation id="6096007141921397775">OneVNን እስከሚዘጉት ድረስ የእርስዎ የFlash ቅንብሮች እንዳሉ ይቆያሉ።</translation>
+<translation id="6096007141921397775">Onevnን እስከሚዘጉት ድረስ የእርስዎ የFlash ቅንብሮች እንዳሉ ይቆያሉ።</translation>
 <translation id="2972642118232180842">አስፈላጊ ይዘትን ብቻ አሂድ (የሚመከር)</translation>
 <translation id="7084192839369222683">አስፈላጊ ይዘትን ብቻ አሂድ</translation>
 <translation id="8074127646604999664">በቅርቡ የተዘጉ ጣቢያዎች ውሂብን መላክ እና መቀበል እንዲጨርሱ ፍቀድ</translation>
@@ -3908,7 +3908,7 @@ nil</translation>
 <translation id="4750220700975225">የአሁኑ ማንነት የማያሳውቅ ክፍለ-ጊዜ ብቻ (<ph name="EMBEDDING"/>)</translation>
 <translation id="383891835335927981">ምንም ጣቢያዎች አልጎሉም ወይም አላነሱም</translation>
 <translation id="3566721612727112615">ምንም ጣቢያዎች አልታከሉም</translation>
-<translation id="8098574385249290065">OneVN ጣቢያዎች መቼ ድምጽን ማጫወት እንደሚችሉ እንዲመርጥ ይፍቀዱ (የሚመከር)</translation>
+<translation id="8098574385249290065">Onevn ጣቢያዎች መቼ ድምጽን ማጫወት እንደሚችሉ እንዲመርጥ ይፍቀዱ (የሚመከር)</translation>
 <translation id="4354344420232759511">እርስዎ የጎበኙዋቸው ጣቢያዎች እዚህ ላይ ብቅ ይላሉ</translation>
 <translation id="3757733214359997190">ምንም ጣቢያዎች አልተገኙም</translation>
 <translation id="5763751966069581670">ምንም የዩኤስቢ መሣሪያዎች አልተገኙም</translation>
@@ -3916,7 +3916,7 @@ nil</translation>
 <translation id="7366415735885268578">አንድ ጣቢያ ያክሉ</translation>
 <translation id="5052499409147950210">ጣቢያን አርትዕ ያድርጉ</translation>
 <translation id="2870560284913253234">ጣቢያ</translation>
-<translation id="4610862967073369855">የAndroid መልዕክቶች ከስልክዎ የሚመጡ ጽሑፎችን ወደ የእርስዎ OneVNbook እንዲያስተላልፉ ያስችለዋል</translation>
+<translation id="4610862967073369855">የAndroid መልዕክቶች ከስልክዎ የሚመጡ ጽሑፎችን ወደ የእርስዎ Onevnbook እንዲያስተላልፉ ያስችለዋል</translation>
 <translation id="6742339027238151589">ለስክሪፕቱ ተደራሽ</translation>
 <translation id="361106536627977100">የFlash ውሂብ</translation>
 <translation id="8557930019681227453">ዝርዝር ሰነድ</translation>
@@ -3930,7 +3930,7 @@ nil</translation>
 <translation id="6105877918873366097">ለመጨረሻ ጊዜ የተደረሰው</translation>
 <translation id="1296497012903089238">የእውቅና ማረጋገጫ አይነት</translation>
 <translation id="8553342806078037065">ሌሎች ሰዎችን አቀናብር</translation>
-<translation id="8907706281008466056">OneVN Software የመገለጫ ፎቶ</translation>
+<translation id="8907706281008466056">Onevn Software የመገለጫ ፎቶ</translation>
 <translation id="2408955596600435184">የእርስዎን ፒን ያስገቡ</translation>
 <translation id="6619990499523117484">የእርስዎን ፒን ያረጋግጡ</translation>
 <translation id="2023167225947895179">ፒን ለመገመት ምናልባት ቀላል ሊሆን ይችላል</translation>
@@ -3955,9 +3955,9 @@ nil</translation>
 <translation id="6029292188939175871">[<ph name="FINGERPRINT_NAME"/>]ን ሰርዝ፣ አዝራር</translation>
 <translation id="1927632033341042996">ጣት <ph name="NEW_FINGER_NUMBER"/></translation>
 <translation id="7665369617277396874">መለያ ያክሉ</translation>
-<translation id="6776811409814583709">በመተግበሪያዎች እና ድር ጣቢያዎች ላይ ሁሉም የተገባባቸው የOneVN Software መለያዎች እዚህ ላይ ሊቀናበሩ ይችላሉ። የእርስዎ ፈቃድ ያላቸው መተግበሪያዎች እና የድር ጣቢያዎች በአግባቡ እንዲሠሩ የሚያስፈልጋቸውን የመለያ መረጃ መድረስ ይችላሉ።</translation>
+<translation id="6776811409814583709">በመተግበሪያዎች እና ድር ጣቢያዎች ላይ ሁሉም የተገባባቸው የOnevn Software መለያዎች እዚህ ላይ ሊቀናበሩ ይችላሉ። የእርስዎ ፈቃድ ያላቸው መተግበሪያዎች እና የድር ጣቢያዎች በአግባቡ እንዲሠሩ የሚያስፈልጋቸውን የመለያ መረጃ መድረስ ይችላሉ።</translation>
 <translation id="1987317783729300807">መለያዎች</translation>
-<translation id="8418661265246754237">የOneVN Software መለያዎች</translation>
+<translation id="8418661265246754237">የOnevn Software መለያዎች</translation>
 <translation id="3297951628821704004">መለያን ከዚህ መሣሪያ አስወግድ</translation>
 <translation id="3158033540161634471">የጣት አሻራዎን ያዋቅሩ</translation>
 <translation id="1587907146729660231">በጣትዎ የኃይል አዝራሩን ነካ ያድርጉ</translation>
@@ -3987,9 +3987,9 @@ nil</translation>
 <translation id="2114896190328250491">ፎቶ በ<ph name="NAME"/></translation>
 <translation id="7155171745945906037">ነባር ፎቶ ከካሜራ ወይም ከፋይል</translation>
 <translation id="8995603266996330174">የተቀናበረው በ<ph name="DOMAIN"/></translation>
-<translation id="9125982323641182972">OneVN Software ዘመናዊ ነገሮችን በOneVN ላይ ያግኙ</translation>
+<translation id="9125982323641182972">Onevn Software ዘመናዊ ነገሮችን በOnevn ላይ ያግኙ</translation>
 <translation id="5244474230056479698">ከ<ph name="EMAIL"/> ጋር በማስመር ላይ</translation>
-<translation id="4326270470840334364">ይህ መለያ የሚቀናበረው በ<ph name="DOMAIN"/> ስለሆነ የእርስዎ ዕልባቶች፣ ታሪክ፣ የይለፍ ቃላት እና ሌሎች ቅንብሮች ከዚህ መሣሪያ ይጸዳሉ። ይሁንና፣ የእርስዎ ውሂብ በOneVN Software መለያ ላይ እንዳለ የሚቀር ሲሆን በ<ph name="BEGIN_LINK"/>OneVN Software ዳሽቦርድ<ph name="END_LINK"/> ላይ መቀናበር ይችላል።</translation>
+<translation id="4326270470840334364">ይህ መለያ የሚቀናበረው በ<ph name="DOMAIN"/> ስለሆነ የእርስዎ ዕልባቶች፣ ታሪክ፣ የይለፍ ቃላት እና ሌሎች ቅንብሮች ከዚህ መሣሪያ ይጸዳሉ። ይሁንና፣ የእርስዎ ውሂብ በOnevn Software መለያ ላይ እንዳለ የሚቀር ሲሆን በ<ph name="BEGIN_LINK"/>Onevn Software ዳሽቦርድ<ph name="END_LINK"/> ላይ መቀናበር ይችላል።</translation>
 <translation id="4037889604535939429">ሰውን ያርትዑ</translation>
 <translation id="6739923123728562974">የዴስክቶፕ አቋራጭን አሳይ</translation>
 <translation id="2450310832094867474">ማመሳሰል ይጥፋ እና በመለያ ይወጣ?</translation>
@@ -3997,16 +3997,16 @@ nil</translation>
 <translation id="5643620609347735571">አጽዳ እና ቀጥል</translation>
 <translation id="5602765853043467355">ዕልባቶችን፣ ታሪክ፣ የይለፍ ቃላት እና ተጨማሪ ነገሮችን ከዚህ መሣሪያ ላይ አጽዳ</translation>
 <translation id="4089235344645910861">ቅንብሮች ተቀምጠዋል። ስምረት ጀምሯል።</translation>
-<translation id="7548737591211512046">የእርስዎን ዕልባቶች፣ ታሪክ፣ የይለፍ ቃሎች እና ሌሎች ቅንብሮች በሁሉም መሣሪያዎችዎ ላይ ለማግኘት በመለያ ይግቡ። እንዲሁም በራስ-ሰር ወደ የእርስዎ OneVN Software አገልግሎቶች እንዲገቡ ይደረጋሉ።</translation>
-<translation id="2951604498031550705">በእርስዎ ዕልባቶች፣ ታሪክ፣ የይለፍ ቃላት እና ሌሎች ቅንብሮች ላይ የሚደረጉ ለውጦች ከአሁን በኋላ ከOneVN Software መለያዎ ጋር አይሰምሩም። ይሁንና፣ የእርስዎ ነባር ውሂብ በOneVN Software መለያዎ ላይ እንደተከማቸ የሚቆይ እና በ<ph name="BEGIN_LINK"/>OneVN Software ዳሽቦርድ<ph name="END_LINK"/> ላይ መቀናበር የሚችል ነው።</translation>
-<translation id="138229770216285283">በእርስዎ ዕልባቶች፣ ታሪክ፣ የይለፍ ቃላት እና ሌሎች ቅንብሮች ላይ የሚደረጉ ለውጦች ከአሁን በኋላ ከOneVN Software መለያዎ ጋር አይሰምሩም። ይሁንና፣ የእርስዎ ነባር ውሂብ በOneVN Software መለያዎ ላይ እንደተከማቸ የሚቆይ እና በ<ph name="BEGIN_LINK"/>OneVN Software ዳሽቦርድ<ph name="END_LINK"/> ላይ መቀናበር የሚችል ነው።</translation>
-<translation id="3169352093514419465">ይህ ከእርስዎ የOneVN Software መለያዎች ዘግተው እንዲወጡ ያደርግዎታል። የእርስዎ እልባቶች፣ ታሪክ፣ የይለፍ ቃላት እና ተጨማሪ ነገሮች ከእንግዲህ አይሰምሩም።</translation>
+<translation id="7548737591211512046">የእርስዎን ዕልባቶች፣ ታሪክ፣ የይለፍ ቃሎች እና ሌሎች ቅንብሮች በሁሉም መሣሪያዎችዎ ላይ ለማግኘት በመለያ ይግቡ። እንዲሁም በራስ-ሰር ወደ የእርስዎ Onevn Software አገልግሎቶች እንዲገቡ ይደረጋሉ።</translation>
+<translation id="2951604498031550705">በእርስዎ ዕልባቶች፣ ታሪክ፣ የይለፍ ቃላት እና ሌሎች ቅንብሮች ላይ የሚደረጉ ለውጦች ከአሁን በኋላ ከOnevn Software መለያዎ ጋር አይሰምሩም። ይሁንና፣ የእርስዎ ነባር ውሂብ በOnevn Software መለያዎ ላይ እንደተከማቸ የሚቆይ እና በ<ph name="BEGIN_LINK"/>Onevn Software ዳሽቦርድ<ph name="END_LINK"/> ላይ መቀናበር የሚችል ነው።</translation>
+<translation id="138229770216285283">በእርስዎ ዕልባቶች፣ ታሪክ፣ የይለፍ ቃላት እና ሌሎች ቅንብሮች ላይ የሚደረጉ ለውጦች ከአሁን በኋላ ከOnevn Software መለያዎ ጋር አይሰምሩም። ይሁንና፣ የእርስዎ ነባር ውሂብ በOnevn Software መለያዎ ላይ እንደተከማቸ የሚቆይ እና በ<ph name="BEGIN_LINK"/>Onevn Software ዳሽቦርድ<ph name="END_LINK"/> ላይ መቀናበር የሚችል ነው።</translation>
+<translation id="3169352093514419465">ይህ ከእርስዎ የOnevn Software መለያዎች ዘግተው እንዲወጡ ያደርግዎታል። የእርስዎ እልባቶች፣ ታሪክ፣ የይለፍ ቃላት እና ተጨማሪ ነገሮች ከእንግዲህ አይሰምሩም።</translation>
 <translation id="8588866096426746242">የመገለጫ ስታቲስቲክስ</translation>
 <translation id="5535941515421698170">እንዲሁም ነባር ውሂብዎን ከዚህ መሣሪያ ያስወግዱ</translation>
 <translation id="7243632151880336635">አጽዳና ዘግተህ ውጣ</translation>
 <translation id="6406506848690869874">አመሳስል</translation>
-<translation id="5428209950370661546">ሌሎች የOneVN Software አገልግሎቶች</translation>
-<translation id="7956662517480676674">ማመሳሰል እና የOneVN Software አገልግሎቶች</translation>
+<translation id="5428209950370661546">ሌሎች የOnevn Software አገልግሎቶች</translation>
+<translation id="7956662517480676674">ማመሳሰል እና የOnevn Software አገልግሎቶች</translation>
 <translation id="2453021845418314664">የላቁ የማመሳሰል ቅንብሮች</translation>
 <translation id="4314815835985389558">ስምረትን ያቀናብሩ</translation>
 <translation id="659934686219830168">አንዴ ይህን ገጽ ትተው ከወጡ በኋላ ስምረት ይጀመራል</translation>
@@ -4015,19 +4015,19 @@ nil</translation>
 <translation id="4824958205181053313">ስምረት ይሰረዝ?</translation>
 <translation id="3058498974290601450">ስምረትን በማንኛውም ጊዜ በቅንብሮች ውስጥ ማብራት ይችላሉ።</translation>
 <translation id="7529411698175791732">የበይነመረብ ግንኙነትዎን ይፈትሹ። ችግሩ ከቀጠለ ዘግተው ወጥተው እንደገና ለመግባት ይሞክሩ።</translation>
-<translation id="1125261911132334651">የOneVN Software መለያዎን ያቀናብሩ</translation>
+<translation id="1125261911132334651">የOnevn Software መለያዎን ያቀናብሩ</translation>
 <translation id="4570387585180509432">አድራሻዎች፣ ስልክ ቁጥሮች እና ተጨማሪ ነገሮች</translation>
 <translation id="5117427536932535467">ገጽታዎች እና የግድግዳ ወረቀቶች</translation>
 <translation id="3268451620468152448">ክፍት ትሮች</translation>
-<translation id="5241892180459725878">OneVN Software Drive የፍለጋ የጥቆማ ሐሳቦች</translation>
+<translation id="5241892180459725878">Onevn Software Drive የፍለጋ የጥቆማ ሐሳቦች</translation>
 <translation id="2120297377148151361">እንቅስቃሴ እና መስተጋብሮች</translation>
 <translation id="5833397272224757657">እርስዎ የሚጎበኙዋቸውን ጣቢያዎች ላይ ይዘትን እንዲሁም የአሰሳ እንቅስቃሴ እና መስተጋብሮች ለግላዊነት ለማላበስ ይጠቀማል</translation>
-<translation id="8135094938656535588">በOneVN Software ዳሽቦርድ ላይ የሰመረ ውሂብን ያቀናብሩ</translation>
-<translation id="7505421639213002314">ውሂብ ከOneVN ስምረት</translation>
+<translation id="8135094938656535588">በOnevn Software ዳሽቦርድ ላይ የሰመረ ውሂብን ያቀናብሩ</translation>
+<translation id="7505421639213002314">ውሂብ ከOnevn ስምረት</translation>
 <translation id="6596325263575161958">የምስጠራ አማራጮች</translation>
-<translation id="2459230470861708651">የሰመሩ ይለፍ ቃላ በእርስዎ የOneVN Software ተጠቃሚ ስም እና ይለፍ ቃል ያመስጥሯቸው</translation>
-<translation id="5958351589333270173">የሰመረ ውሂብ በራስዎ <ph name="BEGIN_LINK"/>የስምረት ይለፍ ሐረግ<ph name="END_LINK"/> ያመስጥሩ። ይህ ከOneVN Software Pay የመክፈያ ዘዴዎችን እና አድራሻዎችን አያካትትም።</translation>
-<translation id="4817583816512767754">የእርስዎን የይለፍ ሐረግ ያለው ሰው ብቻ ነው የተመሰጠረ ውሂብዎን ማየት የሚችለው። የይለፍ ሐረጉ ለOneVN Software አይላክም ወይም በእሱ አይከማችም። የይለፍ ሐረግዎን ከረሱት <ph name="BEGIN_LINK"/>ስምረትን ዳግም ማስጀመር<ph name="END_LINK"/> ይኖርብዎታል።</translation>
+<translation id="2459230470861708651">የሰመሩ ይለፍ ቃላ በእርስዎ የOnevn Software ተጠቃሚ ስም እና ይለፍ ቃል ያመስጥሯቸው</translation>
+<translation id="5958351589333270173">የሰመረ ውሂብ በራስዎ <ph name="BEGIN_LINK"/>የስምረት ይለፍ ሐረግ<ph name="END_LINK"/> ያመስጥሩ። ይህ ከOnevn Software Pay የመክፈያ ዘዴዎችን እና አድራሻዎችን አያካትትም።</translation>
+<translation id="4817583816512767754">የእርስዎን የይለፍ ሐረግ ያለው ሰው ብቻ ነው የተመሰጠረ ውሂብዎን ማየት የሚችለው። የይለፍ ሐረጉ ለOnevn Software አይላክም ወይም በእሱ አይከማችም። የይለፍ ሐረግዎን ከረሱት <ph name="BEGIN_LINK"/>ስምረትን ዳግም ማስጀመር<ph name="END_LINK"/> ይኖርብዎታል።</translation>
 <translation id="7441736921018636843">ይህን ቅንብር ለመቀየር፣ የእርስዎን የስምረት ይለፍ ሐረግ ለማስወገድ <ph name="BEGIN_LINK"/>ስምረትን ዳግም ያቀናብሩ<ph name="END_LINK"/></translation>
 <translation id="3873315167136380065">ይህን ለማብራት፣ የእርስዎን የስምረት ግዢ ለማስወገድ <ph name="BEGIN_LINK"/>ስምረትን ዳግም ያቀናብሩ<ph name="END_LINK"/></translation>
 <translation id="988978206646512040">ባዶ የይለፍ ሐረግ አይፈቀድም</translation>
@@ -4073,7 +4073,7 @@ nil</translation>
 <translation id="437184764829821926">የላቁ የቅርጸ-ቁምፊ ቅንብሮች</translation>
 <translation id="323803881985677942">የቅጥያ አማራጮችን ይክፈቱ</translation>
 <translation id="2166369534954157698">The quick brown fox jumps over the lazy dog</translation>
-<translation id="8911765336506423117">የOneVN የድር መደብር ቅጥያ ያስፈልገዋል</translation>
+<translation id="8911765336506423117">የOnevn የድር መደብር ቅጥያ ያስፈልገዋል</translation>
 <translation id="6965978654500191972">መሣሪያ</translation>
 <translation id="8260864402787962391">መዳፊት</translation>
 <translation id="155865706765934889">ተችፓድ</translation>
@@ -4110,7 +4110,7 @@ nil</translation>
 <translation id="4673442866648850031">ስቲለስ ሲወገድ የስቲለስ መሣሪያዎችን ክፈት</translation>
 <translation id="5862109781435984885">በመደርደሪያው ውስጥ የስቲለስ መሣሪያዎችን አሳይ</translation>
 <translation id="4244238649050961491">ተጨማሪ የስቲለስ መተግበሪያዎችን ያግኙ</translation>
-<translation id="1163818598439831131">OneVN Software Playን ይክፈቱ</translation>
+<translation id="1163818598439831131">Onevn Software Playን ይክፈቱ</translation>
 <translation id="9116799625073598554">ማስታወሻ የሚወስድ መተግበሪያ</translation>
 <translation id="5458998536542739734">የማያ ገጽ ቁልፍ ማስታወሻዎች</translation>
 <translation id="203574396658008164">ከማያ ገጽ ቁልፍ ሆነህ ማስታወሻ መውሰድን አንቃ</translation>
@@ -4172,7 +4172,7 @@ nil</translation>
 <translation id="6547354035488017500">ቢያንስ 512 ሜባ ባዶ ቦታ ያስለቅቁ ወይም የእርስዎ መሣሪያ ምላሽ የማይሰጥ ይሆናል። ቦታ ለማስለቀቅ ፋይሎችን ከመሣሪያ ማከማቻው ይሰርዙ።</translation>
 <translation id="6097480669505687979">ቦታ ካላስለቀቁ ተጠቃሚዎች እና ውሂብ በራስ-ሰር ሊወገዱ ይችላሉ።</translation>
 <translation id="5438224778284622050">የመስመር ውጭ ፋይሎች ይሰረዙ?</translation>
-<translation id="9196021349904508454">ጊዜያዊ የOneVN Software Drive መስመር ውጭ ፋይሎች ይሰረዛሉ። ከመስመር ውጭ የሚገኙ አድርገው ያቀናበሯቸው ፋይሎች ከዚህ መሣሪያ አይሰረዙም።</translation>
+<translation id="9196021349904508454">ጊዜያዊ የOnevn Software Drive መስመር ውጭ ፋይሎች ይሰረዛሉ። ከመስመር ውጭ የሚገኙ አድርገው ያቀናበሯቸው ፋይሎች ከዚህ መሣሪያ አይሰረዙም።</translation>
 <translation id="1865678028973512614">ፋይሎችን ይሰርዙ</translation>
 <translation id="1529891865407786369">የኃይል ምንጭ</translation>
 <translation id="354060433403403521">የAC የኤሌክትሪክ መመጠኛ</translation>
@@ -4194,37 +4194,37 @@ nil</translation>
 <translation id="1889984860246851556">የተኪ ቅንብሮችን ክፈት</translation>
 <translation id="1940546824932169984">የተገናኙ መሣሪያዎች</translation>
 <translation id="3468999815377931311">የAndroid ስልክ</translation>
-<translation id="2789927670850159391">የእርስዎን OneVNbook ከስልክዎ ጋር ያገናኙት። <ph name="LINK_BEGIN"/>የበለጠ ለመረዳት<ph name="LINK_END"/></translation>
+<translation id="2789927670850159391">የእርስዎን Onevnbook ከስልክዎ ጋር ያገናኙት። <ph name="LINK_BEGIN"/>የበለጠ ለመረዳት<ph name="LINK_END"/></translation>
 <translation id="1397500194120344683">ምንም ብቁ የሆኑ መሣሪያዎች የሉም። <ph name="LINK_BEGIN"/>የበለጠ ለመረዳት<ph name="LINK_END"/></translation>
 <translation id="5739235828260127894">ማረጋገጫን በመጠበቅ ላይ። <ph name="LINK_BEGIN"/>የበለጠ ለመረዳት<ph name="LINK_END"/></translation>
-<translation id="7179187931092694802">የእርስዎን OneVNbook በስልክዎ ይክፈቱ። <ph name="LINK_BEGIN"/>ተጨማሪ ለመረዳት<ph name="LINK_END"/></translation>
+<translation id="7179187931092694802">የእርስዎን Onevnbook በስልክዎ ይክፈቱ። <ph name="LINK_BEGIN"/>ተጨማሪ ለመረዳት<ph name="LINK_END"/></translation>
 <translation id="5430931332414098647">ቅጽበታዊ እንደ ሞደም መሰካት</translation>
 <translation id="6415900369006735853">በስልክዎ በኩል ከበይነመረቡ ጋር ይገናኙ</translation>
 <translation id="4746351372139058112">መልዕክቶች</translation>
-<translation id="2248072377758660530">መልዕክቶችን ወደ የእርስዎ OneVNbook ይላኩ እና ከእሱ ይቀበሉ። <ph name="LINK_BEGIN"/>የበለጠ ለመረዳት<ph name="LINK_END"/></translation>
+<translation id="2248072377758660530">መልዕክቶችን ወደ የእርስዎ Onevnbook ይላኩ እና ከእሱ ይቀበሉ። <ph name="LINK_BEGIN"/>የበለጠ ለመረዳት<ph name="LINK_END"/></translation>
 <translation id="5153234146675181447">ስልክን እርሳ</translation>
-<translation id="2307631131458143837">የእርስዎን ስልክ ከOneVNbook ጋር ያለውን ግንኙነት ያቋርጡ</translation>
-<translation id="1146102139091738471">የእርስዎን ስልክ ከOneVNbook ጋር ያለውን ግንኙነት ያቋርጡ። ከእንግዲህ በራስ-ሰር አይገናኙም።</translation>
+<translation id="2307631131458143837">የእርስዎን ስልክ ከOnevnbook ጋር ያለውን ግንኙነት ያቋርጡ</translation>
+<translation id="1146102139091738471">የእርስዎን ስልክ ከOnevnbook ጋር ያለውን ግንኙነት ያቋርጡ። ከእንግዲህ በራስ-ሰር አይገናኙም።</translation>
 <translation id="7878562273885520351">የእርስዎ ይለፍ ቃል ተሰርቆ ሊሆን ይችላል</translation>
 <translation id="1089439967362294234">የይለፍ ቃል ቀይር</translation>
-<translation id="6187156085111579405">ካስፈለገ እንዲሁም እዚህ ያልተዘረዘሩ ንጥሎች ሊወገዱ ይችላሉ። በOneVN የግላዊነት ነጭ ወረቀት ላይ ስለ&lt;a href="<ph name="URL"/>"&gt;የማይፈለግ ሶፍትዌር ጥበቃ&lt;/a&gt; የበለጠ ይረዱ።</translation>
+<translation id="6187156085111579405">ካስፈለገ እንዲሁም እዚህ ያልተዘረዘሩ ንጥሎች ሊወገዱ ይችላሉ። በOnevn የግላዊነት ነጭ ወረቀት ላይ ስለ&lt;a href="<ph name="URL"/>"&gt;የማይፈለግ ሶፍትዌር ጥበቃ&lt;/a&gt; የበለጠ ይረዱ።</translation>
 <translation id="5280174558369304332">የሚወገዱ ቅጥያዎች፦</translation>
 <translation id="7712836429117959503">መታወቂያ <ph name="EXTENSION_ID"/> ያለው ያልታወቀ ቅጥያ</translation>
 <translation id="3281892622610078515">የሚገለሉ ፋይሎች እና ፕሮግራሞች፦</translation>
 <translation id="8549457076611407730">{NUM_ITEMS,plural, =1{1 ንጥል}one{# ንጥሎች}other{# ንጥሎች}}</translation>
 <translation id="7187428571767585875">የሚወገዱ ወይም የሚቀየሩ የመዝገብ ግቤቶችን፦</translation>
 <translation id="4840150926623932060">{NUM_DOWNLOAD,plural, =1{1 ተጨማሪ}one{# ተጨማሪ}other{# ተጨማሪ}}</translation>
-<translation id="2749608811030566578">OneVN ጎጂ ሶፍትዌር እያስወገደ ሳለ አንድ ስህተት ተከስቷል</translation>
-<translation id="8189483132214844139">OneVN በእርስዎ ኮምፒውተር ላይ ጎጂ ሶፍትዌርን ማግኘት እና ማስወገድ ይችላል</translation>
+<translation id="2749608811030566578">Onevn ጎጂ ሶፍትዌር እያስወገደ ሳለ አንድ ስህተት ተከስቷል</translation>
+<translation id="8189483132214844139">Onevn በእርስዎ ኮምፒውተር ላይ ጎጂ ሶፍትዌርን ማግኘት እና ማስወገድ ይችላል</translation>
 <translation id="2910318910161511225">ከአውታረ መረብ ጋር ያገናኙና እንደገና ይሞክሩ</translation>
 <translation id="1426870617281699524">እንደገና ይሞክሩ ላይ ጠቅ ያድርጉ፣ እና በኮምፒውተርዎ ላይ ያለውን ጥያቄ ይቀበሉ</translation>
-<translation id="7886744396008377537">በእርስዎ ኮምፒውተር ላይ ጎጂ ሶፍትዌር አለ። OneVN እያስወገደው፣ የእርስዎን ቅንብሮች ወደ ነበሩበት እየመለሰ እና ቅጥያዎችን በማሰናከል ላይ ነው። ይህ የእርስዎን አሳሽ እንደገና በጤናማ መልኩ እንዲሠራ ያደርገዋል።</translation>
-<translation id="1484912962860902625">OneVN ጎጂ ሶፍትዌርን እየፈለገ ሳለ ስህተት አጋጥሟል</translation>
+<translation id="7886744396008377537">በእርስዎ ኮምፒውተር ላይ ጎጂ ሶፍትዌር አለ። Onevn እያስወገደው፣ የእርስዎን ቅንብሮች ወደ ነበሩበት እየመለሰ እና ቅጥያዎችን በማሰናከል ላይ ነው። ይህ የእርስዎን አሳሽ እንደገና በጤናማ መልኩ እንዲሠራ ያደርገዋል።</translation>
+<translation id="1484912962860902625">Onevn ጎጂ ሶፍትዌርን እየፈለገ ሳለ ስህተት አጋጥሟል</translation>
 <translation id="451407183922382411">በ<ph name="COMPANY_NAME"/> የተጎላበተ</translation>
 <translation id="5254368820972107711">የሚወገዱ ፋይሎችን አሳይ</translation>
 <translation id="296026337010986570">ተከናውኗል! ጎጂ ሶፍትዌር ተወግዷል። ቅጥያዎችን መልሶ ለማብራት &lt;a href="chrome://extensions"&gt;ቅጥያዎች&lt;/a&gt;ን ይጎብኙ።</translation>
 <translation id="284975061945174219">ማጽዳት አልተሳካም</translation>
-<translation id="9014750448058570312">OneVN ለመቀጠል ፈቃድ ያስፈልገዋል</translation>
+<translation id="9014750448058570312">Onevn ለመቀጠል ፈቃድ ያስፈልገዋል</translation>
 <translation id="1852141627593563189">ጎጂ ሶፍትዌርን አግኝ</translation>
 <translation id="4320177379694898372">ምንም የበይነመረብ ግንኙነት የለም</translation>
 <translation id="850875081535031620">ምንም ጎጂ ሶፍትዌር አልተገኘም</translation>
@@ -4234,11 +4234,11 @@ nil</translation>
 <translation id="8639047128869322042">ጎጂ ሶፍትዌር ካለ በመፈተሽ ላይ...</translation>
 <translation id="2653033005692233957">ፍለጋ አልተሳካም</translation>
 <translation id="655483977608336153">እንደገና ሞክር</translation>
-<translation id="8282772389915299166">በዚህ ማጽጃ ጊዜ በኮምፒውተርዎ ላይ ስለተገኙ ጎጂ ሶፍትዌር፣ የስርዓት ቅንብሮች እና ሂደቶች ዝርዝሮች ለOneVN Software ሪፖርት ያድርጉ</translation>
+<translation id="8282772389915299166">በዚህ ማጽጃ ጊዜ በኮምፒውተርዎ ላይ ስለተገኙ ጎጂ ሶፍትዌር፣ የስርዓት ቅንብሮች እና ሂደቶች ዝርዝሮች ለOnevn Software ሪፖርት ያድርጉ</translation>
 <translation id="6555810572223193255">ማጽዳት በአሁኑ ጊዜ አይገኝም</translation>
 <translation id="7117228822971127758">እባክዎ ቆይተው እንደገና ይሞክሩ</translation>
 <translation id="443475966875174318">ተኳኋኝ ያልሆኑ መተግበሪያዎችን ያዘምኑ ወይም ያስወግዱ</translation>
-<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{ይህ መተግበሪያ OneVN በአግባቡ እንዳይሠራ ሊከላከል ይችላል።}one{እነዚህ መተግበሪያዎች OneVN በአግባቡ እንዳይሠራ ሊከላከሉ ይችላሉ።}other{እነዚህ መተግበሪያዎች OneVN በአግባቡ እንዳይሠራ ሊከላከሉ ይችላሉ።}}</translation>
+<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{ይህ መተግበሪያ Onevn በአግባቡ እንዳይሠራ ሊከላከል ይችላል።}one{እነዚህ መተግበሪያዎች Onevn በአግባቡ እንዳይሠራ ሊከላከሉ ይችላሉ።}other{እነዚህ መተግበሪያዎች Onevn በአግባቡ እንዳይሠራ ሊከላከሉ ይችላሉ።}}</translation>
 <translation id="599131315899248751">{NUM_APPLICATIONS,plural, =1{ድሩን ማሰስ መቀጠል መቻልዎን ለማረጋገጥ አስተዳዳሪዎ ይህን መተግበሪያ እንዲያስወግዱ ይጠይቋቸው።}one{ድሩን ማሰስ መቀጠል መቻልዎን ለማረጋገጥ አስተዳዳሪዎ እነዚህን መተግበሪያዎች እንዲያስወግዱ ይጠይቋቸው።}other{ድሩን ማሰስ መቀጠል መቻልዎን ለማረጋገጥ አስተዳዳሪዎ እነዚህን መተግበሪያዎች እንዲያስወግዱ ይጠይቋቸው።}}</translation>
 <translation id="4743260470722568160"><ph name="BEGIN_LINK"/>እንዴት መተግበሪያዎችን ማዘመን እንደሚቻል ይረዱ<ph name="END_LINK"/></translation>
 <translation id="964439421054175458">{NUM_APLLICATIONS,plural, =1{መተግበሪያ}one{መተግበሪያዎች}other{መተግበሪያዎች}}</translation>
@@ -4315,7 +4315,7 @@ nil</translation>
 <translation id="6370021412472292592">ማሳያን መጫን አልተቻለም።</translation>
 <translation id="7235716375204803342">እንቅስቃሴዎችን በማግኘት ላይ...</translation>
 <translation id="7647403192093989392">ምንም የቅርብ ጊዜ እንቅስቃሴ የለም</translation>
-<translation id="38046578254905003">ቅጥያዎችን እና ገጽታዎችን በ<ph name="BEGIN_LINK"/>OneVN ድር መደብር<ph name="END_LINK"/> ላይ ያግኙ</translation>
+<translation id="38046578254905003">ቅጥያዎችን እና ገጽታዎችን በ<ph name="BEGIN_LINK"/>Onevn ድር መደብር<ph name="END_LINK"/> ላይ ያግኙ</translation>
 <translation id="7272674038937250585">ምንም መግለጫ አልቀረበም</translation>
 <translation id="3855441664322950881">ቅጥያን ጠቅልል</translation>
 <translation id="2958721676848865875">የጥቅል ቅጥያ ማስጠንቀቂያ</translation>
@@ -4327,7 +4327,7 @@ nil</translation>
 <translation id="1992397118740194946">ያልተዘጋጀ</translation>
 <translation id="6706210727756204531">ወሰን</translation>
 <translation id="5532223876348815659">ሁሉንም</translation>
-<translation id="300669147395456190">OneVN መተግበሪያዎች</translation>
+<translation id="300669147395456190">Onevn መተግበሪያዎች</translation>
 <translation id="6787839852456839824">የቁልፍ ሰሌዳ አቋራጮች</translation>
 <translation id="6419546358665792306">ጭነት ተፈትቷል</translation>
 <translation id="8023801379949507775">ቅጥያዎችን አሁን አዘምን</translation>
@@ -4356,7 +4356,7 @@ nil</translation>
 <translation id="742130257665691897">ዕልባቶች ተወግደዋል</translation>
 <translation id="2785008241190445880">ዕልባት ተተክቷል</translation>
 <translation id="4320948194796820126">አንድ ዕልባት ወደ የእርስዎ ኢሜይል ያክሉ</translation>
-<translation id="2950533317914339731">ዕልባቶችን ወደ የእርስዎ ተወዳጅ የOneVN Software መተግበሪያዎች ያክሉ</translation>
+<translation id="2950533317914339731">ዕልባቶችን ወደ የእርስዎ ተወዳጅ የOnevn Software መተግበሪያዎች ያክሉ</translation>
 <translation id="3409785640040772790">ካርታዎች</translation>
 <translation id="6709133671862442373">ዜና</translation>
 <translation id="995782501881226248">YouTube</translation>
@@ -4368,12 +4368,12 @@ nil</translation>
 <translation id="5033266061063942743">ጆሜትሪያዊ ቅርጾች</translation>
 <translation id="7789963078219276159">የጅምር ገጽ ጀርባው ወደ <ph name="CATEGORY"/> ተቀይሯል።</translation>
 <translation id="8771300903067484968">የጅምር ገጽ ጀርባው ወደ ነባሪው ጀርባ ዳግም ተጀምሯል።</translation>
-<translation id="239760341987199724">OneVN እንደ ነባሪ አሳሽዎ አድርገው ያዋቅሩት</translation>
-<translation id="96037229054033864">ባሰሱ ቁጥር OneVN Software ፍለጋን እና OneVN Software ዘመናዊዎችን ያግኙ</translation>
-<translation id="296137235951584143">OneVNን የራስዎ ያድርጉት</translation>
+<translation id="239760341987199724">Onevn እንደ ነባሪ አሳሽዎ አድርገው ያዋቅሩት</translation>
+<translation id="96037229054033864">ባሰሱ ቁጥር Onevn Software ፍለጋን እና Onevn Software ዘመናዊዎችን ያግኙ</translation>
+<translation id="296137235951584143">Onevnን የራስዎ ያድርጉት</translation>
 <translation id="3982375475032951137">የእርስዎን አሳሽ በጥቂት ቀላል እርምጃዎችን ያቀናብሩ</translation>
 <translation id="6972754398087986839">አስጀማሪ መመሪያ</translation>
-<translation id="3707821975049107110">አስቀድመው የOneVN ተጠቃሚ ነዎት? በመለያ ይግቡ</translation>
+<translation id="3707821975049107110">አስቀድመው የOnevn ተጠቃሚ ነዎት? በመለያ ይግቡ</translation>
 <translation id="1573150740912592860">የእርስዎን ግስጋሴ ያስቀምጡ</translation>
 <translation id="567643736130151854">በመለያ ይግቡ እና የእርስዎን ዕልባቶች፣ የይለፍ ቃላት እና ተጨማሪ ነገሮች በሁሉም መሣሪያዎች ላይ ለማግኘት ስምረትን ያብሩ</translation>
 <translation id="8282356762694872144">ወደ የእርስዎ ኢሜይል ይቀጥሉ?</translation>
@@ -4382,7 +4382,7 @@ nil</translation>
 <translation id="5877584842898320529">የተመረጠው አታሚ የለም ወይም በትክክል አልተጫነም። <ph name="BR"/> አታሚዎን ይፈትሹት ወይም ሌላ አታሚ ለመምረጥ ይሞክሩ።</translation>
 <translation id="1031362278801463162">ቅድመ-እይታን በመጫን ላይ</translation>
 <translation id="6147020289383635445">የህትመት ቅድመ-እይታ አልተሳካም።</translation>
-<translation id="7413400642818115607">የተመረጠው የOneVN Software ደመና ህትመት መሣሪያ ከእንግዲህ የሚደገፍ አይደለም። <ph name="BR"/> ማተሚያውን በእርስዎ ኮምፒውተር ሥርዓት ቅንብሮች ውስጥ ለማቀናበር ይሞክሩ።</translation>
+<translation id="7413400642818115607">የተመረጠው የOnevn Software ደመና ህትመት መሣሪያ ከእንግዲህ የሚደገፍ አይደለም። <ph name="BR"/> ማተሚያውን በእርስዎ ኮምፒውተር ሥርዓት ቅንብሮች ውስጥ ለማቀናበር ይሞክሩ።</translation>
 <translation id="5828633471261496623">በማተም ላይ...</translation>
 <translation id="6295855836753816081">በማስቀመጥ ላይ...</translation>
 <translation id="3587482841069643663">ሁሉም</translation>
@@ -4399,7 +4399,7 @@ nil</translation>
 <translation id="3706463572498736864">ገጾች በሉህ</translation>
 <translation id="2249605167705922988">ለምሳሌ፦ 1-5፣ 8፣ 11-13</translation>
 <translation id="5746169159649715125">እንደ PDF አስቀምጥ</translation>
-<translation id="1955272076204612657">ወደ OneVN Software Drive ያስቀምጡ</translation>
+<translation id="1955272076204612657">ወደ Onevn Software Drive ያስቀምጡ</translation>
 <translation id="2580924999637585241">አጠቃላይ፦ <ph name="NUMBER_OF_SHEETS"/> <ph name="SHEETS_LABEL"/></translation>
 <translation id="4091434297613116013">የወረቀት ሉሆች</translation>
 <translation id="8813811964357448561">የወረቀት ሉክ</translation>
@@ -4428,7 +4428,7 @@ nil</translation>
 <translation id="6991665348624301627">መድረሻ ይምረጡ</translation>
 <translation id="8800004011501252845">መድረሻዎችን በማሳየት ላይ ለ፦</translation>
 <translation id="8996526648899750015">መለያ ያክሉ...</translation>
-<translation id="5002959368039764681">ወድ OneVN Software ሰነዶች እና ሌሎች የዳመና መድረሻዎች ያትሙ። ወደ OneVN Software የዳመና ህትመት ለማተም <ph name="BEGIN_LINK"/>ይግቡ<ph name="END_LINK"/>።</translation>
+<translation id="5002959368039764681">ወድ Onevn Software ሰነዶች እና ሌሎች የዳመና መድረሻዎች ያትሙ። ወደ Onevn Software የዳመና ህትመት ለማተም <ph name="BEGIN_LINK"/>ይግቡ<ph name="END_LINK"/>።</translation>
 <translation id="2150139952286079145">መድረሻዎችን ይፈልጉ</translation>
 <translation id="8569682776816196752">ምንም መድረሻዎች አልተገኙም</translation>
 <translation id="7885253890047913815">የቅርብ ጊዜ መድረሻዎች</translation>
@@ -4486,7 +4486,7 @@ nil</translation>
 <translation id="7574650250151586813">ጽሑፍን ለመተየብ የDaydream ቁልፍ ሰሌዳ መተግበሪያውን ያዘምኑት</translation>
 <translation id="983511809958454316">ይህ ባህሪ በቪአር ውስጥ አይደገፍም</translation>
 <translation id="4008291085758151621">የጣቢያ መረጃ በቪአር ውስጥ አይገኝም</translation>
-<translation id="1439926347196400598">OneVN ኦዲዮን እንዲቀርጽ ይፈቀድለት?</translation>
+<translation id="1439926347196400598">Onevn ኦዲዮን እንዲቀርጽ ይፈቀድለት?</translation>
 <translation id="6313641880021325787">ከቪአር ውጣ</translation>
 <translation id="2670429602441959756">ይህ ገጽ እስካሁን በVR ውስጥ የማይደገፉ ባህሪያትን ይዟል። በመውጣት ላይ...</translation>
 <translation id="1802687198411089702">ይህ ገጽ ምላሽ እየሰጠ አይደለም። እሱን መጠበቅ ወይም ትተው መውጣት ይችላል።</translation>

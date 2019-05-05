@@ -44,14 +44,14 @@ class FirefoxImporterTest : public ::testing::Test {
   void SetUp() override {
     SetUpFirefoxProfile();
     importer_ = new onevn::FirefoxImporter;
-    bridge_ = new OneVNMockImporterBridge;
+    bridge_ = new OnevnMockImporterBridge;
   }
 
   base::ScopedTempDir temp_dir_;
   base::FilePath profile_dir_;
   importer::SourceProfile profile_;
   scoped_refptr<onevn::FirefoxImporter> importer_;
-  scoped_refptr<OneVNMockImporterBridge> bridge_;
+  scoped_refptr<OnevnMockImporterBridge> bridge_;
 };
 
 TEST_F(FirefoxImporterTest, ImportCookies) {

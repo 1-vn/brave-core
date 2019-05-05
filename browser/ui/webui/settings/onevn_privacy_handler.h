@@ -9,10 +9,10 @@
 
 class Profile;
 
-class OneVNPrivacyHandler : public settings::SettingsPageUIHandler {
+class OnevnPrivacyHandler : public settings::SettingsPageUIHandler {
  public:
-  OneVNPrivacyHandler() = default;
-  ~OneVNPrivacyHandler() override = default;
+  OnevnPrivacyHandler() = default;
+  ~OnevnPrivacyHandler() override = default;
 
  private:
   // SettingsPageUIHandler overrides:
@@ -25,7 +25,7 @@ class OneVNPrivacyHandler : public settings::SettingsPageUIHandler {
 
   Profile* profile_ = nullptr;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNPrivacyHandler);
+  DISALLOW_COPY_AND_ASSIGN(OnevnPrivacyHandler);
 };
 
 #endif  // ONEVN_BROWSER_UI_WEBUI_SETTINGS_ONEVN_PRIVACY_HANDLER_H_

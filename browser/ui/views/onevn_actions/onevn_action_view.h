@@ -13,12 +13,12 @@ namespace gfx {
 
 // Subclasses ToolbarActionViewc so that the notification badge can be painted
 // outside the highlight bubble.
-class OneVNActionView : public ToolbarActionView {
+class OnevnActionView : public ToolbarActionView {
  public:
   using ToolbarActionView::ToolbarActionView;
   // views::MenuButton:
   void OnBoundsChanged(const gfx::Rect& previous_bounds) override;
-  DISALLOW_COPY_AND_ASSIGN(OneVNActionView);
+  DISALLOW_COPY_AND_ASSIGN(OnevnActionView);
 };
 
 #endif

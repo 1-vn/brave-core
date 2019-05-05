@@ -21,9 +21,9 @@ namespace {
 
 // A test class used in this file. This test should be a browser test because it
 // accesses resources.
-class OneVNSpellingMenuObserverTest : public InProcessBrowserTest {
+class OnevnSpellingMenuObserverTest : public InProcessBrowserTest {
  public:
-  OneVNSpellingMenuObserverTest();
+  OnevnSpellingMenuObserverTest();
 
   void SetUpOnMainThread() override {}
 
@@ -34,7 +34,7 @@ class OneVNSpellingMenuObserverTest : public InProcessBrowserTest {
 
   void Reset(bool incognito = false) {
     observer_.reset();
-    menu_.reset(new OneVNMockRenderViewContextMenu(
+    menu_.reset(new OnevnMockRenderViewContextMenu(
         incognito ? browser()->profile()->GetOffTheRecordProfile()
                   : browser()->profile()));
     observer_.reset(new SpellingMenuObserver(menu_.get()));
@@ -55,31 +55,31 @@ class OneVNSpellingMenuObserverTest : public InProcessBrowserTest {
 
   void CheckExpected() {
     for (size_t i = 0; i < menu()->GetMenuSize(); ++i) {
-      OneVNMockRenderViewContextMenu::MockMenuItem item;
+      OnevnMockRenderViewContextMenu::MockMenuItem item;
       menu()->GetMenuItem(i, &item);
       EXPECT_NE(IDC_CONTENT_CONTEXT_SPELLING_TOGGLE, item.command_id);
     }
   }
 
-  ~OneVNSpellingMenuObserverTest() override;
-  OneVNMockRenderViewContextMenu* menu() { return menu_.get(); }
+  ~OnevnSpellingMenuObserverTest() override;
+  OnevnMockRenderViewContextMenu* menu() { return menu_.get(); }
   SpellingMenuObserver* observer() { return observer_.get(); }
 
  private:
   std::unique_ptr<SpellingMenuObserver> observer_;
-  std::unique_ptr<OneVNMockRenderViewContextMenu> menu_;
-  DISALLOW_COPY_AND_ASSIGN(OneVNSpellingMenuObserverTest);
+  std::unique_ptr<OnevnMockRenderViewContextMenu> menu_;
+  DISALLOW_COPY_AND_ASSIGN(OnevnSpellingMenuObserverTest);
 };
 
-OneVNSpellingMenuObserverTest::OneVNSpellingMenuObserverTest() {}
+OnevnSpellingMenuObserverTest::OnevnSpellingMenuObserverTest() {}
 
-OneVNSpellingMenuObserverTest::~OneVNSpellingMenuObserverTest() {}
+OnevnSpellingMenuObserverTest::~OnevnSpellingMenuObserverTest() {}
 
 }  // namespace
 
-// Tests that right-clicking not add "Ask OneVN for suggestions".
-IN_PROC_BROWSER_TEST_F(OneVNSpellingMenuObserverTest,
-                       CheckAskOneVNNotShown) {
+// Tests that right-clicking not add "Ask Onevn for suggestions".
+IN_PROC_BROWSER_TEST_F(OnevnSpellingMenuObserverTest,
+                       CheckAskOnevnNotShown) {
   // Test menu with a misspelled word.
   Reset();
   InitMenu("wiimode", nullptr);

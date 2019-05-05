@@ -12,7 +12,7 @@
 #include "base/values.h"
 #include "chrome/common/importer/importer_data_types.h"
 
-bool OneVNImporterCanImport(const base::FilePath& profile,
+bool OnevnImporterCanImport(const base::FilePath& profile,
                              uint16_t* services_supported) {
   DCHECK(services_supported);
   *services_supported = importer::NONE;

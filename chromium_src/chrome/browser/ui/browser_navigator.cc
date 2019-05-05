@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -10,17 +10,17 @@
 #include "url/gurl.h"
 
 namespace {
-void AdjustNavigateParamsForURLOneVNImpl(NavigateParams* params) {
-  if (params->url.SchemeIs(content::kOneVNUIScheme)) {
+void AdjustNavigateParamsForURLOnevnImpl(NavigateParams* params) {
+  if (params->url.SchemeIs(content::kOnevnUIScheme)) {
     GURL::Replacements replacements;
     replacements.SetSchemeStr(content::kChromeUIScheme);
     params->url = params->url.ReplaceComponents(replacements);
   }
 }
 
-bool IsHostAllowedInIncognitoOneVNImpl(const base::StringPiece& host) {
+bool IsHostAllowedInIncognitoOnevnImpl(const base::StringPiece& host) {
   if (host == kRewardsHost ||
-      host == kOneVNUISyncHost ||
+      host == kOnevnUISyncHost ||
       host == chrome::kChromeUISyncInternalsHost) {
     return false;
   }
@@ -29,6 +29,6 @@ bool IsHostAllowedInIncognitoOneVNImpl(const base::StringPiece& host) {
 }
 }  // namespace
 
-#define ChromeNavigationUIData OneVNNavigationUIData
+#define ChromeNavigationUIData OnevnNavigationUIData
 #include "../../../../chrome/browser/ui/browser_navigator.cc"  // NOLINT
 #undef ChromeNavigationUIData

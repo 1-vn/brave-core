@@ -1,4 +1,4 @@
-/* Copyright 2019 The OneVN Authors. All rights reserved.
+/* Copyright 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -11,9 +11,9 @@
 // This namespace is needed for a chromium_src override
 namespace chrome {
 
-class OneVNBrowserCommandController : public chrome::BrowserCommandController {
+class OnevnBrowserCommandController : public chrome::BrowserCommandController {
  public:
-  explicit OneVNBrowserCommandController(Browser* browser);
+  explicit OnevnBrowserCommandController(Browser* browser);
 
  private:
   // Overriden from CommandUpdater:
@@ -28,20 +28,20 @@ class OneVNBrowserCommandController : public chrome::BrowserCommandController {
   void RemoveCommandObserver(CommandObserver* observer) override;
   bool UpdateCommandEnabled(int id, bool state) override;
 
-  void InitOneVNCommandState();
-  void UpdateCommandForOneVNRewards();
-  void UpdateCommandForOneVNAdblock();
+  void InitOnevnCommandState();
+  void UpdateCommandForOnevnRewards();
+  void UpdateCommandForOnevnAdblock();
   void UpdateCommandForTor();
-  void UpdateCommandForOneVNSync();
+  void UpdateCommandForOnevnSync();
 
-  bool ExecuteOneVNCommandWithDisposition(int id,
+  bool ExecuteOnevnCommandWithDisposition(int id,
                                           WindowOpenDisposition disposition);
 
   Browser* const browser_;
 
   CommandUpdaterImpl onevn_command_updater_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNBrowserCommandController);
+  DISALLOW_COPY_AND_ASSIGN(OnevnBrowserCommandController);
 };
 
 }   // namespace chrome

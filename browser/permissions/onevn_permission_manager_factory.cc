@@ -11,24 +11,24 @@
 
 // static
 PermissionManager*
-OneVNPermissionManagerFactory::GetForProfile(Profile* profile) {
+OnevnPermissionManagerFactory::GetForProfile(Profile* profile) {
   return static_cast<PermissionManager*>(
       GetInstance()->GetServiceForBrowserContext(profile, true));
 }
 
 // static
-OneVNPermissionManagerFactory* OneVNPermissionManagerFactory::GetInstance() {
-  return base::Singleton<OneVNPermissionManagerFactory>::get();
+OnevnPermissionManagerFactory* OnevnPermissionManagerFactory::GetInstance() {
+  return base::Singleton<OnevnPermissionManagerFactory>::get();
 }
 
-OneVNPermissionManagerFactory::OneVNPermissionManagerFactory()
+OnevnPermissionManagerFactory::OnevnPermissionManagerFactory()
     : PermissionManagerFactory() {
 }
 
-OneVNPermissionManagerFactory::~OneVNPermissionManagerFactory() {
+OnevnPermissionManagerFactory::~OnevnPermissionManagerFactory() {
 }
 
-KeyedService* OneVNPermissionManagerFactory::BuildServiceInstanceFor(
+KeyedService* OnevnPermissionManagerFactory::BuildServiceInstanceFor(
     content::BrowserContext* context) const {
-  return new OneVNPermissionManager(Profile::FromBrowserContext(context));
+  return new OnevnPermissionManager(Profile::FromBrowserContext(context));
 }

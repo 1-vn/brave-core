@@ -9,7 +9,7 @@
 #include "ui/gfx/image/image.h"
 #include "ui/gfx/paint_vector_icon.h"
 
-gfx::ImageSkia OneVNAvatarToolbarButton::GetAvatarIcon() const {
+gfx::ImageSkia OnevnAvatarToolbarButton::GetAvatarIcon() const {
   if (profile_->IsTorProfile()) {
     const int icon_size =
       ui::MaterialDesignController::touch_ui() ? 24 : 20;

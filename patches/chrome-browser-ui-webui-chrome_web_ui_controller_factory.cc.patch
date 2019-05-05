@@ -15,7 +15,7 @@ index 14811cf71310045212d314aa7e9e40f9339f3c42..7bad587373c17c7a45f819d1f0f547da
  // static
  ChromeWebUIControllerFactory* ChromeWebUIControllerFactory::GetInstance() {
 -  return base::Singleton<ChromeWebUIControllerFactory>::get();
-+  return OneVNWebUIControllerFactory::GetInstance();
++  return OnevnWebUIControllerFactory::GetInstance();
  }
  
  // static

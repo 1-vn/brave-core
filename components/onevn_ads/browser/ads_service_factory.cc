@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -86,48 +86,48 @@ void AdsServiceFactory::RegisterProfilePrefs(
   auto should_migrate_prefs_from_62 = ShouldMigratePrefsFrom62(registry);
 
   if (ShouldMigratePrefs(registry)) {
-    // prefs::kOneVNAdsPrefsVersion should default to 1 for legacy installations
+    // prefs::kOnevnAdsPrefsVersion should default to 1 for legacy installations
     // so that preferences are migrated from version 1 to the current version
-    registry->RegisterIntegerPref(prefs::kOneVNAdsPrefsVersion,
-        prefs::kOneVNAdsPrefsDefaultVersion);
+    registry->RegisterIntegerPref(prefs::kOnevnAdsPrefsVersion,
+        prefs::kOnevnAdsPrefsDefaultVersion);
   } else {
-    registry->RegisterIntegerPref(prefs::kOneVNAdsPrefsVersion,
-        prefs::kOneVNAdsPrefsCurrentVersion);
+    registry->RegisterIntegerPref(prefs::kOnevnAdsPrefsVersion,
+        prefs::kOnevnAdsPrefsCurrentVersion);
   }
 
-  registry->RegisterBooleanPref(prefs::kOneVNAdsEnabled, false);
+  registry->RegisterBooleanPref(prefs::kOnevnAdsEnabled, false);
 
-  registry->RegisterUint64Pref(prefs::kOneVNAdsPerHour, 2);
+  registry->RegisterUint64Pref(prefs::kOnevnAdsPerHour, 2);
 
   #if defined(OS_ANDROID)
-    registry->RegisterUint64Pref(prefs::kOneVNAdsPerDay, 12);
+    registry->RegisterUint64Pref(prefs::kOnevnAdsPerDay, 12);
   #else
-    registry->RegisterUint64Pref(prefs::kOneVNAdsPerDay, 20);
+    registry->RegisterUint64Pref(prefs::kOnevnAdsPerDay, 20);
   #endif
 
-  registry->RegisterIntegerPref(prefs::kOneVNAdsIdleThreshold, 15);
+  registry->RegisterIntegerPref(prefs::kOnevnAdsIdleThreshold, 15);
   registry->RegisterBooleanPref(
-      prefs::kOneVNAdShouldShowFirstLaunchNotification,
+      prefs::kOnevnAdShouldShowFirstLaunchNotification,
       true);
 
   auto now = static_cast<uint64_t>(
       (base::Time::Now() - base::Time()).InSeconds());
   registry->RegisterUint64Pref(
-      prefs::kOneVNAdsLaunchNotificationTimestamp, now);
+      prefs::kOnevnAdsLaunchNotificationTimestamp, now);
 
   if (should_migrate_prefs_from_62) {
-    registry->RegisterBooleanPref(prefs::kOneVNAdsPrefsMigratedFrom62, true);
+    registry->RegisterBooleanPref(prefs::kOnevnAdsPrefsMigratedFrom62, true);
   }
 }
 
 bool AdsServiceFactory::ShouldMigratePrefs(
     user_prefs::PrefRegistrySyncable* registry) const {
-  // If prefs::kOneVNAdsEnabled does not exist then this must be a fresh
+  // If prefs::kOnevnAdsEnabled does not exist then this must be a fresh
   // installion so we do not need to migrate
   auto pref_store = registry->defaults();
 
   const base::Value* value = nullptr;
-  if (!pref_store->GetValue(prefs::kOneVNAdsEnabled, &value)) {
+  if (!pref_store->GetValue(prefs::kOnevnAdsEnabled, &value)) {
     return false;
   }
 
@@ -136,12 +136,12 @@ bool AdsServiceFactory::ShouldMigratePrefs(
 
 bool AdsServiceFactory::ShouldMigratePrefsFrom62(
     user_prefs::PrefRegistrySyncable* registry) const {
-  // prefs::kOneVNAdsPrefsVersion has existed since 0.63.45 so if this key does
+  // prefs::kOnevnAdsPrefsVersion has existed since 0.63.45 so if this key does
   // not exist then this must be an upgrade from 0.62.x so we should migrate
   auto pref_store = registry->defaults();
 
   const base::Value* value = nullptr;
-  if (pref_store->GetValue(prefs::kOneVNAdsPrefsVersion, &value)) {
+  if (pref_store->GetValue(prefs::kOnevnAdsPrefsVersion, &value)) {
     return false;
   }
 

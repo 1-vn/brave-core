@@ -7,13 +7,13 @@
 
 #include "chrome/browser/ui/views/chrome_browser_main_extra_parts_views_linux.h"
 
-class OneVNBrowserMainExtraPartsViewsLinux
+class OnevnBrowserMainExtraPartsViewsLinux
                                 : public ChromeBrowserMainExtraPartsViewsLinux {
   public:
     using ChromeBrowserMainExtraPartsViewsLinux::ChromeBrowserMainExtraPartsViewsLinux;
     void PreEarlyInitialization() override;
   private:
-    DISALLOW_COPY_AND_ASSIGN(OneVNBrowserMainExtraPartsViewsLinux);
+    DISALLOW_COPY_AND_ASSIGN(OnevnBrowserMainExtraPartsViewsLinux);
 };
 
 #endif

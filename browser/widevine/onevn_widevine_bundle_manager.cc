@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -62,28 +62,28 @@ void SetWidevinePrefs(bool enable) {
   profile->GetPrefs()->SetString(
       kWidevineInstalledVersion,
       enable ? WIDEVINE_CDM_VERSION_STRING
-             : OneVNWidevineBundleManager::kWidevineInvalidVersion);
+             : OnevnWidevineBundleManager::kWidevineInvalidVersion);
 }
 
 }  // namespace
 
 // static
-char OneVNWidevineBundleManager::kWidevineInvalidVersion[] = "";
+char OnevnWidevineBundleManager::kWidevineInvalidVersion[] = "";
 
 // static
-void OneVNWidevineBundleManager::RegisterProfilePrefs(
+void OnevnWidevineBundleManager::RegisterProfilePrefs(
     user_prefs::PrefRegistrySyncable* registry) {
   registry->RegisterStringPref(kWidevineInstalledVersion,
                                kWidevineInvalidVersion);
 }
 
-OneVNWidevineBundleManager::OneVNWidevineBundleManager() : weak_factory_(this) {
+OnevnWidevineBundleManager::OnevnWidevineBundleManager() : weak_factory_(this) {
 }
 
-OneVNWidevineBundleManager::~OneVNWidevineBundleManager() {
+OnevnWidevineBundleManager::~OnevnWidevineBundleManager() {
 }
 
-void OneVNWidevineBundleManager::InstallWidevineBundle(
+void OnevnWidevineBundleManager::InstallWidevineBundle(
     DoneCallback done_callback,
     bool user_gesture) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
@@ -97,11 +97,11 @@ void OneVNWidevineBundleManager::InstallWidevineBundle(
 
   DownloadWidevineBundle(
       GURL(WIDEVINE_CDM_DOWNLOAD_URL_STRING),
-      base::BindOnce(&OneVNWidevineBundleManager::OnBundleDownloaded,
+      base::BindOnce(&OnevnWidevineBundleManager::OnBundleDownloaded,
                      base::Unretained(this)));
 }
 
-void OneVNWidevineBundleManager::DownloadWidevineBundle(
+void OnevnWidevineBundleManager::DownloadWidevineBundle(
     const GURL& bundle_zipfile_url,
     network::SimpleURLLoader::DownloadToFileCompleteCallback callback) {
   if (is_test_) return;
@@ -110,7 +110,7 @@ void OneVNWidevineBundleManager::DownloadWidevineBundle(
       net::DefineNetworkTrafficAnnotation("widevine_bundle_downloader", R"(
         semantics {
           sender:
-            "OneVN Widevine Bundle Manager"
+            "Onevn Widevine Bundle Manager"
           description:
             "Download widevine cdm pkg"
           trigger:
@@ -137,7 +137,7 @@ void OneVNWidevineBundleManager::DownloadWidevineBundle(
   );
 }
 
-void OneVNWidevineBundleManager::OnBundleDownloaded(
+void OnevnWidevineBundleManager::OnBundleDownloaded(
     base::FilePath tmp_bundle_zip_file_path) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   DVLOG(1) << __func__;
@@ -151,12 +151,12 @@ void OneVNWidevineBundleManager::OnBundleDownloaded(
       file_task_runner().get(),
       FROM_HERE,
       base::BindOnce(&GetTargetWidevineBundleDir),
-      base::BindOnce(&OneVNWidevineBundleManager::OnGetTargetWidevineBundleDir,
+      base::BindOnce(&OnevnWidevineBundleManager::OnGetTargetWidevineBundleDir,
                      weak_factory_.GetWeakPtr(),
                      tmp_bundle_zip_file_path));
 }
 
-void OneVNWidevineBundleManager::OnGetTargetWidevineBundleDir(
+void OnevnWidevineBundleManager::OnGetTargetWidevineBundleDir(
     const base::FilePath& tmp_bundle_zip_file_path,
     base::Optional<base::FilePath> target_bundle_dir) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
@@ -170,33 +170,33 @@ void OneVNWidevineBundleManager::OnGetTargetWidevineBundleDir(
   Unzip(tmp_bundle_zip_file_path, *target_bundle_dir);
 }
 
-void OneVNWidevineBundleManager::Unzip(
+void OnevnWidevineBundleManager::Unzip(
     const base::FilePath& tmp_bundle_zip_file_path,
     const base::FilePath& target_bundle_dir) {
   if (is_test_) return;
 
-   OneVNWidevineBundleUnzipper::Create(
+   OnevnWidevineBundleUnzipper::Create(
       content::ServiceManagerConnection::GetForProcess()->GetConnector(),
       file_task_runner(),
-      base::BindOnce(&OneVNWidevineBundleManager::OnBundleUnzipped,
+      base::BindOnce(&OnevnWidevineBundleManager::OnBundleUnzipped,
                      weak_factory_.GetWeakPtr()))
           ->LoadFromZipFileInDir(tmp_bundle_zip_file_path,
                                  target_bundle_dir,
                                  true);
 }
 
-void OneVNWidevineBundleManager::OnBundleUnzipped(const std::string& error) {
+void OnevnWidevineBundleManager::OnBundleUnzipped(const std::string& error) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   DVLOG(1) << __func__;
   InstallDone(error);
 }
 
-bool OneVNWidevineBundleManager::in_progress() const {
+bool OnevnWidevineBundleManager::in_progress() const {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   return in_progress_;
 }
 
-void OneVNWidevineBundleManager::set_in_progress(bool in_progress) {
+void OnevnWidevineBundleManager::set_in_progress(bool in_progress) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   DCHECK_NE(in_progress_, in_progress);
   DVLOG(1) << __func__ << ": " << in_progress;
@@ -204,12 +204,12 @@ void OneVNWidevineBundleManager::set_in_progress(bool in_progress) {
   in_progress_ = in_progress;
 }
 
-bool OneVNWidevineBundleManager::needs_restart() const {
+bool OnevnWidevineBundleManager::needs_restart() const {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   return needs_restart_;
 }
 
-void OneVNWidevineBundleManager::set_needs_restart(bool needs_restart) {
+void OnevnWidevineBundleManager::set_needs_restart(bool needs_restart) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   DCHECK_NE(needs_restart_, needs_restart);
   DVLOG(1) << __func__ << ": " << needs_restart;
@@ -217,7 +217,7 @@ void OneVNWidevineBundleManager::set_needs_restart(bool needs_restart) {
   needs_restart_ = needs_restart;
 }
 
-void OneVNWidevineBundleManager::InstallDone(const std::string& error) {
+void OnevnWidevineBundleManager::InstallDone(const std::string& error) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
 
   set_in_progress(false);
@@ -232,7 +232,7 @@ void OneVNWidevineBundleManager::InstallDone(const std::string& error) {
   std::move(done_callback_).Run(error);
 }
 
-void OneVNWidevineBundleManager::StartupCheck() {
+void OnevnWidevineBundleManager::StartupCheck() {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   startup_checked_ = true;
 
@@ -274,13 +274,13 @@ void OneVNWidevineBundleManager::StartupCheck() {
     update_requested_ = true;
     base::SequencedTaskRunnerHandle::Get()->PostDelayedTask(
         FROM_HERE,
-        base::BindOnce(&OneVNWidevineBundleManager::DoDelayedBackgroundUpdate,
+        base::BindOnce(&OnevnWidevineBundleManager::DoDelayedBackgroundUpdate,
                        weak_factory_.GetWeakPtr()),
         base::TimeDelta::FromMinutes(kWidevineBackgroundUpdateDelayInMins));
   }
 }
 
-void OneVNWidevineBundleManager::DoDelayedBackgroundUpdate() {
+void OnevnWidevineBundleManager::DoDelayedBackgroundUpdate() {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
 
   Profile* profile = ProfileManager::GetActiveUserProfile();
@@ -303,21 +303,21 @@ void OneVNWidevineBundleManager::DoDelayedBackgroundUpdate() {
 }
 
 int
-OneVNWidevineBundleManager::GetWidevinePermissionRequestTextFragment() const {
+OnevnWidevineBundleManager::GetWidevinePermissionRequestTextFragment() const {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   return needs_restart() ?
       IDS_WIDEVINE_PERMISSION_REQUEST_TEXT_FRAGMENT_RESTART_BROWSER :
       IDS_WIDEVINE_PERMISSION_REQUEST_TEXT_FRAGMENT_INSTALL;
 }
 
-void OneVNWidevineBundleManager::WillRestart() const {
+void OnevnWidevineBundleManager::WillRestart() const {
   DCHECK(needs_restart());
   SetWidevinePrefs(true);
   DVLOG(1) << __func__;
 }
 
 scoped_refptr<base::SequencedTaskRunner>
-OneVNWidevineBundleManager::file_task_runner() {
+OnevnWidevineBundleManager::file_task_runner() {
   if (!file_task_runner_) {
     file_task_runner_ = base::CreateSequencedTaskRunnerWithTraits(
                             { base::MayBlock(),

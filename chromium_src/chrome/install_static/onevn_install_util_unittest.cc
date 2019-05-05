@@ -307,10 +307,10 @@ class InstallStaticUtilTest
   void SetMetricsReportingPolicy(DWORD value) {
 #if defined(OFFICIAL_BUILD)
     static constexpr wchar_t kPolicyKey[] =
-        L"Software\\Policies\\OneVNSoftware\\OneVN-Browser";
+        L"Software\\Policies\\OnevnSoftware\\Onevn-Browser";
 #else
     static constexpr wchar_t kPolicyKey[] =
-        L"Software\\Policies\\OneVNSoftware\\OneVN-Browser-Development";
+        L"Software\\Policies\\OnevnSoftware\\Onevn-Browser-Development";
 #endif
 
     ASSERT_EQ(ERROR_SUCCESS,
@@ -326,7 +326,7 @@ class InstallStaticUtilTest
 
     std::wstring result(L"Software\\");
     if (kUseGoogleUpdateIntegration) {
-      result.append(L"OneVNSoftware\\Update\\ClientState");
+      result.append(L"OnevnSoftware\\Update\\ClientState");
       if (medium)
         result.append(L"Medium");
       result.push_back(L'\\');
@@ -352,16 +352,16 @@ TEST_P(InstallStaticUtilTest, GetChromeInstallSubDirectory) {
   // The directory strings for the brand's install modes; parallel to
   // kInstallModes.
   static constexpr const wchar_t* kInstallDirs[] = {
-      L"OneVNSoftware\\OneVN-Browser",
-      L"OneVNSoftware\\OneVN-Browser-Beta",
-      L"OneVNSoftware\\OneVN-Browser-Dev",
-      L"OneVNSoftware\\OneVN-Browser-Nightly",
+      L"OnevnSoftware\\Onevn-Browser",
+      L"OnevnSoftware\\Onevn-Browser-Beta",
+      L"OnevnSoftware\\Onevn-Browser-Dev",
+      L"OnevnSoftware\\Onevn-Browser-Nightly",
   };
 #else
   // The directory strings for the brand's install modes; parallel to
   // kInstallModes.
   static constexpr const wchar_t* kInstallDirs[] = {
-      L"OneVNSoftware\\OneVN-Browser-Development",
+      L"OnevnSoftware\\Onevn-Browser-Development",
   };
 #endif
   static_assert(base::size(kInstallDirs) == NUM_INSTALL_MODES,
@@ -375,16 +375,16 @@ TEST_P(InstallStaticUtilTest, GetRegistryPath) {
   // The registry path strings for the brand's install modes; parallel to
   // kInstallModes.
   static constexpr const wchar_t* kRegistryPaths[] = {
-      L"Software\\OneVNSoftware\\OneVN-Browser",
-      L"Software\\OneVNSoftware\\OneVN-Browser-Beta",
-      L"Software\\OneVNSoftware\\OneVN-Browser-Dev",
-      L"Software\\OneVNSoftware\\OneVN-Browser-Nightly",
+      L"Software\\OnevnSoftware\\Onevn-Browser",
+      L"Software\\OnevnSoftware\\Onevn-Browser-Beta",
+      L"Software\\OnevnSoftware\\Onevn-Browser-Dev",
+      L"Software\\OnevnSoftware\\Onevn-Browser-Nightly",
   };
 #else
   // The registry path strings for the brand's install modes; parallel to
   // kInstallModes.
   static constexpr const wchar_t* kRegistryPaths[] = {
-      L"Software\\OneVNSoftware\\OneVN-Browser-Development",
+      L"Software\\OnevnSoftware\\Onevn-Browser-Development",
   };
 #endif
   static_assert(base::size(kRegistryPaths) == NUM_INSTALL_MODES,
@@ -399,20 +399,20 @@ TEST_P(InstallStaticUtilTest, GetUninstallRegistryPath) {
   // to kInstallModes.
   static constexpr const wchar_t* kUninstallRegistryPaths[] = {
       L"Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\"  // (cont'd)
-      L"OneVNSoftware OneVN-Browser",
+      L"OnevnSoftware Onevn-Browser",
       L"Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\"  // (cont'd)
-      L"OneVNSoftware OneVN-Browser-Beta",
+      L"OnevnSoftware Onevn-Browser-Beta",
       L"Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\"  // (cont'd)
-      L"OneVNSoftware OneVN-Browser-Dev",
+      L"OnevnSoftware Onevn-Browser-Dev",
       L"Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\"  // (cont'd)
-      L"OneVNSoftware OneVN-Browser-Nightly",
+      L"OnevnSoftware Onevn-Browser-Nightly",
   };
 #else
   // The registry path strings for the brand's install modes; parallel to
   // kInstallModes.
   static constexpr const wchar_t* kUninstallRegistryPaths[] = {
       L"Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\"  // (cont'd)
-      L"OneVNSoftware OneVN-Browser-Development",
+      L"OnevnSoftware Onevn-Browser-Development",
   };
 #endif
   static_assert(base::size(kUninstallRegistryPaths) == NUM_INSTALL_MODES,
@@ -432,10 +432,10 @@ TEST_P(InstallStaticUtilTest, GetAppGuid) {
 #if defined(OFFICIAL_BUILD)
   // The app guids for the brand's install modes; parallel to kInstallModes.
   static constexpr const wchar_t* kAppGuids[] = {
-      L"{AFE6A462-C574-4B8A-AF43-4CC60DF4563B}",  // OneVN-Browser.
-      L"{103BD053-949B-43A8-9120-2E424887DE11}",  // OneVN-Browser-Beta.
-      L"{CB2150F2-595F-4633-891A-E39720CE0531}",  // OneVN-Browser-Dev.
-      L"{C6CB981E-DB30-4876-8639-109F8933582C}",  // OneVN-Browser-Nightly.
+      L"{AFE6A462-C574-4B8A-AF43-4CC60DF4563B}",  // Onevn-Browser.
+      L"{103BD053-949B-43A8-9120-2E424887DE11}",  // Onevn-Browser-Beta.
+      L"{CB2150F2-595F-4633-891A-E39720CE0531}",  // Onevn-Browser-Dev.
+      L"{C6CB981E-DB30-4876-8639-109F8933582C}",  // Onevn-Browser-Nightly.
   };
   static_assert(base::size(kAppGuids) == NUM_INSTALL_MODES,
                 "kAppGuids out of date.");
@@ -449,12 +449,12 @@ TEST_P(InstallStaticUtilTest, GetBaseAppId) {
 #if defined(OFFICIAL_BUILD)
   // The base app ids for the brand's install modes; parallel to kInstallModes.
   static constexpr const wchar_t* kBaseAppIds[] = {
-      L"OneVN", L"OneVNBeta", L"OneVNDev", L"OneVNNightly",
+      L"Onevn", L"OnevnBeta", L"OnevnDev", L"OnevnNightly",
   };
 #else
   // The base app ids for the brand's install modes; parallel to kInstallModes.
   static constexpr const wchar_t* kBaseAppIds[] = {
-      L"OneVNDevelopment",
+      L"OnevnDevelopment",
   };
 #endif
   static_assert(base::size(kBaseAppIds) == NUM_INSTALL_MODES,
@@ -471,30 +471,30 @@ TEST_P(InstallStaticUtilTest, GetToastActivatorClsid) {
         0x2807,
         0x44c0,
         { 0x97, 0xd2, 0x6d, 0xa0, 0xdb, 0x62, 0x3d,
-          0xb4 } },  // OneVN-Browser.
+          0xb4 } },  // Onevn-Browser.
       { 0x9560028d,
         0xcca,
         0x49f0,
         { 0x8d, 0x47, 0xef, 0x22, 0xbb, 0xc4, 0xb,
-          0xa7 } },  // OneVN-Browser-Beta.
+          0xa7 } },  // Onevn-Browser-Beta.
       { 0x20b22981,
         0xf63a,
         0x47a6,
         { 0xa5, 0x47, 0x69, 0x1c, 0xc9, 0x4c, 0xae,
-          0xe0 } },  // OneVN-Browser-Dev.
+          0xe0 } },  // Onevn-Browser-Dev.
       { 0xf2edbc59,
         0x7217,
         0x4da5,
         { 0xa2, 0x59, 0x3, 0x2, 0xda, 0x6a, 0x0,
-          0xe1 } },  // OneVN-Browser-Nightly.
+          0xe1 } },  // Onevn-Browser-Nightly.
   };
 
   // The string representation of the CLSIDs above.
   static constexpr const wchar_t* kToastActivatorClsidsString[] = {
-      L"{06C9646D-2807-44C0-97D2-6DA0DB623DB4}",  // OneVN-Browser.
-      L"{9560028D-0CCA-49F0-8D47-EF22BBC40BA7}",  // OneVN-Browser-Beta.
-      L"{20B22981-F63A-47A6-A547-691CC94CAEE0}",  // OneVN-Browser-Dev.
-      L"{F2EDBC59-7217-4DA5-A259-0302DA6A00E1}",  // OneVN-Browser-Nightly.
+      L"{06C9646D-2807-44C0-97D2-6DA0DB623DB4}",  // Onevn-Browser.
+      L"{9560028D-0CCA-49F0-8D47-EF22BBC40BA7}",  // Onevn-Browser-Beta.
+      L"{20B22981-F63A-47A6-A547-691CC94CAEE0}",  // Onevn-Browser-Dev.
+      L"{F2EDBC59-7217-4DA5-A259-0302DA6A00E1}",  // Onevn-Browser-Nightly.
   };
 #else
   // The toast activator CLSIDs for the brand's install modes; parallel to
@@ -504,12 +504,12 @@ TEST_P(InstallStaticUtilTest, GetToastActivatorClsid) {
         0xba35,
         0x4c06,
         { 0x96, 0xe8, 0x6f, 0x30, 0xf1, 0x8c, 0xa5,
-          0x5c } },  // OneVN-Browser-Development.
+          0x5c } },  // Onevn-Browser-Development.
   };
 
   // The string representation of the CLSIDs above.
   static constexpr const wchar_t* kToastActivatorClsidsString[] = {
-      L"{EB41C6E8-BA35-4C06-96E8-6F30F18CA55C}"  // OneVN-Browser-Development.
+      L"{EB41C6E8-BA35-4C06-96E8-6F30F18CA55C}"  // Onevn-Browser-Development.
   };
 #endif
   static_assert(base::size(kToastActivatorClsids) == NUM_INSTALL_MODES,
@@ -593,10 +593,10 @@ TEST_P(InstallStaticUtilTest, GetChromeChannel) {
 #if defined(OFFICIAL_BUILD)
   // Parallel to kInstallModes.
   static constexpr version_info::Channel kChannels[] = {
-      version_info::Channel::STABLE,  // OneVN-Browser.
-      version_info::Channel::BETA,    // OneVN-Browser-Beta.
-      version_info::Channel::DEV,     // OneVN-Browser-Dev.
-      version_info::Channel::CANARY,  // OneVN-Browser-Nightly.
+      version_info::Channel::STABLE,  // Onevn-Browser.
+      version_info::Channel::BETA,    // Onevn-Browser-Beta.
+      version_info::Channel::DEV,     // Onevn-Browser-Dev.
+      version_info::Channel::CANARY,  // Onevn-Browser-Nightly.
   };
 #else
   // Parallel to kInstallModes.

@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -37,8 +37,8 @@ base::Optional<base::FilePath> GetTempDirForUnzip() {
 }  // namespace
 
 // static
-scoped_refptr<OneVNWidevineBundleUnzipper>
-OneVNWidevineBundleUnzipper::Create(
+scoped_refptr<OnevnWidevineBundleUnzipper>
+OnevnWidevineBundleUnzipper::Create(
     service_manager::Connector* connector,
     scoped_refptr<base::SequencedTaskRunner> file_task_runner,
     DoneCallback done_callback) {
@@ -46,12 +46,12 @@ OneVNWidevineBundleUnzipper::Create(
   DCHECK(file_task_runner);
   DCHECK(done_callback);
   return base::WrapRefCounted(
-      new OneVNWidevineBundleUnzipper(connector,
+      new OnevnWidevineBundleUnzipper(connector,
                                       file_task_runner,
                                       std::move(done_callback)));
 }
 
-void OneVNWidevineBundleUnzipper::LoadFromZipFileInDir(
+void OnevnWidevineBundleUnzipper::LoadFromZipFileInDir(
     const base::FilePath& zipped_bundle_file,
     const base::FilePath& unzip_dir,
     bool delete_file) {
@@ -70,10 +70,10 @@ void OneVNWidevineBundleUnzipper::LoadFromZipFileInDir(
       file_task_runner_.get(),
       FROM_HERE,
       base::BindOnce(&GetTempDirForUnzip),
-      base::BindOnce(&OneVNWidevineBundleUnzipper::OnGetTempDirForUnzip, this));
+      base::BindOnce(&OnevnWidevineBundleUnzipper::OnGetTempDirForUnzip, this));
 }
 
-void OneVNWidevineBundleUnzipper::OnGetTempDirForUnzip(
+void OnevnWidevineBundleUnzipper::OnGetTempDirForUnzip(
     base::Optional<base::FilePath> temp_unzip_dir) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
 
@@ -89,10 +89,10 @@ void OneVNWidevineBundleUnzipper::OnGetTempDirForUnzip(
   unzip::UnzipWithFilter(
       connector_->Clone(), zipped_bundle_file_, *temp_unzip_dir,
       base::BindRepeating(&IsWidevineCdmFile),
-      base::BindOnce(&OneVNWidevineBundleUnzipper::OnUnzippedInTempDir, this));
+      base::BindOnce(&OnevnWidevineBundleUnzipper::OnUnzippedInTempDir, this));
 }
 
-void OneVNWidevineBundleUnzipper::OnUnzippedInTempDir(bool status) {
+void OnevnWidevineBundleUnzipper::OnUnzippedInTempDir(bool status) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
 
   if (!status) {
@@ -103,12 +103,12 @@ void OneVNWidevineBundleUnzipper::OnUnzippedInTempDir(bool status) {
       file_task_runner_.get(),
       FROM_HERE,
       base::BindOnce(
-          &OneVNWidevineBundleUnzipper::MoveUnzippedLibFromTempToTargetDir,
+          &OnevnWidevineBundleUnzipper::MoveUnzippedLibFromTempToTargetDir,
           this),
-      base::BindOnce(&OneVNWidevineBundleUnzipper::UnzipDone, this));
+      base::BindOnce(&OnevnWidevineBundleUnzipper::UnzipDone, this));
 }
 
-std::string OneVNWidevineBundleUnzipper::MoveUnzippedLibFromTempToTargetDir() {
+std::string OnevnWidevineBundleUnzipper::MoveUnzippedLibFromTempToTargetDir() {
   const base::FilePath source = temp_unzip_dir_.AppendASCII(
       base::GetNativeLibraryName(kWidevineCdmLibraryName));
   DCHECK(base::PathExists(source));
@@ -128,12 +128,12 @@ std::string OneVNWidevineBundleUnzipper::MoveUnzippedLibFromTempToTargetDir() {
   return error;
 }
 
-void OneVNWidevineBundleUnzipper::UnzipDone(const std::string& error) {
+void OnevnWidevineBundleUnzipper::UnzipDone(const std::string& error) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   std::move(done_callback_).Run(error);
 }
 
-OneVNWidevineBundleUnzipper::OneVNWidevineBundleUnzipper(
+OnevnWidevineBundleUnzipper::OnevnWidevineBundleUnzipper(
     service_manager::Connector* connector,
     scoped_refptr<base::SequencedTaskRunner> file_task_runner,
     DoneCallback done_callback)
@@ -142,5 +142,5 @@ OneVNWidevineBundleUnzipper::OneVNWidevineBundleUnzipper(
       done_callback_(std::move(done_callback)) {
 }
 
-OneVNWidevineBundleUnzipper::~OneVNWidevineBundleUnzipper() {
+OnevnWidevineBundleUnzipper::~OnevnWidevineBundleUnzipper() {
 }

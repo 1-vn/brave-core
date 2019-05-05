@@ -57,42 +57,42 @@ struct TestData {
 #if defined(OFFICIAL_BUILD)
 constexpr TestData kTestData[] = {
     {
-        L"C:\\Program Files (x86)\\OneVNSoftware\\OneVN-Browser\\Application"
+        L"C:\\Program Files (x86)\\OnevnSoftware\\Onevn-Browser\\Application"
         L"\\onevn.exe",
         STABLE_INDEX, true, L"",
     },
     {
-        L"C:\\Users\\user\\AppData\\Local\\OneVNSoftware\\OneVN-Browser"
+        L"C:\\Users\\user\\AppData\\Local\\OnevnSoftware\\Onevn-Browser"
         L"\\Application\\onevn.exe",
         STABLE_INDEX, false, L"",
     },
     {
-        L"C:\\Program Files (x86)\\OneVNSoftware\\OneVN-Browser-Beta"
+        L"C:\\Program Files (x86)\\OnevnSoftware\\Onevn-Browser-Beta"
         L"\\Application\\onevn.exe",
         BETA_INDEX, true, L"beta",
     },
     {
-        L"C:\\Users\\user\\AppData\\Local\\OneVNSoftware\\OneVN-Browser-Beta"
+        L"C:\\Users\\user\\AppData\\Local\\OnevnSoftware\\Onevn-Browser-Beta"
         L"\\Application\\onevn.exe",
         BETA_INDEX, false, L"beta",
     },
     {
-        L"C:\\Program Files (x86)\\OneVNSoftware\\OneVN-Browser-Dev"
+        L"C:\\Program Files (x86)\\OnevnSoftware\\Onevn-Browser-Dev"
         L"\\Application\\onevn.exe",
         DEV_INDEX, true, L"dev",
     },
     {
-        L"C:\\Users\\user\\AppData\\Local\\OneVNSoftware\\OneVN-Browser-Dev"
+        L"C:\\Users\\user\\AppData\\Local\\OnevnSoftware\\Onevn-Browser-Dev"
         L"\\Application\\onevn.exe",
         DEV_INDEX, false, L"dev",
     },
     {
-        L"C:\\Users\\user\\AppData\\Local\\OneVNSoftware\\OneVN-Browser-Nightly"
+        L"C:\\Users\\user\\AppData\\Local\\OnevnSoftware\\Onevn-Browser-Nightly"
         L"\\Application\\onevn.exe",
         NIGHTLY_INDEX, false, L"nightly",
     },
     {
-        L"C:\\Users\\user\\AppData\\Local\\OneVNSoftware\\OneVN-Browser-Nightly"
+        L"C:\\Users\\user\\AppData\\Local\\OnevnSoftware\\Onevn-Browser-Nightly"
         L"\\Application\\onevn.exe",
         NIGHTLY_INDEX, false, L"nightly",
     },
@@ -100,12 +100,12 @@ constexpr TestData kTestData[] = {
 #else   // OFFICIAL_BUILD
 constexpr TestData kTestData[] = {
     {
-        L"C:\\Program Files (x86)\\OneVNSoftware\\OneVN-Browser-Development"
+        L"C:\\Program Files (x86)\\OnevnSoftware\\Onevn-Browser-Development"
         L"\\Application\\onevn.exe",
         DEVELOPER_INDEX, true, L"",
     },
     {
-        L"C:\\Users\\user\\AppData\\Local\\OneVNSoftware\\OneVN-Browser-Development"
+        L"C:\\Users\\user\\AppData\\Local\\OnevnSoftware\\Onevn-Browser-Development"
         L"Application\\onevn.exe",
         DEVELOPER_INDEX, false, L"",
     },
@@ -158,7 +158,7 @@ class MakeProductDetailsTest : public testing::TestWithParam<TestData> {
   std::wstring GetClientStateKeyPath() {
     std::wstring result(L"Software\\");
     if (kUseGoogleUpdateIntegration) {
-      result.append(L"OneVNSoftware\\Update\\ClientState\\");
+      result.append(L"OnevnSoftware\\Update\\ClientState\\");
       result.append(kInstallModes[test_data().index].app_guid);
     } else {
       result.append(kProductPathName);

@@ -10,10 +10,10 @@
 namespace onevn_sync {
 
 // Sync Managed PerrmanentNode
-class OneVNBookmarkPermanentNode : public bookmarks::BookmarkPermanentNode {
+class OnevnBookmarkPermanentNode : public bookmarks::BookmarkPermanentNode {
  public:
-  explicit OneVNBookmarkPermanentNode(int64_t id);
-  ~OneVNBookmarkPermanentNode() override;
+  explicit OnevnBookmarkPermanentNode(int64_t id);
+  ~OnevnBookmarkPermanentNode() override;
 
   void set_visible(bool value) { visible_ = value; }
 
@@ -23,7 +23,7 @@ class OneVNBookmarkPermanentNode : public bookmarks::BookmarkPermanentNode {
  private:
   bool visible_ = false;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNBookmarkPermanentNode);
+  DISALLOW_COPY_AND_ASSIGN(OnevnBookmarkPermanentNode);
 };
 
 }  // namespace onevn_sync

@@ -12,18 +12,18 @@
 #include "onevn/browser/widevine/onevn_widevine_bundle_manager.h"
 #endif
 
-OneVNBrowserMainExtraParts::OneVNBrowserMainExtraParts() {
+OnevnBrowserMainExtraParts::OnevnBrowserMainExtraParts() {
 }
 
-OneVNBrowserMainExtraParts::~OneVNBrowserMainExtraParts() {
+OnevnBrowserMainExtraParts::~OnevnBrowserMainExtraParts() {
 }
 
-void OneVNBrowserMainExtraParts::PreMainMessageLoopRun() {
+void OnevnBrowserMainExtraParts::PreMainMessageLoopRun() {
   onevn::AutoImportMuon();
 #if BUILDFLAG(BUNDLE_WIDEVINE_CDM)
   // Want to check as early as possible because |StartupCheck()| has some
   // fixup handling for abnormal status and run it on UI thread.
-  // However, OneVNBrowserProcessImpl that the owner of bundle manager is
+  // However, OnevnBrowserProcessImpl that the owner of bundle manager is
   // created before browser thread creation.
   // So, call it after browser threads are created.
   g_onevn_browser_process->onevn_widevine_bundle_manager()->StartupCheck();

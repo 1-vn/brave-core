@@ -6,13 +6,13 @@
 
 #include "onevn/app/onevn_main_delegate.h"
 
-OneVNTestLauncherDelegate::OneVNTestLauncherDelegate(
+OnevnTestLauncherDelegate::OnevnTestLauncherDelegate(
     ChromeTestSuiteRunner* runner)
     : ChromeTestLauncherDelegate(runner) {}
 
-OneVNTestLauncherDelegate::~OneVNTestLauncherDelegate() = default;
+OnevnTestLauncherDelegate::~OnevnTestLauncherDelegate() = default;
 
 content::ContentMainDelegate*
-OneVNTestLauncherDelegate::CreateContentMainDelegate() {
-  return new OneVNMainDelegate();
+OnevnTestLauncherDelegate::CreateContentMainDelegate() {
+  return new OnevnMainDelegate();
 }

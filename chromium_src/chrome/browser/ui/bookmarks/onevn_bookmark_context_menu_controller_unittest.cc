@@ -29,9 +29,9 @@ using bookmarks::BookmarkModel;
 using bookmarks::BookmarkNode;
 using content::BrowserThread;
 
-class OneVNBookmarkContextMenuControllerTest : public testing::Test {
+class OnevnBookmarkContextMenuControllerTest : public testing::Test {
  public:
-  OneVNBookmarkContextMenuControllerTest() : model_(nullptr) {}
+  OnevnBookmarkContextMenuControllerTest() : model_(nullptr) {}
 
   void SetUp() override {
     TestingProfile::Builder builder;
@@ -47,7 +47,7 @@ class OneVNBookmarkContextMenuControllerTest : public testing::Test {
   BookmarkModel* model_;
 };
 
-TEST_F(OneVNBookmarkContextMenuControllerTest,
+TEST_F(OnevnBookmarkContextMenuControllerTest,
        DontShowAppsShortcutContextMenuInBookmarksBar) {
   BookmarkContextMenuController controller(NULL, NULL, NULL, profile_.get(),
                                            NULL, model_->bookmark_bar_node(),

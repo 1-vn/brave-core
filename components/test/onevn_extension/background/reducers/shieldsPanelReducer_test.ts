@@ -340,22 +340,22 @@ describe('onevnShieldsPanelReducer', () => {
 
   describe('SHIELDS_TOGGLED', () => {
     let reloadTabSpy: jest.SpyInstance
-    let setAllowOneVNShieldsSpy: jest.SpyInstance
+    let setAllowOnevnShieldsSpy: jest.SpyInstance
     beforeEach(() => {
       reloadTabSpy = jest.spyOn(tabsAPI, 'reloadTab')
-      setAllowOneVNShieldsSpy = jest.spyOn(shieldsAPI, 'setAllowOneVNShields')
+      setAllowOnevnShieldsSpy = jest.spyOn(shieldsAPI, 'setAllowOnevnShields')
     })
     afterEach(() => {
       reloadTabSpy.mockRestore()
-      setAllowOneVNShieldsSpy.mockRestore()
+      setAllowOnevnShieldsSpy.mockRestore()
     })
-    it('should call setAllowOneVNShields', () => {
+    it('should call setAllowOnevnShields', () => {
       expect(
         shieldsPanelReducer(state, {
           type: types.SHIELDS_TOGGLED,
           setting: 'allow'
         })).toEqual(state)
-      expect(setAllowOneVNShieldsSpy).toBeCalledWith(origin, 'allow')
+      expect(setAllowOnevnShieldsSpy).toBeCalledWith(origin, 'allow')
     })
   })
 

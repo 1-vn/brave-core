@@ -7,7 +7,7 @@ index 605c62f31177de990f4f01cd1e27310e33288112..ae6d1efcdae3055b305a923d96ecc8af
  // The URL to be used to re-install Chrome when auto-update failed for too long.
  constexpr char kDownloadChromeUrl[] =
 +#if defined(ONEVN_CHROMIUM_BUILD)
-+    kDownloadOneVNUrl;
++    kDownloadOnevnUrl;
 +#else
      "https://www.google.com/chrome/?&brand=CHWL"
      "&utm_campaign=en&utm_source=en-et-na-us-chrome-bubble&utm_medium=et";

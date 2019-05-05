@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -7,7 +7,7 @@
 #include "base/strings/utf_string_conversions.h"
 #include "components/country_codes/country_codes.h"
 
-// Pull in definitions for OneVN prepopulated engines. It's ugly but these need
+// Pull in definitions for Onevn prepopulated engines. It's ugly but these need
 // to be built as part of the search_engines static library.
 #include "../../../components/search_engines/onevn_prepopulated_engines.cc"  // NOLINT
 #include "../../../components/search_engines/onevn_prepopulated_engines.h"
@@ -32,8 +32,8 @@ namespace TemplateURLPrepopulateData {
 
 namespace {
 
-// Maps OneVN engine id to PrepopulatedEngine.
-const std::map<OneVNPrepopulatedEngineID, const PrepopulatedEngine*>
+// Maps Onevn engine id to PrepopulatedEngine.
+const std::map<OnevnPrepopulatedEngineID, const PrepopulatedEngine*>
     onevn_engines_map = {
         {PREPOPULATED_ENGINE_ID_GOOGLE, &google},
         {PREPOPULATED_ENGINE_ID_BING, &bing},
@@ -43,12 +43,12 @@ const std::map<OneVNPrepopulatedEngineID, const PrepopulatedEngine*>
 };
 
 // Engine ID to use as the default engine.
-const OneVNPrepopulatedEngineID kDefaultEngineID =
+const OnevnPrepopulatedEngineID kDefaultEngineID =
     PREPOPULATED_ENGINE_ID_GOOGLE;
 
 // A map to keep track of default engines for countries that don't use the
 // regular default engine.
-const std::map<int, OneVNPrepopulatedEngineID>
+const std::map<int, OnevnPrepopulatedEngineID>
     default_engine_by_country_id_map = {
         {country_codes::CountryCharsToCountryID('D', 'E'),
           PREPOPULATED_ENGINE_ID_QWANT},
@@ -57,7 +57,7 @@ const std::map<int, OneVNPrepopulatedEngineID>
 };
 
 // Default order in which engines will appear in the UI.
-const OneVNPrepopulatedEngineID onevn_engines_default[] = {
+const OnevnPrepopulatedEngineID onevn_engines_default[] = {
     PREPOPULATED_ENGINE_ID_GOOGLE,
     PREPOPULATED_ENGINE_ID_DUCKDUCKGO,
     PREPOPULATED_ENGINE_ID_QWANT,
@@ -66,7 +66,7 @@ const OneVNPrepopulatedEngineID onevn_engines_default[] = {
 };
 
 // Germany - Qwant appears on top.
-const OneVNPrepopulatedEngineID onevn_engines_DE[] = {
+const OnevnPrepopulatedEngineID onevn_engines_DE[] = {
     PREPOPULATED_ENGINE_ID_QWANT,
     PREPOPULATED_ENGINE_ID_GOOGLE,
     PREPOPULATED_ENGINE_ID_DUCKDUCKGO,
@@ -75,7 +75,7 @@ const OneVNPrepopulatedEngineID onevn_engines_DE[] = {
 };
 
 // France - Qwant appears on top.
-const OneVNPrepopulatedEngineID onevn_engines_FR[] = {
+const OnevnPrepopulatedEngineID onevn_engines_FR[] = {
     PREPOPULATED_ENGINE_ID_QWANT,
     PREPOPULATED_ENGINE_ID_GOOGLE,
     PREPOPULATED_ENGINE_ID_DUCKDUCKGO,
@@ -87,10 +87,10 @@ const OneVNPrepopulatedEngineID onevn_engines_FR[] = {
 // |engine_ids|. Fills in the default engine index for the given |country_id|,
 // if asked.
 std::vector<const PrepopulatedEngine*> GetEnginesFromEngineIDs(
-    const OneVNPrepopulatedEngineID engine_ids[],
+    const OnevnPrepopulatedEngineID engine_ids[],
     size_t num_ids,
     int country_id,
-    OneVNPrepopulatedEngineID default_engine_id,
+    OnevnPrepopulatedEngineID default_engine_id,
     size_t* default_search_provider_index = nullptr) {
   DCHECK(engine_ids);
   DCHECK(num_ids);
@@ -125,10 +125,10 @@ void UpdateTemplateURLDataKeyword(
 // TemplateURLData. Also, fills in the default engine index for the given
 // |country_id|.
 std::vector<std::unique_ptr<TemplateURLData>>
-GetOneVNPrepopulatedEnginesForCountryID(
+GetOnevnPrepopulatedEnginesForCountryID(
     int country_id,
     size_t* default_search_provider_index = nullptr) {
-  const OneVNPrepopulatedEngineID* onevn_engines;
+  const OnevnPrepopulatedEngineID* onevn_engines;
   size_t num_onevn_engines;
   // Check for exceptions from the default list of engines
   if (country_codes::CountryCharsToCountryID('D', 'E') == country_id) {
@@ -145,12 +145,12 @@ GetOneVNPrepopulatedEnginesForCountryID(
   DCHECK(num_onevn_engines);
 
   // Check for an exception to the default engine
-  OneVNPrepopulatedEngineID default_id = kDefaultEngineID;
+  OnevnPrepopulatedEngineID default_id = kDefaultEngineID;
   const auto& it = default_engine_by_country_id_map.find(country_id);
   if (it != default_engine_by_country_id_map.end())
     default_id = it->second;
 
-  // Build a vector PrepopulatedEngines from OneVNPrepopulatedEngineIDs and
+  // Build a vector PrepopulatedEngines from OnevnPrepopulatedEngineIDs and
   // also get the default engine index
   std::vector<const PrepopulatedEngine*> engines =
       GetEnginesFromEngineIDs(onevn_engines, num_onevn_engines, country_id,
@@ -171,7 +171,7 @@ GetOneVNPrepopulatedEnginesForCountryID(
 }  // namespace
 
 // Redefines function with the same name in Chromium. We need to account for
-// the version of OneVN engines as well: kCurrentDataVersion is defined in
+// the version of Onevn engines as well: kCurrentDataVersion is defined in
 // prepopulated_engines.json and is bumped every time the json file is
 // modified. Since we add our own engines we need to keep track of our
 // version as well and combine it with Chromium's version.
@@ -181,11 +181,11 @@ int GetDataVersion(PrefService* prefs) {
   // that version.
   if (prefs && prefs->HasPrefPath(prefs::kSearchProviderOverridesVersion))
     return dataVersion;
-  return (dataVersion + kOneVNCurrentDataVersion);
+  return (dataVersion + kOnevnCurrentDataVersion);
 }
 
 // Redefines function with the same name in Chromium. Modifies the function to
-// get search engines defined by OneVN.
+// get search engines defined by Onevn.
 std::vector<std::unique_ptr<TemplateURLData>> GetPrepopulatedEngines(
     PrefService* prefs,
     size_t* default_search_provider_index) {
@@ -198,13 +198,13 @@ std::vector<std::unique_ptr<TemplateURLData>> GetPrepopulatedEngines(
   if (!t_urls.empty())
     return t_urls;
 
-  return GetOneVNPrepopulatedEnginesForCountryID(
+  return GetOnevnPrepopulatedEnginesForCountryID(
       country_codes::GetCountryIDFromPrefs(prefs),
       default_search_provider_index);
 }
 
 // Redefines function with the same name in Chromium. Modifies the function to
-// get search engines defined by OneVN.
+// get search engines defined by Onevn.
 #if defined(OS_ANDROID)
 
 std::vector<std::unique_ptr<TemplateURLData>> GetLocalPrepopulatedEngines(
@@ -215,7 +215,7 @@ std::vector<std::unique_ptr<TemplateURLData>> GetLocalPrepopulatedEngines(
     return std::vector<std::unique_ptr<TemplateURLData>>();
   }
 
-  return GetOneVNPrepopulatedEnginesForCountryID(country_id);
+  return GetOnevnPrepopulatedEnginesForCountryID(country_id);
 }
 
 #endif

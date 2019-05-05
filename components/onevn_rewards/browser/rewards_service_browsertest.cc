@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -65,14 +65,14 @@ namespace onevn_test_resp {
 }  // namespace onevn_test_resp
 
 namespace onevn_net {
-class OneVNURLFetcher : public net::TestURLFetcher {
+class OnevnURLFetcher : public net::TestURLFetcher {
  public:
-  OneVNURLFetcher(bool success,
+  OnevnURLFetcher(bool success,
                   const GURL& url,
                   const std::string& results,
                   net::URLFetcher::RequestType request_type,
                   net::URLFetcherDelegate* d);
-  ~OneVNURLFetcher() override;
+  ~OnevnURLFetcher() override;
 
   void Start() override;
   void DetermineURLResponsePath(const std::string& url);
@@ -80,8 +80,8 @@ class OneVNURLFetcher : public net::TestURLFetcher {
  private:
   void RunDelegate();
 
-  base::WeakPtrFactory<OneVNURLFetcher> weak_factory_{this};
-  DISALLOW_COPY_AND_ASSIGN(OneVNURLFetcher);
+  base::WeakPtrFactory<OnevnURLFetcher> weak_factory_{this};
+  DISALLOW_COPY_AND_ASSIGN(OnevnURLFetcher);
 };
 
 void split(std::vector<std::string>* tmp,
@@ -106,7 +106,7 @@ bool URLMatches(const std::string& url,
   return (url.find(target_url) == 0);
 }
 
-void OneVNURLFetcher::DetermineURLResponsePath(const std::string& url) {
+void OnevnURLFetcher::DetermineURLResponsePath(const std::string& url) {
   std::vector<std::string> tmp;
   onevn_net::split(&tmp, url, '/');
   if (url.find(onevnledger_bat_helper::buildURL(REGISTER_PERSONA, PREFIX_V2,
@@ -168,7 +168,7 @@ void OneVNURLFetcher::DetermineURLResponsePath(const std::string& url) {
   }
 }
 
-OneVNURLFetcher::OneVNURLFetcher(bool success,
+OnevnURLFetcher::OnevnURLFetcher(bool success,
   const GURL& url,
   const std::string& results,
   net::URLFetcher::RequestType request_type,
@@ -180,22 +180,22 @@ OneVNURLFetcher::OneVNURLFetcher(bool success,
   DetermineURLResponsePath(url.spec());
 }
 
-OneVNURLFetcher::~OneVNURLFetcher() = default;
+OnevnURLFetcher::~OnevnURLFetcher() = default;
 
-void OneVNURLFetcher::Start() {
+void OnevnURLFetcher::Start() {
   base::ThreadTaskRunnerHandle::Get()->PostTask(
       FROM_HERE,
-      base::BindOnce(&OneVNURLFetcher::RunDelegate,
+      base::BindOnce(&OnevnURLFetcher::RunDelegate,
       weak_factory_.GetWeakPtr()));
 }
 
-void OneVNURLFetcher::RunDelegate() {
+void OnevnURLFetcher::RunDelegate() {
   delegate()->OnURLFetchComplete(this);
 }
 
 }  // namespace onevn_net
 
-class OneVNRewardsBrowserTest : public InProcessBrowserTest,
+class OnevnRewardsBrowserTest : public InProcessBrowserTest,
                                 public onevn_rewards::RewardsServiceObserver {
  public:
   void SetUpOnMainThread() override {
@@ -269,25 +269,25 @@ class OneVNRewardsBrowserTest : public InProcessBrowserTest,
 
   void GetReconcileTime() {
     rewards_service()->GetReconcileTime(
-        base::Bind(&OneVNRewardsBrowserTest::OnGetReconcileTime,
+        base::Bind(&OnevnRewardsBrowserTest::OnGetReconcileTime,
           base::Unretained(this)));
   }
 
   void GetShortRetries() {
     rewards_service()->GetShortRetries(
-        base::Bind(&OneVNRewardsBrowserTest::OnGetShortRetries,
+        base::Bind(&OnevnRewardsBrowserTest::OnGetShortRetries,
           base::Unretained(this)));
   }
 
   void GetProduction() {
     rewards_service()->GetProduction(
-        base::Bind(&OneVNRewardsBrowserTest::OnGetProduction,
+        base::Bind(&OnevnRewardsBrowserTest::OnGetProduction,
           base::Unretained(this)));
   }
 
   void GetDebug() {
     rewards_service()->GetDebug(
-        base::Bind(&OneVNRewardsBrowserTest::OnGetDebug,
+        base::Bind(&OnevnRewardsBrowserTest::OnGetDebug,
           base::Unretained(this)));
   }
 
@@ -298,11 +298,11 @@ class OneVNRewardsBrowserTest : public InProcessBrowserTest,
         content::NotificationService::AllSources());
 
     // Click on the Rewards button
-    OneVNLocationBarView* onevn_location_bar_view =
-        static_cast<OneVNLocationBarView*>(
+    OnevnLocationBarView* onevn_location_bar_view =
+        static_cast<OnevnLocationBarView*>(
             BrowserView::GetBrowserViewForBrowser(browser())
                 ->GetLocationBarView());
-    OneVNActionsContainer* onevn_actions_container =
+    OnevnActionsContainer* onevn_actions_container =
         onevn_location_bar_view->onevn_actions_;
     EXPECT_TRUE(onevn_actions_container->actions_.at(onevn_rewards_extension_id)
                     .view_controller_->ExecuteAction(true));
@@ -442,7 +442,7 @@ class OneVNRewardsBrowserTest : public InProcessBrowserTest,
 
     // Use the appropriate WebContents
     content::WebContents* contents =
-        use_panel ? OpenRewardsPopup() : OneVNRewardsBrowserTest::contents();
+        use_panel ? OpenRewardsPopup() : OnevnRewardsBrowserTest::contents();
     ASSERT_TRUE(contents);
 
     // Claim grant via settings page or panel, as instructed
@@ -843,7 +843,7 @@ class OneVNRewardsBrowserTest : public InProcessBrowserTest,
 
   onevn_rewards::Grant grant_;
 
-  MockURLFetcherFactory<onevn_net::OneVNURLFetcher> factory;
+  MockURLFetcherFactory<onevn_net::OnevnURLFetcher> factory;
 
   std::unique_ptr<base::RunLoop> wait_for_wallet_initialization_loop_;
   bool wallet_initialized_ = false;
@@ -868,7 +868,7 @@ class OneVNRewardsBrowserTest : public InProcessBrowserTest,
   bool donation_made_ = false;
 };
 
-IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest, RenderWelcome) {
+IN_PROC_BROWSER_TEST_F(OnevnRewardsBrowserTest, RenderWelcome) {
   // Enable Rewards
   EnableRewards();
   EXPECT_STREQ(contents()->GetLastCommittedURL().spec().c_str(),
@@ -876,7 +876,7 @@ IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest, RenderWelcome) {
       "chrome://rewards/");
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest, ToggleRewards) {
+IN_PROC_BROWSER_TEST_F(OnevnRewardsBrowserTest, ToggleRewards) {
   // Enable Rewards
   EnableRewards();
 
@@ -925,7 +925,7 @@ IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest, ToggleRewards) {
   ASSERT_TRUE(toggleOnResult.ExtractBool());
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest, ToggleAutoContribute) {
+IN_PROC_BROWSER_TEST_F(OnevnRewardsBrowserTest, ToggleAutoContribute) {
   EnableRewards();
 
   // once rewards has loaded, reload page to activate auto-contribute
@@ -986,7 +986,7 @@ IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest, ToggleAutoContribute) {
   ASSERT_TRUE(toggleOnResult.ExtractBool());
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest, ActivateSettingsModal) {
+IN_PROC_BROWSER_TEST_F(OnevnRewardsBrowserTest, ActivateSettingsModal) {
   EnableRewards();
 
   content::EvalJsResult modalResult = EvalJs(
@@ -1011,7 +1011,7 @@ IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest, ActivateSettingsModal) {
   ASSERT_TRUE(modalResult.ExtractBool());
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest, HandleFlagsSingleArg) {
+IN_PROC_BROWSER_TEST_F(OnevnRewardsBrowserTest, HandleFlagsSingleArg) {
   testing::InSequence s;
   // SetProduction(true)
   EXPECT_CALL(*this, OnGetProduction(true));
@@ -1122,7 +1122,7 @@ IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest, HandleFlagsSingleArg) {
   RunUntilIdle();
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest, HandleFlagsMultipleFlags) {
+IN_PROC_BROWSER_TEST_F(OnevnRewardsBrowserTest, HandleFlagsMultipleFlags) {
   EXPECT_CALL(*this, OnGetProduction(false));
   EXPECT_CALL(*this, OnGetDebug(true));
   EXPECT_CALL(*this, OnGetReconcileTime(10));
@@ -1143,7 +1143,7 @@ IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest, HandleFlagsMultipleFlags) {
   RunUntilIdle();
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest, HandleFlagsWrongInput) {
+IN_PROC_BROWSER_TEST_F(OnevnRewardsBrowserTest, HandleFlagsWrongInput) {
   EXPECT_CALL(*this, OnGetProduction(true));
   EXPECT_CALL(*this, OnGetDebug(false));
   EXPECT_CALL(*this, OnGetReconcileTime(0));
@@ -1165,7 +1165,7 @@ IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest, HandleFlagsWrongInput) {
 }
 
 // #1 - Claim grant via settings page
-IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest, ClaimGrantViaSettingsPage) {
+IN_PROC_BROWSER_TEST_F(OnevnRewardsBrowserTest, ClaimGrantViaSettingsPage) {
   // Observe the Rewards service
   rewards_service_->AddObserver(this);
 
@@ -1181,7 +1181,7 @@ IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest, ClaimGrantViaSettingsPage) {
 }
 
 // #2 - Claim grant via panel
-IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest, ClaimGrantViaPanel) {
+IN_PROC_BROWSER_TEST_F(OnevnRewardsBrowserTest, ClaimGrantViaPanel) {
   // Observe the Rewards service
   rewards_service_->AddObserver(this);
 
@@ -1197,7 +1197,7 @@ IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest, ClaimGrantViaPanel) {
 }
 
 // #3 - Panel shows correct publisher data
-IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnRewardsBrowserTest,
                        PanelShowsCorrectPublisherData) {
   // Observe the Rewards service
   rewards_service_->AddObserver(this);
@@ -1238,7 +1238,7 @@ IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest,
       "}, 500);});",
       content::EXECUTE_SCRIPT_DEFAULT_OPTIONS,
       content::ISOLATED_WORLD_ID_CONTENT_END);
-    EXPECT_NE(js_result.ExtractString().find("OneVN Verified Publisher"),
+    EXPECT_NE(js_result.ExtractString().find("Onevn Verified Publisher"),
               std::string::npos);
     EXPECT_NE(js_result.ExtractString().find(publisher), std::string::npos);
   }
@@ -1263,7 +1263,7 @@ IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest,
 }
 
 // #4a - Visit verified publisher
-IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest, VisitVerifiedPublisher) {
+IN_PROC_BROWSER_TEST_F(OnevnRewardsBrowserTest, VisitVerifiedPublisher) {
   // Observe the Rewards service
   rewards_service_->AddObserver(this);
 
@@ -1279,7 +1279,7 @@ IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest, VisitVerifiedPublisher) {
 }
 
 // #4b - Visit unverified publisher
-IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest, VisitUnverifiedPublisher) {
+IN_PROC_BROWSER_TEST_F(OnevnRewardsBrowserTest, VisitUnverifiedPublisher) {
   // Observe the Rewards service
   rewards_service_->AddObserver(this);
 
@@ -1295,7 +1295,7 @@ IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest, VisitUnverifiedPublisher) {
 }
 
 // #5 - Auto contribution
-IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest, AutoContribution) {
+IN_PROC_BROWSER_TEST_F(OnevnRewardsBrowserTest, AutoContribution) {
   // Observe the Rewards service
   rewards_service_->AddObserver(this);
 
@@ -1352,7 +1352,7 @@ IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest, AutoContribution) {
 }
 
 // #6 - Tip verified publisher
-IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest, TipVerifiedPublisher) {
+IN_PROC_BROWSER_TEST_F(OnevnRewardsBrowserTest, TipVerifiedPublisher) {
   // Observe the Rewards service
   rewards_service_->AddObserver(this);
 
@@ -1369,7 +1369,7 @@ IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest, TipVerifiedPublisher) {
 }
 
 // #7 - Tip unverified publisher
-IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest, TipUnverifiedPublisher) {
+IN_PROC_BROWSER_TEST_F(OnevnRewardsBrowserTest, TipUnverifiedPublisher) {
   // Observe the Rewards service
   rewards_service_->AddObserver(this);
 
@@ -1386,7 +1386,7 @@ IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest, TipUnverifiedPublisher) {
 }
 
 // #8 - Recurring tip for verified publisher
-IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnRewardsBrowserTest,
                        RecurringTipForVerifiedPublisher) {
   // Observe the Rewards service
   rewards_service_->AddObserver(this);
@@ -1404,7 +1404,7 @@ IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest,
 }
 
 // #9 - Recurring tip for unverified publisher
-IN_PROC_BROWSER_TEST_F(OneVNRewardsBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnRewardsBrowserTest,
                        RecurringTipForUnverifiedPublisher) {
   // Observe the Rewards service
   rewards_service_->AddObserver(this);

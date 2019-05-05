@@ -12,16 +12,16 @@
 using content::WebContents;
 using ImageType = ContentSettingImageModel::ImageType;
 
-typedef InProcessBrowserTest OneVNAutoplayBlockedImageModelTest;
+typedef InProcessBrowserTest OnevnAutoplayBlockedImageModelTest;
 
-IN_PROC_BROWSER_TEST_F(OneVNAutoplayBlockedImageModelTest, CreateBubbleModel) {
+IN_PROC_BROWSER_TEST_F(OnevnAutoplayBlockedImageModelTest, CreateBubbleModel) {
   WebContents* web_contents =
       browser()->tab_strip_model()->GetActiveWebContents();
   TabSpecificContentSettings* content_settings =
       TabSpecificContentSettings::FromWebContents(web_contents);
   content_settings->BlockAllContentForTesting();
 
-  auto model = std::make_unique<OneVNAutoplayBlockedImageModel>();
+  auto model = std::make_unique<OnevnAutoplayBlockedImageModel>();
   std::unique_ptr<ContentSettingBubbleModel> bubble(
     model->CreateBubbleModel(nullptr, web_contents));
 

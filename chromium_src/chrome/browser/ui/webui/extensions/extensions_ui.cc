@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -16,11 +16,11 @@ namespace {
 
 // Called from the original extension_ui.cc's CreateMdExtensionsSource via a
 // patch.
-void OneVNAddExtensionsResources(content::WebUIDataSource* source) {
+void OnevnAddExtensionsResources(content::WebUIDataSource* source) {
 #if !BUILDFLAG(OPTIMIZE_WEBUI)
-  for (size_t i = 0; i < kOneVNExtensionsResourcesSize; ++i) {
-    source->AddResourcePath(kOneVNExtensionsResources[i].name,
-                            kOneVNExtensionsResources[i].value);
+  for (size_t i = 0; i < kOnevnExtensionsResourcesSize; ++i) {
+    source->AddResourcePath(kOnevnExtensionsResources[i].name,
+                            kOnevnExtensionsResources[i].value);
   }
 #endif
 }

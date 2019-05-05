@@ -1,4 +1,4 @@
-// Copyright 2018 The OneVN Authors. All rights reserved.
+// Copyright 2018 The Onevn Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
@@ -15,7 +15,7 @@
 
 #if !defined(OS_MACOSX)
 // Use our subclass to initialize SpellingOptionsSubMenuObserver.
-#define SpellingOptionsSubMenuObserver OneVNSpellingOptionsSubMenuObserver
+#define SpellingOptionsSubMenuObserver OnevnSpellingOptionsSubMenuObserver
 #endif
 
 #include "../../../../chrome/browser/renderer_context_menu/render_view_context_menu.cc"
@@ -27,16 +27,16 @@
 // Make it clear which class we mean here.
 #undef RenderViewContextMenu
 
-OneVNRenderViewContextMenu::OneVNRenderViewContextMenu(
+OnevnRenderViewContextMenu::OnevnRenderViewContextMenu(
     content::RenderFrameHost* render_frame_host,
     const content::ContextMenuParams& params)
   : RenderViewContextMenu_Chromium(render_frame_host, params) {
 }
 
-void RenderViewContextMenu_Chromium::AppendOneVNLinkItems() {
+void RenderViewContextMenu_Chromium::AppendOnevnLinkItems() {
 }
 
-void OneVNRenderViewContextMenu::AppendOneVNLinkItems() {
+void OnevnRenderViewContextMenu::AppendOnevnLinkItems() {
   if (!params_.link_url.is_empty()) {
     if (base::FeatureList::IsEnabled(features::kDesktopPWAWindowing)) {
       const Browser* browser = GetBrowser();
@@ -53,7 +53,7 @@ void OneVNRenderViewContextMenu::AppendOneVNLinkItems() {
   }
 }
 
-bool OneVNRenderViewContextMenu::IsCommandIdEnabled(int id) const {
+bool OnevnRenderViewContextMenu::IsCommandIdEnabled(int id) const {
   switch (id) {
     case IDC_CONTENT_CONTEXT_OPENLINKTOR:
       return params_.link_url.is_valid() &&
@@ -64,7 +64,7 @@ bool OneVNRenderViewContextMenu::IsCommandIdEnabled(int id) const {
   }
 }
 
-void OneVNRenderViewContextMenu::ExecuteCommand(int id, int event_flags) {
+void OnevnRenderViewContextMenu::ExecuteCommand(int id, int event_flags) {
   switch (id) {
     case IDC_CONTENT_CONTEXT_OPENLINKTOR:
       profiles::SwitchToTorProfile(
@@ -78,18 +78,18 @@ void OneVNRenderViewContextMenu::ExecuteCommand(int id, int event_flags) {
   }
 }
 
-void OneVNRenderViewContextMenu::AddSpellCheckServiceItem(bool is_checked) {
+void OnevnRenderViewContextMenu::AddSpellCheckServiceItem(bool is_checked) {
   // Call our implementation, not the one in the base class.
   // Assumption:
-  // Use of spelling service is disabled in OneVN profile preferences.
+  // Use of spelling service is disabled in Onevn profile preferences.
   DCHECK(!GetProfile()->GetPrefs()->GetBoolean(
       spellcheck::prefs::kSpellCheckUseSpellingService));
   AddSpellCheckServiceItem(&menu_model_, is_checked);
 }
 
 // static
-void OneVNRenderViewContextMenu::AddSpellCheckServiceItem(
+void OnevnRenderViewContextMenu::AddSpellCheckServiceItem(
     ui::SimpleMenuModel* menu,
     bool is_checked) {
-  // Suppress adding "Spellcheck->Ask OneVN for suggestions" item.
+  // Suppress adding "Spellcheck->Ask Onevn for suggestions" item.
 }

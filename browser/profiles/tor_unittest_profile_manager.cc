@@ -20,7 +20,7 @@ Profile* TorUnittestProfileManager::CreateProfileHelper(
     if (!base::CreateDirectory(path))
       return nullptr;
   }
-  if (path == OneVNProfileManager::GetTorProfilePath())
+  if (path == OnevnProfileManager::GetTorProfilePath())
     return CreateTorProfile(path, nullptr);
   else
     return new TestingProfile(path, nullptr);
@@ -34,15 +34,15 @@ Profile* TorUnittestProfileManager::CreateProfileAsyncHelper(
       FROM_HERE,
       base::BindOnce(base::IgnoreResult(&base::CreateDirectory), path));
 
-  if (path == OneVNProfileManager::GetTorProfilePath())
+  if (path == OnevnProfileManager::GetTorProfilePath())
     return CreateTorProfile(path, this);
   else
     return new TestingProfile(path, this);
 }
 
 void TorUnittestProfileManager::InitProfileUserPrefs(Profile* profile) {
-  if (profile->GetPath() == OneVNProfileManager::GetTorProfilePath()) {
-    OneVNProfileManager::InitTorProfileUserPrefs(profile);
+  if (profile->GetPath() == OnevnProfileManager::GetTorProfilePath()) {
+    OnevnProfileManager::InitTorProfileUserPrefs(profile);
   } else {
     ProfileManager::InitProfileUserPrefs(profile);
   }

@@ -5,12 +5,12 @@
 #ifndef ONEVN_COMMON_IMPORTER_ONEVN_STATS_H_
 #define ONEVN_COMMON_IMPORTER_ONEVN_STATS_H_
 
-struct OneVNStats {
+struct OnevnStats {
   int adblock_count;
   int trackingProtection_count;
   int httpsEverywhere_count;
 
-  OneVNStats()
+  OnevnStats()
     : adblock_count(0),
       trackingProtection_count(0),
       httpsEverywhere_count(0) {}

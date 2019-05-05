@@ -10,14 +10,14 @@
 #include "extensions/common/extension.h"
 
 // The purposes of this subclass are to:
-// - Hide the OneVN 'extension' item from the |ToolbarActionsBar|, since it is
-//   displayed in the |OneVNActionsContainer|
-class OneVNToolbarActionsModel : public ToolbarActionsModel {
+// - Hide the Onevn 'extension' item from the |ToolbarActionsBar|, since it is
+//   displayed in the |OnevnActionsContainer|
+class OnevnToolbarActionsModel : public ToolbarActionsModel {
   public:
     using ToolbarActionsModel::ToolbarActionsModel;
     bool ShouldAddExtension(const extensions::Extension* extension) override;
   private:
-    DISALLOW_COPY_AND_ASSIGN(OneVNToolbarActionsModel);
+    DISALLOW_COPY_AND_ASSIGN(OnevnToolbarActionsModel);
 };
 
 #endif

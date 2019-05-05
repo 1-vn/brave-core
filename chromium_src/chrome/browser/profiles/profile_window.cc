@@ -6,7 +6,7 @@ namespace profiles {
 
 #if !defined(OS_ANDROID)
 void SwitchToTorProfile(ProfileManager::CreateCallback callback) {
-  const base::FilePath& path = OneVNProfileManager::GetTorProfilePath();
+  const base::FilePath& path = OnevnProfileManager::GetTorProfilePath();
   // TODO: profile metrics for tor
   // ProfileMetrics::LogProfileSwitch(ProfileMetrics::SWITCH_PROFILE_GUEST,
   //                                  g_browser_process->profile_manager(),
@@ -21,7 +21,7 @@ void SwitchToTorProfile(ProfileManager::CreateCallback callback) {
 void CloseTorProfileWindows() {
   ProfileManager* profile_manager = g_browser_process->profile_manager();
   Profile* profile = profile_manager->GetProfileByPath(
-      OneVNProfileManager::GetTorProfilePath());
+      OnevnProfileManager::GetTorProfilePath());
 
   if (profile) {
     BrowserList::CloseAllBrowsersWithProfile(

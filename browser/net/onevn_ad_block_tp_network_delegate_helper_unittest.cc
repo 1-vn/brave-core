@@ -14,13 +14,13 @@ using onevn::GetPolyfillForAdBlock;
 
 namespace {
 
-class OneVNAdBlockTPNetworkDelegateHelperTest: public testing::Test {
+class OnevnAdBlockTPNetworkDelegateHelperTest: public testing::Test {
  public:
-  OneVNAdBlockTPNetworkDelegateHelperTest()
+  OnevnAdBlockTPNetworkDelegateHelperTest()
       : thread_bundle_(content::TestBrowserThreadBundle::IO_MAINLOOP),
         context_(new net::TestURLRequestContext(true)) {
   }
-  ~OneVNAdBlockTPNetworkDelegateHelperTest() override {}
+  ~OnevnAdBlockTPNetworkDelegateHelperTest() override {}
   void SetUp() override {
     context_->Init();
   }
@@ -32,43 +32,43 @@ class OneVNAdBlockTPNetworkDelegateHelperTest: public testing::Test {
 };
 
 
-TEST_F(OneVNAdBlockTPNetworkDelegateHelperTest, NoChangeURL) {
+TEST_F(OnevnAdBlockTPNetworkDelegateHelperTest, NoChangeURL) {
   net::TestDelegate test_delegate;
   GURL url("https://bradhatesprimes.1-vn.com/composite_numbers_ftw");
   std::unique_ptr<net::URLRequest> request =
       context()->CreateRequest(url, net::IDLE, &test_delegate,
                                TRAFFIC_ANNOTATION_FOR_TESTS);
-  std::shared_ptr<onevn::OneVNRequestInfo>
-      onevn_request_info(new onevn::OneVNRequestInfo());
-  onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
+  std::shared_ptr<onevn::OnevnRequestInfo>
+      onevn_request_info(new onevn::OnevnRequestInfo());
+  onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
   onevn::ResponseCallback callback;
   int ret =
     OnBeforeURLRequest_AdBlockTPPreWork(callback,
         onevn_request_info);
-  onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
+  onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
   EXPECT_TRUE(onevn_request_info->new_url_spec.empty());
   EXPECT_EQ(ret, net::OK);
 }
 
-TEST_F(OneVNAdBlockTPNetworkDelegateHelperTest, EmptyRequestURL) {
+TEST_F(OnevnAdBlockTPNetworkDelegateHelperTest, EmptyRequestURL) {
   net::TestDelegate test_delegate;
   std::unique_ptr<net::URLRequest> request =
       context()->CreateRequest(GURL(), net::IDLE, &test_delegate,
                                TRAFFIC_ANNOTATION_FOR_TESTS);
-  std::shared_ptr<onevn::OneVNRequestInfo>
-      onevn_request_info(new onevn::OneVNRequestInfo());
-  onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
+  std::shared_ptr<onevn::OnevnRequestInfo>
+      onevn_request_info(new onevn::OnevnRequestInfo());
+  onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
   onevn::ResponseCallback callback;
   int ret =
     OnBeforeURLRequest_AdBlockTPPreWork(callback,
         onevn_request_info);
-  onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
+  onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
   EXPECT_TRUE(onevn_request_info->new_url_spec.empty());
   EXPECT_EQ(ret, net::OK);
 }
 
 
-TEST_F(OneVNAdBlockTPNetworkDelegateHelperTest, RedirectsToStubs) {
+TEST_F(OnevnAdBlockTPNetworkDelegateHelperTest, RedirectsToStubs) {
   std::vector<GURL> urls({
     GURL(kGoogleTagManagerPattern),
     GURL(kGoogleTagServicesPattern)
@@ -79,20 +79,20 @@ TEST_F(OneVNAdBlockTPNetworkDelegateHelperTest, RedirectsToStubs) {
     std::unique_ptr<net::URLRequest> request =
         context()->CreateRequest(url, net::IDLE, &test_delegate,
                                  TRAFFIC_ANNOTATION_FOR_TESTS);
-    std::shared_ptr<onevn::OneVNRequestInfo>
-        onevn_request_info(new onevn::OneVNRequestInfo());
-    onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
+    std::shared_ptr<onevn::OnevnRequestInfo>
+        onevn_request_info(new onevn::OnevnRequestInfo());
+    onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
     onevn::ResponseCallback callback;
     int ret =
       OnBeforeURLRequest_AdBlockTPPreWork(callback,
           onevn_request_info);
-    onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
+    onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
     EXPECT_EQ(ret, net::OK);
     EXPECT_TRUE(GURL(onevn_request_info->new_url_spec).SchemeIs("data"));
   });
 }
 
-TEST_F(OneVNAdBlockTPNetworkDelegateHelperTest, Blocking) {
+TEST_F(OnevnAdBlockTPNetworkDelegateHelperTest, Blocking) {
   std::vector<GURL> urls({
       GURL("https://pdfjs.robwu.nl/ping"),
     });
@@ -101,20 +101,20 @@ TEST_F(OneVNAdBlockTPNetworkDelegateHelperTest, Blocking) {
     std::unique_ptr<net::URLRequest> request =
       context()->CreateRequest(url, net::IDLE, &test_delegate,
                                TRAFFIC_ANNOTATION_FOR_TESTS);
-    std::shared_ptr<onevn::OneVNRequestInfo>
-      onevn_request_info(new onevn::OneVNRequestInfo());
-    onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
+    std::shared_ptr<onevn::OnevnRequestInfo>
+      onevn_request_info(new onevn::OnevnRequestInfo());
+    onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
     onevn::ResponseCallback callback;
     int ret =
       OnBeforeURLRequest_AdBlockTPPreWork(callback,
                                           onevn_request_info);
-    onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
+    onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
     EXPECT_STREQ(onevn_request_info->new_url_spec.c_str(), kEmptyDataURI);
     EXPECT_EQ(ret, net::OK);
   });
 }
 
-TEST_F(OneVNAdBlockTPNetworkDelegateHelperTest, GetPolyfill) {
+TEST_F(OnevnAdBlockTPNetworkDelegateHelperTest, GetPolyfill) {
   GURL tab_origin("https://test.com");
   GURL tag_manager_url(kGoogleTagManagerPattern);
   GURL tag_services_url(kGoogleTagServicesPattern);

@@ -6,7 +6,7 @@ index 7d3265521a05051bef0246e6968709238a38f646..95ca321ae3fe9ccde55afd9f5617d861
    void OnDownloadDestroyed(download::DownloadItem* download) override;
  
   private:
-+  friend class OneVNDownloadItemModel;
++  friend class OnevnDownloadItemModel;
    // DownloadUIModel implementation.
    std::string GetMimeType() const override;
    bool IsExtensionDownload() const override;

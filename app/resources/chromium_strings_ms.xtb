@@ -1,280 +1,280 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="ms">
-<translation id="5194812628624740897">Memutuskan sambungan <ph name="USERNAME"/> akan mengosongkan sejarah anda, penanda halaman, tetapan dan data OneVN lain yang disimpan pada peranti ini. Data yang disimpan dalam Akaun OneVN Software anda tidak akan dikosongkan dan boleh diuruskan pada <ph name="GOOGLE_DASHBOARD_LINK"/>Papan Pemuka OneVN Software<ph name="END_GOOGLE_DASHBOARD_LINK"/>.</translation>
-<translation id="939305735877869636">OneVN</translation>
-<translation id="6373767849825830651">OneVN merupakan penyemak imbas yang mengendalikan laman web dan aplikasi dengan kelajuan sepantas kilat. OneVN cepat, stabil dan mudah digunakan. Semak imbas web lebih selamat dengan perlindungan perisian hasad dan pancingan data terbina dalam OneVN.</translation>
-<translation id="680297041157509674">OneVN OS</translation>
-<translation id="4847979153841887006">Logo OneVN</translation>
+<translation id="5194812628624740897">Memutuskan sambungan <ph name="USERNAME"/> akan mengosongkan sejarah anda, penanda halaman, tetapan dan data Onevn lain yang disimpan pada peranti ini. Data yang disimpan dalam Akaun Onevn Software anda tidak akan dikosongkan dan boleh diuruskan pada <ph name="GOOGLE_DASHBOARD_LINK"/>Papan Pemuka Onevn Software<ph name="END_GOOGLE_DASHBOARD_LINK"/>.</translation>
+<translation id="939305735877869636">Onevn</translation>
+<translation id="6373767849825830651">Onevn merupakan penyemak imbas yang mengendalikan laman web dan aplikasi dengan kelajuan sepantas kilat. Onevn cepat, stabil dan mudah digunakan. Semak imbas web lebih selamat dengan perlindungan perisian hasad dan pancingan data terbina dalam Onevn.</translation>
+<translation id="680297041157509674">Onevn OS</translation>
+<translation id="4847979153841887006">Logo Onevn</translation>
 <translation id="7339898014177206373">Tetingkap baharu</translation>
-<translation id="5935964611177478118">log masuk ke OneVN</translation>
-<translation id="5516268345616100622">Pengurus Tugas - OneVN</translation>
-<translation id="7918740962659365265">Bantu jadikan OneVN lebih baik dengan menghantar laporan ranap dan <ph name="UMA_LINK"/> kepada OneVN Software.</translation>
-<translation id="5381622442243174305"><ph name="PAGE_TITLE"/> - OneVN</translation>
-<translation id="7830723774663008396">OneVN - <ph name="PAGE_TITLE"/></translation>
-<translation id="1403270718080126244"><ph name="PAGE_TITLE"/> - OneVN Beta</translation>
-<translation id="3943696263619956191"><ph name="PAGE_TITLE"/> - OneVN Dev</translation>
-<translation id="6236814935154483927"><ph name="PAGE_TITLE"/> - OneVN Canary</translation>
-<translation id="4685833011652060085">Dapatkan bantuan untuk menggunakan OneVN</translation>
-<translation id="6474707902830053522">Dapatkan bantuan untuk menggunakan OneVN OS</translation>
-<translation id="8992261409816268381">Pengarang OneVN</translation>
-<translation id="4651430425715739110">Hak Cipta <ph name="YEAR"/> Pengarang OneVN. Hak cipta terpelihara.</translation>
-<translation id="2310890394934209120">OneVN OS berjaya dilaksanakan dengan adanya <ph name="BEGIN_LINK_CROS_OSS"/>perisian sumber terbuka<ph name="END_LINK_CROS_OSS"/> tambahan.</translation>
-<translation id="8160794320557846790">OS OneVN menjadi kenyataan dengan <ph name="BEGIN_LINK_CROS_OSS"/>perisian sumber terbuka<ph name="END_LINK_CROS_OSS"/> tambahan, sebagaimana <ph name="BEGIN_LINK_LINUX_OSS"/>Linux (Beta)<ph name="END_LINK_LINUX_OSS"/>.</translation>
-<translation id="6913582816347128893">OneVN mungkin tidak akan berfungsi dengan betul kerana tidak lagi disokong pada Mac OS X 10.9.</translation>
-<translation id="7977787072794666032">OneVN mungkin tidak akan berfungsi dengan betul kerana tidak lagi disokong pada Windows XP atau Windows Vista</translation>
-<translation id="189297655255130768">OneVN tidak responsif. Lancarkan semula sekarang?</translation>
-<translation id="8703492925273919597">Sila tutup semua tetingkap OneVN dan cuba lagi.</translation>
-<translation id="335632367599648646">Adakah anda pasti mahu menyahpasang OneVN?</translation>
-<translation id="5590013613412457132">Nyahpasang OneVN</translation>
-<translation id="5019879183386042809">Jadikan OneVN penyemak imbas lalai</translation>
-<translation id="5063987220091207247">OS OneVN tidak boleh membuka halaman ini.</translation>
-<translation id="4065288863231444640">Benarkan OneVN Dijalankan dalam Latar Belakang</translation>
-<translation id="6797402139308059782">Benarkan OneVN dijalankan dalam latar belakang</translation>
-<translation id="2585240446624043880">OneVN tidak dapat membaca atau menulis pada direktori datanya:
+<translation id="5935964611177478118">log masuk ke Onevn</translation>
+<translation id="5516268345616100622">Pengurus Tugas - Onevn</translation>
+<translation id="7918740962659365265">Bantu jadikan Onevn lebih baik dengan menghantar laporan ranap dan <ph name="UMA_LINK"/> kepada Onevn Software.</translation>
+<translation id="5381622442243174305"><ph name="PAGE_TITLE"/> - Onevn</translation>
+<translation id="7830723774663008396">Onevn - <ph name="PAGE_TITLE"/></translation>
+<translation id="1403270718080126244"><ph name="PAGE_TITLE"/> - Onevn Beta</translation>
+<translation id="3943696263619956191"><ph name="PAGE_TITLE"/> - Onevn Dev</translation>
+<translation id="6236814935154483927"><ph name="PAGE_TITLE"/> - Onevn Canary</translation>
+<translation id="4685833011652060085">Dapatkan bantuan untuk menggunakan Onevn</translation>
+<translation id="6474707902830053522">Dapatkan bantuan untuk menggunakan Onevn OS</translation>
+<translation id="8992261409816268381">Pengarang Onevn</translation>
+<translation id="4651430425715739110">Hak Cipta <ph name="YEAR"/> Pengarang Onevn. Hak cipta terpelihara.</translation>
+<translation id="2310890394934209120">Onevn OS berjaya dilaksanakan dengan adanya <ph name="BEGIN_LINK_CROS_OSS"/>perisian sumber terbuka<ph name="END_LINK_CROS_OSS"/> tambahan.</translation>
+<translation id="8160794320557846790">OS Onevn menjadi kenyataan dengan <ph name="BEGIN_LINK_CROS_OSS"/>perisian sumber terbuka<ph name="END_LINK_CROS_OSS"/> tambahan, sebagaimana <ph name="BEGIN_LINK_LINUX_OSS"/>Linux (Beta)<ph name="END_LINK_LINUX_OSS"/>.</translation>
+<translation id="6913582816347128893">Onevn mungkin tidak akan berfungsi dengan betul kerana tidak lagi disokong pada Mac OS X 10.9.</translation>
+<translation id="7977787072794666032">Onevn mungkin tidak akan berfungsi dengan betul kerana tidak lagi disokong pada Windows XP atau Windows Vista</translation>
+<translation id="189297655255130768">Onevn tidak responsif. Lancarkan semula sekarang?</translation>
+<translation id="8703492925273919597">Sila tutup semua tetingkap Onevn dan cuba lagi.</translation>
+<translation id="335632367599648646">Adakah anda pasti mahu menyahpasang Onevn?</translation>
+<translation id="5590013613412457132">Nyahpasang Onevn</translation>
+<translation id="5019879183386042809">Jadikan Onevn penyemak imbas lalai</translation>
+<translation id="5063987220091207247">OS Onevn tidak boleh membuka halaman ini.</translation>
+<translation id="4065288863231444640">Benarkan Onevn Dijalankan dalam Latar Belakang</translation>
+<translation id="6797402139308059782">Benarkan Onevn dijalankan dalam latar belakang</translation>
+<translation id="2585240446624043880">Onevn tidak dapat membaca atau menulis pada direktori datanya:
 
 <ph name="USER_DATA_DIRECTORY"/></translation>
-<translation id="8417700129970341035">Pilihan: Bantu jadikan OneVN lebih baik dengan menghantar statistik penggunaan dan laporan ranap kepada OneVN Software secara automatik.</translation>
-<translation id="1489465648257900784">Profil anda tidak boleh digunakan kerana profil anda dihasilkan dari versi OneVN yang lebih baharu.
+<translation id="8417700129970341035">Pilihan: Bantu jadikan Onevn lebih baik dengan menghantar statistik penggunaan dan laporan ranap kepada Onevn Software secara automatik.</translation>
+<translation id="1489465648257900784">Profil anda tidak boleh digunakan kerana profil anda dihasilkan dari versi Onevn yang lebih baharu.
 
-Beberapa ciri mungkin tidak tersedia. Sila nyatakan direktori profil yang berbeza atau gunakan versi OneVN yang lebih baharu.</translation>
+Beberapa ciri mungkin tidak tersedia. Sila nyatakan direktori profil yang berbeza atau gunakan versi Onevn yang lebih baharu.</translation>
 <translation id="1065672644894730302">Pilihan anda tidak dapat dibaca. Beberapa ciri mungkin tidak tersedia dan perubahan terhadap pilihan tidak akan disimpan.</translation>
 <translation id="3403365884036456766">Fail pilihan anda rosak atau tidak sah.
 
-OneVN tidak dapat mengembalikan tetapan anda.</translation>
-<translation id="1477146545787277177">Alamak! OneVN mengalami ranap sistem. Lancarkan semula sekarang?</translation>
-<translation id="5785919770853225148">OneVN akan menyimpan kata laluan ini dalam Akaun OneVN Software anda. Anda tidak perlu mengingati kata laluan tersebut.</translation>
-<translation id="113959764510199339">OneVN sedang cuba memaparkan kata laluan.</translation>
-<translation id="7503098128120083822">OneVN mahu mengeksport kata laluan anda.</translation>
-<translation id="8285294305439559616">OneVN cuba menunjukkan kata laluan. Taip kata laluan Windows anda untuk membenarkannya.</translation>
-<translation id="5918095577778020936">OneVN mahu mengeksport kata laluan anda. Taip kata laluan Windows anda untuk membenarkannya.</translation>
-<translation id="8320964054148936490">Komputer ini telah mempunyai versi OneVN yang lebih baharu. Jika perisian tidak berfungsi, sila nyahpasang OneVN dan cuba lagi.</translation>
-<translation id="7691786510374174420">Pemasangan gagal disebabkan ralat yang tidak dinyatakan. Jika OneVN sedang dijalankan, sila tutup dan cuba semula.</translation>
-<translation id="2619516027171717873">Tidak boleh memasang versi OneVN yang sama dengan yang sedang dijalankan. Sila tutup OneVN dan cuba lagi.</translation>
-<translation id="6283840329609797763">Pemasangan gagal disebabkan ralat yang tidak dinyatakan. Sila muat turun semula OneVN.</translation>
-<translation id="95624393026532554">OneVN memerlukan Windows 7 atau lebih tinggi.</translation>
-<translation id="7387051847644272380">Ralat sistem pengendalian berlaku semasa pemasangan. Sila muat turun OneVN semula.</translation>
-<translation id="1819119299840995223">Terdapat operasi lain sedang dijalankan pada OneVN. Sila cuba sebentar lagi.</translation>
+Onevn tidak dapat mengembalikan tetapan anda.</translation>
+<translation id="1477146545787277177">Alamak! Onevn mengalami ranap sistem. Lancarkan semula sekarang?</translation>
+<translation id="5785919770853225148">Onevn akan menyimpan kata laluan ini dalam Akaun Onevn Software anda. Anda tidak perlu mengingati kata laluan tersebut.</translation>
+<translation id="113959764510199339">Onevn sedang cuba memaparkan kata laluan.</translation>
+<translation id="7503098128120083822">Onevn mahu mengeksport kata laluan anda.</translation>
+<translation id="8285294305439559616">Onevn cuba menunjukkan kata laluan. Taip kata laluan Windows anda untuk membenarkannya.</translation>
+<translation id="5918095577778020936">Onevn mahu mengeksport kata laluan anda. Taip kata laluan Windows anda untuk membenarkannya.</translation>
+<translation id="8320964054148936490">Komputer ini telah mempunyai versi Onevn yang lebih baharu. Jika perisian tidak berfungsi, sila nyahpasang Onevn dan cuba lagi.</translation>
+<translation id="7691786510374174420">Pemasangan gagal disebabkan ralat yang tidak dinyatakan. Jika Onevn sedang dijalankan, sila tutup dan cuba semula.</translation>
+<translation id="2619516027171717873">Tidak boleh memasang versi Onevn yang sama dengan yang sedang dijalankan. Sila tutup Onevn dan cuba lagi.</translation>
+<translation id="6283840329609797763">Pemasangan gagal disebabkan ralat yang tidak dinyatakan. Sila muat turun semula Onevn.</translation>
+<translation id="95624393026532554">Onevn memerlukan Windows 7 atau lebih tinggi.</translation>
+<translation id="7387051847644272380">Ralat sistem pengendalian berlaku semasa pemasangan. Sila muat turun Onevn semula.</translation>
+<translation id="1819119299840995223">Terdapat operasi lain sedang dijalankan pada Onevn. Sila cuba sebentar lagi.</translation>
 <translation id="7747138024166251722">Pemasang tidak dapat mencipta direktori sementara. Sila semak ruang cakera kosong dan kebenaran untuk memasang perisian.</translation>
-<translation id="7365690458036015383">Pemasang gagal untuk menyahmampat arkib. Sila muat turun OneVN sekali lagi.</translation>
-<translation id="6914496861676471566">Arkib pemasang rosak atau tidak sah. Sila muat turun OneVN sekali lagi.</translation>
+<translation id="7365690458036015383">Pemasang gagal untuk menyahmampat arkib. Sila muat turun Onevn sekali lagi.</translation>
+<translation id="6914496861676471566">Arkib pemasang rosak atau tidak sah. Sila muat turun Onevn sekali lagi.</translation>
 <translation id="8862326446509486874">Anda tidak mempunyai hak wajar untuk pemasangan peringkat sistem. Cuba jalankan pemasang semula sebagai Pentadbir.</translation>
-<translation id="6666624454809779082">OneVN telah dipasang untuk semua pengguna pada komputer anda.</translation>
+<translation id="6666624454809779082">Onevn telah dipasang untuk semua pengguna pada komputer anda.</translation>
 <translation id="6676384891291319759">Akses Internet</translation>
 <translation id="911206726377975832">Padamkan juga data menyemak imbas anda?</translation>
 <translation id="2770231113462710648">Tukar penyemak imbas lalai kepada:</translation>
 <translation id="2485422356828889247">Nyahpasang</translation>
-<translation id="3343095737966473035">OneVN bukan penyemak imbas lalai anda</translation>
-<translation id="6715663530666325392">Sediakan Penyegerakan untuk menyimpan ciri penyemak imbas yang diperibadikan di web dan aksesnya dari OneVN pada mana-mana komputer.</translation>
-<translation id="5536657158619734169">Terdapat versi baharu OneVN tersedia.</translation>
-<translation id="505042220086416644">Terdapat versi baharu OneVN yang lebih pantas daripada biasa tersedia.</translation>
-<translation id="5616153642055197778">Terdapat versi OneVN baharu yang lebih selamat tersedia.</translation>
-<translation id="2301993384336631869">OneVN telah dikemas kini, tetapi anda belum menggunakannya untuk sekurang-kurangnya 30 hari.</translation>
-<translation id="2106568569080763501">OneVN membolehkan anda mengklik nombor telefon pada web dan menghubunginya dengan Skype!</translation>
-<translation id="5874882355102994015">OneVN tidak dapat memaparkan pratonton cetakan apabila alat lihat PDF terbina dalam tiada.</translation>
-<translation id="8880183781256147665">Menambah ke OneVN...</translation>
-<translation id="3561569806301739367"><ph name="FILE_NAME"/> mungkin berbahaya, jadi OneVN telah menyekat fail itu.</translation>
-<translation id="9067428552314418522">Fail ini berbahaya, maka OneVN telah menyekatnya.</translation>
-<translation id="4168372721886011198"><ph name="FILE_NAME"/> berbahaya, jadi OneVN telah menyekat fail itu.</translation>
-<translation id="89367911614620585">Fail ini mungkin berbahaya, maka OneVN telah menyekatnya.</translation>
-<translation id="9183662282810237335">Keluar daripada OneVN juga?</translation>
-<translation id="3834935463915107022">Keluar daripada OneVN juga?</translation>
-<translation id="8797356639448065696">OneVN dalam mod latar belakang.</translation>
-<translation id="2339258256897053758">Kunci API OneVN Software tiada. Sesetengah fungsi OneVN akan dilumpuhkan.</translation>
-<translation id="2182657378556811785">Hampir terkini! Lancarkan semula OneVN untuk menyelesaikan kemas kini.</translation>
+<translation id="3343095737966473035">Onevn bukan penyemak imbas lalai anda</translation>
+<translation id="6715663530666325392">Sediakan Penyegerakan untuk menyimpan ciri penyemak imbas yang diperibadikan di web dan aksesnya dari Onevn pada mana-mana komputer.</translation>
+<translation id="5536657158619734169">Terdapat versi baharu Onevn tersedia.</translation>
+<translation id="505042220086416644">Terdapat versi baharu Onevn yang lebih pantas daripada biasa tersedia.</translation>
+<translation id="5616153642055197778">Terdapat versi Onevn baharu yang lebih selamat tersedia.</translation>
+<translation id="2301993384336631869">Onevn telah dikemas kini, tetapi anda belum menggunakannya untuk sekurang-kurangnya 30 hari.</translation>
+<translation id="2106568569080763501">Onevn membolehkan anda mengklik nombor telefon pada web dan menghubunginya dengan Skype!</translation>
+<translation id="5874882355102994015">Onevn tidak dapat memaparkan pratonton cetakan apabila alat lihat PDF terbina dalam tiada.</translation>
+<translation id="8880183781256147665">Menambah ke Onevn...</translation>
+<translation id="3561569806301739367"><ph name="FILE_NAME"/> mungkin berbahaya, jadi Onevn telah menyekat fail itu.</translation>
+<translation id="9067428552314418522">Fail ini berbahaya, maka Onevn telah menyekatnya.</translation>
+<translation id="4168372721886011198"><ph name="FILE_NAME"/> berbahaya, jadi Onevn telah menyekat fail itu.</translation>
+<translation id="89367911614620585">Fail ini mungkin berbahaya, maka Onevn telah menyekatnya.</translation>
+<translation id="9183662282810237335">Keluar daripada Onevn juga?</translation>
+<translation id="3834935463915107022">Keluar daripada Onevn juga?</translation>
+<translation id="8797356639448065696">Onevn dalam mod latar belakang.</translation>
+<translation id="2339258256897053758">Kunci API Onevn Software tiada. Sesetengah fungsi Onevn akan dilumpuhkan.</translation>
+<translation id="2182657378556811785">Hampir terkini! Lancarkan semula Onevn untuk menyelesaikan kemas kini.</translation>
 <translation id="5906655207909574370">Hampir terkini! Mulakan semula peranti anda untuk menyelesaikan kemas kini.</translation>
 <translation id="5877064549588274448">Saluran berubah. Mulakan semula peranti anda untuk menggunakan perubahan.</translation>
-<translation id="5131485705787281074">OneVN telah dikemas kini</translation>
+<translation id="5131485705787281074">Onevn telah dikemas kini</translation>
 <translation id="8667808506758191620"><ph name="DEVICE_TYPE"/> anda sudah dikemas kini.</translation>
-<translation id="5047208012586153436">Mengemas kini OneVN...</translation>
+<translation id="5047208012586153436">Mengemas kini Onevn...</translation>
 <translation id="6970811910055250180">Mengemas kini peranti anda...</translation>
 <translation id="8030318113982266900">Mengemas kini peranti anda kepada saluran <ph name="CHANNEL_NAME"/>...</translation>
-<translation id="7861579472672677409"><ph name="EXTENSION_NAME"/> telah ditambahkan pada OneVN</translation>
-<translation id="8516116288943000095">Kosongkan data daripada OneVN (<ph name="URL"/>) juga</translation>
-<translation id="4054452651944170004">Sembunyikan dalam menu OneVN</translation>
-<translation id="5660079256336839395">Sembunyikan dalam Menu OneVN</translation>
-<translation id="7456658570432774853">Bantu jadikan OneVN lebih baik dengan melaporkan tetapan semasa</translation>
-<translation id="6134859571175647580">Amaran: OneVN tidak dapat menghalang sambungan daripada merakamkan sejarah penyemakan imbas anda. Untuk melumpuhkan sambungan ini dalam mod inkognito, nyahpilih pilihan ini.</translation>
-<translation id="777113543093865885">Alih keluar daripada OneVN...</translation>
-<translation id="6078442581074612226">Dalam OneVN</translation>
-<translation id="1448049584457347995">Untuk menjadikan OneVN lebih selamat, kami melumpuhkan beberapa sambungan yang tidak disenaraikan dalam <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> dan mungkin telah ditambahkan tanpa pengetahuan anda.</translation>
-<translation id="8848045066928358658">Untuk menjadikan OneVN lebih selamat, kami melumpuhkan sambungan berikut yang tidak disenaraikan dalam  <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> dan mungkin telah ditambahkan tanpa pengetahuan anda.</translation>
-<translation id="8148611988012584308">Sesuaikan dan kawal OneVN</translation>
-<translation id="5849446944780602366">Sesuaikan dan kawal OneVN. Kemas kini tersedia.</translation>
-<translation id="6315734375101223238">Sesuaikan dan kawal OneVN. Perhatian anda diperlukan - klik untuk mendapatkan butiran.</translation>
-<translation id="9071554113102421877">&amp;Buka dalam OneVN</translation>
-<translation id="2176825726964012531">Mengenai &amp;OneVN</translation>
-<translation id="5450493308072741203">Kemas kini &amp;OneVN</translation>
-<translation id="1421502046520299169">Mengenai &amp;OneVN OS</translation>
-<translation id="2534623228451928732">Kemas kini &amp;OneVN OS</translation>
-<translation id="8447483940522230788">Pembantu OneVN</translation>
-<translation id="3360368475735266712">Log masuk untuk menyegerakkan dan memperibadikan OneVN pada semua peranti anda</translation>
-<translation id="5477319665405831211">Segerakkan dan peribadikan OneVN pada semua peranti anda</translation>
-<translation id="4934157190377700991">Anda dilog masuk ke OneVN</translation>
-<translation id="4100716194836114130">Ini OneVN anda</translation>
-<translation id="8296145982386097283">Berkongsi komputer? Sekarang anda boleh menyediakan OneVN menurut cara yang anda suka.</translation>
-<translation id="1672124279374861424">Selepas mengalih keluar akaun anda daripada OneVN, anda mungkin perlu memuatkan semula tab yang dibuka untuk memberi kesan.</translation>
-<translation id="9197493712748167998">Anda menggunakan <ph name="PROFILE_EMAIL"/> untuk menyegerakkan bahan digital chromium anda. Untuk mengemas kini pilihan penyegerakan anda atau menggunakan OneVN tanpa akaun OneVN Software, lawati <ph name="SETTINGS_LINK"/>.</translation>
-<translation id="8132634101975074716">Anda log masuk ke OneVN!</translation>
+<translation id="7861579472672677409"><ph name="EXTENSION_NAME"/> telah ditambahkan pada Onevn</translation>
+<translation id="8516116288943000095">Kosongkan data daripada Onevn (<ph name="URL"/>) juga</translation>
+<translation id="4054452651944170004">Sembunyikan dalam menu Onevn</translation>
+<translation id="5660079256336839395">Sembunyikan dalam Menu Onevn</translation>
+<translation id="7456658570432774853">Bantu jadikan Onevn lebih baik dengan melaporkan tetapan semasa</translation>
+<translation id="6134859571175647580">Amaran: Onevn tidak dapat menghalang sambungan daripada merakamkan sejarah penyemakan imbas anda. Untuk melumpuhkan sambungan ini dalam mod inkognito, nyahpilih pilihan ini.</translation>
+<translation id="777113543093865885">Alih keluar daripada Onevn...</translation>
+<translation id="6078442581074612226">Dalam Onevn</translation>
+<translation id="1448049584457347995">Untuk menjadikan Onevn lebih selamat, kami melumpuhkan beberapa sambungan yang tidak disenaraikan dalam <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> dan mungkin telah ditambahkan tanpa pengetahuan anda.</translation>
+<translation id="8848045066928358658">Untuk menjadikan Onevn lebih selamat, kami melumpuhkan sambungan berikut yang tidak disenaraikan dalam  <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> dan mungkin telah ditambahkan tanpa pengetahuan anda.</translation>
+<translation id="8148611988012584308">Sesuaikan dan kawal Onevn</translation>
+<translation id="5849446944780602366">Sesuaikan dan kawal Onevn. Kemas kini tersedia.</translation>
+<translation id="6315734375101223238">Sesuaikan dan kawal Onevn. Perhatian anda diperlukan - klik untuk mendapatkan butiran.</translation>
+<translation id="9071554113102421877">&amp;Buka dalam Onevn</translation>
+<translation id="2176825726964012531">Mengenai &amp;Onevn</translation>
+<translation id="5450493308072741203">Kemas kini &amp;Onevn</translation>
+<translation id="1421502046520299169">Mengenai &amp;Onevn OS</translation>
+<translation id="2534623228451928732">Kemas kini &amp;Onevn OS</translation>
+<translation id="8447483940522230788">Pembantu Onevn</translation>
+<translation id="3360368475735266712">Log masuk untuk menyegerakkan dan memperibadikan Onevn pada semua peranti anda</translation>
+<translation id="5477319665405831211">Segerakkan dan peribadikan Onevn pada semua peranti anda</translation>
+<translation id="4934157190377700991">Anda dilog masuk ke Onevn</translation>
+<translation id="4100716194836114130">Ini Onevn anda</translation>
+<translation id="8296145982386097283">Berkongsi komputer? Sekarang anda boleh menyediakan Onevn menurut cara yang anda suka.</translation>
+<translation id="1672124279374861424">Selepas mengalih keluar akaun anda daripada Onevn, anda mungkin perlu memuatkan semula tab yang dibuka untuk memberi kesan.</translation>
+<translation id="9197493712748167998">Anda menggunakan <ph name="PROFILE_EMAIL"/> untuk menyegerakkan bahan digital chromium anda. Untuk mengemas kini pilihan penyegerakan anda atau menggunakan Onevn tanpa akaun Onevn Software, lawati <ph name="SETTINGS_LINK"/>.</translation>
+<translation id="8132634101975074716">Anda log masuk ke Onevn!</translation>
 <translation id="4567424176335768812">Anda telah log masuk sebagai <ph name="USER_EMAIL_ADDRESS"/>. Sekarang anda boleh mengakses penanda halaman, sejarah dan tetapan anda yang lain pada semua peranti yang anda gunakan untuk log masuk.</translation>
-<translation id="6888049487162027489">Anda kini sedang log masuk ke OneVN! Penyegerakan dilumpuhkan oleh pentadbir anda.</translation>
-<translation id="2925193881330501265">Anda telah log masuk ke OneVN sebagai <ph name="USER_EMAIL_ADDRESS"/>. Sila gunakan akaun yang sama untuk log masuk lagi.</translation>
-<translation id="386092803020435298">Seseorang telah log masuk ke OneVN pada komputer ini sebagai <ph name="ACCOUNT_EMAIL_LAST"/> sebelum ini. Jika itu bukan akaun anda, buat pengguna OneVN baharu untuk mengasingkan maklumat anda.
+<translation id="6888049487162027489">Anda kini sedang log masuk ke Onevn! Penyegerakan dilumpuhkan oleh pentadbir anda.</translation>
+<translation id="2925193881330501265">Anda telah log masuk ke Onevn sebagai <ph name="USER_EMAIL_ADDRESS"/>. Sila gunakan akaun yang sama untuk log masuk lagi.</translation>
+<translation id="386092803020435298">Seseorang telah log masuk ke Onevn pada komputer ini sebagai <ph name="ACCOUNT_EMAIL_LAST"/> sebelum ini. Jika itu bukan akaun anda, buat pengguna Onevn baharu untuk mengasingkan maklumat anda.
 
-Meneruskan juga log masuk akan menggabungkan maklumat OneVN seperti penanda halaman, sejarah dan tetapan lain ke <ph name="ACCOUNT_EMAIL_NEW"/>.</translation>
-<translation id="847561904663814268">Sebelum ini, seseorang telah log masuk ke OneVN pada komputer ini sebagai <ph name="ACCOUNT_EMAIL_LAST"/>. Sila buat pengguna OneVN baharu untuk mengasingkan maklumat anda.</translation>
-<translation id="1853997773668795891">Paut data OneVN anda ke akaun ini?</translation>
-<translation id="1326766910007115955">Anda log masuk menggunakan akaun yang terurus dan memberikan pentadbirnya kawalan ke atas profil OneVN anda. Data OneVN anda, seperti apl, penanda halaman, sejarah, kata laluan dan tetapan anda yang lain akan terikat kepada <ph name="USER_NAME"/> secara kekal. Anda akan dapat memadamkan data ini melalui Papan Pemuka Akaun OneVN Software, tetapi anda tidak akan dapat mengaitkan data ini dengan akaun lain. <ph name="LEARN_MORE"/></translation>
-<translation id="650055380213106997">Anda log masuk menggunakan akaun yang terurus dan memberikan pentadbirnya kawalan ke atas profil OneVN anda. Data OneVN anda, seperti apl, penanda halaman, sejarah, kata laluan dan tetapan anda yang lain akan terikat kepada <ph name="USER_NAME"/> secara kekal. Anda akan dapat memadamkan data ini melalui Papan Pemuka Akaun OneVN Software, tetapi anda tidak akan dapat mengaitkan data ini dengan akaun lain. Anda boleh memilih untuk membuat profil baharu untuk mengasingkan data OneVN anda yang sedia ada. <ph name="LEARN_MORE"/></translation>
-<translation id="2444257125841652328">Pentadbir sistem anda telah mengkonfigurasikan OneVN agar membuka penyemak imbas alternatif untuk mengakses <ph name="TARGET_URL_HOSTNAME"/>.</translation>
-<translation id="2591326305549412656"><ph name="USER_EMAIL_ADDRESS"/> menggunakan OneVN sebelum ini</translation>
-<translation id="1384923383737428730">Terdapat perisian yang berbahaya pada komputer anda. OneVN boleh mengalih keluar perisian tersebut, memulihkan tetapan anda dan melumpuhkan sambungan supaya penyemak imbas anda dapat berfungsi seperti biasa semula.</translation>
-<translation id="8919921662052966648">OneVN tidak dapat menyegerakkan data anda. Sila kemas kini frasa laluan Segerak anda.</translation>
-<translation id="2262856633481902138">OneVN tidak dapat menyegerakkan data anda kerana butiran log masuk akaun anda sudah lapuk.</translation>
-<translation id="5419189641394808652">OneVN tidak dapat menyegerakkan data anda kerana Segerak tidak tersedia untuk domain anda.</translation>
-<translation id="2577755334620061182">OneVN tidak dapat menyegerakkan data anda disebabkan ralat melog masuk.</translation>
-<translation id="8583885258305961947">Sistem OS OneVN</translation>
-<translation id="3968006371075376562">OS OneVN tidak dapat menyegerakkan data anda. Sila kemas kini frasa laluan Segerak anda.</translation>
-<translation id="6746636977031158624">OS OneVN tidak dapat menyegerakkan data anda kerana butiran log masuk akaun anda sudah lapuk.</translation>
-<translation id="2999152167963026588">OS OneVN tidak dapat menyegerakkan data anda kerana Segerak tidak tersedia untuk domain anda.</translation>
-<translation id="1459786048951724030">OS OneVN tidak dapat menyegerakkan data anda disebabkan oleh ralat melog masuk.</translation>
-<translation id="2887570477425111999">Simpan butiran di OneVN</translation>
-<translation id="193559141530782783">OneVN akan menyimpan butiran peribadi anda dengan selamat supaya anda tidak perlu menaipnya semula.</translation>
-<translation id="663059986967017181">Disalin ke OneVN</translation>
-<translation id="1457432835062259213">Pelancar Apl OneVN</translation>
-<translation id="82609232232243542">Log masuk ke OneVN</translation>
-<translation id="2924628237198507508">Anda perlu log masuk ke OneVN untuk menggunakan apl. Tindakan ini membolehkan OneVN menyegerakkan apl, penanda halaman, sejarah, kata laluan dan tetapan anda yang lain pada semua peranti.</translation>
-<translation id="380197516434040304">Alih Keluar Daripada OneVN...</translation>
-<translation id="300669147395456190">OneVN Apps</translation>
-<translation id="3421950102518690868"><ph name="DOMAIN"/> menghendaki anda membaca dan menerima Syarat Perkhidmatan berikut sebelum menggunakan peranti ini. Syarat ini tidak meluaskan, mengubah suai atau mengehadkan Syarat OS OneVN.</translation>
-<translation id="3293668930608086049">OneVN menggunakan kamera dan mikrofon anda.</translation>
-<translation id="8919461291440820124">OneVN menggunakan mikrofon anda.</translation>
-<translation id="3205074487970075628">OneVN menggunakan kamera anda.</translation>
-<translation id="8142245354207161805">Nampaknya profil digunakan oleh proses OneVN lain (<ph name="PROCESS_ID"/>) pada komputer lain (<ph name="HOST_NAME"/>). OneVN telah mengunci profil supaya profil tidak rosak. Jika anda pasti tiada proses lain yang menggunakan profil ini, anda boleh membuka profil dan melancarkan semula OneVN.</translation>
-<translation id="239760341987199724">Tetapkan OneVN sebagai penyemak imbas lalai anda</translation>
+Meneruskan juga log masuk akan menggabungkan maklumat Onevn seperti penanda halaman, sejarah dan tetapan lain ke <ph name="ACCOUNT_EMAIL_NEW"/>.</translation>
+<translation id="847561904663814268">Sebelum ini, seseorang telah log masuk ke Onevn pada komputer ini sebagai <ph name="ACCOUNT_EMAIL_LAST"/>. Sila buat pengguna Onevn baharu untuk mengasingkan maklumat anda.</translation>
+<translation id="1853997773668795891">Paut data Onevn anda ke akaun ini?</translation>
+<translation id="1326766910007115955">Anda log masuk menggunakan akaun yang terurus dan memberikan pentadbirnya kawalan ke atas profil Onevn anda. Data Onevn anda, seperti apl, penanda halaman, sejarah, kata laluan dan tetapan anda yang lain akan terikat kepada <ph name="USER_NAME"/> secara kekal. Anda akan dapat memadamkan data ini melalui Papan Pemuka Akaun Onevn Software, tetapi anda tidak akan dapat mengaitkan data ini dengan akaun lain. <ph name="LEARN_MORE"/></translation>
+<translation id="650055380213106997">Anda log masuk menggunakan akaun yang terurus dan memberikan pentadbirnya kawalan ke atas profil Onevn anda. Data Onevn anda, seperti apl, penanda halaman, sejarah, kata laluan dan tetapan anda yang lain akan terikat kepada <ph name="USER_NAME"/> secara kekal. Anda akan dapat memadamkan data ini melalui Papan Pemuka Akaun Onevn Software, tetapi anda tidak akan dapat mengaitkan data ini dengan akaun lain. Anda boleh memilih untuk membuat profil baharu untuk mengasingkan data Onevn anda yang sedia ada. <ph name="LEARN_MORE"/></translation>
+<translation id="2444257125841652328">Pentadbir sistem anda telah mengkonfigurasikan Onevn agar membuka penyemak imbas alternatif untuk mengakses <ph name="TARGET_URL_HOSTNAME"/>.</translation>
+<translation id="2591326305549412656"><ph name="USER_EMAIL_ADDRESS"/> menggunakan Onevn sebelum ini</translation>
+<translation id="1384923383737428730">Terdapat perisian yang berbahaya pada komputer anda. Onevn boleh mengalih keluar perisian tersebut, memulihkan tetapan anda dan melumpuhkan sambungan supaya penyemak imbas anda dapat berfungsi seperti biasa semula.</translation>
+<translation id="8919921662052966648">Onevn tidak dapat menyegerakkan data anda. Sila kemas kini frasa laluan Segerak anda.</translation>
+<translation id="2262856633481902138">Onevn tidak dapat menyegerakkan data anda kerana butiran log masuk akaun anda sudah lapuk.</translation>
+<translation id="5419189641394808652">Onevn tidak dapat menyegerakkan data anda kerana Segerak tidak tersedia untuk domain anda.</translation>
+<translation id="2577755334620061182">Onevn tidak dapat menyegerakkan data anda disebabkan ralat melog masuk.</translation>
+<translation id="8583885258305961947">Sistem OS Onevn</translation>
+<translation id="3968006371075376562">OS Onevn tidak dapat menyegerakkan data anda. Sila kemas kini frasa laluan Segerak anda.</translation>
+<translation id="6746636977031158624">OS Onevn tidak dapat menyegerakkan data anda kerana butiran log masuk akaun anda sudah lapuk.</translation>
+<translation id="2999152167963026588">OS Onevn tidak dapat menyegerakkan data anda kerana Segerak tidak tersedia untuk domain anda.</translation>
+<translation id="1459786048951724030">OS Onevn tidak dapat menyegerakkan data anda disebabkan oleh ralat melog masuk.</translation>
+<translation id="2887570477425111999">Simpan butiran di Onevn</translation>
+<translation id="193559141530782783">Onevn akan menyimpan butiran peribadi anda dengan selamat supaya anda tidak perlu menaipnya semula.</translation>
+<translation id="663059986967017181">Disalin ke Onevn</translation>
+<translation id="1457432835062259213">Pelancar Apl Onevn</translation>
+<translation id="82609232232243542">Log masuk ke Onevn</translation>
+<translation id="2924628237198507508">Anda perlu log masuk ke Onevn untuk menggunakan apl. Tindakan ini membolehkan Onevn menyegerakkan apl, penanda halaman, sejarah, kata laluan dan tetapan anda yang lain pada semua peranti.</translation>
+<translation id="380197516434040304">Alih Keluar Daripada Onevn...</translation>
+<translation id="300669147395456190">Onevn Apps</translation>
+<translation id="3421950102518690868"><ph name="DOMAIN"/> menghendaki anda membaca dan menerima Syarat Perkhidmatan berikut sebelum menggunakan peranti ini. Syarat ini tidak meluaskan, mengubah suai atau mengehadkan Syarat OS Onevn.</translation>
+<translation id="3293668930608086049">Onevn menggunakan kamera dan mikrofon anda.</translation>
+<translation id="8919461291440820124">Onevn menggunakan mikrofon anda.</translation>
+<translation id="3205074487970075628">Onevn menggunakan kamera anda.</translation>
+<translation id="8142245354207161805">Nampaknya profil digunakan oleh proses Onevn lain (<ph name="PROCESS_ID"/>) pada komputer lain (<ph name="HOST_NAME"/>). Onevn telah mengunci profil supaya profil tidak rosak. Jika anda pasti tiada proses lain yang menggunakan profil ini, anda boleh membuka profil dan melancarkan semula Onevn.</translation>
+<translation id="239760341987199724">Tetapkan Onevn sebagai penyemak imbas lalai anda</translation>
 <translation id="5344925500065984750">Untuk menetapkan tapak web yang boleh dilihat oleh <ph name="NEW_PROFILE_NAME"/>, anda boleh mengkonfigurasi sekatan dan tetapan dengan melawati <ph name="BEGIN_LINK_1"/><ph name="DISPLAY_LINK"/><ph name="END_LINK_1"/>. Jika anda tidak menukar tetapan lalainya, <ph name="NEW_PROFILE_NAME"/> boleh menyemak imbas apa sahaja di web.
 
-Untuk menghalang <ph name="NEW_PROFILE_NAME"/> daripada mengakses akaun anda, pastikan profil anda dikunci apabila tidak menggunakan OneVN. Untuk melakukannya, klik pada nama profil anda di penjuru atas sebelah kanan penyemak imbas dan pilih "Keluar dan kunci kanak-kanak".
+Untuk menghalang <ph name="NEW_PROFILE_NAME"/> daripada mengakses akaun anda, pastikan profil anda dikunci apabila tidak menggunakan Onevn. Untuk melakukannya, klik pada nama profil anda di penjuru atas sebelah kanan penyemak imbas dan pilih "Keluar dan kunci kanak-kanak".
 <ph name="BEGIN_LINK_2"/>Ketahui lebih lanjut<ph name="END_LINK_2"/>
 
 Sila semak e-mel anda di <ph name="ACCOUNT_EMAIL"/> untuk arahan lanjut.</translation>
-<translation id="1820843143331379651">Profil pengguna di bawah seliaan tidak tersedia lagi bermula dengan OneVN 70.</translation>
-<translation id="3066805437003400520">Data semakan imbas orang ini akan dipadamkan daripada peranti ini. Untuk memulihkan data itu, log masuk ke OneVN sebagai <ph name="USER_EMAIL"/>.</translation>
-<translation id="2827121003398607864">OneVN kini lebih baik</translation>
-<translation id="7192666605334070839">Kini lebih mudah menggunakan OneVN dengan Akaun OneVN Software anda dan pada komputer yang dikongsi.</translation>
-<translation id="3511996232906761537">Web, penanda halaman dan barangan OneVN anda yang lain tinggal di sini.</translation>
-<translation id="7406627712452599344">Tetamu boleh menggunakan OneVN tanpa meninggalkan apa-apa.</translation>
-<translation id="5659384504794665581">Jika anda berkongsi komputer, rakan dan keluarga boleh menyemak imbas secara berasingan dan menyediakan OneVN sebagaimana yang mereka mahukan.</translation>
-<translation id="7130675370997202556">Klik nama anda untuk membuka OneVN dan mula menyemak imbas.</translation>
-<translation id="5952898964075639679">Tambahkan diri anda kepada OneVN</translation>
-<translation id="3813272600615358652">Sambungan ini telah menukar halaman yang ditunjukkan apabila anda memulakan OneVN.</translation>
-<translation id="2576129394594491151">Sambungan "<ph name="EXTENSION_NAME"/>" telah menukar halaman yang ditunjukkan apabila anda memulakan OneVN.</translation>
-<translation id="2675662665675552980">Sambungan turut mengawal halaman yang ditunjukkan apabila anda memulakan OneVN.</translation>
-<translation id="3215652305414474626">Sambungan turut mengawal halaman yang ditunjukkan apabila anda memulakan OneVN atau mengklik butang Laman Utama.</translation>
-<translation id="2433912322225810055">Sambungan turut mengawal halaman yang ditunjukkan apabila anda memulakan OneVN atau membuat carian dari Kotak Omni.</translation>
-<translation id="2871190378186459992">Temui apl, permainan, sambungan dan tema yang hebat untuk OneVN.</translation>
-<translation id="3350544518197210895">OneVN (mDNS-In)</translation>
-<translation id="1912973375560256099">Peraturan masuk bagi OneVN untuk membolehkan trafik mDNS.</translation>
-<translation id="8207657266087451193">Jika imej tiada perihalan yang berguna, OneVN akan cuba memberikan perihalan untuk anda. Untuk membuat perihalan, imej dihantar kepada OneVN Software. Anda boleh mematikan pilihan ini dalam tetapan pada bila-bila masa.</translation>
-<translation id="5499063270485366718">Jika imej tiada perihalan yang berguna, OneVN akan cuba memberikan perihalan untuk anda. Untuk membuat perihalan, imej dihantar kepada OneVN Software.</translation>
-<translation id="7276297358157391541">OneVN dapat menyediakan semakan ejaan yang lebih pintar dengan menghantar apa yang anda taip dalam penyemak imbas kepada pelayan OneVN Software, membolehkan anda menggunakan teknologi semakan ejaan yang sama seperti yang digunakan oleh carian OneVN Software.</translation>
-<translation id="1807774211756215222">Buka pautan dalam &amp;tab OneVN baharu</translation>
-<translation id="4624945300945265642">Buka pautan dalam tetingkap inko&amp;gnito OneVN</translation>
-<translation id="7863882214613921971">Buka Pautan dalam &amp;tab OneVN Baharu</translation>
-<translation id="6554952862405000915">Buka Pautan dalam Tetingkap Inko&amp;gnito OneVN</translation>
-<translation id="4805806622840861220">Lancarkan Semula OneVN</translation>
-<translation id="2560046583427795596">Kemas kini baharu tersedia untuk OneVN dan akan digunakan sebaik sahaja anda melancarkan OneVN semula.</translation>
+<translation id="1820843143331379651">Profil pengguna di bawah seliaan tidak tersedia lagi bermula dengan Onevn 70.</translation>
+<translation id="3066805437003400520">Data semakan imbas orang ini akan dipadamkan daripada peranti ini. Untuk memulihkan data itu, log masuk ke Onevn sebagai <ph name="USER_EMAIL"/>.</translation>
+<translation id="2827121003398607864">Onevn kini lebih baik</translation>
+<translation id="7192666605334070839">Kini lebih mudah menggunakan Onevn dengan Akaun Onevn Software anda dan pada komputer yang dikongsi.</translation>
+<translation id="3511996232906761537">Web, penanda halaman dan barangan Onevn anda yang lain tinggal di sini.</translation>
+<translation id="7406627712452599344">Tetamu boleh menggunakan Onevn tanpa meninggalkan apa-apa.</translation>
+<translation id="5659384504794665581">Jika anda berkongsi komputer, rakan dan keluarga boleh menyemak imbas secara berasingan dan menyediakan Onevn sebagaimana yang mereka mahukan.</translation>
+<translation id="7130675370997202556">Klik nama anda untuk membuka Onevn dan mula menyemak imbas.</translation>
+<translation id="5952898964075639679">Tambahkan diri anda kepada Onevn</translation>
+<translation id="3813272600615358652">Sambungan ini telah menukar halaman yang ditunjukkan apabila anda memulakan Onevn.</translation>
+<translation id="2576129394594491151">Sambungan "<ph name="EXTENSION_NAME"/>" telah menukar halaman yang ditunjukkan apabila anda memulakan Onevn.</translation>
+<translation id="2675662665675552980">Sambungan turut mengawal halaman yang ditunjukkan apabila anda memulakan Onevn.</translation>
+<translation id="3215652305414474626">Sambungan turut mengawal halaman yang ditunjukkan apabila anda memulakan Onevn atau mengklik butang Laman Utama.</translation>
+<translation id="2433912322225810055">Sambungan turut mengawal halaman yang ditunjukkan apabila anda memulakan Onevn atau membuat carian dari Kotak Omni.</translation>
+<translation id="2871190378186459992">Temui apl, permainan, sambungan dan tema yang hebat untuk Onevn.</translation>
+<translation id="3350544518197210895">Onevn (mDNS-In)</translation>
+<translation id="1912973375560256099">Peraturan masuk bagi Onevn untuk membolehkan trafik mDNS.</translation>
+<translation id="8207657266087451193">Jika imej tiada perihalan yang berguna, Onevn akan cuba memberikan perihalan untuk anda. Untuk membuat perihalan, imej dihantar kepada Onevn Software. Anda boleh mematikan pilihan ini dalam tetapan pada bila-bila masa.</translation>
+<translation id="5499063270485366718">Jika imej tiada perihalan yang berguna, Onevn akan cuba memberikan perihalan untuk anda. Untuk membuat perihalan, imej dihantar kepada Onevn Software.</translation>
+<translation id="7276297358157391541">Onevn dapat menyediakan semakan ejaan yang lebih pintar dengan menghantar apa yang anda taip dalam penyemak imbas kepada pelayan Onevn Software, membolehkan anda menggunakan teknologi semakan ejaan yang sama seperti yang digunakan oleh carian Onevn Software.</translation>
+<translation id="1807774211756215222">Buka pautan dalam &amp;tab Onevn baharu</translation>
+<translation id="4624945300945265642">Buka pautan dalam tetingkap inko&amp;gnito Onevn</translation>
+<translation id="7863882214613921971">Buka Pautan dalam &amp;tab Onevn Baharu</translation>
+<translation id="6554952862405000915">Buka Pautan dalam Tetingkap Inko&amp;gnito Onevn</translation>
+<translation id="4805806622840861220">Lancarkan Semula Onevn</translation>
+<translation id="2560046583427795596">Kemas kini baharu tersedia untuk Onevn dan akan digunakan sebaik sahaja anda melancarkan Onevn semula.</translation>
 <translation id="2799223571221894425">Lancarkan semula</translation>
-<translation id="2522086024276534909">Mulakan semula OS OneVN</translation>
-<translation id="8183252473547465084">OneVN OS perlu dimulakan semula untuk melaksanakan kemas kini.</translation>
+<translation id="2522086024276534909">Mulakan semula OS Onevn</translation>
+<translation id="8183252473547465084">Onevn OS perlu dimulakan semula untuk melaksanakan kemas kini.</translation>
 <translation id="5895138241574237353">Mulakan Semula</translation>
-<translation id="5875673934455379806">Pasang semula OneVN</translation>
-<translation id="2097604701283463988">OneVN sudah usang</translation>
-<translation id="5173820533850252773">OneVN sudah usang</translation>
-<translation id="6389268239133412586">Tidak dapat mengemas kini OneVN</translation>
-<translation id="7963515534397191222">OneVN tidak dapat mengemas kini kepada versi terkini, maka anda terlepas ciri baharu dan penyelesaian keselamatan.</translation>
-<translation id="1705567146636171298">Kemas kini OneVN</translation>
-<translation id="3598551856834560515">Kemas kini OneVN untuk memulakan penyegerakan</translation>
+<translation id="5875673934455379806">Pasang semula Onevn</translation>
+<translation id="2097604701283463988">Onevn sudah usang</translation>
+<translation id="5173820533850252773">Onevn sudah usang</translation>
+<translation id="6389268239133412586">Tidak dapat mengemas kini Onevn</translation>
+<translation id="7963515534397191222">Onevn tidak dapat mengemas kini kepada versi terkini, maka anda terlepas ciri baharu dan penyelesaian keselamatan.</translation>
+<translation id="1705567146636171298">Kemas kini Onevn</translation>
+<translation id="3598551856834560515">Kemas kini Onevn untuk memulakan penyegerakan</translation>
 <translation id="4050175100176540509">Peningkatan keselamatan penting dan ciri baharu tersedia dalam versi terkini.</translation>
-<translation id="2513524988380267210">{SECONDS,plural, =1{OneVN akan dimulakan semula dalam 1 saat}other{OneVN akan dimulakan semula dalam # saat}}</translation>
-<translation id="5509303873219371662">Anda perlu memulakan semula OneVN sekarang</translation>
-<translation id="8668413672647811944">Kemas kini keselamatan khas untuk OneVN baru sahaja dilakukan. Mulakan semula sekarang dan kami akan memulihkan tab anda.</translation>
-<translation id="763369711159699222">Bantu menjadikan OneVN lebih baik</translation>
-<translation id="1156940037717341650">Anda boleh membantu menjadikan OneVN lebih selamat dan lebih mudah untuk digunakan dengan melaporkan butiran kemungkinan insiden keselamatan secara automatik kepada OneVN Software.</translation>
-<translation id="6791166902140255175">Tab OneVN</translation>
-<translation id="2555639463117073782">Mulakan semula OneVN untuk mendayakan <ph name="PLUGIN_NAME"/></translation>
-<translation id="8899693649891674038">Pasang OneVN pada telefon anda. Kami akan menghantar SMS ke telefon anda.</translation>
-<translation id="1570795130102031380">Pasang OneVN pada telefon anda. Kami akan menghantar SMS ke telefon anda: <ph name="PHONE_NUMBER"/></translation>
-<translation id="1609678321160597289">Pasang OneVN pada telefon anda. Kami akan menghantar SMS ke nombor telefon pemulihan akaun anda.</translation>
-<translation id="2965084188004448871">Pasang OneVN pada telefon anda. Kami akan menghantar SMS ke nombor telefon pemulihan akaun anda: <ph name="PHONE_NUMBER"/></translation>
-<translation id="8358191771897395012">dapatkan OneVN pada iPhone anda</translation>
-<translation id="2034072705932785495">OneVN memerlukan kebenaran untuk mengakses kamera anda bagi tapak ini</translation>
-<translation id="3335606533094650083">OneVN memerlukan kebenaran untuk mengakses mikrofon anda bagi tapak ini</translation>
-<translation id="4831743161813926460">OneVN memerlukan kebenaran untuk mengakses kamera dan mikrofon anda bagi tapak ini</translation>
-<translation id="696826782632239602">OneVN memerlukan akses kepada lokasi anda untuk berkongsi lokasi dengan tapak ini</translation>
-<translation id="7798069806040634998">OneVN memerlukan akses storan untuk memuat turun fail</translation>
-<translation id="7685904775439037072">Sebaik sahaja OneVN mendapat akses, tapak web akan dapat meminta akses daripada anda.</translation>
-<translation id="5805364706385912897">Halaman ini menggunakan terlalu banyak memori, jadi OneVN menjeda halaman ini.</translation>
-<translation id="5138664332909611586">Halaman ini menggunakan terlalu banyak memori, jadi OneVN mengalih keluar sebahagian kandungan.</translation>
-<translation id="1744365871163268756">Sila tunggu sementara OneVN memasang kemas kini sistem terkini.</translation>
-<translation id="5693614905241031118">OneVN dikemas kini secara automatik supaya anda sentiasa mempunyai versi yang terbaharu.</translation>
-<translation id="6141293433381251973">OneVN dikemas kini secara automatik supaya anda sentiasa mempunyai versi yang terbaharu. Apabila muat turun ini selesai, OneVN akan dimulakan semula dan anda sudah boleh menggunakannya.</translation>
-<translation id="7808415789955822133">Syarat OneVN OS</translation>
-<translation id="7207456302801184289">Selamat datang ke OneVN</translation>
-<translation id="5688839044908745927">OneVN hampir sedia.</translation>
-<translation id="7758342895140862711">Bawa OneVN ke mana-mana sahaja</translation>
-<translation id="3610173904388112975">Penyemakan imbas web dengan OneVN Software smarts</translation>
+<translation id="2513524988380267210">{SECONDS,plural, =1{Onevn akan dimulakan semula dalam 1 saat}other{Onevn akan dimulakan semula dalam # saat}}</translation>
+<translation id="5509303873219371662">Anda perlu memulakan semula Onevn sekarang</translation>
+<translation id="8668413672647811944">Kemas kini keselamatan khas untuk Onevn baru sahaja dilakukan. Mulakan semula sekarang dan kami akan memulihkan tab anda.</translation>
+<translation id="763369711159699222">Bantu menjadikan Onevn lebih baik</translation>
+<translation id="1156940037717341650">Anda boleh membantu menjadikan Onevn lebih selamat dan lebih mudah untuk digunakan dengan melaporkan butiran kemungkinan insiden keselamatan secara automatik kepada Onevn Software.</translation>
+<translation id="6791166902140255175">Tab Onevn</translation>
+<translation id="2555639463117073782">Mulakan semula Onevn untuk mendayakan <ph name="PLUGIN_NAME"/></translation>
+<translation id="8899693649891674038">Pasang Onevn pada telefon anda. Kami akan menghantar SMS ke telefon anda.</translation>
+<translation id="1570795130102031380">Pasang Onevn pada telefon anda. Kami akan menghantar SMS ke telefon anda: <ph name="PHONE_NUMBER"/></translation>
+<translation id="1609678321160597289">Pasang Onevn pada telefon anda. Kami akan menghantar SMS ke nombor telefon pemulihan akaun anda.</translation>
+<translation id="2965084188004448871">Pasang Onevn pada telefon anda. Kami akan menghantar SMS ke nombor telefon pemulihan akaun anda: <ph name="PHONE_NUMBER"/></translation>
+<translation id="8358191771897395012">dapatkan Onevn pada iPhone anda</translation>
+<translation id="2034072705932785495">Onevn memerlukan kebenaran untuk mengakses kamera anda bagi tapak ini</translation>
+<translation id="3335606533094650083">Onevn memerlukan kebenaran untuk mengakses mikrofon anda bagi tapak ini</translation>
+<translation id="4831743161813926460">Onevn memerlukan kebenaran untuk mengakses kamera dan mikrofon anda bagi tapak ini</translation>
+<translation id="696826782632239602">Onevn memerlukan akses kepada lokasi anda untuk berkongsi lokasi dengan tapak ini</translation>
+<translation id="7798069806040634998">Onevn memerlukan akses storan untuk memuat turun fail</translation>
+<translation id="7685904775439037072">Sebaik sahaja Onevn mendapat akses, tapak web akan dapat meminta akses daripada anda.</translation>
+<translation id="5805364706385912897">Halaman ini menggunakan terlalu banyak memori, jadi Onevn menjeda halaman ini.</translation>
+<translation id="5138664332909611586">Halaman ini menggunakan terlalu banyak memori, jadi Onevn mengalih keluar sebahagian kandungan.</translation>
+<translation id="1744365871163268756">Sila tunggu sementara Onevn memasang kemas kini sistem terkini.</translation>
+<translation id="5693614905241031118">Onevn dikemas kini secara automatik supaya anda sentiasa mempunyai versi yang terbaharu.</translation>
+<translation id="6141293433381251973">Onevn dikemas kini secara automatik supaya anda sentiasa mempunyai versi yang terbaharu. Apabila muat turun ini selesai, Onevn akan dimulakan semula dan anda sudah boleh menggunakannya.</translation>
+<translation id="7808415789955822133">Syarat Onevn OS</translation>
+<translation id="7207456302801184289">Selamat datang ke Onevn</translation>
+<translation id="5688839044908745927">Onevn hampir sedia.</translation>
+<translation id="7758342895140862711">Bawa Onevn ke mana-mana sahaja</translation>
+<translation id="3610173904388112975">Penyemakan imbas web dengan Onevn Software smarts</translation>
 <translation id="3479552764303398839">Bukan sekarang</translation>
-<translation id="8013374903356993822">Akses OneVN dengan lebih cepat</translation>
-<translation id="7625138338483121345">Jadikan OneVN penyemak imbas lalai anda</translation>
-<translation id="5927044791090834489">Sematkan OneVN pada bar tugas anda</translation>
-<translation id="8933981935877469796">Pilih <ph name="SMALL_PRODUCT_LOGO"/> <ph name="BEGIN_BOLD"/>OneVN<ph name="END_BOLD"/></translation>
+<translation id="8013374903356993822">Akses Onevn dengan lebih cepat</translation>
+<translation id="7625138338483121345">Jadikan Onevn penyemak imbas lalai anda</translation>
+<translation id="5927044791090834489">Sematkan Onevn pada bar tugas anda</translation>
+<translation id="8933981935877469796">Pilih <ph name="SMALL_PRODUCT_LOGO"/> <ph name="BEGIN_BOLD"/>Onevn<ph name="END_BOLD"/></translation>
 <translation id="1585657529869845941">Klik <ph name="BEGIN_BOLD"/>Tukar juga<ph name="END_BOLD"/>, jika dipaparkan</translation>
-<translation id="3507835409099344374">Pergi ke tetapan pemberitahuan OneVN</translation>
-<translation id="9118654140804842635">{0,plural, =0{Kemas kini OneVN tersedia}=1{Kemas kini OneVN tersedia}other{Kemas kini OneVN telah tersedia selama # hari}}</translation>
-<translation id="720532315408041257">Pentadbir anda meminta anda melancarkan semula OneVN untuk menggunakan kemas kini ini</translation>
-<translation id="6639482638305253477">{0,plural, =1{Lancarkan semula OneVN dalam masa sehari}other{Lancarkan semula OneVN dalam masa # hari}}</translation>
-<translation id="656910845148850955">{0,plural, =1{OneVN akan dilancarkan semula dalam masa sejam}other{OneVN akan dilancarkan semula dalam masa # jam}}</translation>
-<translation id="2927768292099217319">{0,plural, =1{OneVN akan dilancarkan semula dalam masa seminit}other{OneVN akan dilancarkan semula dalam masa # minit}}</translation>
-<translation id="2124855793980950516">{0,plural, =0{OneVN akan dilancarkan semula sekarang}=1{OneVN akan dilancarkan semula dalam masa sesaat}other{OneVN akan dilancarkan semula dalam masa # saat}}</translation>
-<translation id="7595187113648413294">Pentadbir anda menghendaki anda melancarkan semula OneVN untuk menggunakan kemas kini</translation>
-<translation id="56801943271475640">{0,plural, =0{Kemas kini OS OneVN tersedia}=1{Kemas kini OS OneVN tersedia}other{Kemas kini OS OneVN telah tersedia selama # hari}}</translation>
-<translation id="5715362474140341294">Pentadbir anda meminta anda memulakan semula OS OneVN untuk menerapkan kemas kini ini</translation>
-<translation id="8094834892392729950">{0,plural, =1{Mulakan semula OS OneVN dalam masa sehari}other{Mulakan semula OS OneVN dalam masa # hari}}</translation>
-<translation id="1265795866000813420">{0,plural, =1{OS OneVN akan dimulakan semula dalam masa sejam}other{OS OneVN akan dimulakan semula dalam masa # jam}}</translation>
-<translation id="2031312345409605311">{0,plural, =1{OS OneVN akan dimulakan semula dalam masa seminit}other{OS OneVN akan dimulakan semula dalam masa # minit}}</translation>
-<translation id="8624602604153953835">{0,plural, =0{OS OneVN akan dimulakan semula sekarang}=1{OS OneVN akan dimulakan semula dalam masa sesaat}other{OS OneVN akan dimulakan semula dalam masa # saat}}</translation>
-<translation id="8559452515617838628">Pentadbir anda menghendaki anda memulakan semula OS OneVN untuk menerapkan kemas kini</translation>
-<translation id="3052349005266761501">Melancarkan OneVN...</translation>
-<translation id="1197672524850678392">Tidak dapat melancarkan OneVN. Cuba lagi.</translation>
+<translation id="3507835409099344374">Pergi ke tetapan pemberitahuan Onevn</translation>
+<translation id="9118654140804842635">{0,plural, =0{Kemas kini Onevn tersedia}=1{Kemas kini Onevn tersedia}other{Kemas kini Onevn telah tersedia selama # hari}}</translation>
+<translation id="720532315408041257">Pentadbir anda meminta anda melancarkan semula Onevn untuk menggunakan kemas kini ini</translation>
+<translation id="6639482638305253477">{0,plural, =1{Lancarkan semula Onevn dalam masa sehari}other{Lancarkan semula Onevn dalam masa # hari}}</translation>
+<translation id="656910845148850955">{0,plural, =1{Onevn akan dilancarkan semula dalam masa sejam}other{Onevn akan dilancarkan semula dalam masa # jam}}</translation>
+<translation id="2927768292099217319">{0,plural, =1{Onevn akan dilancarkan semula dalam masa seminit}other{Onevn akan dilancarkan semula dalam masa # minit}}</translation>
+<translation id="2124855793980950516">{0,plural, =0{Onevn akan dilancarkan semula sekarang}=1{Onevn akan dilancarkan semula dalam masa sesaat}other{Onevn akan dilancarkan semula dalam masa # saat}}</translation>
+<translation id="7595187113648413294">Pentadbir anda menghendaki anda melancarkan semula Onevn untuk menggunakan kemas kini</translation>
+<translation id="56801943271475640">{0,plural, =0{Kemas kini OS Onevn tersedia}=1{Kemas kini OS Onevn tersedia}other{Kemas kini OS Onevn telah tersedia selama # hari}}</translation>
+<translation id="5715362474140341294">Pentadbir anda meminta anda memulakan semula OS Onevn untuk menerapkan kemas kini ini</translation>
+<translation id="8094834892392729950">{0,plural, =1{Mulakan semula OS Onevn dalam masa sehari}other{Mulakan semula OS Onevn dalam masa # hari}}</translation>
+<translation id="1265795866000813420">{0,plural, =1{OS Onevn akan dimulakan semula dalam masa sejam}other{OS Onevn akan dimulakan semula dalam masa # jam}}</translation>
+<translation id="2031312345409605311">{0,plural, =1{OS Onevn akan dimulakan semula dalam masa seminit}other{OS Onevn akan dimulakan semula dalam masa # minit}}</translation>
+<translation id="8624602604153953835">{0,plural, =0{OS Onevn akan dimulakan semula sekarang}=1{OS Onevn akan dimulakan semula dalam masa sesaat}other{OS Onevn akan dimulakan semula dalam masa # saat}}</translation>
+<translation id="8559452515617838628">Pentadbir anda menghendaki anda memulakan semula OS Onevn untuk menerapkan kemas kini</translation>
+<translation id="3052349005266761501">Melancarkan Onevn...</translation>
+<translation id="1197672524850678392">Tidak dapat melancarkan Onevn. Cuba lagi.</translation>
 <translation id="6040143037577758943">Tutup</translation>
-<translation id="8541922081612557424">Mengenai OneVN</translation>
-<translation id="3262506503470845422">Dapatkan bantuan berkenaan OneVN</translation>
-<translation id="1864557848095568223">Mengemas kini OneVN</translation>
-<translation id="1786715389543715322">Mengemas kini OneVN (<ph name="PROGRESS_PERCENT"/>)</translation>
-<translation id="8208853227947884571">OneVN telah dikemas kini</translation>
-<translation id="6686872257969654608">Mengenai OneVN OS</translation>
-<translation id="2280363356796735201">Dapatkan bantuan berkenaan OneVN OS</translation>
-<translation id="5253815230176279256">OneVN Software Pay (disalin ke OneVN)</translation>
-<translation id="5468853758063275923">OneVN ialah penyemak imbas lalai anda</translation>
-<translation id="1775322105159056176">OneVN tidak dapat menentukan atau menetapkan penyemak imbas lalai</translation>
-<translation id="6915252145142862992">Ini adalah pemasangan kedua OneVN dan tidak boleh dijadikan penyemak imbas lalai anda.</translation>
-<translation id="7977435741986383568">OneVN boleh menggunakan perkhidmatan web untuk meningkatkan pengalaman penyemakan imbas anda. Anda boleh memilih untuk melumpuhkan perkhidmatan ini. <ph name="BEGIN_LINK"/>Ketahui lebih lanjut<ph name="END_LINK"/></translation>
-<translation id="2312399718665761438">Untuk membetulkan kesilapan ejaan, OneVN menghantar teks yang anda taip dalam medan teks kepada OneVN Software</translation>
-<translation id="8586264863973514035">Untuk menggunakan perubahan anda, mulakan semula OneVN</translation>
-<translation id="7021823858304886493">Benarkan log masuk OneVN</translation>
-<translation id="1649714546770135458">Dengan mematikan pilihan ini, anda boleh mengelog masuk ke tapak OneVN Software seperti Gmail tanpa perlu mengelog masuk ke OneVN</translation>
-<translation id="9220324636239049437">Tindakan ini akan memadamkan 1 item daripada peranti ini. Untuk mendapatkan kembali data anda kemudian, log masuk ke OneVN sebagai <ph name="USER_EMAIL"/>.</translation>
-<translation id="5853262807109651878">Tindakan ini akan memadamkan <ph name="ITEMS_COUNT"/> item daripada peranti ini. Untuk mendapatkan kembali data anda kemudian, log masuk ke OneVN sebagai <ph name="USER_EMAIL"/>.</translation>
-<translation id="4784414698887946907">Tindakan ini akan memadamkan data semakan imbas anda daripada peranti ini. Untuk mendapatkan kembali data anda kemudian, log masuk ke OneVN sebagai <ph name="USER_EMAIL"/>.</translation>
-<translation id="4518479204315969707">Nama dan gambar OneVN</translation>
-<translation id="8372880274820509128">Untuk keselamatan tambahan, OneVN akan menyulitkan data anda.</translation>
-<translation id="7445061995866044926">Log keluar daripada OneVN?</translation>
-<translation id="7453070689008684791">OneVN akan mengakses Drive anda untuk membuat cadangan dalam bar alamat</translation>
-<translation id="9221712274065451529">Bahasa ini digunakan untuk memaparkan UI OS OneVN</translation>
-<translation id="3518788198614984730">Paparkan OS OneVN dalam bahasa ini</translation>
-<translation id="5757460455745382269">Bahasa ini digunakan untuk memaparkan UI OneVN</translation>
-<translation id="2335583906071111058">Paparkan OneVN dalam bahasa ini</translation>
-<translation id="8926637909431618259">Terus menjalankan apl latar belakang apabila OneVN ditutup</translation>
-<translation id="6056473803837713617">Bantu jadikan OneVN lebih baik dengan melaporkan <ph name="BEGIN_LINK"/>tetapan semasa<ph name="END_LINK"/></translation>
+<translation id="8541922081612557424">Mengenai Onevn</translation>
+<translation id="3262506503470845422">Dapatkan bantuan berkenaan Onevn</translation>
+<translation id="1864557848095568223">Mengemas kini Onevn</translation>
+<translation id="1786715389543715322">Mengemas kini Onevn (<ph name="PROGRESS_PERCENT"/>)</translation>
+<translation id="8208853227947884571">Onevn telah dikemas kini</translation>
+<translation id="6686872257969654608">Mengenai Onevn OS</translation>
+<translation id="2280363356796735201">Dapatkan bantuan berkenaan Onevn OS</translation>
+<translation id="5253815230176279256">Onevn Software Pay (disalin ke Onevn)</translation>
+<translation id="5468853758063275923">Onevn ialah penyemak imbas lalai anda</translation>
+<translation id="1775322105159056176">Onevn tidak dapat menentukan atau menetapkan penyemak imbas lalai</translation>
+<translation id="6915252145142862992">Ini adalah pemasangan kedua Onevn dan tidak boleh dijadikan penyemak imbas lalai anda.</translation>
+<translation id="7977435741986383568">Onevn boleh menggunakan perkhidmatan web untuk meningkatkan pengalaman penyemakan imbas anda. Anda boleh memilih untuk melumpuhkan perkhidmatan ini. <ph name="BEGIN_LINK"/>Ketahui lebih lanjut<ph name="END_LINK"/></translation>
+<translation id="2312399718665761438">Untuk membetulkan kesilapan ejaan, Onevn menghantar teks yang anda taip dalam medan teks kepada Onevn Software</translation>
+<translation id="8586264863973514035">Untuk menggunakan perubahan anda, mulakan semula Onevn</translation>
+<translation id="7021823858304886493">Benarkan log masuk Onevn</translation>
+<translation id="1649714546770135458">Dengan mematikan pilihan ini, anda boleh mengelog masuk ke tapak Onevn Software seperti Gmail tanpa perlu mengelog masuk ke Onevn</translation>
+<translation id="9220324636239049437">Tindakan ini akan memadamkan 1 item daripada peranti ini. Untuk mendapatkan kembali data anda kemudian, log masuk ke Onevn sebagai <ph name="USER_EMAIL"/>.</translation>
+<translation id="5853262807109651878">Tindakan ini akan memadamkan <ph name="ITEMS_COUNT"/> item daripada peranti ini. Untuk mendapatkan kembali data anda kemudian, log masuk ke Onevn sebagai <ph name="USER_EMAIL"/>.</translation>
+<translation id="4784414698887946907">Tindakan ini akan memadamkan data semakan imbas anda daripada peranti ini. Untuk mendapatkan kembali data anda kemudian, log masuk ke Onevn sebagai <ph name="USER_EMAIL"/>.</translation>
+<translation id="4518479204315969707">Nama dan gambar Onevn</translation>
+<translation id="8372880274820509128">Untuk keselamatan tambahan, Onevn akan menyulitkan data anda.</translation>
+<translation id="7445061995866044926">Log keluar daripada Onevn?</translation>
+<translation id="7453070689008684791">Onevn akan mengakses Drive anda untuk membuat cadangan dalam bar alamat</translation>
+<translation id="9221712274065451529">Bahasa ini digunakan untuk memaparkan UI OS Onevn</translation>
+<translation id="3518788198614984730">Paparkan OS Onevn dalam bahasa ini</translation>
+<translation id="5757460455745382269">Bahasa ini digunakan untuk memaparkan UI Onevn</translation>
+<translation id="2335583906071111058">Paparkan Onevn dalam bahasa ini</translation>
+<translation id="8926637909431618259">Terus menjalankan apl latar belakang apabila Onevn ditutup</translation>
+<translation id="6056473803837713617">Bantu jadikan Onevn lebih baik dengan melaporkan <ph name="BEGIN_LINK"/>tetapan semasa<ph name="END_LINK"/></translation>
 </translationbundle>

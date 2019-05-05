@@ -7,22 +7,22 @@
 
 #include "chrome/browser/permissions/permission_manager_factory.h"
 
-class OneVNPermissionManagerFactory : public PermissionManagerFactory {
+class OnevnPermissionManagerFactory : public PermissionManagerFactory {
  public:
   static PermissionManager* GetForProfile(Profile* profile);
-  static OneVNPermissionManagerFactory* GetInstance();
+  static OnevnPermissionManagerFactory* GetInstance();
 
  private:
-  friend struct base::DefaultSingletonTraits<OneVNPermissionManagerFactory>;
+  friend struct base::DefaultSingletonTraits<OnevnPermissionManagerFactory>;
 
-  OneVNPermissionManagerFactory();
-  ~OneVNPermissionManagerFactory() override;
+  OnevnPermissionManagerFactory();
+  ~OnevnPermissionManagerFactory() override;
 
   // BrowserContextKeyedBaseFactory methods:
   KeyedService* BuildServiceInstanceFor(
       content::BrowserContext* profile) const override;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNPermissionManagerFactory);
+  DISALLOW_COPY_AND_ASSIGN(OnevnPermissionManagerFactory);
 };
 
 #endif // ONEVN_BROWSER_PERMISSION_ONEVN_PERMISSION_MANAGER_FACTORR_H_

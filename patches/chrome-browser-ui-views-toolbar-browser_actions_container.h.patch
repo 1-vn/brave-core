@@ -6,7 +6,7 @@ index e98ac1f87b7af25d175b8d95ffd8b494bb21aca2..5b2557e8aa6a120fca4111c863933e6c
    static views::FlexRule GetFlexRule();
  
   protected:
-+  friend class OneVNToolbarView;
++  friend class OnevnToolbarView;
    // Overridden from views::View:
    void ViewHierarchyChanged(
        const ViewHierarchyChangedDetails& details) override;

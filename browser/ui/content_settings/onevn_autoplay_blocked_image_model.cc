@@ -14,11 +14,11 @@
 
 using content::WebContents;
 
-OneVNAutoplayBlockedImageModel::OneVNAutoplayBlockedImageModel()
+OnevnAutoplayBlockedImageModel::OnevnAutoplayBlockedImageModel()
     : ContentSettingSimpleImageModel(ImageType::PLUGINS,
                                      CONTENT_SETTINGS_TYPE_AUTOPLAY) {}
 
-bool OneVNAutoplayBlockedImageModel::UpdateAndGetVisibility(WebContents* web_contents) {
+bool OnevnAutoplayBlockedImageModel::UpdateAndGetVisibility(WebContents* web_contents) {
   if (!web_contents)
     return false;
 
@@ -38,7 +38,7 @@ bool OneVNAutoplayBlockedImageModel::UpdateAndGetVisibility(WebContents* web_con
 }
 
 std::unique_ptr<ContentSettingBubbleModel>
-OneVNAutoplayBlockedImageModel::CreateBubbleModelImpl(ContentSettingBubbleModel::Delegate* delegate,
+OnevnAutoplayBlockedImageModel::CreateBubbleModelImpl(ContentSettingBubbleModel::Delegate* delegate,
       content::WebContents* web_contents) {
-  return std::make_unique<OneVNAutoplayContentSettingBubbleModel>(delegate, web_contents);
+  return std::make_unique<OnevnAutoplayContentSettingBubbleModel>(delegate, web_contents);
 }

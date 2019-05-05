@@ -28,7 +28,7 @@
     "description": "Link in the footer (takes you to rewards settings page) for welcome screen in the panel, new user"
   },
   "welcomeHeaderOne": {
-    "message": "हमने OneVN Rewards को एक महत्वपूर्ण अपग्रेड दिया है।",
+    "message": "हमने Onevn Rewards को एक महत्वपूर्ण अपग्रेड दिया है।",
     "description": "Main header title for welcome screen in the panel, existing user"
   },
   "welcomeHeaderTwo": {
@@ -48,7 +48,7 @@
     "description": "The whole string is 'Enable tips on YouTube for like.'"
   },
   "verifiedPublisher": {
-    "message": "OneVN द्वारा प्रमाणित प्रकाशक ",
+    "message": "Onevn द्वारा प्रमाणित प्रकाशक ",
     "description": "Tells user that this particular publisher is verified publisher"
   },
   "rewardsContributeAttentionScore": {
@@ -194,11 +194,11 @@
     "description": "Notification title when we ask user to backup wallet"
   },
   "backupWalletNotification": {
-    "message": "कृपया अपने OneVN बटुए को बैकअप करें।",
+    "message": "कृपया अपने Onevn बटुए को बैकअप करें।",
     "description": "Description for backup wallet notification"
   },
   "insufficientFundsNotification": {
-    "message": "आपका OneVN Rewards खाता धनराशि की प्रतीक्षा कर रहा है।",
+    "message": "आपका Onevn Rewards खाता धनराशि की प्रतीक्षा कर रहा है।",
     "description": "Description for new insufficient funds notification"
   },
   "insufficientFunds": {
@@ -270,7 +270,7 @@
     "description": "Button text for clearing the error."
   },
   "grantGeneralErrorText": {
-    "message": "OneVN पुरस्कारों में कुछ समस्या आ रही है। कृपया बाद में पुनः प्रयास करें।",
+    "message": "Onevn पुरस्कारों में कुछ समस्या आ रही है। कृपया बाद में पुनः प्रयास करें।",
     "description": "Error text when user is having problems claiming a grant."
   },
   "grantGeneralErrorTitle": {
@@ -294,7 +294,7 @@
     "description": "Status of the publisher shown in the panel"
   },
   "unVerifiedText": {
-    "message": "इस निर्माता ने OneVN उपयोगकर्ताओं से योगदान प्राप्त करने के लिए अभी तक साइन अप नहीं किया है। उनके सत्यापित होने तक आपके द्वारा भेजी गयी कोई भी बख्शीश आपके ही बटुए में रहेगी।",
+    "message": "इस निर्माता ने Onevn उपयोगकर्ताओं से योगदान प्राप्त करने के लिए अभी तक साइन अप नहीं किया है। उनके सत्यापित होने तक आपके द्वारा भेजी गयी कोई भी बख्शीश आपके ही बटुए में रहेगी।",
     "description": "Notice about unverified publisher."
   },
   "unVerifiedTextMore": {
@@ -322,7 +322,7 @@
     "description": "Text for Panel's disabled state"
   },
   "disabledPanelTitle": {
-    "message": "OneVN पुरस्कार है ",
+    "message": "Onevn पुरस्कार है ",
     "description": "Title for Panel's disabled state"
   },
   "walletFailedTitle": {
@@ -358,7 +358,7 @@
     "description": "Text block for wallet disabled panel"
   },
   "enableRewards": {
-    "message": "OneVN रिवार्ड्स को सक्षम करें ",
+    "message": "Onevn रिवार्ड्स को सक्षम करें ",
     "description": "Subtitle for wallet disabled panel"
   },
   "privacyPolicy": {
@@ -366,7 +366,7 @@
     "description": "Privacy Policy"
   },
   "serviceText": {
-    "message": "'OneVN Rewards सक्रिय करें' पर क्लिक करके, आप सूचित करते हैं कि आपने को पढ़ा है और सहमत हैं",
+    "message": "'Onevn Rewards सक्रिय करें' पर क्लिक करके, आप सूचित करते हैं कि आपने को पढ़ा है और सहमत हैं",
     "description": "Terms of service main text"
   },
   "termsOfService": {

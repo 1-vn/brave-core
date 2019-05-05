@@ -11,7 +11,7 @@
 
 // The purpose of this service for tor is making user changed search engine
 // provider persist across the sessions.
-// Also, OneVNProfileManager::SetNonPersonalProfilePrefs() overrides for it.
+// Also, OnevnProfileManager::SetNonPersonalProfilePrefs() overrides for it.
 class TorWindowSearchEngineProviderService
     : public SearchEngineProviderService,
       public TemplateURLServiceObserver {

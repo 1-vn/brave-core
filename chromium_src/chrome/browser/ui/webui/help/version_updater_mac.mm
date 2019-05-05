@@ -37,7 +37,7 @@
     NSNotificationCenter* center = [NSNotificationCenter defaultCenter];
     [center addObserver:self
                selector:@selector(handleStatusNotification:)
-                   name:kOneVNAutoupdateStatusNotification
+                   name:kOnevnAutoupdateStatusNotification
                  object:nil];
   }
   return self;
@@ -113,10 +113,10 @@ void VersionUpdaterMac::PromoteUpdater() const {
 void VersionUpdaterMac::UpdateStatus(NSDictionary* dictionary) {
   AutoupdateStatus sparkle_status = static_cast<AutoupdateStatus>(
       [base::mac::ObjCCastStrict<NSNumber>(
-          [dictionary objectForKey:kOneVNAutoupdateStatusStatus]) intValue]);
+          [dictionary objectForKey:kOnevnAutoupdateStatusStatus]) intValue]);
   std::string error_messages = base::SysNSStringToUTF8(
       base::mac::ObjCCastStrict<NSString>(
-          [dictionary objectForKey:kOneVNAutoupdateStatusErrorMessages]));
+          [dictionary objectForKey:kOnevnAutoupdateStatusErrorMessages]));
 
   base::string16 message;
 

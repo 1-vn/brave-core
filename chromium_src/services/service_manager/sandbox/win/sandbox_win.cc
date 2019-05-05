@@ -2,7 +2,7 @@
 #include "base/process/launch.h"
 
 namespace {
-void OneVNLaunchOption(base::CommandLine* cmd_line,
+void OnevnLaunchOption(base::CommandLine* cmd_line,
                        base::LaunchOptions *options) {
   // tor::swtiches::kTorExecutablePath
   if (cmd_line->HasSwitch("tor-executable-path"))

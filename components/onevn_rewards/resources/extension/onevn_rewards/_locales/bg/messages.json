@@ -1,6 +1,6 @@
 {
   "onevnRewards": {
-    "message": "OneVN награди",
+    "message": "Onevn награди",
     "description": "Title in welcome screen for the panel"
   },
   "welcomeButtonTextOne": {
@@ -28,7 +28,7 @@
     "description": "Link in the footer (takes you to rewards settings page) for welcome screen in the panel, new user"
   },
   "welcomeHeaderOne": {
-    "message": "Направихме голяма актуализация на OneVN наградите.",
+    "message": "Направихме голяма актуализация на Onevn наградите.",
     "description": "Main header title for welcome screen in the panel, existing user"
   },
   "welcomeHeaderTwo": {
@@ -48,7 +48,7 @@
     "description": "The whole string is 'Enable tips on YouTube for like.'"
   },
   "verifiedPublisher": {
-    "message": "OneVN проверен издател",
+    "message": "Onevn проверен издател",
     "description": "Tells user that this particular publisher is verified publisher"
   },
   "rewardsContributeAttentionScore": {
@@ -164,7 +164,7 @@
     "description": "Used in notification to dismiss notification"
   },
   "onevnAdsTitle": {
-    "message": "Реклами в OneVN",
+    "message": "Реклами в Onevn",
     "description": "Notification title when we display info about ads"
   },
   "onevnContributeTitle": {
@@ -194,11 +194,11 @@
     "description": "Notification title when we ask user to backup wallet"
   },
   "backupWalletNotification": {
-    "message": "Моля, направете архивно копие на вашия OneVN портфейл.",
+    "message": "Моля, направете архивно копие на вашия Onevn портфейл.",
     "description": "Description for backup wallet notification"
   },
   "insufficientFundsNotification": {
-    "message": "Вашият акаунт за OneVN награди очаква депозит.",
+    "message": "Вашият акаунт за Onevn награди очаква депозит.",
     "description": "Description for new insufficient funds notification"
   },
   "insufficientFunds": {
@@ -270,7 +270,7 @@
     "description": "Button text for clearing the error."
   },
   "grantGeneralErrorText": {
-    "message": "OneVN Rewards има проблеми. Моля, опитайте отново по-късно.",
+    "message": "Onevn Rewards има проблеми. Моля, опитайте отново по-късно.",
     "description": "Error text when user is having problems claiming a grant."
   },
   "grantGeneralErrorTitle": {
@@ -294,7 +294,7 @@
     "description": "Status of the publisher shown in the panel"
   },
   "unVerifiedText": {
-    "message": "Този създател все още не се е регистрирал да получава вноски от OneVN потребители. Всеки бакшиш който изпратите ще остава във вашия портфейл докато той потвърди.",
+    "message": "Този създател все още не се е регистрирал да получава вноски от Onevn потребители. Всеки бакшиш който изпратите ще остава във вашия портфейл докато той потвърди.",
     "description": "Notice about unverified publisher."
   },
   "unVerifiedTextMore": {
@@ -322,7 +322,7 @@
     "description": "Text for Panel's disabled state"
   },
   "disabledPanelTitle": {
-    "message": "OneVN Rewards е",
+    "message": "Onevn Rewards е",
     "description": "Title for Panel's disabled state"
   },
   "walletFailedTitle": {
@@ -358,7 +358,7 @@
     "description": "Text block for wallet disabled panel"
   },
   "enableRewards": {
-    "message": "Активирайте OneVN награди",
+    "message": "Активирайте Onevn награди",
     "description": "Subtitle for wallet disabled panel"
   },
   "privacyPolicy": {
@@ -366,7 +366,7 @@
     "description": "Privacy Policy"
   },
   "serviceText": {
-    "message": "Чрез щракване върху \"Разреши OneVN награди\" посочвате, че сте прочели и разбрали",
+    "message": "Чрез щракване върху \"Разреши Onevn награди\" посочвате, че сте прочели и разбрали",
     "description": "Terms of service main text"
   },
   "termsOfService": {

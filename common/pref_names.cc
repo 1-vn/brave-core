@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -25,8 +25,8 @@ const char kUseAlternativeSearchEngineProvider[] =
     "onevn.use_alternate_private_search_engine";
 const char kAlternativeSearchEngineProviderInTor[] =
     "onevn.alternate_private_search_engine_in_tor";
-const char kOneVNThemeType[] = "onevn.theme.type";
-const char kUseOverriddenOneVNThemeType[] =
+const char kOnevnThemeType[] = "onevn.theme.type";
+const char kUseOverriddenOnevnThemeType[] =
     "onevn.theme.use_overridden_onevn_theme_type";
 const char kLocationBarIsWide[] = "onevn.location_bar_is_wide";
 const char kReferralPromoCode[] = "onevn.referral.promo_code";
@@ -45,9 +45,9 @@ const char kFBEmbedControlType[] = "onevn.fb_embed_default";
 const char kTwitterEmbedControlType[] = "onevn.twitter_embed_default";
 const char kLinkedInEmbedControlType[] = "onevn.linkedin_embed_default";
 const char kMigratedMuonProfile[] = "onevn.muon.migrated_profile";
-const char kOneVNPaymentsPinnedItemCount[] =
+const char kOnevnPaymentsPinnedItemCount[] =
     "onevn.muon.import_pinned_item_count";
 const char kWebTorrentEnabled[] = "onevn.webtorrent_enabled";
 const char kHangoutsEnabled[] = "onevn.hangouts_enabled";
-const char kHideOneVNRewardsButton[] = "onevn.hide_onevn_rewards_button";
+const char kHideOnevnRewardsButton[] = "onevn.hide_onevn_rewards_button";
 const char kIPFSCompanionEnabled[] = "onevn.ipfs_companion_enabled";

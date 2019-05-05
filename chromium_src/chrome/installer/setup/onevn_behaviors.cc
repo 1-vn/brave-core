@@ -13,7 +13,7 @@ namespace installer {
 void DoPostUninstallOperations(const base::Version& version,
                                const base::FilePath& local_data_path,
                                const base::string16& distribution_data) {
-  // OneVN browser doesn't launch uninstall survey page.
+  // Onevn browser doesn't launch uninstall survey page.
 }
 
 }

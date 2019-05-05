@@ -53,8 +53,8 @@ void RewardsService::RegisterProfilePrefs(PrefRegistrySimple* registry) {
   registry->RegisterBooleanPref(prefs::kRewardsBackupSucceeded, false);
   registry->RegisterBooleanPref(prefs::kRewardsUserHasFunded, false);
   registry->RegisterTimePref(prefs::kRewardsAddFundsNotification, base::Time());
-  registry->RegisterBooleanPref(prefs::kOneVNRewardsEnabled, false);
-  registry->RegisterBooleanPref(prefs::kOneVNRewardsEnabledMigrated, false);
+  registry->RegisterBooleanPref(prefs::kOnevnRewardsEnabled, false);
+  registry->RegisterBooleanPref(prefs::kOnevnRewardsEnabledMigrated, false);
 }
 
 }  // namespace onevn_rewards

@@ -1,6 +1,6 @@
 {
   "onevnRewards": {
-    "message": "پاداش‌های OneVN",
+    "message": "پاداش‌های Onevn",
     "description": "Title in welcome screen for the panel"
   },
   "welcomeButtonTextOne": {
@@ -28,7 +28,7 @@
     "description": "Link in the footer (takes you to rewards settings page) for welcome screen in the panel, new user"
   },
   "welcomeHeaderOne": {
-    "message": "«پاداش‌های OneVN» را ارتقای قابل توجهی داده‌ایم.",
+    "message": "«پاداش‌های Onevn» را ارتقای قابل توجهی داده‌ایم.",
     "description": "Main header title for welcome screen in the panel, existing user"
   },
   "welcomeHeaderTwo": {
@@ -48,7 +48,7 @@
     "description": "The whole string is 'Enable tips on YouTube for like.'"
   },
   "verifiedPublisher": {
-    "message": "ناشر مورد تأیید OneVN",
+    "message": "ناشر مورد تأیید Onevn",
     "description": "Tells user that this particular publisher is verified publisher"
   },
   "rewardsContributeAttentionScore": {
@@ -164,7 +164,7 @@
     "description": "Used in notification to dismiss notification"
   },
   "onevnAdsTitle": {
-    "message": "آگهی‌های OneVN",
+    "message": "آگهی‌های Onevn",
     "description": "Notification title when we display info about ads"
   },
   "onevnContributeTitle": {
@@ -194,11 +194,11 @@
     "description": "Notification title when we ask user to backup wallet"
   },
   "backupWalletNotification": {
-    "message": "لطفاً از کیف پول OneVN‌ خود پشتیبان‌گیری کنید.",
+    "message": "لطفاً از کیف پول Onevn‌ خود پشتیبان‌گیری کنید.",
     "description": "Description for backup wallet notification"
   },
   "insufficientFundsNotification": {
-    "message": "حساب «پاداش‌های OneVN» منتظر سپرده است.",
+    "message": "حساب «پاداش‌های Onevn» منتظر سپرده است.",
     "description": "Description for new insufficient funds notification"
   },
   "insufficientFunds": {
@@ -270,7 +270,7 @@
     "description": "Button text for clearing the error."
   },
   "grantGeneralErrorText": {
-    "message": "«پاداش‌های OneVN» با مشکل روبرو است. لطفاً بعداً دوباره امتحان کنید.",
+    "message": "«پاداش‌های Onevn» با مشکل روبرو است. لطفاً بعداً دوباره امتحان کنید.",
     "description": "Error text when user is having problems claiming a grant."
   },
   "grantGeneralErrorTitle": {
@@ -294,7 +294,7 @@
     "description": "Status of the publisher shown in the panel"
   },
   "unVerifiedText": {
-    "message": "این پدیدآورنده هنوز برای دریافت کمک از کاربران OneVN ثبت‌نام نکرده است. تا زمانی که پدیدآورنده کمک را تأیید نکند، انعام‌هایی که ارسال می‌کنید در کیف پولتان باقی می‌مانند.",
+    "message": "این پدیدآورنده هنوز برای دریافت کمک از کاربران Onevn ثبت‌نام نکرده است. تا زمانی که پدیدآورنده کمک را تأیید نکند، انعام‌هایی که ارسال می‌کنید در کیف پولتان باقی می‌مانند.",
     "description": "Notice about unverified publisher."
   },
   "unVerifiedTextMore": {
@@ -322,7 +322,7 @@
     "description": "Text for Panel's disabled state"
   },
   "disabledPanelTitle": {
-    "message": "«پاداش‌های OneVN»",
+    "message": "«پاداش‌های Onevn»",
     "description": "Title for Panel's disabled state"
   },
   "walletFailedTitle": {
@@ -358,7 +358,7 @@
     "description": "Text block for wallet disabled panel"
   },
   "enableRewards": {
-    "message": "فعال کردن «پاداش‌های OneVN»",
+    "message": "فعال کردن «پاداش‌های Onevn»",
     "description": "Subtitle for wallet disabled panel"
   },
   "privacyPolicy": {
@@ -366,7 +366,7 @@
     "description": "Privacy Policy"
   },
   "serviceText": {
-    "message": "با کلیک کردن روی «فعال کردن پاداش‌های OneVN»، مشخص می‌کنید که موارد زیر را خوانده‌اید و با آن‌ها موافق هستید",
+    "message": "با کلیک کردن روی «فعال کردن پاداش‌های Onevn»، مشخص می‌کنید که موارد زیر را خوانده‌اید و با آن‌ها موافق هستید",
     "description": "Terms of service main text"
   },
   "termsOfService": {

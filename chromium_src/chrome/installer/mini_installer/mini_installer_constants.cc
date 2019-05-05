@@ -60,14 +60,14 @@ const wchar_t kUninstallRegistryValue[] = L"UninstallString";
 #if defined(OFFICIAL_BUILD)
 // The path to the key containing each app's Clients registry key. The trailing
 // slash is required.
-const wchar_t kClientsKeyBase[] = L"Software\\OneVNSoftware\\Update\\Clients\\";
+const wchar_t kClientsKeyBase[] = L"Software\\OnevnSoftware\\Update\\Clients\\";
 // The path to the key containing each app's Client State registry key. The
 // trailing slash is required.
 const wchar_t kClientStateKeyBase[] =
-    L"Software\\OneVNSoftware\\Update\\ClientState\\";
+    L"Software\\OnevnSoftware\\Update\\ClientState\\";
 // The path to the key in which kCleanupRegistryValue is found.
 const wchar_t kCleanupRegistryKey[] =
-    L"Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\OneVN";
+    L"Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Onevn";
 #else
 // The path to the key containing each app's Clients registry key.
 // No trailing slash on this one because the app's GUID is not appended.

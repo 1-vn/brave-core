@@ -13,5 +13,5 @@
 #define IPC_MESSAGE_START ShellMsgStart
 
 // Tell RenderFrame(s) to temporary allow scripts from a list of origins once.
-IPC_MESSAGE_ROUTED1(OneVNFrameMsg_AllowScriptsOnce,
+IPC_MESSAGE_ROUTED1(OnevnFrameMsg_AllowScriptsOnce,
                     std::vector<std::string> /* origins to allow scripts once */)

@@ -14,7 +14,7 @@
 
 using namespace onevn_rewards;
 
-class OneVNRewardsNotificationBrowserTest
+class OnevnRewardsNotificationBrowserTest
     : public InProcessBrowserTest,
       public RewardsNotificationServiceObserver {
  public:
@@ -91,7 +91,7 @@ class OneVNRewardsNotificationBrowserTest
   bool delete_notification_callback_was_called_ = false;
 };
 
-IN_PROC_BROWSER_TEST_F(OneVNRewardsNotificationBrowserTest, AddGrantNotification) {
+IN_PROC_BROWSER_TEST_F(OnevnRewardsNotificationBrowserTest, AddGrantNotification) {
   rewards_notification_service_->AddObserver(this);
 
   RewardsNotificationService::RewardsNotificationArgs args;
@@ -106,7 +106,7 @@ IN_PROC_BROWSER_TEST_F(OneVNRewardsNotificationBrowserTest, AddGrantNotification
   rewards_notification_service_->RemoveObserver(this);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNRewardsNotificationBrowserTest, AddGrantNotificationAndDeleteIt) {
+IN_PROC_BROWSER_TEST_F(OnevnRewardsNotificationBrowserTest, AddGrantNotificationAndDeleteIt) {
   rewards_notification_service_->AddObserver(this);
 
   RewardsNotificationService::RewardsNotificationArgs args;
@@ -126,7 +126,7 @@ IN_PROC_BROWSER_TEST_F(OneVNRewardsNotificationBrowserTest, AddGrantNotification
   rewards_notification_service_->RemoveObserver(this);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNRewardsNotificationBrowserTest, AddGrantNotificationAndFakeItAndDeleteIt) {
+IN_PROC_BROWSER_TEST_F(OnevnRewardsNotificationBrowserTest, AddGrantNotificationAndFakeItAndDeleteIt) {
   rewards_notification_service_->AddObserver(this);
 
   RewardsNotificationService::RewardsNotificationArgs args;

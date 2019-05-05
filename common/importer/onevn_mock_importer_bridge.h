@@ -14,24 +14,24 @@
 #include "net/cookies/canonical_cookie.h"
 #include "testing/gmock/include/gmock/gmock.h"
 
-struct OneVNStats;
-struct OneVNLedger;
+struct OnevnStats;
+struct OnevnLedger;
 
-class OneVNMockImporterBridge : public MockImporterBridge {
+class OnevnMockImporterBridge : public MockImporterBridge {
  public:
-  OneVNMockImporterBridge();
+  OnevnMockImporterBridge();
 
   MOCK_METHOD1(SetCookies,
                void(const std::vector<net::CanonicalCookie>&));
   MOCK_METHOD1(UpdateStats,
-               void(const OneVNStats&));
+               void(const OnevnStats&));
   MOCK_METHOD1(UpdateLedger,
-               void(const OneVNLedger&));
+               void(const OnevnLedger&));
   MOCK_METHOD1(UpdateWindows,
                void(const ImportedWindowState&));
 
  private:
-  ~OneVNMockImporterBridge() override;
+  ~OnevnMockImporterBridge() override;
 };
 
 #endif  // ONEVN_COMMON_IMPORTER_ONEVN_MOCK_IMPORTER_BRIDGE_H_

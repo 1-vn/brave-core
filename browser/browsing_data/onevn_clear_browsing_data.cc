@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -24,7 +24,7 @@ namespace content {
 
 namespace {
 
-using content::OneVNClearBrowsingData;
+using content::OnevnClearBrowsingData;
 
 class BrowsingDataRemovalWatcher
     : public content::BrowsingDataRemover::Observer {
@@ -32,7 +32,7 @@ class BrowsingDataRemovalWatcher
   BrowsingDataRemovalWatcher() : observer_(this) {}
 
   void ClearBrowsingDataForLoadedProfiles(
-      OneVNClearBrowsingData::OnExitTestingCallback* testing_callback);
+      OnevnClearBrowsingData::OnExitTestingCallback* testing_callback);
 
   // BrowsingDataRemover::Observer implementation.
   void OnBrowsingDataRemoverDone() override;
@@ -97,7 +97,7 @@ bool BrowsingDataRemovalWatcher::GetClearBrowsingDataOnExitSettings(
     *origin_mask |= content::BrowsingDataRemover::ORIGIN_TYPE_PROTECTED_WEB;
   }
 
-  // Note: this will also delete OneVN Shields site-specific settings.
+  // Note: this will also delete Onevn Shields site-specific settings.
   // Corresponds to "Content settings" checkbox in the Clear Browsing Data
   // dialog.
   if (prefs->GetBoolean(browsing_data::prefs::kDeleteSiteSettingsOnExit))
@@ -121,7 +121,7 @@ bool BrowsingDataRemovalWatcher::GetClearBrowsingDataOnExitSettings(
 // need to be cleared. Once the counter reaches 0 we exit the RunLoop and let
 // shutdown proceed.
 void BrowsingDataRemovalWatcher::ClearBrowsingDataForLoadedProfiles(
-    OneVNClearBrowsingData::OnExitTestingCallback* testing_callback) {
+    OnevnClearBrowsingData::OnExitTestingCallback* testing_callback) {
   ProfileManager* profile_manager = g_browser_process->profile_manager();
   DCHECK(profile_manager);
 
@@ -163,12 +163,12 @@ void BrowsingDataRemovalWatcher::OnBrowsingDataRemoverDone() {
 
 }  // namespace
 
-OneVNClearBrowsingData::OnExitTestingCallback*
-    OneVNClearBrowsingData::on_exit_testing_callback_ = nullptr;
+OnevnClearBrowsingData::OnExitTestingCallback*
+    OnevnClearBrowsingData::on_exit_testing_callback_ = nullptr;
 
 // static
-void OneVNClearBrowsingData::ClearOnExit() {
-  TRACE_EVENT0("browser", "OneVNClearBrowsingData::ClearOnExit");
+void OnevnClearBrowsingData::ClearOnExit() {
+  TRACE_EVENT0("browser", "OnevnClearBrowsingData::ClearOnExit");
   // Do not clear browsing data when the OS is ending session (logout/reboot/
   // shutdown) to avoid corrupting data if the process is killed.
   if (browser_shutdown::GetShutdownType() == browser_shutdown::END_SESSION) {
@@ -180,7 +180,7 @@ void OneVNClearBrowsingData::ClearOnExit() {
 }
 
 // static
-void OneVNClearBrowsingData::SetOnExitTestingCallback(
+void OnevnClearBrowsingData::SetOnExitTestingCallback(
     OnExitTestingCallback* callback) {
   on_exit_testing_callback_ = callback;
 }

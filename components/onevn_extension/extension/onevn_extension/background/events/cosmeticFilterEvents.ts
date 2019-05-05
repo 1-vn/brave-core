@@ -7,7 +7,7 @@ let rule = {
 
 // parent menu
 chrome.contextMenus.create({
-  title: 'OneVN',
+  title: 'Onevn',
   id: 'onevn',
   contexts: ['all']
 })

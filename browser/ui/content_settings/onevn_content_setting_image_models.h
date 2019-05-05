@@ -7,5 +7,5 @@
 
 class ContentSettingImageModel;
 
-void OneVNGenerateContentSettingImageModels(
+void OnevnGenerateContentSettingImageModels(
     std::vector<std::unique_ptr<ContentSettingImageModel>>&);

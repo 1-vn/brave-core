@@ -11,7 +11,7 @@ namespace onevn_rewards {
 
 int OnBeforeURLRequest(
     const onevn::ResponseCallback& next_callback,
-    std::shared_ptr<onevn::OneVNRequestInfo> ctx);
+    std::shared_ptr<onevn::OnevnRequestInfo> ctx);
 
 }  // namespace onevn_rewards
 

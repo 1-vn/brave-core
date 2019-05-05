@@ -1,11 +1,11 @@
 {
   "version": "1.0.0",
-  "name": "OneVN",
+  "name": "Onevn",
   "manifest_version": 2,
   "description": "__MSG_appName__",
   "default_locale": "en_US",
   "browser_action": {
-    "default_title": "OneVN Shields",
+    "default_title": "Onevn Shields",
     "default_popup": "onevnShieldsPanel.html"
   },
   "icons": {

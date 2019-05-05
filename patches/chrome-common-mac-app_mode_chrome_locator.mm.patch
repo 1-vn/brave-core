@@ -7,7 +7,7 @@ index efd272e706ba56b748e4b76b96d76cbd03aa07ac..b5d8d8cfa223d276db7a328036deeef6
    // on the data in their plist, so encode the framework names here.
    NSDictionary* framework_for_exe = @{
 -    @"Chromium": @"Chromium",
-+    @"OneVN": @"OneVN",
++    @"Onevn": @"Onevn",
      @"Google Chrome": @"Google Chrome",
      @"Google Chrome Canary": @"Google Chrome",
    };

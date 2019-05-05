@@ -9,14 +9,14 @@
 
 namespace extensions {
 
-class OneVNNativeExtensionBindingsSystem : public NativeExtensionBindingsSystem {
+class OnevnNativeExtensionBindingsSystem : public NativeExtensionBindingsSystem {
  public:
-  explicit OneVNNativeExtensionBindingsSystem(
+  explicit OnevnNativeExtensionBindingsSystem(
       std::unique_ptr<IPCMessageSender> ipc_message_sender);
-  ~OneVNNativeExtensionBindingsSystem() override {}
+  ~OnevnNativeExtensionBindingsSystem() override {}
 
  private:
-  DISALLOW_COPY_AND_ASSIGN(OneVNNativeExtensionBindingsSystem);
+  DISALLOW_COPY_AND_ASSIGN(OnevnNativeExtensionBindingsSystem);
 };
 
 }  // namespace extensions

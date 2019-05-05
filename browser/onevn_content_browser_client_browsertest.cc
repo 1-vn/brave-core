@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -33,7 +33,7 @@
 #include "extensions/browser/extension_system.h"
 #include "net/dns/mock_host_resolver.h"
 
-class OneVNContentBrowserClientTest : public InProcessBrowserTest {
+class OnevnContentBrowserClientTest : public InProcessBrowserTest {
  public:
   void SetUp() override {
     // This is needed because component extensions are not added by default
@@ -48,7 +48,7 @@ class OneVNContentBrowserClientTest : public InProcessBrowserTest {
 
     content_client_.reset(new ChromeContentClient);
     content::SetContentClient(content_client_.get());
-    browser_content_client_.reset(new OneVNContentBrowserClient());
+    browser_content_client_.reset(new OnevnContentBrowserClient());
     content::SetBrowserClientForTesting(browser_content_client_.get());
 
     host_resolver()->AddRule("*", "127.0.0.1");
@@ -113,10 +113,10 @@ class OneVNContentBrowserClientTest : public InProcessBrowserTest {
   GURL torrent_url_;
   GURL torrent_extension_url_;
   std::unique_ptr<ChromeContentClient> content_client_;
-  std::unique_ptr<OneVNContentBrowserClient> browser_content_client_;
+  std::unique_ptr<OnevnContentBrowserClient> browser_content_client_;
 };
 
-IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest, CanLoadChromeURL) {
+IN_PROC_BROWSER_TEST_F(OnevnContentBrowserClientTest, CanLoadChromeURL) {
   std::vector<std::string> pages {
     chrome::kChromeUIWelcomeHost,
   };
@@ -147,7 +147,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest, CanLoadChromeURL) {
   }
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest, CanLoadCustomOneVNPages) {
+IN_PROC_BROWSER_TEST_F(OnevnContentBrowserClientTest, CanLoadCustomOnevnPages) {
   std::vector<std::string> pages {
     "adblock",
 #if BUILDFLAG(ONEVN_REWARDS_ENABLED)
@@ -181,7 +181,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest, CanLoadCustomOneVNPages) {
   }
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest, CanLoadAboutHost) {
+IN_PROC_BROWSER_TEST_F(OnevnContentBrowserClientTest, CanLoadAboutHost) {
   std::vector<std::string> schemes {
     "chrome://",
     "onevn://",
@@ -205,7 +205,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest, CanLoadAboutHost) {
   }
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest,
+IN_PROC_BROWSER_TEST_F(OnevnContentBrowserClientTest,
     RewriteChromeSyncInternals) {
   std::vector<std::string> schemes {
     "onevn://",
@@ -231,7 +231,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest,
   }
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest,
+IN_PROC_BROWSER_TEST_F(OnevnContentBrowserClientTest,
     RewriteWelcomeWin10Host) {
   std::vector<std::string> schemes {
     "onevn://",
@@ -258,7 +258,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest,
   }
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest,
+IN_PROC_BROWSER_TEST_F(OnevnContentBrowserClientTest,
     RewriteChromeWelcomeWin10) {
   std::vector<std::string> schemes {
     "onevn://",
@@ -283,7 +283,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest,
   }
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest, RewriteMagnetURLURLBar) {
+IN_PROC_BROWSER_TEST_F(OnevnContentBrowserClientTest, RewriteMagnetURLURLBar) {
   content::WebContents* contents =
       browser()->tab_strip_model()->GetActiveWebContents();
 
@@ -298,7 +298,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest, RewriteMagnetURLURLBar) {
       << "Real URL should be extension URL";
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest, RewriteMagnetURLLink) {
+IN_PROC_BROWSER_TEST_F(OnevnContentBrowserClientTest, RewriteMagnetURLLink) {
   content::WebContents* contents =
       browser()->tab_strip_model()->GetActiveWebContents();
   ui_test_utils::NavigateToURL(browser(), magnet_html_url());
@@ -318,7 +318,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest, RewriteMagnetURLLink) {
       << "Real URL should be extension URL";
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest, TypedMagnetURL) {
+IN_PROC_BROWSER_TEST_F(OnevnContentBrowserClientTest, TypedMagnetURL) {
   content::WebContents* web_contents =
       browser()->tab_strip_model()->GetActiveWebContents();
   content::TestNavigationObserver observer(web_contents);
@@ -328,7 +328,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest, TypedMagnetURL) {
   EXPECT_EQ(magnet_url(), web_contents->GetLastCommittedURL().spec());
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest,
+IN_PROC_BROWSER_TEST_F(OnevnContentBrowserClientTest,
                        ReverseRewriteTorrentURL) {
   content::WebContents* contents =
       browser()->tab_strip_model()->GetActiveWebContents();
@@ -345,7 +345,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest,
       << "Real URL should be extension URL";
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest,
+IN_PROC_BROWSER_TEST_F(OnevnContentBrowserClientTest,
                        WebTorrentExtensionEnabledByDefault) {
   ASSERT_TRUE(browser()->profile()->GetPrefs()->GetBoolean(kWebTorrentEnabled));
   extensions::ExtensionRegistry* registry =
@@ -354,12 +354,12 @@ IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest,
       registry->enabled_extensions().Contains(onevn_webtorrent_extension_id));
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest,
+IN_PROC_BROWSER_TEST_F(OnevnContentBrowserClientTest,
                        PRE_NoRewriteMagnetURLURLBarWebTorrentDisabled) {
   browser()->profile()->GetPrefs()->SetBoolean(kWebTorrentEnabled, false);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest,
+IN_PROC_BROWSER_TEST_F(OnevnContentBrowserClientTest,
                        NoRewriteMagnetURLURLBarWebTorrentDisabled) {
   ASSERT_FALSE(
       browser()->profile()->GetPrefs()->GetBoolean(kWebTorrentEnabled));
@@ -378,12 +378,12 @@ IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest,
   EXPECT_STREQ(entry->GetURL().spec().c_str(), "about:blank");
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest,
+IN_PROC_BROWSER_TEST_F(OnevnContentBrowserClientTest,
                        PRE_NoRewriteMagnetURLLinkWebTorrentDisabled) {
   browser()->profile()->GetPrefs()->SetBoolean(kWebTorrentEnabled, false);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest,
+IN_PROC_BROWSER_TEST_F(OnevnContentBrowserClientTest,
                        NoRewriteMagnetURLLinkWebTorrentDisabled) {
   ASSERT_FALSE(
       browser()->profile()->GetPrefs()->GetBoolean(kWebTorrentEnabled));
@@ -410,12 +410,12 @@ IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest,
                magnet_html_url().spec().c_str());
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest,
+IN_PROC_BROWSER_TEST_F(OnevnContentBrowserClientTest,
                        PRE_NoReverseRewriteTorrentURLWebTorrentDisabled) {
   browser()->profile()->GetPrefs()->SetBoolean(kWebTorrentEnabled, false);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest,
+IN_PROC_BROWSER_TEST_F(OnevnContentBrowserClientTest,
                        NoReverseRewriteTorrentURLWebTorrentDisabled) {
   ASSERT_FALSE(
       browser()->profile()->GetPrefs()->GetBoolean(kWebTorrentEnabled));
@@ -440,7 +440,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest,
 }
 
 #if BUILDFLAG(ENABLE_HANGOUT_SERVICES_EXTENSION)
-IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest,
+IN_PROC_BROWSER_TEST_F(OnevnContentBrowserClientTest,
                        HangoutsEnabledByDefault) {
   ASSERT_TRUE(browser()->profile()->GetPrefs()->GetBoolean(kHangoutsEnabled));
   extensions::ExtensionRegistry* registry =
@@ -448,12 +448,12 @@ IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest,
   ASSERT_TRUE(registry->enabled_extensions().Contains(hangouts_extension_id));
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest,
+IN_PROC_BROWSER_TEST_F(OnevnContentBrowserClientTest,
                        PRE_HangoutsDisabledDoesNotLoadComponent) {
   browser()->profile()->GetPrefs()->SetBoolean(kHangoutsEnabled, false);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest,
+IN_PROC_BROWSER_TEST_F(OnevnContentBrowserClientTest,
                        HangoutsDisabledDoesNotLoadComponent) {
   ASSERT_FALSE(browser()->profile()->GetPrefs()->GetBoolean(kHangoutsEnabled));
   extensions::ExtensionRegistry* registry =
@@ -462,15 +462,15 @@ IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientTest,
 }
 #endif
 
-class OneVNContentBrowserClientReferrerTest
-    : public OneVNContentBrowserClientTest {
+class OnevnContentBrowserClientReferrerTest
+    : public OnevnContentBrowserClientTest {
  public:
   HostContentSettingsMap* content_settings() {
     return HostContentSettingsMapFactory::GetForProfile(browser()->profile());
   }
 };
 
-IN_PROC_BROWSER_TEST_F(OneVNContentBrowserClientReferrerTest,
+IN_PROC_BROWSER_TEST_F(OnevnContentBrowserClientReferrerTest,
                        DefaultBehaviour) {
   const GURL kRequestUrl("http://request.com/path?query");
   const GURL kDocumentUrl("http://document.com/path?query");

@@ -25,11 +25,11 @@ using base::ASCIIToUTF16;
 using base::UTF16ToASCII;
 using ::testing::_;
 
-// In order to test the OneVN import functionality effectively, we store a
-// simulated OneVN profile directory containing dummy data files with the
-// same structure as ~/Library/Application Support/onevn in the OneVN
+// In order to test the Onevn import functionality effectively, we store a
+// simulated Onevn profile directory containing dummy data files with the
+// same structure as ~/Library/Application Support/onevn in the Onevn
 // test data directory. This function returns the path to that directory.
-base::FilePath GetTestOneVNProfileDir(const std::string& profile) {
+base::FilePath GetTestOnevnProfileDir(const std::string& profile) {
   base::FilePath test_dir;
   base::PathService::Get(onevn::DIR_TEST_DATA, &test_dir);
 
@@ -37,17 +37,17 @@ base::FilePath GetTestOneVNProfileDir(const std::string& profile) {
       .AppendASCII(profile);
 }
 
-class OneVNImporterTest : public ::testing::Test {
+class OnevnImporterTest : public ::testing::Test {
  protected:
-  void SetUpOneVNProfile() {
+  void SetUpOnevnProfile() {
     // Creates a new profile in a new subdirectory in the temp directory.
     ASSERT_TRUE(temp_dir_.CreateUniqueTempDir());
-    base::FilePath test_path = temp_dir_.GetPath().AppendASCII("OneVNImporterTest");
+    base::FilePath test_path = temp_dir_.GetPath().AppendASCII("OnevnImporterTest");
     base::DeleteFile(test_path, true);
     base::CreateDirectory(test_path);
     profile_dir_ = test_path.AppendASCII("profile");
 
-    base::FilePath data_dir = GetTestOneVNProfileDir("default");
+    base::FilePath data_dir = GetTestOnevnProfileDir("default");
     ASSERT_TRUE(base::DirectoryExists(data_dir));
     ASSERT_TRUE(base::CopyDirectory(data_dir, profile_dir_, true));
 
@@ -55,19 +55,19 @@ class OneVNImporterTest : public ::testing::Test {
   }
 
   void SetUp() override {
-    SetUpOneVNProfile();
-    importer_ = new OneVNImporter;
-    bridge_ = new OneVNMockImporterBridge;
+    SetUpOnevnProfile();
+    importer_ = new OnevnImporter;
+    bridge_ = new OnevnMockImporterBridge;
   }
 
   base::ScopedTempDir temp_dir_;
   base::FilePath profile_dir_;
   importer::SourceProfile profile_;
-  scoped_refptr<OneVNImporter> importer_;
-  scoped_refptr<OneVNMockImporterBridge> bridge_;
+  scoped_refptr<OnevnImporter> importer_;
+  scoped_refptr<OnevnMockImporterBridge> bridge_;
 };
 
-TEST_F(OneVNImporterTest, ImportHistory) {
+TEST_F(OnevnImporterTest, ImportHistory) {
   std::vector<ImporterURLRow> history;
 
   EXPECT_CALL(*bridge_, NotifyStarted());
@@ -101,7 +101,7 @@ TEST_F(OneVNImporterTest, ImportHistory) {
   EXPECT_EQ(history[9].typed_count, 0);
 }
 
-TEST_F(OneVNImporterTest, ImportBookmarks) {
+TEST_F(OnevnImporterTest, ImportBookmarks) {
   std::vector<ImportedBookmarkEntry> bookmarks;
 
   EXPECT_CALL(*bridge_, NotifyStarted());
@@ -122,7 +122,7 @@ TEST_F(OneVNImporterTest, ImportBookmarks) {
   EXPECT_TRUE(bookmarks[0].in_toolbar);
   EXPECT_TRUE(bookmarks[0].is_folder);
 
-  EXPECT_EQ(ASCIIToUTF16("Features | OneVN Browser"), bookmarks[1].title);
+  EXPECT_EQ(ASCIIToUTF16("Features | Onevn Browser"), bookmarks[1].title);
   EXPECT_EQ("https://1-vn.com/features/", bookmarks[1].url.spec());
   EXPECT_EQ(2u, bookmarks[1].path.size());
   EXPECT_EQ(ASCIIToUTF16("Bookmarks Toolbar"), bookmarks[1].path[0]);
@@ -131,7 +131,7 @@ TEST_F(OneVNImporterTest, ImportBookmarks) {
   EXPECT_FALSE(bookmarks[1].is_folder);
 
   EXPECT_EQ(ASCIIToUTF16(
-    "Secure, Fast & Private Web Browser with Adblocker | OneVN Browser"),
+    "Secure, Fast & Private Web Browser with Adblocker | Onevn Browser"),
     bookmarks[2].title);
   EXPECT_EQ("https://1-vn.com/", bookmarks[2].url.spec());
   EXPECT_EQ(1u, bookmarks[2].path.size());
@@ -147,7 +147,7 @@ TEST_F(OneVNImporterTest, ImportBookmarks) {
   EXPECT_TRUE(bookmarks[3].is_folder);
 
   EXPECT_EQ(ASCIIToUTF16(
-    "Blog About Privacy, Adblocks & Best Browsers | OneVN Browser"),
+    "Blog About Privacy, Adblocks & Best Browsers | Onevn Browser"),
     bookmarks[4].title);
   EXPECT_EQ(2u, bookmarks[4].path.size());
   EXPECT_EQ(ASCIIToUTF16("Other Bookmarks"), bookmarks[4].path[0]);
@@ -156,7 +156,7 @@ TEST_F(OneVNImporterTest, ImportBookmarks) {
   EXPECT_FALSE(bookmarks[4].is_folder);
 
   EXPECT_EQ(ASCIIToUTF16(
-    "Make Money as a Publisher with OneVN Payments | OneVN Browser"),
+    "Make Money as a Publisher with Onevn Payments | Onevn Browser"),
     bookmarks[5].title);
   EXPECT_EQ(1u, bookmarks[5].path.size());
   EXPECT_EQ(ASCIIToUTF16("Other Bookmarks"), bookmarks[5].path[0]);
@@ -166,7 +166,7 @@ TEST_F(OneVNImporterTest, ImportBookmarks) {
 
 // The mock keychain only works on macOS, so only run this test on macOS (for now)
 #if defined(OS_MACOSX)
-TEST_F(OneVNImporterTest, ImportPasswords) {
+TEST_F(OnevnImporterTest, ImportPasswords) {
   // Use mock keychain on mac to prevent blocking permissions dialogs.
   OSCryptMocker::SetUp();
 
@@ -200,7 +200,7 @@ TEST_F(OneVNImporterTest, ImportPasswords) {
   OSCryptMocker::TearDown();
 }
 
-TEST_F(OneVNImporterTest, ImportCookies) {
+TEST_F(OnevnImporterTest, ImportCookies) {
   OSCryptMocker::SetUp();
 
   std::vector<net::CanonicalCookie> cookies;
@@ -223,8 +223,8 @@ TEST_F(OneVNImporterTest, ImportCookies) {
 }
 #endif
 
-TEST_F(OneVNImporterTest, ImportStats) {
-  OneVNStats stats;
+TEST_F(OnevnImporterTest, ImportStats) {
+  OnevnStats stats;
 
   EXPECT_CALL(*bridge_, NotifyStarted());
   EXPECT_CALL(*bridge_, NotifyItemStarted(importer::STATS));
@@ -240,10 +240,10 @@ TEST_F(OneVNImporterTest, ImportStats) {
   EXPECT_EQ(0, stats.httpsEverywhere_count);
 }
 
-TEST_F(OneVNImporterTest, ImportLedger) {
+TEST_F(OnevnImporterTest, ImportLedger) {
   // TODO
 }
 
-TEST_F(OneVNImporterTest, ImportWindows) {
+TEST_F(OnevnImporterTest, ImportWindows) {
   // TODO
 }

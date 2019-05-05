@@ -7,10 +7,10 @@
 
 #include "chrome/browser/chrome_browser_main_mac.h"
 
-class OneVNBrowserMainPartsMac : public ChromeBrowserMainPartsMac {
+class OnevnBrowserMainPartsMac : public ChromeBrowserMainPartsMac {
  public:
   using ChromeBrowserMainPartsMac::ChromeBrowserMainPartsMac;
-  ~OneVNBrowserMainPartsMac() override = default;
+  ~OnevnBrowserMainPartsMac() override = default;
 
  private:
   // ChromeBrowserMainPartsMac overrides:

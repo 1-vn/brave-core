@@ -1,4 +1,4 @@
-/* Copyright 2019 The OneVN Authors. All rights reserved.
+/* Copyright 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -26,44 +26,44 @@
 
 namespace onevn_sync {
 
-OneVNSyncClient* onevn_sync_client_for_testing_;
+OnevnSyncClient* onevn_sync_client_for_testing_;
 
 // static
-void OneVNSyncClientImpl::set_for_testing(OneVNSyncClient* sync_client) {
+void OnevnSyncClientImpl::set_for_testing(OnevnSyncClient* sync_client) {
   onevn_sync_client_for_testing_ = sync_client;
 }
 
 // static
-OneVNSyncClient* OneVNSyncClient::Create(
+OnevnSyncClient* OnevnSyncClient::Create(
     SyncMessageHandler* handler,
     Profile* profile) {
   if (onevn_sync_client_for_testing_)
     return onevn_sync_client_for_testing_;
 
-  return new OneVNSyncClientImpl(handler, profile);
+  return new OnevnSyncClientImpl(handler, profile);
 }
 
-OneVNSyncClientImpl::OneVNSyncClientImpl(SyncMessageHandler* handler,
+OnevnSyncClientImpl::OnevnSyncClientImpl(SyncMessageHandler* handler,
                                          Profile* profile) :
     handler_(handler),
     profile_(profile),
     sync_prefs_(new onevn_sync::prefs::Prefs(profile->GetPrefs())),
     extension_loaded_(false),
-    onevn_sync_event_router_(new extensions::OneVNSyncEventRouter(profile)),
+    onevn_sync_event_router_(new extensions::OnevnSyncEventRouter(profile)),
     extension_registry_observer_(this) {
   // Handle when the extension system is ready
   extensions::ExtensionSystem::Get(profile)->ready().Post(
-      FROM_HERE, base::Bind(&OneVNSyncClientImpl::OnExtensionSystemReady,
+      FROM_HERE, base::Bind(&OnevnSyncClientImpl::OnExtensionSystemReady,
           base::Unretained(this)));
 }
 
-OneVNSyncClientImpl::~OneVNSyncClientImpl() {}
+OnevnSyncClientImpl::~OnevnSyncClientImpl() {}
 
-SyncMessageHandler* OneVNSyncClientImpl::sync_message_handler() {
+SyncMessageHandler* OnevnSyncClientImpl::sync_message_handler() {
   return handler_;
 }
 
-void OneVNSyncClientImpl::SendGotInitData(const Uint8Array& seed,
+void OnevnSyncClientImpl::SendGotInitData(const Uint8Array& seed,
                                           const Uint8Array& device_id,
                                           const client_data::Config& config,
                                           const std::string& sync_words) {
@@ -74,7 +74,7 @@ void OneVNSyncClientImpl::SendGotInitData(const Uint8Array& seed,
                                         sync_words);
 }
 
-void OneVNSyncClientImpl::SendFetchSyncRecords(
+void OnevnSyncClientImpl::SendFetchSyncRecords(
     const std::vector<std::string> &category_names,
     const base::Time &startAt,
     const int max_records) {
@@ -83,12 +83,12 @@ void OneVNSyncClientImpl::SendFetchSyncRecords(
                                              max_records);
 }
 
-void OneVNSyncClientImpl::SendFetchSyncDevices() {
+void OnevnSyncClientImpl::SendFetchSyncDevices() {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   onevn_sync_event_router_->FetchSyncDevices();
 }
 
-void OneVNSyncClientImpl::SendResolveSyncRecords(
+void OnevnSyncClientImpl::SendResolveSyncRecords(
     const std::string &category_name,
     std::unique_ptr<SyncRecordAndExistingList> records_and_existing_objects) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
@@ -102,7 +102,7 @@ void OneVNSyncClientImpl::SendResolveSyncRecords(
     records_and_existing_objects_ext);
 }
 
-void OneVNSyncClientImpl::SendSyncRecords(const std::string &category_name,
+void OnevnSyncClientImpl::SendSyncRecords(const std::string &category_name,
                                           const RecordsList &records) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   std::vector<extensions::api::onevn_sync::SyncRecord> records_ext;
@@ -111,35 +111,35 @@ void OneVNSyncClientImpl::SendSyncRecords(const std::string &category_name,
   onevn_sync_event_router_->SendSyncRecords(category_name, records_ext);
 }
 
-void OneVNSyncClientImpl::SendDeleteSyncUser()  {
+void OnevnSyncClientImpl::SendDeleteSyncUser()  {
   NOTIMPLEMENTED();
 }
 
-void OneVNSyncClientImpl::SendDeleteSyncCategory(
+void OnevnSyncClientImpl::SendDeleteSyncCategory(
     const std::string& category_name) {
   NOTIMPLEMENTED();
 }
 
-void OneVNSyncClientImpl::SendGetBookmarksBaseOrder(
+void OnevnSyncClientImpl::SendGetBookmarksBaseOrder(
     const std::string& device_id,
     const std::string& platform) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   onevn_sync_event_router_->SendGetBookmarksBaseOrder(device_id, platform);
 }
 
-void OneVNSyncClientImpl::NeedSyncWords(const std::string &seed) {
+void OnevnSyncClientImpl::NeedSyncWords(const std::string &seed) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   onevn_sync_event_router_->NeedSyncWords(seed);
 }
 
-void OneVNSyncClientImpl::OnExtensionInitialized() {
+void OnevnSyncClientImpl::OnExtensionInitialized() {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   DCHECK(extension_loaded_);
   if (extension_loaded_)
     onevn_sync_event_router_->LoadClient();
 }
 
-void OneVNSyncClientImpl::OnSyncEnabledChanged() {
+void OnevnSyncClientImpl::OnSyncEnabledChanged() {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   if (sync_prefs_->GetSyncEnabled()) {
     LoadOrUnloadExtension(true);
@@ -148,14 +148,14 @@ void OneVNSyncClientImpl::OnSyncEnabledChanged() {
   }
 }
 
-void OneVNSyncClientImpl::OnExtensionReady(
+void OnevnSyncClientImpl::OnExtensionReady(
     content::BrowserContext* browser_context,
     const extensions::Extension* extension) {
   if (extension->id() == onevn_sync_extension_id)
     handler_->BackgroundSyncStarted(true);
 }
 
-void OneVNSyncClientImpl::OnExtensionLoaded(
+void OnevnSyncClientImpl::OnExtensionLoaded(
     content::BrowserContext* browser_context,
     const extensions::Extension* extension) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
@@ -164,7 +164,7 @@ void OneVNSyncClientImpl::OnExtensionLoaded(
   }
 }
 
-void OneVNSyncClientImpl::OnExtensionUnloaded(
+void OnevnSyncClientImpl::OnExtensionUnloaded(
     content::BrowserContext* browser_context,
     const extensions::Extension* extension,
     extensions::UnloadedExtensionReason reason) {
@@ -174,7 +174,7 @@ void OneVNSyncClientImpl::OnExtensionUnloaded(
   }
 }
 
-void OneVNSyncClientImpl::LoadOrUnloadExtension(bool load) {
+void OnevnSyncClientImpl::LoadOrUnloadExtension(bool load) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   base::FilePath onevn_sync_extension_path(FILE_PATH_LITERAL(""));
   onevn_sync_extension_path =
@@ -192,7 +192,7 @@ void OneVNSyncClientImpl::LoadOrUnloadExtension(bool load) {
   }
 }
 
-void OneVNSyncClientImpl::OnExtensionSystemReady() {
+void OnevnSyncClientImpl::OnExtensionSystemReady() {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   // observe changes in extension system
   extension_registry_observer_.Add(ExtensionRegistry::Get(profile_));
@@ -202,7 +202,7 @@ void OneVNSyncClientImpl::OnExtensionSystemReady() {
   }
 }
 
-void OneVNSyncClientImpl::ClearOrderMap() {
+void OnevnSyncClientImpl::ClearOrderMap() {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   onevn_sync_event_router_->ClearOrderMap();
 }

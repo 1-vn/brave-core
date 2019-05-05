@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -25,22 +25,22 @@ const int kLastMonth = 5;
 const int kThisMonth = 6;
 const int kNextMonth = 7;
 
-class OneVNStatsUpdaterTest: public testing::Test {
+class OnevnStatsUpdaterTest: public testing::Test {
  public:
-  OneVNStatsUpdaterTest() {
+  OnevnStatsUpdaterTest() {
   }
-  ~OneVNStatsUpdaterTest() override {}
+  ~OnevnStatsUpdaterTest() override {}
 
   void SetUp() override {
-    onevn::RegisterPrefsForOneVNStatsUpdater(testing_local_state_.registry());
-    onevn::RegisterPrefsForOneVNReferralsService(
+    onevn::RegisterPrefsForOnevnStatsUpdater(testing_local_state_.registry());
+    onevn::RegisterPrefsForOnevnReferralsService(
         testing_local_state_.registry());
   }
 
   PrefService* GetLocalState() { return &testing_local_state_; }
 
   void SetCurrentTimeForTest(const base::Time& current_time) {
-    onevn::OneVNStatsUpdaterParams::SetCurrentTimeForTest(current_time);
+    onevn::OnevnStatsUpdaterParams::SetCurrentTimeForTest(current_time);
   }
 
  private:
@@ -48,10 +48,10 @@ class OneVNStatsUpdaterTest: public testing::Test {
 };
 
 
-TEST_F(OneVNStatsUpdaterTest, IsDailyUpdateNeededLastCheckedYesterday) {
+TEST_F(OnevnStatsUpdaterTest, IsDailyUpdateNeededLastCheckedYesterday) {
   GetLocalState()->SetString(kLastCheckYMD, kYesterday);
 
-  onevn::OneVNStatsUpdaterParams onevn_stats_updater_params(
+  onevn::OnevnStatsUpdaterParams onevn_stats_updater_params(
       GetLocalState(), kToday, kThisWeek, kThisMonth);
   ASSERT_EQ(onevn_stats_updater_params.GetDailyParam(), "true");
   onevn_stats_updater_params.SavePrefs();
@@ -59,10 +59,10 @@ TEST_F(OneVNStatsUpdaterTest, IsDailyUpdateNeededLastCheckedYesterday) {
   ASSERT_EQ(GetLocalState()->GetString(kLastCheckYMD), kToday);
 }
 
-TEST_F(OneVNStatsUpdaterTest, IsDailyUpdateNeededLastCheckedToday) {
+TEST_F(OnevnStatsUpdaterTest, IsDailyUpdateNeededLastCheckedToday) {
   GetLocalState()->SetString(kLastCheckYMD, kToday);
 
-  onevn::OneVNStatsUpdaterParams onevn_stats_updater_params(
+  onevn::OnevnStatsUpdaterParams onevn_stats_updater_params(
       GetLocalState(), kToday, kThisWeek, kThisMonth);
   ASSERT_EQ(onevn_stats_updater_params.GetDailyParam(), "false");
   onevn_stats_updater_params.SavePrefs();
@@ -70,10 +70,10 @@ TEST_F(OneVNStatsUpdaterTest, IsDailyUpdateNeededLastCheckedToday) {
   ASSERT_EQ(GetLocalState()->GetString(kLastCheckYMD), kToday);
 }
 
-TEST_F(OneVNStatsUpdaterTest, IsDailyUpdateNeededLastCheckedTomorrow) {
+TEST_F(OnevnStatsUpdaterTest, IsDailyUpdateNeededLastCheckedTomorrow) {
   GetLocalState()->SetString(kLastCheckYMD, kTomorrow);
 
-  onevn::OneVNStatsUpdaterParams onevn_stats_updater_params(
+  onevn::OnevnStatsUpdaterParams onevn_stats_updater_params(
       GetLocalState(), kToday, kThisWeek, kThisMonth);
   ASSERT_EQ(onevn_stats_updater_params.GetDailyParam(), "false");
   onevn_stats_updater_params.SavePrefs();
@@ -81,10 +81,10 @@ TEST_F(OneVNStatsUpdaterTest, IsDailyUpdateNeededLastCheckedTomorrow) {
   ASSERT_EQ(GetLocalState()->GetString(kLastCheckYMD), kToday);
 }
 
-TEST_F(OneVNStatsUpdaterTest, IsWeeklyUpdateNeededLastCheckedLastWeek) {
+TEST_F(OnevnStatsUpdaterTest, IsWeeklyUpdateNeededLastCheckedLastWeek) {
   GetLocalState()->SetInteger(kLastCheckWOY, kLastWeek);
 
-  onevn::OneVNStatsUpdaterParams onevn_stats_updater_params(
+  onevn::OnevnStatsUpdaterParams onevn_stats_updater_params(
       GetLocalState(), kToday, kThisWeek, kThisMonth);
   ASSERT_EQ(onevn_stats_updater_params.GetWeeklyParam(), "true");
   onevn_stats_updater_params.SavePrefs();
@@ -92,10 +92,10 @@ TEST_F(OneVNStatsUpdaterTest, IsWeeklyUpdateNeededLastCheckedLastWeek) {
   ASSERT_EQ(GetLocalState()->GetInteger(kLastCheckWOY), kThisWeek);
 }
 
-TEST_F(OneVNStatsUpdaterTest, IsWeeklyUpdateNeededLastCheckedThisWeek) {
+TEST_F(OnevnStatsUpdaterTest, IsWeeklyUpdateNeededLastCheckedThisWeek) {
   GetLocalState()->SetInteger(kLastCheckWOY, kThisWeek);
 
-  onevn::OneVNStatsUpdaterParams onevn_stats_updater_params(
+  onevn::OnevnStatsUpdaterParams onevn_stats_updater_params(
       GetLocalState(), kToday, kThisWeek, kThisMonth);
   ASSERT_EQ(onevn_stats_updater_params.GetWeeklyParam(), "false");
   onevn_stats_updater_params.SavePrefs();
@@ -103,10 +103,10 @@ TEST_F(OneVNStatsUpdaterTest, IsWeeklyUpdateNeededLastCheckedThisWeek) {
   ASSERT_EQ(GetLocalState()->GetInteger(kLastCheckWOY), kThisWeek);
 }
 
-TEST_F(OneVNStatsUpdaterTest, IsWeeklyUpdateNeededLastCheckedNextWeek) {
+TEST_F(OnevnStatsUpdaterTest, IsWeeklyUpdateNeededLastCheckedNextWeek) {
   GetLocalState()->SetInteger(kLastCheckWOY, kNextWeek);
 
-  onevn::OneVNStatsUpdaterParams onevn_stats_updater_params(
+  onevn::OnevnStatsUpdaterParams onevn_stats_updater_params(
       GetLocalState(), kToday, kThisWeek, kThisMonth);
   ASSERT_EQ(onevn_stats_updater_params.GetWeeklyParam(), "true");
   onevn_stats_updater_params.SavePrefs();
@@ -114,10 +114,10 @@ TEST_F(OneVNStatsUpdaterTest, IsWeeklyUpdateNeededLastCheckedNextWeek) {
   ASSERT_EQ(GetLocalState()->GetInteger(kLastCheckWOY), kThisWeek);
 }
 
-TEST_F(OneVNStatsUpdaterTest, IsMonthlyUpdateNeededLastCheckedLastMonth) {
+TEST_F(OnevnStatsUpdaterTest, IsMonthlyUpdateNeededLastCheckedLastMonth) {
   GetLocalState()->SetInteger(kLastCheckMonth, kLastMonth);
 
-  onevn::OneVNStatsUpdaterParams onevn_stats_updater_params(
+  onevn::OnevnStatsUpdaterParams onevn_stats_updater_params(
       GetLocalState(), kToday, kThisWeek, kThisMonth);
   ASSERT_EQ(onevn_stats_updater_params.GetMonthlyParam(), "true");
   onevn_stats_updater_params.SavePrefs();
@@ -125,10 +125,10 @@ TEST_F(OneVNStatsUpdaterTest, IsMonthlyUpdateNeededLastCheckedLastMonth) {
   ASSERT_EQ(GetLocalState()->GetInteger(kLastCheckMonth), kThisMonth);
 }
 
-TEST_F(OneVNStatsUpdaterTest, IsMonthlyUpdateNeededLastCheckedThisMonth) {
+TEST_F(OnevnStatsUpdaterTest, IsMonthlyUpdateNeededLastCheckedThisMonth) {
   GetLocalState()->SetInteger(kLastCheckMonth, kThisMonth);
 
-  onevn::OneVNStatsUpdaterParams onevn_stats_updater_params(
+  onevn::OnevnStatsUpdaterParams onevn_stats_updater_params(
       GetLocalState(), kToday, kThisWeek, kThisMonth);
   ASSERT_EQ(onevn_stats_updater_params.GetMonthlyParam(), "false");
   onevn_stats_updater_params.SavePrefs();
@@ -136,10 +136,10 @@ TEST_F(OneVNStatsUpdaterTest, IsMonthlyUpdateNeededLastCheckedThisMonth) {
   ASSERT_EQ(GetLocalState()->GetInteger(kLastCheckMonth), kThisMonth);
 }
 
-TEST_F(OneVNStatsUpdaterTest, IsMonthlyUpdateNeededLastCheckedNextMonth) {
+TEST_F(OnevnStatsUpdaterTest, IsMonthlyUpdateNeededLastCheckedNextMonth) {
   GetLocalState()->SetInteger(kLastCheckMonth, kNextMonth);
 
-  onevn::OneVNStatsUpdaterParams onevn_stats_updater_params(
+  onevn::OnevnStatsUpdaterParams onevn_stats_updater_params(
       GetLocalState(), kToday, kThisWeek, kThisMonth);
   ASSERT_EQ(onevn_stats_updater_params.GetMonthlyParam(), "true");
   onevn_stats_updater_params.SavePrefs();
@@ -148,7 +148,7 @@ TEST_F(OneVNStatsUpdaterTest, IsMonthlyUpdateNeededLastCheckedNextMonth) {
 }
 
 // This test ensures that our weekly stats cut over on Monday
-TEST_F(OneVNStatsUpdaterTest, IsWeeklyUpdateNeededOnMondayLastCheckedOnSunday) {
+TEST_F(OnevnStatsUpdaterTest, IsWeeklyUpdateNeededOnMondayLastCheckedOnSunday) {
   base::Time::Exploded exploded;
   base::Time current_time;
 
@@ -170,7 +170,7 @@ TEST_F(OneVNStatsUpdaterTest, IsWeeklyUpdateNeededOnMondayLastCheckedOnSunday) {
     ASSERT_TRUE(base::Time::FromLocalExploded(exploded, &current_time));
 
     SetCurrentTimeForTest(current_time);
-    onevn::OneVNStatsUpdaterParams onevn_stats_updater_params(GetLocalState());
+    onevn::OnevnStatsUpdaterParams onevn_stats_updater_params(GetLocalState());
 
     // Make sure that the weekly param was set to true, since this is
     // a new ISO week (#44)
@@ -189,7 +189,7 @@ TEST_F(OneVNStatsUpdaterTest, IsWeeklyUpdateNeededOnMondayLastCheckedOnSunday) {
     ASSERT_TRUE(base::Time::FromLocalExploded(exploded, &current_time));
 
     SetCurrentTimeForTest(current_time);
-    onevn::OneVNStatsUpdaterParams onevn_stats_updater_params(GetLocalState());
+    onevn::OnevnStatsUpdaterParams onevn_stats_updater_params(GetLocalState());
 
     // Make sure that the weekly param was set to true, since this is
     // a new ISO week (#45)
@@ -208,7 +208,7 @@ TEST_F(OneVNStatsUpdaterTest, IsWeeklyUpdateNeededOnMondayLastCheckedOnSunday) {
     ASSERT_TRUE(base::Time::FromLocalExploded(exploded, &current_time));
 
     SetCurrentTimeForTest(current_time);
-    onevn::OneVNStatsUpdaterParams onevn_stats_updater_params(GetLocalState());
+    onevn::OnevnStatsUpdaterParams onevn_stats_updater_params(GetLocalState());
 
     // Make sure that the weekly param was set to false, since this is
     // still the same ISO week (#45)
@@ -220,7 +220,7 @@ TEST_F(OneVNStatsUpdaterTest, IsWeeklyUpdateNeededOnMondayLastCheckedOnSunday) {
   }
 }
 
-TEST_F(OneVNStatsUpdaterTest, HasCorrectWeekOfInstallation) {
+TEST_F(OnevnStatsUpdaterTest, HasCorrectWeekOfInstallation) {
   base::Time::Exploded exploded;
   base::Time current_time;
 
@@ -239,7 +239,7 @@ TEST_F(OneVNStatsUpdaterTest, HasCorrectWeekOfInstallation) {
     SetCurrentTimeForTest(current_time);
 
     // Make sure that week of installation is previous Monday
-    onevn::OneVNStatsUpdaterParams onevn_stats_updater_params(GetLocalState());
+    onevn::OnevnStatsUpdaterParams onevn_stats_updater_params(GetLocalState());
     ASSERT_EQ(onevn_stats_updater_params.GetWeekOfInstallationParam(),
               "2019-03-18");
   }
@@ -260,7 +260,7 @@ TEST_F(OneVNStatsUpdaterTest, HasCorrectWeekOfInstallation) {
 
     // Make sure that week of installation is today, since today is a
     // Monday
-    onevn::OneVNStatsUpdaterParams onevn_stats_updater_params(GetLocalState());
+    onevn::OnevnStatsUpdaterParams onevn_stats_updater_params(GetLocalState());
     ASSERT_EQ(onevn_stats_updater_params.GetWeekOfInstallationParam(),
               "2019-03-25");
   }
@@ -280,7 +280,7 @@ TEST_F(OneVNStatsUpdaterTest, HasCorrectWeekOfInstallation) {
     SetCurrentTimeForTest(current_time);
 
     // Make sure that week of installation is previous Monday
-    onevn::OneVNStatsUpdaterParams onevn_stats_updater_params(GetLocalState());
+    onevn::OnevnStatsUpdaterParams onevn_stats_updater_params(GetLocalState());
     ASSERT_EQ(onevn_stats_updater_params.GetWeekOfInstallationParam(),
               "2019-03-25");
   }

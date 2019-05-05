@@ -22,7 +22,7 @@ using content_settings::SettingSource;
 using content_settings::SETTING_SOURCE_USER;
 using content_settings::SETTING_SOURCE_NONE;
 
-OneVNAutoplayContentSettingBubbleModel::OneVNAutoplayContentSettingBubbleModel(
+OnevnAutoplayContentSettingBubbleModel::OnevnAutoplayContentSettingBubbleModel(
     Delegate* delegate,
     WebContents* web_contents)
     : ContentSettingSimpleBubbleModel(delegate,
@@ -33,9 +33,9 @@ OneVNAutoplayContentSettingBubbleModel::OneVNAutoplayContentSettingBubbleModel(
   SetRadioGroup();
 }
 
-OneVNAutoplayContentSettingBubbleModel::~OneVNAutoplayContentSettingBubbleModel() {}
+OnevnAutoplayContentSettingBubbleModel::~OnevnAutoplayContentSettingBubbleModel() {}
 
-void OneVNAutoplayContentSettingBubbleModel::CommitChanges() {
+void OnevnAutoplayContentSettingBubbleModel::CommitChanges() {
   if (settings_changed()) {
     ContentSetting setting = selected_item() == kAllowButtonIndex
                                  ? CONTENT_SETTING_ALLOW
@@ -44,15 +44,15 @@ void OneVNAutoplayContentSettingBubbleModel::CommitChanges() {
   }
 }
 
-bool OneVNAutoplayContentSettingBubbleModel::settings_changed() const {
+bool OnevnAutoplayContentSettingBubbleModel::settings_changed() const {
   return selected_item() != bubble_content().radio_group.default_item;
 }
 
-void OneVNAutoplayContentSettingBubbleModel::SetTitle() {
+void OnevnAutoplayContentSettingBubbleModel::SetTitle() {
   set_title(l10n_util::GetStringUTF16(IDS_BLOCKED_AUTOPLAY_TITLE));
 }
 
-void OneVNAutoplayContentSettingBubbleModel::SetRadioGroup() {
+void OnevnAutoplayContentSettingBubbleModel::SetRadioGroup() {
   GURL url = web_contents()->GetURL();
   base::string16 display_host = url_formatter::FormatUrlForSecurityDisplay(url);
   if (display_host.empty())
@@ -97,7 +97,7 @@ void OneVNAutoplayContentSettingBubbleModel::SetRadioGroup() {
   set_radio_group(radio_group);
 }
 
-void OneVNAutoplayContentSettingBubbleModel::SetNarrowestContentSetting(
+void OnevnAutoplayContentSettingBubbleModel::SetNarrowestContentSetting(
     ContentSetting setting) {
   if (!GetProfile())
     return;

@@ -1,4 +1,4 @@
-/* Copyright 2016 The OneVN Authors. All rights reserved.
+/* Copyright 2016 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -30,9 +30,9 @@
 #include "testing/gmock/include/gmock/gmock.h"
 #include "testing/gtest/include/gtest/gtest.h"
 
-// npm run test -- onevn_unit_tests --filter=OneVNSyncServiceTest.*
+// npm run test -- onevn_unit_tests --filter=OnevnSyncServiceTest.*
 
-// OneVNSyncClient::methods
+// OnevnSyncClient::methods
 // Name                     | Covered
 //------------------------------------
 // SetSyncToBrowserHandler  |
@@ -49,7 +49,7 @@
 // NeedBytesFromSyncWords   |
 // OnExtensionInitialized   |
 
-// OneVNSyncService::methods
+// OnevnSyncService::methods
 // Name                      | Covered
 //-------------------------------------
 // OnSetupSyncHaveCode       | +
@@ -67,32 +67,32 @@
 // RemoveObserver            | +, Teardown
 // GetSyncClient             | +, SetUp
 
-// OneVNSyncService  SyncMessageHandler overrides
+// OnevnSyncService  SyncMessageHandler overrides
 // Name                      | Covered
 //-------------------------------------
-// BackgroundSyncStarted     | +, OneVNSyncServiceTest.BookmarkAddedImpl
+// BackgroundSyncStarted     | +, OnevnSyncServiceTest.BookmarkAddedImpl
 // BackgroundSyncStopped     | +
 // OnSyncDebug               | +
 // OnSyncSetupError          | Need UI handler
 // OnGetInitData             | +
-// OnSaveInitData            | OneVNSyncServiceTest.GetSeed
+// OnSaveInitData            | OnevnSyncServiceTest.GetSeed
 // OnSyncReady               | +
 // OnGetExistingObjects      | +
-// OnResolvedSyncRecords     | OneVNSyncServiceTest.BookmarkAddedImpl
+// OnResolvedSyncRecords     | OnevnSyncServiceTest.BookmarkAddedImpl
 // OnDeletedSyncUser         | N/A
 // OnDeleteSyncSiteSettings  | N/A
 // OnSaveBookmarksBaseOrder  | +
-// OnSyncWordsPrepared       | OneVNSyncServiceTest.GetSyncWords
+// OnSyncWordsPrepared       | OnevnSyncServiceTest.GetSyncWords
 // OnResolvedHistorySites    | N/A
-// OnResolvedPreferences     | OneVNSyncServiceTest.OnDeleteDevice,
-//                           | OneVNSyncServiceTest.OnResetSync
+// OnResolvedPreferences     | OnevnSyncServiceTest.OnDeleteDevice,
+//                           | OnevnSyncServiceTest.OnResetSync
 // OnSyncPrefsChanged        | +
 
-using onevn_sync::OneVNSyncService;
-using onevn_sync::OneVNSyncServiceImpl;
-using onevn_sync::OneVNSyncServiceObserver;
+using onevn_sync::OnevnSyncService;
+using onevn_sync::OnevnSyncServiceImpl;
+using onevn_sync::OnevnSyncServiceObserver;
 using onevn_sync::jslib::SyncRecord;
-using onevn_sync::MockOneVNSyncClient;
+using onevn_sync::MockOnevnSyncClient;
 using onevn_sync::RecordsList;
 using onevn_sync::SimpleDeviceRecord;
 using network::TestNetworkConnectionTracker;
@@ -100,46 +100,46 @@ using network::mojom::ConnectionType;
 using testing::_;
 using testing::AtLeast;
 
-class MockOneVNSyncServiceObserver : public OneVNSyncServiceObserver {
+class MockOnevnSyncServiceObserver : public OnevnSyncServiceObserver {
  public:
-  MockOneVNSyncServiceObserver() {}
+  MockOnevnSyncServiceObserver() {}
 
-  MOCK_METHOD2(OnSyncSetupError, void(OneVNSyncService*, const std::string&));
-  MOCK_METHOD1(OnSyncStateChanged, void(OneVNSyncService*));
-  MOCK_METHOD2(OnHaveSyncWords, void(OneVNSyncService*, const std::string&));
+  MOCK_METHOD2(OnSyncSetupError, void(OnevnSyncService*, const std::string&));
+  MOCK_METHOD1(OnSyncStateChanged, void(OnevnSyncService*));
+  MOCK_METHOD2(OnHaveSyncWords, void(OnevnSyncService*, const std::string&));
 };
 
-class OneVNSyncServiceTest : public testing::Test {
+class OnevnSyncServiceTest : public testing::Test {
  public:
-  OneVNSyncServiceTest() {}
-  ~OneVNSyncServiceTest() override {}
+  OnevnSyncServiceTest() {}
+  ~OnevnSyncServiceTest() override {}
 
  protected:
   void SetUp() override {
     EXPECT_TRUE(temp_dir_.CreateUniqueTempDir());
     // register the factory
 
-    profile_ = onevn_sync::CreateOneVNSyncProfile(temp_dir_.GetPath());
+    profile_ = onevn_sync::CreateOnevnSyncProfile(temp_dir_.GetPath());
     EXPECT_TRUE(profile_.get() != NULL);
 
     // TODO(bridiver) - this is temporary until some changes are made to
     // to bookmark_change_processor to allow `set_for_testing` like
-    // OneVNSyncClient
+    // OnevnSyncClient
     BookmarkModelFactory::GetInstance()->SetTestingFactory(
        profile(),
        base::BindRepeating(&onevn_sync::BuildFakeBookmarkModelForTests));
 
-    onevn_sync::OneVNSyncClientImpl::set_for_testing(
-        new MockOneVNSyncClient());
+    onevn_sync::OnevnSyncClientImpl::set_for_testing(
+        new MockOnevnSyncClient());
 
-    sync_service_ = static_cast<OneVNSyncServiceImpl*>(
-        onevn_sync::OneVNSyncServiceFactory::GetInstance()->GetForProfile(
+    sync_service_ = static_cast<OnevnSyncServiceImpl*>(
+        onevn_sync::OnevnSyncServiceFactory::GetInstance()->GetForProfile(
             profile()));
 
     sync_client_ =
-        static_cast<MockOneVNSyncClient*>(sync_service_->GetSyncClient());
+        static_cast<MockOnevnSyncClient*>(sync_service_->GetSyncClient());
 
-    observer_.reset(new MockOneVNSyncServiceObserver);
+    observer_.reset(new MockOnevnSyncServiceObserver);
     sync_service_->AddObserver(observer_.get());
     EXPECT_TRUE(sync_service_ != NULL);
 
@@ -159,9 +159,9 @@ class OneVNSyncServiceTest : public testing::Test {
   void BookmarkAddedImpl();
 
   Profile* profile() { return profile_.get(); }
-  OneVNSyncServiceImpl* sync_service() { return sync_service_; }
-  MockOneVNSyncClient* sync_client() { return sync_client_; }
-  MockOneVNSyncServiceObserver* observer() { return observer_.get(); }
+  OnevnSyncServiceImpl* sync_service() { return sync_service_; }
+  MockOnevnSyncClient* sync_client() { return sync_client_; }
+  MockOnevnSyncServiceObserver* observer() { return observer_.get(); }
 
  private:
   // Need this as a very first member to run tests in UI thread
@@ -170,14 +170,14 @@ class OneVNSyncServiceTest : public testing::Test {
   content::TestBrowserThreadBundle thread_bundle_;
 
   std::unique_ptr<Profile> profile_;
-  OneVNSyncServiceImpl* sync_service_;
-  MockOneVNSyncClient* sync_client_;
-  std::unique_ptr<MockOneVNSyncServiceObserver> observer_;
+  OnevnSyncServiceImpl* sync_service_;
+  MockOnevnSyncClient* sync_client_;
+  std::unique_ptr<MockOnevnSyncServiceObserver> observer_;
 
   base::ScopedTempDir temp_dir_;
 };
 
-TEST_F(OneVNSyncServiceTest, SetSyncEnabled) {
+TEST_F(OnevnSyncServiceTest, SetSyncEnabled) {
   EXPECT_CALL(*sync_client(), OnSyncEnabledChanged);
   EXPECT_CALL(*observer(), OnSyncStateChanged(sync_service())).Times(1);
   EXPECT_FALSE(profile()->GetPrefs()->GetBoolean(
@@ -189,7 +189,7 @@ TEST_F(OneVNSyncServiceTest, SetSyncEnabled) {
   EXPECT_FALSE(sync_service()->IsSyncConfigured());
 }
 
-TEST_F(OneVNSyncServiceTest, SetSyncDisabled) {
+TEST_F(OnevnSyncServiceTest, SetSyncDisabled) {
   EXPECT_CALL(*sync_client(), OnSyncEnabledChanged).Times(1);
   EXPECT_CALL(*observer(), OnSyncStateChanged(sync_service())).Times(1);
   sync_service()->OnSetSyncEnabled(true);
@@ -205,19 +205,19 @@ TEST_F(OneVNSyncServiceTest, SetSyncDisabled) {
   EXPECT_FALSE(sync_service()->IsSyncConfigured());
 }
 
-TEST_F(OneVNSyncServiceTest, IsSyncConfiguredOnNewProfile) {
+TEST_F(OnevnSyncServiceTest, IsSyncConfiguredOnNewProfile) {
   EXPECT_FALSE(sync_service()->IsSyncConfigured());
 }
 
-TEST_F(OneVNSyncServiceTest, IsSyncInitializedOnNewProfile) {
+TEST_F(OnevnSyncServiceTest, IsSyncInitializedOnNewProfile) {
   EXPECT_FALSE(sync_service()->IsSyncInitialized());
 }
 
-void OneVNSyncServiceTest::BookmarkAddedImpl() {
-  // OneVNSyncService: real
-  // OneVNSyncClient: mock
-  // Invoke OneVNSyncService::BookmarkAdded
-  // Expect OneVNSyncClient::SendSyncRecords invoked
+void OnevnSyncServiceTest::BookmarkAddedImpl() {
+  // OnevnSyncService: real
+  // OnevnSyncClient: mock
+  // Invoke OnevnSyncService::BookmarkAdded
+  // Expect OnevnSyncClient::SendSyncRecords invoked
   EXPECT_CALL(*sync_client(), OnSyncEnabledChanged).Times(1);
   EXPECT_CALL(*observer(),
       OnSyncStateChanged(sync_service())).Times(AtLeast(1));
@@ -234,11 +234,11 @@ void OneVNSyncServiceTest::BookmarkAddedImpl() {
     std::make_unique<RecordsList>());
 }
 
-TEST_F(OneVNSyncServiceTest, BookmarkAdded) {
+TEST_F(OnevnSyncServiceTest, BookmarkAdded) {
   BookmarkAddedImpl();
 }
 
-TEST_F(OneVNSyncServiceTest, BookmarkDeleted) {
+TEST_F(OnevnSyncServiceTest, BookmarkDeleted) {
   BookmarkAddedImpl();
   auto* bookmark_model = BookmarkModelFactory::GetForBrowserContext(profile());
 
@@ -252,12 +252,12 @@ TEST_F(OneVNSyncServiceTest, BookmarkDeleted) {
   bookmark_model->Remove(nodes.at(0));
   // record->action = jslib::SyncRecord::Action::A_DELETE;
   // <= BookmarkNodeToSyncBookmark <= BookmarkChangeProcessor::SendUnsynced
-  // <= OneVNSyncServiceImpl::OnResolvedSyncRecords
+  // <= OnevnSyncServiceImpl::OnResolvedSyncRecords
   sync_service()->OnResolvedSyncRecords(onevn_sync::jslib_const::kBookmarks,
     std::make_unique<RecordsList>());
 }
 
-TEST_F(OneVNSyncServiceTest, OnSetupSyncHaveCode) {
+TEST_F(OnevnSyncServiceTest, OnSetupSyncHaveCode) {
   EXPECT_CALL(*sync_client(), OnSyncEnabledChanged);
   // Expecting sync state changed twice: for enabled state and for device name
   EXPECT_CALL(*observer(), OnSyncStateChanged(sync_service())).Times(2);
@@ -266,7 +266,7 @@ TEST_F(OneVNSyncServiceTest, OnSetupSyncHaveCode) {
        onevn_sync::prefs::kSyncEnabled));
 }
 
-TEST_F(OneVNSyncServiceTest, OnSetupSyncHaveCode_EmptyDeviceName) {
+TEST_F(OnevnSyncServiceTest, OnSetupSyncHaveCode_EmptyDeviceName) {
   EXPECT_CALL(*sync_client(), OnSyncEnabledChanged);
   // Expecting sync state changed twice: for enabled state and for device name
   EXPECT_CALL(*observer(), OnSyncStateChanged(sync_service())).Times(2);
@@ -277,7 +277,7 @@ TEST_F(OneVNSyncServiceTest, OnSetupSyncHaveCode_EmptyDeviceName) {
       onevn_sync::prefs::kSyncDeviceName), net::GetHostName());
 }
 
-TEST_F(OneVNSyncServiceTest, OnSetupSyncNewToSync) {
+TEST_F(OnevnSyncServiceTest, OnSetupSyncNewToSync) {
   EXPECT_CALL(*sync_client(), OnSyncEnabledChanged);
   // Expecting sync state changed twice: for enabled state and for device name
   EXPECT_CALL(*observer(), OnSyncStateChanged(sync_service())).Times(2);
@@ -286,7 +286,7 @@ TEST_F(OneVNSyncServiceTest, OnSetupSyncNewToSync) {
        onevn_sync::prefs::kSyncEnabled));
 }
 
-TEST_F(OneVNSyncServiceTest, OnSetupSyncNewToSync_EmptyDeviceName) {
+TEST_F(OnevnSyncServiceTest, OnSetupSyncNewToSync_EmptyDeviceName) {
   EXPECT_CALL(*sync_client(), OnSyncEnabledChanged);
   // Expecting sync state changed twice: for enabled state and for device name
   EXPECT_CALL(*observer(), OnSyncStateChanged(sync_service())).Times(2);
@@ -297,7 +297,7 @@ TEST_F(OneVNSyncServiceTest, OnSetupSyncNewToSync_EmptyDeviceName) {
       onevn_sync::prefs::kSyncDeviceName), net::GetHostName());
 }
 
-TEST_F(OneVNSyncServiceTest, GetSettingsAndDevices) {
+TEST_F(OnevnSyncServiceTest, GetSettingsAndDevices) {
   // The test absorbs OnSetupSyncNewToSync test
   auto callback1 = base::BindRepeating(
       [](std::unique_ptr<onevn_sync::Settings> settings,
@@ -329,24 +329,24 @@ TEST_F(OneVNSyncServiceTest, GetSettingsAndDevices) {
   sync_service()->GetSettingsAndDevices(callback2);
 }
 
-TEST_F(OneVNSyncServiceTest, GetSyncWords) {
+TEST_F(OnevnSyncServiceTest, GetSyncWords) {
   EXPECT_CALL(*sync_client(), NeedSyncWords);
   sync_service()->GetSyncWords();
-  // The call should go to OneVNSyncClient => OneVNSyncEventRouter =>
-  // background.js onNeedSyncWords => api::OneVNSyncSyncWordsPreparedFunction =>
-  // OneVNSyncServiceImpl::OnSyncWordsPrepared
-  // but as we have a mock instead of OneVNSyncClient, emulate the response
+  // The call should go to OnevnSyncClient => OnevnSyncEventRouter =>
+  // background.js onNeedSyncWords => api::OnevnSyncSyncWordsPreparedFunction =>
+  // OnevnSyncServiceImpl::OnSyncWordsPrepared
+  // but as we have a mock instead of OnevnSyncClient, emulate the response
   const std::string words = "word1 word2 word3";
   EXPECT_CALL(*observer(), OnHaveSyncWords(sync_service(), words)).Times(1);
   sync_service()->OnSyncWordsPrepared(words);
 }
 
-TEST_F(OneVNSyncServiceTest, SyncSetupError) {
+TEST_F(OnevnSyncServiceTest, SyncSetupError) {
   EXPECT_CALL(*observer(), OnSyncSetupError(sync_service(), _)).Times(1);
   sync_service()->OnSetupSyncHaveCode("", "");
 }
 
-TEST_F(OneVNSyncServiceTest, GetSeed) {
+TEST_F(OnevnSyncServiceTest, GetSeed) {
   EXPECT_CALL(*sync_client(), OnSyncEnabledChanged);
   EXPECT_CALL(*observer(),
       OnSyncStateChanged(sync_service())).Times(AtLeast(2));
@@ -354,7 +354,7 @@ TEST_F(OneVNSyncServiceTest, GetSeed) {
   EXPECT_TRUE(profile()->GetPrefs()->GetBoolean(
        onevn_sync::prefs::kSyncEnabled));
 
-  // Service gets seed from client via OneVNSyncServiceImpl::OnSaveInitData
+  // Service gets seed from client via OnevnSyncServiceImpl::OnSaveInitData
   const auto binary_seed = onevn_sync::Uint8Array(16, 77);
 
   EXPECT_TRUE(sync_service()->sync_prefs_->GetPrevSeed().empty());
@@ -389,7 +389,7 @@ MATCHER_P2(ContainsDeviceRecord, action, name,
   return false;
 }
 
-TEST_F(OneVNSyncServiceTest, OnDeleteDevice) {
+TEST_F(OnevnSyncServiceTest, OnDeleteDevice) {
   RecordsList records;
   records.push_back(SimpleDeviceRecord(
       SyncRecord::Action::A_CREATE,
@@ -434,7 +434,7 @@ TEST_F(OneVNSyncServiceTest, OnDeleteDevice) {
   EXPECT_FALSE(DevicesContains(devices_final.get(), "3", "device3"));
 }
 
-TEST_F(OneVNSyncServiceTest, OnDeleteDeviceWhenOneDevice) {
+TEST_F(OnevnSyncServiceTest, OnDeleteDeviceWhenOneDevice) {
   sync_service()->sync_prefs_->SetThisDeviceId("1");
   RecordsList records;
   records.push_back(SimpleDeviceRecord(
@@ -484,7 +484,7 @@ TEST_F(OneVNSyncServiceTest, OnDeleteDeviceWhenOneDevice) {
   EXPECT_FALSE(sync_service()->IsSyncConfigured());
 }
 
-TEST_F(OneVNSyncServiceTest, OnDeleteDeviceWhenSelfDeleted) {
+TEST_F(OnevnSyncServiceTest, OnDeleteDeviceWhenSelfDeleted) {
   sync_service()->sync_prefs_->SetThisDeviceId("1");
   RecordsList records;
   records.push_back(SimpleDeviceRecord(
@@ -520,7 +520,7 @@ TEST_F(OneVNSyncServiceTest, OnDeleteDeviceWhenSelfDeleted) {
   EXPECT_FALSE(sync_service()->IsSyncConfigured());
 }
 
-TEST_F(OneVNSyncServiceTest, OnResetSync) {
+TEST_F(OnevnSyncServiceTest, OnResetSync) {
   EXPECT_CALL(*sync_client(), OnSyncEnabledChanged).Times(AtLeast(1));
   EXPECT_CALL(*observer(),
       OnSyncStateChanged(sync_service())).Times(AtLeast(3));
@@ -584,7 +584,7 @@ TEST_F(OneVNSyncServiceTest, OnResetSync) {
   EXPECT_FALSE(sync_service()->IsSyncConfigured());
 }
 
-TEST_F(OneVNSyncServiceTest, OnSetSyncBookmarks) {
+TEST_F(OnevnSyncServiceTest, OnSetSyncBookmarks) {
   EXPECT_FALSE(profile()->GetPrefs()->GetBoolean(
        onevn_sync::prefs::kSyncBookmarksEnabled));
   EXPECT_CALL(*observer(), OnSyncStateChanged).Times(1);
@@ -597,7 +597,7 @@ TEST_F(OneVNSyncServiceTest, OnSetSyncBookmarks) {
       onevn_sync::prefs::kSyncBookmarksEnabled));
 }
 
-TEST_F(OneVNSyncServiceTest, OnSetSyncBrowsingHistory) {
+TEST_F(OnevnSyncServiceTest, OnSetSyncBrowsingHistory) {
   EXPECT_FALSE(profile()->GetPrefs()->GetBoolean(
        onevn_sync::prefs::kSyncHistoryEnabled));
   EXPECT_CALL(*observer(), OnSyncStateChanged).Times(1);
@@ -610,7 +610,7 @@ TEST_F(OneVNSyncServiceTest, OnSetSyncBrowsingHistory) {
       onevn_sync::prefs::kSyncHistoryEnabled));
 }
 
-TEST_F(OneVNSyncServiceTest, OnSetSyncSavedSiteSettings) {
+TEST_F(OnevnSyncServiceTest, OnSetSyncSavedSiteSettings) {
   EXPECT_FALSE(profile()->GetPrefs()->GetBoolean(
        onevn_sync::prefs::kSyncSiteSettingsEnabled));
   EXPECT_CALL(*observer(), OnSyncStateChanged).Times(1);
@@ -623,24 +623,24 @@ TEST_F(OneVNSyncServiceTest, OnSetSyncSavedSiteSettings) {
       onevn_sync::prefs::kSyncSiteSettingsEnabled));
 }
 
-TEST_F(OneVNSyncServiceTest, OnGetInitData) {
+TEST_F(OnevnSyncServiceTest, OnGetInitData) {
   EXPECT_CALL(*sync_client(), SendGotInitData).Times(1);
   sync_service()->OnGetInitData("v1.4.2");
 }
 
-TEST_F(OneVNSyncServiceTest, OnSaveBookmarksBaseOrder) {
+TEST_F(OnevnSyncServiceTest, OnSaveBookmarksBaseOrder) {
   sync_service()->OnSaveBookmarksBaseOrder("1.1.");
   EXPECT_EQ(profile()->GetPrefs()->GetString(
        onevn_sync::prefs::kSyncBookmarksBaseOrder), "1.1.");
 }
 
-TEST_F(OneVNSyncServiceTest, OnSyncPrefsChanged) {
+TEST_F(OnevnSyncServiceTest, OnSyncPrefsChanged) {
   EXPECT_CALL(*sync_client(), OnSyncEnabledChanged).Times(1);
   EXPECT_CALL(*observer(), OnSyncStateChanged);
   sync_service()->OnSyncPrefsChanged(onevn_sync::prefs::kSyncEnabled);
 }
 
-TEST_F(OneVNSyncServiceTest, OnSyncReadyAlreadyWithSync) {
+TEST_F(OnevnSyncServiceTest, OnSyncReadyAlreadyWithSync) {
   EXPECT_FALSE(sync_service()->IsSyncInitialized());
   profile()->GetPrefs()->SetString(
                            onevn_sync::prefs::kSyncBookmarksBaseOrder, "1.1.");
@@ -678,7 +678,7 @@ TEST_F(OneVNSyncServiceTest, OnSyncReadyAlreadyWithSync) {
   EXPECT_TRUE(sync_service()->IsSyncInitialized());
 }
 
-TEST_F(OneVNSyncServiceTest, OnSyncReadyNewToSync) {
+TEST_F(OnevnSyncServiceTest, OnSyncReadyNewToSync) {
   EXPECT_CALL(*observer(), OnSyncStateChanged);
   profile()->GetPrefs()->SetBoolean(
                             onevn_sync::prefs::kSyncSiteSettingsEnabled, true);
@@ -686,7 +686,7 @@ TEST_F(OneVNSyncServiceTest, OnSyncReadyNewToSync) {
   sync_service()->OnSyncReady();
 }
 
-TEST_F(OneVNSyncServiceTest, OnGetExistingObjects) {
+TEST_F(OnevnSyncServiceTest, OnGetExistingObjects) {
   EXPECT_CALL(*sync_client(), SendResolveSyncRecords).Times(1);
 
   auto records = std::make_unique<RecordsList>();
@@ -696,12 +696,12 @@ TEST_F(OneVNSyncServiceTest, OnGetExistingObjects) {
       false);
 }
 
-TEST_F(OneVNSyncServiceTest, BackgroundSyncStarted) {
+TEST_F(OnevnSyncServiceTest, BackgroundSyncStarted) {
   sync_service()->BackgroundSyncStarted(false);
   EXPECT_TRUE(sync_service()->timer_->IsRunning());
 }
 
-TEST_F(OneVNSyncServiceTest, BackgroundSyncStopped) {
+TEST_F(OnevnSyncServiceTest, BackgroundSyncStopped) {
   sync_service()->BackgroundSyncStopped(false);
   EXPECT_FALSE(sync_service()->timer_->IsRunning());
 }

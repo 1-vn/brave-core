@@ -4,9 +4,9 @@
 
 #include "net/cookies/canonical_cookie.h"
 
-struct OneVNLedger;
-struct OneVNStats;
-struct OneVNReferral;
+struct OnevnLedger;
+struct OnevnStats;
+struct OnevnReferral;
 struct ImportedWindowState;
 struct SessionStoreSettings;
 

@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -21,13 +21,13 @@ namespace {
 
 const char kComponentUpdaterProxy[] = "https://componentupdater.1-vn.com";
 
-class OneVNCommonStaticRedirectNetworkDelegateHelperTest
+class OnevnCommonStaticRedirectNetworkDelegateHelperTest
     : public testing::Test {
  public:
-  OneVNCommonStaticRedirectNetworkDelegateHelperTest()
+  OnevnCommonStaticRedirectNetworkDelegateHelperTest()
       : thread_bundle_(content::TestBrowserThreadBundle::IO_MAINLOOP),
         context_(new net::TestURLRequestContext(true)) {}
-  ~OneVNCommonStaticRedirectNetworkDelegateHelperTest() override {}
+  ~OnevnCommonStaticRedirectNetworkDelegateHelperTest() override {}
   void SetUp() override { context_->Init(); }
   net::TestURLRequestContext* context() { return context_.get(); }
 
@@ -36,35 +36,35 @@ class OneVNCommonStaticRedirectNetworkDelegateHelperTest
   std::unique_ptr<net::TestURLRequestContext> context_;
 };
 
-TEST_F(OneVNCommonStaticRedirectNetworkDelegateHelperTest,
+TEST_F(OnevnCommonStaticRedirectNetworkDelegateHelperTest,
        ModifyComponentUpdaterURL) {
   net::TestDelegate test_delegate;
   std::string query_string("?foo=bar");
   GURL url(std::string(component_updater::kUpdaterDefaultUrl) + query_string);
   std::unique_ptr<net::URLRequest> request = context()->CreateRequest(
       url, net::IDLE, &test_delegate, TRAFFIC_ANNOTATION_FOR_TESTS);
-  std::shared_ptr<onevn::OneVNRequestInfo> before_url_context(
-      new onevn::OneVNRequestInfo());
-  onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(),
+  std::shared_ptr<onevn::OnevnRequestInfo> before_url_context(
+      new onevn::OnevnRequestInfo());
+  onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(),
                                               before_url_context);
   onevn::ResponseCallback callback;
   GURL expected_url(
-      std::string(kOneVNUpdatesExtensionsEndpoint + query_string));
+      std::string(kOnevnUpdatesExtensionsEndpoint + query_string));
   int ret =
       OnBeforeURLRequest_CommonStaticRedirectWork(callback, before_url_context);
   EXPECT_EQ(GURL(before_url_context->new_url_spec), expected_url);
   EXPECT_EQ(ret, net::OK);
 }
 
-TEST_F(OneVNCommonStaticRedirectNetworkDelegateHelperTest,
+TEST_F(OnevnCommonStaticRedirectNetworkDelegateHelperTest,
        NoModifyComponentUpdaterURL) {
   net::TestDelegate test_delegate;
   GURL url(kComponentUpdaterProxy);
   std::unique_ptr<net::URLRequest> request = context()->CreateRequest(
       url, net::IDLE, &test_delegate, TRAFFIC_ANNOTATION_FOR_TESTS);
-  std::shared_ptr<onevn::OneVNRequestInfo> before_url_context(
-      new onevn::OneVNRequestInfo());
-  onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(),
+  std::shared_ptr<onevn::OnevnRequestInfo> before_url_context(
+      new onevn::OnevnRequestInfo());
+  onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(),
                                               before_url_context);
   onevn::ResponseCallback callback;
   GURL expected_url;

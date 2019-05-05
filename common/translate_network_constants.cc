@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -14,7 +14,7 @@ const char kTranslateLanguagePattern[] = "https://translate.googleapis.com/trans
 const char kTranslateGen204Pattern[] = "https://translate.google.com/gen204*";
 const char kTranslateElementMainCSSPattern[] = "https://translate.googleapis.com/translate_static/css/translateelement.css"; // NOLINT
 const char kTranslateBrandingPNGPattern[] = "https://www.gstatic.com/images/branding/product/*x/translate_24dp.png"; // NOLINT
-const char kOneVNTranslateServer[] = "https://translate-relay.1-vn.com";
-const char kOneVNTranslateEndpoint[] = "https://translate-relay.1-vn.com/translate"; // NOLINT
-const char kOneVNTranslateLanguageEndpoint[] = "https://translate-relay.1-vn.com/language"; // NOLINT
-const char kOneVNTranslateServerPrefix[] = "https://translate-relay.1-vn.com/*"; // NOLINT
+const char kOnevnTranslateServer[] = "https://translate-relay.1-vn.com";
+const char kOnevnTranslateEndpoint[] = "https://translate-relay.1-vn.com/translate"; // NOLINT
+const char kOnevnTranslateLanguageEndpoint[] = "https://translate-relay.1-vn.com/language"; // NOLINT
+const char kOnevnTranslateServerPrefix[] = "https://translate-relay.1-vn.com/*"; // NOLINT

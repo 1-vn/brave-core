@@ -28,13 +28,13 @@
 
 namespace extensions {
 
-using api::OneVNShieldsContentSettingGetFunction;
-using api::OneVNShieldsContentSettingSetFunction;
-using extensions::api::OneVNShieldsAllowScriptsOnceFunction;
+using api::OnevnShieldsContentSettingGetFunction;
+using api::OnevnShieldsContentSettingSetFunction;
+using extensions::api::OnevnShieldsAllowScriptsOnceFunction;
 using extension_function_test_utils::RunFunctionAndReturnError;
 using extension_function_test_utils::RunFunctionAndReturnSingleResult;
 
-class OneVNShieldsAPIBrowserTest : public InProcessBrowserTest {
+class OnevnShieldsAPIBrowserTest : public InProcessBrowserTest {
   public:
     void SetUpOnMainThread() override {
       InProcessBrowserTest::SetUpOnMainThread();
@@ -81,8 +81,8 @@ class OneVNShieldsAPIBrowserTest : public InProcessBrowserTest {
 
     void AllowScriptOriginOnce(const std::string& origin) {
       // run extension function to temporarily allow origin
-      scoped_refptr<OneVNShieldsAllowScriptsOnceFunction> function(
-          new OneVNShieldsAllowScriptsOnceFunction());
+      scoped_refptr<OnevnShieldsAllowScriptsOnceFunction> function(
+          new OnevnShieldsAllowScriptsOnceFunction());
       function->set_extension(extension().get());
       function->set_has_callback(true);
 
@@ -105,7 +105,7 @@ class OneVNShieldsAPIBrowserTest : public InProcessBrowserTest {
     scoped_refptr<const extensions::Extension> extension_;
 };
 
-IN_PROC_BROWSER_TEST_F(OneVNShieldsAPIBrowserTest, AllowScriptsOnce) {
+IN_PROC_BROWSER_TEST_F(OnevnShieldsAPIBrowserTest, AllowScriptsOnce) {
   BlockScripts();
 
   EXPECT_TRUE(
@@ -143,7 +143,7 @@ IN_PROC_BROWSER_TEST_F(OneVNShieldsAPIBrowserTest, AllowScriptsOnce) {
     "All script loadings should be blocked after navigating away.";
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNShieldsAPIBrowserTest, AllowScriptsOnceIframe) {
+IN_PROC_BROWSER_TEST_F(OnevnShieldsAPIBrowserTest, AllowScriptsOnceIframe) {
   BlockScripts();
 
   EXPECT_TRUE(
@@ -163,15 +163,15 @@ constexpr char kJavascriptSetParams[] =
     "\"setting\": \"block\"}]";
 constexpr char kJavascriptGetParams[] =
     "[\"javascript\", {\"primaryUrl\": \"https://www.1-vn.com/*\"}]";
-constexpr char kOneVNURLPattern[] = "https://www.1-vn.com/*";
-const GURL kOneVNURL("https://www.1-vn.com");
+constexpr char kOnevnURLPattern[] = "https://www.1-vn.com/*";
+const GURL kOnevnURL("https://www.1-vn.com");
 
 // Test javascript content setting works properly via onevnShields api.
-IN_PROC_BROWSER_TEST_F(OneVNShieldsAPIBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnShieldsAPIBrowserTest,
                        ContentSettingJavascriptAPI) {
   // Default content settings for javascript is allow.
-  scoped_refptr<OneVNShieldsContentSettingGetFunction> get_function(
-      new OneVNShieldsContentSettingGetFunction());
+  scoped_refptr<OnevnShieldsContentSettingGetFunction> get_function(
+      new OnevnShieldsContentSettingGetFunction());
   get_function->set_extension(extension().get());
   std::unique_ptr<base::Value> value;
   value.reset(RunFunctionAndReturnSingleResult(get_function.get(),
@@ -182,15 +182,15 @@ IN_PROC_BROWSER_TEST_F(OneVNShieldsAPIBrowserTest,
       std::string("allow"));
 
   // Block javascript.
-  scoped_refptr<OneVNShieldsContentSettingSetFunction> set_function(
-      new OneVNShieldsContentSettingSetFunction());
+  scoped_refptr<OnevnShieldsContentSettingSetFunction> set_function(
+      new OnevnShieldsContentSettingSetFunction());
   set_function->set_extension(extension().get());
   RunFunctionAndReturnSingleResult(set_function.get(),
                                    kJavascriptSetParams,
                                    browser());
 
   // Check Block is set.
-  get_function = base::MakeRefCounted<OneVNShieldsContentSettingGetFunction>();
+  get_function = base::MakeRefCounted<OnevnShieldsContentSettingGetFunction>();
   get_function->set_extension(extension().get());
   value.reset(RunFunctionAndReturnSingleResult(get_function.get(),
                                                kJavascriptGetParams,
@@ -202,14 +202,14 @@ IN_PROC_BROWSER_TEST_F(OneVNShieldsAPIBrowserTest,
 
 // Test previous settings set by extension is deleted when setting is newly
 // modifed.
-IN_PROC_BROWSER_TEST_F(OneVNShieldsAPIBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnShieldsAPIBrowserTest,
                        ContentSettingValueFromExtensionDelete) {
   // Set javascript content setting via ContentSettingsStore and check this
   // settings comes from extension. chrome.contentSettings.javascript.set()
   // sets settings into ContentSettingsStore.
   std::string primary_error;
   ContentSettingsPattern primary_pattern =
-      content_settings_helpers::ParseExtensionPattern(kOneVNURLPattern,
+      content_settings_helpers::ParseExtensionPattern(kOnevnURLPattern,
                                                       &primary_error);
   scoped_refptr<ContentSettingsStore> store =
       ContentSettingsService::Get(browser()->profile())->
@@ -225,15 +225,15 @@ IN_PROC_BROWSER_TEST_F(OneVNShieldsAPIBrowserTest,
 
   content_settings::SettingInfo info;
   content_settings()->GetWebsiteSetting(
-      kOneVNURL, kOneVNURL,
+      kOnevnURL, kOnevnURL,
       CONTENT_SETTINGS_TYPE_JAVASCRIPT, std::string(), &info);
   // Check source is extension.
   EXPECT_EQ(info.source,
             content_settings::SettingSource::SETTING_SOURCE_EXTENSION);
 
   // Check this value via onevnShields api.
-  scoped_refptr<OneVNShieldsContentSettingGetFunction> get_function(
-      new OneVNShieldsContentSettingGetFunction());
+  scoped_refptr<OnevnShieldsContentSettingGetFunction> get_function(
+      new OnevnShieldsContentSettingGetFunction());
   get_function->set_extension(extension().get());
   std::unique_ptr<base::Value> value;
   value.reset(RunFunctionAndReturnSingleResult(get_function.get(),
@@ -244,15 +244,15 @@ IN_PROC_BROWSER_TEST_F(OneVNShieldsAPIBrowserTest,
       std::string("allow"));
 
   // Block via shields api.
-  scoped_refptr<OneVNShieldsContentSettingSetFunction> set_function(
-      new OneVNShieldsContentSettingSetFunction());
+  scoped_refptr<OnevnShieldsContentSettingSetFunction> set_function(
+      new OnevnShieldsContentSettingSetFunction());
   set_function->set_extension(extension().get());
   RunFunctionAndReturnSingleResult(set_function.get(),
                                    kJavascriptSetParams,
                                    browser());
 
   // Check Block is set.
-  get_function = base::MakeRefCounted<OneVNShieldsContentSettingGetFunction>();
+  get_function = base::MakeRefCounted<OnevnShieldsContentSettingGetFunction>();
   get_function->set_extension(extension().get());
   value.reset(RunFunctionAndReturnSingleResult(get_function.get(),
                                                kJavascriptGetParams,
@@ -262,7 +262,7 @@ IN_PROC_BROWSER_TEST_F(OneVNShieldsAPIBrowserTest,
       std::string("block"));
 
   content_settings()->GetWebsiteSetting(
-      kOneVNURL, kOneVNURL,
+      kOnevnURL, kOnevnURL,
       CONTENT_SETTINGS_TYPE_JAVASCRIPT, std::string(), &info);
   // Check source is user.
   EXPECT_EQ(info.source,
@@ -270,53 +270,53 @@ IN_PROC_BROWSER_TEST_F(OneVNShieldsAPIBrowserTest,
 }
 
 // Checks shields configuration is persisted across the sessions.
-IN_PROC_BROWSER_TEST_F(OneVNShieldsAPIBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnShieldsAPIBrowserTest,
                        PRE_ShieldSettingsPersistTest) {
   HostContentSettingsMapFactory::GetForProfile(browser()->profile())->
       SetContentSettingDefaultScope(
-        kOneVNURL, kOneVNURL,
+        kOnevnURL, kOnevnURL,
         CONTENT_SETTINGS_TYPE_PLUGINS,
         onevn_shields::kHTTPUpgradableResources,
         CONTENT_SETTING_ALLOW);
 
   ContentSetting setting =
       HostContentSettingsMapFactory::GetForProfile(browser()->profile())->
-          GetContentSetting(kOneVNURL, kOneVNURL, CONTENT_SETTINGS_TYPE_PLUGINS,
+          GetContentSetting(kOnevnURL, kOnevnURL, CONTENT_SETTINGS_TYPE_PLUGINS,
                             onevn_shields::kHTTPUpgradableResources);
   EXPECT_EQ(setting, CONTENT_SETTING_ALLOW);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNShieldsAPIBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnShieldsAPIBrowserTest,
                        ShieldSettingsPersistTest) {
   ContentSetting setting =
       HostContentSettingsMapFactory::GetForProfile(browser()->profile())->
-          GetContentSetting(kOneVNURL, kOneVNURL, CONTENT_SETTINGS_TYPE_PLUGINS,
+          GetContentSetting(kOnevnURL, kOnevnURL, CONTENT_SETTINGS_TYPE_PLUGINS,
                             onevn_shields::kHTTPUpgradableResources);
   EXPECT_EQ(setting, CONTENT_SETTING_ALLOW);
 }
 
 // Checks flash configuration isn't persisted across the sessions.
-IN_PROC_BROWSER_TEST_F(OneVNShieldsAPIBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnShieldsAPIBrowserTest,
                        PRE_FlashPersistTest) {
   HostContentSettingsMapFactory::GetForProfile(browser()->profile())->
       SetContentSettingDefaultScope(
-        kOneVNURL, kOneVNURL,
+        kOnevnURL, kOnevnURL,
         CONTENT_SETTINGS_TYPE_PLUGINS,
         std::string(),
         CONTENT_SETTING_ALLOW);
 
   ContentSetting setting =
       HostContentSettingsMapFactory::GetForProfile(browser()->profile())->
-          GetContentSetting(kOneVNURL, kOneVNURL, CONTENT_SETTINGS_TYPE_PLUGINS,
+          GetContentSetting(kOnevnURL, kOnevnURL, CONTENT_SETTINGS_TYPE_PLUGINS,
                             std::string());
   EXPECT_EQ(setting, CONTENT_SETTING_ALLOW);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNShieldsAPIBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnShieldsAPIBrowserTest,
                        FlashPersistTest) {
   ContentSetting setting =
       HostContentSettingsMapFactory::GetForProfile(browser()->profile())->
-          GetContentSetting(kOneVNURL, kOneVNURL, CONTENT_SETTINGS_TYPE_PLUGINS,
+          GetContentSetting(kOnevnURL, kOnevnURL, CONTENT_SETTINGS_TYPE_PLUGINS,
                             std::string());
   EXPECT_EQ(setting, CONTENT_SETTING_BLOCK);
 }

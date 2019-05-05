@@ -15,7 +15,7 @@ index 1c925a2bff238c437e4a37cdeb47785e95acdbe4..611dd06bd451e960df5339b93ae3e929
  #endif
      content::kChromeUIScheme,
 +#if defined(ONEVN_CHROMIUM_BUILD)
-+    kOneVNUIScheme,
++    kOnevnUIScheme,
 +#endif
      url::kDataScheme,
  #if defined(OS_CHROMEOS)
@@ -25,7 +25,7 @@ index 1c925a2bff238c437e4a37cdeb47785e95acdbe4..611dd06bd451e960df5339b93ae3e929
  
      std::unique_ptr<ChromeNetworkDelegate> chrome_network_delegate(
 -        new ChromeNetworkDelegate(
-+        new OneVNProfileNetworkDelegate(
++        new OnevnProfileNetworkDelegate(
  #if BUILDFLAG(ENABLE_EXTENSIONS)
              io_thread_globals->extension_event_router_forwarder.get()));
  #else

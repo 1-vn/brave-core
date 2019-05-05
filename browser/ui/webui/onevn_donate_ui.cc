@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -35,7 +35,7 @@ using content::WebUIMessageHandler;
 
 namespace {
 
-// The handler for Javascript messages for OneVN about: pages
+// The handler for Javascript messages for Onevn about: pages
 class RewardsDonateDOMHandler : public WebUIMessageHandler,
                                 public onevn_rewards::RewardsServiceObserver {
  public:
@@ -271,7 +271,7 @@ void RewardsDonateDOMHandler::OnPublisherBanner(
 
 }  // namespace
 
-OneVNDonateUI::OneVNDonateUI(content::WebUI* web_ui, const std::string& name)
+OnevnDonateUI::OnevnDonateUI(content::WebUI* web_ui, const std::string& name)
     : ConstrainedWebDialogUI(web_ui) {
   Profile* profile = Profile::FromWebUI(web_ui);
   // Show error for non-supported contexts
@@ -280,8 +280,8 @@ OneVNDonateUI::OneVNDonateUI(content::WebUI* web_ui, const std::string& name)
   }
   content::WebUIDataSource* data_source = CreateBasicUIHTMLSource(profile,
                                               name,
-                                              kOneVNDonateGenerated,
-                                              kOneVNDonateGeneratedSize,
+                                              kOnevnDonateGenerated,
+                                              kOnevnDonateGeneratedSize,
                                               IDR_ONEVN_DONATE_HTML);
   content::WebUIDataSource::Add(profile, data_source);
 
@@ -331,5 +331,5 @@ void RewardsDonateDOMHandler::OnRecurringTipSaved(
       "onevn_rewards_donate.recurringTipSaved", base::Value(success));
 }
 
-OneVNDonateUI::~OneVNDonateUI() {
+OnevnDonateUI::~OnevnDonateUI() {
 }

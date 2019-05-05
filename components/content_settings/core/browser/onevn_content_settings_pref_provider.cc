@@ -10,7 +10,7 @@
 
 namespace content_settings {
 
-OneVNPrefProvider::OneVNPrefProvider(PrefService* prefs,
+OnevnPrefProvider::OnevnPrefProvider(PrefService* prefs,
                                      bool incognito,
                                      bool store_last_modified)
     : PrefProvider(prefs, incognito, store_last_modified) {
@@ -18,7 +18,7 @@ OneVNPrefProvider::OneVNPrefProvider(PrefService* prefs,
 
   WebsiteSettingsRegistry* website_settings =
       WebsiteSettingsRegistry::GetInstance();
-  // Makes OneVNPrefProvder handle plugin type.
+  // Makes OnevnPrefProvder handle plugin type.
   for (const WebsiteSettingsInfo* info : *website_settings) {
     if (info->type() == CONTENT_SETTINGS_TYPE_PLUGINS) {
       content_settings_prefs_.insert(std::make_pair(
@@ -33,12 +33,12 @@ OneVNPrefProvider::OneVNPrefProvider(PrefService* prefs,
   }
 }
 
-void OneVNPrefProvider::ShutdownOnUIThread() {
+void OnevnPrefProvider::ShutdownOnUIThread() {
   onevn_pref_change_registrar_.RemoveAll();
   PrefProvider::ShutdownOnUIThread();
 }
 
-bool OneVNPrefProvider::SetWebsiteSetting(
+bool OnevnPrefProvider::SetWebsiteSetting(
     const ContentSettingsPattern& primary_pattern,
     const ContentSettingsPattern& secondary_pattern,
     ContentSettingsType content_type,

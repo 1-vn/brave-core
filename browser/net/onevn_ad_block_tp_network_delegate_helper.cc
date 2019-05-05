@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -85,7 +85,7 @@ bool GetPolyfillForAdBlock(bool allow_onevn_shields, bool allow_ads,
 }
 
 void OnBeforeURLRequestAdBlockTPOnTaskRunner(
-    std::shared_ptr<OneVNRequestInfo> ctx) {
+    std::shared_ptr<OnevnRequestInfo> ctx) {
   // If the following info isn't available, then proper content settings can't
   // be looked up, so do nothing.
   if (ctx->tab_origin.is_empty() || !ctx->tab_origin.has_host() ||
@@ -123,7 +123,7 @@ void OnBeforeURLRequestAdBlockTPOnTaskRunner(
 
 void OnBeforeURLRequestDispatchOnIOThread(
     const ResponseCallback& next_callback,
-    std::shared_ptr<OneVNRequestInfo> ctx) {
+    std::shared_ptr<OnevnRequestInfo> ctx) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::IO);
   if (ctx->blocked_by == kAdBlocked) {
     onevn_shields::DispatchBlockedEventFromIO(ctx->request_url,
@@ -140,7 +140,7 @@ void OnBeforeURLRequestDispatchOnIOThread(
 
 int OnBeforeURLRequest_AdBlockTPPreWork(
     const ResponseCallback& next_callback,
-    std::shared_ptr<OneVNRequestInfo> ctx) {
+    std::shared_ptr<OnevnRequestInfo> ctx) {
 
   if (ctx->request_url.is_empty()) {
     return net::OK;

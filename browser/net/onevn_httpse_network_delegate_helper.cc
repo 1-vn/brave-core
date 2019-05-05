@@ -1,4 +1,4 @@
-/* Copyright 2019 The OneVN Authors. All rights reserved.
+/* Copyright 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -22,7 +22,7 @@ using content::BrowserThread;
 namespace onevn {
 
 void OnBeforeURLRequest_HttpseFileWork(
-    std::shared_ptr<OneVNRequestInfo> ctx) {
+    std::shared_ptr<OnevnRequestInfo> ctx) {
   base::ScopedBlockingCall scoped_blocking_call(FROM_HERE,
                                                 base::BlockingType::WILL_BLOCK);
   DCHECK_NE(ctx->request_identifier, 0U);
@@ -32,7 +32,7 @@ void OnBeforeURLRequest_HttpseFileWork(
 
 void OnBeforeURLRequest_HttpsePostFileWork(
     const ResponseCallback& next_callback,
-    std::shared_ptr<OneVNRequestInfo> ctx) {
+    std::shared_ptr<OnevnRequestInfo> ctx) {
   DCHECK_CURRENTLY_ON(BrowserThread::IO);
 
   if (!ctx->new_url_spec.empty() &&
@@ -47,7 +47,7 @@ void OnBeforeURLRequest_HttpsePostFileWork(
 
 int OnBeforeURLRequest_HttpsePreFileWork(
     const ResponseCallback& next_callback,
-    std::shared_ptr<OneVNRequestInfo> ctx) {
+    std::shared_ptr<OnevnRequestInfo> ctx) {
   DCHECK_CURRENTLY_ON(BrowserThread::IO);
 
   // Don't try to overwrite an already set URL by another delegate (adblock/tp)

@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -80,7 +80,7 @@ void RewardsInternalsDOMHandler::Init() {
   pref_change_registrar_ = std::make_unique<PrefChangeRegistrar>();
   pref_change_registrar_->Init(prefs);
   pref_change_registrar_->Add(
-      onevn_rewards::prefs::kOneVNRewardsEnabled,
+      onevn_rewards::prefs::kOnevnRewardsEnabled,
       base::BindRepeating(&RewardsInternalsDOMHandler::OnPreferenceChanged,
                           base::Unretained(this)));
 }
@@ -88,7 +88,7 @@ void RewardsInternalsDOMHandler::Init() {
 bool RewardsInternalsDOMHandler::IsRewardsEnabled() const {
   DCHECK(profile_);
   return profile_->GetPrefs()->GetBoolean(
-      onevn_rewards::prefs::kOneVNRewardsEnabled);
+      onevn_rewards::prefs::kOnevnRewardsEnabled);
 }
 
 void RewardsInternalsDOMHandler::HandleGetRewardsEnabled(
@@ -143,16 +143,16 @@ void RewardsInternalsDOMHandler::OnGetRewardsInternalsInfo(
 
 }  // namespace
 
-OneVNRewardsInternalsUI::OneVNRewardsInternalsUI(content::WebUI* web_ui,
+OnevnRewardsInternalsUI::OnevnRewardsInternalsUI(content::WebUI* web_ui,
                                                  const std::string& name)
     : BasicUI(web_ui,
               name,
 #if !defined(OS_ANDROID)
-              kOneVNRewardsGenerated,
-              kOneVNRewardsGeneratedSize,
+              kOnevnRewardsGenerated,
+              kOnevnRewardsGeneratedSize,
 #else
-              kOneVNRewardsSettingsGenerated,
-              kOneVNRewardsSettingsGeneratedSize,
+              kOnevnRewardsSettingsGenerated,
+              kOnevnRewardsSettingsGeneratedSize,
 #endif
               IDR_ONEVN_REWARDS_INTERNALS_HTML) {
   auto handler_owner = std::make_unique<RewardsInternalsDOMHandler>();
@@ -161,5 +161,5 @@ OneVNRewardsInternalsUI::OneVNRewardsInternalsUI(content::WebUI* web_ui,
   handler->Init();
 }
 
-OneVNRewardsInternalsUI::~OneVNRewardsInternalsUI() {
+OnevnRewardsInternalsUI::~OnevnRewardsInternalsUI() {
 }

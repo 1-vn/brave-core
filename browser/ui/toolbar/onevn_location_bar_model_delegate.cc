@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -7,13 +7,13 @@
 
 #include "base/strings/utf_string_conversions.h"
 
-OneVNLocationBarModelDelegate::OneVNLocationBarModelDelegate(
+OnevnLocationBarModelDelegate::OnevnLocationBarModelDelegate(
     Browser* browser) : BrowserLocationBarModelDelegate(browser) {}
 
-OneVNLocationBarModelDelegate::~OneVNLocationBarModelDelegate() {}
+OnevnLocationBarModelDelegate::~OnevnLocationBarModelDelegate() {}
 
 base::string16
-OneVNLocationBarModelDelegate::FormattedStringWithEquivalentMeaning(
+OnevnLocationBarModelDelegate::FormattedStringWithEquivalentMeaning(
     const GURL& url,
     const base::string16& formatted_url) const {
   base::string16 new_formatted_url =

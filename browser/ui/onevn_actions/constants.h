@@ -4,7 +4,7 @@
 
 namespace onevn_actions {
 
-  const int kOneVNActionGraphicSize = 18;
-  const int kOneVNActionRightMargin = 2;
+  const int kOnevnActionGraphicSize = 18;
+  const int kOnevnActionRightMargin = 2;
 
 }

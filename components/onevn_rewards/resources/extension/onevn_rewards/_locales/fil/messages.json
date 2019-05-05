@@ -1,6 +1,6 @@
 {
   "onevnRewards": {
-    "message": "Mga Reward ng OneVN",
+    "message": "Mga Reward ng Onevn",
     "description": "Title in welcome screen for the panel"
   },
   "welcomeButtonTextOne": {
@@ -28,7 +28,7 @@
     "description": "Link in the footer (takes you to rewards settings page) for welcome screen in the panel, new user"
   },
   "welcomeHeaderOne": {
-    "message": "Binigyan namin ng malaking upgrade ang OneVN Rewards.",
+    "message": "Binigyan namin ng malaking upgrade ang Onevn Rewards.",
     "description": "Main header title for welcome screen in the panel, existing user"
   },
   "welcomeHeaderTwo": {
@@ -48,7 +48,7 @@
     "description": "The whole string is 'Enable tips on YouTube for like.'"
   },
   "verifiedPublisher": {
-    "message": "Publisher na Na-verify ng OneVN",
+    "message": "Publisher na Na-verify ng Onevn",
     "description": "Tells user that this particular publisher is verified publisher"
   },
   "rewardsContributeAttentionScore": {
@@ -164,7 +164,7 @@
     "description": "Used in notification to dismiss notification"
   },
   "onevnAdsTitle": {
-    "message": "OneVN Ads",
+    "message": "Onevn Ads",
     "description": "Notification title when we display info about ads"
   },
   "onevnContributeTitle": {
@@ -194,11 +194,11 @@
     "description": "Notification title when we ask user to backup wallet"
   },
   "backupWalletNotification": {
-    "message": "Paki-back up ang iyong wallet sa OneVN.",
+    "message": "Paki-back up ang iyong wallet sa Onevn.",
     "description": "Description for backup wallet notification"
   },
   "insufficientFundsNotification": {
-    "message": "Naghihintay ng deposito ang iyong OneVN Rewards account.",
+    "message": "Naghihintay ng deposito ang iyong Onevn Rewards account.",
     "description": "Description for new insufficient funds notification"
   },
   "insufficientFunds": {
@@ -270,7 +270,7 @@
     "description": "Button text for clearing the error."
   },
   "grantGeneralErrorText": {
-    "message": "Nagkakaproblema ang Mga Reward ng OneVN. Pakisubukang muli sa ibang pagkakataon.",
+    "message": "Nagkakaproblema ang Mga Reward ng Onevn. Pakisubukang muli sa ibang pagkakataon.",
     "description": "Error text when user is having problems claiming a grant."
   },
   "grantGeneralErrorTitle": {
@@ -294,7 +294,7 @@
     "description": "Status of the publisher shown in the panel"
   },
   "unVerifiedText": {
-    "message": "Hindi pa nagsa-sign up ang creator na ito upang makatanggap ng mga ambag mula sa mga user ng OneVN. Mananatili sa iyong wallet ang anumang tip na ipapadala mo hanggang sa mag-verify sila.",
+    "message": "Hindi pa nagsa-sign up ang creator na ito upang makatanggap ng mga ambag mula sa mga user ng Onevn. Mananatili sa iyong wallet ang anumang tip na ipapadala mo hanggang sa mag-verify sila.",
     "description": "Notice about unverified publisher."
   },
   "unVerifiedTextMore": {
@@ -322,7 +322,7 @@
     "description": "Text for Panel's disabled state"
   },
   "disabledPanelTitle": {
-    "message": "Ang Mga Reward ng OneVN ay",
+    "message": "Ang Mga Reward ng Onevn ay",
     "description": "Title for Panel's disabled state"
   },
   "walletFailedTitle": {
@@ -358,7 +358,7 @@
     "description": "Text block for wallet disabled panel"
   },
   "enableRewards": {
-    "message": "I-enable ang Mga Reward ng OneVN",
+    "message": "I-enable ang Mga Reward ng Onevn",
     "description": "Subtitle for wallet disabled panel"
   },
   "privacyPolicy": {
@@ -366,7 +366,7 @@
     "description": "Privacy Policy"
   },
   "serviceText": {
-    "message": "Sa pamamagitan ng pag-click sa 'I-enable ang OneVN Rewards', isinasaad mong nabasa mo at sumasang-ayon ka sa",
+    "message": "Sa pamamagitan ng pag-click sa 'I-enable ang Onevn Rewards', isinasaad mong nabasa mo at sumasang-ayon ka sa",
     "description": "Terms of service main text"
   },
   "termsOfService": {

@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -35,17 +35,17 @@ void RemoveTrackableSecurityHeadersForThirdParty(
     const net::HttpResponseHeaders* original_response_headers,
     scoped_refptr<net::HttpResponseHeaders>* override_response_headers);
 
-// OneVNNetworkDelegateBase is the central point from within the OneVN code to
+// OnevnNetworkDelegateBase is the central point from within the Onevn code to
 // add hooks into the network stack.
-class OneVNNetworkDelegateBase : public ChromeNetworkDelegate {
+class OnevnNetworkDelegateBase : public ChromeNetworkDelegate {
  public:
   using ResponseCallback = base::Callback<void(const base::DictionaryValue&)>;
   using ResponseListener = base::Callback<void(const base::DictionaryValue&,
                                                const ResponseCallback&)>;
 
-  explicit OneVNNetworkDelegateBase(
+  explicit OnevnNetworkDelegateBase(
       extensions::EventRouterForwarder* event_router);
-  ~OneVNNetworkDelegateBase() override;
+  ~OnevnNetworkDelegateBase() override;
 
   bool IsRequestIdentifierValid(uint64_t request_identifier);
 
@@ -77,7 +77,7 @@ class OneVNNetworkDelegateBase : public ChromeNetworkDelegate {
 
  protected:
   void RunNextCallback(net::URLRequest* request,
-                       std::shared_ptr<onevn::OneVNRequestInfo> ctx);
+                       std::shared_ptr<onevn::OnevnRequestInfo> ctx);
   std::vector<onevn::OnBeforeURLRequestCallback> before_url_request_callbacks_;
   std::vector<onevn::OnBeforeStartTransactionCallback>
       before_start_transaction_callbacks_;
@@ -106,7 +106,7 @@ class OneVNNetworkDelegateBase : public ChromeNetworkDelegate {
 
   bool allow_google_auth_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNNetworkDelegateBase);
+  DISALLOW_COPY_AND_ASSIGN(OnevnNetworkDelegateBase);
 };
 
 #endif  // ONEVN_BROWSER_NET_ONEVN_NETWORK_DELEGATE_BASE_H_

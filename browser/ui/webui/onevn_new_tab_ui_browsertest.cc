@@ -39,7 +39,7 @@ class ObserverLogger : public RenderProcessHostObserver {
 
 }  // namespace
 
-class OneVNNewTabUIBrowserTest : public extensions::ExtensionFunctionalTest {
+class OnevnNewTabUIBrowserTest : public extensions::ExtensionFunctionalTest {
  public:
   void GoBack(WebContents* web_contents) {
     WindowedNotificationObserver load_stop_observer(
@@ -51,7 +51,7 @@ class OneVNNewTabUIBrowserTest : public extensions::ExtensionFunctionalTest {
 };
 
 // Test that properties are set on the correct RenderViewHost.
-IN_PROC_BROWSER_TEST_F(OneVNNewTabUIBrowserTest, StartupURLTest) {
+IN_PROC_BROWSER_TEST_F(OnevnNewTabUIBrowserTest, StartupURLTest) {
   auto* contents = browser()->tab_strip_model()->GetActiveWebContents();
   RenderProcessHost* host = contents->GetMainFrame()->GetProcess();
   ObserverLogger observer_logger(host);
@@ -68,10 +68,10 @@ IN_PROC_BROWSER_TEST_F(OneVNNewTabUIBrowserTest, StartupURLTest) {
   WaitForLoadStop(contents);
 }
 
-// This test simply checks that by default the OneVN new tab page is used.
+// This test simply checks that by default the Onevn new tab page is used.
 // It does this by loading the newtab page and then checking if
 // window.onevn_new_tab exists.
-IN_PROC_BROWSER_TEST_F(OneVNNewTabUIBrowserTest, OneVNNewTabIsDefault) {
+IN_PROC_BROWSER_TEST_F(OnevnNewTabUIBrowserTest, OnevnNewTabIsDefault) {
   auto* contents = browser()->tab_strip_model()->GetActiveWebContents();
   GURL new_tab_url(chrome::kChromeUINewTabURL);
   ui_test_utils::NavigateToURL(browser(), new_tab_url);
@@ -86,7 +86,7 @@ IN_PROC_BROWSER_TEST_F(OneVNNewTabUIBrowserTest, OneVNNewTabIsDefault) {
 
 // This test simply loads an extension that sets a newtab override.
 // It checks to make sure the newtab override is used as the newtab page.
-IN_PROC_BROWSER_TEST_F(OneVNNewTabUIBrowserTest, NewTabPageLocationOverride) {
+IN_PROC_BROWSER_TEST_F(OnevnNewTabUIBrowserTest, NewTabPageLocationOverride) {
   base::FilePath test_data_dir;
   GetTestDataDir(&test_data_dir);
   InstallExtensionSilently(extension_service(),

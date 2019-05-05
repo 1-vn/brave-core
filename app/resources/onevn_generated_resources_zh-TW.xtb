@@ -1,26 +1,26 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="zh-TW">
-<translation id="3333887201479867589">OneVN Rewards</translation>
-<translation id="7942180974165298215">OneVN 廣告阻擋</translation>
+<translation id="3333887201479867589">Onevn Rewards</translation>
+<translation id="7942180974165298215">Onevn 廣告阻擋</translation>
 <translation id="6406506848690869874">同步</translation>
-<translation id="120759863357279975"><ph name="EXTENSION_NAME">$1</ph> (extension ID "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") 在 OneVN 中是不允許的。</translation>
+<translation id="120759863357279975"><ph name="EXTENSION_NAME">$1</ph> (extension ID "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") 在 Onevn 中是不允許的。</translation>
 <translation id="7450557937477381864">關閉 Chrome</translation>
 <translation id="7008934821596358692">關閉所有 Chrome 視窗以完成匯入。</translation>
-<translation id="5735465527556462863">關閉 OneVN (舊版)</translation>
-<translation id="7737066986958447692">若要完成匯入作業，請關閉所有 OneVN (舊版) 視窗。</translation>
+<translation id="5735465527556462863">關閉 Onevn (舊版)</translation>
+<translation id="7737066986958447692">若要完成匯入作業，請關閉所有 Onevn (舊版) 視窗。</translation>
 <translation id="6447842834002726250">Cookie</translation>
 <translation id="4983925687993168579">統計數據</translation>
-<translation id="6165477144235978006">OneVN Payments</translation>
+<translation id="6165477144235978006">Onevn Payments</translation>
 <translation id="3489524616427966890">開啟視窗和分頁</translation>
 <translation id="3699882589215410581">安裝並執行 Widevine</translation>
 <translation id="8053096063396012732">安裝 Widevine</translation>
 <translation id="4840334696217618631">重新啟動瀏覽器以啟用 Widevine</translation>
-<translation id="8410111618231938546">Google Widevine 為數位版權管理 (DRM) 碼的一部分，非 OneVN Software 所有，且我們無法偵測。Google Widevine 碼是從 Google 伺服器而非我們的伺服器下載。它僅在您同意該選項時裝載。我們不鼓勵使用 DRM，但我們尊重使用者的選擇，並了解部分 OneVN 使用者想使用要求安裝 DRM 的服務。
+<translation id="8410111618231938546">Google Widevine 為數位版權管理 (DRM) 碼的一部分，非 Onevn Software 所有，且我們無法偵測。Google Widevine 碼是從 Google 伺服器而非我們的伺服器下載。它僅在您同意該選項時裝載。我們不鼓勵使用 DRM，但我們尊重使用者的選擇，並了解部分 Onevn 使用者想使用要求安裝 DRM 的服務。
 
-安裝該擴充功能即表示您同意 Google Widevine 使用條款。您同意 OneVN 不為您使用 Google Widevine 而產生的任何相關損害或損失負責。</translation>
-<translation id="6499845530162974140">OneVN (舊版)</translation>
-<translation id="3198814717959506569">自 OneVN 匯入</translation>
+安裝該擴充功能即表示您同意 Google Widevine 使用條款。您同意 Onevn 不為您使用 Google Widevine 而產生的任何相關損害或損失負責。</translation>
+<translation id="6499845530162974140">Onevn (舊版)</translation>
+<translation id="3198814717959506569">自 Onevn 匯入</translation>
 <translation id="453977518730680921">自動播放媒體</translation>
 <translation id="410351446219883937">自動播放</translation>
 <translation id="2240268017737062801">當網站想要自動播放媒體時詢問我</translation>
@@ -28,11 +28,11 @@
 <translation id="3218385319396786393">此頁面已禁止自動播放</translation>
 <translation id="4988333904713528597">永遠允許自動播放 <ph name="HOST">$1<ex>mail.google.com</ex></ph></translation>
 <translation id="4150684676757176434">繼續阻擋自動撥放</translation>
-<translation id="7543906827780734027">OneVN還沒有評論過這個延伸──它可能是惡意的。 仍加"<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>" ？</translation>
-<translation id="2044383478723007273">OneVN 顏色</translation>
+<translation id="7543906827780734027">Onevn還沒有評論過這個延伸──它可能是惡意的。 仍加"<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>" ？</translation>
+<translation id="2044383478723007273">Onevn 顏色</translation>
 <translation id="5341901626640816374">使用寬網址列</translation>
-<translation id="6123134130710658846">隱藏 OneVN Rewards 按鈕</translation>
-<translation id="7635711399568194460">當 OneVN Rewards 未啟用時，在網址列隱藏 OneVN Rewards 按鈕</translation>
+<translation id="6123134130710658846">隱藏 Onevn Rewards 按鈕</translation>
+<translation id="7635711399568194460">當 Onevn Rewards 未啟用時，在網址列隱藏 Onevn Rewards 按鈕</translation>
 <translation id="7965178729203412357">新 Tor 身分</translation>
 <translation id="8784924142044142231">退出 Tor</translation>
 <translation id="5410152065859052603">Tor</translation>
@@ -42,11 +42,11 @@
 <translation id="3488584642074079080">使用 Tor 在私有視窗中打開連結</translation>
 <translation id="6313675821927505581">新的使用 Tor 的視窗</translation>
 <translation id="2638041073279639246">在使用 Tor 的隱私視窗中開啟連結</translation>
-<translation id="3425600262621021599">在使用 Tor 的 OneVN 隱私視窗中開啟連結</translation>
+<translation id="3425600262621021599">在使用 Tor 的 Onevn 隱私視窗中開啟連結</translation>
 <translation id="3155170474926428993">Tor 啟動程式</translation>
 <translation id="2515126961943087659">BAT 廣告服務</translation>
 <translation id="7924918279836988121">Bat 分類帳服務</translation>
-<translation id="768979911142179781">預設 OneVN 防護</translation>
+<translation id="768979911142179781">預設 Onevn 防護</translation>
 <translation id="9185018653595759199">社群媒體按鈕與登入</translation>
 <translation id="6894114137169961038">廣告控制</translation>
 <translation id="1096802265930928584">Cookie 控制</translation>

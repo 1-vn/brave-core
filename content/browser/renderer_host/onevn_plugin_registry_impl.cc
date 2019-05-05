@@ -9,12 +9,12 @@
 
 namespace content {
 
-OneVNPluginRegistryImpl::OneVNPluginRegistryImpl(ResourceContext* resource_context)
+OnevnPluginRegistryImpl::OnevnPluginRegistryImpl(ResourceContext* resource_context)
     : PluginRegistryImpl(resource_context) {}
 
-OneVNPluginRegistryImpl::~OneVNPluginRegistryImpl() {}
+OnevnPluginRegistryImpl::~OnevnPluginRegistryImpl() {}
 
-void OneVNPluginRegistryImpl::GetPluginsComplete(GetPluginsCallback callback, 
+void OnevnPluginRegistryImpl::GetPluginsComplete(GetPluginsCallback callback, 
   std::vector<blink::mojom::PluginInfoPtr> plugins) {
   std::vector<blink::mojom::PluginInfoPtr> filtered_plugins;
 
@@ -27,12 +27,12 @@ void OneVNPluginRegistryImpl::GetPluginsComplete(GetPluginsCallback callback,
   std::move(callback).Run(std::move(filtered_plugins));
 }
 
-void OneVNPluginRegistryImpl::GetPlugins(bool refresh,
+void OnevnPluginRegistryImpl::GetPlugins(bool refresh,
                                     const url::Origin& main_frame_origin,
                                     GetPluginsCallback callback) {
   PluginRegistryImpl::GetPlugins(refresh, main_frame_origin,
     base::BindOnce(
-      &OneVNPluginRegistryImpl::GetPluginsComplete, base::Unretained(this), 
+      &OnevnPluginRegistryImpl::GetPluginsComplete, base::Unretained(this), 
       std::move(callback)));
 }
 

@@ -7,9 +7,9 @@
 
 #include "chrome/browser/profiles/profile_manager.h"
 
-class OneVNProfileManager : public ProfileManager {
+class OnevnProfileManager : public ProfileManager {
  public:
-   explicit OneVNProfileManager(const base::FilePath& user_data_dir);
+   explicit OnevnProfileManager(const base::FilePath& user_data_dir);
 
    // Returns the full path to be used for tor profiles.
    static base::FilePath GetTorProfilePath();
@@ -30,6 +30,6 @@ class OneVNProfileManager : public ProfileManager {
  private:
    void LaunchTorProcess(Profile* profile);
 
-   DISALLOW_COPY_AND_ASSIGN(OneVNProfileManager);
+   DISALLOW_COPY_AND_ASSIGN(OnevnProfileManager);
 };
 #endif  // ONEVN_BROWSER_PROFILES_ONEVN_PROFILE_MANAGER_H_

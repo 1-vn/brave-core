@@ -8,13 +8,13 @@
 
 #include "components/omnibox/browser/autocomplete_controller.h"
 
-class OneVNAutocompleteController : public AutocompleteController {
+class OnevnAutocompleteController : public AutocompleteController {
 public:
-  OneVNAutocompleteController(
+  OnevnAutocompleteController(
       std::unique_ptr<AutocompleteProviderClient> provider_client,
       AutocompleteControllerDelegate* delegate,
       int provider_types);
-  ~OneVNAutocompleteController() override;
+  ~OnevnAutocompleteController() override;
 };
 
 

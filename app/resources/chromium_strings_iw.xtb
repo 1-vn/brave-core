@@ -1,278 +1,278 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="iw">
-<translation id="5194812628624740897">‏ניתוק <ph name="USERNAME"/> ינקה את ההיסטוריה, הסימניות, ההגדרות ונתוני OneVN אחרים המאוחסנים במכשיר הזה. נתונים המאוחסנים בחשבון OneVN Software לא ינוקו, וניתן לנהל אותם <ph name="GOOGLE_DASHBOARD_LINK"/>במרכז השליטה של OneVN Software<ph name="END_GOOGLE_DASHBOARD_LINK"/>.</translation>
-<translation id="939305735877869636">OneVN</translation>
-<translation id="6373767849825830651">‏OneVN הוא דפדפן אינטרנט המפעיל דפי אינטרנט ואפליקציות במהירות הבזק. זהו דפדפן מהיר, יציב וקל לשימוש. תוכל לגלוש באינטרנט בצורה מאובטחת יותר הודות להגנה מפני תוכנות זדוניות ודיוג המובנית ב-OneVN.</translation>
-<translation id="680297041157509674">‏מערכת ההפעלה של OneVN</translation>
-<translation id="4847979153841887006">‏לוגו של OneVN</translation>
+<translation id="5194812628624740897">‏ניתוק <ph name="USERNAME"/> ינקה את ההיסטוריה, הסימניות, ההגדרות ונתוני Onevn אחרים המאוחסנים במכשיר הזה. נתונים המאוחסנים בחשבון Onevn Software לא ינוקו, וניתן לנהל אותם <ph name="GOOGLE_DASHBOARD_LINK"/>במרכז השליטה של Onevn Software<ph name="END_GOOGLE_DASHBOARD_LINK"/>.</translation>
+<translation id="939305735877869636">Onevn</translation>
+<translation id="6373767849825830651">‏Onevn הוא דפדפן אינטרנט המפעיל דפי אינטרנט ואפליקציות במהירות הבזק. זהו דפדפן מהיר, יציב וקל לשימוש. תוכל לגלוש באינטרנט בצורה מאובטחת יותר הודות להגנה מפני תוכנות זדוניות ודיוג המובנית ב-Onevn.</translation>
+<translation id="680297041157509674">‏מערכת ההפעלה של Onevn</translation>
+<translation id="4847979153841887006">‏לוגו של Onevn</translation>
 <translation id="7339898014177206373">חלון חדש</translation>
-<translation id="5935964611177478118">‏היכנס אל OneVN</translation>
-<translation id="5516268345616100622">‏מנהל המשימות - OneVN</translation>
-<translation id="7918740962659365265">‏עזור לשפר את OneVN על ידי שליחת דוחות קריסה ו-<ph name="UMA_LINK"/> אל OneVN Software</translation>
-<translation id="5381622442243174305"><ph name="PAGE_TITLE"/> - OneVN</translation>
-<translation id="7830723774663008396">‏OneVN‏ - <ph name="PAGE_TITLE"/></translation>
-<translation id="1403270718080126244">‏<ph name="PAGE_TITLE"/> - OneVN בגירסת ביטא</translation>
-<translation id="3943696263619956191">‏<ph name="PAGE_TITLE"/> - OneVN בגירסת פיתוח</translation>
-<translation id="6236814935154483927">‏<ph name="PAGE_TITLE"/> - OneVN בגירסת Canary</translation>
-<translation id="4685833011652060085">‏עזרה באמצעות OneVN</translation>
-<translation id="6474707902830053522">‏עזרה באמצעות מערכת ההפעלה של OneVN</translation>
-<translation id="8992261409816268381">‏מחברי OneVN</translation>
-<translation id="4651430425715739110">‏Copyright <ph name="YEAR"/> The OneVN Authors. כל הזכויות שמורות.</translation>
-<translation id="2310890394934209120">‏מערכת ההפעלה של OneVN התאפשרה באמצעות <ph name="BEGIN_LINK_CROS_OSS"/>תוכנת קוד פתוח<ph name="END_LINK_CROS_OSS"/> נוספת.</translation>
-<translation id="8160794320557846790">‏הפיתוח של OneVN OS אפשרי בזכות <ph name="BEGIN_LINK_CROS_OSS"/>תוכנות קוד פתוח<ph name="END_LINK_CROS_OSS"/> נוספות, כמו <ph name="BEGIN_LINK_LINUX_OSS"/>Linux (בטא)<ph name="END_LINK_LINUX_OSS"/>.</translation>
-<translation id="6913582816347128893">‏ייתכן ש-OneVN לא יפעל כראוי כי הוא כבר לא נתמך בגירסה 10.9 של Mac OS X.</translation>
-<translation id="7977787072794666032">‏ייתכן ש-OneVN לא יפעל כראוי כי הוא כבר לא נתמך ב-Windows XP וב-Windows Vista</translation>
-<translation id="189297655255130768">‏OneVN אינו מגיב. להפעיל מחדש עכשיו?</translation>
-<translation id="8703492925273919597">‏סגור את כל חלונות OneVN ונסה שוב.</translation>
-<translation id="335632367599648646">‏האם אתה בטוח שברצונך להסיר את התקנת OneVN?</translation>
-<translation id="5590013613412457132">‏הסר את התקנת OneVN</translation>
-<translation id="5019879183386042809">‏הפוך את OneVN לדפדפן ברירת המחדל</translation>
-<translation id="5063987220091207247">‏מערכת ההפעלה של OneVN אינה יכול לפתוח את הדף הזה.</translation>
-<translation id="4065288863231444640">‏OneVN יכול לפעול ברקע</translation>
-<translation id="6797402139308059782">‏אפשר ל-OneVN לפעול ברקע</translation>
-<translation id="2585240446624043880">‏OneVN אינו יכול לקרוא ולכתוב בספריית הנתונים שלו: <ph name="USER_DATA_DIRECTORY"/></translation>
-<translation id="8417700129970341035">‏אופציונלי: עזור לנו לשפר את OneVN באמצעות שליחת נתוני שימוש ודוחות קריסה אל OneVN Software באופן אוטומטי.</translation>
-<translation id="1489465648257900784">‏לא ניתן להשתמש בפרופיל שלך משום שהוא מגיע מגרסה חדשה יותר של OneVN.
+<translation id="5935964611177478118">‏היכנס אל Onevn</translation>
+<translation id="5516268345616100622">‏מנהל המשימות - Onevn</translation>
+<translation id="7918740962659365265">‏עזור לשפר את Onevn על ידי שליחת דוחות קריסה ו-<ph name="UMA_LINK"/> אל Onevn Software</translation>
+<translation id="5381622442243174305"><ph name="PAGE_TITLE"/> - Onevn</translation>
+<translation id="7830723774663008396">‏Onevn‏ - <ph name="PAGE_TITLE"/></translation>
+<translation id="1403270718080126244">‏<ph name="PAGE_TITLE"/> - Onevn בגירסת ביטא</translation>
+<translation id="3943696263619956191">‏<ph name="PAGE_TITLE"/> - Onevn בגירסת פיתוח</translation>
+<translation id="6236814935154483927">‏<ph name="PAGE_TITLE"/> - Onevn בגירסת Canary</translation>
+<translation id="4685833011652060085">‏עזרה באמצעות Onevn</translation>
+<translation id="6474707902830053522">‏עזרה באמצעות מערכת ההפעלה של Onevn</translation>
+<translation id="8992261409816268381">‏מחברי Onevn</translation>
+<translation id="4651430425715739110">‏Copyright <ph name="YEAR"/> The Onevn Authors. כל הזכויות שמורות.</translation>
+<translation id="2310890394934209120">‏מערכת ההפעלה של Onevn התאפשרה באמצעות <ph name="BEGIN_LINK_CROS_OSS"/>תוכנת קוד פתוח<ph name="END_LINK_CROS_OSS"/> נוספת.</translation>
+<translation id="8160794320557846790">‏הפיתוח של Onevn OS אפשרי בזכות <ph name="BEGIN_LINK_CROS_OSS"/>תוכנות קוד פתוח<ph name="END_LINK_CROS_OSS"/> נוספות, כמו <ph name="BEGIN_LINK_LINUX_OSS"/>Linux (בטא)<ph name="END_LINK_LINUX_OSS"/>.</translation>
+<translation id="6913582816347128893">‏ייתכן ש-Onevn לא יפעל כראוי כי הוא כבר לא נתמך בגירסה 10.9 של Mac OS X.</translation>
+<translation id="7977787072794666032">‏ייתכן ש-Onevn לא יפעל כראוי כי הוא כבר לא נתמך ב-Windows XP וב-Windows Vista</translation>
+<translation id="189297655255130768">‏Onevn אינו מגיב. להפעיל מחדש עכשיו?</translation>
+<translation id="8703492925273919597">‏סגור את כל חלונות Onevn ונסה שוב.</translation>
+<translation id="335632367599648646">‏האם אתה בטוח שברצונך להסיר את התקנת Onevn?</translation>
+<translation id="5590013613412457132">‏הסר את התקנת Onevn</translation>
+<translation id="5019879183386042809">‏הפוך את Onevn לדפדפן ברירת המחדל</translation>
+<translation id="5063987220091207247">‏מערכת ההפעלה של Onevn אינה יכול לפתוח את הדף הזה.</translation>
+<translation id="4065288863231444640">‏Onevn יכול לפעול ברקע</translation>
+<translation id="6797402139308059782">‏אפשר ל-Onevn לפעול ברקע</translation>
+<translation id="2585240446624043880">‏Onevn אינו יכול לקרוא ולכתוב בספריית הנתונים שלו: <ph name="USER_DATA_DIRECTORY"/></translation>
+<translation id="8417700129970341035">‏אופציונלי: עזור לנו לשפר את Onevn באמצעות שליחת נתוני שימוש ודוחות קריסה אל Onevn Software באופן אוטומטי.</translation>
+<translation id="1489465648257900784">‏לא ניתן להשתמש בפרופיל שלך משום שהוא מגיע מגרסה חדשה יותר של Onevn.
 
-ייתכן שחלק מהתכונות לא יהיו זמינות. ציין ספריית פרופיל אחרת או השתמש בגרסה חדשה יותר של OneVN.</translation>
+ייתכן שחלק מהתכונות לא יהיו זמינות. ציין ספריית פרופיל אחרת או השתמש בגרסה חדשה יותר של Onevn.</translation>
 <translation id="1065672644894730302">לא היתה אפשרות לקרוא את ההעדפות שלך. ייתכן שחלק מהתכונות לא יהיו זמינות ושינויים בהעדפות לא יישמרו.</translation>
 <translation id="3403365884036456766">‏קובץ ההעדפות שלך פגום או לא חוקי. 
 
-OneVN לא יכול לשחזר את ההגדרות שלך.</translation>
-<translation id="1477146545787277177">‏וואו! OneVN קרס. להפעיל מחדש עכשיו?</translation>
-<translation id="5785919770853225148">‏הסיסמה הזאת תישמר על ידי OneVN בחשבון OneVN Software שלך. אין צורך לזכור אותה.</translation>
-<translation id="113959764510199339">‏OneVN מנסה להציג סיסמאות.</translation>
-<translation id="7503098128120083822">‏OneVN רוצה לייצא את הסיסמאות שלך.</translation>
-<translation id="8285294305439559616">‏OneVN מנסה להציג סיסמאות. הקלד את הסיסמה שלך ל-Windows כדי לאפשר זאת.</translation>
-<translation id="5918095577778020936">‏OneVN רוצה לייצא את הסיסמאות שלך. יש להקליד את הסיסמה שלך ל-Windows כדי לאפשר זאת.</translation>
-<translation id="8320964054148936490">‏במחשב זה קיימת כבר גרסה מתקדמת יותר של OneVN. אם התוכנה אינה פועלת, הסר את ההתקנה של OneVN ונסה שוב.</translation>
-<translation id="7691786510374174420">‏ההתקנה נכשלה בשל שגיאה לא צפויה. אם OneVN  פועל כעת, סגור אותו ונסה שוב.</translation>
-<translation id="2619516027171717873">‏לא ניתן להתקין את אותה גרסת OneVN שפועלת כרגע. סגור את OneVN ונסה שוב.</translation>
-<translation id="6283840329609797763">‏ההתקנה נכשלה בשל שגיאה לא מזוהה. הורד שוב את OneVN.</translation>
-<translation id="95624393026532554">‏כדי להשתמש ב-OneVN יש צורך ב-Windows מגירסה 7 ואילך.</translation>
-<translation id="7387051847644272380">‏במהלך ההתקנה ארעה שגיאה של מערכת ההפעלה. הורד שוב את OneVN.</translation>
-<translation id="1819119299840995223">‏מתבצעת כרגע פעולה אחרת ב-OneVN. נסה שוב מאוחר יותר.</translation>
+Onevn לא יכול לשחזר את ההגדרות שלך.</translation>
+<translation id="1477146545787277177">‏וואו! Onevn קרס. להפעיל מחדש עכשיו?</translation>
+<translation id="5785919770853225148">‏הסיסמה הזאת תישמר על ידי Onevn בחשבון Onevn Software שלך. אין צורך לזכור אותה.</translation>
+<translation id="113959764510199339">‏Onevn מנסה להציג סיסמאות.</translation>
+<translation id="7503098128120083822">‏Onevn רוצה לייצא את הסיסמאות שלך.</translation>
+<translation id="8285294305439559616">‏Onevn מנסה להציג סיסמאות. הקלד את הסיסמה שלך ל-Windows כדי לאפשר זאת.</translation>
+<translation id="5918095577778020936">‏Onevn רוצה לייצא את הסיסמאות שלך. יש להקליד את הסיסמה שלך ל-Windows כדי לאפשר זאת.</translation>
+<translation id="8320964054148936490">‏במחשב זה קיימת כבר גרסה מתקדמת יותר של Onevn. אם התוכנה אינה פועלת, הסר את ההתקנה של Onevn ונסה שוב.</translation>
+<translation id="7691786510374174420">‏ההתקנה נכשלה בשל שגיאה לא צפויה. אם Onevn  פועל כעת, סגור אותו ונסה שוב.</translation>
+<translation id="2619516027171717873">‏לא ניתן להתקין את אותה גרסת Onevn שפועלת כרגע. סגור את Onevn ונסה שוב.</translation>
+<translation id="6283840329609797763">‏ההתקנה נכשלה בשל שגיאה לא מזוהה. הורד שוב את Onevn.</translation>
+<translation id="95624393026532554">‏כדי להשתמש ב-Onevn יש צורך ב-Windows מגירסה 7 ואילך.</translation>
+<translation id="7387051847644272380">‏במהלך ההתקנה ארעה שגיאה של מערכת ההפעלה. הורד שוב את Onevn.</translation>
+<translation id="1819119299840995223">‏מתבצעת כרגע פעולה אחרת ב-Onevn. נסה שוב מאוחר יותר.</translation>
 <translation id="7747138024166251722">המתקין לא הצליח ליצור ספריה זמנית. בדוק את המקום הפנוי בדיסק ואת האישור להתקנת תוכנה.</translation>
-<translation id="7365690458036015383">‏המתקין לא הצליח לבטל את דחיסת הארכיון. הורד שוב את OneVN.</translation>
-<translation id="6914496861676471566">‏הארכיון של המתקין פגום או שאינו חוקי. הורד שוב את OneVN.</translation>
+<translation id="7365690458036015383">‏המתקין לא הצליח לבטל את דחיסת הארכיון. הורד שוב את Onevn.</translation>
+<translation id="6914496861676471566">‏הארכיון של המתקין פגום או שאינו חוקי. הורד שוב את Onevn.</translation>
 <translation id="8862326446509486874">אין לך זכויות שמתאימות להתקנה ברמת המערכת. נסה להפעיל שוב את המתקין כמנהל מערכת.</translation>
-<translation id="6666624454809779082">‏OneVN כבר מותקן במחשב ונגיש לכל המשתמשים.</translation>
+<translation id="6666624454809779082">‏Onevn כבר מותקן במחשב ונגיש לכל המשתמשים.</translation>
 <translation id="6676384891291319759">גישה אל האינטרנט</translation>
 <translation id="911206726377975832">למחוק גם את נתוני הגלישה שלך?</translation>
 <translation id="2770231113462710648">שנה את דפדפן ברירת המחדל ל:</translation>
 <translation id="2485422356828889247">הסר התקנה</translation>
-<translation id="3343095737966473035">‏OneVN אינו דפדפן ברירת המחדל שלך</translation>
-<translation id="6715663530666325392">‏הגדר סנכרון כדי לשמור את תכונות הדפדפן המותאמות אישית שלך באינטרנט ולגשת אליהן מ-OneVN בכל מחשב.</translation>
-<translation id="5536657158619734169">‏גרסה חדשה של OneVN זמינה כעת.</translation>
-<translation id="505042220086416644">‏גרסה חדשה של OneVN זמינה, והיא מהירה יותר מאי פעם.</translation>
-<translation id="5616153642055197778">‏גרסה חדשה ובטוחה יותר של OneVN זמינה כעת.</translation>
-<translation id="2301993384336631869">‏OneVN עודכן, אך לא השתמשת בו לפחות 30 ימים.</translation>
-<translation id="2106568569080763501">‏OneVN מאפשר לך ללחוץ על מספר טלפון באינטרנט ולהתקשר אליו באמצעות Skype!</translation>
-<translation id="5874882355102994015">‏OneVN לא יכול להראות את התצוגה המקדימה של ההדפסה כשמציג ה-PDF המובנה חסר.</translation>
-<translation id="8880183781256147665">‏הוספה ל-OneVN</translation>
-<translation id="3561569806301739367">‏<ph name="FILE_NAME"/> עלול להיות מסוכן, ולכן OneVN חסם אותו.</translation>
-<translation id="9067428552314418522">‏OneVN‏ חסם את הקובץ הזה כי הוא מסוכן.</translation>
-<translation id="4168372721886011198">‏<ph name="FILE_NAME"/> מסוכן, ולכן OneVN חסם אותו.</translation>
-<translation id="89367911614620585">‏OneVN‏ חסם את הקובץ הזה כי הוא עלול להיות מסוכן.</translation>
-<translation id="9183662282810237335">‏לסגור את OneVN בכל זאת?</translation>
-<translation id="3834935463915107022">‏לסגור את OneVN בכל זאת?</translation>
-<translation id="8797356639448065696">‏OneVN נמצא במצב רקע.</translation>
-<translation id="2339258256897053758">‏המפתחות של OneVN Software API חסרים. פונקציונליות מסוימת של OneVN תהיה מושבתת.</translation>
-<translation id="2182657378556811785">‏העדכון כמעט הושלם! הפעל מחדש את OneVN‏ כדי לסיים את העדכון.</translation>
+<translation id="3343095737966473035">‏Onevn אינו דפדפן ברירת המחדל שלך</translation>
+<translation id="6715663530666325392">‏הגדר סנכרון כדי לשמור את תכונות הדפדפן המותאמות אישית שלך באינטרנט ולגשת אליהן מ-Onevn בכל מחשב.</translation>
+<translation id="5536657158619734169">‏גרסה חדשה של Onevn זמינה כעת.</translation>
+<translation id="505042220086416644">‏גרסה חדשה של Onevn זמינה, והיא מהירה יותר מאי פעם.</translation>
+<translation id="5616153642055197778">‏גרסה חדשה ובטוחה יותר של Onevn זמינה כעת.</translation>
+<translation id="2301993384336631869">‏Onevn עודכן, אך לא השתמשת בו לפחות 30 ימים.</translation>
+<translation id="2106568569080763501">‏Onevn מאפשר לך ללחוץ על מספר טלפון באינטרנט ולהתקשר אליו באמצעות Skype!</translation>
+<translation id="5874882355102994015">‏Onevn לא יכול להראות את התצוגה המקדימה של ההדפסה כשמציג ה-PDF המובנה חסר.</translation>
+<translation id="8880183781256147665">‏הוספה ל-Onevn</translation>
+<translation id="3561569806301739367">‏<ph name="FILE_NAME"/> עלול להיות מסוכן, ולכן Onevn חסם אותו.</translation>
+<translation id="9067428552314418522">‏Onevn‏ חסם את הקובץ הזה כי הוא מסוכן.</translation>
+<translation id="4168372721886011198">‏<ph name="FILE_NAME"/> מסוכן, ולכן Onevn חסם אותו.</translation>
+<translation id="89367911614620585">‏Onevn‏ חסם את הקובץ הזה כי הוא עלול להיות מסוכן.</translation>
+<translation id="9183662282810237335">‏לסגור את Onevn בכל זאת?</translation>
+<translation id="3834935463915107022">‏לסגור את Onevn בכל זאת?</translation>
+<translation id="8797356639448065696">‏Onevn נמצא במצב רקע.</translation>
+<translation id="2339258256897053758">‏המפתחות של Onevn Software API חסרים. פונקציונליות מסוימת של Onevn תהיה מושבתת.</translation>
+<translation id="2182657378556811785">‏העדכון כמעט הושלם! הפעל מחדש את Onevn‏ כדי לסיים את העדכון.</translation>
 <translation id="5906655207909574370">העדכון כמעט הושלם! הפעל מחדש את המכשיר כדי לסיים את העדכון.</translation>
 <translation id="5877064549588274448">הערוץ שונה. הפעל מחדש את המכשיר להחלת השינויים.</translation>
-<translation id="5131485705787281074">‏OneVN‏ מעודכן.</translation>
+<translation id="5131485705787281074">‏Onevn‏ מעודכן.</translation>
 <translation id="8667808506758191620">ה-<ph name="DEVICE_TYPE"/> שלך מעודכן.</translation>
-<translation id="5047208012586153436">‏מעדכן את OneVN‏...</translation>
+<translation id="5047208012586153436">‏מעדכן את Onevn‏...</translation>
 <translation id="6970811910055250180">מעדכן את המכשיר שלך...</translation>
 <translation id="8030318113982266900">מעדכן את המכשיר שלך לערוץ <ph name="CHANNEL_NAME"/>...</translation>
-<translation id="7861579472672677409">‏<ph name="EXTENSION_NAME"/> נוסף ל-‏OneVN‏</translation>
-<translation id="8516116288943000095">‏הסרת נתונים גם מ-OneVN (<ph name="URL"/>)</translation>
-<translation id="4054452651944170004">‏הסתר בתפריט OneVN</translation>
-<translation id="5660079256336839395">‏הסתרה בתפריט OneVN</translation>
-<translation id="7456658570432774853">‏עזור לשפר את OneVN על ידי דיווח ההגדרות הנוכחיות</translation>
-<translation id="6134859571175647580">‏אזהרה: OneVN לא יכול למנוע מתוספים לתעד את היסטוריית הגלישה שלך. כדי להשבית את התוסף הזה במצב גלישה בסתר, צריך לבטל את הבחירה של האפשרות הזו.</translation>
-<translation id="777113543093865885">‏הסר מ-OneVN...</translation>
-<translation id="6078442581074612226">‏ב-OneVN</translation>
-<translation id="1448049584457347995">‏כדי לשפר את האבטחה של OneVN, השבתנו חלק מהתוספים שלא רשומים ב<ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> וייתכן שנוספו ללא ידיעתך.</translation>
-<translation id="8848045066928358658">‏כדי לשפר את האבטחה של OneVN, השבתנו את התוסף הבא שאינו רשום ב-<ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> וייתכן שנוסף ללא ידיעתך.</translation>
-<translation id="8148611988012584308">‏התאם אישית ושלוט ב-OneVN</translation>
-<translation id="5849446944780602366">‏כדי להתאים אישית את OneVN Software OneVN ולשלוט בו טוב יותר, כדאי להוריד את העדכון החדש.</translation>
-<translation id="6315734375101223238">‏התאמה אישית וניהול של OneVN נחוצה פעולה שלך - יש ללחוץ לקבלת פרטים נוספים.</translation>
-<translation id="9071554113102421877">‏&amp;פתיחה ב-OneVN</translation>
-<translation id="2176825726964012531">‏מידע על &amp;OneVN‏</translation>
-<translation id="5450493308072741203">‏עדכן &amp;את OneVN‏</translation>
-<translation id="1421502046520299169">‏מידע על &amp;מערכת ההפעלה של OneVN‏</translation>
-<translation id="2534623228451928732">‏עדכן את &amp;מערכת ההפעלה של OneVN‏</translation>
-<translation id="8447483940522230788">OneVN Helper</translation>
-<translation id="3360368475735266712">‏כניסה לחשבון תסנכרן ותתאים אישית את OneVN בכל המכשירים שברשותך</translation>
-<translation id="5477319665405831211">‏סינכרון והתאמה אישית של OneVN בכל המכשירים שברשותך</translation>
-<translation id="4934157190377700991">‏אתה מחובר כעת ל-OneVN</translation>
-<translation id="4100716194836114130">‏זהו ה-OneVN שלך</translation>
-<translation id="8296145982386097283">‏משתף את המחשב? עכשיו תוכל להגדיר את OneVN בדיוק כמו שאתה אוהב.</translation>
-<translation id="1672124279374861424">‏לאחר הסרת החשבון שלך מ-OneVNium, ייתכן שתידרש לטעון מחדש את הכרטיסיות הפתוחות שלך כדי שההסרה תיושם בפועל.</translation>
-<translation id="9197493712748167998">‏אתה משתמש ב-<ph name="PROFILE_EMAIL"/> כדי לסנכרן את הפריטים שלך ב-OneVN. עבור אל '<ph name="SETTINGS_LINK"/>' כדי לעדכן את העדפות הסנכרון או להשתמש ב-OneVN ללא חשבון OneVN Software.</translation>
-<translation id="8132634101975074716">‏נכנסת ל-OneVN!</translation>
+<translation id="7861579472672677409">‏<ph name="EXTENSION_NAME"/> נוסף ל-‏Onevn‏</translation>
+<translation id="8516116288943000095">‏הסרת נתונים גם מ-Onevn (<ph name="URL"/>)</translation>
+<translation id="4054452651944170004">‏הסתר בתפריט Onevn</translation>
+<translation id="5660079256336839395">‏הסתרה בתפריט Onevn</translation>
+<translation id="7456658570432774853">‏עזור לשפר את Onevn על ידי דיווח ההגדרות הנוכחיות</translation>
+<translation id="6134859571175647580">‏אזהרה: Onevn לא יכול למנוע מתוספים לתעד את היסטוריית הגלישה שלך. כדי להשבית את התוסף הזה במצב גלישה בסתר, צריך לבטל את הבחירה של האפשרות הזו.</translation>
+<translation id="777113543093865885">‏הסר מ-Onevn...</translation>
+<translation id="6078442581074612226">‏ב-Onevn</translation>
+<translation id="1448049584457347995">‏כדי לשפר את האבטחה של Onevn, השבתנו חלק מהתוספים שלא רשומים ב<ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> וייתכן שנוספו ללא ידיעתך.</translation>
+<translation id="8848045066928358658">‏כדי לשפר את האבטחה של Onevn, השבתנו את התוסף הבא שאינו רשום ב-<ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> וייתכן שנוסף ללא ידיעתך.</translation>
+<translation id="8148611988012584308">‏התאם אישית ושלוט ב-Onevn</translation>
+<translation id="5849446944780602366">‏כדי להתאים אישית את Onevn Software Onevn ולשלוט בו טוב יותר, כדאי להוריד את העדכון החדש.</translation>
+<translation id="6315734375101223238">‏התאמה אישית וניהול של Onevn נחוצה פעולה שלך - יש ללחוץ לקבלת פרטים נוספים.</translation>
+<translation id="9071554113102421877">‏&amp;פתיחה ב-Onevn</translation>
+<translation id="2176825726964012531">‏מידע על &amp;Onevn‏</translation>
+<translation id="5450493308072741203">‏עדכן &amp;את Onevn‏</translation>
+<translation id="1421502046520299169">‏מידע על &amp;מערכת ההפעלה של Onevn‏</translation>
+<translation id="2534623228451928732">‏עדכן את &amp;מערכת ההפעלה של Onevn‏</translation>
+<translation id="8447483940522230788">Onevn Helper</translation>
+<translation id="3360368475735266712">‏כניסה לחשבון תסנכרן ותתאים אישית את Onevn בכל המכשירים שברשותך</translation>
+<translation id="5477319665405831211">‏סינכרון והתאמה אישית של Onevn בכל המכשירים שברשותך</translation>
+<translation id="4934157190377700991">‏אתה מחובר כעת ל-Onevn</translation>
+<translation id="4100716194836114130">‏זהו ה-Onevn שלך</translation>
+<translation id="8296145982386097283">‏משתף את המחשב? עכשיו תוכל להגדיר את Onevn בדיוק כמו שאתה אוהב.</translation>
+<translation id="1672124279374861424">‏לאחר הסרת החשבון שלך מ-Onevnium, ייתכן שתידרש לטעון מחדש את הכרטיסיות הפתוחות שלך כדי שההסרה תיושם בפועל.</translation>
+<translation id="9197493712748167998">‏אתה משתמש ב-<ph name="PROFILE_EMAIL"/> כדי לסנכרן את הפריטים שלך ב-Onevn. עבור אל '<ph name="SETTINGS_LINK"/>' כדי לעדכן את העדפות הסנכרון או להשתמש ב-Onevn ללא חשבון Onevn Software.</translation>
+<translation id="8132634101975074716">‏נכנסת ל-Onevn!</translation>
 <translation id="4567424176335768812">נכנסת למערכת בתור <ph name="USER_EMAIL_ADDRESS"/>. כעת אתה יכול לגשת אל הסימניות, ההיסטוריה והגדרות אחרות שלך בכל המכשירים שבהם אתה מחובר לחשבון.</translation>
-<translation id="6888049487162027489">‏אתה מחובר כעת ל-OneVN! הסנכרון הושבת על ידי מנהל המערכת שלך.</translation>
-<translation id="2925193881330501265">‏נכנסת ל-OneVN כ-<ph name="USER_EMAIL_ADDRESS"/>. השתמש באותו חשבון כדי להיכנס שוב.</translation>
+<translation id="6888049487162027489">‏אתה מחובר כעת ל-Onevn! הסנכרון הושבת על ידי מנהל המערכת שלך.</translation>
+<translation id="2925193881330501265">‏נכנסת ל-Onevn כ-<ph name="USER_EMAIL_ADDRESS"/>. השתמש באותו חשבון כדי להיכנס שוב.</translation>
 <translation id="386092803020435298">‏מישהו נכנס בעבר ל-Chromuim מהמחשב הזה כ-<ph name="ACCOUNT_EMAIL_LAST"/>. אם זה לא החשבון שלך, צור משתמש חדש ל-Chromuim כדי לשמור על הפרדת המידע שלך.
 
 אם תמשיך בכניסה, המידע ב-Chromuim , כמו סימניות, היסטוריה והגדרות אחרות, ימוזג עם <ph name="ACCOUNT_EMAIL_NEW"/>.</translation>
-<translation id="847561904663814268">‏מישהו נכנס בעבר ל-OneVN מהמחשב הזה כ-<ph name="ACCOUNT_EMAIL_LAST"/>. צור משתמש חדש ל-OneVN כדי לשמור על הפרדת המידע שלך.</translation>
-<translation id="1853997773668795891">‏האם לקשר את הנתונים שלך ב-OneVN לחשבון זה?</translation>
-<translation id="1326766910007115955">‏אתה נכנס עם חשבון מנוהל ונותן למנהל המערכת שלו שליטה על הפרופיל שלך ב-OneVN. הנתונים שלך ב-OneVN, כגון יישומים, סימניות, היסטוריה, סיסמאות והגדרות אחרות ייקשרו באופן קבוע ל-<ph name="USER_NAME"/>. תוכל למחוק את הנתונים האלה באמצעות לוח הבקרה של חשבונות OneVN Software, אבל לא תוכל לשייך את הנתונים האלה לחשבון אחר. <ph name="LEARN_MORE"/></translation>
-<translation id="650055380213106997">‏אתה נכנס עם חשבון מנוהל ונותן למנהל המערכת שלו שליטה על הפרופיל שלך ב-OneVN. הנתונים שלך ב-OneVN, כגון יישומים, סימניות, היסטוריה, סיסמאות והגדרות אחרות ייקשרו באופן קבוע ל-<ph name="USER_NAME"/>. תוכל למחוק את הנתונים האלה באמצעות לוח הבקרה של חשבונות OneVN Software, אבל לא תוכל לשייך את הנתונים האלה לחשבון אחר. לחלופין, תוכל ליצור פרופיל חדש כדי לשמור את הנתונים הקיימים שלך ב-OneVN בנפרד.<ph name="LEARN_MORE"/></translation>
-<translation id="2444257125841652328">‏לפי הגדרת מנהל המערכת, OneVN יפתח דפדפן חלופי כדי לגשת אל <ph name="TARGET_URL_HOSTNAME"/>.</translation>
-<translation id="2591326305549412656">‏בכתובת <ph name="USER_EMAIL_ADDRESS"/> השתמשו בעבר ב-OneVN</translation>
-<translation id="1384923383737428730">‏יש במחשב שלך תוכנה מזיקה. OneVN יכול להסיר אותה, לשחזר את ההגדרות שלך ולהשבית תוספים כדי שהדפדפן יחזור שוב לפעולה רגילה.</translation>
-<translation id="8919921662052966648">‏OneVN לא הצליח לסנכרן את הנתונים שלך. עדכן את משפט הסיסמה לסנכרון.</translation>
-<translation id="2262856633481902138">‏OneVN לא הצליח לסנכרן את הנתונים שלך מפני שפרטי הכניסה של חשבונך אינם מעודכנים.</translation>
-<translation id="5419189641394808652">‏OneVN לא הצליח לסנכרן את הנתונים שלך מפני שסנכרון אינו זמין עבור הדומיין שלך.</translation>
-<translation id="2577755334620061182">‏OneVN לא הצליח לסנכרן את הנתונים שלך בשל שגיאת כניסה.</translation>
-<translation id="8583885258305961947">‏מערכת OneVN OS</translation>
-<translation id="3968006371075376562">‏מערכת ההפעלה של OneVN לא הצליחה לסנכרן את הנתונים שלך. עדכן את משפט הסיסמה לסנכרון.</translation>
-<translation id="6746636977031158624">‏מערכת ההפעלה של OneVN לא הצליחה לסנכרן את הנתונים שלך מפני שפרטי הכניסה של חשבונך אינם מעודכנים.</translation>
-<translation id="2999152167963026588">‏מערכת ההפעלה של OneVN לא הצליחה לסנכרן את הנתונים שלך מפני שסנכרון אינו זמין עבור הדומיין שלך.</translation>
-<translation id="1459786048951724030">‏מערכת ההפעלה של OneVN לא הצליחה לסנכרן את הנתונים שלך עקב שגיאה בתהליך הכניסה.</translation>
-<translation id="2887570477425111999">‏שמור פרטים ב-OneVN</translation>
-<translation id="193559141530782783">‏OneVN יאחסן את הפרטים האישיים שלך באופן מאובטח כדי שלא תידרש להקליד אותם שוב.</translation>
-<translation id="663059986967017181">‏הועתק אל OneVN</translation>
-<translation id="1457432835062259213">OneVN App Launcher</translation>
-<translation id="82609232232243542">‏כניסה ל-OneVN</translation>
-<translation id="2924628237198507508">‏עליך להיות מחובר ל-OneVN כדי להשתמש ביישומים. כך OneVN יכול לסנכרן את היישומים, הסימניות, ההיסטוריה, הסיסמאות והגדרות נוספות בין מכשירים שונים.</translation>
-<translation id="380197516434040304">‏הסר מ-OneVN...</translation>
-<translation id="300669147395456190">‏יישומי OneVN</translation>
-<translation id="3421950102518690868">‏<ph name="DOMAIN"/> דורש שתקרא ותקבל את התנאים וההגבלות הבאים לפני שתשתמש במכשיר הזה. תנאים אלה אינם מרחיבים, משנים או מגבילים את התנאים של מערכת ההפעלה של OneVN.</translation>
-<translation id="3293668930608086049">‏OneVN משתמש במצלמה ובמיקרופון שלך.</translation>
-<translation id="8919461291440820124">‏OneVN משתמש במיקרופון שלך.</translation>
-<translation id="3205074487970075628">‏OneVN משתמש במצלמה שלך.</translation>
-<translation id="8142245354207161805">‏נראה שהפרופיל נמצא בשימוש על ידי תהליך OneVN אחר (<ph name="PROCESS_ID"/>) במחשב אחר (<ph name="HOST_NAME"/>)‏. OneVN נעל את הפרופיל כדי שלא ייפגם. אם אתה משוכנע שאף תהליך אחר אינו משתמש בפרופיל זה, תוכל לבטל את נעילת הפרופיל ולהפעיל את OneVN מחדש.</translation>
-<translation id="239760341987199724">‏הגדר את OneVN כדפדפן ברירת המחדל שלך</translation>
+<translation id="847561904663814268">‏מישהו נכנס בעבר ל-Onevn מהמחשב הזה כ-<ph name="ACCOUNT_EMAIL_LAST"/>. צור משתמש חדש ל-Onevn כדי לשמור על הפרדת המידע שלך.</translation>
+<translation id="1853997773668795891">‏האם לקשר את הנתונים שלך ב-Onevn לחשבון זה?</translation>
+<translation id="1326766910007115955">‏אתה נכנס עם חשבון מנוהל ונותן למנהל המערכת שלו שליטה על הפרופיל שלך ב-Onevn. הנתונים שלך ב-Onevn, כגון יישומים, סימניות, היסטוריה, סיסמאות והגדרות אחרות ייקשרו באופן קבוע ל-<ph name="USER_NAME"/>. תוכל למחוק את הנתונים האלה באמצעות לוח הבקרה של חשבונות Onevn Software, אבל לא תוכל לשייך את הנתונים האלה לחשבון אחר. <ph name="LEARN_MORE"/></translation>
+<translation id="650055380213106997">‏אתה נכנס עם חשבון מנוהל ונותן למנהל המערכת שלו שליטה על הפרופיל שלך ב-Onevn. הנתונים שלך ב-Onevn, כגון יישומים, סימניות, היסטוריה, סיסמאות והגדרות אחרות ייקשרו באופן קבוע ל-<ph name="USER_NAME"/>. תוכל למחוק את הנתונים האלה באמצעות לוח הבקרה של חשבונות Onevn Software, אבל לא תוכל לשייך את הנתונים האלה לחשבון אחר. לחלופין, תוכל ליצור פרופיל חדש כדי לשמור את הנתונים הקיימים שלך ב-Onevn בנפרד.<ph name="LEARN_MORE"/></translation>
+<translation id="2444257125841652328">‏לפי הגדרת מנהל המערכת, Onevn יפתח דפדפן חלופי כדי לגשת אל <ph name="TARGET_URL_HOSTNAME"/>.</translation>
+<translation id="2591326305549412656">‏בכתובת <ph name="USER_EMAIL_ADDRESS"/> השתמשו בעבר ב-Onevn</translation>
+<translation id="1384923383737428730">‏יש במחשב שלך תוכנה מזיקה. Onevn יכול להסיר אותה, לשחזר את ההגדרות שלך ולהשבית תוספים כדי שהדפדפן יחזור שוב לפעולה רגילה.</translation>
+<translation id="8919921662052966648">‏Onevn לא הצליח לסנכרן את הנתונים שלך. עדכן את משפט הסיסמה לסנכרון.</translation>
+<translation id="2262856633481902138">‏Onevn לא הצליח לסנכרן את הנתונים שלך מפני שפרטי הכניסה של חשבונך אינם מעודכנים.</translation>
+<translation id="5419189641394808652">‏Onevn לא הצליח לסנכרן את הנתונים שלך מפני שסנכרון אינו זמין עבור הדומיין שלך.</translation>
+<translation id="2577755334620061182">‏Onevn לא הצליח לסנכרן את הנתונים שלך בשל שגיאת כניסה.</translation>
+<translation id="8583885258305961947">‏מערכת Onevn OS</translation>
+<translation id="3968006371075376562">‏מערכת ההפעלה של Onevn לא הצליחה לסנכרן את הנתונים שלך. עדכן את משפט הסיסמה לסנכרון.</translation>
+<translation id="6746636977031158624">‏מערכת ההפעלה של Onevn לא הצליחה לסנכרן את הנתונים שלך מפני שפרטי הכניסה של חשבונך אינם מעודכנים.</translation>
+<translation id="2999152167963026588">‏מערכת ההפעלה של Onevn לא הצליחה לסנכרן את הנתונים שלך מפני שסנכרון אינו זמין עבור הדומיין שלך.</translation>
+<translation id="1459786048951724030">‏מערכת ההפעלה של Onevn לא הצליחה לסנכרן את הנתונים שלך עקב שגיאה בתהליך הכניסה.</translation>
+<translation id="2887570477425111999">‏שמור פרטים ב-Onevn</translation>
+<translation id="193559141530782783">‏Onevn יאחסן את הפרטים האישיים שלך באופן מאובטח כדי שלא תידרש להקליד אותם שוב.</translation>
+<translation id="663059986967017181">‏הועתק אל Onevn</translation>
+<translation id="1457432835062259213">Onevn App Launcher</translation>
+<translation id="82609232232243542">‏כניסה ל-Onevn</translation>
+<translation id="2924628237198507508">‏עליך להיות מחובר ל-Onevn כדי להשתמש ביישומים. כך Onevn יכול לסנכרן את היישומים, הסימניות, ההיסטוריה, הסיסמאות והגדרות נוספות בין מכשירים שונים.</translation>
+<translation id="380197516434040304">‏הסר מ-Onevn...</translation>
+<translation id="300669147395456190">‏יישומי Onevn</translation>
+<translation id="3421950102518690868">‏<ph name="DOMAIN"/> דורש שתקרא ותקבל את התנאים וההגבלות הבאים לפני שתשתמש במכשיר הזה. תנאים אלה אינם מרחיבים, משנים או מגבילים את התנאים של מערכת ההפעלה של Onevn.</translation>
+<translation id="3293668930608086049">‏Onevn משתמש במצלמה ובמיקרופון שלך.</translation>
+<translation id="8919461291440820124">‏Onevn משתמש במיקרופון שלך.</translation>
+<translation id="3205074487970075628">‏Onevn משתמש במצלמה שלך.</translation>
+<translation id="8142245354207161805">‏נראה שהפרופיל נמצא בשימוש על ידי תהליך Onevn אחר (<ph name="PROCESS_ID"/>) במחשב אחר (<ph name="HOST_NAME"/>)‏. Onevn נעל את הפרופיל כדי שלא ייפגם. אם אתה משוכנע שאף תהליך אחר אינו משתמש בפרופיל זה, תוכל לבטל את נעילת הפרופיל ולהפעיל את Onevn מחדש.</translation>
+<translation id="239760341987199724">‏הגדר את Onevn כדפדפן ברירת המחדל שלך</translation>
 <translation id="5344925500065984750">‏כדי להגדיר אילו אתרים <ph name="NEW_PROFILE_NAME"/> יכול להציג, באפשרותך לקבוע הגבלות והגדרות מ-<ph name="BEGIN_LINK_1"/><ph name="DISPLAY_LINK"/><ph name="END_LINK_1"/>. אם לא תשנה את הגדרות ברירת המחדל, <ph name="NEW_PROFILE_NAME"/> יוכל לגלוש בכל התוכן באינטרנט.
 
-כדי למנוע מ-<ph name="NEW_PROFILE_NAME"/> לגשת לחשבון שלך, הקפד לנעול את הפרופיל כשאינך משתמש ב-OneVN. כדי לעשות זאת, לחץ על שם הפרופיל שלך בפינה השמאלית העליונה של הדפדפן ובחר באפשרות 'צא והגדר נעילת ילדים'.
+כדי למנוע מ-<ph name="NEW_PROFILE_NAME"/> לגשת לחשבון שלך, הקפד לנעול את הפרופיל כשאינך משתמש ב-Onevn. כדי לעשות זאת, לחץ על שם הפרופיל שלך בפינה השמאלית העליונה של הדפדפן ובחר באפשרות 'צא והגדר נעילת ילדים'.
 <ph name="BEGIN_LINK_2"/>למידע נוסף<ph name="END_LINK_2"/>
 
 בדוק את האימייל בחשבון <ph name="ACCOUNT_EMAIL"/> לקבלת הנחיות נוספות.</translation>
-<translation id="1820843143331379651">‏פרופילים של משתמשים בפיקוח יפסיקו להיות זמינים החל מ-OneVN 70.</translation>
-<translation id="3066805437003400520">‏נתוני הגלישה של האדם הזה יימחקו מהמכשיר. כדי לשחזר את הנתונים, יש להיכנס ל-OneVN בתור <ph name="USER_EMAIL"/>.</translation>
-<translation id="2827121003398607864">‏OneVN השתפר</translation>
-<translation id="7192666605334070839">‏קל יותר כעת להשתמש ב-OneVN באמצעות חשבון OneVN Software שלך ובמחשבים משותפים.</translation>
-<translation id="3511996232906761537">‏היסטוריית האתרים, הסימניות ונתונים נוספים מ-OneVN נמצאים כאן.</translation>
-<translation id="7406627712452599344">‏אורחים יכולים להשתמש ב-OneVN בלי להשאיר דבר מאחור.</translation>
-<translation id="5659384504794665581">‏אם אתה משתף מחשב, חברים ובני משפחה יכולים לגלוש בנפרד ולהגדיר את OneVN בדיוק כפי שהם רוצים.</translation>
-<translation id="7130675370997202556">‏לחץ על השם שלך כדי לפתוח את OneVN ולהתחיל לגלוש.</translation>
-<translation id="5952898964075639679">‏הוסף את עצמך ל-OneVN</translation>
-<translation id="3813272600615358652">‏התוסף שינה את הדף שמוצג כשאתה מפעיל את OneVN.</translation>
-<translation id="2576129394594491151">‏התוסף "<ph name="EXTENSION_NAME"/>" שינה את הדף שמוצג כשאתה מפעיל את OneVN.</translation>
-<translation id="2675662665675552980">‏הגדרה זו גם קובעת איזה דף מוצג כשאתה מפעיל את OneVN.</translation>
-<translation id="3215652305414474626">‏הגדרה זו גם קובעת איזה דף מוצג שאתה מפעיל את OneVN או לוחץ על הלחצן 'דף הבית'.</translation>
-<translation id="2433912322225810055">‏הגדרה זו גם קובעת איזה דף מוצג כשאתה מפעיל את OneVN או מבצע חיפוש מסרגל הכתובות.</translation>
-<translation id="2871190378186459992">‏גלה יישומים, משחקים, תוספים ועיצובים מעולים בשביל OneVN.</translation>
-<translation id="3350544518197210895">‏OneVN ‏(mDNS-In)</translation>
-<translation id="1912973375560256099">‏כלל נכנס עבור OneVN על מנת לאפשר תנועת mDNS.</translation>
-<translation id="8207657266087451193">‏אם אין לתמונה תיאור מועיל, OneVN ינסה לספק לך תיאור. כדי ליצור תיאורים, התמונות נשלחות אל OneVN Software. אפשר להשבית את האפשרות הזו בכל זמן דרך ההגדרות.</translation>
-<translation id="5499063270485366718">‏אם אין לתמונה תיאור מועיל, OneVN ינסה לספק לך תיאור. כדי ליצור תיאורים, התמונות נשלחות אל OneVN Software.</translation>
-<translation id="7276297358157391541">‏OneVN יכול לספק בדיקת איות חכמה יותר על ידי שליחת הטקסט שאתה מקליד בדפדפן אל שרתי OneVN Software. כך אתה יכול להשתמש באותה טכנולוגיה של בדיקת איות שבה נעשה שימוש בחיפוש OneVN Software.</translation>
-<translation id="1807774211756215222">‏פתח את הקישור ב&amp;כרטיסיית OneVN חדשה</translation>
-<translation id="4624945300945265642">‏פתח את הקישור בחלון &amp;גלישה בסתר של OneVN</translation>
-<translation id="7863882214613921971">‏פתח את הקישור &amp;בכרטיסיית OneVN חדשה</translation>
-<translation id="6554952862405000915">‏פתח את הקישור בחלון &amp;גלישה בסתר של OneVN</translation>
-<translation id="4805806622840861220">‏הפעל מחדש את OneVN</translation>
-<translation id="2560046583427795596">‏יש עדכון בשביל OneVN והמערכת תחיל אותו ברגע שתבוצע הפעלה מחדש.</translation>
+<translation id="1820843143331379651">‏פרופילים של משתמשים בפיקוח יפסיקו להיות זמינים החל מ-Onevn 70.</translation>
+<translation id="3066805437003400520">‏נתוני הגלישה של האדם הזה יימחקו מהמכשיר. כדי לשחזר את הנתונים, יש להיכנס ל-Onevn בתור <ph name="USER_EMAIL"/>.</translation>
+<translation id="2827121003398607864">‏Onevn השתפר</translation>
+<translation id="7192666605334070839">‏קל יותר כעת להשתמש ב-Onevn באמצעות חשבון Onevn Software שלך ובמחשבים משותפים.</translation>
+<translation id="3511996232906761537">‏היסטוריית האתרים, הסימניות ונתונים נוספים מ-Onevn נמצאים כאן.</translation>
+<translation id="7406627712452599344">‏אורחים יכולים להשתמש ב-Onevn בלי להשאיר דבר מאחור.</translation>
+<translation id="5659384504794665581">‏אם אתה משתף מחשב, חברים ובני משפחה יכולים לגלוש בנפרד ולהגדיר את Onevn בדיוק כפי שהם רוצים.</translation>
+<translation id="7130675370997202556">‏לחץ על השם שלך כדי לפתוח את Onevn ולהתחיל לגלוש.</translation>
+<translation id="5952898964075639679">‏הוסף את עצמך ל-Onevn</translation>
+<translation id="3813272600615358652">‏התוסף שינה את הדף שמוצג כשאתה מפעיל את Onevn.</translation>
+<translation id="2576129394594491151">‏התוסף "<ph name="EXTENSION_NAME"/>" שינה את הדף שמוצג כשאתה מפעיל את Onevn.</translation>
+<translation id="2675662665675552980">‏הגדרה זו גם קובעת איזה דף מוצג כשאתה מפעיל את Onevn.</translation>
+<translation id="3215652305414474626">‏הגדרה זו גם קובעת איזה דף מוצג שאתה מפעיל את Onevn או לוחץ על הלחצן 'דף הבית'.</translation>
+<translation id="2433912322225810055">‏הגדרה זו גם קובעת איזה דף מוצג כשאתה מפעיל את Onevn או מבצע חיפוש מסרגל הכתובות.</translation>
+<translation id="2871190378186459992">‏גלה יישומים, משחקים, תוספים ועיצובים מעולים בשביל Onevn.</translation>
+<translation id="3350544518197210895">‏Onevn ‏(mDNS-In)</translation>
+<translation id="1912973375560256099">‏כלל נכנס עבור Onevn על מנת לאפשר תנועת mDNS.</translation>
+<translation id="8207657266087451193">‏אם אין לתמונה תיאור מועיל, Onevn ינסה לספק לך תיאור. כדי ליצור תיאורים, התמונות נשלחות אל Onevn Software. אפשר להשבית את האפשרות הזו בכל זמן דרך ההגדרות.</translation>
+<translation id="5499063270485366718">‏אם אין לתמונה תיאור מועיל, Onevn ינסה לספק לך תיאור. כדי ליצור תיאורים, התמונות נשלחות אל Onevn Software.</translation>
+<translation id="7276297358157391541">‏Onevn יכול לספק בדיקת איות חכמה יותר על ידי שליחת הטקסט שאתה מקליד בדפדפן אל שרתי Onevn Software. כך אתה יכול להשתמש באותה טכנולוגיה של בדיקת איות שבה נעשה שימוש בחיפוש Onevn Software.</translation>
+<translation id="1807774211756215222">‏פתח את הקישור ב&amp;כרטיסיית Onevn חדשה</translation>
+<translation id="4624945300945265642">‏פתח את הקישור בחלון &amp;גלישה בסתר של Onevn</translation>
+<translation id="7863882214613921971">‏פתח את הקישור &amp;בכרטיסיית Onevn חדשה</translation>
+<translation id="6554952862405000915">‏פתח את הקישור בחלון &amp;גלישה בסתר של Onevn</translation>
+<translation id="4805806622840861220">‏הפעל מחדש את Onevn</translation>
+<translation id="2560046583427795596">‏יש עדכון בשביל Onevn והמערכת תחיל אותו ברגע שתבוצע הפעלה מחדש.</translation>
 <translation id="2799223571221894425">הפעל מחדש</translation>
-<translation id="2522086024276534909">‏הפעלה מחדש של OneVN OS</translation>
-<translation id="8183252473547465084">‏כדי להחיל עדכון זה, יש להפעיל מחדש את OneVN OS.</translation>
+<translation id="2522086024276534909">‏הפעלה מחדש של Onevn OS</translation>
+<translation id="8183252473547465084">‏כדי להחיל עדכון זה, יש להפעיל מחדש את Onevn OS.</translation>
 <translation id="5895138241574237353">הפעל מחדש</translation>
-<translation id="5875673934455379806">‏התקן מחדש את OneVN</translation>
-<translation id="2097604701283463988">‏OneVN אינו מעודכן</translation>
-<translation id="5173820533850252773">‏OneVN אינו מעודכן</translation>
-<translation id="6389268239133412586">‏לא ניתן לעדכן את OneVN</translation>
-<translation id="7963515534397191222">‏עדכון OneVN לגירסה האחרונה לא הצליח, ולכן אין לך גישה אל תכונות חדשות ותיקוני אבטחה.</translation>
-<translation id="1705567146636171298">‏עדכן את OneVN‏</translation>
-<translation id="3598551856834560515">‏עדכן את OneVN כדי להתחיל את הסנכרון</translation>
+<translation id="5875673934455379806">‏התקן מחדש את Onevn</translation>
+<translation id="2097604701283463988">‏Onevn אינו מעודכן</translation>
+<translation id="5173820533850252773">‏Onevn אינו מעודכן</translation>
+<translation id="6389268239133412586">‏לא ניתן לעדכן את Onevn</translation>
+<translation id="7963515534397191222">‏עדכון Onevn לגירסה האחרונה לא הצליח, ולכן אין לך גישה אל תכונות חדשות ותיקוני אבטחה.</translation>
+<translation id="1705567146636171298">‏עדכן את Onevn‏</translation>
+<translation id="3598551856834560515">‏עדכן את Onevn כדי להתחיל את הסנכרון</translation>
 <translation id="4050175100176540509">הגרסה החדשה כוללת שיפורי בטיחות חשובים ותכונות חדשות.</translation>
-<translation id="2513524988380267210">{SECONDS,plural, =1{‏OneVN יבצע אתחול בעוד שנייה אחת}two{‏OneVN יבצע אתחול בעוד # שניות}many{‏OneVN יבצע אתחול בעוד # שניות}other{‏OneVN יבצע אתחול בעוד # שניות}}</translation>
-<translation id="5509303873219371662">‏עליך להפעיל מחדש את OneVN עכשיו</translation>
-<translation id="8668413672647811944">‏בוצע עדכון אבטחה מיוחד של OneVN. עכשיו עליך להפעיל מחדש ואנחנו נשחזר את הכרטיסיות.</translation>
-<translation id="763369711159699222">‏עזור לנו לשפר את OneVN</translation>
-<translation id="1156940037717341650">‏אתה יכול לעזור לשפר את הבטיחות של OneVN ולהקל את השימוש בו על ידי דיווח ל-OneVN Software על פרטים של בעיות אבטחה אפשריות.</translation>
-<translation id="6791166902140255175">‏כרטיסייה של OneVN</translation>
-<translation id="2555639463117073782">‏הפעל מחדש את OneVN כדי להפעיל את <ph name="PLUGIN_NAME"/></translation>
-<translation id="8899693649891674038">‏התקן את OneVN בטלפון שלך, ונשלח אליו הודעת SMS.</translation>
-<translation id="1570795130102031380">‏התקן את OneVN בטלפון שלך, ונשלח הודעת SMS למספר: <ph name="PHONE_NUMBER"/></translation>
-<translation id="1609678321160597289">‏התקן את OneVN בטלפון שלך, ונשלח הודעת SMS למספר שמוגדר לשחזור החשבון.</translation>
-<translation id="2965084188004448871">‏התקן את OneVN בטלפון שלך, ונשלח הודעת SMS למספר שמוגדר לשחזור החשבון: <ph name="PHONE_NUMBER"/></translation>
-<translation id="8358191771897395012">‏להורדת OneVN ל-iPhone</translation>
-<translation id="2034072705932785495">‏OneVN זקוק להרשאת גישה למצלמה בשביל האתר הזה</translation>
-<translation id="3335606533094650083">‏OneVN זקוק להרשאת גישה למיקרופון בשביל האתר הזה</translation>
-<translation id="4831743161813926460">‏OneVN זקוק להרשאת גישה אל המצלמה והמיקרופון בשביל האתר הזה</translation>
-<translation id="696826782632239602">‏OneVN זקוק לגישה למיקום שלך כדי לשתף אותו עם האתר הזה</translation>
-<translation id="7798069806040634998">‏OneVN זקוק לגישה לאחסון כדי להוריד קבצים</translation>
-<translation id="7685904775439037072">‏אחרי מתן גישה ל-OneVN, אתרים יוכלו לבקש ממך גישה.</translation>
-<translation id="5805364706385912897">‏הדף הזה מנצל יותר מדי זיכרון, כך שהוא הושהה על-ידי OneVN.</translation>
-<translation id="5138664332909611586">‏הדף הזה מנצל יותר מדי זיכרון, כך שחלק מהתוכן הוסר על ידי OneVN.</translation>
-<translation id="1744365871163268756">‏המתן בזמן ש-OneVN מתקין את עדכוני המערכת האחרונים.</translation>
-<translation id="5693614905241031118">‏OneVN מתעדכן באופן אוטומטי כך שתמיד ברשותך הגרסה העדכנית ביותר.</translation>
-<translation id="6141293433381251973">‏OneVN מתעדכן באופן אוטומטי, כך שתמיד ברשותך הגרסה העדכנית ביותר. כשההורדה תסתיים, OneVN יופעל מחדש ותוכל להמשיך.</translation>
-<translation id="7808415789955822133">‏תנאים עבור מערכת ההפעלה של OneVN</translation>
-<translation id="7207456302801184289">‏ברוכים הבאים ל-OneVN‏</translation>
-<translation id="5688839044908745927">‏OneVN כמעט מוכן.</translation>
-<translation id="7758342895140862711">‏לוקחים את OneVN לכל מקום</translation>
-<translation id="3610173904388112975">‏גלישה באינטרנט עם OneVN Software Smarts</translation>
+<translation id="2513524988380267210">{SECONDS,plural, =1{‏Onevn יבצע אתחול בעוד שנייה אחת}two{‏Onevn יבצע אתחול בעוד # שניות}many{‏Onevn יבצע אתחול בעוד # שניות}other{‏Onevn יבצע אתחול בעוד # שניות}}</translation>
+<translation id="5509303873219371662">‏עליך להפעיל מחדש את Onevn עכשיו</translation>
+<translation id="8668413672647811944">‏בוצע עדכון אבטחה מיוחד של Onevn. עכשיו עליך להפעיל מחדש ואנחנו נשחזר את הכרטיסיות.</translation>
+<translation id="763369711159699222">‏עזור לנו לשפר את Onevn</translation>
+<translation id="1156940037717341650">‏אתה יכול לעזור לשפר את הבטיחות של Onevn ולהקל את השימוש בו על ידי דיווח ל-Onevn Software על פרטים של בעיות אבטחה אפשריות.</translation>
+<translation id="6791166902140255175">‏כרטיסייה של Onevn</translation>
+<translation id="2555639463117073782">‏הפעל מחדש את Onevn כדי להפעיל את <ph name="PLUGIN_NAME"/></translation>
+<translation id="8899693649891674038">‏התקן את Onevn בטלפון שלך, ונשלח אליו הודעת SMS.</translation>
+<translation id="1570795130102031380">‏התקן את Onevn בטלפון שלך, ונשלח הודעת SMS למספר: <ph name="PHONE_NUMBER"/></translation>
+<translation id="1609678321160597289">‏התקן את Onevn בטלפון שלך, ונשלח הודעת SMS למספר שמוגדר לשחזור החשבון.</translation>
+<translation id="2965084188004448871">‏התקן את Onevn בטלפון שלך, ונשלח הודעת SMS למספר שמוגדר לשחזור החשבון: <ph name="PHONE_NUMBER"/></translation>
+<translation id="8358191771897395012">‏להורדת Onevn ל-iPhone</translation>
+<translation id="2034072705932785495">‏Onevn זקוק להרשאת גישה למצלמה בשביל האתר הזה</translation>
+<translation id="3335606533094650083">‏Onevn זקוק להרשאת גישה למיקרופון בשביל האתר הזה</translation>
+<translation id="4831743161813926460">‏Onevn זקוק להרשאת גישה אל המצלמה והמיקרופון בשביל האתר הזה</translation>
+<translation id="696826782632239602">‏Onevn זקוק לגישה למיקום שלך כדי לשתף אותו עם האתר הזה</translation>
+<translation id="7798069806040634998">‏Onevn זקוק לגישה לאחסון כדי להוריד קבצים</translation>
+<translation id="7685904775439037072">‏אחרי מתן גישה ל-Onevn, אתרים יוכלו לבקש ממך גישה.</translation>
+<translation id="5805364706385912897">‏הדף הזה מנצל יותר מדי זיכרון, כך שהוא הושהה על-ידי Onevn.</translation>
+<translation id="5138664332909611586">‏הדף הזה מנצל יותר מדי זיכרון, כך שחלק מהתוכן הוסר על ידי Onevn.</translation>
+<translation id="1744365871163268756">‏המתן בזמן ש-Onevn מתקין את עדכוני המערכת האחרונים.</translation>
+<translation id="5693614905241031118">‏Onevn מתעדכן באופן אוטומטי כך שתמיד ברשותך הגרסה העדכנית ביותר.</translation>
+<translation id="6141293433381251973">‏Onevn מתעדכן באופן אוטומטי, כך שתמיד ברשותך הגרסה העדכנית ביותר. כשההורדה תסתיים, Onevn יופעל מחדש ותוכל להמשיך.</translation>
+<translation id="7808415789955822133">‏תנאים עבור מערכת ההפעלה של Onevn</translation>
+<translation id="7207456302801184289">‏ברוכים הבאים ל-Onevn‏</translation>
+<translation id="5688839044908745927">‏Onevn כמעט מוכן.</translation>
+<translation id="7758342895140862711">‏לוקחים את Onevn לכל מקום</translation>
+<translation id="3610173904388112975">‏גלישה באינטרנט עם Onevn Software Smarts</translation>
 <translation id="3479552764303398839">לא עכשיו</translation>
-<translation id="8013374903356993822">‏רוצה להגיע ל-OneVN מהר יותר?</translation>
-<translation id="7625138338483121345">‏הגדר את OneVN בתור דפדפן ברירת המחדל</translation>
-<translation id="5927044791090834489">‏הצמד את OneVN לשורת המשימות</translation>
-<translation id="8933981935877469796">‏בחר ב-<ph name="SMALL_PRODUCT_LOGO"/> <ph name="BEGIN_BOLD"/>OneVN<ph name="END_BOLD"/></translation>
+<translation id="8013374903356993822">‏רוצה להגיע ל-Onevn מהר יותר?</translation>
+<translation id="7625138338483121345">‏הגדר את Onevn בתור דפדפן ברירת המחדל</translation>
+<translation id="5927044791090834489">‏הצמד את Onevn לשורת המשימות</translation>
+<translation id="8933981935877469796">‏בחר ב-<ph name="SMALL_PRODUCT_LOGO"/> <ph name="BEGIN_BOLD"/>Onevn<ph name="END_BOLD"/></translation>
 <translation id="1585657529869845941">אם הלחצן <ph name="BEGIN_BOLD"/>אני רוצה להחליף בכל מקרה<ph name="END_BOLD"/> מופיע, צריך ללחוץ עליו</translation>
-<translation id="3507835409099344374">‏מעבר אל הגדרות ההודעות של OneVN</translation>
-<translation id="9118654140804842635">{0,plural, =0{‏יש עדכון ל-OneVN}=1{‏יש עדכון ל-OneVN}two{‏עדכון של OneVN זמין כבר יומיים}many{‏עדכון של OneVN זמין כבר # ימים}other{‏עדכון של OneVN זמין כבר # ימים}}</translation>
-<translation id="720532315408041257">‏לפי בקשת מנהל המערכת, יש להפעיל מחדש את OneVN כדי להחיל את העדכון הזה</translation>
-<translation id="6639482638305253477">{0,plural, =1{‏צריך להפעיל מחדש את OneVN תוך יום אחד}two{‏צריך להפעיל מחדש את OneVN תוך יומיים}many{‏צריך להפעיל מחדש את OneVN תוך # ימים}other{‏צריך להפעיל מחדש את OneVN תוך # ימים}}</translation>
-<translation id="656910845148850955">{0,plural, =1{‏OneVN יופעל מחדש בעוד שעה אחת}two{‏OneVN יופעל מחדש בעוד שעתיים}many{‏OneVN יופעל מחדש בעוד # שעות}other{‏OneVN יופעל מחדש בעוד # שעות}}</translation>
-<translation id="2927768292099217319">{0,plural, =1{‏OneVN יופעל מחדש בעוד דקה}two{‏OneVN יופעל מחדש בעוד שתי דקות}many{‏OneVN יופעל מחדש בעוד # דקות}other{‏OneVN יופעל מחדש בעוד # דקות}}</translation>
-<translation id="2124855793980950516">{0,plural, =0{‏OneVN יופעל מחדש עכשיו}=1{‏OneVN יופעל מחדש בעוד שנייה אחת}two{‏OneVN יופעל מחדש בעוד שתי שניות}many{‏OneVN יופעל מחדש בעוד # שניות}other{‏OneVN יופעל מחדש בעוד # שניות}}</translation>
-<translation id="7595187113648413294">‏לפי דרישת מנהל המערכת, יש להפעיל מחדש את OneVN כדי להחיל עדכון</translation>
-<translation id="56801943271475640">{0,plural, =0{‏יש עדכון ל-OneVN OS}=1{‏יש עדכון ל-OneVN OS}two{‏עדכון של OneVN OS זמין כבר יומיים}many{‏עדכון של OneVN OS זמין כבר # ימים}other{‏עדכון של OneVN OS זמין כבר # ימים}}</translation>
-<translation id="5715362474140341294">‏לפי הבקשה של מנהל המערכת, צריך להפעיל מחדש את OneVN OS כדי להחיל את העדכון</translation>
-<translation id="8094834892392729950">{0,plural, =1{‏צריך להפעיל מחדש את OneVN OS תוך יום אחד}two{‏צריך להפעיל מחדש את OneVN OS תוך יומיים}many{‏צריך להפעיל מחדש את OneVN OS תוך # ימים}other{‏צריך להפעיל מחדש את OneVN OS תוך # ימים}}</translation>
-<translation id="1265795866000813420">{0,plural, =1{‏OneVN OS תופעל מחדש בעוד שעה אחת}two{‏OneVN OS תופעל מחדש בעוד שעתיים}many{‏OneVN OS תופעל מחדש בעוד # שעות}other{‏OneVN OS תופעל מחדש בעוד # שעות}}</translation>
-<translation id="2031312345409605311">{0,plural, =1{‏OneVN OS תופעל מחדש בעוד דקה אחת}two{‏OneVN OS תופעל מחדש בעוד שתי דקות}many{‏OneVN OS תופעל מחדש בעוד # דקות}other{‏OneVN OS תופעל מחדש בעוד # דקות}}</translation>
-<translation id="8624602604153953835">{0,plural, =0{‏OneVN OS תופעל מחדש עכשיו}=1{‏OneVN OS תופעל מחדש בעוד שנייה אחת}two{‏OneVN OS תופעל מחדש בעוד שתי שניות}many{‏OneVN OS תופעל מחדש בעוד # שניות}other{‏OneVN OS תופעל מחדש בעוד # שניות}}</translation>
-<translation id="8559452515617838628">‏לפי הדרישה של מנהל המערכת, צריך להפעיל מחדש את OneVN OS כדי להחיל עדכון</translation>
-<translation id="3052349005266761501">‏הפעלת OneVN מתבצעת...</translation>
-<translation id="1197672524850678392">‏לא ניתן היה להפעיל את OneVN. יש לנסות שוב.</translation>
+<translation id="3507835409099344374">‏מעבר אל הגדרות ההודעות של Onevn</translation>
+<translation id="9118654140804842635">{0,plural, =0{‏יש עדכון ל-Onevn}=1{‏יש עדכון ל-Onevn}two{‏עדכון של Onevn זמין כבר יומיים}many{‏עדכון של Onevn זמין כבר # ימים}other{‏עדכון של Onevn זמין כבר # ימים}}</translation>
+<translation id="720532315408041257">‏לפי בקשת מנהל המערכת, יש להפעיל מחדש את Onevn כדי להחיל את העדכון הזה</translation>
+<translation id="6639482638305253477">{0,plural, =1{‏צריך להפעיל מחדש את Onevn תוך יום אחד}two{‏צריך להפעיל מחדש את Onevn תוך יומיים}many{‏צריך להפעיל מחדש את Onevn תוך # ימים}other{‏צריך להפעיל מחדש את Onevn תוך # ימים}}</translation>
+<translation id="656910845148850955">{0,plural, =1{‏Onevn יופעל מחדש בעוד שעה אחת}two{‏Onevn יופעל מחדש בעוד שעתיים}many{‏Onevn יופעל מחדש בעוד # שעות}other{‏Onevn יופעל מחדש בעוד # שעות}}</translation>
+<translation id="2927768292099217319">{0,plural, =1{‏Onevn יופעל מחדש בעוד דקה}two{‏Onevn יופעל מחדש בעוד שתי דקות}many{‏Onevn יופעל מחדש בעוד # דקות}other{‏Onevn יופעל מחדש בעוד # דקות}}</translation>
+<translation id="2124855793980950516">{0,plural, =0{‏Onevn יופעל מחדש עכשיו}=1{‏Onevn יופעל מחדש בעוד שנייה אחת}two{‏Onevn יופעל מחדש בעוד שתי שניות}many{‏Onevn יופעל מחדש בעוד # שניות}other{‏Onevn יופעל מחדש בעוד # שניות}}</translation>
+<translation id="7595187113648413294">‏לפי דרישת מנהל המערכת, יש להפעיל מחדש את Onevn כדי להחיל עדכון</translation>
+<translation id="56801943271475640">{0,plural, =0{‏יש עדכון ל-Onevn OS}=1{‏יש עדכון ל-Onevn OS}two{‏עדכון של Onevn OS זמין כבר יומיים}many{‏עדכון של Onevn OS זמין כבר # ימים}other{‏עדכון של Onevn OS זמין כבר # ימים}}</translation>
+<translation id="5715362474140341294">‏לפי הבקשה של מנהל המערכת, צריך להפעיל מחדש את Onevn OS כדי להחיל את העדכון</translation>
+<translation id="8094834892392729950">{0,plural, =1{‏צריך להפעיל מחדש את Onevn OS תוך יום אחד}two{‏צריך להפעיל מחדש את Onevn OS תוך יומיים}many{‏צריך להפעיל מחדש את Onevn OS תוך # ימים}other{‏צריך להפעיל מחדש את Onevn OS תוך # ימים}}</translation>
+<translation id="1265795866000813420">{0,plural, =1{‏Onevn OS תופעל מחדש בעוד שעה אחת}two{‏Onevn OS תופעל מחדש בעוד שעתיים}many{‏Onevn OS תופעל מחדש בעוד # שעות}other{‏Onevn OS תופעל מחדש בעוד # שעות}}</translation>
+<translation id="2031312345409605311">{0,plural, =1{‏Onevn OS תופעל מחדש בעוד דקה אחת}two{‏Onevn OS תופעל מחדש בעוד שתי דקות}many{‏Onevn OS תופעל מחדש בעוד # דקות}other{‏Onevn OS תופעל מחדש בעוד # דקות}}</translation>
+<translation id="8624602604153953835">{0,plural, =0{‏Onevn OS תופעל מחדש עכשיו}=1{‏Onevn OS תופעל מחדש בעוד שנייה אחת}two{‏Onevn OS תופעל מחדש בעוד שתי שניות}many{‏Onevn OS תופעל מחדש בעוד # שניות}other{‏Onevn OS תופעל מחדש בעוד # שניות}}</translation>
+<translation id="8559452515617838628">‏לפי הדרישה של מנהל המערכת, צריך להפעיל מחדש את Onevn OS כדי להחיל עדכון</translation>
+<translation id="3052349005266761501">‏הפעלת Onevn מתבצעת...</translation>
+<translation id="1197672524850678392">‏לא ניתן היה להפעיל את Onevn. יש לנסות שוב.</translation>
 <translation id="6040143037577758943">סגור</translation>
-<translation id="8541922081612557424">‏על OneVN</translation>
-<translation id="3262506503470845422">‏קבל עזרה בנושא OneVN</translation>
-<translation id="1864557848095568223">‏מעדכן את OneVN‏</translation>
-<translation id="1786715389543715322">‏מעדכן את OneVN‏ (<ph name="PROGRESS_PERCENT"/>)</translation>
-<translation id="8208853227947884571">‏OneVN‏ מעודכן</translation>
-<translation id="6686872257969654608">‏על מערכת ההפעלה של OneVN</translation>
-<translation id="2280363356796735201">‏קבל עזרה בנושא OneVN OS</translation>
-<translation id="5253815230176279256">‏OneVN Software Pay (‏הועתק ל-OneVN)</translation>
-<translation id="5468853758063275923">‏OneVN מוגדר כדפדפן ברירת המחדל</translation>
-<translation id="1775322105159056176">‏ב-OneVN לא ניתן לקבוע או להגדיר את דפדפן ברירת המחדל</translation>
-<translation id="6915252145142862992">‏זוהי התקנה משנית של OneVN, ולא ניתן להפוך אותו לדפדפן ברירת המחדל שלך.</translation>
-<translation id="7977435741986383568">‏OneVN עשוי להשתמש בשירותי אינטרנט לשיפור חוויית הגלישה. ניתן להשבית את השירותים האלה. <ph name="BEGIN_LINK"/>למידע נוסף<ph name="END_LINK"/></translation>
-<translation id="2312399718665761438">‏OneVN שולח את הטקסט שמוקלד בשדות טקסט ל-OneVN Software כדי לתקן שגיאות כתיב</translation>
-<translation id="8586264863973514035">‏כדי להחיל את השינויים שביצעת, יש להפעיל מחדש את OneVN</translation>
-<translation id="7021823858304886493">‏התרת כניסה אל OneVN</translation>
-<translation id="1649714546770135458">‏כיבוי הגדרה זו יאפשר לך להיכנס לאתרי OneVN Software, כמו Gmail, בלי להיכנס אל OneVN</translation>
-<translation id="9220324636239049437">‏הפעולה הזו תמחק פריט אחד מהמכשיר. כדי לשחזר את הנתונים מאוחר יותר, היכנס אל OneVN עם <ph name="USER_EMAIL"/>.</translation>
-<translation id="5853262807109651878">‏פעולה זו תמחק <ph name="ITEMS_COUNT"/> פריטים מהמכשיר. כדי לשחזר את הנתונים מאוחר יותר, היכנס אל OneVN עם <ph name="USER_EMAIL"/>.</translation>
-<translation id="4784414698887946907">‏פעולה זו תמחק את נתוני הגלישה מהמכשיר. כדי לשחזר את הנתונים מאוחר יותר, היכנס אל OneVN עם <ph name="USER_EMAIL"/>.</translation>
-<translation id="4518479204315969707">‏שם ותמונה ב-OneVN</translation>
-<translation id="8372880274820509128">‏לשיפור האבטחה, OneVN יצפין את הנתונים.</translation>
-<translation id="7445061995866044926">‏האם לצאת מ-OneVN?</translation>
-<translation id="7453070689008684791">‏OneVN ייגש ל-Drive שלך כדי להציג הצעות בסרגל הכתובות</translation>
-<translation id="9221712274065451529">‏זו השפה שבה מוצג ממשק המשתמש של OneVN OS</translation>
-<translation id="3518788198614984730">‏הצג את OneVN OS בשפה זו</translation>
-<translation id="5757460455745382269">‏זו השפה שבה מוצג ממשק המשתמש של OneVN</translation>
-<translation id="2335583906071111058">‏הצג את OneVN בשפה זו</translation>
-<translation id="8926637909431618259">‏המשך הפעלת יישומים ברקע כאשר OneVN סגור</translation>
-<translation id="6056473803837713617">‏דיווח על <ph name="BEGIN_LINK"/>ההגדרות הנוכחיות<ph name="END_LINK"/> יעזור לשפר את OneVN</translation>
+<translation id="8541922081612557424">‏על Onevn</translation>
+<translation id="3262506503470845422">‏קבל עזרה בנושא Onevn</translation>
+<translation id="1864557848095568223">‏מעדכן את Onevn‏</translation>
+<translation id="1786715389543715322">‏מעדכן את Onevn‏ (<ph name="PROGRESS_PERCENT"/>)</translation>
+<translation id="8208853227947884571">‏Onevn‏ מעודכן</translation>
+<translation id="6686872257969654608">‏על מערכת ההפעלה של Onevn</translation>
+<translation id="2280363356796735201">‏קבל עזרה בנושא Onevn OS</translation>
+<translation id="5253815230176279256">‏Onevn Software Pay (‏הועתק ל-Onevn)</translation>
+<translation id="5468853758063275923">‏Onevn מוגדר כדפדפן ברירת המחדל</translation>
+<translation id="1775322105159056176">‏ב-Onevn לא ניתן לקבוע או להגדיר את דפדפן ברירת המחדל</translation>
+<translation id="6915252145142862992">‏זוהי התקנה משנית של Onevn, ולא ניתן להפוך אותו לדפדפן ברירת המחדל שלך.</translation>
+<translation id="7977435741986383568">‏Onevn עשוי להשתמש בשירותי אינטרנט לשיפור חוויית הגלישה. ניתן להשבית את השירותים האלה. <ph name="BEGIN_LINK"/>למידע נוסף<ph name="END_LINK"/></translation>
+<translation id="2312399718665761438">‏Onevn שולח את הטקסט שמוקלד בשדות טקסט ל-Onevn Software כדי לתקן שגיאות כתיב</translation>
+<translation id="8586264863973514035">‏כדי להחיל את השינויים שביצעת, יש להפעיל מחדש את Onevn</translation>
+<translation id="7021823858304886493">‏התרת כניסה אל Onevn</translation>
+<translation id="1649714546770135458">‏כיבוי הגדרה זו יאפשר לך להיכנס לאתרי Onevn Software, כמו Gmail, בלי להיכנס אל Onevn</translation>
+<translation id="9220324636239049437">‏הפעולה הזו תמחק פריט אחד מהמכשיר. כדי לשחזר את הנתונים מאוחר יותר, היכנס אל Onevn עם <ph name="USER_EMAIL"/>.</translation>
+<translation id="5853262807109651878">‏פעולה זו תמחק <ph name="ITEMS_COUNT"/> פריטים מהמכשיר. כדי לשחזר את הנתונים מאוחר יותר, היכנס אל Onevn עם <ph name="USER_EMAIL"/>.</translation>
+<translation id="4784414698887946907">‏פעולה זו תמחק את נתוני הגלישה מהמכשיר. כדי לשחזר את הנתונים מאוחר יותר, היכנס אל Onevn עם <ph name="USER_EMAIL"/>.</translation>
+<translation id="4518479204315969707">‏שם ותמונה ב-Onevn</translation>
+<translation id="8372880274820509128">‏לשיפור האבטחה, Onevn יצפין את הנתונים.</translation>
+<translation id="7445061995866044926">‏האם לצאת מ-Onevn?</translation>
+<translation id="7453070689008684791">‏Onevn ייגש ל-Drive שלך כדי להציג הצעות בסרגל הכתובות</translation>
+<translation id="9221712274065451529">‏זו השפה שבה מוצג ממשק המשתמש של Onevn OS</translation>
+<translation id="3518788198614984730">‏הצג את Onevn OS בשפה זו</translation>
+<translation id="5757460455745382269">‏זו השפה שבה מוצג ממשק המשתמש של Onevn</translation>
+<translation id="2335583906071111058">‏הצג את Onevn בשפה זו</translation>
+<translation id="8926637909431618259">‏המשך הפעלת יישומים ברקע כאשר Onevn סגור</translation>
+<translation id="6056473803837713617">‏דיווח על <ph name="BEGIN_LINK"/>ההגדרות הנוכחיות<ph name="END_LINK"/> יעזור לשפר את Onevn</translation>
 </translationbundle>

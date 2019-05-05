@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -36,7 +36,7 @@
 #include "content/public/test/browser_test_utils.h"
 #include "content/public/test/test_navigation_observer.h"
 
-using content::OneVNClearBrowsingData;
+using content::OnevnClearBrowsingData;
 using content::WebContents;
 
 namespace {
@@ -80,13 +80,13 @@ class BrowserRemovedObserver : public BrowserListObserver {
 
 }  // namespace
 
-class OneVNClearDataOnExitTest
+class OnevnClearDataOnExitTest
     : public InProcessBrowserTest,
-      public OneVNClearBrowsingData::OnExitTestingCallback {
+      public OnevnClearBrowsingData::OnExitTestingCallback {
  public:
-  OneVNClearDataOnExitTest() = default;
+  OnevnClearDataOnExitTest() = default;
   void SetUpOnMainThread() override {
-    OneVNClearBrowsingData::SetOnExitTestingCallback(this);
+    OnevnClearBrowsingData::SetOnExitTestingCallback(this);
   }
 
   void TearDownOnMainThread() override {
@@ -112,7 +112,7 @@ class OneVNClearDataOnExitTest
   void TearDownInProcessBrowserTestFixture() override {
     // Verify expected number of calls to remove browsing data.
     EXPECT_EQ(remove_data_call_count_, expected_remove_data_call_count_);
-    OneVNClearBrowsingData::SetOnExitTestingCallback(nullptr);
+    OnevnClearBrowsingData::SetOnExitTestingCallback(nullptr);
   }
 
   int remove_data_call_count() { return remove_data_call_count_; }
@@ -156,7 +156,7 @@ class OneVNClearDataOnExitTest
            content::BrowsingDataRemover::ORIGIN_TYPE_UNPROTECTED_WEB;
   }
 
-  // OneVNClearBrowsingData::OnExitTestingCallback implementation.
+  // OnevnClearBrowsingData::OnExitTestingCallback implementation.
   void BeforeClearOnExitRemoveData(content::BrowsingDataRemover* remover,
                                    int remove_mask,
                                    int origin_mask) override {
@@ -175,17 +175,17 @@ class OneVNClearDataOnExitTest
   int expected_remove_mask_ = -1;
   int expected_origin_mask_ = -1;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNClearDataOnExitTest);
+  DISALLOW_COPY_AND_ASSIGN(OnevnClearDataOnExitTest);
 };
 
-IN_PROC_BROWSER_TEST_F(OneVNClearDataOnExitTest, NoPrefsSet) {
+IN_PROC_BROWSER_TEST_F(OnevnClearDataOnExitTest, NoPrefsSet) {
   // No set preferences to clear data.
   SetExepectedRemoveDataCallCount(0);
   // Tell the application to quit.
   chrome::ExecuteCommand(browser(), IDC_EXIT);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNClearDataOnExitTest, VerifyRemovalMasks) {
+IN_PROC_BROWSER_TEST_F(OnevnClearDataOnExitTest, VerifyRemovalMasks) {
   // Set all clear data on exit preferences and corresponding expected remove
   // mask and origin flags.
   SetClearAll(browser()->profile()->GetPrefs());
@@ -200,9 +200,9 @@ IN_PROC_BROWSER_TEST_F(OneVNClearDataOnExitTest, VerifyRemovalMasks) {
   chrome::ExecuteCommand(browser(), IDC_EXIT);
 }
 
-class OneVNClearDataOnExitTwoBrowsersTest : public OneVNClearDataOnExitTest {
+class OnevnClearDataOnExitTwoBrowsersTest : public OnevnClearDataOnExitTest {
  public:
-  OneVNClearDataOnExitTwoBrowsersTest() : OneVNClearDataOnExitTest() {
+  OnevnClearDataOnExitTwoBrowsersTest() : OnevnClearDataOnExitTest() {
     browsers_count_ = 2u;
   }
 
@@ -278,10 +278,10 @@ class OneVNClearDataOnExitTwoBrowsersTest : public OneVNClearDataOnExitTest {
  private:
   base::ScopedTempDir profile2_dir_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNClearDataOnExitTwoBrowsersTest);
+  DISALLOW_COPY_AND_ASSIGN(OnevnClearDataOnExitTwoBrowsersTest);
 };
 
-IN_PROC_BROWSER_TEST_F(OneVNClearDataOnExitTwoBrowsersTest, SameProfile) {
+IN_PROC_BROWSER_TEST_F(OnevnClearDataOnExitTwoBrowsersTest, SameProfile) {
   // Delete browsing history on exit.
   SetDeleteBrowsingHistoryOnExit();
   // Same profile, so expect a single call.
@@ -297,7 +297,7 @@ IN_PROC_BROWSER_TEST_F(OneVNClearDataOnExitTwoBrowsersTest, SameProfile) {
   chrome::ExecuteCommand(browser(), IDC_EXIT);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNClearDataOnExitTwoBrowsersTest, OneOTR) {
+IN_PROC_BROWSER_TEST_F(OnevnClearDataOnExitTwoBrowsersTest, OneOTR) {
   // Delete browsing history on exit.
   SetDeleteBrowsingHistoryOnExit();
   // OTR sessions don't count, so expect a single call.
@@ -314,7 +314,7 @@ IN_PROC_BROWSER_TEST_F(OneVNClearDataOnExitTwoBrowsersTest, OneOTR) {
   chrome::ExecuteCommand(browser(), IDC_EXIT);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNClearDataOnExitTwoBrowsersTest, OneOTRExitsLast) {
+IN_PROC_BROWSER_TEST_F(OnevnClearDataOnExitTwoBrowsersTest, OneOTRExitsLast) {
   // Delete browsing history on exit.
   SetDeleteBrowsingHistoryOnExit();
   // OTR sessions don't count, so expect a single call.
@@ -332,7 +332,7 @@ IN_PROC_BROWSER_TEST_F(OneVNClearDataOnExitTwoBrowsersTest, OneOTRExitsLast) {
   chrome::ExecuteCommand(second_window, IDC_EXIT);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNClearDataOnExitTwoBrowsersTest, OneGuest) {
+IN_PROC_BROWSER_TEST_F(OnevnClearDataOnExitTwoBrowsersTest, OneGuest) {
   // Delete browsing history on exit.
   SetDeleteBrowsingHistoryOnExit();
   // Guest sessions don't count, so expect a single call.
@@ -349,7 +349,7 @@ IN_PROC_BROWSER_TEST_F(OneVNClearDataOnExitTwoBrowsersTest, OneGuest) {
   chrome::ExecuteCommand(browser(), IDC_EXIT);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNClearDataOnExitTwoBrowsersTest, OneGuestExitsLast) {
+IN_PROC_BROWSER_TEST_F(OnevnClearDataOnExitTwoBrowsersTest, OneGuestExitsLast) {
   // Delete browsing history on exit.
   SetDeleteBrowsingHistoryOnExit();
   // Guest sessions don't count, so expect a single call.
@@ -366,7 +366,7 @@ IN_PROC_BROWSER_TEST_F(OneVNClearDataOnExitTwoBrowsersTest, OneGuestExitsLast) {
   chrome::ExecuteCommand(guest_window, IDC_EXIT);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNClearDataOnExitTwoBrowsersTest, TwoProfiles) {
+IN_PROC_BROWSER_TEST_F(OnevnClearDataOnExitTwoBrowsersTest, TwoProfiles) {
   // Delete browsing history on exit.
   SetDeleteBrowsingHistoryOnExit();
 

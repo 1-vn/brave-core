@@ -20,8 +20,8 @@
 #include "components/prefs/pref_registry_simple.h"
 #include "components/prefs/pref_service.h"
 
-#define ExternalProcessImporterHost OneVNExternalProcessImporterHost
-#define ProfileWriter OneVNProfileWriter
+#define ExternalProcessImporterHost OnevnExternalProcessImporterHost
+#define ProfileWriter OnevnProfileWriter
 #include "../../../../../chrome/browser/first_run/first_run.cc"
 
 namespace onevn {

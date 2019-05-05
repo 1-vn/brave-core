@@ -7,7 +7,7 @@
 
 #include "chrome/browser/ui/views/frame/browser_view.h"
 
-class OneVNBrowserView : public BrowserView {
+class OnevnBrowserView : public BrowserView {
  public:
   using BrowserView::BrowserView;
 
@@ -15,7 +15,7 @@ class OneVNBrowserView : public BrowserView {
   void ShowUpdateChromeDialog() override;
 
  private:
-  DISALLOW_COPY_AND_ASSIGN(OneVNBrowserView);
+  DISALLOW_COPY_AND_ASSIGN(OnevnBrowserView);
 };
 
 #endif  // ONEVN_BROWSER_UI_VIEWS_FRAME_ONEVN_BROWSER_VIEW_H_

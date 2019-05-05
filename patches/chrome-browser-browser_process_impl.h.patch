@@ -6,7 +6,7 @@ index 7168c719aa25a7df94c54636d3c25516781b1fa7..be3a40c6a673446a035803fae4ba7de3
    static void RegisterPrefs(PrefRegistrySimple* registry);
  
   private:
-+  friend class OneVNBrowserProcessImpl;
++  friend class OnevnBrowserProcessImpl;
    using WebRtcEventLogManager = webrtc_event_logging::WebRtcEventLogManager;
  
    // KeepAliveStateObserver implementation

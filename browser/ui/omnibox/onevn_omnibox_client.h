@@ -11,16 +11,16 @@
 class OmniboxEditController;
 class Profile;
 
-class OneVNOmniboxClient : public ChromeOmniboxClient {
+class OnevnOmniboxClient : public ChromeOmniboxClient {
   public:
-    OneVNOmniboxClient(OmniboxEditController* controller,
+    OnevnOmniboxClient(OmniboxEditController* controller,
                                          Profile* profile);
-    ~OneVNOmniboxClient() override;
+    ~OnevnOmniboxClient() override;
     const AutocompleteSchemeClassifier& GetSchemeClassifier() const override;
 
   private:
-    DISALLOW_COPY_AND_ASSIGN(OneVNOmniboxClient);
-    OneVNAutocompleteSchemeClassifier scheme_classifier_;
+    DISALLOW_COPY_AND_ASSIGN(OnevnOmniboxClient);
+    OnevnAutocompleteSchemeClassifier scheme_classifier_;
 };
 
 #endif

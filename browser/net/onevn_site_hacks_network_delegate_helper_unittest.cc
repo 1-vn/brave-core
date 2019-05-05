@@ -12,13 +12,13 @@
 
 namespace {
 
-class OneVNSiteHacksNetworkDelegateHelperTest: public testing::Test {
+class OnevnSiteHacksNetworkDelegateHelperTest: public testing::Test {
  public:
-  OneVNSiteHacksNetworkDelegateHelperTest()
+  OnevnSiteHacksNetworkDelegateHelperTest()
       : thread_bundle_(content::TestBrowserThreadBundle::IO_MAINLOOP),
         context_(new net::TestURLRequestContext(true)) {
   }
-  ~OneVNSiteHacksNetworkDelegateHelperTest() override {}
+  ~OnevnSiteHacksNetworkDelegateHelperTest() override {}
   void SetUp() override {
     context_->Init();
   }
@@ -29,7 +29,7 @@ class OneVNSiteHacksNetworkDelegateHelperTest: public testing::Test {
   std::unique_ptr<net::TestURLRequestContext> context_;
 };
 
-TEST_F(OneVNSiteHacksNetworkDelegateHelperTest, ForbesWithCookieHeader) {
+TEST_F(OnevnSiteHacksNetworkDelegateHelperTest, ForbesWithCookieHeader) {
   GURL url("https://www.forbes.com");
   net::TestDelegate test_delegate;
   std::unique_ptr<net::URLRequest> request =
@@ -37,9 +37,9 @@ TEST_F(OneVNSiteHacksNetworkDelegateHelperTest, ForbesWithCookieHeader) {
                                TRAFFIC_ANNOTATION_FOR_TESTS);
   net::HttpRequestHeaders headers;
   headers.SetHeader(kCookieHeader, "name=value; name2=value2; name3=value3");
-  std::shared_ptr<onevn::OneVNRequestInfo>
-      onevn_request_info(new onevn::OneVNRequestInfo());
-  onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
+  std::shared_ptr<onevn::OnevnRequestInfo>
+      onevn_request_info(new onevn::OnevnRequestInfo());
+  onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
   onevn::ResponseCallback callback;
   int ret = onevn::OnBeforeStartTransaction_SiteHacksWork(request.get(), &headers,
       callback, onevn_request_info);
@@ -49,16 +49,16 @@ TEST_F(OneVNSiteHacksNetworkDelegateHelperTest, ForbesWithCookieHeader) {
   EXPECT_EQ(ret, net::OK);
 }
 
-TEST_F(OneVNSiteHacksNetworkDelegateHelperTest, ForbesWithoutCookieHeader) {
+TEST_F(OnevnSiteHacksNetworkDelegateHelperTest, ForbesWithoutCookieHeader) {
   GURL url("https://www.forbes.com/prime_numbers/573259391");
   net::TestDelegate test_delegate;
   std::unique_ptr<net::URLRequest> request =
       context()->CreateRequest(url, net::IDLE, &test_delegate,
                                TRAFFIC_ANNOTATION_FOR_TESTS);
   net::HttpRequestHeaders headers;
-  std::shared_ptr<onevn::OneVNRequestInfo>
-      onevn_request_info(new onevn::OneVNRequestInfo());
-  onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
+  std::shared_ptr<onevn::OnevnRequestInfo>
+      onevn_request_info(new onevn::OnevnRequestInfo());
+  onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
   onevn::ResponseCallback callback;
   int ret = onevn::OnBeforeStartTransaction_SiteHacksWork(request.get(), &headers,
       callback, onevn_request_info);
@@ -68,7 +68,7 @@ TEST_F(OneVNSiteHacksNetworkDelegateHelperTest, ForbesWithoutCookieHeader) {
   EXPECT_EQ(ret, net::OK);
 }
 
-TEST_F(OneVNSiteHacksNetworkDelegateHelperTest, NotForbesNoCookieChange) {
+TEST_F(OnevnSiteHacksNetworkDelegateHelperTest, NotForbesNoCookieChange) {
   GURL url("https://www.1-vn.com/prime_numbers/573259391");
   net::TestDelegate test_delegate;
   std::unique_ptr<net::URLRequest> request =
@@ -77,9 +77,9 @@ TEST_F(OneVNSiteHacksNetworkDelegateHelperTest, NotForbesNoCookieChange) {
   net::HttpRequestHeaders headers;
   std::string expected_cookies = "name=value; name2=value2; name3=value3";
   headers.SetHeader(kCookieHeader, "name=value; name2=value2; name3=value3");
-  std::shared_ptr<onevn::OneVNRequestInfo>
-      onevn_request_info(new onevn::OneVNRequestInfo());
-  onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
+  std::shared_ptr<onevn::OnevnRequestInfo>
+      onevn_request_info(new onevn::OnevnRequestInfo());
+  onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
   onevn::ResponseCallback callback;
   int ret = onevn::OnBeforeStartTransaction_SiteHacksWork(request.get(), &headers,
       callback, onevn_request_info);
@@ -89,7 +89,7 @@ TEST_F(OneVNSiteHacksNetworkDelegateHelperTest, NotForbesNoCookieChange) {
   EXPECT_EQ(ret, net::OK);
 }
 
-TEST_F(OneVNSiteHacksNetworkDelegateHelperTest, NoScriptTwitterMobileRedirect) {
+TEST_F(OnevnSiteHacksNetworkDelegateHelperTest, NoScriptTwitterMobileRedirect) {
   GURL url("https://mobile.twitter.com/i/nojs_router?path=%2F");
   net::TestDelegate test_delegate;
   std::unique_ptr<net::URLRequest> request =
@@ -97,16 +97,16 @@ TEST_F(OneVNSiteHacksNetworkDelegateHelperTest, NoScriptTwitterMobileRedirect) {
                                TRAFFIC_ANNOTATION_FOR_TESTS);
   net::HttpRequestHeaders headers;
   headers.SetHeader(kRefererHeader, "https://twitter.com/");
-  std::shared_ptr<onevn::OneVNRequestInfo>
-      onevn_request_info(new onevn::OneVNRequestInfo());
-  onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
+  std::shared_ptr<onevn::OnevnRequestInfo>
+      onevn_request_info(new onevn::OnevnRequestInfo());
+  onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
   onevn::ResponseCallback callback;
   int ret = onevn::OnBeforeStartTransaction_SiteHacksWork(request.get(), &headers,
       callback, onevn_request_info);
   EXPECT_EQ(ret, net::ERR_ABORTED);
 }
 
-TEST_F(OneVNSiteHacksNetworkDelegateHelperTest, AllowTwitterMobileRedirectFromDiffSite) {
+TEST_F(OnevnSiteHacksNetworkDelegateHelperTest, AllowTwitterMobileRedirectFromDiffSite) {
   GURL url("https://mobile.twitter.com/i/nojs_router?path=%2F");
   net::TestDelegate test_delegate;
   std::unique_ptr<net::URLRequest> request =
@@ -114,16 +114,16 @@ TEST_F(OneVNSiteHacksNetworkDelegateHelperTest, AllowTwitterMobileRedirectFromDi
                                TRAFFIC_ANNOTATION_FOR_TESTS);
   net::HttpRequestHeaders headers;
   headers.SetHeader(kRefererHeader, "https://brianbondy.com/");
-  std::shared_ptr<onevn::OneVNRequestInfo>
-      onevn_request_info(new onevn::OneVNRequestInfo());
-  onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
+  std::shared_ptr<onevn::OnevnRequestInfo>
+      onevn_request_info(new onevn::OnevnRequestInfo());
+  onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
   onevn::ResponseCallback callback;
   int ret = onevn::OnBeforeStartTransaction_SiteHacksWork(request.get(), &headers,
       callback, onevn_request_info);
   EXPECT_EQ(ret, net::OK);
 }
 
-TEST_F(OneVNSiteHacksNetworkDelegateHelperTest, TwitterNoCancelWithReferer) {
+TEST_F(OnevnSiteHacksNetworkDelegateHelperTest, TwitterNoCancelWithReferer) {
   GURL url("https://twitter.com/brianbondy");
   net::TestDelegate test_delegate;
   std::unique_ptr<net::URLRequest> request =
@@ -131,16 +131,16 @@ TEST_F(OneVNSiteHacksNetworkDelegateHelperTest, TwitterNoCancelWithReferer) {
                                TRAFFIC_ANNOTATION_FOR_TESTS);
   net::HttpRequestHeaders headers;
   headers.SetHeader(kRefererHeader, "https://twitter.com/");
-  std::shared_ptr<onevn::OneVNRequestInfo>
-      onevn_request_info(new onevn::OneVNRequestInfo());
-  onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
+  std::shared_ptr<onevn::OnevnRequestInfo>
+      onevn_request_info(new onevn::OnevnRequestInfo());
+  onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
   onevn::ResponseCallback callback;
   int ret = onevn::OnBeforeStartTransaction_SiteHacksWork(request.get(), &headers,
       callback, onevn_request_info);
   EXPECT_EQ(ret, net::OK);
 }
 
-TEST_F(OneVNSiteHacksNetworkDelegateHelperTest, UAWhitelistedTest) {
+TEST_F(OnevnSiteHacksNetworkDelegateHelperTest, UAWhitelistedTest) {
   std::vector<GURL> urls({
     GURL("https://adobe.com"),
     GURL("https://adobe.com/something"),
@@ -169,9 +169,9 @@ TEST_F(OneVNSiteHacksNetworkDelegateHelperTest, UAWhitelistedTest) {
     headers.SetHeader(kUserAgentHeader,
         "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 "
         "(KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36");
-    std::shared_ptr<onevn::OneVNRequestInfo>
-        onevn_request_info(new onevn::OneVNRequestInfo());
-    onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
+    std::shared_ptr<onevn::OnevnRequestInfo>
+        onevn_request_info(new onevn::OnevnRequestInfo());
+    onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
     onevn::ResponseCallback callback;
     int ret = onevn::OnBeforeStartTransaction_SiteHacksWork(request.get(), &headers,
         callback, onevn_request_info);
@@ -180,11 +180,11 @@ TEST_F(OneVNSiteHacksNetworkDelegateHelperTest, UAWhitelistedTest) {
     EXPECT_EQ(ret, net::OK);
     EXPECT_STREQ(user_agent.c_str(),
         "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) OneVN Chrome/33.0.1750.117 Safari/537.36");
+        "(KHTML, like Gecko) Onevn Chrome/33.0.1750.117 Safari/537.36");
   });
 }
 
-TEST_F(OneVNSiteHacksNetworkDelegateHelperTest, NOTUAWhitelistedTest) {
+TEST_F(OnevnSiteHacksNetworkDelegateHelperTest, NOTUAWhitelistedTest) {
   std::vector<GURL> urls({
     GURL("https://brianbondy.com"),
     GURL("https://onevncombo.com"),
@@ -200,9 +200,9 @@ TEST_F(OneVNSiteHacksNetworkDelegateHelperTest, NOTUAWhitelistedTest) {
     headers.SetHeader(kUserAgentHeader,
         "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 "
         "(KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36");
-    std::shared_ptr<onevn::OneVNRequestInfo>
-        onevn_request_info(new onevn::OneVNRequestInfo());
-    onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
+    std::shared_ptr<onevn::OnevnRequestInfo>
+        onevn_request_info(new onevn::OnevnRequestInfo());
+    onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
     onevn::ResponseCallback callback;
     int ret = onevn::OnBeforeStartTransaction_SiteHacksWork(request.get(), &headers,
         callback, onevn_request_info);
@@ -215,7 +215,7 @@ TEST_F(OneVNSiteHacksNetworkDelegateHelperTest, NOTUAWhitelistedTest) {
   });
 }
 
-TEST_F(OneVNSiteHacksNetworkDelegateHelperTest, ReferrerPreserved) {
+TEST_F(OnevnSiteHacksNetworkDelegateHelperTest, ReferrerPreserved) {
   std::vector<GURL> urls({
     GURL("https://brianbondy.com/7"),
     GURL("https://www.brianbondy.com/5"),
@@ -231,9 +231,9 @@ TEST_F(OneVNSiteHacksNetworkDelegateHelperTest, ReferrerPreserved) {
     std::string original_referrer = "https://hello.brianbondy.com/about";
     request->SetReferrer(original_referrer);
 
-    std::shared_ptr<onevn::OneVNRequestInfo>
-        onevn_request_info(new onevn::OneVNRequestInfo());
-    onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
+    std::shared_ptr<onevn::OnevnRequestInfo>
+        onevn_request_info(new onevn::OnevnRequestInfo());
+    onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
     onevn::ResponseCallback callback;
     int ret = onevn::OnBeforeURLRequest_SiteHacksWork(callback, onevn_request_info);
     EXPECT_EQ(ret, net::OK);
@@ -243,7 +243,7 @@ TEST_F(OneVNSiteHacksNetworkDelegateHelperTest, ReferrerPreserved) {
   });
 }
 
-TEST_F(OneVNSiteHacksNetworkDelegateHelperTest, ReferrerCleared) {
+TEST_F(OnevnSiteHacksNetworkDelegateHelperTest, ReferrerCleared) {
   std::vector<GURL> urls({
     GURL("https://digg.com/7"),
     GURL("https://slashdot.org/5"),
@@ -259,9 +259,9 @@ TEST_F(OneVNSiteHacksNetworkDelegateHelperTest, ReferrerCleared) {
     std::string original_referrer = "https://hello.brianbondy.com/about";
     request->SetReferrer(original_referrer);
 
-    std::shared_ptr<onevn::OneVNRequestInfo>
-        onevn_request_info(new onevn::OneVNRequestInfo());
-    onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
+    std::shared_ptr<onevn::OnevnRequestInfo>
+        onevn_request_info(new onevn::OnevnRequestInfo());
+    onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
     onevn::ResponseCallback callback;
     int ret = onevn::OnBeforeURLRequest_SiteHacksWork(callback, onevn_request_info);
     EXPECT_EQ(ret, net::OK);
@@ -271,7 +271,7 @@ TEST_F(OneVNSiteHacksNetworkDelegateHelperTest, ReferrerCleared) {
   });
 }
 
-TEST_F(OneVNSiteHacksNetworkDelegateHelperTest, ReferrerWouldBeClearedButExtensionSite) {
+TEST_F(OnevnSiteHacksNetworkDelegateHelperTest, ReferrerWouldBeClearedButExtensionSite) {
   std::vector<GURL> urls({
     GURL("https://digg.com/7"),
     GURL("https://slashdot.org/5"),
@@ -287,9 +287,9 @@ TEST_F(OneVNSiteHacksNetworkDelegateHelperTest, ReferrerWouldBeClearedButExtensi
     std::string original_referrer = "https://hello.brianbondy.com/about";
     request->SetReferrer(original_referrer);
 
-    std::shared_ptr<onevn::OneVNRequestInfo>
-        onevn_request_info(new onevn::OneVNRequestInfo());
-    onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
+    std::shared_ptr<onevn::OnevnRequestInfo>
+        onevn_request_info(new onevn::OnevnRequestInfo());
+    onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(), onevn_request_info);
     onevn::ResponseCallback callback;
     int ret = onevn::OnBeforeURLRequest_SiteHacksWork(callback, onevn_request_info);
     EXPECT_EQ(ret, net::OK);

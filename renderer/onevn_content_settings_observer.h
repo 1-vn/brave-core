@@ -15,13 +15,13 @@ class WebLocalFrame;
 }
 
 // Handles blocking content per content settings for each RenderFrame.
-class OneVNContentSettingsObserver
+class OnevnContentSettingsObserver
     : public ContentSettingsObserver {
  public:
-  OneVNContentSettingsObserver(content::RenderFrame* render_frame,
+  OnevnContentSettingsObserver(content::RenderFrame* render_frame,
       bool should_whitelist,
       service_manager::BinderRegistry* registry);
-  ~OneVNContentSettingsObserver() override;
+  ~OnevnContentSettingsObserver() override;
 
  protected:
   bool AllowScript(bool enabled_per_settings) override;
@@ -33,7 +33,7 @@ class OneVNContentSettingsObserver
 
   bool AllowAutoplay(bool default_value) override;
 
-  void OneVNSpecificDidBlockJavaScript(
+  void OnevnSpecificDidBlockJavaScript(
     const base::string16& details);
 
   void DidBlockFingerprinting(
@@ -47,7 +47,7 @@ class OneVNContentSettingsObserver
       const blink::WebFrame* frame,
       const GURL& secondary_url);
 
-  bool IsOneVNShieldsDown(
+  bool IsOnevnShieldsDown(
       const blink::WebFrame* frame,
       const GURL& secondary_url);
 
@@ -69,7 +69,7 @@ class OneVNContentSettingsObserver
   // temporary allowed script origins we preloaded for the next load
   base::flat_set<std::string> preloaded_temporarily_allowed_scripts_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNContentSettingsObserver);
+  DISALLOW_COPY_AND_ASSIGN(OnevnContentSettingsObserver);
 };
 
 #endif  // ONEVN_RENDERER_CONTENT_SETTINGS_OBSERVER_H_

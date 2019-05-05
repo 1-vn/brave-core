@@ -7,7 +7,7 @@ index e3159144a0b7892e5580bfa910f2db97a81179a9..8ee42d9f6f7ac50c78a03e59aa2ba34e
  content::BrowserContext* AutocompleteClassifierFactory::GetBrowserContextToUse(
      content::BrowserContext* context) const {
 +#if defined(ONEVN_CHROMIUM_BUILD)
-+  // See OneVNAutocompleteProviderClient about why separate services are used.
++  // See OnevnAutocompleteProviderClient about why separate services are used.
 +  return chrome::GetBrowserContextOwnInstanceInIncognito(context);
 +#else
    return chrome::GetBrowserContextRedirectedInIncognito(context);

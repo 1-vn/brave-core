@@ -48,7 +48,7 @@ void RegisterPathProvider() {
 
 void OverridePath() {
 #if BUILDFLAG(BUNDLE_WIDEVINE_CDM)
-  // OneVN downloads cdm lib to user dir when user accepts instead of shippig by
+  // Onevn downloads cdm lib to user dir when user accepts instead of shippig by
   // default. So, override |FILE_WIDEVINE_CDM| to new path in user dir.
   base::FilePath widevine_cdm_path;
   if (base::PathService::Get(chrome::DIR_USER_DATA, &widevine_cdm_path)) {

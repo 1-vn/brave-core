@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -7,16 +7,16 @@
 
 namespace switches {
 
-// Allows disabling the OneVN extension.
+// Allows disabling the Onevn extension.
 // This is commonly used for loading the extension manually to debug things
 // in debug mode with auto-reloading.
-const char kDisableOneVNExtension[] = "disable-onevn-extension";
+const char kDisableOnevnExtension[] = "disable-onevn-extension";
 
-// Allows disabling the OneVN Rewards extension.
-const char kDisableOneVNRewardsExtension[] = "disable-onevn-rewards-extension";
+// Allows disabling the Onevn Rewards extension.
+const char kDisableOnevnRewardsExtension[] = "disable-onevn-rewards-extension";
 
 // This switch disables update module(Sparkle).
-const char kDisableOneVNUpdate[] = "disable-onevn-update";
+const char kDisableOnevnUpdate[] = "disable-onevn-update";
 
 // This switch disables the ChromeGoogleURLTrackerClient
 const char kDisableChromeGoogleURLTrackingClient[] =
@@ -32,14 +32,14 @@ const char kDisableTorClientUpdaterExtension[] =
 // Allows disabling the WebTorrent extension.
 const char kDisableWebTorrentExtension[] = "disable-webtorrent-extension";
 
-// Allows disabling OneVN Sync.
-const char kDisableOneVNSync[] = "disable-onevn-sync";
+// Allows disabling Onevn Sync.
+const char kDisableOnevnSync[] = "disable-onevn-sync";
 
 // Specifies overriding the built-in theme setting.
 // Valid values are: "dark" | "light".
 const char kUiMode[] = "ui-mode";
 
-// Triggers auto-import of profile data from OneVN browser-laptop/Muon, if
+// Triggers auto-import of profile data from Onevn browser-laptop/Muon, if
 // available.
 const char kUpgradeFromMuon[] = "upgrade-from-muon";
 

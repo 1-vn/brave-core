@@ -44,31 +44,31 @@ class NewTabDOMHandler : public content::WebUIMessageHandler {
 
 }  // namespace
 
-OneVNNewTabUI::OneVNNewTabUI(content::WebUI* web_ui, const std::string& name)
-    : BasicUI(web_ui, name, kOneVNNewTabGenerated,
-        kOneVNNewTabGeneratedSize, IDR_ONEVN_NEW_TAB_HTML) {
+OnevnNewTabUI::OnevnNewTabUI(content::WebUI* web_ui, const std::string& name)
+    : BasicUI(web_ui, name, kOnevnNewTabGenerated,
+        kOnevnNewTabGeneratedSize, IDR_ONEVN_NEW_TAB_HTML) {
   Profile* profile = Profile::FromWebUI(web_ui);
   PrefService* prefs = profile->GetPrefs();
   pref_change_registrar_ = std::make_unique<PrefChangeRegistrar>();
   pref_change_registrar_->Init(prefs);
   pref_change_registrar_->Add(kAdsBlocked,
-    base::Bind(&OneVNNewTabUI::OnPreferenceChanged, base::Unretained(this)));
+    base::Bind(&OnevnNewTabUI::OnPreferenceChanged, base::Unretained(this)));
   pref_change_registrar_->Add(kTrackersBlocked,
-    base::Bind(&OneVNNewTabUI::OnPreferenceChanged, base::Unretained(this)));
+    base::Bind(&OnevnNewTabUI::OnPreferenceChanged, base::Unretained(this)));
   pref_change_registrar_->Add(kHttpsUpgrades,
-    base::Bind(&OneVNNewTabUI::OnPreferenceChanged, base::Unretained(this)));
+    base::Bind(&OnevnNewTabUI::OnPreferenceChanged, base::Unretained(this)));
   pref_change_registrar_->Add(kUseAlternativeSearchEngineProvider,
-    base::Bind(&OneVNNewTabUI::OnPreferenceChanged, base::Unretained(this)));
+    base::Bind(&OnevnNewTabUI::OnPreferenceChanged, base::Unretained(this)));
   pref_change_registrar_->Add(kAlternativeSearchEngineProviderInTor,
-    base::Bind(&OneVNNewTabUI::OnPreferenceChanged, base::Unretained(this)));
+    base::Bind(&OnevnNewTabUI::OnPreferenceChanged, base::Unretained(this)));
 
   web_ui->AddMessageHandler(std::make_unique<NewTabDOMHandler>());
 }
 
-OneVNNewTabUI::~OneVNNewTabUI() {
+OnevnNewTabUI::~OnevnNewTabUI() {
 }
 
-void OneVNNewTabUI::CustomizeNewTabWebUIProperties(content::RenderViewHost* render_view_host) {
+void OnevnNewTabUI::CustomizeNewTabWebUIProperties(content::RenderViewHost* render_view_host) {
   DCHECK(IsSafeToSetWebUIProperties());
   Profile* profile = Profile::FromWebUI(web_ui());
   PrefService* prefs = profile->GetPrefs();
@@ -99,13 +99,13 @@ void OneVNNewTabUI::CustomizeNewTabWebUIProperties(content::RenderViewHost* rend
   }
 }
 
-void OneVNNewTabUI::UpdateWebUIProperties() {
+void OnevnNewTabUI::UpdateWebUIProperties() {
   if (IsSafeToSetWebUIProperties()) {
     CustomizeNewTabWebUIProperties(GetRenderViewHost());
     web_ui()->CallJavascriptFunctionUnsafe("onevn_new_tab.statsUpdated");
   }
 }
 
-void OneVNNewTabUI::OnPreferenceChanged() {
+void OnevnNewTabUI::OnPreferenceChanged() {
   UpdateWebUIProperties();
 }

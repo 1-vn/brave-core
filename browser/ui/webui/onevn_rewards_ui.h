@@ -7,13 +7,13 @@
 
 #include "onevn/browser/ui/webui/basic_ui.h"
 
-class OneVNRewardsUI : public BasicUI {
+class OnevnRewardsUI : public BasicUI {
  public:
-  OneVNRewardsUI(content::WebUI* web_ui, const std::string& host);
-  ~OneVNRewardsUI() override;
+  OnevnRewardsUI(content::WebUI* web_ui, const std::string& host);
+  ~OnevnRewardsUI() override;
 
  private:
-  DISALLOW_COPY_AND_ASSIGN(OneVNRewardsUI);
+  DISALLOW_COPY_AND_ASSIGN(OnevnRewardsUI);
 };
 
 #endif  // ONEVN_BROWSER_UI_WEBUI_ONEVN_REWARDS_UI_H_

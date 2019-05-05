@@ -28,7 +28,7 @@
     "description": "Link in the footer (takes you to rewards settings page) for welcome screen in the panel, new user"
   },
   "welcomeHeaderOne": {
-    "message": "ለ OneVN Rewards ትልቅ ዝመና ሰጥተናል።",
+    "message": "ለ Onevn Rewards ትልቅ ዝመና ሰጥተናል።",
     "description": "Main header title for welcome screen in the panel, existing user"
   },
   "welcomeHeaderTwo": {
@@ -194,11 +194,11 @@
     "description": "Notification title when we ask user to backup wallet"
   },
   "backupWalletNotification": {
-    "message": "እባክዎትን ለOneVN walletዎ ምትኬ ያድርጉ።",
+    "message": "እባክዎትን ለOnevn walletዎ ምትኬ ያድርጉ።",
     "description": "Description for backup wallet notification"
   },
   "insufficientFundsNotification": {
-    "message": "የእርስዎ OneVN Rewards መለያ ተቀማጭ ገንዘብ በመጠባበቅ ላይ ነው።",
+    "message": "የእርስዎ Onevn Rewards መለያ ተቀማጭ ገንዘብ በመጠባበቅ ላይ ነው።",
     "description": "Description for new insufficient funds notification"
   },
   "insufficientFunds": {
@@ -294,7 +294,7 @@
     "description": "Status of the publisher shown in the panel"
   },
   "unVerifiedText": {
-    "message": "ይህ ፈጣር ከ OneVN ተጠቃሚዎች መዋጮዎችን ለመቀበል ገና አልተመዘገበም። እስከሚያረጋግጥ ድረስ ምንም አይነት መወጮ በእርሶ ዋሌት ውስጥ ይቆያል።",
+    "message": "ይህ ፈጣር ከ Onevn ተጠቃሚዎች መዋጮዎችን ለመቀበል ገና አልተመዘገበም። እስከሚያረጋግጥ ድረስ ምንም አይነት መወጮ በእርሶ ዋሌት ውስጥ ይቆያል።",
     "description": "Notice about unverified publisher."
   },
   "unVerifiedTextMore": {
@@ -322,7 +322,7 @@
     "description": "Text for Panel's disabled state"
   },
   "disabledPanelTitle": {
-    "message": "የ OneVN ሽልማት ማለት",
+    "message": "የ Onevn ሽልማት ማለት",
     "description": "Title for Panel's disabled state"
   },
   "walletFailedTitle": {
@@ -366,7 +366,7 @@
     "description": "Privacy Policy"
   },
   "serviceText": {
-    "message": " 'Enable OneVN Rewards'ን ጠቅ በማድረግ፤ ማንበብዎን እና መስማማትዎን ያመለክታሉ በ ላይ",
+    "message": " 'Enable Onevn Rewards'ን ጠቅ በማድረግ፤ ማንበብዎን እና መስማማትዎን ያመለክታሉ በ ላይ",
     "description": "Terms of service main text"
   },
   "termsOfService": {

@@ -27,9 +27,9 @@ index 57d16aba9e9fef4a7862d052e55f50d7d19e4627..a77193cf9d224745897bf3235ec1071e
 +  // Clipping issue is not present on linux
 +#if defined(OS_MACOSX) || defined(OS_WIN)
 +  const auto extensionId = host_->extension()->id();
-+  const bool isOneVNExtension = (extensionId == onevn_extension_id ||
++  const bool isOnevnExtension = (extensionId == onevn_extension_id ||
 +      extensionId == onevn_rewards_extension_id);
-+  shouldDisableRadiusForPopup = isOneVNExtension;
++  shouldDisableRadiusForPopup = isOnevnExtension;
 +#endif
 +  const int radius = shouldDisableRadiusForPopup ? 0
 +      : GetBubbleFrameView()->bubble_border()->GetBorderCornerRadius();

@@ -10,16 +10,16 @@
 #include "content/public/browser/render_view_host.h"
 #include "content/public/common/web_preferences.h"
 
-using OneVNMainDelegateBrowserTest = InProcessBrowserTest;
+using OnevnMainDelegateBrowserTest = InProcessBrowserTest;
 
-IN_PROC_BROWSER_TEST_F(OneVNMainDelegateBrowserTest, DomainReliabilityServiceDisabled) {
+IN_PROC_BROWSER_TEST_F(OnevnMainDelegateBrowserTest, DomainReliabilityServiceDisabled) {
   EXPECT_TRUE(base::CommandLine::ForCurrentProcess()->HasSwitch(
       switches::kDisableDomainReliability));
   EXPECT_FALSE(domain_reliability::DomainReliabilityServiceFactory::
                ShouldCreateService());
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNMainDelegateBrowserTest, DisableHyperlinkAuditing) {
+IN_PROC_BROWSER_TEST_F(OnevnMainDelegateBrowserTest, DisableHyperlinkAuditing) {
   EXPECT_TRUE(base::CommandLine::ForCurrentProcess()->HasSwitch(
       switches::kNoPings));
   content::WebContents* contents =

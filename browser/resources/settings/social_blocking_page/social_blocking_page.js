@@ -14,7 +14,7 @@ Polymer({
 
   properties: {},
 
-  /** @private {?settings.DefaultOneVNShieldsBrowserProxy} */
+  /** @private {?settings.DefaultOnevnShieldsBrowserProxy} */
   browserProxy_: null,
 
   /** @override */

@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -30,7 +30,7 @@ std::unique_ptr<ComponentUpdateService> ComponentUpdateServiceFactory(
   auto update_client = base::MakeRefCounted<UpdateClientImpl>(
       config, base::MakeRefCounted<PingManager>(config), &UpdateChecker::Create,
       &CrxDownloader::Create);
-  return std::make_unique<OneVNCrxUpdateService>(config, std::move(scheduler),
+  return std::make_unique<OnevnCrxUpdateService>(config, std::move(scheduler),
                                                  std::move(update_client));
 }
 

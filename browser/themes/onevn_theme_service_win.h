@@ -7,16 +7,16 @@
 
 #include "chrome/browser/themes/theme_service_win.h"
 
-class OneVNThemeServiceWin : public ThemeServiceWin {
+class OnevnThemeServiceWin : public ThemeServiceWin {
  public:
-  OneVNThemeServiceWin() = default;
-  ~OneVNThemeServiceWin() override = default;
+  OnevnThemeServiceWin() = default;
+  ~OnevnThemeServiceWin() override = default;
 
  private:
   // ThemeServiceWin overrides:
   SkColor GetDefaultColor(int id, bool incognito) const override;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNThemeServiceWin);
+  DISALLOW_COPY_AND_ASSIGN(OnevnThemeServiceWin);
 };
 
 #endif  // ONEVN_BROWSER_THEMES_ONEVN_THEME_SERVICE_WIN_H_

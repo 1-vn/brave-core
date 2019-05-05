@@ -10,9 +10,9 @@
 #include "components/content_settings/core/browser/host_content_settings_map.h"
 #include "components/content_settings/core/common/content_settings_pattern.h"
 
-const GURL kOneVNURL("https://www.1-vn.com");
+const GURL kOnevnURL("https://www.1-vn.com");
 
-class OneVNContentSettingsRegistryBrowserTest : public InProcessBrowserTest {
+class OnevnContentSettingsRegistryBrowserTest : public InProcessBrowserTest {
  public:
   using InProcessBrowserTest::InProcessBrowserTest;
 
@@ -26,67 +26,67 @@ class OneVNContentSettingsRegistryBrowserTest : public InProcessBrowserTest {
   }
 
  private:
-  DISALLOW_COPY_AND_ASSIGN(OneVNContentSettingsRegistryBrowserTest);
+  DISALLOW_COPY_AND_ASSIGN(OnevnContentSettingsRegistryBrowserTest);
 };
 
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsRegistryBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsRegistryBrowserTest,
                        WithWildcardContentSetting) {
   content_settings()->SetContentSettingCustomScope(
       ContentSettingsPattern::Wildcard(),
       ContentSettingsPattern::Wildcard(),
       CONTENT_SETTINGS_TYPE_PLUGINS,
-      onevn_shields::kOneVNShields,
+      onevn_shields::kOnevnShields,
       CONTENT_SETTING_ALLOW);
 
   ContentSetting onevn_url_shields_setting =
       content_settings()->GetContentSetting(
-          kOneVNURL, kOneVNURL, CONTENT_SETTINGS_TYPE_PLUGINS,
-          onevn_shields::kOneVNShields);
+          kOnevnURL, kOnevnURL, CONTENT_SETTINGS_TYPE_PLUGINS,
+          onevn_shields::kOnevnShields);
   EXPECT_EQ(CONTENT_SETTING_ALLOW, onevn_url_shields_setting);
 
   ContentSetting onevn_url_shields_setting_private =
       private_content_settings()->GetContentSetting(
-          kOneVNURL, kOneVNURL, CONTENT_SETTINGS_TYPE_PLUGINS,
-          onevn_shields::kOneVNShields);
+          kOnevnURL, kOnevnURL, CONTENT_SETTINGS_TYPE_PLUGINS,
+          onevn_shields::kOnevnShields);
   EXPECT_EQ(CONTENT_SETTING_ALLOW, onevn_url_shields_setting_private);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsRegistryBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsRegistryBrowserTest,
                        WithoutWildcardContentSetting) {
   ContentSetting onevn_url_shields_setting =
       content_settings()->GetContentSetting(
-          kOneVNURL, kOneVNURL, CONTENT_SETTINGS_TYPE_PLUGINS,
-          onevn_shields::kOneVNShields);
+          kOnevnURL, kOnevnURL, CONTENT_SETTINGS_TYPE_PLUGINS,
+          onevn_shields::kOnevnShields);
   EXPECT_EQ(CONTENT_SETTING_DEFAULT, onevn_url_shields_setting);
 
   ContentSetting onevn_url_shields_setting_private =
       private_content_settings()->GetContentSetting(
-          kOneVNURL, kOneVNURL, CONTENT_SETTINGS_TYPE_PLUGINS,
-          onevn_shields::kOneVNShields);
+          kOnevnURL, kOnevnURL, CONTENT_SETTINGS_TYPE_PLUGINS,
+          onevn_shields::kOnevnShields);
   EXPECT_EQ(CONTENT_SETTING_DEFAULT, onevn_url_shields_setting_private);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsRegistryBrowserTest,
-                       WithOneVNShieldsContentSetting) {
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsRegistryBrowserTest,
+                       WithOnevnShieldsContentSetting) {
   ContentSettingsPattern onevn_url_pattern =
-      ContentSettingsPattern::FromURL(kOneVNURL);
+      ContentSettingsPattern::FromURL(kOnevnURL);
 
   content_settings()->SetContentSettingCustomScope(
       onevn_url_pattern,
       onevn_url_pattern,
       CONTENT_SETTINGS_TYPE_PLUGINS,
-      onevn_shields::kOneVNShields,
+      onevn_shields::kOnevnShields,
       CONTENT_SETTING_ALLOW);
 
   ContentSetting onevn_url_shields_setting =
       content_settings()->GetContentSetting(
-          kOneVNURL, kOneVNURL, CONTENT_SETTINGS_TYPE_PLUGINS,
-          onevn_shields::kOneVNShields);
+          kOnevnURL, kOnevnURL, CONTENT_SETTINGS_TYPE_PLUGINS,
+          onevn_shields::kOnevnShields);
   EXPECT_EQ(CONTENT_SETTING_ALLOW, onevn_url_shields_setting);
 
   ContentSetting onevn_url_shields_setting_private =
       private_content_settings()->GetContentSetting(
-          kOneVNURL, kOneVNURL, CONTENT_SETTINGS_TYPE_PLUGINS,
-          onevn_shields::kOneVNShields);
+          kOnevnURL, kOnevnURL, CONTENT_SETTINGS_TYPE_PLUGINS,
+          onevn_shields::kOnevnShields);
   EXPECT_EQ(CONTENT_SETTING_ALLOW, onevn_url_shields_setting_private);
 }

@@ -16,11 +16,11 @@ class GURL;
 class Profile;
 class SkBitmap;
 
-class OneVNRewardsSource : public content::URLDataSource {
+class OnevnRewardsSource : public content::URLDataSource {
  public:
-  explicit OneVNRewardsSource(Profile* profile);
+  explicit OnevnRewardsSource(Profile* profile);
 
-  ~OneVNRewardsSource() override;
+  ~OnevnRewardsSource() override;
 
   // content::URLDataSource implementation.
   std::string GetSource() const override;
@@ -47,7 +47,7 @@ class OneVNRewardsSource : public content::URLDataSource {
   std::vector<std::string> resource_fetchers_;
   std::vector<BitmapFetcherService::RequestId> request_ids_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNRewardsSource);
+  DISALLOW_COPY_AND_ASSIGN(OnevnRewardsSource);
 };
 
 #endif  // ONEVN_BROWSER_UI_WEBUI_ONEVN_REWARDS_SOURCE_H_

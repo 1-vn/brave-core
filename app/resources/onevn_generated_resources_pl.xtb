@@ -1,26 +1,26 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="pl">
-<translation id="3333887201479867589">Nagrody OneVN</translation>
-<translation id="7942180974165298215">Blokada reklam OneVN</translation>
+<translation id="3333887201479867589">Nagrody Onevn</translation>
+<translation id="7942180974165298215">Blokada reklam Onevn</translation>
 <translation id="6406506848690869874">Synchronizacja</translation>
-<translation id="120759863357279975"><ph name="EXTENSION_NAME">$1</ph> (extension ID "<ph name="EXTENSION_ID">$2</ph>") - to rozszerzenie nie jest dozwolone w OneVN.</translation>
+<translation id="120759863357279975"><ph name="EXTENSION_NAME">$1</ph> (extension ID "<ph name="EXTENSION_ID">$2</ph>") - to rozszerzenie nie jest dozwolone w Onevn.</translation>
 <translation id="7450557937477381864">Zamknij Chrome</translation>
 <translation id="7008934821596358692">Aby zakończyć importowanie, zamknij wszystkie okna przeglądarki Chrome.</translation>
-<translation id="5735465527556462863">Zamknij OneVN (starą wersję)</translation>
-<translation id="7737066986958447692">Aby zakończyć importowanie, zamknij wszystkie okna OneVN (starej wersji).</translation>
+<translation id="5735465527556462863">Zamknij Onevn (starą wersję)</translation>
+<translation id="7737066986958447692">Aby zakończyć importowanie, zamknij wszystkie okna Onevn (starej wersji).</translation>
 <translation id="6447842834002726250">Pliki cookies</translation>
 <translation id="4983925687993168579">Statystyki</translation>
-<translation id="6165477144235978006">Płatności OneVN</translation>
+<translation id="6165477144235978006">Płatności Onevn</translation>
 <translation id="3489524616427966890">Otwieraj okna  i karty</translation>
 <translation id="3699882589215410581">Zainstaluj i uruchom Widevine</translation>
 <translation id="8053096063396012732">Zainstaluj Widevine</translation>
 <translation id="4840334696217618631">Uruchom ponownie przeglądarkę, aby włączyć Widevine</translation>
-<translation id="8410111618231938546">Google Widevine to fragment kodu zarządzania prawami cyfrowymi (DRM), który nie należy do OneVN Software i którego nie jesteśmy w stanie kontrolować. Kod Google Widevine wczytywany jest z serwerów Google, a nie z naszych. Jest wczytywany tylko wtedy, gdy włączysz taką opcję. Odradzamy używanie DRM, ale szanujemy wybór użytkownika i przyjmujemy do wiadomości, że niektórzy użytkownicy OneVN chcą korzystać z usług, które tego wymagają.
+<translation id="8410111618231938546">Google Widevine to fragment kodu zarządzania prawami cyfrowymi (DRM), który nie należy do Onevn Software i którego nie jesteśmy w stanie kontrolować. Kod Google Widevine wczytywany jest z serwerów Google, a nie z naszych. Jest wczytywany tylko wtedy, gdy włączysz taką opcję. Odradzamy używanie DRM, ale szanujemy wybór użytkownika i przyjmujemy do wiadomości, że niektórzy użytkownicy Onevn chcą korzystać z usług, które tego wymagają.
 
-Instalując to rozszerzenie, wyrażasz zgodę na warunki świadczenia usług Google Widevine. Akceptujesz to, że OneVN nie ponosi odpowiedzialności za jakiekolwiek szkody lub straty związane z używaniem Google Widevine.</translation>
-<translation id="6499845530162974140">OneVN (stara wersja)</translation>
-<translation id="3198814717959506569">Zaimportowano z OneVN</translation>
+Instalując to rozszerzenie, wyrażasz zgodę na warunki świadczenia usług Google Widevine. Akceptujesz to, że Onevn nie ponosi odpowiedzialności za jakiekolwiek szkody lub straty związane z używaniem Google Widevine.</translation>
+<translation id="6499845530162974140">Onevn (stara wersja)</translation>
+<translation id="3198814717959506569">Zaimportowano z Onevn</translation>
 <translation id="453977518730680921">Automatycznie odtwarzaj media</translation>
 <translation id="410351446219883937">Automatyczne odtwarzanie</translation>
 <translation id="2240268017737062801">Zapytaj, kiedy strona chce odtwarzać automatycznie multimedia</translation>
@@ -28,11 +28,11 @@ Instalując to rozszerzenie, wyrażasz zgodę na warunki świadczenia usług Goo
 <translation id="3218385319396786393">Zablokowano automatyczne odtwarzanie na tej stronie</translation>
 <translation id="4988333904713528597">Zawsze zezwalaj na autoodtwarzanie na <ph name="HOST">$1</ph></translation>
 <translation id="4150684676757176434">Kontynuuj blokowanie automatycznego odtwarzania</translation>
-<translation id="7543906827780734027">OneVN nie zbadało jeszcze tego rozszerzenia - może być niebezpieczne. Dodać "<ph name="EXTENSION_NAME">$1</ph>" pomimo tego?</translation>
-<translation id="2044383478723007273">Kolory OneVN</translation>
+<translation id="7543906827780734027">Onevn nie zbadało jeszcze tego rozszerzenia - może być niebezpieczne. Dodać "<ph name="EXTENSION_NAME">$1</ph>" pomimo tego?</translation>
+<translation id="2044383478723007273">Kolory Onevn</translation>
 <translation id="5341901626640816374">Korzystaj z szerokiego paska lokalizacji</translation>
-<translation id="6123134130710658846">Ukryj przycisk nagród OneVN</translation>
-<translation id="7635711399568194460">Kiedy nagrody OneVN są wyłączone, ukrywa przycisk nagród na pasku lokalizacji.</translation>
+<translation id="6123134130710658846">Ukryj przycisk nagród Onevn</translation>
+<translation id="7635711399568194460">Kiedy nagrody Onevn są wyłączone, ukrywa przycisk nagród na pasku lokalizacji.</translation>
 <translation id="7965178729203412357">Nowa tożsamość Tor</translation>
 <translation id="8784924142044142231">Wyjdź z sieci Tor</translation>
 <translation id="5410152065859052603">Tor</translation>
@@ -46,7 +46,7 @@ Instalując to rozszerzenie, wyrażasz zgodę na warunki świadczenia usług Goo
 <translation id="3155170474926428993">Program uruchamiający oprogramowanie Tor</translation>
 <translation id="2515126961943087659">Usługa Bat Ads</translation>
 <translation id="7924918279836988121">Usługa rejestrowania BAT</translation>
-<translation id="768979911142179781">Domyślne ustawienia tarcz OneVN</translation>
+<translation id="768979911142179781">Domyślne ustawienia tarcz Onevn</translation>
 <translation id="9185018653595759199">Przyciski i logowania za pomocą portali społecznościowych</translation>
 <translation id="6894114137169961038">Kontrola reklam</translation>
 <translation id="1096802265930928584">Kontrola plików cookies</translation>

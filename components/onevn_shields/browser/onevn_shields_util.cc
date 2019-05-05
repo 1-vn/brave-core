@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -46,7 +46,7 @@ bool GetDefaultFromResourceIdentifier(const std::string& resource_identifier,
     return false;
   } else if (resource_identifier == onevn_shields::kHTTPUpgradableResources) {
     return false;
-  } else if (resource_identifier == onevn_shields::kOneVNShields) {
+  } else if (resource_identifier == onevn_shields::kOnevnShields) {
     return true;
   } else if (resource_identifier == onevn_shields::kReferrers) {
     return false;
@@ -157,7 +157,7 @@ void DispatchBlockedEventFromIO(const GURL& request_url,
   DCHECK_CURRENTLY_ON(BrowserThread::IO);
   base::PostTaskWithTraits(
       FROM_HERE, {BrowserThread::UI},
-      base::BindOnce(&OneVNShieldsWebContentsObserver::DispatchBlockedEvent,
+      base::BindOnce(&OnevnShieldsWebContentsObserver::DispatchBlockedEvent,
                      block_type, request_url.spec(), render_process_id,
                      render_frame_id, frame_tree_node_id));
 }

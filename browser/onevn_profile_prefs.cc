@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -29,22 +29,22 @@ namespace onevn {
 
 void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
   onevn_rewards::RewardsService::RegisterProfilePrefs(registry);
-  onevn_shields::OneVNShieldsWebContentsObserver::RegisterProfilePrefs(
+  onevn_shields::OnevnShieldsWebContentsObserver::RegisterProfilePrefs(
       registry);
 
   // appearance
-  OneVNThemeService::RegisterProfilePrefs(registry);
+  OnevnThemeService::RegisterProfilePrefs(registry);
   registry->RegisterBooleanPref(kLocationBarIsWide, false);
-  registry->RegisterBooleanPref(kHideOneVNRewardsButton, false);
+  registry->RegisterBooleanPref(kHideOnevnRewardsButton, false);
 
   tor::TorProfileService::RegisterProfilePrefs(registry);
 
   registry->RegisterBooleanPref(kWidevineOptedIn, false);
 #if BUILDFLAG(BUNDLE_WIDEVINE_CDM)
-  OneVNWidevineBundleManager::RegisterProfilePrefs(registry);
+  OnevnWidevineBundleManager::RegisterProfilePrefs(registry);
 #endif
 
-  // Default OneVN shields
+  // Default Onevn shields
   registry->RegisterBooleanPref(kHTTPSEVerywhereControlType, true);
   registry->RegisterBooleanPref(kNoScriptControlType, false);
   registry->RegisterBooleanPref(kGoogleLoginControlType, true);
@@ -58,7 +58,7 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
   // Hangouts
   registry->RegisterBooleanPref(kHangoutsEnabled, true);
 
-  // No sign into OneVN functionality
+  // No sign into Onevn functionality
   registry->SetDefaultPrefValue(prefs::kSigninAllowed, base::Value(false));
 
   // Restore last profile on restart
@@ -93,7 +93,7 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
   // Make sync managed to dsiable some UI after password saving.
   registry->SetDefaultPrefValue(syncer::prefs::kSyncManaged, base::Value(true));
 
-  // Make sure sign into OneVN is not enabled
+  // Make sure sign into Onevn is not enabled
   // The older kSigninAllowed is deprecated and only in use in Android until
   // C71.
   registry->SetDefaultPrefValue(prefs::kSigninAllowedOnNextStartup,
@@ -112,8 +112,8 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
   registry->RegisterBooleanPref(prefs::kImportDialogStats, true);
   registry->RegisterBooleanPref(prefs::kImportDialogLedger, true);
   registry->RegisterBooleanPref(prefs::kImportDialogWindows, true);
-  // Importer: ledger (used for OneVN Rewards pinned => tips)
-  registry->RegisterIntegerPref(kOneVNPaymentsPinnedItemCount, 0);
+  // Importer: ledger (used for Onevn Rewards pinned => tips)
+  registry->RegisterIntegerPref(kOnevnPaymentsPinnedItemCount, 0);
 
   // IPFS companion extension
   registry->RegisterBooleanPref(kIPFSCompanionEnabled, false);

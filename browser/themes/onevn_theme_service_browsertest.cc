@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -18,17 +18,17 @@
 #include "ui/native_theme/native_theme_dark_aura.h"
 #include "ui/native_theme/native_theme_observer.h"
 
-using OneVNThemeServiceTest = InProcessBrowserTest;
-using BTS = OneVNThemeService;
+using OnevnThemeServiceTest = InProcessBrowserTest;
+using BTS = OnevnThemeService;
 
 namespace {
 
-void SetOneVNThemeType(Profile* profile, OneVNThemeType type) {
-  profile->GetPrefs()->SetInteger(kOneVNThemeType, type);
+void SetOnevnThemeType(Profile* profile, OnevnThemeType type) {
+  profile->GetPrefs()->SetInteger(kOnevnThemeType, type);
 }
 
 bool IsDefaultThemeOverridden(Profile* profile) {
-  return profile->GetPrefs()->GetBoolean(kUseOverriddenOneVNThemeType);
+  return profile->GetPrefs()->GetBoolean(kUseOverriddenOnevnThemeType);
 }
 
 class TestNativeThemeObserver : public ui::NativeThemeObserver {
@@ -41,16 +41,16 @@ class TestNativeThemeObserver : public ui::NativeThemeObserver {
 
 }  // namespace
 
-class OneVNThemeServiceTestWithoutSystemTheme : public InProcessBrowserTest {
+class OnevnThemeServiceTestWithoutSystemTheme : public InProcessBrowserTest {
  public:
-  OneVNThemeServiceTestWithoutSystemTheme() {
-    OneVNThemeService::is_test_ = true;
-    OneVNThemeService::use_system_theme_mode_in_test_ = false;
+  OnevnThemeServiceTestWithoutSystemTheme() {
+    OnevnThemeService::is_test_ = true;
+    OnevnThemeService::use_system_theme_mode_in_test_ = false;
   }
 };
 
-IN_PROC_BROWSER_TEST_F(OneVNThemeServiceTestWithoutSystemTheme,
-                       OneVNThemeChangeTest) {
+IN_PROC_BROWSER_TEST_F(OnevnThemeServiceTestWithoutSystemTheme,
+                       OnevnThemeChangeTest) {
   Profile* profile = browser()->profile();
   Profile* profile_private = profile->GetOffTheRecordProfile();
 
@@ -59,47 +59,47 @@ IN_PROC_BROWSER_TEST_F(OneVNThemeServiceTestWithoutSystemTheme,
   const ui::ThemeProvider& tp_private =
       ThemeService::GetThemeProviderForProfile(profile_private);
 
-  auto test_theme_property = OneVNThemeProperties::COLOR_FOR_TEST;
+  auto test_theme_property = OnevnThemeProperties::COLOR_FOR_TEST;
 
   // Check default type is set initially.
   EXPECT_TRUE(IsDefaultThemeOverridden(profile));
   EXPECT_TRUE(IsDefaultThemeOverridden(profile_private));
 
   // Test light theme
-  SetOneVNThemeType(profile, OneVNThemeType::ONEVN_THEME_TYPE_LIGHT);
-  EXPECT_EQ(OneVNThemeType::ONEVN_THEME_TYPE_LIGHT,
-            BTS::GetActiveOneVNThemeType(profile));
-  EXPECT_EQ(OneVNThemeProperties::kLightColorForTest,
+  SetOnevnThemeType(profile, OnevnThemeType::ONEVN_THEME_TYPE_LIGHT);
+  EXPECT_EQ(OnevnThemeType::ONEVN_THEME_TYPE_LIGHT,
+            BTS::GetActiveOnevnThemeType(profile));
+  EXPECT_EQ(OnevnThemeProperties::kLightColorForTest,
             tp.GetColor(test_theme_property));
 
   // Test light theme private
-  SetOneVNThemeType(profile_private, OneVNThemeType::ONEVN_THEME_TYPE_LIGHT);
-  EXPECT_EQ(OneVNThemeType::ONEVN_THEME_TYPE_LIGHT,
-            BTS::GetActiveOneVNThemeType(profile_private));
-  EXPECT_EQ(OneVNThemeProperties::kPrivateColorForTest,
+  SetOnevnThemeType(profile_private, OnevnThemeType::ONEVN_THEME_TYPE_LIGHT);
+  EXPECT_EQ(OnevnThemeType::ONEVN_THEME_TYPE_LIGHT,
+            BTS::GetActiveOnevnThemeType(profile_private));
+  EXPECT_EQ(OnevnThemeProperties::kPrivateColorForTest,
             tp_private.GetColor(test_theme_property));
 
   // Test dark theme
-  SetOneVNThemeType(profile, OneVNThemeType::ONEVN_THEME_TYPE_DARK);
-  EXPECT_EQ(OneVNThemeType::ONEVN_THEME_TYPE_DARK,
-            BTS::GetActiveOneVNThemeType(profile));
-  EXPECT_EQ(OneVNThemeProperties::kDarkColorForTest,
+  SetOnevnThemeType(profile, OnevnThemeType::ONEVN_THEME_TYPE_DARK);
+  EXPECT_EQ(OnevnThemeType::ONEVN_THEME_TYPE_DARK,
+            BTS::GetActiveOnevnThemeType(profile));
+  EXPECT_EQ(OnevnThemeProperties::kDarkColorForTest,
             tp.GetColor(test_theme_property));
 
   // Test dark theme private
-  SetOneVNThemeType(profile_private, OneVNThemeType::ONEVN_THEME_TYPE_DARK);
-  EXPECT_EQ(OneVNThemeType::ONEVN_THEME_TYPE_DARK,
-            BTS::GetActiveOneVNThemeType(profile_private));
-  EXPECT_EQ(OneVNThemeProperties::kPrivateColorForTest,
+  SetOnevnThemeType(profile_private, OnevnThemeType::ONEVN_THEME_TYPE_DARK);
+  EXPECT_EQ(OnevnThemeType::ONEVN_THEME_TYPE_DARK,
+            BTS::GetActiveOnevnThemeType(profile_private));
+  EXPECT_EQ(OnevnThemeProperties::kPrivateColorForTest,
             tp_private.GetColor(test_theme_property));
 }
 
 // Test whether appropriate native theme observer is called when onevn theme is
 // changed.
-IN_PROC_BROWSER_TEST_F(OneVNThemeServiceTest, NativeThemeObserverTest) {
+IN_PROC_BROWSER_TEST_F(OnevnThemeServiceTest, NativeThemeObserverTest) {
   Profile* profile = browser()->profile();
   // Initially set to light.
-  SetOneVNThemeType(profile, OneVNThemeType::ONEVN_THEME_TYPE_LIGHT);
+  SetOnevnThemeType(profile, OnevnThemeType::ONEVN_THEME_TYPE_LIGHT);
 
   // Check native theme and dark theme oberver is called once by changing theme
   // to dark and light.
@@ -117,15 +117,15 @@ IN_PROC_BROWSER_TEST_F(OneVNThemeServiceTest, NativeThemeObserverTest) {
   ui::NativeTheme::GetInstanceForNativeUi()->AddObserver(
       &native_theme_observer);
 
-  SetOneVNThemeType(profile, OneVNThemeType::ONEVN_THEME_TYPE_DARK);
-  SetOneVNThemeType(profile, OneVNThemeType::ONEVN_THEME_TYPE_LIGHT);
+  SetOnevnThemeType(profile, OnevnThemeType::ONEVN_THEME_TYPE_DARK);
+  SetOnevnThemeType(profile, OnevnThemeType::ONEVN_THEME_TYPE_LIGHT);
 }
 
 #if defined(OS_MACOSX)
-IN_PROC_BROWSER_TEST_F(OneVNThemeServiceTest, SystemThemeChangeTest) {
+IN_PROC_BROWSER_TEST_F(OnevnThemeServiceTest, SystemThemeChangeTest) {
   // TODO(simonhong): Delete this when we gets dark mode enabled branch on
   // MacOS.
-  if (!OneVNThemeService::SystemThemeModeEnabled())
+  if (!OnevnThemeService::SystemThemeModeEnabled())
     return;
 
   const bool initial_mode =
@@ -133,19 +133,19 @@ IN_PROC_BROWSER_TEST_F(OneVNThemeServiceTest, SystemThemeChangeTest) {
   Profile* profile = browser()->profile();
 
   // Change to light.
-  SetOneVNThemeType(profile, OneVNThemeType::ONEVN_THEME_TYPE_LIGHT);
+  SetOnevnThemeType(profile, OnevnThemeType::ONEVN_THEME_TYPE_LIGHT);
   EXPECT_FALSE(
       ui::NativeTheme::GetInstanceForNativeUi()->SystemDarkModeEnabled());
 
-  SetOneVNThemeType(profile, OneVNThemeType::ONEVN_THEME_TYPE_DARK);
+  SetOnevnThemeType(profile, OnevnThemeType::ONEVN_THEME_TYPE_DARK);
   EXPECT_TRUE(
       ui::NativeTheme::GetInstanceForNativeUi()->SystemDarkModeEnabled());
 
-  SetOneVNThemeType(profile, OneVNThemeType::ONEVN_THEME_TYPE_LIGHT);
+  SetOnevnThemeType(profile, OnevnThemeType::ONEVN_THEME_TYPE_LIGHT);
   EXPECT_FALSE(
       ui::NativeTheme::GetInstanceForNativeUi()->SystemDarkModeEnabled());
 
-  SetOneVNThemeType(profile, OneVNThemeType::ONEVN_THEME_TYPE_DEFAULT);
+  SetOnevnThemeType(profile, OnevnThemeType::ONEVN_THEME_TYPE_DEFAULT);
   EXPECT_EQ(initial_mode,
             ui::NativeTheme::GetInstanceForNativeUi()->SystemDarkModeEnabled());
 }

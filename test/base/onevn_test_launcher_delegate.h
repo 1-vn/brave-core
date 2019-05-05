@@ -8,17 +8,17 @@
 #include "chrome/test/base/chrome_test_launcher.h"
 #include "base/macros.h"
 
-class OneVNTestLauncherDelegate : public ChromeTestLauncherDelegate {
+class OnevnTestLauncherDelegate : public ChromeTestLauncherDelegate {
  public:
   // Does not take ownership of ChromeTestSuiteRunner.
-  explicit OneVNTestLauncherDelegate(ChromeTestSuiteRunner* runner);
-  ~OneVNTestLauncherDelegate() override;
+  explicit OnevnTestLauncherDelegate(ChromeTestSuiteRunner* runner);
+  ~OnevnTestLauncherDelegate() override;
 
  private:
   // ChromeLauncherDelegate:
   content::ContentMainDelegate* CreateContentMainDelegate() override;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNTestLauncherDelegate);
+  DISALLOW_COPY_AND_ASSIGN(OnevnTestLauncherDelegate);
 };
 
 #endif  // ONEVN_TEST_BASE_ONEVN_TEST_LAUNCHER_H_

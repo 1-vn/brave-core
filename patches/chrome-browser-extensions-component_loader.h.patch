@@ -15,7 +15,7 @@ index 332f7ecf276df16378316deb54f0c5ca555671fc..2ad74927ac36ccbd0d99d7aea86a7177
    }
  
   private:
-+  friend class OneVNComponentLoader;
++  friend class OnevnComponentLoader;
    FRIEND_TEST_ALL_PREFIXES(ComponentLoaderTest, ParseManifest);
  
    // Information about a registered component extension.

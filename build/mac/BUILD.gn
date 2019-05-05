@@ -77,7 +77,7 @@ action("create_pkg") {
     rebase_path(shell_script, root_build_dir),
     rebase_path(_target_app_path, root_build_dir),
     rebase_path("//onevn/build/mac/pkg-scripts"),
-    rebase_path("$root_out_dir/OneVN Browser Component.plist"),
+    rebase_path("$root_out_dir/Onevn Browser Component.plist"),
     "unsigned/$onevn_pkg",
   ]
 

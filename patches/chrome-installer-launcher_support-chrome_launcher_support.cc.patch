@@ -8,7 +8,7 @@ index e8bd45b7bb6be86360f1c484b880e9caf3a5ef0d..66330682fd0239b5aa4d68bb5cce39bc
  const wchar_t kSxSBrowserAppGuid[] = L"{4ea16ac7-fd5a-47c3-875b-dbf4a2008c20}";
 +#elif defined(ONEVN_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD)
 +const wchar_t kInstallationRegKey[] =
-+    L"Software\\OneVNSoftware\\Update\\ClientState";
++    L"Software\\OnevnSoftware\\Update\\ClientState";
 +// Copied from
 +// onevn/chromium_src/chrome_install_static/chromium_install_modes.cc
 +const wchar_t kBinariesAppGuid[] = L"{F7526127-0B8A-406F-8998-282BEA40103A}";

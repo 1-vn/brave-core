@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -44,7 +44,7 @@ using content::WebUIMessageHandler;
 
 namespace {
 
-// The handler for Javascript messages for OneVN about: pages
+// The handler for Javascript messages for Onevn about: pages
 class RewardsDOMHandler : public WebUIMessageHandler,
     public onevn_rewards::RewardsNotificationServiceObserver,
     public onevn_rewards::RewardsServiceObserver {
@@ -1087,12 +1087,12 @@ void RewardsDOMHandler::OnContributionSaved(
 
 }  // namespace
 
-OneVNRewardsUI::OneVNRewardsUI(content::WebUI* web_ui, const std::string& name)
+OnevnRewardsUI::OnevnRewardsUI(content::WebUI* web_ui, const std::string& name)
     : BasicUI(web_ui, name,
 #if !defined(OS_ANDROID)
-    kOneVNRewardsGenerated, kOneVNRewardsGeneratedSize,
+    kOnevnRewardsGenerated, kOnevnRewardsGeneratedSize,
 #else
-    kOneVNRewardsSettingsGenerated, kOneVNRewardsSettingsGeneratedSize,
+    kOnevnRewardsSettingsGenerated, kOnevnRewardsSettingsGeneratedSize,
 #endif
     IDR_ONEVN_REWARDS_HTML) {
   auto handler_owner = std::make_unique<RewardsDOMHandler>();
@@ -1101,4 +1101,4 @@ OneVNRewardsUI::OneVNRewardsUI(content::WebUI* web_ui, const std::string& name)
   handler->Init();
 }
 
-OneVNRewardsUI::~OneVNRewardsUI() {}
+OnevnRewardsUI::~OnevnRewardsUI() {}

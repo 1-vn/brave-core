@@ -5,6 +5,6 @@
 #include "onevn/browser/themes/onevn_theme_service.h"
 
 #undef ThemeService
-#define ThemeService OneVNThemeService
+#define ThemeService OnevnThemeService
 #include "../../../../../chrome/browser/themes/theme_service_aurax11.h"
 #undef ThemeService

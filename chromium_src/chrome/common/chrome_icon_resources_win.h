@@ -19,28 +19,28 @@ enum {
   kApplication3Index = 2,
   kApplication4Index = 3,
 
-  // The OneVN Canary application icon.
+  // The Onevn Canary application icon.
   kSxSApplicationIndex = 4,
 
-  // The OneVN App Launcher icon.
+  // The Onevn App Launcher icon.
   kAppLauncherIndex = 5,
 
-  // The OneVN App Launcher Canary icon.
+  // The Onevn App Launcher Canary icon.
   kSxSAppLauncherIndex = 6,
 
-  // The OneVN incognito icon.
+  // The Onevn incognito icon.
   kIncognitoIndex = 7,
 
-  // The OneVN Dev application icon.
+  // The Onevn Dev application icon.
   kDevApplicationIndex = 8,
 
-  // The OneVN Beta application icon.
+  // The Onevn Beta application icon.
   kBetaApplicationIndex = 9,
 #else
-  // The OneVN Developer App Launcher icon.
+  // The Onevn Developer App Launcher icon.
   kAppLauncherIndex = 1,
 
-  // The OneVN Developer incognito icon.
+  // The Onevn Developer incognito icon.
   kIncognitoIndex = 2,
 #endif
 };

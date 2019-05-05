@@ -10,35 +10,35 @@
 namespace extensions {
 namespace api {
 
-class OneVNShieldsAllowScriptsOnceFunction : public UIThreadExtensionFunction {
+class OnevnShieldsAllowScriptsOnceFunction : public UIThreadExtensionFunction {
  public:
   DECLARE_EXTENSION_FUNCTION("onevnShields.allowScriptsOnce", UNKNOWN)
 
  protected:
-  ~OneVNShieldsAllowScriptsOnceFunction() override;
+  ~OnevnShieldsAllowScriptsOnceFunction() override;
 
   ResponseAction Run() override;
 };
 
-class OneVNShieldsContentSettingGetFunction
+class OnevnShieldsContentSettingGetFunction
     : public UIThreadExtensionFunction {
  public:
   DECLARE_EXTENSION_FUNCTION("onevnShields.get", UNKNOWN)
 
  protected:
-  ~OneVNShieldsContentSettingGetFunction() override {}
+  ~OnevnShieldsContentSettingGetFunction() override {}
 
   // ExtensionFunction:
   ResponseAction Run() override;
 };
 
-class OneVNShieldsContentSettingSetFunction
+class OnevnShieldsContentSettingSetFunction
     : public UIThreadExtensionFunction {
  public:
   DECLARE_EXTENSION_FUNCTION("onevnShields.set", UNKNOWN)
 
  protected:
-  ~OneVNShieldsContentSettingSetFunction() override {}
+  ~OnevnShieldsContentSettingSetFunction() override {}
 
   // ExtensionFunction:
   ResponseAction Run() override;

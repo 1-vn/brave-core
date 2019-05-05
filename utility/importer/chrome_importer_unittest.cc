@@ -26,7 +26,7 @@ using ::testing::_;
 
 // In order to test the Chrome import functionality effectively, we store a
 // simulated Chrome profile directory containing dummy data files with the
-// same structure as ~/Library/Application Support/Google/Chrome in the OneVN
+// same structure as ~/Library/Application Support/Google/Chrome in the Onevn
 // test data directory. This function returns the path to that directory.
 base::FilePath GetTestChromeProfileDir(const std::string& profile) {
   base::FilePath test_dir;
@@ -56,14 +56,14 @@ class ChromeImporterTest : public ::testing::Test {
   void SetUp() override {
     SetUpChromeProfile();
     importer_ = new ChromeImporter;
-    bridge_ = new OneVNMockImporterBridge;
+    bridge_ = new OnevnMockImporterBridge;
   }
 
   base::ScopedTempDir temp_dir_;
   base::FilePath profile_dir_;
   importer::SourceProfile profile_;
   scoped_refptr<ChromeImporter> importer_;
-  scoped_refptr<OneVNMockImporterBridge> bridge_;
+  scoped_refptr<OnevnMockImporterBridge> bridge_;
 };
 
 TEST_F(ChromeImporterTest, ImportHistory) {

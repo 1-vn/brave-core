@@ -5,7 +5,7 @@
 module blink.mojom;
 
 // Receives notifications about DRM presence.
-interface OneVNDRM {
+interface OnevnDRM {
   OnWidevineKeySystemAccessRequest();
 };
 

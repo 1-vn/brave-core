@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -35,11 +35,11 @@ bool IsUpdaterURL(const GURL& gurl) {
 
 int OnBeforeURLRequest_CommonStaticRedirectWork(
     const ResponseCallback& next_callback,
-    std::shared_ptr<OneVNRequestInfo> ctx) {
+    std::shared_ptr<OnevnRequestInfo> ctx) {
   GURL::Replacements replacements;
   if (IsUpdaterURL(ctx->request_url)) {
     replacements.SetQueryStr(ctx->request_url.query_piece());
-    ctx->new_url_spec = GURL(kOneVNUpdatesExtensionsEndpoint)
+    ctx->new_url_spec = GURL(kOnevnUpdatesExtensionsEndpoint)
                             .ReplaceComponents(replacements)
                             .spec();
     return net::OK;

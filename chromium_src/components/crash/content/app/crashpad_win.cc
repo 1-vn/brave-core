@@ -8,7 +8,7 @@
 
 namespace crashpad {
 
-class OneVNCrashpadClient {
+class OnevnCrashpadClient {
  public:
   bool StartHandler(const base::FilePath& handler,
                     const base::FilePath& database,
@@ -27,16 +27,16 @@ class OneVNCrashpadClient {
 namespace crash_reporter {
 
 void DumpWithoutCrashing();
-crashpad::OneVNCrashpadClient& GetOneVNCrashpadClient() {
-  static crashpad::OneVNCrashpadClient* const client =
-      new crashpad::OneVNCrashpadClient();
+crashpad::OnevnCrashpadClient& GetOnevnCrashpadClient() {
+  static crashpad::OnevnCrashpadClient* const client =
+      new crashpad::OnevnCrashpadClient();
   return *client;
 }
 
 } // namespace crash_reporter
 
 #define COMPONENTS_CRASH_CONTENT_APP_CRASHPAD_H_
-#define GetCrashpadClient GetOneVNCrashpadClient
+#define GetCrashpadClient GetOnevnCrashpadClient
 #include "../../../../../../components/crash/content/app/crashpad_win.cc"
 #undef GetCrashpadClient
 
@@ -46,7 +46,7 @@ crashpad::CrashpadClient& GetCrashpadClient();
 
 namespace crashpad {
 
-bool OneVNCrashpadClient::StartHandler(
+bool OnevnCrashpadClient::StartHandler(
     const base::FilePath& handler,
     const base::FilePath& database,
     const base::FilePath& metrics_dir,
@@ -61,11 +61,11 @@ bool OneVNCrashpadClient::StartHandler(
       restartable, asynchronous_start);
 }
 
-std::wstring OneVNCrashpadClient::GetHandlerIPCPipe() const {
+std::wstring OnevnCrashpadClient::GetHandlerIPCPipe() const {
   return crash_reporter::GetCrashpadClient().GetHandlerIPCPipe();
 }
 
-bool OneVNCrashpadClient::SetHandlerIPCPipe(const std::wstring& ipc_pipe) {
+bool OnevnCrashpadClient::SetHandlerIPCPipe(const std::wstring& ipc_pipe) {
   return crash_reporter::GetCrashpadClient().SetHandlerIPCPipe(ipc_pipe);
 }
 

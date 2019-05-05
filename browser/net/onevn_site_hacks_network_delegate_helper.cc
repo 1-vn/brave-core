@@ -27,7 +27,7 @@ namespace onevn {
 
 namespace {
 
-bool ApplyPotentialReferrerBlock(std::shared_ptr<OneVNRequestInfo> ctx,
+bool ApplyPotentialReferrerBlock(std::shared_ptr<OnevnRequestInfo> ctx,
                                  net::URLRequest* request) {
   DCHECK_CURRENTLY_ON(BrowserThread::IO);
   GURL target_origin = request->url().GetOrigin();
@@ -40,7 +40,7 @@ bool ApplyPotentialReferrerBlock(std::shared_ptr<OneVNRequestInfo> ctx,
       onevn_shields::kReferrers);
   bool shields_up = onevn_shields::IsAllowContentSettingFromIO(
       request, tab_origin, GURL(), CONTENT_SETTINGS_TYPE_PLUGINS,
-      onevn_shields::kOneVNShields);
+      onevn_shields::kOnevnShields);
   const std::string original_referrer = request->referrer();
   Referrer new_referrer;
   if (onevn_shields::ShouldSetReferrer(allow_referrers, shields_up,
@@ -57,7 +57,7 @@ bool ApplyPotentialReferrerBlock(std::shared_ptr<OneVNRequestInfo> ctx,
 
 int OnBeforeURLRequest_SiteHacksWork(
     const ResponseCallback& next_callback,
-    std::shared_ptr<OneVNRequestInfo> ctx) {
+    std::shared_ptr<OnevnRequestInfo> ctx) {
   ApplyPotentialReferrerBlock(ctx, const_cast<net::URLRequest*>(ctx->request));
   return net::OK;
 }
@@ -91,7 +91,7 @@ bool IsBlockTwitterSiteHack(net::URLRequest* request,
 int OnBeforeStartTransaction_SiteHacksWork(net::URLRequest* request,
         net::HttpRequestHeaders* headers,
         const ResponseCallback& next_callback,
-        std::shared_ptr<OneVNRequestInfo> ctx) {
+        std::shared_ptr<OnevnRequestInfo> ctx) {
   CheckForCookieOverride(request->url(),
       URLPattern(URLPattern::SCHEME_ALL, kForbesPattern), headers,
       kForbesExtraCookies);
@@ -101,7 +101,7 @@ int OnBeforeStartTransaction_SiteHacksWork(net::URLRequest* request,
   if (IsUAWhitelisted(request->url())) {
     std::string user_agent;
     if (headers->GetHeader(kUserAgentHeader, &user_agent)) {
-      base::ReplaceFirstSubstringAfterOffset(&user_agent, 0, "Chrome", "OneVN Chrome");
+      base::ReplaceFirstSubstringAfterOffset(&user_agent, 0, "Chrome", "Onevn Chrome");
       headers->SetHeader(kUserAgentHeader, user_agent);
     }
   }

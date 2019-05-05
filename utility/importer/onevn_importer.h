@@ -1,4 +1,4 @@
-/* Copyright 2019 The OneVN Authors. All rights reserved.
+/* Copyright 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -20,9 +20,9 @@
 #include "build/build_config.h"
 #include "chrome/common/importer/imported_bookmark_entry.h"
 
-class OneVNImporter : public ChromeImporter {
+class OnevnImporter : public ChromeImporter {
  public:
-  OneVNImporter();
+  OnevnImporter();
 
   // Importer:
   void StartImport(const importer::SourceProfile& source_profile,
@@ -30,7 +30,7 @@ class OneVNImporter : public ChromeImporter {
                    ImporterBridge* bridge) override;
 
  private:
-  ~OneVNImporter() override;
+  ~OnevnImporter() override;
 
   void ImportBookmarks() override;
   void ImportHistory() override;
@@ -41,7 +41,7 @@ class OneVNImporter : public ChromeImporter {
   void ImportRequiredItems();
   void ImportSettings();
 
-  base::Optional<base::Value> ParseOneVNStateFile(
+  base::Optional<base::Value> ParseOnevnStateFile(
     const std::string& filename);
 
   void ParseBookmarks(std::vector<ImportedBookmarkEntry>* bookmarks);
@@ -55,7 +55,7 @@ class OneVNImporter : public ChromeImporter {
     base::Value* bookmark_order_dict,
     std::vector<ImportedBookmarkEntry>* bookmarks);
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNImporter);
+  DISALLOW_COPY_AND_ASSIGN(OnevnImporter);
 };
 
 #endif  // ONEVN_UTILITY_IMPORTER_ONEVN_IMPORTER_H_

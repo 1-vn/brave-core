@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -14,18 +14,18 @@
 #include "components/prefs/pref_service.h"
 #include "ui/native_theme/native_theme_dark_aura.h"
 
-using OneVNDarkModeObserverTest = InProcessBrowserTest;
+using OnevnDarkModeObserverTest = InProcessBrowserTest;
 
 namespace {
 
-void SetOneVNThemeType(Profile* profile, OneVNThemeType type) {
-  profile->GetPrefs()->SetInteger(kOneVNThemeType, type);
+void SetOnevnThemeType(Profile* profile, OnevnThemeType type) {
+  profile->GetPrefs()->SetInteger(kOnevnThemeType, type);
 }
 
 }  // namespace
 
 // Test whether DarkModeObserver observes proper NativeTheme.
-IN_PROC_BROWSER_TEST_F(OneVNDarkModeObserverTest,
+IN_PROC_BROWSER_TEST_F(OnevnDarkModeObserverTest,
                        ObserveProperNativeThemeTest) {
   if (@available(macOS 10.14, *)) {
     base::test::ScopedFeatureList features;
@@ -33,19 +33,19 @@ IN_PROC_BROWSER_TEST_F(OneVNDarkModeObserverTest,
 
     Profile* profile = browser()->profile();
 
-    // Load webui to instantiate OneVNDarkModeObserver.
+    // Load webui to instantiate OnevnDarkModeObserver.
     AddTabAtIndexToBrowser(
         browser(), 0, GURL("onevn://history"), ui::PAGE_TRANSITION_TYPED, true);
 
     // Initially set to light.
-    SetOneVNThemeType(profile, OneVNThemeType::ONEVN_THEME_TYPE_LIGHT);
+    SetOnevnThemeType(profile, OnevnThemeType::ONEVN_THEME_TYPE_LIGHT);
     EXPECT_EQ(
         ui::NativeTheme::GetInstanceForNativeUi(),
-        OneVNDarkModeObserver::current_native_theme_for_testing_);
+        OnevnDarkModeObserver::current_native_theme_for_testing_);
 
-    SetOneVNThemeType(profile, OneVNThemeType::ONEVN_THEME_TYPE_DARK);
+    SetOnevnThemeType(profile, OnevnThemeType::ONEVN_THEME_TYPE_DARK);
     EXPECT_EQ(
         ui::NativeThemeDarkAura::instance(),
-        OneVNDarkModeObserver::current_native_theme_for_testing_);
+        OnevnDarkModeObserver::current_native_theme_for_testing_);
   }
 }

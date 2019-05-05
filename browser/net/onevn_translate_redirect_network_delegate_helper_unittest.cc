@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -19,13 +19,13 @@
 
 namespace {
 
-class OneVNTranslateRedirectNetworkDelegateHelperTest
+class OnevnTranslateRedirectNetworkDelegateHelperTest
     : public testing::Test {
  public:
-  OneVNTranslateRedirectNetworkDelegateHelperTest()
+  OnevnTranslateRedirectNetworkDelegateHelperTest()
       : thread_bundle_(content::TestBrowserThreadBundle::IO_MAINLOOP),
         context_(new net::TestURLRequestContext(true)) {}
-  ~OneVNTranslateRedirectNetworkDelegateHelperTest() override {}
+  ~OnevnTranslateRedirectNetworkDelegateHelperTest() override {}
   void SetUp() override { context_->Init(); }
   net::TestURLRequestContext* context() { return context_.get(); }
 
@@ -34,7 +34,7 @@ class OneVNTranslateRedirectNetworkDelegateHelperTest
   std::unique_ptr<net::TestURLRequestContext> context_;
 };
 
-TEST_F(OneVNTranslateRedirectNetworkDelegateHelperTest,
+TEST_F(OnevnTranslateRedirectNetworkDelegateHelperTest,
     RedirectTranslateScriptRequestInitiateByGTranslate) {
   std::string translate_host("https://translate.googleapis.com");
   std::vector<std::string> paths({
@@ -50,13 +50,13 @@ TEST_F(OneVNTranslateRedirectNetworkDelegateHelperTest,
         url, net::IDLE, &test_delegate, TRAFFIC_ANNOTATION_FOR_TESTS);
     request->set_initiator(url::Origin::Create(GURL(kTranslateInitiatorURL)));
 
-    std::shared_ptr<onevn::OneVNRequestInfo> before_url_context(
-        new onevn::OneVNRequestInfo());
-    onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(),
+    std::shared_ptr<onevn::OnevnRequestInfo> before_url_context(
+        new onevn::OnevnRequestInfo());
+    onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(),
         before_url_context);
     onevn::ResponseCallback callback;
 
-    GURL expected_url(kOneVNTranslateServer + path_string);
+    GURL expected_url(kOnevnTranslateServer + path_string);
     int ret = OnBeforeURLRequest_TranslateRedirectWork(callback,
         before_url_context);
     EXPECT_EQ(before_url_context->new_url_spec, expected_url);
@@ -64,7 +64,7 @@ TEST_F(OneVNTranslateRedirectNetworkDelegateHelperTest,
   });
 }
 
-TEST_F(OneVNTranslateRedirectNetworkDelegateHelperTest,
+TEST_F(OnevnTranslateRedirectNetworkDelegateHelperTest,
     NoRedirectTranslateScriptRequestNotInitiateByGTranslate) {
   std::string translate_host("https://translate.googleapis.com");
   std::vector<std::string> paths({
@@ -79,9 +79,9 @@ TEST_F(OneVNTranslateRedirectNetworkDelegateHelperTest,
     std::unique_ptr<net::URLRequest> request = context()->CreateRequest(
         url, net::IDLE, &test_delegate, TRAFFIC_ANNOTATION_FOR_TESTS);
 
-    std::shared_ptr<onevn::OneVNRequestInfo> before_url_context(
-        new onevn::OneVNRequestInfo());
-    onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(),
+    std::shared_ptr<onevn::OnevnRequestInfo> before_url_context(
+        new onevn::OnevnRequestInfo());
+    onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(),
         before_url_context);
     onevn::ResponseCallback callback;
 
@@ -92,7 +92,7 @@ TEST_F(OneVNTranslateRedirectNetworkDelegateHelperTest,
   });
 }
 
-TEST_F(OneVNTranslateRedirectNetworkDelegateHelperTest,
+TEST_F(OnevnTranslateRedirectNetworkDelegateHelperTest,
     RedirectTranslateResourceRequest) {
   std::string translate_host("https://translate.googleapis.com");
   std::string gstatic_host("https://www.gstatic.com");
@@ -108,13 +108,13 @@ TEST_F(OneVNTranslateRedirectNetworkDelegateHelperTest,
     std::unique_ptr<net::URLRequest> request = context()->CreateRequest(
         url, net::IDLE, &test_delegate, TRAFFIC_ANNOTATION_FOR_TESTS);
 
-    std::shared_ptr<onevn::OneVNRequestInfo> before_url_context(
-        new onevn::OneVNRequestInfo());
-    onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(),
+    std::shared_ptr<onevn::OnevnRequestInfo> before_url_context(
+        new onevn::OnevnRequestInfo());
+    onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(),
         before_url_context);
     onevn::ResponseCallback callback;
 
-    GURL expected_url(kOneVNTranslateServer + url.path());
+    GURL expected_url(kOnevnTranslateServer + url.path());
     int ret = OnBeforeURLRequest_TranslateRedirectWork(callback,
         before_url_context);
     EXPECT_EQ(before_url_context->new_url_spec, expected_url);
@@ -122,7 +122,7 @@ TEST_F(OneVNTranslateRedirectNetworkDelegateHelperTest,
   });
 }
 
-TEST_F(OneVNTranslateRedirectNetworkDelegateHelperTest,
+TEST_F(OnevnTranslateRedirectNetworkDelegateHelperTest,
     RedirectTranslateRequestInitiateByGTranslate) {
   net::TestDelegate test_delegate;
   GURL url(
@@ -135,20 +135,20 @@ TEST_F(OneVNTranslateRedirectNetworkDelegateHelperTest,
       url, net::IDLE, &test_delegate, TRAFFIC_ANNOTATION_FOR_TESTS);
   request->set_initiator(url::Origin::Create(GURL(kTranslateInitiatorURL)));
 
-  std::shared_ptr<onevn::OneVNRequestInfo> before_url_context(
-      new onevn::OneVNRequestInfo());
-  onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(),
+  std::shared_ptr<onevn::OnevnRequestInfo> before_url_context(
+      new onevn::OnevnRequestInfo());
+  onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(),
       before_url_context);
   onevn::ResponseCallback callback;
 
-  GURL expected_url(kOneVNTranslateEndpoint + std::string("?") + url.query());
+  GURL expected_url(kOnevnTranslateEndpoint + std::string("?") + url.query());
   int ret = OnBeforeURLRequest_TranslateRedirectWork(callback,
       before_url_context);
   EXPECT_EQ(before_url_context->new_url_spec, expected_url);
   EXPECT_EQ(ret, net::OK);
 }
 
-TEST_F(OneVNTranslateRedirectNetworkDelegateHelperTest,
+TEST_F(OnevnTranslateRedirectNetworkDelegateHelperTest,
     NoRedirectTranslateRequestNotInitiateByGTranslate) {
   net::TestDelegate test_delegate;
   GURL url(
@@ -160,20 +160,20 @@ TEST_F(OneVNTranslateRedirectNetworkDelegateHelperTest,
   std::unique_ptr<net::URLRequest> request = context()->CreateRequest(
       url, net::IDLE, &test_delegate, TRAFFIC_ANNOTATION_FOR_TESTS);
 
-  std::shared_ptr<onevn::OneVNRequestInfo> before_url_context(
-      new onevn::OneVNRequestInfo());
-  onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(),
+  std::shared_ptr<onevn::OnevnRequestInfo> before_url_context(
+      new onevn::OnevnRequestInfo());
+  onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(),
       before_url_context);
   onevn::ResponseCallback callback;
 
-  GURL expected_url(kOneVNTranslateServer + url.path());
+  GURL expected_url(kOnevnTranslateServer + url.path());
   int ret = OnBeforeURLRequest_TranslateRedirectWork(callback,
       before_url_context);
   EXPECT_EQ(before_url_context->new_url_spec, "");
   EXPECT_EQ(ret, net::OK);
 }
 
-TEST_F(OneVNTranslateRedirectNetworkDelegateHelperTest,
+TEST_F(OnevnTranslateRedirectNetworkDelegateHelperTest,
     AbortTranslateGen204RequestFromTELib) {
   net::TestDelegate test_delegate;
 
@@ -184,9 +184,9 @@ TEST_F(OneVNTranslateRedirectNetworkDelegateHelperTest,
   std::unique_ptr<net::URLRequest> request = context()->CreateRequest(
       url, net::IDLE, &test_delegate, TRAFFIC_ANNOTATION_FOR_TESTS);
 
-  std::shared_ptr<onevn::OneVNRequestInfo> before_url_context(
-      new onevn::OneVNRequestInfo());
-  onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(),
+  std::shared_ptr<onevn::OnevnRequestInfo> before_url_context(
+      new onevn::OnevnRequestInfo());
+  onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(),
                                               before_url_context);
   onevn::ResponseCallback callback;
 
@@ -197,7 +197,7 @@ TEST_F(OneVNTranslateRedirectNetworkDelegateHelperTest,
   EXPECT_EQ(ret, net::ERR_ABORTED);
 }
 
-TEST_F(OneVNTranslateRedirectNetworkDelegateHelperTest,
+TEST_F(OnevnTranslateRedirectNetworkDelegateHelperTest,
   NoAbortTranslateGen204RequestNotFromTELib) {
   net::TestDelegate test_delegate;
 
@@ -208,9 +208,9 @@ TEST_F(OneVNTranslateRedirectNetworkDelegateHelperTest,
   std::unique_ptr<net::URLRequest> request = context()->CreateRequest(
       url, net::IDLE, &test_delegate, TRAFFIC_ANNOTATION_FOR_TESTS);
 
-  std::shared_ptr<onevn::OneVNRequestInfo> before_url_context(
-      new onevn::OneVNRequestInfo());
-  onevn::OneVNRequestInfo::FillCTXFromRequest(request.get(),
+  std::shared_ptr<onevn::OnevnRequestInfo> before_url_context(
+      new onevn::OnevnRequestInfo());
+  onevn::OnevnRequestInfo::FillCTXFromRequest(request.get(),
                                               before_url_context);
   onevn::ResponseCallback callback;
 

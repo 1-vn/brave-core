@@ -1,4 +1,4 @@
-/* Copyright 2019 The OneVN Authors. All rights reserved.
+/* Copyright 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -21,11 +21,11 @@
 #include "ui/views/view.h"
 #include "ui/views/view_class_properties.h"
 
-void OneVNActionView::OnBoundsChanged(const gfx::Rect& previous_bounds) {
+void OnevnActionView::OnBoundsChanged(const gfx::Rect& previous_bounds) {
   // Set the highlight path for the toolbar button,
   // making it inset so that the badge can show outside it in the
   // fake margin on the right that we are creating.
-  gfx::Insets highlight_insets(0, 0, 0, onevn_actions::kOneVNActionRightMargin);
+  gfx::Insets highlight_insets(0, 0, 0, onevn_actions::kOnevnActionRightMargin);
   gfx::Rect rect(size());
   rect.Inset(highlight_insets);
   const int radii = ChromeLayoutProvider::Get()->GetCornerRadiusMetric(

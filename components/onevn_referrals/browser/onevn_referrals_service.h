@@ -24,10 +24,10 @@ class SimpleURLLoader;
 
 namespace onevn {
 
-class OneVNReferralsService {
+class OnevnReferralsService {
  public:
-  OneVNReferralsService(PrefService* pref_service);
-  ~OneVNReferralsService();
+  OnevnReferralsService(PrefService* pref_service);
+  ~OnevnReferralsService();
 
   void Start();
   void Stop();
@@ -82,17 +82,17 @@ class OneVNReferralsService {
   PrefService* pref_service_;
   std::string promo_code_;
 
-  base::WeakPtrFactory<OneVNReferralsService> weak_factory_;
+  base::WeakPtrFactory<OnevnReferralsService> weak_factory_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNReferralsService);
+  DISALLOW_COPY_AND_ASSIGN(OnevnReferralsService);
 };
 
-// Creates the OneVNReferralsService
-std::unique_ptr<OneVNReferralsService> OneVNReferralsServiceFactory(
+// Creates the OnevnReferralsService
+std::unique_ptr<OnevnReferralsService> OnevnReferralsServiceFactory(
     PrefService* pref_service);
 
-// Registers the preferences used by OneVNReferralsService
-void RegisterPrefsForOneVNReferralsService(PrefRegistrySimple* registry);
+// Registers the preferences used by OnevnReferralsService
+void RegisterPrefsForOnevnReferralsService(PrefRegistrySimple* registry);
 
 }  // namespace onevn
 

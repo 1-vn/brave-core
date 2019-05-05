@@ -4,6 +4,6 @@
 #include "base/optional.h"
 #include "chrome/browser/ui/layout_constants.h"
 
-base::Optional<int> GetOneVNLayoutConstant(LayoutConstant constant);
+base::Optional<int> GetOnevnLayoutConstant(LayoutConstant constant);
 
 #endif

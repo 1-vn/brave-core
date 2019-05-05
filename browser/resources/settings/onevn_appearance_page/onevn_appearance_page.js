@@ -12,17 +12,17 @@ Polymer({
     onevnThemeList_: [],
   },
 
-  /** @private {?settings.OneVNAppearanceBrowserProxy} */
+  /** @private {?settings.OnevnAppearanceBrowserProxy} */
   browserProxy_: null,
 
   /** @override */
   created: function() {
-    this.browserProxy_ = settings.OneVNAppearanceBrowserProxyImpl.getInstance();
+    this.browserProxy_ = settings.OnevnAppearanceBrowserProxyImpl.getInstance();
   },
 
   /** @override */
   ready: function() {
-    this.browserProxy_.getOneVNThemeList().then(list => {
+    this.browserProxy_.getOnevnThemeList().then(list => {
       this.onevnThemeList_ = JSON.parse(list);
     });
   },

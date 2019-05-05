@@ -10,13 +10,13 @@
 
 #include "onevn/browser/importer/onevn_importer_lock_dialog.h"
 
-OneVNExternalProcessImporterHost::OneVNExternalProcessImporterHost()
+OnevnExternalProcessImporterHost::OnevnExternalProcessImporterHost()
   : ExternalProcessImporterHost(),
     weak_ptr_factory_(this) {}
 
-OneVNExternalProcessImporterHost::~OneVNExternalProcessImporterHost() {}
+OnevnExternalProcessImporterHost::~OnevnExternalProcessImporterHost() {}
 
-void OneVNExternalProcessImporterHost::StartImportSettings(
+void OnevnExternalProcessImporterHost::StartImportSettings(
     const importer::SourceProfile& source_profile,
     Profile* target_profile,
     uint16_t items,
@@ -35,7 +35,7 @@ void OneVNExternalProcessImporterHost::StartImportSettings(
     return;
   }
 
-  if (!CheckForChromeOrOneVNLock()) {
+  if (!CheckForChromeOrOnevnLock()) {
     Cancel();
     return;
   }
@@ -45,7 +45,7 @@ void OneVNExternalProcessImporterHost::StartImportSettings(
   LaunchImportIfReady();
 }
 
-void OneVNExternalProcessImporterHost::LaunchImportIfReady() {
+void OnevnExternalProcessImporterHost::LaunchImportIfReady() {
   if (waiting_for_bookmarkbar_model_ || template_service_subscription_.get() ||
       !is_source_readable_ || cancelled_)
     return;
@@ -55,24 +55,24 @@ void OneVNExternalProcessImporterHost::LaunchImportIfReady() {
   // bridge lives in the external process (see ProfileImportThread).
   // The ExternalProcessImporterClient created in the next line owns the bridge,
   // and will delete it.
-  OneVNInProcessImporterBridge* bridge =
-      new OneVNInProcessImporterBridge(writer_.get(),
+  OnevnInProcessImporterBridge* bridge =
+      new OnevnInProcessImporterBridge(writer_.get(),
                                        weak_ptr_factory_.GetWeakPtr());
-  client_ = new OneVNExternalProcessImporterClient(
+  client_ = new OnevnExternalProcessImporterClient(
       weak_ptr_factory_.GetWeakPtr(), source_profile_, items_, bridge);
   client_->Start();
 }
 
-void OneVNExternalProcessImporterHost::ShowWarningDialog() {
+void OnevnExternalProcessImporterHost::ShowWarningDialog() {
   DCHECK(!headless_);
   onevn::importer::ShowImportLockDialog(
       parent_window_,
       source_profile_,
-      base::Bind(&OneVNExternalProcessImporterHost::OnImportLockDialogEnd,
+      base::Bind(&OnevnExternalProcessImporterHost::OnImportLockDialogEnd,
                  weak_ptr_factory_.GetWeakPtr()));
 }
 
-void OneVNExternalProcessImporterHost::OnImportLockDialogEnd(bool is_continue) {
+void OnevnExternalProcessImporterHost::OnImportLockDialogEnd(bool is_continue) {
   if (is_continue) {
     // User chose to continue, then we check the lock again to make sure that
     // the other browser has been closed. Try to import the settings if
@@ -89,7 +89,7 @@ void OneVNExternalProcessImporterHost::OnImportLockDialogEnd(bool is_continue) {
   }
 }
 
-bool OneVNExternalProcessImporterHost::CheckForChromeOrOneVNLock() {
+bool OnevnExternalProcessImporterHost::CheckForChromeOrOnevnLock() {
   if (!(source_profile_.importer_type == importer::TYPE_CHROME ||
         source_profile_.importer_type == importer::TYPE_ONEVN))
     return true;
@@ -103,7 +103,7 @@ bool OneVNExternalProcessImporterHost::CheckForChromeOrOneVNLock() {
     base::FilePath user_data_dir = source_profile_.source_path.DirName();
     browser_lock_.reset(new ChromeProfileLock(user_data_dir));
   } else {  // source_profile_.importer_type == importer::TYPE_ONEVN
-    browser_lock_.reset(new OneVNProfileLock(source_profile_.source_path));
+    browser_lock_.reset(new OnevnProfileLock(source_profile_.source_path));
   }
 
   browser_lock_->Lock();

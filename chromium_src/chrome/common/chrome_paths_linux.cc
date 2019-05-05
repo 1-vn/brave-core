@@ -20,7 +20,7 @@ bool GetDefaultUserDataDirectory(base::FilePath* result) {
   std::string data_dir_suffix;
   onevn::GetChannelImpl(nullptr, &data_dir_suffix);
 
-  *result = config_dir.Append("OneVNSoftware/OneVN-Browser" + data_dir_suffix);
+  *result = config_dir.Append("OnevnSoftware/Onevn-Browser" + data_dir_suffix);
   return true;
 }
 

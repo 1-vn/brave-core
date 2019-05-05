@@ -4,7 +4,7 @@
 
 cr.define('settings', function() {
   /** @interface */
-  class OneVNDefaultExtensionsBrowserProxy {
+  class OnevnDefaultExtensionsBrowserProxy {
     /**
      * @param {boolean} value name.
      */
@@ -14,9 +14,9 @@ cr.define('settings', function() {
   }
 
   /**
-   * @implements {settings.OneVNDefaultExtensionsBrowserProxy}
+   * @implements {settings.OnevnDefaultExtensionsBrowserProxy}
    */
-  class OneVNDefaultExtensionsBrowserProxyImpl {
+  class OnevnDefaultExtensionsBrowserProxyImpl {
     /** @override */
     setWebTorrentEnabled(value) {
       chrome.send('setWebTorrentEnabled', [value]);
@@ -29,10 +29,10 @@ cr.define('settings', function() {
     }
   }
 
-  cr.addSingletonGetter(OneVNDefaultExtensionsBrowserProxyImpl);
+  cr.addSingletonGetter(OnevnDefaultExtensionsBrowserProxyImpl);
 
   return {
-    OneVNDefaultExtensionsBrowserProxy,
-    OneVNDefaultExtensionsBrowserProxyImpl
+    OnevnDefaultExtensionsBrowserProxy,
+    OnevnDefaultExtensionsBrowserProxyImpl
   };
 });

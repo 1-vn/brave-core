@@ -7,8 +7,8 @@
 namespace onevn_rewards {
 namespace prefs {
 
-const char kOneVNRewardsEnabled[] = "onevn.rewards.enabled";
-const char kOneVNRewardsEnabledMigrated[] = "onevn.rewards.enabled_migrated";
+const char kOnevnRewardsEnabled[] = "onevn.rewards.enabled";
+const char kOnevnRewardsEnabledMigrated[] = "onevn.rewards.enabled_migrated";
 const char kRewardsNotifications[] = "onevn.rewards.notifications";
 const char kRewardsNotificationTimerInterval[] = "onevn.rewards.notification_timer_interval";
 const char kRewardsBackupNotificationFrequency[] =

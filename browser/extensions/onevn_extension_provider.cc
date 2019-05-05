@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -42,16 +42,16 @@ bool IsBlacklisted(const extensions::Extension* extension) {
 
 namespace extensions {
 
-bool OneVNExtensionProvider::IsVetted(const Extension* extension) {
+bool OnevnExtensionProvider::IsVetted(const Extension* extension) {
   // This is a hardcoded list of vetted extensions, mostly
-  // the built-in ones that ship with OneVN or are used for
+  // the built-in ones that ship with Onevn or are used for
   // unit tests.
   // Don't add new extensions to this list. Add them to
   // the files managed by the extension whitelist service.
-  return OneVNExtensionProvider::IsVetted(extension->id());
+  return OnevnExtensionProvider::IsVetted(extension->id());
 }
 
-bool OneVNExtensionProvider::IsVetted(const std::string id) {
+bool OnevnExtensionProvider::IsVetted(const std::string id) {
   static std::vector<std::string> vetted_extensions({
       onevn_extension_id,
       onevn_rewards_extension_id,
@@ -64,20 +64,20 @@ bool OneVNExtensionProvider::IsVetted(const std::string id) {
       onevn_shields::kLocalDataFilesComponentId,
       // Web Store
       "ahfgeienlihckogmohjhadlkjgocpleb",
-      // OneVN Automation Extension
+      // Onevn Automation Extension
       "aapnijgdinlhnhlmodcfapnahmbfebeb",
-      // Test ID: OneVN Default Ad Block Updater
+      // Test ID: Onevn Default Ad Block Updater
       "naccapggpomhlhoifnlebfoocegenbol",
-      // Test ID: OneVN Regional Ad Block Updater
+      // Test ID: Onevn Regional Ad Block Updater
       // (9852EFC4-99E4-4F2D-A915-9C3196C7A1DE)
       "dlpmaigjliompnelofkljgcmlenklieh",
-      // Test ID: OneVN Tracking Protection Updater
+      // Test ID: Onevn Tracking Protection Updater
       "eclbkhjphkhalklhipiicaldjbnhdfkc",
       // Test ID: PDFJS
       "kpbdcmcgkedhpbcpfndimofjnefgjidd",
-      // Test ID: OneVN HTTPS Everywhere Updater
+      // Test ID: Onevn HTTPS Everywhere Updater
       "bhlmpjhncoojbkemjkeppfahkglffilp",
-      // Test ID: OneVN Tor Client Updater
+      // Test ID: Onevn Tor Client Updater
       "ngicbhhaldfdgmjhilmnleppfpmkgbbk",
   });
   if (std::find(vetted_extensions.begin(), vetted_extensions.end(), id) !=
@@ -88,20 +88,20 @@ bool OneVNExtensionProvider::IsVetted(const std::string id) {
       id);
 }
 
-OneVNExtensionProvider::OneVNExtensionProvider() {}
+OnevnExtensionProvider::OnevnExtensionProvider() {}
 
-OneVNExtensionProvider::~OneVNExtensionProvider() {}
+OnevnExtensionProvider::~OnevnExtensionProvider() {}
 
-std::string OneVNExtensionProvider::GetDebugPolicyProviderName() const {
+std::string OnevnExtensionProvider::GetDebugPolicyProviderName() const {
 #if defined(NDEBUG)
   NOTREACHED();
   return std::string();
 #else
-  return "OneVN Extension Provider";
+  return "Onevn Extension Provider";
 #endif
 }
 
-bool OneVNExtensionProvider::UserMayLoad(const Extension* extension,
+bool OnevnExtensionProvider::UserMayLoad(const Extension* extension,
                                          base::string16* error) const {
   if (IsBlacklisted(extension)) {
     if (error) {
@@ -117,7 +117,7 @@ bool OneVNExtensionProvider::UserMayLoad(const Extension* extension,
   return true;
 }
 
-bool OneVNExtensionProvider::MustRemainInstalled(const Extension* extension,
+bool OnevnExtensionProvider::MustRemainInstalled(const Extension* extension,
                                                  base::string16* error) const {
   return extension->id() == onevn_extension_id ||
          extension->id() == onevn_rewards_extension_id ||

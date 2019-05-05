@@ -1,4 +1,4 @@
-/* Copyright 2019 The OneVN Authors. All rights reserved.
+/* Copyright 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -23,21 +23,21 @@
 #include "third_party/blink/public/web/web_local_frame.h"
 #include "url/url_constants.h"
 
-OneVNContentSettingsObserver::OneVNContentSettingsObserver(
+OnevnContentSettingsObserver::OnevnContentSettingsObserver(
     content::RenderFrame* render_frame,
     bool should_whitelist,
     service_manager::BinderRegistry* registry)
     : ContentSettingsObserver(render_frame, should_whitelist, registry) {
 }
 
-OneVNContentSettingsObserver::~OneVNContentSettingsObserver() {
+OnevnContentSettingsObserver::~OnevnContentSettingsObserver() {
 }
 
-bool OneVNContentSettingsObserver::OnMessageReceived(
+bool OnevnContentSettingsObserver::OnMessageReceived(
     const IPC::Message& message) {
   bool handled = true;
-  IPC_BEGIN_MESSAGE_MAP(OneVNContentSettingsObserver, message)
-    IPC_MESSAGE_HANDLER(OneVNFrameMsg_AllowScriptsOnce, OnAllowScriptsOnce)
+  IPC_BEGIN_MESSAGE_MAP(OnevnContentSettingsObserver, message)
+    IPC_MESSAGE_HANDLER(OnevnFrameMsg_AllowScriptsOnce, OnAllowScriptsOnce)
     IPC_MESSAGE_UNHANDLED(handled = false)
   IPC_END_MESSAGE_MAP()
 
@@ -45,12 +45,12 @@ bool OneVNContentSettingsObserver::OnMessageReceived(
   return ContentSettingsObserver::OnMessageReceived(message);
 }
 
-void OneVNContentSettingsObserver::OnAllowScriptsOnce(
+void OnevnContentSettingsObserver::OnAllowScriptsOnce(
     const std::vector<std::string>& origins) {
   preloaded_temporarily_allowed_scripts_ = std::move(origins);
 }
 
-void OneVNContentSettingsObserver::DidCommitProvisionalLoad(
+void OnevnContentSettingsObserver::DidCommitProvisionalLoad(
     bool is_same_document_navigation, ui::PageTransition transition) {
   if (!is_same_document_navigation) {
     temporarily_allowed_scripts_ =
@@ -61,19 +61,19 @@ void OneVNContentSettingsObserver::DidCommitProvisionalLoad(
       is_same_document_navigation, transition);
 }
 
-bool OneVNContentSettingsObserver::IsScriptTemporilyAllowed(
+bool OnevnContentSettingsObserver::IsScriptTemporilyAllowed(
     const GURL& script_url) {
   // check if scripts from this origin are temporily allowed or not
   return base::ContainsKey(temporarily_allowed_scripts_,
       script_url.GetOrigin().spec());
 }
 
-void OneVNContentSettingsObserver::OneVNSpecificDidBlockJavaScript(
+void OnevnContentSettingsObserver::OnevnSpecificDidBlockJavaScript(
     const base::string16& details) {
-  Send(new OneVNViewHostMsg_JavaScriptBlocked(routing_id(), details));
+  Send(new OnevnViewHostMsg_JavaScriptBlocked(routing_id(), details));
 }
 
-bool OneVNContentSettingsObserver::AllowScript(
+bool OnevnContentSettingsObserver::AllowScript(
     bool enabled_per_settings) {
   // clear cached url for other flow like directly calling `DidNotAllowScript`
   // without calling `AllowScriptFromSource` first
@@ -85,22 +85,22 @@ bool OneVNContentSettingsObserver::AllowScript(
 
   bool allow = ContentSettingsObserver::AllowScript(enabled_per_settings);
   allow = allow ||
-    IsOneVNShieldsDown(frame, secondary_url) ||
+    IsOnevnShieldsDown(frame, secondary_url) ||
     IsScriptTemporilyAllowed(secondary_url);
 
   return allow;
 }
 
-void OneVNContentSettingsObserver::DidNotAllowScript() {
+void OnevnContentSettingsObserver::DidNotAllowScript() {
   if (!blocked_script_url_.is_empty()) {
-    OneVNSpecificDidBlockJavaScript(
+    OnevnSpecificDidBlockJavaScript(
       base::UTF8ToUTF16(blocked_script_url_.spec()));
     blocked_script_url_ = GURL::EmptyGURL();
   }
   ContentSettingsObserver::DidNotAllowScript();
 }
 
-bool OneVNContentSettingsObserver::AllowScriptFromSource(
+bool OnevnContentSettingsObserver::AllowScriptFromSource(
     bool enabled_per_settings,
     const blink::WebURL& script_url) {
   const GURL secondary_url(script_url);
@@ -116,7 +116,7 @@ bool OneVNContentSettingsObserver::AllowScriptFromSource(
 
   allow = allow ||
     should_white_list ||
-    IsOneVNShieldsDown(render_frame()->GetWebFrame(), secondary_url) ||
+    IsOnevnShieldsDown(render_frame()->GetWebFrame(), secondary_url) ||
     IsScriptTemporilyAllowed(secondary_url);
 
   if (!allow) {
@@ -126,12 +126,12 @@ bool OneVNContentSettingsObserver::AllowScriptFromSource(
   return allow;
 }
 
-void OneVNContentSettingsObserver::DidBlockFingerprinting(
+void OnevnContentSettingsObserver::DidBlockFingerprinting(
     const base::string16& details) {
-  Send(new OneVNViewHostMsg_FingerprintingBlocked(routing_id(), details));
+  Send(new OnevnViewHostMsg_FingerprintingBlocked(routing_id(), details));
 }
 
-GURL OneVNContentSettingsObserver::GetOriginOrURL(
+GURL OnevnContentSettingsObserver::GetOriginOrURL(
     const blink::WebFrame* frame) {
   url::Origin top_origin = url::Origin(frame->Top()->GetSecurityOrigin());
   // The |top_origin| is unique ("null") e.g., for file:// URLs. Use the
@@ -144,7 +144,7 @@ GURL OneVNContentSettingsObserver::GetOriginOrURL(
   return top_origin.GetURL();
 }
 
-ContentSetting OneVNContentSettingsObserver::GetFPContentSettingFromRules(
+ContentSetting OnevnContentSettingsObserver::GetFPContentSettingFromRules(
     const ContentSettingsForOneType& rules,
     const blink::WebFrame* frame,
     const GURL& secondary_url) {
@@ -174,7 +174,7 @@ ContentSetting OneVNContentSettingsObserver::GetFPContentSettingFromRules(
   return CONTENT_SETTING_BLOCK;
 }
 
-bool OneVNContentSettingsObserver::IsOneVNShieldsDown(
+bool OnevnContentSettingsObserver::IsOnevnShieldsDown(
     const blink::WebFrame* frame,
     const GURL& secondary_url) {
   ContentSetting setting = CONTENT_SETTING_DEFAULT;
@@ -193,14 +193,14 @@ bool OneVNContentSettingsObserver::IsOneVNShieldsDown(
   return setting == CONTENT_SETTING_BLOCK;
 }
 
-bool OneVNContentSettingsObserver::AllowFingerprinting(
+bool OnevnContentSettingsObserver::AllowFingerprinting(
     bool enabled_per_settings) {
   if (!enabled_per_settings)
     return false;
   blink::WebLocalFrame* frame = render_frame()->GetWebFrame();
   const GURL secondary_url(
       url::Origin(frame->GetDocument().GetSecurityOrigin()).GetURL());
-  if (IsOneVNShieldsDown(frame, secondary_url)) {
+  if (IsOnevnShieldsDown(frame, secondary_url)) {
     return true;
   }
   ContentSettingsForOneType rules;
@@ -227,7 +227,7 @@ bool OneVNContentSettingsObserver::AllowFingerprinting(
   return allow;
 }
 
-bool OneVNContentSettingsObserver::AllowAutoplay(bool default_value) {
+bool OnevnContentSettingsObserver::AllowAutoplay(bool default_value) {
   blink::WebLocalFrame* frame = render_frame()->GetWebFrame();
   auto origin = frame->GetDocument().GetSecurityOrigin();
   // default allow local files

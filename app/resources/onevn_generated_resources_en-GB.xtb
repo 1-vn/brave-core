@@ -1,26 +1,26 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="en-GB">
-<translation id="3333887201479867589">OneVN Rewards</translation>
-<translation id="7942180974165298215">OneVN Ad Block</translation>
+<translation id="3333887201479867589">Onevn Rewards</translation>
+<translation id="7942180974165298215">Onevn Ad Block</translation>
 <translation id="6406506848690869874">Sync</translation>
-<translation id="120759863357279975"><ph name="EXTENSION_NAME">$1</ph> (extension ID "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") is not allowed in OneVN.</translation>
+<translation id="120759863357279975"><ph name="EXTENSION_NAME">$1</ph> (extension ID "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") is not allowed in Onevn.</translation>
 <translation id="7450557937477381864">Close Chrome</translation>
 <translation id="7008934821596358692">To finish importing, close all Chrome windows.</translation>
-<translation id="5735465527556462863">Close OneVN (old)</translation>
-<translation id="7737066986958447692">To finish importing, close all OneVN (old) windows.</translation>
+<translation id="5735465527556462863">Close Onevn (old)</translation>
+<translation id="7737066986958447692">To finish importing, close all Onevn (old) windows.</translation>
 <translation id="6447842834002726250">Cookies</translation>
 <translation id="4983925687993168579">Stats</translation>
-<translation id="6165477144235978006">OneVN Payments</translation>
+<translation id="6165477144235978006">Onevn Payments</translation>
 <translation id="3489524616427966890">Open windows and tabs</translation>
 <translation id="3699882589215410581">Install and run Widevine</translation>
 <translation id="8053096063396012732">Install Widevine</translation>
 <translation id="4840334696217618631">Restart browser to enable Widevine</translation>
-<translation id="8410111618231938546">Google Widevine is a piece of Digital Rights Management (DRM) code that we at OneVN Software do not own and cannot inspect. The Google Widevine code is loaded from Google servers, not from our servers. It is loaded only when you enable this option. We discourage the use of DRM, but we respect user choice and acknowledge that some OneVN users would like to use services that require it.
+<translation id="8410111618231938546">Google Widevine is a piece of Digital Rights Management (DRM) code that we at Onevn Software do not own and cannot inspect. The Google Widevine code is loaded from Google servers, not from our servers. It is loaded only when you enable this option. We discourage the use of DRM, but we respect user choice and acknowledge that some Onevn users would like to use services that require it.
 
-By installing this extension, you are agreeing to the Google Widevine Terms of Use. You agree that OneVN is not responsible for any damages or losses in connection with your use of Google Widevine.</translation>
-<translation id="6499845530162974140">OneVN (old)</translation>
-<translation id="3198814717959506569">Imported From OneVN</translation>
+By installing this extension, you are agreeing to the Google Widevine Terms of Use. You agree that Onevn is not responsible for any damages or losses in connection with your use of Google Widevine.</translation>
+<translation id="6499845530162974140">Onevn (old)</translation>
+<translation id="3198814717959506569">Imported From Onevn</translation>
 <translation id="453977518730680921">Autoplay media</translation>
 <translation id="410351446219883937">Autoplay</translation>
 <translation id="2240268017737062801">Ask when a site wants to autoplay media</translation>
@@ -28,25 +28,25 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
 <translation id="3218385319396786393">Autoplay was blocked on this page</translation>
 <translation id="4988333904713528597">Always allow autoplay on <ph name="HOST">$1<ex>mail.google.com</ex></ph></translation>
 <translation id="4150684676757176434">Continue blocking autoplay</translation>
-<translation id="7543906827780734027">OneVN hasn't reviewed this extension yet - it might be malicious. Add "<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>" anyway?</translation>
-<translation id="2044383478723007273">OneVN colours</translation>
+<translation id="7543906827780734027">Onevn hasn't reviewed this extension yet - it might be malicious. Add "<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>" anyway?</translation>
+<translation id="2044383478723007273">Onevn colours</translation>
 <translation id="5341901626640816374">Use wide location bar</translation>
-<translation id="6123134130710658846">Hide OneVN Rewards button</translation>
-<translation id="7635711399568194460">Hides the OneVN Rewards button in the location bar when OneVN Rewards is not enabled</translation>
+<translation id="6123134130710658846">Hide Onevn Rewards button</translation>
+<translation id="7635711399568194460">Hides the Onevn Rewards button in the location bar when Onevn Rewards is not enabled</translation>
 <translation id="7965178729203412357">New Tor Identity</translation>
 <translation id="8784924142044142231">Exit Tor</translation>
 <translation id="5410152065859052603">Tor</translation>
 <translation id="3696187925156352769">Open Tor Window</translation>
 <translation id="1434416574322382019">New Private Window with Tor</translation>
 <translation id="4703780849509456860">Open Link in Private Window with Tor</translation>
-<translation id="3488584642074079080">Open Link in OneVN Private Window with Tor</translation>
+<translation id="3488584642074079080">Open Link in Onevn Private Window with Tor</translation>
 <translation id="6313675821927505581">New private window with Tor</translation>
 <translation id="2638041073279639246">Open link in private window with Tor</translation>
-<translation id="3425600262621021599">Open link in OneVN private window with Tor</translation>
+<translation id="3425600262621021599">Open link in Onevn private window with Tor</translation>
 <translation id="3155170474926428993">Tor Launcher</translation>
 <translation id="2515126961943087659">Bat Ads Service</translation>
 <translation id="7924918279836988121">Bat Ledger Service</translation>
-<translation id="768979911142179781">OneVN shields defaults</translation>
+<translation id="768979911142179781">Onevn shields defaults</translation>
 <translation id="9185018653595759199">Social Buttons and Logins</translation>
 <translation id="6894114137169961038">Ad Control</translation>
 <translation id="1096802265930928584">Cookie Control</translation>

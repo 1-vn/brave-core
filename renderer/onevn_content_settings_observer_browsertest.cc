@@ -43,14 +43,14 @@ const char kCookieScript[] =
 const char kReferrerScript[] =
     "domAutomationController.send(document.referrer);";
 
-class OneVNContentSettingsObserverBrowserTest : public InProcessBrowserTest {
+class OnevnContentSettingsObserverBrowserTest : public InProcessBrowserTest {
   public:
     void SetUpOnMainThread() override {
       InProcessBrowserTest::SetUpOnMainThread();
 
       content_client_.reset(new ChromeContentClient);
       content::SetContentClient(content_client_.get());
-      browser_content_client_.reset(new OneVNContentBrowserClient());
+      browser_content_client_.reset(new OnevnContentBrowserClient());
       content::SetBrowserClientForTesting(browser_content_client_.get());
 
       host_resolver()->AddRule("*", "127.0.0.1");
@@ -160,7 +160,7 @@ class OneVNContentSettingsObserverBrowserTest : public InProcessBrowserTest {
           top_level_page_pattern(),
           ContentSettingsPattern::Wildcard(),
           CONTENT_SETTINGS_TYPE_PLUGINS,
-          onevn_shields::kOneVNShields, CONTENT_SETTING_BLOCK);
+          onevn_shields::kOnevnShields, CONTENT_SETTING_BLOCK);
     }
 
     void ShieldsUp() {
@@ -168,7 +168,7 @@ class OneVNContentSettingsObserverBrowserTest : public InProcessBrowserTest {
           top_level_page_pattern(),
           ContentSettingsPattern::Wildcard(),
           CONTENT_SETTINGS_TYPE_PLUGINS,
-          onevn_shields::kOneVNShields, CONTENT_SETTING_ALLOW);
+          onevn_shields::kOnevnShields, CONTENT_SETTING_ALLOW);
     }
 
     void AllowFingerprinting() {
@@ -273,12 +273,12 @@ class OneVNContentSettingsObserverBrowserTest : public InProcessBrowserTest {
     ContentSettingsPattern first_party_pattern_;
     ContentSettingsPattern iframe_pattern_;
     std::unique_ptr<ChromeContentClient> content_client_;
-    std::unique_ptr<OneVNContentBrowserClient> browser_content_client_;
+    std::unique_ptr<OnevnContentBrowserClient> browser_content_client_;
 
     base::ScopedTempDir temp_user_data_dir_;
 };
 
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsObserverBrowserTest,
     BlockThirdPartyFPByDefault) {
   ContentSettingsForOneType fp_settings;
   content_settings()->GetSettingsForOneType(
@@ -301,7 +301,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest,
   EXPECT_FALSE(isPointInPath);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest, BlockFP) {
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsObserverBrowserTest, BlockFP) {
   BlockFingerprinting();
 
   ContentSettingsForOneType fp_settings;
@@ -324,7 +324,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest, BlockFP) {
   EXPECT_FALSE(isPointInPath);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest, AllowFP) {
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsObserverBrowserTest, AllowFP) {
   AllowFingerprinting();
 
   ContentSettingsForOneType fp_settings;
@@ -347,7 +347,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest, AllowFP) {
   EXPECT_TRUE(isPointInPath);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsObserverBrowserTest,
     BlockThirdPartyFP) {
   Block3PFingerprinting();
 
@@ -371,7 +371,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest,
   EXPECT_FALSE(isPointInPath);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest, BlockFPShieldsDown) {
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsObserverBrowserTest, BlockFPShieldsDown) {
   BlockFingerprinting();
   ShieldsDown();
 
@@ -395,7 +395,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest, BlockFPShieldsDo
   EXPECT_TRUE(isPointInPath);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest, Block3PFPGetImageData) {
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsObserverBrowserTest, Block3PFPGetImageData) {
   Block3PFingerprinting();
 
   ContentSettingsForOneType fp_settings;
@@ -418,7 +418,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest, Block3PFPGetImag
   EXPECT_EQ(0, bufLen);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest, BlockFPGetImageData) {
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsObserverBrowserTest, BlockFPGetImageData) {
   BlockFingerprinting();
 
   ContentSettingsForOneType fp_settings;
@@ -441,7 +441,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest, BlockFPGetImageD
   EXPECT_EQ(0, bufLen);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest, AllowFPGetImageData) {
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsObserverBrowserTest, AllowFPGetImageData) {
   AllowFingerprinting();
 
   ContentSettingsForOneType fp_settings;
@@ -464,7 +464,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest, AllowFPGetImageD
   EXPECT_EQ(400, bufLen);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsObserverBrowserTest,
     BlockReferrerByDefault) {
   ContentSettingsForOneType settings;
   content_settings()->GetSettingsForOneType(
@@ -482,7 +482,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest,
       child_frame()).c_str(), iframe_url().GetOrigin().spec().c_str());
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest, BlockReferrer) {
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsObserverBrowserTest, BlockReferrer) {
   BlockReferrers();
   NavigateToPageWithIframe();
   EXPECT_STREQ(ExecScriptGetStr(kReferrerScript,
@@ -493,7 +493,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest, BlockReferrer) {
       iframe_url().GetOrigin().spec().c_str());
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest, AllowReferrer) {
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsObserverBrowserTest, AllowReferrer) {
   AllowReferrers();
   NavigateToPageWithIframe();
 
@@ -505,7 +505,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest, AllowReferrer) {
       url().spec().c_str());
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest, BlockReferrerShieldsDown) {
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsObserverBrowserTest, BlockReferrerShieldsDown) {
   BlockReferrers();
   ShieldsDown();
   NavigateToPageWithIframe();
@@ -517,7 +517,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest, BlockReferrerShi
       url().spec().c_str());
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsObserverBrowserTest,
     BlockThirdPartyCookieByDefault) {
   NavigateToPageWithIframe();
   EXPECT_STREQ(ExecScriptGetStr(kCookieScript,
@@ -527,7 +527,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest,
   EXPECT_STREQ(ExecScriptGetStr(kCookieScript, child_frame()).c_str(), "");
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsObserverBrowserTest,
     ExplicitBlock3PCookies) {
   Block3PCookies();
 
@@ -540,7 +540,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest,
   EXPECT_STREQ(ExecScriptGetStr(kCookieScript, child_frame()).c_str(), "");
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest, BlockCookies) {
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsObserverBrowserTest, BlockCookies) {
   BlockCookies();
   NavigateToPageWithIframe();
   EXPECT_STREQ(ExecScriptGetStr(kCookieScript, contents()).c_str(), "");
@@ -549,7 +549,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest, BlockCookies) {
   EXPECT_STREQ(ExecScriptGetStr(kCookieScript, child_frame()).c_str(), "");
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest, AllowCookies) {
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsObserverBrowserTest, AllowCookies) {
   AllowCookies();
   NavigateToPageWithIframe();
   EXPECT_STREQ(ExecScriptGetStr(kCookieScript, contents()).c_str(), COOKIE_STR);
@@ -559,8 +559,8 @@ IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest, AllowCookies) {
       COOKIE_STR);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest,
-    ChromiumCookieBlockOverridesOneVNAllowCookiesTopLevel) {
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsObserverBrowserTest,
+    ChromiumCookieBlockOverridesOnevnAllowCookiesTopLevel) {
   AllowCookies();
   HostContentSettingsMap* content_settings =
       HostContentSettingsMapFactory::GetForProfile(browser()->profile());
@@ -576,8 +576,8 @@ IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest,
   EXPECT_STREQ(ExecScriptGetStr(kCookieScript, child_frame()).c_str(), COOKIE_STR);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest,
-    ChromiumCookieBlockOverridesOneVNAllowCookiesIframe) {
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsObserverBrowserTest,
+    ChromiumCookieBlockOverridesOnevnAllowCookiesIframe) {
   AllowCookies();
   HostContentSettingsMap* content_settings =
       HostContentSettingsMapFactory::GetForProfile(browser()->profile());
@@ -594,7 +594,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest,
   EXPECT_STREQ(ExecScriptGetStr(kCookieScript, child_frame()).c_str(), "");
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsObserverBrowserTest,
     ShieldsDownAllowsCookies) {
   BlockCookies();
   ShieldsDown();
@@ -605,7 +605,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest,
   EXPECT_STREQ(ExecScriptGetStr(kCookieScript, child_frame()).c_str(), COOKIE_STR);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest,
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsObserverBrowserTest,
     ShieldsUpBlockCookies) {
   BlockCookies();
   ShieldsUp();
@@ -616,7 +616,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest,
   EXPECT_STREQ(ExecScriptGetStr(kCookieScript, child_frame()).c_str(), "");
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest, BlockScripts) {
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsObserverBrowserTest, BlockScripts) {
   BlockScripts();
 
   EXPECT_TRUE(
@@ -624,7 +624,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest, BlockScripts) {
   EXPECT_EQ(contents()->GetAllFrames().size(), 1u);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest, AllowScripts) {
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsObserverBrowserTest, AllowScripts) {
   AllowScripts();
 
   EXPECT_TRUE(
@@ -632,7 +632,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest, AllowScripts) {
   EXPECT_EQ(contents()->GetAllFrames().size(), 3u);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest, BlockScriptsShieldsDown) {
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsObserverBrowserTest, BlockScriptsShieldsDown) {
   BlockScripts();
   ShieldsDown();
 
@@ -641,7 +641,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest, BlockScriptsShie
   EXPECT_EQ(contents()->GetAllFrames().size(), 3u);
 }
 
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverBrowserTest, BlockScriptsShieldsDownInOtherTab) {
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsObserverBrowserTest, BlockScriptsShieldsDownInOtherTab) {
   // Turn off shields in a.com.
   ShieldsDown();
   // Block scripts in b.com.

@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -77,13 +77,13 @@ gfx::Insets CalcLocationBarMargin(int toolbar_width,
 
 }  // namespace
 
-OneVNToolbarView::OneVNToolbarView(Browser* browser, BrowserView* browser_view)
+OnevnToolbarView::OnevnToolbarView(Browser* browser, BrowserView* browser_view)
     : ToolbarView(browser, browser_view) {
 }
 
-OneVNToolbarView::~OneVNToolbarView() {}
+OnevnToolbarView::~OnevnToolbarView() {}
 
-void OneVNToolbarView::Init() {
+void OnevnToolbarView::Init() {
   ToolbarView::Init();
 
   // For non-normal mode, we don't have to more.
@@ -93,12 +93,12 @@ void OneVNToolbarView::Init() {
   // track changes in bookmarks enabled setting
   edit_bookmarks_enabled_.Init(
       bookmarks::prefs::kEditBookmarksEnabled, browser()->profile()->GetPrefs(),
-      base::Bind(&OneVNToolbarView::OnEditBookmarksEnabledChanged,
+      base::Bind(&OnevnToolbarView::OnEditBookmarksEnabledChanged,
                  base::Unretained(this)));
   // track changes in wide locationbar setting
   location_bar_is_wide_.Init(
       kLocationBarIsWide, browser()->profile()->GetPrefs(),
-      base::Bind(&OneVNToolbarView::OnLocationBarIsWideChanged,
+      base::Bind(&OnevnToolbarView::OnLocationBarIsWideChanged,
                  base::Unretained(this)));
 
   bookmark_ = new BookmarkButton(this);
@@ -110,19 +110,19 @@ void OneVNToolbarView::Init() {
   AddChildViewAt(bookmark_, GetIndexOf(location_bar_));
 }
 
-void OneVNToolbarView::OnEditBookmarksEnabledChanged() {
+void OnevnToolbarView::OnEditBookmarksEnabledChanged() {
   DCHECK_EQ(DisplayMode::NORMAL, display_mode_);
   Update(nullptr);
 }
 
-void OneVNToolbarView::OnLocationBarIsWideChanged() {
+void OnevnToolbarView::OnLocationBarIsWideChanged() {
   DCHECK_EQ(DisplayMode::NORMAL, display_mode_);
 
   Layout();
   SchedulePaint();
 }
 
-void OneVNToolbarView::Update(content::WebContents* tab) {
+void OnevnToolbarView::Update(content::WebContents* tab) {
   ToolbarView::Update(tab);
   // Decide whether to show the bookmark button
   if (bookmark_) {
@@ -131,11 +131,11 @@ void OneVNToolbarView::Update(content::WebContents* tab) {
   }
 }
 
-void OneVNToolbarView::ShowBookmarkBubble(
+void OnevnToolbarView::ShowBookmarkBubble(
     const GURL& url,
     bool already_bookmarked,
     bookmarks::BookmarkBubbleObserver* observer) {
-  // Show BookmarkBubble attached to OneVN's bookmark button
+  // Show BookmarkBubble attached to Onevn's bookmark button
   // or the location bar if there is no bookmark button
   // (i.e. in non-normal display mode).
   views::View* anchor_view = location_bar_;
@@ -153,7 +153,7 @@ void OneVNToolbarView::ShowBookmarkBubble(
     bookmark_->OnBubbleWidgetCreated(bubble_widget);
 }
 
-void OneVNToolbarView::Layout() {
+void OnevnToolbarView::Layout() {
   ToolbarView::Layout();
 
   if (!initialized_)
@@ -171,7 +171,7 @@ void OneVNToolbarView::Layout() {
   }
 }
 
-void OneVNToolbarView::ResetLocationBarBounds() {
+void OnevnToolbarView::ResetLocationBarBounds() {
   DCHECK_EQ(DisplayMode::NORMAL, display_mode_);
 
   // Calculate proper location bar's margin and set its bounds.
@@ -187,7 +187,7 @@ void OneVNToolbarView::ResetLocationBarBounds() {
                            location_bar_->height());
 }
 
-void OneVNToolbarView::ResetBookmarkButtonBounds() {
+void OnevnToolbarView::ResetBookmarkButtonBounds() {
   DCHECK_EQ(DisplayMode::NORMAL, display_mode_);
 
   if (!bookmark_ || !bookmark_->visible())

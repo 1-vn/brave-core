@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -16,106 +16,106 @@
 namespace extensions {
 namespace api {
 
-class OneVNRewardsCreateWalletFunction : public UIThreadExtensionFunction {
+class OnevnRewardsCreateWalletFunction : public UIThreadExtensionFunction {
  public:
   DECLARE_EXTENSION_FUNCTION("onevnRewards.createWallet", UNKNOWN)
 
  protected:
-  ~OneVNRewardsCreateWalletFunction() override;
+  ~OnevnRewardsCreateWalletFunction() override;
 
   ResponseAction Run() override;
 };
 
-class OneVNRewardsDonateToSiteFunction : public UIThreadExtensionFunction {
+class OnevnRewardsDonateToSiteFunction : public UIThreadExtensionFunction {
  public:
   DECLARE_EXTENSION_FUNCTION("onevnRewards.donateToSite", UNKNOWN)
 
  protected:
-  ~OneVNRewardsDonateToSiteFunction() override;
+  ~OnevnRewardsDonateToSiteFunction() override;
 
   ResponseAction Run() override;
 };
 
-class OneVNRewardsGetPublisherDataFunction : public UIThreadExtensionFunction {
+class OnevnRewardsGetPublisherDataFunction : public UIThreadExtensionFunction {
  public:
   DECLARE_EXTENSION_FUNCTION("onevnRewards.getPublisherData", UNKNOWN)
 
  protected:
-  ~OneVNRewardsGetPublisherDataFunction() override;
+  ~OnevnRewardsGetPublisherDataFunction() override;
 
   ResponseAction Run() override;
 };
 
-class OneVNRewardsGetWalletPropertiesFunction
+class OnevnRewardsGetWalletPropertiesFunction
     : public UIThreadExtensionFunction {
  public:
   DECLARE_EXTENSION_FUNCTION("onevnRewards.getWalletProperties", UNKNOWN)
 
  protected:
-  ~OneVNRewardsGetWalletPropertiesFunction() override;
+  ~OnevnRewardsGetWalletPropertiesFunction() override;
 
   ResponseAction Run() override;
 };
 
-class OneVNRewardsGetCurrentReportFunction : public UIThreadExtensionFunction {
+class OnevnRewardsGetCurrentReportFunction : public UIThreadExtensionFunction {
  public:
   DECLARE_EXTENSION_FUNCTION("onevnRewards.getCurrentReport", UNKNOWN)
 
  protected:
-  ~OneVNRewardsGetCurrentReportFunction() override;
+  ~OnevnRewardsGetCurrentReportFunction() override;
 
   ResponseAction Run() override;
 };
 
-class OneVNRewardsIncludeInAutoContributionFunction :
+class OnevnRewardsIncludeInAutoContributionFunction :
   public UIThreadExtensionFunction {
  public:
   DECLARE_EXTENSION_FUNCTION("onevnRewards.includeInAutoContribution", UNKNOWN)
 
  protected:
-  ~OneVNRewardsIncludeInAutoContributionFunction() override;
+  ~OnevnRewardsIncludeInAutoContributionFunction() override;
 
   ResponseAction Run() override;
 };
 
-class OneVNRewardsGetGrantsFunction : public UIThreadExtensionFunction {
+class OnevnRewardsGetGrantsFunction : public UIThreadExtensionFunction {
  public:
   DECLARE_EXTENSION_FUNCTION("onevnRewards.getGrants", UNKNOWN)
 
  protected:
-  ~OneVNRewardsGetGrantsFunction() override;
+  ~OnevnRewardsGetGrantsFunction() override;
 
   ResponseAction Run() override;
 };
 
-class OneVNRewardsGetGrantCaptchaFunction : public UIThreadExtensionFunction {
+class OnevnRewardsGetGrantCaptchaFunction : public UIThreadExtensionFunction {
  public:
   DECLARE_EXTENSION_FUNCTION("onevnRewards.getGrantCaptcha", UNKNOWN)
 
  protected:
-  ~OneVNRewardsGetGrantCaptchaFunction() override;
+  ~OnevnRewardsGetGrantCaptchaFunction() override;
 
   ResponseAction Run() override;
 };
 
-class OneVNRewardsSolveGrantCaptchaFunction : public UIThreadExtensionFunction {
+class OnevnRewardsSolveGrantCaptchaFunction : public UIThreadExtensionFunction {
  public:
   DECLARE_EXTENSION_FUNCTION("onevnRewards.solveGrantCaptcha", UNKNOWN)
 
  protected:
-  ~OneVNRewardsSolveGrantCaptchaFunction() override;
+  ~OnevnRewardsSolveGrantCaptchaFunction() override;
 
   ResponseAction Run() override;
 };
 
-class OneVNRewardsGetPendingContributionsTotalFunction
+class OnevnRewardsGetPendingContributionsTotalFunction
     : public UIThreadExtensionFunction {
  public:
   DECLARE_EXTENSION_FUNCTION(
       "onevnRewards.getPendingContributionsTotal", UNKNOWN)
 
  protected:
-  ~OneVNRewardsGetPendingContributionsTotalFunction() override;
+  ~OnevnRewardsGetPendingContributionsTotalFunction() override;
 
   ResponseAction Run() override;
 
@@ -123,13 +123,13 @@ class OneVNRewardsGetPendingContributionsTotalFunction
   void OnGetPendingTotal(double amount);
 };
 
-class OneVNRewardsGetRewardsMainEnabledFunction
+class OnevnRewardsGetRewardsMainEnabledFunction
     : public UIThreadExtensionFunction {
  public:
   DECLARE_EXTENSION_FUNCTION("onevnRewards.getRewardsMainEnabled", UNKNOWN)
 
  protected:
-  ~OneVNRewardsGetRewardsMainEnabledFunction() override;
+  ~OnevnRewardsGetRewardsMainEnabledFunction() override;
 
   ResponseAction Run() override;
 
@@ -137,22 +137,22 @@ class OneVNRewardsGetRewardsMainEnabledFunction
   void OnGetRewardsMainEnabled(bool enabled);
 };
 
-class OneVNRewardsSaveAdsSettingFunction : public UIThreadExtensionFunction {
+class OnevnRewardsSaveAdsSettingFunction : public UIThreadExtensionFunction {
  public:
   DECLARE_EXTENSION_FUNCTION("onevnRewards.saveAdsSetting", UNKNOWN)
 
  protected:
-  ~OneVNRewardsSaveAdsSettingFunction() override;
+  ~OnevnRewardsSaveAdsSettingFunction() override;
 
   ResponseAction Run() override;
 };
 
-class OneVNRewardsGetACEnabledFunction : public UIThreadExtensionFunction {
+class OnevnRewardsGetACEnabledFunction : public UIThreadExtensionFunction {
  public:
   DECLARE_EXTENSION_FUNCTION("onevnRewards.getACEnabled", UNKNOWN)
 
  protected:
-  ~OneVNRewardsGetACEnabledFunction() override;
+  ~OnevnRewardsGetACEnabledFunction() override;
 
   ResponseAction Run() override;
 
@@ -160,45 +160,45 @@ class OneVNRewardsGetACEnabledFunction : public UIThreadExtensionFunction {
   void OnGetACEnabled(bool enabled);
 };
 
-class OneVNRewardsSaveSettingFunction : public UIThreadExtensionFunction {
+class OnevnRewardsSaveSettingFunction : public UIThreadExtensionFunction {
  public:
   DECLARE_EXTENSION_FUNCTION("onevnRewards.saveSetting", UNKNOWN)
 
  protected:
-  ~OneVNRewardsSaveSettingFunction() override;
+  ~OnevnRewardsSaveSettingFunction() override;
 
   ResponseAction Run() override;
 };
 
-class OneVNRewardsSaveRecurringTipFunction :
+class OnevnRewardsSaveRecurringTipFunction :
   public UIThreadExtensionFunction {
  public:
   DECLARE_EXTENSION_FUNCTION("onevnRewards.saveRecurringTip", UNKNOWN)
 
  protected:
-  ~OneVNRewardsSaveRecurringTipFunction() override;
+  ~OnevnRewardsSaveRecurringTipFunction() override;
 
   ResponseAction Run() override;
 };
 
-class OneVNRewardsRemoveRecurringTipFunction :
+class OnevnRewardsRemoveRecurringTipFunction :
   public UIThreadExtensionFunction {
  public:
   DECLARE_EXTENSION_FUNCTION("onevnRewards.removeRecurringTip", UNKNOWN)
 
  protected:
-  ~OneVNRewardsRemoveRecurringTipFunction() override;
+  ~OnevnRewardsRemoveRecurringTipFunction() override;
 
   ResponseAction Run() override;
 };
 
-class OneVNRewardsGetRecurringTipsFunction :
+class OnevnRewardsGetRecurringTipsFunction :
   public UIThreadExtensionFunction {
  public:
   DECLARE_EXTENSION_FUNCTION("onevnRewards.getRecurringTips", UNKNOWN)
 
  protected:
-  ~OneVNRewardsGetRecurringTipsFunction() override;
+  ~OnevnRewardsGetRecurringTipsFunction() override;
 
   ResponseAction Run() override;
 
@@ -207,14 +207,14 @@ class OneVNRewardsGetRecurringTipsFunction :
         std::unique_ptr<onevn_rewards::ContentSiteList> list);
 };
 
-class OneVNRewardsGetPublisherBannerFunction :
+class OnevnRewardsGetPublisherBannerFunction :
 public UIThreadExtensionFunction {
  public:
   DECLARE_EXTENSION_FUNCTION(
       "onevnRewards.getPublisherBanner", UNKNOWN)
 
  protected:
-  ~OneVNRewardsGetPublisherBannerFunction() override;
+  ~OnevnRewardsGetPublisherBannerFunction() override;
 
   ResponseAction Run() override;
 
@@ -223,12 +223,12 @@ public UIThreadExtensionFunction {
       std::unique_ptr<::onevn_rewards::PublisherBanner> banner);
 };
 
-class OneVNRewardsRefreshPublisherFunction : public UIThreadExtensionFunction {
+class OnevnRewardsRefreshPublisherFunction : public UIThreadExtensionFunction {
  public:
   DECLARE_EXTENSION_FUNCTION("onevnRewards.refreshPublisher", UNKNOWN)
 
  protected:
-  ~OneVNRewardsRefreshPublisherFunction() override;
+  ~OnevnRewardsRefreshPublisherFunction() override;
 
   ResponseAction Run() override;
 
@@ -236,13 +236,13 @@ class OneVNRewardsRefreshPublisherFunction : public UIThreadExtensionFunction {
   void OnRefreshPublisher(bool verified, const std::string& publisher_key);
 };
 
-class OneVNRewardsGetAllNotificationsFunction :
+class OnevnRewardsGetAllNotificationsFunction :
     public UIThreadExtensionFunction {
  public:
   DECLARE_EXTENSION_FUNCTION("onevnRewards.getAllNotifications", UNKNOWN)
 
  protected:
-  ~OneVNRewardsGetAllNotificationsFunction() override;
+  ~OnevnRewardsGetAllNotificationsFunction() override;
 
   ResponseAction Run() override;
 };

@@ -1,4 +1,4 @@
-// Copyright (c) 2019 The OneVN Authors. All rights reserved.
+// Copyright (c) 2019 The Onevn Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // you can obtain one at http://mozilla.org/MPL/2.0/.
@@ -14,9 +14,9 @@
       if (debug) {
         console.debug(`Polymer component registering: ${component.is}`, component)
       }
-      addOneVNBehaviors(component)
-      addOneVNTemplateModifications(component)
-      addOneVNStyleOverrides(component)
+      addOnevnBehaviors(component)
+      addOnevnTemplateModifications(component)
+      addOnevnStyleOverrides(component)
     }
     return oldFn(component)
   }
@@ -24,7 +24,7 @@
 
   const allBehaviorsMap = {}
 
-  function addOneVNBehaviors(component) {
+  function addOnevnBehaviors(component) {
     if (allBehaviorsMap[component.is]) {
       component.behaviors = component.behaviors || []
       component.behaviors.push(...allBehaviorsMap[component.is])
@@ -32,10 +32,10 @@
     }
   }
 
-  const allOneVNTemplateModificationsMap = {}
+  const allOnevnTemplateModificationsMap = {}
 
-  function addOneVNTemplateModifications(component) {
-    if (allOneVNTemplateModificationsMap[component.is]) {
+  function addOnevnTemplateModifications(component) {
+    if (allOnevnTemplateModificationsMap[component.is]) {
       const moduleName = component.is
       const domModule = Polymer.DomModule.import(moduleName)
       if (domModule) {
@@ -43,16 +43,16 @@
         if (template) {
           const templateContent = template.content
           const t0 = performance.now()
-          allOneVNTemplateModificationsMap[component.is](templateContent)
+          allOnevnTemplateModificationsMap[component.is](templateContent)
           const t1 = performance.now()
           console.debug(`Modifying template '${component.is}' took ${t1 - t0}ms`)
         }
       }
-      delete allOneVNTemplateModificationsMap[component.is]
+      delete allOnevnTemplateModificationsMap[component.is]
     }
   }
 
-  function addOneVNStyleOverrides(component) {
+  function addOnevnStyleOverrides(component) {
     // does have template style element?
     const moduleName = component.is
     const domModule = Polymer.DomModule.import(moduleName)
@@ -84,7 +84,7 @@
   }
 
   function RegisterPolymerTemplateModifications(modificationsMap) {
-    Object.assign(allOneVNTemplateModificationsMap, modificationsMap)
+    Object.assign(allOnevnTemplateModificationsMap, modificationsMap)
   }
 
   function OverrideIronIcons(iconSetName, overridingIconSetName, iconOverrides) {
@@ -117,7 +117,7 @@
   }
 
   // Accessible to other modules
-  window.OneVNPatching = Object.assign({}, window.OneVNPatching, {
+  window.OnevnPatching = Object.assign({}, window.OnevnPatching, {
     RegisterPolymerComponentBehaviors,
     RegisterPolymerTemplateModifications,
     OverrideIronIcons

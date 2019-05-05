@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -11,22 +11,22 @@
 namespace extensions {
 namespace api {
 
-class OneVNThemeGetOneVNThemeListFunction : public UIThreadExtensionFunction {
+class OnevnThemeGetOnevnThemeListFunction : public UIThreadExtensionFunction {
  public:
-  DECLARE_EXTENSION_FUNCTION("onevnTheme.getOneVNThemeList", UNKNOWN)
+  DECLARE_EXTENSION_FUNCTION("onevnTheme.getOnevnThemeList", UNKNOWN)
 
  protected:
-  ~OneVNThemeGetOneVNThemeListFunction() override {}
+  ~OnevnThemeGetOnevnThemeListFunction() override {}
 
   ResponseAction Run() override;
 };
 
-class OneVNThemeGetOneVNThemeTypeFunction : public UIThreadExtensionFunction {
+class OnevnThemeGetOnevnThemeTypeFunction : public UIThreadExtensionFunction {
  public:
-  DECLARE_EXTENSION_FUNCTION("onevnTheme.getOneVNThemeType", UNKNOWN)
+  DECLARE_EXTENSION_FUNCTION("onevnTheme.getOnevnThemeType", UNKNOWN)
 
  protected:
-  ~OneVNThemeGetOneVNThemeTypeFunction() override {}
+  ~OnevnThemeGetOnevnThemeTypeFunction() override {}
 
   ResponseAction Run() override;
 };

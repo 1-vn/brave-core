@@ -7,16 +7,16 @@
 
 namespace onevn_sync {
 
-class OneVNSyncService;
+class OnevnSyncService;
 
-class OneVNSyncServiceObserver : public base::CheckedObserver {
+class OnevnSyncServiceObserver : public base::CheckedObserver {
  public:
-  ~OneVNSyncServiceObserver() override {}
+  ~OnevnSyncServiceObserver() override {}
 
-  virtual void OnSyncSetupError(OneVNSyncService* sync_service,
+  virtual void OnSyncSetupError(OnevnSyncService* sync_service,
                                 const std::string& error) {}
-  virtual void OnSyncStateChanged(OneVNSyncService* sync_service) {}
-  virtual void OnHaveSyncWords(OneVNSyncService* sync_service,
+  virtual void OnSyncStateChanged(OnevnSyncService* sync_service) {}
+  virtual void OnHaveSyncWords(OnevnSyncService* sync_service,
                                const std::string& sync_words) {}
 };
 

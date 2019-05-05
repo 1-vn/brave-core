@@ -7,12 +7,12 @@
 
 #include "chrome/browser/permissions/permission_manager.h"
 
-class OneVNPermissionManager : public PermissionManager {
+class OnevnPermissionManager : public PermissionManager {
  public:
-  explicit OneVNPermissionManager(Profile* profile);
+  explicit OnevnPermissionManager(Profile* profile);
 
  private:
-  DISALLOW_COPY_AND_ASSIGN(OneVNPermissionManager);
+  DISALLOW_COPY_AND_ASSIGN(OnevnPermissionManager);
 };
 
 #endif // ONEVN_BROWSER_PERMISSION_ONEVN_PERMISSION_MANAGER_H_

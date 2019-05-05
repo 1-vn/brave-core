@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -35,40 +35,40 @@
 #include "onevn/browser/widevine/onevn_widevine_bundle_manager.h"
 #endif
 
-OneVNBrowserProcessImpl* g_onevn_browser_process = nullptr;
+OnevnBrowserProcessImpl* g_onevn_browser_process = nullptr;
 
 using content::BrowserThread;
 
-OneVNBrowserProcessImpl::~OneVNBrowserProcessImpl() {
+OnevnBrowserProcessImpl::~OnevnBrowserProcessImpl() {
 }
 
-OneVNBrowserProcessImpl::OneVNBrowserProcessImpl(
+OnevnBrowserProcessImpl::OnevnBrowserProcessImpl(
     ChromeFeatureListCreator* chrome_feature_list_creator)
     : BrowserProcessImpl(chrome_feature_list_creator) {
   g_browser_process = this;
   g_onevn_browser_process = this;
 
-  onevn_referrals_service_ = onevn::OneVNReferralsServiceFactory(local_state());
+  onevn_referrals_service_ = onevn::OnevnReferralsServiceFactory(local_state());
   base::SequencedTaskRunnerHandle::Get()->PostDelayedTask(
       FROM_HERE,
       base::BindOnce(
-          [](onevn::OneVNReferralsService* referrals_service) {
+          [](onevn::OnevnReferralsService* referrals_service) {
             referrals_service->Start();
           },
           base::Unretained(onevn_referrals_service_.get())),
       base::TimeDelta::FromSeconds(3));
 
-  onevn_stats_updater_ = onevn::OneVNStatsUpdaterFactory(local_state());
+  onevn_stats_updater_ = onevn::OnevnStatsUpdaterFactory(local_state());
   base::SequencedTaskRunnerHandle::Get()->PostTask(
       FROM_HERE, base::BindOnce(
-                     [](onevn::OneVNStatsUpdater* stats_updater) {
+                     [](onevn::OnevnStatsUpdater* stats_updater) {
                        stats_updater->Start();
                      },
                      base::Unretained(onevn_stats_updater_.get())));
 }
 
 component_updater::ComponentUpdateService*
-OneVNBrowserProcessImpl::component_updater() {
+OnevnBrowserProcessImpl::component_updater() {
   if (component_updater_)
     return component_updater_.get();
 
@@ -88,7 +88,7 @@ OneVNBrowserProcessImpl::component_updater() {
     scheduler = std::make_unique<component_updater::TimerUpdateScheduler>();
 
   component_updater_ = component_updater::ComponentUpdateServiceFactory(
-      component_updater::MakeOneVNComponentUpdaterConfigurator(
+      component_updater::MakeOnevnComponentUpdaterConfigurator(
           base::CommandLine::ForCurrentProcess(),
           g_browser_process->local_state()),
       std::move(scheduler));
@@ -96,7 +96,7 @@ OneVNBrowserProcessImpl::component_updater() {
   return component_updater_.get();
 }
 
-ProfileManager* OneVNBrowserProcessImpl::profile_manager() {
+ProfileManager* OnevnBrowserProcessImpl::profile_manager() {
   DCHECK_CALLED_ON_VALID_SEQUENCE(sequence_checker_);
   if (!created_profile_manager_)
     CreateProfileManager();
@@ -104,7 +104,7 @@ ProfileManager* OneVNBrowserProcessImpl::profile_manager() {
 }
 
 onevn_shields::AdBlockService*
-OneVNBrowserProcessImpl::ad_block_service() {
+OnevnBrowserProcessImpl::ad_block_service() {
   if (ad_block_service_)
     return ad_block_service_.get();
 
@@ -113,7 +113,7 @@ OneVNBrowserProcessImpl::ad_block_service() {
 }
 
 onevn_shields::AdBlockCustomFiltersService*
-OneVNBrowserProcessImpl::ad_block_custom_filters_service() {
+OnevnBrowserProcessImpl::ad_block_custom_filters_service() {
   if (!ad_block_custom_filters_service_)
     ad_block_custom_filters_service_ =
         onevn_shields::AdBlockCustomFiltersServiceFactory();
@@ -121,7 +121,7 @@ OneVNBrowserProcessImpl::ad_block_custom_filters_service() {
 }
 
 onevn_shields::AdBlockRegionalServiceManager*
-OneVNBrowserProcessImpl::ad_block_regional_service_manager() {
+OnevnBrowserProcessImpl::ad_block_regional_service_manager() {
   if (!ad_block_regional_service_manager_)
     ad_block_regional_service_manager_ =
         onevn_shields::AdBlockRegionalServiceManagerFactory();
@@ -129,7 +129,7 @@ OneVNBrowserProcessImpl::ad_block_regional_service_manager() {
 }
 
 onevn_shields::AutoplayWhitelistService*
-OneVNBrowserProcessImpl::autoplay_whitelist_service() {
+OnevnBrowserProcessImpl::autoplay_whitelist_service() {
   if (!autoplay_whitelist_service_) {
     autoplay_whitelist_service_ =
         onevn_shields::AutoplayWhitelistServiceFactory();
@@ -138,7 +138,7 @@ OneVNBrowserProcessImpl::autoplay_whitelist_service() {
 }
 
 onevn_shields::ExtensionWhitelistService*
-OneVNBrowserProcessImpl::extension_whitelist_service() {
+OnevnBrowserProcessImpl::extension_whitelist_service() {
   if (!extension_whitelist_service_) {
     extension_whitelist_service_ =
         onevn_shields::ExtensionWhitelistServiceFactory();
@@ -147,7 +147,7 @@ OneVNBrowserProcessImpl::extension_whitelist_service() {
 }
 
 onevn_shields::ReferrerWhitelistService*
-OneVNBrowserProcessImpl::referrer_whitelist_service() {
+OnevnBrowserProcessImpl::referrer_whitelist_service() {
   if (!referrer_whitelist_service_) {
     referrer_whitelist_service_ =
       onevn_shields::ReferrerWhitelistServiceFactory();
@@ -156,7 +156,7 @@ OneVNBrowserProcessImpl::referrer_whitelist_service() {
 }
 
 onevn_shields::TrackingProtectionService*
-OneVNBrowserProcessImpl::tracking_protection_service() {
+OnevnBrowserProcessImpl::tracking_protection_service() {
   if (!tracking_protection_service_) {
     tracking_protection_service_ =
         onevn_shields::TrackingProtectionServiceFactory();
@@ -165,7 +165,7 @@ OneVNBrowserProcessImpl::tracking_protection_service() {
 }
 
 onevn_shields::HTTPSEverywhereService*
-OneVNBrowserProcessImpl::https_everywhere_service() {
+OnevnBrowserProcessImpl::https_everywhere_service() {
   if (!https_everywhere_service_)
     https_everywhere_service_ =
         onevn_shields::HTTPSEverywhereServiceFactory();
@@ -173,36 +173,36 @@ OneVNBrowserProcessImpl::https_everywhere_service() {
 }
 
 onevn_shields::LocalDataFilesService*
-OneVNBrowserProcessImpl::local_data_files_service() {
+OnevnBrowserProcessImpl::local_data_files_service() {
   if (!local_data_files_service_)
     local_data_files_service_ =
         onevn_shields::LocalDataFilesServiceFactory();
   return local_data_files_service_.get();
 }
 
-extensions::OneVNTorClientUpdater*
-OneVNBrowserProcessImpl::tor_client_updater() {
+extensions::OnevnTorClientUpdater*
+OnevnBrowserProcessImpl::tor_client_updater() {
   if (tor_client_updater_)
     return tor_client_updater_.get();
 
-  tor_client_updater_ = extensions::OneVNTorClientUpdaterFactory();
+  tor_client_updater_ = extensions::OnevnTorClientUpdaterFactory();
   return tor_client_updater_.get();
 }
 
-void OneVNBrowserProcessImpl::CreateProfileManager() {
+void OnevnBrowserProcessImpl::CreateProfileManager() {
   DCHECK(!created_profile_manager_ && !profile_manager_);
   created_profile_manager_ = true;
 
   base::FilePath user_data_dir;
   base::PathService::Get(chrome::DIR_USER_DATA, &user_data_dir);
-  profile_manager_ = std::make_unique<OneVNProfileManager>(user_data_dir);
+  profile_manager_ = std::make_unique<OnevnProfileManager>(user_data_dir);
 }
 
 #if BUILDFLAG(BUNDLE_WIDEVINE_CDM)
-OneVNWidevineBundleManager*
-OneVNBrowserProcessImpl::onevn_widevine_bundle_manager() {
+OnevnWidevineBundleManager*
+OnevnBrowserProcessImpl::onevn_widevine_bundle_manager() {
   if (!onevn_widevine_bundle_manager_)
-    onevn_widevine_bundle_manager_.reset(new OneVNWidevineBundleManager);
+    onevn_widevine_bundle_manager_.reset(new OnevnWidevineBundleManager);
   return onevn_widevine_bundle_manager_.get();
 }
 #endif

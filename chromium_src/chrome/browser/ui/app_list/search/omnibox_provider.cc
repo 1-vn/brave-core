@@ -5,6 +5,6 @@
 #include "onevn/components/omnibox/browser/onevn_autocomplete_controller.h"
 #include "components/omnibox/browser/autocomplete_controller.h"
 
-#define AutocompleteController OneVNAutocompleteController
+#define AutocompleteController OnevnAutocompleteController
 #include "../../../../../../../chrome/browser/ui/app_list/search/omnibox_provider.cc"
 #undef AutocompleteController

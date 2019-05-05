@@ -102,7 +102,7 @@ const getPrimaryPatternForOrigin = (origin: string) => {
  * @param {string} setting 'allow' or 'block'
  * @return a promise which resolves when the setting is set
  */
-export const setAllowOneVNShields = (origin: string, setting: string) =>
+export const setAllowOnevnShields = (origin: string, setting: string) =>
   chrome.onevnShields.plugins.setAsync({
     primaryPattern: getPrimaryPatternForOrigin(origin),
     resourceIdentifier: { id: resourceIdentifiers.RESOURCE_IDENTIFIER_ONEVN_SHIELDS },

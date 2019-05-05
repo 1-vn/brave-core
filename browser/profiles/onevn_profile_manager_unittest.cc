@@ -39,7 +39,7 @@ MATCHER(NotFail, "Profile creation failure status is not reported.") {
 
 }  // namespace
 
-class OneVNProfileManagerTest : public testing::Test {
+class OnevnProfileManagerTest : public testing::Test {
  protected:
   class MockObserver {
    public:
@@ -48,7 +48,7 @@ class OneVNProfileManagerTest : public testing::Test {
         void(Profile* profile, Profile::CreateStatus status));
   };
 
-  OneVNProfileManagerTest()
+  OnevnProfileManagerTest()
       : local_state_(TestingBrowserProcess::GetGlobal()) {
   }
 
@@ -70,7 +70,7 @@ class OneVNProfileManagerTest : public testing::Test {
                           const std::string& name,
                           MockObserver* mock_observer) {
     if (temp_dir_.GetPath().AppendASCII(name) ==
-        OneVNProfileManager::GetTorProfilePath())
+        OnevnProfileManager::GetTorProfilePath())
       mock_observer->DidLaunchTorProcess();
     manager->CreateProfileAsync(temp_dir_.GetPath().AppendASCII(name),
                                 base::Bind(&MockObserver::OnProfileCreated,
@@ -100,17 +100,17 @@ class OneVNProfileManagerTest : public testing::Test {
   base::ScopedTempDir temp_dir_;
   ScopedTestingLocalState local_state_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNProfileManagerTest);
+  DISALLOW_COPY_AND_ASSIGN(OnevnProfileManagerTest);
 };
 
-TEST_F(OneVNProfileManagerTest, GetTorProfilePath) {
-  base::FilePath tor_path = OneVNProfileManager::GetTorProfilePath();
+TEST_F(OnevnProfileManagerTest, GetTorProfilePath) {
+  base::FilePath tor_path = OnevnProfileManager::GetTorProfilePath();
   base::FilePath expected_path = temp_dir_.GetPath();
   expected_path = expected_path.Append(tor::kTorProfileDir);
   EXPECT_EQ(expected_path, tor_path);
 }
 
-TEST_F(OneVNProfileManagerTest, InitProfileUserPrefs) {
+TEST_F(OnevnProfileManagerTest, InitProfileUserPrefs) {
   base::FilePath dest_path = temp_dir_.GetPath();
   dest_path = dest_path.Append(tor::kTorProfileDir);
 
@@ -144,7 +144,7 @@ TEST_F(OneVNProfileManagerTest, InitProfileUserPrefs) {
 
 // This is for tor guest window, remove it when we have persistent tor profiles
 // support
-TEST_F(OneVNProfileManagerTest, TorProfileDontEndUpAsLastProfile) {
+TEST_F(OnevnProfileManagerTest, TorProfileDontEndUpAsLastProfile) {
   base::FilePath dest_path = temp_dir_.GetPath();
   dest_path = dest_path.Append(tor::kTorProfileDir);
 
@@ -171,7 +171,7 @@ TEST_F(OneVNProfileManagerTest, TorProfileDontEndUpAsLastProfile) {
   EXPECT_NE(profile, last_used_profile);
 }
 
-TEST_F(OneVNProfileManagerTest, CreateProfilesAsync) {
+TEST_F(OnevnProfileManagerTest, CreateProfilesAsync) {
   const std::string profile_name1 = "New Profile 1";
   const std::string profile_name2 = "Tor Profile";
 

@@ -9,22 +9,22 @@
 
 namespace onevn_sync {
 
-OneVNSyncService::OneVNSyncService() {}
-OneVNSyncService::~OneVNSyncService() {}
+OnevnSyncService::OnevnSyncService() {}
+OnevnSyncService::~OnevnSyncService() {}
 
-void OneVNSyncService::AddObserver(OneVNSyncServiceObserver* observer) {
+void OnevnSyncService::AddObserver(OnevnSyncServiceObserver* observer) {
   observers_.AddObserver(observer);
 }
 
-void OneVNSyncService::RemoveObserver(OneVNSyncServiceObserver* observer) {
+void OnevnSyncService::RemoveObserver(OnevnSyncServiceObserver* observer) {
   observers_.RemoveObserver(observer);
 }
 
 // static
-bool OneVNSyncService::is_enabled() {
+bool OnevnSyncService::is_enabled() {
   const base::CommandLine& command_line =
       *base::CommandLine::ForCurrentProcess();
-  return !command_line.HasSwitch(switches::kDisableOneVNSync);
+  return !command_line.HasSwitch(switches::kDisableOnevnSync);
 }
 
 }  // namespace onevn_sync

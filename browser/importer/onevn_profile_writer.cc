@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -51,7 +51,7 @@
 #include "services/network/public/mojom/cookie_manager.mojom.h"
 #include "ui/base/ui_base_types.h"
 
-OneVNProfileWriter::OneVNProfileWriter(Profile* profile)
+OnevnProfileWriter::OnevnProfileWriter(Profile* profile)
     : ProfileWriter(profile),
       task_runner_(base::CreateSequencedTaskRunnerWithTraits({
           base::MayBlock(), base::TaskPriority::BEST_EFFORT,
@@ -59,11 +59,11 @@ OneVNProfileWriter::OneVNProfileWriter(Profile* profile)
       consider_for_backup_(false) {
 }
 
-OneVNProfileWriter::~OneVNProfileWriter() {
+OnevnProfileWriter::~OnevnProfileWriter() {
   DCHECK(!IsInObserverList());
 }
 
-void OneVNProfileWriter::AddCookies(
+void OnevnProfileWriter::AddCookies(
     const std::vector<net::CanonicalCookie>& cookies) {
   network::mojom::CookieManagerPtr cookie_manager;
   content::BrowserContext::GetDefaultStoragePartition(profile_)
@@ -80,7 +80,7 @@ void OneVNProfileWriter::AddCookies(
   }
 }
 
-void OneVNProfileWriter::UpdateStats(const OneVNStats& stats) {
+void OnevnProfileWriter::UpdateStats(const OnevnStats& stats) {
   PrefService* prefs = profile_->GetOriginalProfile()->GetPrefs();
 
   const uint64_t ads_blocked = prefs->GetUint64(kAdsBlocked);
@@ -102,11 +102,11 @@ void OneVNProfileWriter::UpdateStats(const OneVNStats& stats) {
                      https_upgrades + stats.httpsEverywhere_count);
   }
 }
-void OneVNProfileWriter::SetBridge(OneVNInProcessImporterBridge* bridge) {
+void OnevnProfileWriter::SetBridge(OnevnInProcessImporterBridge* bridge) {
   bridge_ptr_ = bridge;
 }
 
-void OneVNProfileWriter::OnWalletInitialized(
+void OnevnProfileWriter::OnWalletInitialized(
     onevn_rewards::RewardsService* rewards_service, uint32_t result) {
   if (result != 0 && result != 12) {  // 12: ledger::Result::WALLET_CREATED
     // Cancel the import if wallet creation failed
@@ -121,7 +121,7 @@ void OneVNProfileWriter::OnWalletInitialized(
   rewards_service->RecoverWallet(ledger_.passphrase);
 }
 
-void OneVNProfileWriter::BackupWallet() {
+void OnevnProfileWriter::BackupWallet() {
   const base::FilePath profile_default_directory = profile_->GetPath();
   std::ostringstream backup_filename;
   backup_filename << "ledger_import_backup_"
@@ -137,11 +137,11 @@ void OneVNProfileWriter::BackupWallet() {
     base::Bind(&base::CopyFile,
       profile_default_directory.AppendASCII("ledger_state"),
       profile_default_directory.AppendASCII(backup_filename.str())),
-    base::Bind(&OneVNProfileWriter::OnWalletBackupComplete,
+    base::Bind(&OnevnProfileWriter::OnWalletBackupComplete,
       this));
 }
 
-void OneVNProfileWriter::OnWalletBackupComplete(bool result) {
+void OnevnProfileWriter::OnWalletBackupComplete(bool result) {
   if (!result) {
     CancelWalletImport("Failed to make a backup of \"ledger_state\"");
     return;
@@ -151,7 +151,7 @@ void OneVNProfileWriter::OnWalletBackupComplete(bool result) {
   rewards_service_->RecoverWallet(ledger_.passphrase);
 }
 
-void OneVNProfileWriter::OnWalletProperties(
+void OnevnProfileWriter::OnWalletProperties(
   onevn_rewards::RewardsService* rewards_service,
   int error_code,
   std::unique_ptr<onevn_rewards::WalletProperties> properties) {
@@ -168,21 +168,21 @@ void OneVNProfileWriter::OnWalletProperties(
   // This handler will get fired periodically (until the observer
   // is removed). A backup only needs to be done if the wallet
   // already exists and this is the response from our request below
-  // in `OneVNProfileWriter::UpdateLedger`.
+  // in `OnevnProfileWriter::UpdateLedger`.
   //
   // A more proper way to do this would be to pass a transaction ID
   // into the original FetchWalletProperties() that also gets
   // propagated through to this handler.
   if (consider_for_backup_) {
     consider_for_backup_ = false;
-    // Avoid overwriting OneVN Rewards wallet if:
+    // Avoid overwriting Onevn Rewards wallet if:
     // - it existed BEFORE import happened
     // - it has a non-zero balance
     if (properties->balance > 0) {
       std::ostringstream msg;
-      msg << "OneVN Rewards wallet existed before import and "
+      msg << "Onevn Rewards wallet existed before import and "
         << "has a balance of " << properties->balance << "; skipping "
-        << "OneVN Payments import.";
+        << "Onevn Payments import.";
       CancelWalletImport(msg.str());
       return;
     } else {
@@ -193,7 +193,7 @@ void OneVNProfileWriter::OnWalletProperties(
   }
 }
 
-void OneVNProfileWriter::OnRecoverWallet(
+void OnevnProfileWriter::OnRecoverWallet(
     onevn_rewards::RewardsService* rewards_service,
     unsigned int result,
     double balance,
@@ -214,14 +214,14 @@ void OneVNProfileWriter::OnRecoverWallet(
 
   // Set the pinned item count (rewards can detect and take action)
   PrefService* prefs = profile_->GetPrefs();
-  prefs->SetInteger(kOneVNPaymentsPinnedItemCount, pinned_item_count_);
+  prefs->SetInteger(kOnevnPaymentsPinnedItemCount, pinned_item_count_);
 
   // Notify the caller that import is complete
   DCHECK(bridge_ptr_);
   bridge_ptr_->FinishLedgerImport();
 }
 
-void OneVNProfileWriter::CancelWalletImport(std::string msg) {
+void OnevnProfileWriter::CancelWalletImport(std::string msg) {
   if (IsInObserverList()) {
     rewards_service_->RemoveObserver(this);
   }
@@ -232,7 +232,7 @@ void OneVNProfileWriter::CancelWalletImport(std::string msg) {
   bridge_ptr_->FinishLedgerImport();
 }
 
-void OneVNProfileWriter::SetWalletProperties(onevn_rewards::RewardsService*
+void OnevnProfileWriter::SetWalletProperties(onevn_rewards::RewardsService*
   rewards_service) {
   // Set the preferences read from session-store-1
   auto* payments = &ledger_.settings.payments;
@@ -299,7 +299,7 @@ void OneVNProfileWriter::SetWalletProperties(onevn_rewards::RewardsService*
   rewards_service->SetAutoContribute(auto_contribute_enabled);
 }
 
-void OneVNProfileWriter::UpdateLedger(const OneVNLedger& ledger) {
+void OnevnProfileWriter::UpdateLedger(const OnevnLedger& ledger) {
   rewards_service_ =
       onevn_rewards::RewardsServiceFactory::GetForProfile(profile_);
   if (!rewards_service_) {
@@ -307,12 +307,12 @@ void OneVNProfileWriter::UpdateLedger(const OneVNLedger& ledger) {
     return;
   }
 
-  ledger_ = OneVNLedger(ledger);
+  ledger_ = OnevnLedger(ledger);
   rewards_service_->IsWalletCreated(
-      base::Bind(&OneVNProfileWriter::OnIsWalletCreated, AsWeakPtr()));
+      base::Bind(&OnevnProfileWriter::OnIsWalletCreated, AsWeakPtr()));
 }
 
-void OneVNProfileWriter::OnIsWalletCreated(bool created) {
+void OnevnProfileWriter::OnIsWalletCreated(bool created) {
   // If a wallet doesn't exist, we need to create one (needed for RecoverWallet)
   if (!created) {
     rewards_service_->AddObserver(this);
@@ -329,7 +329,7 @@ void OneVNProfileWriter::OnIsWalletCreated(bool created) {
   rewards_service_->FetchWalletProperties();
 }
 
-void OneVNProfileWriter::UpdateReferral(const OneVNReferral& referral) {
+void OnevnProfileWriter::UpdateReferral(const OnevnReferral& referral) {
   PrefService* local_state = g_browser_process->local_state();
   if (!local_state) {
     LOG(ERROR) << "Unable to get local_state! (needed to set referral info)";
@@ -440,7 +440,7 @@ void PrependPinnedTabs(Browser* browser,
   OpenImportedBrowserTabs(browser, tabs, true);
 }
 
-void OneVNProfileWriter::UpdateWindows(
+void OnevnProfileWriter::UpdateWindows(
     const ImportedWindowState& windowState) {
   Browser* active = chrome::FindBrowserWithActiveWindow();
   Browser* first = nullptr;
@@ -476,7 +476,7 @@ const std::map<std::string,
       {"StartPage", TemplateURLPrepopulateData::startpage},
     };
 
-void OneVNProfileWriter::UpdateSettings(const SessionStoreSettings& settings) {
+void OnevnProfileWriter::UpdateSettings(const SessionStoreSettings& settings) {
   int default_search_engine_id =
       TemplateURLPrepopulateData::PREPOPULATED_ENGINE_ID_INVALID;
 

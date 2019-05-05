@@ -7,7 +7,7 @@ index b7a29716b8aae57e13a450159c946718914879a3..45eb249c11404f793abcdd5ea5a3da1e
    // Web UI bindings need the ability to request chrome: URLs.
    state->second->GrantRequestScheme(kChromeUIScheme);
 +#if defined(ONEVN_CHROMIUM_BUILD)
-+  state->second->GrantRequestScheme(kOneVNUIScheme);
++  state->second->GrantRequestScheme(kOnevnUIScheme);
 +#endif
  
    // Web UI pages can contain links to file:// URLs.

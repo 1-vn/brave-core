@@ -1,4 +1,4 @@
-/* Copyright 2019 The OneVN Authors. All rights reserved.
+/* Copyright 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -78,8 +78,8 @@ bool IsTorProfile(net::URLRequest* request) {
     return false;
   }
 
-  const OneVNNavigationUIData* ui_data =
-    static_cast<const OneVNNavigationUIData*>(
+  const OnevnNavigationUIData* ui_data =
+    static_cast<const OnevnNavigationUIData*>(
         resource_info->GetNavigationUIData());
   if (!ui_data) {
     return false;
@@ -120,7 +120,7 @@ int OnHeadersReceived_TorrentRedirectWork(
     scoped_refptr<net::HttpResponseHeaders>* override_response_headers,
     GURL* allowed_unsafe_redirect_url,
     const onevn::ResponseCallback& next_callback,
-    std::shared_ptr<onevn::OneVNRequestInfo> ctx) {
+    std::shared_ptr<onevn::OnevnRequestInfo> ctx) {
 
   if (!request || !original_response_headers ||
       IsTorProfile(request) ||

@@ -1,6 +1,6 @@
 {
   "onevnRewards": {
-    "message": "OneVN balvas",
+    "message": "Onevn balvas",
     "description": "Title in welcome screen for the panel"
   },
   "welcomeButtonTextOne": {
@@ -28,7 +28,7 @@
     "description": "Link in the footer (takes you to rewards settings page) for welcome screen in the panel, new user"
   },
   "welcomeHeaderOne": {
-    "message": "Tika veikts liels OneVN balvu jauninājums.",
+    "message": "Tika veikts liels Onevn balvu jauninājums.",
     "description": "Main header title for welcome screen in the panel, existing user"
   },
   "welcomeHeaderTwo": {
@@ -48,7 +48,7 @@
     "description": "The whole string is 'Enable tips on YouTube for like.'"
   },
   "verifiedPublisher": {
-    "message": "OneVN apstiprināts publicētājs",
+    "message": "Onevn apstiprināts publicētājs",
     "description": "Tells user that this particular publisher is verified publisher"
   },
   "rewardsContributeAttentionScore": {
@@ -164,7 +164,7 @@
     "description": "Used in notification to dismiss notification"
   },
   "onevnAdsTitle": {
-    "message": "OneVN reklāmas",
+    "message": "Onevn reklāmas",
     "description": "Notification title when we display info about ads"
   },
   "onevnContributeTitle": {
@@ -194,11 +194,11 @@
     "description": "Notification title when we ask user to backup wallet"
   },
   "backupWalletNotification": {
-    "message": "Lūdzu, izveidojiet sava OneVN maka dublējumkopiju.",
+    "message": "Lūdzu, izveidojiet sava Onevn maka dublējumkopiju.",
     "description": "Description for backup wallet notification"
   },
   "insufficientFundsNotification": {
-    "message": "Veiciet iemaksu savā OneVN balvu kontā.",
+    "message": "Veiciet iemaksu savā Onevn balvu kontā.",
     "description": "Description for new insufficient funds notification"
   },
   "insufficientFunds": {
@@ -270,7 +270,7 @@
     "description": "Button text for clearing the error."
   },
   "grantGeneralErrorText": {
-    "message": "Radusies kļūda saistībā ar OneVN balvām. Lūdzu, mēģiniet vēlreiz vēlāk.",
+    "message": "Radusies kļūda saistībā ar Onevn balvām. Lūdzu, mēģiniet vēlreiz vēlāk.",
     "description": "Error text when user is having problems claiming a grant."
   },
   "grantGeneralErrorTitle": {
@@ -294,7 +294,7 @@
     "description": "Status of the publisher shown in the panel"
   },
   "unVerifiedText": {
-    "message": "Šis satura veidotājs vēl nav pierakstījies ziedojumu saņemšanai no OneVN lietotājiem. Dzeramnauda, ko nosūtīsiet, paliks jūsu makā līdz brīdim, kad attiecīgais veidotājs to apstiprinās.",
+    "message": "Šis satura veidotājs vēl nav pierakstījies ziedojumu saņemšanai no Onevn lietotājiem. Dzeramnauda, ko nosūtīsiet, paliks jūsu makā līdz brīdim, kad attiecīgais veidotājs to apstiprinās.",
     "description": "Notice about unverified publisher."
   },
   "unVerifiedTextMore": {
@@ -322,7 +322,7 @@
     "description": "Text for Panel's disabled state"
   },
   "disabledPanelTitle": {
-    "message": "OneVN balvas ir",
+    "message": "Onevn balvas ir",
     "description": "Title for Panel's disabled state"
   },
   "walletFailedTitle": {
@@ -358,7 +358,7 @@
     "description": "Text block for wallet disabled panel"
   },
   "enableRewards": {
-    "message": "Iespējot OneVN balvas",
+    "message": "Iespējot Onevn balvas",
     "description": "Subtitle for wallet disabled panel"
   },
   "privacyPolicy": {
@@ -366,7 +366,7 @@
     "description": "Privacy Policy"
   },
   "serviceText": {
-    "message": "Noklikšķinot uz \"Iespējot OneVN balvas\", Jūs norādāt, ka izlasījāt un piekrītat",
+    "message": "Noklikšķinot uz \"Iespējot Onevn balvas\", Jūs norādāt, ka izlasījāt un piekrītat",
     "description": "Terms of service main text"
   },
   "termsOfService": {

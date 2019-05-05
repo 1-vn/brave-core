@@ -55,14 +55,14 @@ std::string GetPlatformIdentifier() {
 }
 
 GURL GetUpdateURL(const GURL& base_update_url,
-                  const onevn::OneVNStatsUpdaterParams& stats_updater_params) {
+                  const onevn::OnevnStatsUpdaterParams& stats_updater_params) {
   GURL update_url(base_update_url);
   update_url = net::AppendQueryParameter(update_url, "platform",
                                          GetPlatformIdentifier());
   update_url =
       net::AppendQueryParameter(update_url, "channel", GetChannelName());
   update_url = net::AppendQueryParameter(update_url, "version",
-                    version_info::GetOneVNVersionWithoutChromiumMajorVersion());
+                    version_info::GetOnevnVersionWithoutChromiumMajorVersion());
   update_url = net::AppendQueryParameter(update_url, "daily",
                                          stats_updater_params.GetDailyParam());
   update_url = net::AppendQueryParameter(update_url, "weekly",
@@ -82,17 +82,17 @@ GURL GetUpdateURL(const GURL& base_update_url,
 
 namespace onevn {
 
-GURL OneVNStatsUpdater::g_base_update_url_(
+GURL OnevnStatsUpdater::g_base_update_url_(
     "https://laptop-updates.1-vn.com/1/usage/onevn-core");
 
-OneVNStatsUpdater::OneVNStatsUpdater(PrefService* pref_service)
+OnevnStatsUpdater::OnevnStatsUpdater(PrefService* pref_service)
   : pref_service_(pref_service) {
 }
 
-OneVNStatsUpdater::~OneVNStatsUpdater() {
+OnevnStatsUpdater::~OnevnStatsUpdater() {
 }
 
-void OneVNStatsUpdater::Start() {
+void OnevnStatsUpdater::Start() {
   // Startup timer, only initiated once we've checked for a promo
   // code.
   DCHECK(!server_ping_startup_timer_);
@@ -104,7 +104,7 @@ void OneVNStatsUpdater::Start() {
     pref_change_registrar_->Init(pref_service_);
     pref_change_registrar_->Add(
         kReferralCheckedForPromoCodeFile,
-        base::Bind(&OneVNStatsUpdater::OnReferralCheckedForPromoCodeFileChanged,
+        base::Bind(&OnevnStatsUpdater::OnReferralCheckedForPromoCodeFileChanged,
                    base::Unretained(this)));
   }
 
@@ -114,22 +114,22 @@ void OneVNStatsUpdater::Start() {
   server_ping_periodic_timer_->Start(
       FROM_HERE,
       base::TimeDelta::FromSeconds(kUpdateServerPeriodicPingFrequency), this,
-      &OneVNStatsUpdater::OnServerPingTimerFired);
+      &OnevnStatsUpdater::OnServerPingTimerFired);
   DCHECK(server_ping_periodic_timer_->IsRunning());
 }
 
-void OneVNStatsUpdater::Stop() {
+void OnevnStatsUpdater::Stop() {
   server_ping_startup_timer_.reset();
   server_ping_periodic_timer_.reset();
 }
 
-void OneVNStatsUpdater::SetStatsUpdatedCallback(
+void OnevnStatsUpdater::SetStatsUpdatedCallback(
     StatsUpdatedCallback stats_updated_callback) {
   stats_updated_callback_ = std::move(stats_updated_callback);
 }
 
-void OneVNStatsUpdater::OnSimpleLoaderComplete(
-    std::unique_ptr<onevn::OneVNStatsUpdaterParams> stats_updater_params,
+void OnevnStatsUpdater::OnSimpleLoaderComplete(
+    std::unique_ptr<onevn::OnevnStatsUpdaterParams> stats_updater_params,
     scoped_refptr<net::HttpResponseHeaders> headers) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
   GURL final_url = simple_url_loader_->GetFinalURL();
@@ -154,10 +154,10 @@ void OneVNStatsUpdater::OnSimpleLoaderComplete(
     stats_updated_callback_.Run(final_url.spec());
 
   // Log the full URL of the stats ping.
-  VLOG(1) << "OneVN stats ping, url: " << final_url.spec();
+  VLOG(1) << "Onevn stats ping, url: " << final_url.spec();
 }
 
-void OneVNStatsUpdater::OnServerPingTimerFired() {
+void OnevnStatsUpdater::OnServerPingTimerFired() {
   // If we already pinged the stats server today, then we're done.
   std::string today_ymd = onevn::GetDateAsYMD(base::Time::Now());
   std::string last_check_ymd = pref_service_->GetString(kLastCheckYMD);
@@ -167,27 +167,27 @@ void OneVNStatsUpdater::OnServerPingTimerFired() {
   SendServerPing();
 }
 
-void OneVNStatsUpdater::OnReferralCheckedForPromoCodeFileChanged() {
+void OnevnStatsUpdater::OnReferralCheckedForPromoCodeFileChanged() {
   StartServerPingStartupTimer();
 }
 
-void OneVNStatsUpdater::StartServerPingStartupTimer() {
+void OnevnStatsUpdater::StartServerPingStartupTimer() {
   server_ping_startup_timer_->Start(
       FROM_HERE, base::TimeDelta::FromSeconds(kUpdateServerStartupPingDelay),
-      this, &OneVNStatsUpdater::OnServerPingTimerFired);
+      this, &OnevnStatsUpdater::OnServerPingTimerFired);
   DCHECK(server_ping_startup_timer_->IsRunning());
 }
 
-void OneVNStatsUpdater::SendServerPing() {
+void OnevnStatsUpdater::SendServerPing() {
   net::NetworkTrafficAnnotationTag traffic_annotation =
       net::DefineNetworkTrafficAnnotation("onevn_stats_updater", R"(
         semantics {
           sender:
-            "OneVN Stats Updater"
+            "Onevn Stats Updater"
           description:
-            "This service sends anonymous usage statistics to OneVN."
+            "This service sends anonymous usage statistics to Onevn."
           trigger:
-            "Stats are automatically sent at intervals while OneVN "
+            "Stats are automatically sent at intervals while Onevn "
             "is running."
           data: "Anonymous usage statistics."
           destination: WEBSITE
@@ -200,7 +200,7 @@ void OneVNStatsUpdater::SendServerPing() {
             "Not implemented."
         })");
   auto resource_request = std::make_unique<network::ResourceRequest>();
-  auto stats_updater_params = std::make_unique<onevn::OneVNStatsUpdaterParams>(pref_service_);
+  auto stats_updater_params = std::make_unique<onevn::OnevnStatsUpdaterParams>(pref_service_);
   resource_request->url = GetUpdateURL(g_base_update_url_, *stats_updater_params);
   resource_request->load_flags =
       net::LOAD_DO_NOT_SEND_COOKIES | net::LOAD_DO_NOT_SAVE_COOKIES |
@@ -213,22 +213,22 @@ void OneVNStatsUpdater::SendServerPing() {
       std::move(resource_request), traffic_annotation);
   simple_url_loader_->DownloadHeadersOnly(
       loader_factory,
-      base::BindOnce(&OneVNStatsUpdater::OnSimpleLoaderComplete,
+      base::BindOnce(&OnevnStatsUpdater::OnSimpleLoaderComplete,
                      base::Unretained(this), std::move(stats_updater_params)));
 }
 
 // static
-void OneVNStatsUpdater::SetBaseUpdateURLForTest(const GURL& base_update_url) {
+void OnevnStatsUpdater::SetBaseUpdateURLForTest(const GURL& base_update_url) {
   g_base_update_url_ = base_update_url;
 }
 
 ///////////////////////////////////////////////////////////////////////////////
 
-std::unique_ptr<OneVNStatsUpdater> OneVNStatsUpdaterFactory(PrefService* pref_service) {
-  return std::make_unique<OneVNStatsUpdater>(pref_service);
+std::unique_ptr<OnevnStatsUpdater> OnevnStatsUpdaterFactory(PrefService* pref_service) {
+  return std::make_unique<OnevnStatsUpdater>(pref_service);
 }
 
-void RegisterPrefsForOneVNStatsUpdater(PrefRegistrySimple* registry) {
+void RegisterPrefsForOnevnStatsUpdater(PrefRegistrySimple* registry) {
   registry->RegisterBooleanPref(kFirstCheckMade, false);
   registry->RegisterIntegerPref(kLastCheckWOY, 0);
   registry->RegisterIntegerPref(kLastCheckMonth, 0);

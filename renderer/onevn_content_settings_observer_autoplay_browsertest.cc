@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -27,14 +27,14 @@ const char kVideoPlayingDetect[] =
   "window.domAutomationController.send(document.getElementById('status')."
   "textContent);";
 
-class OneVNContentSettingsObserverAutoplayTest : public InProcessBrowserTest {
+class OnevnContentSettingsObserverAutoplayTest : public InProcessBrowserTest {
  public:
   void SetUpOnMainThread() override {
       InProcessBrowserTest::SetUpOnMainThread();
 
       content_client_.reset(new ChromeContentClient);
       content::SetContentClient(content_client_.get());
-      browser_content_client_.reset(new OneVNContentBrowserClient());
+      browser_content_client_.reset(new OnevnContentBrowserClient());
       content::SetBrowserClientForTesting(browser_content_client_.get());
 
       host_resolver()->AddRule("*", "127.0.0.1");
@@ -101,11 +101,11 @@ class OneVNContentSettingsObserverAutoplayTest : public InProcessBrowserTest {
     GURL whitelisted_url_;
     ContentSettingsPattern user_blocklist_pattern_;
     std::unique_ptr<ChromeContentClient> content_client_;
-    std::unique_ptr<OneVNContentBrowserClient> browser_content_client_;
+    std::unique_ptr<OnevnContentBrowserClient> browser_content_client_;
 };
 
 // Allow autoplay on whitelisted URL by default
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverAutoplayTest,
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsObserverAutoplayTest,
                        AllowAutoplay) {
   std::string result;
   PermissionRequestManager* manager = PermissionRequestManager::FromWebContents(
@@ -128,7 +128,7 @@ IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverAutoplayTest,
 
 // Block autoplay, even on whitelisted URL, if user has a blocklist pattern that
 // matches the whitelisted URL
-IN_PROC_BROWSER_TEST_F(OneVNContentSettingsObserverAutoplayTest,
+IN_PROC_BROWSER_TEST_F(OnevnContentSettingsObserverAutoplayTest,
                        BlockAutoplay) {
   std::string result;
   BlockAutoplay();

@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -50,7 +50,7 @@
 #include "services/service_manager/public/cpp/manifest_builder.h"
 #include "ui/base/l10n/l10n_util.h"
 
-using onevn_shields::OneVNShieldsWebContentsObserver;
+using onevn_shields::OnevnShieldsWebContentsObserver;
 using content::BrowserThread;
 using content::ContentBrowserClient;
 using content::RenderFrameHost;
@@ -108,21 +108,21 @@ bool HandleURLRewrite(GURL* url, content::BrowserContext* browser_context) {
 
 }  // namespace
 
-OneVNContentBrowserClient::OneVNContentBrowserClient(
+OnevnContentBrowserClient::OnevnContentBrowserClient(
     ChromeFeatureListCreator* chrome_feature_list_creator)
     : ChromeContentBrowserClient(chrome_feature_list_creator) {}
 
-OneVNContentBrowserClient::~OneVNContentBrowserClient() {}
+OnevnContentBrowserClient::~OnevnContentBrowserClient() {}
 
-content::BrowserMainParts* OneVNContentBrowserClient::CreateBrowserMainParts(
+content::BrowserMainParts* OnevnContentBrowserClient::CreateBrowserMainParts(
     const content::MainFunctionParams& parameters) {
   ChromeBrowserMainParts* main_parts = static_cast<ChromeBrowserMainParts*>(
       ChromeContentBrowserClient::CreateBrowserMainParts(parameters));
-  main_parts->AddParts(new OneVNBrowserMainExtraParts());
+  main_parts->AddParts(new OnevnBrowserMainExtraParts());
   return main_parts;
 }
 
-void OneVNContentBrowserClient::BrowserURLHandlerCreated(
+void OnevnContentBrowserClient::BrowserURLHandlerCreated(
     content::BrowserURLHandler* handler) {
   handler->AddHandlerPair(&webtorrent::HandleMagnetURLRewrite,
                           content::BrowserURLHandler::null_handler());
@@ -132,21 +132,21 @@ void OneVNContentBrowserClient::BrowserURLHandlerCreated(
   ChromeContentBrowserClient::BrowserURLHandlerCreated(handler);
 }
 
-bool OneVNContentBrowserClient::AllowAccessCookie(
+bool OnevnContentBrowserClient::AllowAccessCookie(
     const GURL& url,
     const GURL& first_party,
     content::ResourceContext* context,
     int render_process_id,
     int render_frame_id) {
   GURL tab_origin =
-      OneVNShieldsWebContentsObserver::GetTabURLFromRenderFrameInfo(
+      OnevnShieldsWebContentsObserver::GetTabURLFromRenderFrameInfo(
           render_process_id, render_frame_id, -1)
           .GetOrigin();
   ProfileIOData* io_data = ProfileIOData::FromResourceContext(context);
   bool allow_onevn_shields =
       onevn_shields::IsAllowContentSettingWithIOData(
           io_data, tab_origin, tab_origin, CONTENT_SETTINGS_TYPE_PLUGINS,
-          onevn_shields::kOneVNShields) &&
+          onevn_shields::kOnevnShields) &&
       !first_party.SchemeIs(kChromeExtensionScheme);
   bool allow_1p_cookies = onevn_shields::IsAllowContentSettingWithIOData(
       io_data, tab_origin, GURL("https://firstParty/"),
@@ -154,8 +154,8 @@ bool OneVNContentBrowserClient::AllowAccessCookie(
   bool allow_3p_cookies = onevn_shields::IsAllowContentSettingWithIOData(
       io_data, tab_origin, GURL(), CONTENT_SETTINGS_TYPE_PLUGINS,
       onevn_shields::kCookies);
-  content_settings::OneVNCookieSettings* cookie_settings =
-      (content_settings::OneVNCookieSettings*)io_data->GetCookieSettings();
+  content_settings::OnevnCookieSettings* cookie_settings =
+      (content_settings::OnevnCookieSettings*)io_data->GetCookieSettings();
   bool allow =
       !ShouldBlockCookie(allow_onevn_shields, allow_1p_cookies,
                          allow_3p_cookies, first_party, url,
@@ -166,7 +166,7 @@ bool OneVNContentBrowserClient::AllowAccessCookie(
   return allow;
 }
 
-bool OneVNContentBrowserClient::AllowGetCookie(
+bool OnevnContentBrowserClient::AllowGetCookie(
     const GURL& url,
     const GURL& first_party,
     const net::CookieList& cookie_list,
@@ -182,7 +182,7 @@ bool OneVNContentBrowserClient::AllowGetCookie(
   return allow;
 }
 
-bool OneVNContentBrowserClient::AllowSetCookie(
+bool OnevnContentBrowserClient::AllowSetCookie(
     const GURL& url,
     const GURL& first_party,
     const net::CanonicalCookie& cookie,
@@ -198,14 +198,14 @@ bool OneVNContentBrowserClient::AllowSetCookie(
 }
 
 content::ContentBrowserClient::AllowWebBluetoothResult
-OneVNContentBrowserClient::AllowWebBluetooth(
+OnevnContentBrowserClient::AllowWebBluetooth(
     content::BrowserContext* browser_context,
     const url::Origin& requesting_origin,
     const url::Origin& embedding_origin) {
   return ContentBrowserClient::AllowWebBluetoothResult::BLOCK_GLOBALLY_DISABLED;
 }
 
-bool OneVNContentBrowserClient::HandleExternalProtocol(
+bool OnevnContentBrowserClient::HandleExternalProtocol(
     const GURL& url,
     content::ResourceRequestInfo::WebContentsGetter web_contents_getter,
     int child_id,
@@ -225,7 +225,7 @@ bool OneVNContentBrowserClient::HandleExternalProtocol(
       page_transition, has_user_gesture, method, headers);
 }
 
-void OneVNContentBrowserClient::RegisterOutOfProcessServices(
+void OnevnContentBrowserClient::RegisterOutOfProcessServices(
     OutOfProcessServiceMap* services) {
   ChromeContentBrowserClient::RegisterOutOfProcessServices(services);
   (*services)[tor::mojom::kTorLauncherServiceName] = base::BindRepeating(
@@ -241,10 +241,10 @@ void OneVNContentBrowserClient::RegisterOutOfProcessServices(
 }
 
 std::unique_ptr<content::NavigationUIData>
-OneVNContentBrowserClient::GetNavigationUIData(
+OnevnContentBrowserClient::GetNavigationUIData(
     content::NavigationHandle* navigation_handle) {
-  std::unique_ptr<OneVNNavigationUIData> navigation_ui_data =
-      std::make_unique<OneVNNavigationUIData>(navigation_handle);
+  std::unique_ptr<OnevnNavigationUIData> navigation_ui_data =
+      std::make_unique<OnevnNavigationUIData>(navigation_handle);
   Profile* profile = Profile::FromBrowserContext(
       navigation_handle->GetWebContents()->GetBrowserContext());
   TorProfileServiceFactory::SetTorNavigationUIData(profile,
@@ -253,17 +253,17 @@ OneVNContentBrowserClient::GetNavigationUIData(
 }
 
 base::Optional<service_manager::Manifest>
-OneVNContentBrowserClient::GetServiceManifestOverlay(base::StringPiece name) {
+OnevnContentBrowserClient::GetServiceManifestOverlay(base::StringPiece name) {
   auto manifest = ChromeContentBrowserClient::GetServiceManifestOverlay(name);
   if (name == content::mojom::kBrowserServiceName) {
-    manifest->Amend(GetOneVNContentBrowserOverlayManifest());
+    manifest->Amend(GetOnevnContentBrowserOverlayManifest());
   } else if (name == content::mojom::kPackagedServicesServiceName) {
-    manifest->Amend(GetOneVNContentPackagedServiceOverlayManifest());
+    manifest->Amend(GetOnevnContentPackagedServiceOverlayManifest());
   }
   return manifest;
 }
 
-void OneVNContentBrowserClient::AdjustUtilityServiceProcessCommandLine(
+void OnevnContentBrowserClient::AdjustUtilityServiceProcessCommandLine(
     const service_manager::Identity& identity,
     base::CommandLine* command_line) {
   ChromeContentBrowserClient::AdjustUtilityServiceProcessCommandLine(
@@ -278,7 +278,7 @@ void OneVNContentBrowserClient::AdjustUtilityServiceProcessCommandLine(
   }
 }
 
-void OneVNContentBrowserClient::MaybeHideReferrer(
+void OnevnContentBrowserClient::MaybeHideReferrer(
     content::BrowserContext* browser_context,
     const GURL& request_url,
     const GURL& document_url,
@@ -294,13 +294,13 @@ void OneVNContentBrowserClient::MaybeHideReferrer(
       onevn_shields::kReferrers);
   const bool shields_up = onevn_shields::IsAllowContentSettingsForProfile(
       profile, document_url, GURL(), CONTENT_SETTINGS_TYPE_PLUGINS,
-      onevn_shields::kOneVNShields);
+      onevn_shields::kOnevnShields);
   onevn_shields::ShouldSetReferrer(
       allow_referrers, shields_up, referrer->url, document_url, request_url,
       request_url.GetOrigin(), referrer->policy, referrer);
 }
 
-GURL OneVNContentBrowserClient::GetEffectiveURL(
+GURL OnevnContentBrowserClient::GetEffectiveURL(
     content::BrowserContext* browser_context,
     const GURL& url) {
   Profile* profile = Profile::FromBrowserContext(browser_context);

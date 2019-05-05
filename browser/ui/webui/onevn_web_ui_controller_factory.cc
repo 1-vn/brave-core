@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -43,24 +43,24 @@ WebUIController* NewWebUI(WebUI* web_ui, const GURL& url) {
 template<>
 WebUIController* NewWebUI<BasicUI>(WebUI* web_ui, const GURL& url) {
   auto host = url.host_piece();
-  if (host == kOneVNUISyncHost && onevn_sync::OneVNSyncService::is_enabled()) {
+  if (host == kOnevnUISyncHost && onevn_sync::OnevnSyncService::is_enabled()) {
     return new SyncUI(web_ui, url.host());
   } else if (host == kAdblockHost) {
-    return new OneVNAdblockUI(web_ui, url.host());
+    return new OnevnAdblockUI(web_ui, url.host());
 #if BUILDFLAG(ONEVN_REWARDS_ENABLED)
   } else if (host == kRewardsHost) {
-    return new OneVNRewardsUI(web_ui, url.host());
+    return new OnevnRewardsUI(web_ui, url.host());
   } else if (host == kRewardsInternalsHost) {
-    return new OneVNRewardsInternalsUI(web_ui, url.host());
+    return new OnevnRewardsInternalsUI(web_ui, url.host());
   } else if (host == kDonateHost) {
-    return new OneVNDonateUI(web_ui, url.host());
+    return new OnevnDonateUI(web_ui, url.host());
 #endif
   } else if (host == kWelcomeHost) {
-    return new OneVNWelcomeUI(web_ui, url.host());
+    return new OnevnWelcomeUI(web_ui, url.host());
   } else if (host == chrome::kChromeUINewTabHost) {
-    return new OneVNNewTabUI(web_ui, url.host());
+    return new OnevnNewTabUI(web_ui, url.host());
   } else if (host == chrome::kChromeUISettingsHost) {
-    return new OneVNMdSettingsUI(web_ui, url.host());
+    return new OnevnMdSettingsUI(web_ui, url.host());
   }
   return nullptr;
 }
@@ -78,8 +78,8 @@ WebUIFactoryFunction GetWebUIFactoryFunction(WebUI* web_ui,
 #endif
       url.host_piece() == kWelcomeHost ||
       url.host_piece() == chrome::kChromeUIWelcomeURL ||
-      (url.host_piece() == kOneVNUISyncHost &&
-          onevn_sync::OneVNSyncService::is_enabled()) ||
+      (url.host_piece() == kOnevnUISyncHost &&
+          onevn_sync::OnevnSyncService::is_enabled()) ||
       url.host_piece() == chrome::kChromeUINewTabHost ||
       url.host_piece() == chrome::kChromeUISettingsHost) {
     return &NewWebUI<BasicUI>;
@@ -90,7 +90,7 @@ WebUIFactoryFunction GetWebUIFactoryFunction(WebUI* web_ui,
 
 }  // namespace
 
-WebUI::TypeID OneVNWebUIControllerFactory::GetWebUIType(
+WebUI::TypeID OnevnWebUIControllerFactory::GetWebUIType(
       content::BrowserContext* browser_context, const GURL& url) const {
   WebUIFactoryFunction function = GetWebUIFactoryFunction(NULL, url);
   if (function) {
@@ -100,7 +100,7 @@ WebUI::TypeID OneVNWebUIControllerFactory::GetWebUIType(
 }
 
 std::unique_ptr<WebUIController>
-OneVNWebUIControllerFactory::CreateWebUIControllerForURL(
+OnevnWebUIControllerFactory::CreateWebUIControllerForURL(
     WebUI* web_ui,
     const GURL& url) const {
 
@@ -115,12 +115,12 @@ OneVNWebUIControllerFactory::CreateWebUIControllerForURL(
 
 
 // static
-OneVNWebUIControllerFactory* OneVNWebUIControllerFactory::GetInstance() {
-  return base::Singleton<OneVNWebUIControllerFactory>::get();
+OnevnWebUIControllerFactory* OnevnWebUIControllerFactory::GetInstance() {
+  return base::Singleton<OnevnWebUIControllerFactory>::get();
 }
 
-OneVNWebUIControllerFactory::OneVNWebUIControllerFactory() {
+OnevnWebUIControllerFactory::OnevnWebUIControllerFactory() {
 }
 
-OneVNWebUIControllerFactory::~OneVNWebUIControllerFactory() {
+OnevnWebUIControllerFactory::~OnevnWebUIControllerFactory() {
 }

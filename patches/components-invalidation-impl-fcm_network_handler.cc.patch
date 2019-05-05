@@ -6,7 +6,7 @@ index 2220f5e46976c360fb27ccd1dd8b39a324dba240..70a67597a181f3a195f942d596455f92
  }
  
  void FCMNetworkHandler::StartListening() {
-+  return; // feature disabled in OneVN
++  return; // feature disabled in Onevn
    if (IsListening()) {
      StopListening();
    }

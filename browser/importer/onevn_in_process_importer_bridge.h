@@ -17,17 +17,17 @@
 #include "base/macros.h"
 #include "build/build_config.h"
 
-class OneVNInProcessImporterBridge : public InProcessImporterBridge {
+class OnevnInProcessImporterBridge : public InProcessImporterBridge {
  public:
-  OneVNInProcessImporterBridge(
+  OnevnInProcessImporterBridge(
       ProfileWriter* writer,
       base::WeakPtr<ExternalProcessImporterHost> host);
 
   void SetCookies(
       const std::vector<net::CanonicalCookie>& cookies) override;
-  void UpdateStats(const OneVNStats& stats) override;
-  void UpdateLedger(const OneVNLedger& ledger) override;
-  void UpdateReferral(const OneVNReferral& referral) override;
+  void UpdateStats(const OnevnStats& stats) override;
+  void UpdateLedger(const OnevnLedger& ledger) override;
+  void UpdateReferral(const OnevnReferral& referral) override;
   void UpdateWindows(const ImportedWindowState& windowState) override;
   void UpdateSettings(const SessionStoreSettings& settings) override;
 
@@ -35,11 +35,11 @@ class OneVNInProcessImporterBridge : public InProcessImporterBridge {
   void Cancel();
 
  private:
-  ~OneVNInProcessImporterBridge() override;
+  ~OnevnInProcessImporterBridge() override;
 
-  OneVNProfileWriter* const writer_;  // weak
+  OnevnProfileWriter* const writer_;  // weak
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNInProcessImporterBridge);
+  DISALLOW_COPY_AND_ASSIGN(OnevnInProcessImporterBridge);
 };
 
 #endif  // ONEVN_BROWSER_IMPORTER_ONEVN_IN_PROCESS_IMPORTER_BRIDGE_H_

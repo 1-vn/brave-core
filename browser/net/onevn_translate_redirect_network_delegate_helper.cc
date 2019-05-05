@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -56,7 +56,7 @@ bool IsTranslateGen204Request(const GURL& gurl) {
 
 int OnBeforeURLRequest_TranslateRedirectWork(
     const ResponseCallback& next_callback,
-    std::shared_ptr<OneVNRequestInfo> ctx) {
+    std::shared_ptr<OnevnRequestInfo> ctx) {
   GURL::Replacements replacements;
 
   // Abort those gen204 requests triggered by translate element library.
@@ -70,7 +70,7 @@ int OnBeforeURLRequest_TranslateRedirectWork(
   if (IsTranslateResourceRequest(ctx->request_url)) {
     replacements.SetPathStr(ctx->request_url.path_piece());
     ctx->new_url_spec =
-      GURL(kOneVNTranslateEndpoint).ReplaceComponents(replacements).spec();
+      GURL(kOnevnTranslateEndpoint).ReplaceComponents(replacements).spec();
     return net::OK;
   }
 
@@ -85,14 +85,14 @@ int OnBeforeURLRequest_TranslateRedirectWork(
     replacements.SetQueryStr(ctx->request_url.query_piece());
     replacements.SetPathStr(ctx->request_url.path_piece());
     ctx->new_url_spec =
-      GURL(kOneVNTranslateEndpoint).ReplaceComponents(replacements).spec();
+      GURL(kOnevnTranslateEndpoint).ReplaceComponents(replacements).spec();
     return net::OK;
   }
 
   if (IsTranslateRequest(ctx->request_url)) {
     replacements.SetQueryStr(ctx->request_url.query_piece());
     ctx->new_url_spec =
-      GURL(kOneVNTranslateEndpoint).ReplaceComponents(replacements).spec();
+      GURL(kOnevnTranslateEndpoint).ReplaceComponents(replacements).spec();
     return net::OK;
   }
 

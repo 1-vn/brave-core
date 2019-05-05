@@ -1,6 +1,6 @@
 {
   "onevnRewards": {
-    "message": "OneVN Belønninger",
+    "message": "Onevn Belønninger",
     "description": "Title in welcome screen for the panel"
   },
   "welcomeButtonTextOne": {
@@ -28,7 +28,7 @@
     "description": "Link in the footer (takes you to rewards settings page) for welcome screen in the panel, new user"
   },
   "welcomeHeaderOne": {
-    "message": "Vi har lavet en stor opgradering af OneVN Rewards.",
+    "message": "Vi har lavet en stor opgradering af Onevn Rewards.",
     "description": "Main header title for welcome screen in the panel, existing user"
   },
   "welcomeHeaderTwo": {
@@ -48,7 +48,7 @@
     "description": "The whole string is 'Enable tips on YouTube for like.'"
   },
   "verifiedPublisher": {
-    "message": "OneVN Verificeret Udgiver",
+    "message": "Onevn Verificeret Udgiver",
     "description": "Tells user that this particular publisher is verified publisher"
   },
   "rewardsContributeAttentionScore": {
@@ -164,7 +164,7 @@
     "description": "Used in notification to dismiss notification"
   },
   "onevnAdsTitle": {
-    "message": "OneVN-reklamer",
+    "message": "Onevn-reklamer",
     "description": "Notification title when we display info about ads"
   },
   "onevnContributeTitle": {
@@ -194,11 +194,11 @@
     "description": "Notification title when we ask user to backup wallet"
   },
   "backupWalletNotification": {
-    "message": "Sikkerhedskopiér venligst din OneVN Tegnebog. ",
+    "message": "Sikkerhedskopiér venligst din Onevn Tegnebog. ",
     "description": "Description for backup wallet notification"
   },
   "insufficientFundsNotification": {
-    "message": "Din OneVN Rewards-konto venter på en indbetaling.",
+    "message": "Din Onevn Rewards-konto venter på en indbetaling.",
     "description": "Description for new insufficient funds notification"
   },
   "insufficientFunds": {
@@ -270,7 +270,7 @@
     "description": "Button text for clearing the error."
   },
   "grantGeneralErrorText": {
-    "message": "OneVN Rewards har et problem. Prøv venligst igen senere. ",
+    "message": "Onevn Rewards har et problem. Prøv venligst igen senere. ",
     "description": "Error text when user is having problems claiming a grant."
   },
   "grantGeneralErrorTitle": {
@@ -294,7 +294,7 @@
     "description": "Status of the publisher shown in the panel"
   },
   "unVerifiedText": {
-    "message": "Denne skaber har endnu ikke skrevet sig op til at modtage bidrag fra OneVN-brugere. Alle tips du sender vil forblive i din Tegnebog indtil skaberen godkender. ",
+    "message": "Denne skaber har endnu ikke skrevet sig op til at modtage bidrag fra Onevn-brugere. Alle tips du sender vil forblive i din Tegnebog indtil skaberen godkender. ",
     "description": "Notice about unverified publisher."
   },
   "unVerifiedTextMore": {
@@ -322,7 +322,7 @@
     "description": "Text for Panel's disabled state"
   },
   "disabledPanelTitle": {
-    "message": "OneVN Rewards er  ",
+    "message": "Onevn Rewards er  ",
     "description": "Title for Panel's disabled state"
   },
   "walletFailedTitle": {
@@ -358,7 +358,7 @@
     "description": "Text block for wallet disabled panel"
   },
   "enableRewards": {
-    "message": "Aktiver OneVN Rewards",
+    "message": "Aktiver Onevn Rewards",
     "description": "Subtitle for wallet disabled panel"
   },
   "privacyPolicy": {
@@ -366,7 +366,7 @@
     "description": "Privacy Policy"
   },
   "serviceText": {
-    "message": "Ved at klikke \"Slå OneVN Rewards til\", erkender du at have læst og accepteret",
+    "message": "Ved at klikke \"Slå Onevn Rewards til\", erkender du at have læst og accepteret",
     "description": "Terms of service main text"
   },
   "termsOfService": {

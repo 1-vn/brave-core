@@ -11,10 +11,10 @@ namespace onevn_content {
 using namespace content;
 
 // A DataSource for chrome://onevn-resources/ URLs.
-class OneVNSharedResourcesDataSource : public URLDataSource {
+class OnevnSharedResourcesDataSource : public URLDataSource {
  public:
-  OneVNSharedResourcesDataSource();
-  ~OneVNSharedResourcesDataSource() override;
+  OnevnSharedResourcesDataSource();
+  ~OnevnSharedResourcesDataSource() override;
 
   // URLDataSource implementation.
   std::string GetSource() const override;
@@ -32,7 +32,7 @@ class OneVNSharedResourcesDataSource : public URLDataSource {
   bool IsGzipped(const std::string& path) const override;
 
  private:
-  DISALLOW_COPY_AND_ASSIGN(OneVNSharedResourcesDataSource);
+  DISALLOW_COPY_AND_ASSIGN(OnevnSharedResourcesDataSource);
 };
 
 }  // namespace onevn_content

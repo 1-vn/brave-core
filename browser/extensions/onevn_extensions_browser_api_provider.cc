@@ -12,15 +12,15 @@
 
 namespace extensions {
 
-OneVNExtensionsBrowserAPIProvider::OneVNExtensionsBrowserAPIProvider() =
+OnevnExtensionsBrowserAPIProvider::OnevnExtensionsBrowserAPIProvider() =
     default;
-OneVNExtensionsBrowserAPIProvider::~OneVNExtensionsBrowserAPIProvider() =
+OnevnExtensionsBrowserAPIProvider::~OnevnExtensionsBrowserAPIProvider() =
     default;
 
-void OneVNExtensionsBrowserAPIProvider::RegisterExtensionFunctions(
+void OnevnExtensionsBrowserAPIProvider::RegisterExtensionFunctions(
     ExtensionFunctionRegistry* registry) {
-  // Generated APIs from OneVN.
-  api::OneVNGeneratedFunctionRegistry::RegisterAll(registry);
+  // Generated APIs from Onevn.
+  api::OnevnGeneratedFunctionRegistry::RegisterAll(registry);
 }
 
 }  // namespace extensions

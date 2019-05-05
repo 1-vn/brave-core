@@ -6,7 +6,7 @@
 #define ONEVN_COMMON_URL_CONSTANTS_H_
 
 extern const char kChromeExtensionScheme[];
-extern const char kOneVNUIScheme[];
+extern const char kOnevnUIScheme[];
 extern const char kMagnetScheme[];
 extern const char kWidevineMoreInfoURL[];
 extern const char kWidevineTOS[];
@@ -16,6 +16,6 @@ extern const char kWidevineTOS[];
 // |kDownloadChromeUrl| couldn't be replaced with char array because array
 // should be initialized with initialize list or string literal.
 // So, this macro is used.
-#define kDownloadOneVNUrl "https://www.1-vn.com/download"
+#define kDownloadOnevnUrl "https://www.1-vn.com/download"
 
 #endif  // ONEVN_COMMON_URL_CONSTANTS_H_

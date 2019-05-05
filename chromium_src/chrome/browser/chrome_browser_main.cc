@@ -5,6 +5,6 @@
 #include "chrome/browser/chrome_browser_main.h"
 #include "onevn/browser/onevn_browser_process_impl.h"
 
-#define BrowserProcessImpl OneVNBrowserProcessImpl
+#define BrowserProcessImpl OnevnBrowserProcessImpl
 #include "../../../../chrome/browser/chrome_browser_main.cc"
 #undef BrowserProcessImpl

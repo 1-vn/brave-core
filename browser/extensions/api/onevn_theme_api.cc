@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -14,21 +14,21 @@
 #include "onevn/common/extensions/api/onevn_theme.h"
 #include "chrome/browser/profiles/profile.h"
 
-using BTS = OneVNThemeService;
+using BTS = OnevnThemeService;
 
 namespace extensions {
 namespace api {
 
-ExtensionFunction::ResponseAction OneVNThemeGetOneVNThemeListFunction::Run() {
+ExtensionFunction::ResponseAction OnevnThemeGetOnevnThemeListFunction::Run() {
   std::string json_string;
-  base::JSONWriter::Write(BTS::GetOneVNThemeList(), &json_string);
+  base::JSONWriter::Write(BTS::GetOnevnThemeList(), &json_string);
   return RespondNow(OneArgument(std::make_unique<base::Value>(json_string)));
 }
 
-ExtensionFunction::ResponseAction OneVNThemeGetOneVNThemeTypeFunction::Run() {
+ExtensionFunction::ResponseAction OnevnThemeGetOnevnThemeTypeFunction::Run() {
   Profile* profile = Profile::FromBrowserContext(browser_context());
-  const std::string theme_type = BTS::GetStringFromOneVNThemeType(
-      BTS::GetActiveOneVNThemeType(profile));
+  const std::string theme_type = BTS::GetStringFromOnevnThemeType(
+      BTS::GetActiveOnevnThemeType(profile));
   return RespondNow(OneArgument(std::make_unique<base::Value>(theme_type)));
 }
 

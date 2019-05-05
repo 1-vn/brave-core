@@ -1,6 +1,6 @@
 {
   "onevnRewards": {
-    "message": "Sustav nagrada u pregledniku OneVN",
+    "message": "Sustav nagrada u pregledniku Onevn",
     "description": "Title in welcome screen for the panel"
   },
   "welcomeButtonTextOne": {
@@ -28,7 +28,7 @@
     "description": "Link in the footer (takes you to rewards settings page) for welcome screen in the panel, new user"
   },
   "welcomeHeaderOne": {
-    "message": "Značajno smo nadogradili nagrade OneVN.",
+    "message": "Značajno smo nadogradili nagrade Onevn.",
     "description": "Main header title for welcome screen in the panel, existing user"
   },
   "welcomeHeaderTwo": {
@@ -48,7 +48,7 @@
     "description": "The whole string is 'Enable tips on YouTube for like.'"
   },
   "verifiedPublisher": {
-    "message": "Provjereni izdavač u pregledniku OneVN",
+    "message": "Provjereni izdavač u pregledniku Onevn",
     "description": "Tells user that this particular publisher is verified publisher"
   },
   "rewardsContributeAttentionScore": {
@@ -164,7 +164,7 @@
     "description": "Used in notification to dismiss notification"
   },
   "onevnAdsTitle": {
-    "message": "Oglasi u pregledniku OneVN",
+    "message": "Oglasi u pregledniku Onevn",
     "description": "Notification title when we display info about ads"
   },
   "onevnContributeTitle": {
@@ -194,11 +194,11 @@
     "description": "Notification title when we ask user to backup wallet"
   },
   "backupWalletNotification": {
-    "message": "Izradite sigurnosnu kopiju novčanika OneVN.",
+    "message": "Izradite sigurnosnu kopiju novčanika Onevn.",
     "description": "Description for backup wallet notification"
   },
   "insufficientFundsNotification": {
-    "message": "Na vašem se računu za nagrade OneVN očekuje depozit.",
+    "message": "Na vašem se računu za nagrade Onevn očekuje depozit.",
     "description": "Description for new insufficient funds notification"
   },
   "insufficientFunds": {
@@ -270,7 +270,7 @@
     "description": "Button text for clearing the error."
   },
   "grantGeneralErrorText": {
-    "message": "Imamo poteškoća sa značajkom Nagrade OneVN. Pokušajte kasnije.",
+    "message": "Imamo poteškoća sa značajkom Nagrade Onevn. Pokušajte kasnije.",
     "description": "Error text when user is having problems claiming a grant."
   },
   "grantGeneralErrorTitle": {
@@ -294,7 +294,7 @@
     "description": "Status of the publisher shown in the panel"
   },
   "unVerifiedText": {
-    "message": "Ovaj stvaratelj nije se još prijavio za primanje doprinosa korisnika OneVN. Bilo kakve napojnice koje pošaljete ostaju u vašem novčaniku dok se ne provjere.",
+    "message": "Ovaj stvaratelj nije se još prijavio za primanje doprinosa korisnika Onevn. Bilo kakve napojnice koje pošaljete ostaju u vašem novčaniku dok se ne provjere.",
     "description": "Notice about unverified publisher."
   },
   "unVerifiedTextMore": {
@@ -322,7 +322,7 @@
     "description": "Text for Panel's disabled state"
   },
   "disabledPanelTitle": {
-    "message": "Nagrade OneVN su",
+    "message": "Nagrade Onevn su",
     "description": "Title for Panel's disabled state"
   },
   "walletFailedTitle": {
@@ -358,7 +358,7 @@
     "description": "Text block for wallet disabled panel"
   },
   "enableRewards": {
-    "message": "Omogućite sustav nagrada u pregledniku OneVN",
+    "message": "Omogućite sustav nagrada u pregledniku Onevn",
     "description": "Subtitle for wallet disabled panel"
   },
   "privacyPolicy": {
@@ -366,7 +366,7 @@
     "description": "Privacy Policy"
   },
   "serviceText": {
-    "message": "Klikom na značajku „Omogući nagrade OneVN” naznačujete da ste pročitali i da se slažete s",
+    "message": "Klikom na značajku „Omogući nagrade Onevn” naznačujete da ste pročitali i da se slažete s",
     "description": "Terms of service main text"
   },
   "termsOfService": {

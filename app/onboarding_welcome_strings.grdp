@@ -32,9 +32,9 @@
     Add a bookmark to your email
   </message>
 
-  <!-- NUX OneVN apps selection module -->
+  <!-- NUX Onevn apps selection module -->
   <message name="IDS_ONBOARDING_WELCOME_NUX_GOOGLE_APPS_DESCRIPTION" desc="Description of what this section in the onboarding workflow does.">
-    Add bookmarks to your favorite OneVN Apps
+    Add bookmarks to your favorite Onevn Apps
   </message>
   <message name="IDS_ONBOARDING_WELCOME_NUX_GOOGLE_APPS_MAPS" desc="Label for a button that creates a bookmark to maps.google.com, this should be the name of the brand.">
     Maps
@@ -85,31 +85,31 @@
   </message>
 
   <!-- NUX set default module -->
-  <message name="IDS_ONBOARDING_WELCOME_NUX_SET_AS_DEFAULT_HEADER" desc="Header for the page that prompts user to set OneVN as their default browser.">
-    Set OneVN as your default browser
+  <message name="IDS_ONBOARDING_WELCOME_NUX_SET_AS_DEFAULT_HEADER" desc="Header for the page that prompts user to set Onevn as their default browser.">
+    Set Onevn as your default browser
   </message>
-  <message name="IDS_ONBOARDING_WELCOME_NUX_SET_AS_DEFAULT_SUB_HEADER" desc="Sub-header for the page that prompts user to set OneVN as their default browser.">
-    Get OneVN Search and OneVN smarts everytime you browse
+  <message name="IDS_ONBOARDING_WELCOME_NUX_SET_AS_DEFAULT_SUB_HEADER" desc="Sub-header for the page that prompts user to set Onevn as their default browser.">
+    Get Onevn Search and Onevn smarts everytime you browse
   </message>
-  <message name="IDS_ONBOARDING_WELCOME_NUX_SET_AS_DEFAULT_SKIP" desc="The label for a button to skip setting OneVN as their default browser.">
+  <message name="IDS_ONBOARDING_WELCOME_NUX_SET_AS_DEFAULT_SKIP" desc="The label for a button to skip setting Onevn as their default browser.">
     Skip
   </message>
-  <message name="IDS_ONBOARDING_WELCOME_NUX_SET_AS_DEFAULT_SET_AS_DEFAULT" desc="The label for a button to confirm setting OneVN as their default browser.">
+  <message name="IDS_ONBOARDING_WELCOME_NUX_SET_AS_DEFAULT_SET_AS_DEFAULT" desc="The label for a button to confirm setting Onevn as their default browser.">
     Set as default
   </message>
 
   <!-- Landing view -->
-  <message name="IDS_ONBOARDING_WELCOME_LANDING_TITLE" desc="Title for the page that prompts user to start setting up their new OneVN.">
-    Make OneVN your own
+  <message name="IDS_ONBOARDING_WELCOME_LANDING_TITLE" desc="Title for the page that prompts user to start setting up their new Onevn.">
+    Make Onevn your own
   </message>
-  <message name="IDS_ONBOARDING_WELCOME_LANDING_DESCRIPTION" desc="Description for the page that prompts user to start setting up their new OneVN.">
+  <message name="IDS_ONBOARDING_WELCOME_LANDING_DESCRIPTION" desc="Description for the page that prompts user to start setting up their new Onevn.">
     Set up your browser in a few simple steps
   </message>
-  <message name="IDS_ONBOARDING_WELCOME_LANDING_NEW_USER" desc="Label for a button that prompts new users to start setting up their new OneVN.">
+  <message name="IDS_ONBOARDING_WELCOME_LANDING_NEW_USER" desc="Label for a button that prompts new users to start setting up their new Onevn.">
     Get Started
   </message>
   <message name="IDS_ONBOARDING_WELCOME_LANDING_EXISTING_USER" desc="Label for a button that prompts existing users to sign in.">
-    Already a OneVN user? Sign in
+    Already a Onevn user? Sign in
   </message>
 
   <!-- Sign-in view -->

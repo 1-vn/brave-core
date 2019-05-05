@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -21,23 +21,23 @@
 
 namespace component_updater {
 
-OneVNCrxUpdateService::OneVNCrxUpdateService(
+OnevnCrxUpdateService::OnevnCrxUpdateService(
     scoped_refptr<Configurator> config,
     std::unique_ptr<UpdateScheduler> scheduler,
     scoped_refptr<UpdateClient> update_client)
     : CrxUpdateService(config, std::move(scheduler), update_client) {}
 
-void OneVNCrxUpdateService::Start() {
+void OnevnCrxUpdateService::Start() {
   DCHECK(thread_checker_.CalledOnValidThread());
   scheduler_->Schedule(
       base::TimeDelta::FromSeconds(config_->InitialDelay()),
       base::TimeDelta::FromSeconds(config_->NextCheckDelay()),
-      base::Bind(base::IgnoreResult(&OneVNCrxUpdateService::CheckForUpdates),
+      base::Bind(base::IgnoreResult(&OnevnCrxUpdateService::CheckForUpdates),
                  base::Unretained(this)),
       base::DoNothing());
 }
 
-bool OneVNCrxUpdateService::RegisterComponent(const CrxComponent& component) {
+bool OnevnCrxUpdateService::RegisterComponent(const CrxComponent& component) {
   DCHECK(thread_checker_.CalledOnValidThread());
   if (component.pk_hash.empty() || !component.version.IsValid() ||
       !component.installer) {
@@ -75,7 +75,7 @@ bool OneVNCrxUpdateService::RegisterComponent(const CrxComponent& component) {
   return true;
 }
 
-bool OneVNCrxUpdateService::CheckForUpdates(
+bool OnevnCrxUpdateService::CheckForUpdates(
     UpdateScheduler::OnFinishedCallback on_finished) {
   DCHECK(thread_checker_.CalledOnValidThread());
 
@@ -83,7 +83,7 @@ bool OneVNCrxUpdateService::CheckForUpdates(
   std::vector<std::string> unsecure_ids;  // Can fallback to HTTP.
   for (const auto id : components_order_) {
     DCHECK(components_.find(id) != components_.end());
-    if (!extensions::OneVNExtensionProvider::IsVetted(id)) {
+    if (!extensions::OnevnExtensionProvider::IsVetted(id)) {
           continue;
     }
 

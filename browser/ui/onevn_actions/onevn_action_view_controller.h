@@ -7,7 +7,7 @@
 
 #include "chrome/browser/ui/extensions/extension_action_view_controller.h"
 
-class OneVNActionIconWithBadgeImageSource;
+class OnevnActionIconWithBadgeImageSource;
 
 namespace ui {
   class MenuModel;
@@ -18,7 +18,7 @@ namespace ui {
 // - Use our custom class for painting the badge differently compared to
 //   user-installed extensions
 // - Remove the context menu from the button since we do not allow uninstall
-class OneVNActionViewController : public ExtensionActionViewController {
+class OnevnActionViewController : public ExtensionActionViewController {
   public:
     using ExtensionActionViewController::ExtensionActionViewController;
     bool IsEnabled(content::WebContents* web_contents) const override;
@@ -28,10 +28,10 @@ class OneVNActionViewController : public ExtensionActionViewController {
     ui::MenuModel* GetContextMenu() override;
   private:
     // Returns the image source for the icon.
-    std::unique_ptr<OneVNActionIconWithBadgeImageSource> GetIconImageSource(
+    std::unique_ptr<OnevnActionIconWithBadgeImageSource> GetIconImageSource(
         content::WebContents* web_contents,
         const gfx::Size& size);
-    DISALLOW_COPY_AND_ASSIGN(OneVNActionViewController);
+    DISALLOW_COPY_AND_ASSIGN(OnevnActionViewController);
 };
 
 #endif

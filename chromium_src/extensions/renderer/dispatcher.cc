@@ -4,6 +4,6 @@
 
 #include "onevn/extensions/renderer/onevn_native_extension_bindings_system.h"
 
-#define NativeExtensionBindingsSystem OneVNNativeExtensionBindingsSystem
+#define NativeExtensionBindingsSystem OnevnNativeExtensionBindingsSystem
 #include "../../../../extensions/renderer/dispatcher.cc"
 #undef NativeExtensionBindingsSystem

@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -22,12 +22,12 @@ namespace service_manager {
 class Connector;
 }
 
-class OneVNWidevineBundleUnzipper
-    : public base::RefCountedThreadSafe<OneVNWidevineBundleUnzipper> {
+class OnevnWidevineBundleUnzipper
+    : public base::RefCountedThreadSafe<OnevnWidevineBundleUnzipper> {
  public:
   using DoneCallback = base::OnceCallback<void(const std::string& error)>;
 
-  static scoped_refptr<OneVNWidevineBundleUnzipper> Create(
+  static scoped_refptr<OnevnWidevineBundleUnzipper> Create(
       service_manager::Connector* connector,
       scoped_refptr<base::SequencedTaskRunner> file_task_runner,
       DoneCallback done_callback);
@@ -39,13 +39,13 @@ class OneVNWidevineBundleUnzipper
                             bool delete_file);
 
  private:
-  friend class base::RefCountedThreadSafe<OneVNWidevineBundleUnzipper>;
+  friend class base::RefCountedThreadSafe<OnevnWidevineBundleUnzipper>;
 
-  OneVNWidevineBundleUnzipper(
+  OnevnWidevineBundleUnzipper(
       service_manager::Connector* connector,
       scoped_refptr<base::SequencedTaskRunner> file_task_runner,
       DoneCallback done_callback);
-  ~OneVNWidevineBundleUnzipper();
+  ~OnevnWidevineBundleUnzipper();
 
   void OnGetTempDirForUnzip(base::Optional<base::FilePath> temp_unzip_dir);
   void OnUnzippedInTempDir(bool status);
@@ -69,7 +69,7 @@ class OneVNWidevineBundleUnzipper
   scoped_refptr<base::SequencedTaskRunner> file_task_runner_;
   DoneCallback done_callback_;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNWidevineBundleUnzipper);
+  DISALLOW_COPY_AND_ASSIGN(OnevnWidevineBundleUnzipper);
 };
 
 #endif  // ONEVN_BROWSER_WIDEVINE_ONEVN_WIDEVINE_BUNDLE_UNZIPPER_H_

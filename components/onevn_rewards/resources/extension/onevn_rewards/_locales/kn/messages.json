@@ -1,6 +1,6 @@
 {
   "onevnRewards": {
-    "message": "OneVN Rewards",
+    "message": "Onevn Rewards",
     "description": "Title in welcome screen for the panel"
   },
   "welcomeButtonTextOne": {
@@ -48,7 +48,7 @@
     "description": "The whole string is 'Enable tips on YouTube for like.'"
   },
   "verifiedPublisher": {
-    "message": "OneVN ಪರಿಶೀಲಿಸಿದ ಪ್ರಕಾಶಕರು",
+    "message": "Onevn ಪರಿಶೀಲಿಸಿದ ಪ್ರಕಾಶಕರು",
     "description": "Tells user that this particular publisher is verified publisher"
   },
   "rewardsContributeAttentionScore": {
@@ -164,7 +164,7 @@
     "description": "Used in notification to dismiss notification"
   },
   "onevnAdsTitle": {
-    "message": "OneVN ಜಾಹೀರಾತುಗಳು",
+    "message": "Onevn ಜಾಹೀರಾತುಗಳು",
     "description": "Notification title when we display info about ads"
   },
   "onevnContributeTitle": {
@@ -194,7 +194,7 @@
     "description": "Notification title when we ask user to backup wallet"
   },
   "backupWalletNotification": {
-    "message": "ದಯವಿಟ್ಟು ನಿಮ್ಮ OneVN ವ್ಯಾಲೆಟ್ ಅನ್ನು ಬ್ಯಾಕಪ್ ಮಾಡಿ.",
+    "message": "ದಯವಿಟ್ಟು ನಿಮ್ಮ Onevn ವ್ಯಾಲೆಟ್ ಅನ್ನು ಬ್ಯಾಕಪ್ ಮಾಡಿ.",
     "description": "Description for backup wallet notification"
   },
   "insufficientFundsNotification": {
@@ -270,7 +270,7 @@
     "description": "Button text for clearing the error."
   },
   "grantGeneralErrorText": {
-    "message": "OneVN Rewards ಏನೋ ಸಮಸ್ಯೆ ಎದುರಿಸುತ್ತಿದೆ. ದಯವಿಟ್ಟು ನಂತರ ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ.",
+    "message": "Onevn Rewards ಏನೋ ಸಮಸ್ಯೆ ಎದುರಿಸುತ್ತಿದೆ. ದಯವಿಟ್ಟು ನಂತರ ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ.",
     "description": "Error text when user is having problems claiming a grant."
   },
   "grantGeneralErrorTitle": {
@@ -294,7 +294,7 @@
     "description": "Status of the publisher shown in the panel"
   },
   "unVerifiedText": {
-    "message": "OneVN ಬಳಕೆದಾರರಿಂದ ಕೊಡುಗೆಗಳನ್ನು ಸ್ವೀಕರಿಸಲು ಈ ರಚನೆಕಾರ ಇನ್ನೂ ಸೈನ್ ಅಪ್ ಮಾಡಿಲ್ಲ. ನಿಮ್ಮ ವ್ಯಾಲೆಟ್ ಅನ್ನು ಪರಿಶೀಲಿಸುವವರೆಗೆ ನೀವು ಕಳುಹಿಸಿದ ಟಿಪ್‌ಗಳು ಉಳಿಯುತ್ತವೆ.",
+    "message": "Onevn ಬಳಕೆದಾರರಿಂದ ಕೊಡುಗೆಗಳನ್ನು ಸ್ವೀಕರಿಸಲು ಈ ರಚನೆಕಾರ ಇನ್ನೂ ಸೈನ್ ಅಪ್ ಮಾಡಿಲ್ಲ. ನಿಮ್ಮ ವ್ಯಾಲೆಟ್ ಅನ್ನು ಪರಿಶೀಲಿಸುವವರೆಗೆ ನೀವು ಕಳುಹಿಸಿದ ಟಿಪ್‌ಗಳು ಉಳಿಯುತ್ತವೆ.",
     "description": "Notice about unverified publisher."
   },
   "unVerifiedTextMore": {
@@ -322,7 +322,7 @@
     "description": "Text for Panel's disabled state"
   },
   "disabledPanelTitle": {
-    "message": "OneVN Rewards ಇದಾಗಿದೆ",
+    "message": "Onevn Rewards ಇದಾಗಿದೆ",
     "description": "Title for Panel's disabled state"
   },
   "walletFailedTitle": {
@@ -358,7 +358,7 @@
     "description": "Text block for wallet disabled panel"
   },
   "enableRewards": {
-    "message": "OneVN Rewards ಸಕ್ರಿಯಗೊಳಿಸಿ",
+    "message": "Onevn Rewards ಸಕ್ರಿಯಗೊಳಿಸಿ",
     "description": "Subtitle for wallet disabled panel"
   },
   "privacyPolicy": {

@@ -20,12 +20,12 @@
 <translation id="8261506727792406068">Sil</translation>
 <translation id="144283815522798837"><ph name="NUMBER_OF_ITEMS_SELECTED"/> öğe seçildi</translation>
 <translation id="5582839680698949063">Ana menü</translation>
-<translation id="3700405816184340252">OneVN geçmişi</translation>
+<translation id="3700405816184340252">Onevn geçmişi</translation>
 <translation id="7602079150116086782">Diğer cihazlardan sekme yok</translation>
 <translation id="4619615317237390068">Diğer cihazlardan sekmeler</translation>
-<translation id="82609232232243542">OneVN'da oturum aç</translation>
+<translation id="82609232232243542">Onevn'da oturum aç</translation>
 <translation id="4627442949885028695">Başka bir cihazdan devam edin</translation>
-<translation id="7253276740368043692">Diğer cihazlarınızdaki sekmelerinize ulaşmak için OneVN'da oturum açın.</translation>
+<translation id="7253276740368043692">Diğer cihazlarınızdaki sekmelerinize ulaşmak için Onevn'da oturum açın.</translation>
 <translation id="6351063337294363751">Bu menüyü kullanarak tarama verilerinizi temizleyebilirsiniz</translation>
 <translation id="6040143037577758943">Kapat</translation>
 <translation id="6463795194797719782">&amp;Düzenle</translation>
@@ -90,15 +90,15 @@
 <translation id="5233736638227740678">&amp;Yapıştır</translation>
 <translation id="2218515861914035131">Düz metin olarak yapıştır</translation>
 <translation id="1017280919048282932">&amp;Sözlüğe ekle</translation>
-<translation id="1732768497619250086">OneVN Software'dan resim açıklamaları al</translation>
+<translation id="1732768497619250086">Onevn Software'dan resim açıklamaları al</translation>
 <translation id="7561196759112975576">Her zaman</translation>
 <translation id="2241634353105152135">Sadece bir defa</translation>
 <translation id="741204030948306876">Evet, istiyorum</translation>
 <translation id="780301667611848630">Hayır, teşekkürler</translation>
-<translation id="4572259796527554261">OneVN Software'dan öneri iste</translation>
+<translation id="4572259796527554261">Onevn Software'dan öneri iste</translation>
 <translation id="3435896845095436175">Etkinleştir</translation>
 <translation id="8915370057835397490">Öneriler yükleniyor</translation>
-<translation id="6191804255817539692">OneVN Software'dan başka öneri yok</translation>
+<translation id="6191804255817539692">Onevn Software'dan başka öneri yok</translation>
 <translation id="1901303067676059328">Tümünü &amp;seç</translation>
 <translation id="3797900183766075808">"<ph name="SEARCH_TERMS"/>" İçin <ph name="SEARCH_ENGINE"/> &amp;Üzerinde Arama Yap</translation>
 <translation id="2721037002783622288"><ph name="SEARCH_ENGINE"/> içinde resim &amp;ara</translation>
@@ -147,11 +147,11 @@
 <translation id="9033857511263905942">&amp;Yapıştır</translation>
 <translation id="1815083418640426271">Düz Metin Olarak Yapıştır</translation>
 <translation id="4022426551683927403">Sözlüğe &amp;Ekle</translation>
-<translation id="6849870115130610913">OneVN Software'dan Resim Açıklamaları al</translation>
+<translation id="6849870115130610913">Onevn Software'dan Resim Açıklamaları al</translation>
 <translation id="372722114124766626">Sadece Bir Defa</translation>
 <translation id="8917490105272468696">Evet, istiyorum</translation>
 <translation id="7473891865547856676">Hayır, Teşekkürler</translation>
-<translation id="2867003629889664976">OneVN Software'dan Öneri İste</translation>
+<translation id="2867003629889664976">Onevn Software'dan Öneri İste</translation>
 <translation id="6264365405983206840">&amp;Tümünü Seç</translation>
 <translation id="3948116654032448504"><ph name="SEARCH_ENGINE"/> içinde Resim &amp;ara</translation>
 <translation id="2932085390869194046">Şifre Öner...</translation>
@@ -404,7 +404,7 @@
 <translation id="9148058034647219655">Çıkış</translation>
 <translation id="7376221878517288144">Yine de gizli mod kapatılsın mı?</translation>
 <translation id="973473557718930265">Çık</translation>
-<translation id="7707599169365957976">OneVN Software'a bazı sistem bilgilerini ve sayfa içeriklerini göndererek Güvenli Tarama'nın iyileştirilmesine yardımcı olabilirsiniz.</translation>
+<translation id="7707599169365957976">Onevn Software'a bazı sistem bilgilerini ve sayfa içeriklerini göndererek Güvenli Tarama'nın iyileştirilmesine yardımcı olabilirsiniz.</translation>
 <translation id="4923279099980110923">Evet, yardımcı olmak istiyorum</translation>
 <translation id="2316129865977710310">Hayır, teşekkürler</translation>
 <translation id="9169931577761441333"><ph name="APP_NAME"/> uygulamasını Ana ekrana ekle</translation>
@@ -418,8 +418,8 @@
 <translation id="3067198179881736288">Uygulama yüklensin mi?</translation>
 <translation id="7072010813301522126">Kısayol adı</translation>
 <translation id="3275778913554317645">Pencere olarak aç</translation>
-<translation id="8201192017531062522">OneVN, OneVN Uygulamaları açık olduğu sürece çalışmaya devam edecektir.</translation>
-<translation id="7397305826909094212">Tüm OneVN Uygulamalarından Çık</translation>
+<translation id="8201192017531062522">Onevn, Onevn Uygulamaları açık olduğu sürece çalışmaya devam edecektir.</translation>
+<translation id="7397305826909094212">Tüm Onevn Uygulamalarından Çık</translation>
 <translation id="5026874946691314267">Bu mesajı tekrar gösterme</translation>
 <translation id="91568222606626347">Kısayol Oluştur...</translation>
 <translation id="2783321960289401138">Kısayol oluştur...</translation>
@@ -767,11 +767,11 @@ Hassas bilgileri vermediğinizden emin olun.</translation>
 <translation id="5799508265798272974">Linux Sanal Makinesi: <ph name="LINUX_VM_NAME"/></translation>
 <translation id="8191453843330043793">V8 Proxy Çözümleyici</translation>
 <translation id="5552059560155071882">CUPS IPP Ayrıştırıcı</translation>
-<translation id="3077708072777965506">OneVN OS Giriş Yöntemi</translation>
-<translation id="7171242884588191792">OneVN Dosya Yardımcı Programları</translation>
+<translation id="3077708072777965506">Onevn OS Giriş Yöntemi</translation>
+<translation id="7171242884588191792">Onevn Dosya Yardımcı Programları</translation>
 <translation id="3183139917765991655">Profil İçe Aktarıcısı</translation>
 <translation id="2190069059097339078">WiFi Credentials Getter</translation>
-<translation id="7685901961038216503">OneVN OS Sistemi Görsel Yazıcı</translation>
+<translation id="7685901961038216503">Onevn OS Sistemi Görsel Yazıcı</translation>
 <translation id="4873312501243535625">Medya Dosyası Denetleyicisi</translation>
 <translation id="5972666587303800813">İşlemsiz Hizmet</translation>
 <translation id="3061707000357573562">Yama Hizmeti</translation>
@@ -781,7 +781,7 @@ Hassas bilgileri vermediğinizden emin olun.</translation>
 <translation id="2079545284768500474">Geri al</translation>
 <translation id="2256115617011615191">Şimdi yeniden başlat</translation>
 <translation id="4545028762441890696">Tekrar etkinleştirmek için yeni izinleri kabul edin:</translation>
-<translation id="3009487527589249344">OneVN Software <ph name="EXTENSION_NAME"/> uzantısını kötü amaçlı olarak işaretledi ve yükleme işlemi engellendi</translation>
+<translation id="3009487527589249344">Onevn Software <ph name="EXTENSION_NAME"/> uzantısını kötü amaçlı olarak işaretledi ve yükleme işlemi engellendi</translation>
 <translation id="6790497603648687708"><ph name="EXTENSION_NAME"/> eklentisi uzaktan eklendi</translation>
 <translation id="1841705068325380214"><ph name="EXTENSION_NAME"/> devre dışı bırakıldı</translation>
 <translation id="595959584676692139">Bu uzantıyı kullanmak için sayfayı yeniden yükleyin</translation>
@@ -800,14 +800,14 @@ Hassas bilgileri vermediğinizden emin olun.</translation>
 <translation id="3507421388498836150">"<ph name="EXTENSION_NAME"/>" için Geçerli İzinler</translation>
 <translation id="5242724311594467048">"<ph name="EXTENSION_NAME"/>" etkinleştirilsin mi?</translation>
 <translation id="4014432863917027322">"<ph name="EXTENSION_NAME"/>" onarılsın mı?</translation>
-<translation id="5173189340601754836">Bilgisayarınızdaki başka bir program, OneVN'un çalışma şeklini değiştirebilecek bir uygulama ekledi.
+<translation id="5173189340601754836">Bilgisayarınızdaki başka bir program, Onevn'un çalışma şeklini değiştirebilecek bir uygulama ekledi.
 
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="6654312501894761082">Bilgisayarınızdaki başka bir program, OneVN'un çalışma şeklini değiştirebilecek bir uzantı ekledi.
+<translation id="6654312501894761082">Bilgisayarınızdaki başka bir program, Onevn'un çalışma şeklini değiştirebilecek bir uzantı ekledi.
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="3225882094369124157">Bilgisayarınızdaki başka bir program, OneVN'un çalışma şeklini değiştirebilecek bir tema ekledi.
+<translation id="3225882094369124157">Bilgisayarınızdaki başka bir program, Onevn'un çalışma şeklini değiştirebilecek bir tema ekledi.
 
 <ph name="EXTENSION_NAME"/></translation>
 <translation id="9102610709270966160">Uzantıyı Etkinleştir</translation>
@@ -816,7 +816,7 @@ Hassas bilgileri vermediğinizden emin olun.</translation>
 <translation id="3908501907586732282">Uzantıyı etkinleştir</translation>
 <translation id="2327492829706409234">Uygulamayı etkinleştir</translation>
 <translation id="175772926354468439">Temayı etkinleştir</translation>
-<translation id="5267531627648004734">OneVN'dan kaldır</translation>
+<translation id="5267531627648004734">Onevn'dan kaldır</translation>
 <translation id="4998873842614926205">Değişiklikleri Onayla</translation>
 <translation id="5699533844376998780">"<ph name="EXTENSION_NAME"/>" uzantısı eklendi.</translation>
 <translation id="1799071797295057738">"<ph name="EXTENSION_NAME"/>" uzantısı otomatik olarak devre dışı bırakıldı.</translation>
@@ -914,7 +914,7 @@ Hassas bilgileri vermediğinizden emin olun.</translation>
 <translation id="3584169441612580296">Bilgisayarınızdaki fotoğrafları, müzikleri ve diğer medyaları okuma ve değiştirme</translation>
 <translation id="5457459357461771897">Bilgisayarınızdaki fotoğrafları, müzikleri ve diğer medyaları okuma ve silme</translation>
 <translation id="3270965368676314374">Bilgisayarınızdan fotoğrafları, müzikleri ve başka medyayı okuma, değiştirme ve silme</translation>
-<translation id="3919562953666287643">Verileri OneVN Software Drive hesabınızda depolama</translation>
+<translation id="3919562953666287643">Verileri Onevn Software Drive hesabınızda depolama</translation>
 <translation id="378312418865624974">Bu bilgisayara ilişkin benzersiz bir tanıtıcıyı okuma</translation>
 <translation id="5094721898978802975">İşbirliği yapan yerel uygulamalarla iletişim kurma</translation>
 <translation id="4876895919560854374">Ekranı kilitleme ve kilidini açma</translation>
@@ -947,7 +947,7 @@ Hassas bilgileri vermediğinizden emin olun.</translation>
 <translation id="1616298854599875024">Paylaşılan bir modül olmadığından "<ph name="IMPORT_NAME"/>" uzantısı içe aktarılamıyor</translation>
 <translation id="2131077480075264">"<ph name="IMPORT_NAME"/>" tarafından izin verilmediğinden "<ph name="APP_NAME"/>" yüklenemiyor</translation>
 <translation id="1875387611427697908">Bu yalnızca <ph name="CHROME_WEB_STORE"/> kullanılarak eklenebilir</translation>
-<translation id="7613251087357271190">"kiosk_only" manifest özelliğine sahip uygulamalar OneVNOS kiosk modunda yüklenmelidir</translation>
+<translation id="7613251087357271190">"kiosk_only" manifest özelliğine sahip uygulamalar OnevnOS kiosk modunda yüklenmelidir</translation>
 <translation id="3834775135533257713">"<ph name="TO_INSTALL_APP_NAME"/>" uygulaması, zaten yüklenmiş olan "<ph name="INSTALLED_APP_NAME"/>" uygulamasıyla çakıştığından eklenemedi.</translation>
 <translation id="144518587530125858">Temaya ilişkin '<ph name="IMAGE_PATH"/>' yolu yüklenemedi.</translation>
 <translation id="6567688344210276845">Sayfa işlemine ilişkin '<ph name="ICON"/>' simgesi yüklenemedi.</translation>
@@ -1042,9 +1042,9 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="6101226222197207147">Yeni uygulama eklendi (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="7818135753970109980">Yeni tema eklendi (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="9215293857209265904">"<ph name="EXTENSION_NAME"/>" eklendi</translation>
-<translation id="6637045053447935202">Bilgisayarınızdaki başka bir program, OneVN'un çalışma şeklini değiştirebilecek bir uygulama ekledi.</translation>
-<translation id="2015014930243978107">Bilgisayarınızdaki başka bir program, OneVN'un çalışma şeklini değiştirebilecek bir uzantı ekledi.</translation>
-<translation id="2060128809251156338">Bilgisayarınızdaki başka bir program, OneVN'un çalışma şeklini değiştirebilecek bir tema ekledi.</translation>
+<translation id="6637045053447935202">Bilgisayarınızdaki başka bir program, Onevn'un çalışma şeklini değiştirebilecek bir uygulama ekledi.</translation>
+<translation id="2015014930243978107">Bilgisayarınızdaki başka bir program, Onevn'un çalışma şeklini değiştirebilecek bir uzantı ekledi.</translation>
+<translation id="2060128809251156338">Bilgisayarınızdaki başka bir program, Onevn'un çalışma şeklini değiştirebilecek bir tema ekledi.</translation>
 <translation id="2470702053775288986">Desteklenmeyen uzantılar devre dışı bırakıldı</translation>
 <translation id="2809586584051668049">ve diğer <ph name="NUMBER_ADDITIONAL_DISABLED"/> öğe</translation>
 <translation id="5301954838959518834">Tamam, anladım</translation>
@@ -1106,12 +1106,12 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="8756969031206844760">Şifre güncellensin mi?</translation>
 <translation id="8230134520748321204"><ph name="ORIGIN"/> için şifreniz kaydedilsin mi?</translation>
 <translation id="9040661932550800571"><ph name="ORIGIN"/> için şifre güncellensin mi?</translation>
-<translation id="8284000761603848448">Şifreler OneVN Software Hesabınıza kaydedildiğinden bunları herhangi bir cihazda kullanabilirsiniz</translation>
+<translation id="8284000761603848448">Şifreler Onevn Software Hesabınıza kaydedildiğinden bunları herhangi bir cihazda kullanabilirsiniz</translation>
 <translation id="8286036467436129157">Oturum Aç</translation>
 <translation id="8009225694047762179">Şifreleri Yönet</translation>
 <translation id="3950820424414687140">Oturum açın</translation>
 <translation id="5624120631404540903">Şifreleri yönet</translation>
-<translation id="9135262959729602463">Şifrelerinizi tüm cihazlarınızda almak için OneVN'da oturum açın.</translation>
+<translation id="9135262959729602463">Şifrelerinizi tüm cihazlarınızda almak için Onevn'da oturum açın.</translation>
 <translation id="8919275547519617350">Tüm şifrelerinize tüm cihazlarınızda ulaşmak için oturum açın ve senkronizasyonu etkinleştirin.</translation>
 <translation id="8470028084415844044">Tüm şifrelerinize tüm cihazlarınızda ulaşmak için senkronizasyonu açın.</translation>
 <translation id="1609170755653088773">Bu şifreyi iPhone'unuzla senkronize edin</translation>
@@ -1212,8 +1212,8 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="223106756035922488">Bugünün doodle'ını görüntülemek için tıklayın</translation>
 <translation id="8676374126336081632">Girişi temizle</translation>
 <translation id="5867841422488265304">Web adresini arayın veya yazın</translation>
-<translation id="2129873093718581193">OneVN Software'da arayın veya URL'yi yazın</translation>
-<translation id="6363797201514053536">OneVN Software'da arama yapın veya bir URL yazın</translation>
+<translation id="2129873093718581193">Onevn Software'da arayın veya URL'yi yazın</translation>
+<translation id="6363797201514053536">Onevn Software'da arama yapın veya bir URL yazın</translation>
 <translation id="6078323886959318429">Kısayol ekle</translation>
 <translation id="6324916366299863871">Kısayolu düzenleyin</translation>
 <translation id="4405117686468554883">*.jpeg, *.jpg, *.png</translation>
@@ -1229,7 +1229,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="1174073918202301297">Kısayol eklendi</translation>
 <translation id="2926085873880284723">Varsayılan kısayolları geri yükle</translation>
 <translation id="2942581856830209953">Bu sayfayı özelleştir</translation>
-<translation id="5801450813341024983">OneVN arka planları</translation>
+<translation id="5801450813341024983">Onevn arka planları</translation>
 <translation id="2800760947029405028">Resim yükle</translation>
 <translation id="8342861492835240085">Koleksiyon seçin</translation>
 <translation id="3132996321662585180">Günlük olarak yenile</translation>
@@ -1330,8 +1330,8 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="6686817083349815241">Şifrenizi kaydedin</translation>
 <translation id="8141725884565838206">Şifrelerinizi yönetin</translation>
 <translation id="8275038454117074363">İçe aktar</translation>
-<translation id="3191314862567596053">Şifreleri OneVN'a Aktar</translation>
-<translation id="6368144843345980623">Şifreleri OneVN'dan Aktar</translation>
+<translation id="3191314862567596053">Şifreleri Onevn'a Aktar</translation>
+<translation id="6368144843345980623">Şifreleri Onevn'dan Aktar</translation>
 <translation id="8503813439785031346">Kullanıcı adı</translation>
 <translation id="6657585470893396449">Şifre</translation>
 <translation id="4722735765955348426"><ph name="USERNAME"/> için şifre</translation>
@@ -1358,31 +1358,31 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="2982970937345031">Anonim olarak bildir</translation>
 <translation id="6076448957780543068">Bu ekran görüntüsünü ekle</translation>
 <translation id="7052237160939977163">Performans izleme verilerini gönder</translation>
-<translation id="5526928694260255286"><ph name="BEGIN_LINK"/>Bluetooth Günlükleri<ph name="END_LINK"/> ekle (OneVN Software dahili)</translation>
+<translation id="5526928694260255286"><ph name="BEGIN_LINK"/>Bluetooth Günlükleri<ph name="END_LINK"/> ekle (Onevn Software dahili)</translation>
 <translation id="3047644958362961983">Bu bilgiler, Asistan'la ilgili sorununuzu daha iyi anlamamıza yardımcı olur. En fazla 90 gün boyunca saklanan bilgilere yalnızca ilgili mühendislik ve geri bildirim ekipleri erişebilir.</translation>
-<translation id="1705635099498185261">OneVN Software çalışanları Bluetooth sorunlarını daha iyi teşhis etmek için geri bildirim raporlarına ek Bluetooth günlükleri dahil edebilirler. Bu seçenek işaretlendiğinde, geçerli oturumunuzdan btsnoop ve HCI günlükleri raporunuza eklenecektir. Bu şekilde mümkün olan en fazla sayıda PII temizlenecektir. Bu günlüklere erişim, Listnr'da OneVN OS ürün grubu yöneticileri ile kısıtlı olacaktır. Günlükler 90 gün sonra tamamen silinecektir.</translation>
+<translation id="1705635099498185261">Onevn Software çalışanları Bluetooth sorunlarını daha iyi teşhis etmek için geri bildirim raporlarına ek Bluetooth günlükleri dahil edebilirler. Bu seçenek işaretlendiğinde, geçerli oturumunuzdan btsnoop ve HCI günlükleri raporunuza eklenecektir. Bu şekilde mümkün olan en fazla sayıda PII temizlenecektir. Bu günlüklere erişim, Listnr'da Onevn OS ürün grubu yöneticileri ile kısıtlı olacaktır. Günlükler 90 gün sonra tamamen silinecektir.</translation>
 <translation id="4206323443866416204">Geri Bildirim Raporu</translation>
 <translation id="3681311097828166361">Geri bildiriminiz için teşekkürler. Şu anda çevrimdışısınız ve raporunuz daha sonra gönderilecek.</translation>
 <translation id="8713570323158206935"><ph name="BEGIN_LINK1"/>Sistem bilgilerini<ph name="END_LINK1"/> gönder</translation>
 <translation id="6395423953133416962"><ph name="BEGIN_LINK1"/>Sistem bilgileri<ph name="END_LINK1"/> ve <ph name="BEGIN_LINK2"/>metrikleri<ph name="END_LINK2"/> gönder</translation>
 <translation id="6270770586500173387"><ph name="BEGIN_LINK1"/>Sistem ve uygulama bilgilerini<ph name="END_LINK1"/> ve <ph name="BEGIN_LINK2"/>metrikleri<ph name="END_LINK2"/> gönder</translation>
-<translation id="8329196515830093443">Dosya, hata ayıklama amacıyla OneVN Software'a gönderilecektir</translation>
+<translation id="8329196515830093443">Dosya, hata ayıklama amacıyla Onevn Software'a gönderilecektir</translation>
 <translation id="8227119283605456246">Dosya ekle</translation>
 <translation id="5367091008316207019">Dosya okunuyor..</translation>
 <translation id="2554553592469060349">Seçili dosya çok büyük (maks. boyut: 3 MB).</translation>
 <translation id="4690091457710545971">&lt;Intel Kablosuz donanım yazılımı tarafından dört dosya oluşturuldu: csr.lst, fh_regs.lst, radio_reg.lst, monitor.lst.sysmon. İlk üç dosya, kayıt dökümlerini içeren ikili dosyalardır ve Intel, bu dosyalarda kimlik veya cihaz bilgilerini tanımlayan bilgilerin yer almadığını teyit etmektedir. Son dosya, Intel donanım yazılımındaki bir yürütme izidir. Bu dosyadaki kimlik ve cihaz bilgileri temizlenmiştir, ancak dosya burada görüntülenemeyecek kadar büyüktür. Bu dosyalar, cihazınızla ilgili son kablosuz bağlantı sorunlarına yanıt olarak oluşturulmuştur ve bu sorunların giderilmesinde yardımcı olması için Intel ile paylaşılacaktır.&gt;</translation>
-<translation id="6972420083546794501">Yasal nedenlerle içerik değişikliği talebinde bulunmak için <ph name="BEGIN_LINK1"/>Yasal Yardım sayfasına<ph name="END_LINK1"/> gidin. Bazı hesap ve sistem bilgileri OneVN Software'a gönderilebilir. Bize verdiğiniz bilgileri, <ph name="BEGIN_LINK2"/>Gizlilik Politikası<ph name="END_LINK2"/> ve <ph name="BEGIN_LINK3"/>Hizmet Şartları<ph name="END_LINK3"/>'na tabi olarak hizmetlerimizi iyileştirmek ve teknik sorunları gidermek için kullanırız.</translation>
+<translation id="6972420083546794501">Yasal nedenlerle içerik değişikliği talebinde bulunmak için <ph name="BEGIN_LINK1"/>Yasal Yardım sayfasına<ph name="END_LINK1"/> gidin. Bazı hesap ve sistem bilgileri Onevn Software'a gönderilebilir. Bize verdiğiniz bilgileri, <ph name="BEGIN_LINK2"/>Gizlilik Politikası<ph name="END_LINK2"/> ve <ph name="BEGIN_LINK3"/>Hizmet Şartları<ph name="END_LINK3"/>'na tabi olarak hizmetlerimizi iyileştirmek ve teknik sorunları gidermek için kullanırız.</translation>
 <translation id="7915471803647590281">Geri bildirimi göndermeden önce lütfen bize ne olduğunu söyleyin.</translation>
 <translation id="1483493594462132177">Gönder</translation>
 <translation id="6885771755599377173">Sistem Bilgisi Önizlemesi</translation>
 <translation id="1016566241875885511">Ek bilgi (isteğe bağlı)</translation>
-<translation id="6083886770200509573">OneVN kilitleniyor mu? Alışılmadık başlangıç sayfaları, araç çubukları ya da kurtulamadığınız beklenmedik reklamlar gösteriyor veya göz atma deneyiminizi başka şekilde değiştiriyor mu? Bu tür sorunları OneVN Temizleme Aracı'nı çalıştırarak giderebilirsiniz.</translation>
-<translation id="7719662019953070946">OneVN Temizleme Aracı'nı indir</translation>
+<translation id="6083886770200509573">Onevn kilitleniyor mu? Alışılmadık başlangıç sayfaları, araç çubukları ya da kurtulamadığınız beklenmedik reklamlar gösteriyor veya göz atma deneyiminizi başka şekilde değiştiriyor mu? Bu tür sorunları Onevn Temizleme Aracı'nı çalıştırarak giderebilirsiniz.</translation>
+<translation id="7719662019953070946">Onevn Temizleme Aracı'nı indir</translation>
 <translation id="8281886186245836920">Atla</translation>
 <translation id="8026334261755873520">Tarama verilerini temizle</translation>
 <translation id="7409836189476010449">Flash öğesi çalıştırmak</translation>
-<translation id="4718442817388594217">Seçilen veriler OneVN'dan ve senkronize edilen cihazlardan kaldırıldı. <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> adresinde, diğer OneVN Software hizmetlerinden yapılan aramalar ve etkinlikler gibi OneVN Software Hesabınızla ilişkili başka biçimlerde tarama geçmişi bulunabilir.</translation>
-<translation id="7814200940910057384">OneVN verileri temizlendi</translation>
+<translation id="4718442817388594217">Seçilen veriler Onevn'dan ve senkronize edilen cihazlardan kaldırıldı. <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> adresinde, diğer Onevn Software hizmetlerinden yapılan aramalar ve etkinlikler gibi Onevn Software Hesabınızla ilişkili başka biçimlerde tarama geçmişi bulunabilir.</translation>
+<translation id="7814200940910057384">Onevn verileri temizlendi</translation>
 <translation id="7346909386216857016">Tamam, anladım</translation>
 <translation id="8493236660459102203">Mikrofon:</translation>
 <translation id="3925573269917483990">Kamera:</translation>
@@ -1390,7 +1390,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="4172051516777682613">Her zaman göster</translation>
 <translation id="477945296921629067">{NUM_POPUPS,plural, =1{Pop-up engellendi}other{# pop-up engellendi}}</translation>
 <translation id="3759371141211657149">İşleyici ayarlarını yönet...</translation>
-<translation id="4156865452842056672">(OneVN hata sayfaları)</translation>
+<translation id="4156865452842056672">(Onevn hata sayfaları)</translation>
 <translation id="1734824808160898225"><ph name="PRODUCT_NAME"/> kendisini güncel tutamayabilir</translation>
 <translation id="8590375307970699841">Otomatik güncellemeleri ayarla</translation>
 <translation id="8926389886865778422">Bir daha sorma</translation>
@@ -1405,7 +1405,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="284805635805850872">Zararlı yazılım kaldırılsın mı?</translation>
 <translation id="489985760463306091">Zararlı yazılımları kaldırma işlemini tamamlamak için bilgisayarınızı yeniden başlatın</translation>
 <translation id="7598466960084663009">Bilgisayarı yeniden başlat</translation>
-<translation id="2819091349626575960">Ayrıntıları OneVN Software'a bildir</translation>
+<translation id="2819091349626575960">Ayrıntıları Onevn Software'a bildir</translation>
 <translation id="4099060993766194518">Varsayılan arama motoru geri yüklensin mi?</translation>
 <translation id="138784436342154190">Varsayılan başlangıç sayfası geri yüklensin mi?</translation>
 <translation id="5086874064903147617">Varsayılan ana sayfa geri yüklensin mi?</translation>
@@ -1484,10 +1484,10 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="8658645149275195032"><ph name="APP_NAME"/>, ekranınızı ve sesinizi <ph name="TAB_NAME"/> ile paylaşıyor.</translation>
 <translation id="4364567974334641491"><ph name="APP_NAME"/>, bir pencereyi paylaşıyor.</translation>
 <translation id="8944964446326379280"><ph name="APP_NAME"/>, bir pencereyi <ph name="TAB_NAME"/> ile paylaşıyor.</translation>
-<translation id="351520635355732555"><ph name="APP_NAME"/>, bir OneVN sekmesini paylaşıyor.</translation>
-<translation id="5727851901710884484"><ph name="APP_NAME"/>, bir OneVN sekmesini <ph name="TAB_NAME"/> ile paylaşıyor.</translation>
-<translation id="5770515304879261338"><ph name="APP_NAME"/>, bir OneVN sekmesini ve sesi paylaşıyor.</translation>
-<translation id="859454237594354073"><ph name="APP_NAME"/>, bir OneVN sekmesini ve sesi <ph name="TAB_NAME"/> ile paylaşıyor.</translation>
+<translation id="351520635355732555"><ph name="APP_NAME"/>, bir Onevn sekmesini paylaşıyor.</translation>
+<translation id="5727851901710884484"><ph name="APP_NAME"/>, bir Onevn sekmesini <ph name="TAB_NAME"/> ile paylaşıyor.</translation>
+<translation id="5770515304879261338"><ph name="APP_NAME"/>, bir Onevn sekmesini ve sesi paylaşıyor.</translation>
+<translation id="859454237594354073"><ph name="APP_NAME"/>, bir Onevn sekmesini ve sesi <ph name="TAB_NAME"/> ile paylaşıyor.</translation>
 <translation id="890616557918890486">Kaynağı değiştir</translation>
 <translation id="7792388396321542707">Paylaşmayı durdur</translation>
 <translation id="6630752851777525409"><ph name="EXTENSION_NAME"/> sizin adınıza kendi kimlik doğrulamasını yapmak için bir sertifikaya kalıcı erişim izni istiyor.</translation>
@@ -1505,11 +1505,11 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="2190355936436201913">(boş)</translation>
 <translation id="7136984461011502314"><ph name="PRODUCT_NAME"/> Uygulamasına Hoş Geldiniz</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME"/>, yükleme işleminizi tamamlamaya hazır</translation>
-<translation id="4711067597921221305">OneVN Software'a otomatik olarak kullanım istatistikleri ve kilitlenme raporları göndererek <ph name="PRODUCT_NAME"/> ürününü iyileştirmemize yardımcı olun.</translation>
+<translation id="4711067597921221305">Onevn Software'a otomatik olarak kullanım istatistikleri ve kilitlenme raporları göndererek <ph name="PRODUCT_NAME"/> ürününü iyileştirmemize yardımcı olun.</translation>
 <translation id="5972826969634861500"><ph name="PRODUCT_NAME"/> uygulamasını başlat</translation>
 <translation id="4876273079589074638">Mühendislerimizin kilitlenme olayı araştırmalarına ve düzeltmelerine yardımcı olun. Yapabilirseniz adımları tam olarak listeleyin. Hiçbir ayrıntıyı atlamayın!</translation>
 <translation id="945522503751344254">Geri bildirim gönder</translation>
-<translation id="5418694430960033386">Ya OneVN'da bellek kalmadı ya da web sayfasına ait işlem başka bir nedenden dolayı sonlandırıldı. Devam etmek için yeniden yükleyin veya başka bir sayfaya gidin.</translation>
+<translation id="5418694430960033386">Ya Onevn'da bellek kalmadı ya da web sayfasına ait işlem başka bir nedenden dolayı sonlandırıldı. Devam etmek için yeniden yükleyin veya başka bir sayfaya gidin.</translation>
 <translation id="3065041951436100775">Sekme sonlandırıldı geri bildirimi.</translation>
 <translation id="3941565636838060942">Bu programa erişimi gizlemek için Denetim Masası'nda
   <ph name="CONTROL_PANEL_APPLET_NAME"/> aracını kullanarak programın yüklemesini kaldırmanız gerekir.
@@ -1520,7 +1520,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="6280912520669706465">ARC</translation>
 <translation id="4728558894243024398">Platform</translation>
 <translation id="7022562585984256452">Ana sayfanız ayarlandı.</translation>
-<translation id="7274626204661209194">OneVN Software Cloud Print</translation>
+<translation id="7274626204661209194">Onevn Software Cloud Print</translation>
 <translation id="4973307593867026061">Yazıcı ekle</translation>
 <translation id="9052208328806230490">Yazıcılarınızı, <ph name="EMAIL"/> hesabını kullanarak <ph name="CLOUD_PRINT_NAME"/> hizmetine kaydettirdiniz.</translation>
 <translation id="3792890930871100565">Yazıcıların bağlantısını kes</translation>
@@ -1530,17 +1530,17 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="4620809267248568679">Bu ayar bir uzantı tarafından zorunlu tutuluyor.</translation>
 <translation id="4846680374085650406">Bu ayar için yöneticinin önerisini uyguluyorsunuz.</translation>
 <translation id="1223853788495130632">Yöneticiniz bu ayar için belirli bir değer öneriyor.</translation>
-<translation id="8839398440242019256">OneVN Web Mağazası'ndan değil.</translation>
+<translation id="8839398440242019256">Onevn Web Mağazası'ndan değil.</translation>
 <translation id="5337771866151525739">Üçüncü tarafça yüklendi.</translation>
 <translation id="4538792345715658285">Kurumsal politika tarafından yüklenmiş.</translation>
 <translation id="4359408040881008151">Bağımlı uzantılar nedeniyle yüklendi.</translation>
 <translation id="4980805016576257426">Bu uzantı kötü amaçlı yazılım içeriyor.</translation>
 <translation id="5522156646677899028">Bu uzantı önemli bir güvenlik açığı içeriyor.</translation>
-<translation id="6945695820322143954">Bu uzantı OneVN Web Mağazası politikasını ihlal ediyor.</translation>
-<translation id="177808131755847449">OneVN tarafından devre dışı bırakıldı. Bu uzantı güvenli olmayabilir.</translation>
+<translation id="6945695820322143954">Bu uzantı Onevn Web Mağazası politikasını ihlal ediyor.</translation>
+<translation id="177808131755847449">Onevn tarafından devre dışı bırakıldı. Bu uzantı güvenli olmayabilir.</translation>
 <translation id="1434696352799406980">Bu işlem, başlangıç sayfanızı, yeni sekme sayfanızı, arama motorunuzu ve sabit sekmelerinizi sıfırlar. Ayrıca, tüm uzantılar devre dışı bırakılır ve çerezler gibi geçici veriler temizlenir. Yer işaretleriniz, geçmişiniz ve kayıtlı şifreleriniz temizlenmez.</translation>
 <translation id="1242633766021457174"><ph name="THIRD_PARTY_TOOL_NAME"/>, ayarlarınızı sıfırlamak istiyor.</translation>
-<translation id="8073477228424628709"><ph name="THIRD_PARTY_TOOL_NAME"/>, OneVN ayarlarınızı orijinal varsayılan değerlerine geri yüklemek istiyor. Bu işlem ana sayfanızı, yeni sekme sayfanızı ve arama motorunuzu sıfırlayacak, uzantılarınızı devre dışı bırakacak ve tüm sekmelerinizin sabitlemesini kaldıracaktır. Ayrıca çerezler, içerik ve site verileri gibi geçici ve önbelleğe alınmış diğer veriler temizlenecektir.</translation>
+<translation id="8073477228424628709"><ph name="THIRD_PARTY_TOOL_NAME"/>, Onevn ayarlarınızı orijinal varsayılan değerlerine geri yüklemek istiyor. Bu işlem ana sayfanızı, yeni sekme sayfanızı ve arama motorunuzu sıfırlayacak, uzantılarınızı devre dışı bırakacak ve tüm sekmelerinizin sabitlemesini kaldıracaktır. Ayrıca çerezler, içerik ve site verileri gibi geçici ve önbelleğe alınmış diğer veriler temizlenecektir.</translation>
 <translation id="7581462281756524039">Temizleme aracı</translation>
 <translation id="1233721473400465416">Yerel ayar</translation>
 <translation id="2907619724991574506">Başlangıç URL'leri</translation>
@@ -1554,7 +1554,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="8870318296973696995">Ana sayfa</translation>
 <translation id="8987927404178983737">Ay</translation>
 <translation id="6015796118275082299">Yıl</translation>
-<translation id="5152275065296016556">OneVN Software Pay</translation>
+<translation id="5152275065296016556">Onevn Software Pay</translation>
 <translation id="7671130400130574146">Sistemin başlık çubuğunu ve kenarlıklarını kullan</translation>
 <translation id="4520385623207007473">Kullanımdaki çerezler</translation>
 <translation id="4763408175235639573">Bu sayfayı görüntülediğinizde aşağıdaki çerezler ayarlandı</translation>
@@ -1573,7 +1573,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="8930351635855238750">Yeni çerez ayarları sayfa yeniden yüklendikten sonra etkinleşecek</translation>
 <translation id="2568774940984945469">Bilgi Çubuğu Kapsayıcı</translation>
 <translation id="7282992757463864530">Bilgi çubuğu</translation>
-<translation id="1805077115206898822">Yer işaretleriniz, geçmişiniz ve diğer ayarlarınız OneVN Software Hesabınızla senkronize edilecek.</translation>
+<translation id="1805077115206898822">Yer işaretleriniz, geçmişiniz ve diğer ayarlarınız Onevn Software Hesabınızla senkronize edilecek.</translation>
 <translation id="1974060860693918893">Gelişmiş</translation>
 <translation id="2445484935443597917">Yeni Profil Oluştur</translation>
 <translation id="2606246518223360146">Verileri Bağla</translation>
@@ -1661,13 +1661,13 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="3074037959626057712">Oturum açtınız ve Senkronizasyonu etkinleştirdiniz</translation>
 <translation id="1231733316453485619">Senkronizasyon açılsın mı?</translation>
 <translation id="4736292055110123391">Yer işaretleriniz, şifreleriniz, geçmişiniz ve daha fazlasını tüm cihazlarınızda senkronize edin</translation>
-<translation id="5736731321935944068">OneVN Software; Arama, reklamlar ve diğer OneVN Software hizmetlerini kişiselleştirmek için geçmişinizi kullanabilir</translation>
+<translation id="5736731321935944068">Onevn Software; Arama, reklamlar ve diğer Onevn Software hizmetlerini kişiselleştirmek için geçmişinizi kullanabilir</translation>
 <translation id="4201546031411513170">Neyin senkronize edileceğini istediğiniz zaman ayarlardan seçebilirsiniz.</translation>
-<translation id="3149880132460839085">OneVN Senkronizasyonu</translation>
-<translation id="3796902758602917951">Yer işaretleriniz, geçmişiniz, şifreleriniz ve diğer ayarlarınız tüm cihazlarınızda kullanabilmeniz için OneVN Software Hesabınızla senkronize edilecek</translation>
-<translation id="3111958038206230539">OneVN Software hizmetlerini kişiselleştirme</translation>
-<translation id="295992419959320001">OneVN Software; Arama, reklamlar ve diğer OneVN Software hizmetlerini kişiselleştirmek için tarama geçmişinizi kullanabilir</translation>
-<translation id="3070156078150543526">OneVN Software, Arama ve diğer OneVN Software hizmetlerini kişiselleştirmek için tarama geçmişinizi kullanabilir</translation>
+<translation id="3149880132460839085">Onevn Senkronizasyonu</translation>
+<translation id="3796902758602917951">Yer işaretleriniz, geçmişiniz, şifreleriniz ve diğer ayarlarınız tüm cihazlarınızda kullanabilmeniz için Onevn Software Hesabınızla senkronize edilecek</translation>
+<translation id="3111958038206230539">Onevn Software hizmetlerini kişiselleştirme</translation>
+<translation id="295992419959320001">Onevn Software; Arama, reklamlar ve diğer Onevn Software hizmetlerini kişiselleştirmek için tarama geçmişinizi kullanabilir</translation>
+<translation id="3070156078150543526">Onevn Software, Arama ve diğer Onevn Software hizmetlerini kişiselleştirmek için tarama geçmişinizi kullanabilir</translation>
 <translation id="2709453993673701466">Senkronizasyonu ve kişiselleştirmeyi açılmadan önce yönetmek ister misiniz? <ph name="BEGIN_LINK"/>Ayarlar<ph name="END_LINK"/>'ı ziyaret edin.</translation>
 <translation id="2497852260688568942">Yöneticiniz senkronizasyonu devre dışı bıraktı</translation>
 <translation id="562935524653278697">İşaretleyiciler, geçmiş, şifreler ve diğer ayarlarınızın senkronizasyonunu yöneticiniz tarafından devre dışı bırakıldı.</translation>
@@ -1703,7 +1703,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="6664774537677393800">Profiliniz açılırken bir sorun oluştu. Lütfen oturumu kapatıp sonra tekrar oturum açın.</translation>
 <translation id="1794791083288629568">Bu sorunu düzeltmemize yardımcı olmak için geri bildirim gönderin.</translation>
 <translation id="8234795456569844941">Lütfen mühendislerimizin bu sorunu çözmesine yardımcı olun. Profil hata mesajını almadan hemen önce ne yaptığınızı belirtin:</translation>
-<translation id="6500340165622970282">Profiliniz açılırken bir sorun oluştuğundan OneVN başlatılamıyor. OneVN'u yeniden başlatmayı deneyin.</translation>
+<translation id="6500340165622970282">Profiliniz açılırken bir sorun oluştuğundan Onevn başlatılamıyor. Onevn'u yeniden başlatmayı deneyin.</translation>
 <translation id="6812349420832218321"><ph name="PRODUCT_NAME"/> kök olarak çalıştırılamaz.</translation>
 <translation id="2292848386125228270">Lütfen <ph name="PRODUCT_NAME"/> uygulamasını normal bir kullanıcı olarak başlatın. Geliştirme amacıyla uygulamayı root kullanıcı olarak çalıştırmanız gerekiyorsa korumasız alan seçeneğini işaretleyerek yeniden çalıştırın.</translation>
 <translation id="7547317915858803630">Uyarı: <ph name="PRODUCT_NAME"/> ayarlarınız bir ağ sürücüsünde depolanıyor. Bu durum yavaşlamalara, kilitlenmelere, hatta veri kaybına neden olabilir.</translation>
@@ -1739,10 +1739,10 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="6198102561359457428">Oturumu kapatıp tekrar açın...</translation>
 <translation id="4634771451598206121">Tekrar oturum açın...</translation>
 <translation id="7117247127439884114">Tekrar Oturum Açın...</translation>
-<translation id="4251909665067750757">Tüm cihazlarınızdaki sekmeleri, geçmişi ve diğer ayarları almak için oturum açın. OneVN Software hizmetlerinizde de otomatik olarak oturum açarsınız.</translation>
+<translation id="4251909665067750757">Tüm cihazlarınızdaki sekmeleri, geçmişi ve diğer ayarları almak için oturum açın. Onevn Software hizmetlerinizde de otomatik olarak oturum açarsınız.</translation>
 <translation id="2749756011735116528"><ph name="PRODUCT_NAME"/> uygulamasında oturum aç...</translation>
 <translation id="2126167708562367080">Senkronizasyon, yöneticiniz tarafından devre dışı bırakıldı.</translation>
-<translation id="5462539695964427820">Senkronizasyon OneVN Software Hesap Özeti tarafından durduruldu.</translation>
+<translation id="5462539695964427820">Senkronizasyon Onevn Software Hesap Özeti tarafından durduruldu.</translation>
 <translation id="8805140816472474147">Senkronizasyonu başlatmak için senkronizasyon ayarlarını onaylayın.</translation>
 <translation id="4835836146030131423">Oturum açma hatası.</translation>
 <translation id="4365673000813822030">Hata, Senkronizasyonun çalışması durdu.</translation>
@@ -1757,20 +1757,20 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="1877520246462554164">Kimlik doğrulama jetonu alınamadı. Tekrar denemek için lütfen oturumu kapatıp sonra yeniden oturum açın.</translation>
 <translation id="9100765901046053179">Gelişmiş ayarlar</translation>
 <translation id="5771816112378578655">Kurulum devam ediyor...</translation>
-<translation id="3892866329866260680">Şu anda <ph name="SHORT_PRODUCT_NAME"/> uygulamasında oturum açmış bulunuyorsunuz. Yer işaretleriniz, geçmişiniz ve diğer ayarlarınız OneVN Software Hesabınızla senkronize ediliyor.</translation>
+<translation id="3892866329866260680">Şu anda <ph name="SHORT_PRODUCT_NAME"/> uygulamasında oturum açmış bulunuyorsunuz. Yer işaretleriniz, geçmişiniz ve diğer ayarlarınız Onevn Software Hesabınızla senkronize ediliyor.</translation>
 <translation id="1408789165795197664">Gelişmiş...</translation>
 <translation id="2731700343119398978">Lütfen bekleyin...</translation>
 <translation id="4684427112815847243">Her şeyi senkronize et</translation>
-<translation id="7218743184834293955">Veriler senkronizasyon parolanızla şifrelendi. OneVN Software Pay'deki adresler ve ödeme yöntemleri bu kapsamda değildir.</translation>
+<translation id="7218743184834293955">Veriler senkronizasyon parolanızla şifrelendi. Onevn Software Pay'deki adresler ve ödeme yöntemleri bu kapsamda değildir.</translation>
 <translation id="7158251077901880179">Veriler <ph name="TIME"/> tarihinde senkronizasyon parolanızla şifrelendi.
-          OneVN Software Pay'deki adresler ve ödeme yöntemleri bu kapsamda değildir.</translation>
-<translation id="1171389789873508468"><ph name="TIME"/> itibarıyla veriler OneVN Software şifrenizle şifrelendi.
-          OneVN Software Pay'deki adresler ve ödeme yöntemleri bu kapsamda değildir.</translation>
+          Onevn Software Pay'deki adresler ve ödeme yöntemleri bu kapsamda değildir.</translation>
+<translation id="1171389789873508468"><ph name="TIME"/> itibarıyla veriler Onevn Software şifrenizle şifrelendi.
+          Onevn Software Pay'deki adresler ve ödeme yöntemleri bu kapsamda değildir.</translation>
 <translation id="2562743677925229011"><ph name="SHORT_PRODUCT_NAME"/> oturumu açılmadı</translation>
 <translation id="4027804175521224372">(Kaçırıyorsunuz—<ph name="IDS_SYNC_PROMO_NOT_SIGNED_IN_STATUS_LINK"/>)</translation>
 <translation id="3574210789297084292">oturum aç</translation>
 <translation id="237828693408258535">Bu sayfa çevrilsin mi?</translation>
-<translation id="4613765529964435709">OneVN Software'ın bu sayfayı <ph name="SOURCE_LANGUAGE"/> dilinden <ph name="TARGET_LANGUAGE"/> diline çevirmesini istiyor musunuz?</translation>
+<translation id="4613765529964435709">Onevn Software'ın bu sayfayı <ph name="SOURCE_LANGUAGE"/> dilinden <ph name="TARGET_LANGUAGE"/> diline çevirmesini istiyor musunuz?</translation>
 <translation id="5990386583461751448">Çevrildi</translation>
 <translation id="5659833766619490117">Bu sayfa çevrilemedi</translation>
 <translation id="969096075394517431">Dilleri değiştir</translation>
@@ -1932,11 +1932,11 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="2762441749940182211">Kamera engellendi</translation>
 <translation id="5074318175948309511">Yeni ayarların geçerli olması için bu sayfanın tekrar yüklenmesi gerekebilir.</translation>
 <translation id="8282947398454257691">Benzersiz cihaz tanımlayıcınızı bilme</translation>
-<translation id="8329449853370113380"><ph name="URL"/>, korumalı içeriği oynatmak istiyor. Cihazınızın kimliği OneVN Software tarafından doğrulanacak.</translation>
-<translation id="2650609753175229582"><ph name="URL"/>, korunan içeriği oynatmak istiyor. Cihazınızın kimliği OneVN Software tarafından doğrulanır ve bu site tarafından erişilebilir.</translation>
+<translation id="8329449853370113380"><ph name="URL"/>, korumalı içeriği oynatmak istiyor. Cihazınızın kimliği Onevn Software tarafından doğrulanacak.</translation>
+<translation id="2650609753175229582"><ph name="URL"/>, korunan içeriği oynatmak istiyor. Cihazınızın kimliği Onevn Software tarafından doğrulanır ve bu site tarafından erişilebilir.</translation>
 <translation id="1322046419516468189">Kayıtlı şifreleri <ph name="SAVED_PASSWORDS_STORE"/> üzerinde görüntüleyin ve yönetin</translation>
 <translation id="5297082477358294722">Şifre kaydedildi. Kayıtlı şifrelerinizi <ph name="SAVED_PASSWORDS_STORE"/> üzerinde görüntüleyebilir ve yönetebilirsiniz.</translation>
-<translation id="5713644099811900409">OneVN Software Hesabı</translation>
+<translation id="5713644099811900409">Onevn Software Hesabı</translation>
 <translation id="3785727820640310185">Bu site için kaydedilen şifreler</translation>
 <translation id="3404065873681873169">Bu site için hiç şifre kaydedilmedi</translation>
 <translation id="8470513973197838199"><ph name="ORIGIN"/> için kaydedilmiş şifreler</translation>
@@ -2075,8 +2075,8 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="2505324914378689427">{SCREEN_INDEX,plural, =1{#. Ekran}other{#. Ekran}}</translation>
 <translation id="839736845446313156">Kayıt ol</translation>
 <translation id="6285120908535925801">{NUM_PRINTER,plural, =1{Ağınızda yeni yazıcı}other{Ağınızda yeni yazıcılar}}</translation>
-<translation id="2656240156816412333">{NUM_PRINTER,plural, =1{İstediğiniz yerden yazdırma işlemi yapabilmek için yazıcıyı OneVN Software Cloud Print'e ekleyin.}other{İstediğiniz yerden yazdırma işlemi yapabilmek için # yazıcıyı OneVN Software Cloud Print'e ekleyin.}}</translation>
-<translation id="409579654357498729">OneVN Software Cloud Print'e ekle</translation>
+<translation id="2656240156816412333">{NUM_PRINTER,plural, =1{İstediğiniz yerden yazdırma işlemi yapabilmek için yazıcıyı Onevn Software Cloud Print'e ekleyin.}other{İstediğiniz yerden yazdırma işlemi yapabilmek için # yazıcıyı Onevn Software Cloud Print'e ekleyin.}}</translation>
+<translation id="409579654357498729">Onevn Software Cloud Print'e ekle</translation>
 <translation id="4628757576491864469">Cihazlar</translation>
 <translation id="6915804003454593391">Kullanıcı:</translation>
 <translation id="7290594223351252791">Kaydı onaylayın</translation>
@@ -2085,8 +2085,8 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="1895934970388272448">Bu işlemi tamamlamak için yazıcınızda kaydı onaylamalısınız; şimdi kontrol edin.</translation>
 <translation id="551752069230578406">Yazıcı, hesabınıza ekleniyor; birkaç saniye sürebilir...</translation>
 <translation id="2384436799579181135">Bir hata oluştu. Lütfen yazıcınızı kontrol edin ve tekrar deneyin.</translation>
-<translation id="2569908351567260524">OneVN Software Cloud Print'teki yazıcı</translation>
-<translation id="6782994146626179935">OneVN Software Cloud Cihazları'ndaki cihaz</translation>
+<translation id="2569908351567260524">Onevn Software Cloud Print'teki yazıcı</translation>
+<translation id="6782994146626179935">Onevn Software Cloud Cihazları'ndaki cihaz</translation>
 <translation id="7140928199327930795">Başka kullanılabilir cihaz yok.</translation>
 <translation id="8213577208796878755">Kullanılabilir bir cihaz daha var.</translation>
 <translation id="1495486559005647033">Kullanılabilir <ph name="NUM_PRINTERS"/> cihaz daha var.</translation>
@@ -2094,15 +2094,15 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="4720113199587244118">Cihaz Ekle</translation>
 <translation id="2776441542064982094">Ağ üzerinde kaydedilebilecek bir cihaz algılanamadı. Cihazınız açık ve İnternet'e bağlıysa, kendi talimat kılavuzundaki talimatlara göre kaydettirmeyi deneyin.</translation>
 <translation id="1007408791287232274">Cihazlar yüklenemedi.</translation>
-<translation id="3886420006370338208">Cihazlarınızı görebilmek için OneVN'da oturum açmanız gerekir.</translation>
-<translation id="6711610692002680394">Yeni cihazlar kaydettirebilmeniz için OneVN'da oturum açmanız gerekir</translation>
+<translation id="3886420006370338208">Cihazlarınızı görebilmek için Onevn'da oturum açmanız gerekir.</translation>
+<translation id="6711610692002680394">Yeni cihazlar kaydettirebilmeniz için Onevn'da oturum açmanız gerekir</translation>
 <translation id="8931394284949551895">Yeni cihazlar</translation>
 <translation id="3752673729237782832">Cihazlarım</translation>
 <translation id="1721937473331968728">Bilgisayarınıza bağlı klasik yazıcıları <ph name="CLOUD_PRINT_NAME"/> hizmetine ekleyebilirsiniz.</translation>
 <translation id="715118844758971915">Klasik yazıcılar</translation>
 <translation id="4263757076580287579">Yazıcı kayıt işlemi iptal edildi.</translation>
 <translation id="8152091997436726702">Yazıcı kaydı zaman aşımına uğradı. Bir yazıcıyı kaydetmek için kaydı yazıcı üzerinde onaylamanız gerekir.</translation>
-<translation id="2057904164277279211">Dokümanlar yazdırılmaya hazırlanmaları için <ph name="BEGIN_LINK_HELP"/>OneVN Software'a gönderilir<ph name="END_LINK_HELP"/>. Yazıcılarınızı ve yazıcı geçmişinizi <ph name="BEGIN_LINK_DASHBOARD"/>OneVN Software Cloud Print kontrol panelinde<ph name="END_LINK_DASHBOARD"/> görüntüleyebilir, düzenleyebilir ve yönetebilirsiniz.</translation>
+<translation id="2057904164277279211">Dokümanlar yazdırılmaya hazırlanmaları için <ph name="BEGIN_LINK_HELP"/>Onevn Software'a gönderilir<ph name="END_LINK_HELP"/>. Yazıcılarınızı ve yazıcı geçmişinizi <ph name="BEGIN_LINK_DASHBOARD"/>Onevn Software Cloud Print kontrol panelinde<ph name="END_LINK_DASHBOARD"/> görüntüleyebilir, düzenleyebilir ve yönetebilirsiniz.</translation>
 <translation id="3082780749197361769">Bu sekme kameranızı ve/veya mikrofonunuzu kullanıyor.</translation>
 <translation id="3578594933904494462">Bu sekmenin içeriği paylaşılıyor.</translation>
 <translation id="4449996769074858870">Bu sekmede ses çalınıyor.</translation>
@@ -2155,7 +2155,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="4540437243849625078">Bu site, gizli mod dışında bir uygulama ile bilgi paylaşımında bulunmak üzere.</translation>
 <translation id="1227836882233136433">Gizli moddan çıkılsın mı?</translation>
 <translation id="662080504995468778">Kal</translation>
-<translation id="2593289874938379417">OneVN, istenen kaynağa erişemiyor.</translation>
+<translation id="2593289874938379417">Onevn, istenen kaynağa erişemiyor.</translation>
 <translation id="760197030861754408">Bağlanmak için <ph name="LANDING_PAGE"/> sayfasına gidin.</translation>
 <translation id="3648348069317717750"><ph name="USB_DEVICE_NAME"/> algılandı</translation>
 <translation id="2382095919147960379">Bu cihazı Linux'a bağlayın</translation>
@@ -2203,17 +2203,17 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="7055152154916055070">Yönlendirme engellendi:</translation>
 <translation id="6777817260680419853">Yönlendirme engellendi</translation>
 <translation id="694592694773692225">Yönlendirme bu sayfada engellendi.</translation>
-<translation id="8149707863742670433">Sizin için OneVN Software'dan web tarayıcısı</translation>
-<translation id="3541561136058491590">Tüm cihazlarınızdaki yer işareti, geçmiş ve diğer ayarlarınızı almak için OneVN'da OneVN Software Hesabınızla oturum açın.</translation>
-<translation id="8945142681652245463">OneVN Software OneVN ile hızlı göz atın</translation>
-<translation id="2618024864038703735">OneVN Software OneVN ile güvenli bir şekilde göz atın</translation>
-<translation id="8142180567942285208">OneVN ile akıllıca göz atın</translation>
+<translation id="8149707863742670433">Sizin için Onevn Software'dan web tarayıcısı</translation>
+<translation id="3541561136058491590">Tüm cihazlarınızdaki yer işareti, geçmiş ve diğer ayarlarınızı almak için Onevn'da Onevn Software Hesabınızla oturum açın.</translation>
+<translation id="8945142681652245463">Onevn Software Onevn ile hızlı göz atın</translation>
+<translation id="2618024864038703735">Onevn Software Onevn ile güvenli bir şekilde göz atın</translation>
+<translation id="8142180567942285208">Onevn ile akıllıca göz atın</translation>
 <translation id="8862003515646449717">Hızlı bir tarayıcıya geç</translation>
 <translation id="8438328416656800239">Akıllı bir tarayıcıya geç</translation>
 <translation id="491691592645955587">Güvenli bir tarayıcıya geç</translation>
 <translation id="683373380308365518">Akıllı ve güvenli bir tarayıcıya geç</translation>
-<translation id="989239400026154074">OneVN Software, OneVN'u önerir</translation>
-<translation id="6676231621615806698">OneVN'u aç</translation>
+<translation id="989239400026154074">Onevn Software, Onevn'u önerir</translation>
+<translation id="6676231621615806698">Onevn'u aç</translation>
 <translation id="7494065396242762445">Windows Ayarları'nı açın</translation>
 <translation id="2137068468602026500">Web Tarayıcısı bölümünün altında <ph name="BEGIN_BOLD"/>Microsoft Edge<ph name="END_BOLD"/>'i tıklayın</translation>
 <translation id="3720996970802414353">Yine de değiştir</translation>
@@ -2222,7 +2222,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="7537601449003285327">Görev çubuğuna sabitle</translation>
 <translation id="5250372599208556903"><ph name="SEARCH_ENGINE_NAME"/>, size yerel içerik sağlamak için konumunuzu kullanır. Bunu <ph name="SETTINGS_LINK"/> sayfasından değiştirebilirsiniz.</translation>
 <translation id="3737536731758327622">İndirdikleriniz burada görünür</translation>
-<translation id="4782664866169793230">OneVN otomatik test yazılımı tarafından kontrol ediliyor.</translation>
+<translation id="4782664866169793230">Onevn otomatik test yazılımı tarafından kontrol ediliyor.</translation>
 <translation id="6721678857435001674">Güvenlik Anahtarınızın markasını ve modelini görme</translation>
 <translation id="1673137583248014546"><ph name="URL"/>, Güvenlik Anahtarınızın markasını ve modelini görmek istiyor</translation>
 <translation id="6010869025736512584">Video girişine erişiliyor</translation>
@@ -2438,9 +2438,9 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="9011163749350026987">Her zaman simgeyi göster</translation>
 <translation id="1706586824377653884">Yöneticiniz tarafından eklendi</translation>
 <translation id="6467304607960172345">Tam ekran videoları optimize et</translation>
-<translation id="1597210476603167523">OneVN Software Hangouts'ta bulut tabanlı hizmetlere yayın yapmayı etkinleştirin.</translation>
-<translation id="3653941710869291743">OneVN'da OneVN Software Cast deneyimine hoş geldiniz!</translation>
-<translation id="2841638550927239436">Bu özelliği, OneVN'daki içerikleri TV'nizde ve diğer cihazlarda görüntülemek için kullanabilirsiniz.</translation>
+<translation id="1597210476603167523">Onevn Software Hangouts'ta bulut tabanlı hizmetlere yayın yapmayı etkinleştirin.</translation>
+<translation id="3653941710869291743">Onevn'da Onevn Software Cast deneyimine hoş geldiniz!</translation>
+<translation id="2841638550927239436">Bu özelliği, Onevn'daki içerikleri TV'nizde ve diğer cihazlarda görüntülemek için kullanabilirsiniz.</translation>
 <translation id="5234764350956374838">Kapat</translation>
 <translation id="4579581181964204535"><ph name="HOST_NAME"/> yayınlanamıyor.</translation>
 <translation id="8757090071857742562">Masaüstü yayınlanamıyor. Ekranınızı paylaşmaya başlama istemini onaylayıp onaylamadığınızı kontrol edin.</translation>
@@ -2474,7 +2474,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="4144218403971135344">Daha iyi video kalitesi elde edin ve pil ömründen tasarruf edin. Video yalnızca Cast uyumlu ekranınızda oynatılır.</translation>
 <translation id="236117173274098341">Optimize et</translation>
 <translation id="8538358978858059843">Cast için bulut hizmetleri etkinleştirilsin mi?</translation>
-<translation id="3856595552313160385">Hangouts ve Cast for Education'ın kullanımı OneVN Software Gizlilik Politikası'na tabidir.</translation>
+<translation id="3856595552313160385">Hangouts ve Cast for Education'ın kullanımı Onevn Software Gizlilik Politikası'na tabidir.</translation>
 <translation id="3700888195348409686">(<ph name="PAGE_ORIGIN"/>) gösteriliyor</translation>
 <translation id="5285635972691565180">Ekran <ph name="DISPLAY_ID"/></translation>
 <translation id="4707302005824653064">Kullanım ve geçmiş bilgileri, yönetici tarafından (<ph name="CUSTODIAN_EMAIL"/>) chrome.com adresinden incelenebilir.</translation>
@@ -2638,7 +2638,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="672213144943476270">Lütfen misafir olarak göz atmadan önce profilinizin kilidini açın.</translation>
 <translation id="3478685642445675458">Lütfen bir kişiyi kaldırmadan önce profilinizin kilidini açın.</translation>
 <translation id="4648499713050786492">Lütfen bir kişiyi eklemeden önce profilinizin kilidini açın.</translation>
-<translation id="8978225823042133615">OneVN'u kullanmak için lütfen oturum açın</translation>
+<translation id="8978225823042133615">Onevn'u kullanmak için lütfen oturum açın</translation>
 <translation id="4893336867552636863">Bu işlem, tarama verilerinizi bu cihazdan kalıcı olarak silecektir.</translation>
 <translation id="2496180316473517155">Tarama geçmişi</translation>
 <translation id="6865313869410766144">Form otomatik doldurma verileri</translation>
@@ -2658,7 +2658,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="3236289833370040187">Sahiplik <ph name="DESTINATION_DOMAIN"/> alanına aktarılacak.</translation>
 <translation id="7765158879357617694">Taşı</translation>
 <translation id="8249296373107784235">İptal Et</translation>
-<translation id="6268185425799226387">OneVN Software Drive</translation>
+<translation id="6268185425799226387">Onevn Software Drive</translation>
 <translation id="4425149324548788773">Drive'ım</translation>
 <translation id="1786636458339910689">Ekip Drive'ları</translation>
 <translation id="5010406651457630570">Bilgisayarlar</translation>
@@ -2716,7 +2716,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="7928710562641958568">Cihazı çıkar</translation>
 <translation id="7864662577698025113">Yeni hizmet ekle</translation>
 <translation id="1943097386230153518">Yeni hizmet ekle</translation>
-<translation id="2562685439590298522">OneVN Software Dokümanlar</translation>
+<translation id="2562685439590298522">Onevn Software Dokümanlar</translation>
 <translation id="2925966894897775835">E-Tablolar</translation>
 <translation id="2943400156390503548">Slaytlar</translation>
 <translation id="5649768706273821470">Dinle</translation>
@@ -2765,7 +2765,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="6227235786875481728">Bu dosya oynatılamadı.</translation>
 <translation id="9154418932169119429">Bu resim çevrimdışı kullanılamıyor.</translation>
 <translation id="1844692022597038441">Bu dosya çevrimdışı kullanılamıyor.</translation>
-<translation id="2929414043040740704">Dosyalar OneVN Software Drive'dan geri yüklendi</translation>
+<translation id="2929414043040740704">Dosyalar Onevn Software Drive'dan geri yüklendi</translation>
 <translation id="2085470240340828803">"<ph name="FILENAME"/>" adını taşıyan bir dosya zaten var. Ne yapmak istiyorsunuz?</translation>
 <translation id="4801956050125744859">Her ikisini de sakla</translation>
 <translation id="1062407476771304334">Değiştir</translation>
@@ -2795,8 +2795,8 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="2377319039870049694">Liste görünümüne geç</translation>
 <translation id="3003633581067744647">Küçük resim görünümüne geç</translation>
 <translation id="604001903249547235">Bulut yedekleme</translation>
-<translation id="505639225383557233">OneVN OS Bulut yedekleme</translation>
-<translation id="8656896237683963068">Medya cihazınızın fotoğraflarını ve videolarını OneVN Software Drive'a yedekleyin.</translation>
+<translation id="505639225383557233">Onevn OS Bulut yedekleme</translation>
+<translation id="8656896237683963068">Medya cihazınızın fotoğraflarını ve videolarını Onevn Software Drive'a yedekleyin.</translation>
 <translation id="3057861065630527966">Fotoğraflarınızı ve videolarınızı yedekleyin</translation>
 <translation id="7730494089396812859">Bulut yedekleme ile ilgili ayrıntıları göster</translation>
 <translation id="2850124913210091882">Yedekle</translation>
@@ -2806,14 +2806,14 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
     <ph name="LINE_BREAK1"/>
     <ph name="FILE_COUNT"/> bulundu</translation>
 <translation id="3466147780910026086">Medya cihazınız taranıyor...</translation>
-<translation id="2611866923243604397">Tümü <ph name="BEGIN_LINK"/>OneVN Software Drive<ph name="END_LINK"/>'a yedeklendi!</translation>
+<translation id="2611866923243604397">Tümü <ph name="BEGIN_LINK"/>Onevn Software Drive<ph name="END_LINK"/>'a yedeklendi!</translation>
 <translation id="3620292326130836921">Tümü yedeklendi!</translation>
 <translation id="1536674585581593431"><ph name="FILE_COUNT"/> bulundu.
     <ph name="LINE_BREAK1"/>
-    OneVN Software Drive kotanız yeterince büyük değil. İlave <ph name="FILE_SIZE"/> boş alan gerekiyor.
+    Onevn Software Drive kotanız yeterince büyük değil. İlave <ph name="FILE_SIZE"/> boş alan gerekiyor.
     <ph name="LINE_BREAK2"/>
     Daha az fotoğraf seçmeyi deneyin.</translation>
-<translation id="2473109739642988997">OneVN Software Drive kotanız yeterince büyük değil.</translation>
+<translation id="2473109739642988997">Onevn Software Drive kotanız yeterince büyük değil.</translation>
 <translation id="1148097584170732637"><ph name="FILE_COUNT"/> bulundu.
     <ph name="LINE_BREAK1"/>
     Yerel depolama alanında yeterli boş alan yok. İlave <ph name="FILE_SIZE"/> boş alan gerek.
@@ -2822,11 +2822,11 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="2352947182261340447">Yerel depolama alanında yeterli boş alan yok.</translation>
 <translation id="1127657192797926968"><ph name="FILE_COUNT"/> bulundu
     <ph name="LINE_BREAK1"/>
-    Dosyalar <ph name="BEGIN_LINK"/>OneVN Software Drive<ph name="END_LINK"/>'a yedeklenmeye hazır</translation>
+    Dosyalar <ph name="BEGIN_LINK"/>Onevn Software Drive<ph name="END_LINK"/>'a yedeklenmeye hazır</translation>
 <translation id="4905417359854579806"><ph name="FILE_COUNT"/> yedeklenmeye hazır</translation>
-<translation id="5029447434471675822"><ph name="FILE_COUNT"/> <ph name="BEGIN_LINK"/>OneVN Software Drive<ph name="END_LINK"/>'a yedekleniyor</translation>
+<translation id="5029447434471675822"><ph name="FILE_COUNT"/> <ph name="BEGIN_LINK"/>Onevn Software Drive<ph name="END_LINK"/>'a yedekleniyor</translation>
 <translation id="4215448920900139318"><ph name="FILE_COUNT"/> yedekleniyor</translation>
-<translation id="2419376816263920133"><ph name="FILE_COUNT"/> fotoğraf <ph name="BEGIN_LINK"/>OneVN Software Drive<ph name="END_LINK"/>'a yedeklendi</translation>
+<translation id="2419376816263920133"><ph name="FILE_COUNT"/> fotoğraf <ph name="BEGIN_LINK"/>Onevn Software Drive<ph name="END_LINK"/>'a yedeklendi</translation>
 <translation id="2994669386200004489"><ph name="FILE_NAME"/> dosyası yedeklenemedi</translation>
 <translation id="4724850507808590449"><ph name="FILE_COUNT"/> fotoğraf yedeklendi</translation>
 <translation id="1351692861129622852"><ph name="FILE_COUNT"/> dosya içe aktarılıyor...</translation>
@@ -2848,9 +2848,9 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="653019979737152879"><ph name="FILE_NAME"/> senkronize ediliyor...</translation>
 <translation id="8579285237314169903"><ph name="NUMBER_OF_FILES"/> öğe senkronize ediliyor...</translation>
 <translation id="8137331602592933310">"<ph name="FILENAME"/>" sizinle paylaşıldı. Sahibi siz olmadığınız için bu dosyayı silemezsiniz.</translation>
-<translation id="6277279884155292049">OneVN Software Drive şu anda kullanılamıyor. OneVN Software Drive tekrar kullanılabilir olduğunda yükleme işlemi otomatik olarak yeniden başlayacak.</translation>
-<translation id="1114160088213746286">OneVN Software Drive, "<ph name="FILENAME"/>" dosyasını şu anda senkronize edemedi. OneVN Software Drive senkronize etme işlemini daha sonra tekrar deneyecek.</translation>
-<translation id="4893296294301184587">"<ph name="FILENAME"/>" yüklenmedi. OneVN Software Drive'ınızda yeterli boş alan yok.</translation>
+<translation id="6277279884155292049">Onevn Software Drive şu anda kullanılamıyor. Onevn Software Drive tekrar kullanılabilir olduğunda yükleme işlemi otomatik olarak yeniden başlayacak.</translation>
+<translation id="1114160088213746286">Onevn Software Drive, "<ph name="FILENAME"/>" dosyasını şu anda senkronize edemedi. Onevn Software Drive senkronize etme işlemini daha sonra tekrar deneyecek.</translation>
+<translation id="4893296294301184587">"<ph name="FILENAME"/>" yüklenmedi. Onevn Software Drive'ınızda yeterli boş alan yok.</translation>
 <translation id="5163869187418756376">Paylaşılamadı. Bağlantınızı kontrol edin ve daha sonra tekrar deneyin.</translation>
 <translation id="656398493051028875">"<ph name="FILENAME"/>" siliniyor...</translation>
 <translation id="1047956942837015229"><ph name="COUNT"/> öğe siliniyor...</translation>
@@ -2916,7 +2916,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="180035236176489073">Bu dosyalara erişebilmek için çevrimiçi olmalısınız.</translation>
 <translation id="1190144681599273207">Bu dosyayı getirmek için yaklaşık olarak <ph name="FILE_SIZE"/> mobil veri kullanılacak.</translation>
 <translation id="7839804798877833423">Bu dosyaları getirmek için yaklaşık olarak <ph name="FILE_SIZE"/> mobil veri kullanılacak.</translation>
-<translation id="6813005947820333339">Mobil veriler kullanılırken OneVN Software Drive senkronizasyonu varsayılan olarak devre dışıdır.</translation>
+<translation id="6813005947820333339">Mobil veriler kullanılırken Onevn Software Drive senkronizasyonu varsayılan olarak devre dışıdır.</translation>
 <translation id="696203921837389374">Mobil veriler üzerinden senkronizasyonu etkinleştir</translation>
 <translation id="637062427944097960">Bu dosya farklı bir masaüstünde açıldı. Görüntülemek için <ph name="USER_NAME"/> (<ph name="MAIL_ADDRESS"/>) adlı kullanıcıya gidin.</translation>
 <translation id="5330145655348521461">Bu dosyalar farklı bir masaüstünde açıldı. Görüntülemek için <ph name="USER_NAME"/> (<ph name="MAIL_ADDRESS"/>) adlı kullanıcıya geçin.</translation>
@@ -2930,33 +2930,33 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="7925686952655276919">Senkronizasyon için mobil veri kullanma</translation>
 <translation id="7106346894903675391">Daha fazla depolama alanı satın alın...</translation>
 <translation id="3549797760399244642">drive.google.com'a git...</translation>
-<translation id="3451154303153932176">Kalan OneVN Software Drive alanı: <ph name="SPACE_AVAILABLE"/>.</translation>
+<translation id="3451154303153932176">Kalan Onevn Software Drive alanı: <ph name="SPACE_AVAILABLE"/>.</translation>
 <translation id="4552678318981539154">Daha fazla depolama alanı satın alın</translation>
 <translation id="6990081529015358884">Boş yeriniz kalmadı</translation>
-<translation id="5521447721624713749">OneVN Software Drive'a şu anda erişilemiyor.</translation>
+<translation id="5521447721624713749">Onevn Software Drive'a şu anda erişilemiyor.</translation>
 <translation id="7788080748068240085">"<ph name="FILE_NAME"/>" dosyasını çevrimdışı olarak kaydetmek için fazladan <ph name="TOTAL_FILE_SIZE"/> alan boşaltmanız gerekiyor:<ph name="MARKUP_1"/>
         <ph name="MARKUP_2"/>artık çevrimdışı olarak erişmeniz gerekmeyen dosyaların sabitlemesini kaldırın<ph name="MARKUP_3"/>
         <ph name="MARKUP_4"/>İndirilenler klasörünüzdeki dosyaları silin<ph name="MARKUP_5"/></translation>
-<translation id="7606199793785990727">OneVN Software Drive'a erişilemedi. Lütfen <ph name="BEGIN_LINK"/>çıkıp<ph name="END_LINK"/> tekrar giriş yapın.</translation>
-<translation id="585883343689351092">OneVN Software Drive'a hoş geldiniz!</translation>
+<translation id="7606199793785990727">Onevn Software Drive'a erişilemedi. Lütfen <ph name="BEGIN_LINK"/>çıkıp<ph name="END_LINK"/> tekrar giriş yapın.</translation>
+<translation id="585883343689351092">Onevn Software Drive'a hoş geldiniz!</translation>
 <translation id="6862635236584086457">Bu klasöre kaydedilen tüm dosyalar otomatik bir şekilde çevrimiçi olarak yedeklenir</translation>
 <translation id="7220787572447472056"><ph name="MARKUP_1"/>Dosyalara istediğiniz yerden, hatta çevrimdışı olarak erişin.<ph name="MARKUP_2"/>
-    OneVN Software Drive'daki dosyalar günceldir ve her cihazdan kullanılabilir.<ph name="MARKUP_3"/>
+    Onevn Software Drive'daki dosyalar günceldir ve her cihazdan kullanılabilir.<ph name="MARKUP_3"/>
     <ph name="MARKUP_4"/>Dosyalarınızı güvenli şekilde saklayın.<ph name="MARKUP_5"/>
-    Cihazınıza ne olursa olsun, dosyalarınız OneVN Software Drive'da güvenli şekilde saklanır.<ph name="MARKUP_6"/>
+    Cihazınıza ne olursa olsun, dosyalarınız Onevn Software Drive'da güvenli şekilde saklanır.<ph name="MARKUP_6"/>
     <ph name="MARKUP_7"/>Tek bir yerden dosya oluşturun, başkalarıyla paylaşın ve<ph name="MARKUP_8"/>
     ortak çalışın.<ph name="MARKUP_9"/></translation>
-<translation id="4878716980734452132">Bu dosya türü desteklenmiyor. Bu dosya türünü açabilecek bir uygulama bulmak için lütfen <ph name="BEGIN_LINK"/>OneVN Web Mağazası<ph name="END_LINK"/>'nı ziyaret edin.
+<translation id="4878716980734452132">Bu dosya türü desteklenmiyor. Bu dosya türünü açabilecek bir uygulama bulmak için lütfen <ph name="BEGIN_LINK"/>Onevn Web Mağazası<ph name="END_LINK"/>'nı ziyaret edin.
     <ph name="BEGIN_LINK_HELP"/>Daha Fazla Bilgi Edinin<ph name="END_LINK_HELP"/></translation>
-<translation id="6230272341631206186">Bu dosya Windows yazılımı kullanan PC'ler için tasarlanmıştır. OneVN OS çalıştıran cihazınızla uyumlu değildir. <ph name="BEGIN_LINK_HELP"/>Daha Fazla Bilgi<ph name="END_LINK_HELP"/></translation>
-<translation id="3072401511615920367">Bu dosya Macintosh yazılımı kullanan bilgisayarlar için tasarlanmıştır. Dolayısıyla OneVN OS işletim sistemine sahip cihazınız ile uyumlu değildir. Bunun yerine kullanılabilecek bir uygulama için lütfen <ph name="BEGIN_LINK"/>OneVN Web Mağazası<ph name="END_LINK"/>'nda arama yapın.<ph name="BEGIN_LINK_HELP"/>Daha fazla bilgi edinin<ph name="END_LINK_HELP"/></translation>
+<translation id="6230272341631206186">Bu dosya Windows yazılımı kullanan PC'ler için tasarlanmıştır. Onevn OS çalıştıran cihazınızla uyumlu değildir. <ph name="BEGIN_LINK_HELP"/>Daha Fazla Bilgi<ph name="END_LINK_HELP"/></translation>
+<translation id="3072401511615920367">Bu dosya Macintosh yazılımı kullanan bilgisayarlar için tasarlanmıştır. Dolayısıyla Onevn OS işletim sistemine sahip cihazınız ile uyumlu değildir. Bunun yerine kullanılabilecek bir uygulama için lütfen <ph name="BEGIN_LINK"/>Onevn Web Mağazası<ph name="END_LINK"/>'nda arama yapın.<ph name="BEGIN_LINK_HELP"/>Daha fazla bilgi edinin<ph name="END_LINK_HELP"/></translation>
 <translation id="7589661784326793847">Bir saniye bekleyin</translation>
-<translation id="3096967955765855393">Sürekli olarak, web'e daha güvenli göz atabilmenizi sağlamanın yollarını aramaktayız. Önceden, herhangi bir web sitesi, tarayıcınıza uzantı eklemeniz için istekte bulunabiliyordu. OneVN Software OneVN'un son sürümlerinde bu uzantıları yüklemek istediğinizi OneVN'a açıkça söylemelisiniz. Bunu yapmak için uzantıları Uzantılar sayfası üzerinden eklemeniz gerekiyor. <ph name="BEGIN_LINK"/>Daha fazla bilgi edinin<ph name="END_LINK"/></translation>
+<translation id="3096967955765855393">Sürekli olarak, web'e daha güvenli göz atabilmenizi sağlamanın yollarını aramaktayız. Önceden, herhangi bir web sitesi, tarayıcınıza uzantı eklemeniz için istekte bulunabiliyordu. Onevn Software Onevn'un son sürümlerinde bu uzantıları yüklemek istediğinizi Onevn'a açıkça söylemelisiniz. Bunu yapmak için uzantıları Uzantılar sayfası üzerinden eklemeniz gerekiyor. <ph name="BEGIN_LINK"/>Daha fazla bilgi edinin<ph name="END_LINK"/></translation>
 <translation id="4892969127351273348"><ph name="APP_NAME"/> ile açılamıyor</translation>
 <translation id="52446585071384036">Dosyaları <ph name="APP_NAME"/> ile açmak için öncelikle Linux dosyaları klasörüne kopyalayın.</translation>
 <translation id="5368191757080475556">Linux ile klasör paylaşma</translation>
 <translation id="5857774240076772505">Linux uygulamalarına <ph name="FOLDER_NAME"/> klasöründeki dosyaları değiştirmeleri için izin verin</translation>
-<translation id="2280597422213958082">Linux uygulamalarına OneVN Software Drive'ınızdaki dosyaları değiştirme izni verin. Değişiklikler, diğer cihazlarınızla senkronize edilecektir.</translation>
+<translation id="2280597422213958082">Linux uygulamalarına Onevn Software Drive'ınızdaki dosyaları değiştirme izni verin. Değişiklikler, diğer cihazlarınızla senkronize edilecektir.</translation>
 <translation id="4290535918735525311">Linux ile 1 klasör paylaşılıyor</translation>
 <translation id="2377590462528165447"><ph name="NUMBER_OF_ITEMS"/> klasör Linux ile paylaşıldı</translation>
 <translation id="4572815280350369984"><ph name="FILE_TYPE"/> dosyası</translation>
@@ -2974,19 +2974,19 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="1049926623896334335">Word belgesi</translation>
 <translation id="4784330909746505604">PowerPoint sunusu</translation>
 <translation id="8860454412039442620">Excel e-tablosu</translation>
-<translation id="5383943761832211733">OneVN Software dokümanı</translation>
-<translation id="5924916971643100883">OneVN Software e-tablosu</translation>
-<translation id="3667369474859528036">OneVN Software sunusu</translation>
-<translation id="3411013849623404696">OneVN Software çizimler</translation>
-<translation id="7481041283483972362">OneVN Software tablosu</translation>
-<translation id="784862457750027723">OneVN Software formu</translation>
-<translation id="3320425620177764157">OneVN Software harita</translation>
-<translation id="7452737073539387970">OneVN Software sitesi</translation>
-<translation id="4445959220475380548">OneVN Software Drive bağlantısı</translation>
+<translation id="5383943761832211733">Onevn Software dokümanı</translation>
+<translation id="5924916971643100883">Onevn Software e-tablosu</translation>
+<translation id="3667369474859528036">Onevn Software sunusu</translation>
+<translation id="3411013849623404696">Onevn Software çizimler</translation>
+<translation id="7481041283483972362">Onevn Software tablosu</translation>
+<translation id="784862457750027723">Onevn Software formu</translation>
+<translation id="3320425620177764157">Onevn Software harita</translation>
+<translation id="7452737073539387970">Onevn Software sitesi</translation>
+<translation id="4445959220475380548">Onevn Software Drive bağlantısı</translation>
 <translation id="5288481194217812690"><ph name="FILENAME"/></translation>
-<translation id="1131292764548273687">Bu dosya türü desteklenmiyor. Bu dosya türünü açabilecek bir uygulama bulmak için lütfen OneVN Web Mağazası'nı ziyaret edin.</translation>
-<translation id="9010211493509471179">Bu dosya Macintosh yazılımı kullanan bilgisayarlar için tasarlanmıştır. Bu, OneVN OS çalıştıran cihazınızla uyumlu değildir. Uygun başka bir uygulama için lütfen OneVN Web Mağazası'nı arayın.</translation>
-<translation id="5059989099965370411">Bu dosya Windows yazılımı kullanan PC'ler için tasarlanmıştır ve OneVN OS çalıştıran cihazınızla uyumlu değildir. Lütfen OneVN Web Mağazası'nda uygun başka bir uygulama arayın.</translation>
+<translation id="1131292764548273687">Bu dosya türü desteklenmiyor. Bu dosya türünü açabilecek bir uygulama bulmak için lütfen Onevn Web Mağazası'nı ziyaret edin.</translation>
+<translation id="9010211493509471179">Bu dosya Macintosh yazılımı kullanan bilgisayarlar için tasarlanmıştır. Bu, Onevn OS çalıştıran cihazınızla uyumlu değildir. Uygun başka bir uygulama için lütfen Onevn Web Mağazası'nı arayın.</translation>
+<translation id="5059989099965370411">Bu dosya Windows yazılımı kullanan PC'ler için tasarlanmıştır ve Onevn OS çalıştıran cihazınızla uyumlu değildir. Lütfen Onevn Web Mağazası'nda uygun başka bir uygulama arayın.</translation>
 <translation id="5833610766403489739">Bu dosya başka bir yere gitti. Lütfen indirilenler için konum ayarınızı kontrol edin ve tekrar deneyin.</translation>
 <translation id="3966388904776714213">Ses Çalar</translation>
 <translation id="3245321423178950146">Bilinmeyen Sanatçı</translation>
@@ -3042,7 +3042,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="2972557485845626008">Donanım yazılımı</translation>
 <translation id="4297219207642690536">Yeniden başlat ve sıfırla</translation>
 <translation id="4716483597559580346">Daha fazla güvenlik için Powerwash işlemini uygulayın</translation>
-<translation id="4089922565956168950">Bu sürüm güncellemesi, OneVNbook'unuzu sıfırlar ve mevcut kullanıcı verilerini kaldırır.</translation>
+<translation id="4089922565956168950">Bu sürüm güncellemesi, Onevnbook'unuzu sıfırlar ve mevcut kullanıcı verilerini kaldırır.</translation>
 <translation id="5184662919967270437">Cihazınız güncelleniyor</translation>
 <translation id="6644846457769259194">Cihazınız güncelleniyor (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="5906655207909574370">Az kaldı! Güncellemeyi tamamlamak için cihazınızı yeniden başlatın.</translation>
@@ -3065,13 +3065,13 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="5600706100022181951">Güncellemeyi indirmek için <ph name="UPDATE_SIZE_MB"/> MB mobil veri kullanılacak. Devam etmek istiyor musunuz?</translation>
 <translation id="5402815541704507626">Mobil veri kullanarak güncelleme indirme</translation>
 <translation id="5085162214018721575">Güncellemeler denetleniyor</translation>
-<translation id="4570609078116869893">Tüm kullanıcılar için OneVN'u otomatik olarak güncelle</translation>
+<translation id="4570609078116869893">Tüm kullanıcılar için Onevn'u otomatik olarak güncelle</translation>
 <translation id="7102687220333134671">Otomatik güncellemeler açık</translation>
 <translation id="6981982820502123353">Erişilebilirlik</translation>
-<translation id="5840822070878669614">OneVN Web Mağazası'nı açın</translation>
+<translation id="5840822070878669614">Onevn Web Mağazası'nı açın</translation>
 <translation id="6073903501322152803">Erişilebilirlik özellikleri ekle</translation>
 <translation id="7988355189918024273">Erişilebilirlik özelliklerini etkinleştir</translation>
-<translation id="3274899353071794175">Bir resmin işe yarar bir açıklaması yoksa, OneVN sizin için bir açıklama sağlar. Resimler OneVN Software tarafından taranır.</translation>
+<translation id="3274899353071794175">Bir resmin işe yarar bir açıklaması yoksa, Onevn sizin için bir açıklama sağlar. Resimler Onevn Software tarafından taranır.</translation>
 <translation id="2558896001721082624">Sistem menüsünde erişilebilirlik seçeneklerini her zaman göster</translation>
 <translation id="7280649757394340890">Metin Okuma ses ayarları</translation>
 <translation id="6635956300022133031">Metin okuma seslerini seçer ve özelleştirir</translation>
@@ -3080,8 +3080,8 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="4209092469652827314">Büyük</translation>
 <translation id="499165176004408815">Yüksek kontrast modunu kullan</translation>
 <translation id="142758023928848008">Yapışkan tuşları etkinleştirin (klavye kısayollarını, tuşlara sırayla basarak kullanmak için)</translation>
-<translation id="5914872514449971753">OneVNVox'u (sesli geri bildirim) etkinleştir</translation>
-<translation id="7099511550603534982">OneVNVox ayarlarını aç</translation>
+<translation id="5914872514449971753">OnevnVox'u (sesli geri bildirim) etkinleştir</translation>
+<translation id="7099511550603534982">OnevnVox ayarlarını aç</translation>
 <translation id="8547013269961688403">Tam ekran büyüteci etkinleştir</translation>
 <translation id="8743390665131937741">Tam ekran yakınlaştırma düzeyi:</translation>
 <translation id="7334274148831027933">Yerleştirilmiş büyüteci etkinleştir</translation>
@@ -3116,7 +3116,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="2765217105034171413">Küçük</translation>
 <translation id="7409549334477097887">Çok büyük</translation>
 <translation id="1330145147221172764">Ekran klavyesini etkinleştir</translation>
-<translation id="1800308196794859773">Dikte özelliğiyle metin alanına herhangi bir şey yazabilmek için sesinizi OneVN Software'a gönderin.</translation>
+<translation id="1800308196794859773">Dikte özelliğiyle metin alanına herhangi bir şey yazabilmek için sesinizi Onevn Software'a gönderin.</translation>
 <translation id="8758418656925882523">Dikte özelliğini (konuşarak yazma) etkinleştir</translation>
 <translation id="7580671184200851182">Tüm hoparlörlerden aynı sesi çal (mono ses)</translation>
 <translation id="1361872463926621533">Başlangıçta ses çal</translation>
@@ -3180,13 +3180,13 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="2200603218210188859">USB Cihaz tercihleri</translation>
 <translation id="2706892089432507937">USB Cihazları</translation>
 <translation id="5187892128515678283">Açma/kapatma düğmesini açık konuma getirerek USB cihazı Linux ile paylaşabilirsiniz. Paylaşım yalnızca cihaz çıkarılana kadar sürer.</translation>
-<translation id="2295473777859797944">OneVN Software Play Store</translation>
+<translation id="2295473777859797944">Onevn Software Play Store</translation>
 <translation id="572155275267014074">Android ayarları</translation>
-<translation id="4767209642168463274">OneVNbook'unuza OneVN Software Play'den uygulama ve oyunlar yükleyin. &lt;a target="_blank" href="<ph name="URL"/>"&gt;Daha fazla bilgi&lt;/a&gt;</translation>
+<translation id="4767209642168463274">Onevnbook'unuza Onevn Software Play'den uygulama ve oyunlar yükleyin. &lt;a target="_blank" href="<ph name="URL"/>"&gt;Daha fazla bilgi&lt;/a&gt;</translation>
 <translation id="2966937470348689686">Android tercihlerini yönet</translation>
-<translation id="4074367893748481070">OneVN Software Play Store'u kaldır</translation>
+<translation id="4074367893748481070">Onevn Software Play Store'u kaldır</translation>
 <translation id="2792290659606763004">Android uygulamaları kaldırılsın mı?</translation>
-<translation id="4607779957365311067">OneVN Software Play'den indirdiğiniz uygulamalar bu OneVNbook'tan silinecek.
+<translation id="4607779957365311067">Onevn Software Play'den indirdiğiniz uygulamalar bu Onevnbook'tan silinecek.
       <ph name="LINE_BREAKS1"/>
       Satın aldığınız film, TV dizisi, müzik, kitap gibi içerikler veya diğer uygulama içi satın almalar da silinebilir.
       <ph name="LINE_BREAKS2"/>
@@ -3214,7 +3214,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="1670399744444387456">Temel</translation>
 <translation id="1763808908432309942">Yeni bir sekmede açılır</translation>
 <translation id="6248988683584659830">Arama ayarları</translation>
-<translation id="883304095704384301">Aradığınız bilgiyi bulamazsanız <ph name="BEGIN_LINK_CHROMIUM"/>OneVN Software OneVN yardımına<ph name="END_LINK_CHROMIUM"/> gidin</translation>
+<translation id="883304095704384301">Aradığınız bilgiyi bulamazsanız <ph name="BEGIN_LINK_CHROMIUM"/>Onevn Software Onevn yardımına<ph name="END_LINK_CHROMIUM"/> gidin</translation>
 <translation id="6406708970972405507">Ayarlar - <ph name="SECTION_TITLE"/></translation>
 <translation id="5860033963881614850">Kapalı</translation>
 <translation id="5916664084637901428">Açık</translation>
@@ -3232,10 +3232,10 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="451515744433878153">Kaldır</translation>
 <translation id="5029568752722684782">Kopyayı temizle</translation>
 <translation id="2154484045852737596">Kartı düzenle</translation>
-<translation id="3032188998195902534">OneVN Software Pay ödeme yöntemi eklemek veya yönetmek için <ph name="BEGIN_LINK"/>OneVN Software Hesabınıza<ph name="END_LINK"/> gidin</translation>
+<translation id="3032188998195902534">Onevn Software Pay ödeme yöntemi eklemek veya yönetmek için <ph name="BEGIN_LINK"/>Onevn Software Hesabınıza<ph name="END_LINK"/> gidin</translation>
 <translation id="8853586775156634952">Bu kart yalnızca bu cihaza kaydedilecek</translation>
 <translation id="5087580092889165836">Kart ekle</translation>
-<translation id="4835914736509775287">Kartları OneVN Software Hesabınıza kaydedin</translation>
+<translation id="4835914736509775287">Kartları Onevn Software Hesabınıza kaydedin</translation>
 <translation id="7255002516883565667">Şu anda, yalnızca bu cihazda kullanılabilen bir kartınız var</translation>
 <translation id="6848388270925200958">Şu anda, yalnızca bu cihazda kullanılabilen kartlarınız var</translation>
 <translation id="4807098396393229769">Kartın üzerindeki ad</translation>
@@ -3258,7 +3258,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="7930294771522048157">Kaydedilen ödeme yöntemleri burada görünecek</translation>
 <translation id="9124003689441359348">Kayıtlı şifreleriniz burada görünür</translation>
 <translation id="4400367121200150367">Şifreleri hiçbir zaman kaydedilmeyecek siteler burada görünür</translation>
-<translation id="3098842761938485917"><ph name="BEGIN_LINK"/>OneVN Software Hesabınızdaki<ph name="END_LINK"/> kayıtlı şifrelerinizi görüntüleyin ve yönetin.</translation>
+<translation id="3098842761938485917"><ph name="BEGIN_LINK"/>Onevn Software Hesabınızdaki<ph name="END_LINK"/> kayıtlı şifrelerinizi görüntüleyin ve yönetin.</translation>
 <translation id="5620655347161642930">Şifreleri dışa aktar...</translation>
 <translation id="3900966090527141178">Şifreleri dışa aktarın</translation>
 <translation id="6914783257214138813">Şifreleriniz, dışa aktarılan dosyayı görebilen herkes tarafından görülebilir.</translation>
@@ -3358,15 +3358,15 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="3380365263193509176">Bilinmeyen hata</translation>
 <translation id="368789413795732264">Dosya yazılmaya çalışılırken bir hata oluştu: <ph name="ERROR_TEXT"/>.</translation>
 <translation id="784934925303690534">Zaman aralığı</translation>
-<translation id="3958004920128806270">Tarama verilerini yalnızca bu cihazdan temizleyip OneVN Software Hesabınızda tutmak için <ph name="BEGIN_LINK"/>oturumu kapatın<ph name="END_LINK"/>.</translation>
-<translation id="4445433576366924090">Tarama verilerini senkronize edilmiş tüm cihazlarınızdan ve OneVN Software Hesabınızdan temizlemek için <ph name="BEGIN_LINK"/>senkronizasyon ayarlarına gidin<ph name="END_LINK"/>.</translation>
-<translation id="563489167344291753">Tarama verilerini senkronize edilmiş tüm cihazlarınızdan ve OneVN Software Hesabınızdan temizlemek için <ph name="BEGIN_LINK"/>parolanızı girin<ph name="END_LINK"/>.</translation>
-<translation id="3895809404273995788">Tarama verilerini senkronize edilmiş tüm cihazlarınızdan ve OneVN Software Hesabınızdan temizlemek için <ph name="BEGIN_LINK"/>oturum açın<ph name="END_LINK"/>.</translation>
+<translation id="3958004920128806270">Tarama verilerini yalnızca bu cihazdan temizleyip Onevn Software Hesabınızda tutmak için <ph name="BEGIN_LINK"/>oturumu kapatın<ph name="END_LINK"/>.</translation>
+<translation id="4445433576366924090">Tarama verilerini senkronize edilmiş tüm cihazlarınızdan ve Onevn Software Hesabınızdan temizlemek için <ph name="BEGIN_LINK"/>senkronizasyon ayarlarına gidin<ph name="END_LINK"/>.</translation>
+<translation id="563489167344291753">Tarama verilerini senkronize edilmiş tüm cihazlarınızdan ve Onevn Software Hesabınızdan temizlemek için <ph name="BEGIN_LINK"/>parolanızı girin<ph name="END_LINK"/>.</translation>
+<translation id="3895809404273995788">Tarama verilerini senkronize edilmiş tüm cihazlarınızdan ve Onevn Software Hesabınızdan temizlemek için <ph name="BEGIN_LINK"/>oturum açın<ph name="END_LINK"/>.</translation>
 <translation id="8662811608048051533">Çoğu sitedeki oturumunuz kapatılır.</translation>
-<translation id="4650925988509114690">Bu işlem, çoğu sitedeki oturumunuzu kapatır. OneVN Software Hesabınızda oturumunuz açık kalacağından senkronize edilmiş verileriniz temizlenebilecektir.</translation>
+<translation id="4650925988509114690">Bu işlem, çoğu sitedeki oturumunuzu kapatır. Onevn Software Hesabınızda oturumunuz açık kalacağından senkronize edilmiş verileriniz temizlenebilecektir.</translation>
 <translation id="2017836877785168846">Geçmişi ve adres çubuğundaki otomatik tamamlama bilgilerini temizler.</translation>
-<translation id="8096327394278038498">Geçmişi ve adres çubuğundaki otomatik tamamlamaları temizler. OneVN Software Hesabınızın <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> adresinde başka biçimlerde tarama geçmişi olabilir.</translation>
-<translation id="8122693181154564064">Oturumunuzun açık olduğu tüm cihazlarda geçmişi temizler. OneVN Software Hesabınızın <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> adresinde başka biçimlerde tarama geçmişi olabilir.</translation>
+<translation id="8096327394278038498">Geçmişi ve adres çubuğundaki otomatik tamamlamaları temizler. Onevn Software Hesabınızın <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> adresinde başka biçimlerde tarama geçmişi olabilir.</translation>
+<translation id="8122693181154564064">Oturumunuzun açık olduğu tüm cihazlarda geçmişi temizler. Onevn Software Hesabınızın <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> adresinde başka biçimlerde tarama geçmişi olabilir.</translation>
 <translation id="7127980134843952133">İndirme geçmişi</translation>
 <translation id="4699172675775169585">Önbelleğe alınan resimler ve dosyalar</translation>
 <translation id="1274997165432133392">Çerezler ve diğer site verileri</translation>
@@ -3380,7 +3380,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="6979737339423435258">Tüm zamanlar</translation>
 <translation id="3399432415385675819">Bildirimler devre dışı bırakılacak</translation>
 <translation id="3459509316159669723">Yazdırma</translation>
-<translation id="1563008449513980623">OneVN Software Cloud Print için yazıcıları kurun veya yönetin.</translation>
+<translation id="1563008449513980623">Onevn Software Cloud Print için yazıcıları kurun veya yönetin.</translation>
 <translation id="8185331656081929126">Ağ üzerinde yeni yazıcılar algılandığında bildirim göster</translation>
 <translation id="6451180435462401570">Cloud Print cihazlarını yönet</translation>
 <translation id="6985607387932385770">Yazıcılar</translation>
@@ -3413,10 +3413,10 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="2462752602710430187"><ph name="PRINTER_NAME"/> eklendi</translation>
 <translation id="9057119625587205566">Yakın çevrenizde hiç yazıcı yok</translation>
 <translation id="3213187967168344806">Yazıcı eklenemiyor. Bilgisayarınızı yeniden başlatın ve tekrar deneyin.</translation>
-<translation id="4052689580269971502">Yazıcıya bağlanılamıyor. Yazıcının açık olduğundan ve kablosuz ağ üzerinden veya USB kablosuyla OneVNbook'unuza bağlı olduğundan emin olun.</translation>
+<translation id="4052689580269971502">Yazıcıya bağlanılamıyor. Yazıcının açık olduğundan ve kablosuz ağ üzerinden veya USB kablosuyla Onevnbook'unuza bağlı olduğundan emin olun.</translation>
 <translation id="7099337801055912064">Büyük PPD yüklenemiyor. Maksimum boyut 250 kB'tır.</translation>
 <translation id="4310139701823742692">Dosya yanlış biçimde. PPD dosyasını kontrol edip tekrar deneyin.</translation>
-<translation id="6580983683519551561">PPD bulunamıyor. OneVNbook'unuzun internete bağlı olduğundan emin olun ve tekrar deneyin.</translation>
+<translation id="6580983683519551561">PPD bulunamıyor. Onevnbook'unuzun internete bağlı olduğundan emin olun ve tekrar deneyin.</translation>
 <translation id="4694024090038830733">Yazıcı yapılandırması yönetici tarafından gerçekleştirilir.</translation>
 <translation id="5816434091619127343">Yazıcıda yapılması istenen değişiklikler yazıcıyı kullanılamaz hale getirecekti.</translation>
 <translation id="6504611359718185067">Yazıcı eklemek için İnternet'e bağlanın</translation>
@@ -3424,7 +3424,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="5696679855467848181">Kullanımda olan mevcut PPD dosyası: <ph name="PPD_NAME"/></translation>
 <translation id="4733793249294335256">Konum</translation>
 <translation id="7754704193130578113">İndirmeden önce her dosyanın nereye kaydedileceğini sor</translation>
-<translation id="5713072761819014678">OneVN Software Drive hesabının bağlantısını kes</translation>
+<translation id="5713072761819014678">Onevn Software Drive hesabının bağlantısını kes</translation>
 <translation id="486635084936119914">Belirli türdeki dosyaları indirildikten sonra otomatik olarak aç</translation>
 <translation id="3653160965917900914">Ağ dosya paylaşımları</translation>
 <translation id="5763315388120433852">Ağ dosya paylaşımlarını kurun veya yönetin.</translation>
@@ -3460,12 +3460,12 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="3571734092741541777">Kur</translation>
 <translation id="3336664756920573711"><ph name="DEVICE_TYPE"/> cihazınızın kilidini Android telefonunuzla açın.</translation>
 <translation id="1164674268730883318"><ph name="DEVICE_TYPE"/> için Smart Lock kapatılsın mı?</translation>
-<translation id="2739030071582769583"><ph name="DEVICE_TYPE"/> için Smart Lock'u kapatırsanız, telefonunuzu kullanarak OneVN cihazlarınızın kilidini açamazsınız. Şifrenizi yazmanız gerekecektir.</translation>
+<translation id="2739030071582769583"><ph name="DEVICE_TYPE"/> için Smart Lock'u kapatırsanız, telefonunuzu kullanarak Onevn cihazlarınızın kilidini açamazsınız. Şifrenizi yazmanız gerekecektir.</translation>
 <translation id="4737715515457435632">Lütfen bir ağa bağlanın</translation>
 <translation id="5425722269016440406">Smart Lock, telefonunuz ve diğer cihazlarınız ile senkronize olduğundan bu ayarı kapatmak için çevrimiçi olmanız gerekir. Lütfen önce bir ağa bağlanın.</translation>
 <translation id="8885197664446363138">Smart Lock kullanılamıyor</translation>
 <translation id="7334190995941642545">Smart Lock şu anda kullanılamıyor. Lütfen daha sonra tekrar deneyin.</translation>
-<translation id="8112427115751454716">OneVN Software Hesabınızda oturum açmak için Smart Lock'u kullanın</translation>
+<translation id="8112427115751454716">Onevn Software Hesabınızda oturum açmak için Smart Lock'u kullanın</translation>
 <translation id="2043818754674261542">Telefonun bu <ph name="DEVICE_TYPE"/> cihazının kilidini açması için gereken mesafe</translation>
 <translation id="2522791476825452208">Çok yakın</translation>
 <translation id="649454645705377674">Kapat</translation>
@@ -3473,7 +3473,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="5595152862129936745">Çok uzak</translation>
 <translation id="8748384418490037181">Smart Lock seçenekleri</translation>
 <translation id="2433836460518180625">Yalnızca cihazın kilidini aç</translation>
-<translation id="3300552672525741457">Cihazın kilidini aç ve OneVN Software Hesabı'nda oturum aç</translation>
+<translation id="3300552672525741457">Cihazın kilidini aç ve Onevn Software Hesabı'nda oturum aç</translation>
 <translation id="2307462900900812319">Ağı yapılandır</translation>
 <translation id="7175037578838465313"><ph name="NAME"/> adlı ağı yapılandırın</translation>
 <translation id="8662671328352114214"><ph name="TYPE"/> ağına katılın</translation>
@@ -3500,7 +3500,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="1726100011689679555">Ad sunucuları</translation>
 <translation id="1209796539517632982">Otomatik ad sunucuları</translation>
 <translation id="4462159676511157176">Özel ad sunucuları</translation>
-<translation id="1981884748698699991">OneVN Software ad sunucuları</translation>
+<translation id="1981884748698699991">Onevn Software ad sunucuları</translation>
 <translation id="854655314928502177">Web Proxy Otomatik Bulma URL'si:</translation>
 <translation id="3817579325494460411">Belirtilmedi</translation>
 <translation id="1280820357415527819">Mobil ağlar aranıyor</translation>
@@ -3564,13 +3564,13 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="6077131872140550515">Tercih edilenlerden kaldır</translation>
 <translation id="4115002065223188701">Ağ, kapsama alanı dışında</translation>
 <translation id="161460670679785907">Telefonunuz algılanamadı</translation>
-<translation id="1682335582099955045">Anında Tethering'i kullanmak için OneVN Software Play Hizmetleri bildirimlerini açın.</translation>
+<translation id="1682335582099955045">Anında Tethering'i kullanmak için Onevn Software Play Hizmetleri bildirimlerini açın.</translation>
 <translation id="7696063401938172191">"<ph name="PHONE_NAME"/>" telefonunuzda:</translation>
 <translation id="3423463006624419153">"<ph name="PHONE_NAME_1"/>" ve "<ph name="PHONE_NAME_2"/>" telefonlarınızda:</translation>
 <translation id="6997707937646349884">Cihazlarınızda:</translation>
 <translation id="7531779363494549572">Ayarlar &gt; Uygulamalar ve bildirimler &gt; Bildirimler'e gidin.</translation>
-<translation id="6921033294337262045">Uygulama bildirimleri &gt; OneVN Software Play hizmetlerine dokunun.</translation>
-<translation id="5624710179837914896">OneVN Software Play hizmetlerini açın.</translation>
+<translation id="6921033294337262045">Uygulama bildirimleri &gt; Onevn Software Play hizmetlerine dokunun.</translation>
+<translation id="5624710179837914896">Onevn Software Play hizmetlerini açın.</translation>
 <translation id="2705736684557713153">Ekranın alt kısmına gidin ve görüntülenirse Anında Tethering'i açın. Görüntülenmiyorsa her şey hazırdır.</translation>
 <translation id="8720200012906404956">Bir mobil ağ aranıyor. <ph name="BEGIN_LINK"/>Daha fazla bilgi<ph name="END_LINK"/></translation>
 <translation id="7240339475467890413">Yeni hotspot'a bağlanılsın mı?</translation>
@@ -3584,7 +3584,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="3651488188562686558">Kablosuz bağlantıyı kes</translation>
 <translation id="3479552764303398839">Şimdi değil</translation>
 <translation id="7378812711085314936">Veri bağlantısını al</translation>
-<translation id="3483333858382889684">Bu cihazın, OneVN Software Hesabınızın bulunduğu mobil veri bağlantısı olan diğer cihazları bulmasına izin verin.</translation>
+<translation id="3483333858382889684">Bu cihazın, Onevn Software Hesabınızın bulunduğu mobil veri bağlantısı olan diğer cihazları bulmasına izin verin.</translation>
 <translation id="5637476008227280525">Mobil veriyi etkinleştir</translation>
 <translation id="1572266655485775982">Kablosuz bağlantıyı etkinleştir</translation>
 <translation id="543381445212956829">WiMAX'i etkinleştir</translation>
@@ -3714,11 +3714,11 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="4200689466366162458">Özel kelimeler</translation>
 <translation id="7833720883933317473">Kaydedilen özel kelimeler burada görünür</translation>
 <translation id="8509646642152301857">Yazım denetimi sözlüğü indirilemedi.</translation>
-<translation id="8842834450537919370">Güvenlik duvarının, OneVN Software sunucularından yapılan indirme işlemlerini engellemediğinden emin olmak için lütfen ağ yöneticinizle görüşün.</translation>
+<translation id="8842834450537919370">Güvenlik duvarının, Onevn Software sunucularından yapılan indirme işlemlerini engellemediğinden emin olmak için lütfen ağ yöneticinizle görüşün.</translation>
 <translation id="9042893549633094279">Gizlilik ve güvenlik</translation>
 <translation id="654233263479157500">Gezinme hatalarının çözülmesine yardımcı olması için bir web hizmeti kullan</translation>
 <translation id="6697492270171225480">Bir sayfa bulunamadığında benzer sayfalar için önerileri göster</translation>
-<translation id="4534361985432360439">Erişmeye çalıştığınız sayfanın web adresini OneVN Software'a gönderir</translation>
+<translation id="4534361985432360439">Erişmeye çalıştığınız sayfanın web adresini Onevn Software'a gönderir</translation>
 <translation id="6545834809683560467">Adres çubuğuna veya Uygulama Başlatıcı arama kutusuna yazılan aramaların ve URL'lerin tamamlanmasına yardımcı olması için bir tahmin hizmeti kullan</translation>
 <translation id="340485819826776184">Adres çubuğuna girilen aramaların ve URL'lerin tamamlamasına yardımcı olması için bir tahmin hizmeti kullan</translation>
 <translation id="7704317875155739195">Aramaları ve URL'leri otomatik tamamla</translation>
@@ -3729,16 +3729,16 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="1641113438599504367">Güvenli Tarama</translation>
 <translation id="773905249182896430">Kendinizi ve cihazınızı tehlikeli sitelerden korur</translation>
 <translation id="8983677657449185470">Güvenli Tarama'yı iyileştirmeye yardımcı ol</translation>
-<translation id="199861668945335092">Bazı sistem bilgilerini ve sayfa içeriğini OneVN Software'a gönderir</translation>
+<translation id="199861668945335092">Bazı sistem bilgilerini ve sayfa içeriğini Onevn Software'a gönderir</translation>
 <translation id="490074449735753175">Yazım hatalarının düzeltilmesine yardımcı olması için bir web hizmeti kullan</translation>
-<translation id="3523078749603005179">Tarayıcınızda yazdıklarınızın OneVN Software'a gönderilmesiyle sağlanan daha akıllı yazım denetimi</translation>
+<translation id="3523078749603005179">Tarayıcınızda yazdıklarınızın Onevn Software'a gönderilmesiyle sağlanan daha akıllı yazım denetimi</translation>
 <translation id="2564653188463346023">Geliştirilmiş yazım denetimi</translation>
-<translation id="9079153198295609735">Kullanım istatistiklerini ve çökme raporlarını otomatik olarak OneVN Software'a gönder</translation>
-<translation id="5941220456342415404">Teşhis ve kullanım verilerini OneVN Software'a otomatik olarak gönder</translation>
-<translation id="918192811481327695">OneVN'un özelliklerini ve performansını iyileştirmeye yardımcı olun</translation>
-<translation id="9063160602596686558">Kullanım istatistiklerini ve kilitlenme raporlarını OneVN Software'a otomatik olarak gönderir</translation>
+<translation id="9079153198295609735">Kullanım istatistiklerini ve çökme raporlarını otomatik olarak Onevn Software'a gönder</translation>
+<translation id="5941220456342415404">Teşhis ve kullanım verilerini Onevn Software'a otomatik olarak gönder</translation>
+<translation id="918192811481327695">Onevn'un özelliklerini ve performansını iyileştirmeye yardımcı olun</translation>
+<translation id="9063160602596686558">Kullanım istatistiklerini ve kilitlenme raporlarını Onevn Software'a otomatik olarak gönderir</translation>
 <translation id="8438566539970814960">Aramaları ve göz atmayı daha iyi yap</translation>
-<translation id="284843628681142937">Ziyaret ettiğiniz sayfaların URL'lerini OneVN Software'a gönderir</translation>
+<translation id="284843628681142937">Ziyaret ettiğiniz sayfaların URL'lerini Onevn Software'a gönderir</translation>
 <translation id="8791534160414513928">Göz atma trafiğimle birlikte bir "Do Not Track" isteği gönder</translation>
 <translation id="5299109548848736476">Do Not Track</translation>
 <translation id="5282733140964383898">"Do Not Track" seçeneğinin etkinleştirilmesi, göz atma trafiğinize bir isteğin ekleneceği anlamına gelir. Bunun etkileri, bir web sitesinin bu isteğe yanıt verip vermemesine ve isteği ne şekilde yorumladığına bağlıdır. Örneğin bazı web siteleri bu isteğe yanıt olarak, daha önce ziyaret ettiğiniz diğer web sitelerine dayalı olmayan reklamlar gösterebilir. Pek çok web sitesi yine de göz atma verilerinizi toplamaya ve kullanmaya devam edecektir. Bunu örneğin, güvenliği artırmak, kendi web sitelerinde içerik, hizmet, reklam ve öneriler sunmak ve raporlama istatistikleri oluşturmak için yaparlar. <ph name="BEGIN_LINK"/>Daha fazla bilgi edinin<ph name="END_LINK"/></translation>
@@ -3756,7 +3756,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="8632933437936028548">Ayarları sıfırla</translation>
 <translation id="5293170712604732402">Ayarları orijinal varsayılan değerlerine geri yükleyin</translation>
 <translation id="892706138619340876">Bazı ayarlar sıfırlandı</translation>
-<translation id="2334029754052191847">OneVN, bazı ayarlarınızın başka bir program tarafından bozulduğunu algıladı ve onları orijinal varsayılan değerlerine sıfırladı.</translation>
+<translation id="2334029754052191847">Onevn, bazı ayarlarınızın başka bir program tarafından bozulduğunu algıladı ve onları orijinal varsayılan değerlerine sıfırladı.</translation>
 <translation id="4582563038311694664">Tüm ayarları sıfırla</translation>
 <translation id="4146785383423576110">Sıfırla ve temizle</translation>
 <translation id="2603115962224169880">Bilgisayarı temizleme</translation>
@@ -3768,7 +3768,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="7807067443225230855">Arama ve Asistan</translation>
 <translation id="2203682048752833055"><ph name="BEGIN_LINK"/>Adres çubuğunda<ph name="END_LINK"/> kullanılan arama motoru</translation>
 <translation id="1432581352905426595">Arama motorlarını yönet</translation>
-<translation id="2862205630718215619">OneVN Software Asistan</translation>
+<translation id="2862205630718215619">Onevn Software Asistan</translation>
 <translation id="6978121630131642226">Arama Motorları</translation>
 <translation id="6410668567036790476">Arama motoru ekleyin</translation>
 <translation id="1128591060186966949">Arama motorunu düzenleyin</translation>
@@ -3780,9 +3780,9 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="7063311912041006059">Sorgu yerine <ph name="SPECIAL_SYMBOL"/> olan URL</translation>
 <translation id="6953878494808481632">İlgili bilgiler</translation>
 <translation id="4145922204387553806">Asistanın ekranınızda bulunan içerikle ilgili bilgileri göstermesine izin verin</translation>
-<translation id="472896694312062378">Ok OneVN Software</translation>
-<translation id="873163986259711670">"Ok OneVN Software" diyerek istediğiniz zaman Asistanınıza erişin</translation>
-<translation id="7972554217702001243">Birisi "Ok OneVN Software" dediğinde Asistan'ı etkinleştir. Pilden tasarruf etmek için, "Ok OneVN Software" özelliği yalnızca cihazınız güç kaynağına bağlıyken etkin olur.</translation>
+<translation id="472896694312062378">Ok Onevn Software</translation>
+<translation id="873163986259711670">"Ok Onevn Software" diyerek istediğiniz zaman Asistanınıza erişin</translation>
+<translation id="7972554217702001243">Birisi "Ok Onevn Software" dediğinde Asistan'ı etkinleştir. Pilden tasarruf etmek için, "Ok Onevn Software" özelliği yalnızca cihazınız güç kaynağına bağlıyken etkin olur.</translation>
 <translation id="5825412242012995131">Açık (Önerilen)</translation>
 <translation id="5067399438976153555">Her zaman açık</translation>
 <translation id="5419405654816502573">Voice Match</translation>
@@ -3791,7 +3791,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="5355099869024327351">Asistan'ın bildirimleri göstermesini sağlayın</translation>
 <translation id="133535873114485416">Tercih edilen giriş</translation>
 <translation id="6233154960150021497">Varsayılan olarak klavye yerine sesi kullan</translation>
-<translation id="3908743412684152579">OneVN Software Asistan ayarları</translation>
+<translation id="3908743412684152579">Onevn Software Asistan ayarları</translation>
 <translation id="4933484234309072027"><ph name="URL"/> adresinde yerleşik</translation>
 <translation id="8427292751741042100">herhangi bir ana makinede yerleşik</translation>
 <translation id="4907306957610201395">İzin Kategorisi</translation>
@@ -3816,7 +3816,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="5340638867532133571">Sitelerin ödeme işleyici yüklemesine izin ver (önerilir)</translation>
 <translation id="763632859238619983">Hiçbir sitenin ödeme işleyici yüklemesine izin verme</translation>
 <translation id="8270242299912238708">PDF dokümanları</translation>
-<translation id="539658326146969381">PDF dosyalarını OneVN'da otomatik olarak açmak yerine indir</translation>
+<translation id="539658326146969381">PDF dosyalarını Onevn'da otomatik olarak açmak yerine indir</translation>
 <translation id="4434045419905280838">Pop-up'lar ve yönlendirmeler</translation>
 <translation id="6612358246767739896">Korunan içerik</translation>
 <translation id="4252852543720145436">Korumalı içerik tanımlayıcıları</translation>
@@ -3848,7 +3848,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="7661259717474717992">Sitelere, çerez verilerini kaydetme ve okuma izni ver</translation>
 <translation id="2913331724188855103">Sitelerin, çerez verilerini kaydetmelerine ve okumalarına izin ver (önerilir)</translation>
 <translation id="5908769186679515905">Sitelerin Flash çalıştırmasını engelle</translation>
-<translation id="6096007141921397775">Flash ayarlarınız OneVN'dan çıkmanıza kadar tutulacak.</translation>
+<translation id="6096007141921397775">Flash ayarlarınız Onevn'dan çıkmanıza kadar tutulacak.</translation>
 <translation id="2972642118232180842">Yalnızca önemli içeriği çalıştır (önerilir)</translation>
 <translation id="7084192839369222683">Yalnızca önemli içeriği çalıştır</translation>
 <translation id="8074127646604999664">Son kapatılan sitelerin veri gönderme ve alma işlemini bitirmesine izin ver</translation>
@@ -3910,7 +3910,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="4750220700975225">Geçerli gizli oturum (<ph name="EMBEDDING"/>)</translation>
 <translation id="383891835335927981">Yakınlaştırılmış veya uzaklaştırılmış herhangi bir site yok</translation>
 <translation id="3566721612727112615">Site eklenmedi</translation>
-<translation id="8098574385249290065">Sitelerin ne zaman ses çalacağını OneVN'un seçmesine izin verin (önerilir)</translation>
+<translation id="8098574385249290065">Sitelerin ne zaman ses çalacağını Onevn'un seçmesine izin verin (önerilir)</translation>
 <translation id="4354344420232759511">Ziyaret ettiğiniz siteler burada görünür</translation>
 <translation id="3757733214359997190">Hiç site bulunamadı</translation>
 <translation id="5763751966069581670">USB cihazı bulunamadı</translation>
@@ -3918,7 +3918,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="7366415735885268578">Site ekle</translation>
 <translation id="5052499409147950210">Siteyi düzenle</translation>
 <translation id="2870560284913253234">Site</translation>
-<translation id="4610862967073369855">Android Mesajlar'ın telefonunuzdan OneVNbook'unuza kısa mesaj aktarmasını sağlar</translation>
+<translation id="4610862967073369855">Android Mesajlar'ın telefonunuzdan Onevnbook'unuza kısa mesaj aktarmasını sağlar</translation>
 <translation id="6742339027238151589">Komut dosyasınca erişilebilir</translation>
 <translation id="361106536627977100">Flash verileri</translation>
 <translation id="8557930019681227453">Manifest</translation>
@@ -3932,7 +3932,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="6105877918873366097">Son erişim zamanı</translation>
 <translation id="1296497012903089238">Sertifika Türü</translation>
 <translation id="8553342806078037065">Diğer kişileri yönet</translation>
-<translation id="8907706281008466056">OneVN Software Profil fotoğrafı</translation>
+<translation id="8907706281008466056">Onevn Software Profil fotoğrafı</translation>
 <translation id="2408955596600435184">PIN'inizi girin</translation>
 <translation id="6619990499523117484">PIN'inizi onaylayın</translation>
 <translation id="2023167225947895179">PIN kolayca tahmin edilebilir</translation>
@@ -3957,9 +3957,9 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="6029292188939175871">[<ph name="FINGERPRINT_NAME"/>] parmak izini sil, düğme</translation>
 <translation id="1927632033341042996"><ph name="NEW_FINGER_NUMBER"/>. Parmak</translation>
 <translation id="7665369617277396874">Hesap ekle</translation>
-<translation id="6776811409814583709">Uygulama ve web sitelerinde oturum açtığınız tüm OneVN Software Hesapları burada yönetilebilir. İzin verdiğiniz uygulamalar ve web siteleri, düzgün çalışmaları için ihtiyaç duydukları hesap bilgilerine erişebilir.</translation>
+<translation id="6776811409814583709">Uygulama ve web sitelerinde oturum açtığınız tüm Onevn Software Hesapları burada yönetilebilir. İzin verdiğiniz uygulamalar ve web siteleri, düzgün çalışmaları için ihtiyaç duydukları hesap bilgilerine erişebilir.</translation>
 <translation id="1987317783729300807">Hesaplar</translation>
-<translation id="8418661265246754237">OneVN Software Hesapları</translation>
+<translation id="8418661265246754237">Onevn Software Hesapları</translation>
 <translation id="3297951628821704004">Hesabı bu cihazdan kaldır</translation>
 <translation id="3158033540161634471">Parmak izinizi kurun</translation>
 <translation id="1587907146729660231">Parmağınızla güç düğmesine dokunun</translation>
@@ -3989,9 +3989,9 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="2114896190328250491">Fotoğrafı çeken: <ph name="NAME"/></translation>
 <translation id="7155171745945906037">Kameradan veya dosyadan mevcut fotoğraf</translation>
 <translation id="8995603266996330174">Yöneten: <ph name="DOMAIN"/></translation>
-<translation id="9125982323641182972">OneVN Software zekası OneVN'da</translation>
+<translation id="9125982323641182972">Onevn Software zekası Onevn'da</translation>
 <translation id="5244474230056479698"><ph name="EMAIL"/> hesabıyla senkronize ediliyor</translation>
-<translation id="4326270470840334364">Bu hesap <ph name="DOMAIN"/> tarafından yönetildiğinden, yer işaretleri, geçmişi, şifreler ve diğer ayarlarınız bu cihazdan silinir. Ancak verileriniz OneVN Software Hesabınızda kalmaya devam eder ve <ph name="BEGIN_LINK"/>OneVN Software Hesap Özeti<ph name="END_LINK"/>'nde yönetilebilir.</translation>
+<translation id="4326270470840334364">Bu hesap <ph name="DOMAIN"/> tarafından yönetildiğinden, yer işaretleri, geçmişi, şifreler ve diğer ayarlarınız bu cihazdan silinir. Ancak verileriniz Onevn Software Hesabınızda kalmaya devam eder ve <ph name="BEGIN_LINK"/>Onevn Software Hesap Özeti<ph name="END_LINK"/>'nde yönetilebilir.</translation>
 <translation id="4037889604535939429">Kişiyi düzenleyin</translation>
 <translation id="6739923123728562974">Masaüstü kısayolunu göster</translation>
 <translation id="2450310832094867474">Senkronizasyon ve oturum kapatılsın mı?</translation>
@@ -3999,16 +3999,16 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="5643620609347735571">Temizle ve devam et</translation>
 <translation id="5602765853043467355">Yer işaretleri, geçmiş, şifreler ve diğer bilgileri bu cihazdan temizle</translation>
 <translation id="4089235344645910861">Ayarlar kaydedildi. Senkronizasyon başladı.</translation>
-<translation id="7548737591211512046">Tüm cihazlarınızdaki yer işaretlerini, geçmişi, şifreleri ve diğer ayarları almak için oturum açın. Ayrıca OneVN Software hizmetlerinizde de otomatik olarak oturum açarsınız.</translation>
-<translation id="2951604498031550705">Yer işaretleri, geçmiş, şifreler ve diğer ayarlarınızla ilgili değişiklikler artık OneVN Software Hesabınızla senkronize edilmez. Ancak mevcut verileriniz OneVN Software Hesabınızda kalmaya devam eder ve <ph name="BEGIN_LINK"/>OneVN Software Hesap Özeti<ph name="END_LINK"/>'nde yönetilebilir.</translation>
-<translation id="138229770216285283">Bu işlem OneVN Software hesaplarınızın oturumunu kapatacaktır. Yer işaretleri, geçmiş, şifreler ve diğer ayarlarınızla ilgili değişiklikler artık OneVN Software Hesabınızla senkronize edilmeyecek. Ancak mevcut verileriniz OneVN Software Hesabınızda kalmaya devam edecek ve <ph name="BEGIN_LINK"/>OneVN Software Hesap Özeti<ph name="END_LINK"/>'nde yönetilebilecektir.</translation>
-<translation id="3169352093514419465">Bu işlem OneVN Software hesaplarınızın oturumunu kapatacak. Yer işaretleriniz, şifreleriniz ve diğer içerikler artık senkronize edilmeyecek.</translation>
+<translation id="7548737591211512046">Tüm cihazlarınızdaki yer işaretlerini, geçmişi, şifreleri ve diğer ayarları almak için oturum açın. Ayrıca Onevn Software hizmetlerinizde de otomatik olarak oturum açarsınız.</translation>
+<translation id="2951604498031550705">Yer işaretleri, geçmiş, şifreler ve diğer ayarlarınızla ilgili değişiklikler artık Onevn Software Hesabınızla senkronize edilmez. Ancak mevcut verileriniz Onevn Software Hesabınızda kalmaya devam eder ve <ph name="BEGIN_LINK"/>Onevn Software Hesap Özeti<ph name="END_LINK"/>'nde yönetilebilir.</translation>
+<translation id="138229770216285283">Bu işlem Onevn Software hesaplarınızın oturumunu kapatacaktır. Yer işaretleri, geçmiş, şifreler ve diğer ayarlarınızla ilgili değişiklikler artık Onevn Software Hesabınızla senkronize edilmeyecek. Ancak mevcut verileriniz Onevn Software Hesabınızda kalmaya devam edecek ve <ph name="BEGIN_LINK"/>Onevn Software Hesap Özeti<ph name="END_LINK"/>'nde yönetilebilecektir.</translation>
+<translation id="3169352093514419465">Bu işlem Onevn Software hesaplarınızın oturumunu kapatacak. Yer işaretleriniz, şifreleriniz ve diğer içerikler artık senkronize edilmeyecek.</translation>
 <translation id="8588866096426746242">Profil istatistiklerini göster</translation>
 <translation id="5535941515421698170">Ayrıca, mevcut verilerinizi bu cihazdan kaldırın</translation>
 <translation id="7243632151880336635">Temizle ve Oturumu Kapat</translation>
 <translation id="6406506848690869874">Sync</translation>
-<translation id="5428209950370661546">Diğer OneVN Software hizmetleri</translation>
-<translation id="7956662517480676674">Senkronizasyon ve OneVN Software hizmetleri</translation>
+<translation id="5428209950370661546">Diğer Onevn Software hizmetleri</translation>
+<translation id="7956662517480676674">Senkronizasyon ve Onevn Software hizmetleri</translation>
 <translation id="2453021845418314664">Gelişmiş senkronizasyon ayarları</translation>
 <translation id="4314815835985389558">Senkronizasyonu yönetin</translation>
 <translation id="659934686219830168">Senkronizasyon bu sayfadan ayrıldığınızda başlar</translation>
@@ -4017,19 +4017,19 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="4824958205181053313">Senkronizasyon iptal edilsin mi?</translation>
 <translation id="3058498974290601450">Senkronizasyonu istediğiniz zaman ayarlardan açabilirsiniz</translation>
 <translation id="7529411698175791732">İnternet bağlantınızı kontrol edin. Sorun devam ederse oturumu kapatıp tekrar açmayı deneyin.</translation>
-<translation id="1125261911132334651">OneVN Software Hesabınızı yönetin</translation>
+<translation id="1125261911132334651">Onevn Software Hesabınızı yönetin</translation>
 <translation id="4570387585180509432">Adresler, telefon numaraları ve daha fazlası</translation>
 <translation id="5117427536932535467">Temalar ve Duvar Kağıtları</translation>
 <translation id="3268451620468152448">Açık Sekmeler</translation>
-<translation id="5241892180459725878">OneVN Software Drive arama önerileri</translation>
+<translation id="5241892180459725878">Onevn Software Drive arama önerileri</translation>
 <translation id="2120297377148151361">Etkinlik ve etkileşimler</translation>
 <translation id="5833397272224757657">Kişiselleştirme için ziyaret ettiğiniz sitelerin içeriğinin yanı sıra tarayıcı etkinliğini ve etkileşimlerini kullanır</translation>
-<translation id="8135094938656535588">OneVN Software Hesap Özeti'nde senkronize edilen verileri yönet</translation>
-<translation id="7505421639213002314">OneVN senkronizasyonundan veriler</translation>
+<translation id="8135094938656535588">Onevn Software Hesap Özeti'nde senkronize edilen verileri yönet</translation>
+<translation id="7505421639213002314">Onevn senkronizasyonundan veriler</translation>
 <translation id="6596325263575161958">Şifreleme seçenekleri</translation>
-<translation id="2459230470861708651">Senkronize edilen şifreleri OneVN Software kullanıcı adınız ve şifrenizle şifreleyin</translation>
-<translation id="5958351589333270173">Senkronize edilen verileri kendi <ph name="BEGIN_LINK"/>senkronizasyon parolanızla<ph name="END_LINK"/> şifreleyin. OneVN Software Pay'deki adresler ve ödeme yöntemleri bu kapsamda değildir.</translation>
-<translation id="4817583816512767754">Yalnızca parolanızı bilen biri, şifrelenmiş verilerinizi okuyabilir. Parola OneVN Software'a gönderilmez veya OneVN Software tarafından saklanmaz. Parolanızı unutursanız veya bu ayarı değiştirmek isterseniz <ph name="BEGIN_LINK"/>senkronizasyonu sıfırlamanız<ph name="END_LINK"/> gerekir.</translation>
+<translation id="2459230470861708651">Senkronize edilen şifreleri Onevn Software kullanıcı adınız ve şifrenizle şifreleyin</translation>
+<translation id="5958351589333270173">Senkronize edilen verileri kendi <ph name="BEGIN_LINK"/>senkronizasyon parolanızla<ph name="END_LINK"/> şifreleyin. Onevn Software Pay'deki adresler ve ödeme yöntemleri bu kapsamda değildir.</translation>
+<translation id="4817583816512767754">Yalnızca parolanızı bilen biri, şifrelenmiş verilerinizi okuyabilir. Parola Onevn Software'a gönderilmez veya Onevn Software tarafından saklanmaz. Parolanızı unutursanız veya bu ayarı değiştirmek isterseniz <ph name="BEGIN_LINK"/>senkronizasyonu sıfırlamanız<ph name="END_LINK"/> gerekir.</translation>
 <translation id="7441736921018636843">Bu ayarı değiştirmek için <ph name="BEGIN_LINK"/>senkronizasyonu sıfırlayarak<ph name="END_LINK"/> senkronizasyon parolanızı kaldırın</translation>
 <translation id="3873315167136380065">Bu özelliği açmak için <ph name="BEGIN_LINK"/>senkronizasyonu sıfırlayarak<ph name="END_LINK"/> senkronizasyon parolanızı kaldırın</translation>
 <translation id="988978206646512040">Boş parolaya izin verilmez</translation>
@@ -4075,7 +4075,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="437184764829821926">Gelişmiş yazı tipi ayarları</translation>
 <translation id="323803881985677942">Uzantı seçeneklerini aç</translation>
 <translation id="2166369534954157698">Pijamalı hasta, yağız şoföre çabucak güvendi</translation>
-<translation id="8911765336506423117">OneVN Web Store'dan bir uzantı gerektiriyor</translation>
+<translation id="8911765336506423117">Onevn Web Store'dan bir uzantı gerektiriyor</translation>
 <translation id="6965978654500191972">Cihaz</translation>
 <translation id="8260864402787962391">Fare</translation>
 <translation id="155865706765934889">Dokunmatik Tuş Takımı</translation>
@@ -4112,7 +4112,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="4673442866648850031">Ekran kalemi yerinden çıkarıldığında ekran kalemi araçlarını aç</translation>
 <translation id="5862109781435984885">Ekran kalemi araçlarını rafta göster</translation>
 <translation id="4244238649050961491">Daha fazla ekran kalemi uygulaması bul</translation>
-<translation id="1163818598439831131">OneVN Software Play'i aç</translation>
+<translation id="1163818598439831131">Onevn Software Play'i aç</translation>
 <translation id="9116799625073598554">Not alma uygulaması</translation>
 <translation id="5458998536542739734">Kilit ekranı notları</translation>
 <translation id="203574396658008164">Kilit ekranından not almayı etkinleştir</translation>
@@ -4174,7 +4174,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="6547354035488017500">En az 512 MB alan boşaltmazsanız cihazınız yanıt vermemeye başlayacaktır. Yer açmak için cihazın depolama alanındaki dosyaları silin.</translation>
 <translation id="6097480669505687979">Yer açmazsanız kullanıcılar ve veriler otomatik olarak kaldırılabilir.</translation>
 <translation id="5438224778284622050">Çevrimdışı dosyalar silinsin mi?</translation>
-<translation id="9196021349904508454">Geçici OneVN Software Drive çevrimdışı dosyaları silinecek. Çevrimdışı kullanılabilir olarak ayarladığınız dosyalar bu cihazdan silinmeyecektir.</translation>
+<translation id="9196021349904508454">Geçici Onevn Software Drive çevrimdışı dosyaları silinecek. Çevrimdışı kullanılabilir olarak ayarladığınız dosyalar bu cihazdan silinmeyecektir.</translation>
 <translation id="1865678028973512614">Dosyaları sil</translation>
 <translation id="1529891865407786369">Güç kaynağı</translation>
 <translation id="354060433403403521">AC adaptörü</translation>
@@ -4196,38 +4196,38 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="1889984860246851556">Proxy ayarlarını aç</translation>
 <translation id="1940546824932169984">Bağlı cihazlar</translation>
 <translation id="3468999815377931311">Android telefon</translation>
-<translation id="2789927670850159391">OneVNbook'unuzu telefonunuza bağlayın. <ph name="LINK_BEGIN"/>Daha fazla bilgi<ph name="LINK_END"/></translation>
+<translation id="2789927670850159391">Onevnbook'unuzu telefonunuza bağlayın. <ph name="LINK_BEGIN"/>Daha fazla bilgi<ph name="LINK_END"/></translation>
 <translation id="1397500194120344683">Uygun cihaz yok. <ph name="LINK_BEGIN"/>Daha fazla bilgi<ph name="LINK_END"/></translation>
 <translation id="5739235828260127894">Doğrulama bekleniyor. <ph name="LINK_BEGIN"/>Daha fazla bilgi<ph name="LINK_END"/></translation>
 <translation id="6518133107902771759">Doğrula</translation>
-<translation id="7179187931092694802">OneVNbook'unuzun kilidini telefonunuzla açın. <ph name="LINK_BEGIN"/>Daha fazla bilgi<ph name="LINK_END"/></translation>
+<translation id="7179187931092694802">Onevnbook'unuzun kilidini telefonunuzla açın. <ph name="LINK_BEGIN"/>Daha fazla bilgi<ph name="LINK_END"/></translation>
 <translation id="5430931332414098647">Anında Tethering</translation>
 <translation id="6415900369006735853">Telefonunuz üzerinden internete bağlanın</translation>
 <translation id="4746351372139058112">Mesajlar</translation>
-<translation id="2248072377758660530">OneVNbook'unuzdan kısa mesaj gönderip alın. <ph name="LINK_BEGIN"/>Daha fazla bilgi<ph name="LINK_END"/></translation>
+<translation id="2248072377758660530">Onevnbook'unuzdan kısa mesaj gönderip alın. <ph name="LINK_BEGIN"/>Daha fazla bilgi<ph name="LINK_END"/></translation>
 <translation id="5153234146675181447">Telefonu unutma</translation>
-<translation id="2307631131458143837">Telefonunuzun OneVNbook'unuzla olan bağlantısını kesin</translation>
-<translation id="1146102139091738471">Telefonunuzun OneVNbook'unuzla olan bağlantısını kesin. Bundan böyle otomatik olarak bağlanmazlar.</translation>
+<translation id="2307631131458143837">Telefonunuzun Onevnbook'unuzla olan bağlantısını kesin</translation>
+<translation id="1146102139091738471">Telefonunuzun Onevnbook'unuzla olan bağlantısını kesin. Bundan böyle otomatik olarak bağlanmazlar.</translation>
 <translation id="7878562273885520351">Şifrenizin güvenliği ihlal edilmiş olabilir</translation>
 <translation id="1089439967362294234">Şifreyi Değiştir</translation>
-<translation id="6187156085111579405">Gerekirse burada listelenmeyen öğeler de kaldırılabilir. &lt;a href="<ph name="URL"/>"&gt;İstenmeyen yazılım koruması&lt;/a&gt; hakkında daha fazla bilgiyi OneVN gizliliği tanıtım yazısında bulabilirsiniz.</translation>
+<translation id="6187156085111579405">Gerekirse burada listelenmeyen öğeler de kaldırılabilir. &lt;a href="<ph name="URL"/>"&gt;İstenmeyen yazılım koruması&lt;/a&gt; hakkında daha fazla bilgiyi Onevn gizliliği tanıtım yazısında bulabilirsiniz.</translation>
 <translation id="5280174558369304332">Kaldırılacak uzantılar:</translation>
 <translation id="7712836429117959503"><ph name="EXTENSION_ID"/> kimlikli bilinmeyen uzantı</translation>
 <translation id="3281892622610078515">Karantinaya alınacak dosyalar ve programlar:</translation>
 <translation id="8549457076611407730">{NUM_ITEMS,plural, =1{1 öğe}other{# öğe}}</translation>
 <translation id="7187428571767585875">Kaldırılacak veya değiştirilecek kayıt defteri girişleri:</translation>
 <translation id="4840150926623932060">{NUM_DOWNLOAD,plural, =1{1 öğe daha}other{# öğe daha}}</translation>
-<translation id="2749608811030566578">OneVN zararlı yazılımları kaldırırken bir hata oluştu</translation>
-<translation id="8189483132214844139">OneVN, bilgisayarınızdaki zararlı yazılımları bulabilir ve kaldırabilir</translation>
+<translation id="2749608811030566578">Onevn zararlı yazılımları kaldırırken bir hata oluştu</translation>
+<translation id="8189483132214844139">Onevn, bilgisayarınızdaki zararlı yazılımları bulabilir ve kaldırabilir</translation>
 <translation id="2910318910161511225">Bir ağa bağlanın ve tekrar deneyin</translation>
 <translation id="1426870617281699524">Yeniden Dene'yi tıklayın ve bilgisayarınızdaki istemi kabul edin</translation>
-<translation id="7886744396008377537">Bilgisayarınızda zararlı yazılım var. OneVN bunu kaldırıyor, ayarlarınızı geri yüklüyor ve uzantılarınızı devre dışı bırakıyor. Bu işlem, tarayıcınızın tekrar normal şekilde çalışmasını sağlayacak.</translation>
-<translation id="1484912962860902625">OneVN zararlı yazılımları ararken bir hata oluştu</translation>
+<translation id="7886744396008377537">Bilgisayarınızda zararlı yazılım var. Onevn bunu kaldırıyor, ayarlarınızı geri yüklüyor ve uzantılarınızı devre dışı bırakıyor. Bu işlem, tarayıcınızın tekrar normal şekilde çalışmasını sağlayacak.</translation>
+<translation id="1484912962860902625">Onevn zararlı yazılımları ararken bir hata oluştu</translation>
 <translation id="451407183922382411"><ph name="COMPANY_NAME"/> tarafından destekleniyor</translation>
 <translation id="5254368820972107711">Kaldırılacak dosyaları göster</translation>
 <translation id="296026337010986570">Bitti! Zararlı yazılım kaldırıldı. Uzantıları tekrar açmak için &lt;a href="chrome://extensions"&gt;Uzantılar&lt;/a&gt; sayfasını ziyaret edin.</translation>
 <translation id="284975061945174219">Temizleme işlemi başarısız oldu</translation>
-<translation id="9014750448058570312">OneVN'un devam edebilmesi için izin gerekiyor</translation>
+<translation id="9014750448058570312">Onevn'un devam edebilmesi için izin gerekiyor</translation>
 <translation id="1852141627593563189">Zararlı yazılım bulma</translation>
 <translation id="4320177379694898372">İnternet bağlantısı yok</translation>
 <translation id="850875081535031620">Zararlı yazılım bulunmadı</translation>
@@ -4237,11 +4237,11 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="8639047128869322042">Zararlı yazılımlar denetleniyor...</translation>
 <translation id="2653033005692233957">Arama başarısız oldu</translation>
 <translation id="655483977608336153">Tekrar dene</translation>
-<translation id="8282772389915299166">Bu temizleme işlemi sırasında bilgisayarımda bulunan zararlı yazılımlar, sistem ayarları ve işlemlerle ilgili ayrıntıları OneVN Software'a bildir</translation>
+<translation id="8282772389915299166">Bu temizleme işlemi sırasında bilgisayarımda bulunan zararlı yazılımlar, sistem ayarları ve işlemlerle ilgili ayrıntıları Onevn Software'a bildir</translation>
 <translation id="6555810572223193255">Temizleme şu anda kullanılamıyor</translation>
 <translation id="7117228822971127758">Lütfen daha sonra tekrar deneyin</translation>
 <translation id="443475966875174318">Uyumsuz uygulamaları güncelleyin veya kaldırın</translation>
-<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{Bu uygulama OneVN'un düzgün çalışmasını engelleyebilir.}other{Bu uygulamalar OneVN'un düzgün çalışmasını engelleyebilir.}}</translation>
+<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{Bu uygulama Onevn'un düzgün çalışmasını engelleyebilir.}other{Bu uygulamalar Onevn'un düzgün çalışmasını engelleyebilir.}}</translation>
 <translation id="599131315899248751">{NUM_APPLICATIONS,plural, =1{Web'e göz atmaya devam edebildiğinizden emin olmak için yöneticinizden bu uygulamayı kaldırmasını isteyin.}other{Web'e göz atmaya devam edebildiğinizden emin olmak için yöneticinizden bu uygulamaları kaldırmasını isteyin.}}</translation>
 <translation id="4743260470722568160"><ph name="BEGIN_LINK"/>Uygulamaların nasıl güncelleneceğini öğrenin<ph name="END_LINK"/></translation>
 <translation id="964439421054175458">{NUM_APLLICATIONS,plural, =1{Uygulama}other{Uygulamalar}}</translation>
@@ -4318,7 +4318,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="6370021412472292592">Manifest yüklenemedi.</translation>
 <translation id="7235716375204803342">Etkinlikler getiriliyor...</translation>
 <translation id="7647403192093989392">Yeni etkinlik yok</translation>
-<translation id="38046578254905003"><ph name="BEGIN_LINK"/>OneVN Web Mağazası<ph name="END_LINK"/>'nda uzantılar ve temalar bulun</translation>
+<translation id="38046578254905003"><ph name="BEGIN_LINK"/>Onevn Web Mağazası<ph name="END_LINK"/>'nda uzantılar ve temalar bulun</translation>
 <translation id="7272674038937250585">Açıklama sağlanmadı</translation>
 <translation id="3855441664322950881">Paket uzantısı</translation>
 <translation id="2958721676848865875">Uzantı paketleme uyarısı</translation>
@@ -4330,7 +4330,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="1992397118740194946">Ayarlanmadı</translation>
 <translation id="6706210727756204531">Kapsam</translation>
 <translation id="5532223876348815659">Evrensel</translation>
-<translation id="300669147395456190">OneVN Uygulamaları</translation>
+<translation id="300669147395456190">Onevn Uygulamaları</translation>
 <translation id="6787839852456839824">Klavye kısayolları</translation>
 <translation id="6419546358665792306">Paketlenmemiş öğe yükle</translation>
 <translation id="8023801379949507775">Uzantıları şimdi güncelle</translation>
@@ -4359,7 +4359,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="742130257665691897">Yer işaretleri kaldırıldı</translation>
 <translation id="2785008241190445880">Yer işareti değiştirildi</translation>
 <translation id="4320948194796820126">E-postanıza yer işareti ekleyin</translation>
-<translation id="2950533317914339731">Favori OneVN Software Uygulamalarınıza yer işaretleri ekleyin</translation>
+<translation id="2950533317914339731">Favori Onevn Software Uygulamalarınıza yer işaretleri ekleyin</translation>
 <translation id="3409785640040772790">Haritalar</translation>
 <translation id="6709133671862442373">Haberler</translation>
 <translation id="995782501881226248">YouTube</translation>
@@ -4371,12 +4371,12 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="5033266061063942743">Geometrik şekiller</translation>
 <translation id="7789963078219276159">Başlangıç sayfası arka planı <ph name="CATEGORY"/> olarak değiştirildi.</translation>
 <translation id="8771300903067484968">Başlangıç sayfası arka planı, varsayılan arka plana sıfırlandı.</translation>
-<translation id="239760341987199724">OneVN'u varsayılan tarayıcım olarak ayarla</translation>
-<translation id="96037229054033864">Her göz attığınızda OneVN Software Arama ve OneVN Software zekasından yararlanın</translation>
-<translation id="296137235951584143">OneVN'u kendinize uyarlayın</translation>
+<translation id="239760341987199724">Onevn'u varsayılan tarayıcım olarak ayarla</translation>
+<translation id="96037229054033864">Her göz attığınızda Onevn Software Arama ve Onevn Software zekasından yararlanın</translation>
+<translation id="296137235951584143">Onevn'u kendinize uyarlayın</translation>
 <translation id="3982375475032951137">Tarayıcınızı birkaç basit adımda kurun</translation>
 <translation id="6972754398087986839">Başlarken</translation>
-<translation id="3707821975049107110">Zaten OneVN kullanıcısı mısınız? Oturum açın</translation>
+<translation id="3707821975049107110">Zaten Onevn kullanıcısı mısınız? Oturum açın</translation>
 <translation id="1573150740912592860">İlerleme durumunuzu kaydedin</translation>
 <translation id="567643736130151854">Tüm cihazlarda yer işaretlerinizi, şifrelerinizi ve daha pek çok şeyi almak için oturum açın ve senkronizasyonu etkinleştirin</translation>
 <translation id="8282356762694872144">E-postanıza devam edilsin mi?</translation>
@@ -4385,7 +4385,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="5877584842898320529">Seçilen yazıcı kullanılamıyor veya doğru yüklenmemiş. <ph name="BR"/> Yazıcınızı kontrol edin veya başka yazıcı seçmeyi deneyin.</translation>
 <translation id="1031362278801463162">Önizleme yükleniyor</translation>
 <translation id="6147020289383635445">Yazdırma önizleme başarısız oldu.</translation>
-<translation id="7413400642818115607">Seçilen OneVN Software Cloud Print cihazı artık desteklenmiyor. <ph name="BR"/> Bilgisayarınızın sistem ayarlarında yazıcıyı kurmayı deneyin.</translation>
+<translation id="7413400642818115607">Seçilen Onevn Software Cloud Print cihazı artık desteklenmiyor. <ph name="BR"/> Bilgisayarınızın sistem ayarlarında yazıcıyı kurmayı deneyin.</translation>
 <translation id="5828633471261496623">Yazdırılıyor...</translation>
 <translation id="6295855836753816081">Kaydediliyor...</translation>
 <translation id="3587482841069643663">Tümü</translation>
@@ -4402,7 +4402,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="3706463572498736864">Yaprak başına sayfa</translation>
 <translation id="2249605167705922988">ör. 1-5, 8, 11-13</translation>
 <translation id="5746169159649715125">PDF olarak kaydet</translation>
-<translation id="1955272076204612657">OneVN Software Drive'a Kaydet</translation>
+<translation id="1955272076204612657">Onevn Software Drive'a Kaydet</translation>
 <translation id="2580924999637585241">Toplam: <ph name="NUMBER_OF_SHEETS"/> <ph name="SHEETS_LABEL"/></translation>
 <translation id="4091434297613116013">yaprak</translation>
 <translation id="8813811964357448561">kağıt</translation>
@@ -4431,7 +4431,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="6991665348624301627">Bir hedef seç</translation>
 <translation id="8800004011501252845">Bu adresin hedefleri gösteriliyor:</translation>
 <translation id="8996526648899750015">Hesap ekle...</translation>
-<translation id="5002959368039764681">OneVN Software Dokümanlar'a ve diğer bulut (cloud) hedeflerine yazdır. OneVN Software Cloud Print'e yazdırmak için <ph name="BEGIN_LINK"/>oturum açın<ph name="END_LINK"/>.</translation>
+<translation id="5002959368039764681">Onevn Software Dokümanlar'a ve diğer bulut (cloud) hedeflerine yazdır. Onevn Software Cloud Print'e yazdırmak için <ph name="BEGIN_LINK"/>oturum açın<ph name="END_LINK"/>.</translation>
 <translation id="2150139952286079145">Arama hedefleri</translation>
 <translation id="8569682776816196752">Hiçbir hedef bulunamadı</translation>
 <translation id="7885253890047913815">En Son Hedefler</translation>
@@ -4489,7 +4489,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="7574650250151586813">Metin yazmak için Daydream Keyboard uygulamasını güncelleyin</translation>
 <translation id="983511809958454316">Bu özellik VR'da desteklenmiyor</translation>
 <translation id="4008291085758151621">Site bilgileri VR'da kullanılamıyor</translation>
-<translation id="1439926347196400598">OneVN'un ses kaydetmesine izin verilsin mi?</translation>
+<translation id="1439926347196400598">Onevn'un ses kaydetmesine izin verilsin mi?</translation>
 <translation id="6313641880021325787">VR'DAN ÇIK</translation>
 <translation id="2670429602441959756">Bu sayfa henüz Sanal Gerçeklik'te desteklenmeyen özellikler içeriyor. Sayfadan çıkılıyor...</translation>
 <translation id="1802687198411089702">Sayfa yanıt vermiyor. Sayfanın yanıt vermesini bekleyebilir veya sayfadan çıkabilirsiniz.</translation>

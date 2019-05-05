@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -56,13 +56,13 @@
 
 using base::Time;
 
-OneVNImporter::OneVNImporter() {
+OnevnImporter::OnevnImporter() {
 }
 
-OneVNImporter::~OneVNImporter() {
+OnevnImporter::~OnevnImporter() {
 }
 
-void OneVNImporter::StartImport(const importer::SourceProfile& source_profile,
+void OnevnImporter::StartImport(const importer::SourceProfile& source_profile,
     uint16_t items, ImporterBridge* bridge) {
   bridge_ = bridge;
   source_path_ = source_profile.source_path;
@@ -125,13 +125,13 @@ void OneVNImporter::StartImport(const importer::SourceProfile& source_profile,
 
 // Called before user-toggleable import items.
 // These import types don't need a distinct checkbox in the import screen.
-void OneVNImporter::ImportRequiredItems() {
+void OnevnImporter::ImportRequiredItems() {
   ImportReferral();
   ImportSettings();
 }
 
-void OneVNImporter::ImportHistory() {
-  base::Optional<base::Value> session_store_json = ParseOneVNStateFile(
+void OnevnImporter::ImportHistory() {
+  base::Optional<base::Value> session_store_json = ParseOnevnStateFile(
       "session-store-1");
   if (!session_store_json)
     return;
@@ -170,7 +170,7 @@ void OneVNImporter::ImportHistory() {
     row.visit_count = count->GetInt();
     // Only visible URLs are stored in historySites
     row.hidden = false;
-    // OneVN browser-laptop doesn't store the typed count anywhere
+    // Onevn browser-laptop doesn't store the typed count anywhere
     // so default to 0.
     row.typed_count = 0;
 
@@ -181,9 +181,9 @@ void OneVNImporter::ImportHistory() {
     bridge_->SetHistoryItems(rows, importer::VISIT_SOURCE_ONEVN_IMPORTED);
 }
 
-void OneVNImporter::ParseBookmarks(
+void OnevnImporter::ParseBookmarks(
     std::vector<ImportedBookmarkEntry>* bookmarks) {
-  base::Optional<base::Value> session_store_json = ParseOneVNStateFile(
+  base::Optional<base::Value> session_store_json = ParseOnevnStateFile(
       "session-store-1");
   if (!session_store_json)
     return;
@@ -222,7 +222,7 @@ void OneVNImporter::ParseBookmarks(
                                bookmarks);
 }
 
-void OneVNImporter::RecursiveReadBookmarksFolder(
+void OnevnImporter::RecursiveReadBookmarksFolder(
   const base::string16 name,
   const std::string key,
   std::vector<base::string16> path,
@@ -287,7 +287,7 @@ void OneVNImporter::RecursiveReadBookmarksFolder(
         imported_bookmark_folder.url = GURL();
         imported_bookmark_folder.path = path;
         imported_bookmark_folder.title = base::UTF8ToUTF16(title);
-        // OneVN doesn't specify a creation time for the folder.
+        // Onevn doesn't specify a creation time for the folder.
         imported_bookmark_folder.creation_time = base::Time::Now();
         bookmarks->push_back(imported_bookmark_folder);
       }
@@ -313,14 +313,14 @@ void OneVNImporter::RecursiveReadBookmarksFolder(
       imported_bookmark.url = GURL(location);
       imported_bookmark.path = path;
       imported_bookmark.title = base::UTF8ToUTF16(title);
-      // OneVN doesn't specify a creation time for the bookmark.
+      // Onevn doesn't specify a creation time for the bookmark.
       imported_bookmark.creation_time = base::Time::Now();
       bookmarks->push_back(imported_bookmark);
     }
   }
 }
 
-void OneVNImporter::ImportBookmarks() {
+void OnevnImporter::ImportBookmarks() {
   std::vector<ImportedBookmarkEntry> bookmarks;
   ParseBookmarks(&bookmarks);
 
@@ -331,7 +331,7 @@ void OneVNImporter::ImportBookmarks() {
   }
 }
 
-base::Optional<base::Value> OneVNImporter::ParseOneVNStateFile(
+base::Optional<base::Value> OnevnImporter::ParseOnevnStateFile(
     const std::string& filename) {
   base::FilePath session_store_path = source_path_.AppendASCII(filename);
   std::string session_store_content;
@@ -349,8 +349,8 @@ base::Optional<base::Value> OneVNImporter::ParseOneVNStateFile(
   return session_store_json;
 }
 
-void OneVNImporter::ImportStats() {
-  base::Optional<base::Value> session_store_json = ParseOneVNStateFile(
+void OnevnImporter::ImportStats() {
+  base::Optional<base::Value> session_store_json = ParseOnevnStateFile(
       "session-store-1");
   if (!session_store_json)
     return;
@@ -365,7 +365,7 @@ void OneVNImporter::ImportStats() {
     session_store_json->FindPathOfType({"httpsEverywhere", "count"},
                                        base::Value::Type::INTEGER);
 
-  OneVNStats stats;
+  OnevnStats stats;
   if (adblock_count) {
     stats.adblock_count = adblock_count->GetInt();
   }
@@ -379,7 +379,7 @@ void OneVNImporter::ImportStats() {
   bridge_->UpdateStats(stats);
 }
 
-bool ParseWalletPassphrase(OneVNLedger* ledger,
+bool ParseWalletPassphrase(OnevnLedger* ledger,
   const base::Value& session_store_json) {
   const base::Value* wallet_passphrase_value =
     session_store_json.FindPathOfType(
@@ -434,7 +434,7 @@ bool TryFindUInt64Key(const base::Value* dict,
   return false;
 }
 
-bool ParsePaymentsPreferences(OneVNLedger* ledger,
+bool ParsePaymentsPreferences(OnevnLedger* ledger,
   const base::Value& session_store_json) {
   const base::Value* settings = session_store_json.FindKeyOfType(
     "settings",
@@ -531,7 +531,7 @@ bool ParsePaymentsPreferences(OneVNLedger* ledger,
   return true;
 }
 
-bool ParseExcludedSites(OneVNLedger* ledger,
+bool ParseExcludedSites(OnevnLedger* ledger,
   const base::Value& session_store_json) {
   const base::Value* site_settings = session_store_json.FindKeyOfType(
     "siteSettings",
@@ -576,7 +576,7 @@ bool ends_with(const std::string &input, const std::string &test) {
   return false;
 }
 
-bool ParsePinnedSites(OneVNLedger* ledger,
+bool ParsePinnedSites(OnevnLedger* ledger,
   const base::Value& session_store_json) {
   const base::Value* publishers = session_store_json.FindPathOfType(
       {"ledger", "about", "synopsis"}, base::Value::Type::LIST);
@@ -586,10 +586,10 @@ bool ParsePinnedSites(OneVNLedger* ledger,
     return false;
   }
 
-  ledger->pinned_publishers = std::vector<OneVNPublisher>();
+  ledger->pinned_publishers = std::vector<OnevnPublisher>();
 
   for (const auto& item : publishers->GetList()) {
-    OneVNPublisher publisher;
+    OnevnPublisher publisher;
 
     // Publisher key is required; if not present, skip this object.
     if (!TryFindStringKey(&item, "publisherKey", publisher.key)) {
@@ -624,19 +624,19 @@ bool ParsePinnedSites(OneVNLedger* ledger,
   return true;
 }
 
-bool OneVNImporter::ImportLedger() {
-  base::Optional<base::Value> session_store_json = ParseOneVNStateFile(
+bool OnevnImporter::ImportLedger() {
+  base::Optional<base::Value> session_store_json = ParseOnevnStateFile(
       "session-store-1");
-  base::Optional<base::Value> ledger_state_json = ParseOneVNStateFile(
+  base::Optional<base::Value> ledger_state_json = ParseOnevnStateFile(
       "ledger-state.json");
   if (!(session_store_json && ledger_state_json)) {
     return false;
   }
 
-  OneVNLedger ledger;
+  OnevnLedger ledger;
 
   if (!ParsePaymentsPreferences(&ledger, *session_store_json)) {
-    LOG(ERROR) << "Failed to parse preferences for OneVN Payments";
+    LOG(ERROR) << "Failed to parse preferences for Onevn Payments";
     return false;
   }
 
@@ -649,18 +649,18 @@ bool OneVNImporter::ImportLedger() {
   }
 
   if (!ledger.settings.payments.enabled) {
-    LOG(INFO) << "Skipping `OneVN Payments` import (feature was disabled)";
+    LOG(INFO) << "Skipping `Onevn Payments` import (feature was disabled)";
     return false;
   }
 
-  // only do the import if OneVN Payments is enabled
+  // only do the import if Onevn Payments is enabled
   if (!ParseExcludedSites(&ledger, *session_store_json)) {
-    LOG(ERROR) << "Failed to parse list of excluded sites for OneVN Payments";
+    LOG(ERROR) << "Failed to parse list of excluded sites for Onevn Payments";
     return false;
   }
 
   if (!ParsePinnedSites(&ledger, *session_store_json)) {
-    LOG(ERROR) << "Failed to parse list of pinned sites for OneVN Payments";
+    LOG(ERROR) << "Failed to parse list of pinned sites for Onevn Payments";
     return false;
   }
 
@@ -668,8 +668,8 @@ bool OneVNImporter::ImportLedger() {
   return true;
 }
 
-void OneVNImporter::ImportReferral() {
-  base::Optional<base::Value> session_store_json = ParseOneVNStateFile(
+void OnevnImporter::ImportReferral() {
+  base::Optional<base::Value> session_store_json = ParseOnevnStateFile(
       "session-store-1");
   if (!session_store_json) {
     return;
@@ -683,7 +683,7 @@ void OneVNImporter::ImportReferral() {
     return;
   }
 
-  OneVNReferral referral;
+  OnevnReferral referral;
 
   // Read as many values as possible (defaulting to "" or 0)
   // After 90 days, the `promoCode` field is erased (so it's not
@@ -851,8 +851,8 @@ std::vector<ImportedBrowserTab> ParsePinnedTabs(
   return pinnedTabs;
 }
 
-void OneVNImporter::ImportWindows() {
-  base::Optional<base::Value> session_store_json = ParseOneVNStateFile(
+void OnevnImporter::ImportWindows() {
+  base::Optional<base::Value> session_store_json = ParseOnevnStateFile(
       "session-store-1");
   if (!session_store_json)
     return;
@@ -883,8 +883,8 @@ void OneVNImporter::ImportWindows() {
   }
 }
 
-void OneVNImporter::ImportSettings() {
-  base::Optional<base::Value> session_store_json = ParseOneVNStateFile(
+void OnevnImporter::ImportSettings() {
+  base::Optional<base::Value> session_store_json = ParseOnevnStateFile(
       "session-store-1");
   if (!session_store_json) {
     return;

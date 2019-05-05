@@ -1,26 +1,26 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="fr">
-<translation id="3333887201479867589">Récompenses OneVN</translation>
-<translation id="7942180974165298215">Bloqueur de publicité OneVN</translation>
+<translation id="3333887201479867589">Récompenses Onevn</translation>
+<translation id="7942180974165298215">Bloqueur de publicité Onevn</translation>
 <translation id="6406506848690869874">Synchroniser</translation>
-<translation id="120759863357279975"><ph name="EXTENSION_NAME">$1</ph> (extension ID "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") n'est pas autorisé dans OneVN.</translation>
+<translation id="120759863357279975"><ph name="EXTENSION_NAME">$1</ph> (extension ID "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") n'est pas autorisé dans Onevn.</translation>
 <translation id="7450557937477381864">Fermez Chrome</translation>
 <translation id="7008934821596358692">Pour terminer l'importation, fermez toutes les fenêtres Chrome.</translation>
-<translation id="5735465527556462863">Fermer OneVN (ancien)</translation>
-<translation id="7737066986958447692">Pour terminer l'importation, fermez toutes les fenêtres OneVN (ancien).</translation>
+<translation id="5735465527556462863">Fermer Onevn (ancien)</translation>
+<translation id="7737066986958447692">Pour terminer l'importation, fermez toutes les fenêtres Onevn (ancien).</translation>
 <translation id="6447842834002726250">Cookies</translation>
 <translation id="4983925687993168579">Statistiques</translation>
-<translation id="6165477144235978006">Paiements OneVN</translation>
+<translation id="6165477144235978006">Paiements Onevn</translation>
 <translation id="3489524616427966890">Ouvrir les fenêtres et les onglets</translation>
 <translation id="3699882589215410581">Installer et exécuter Widevine</translation>
 <translation id="8053096063396012732">Installer Widevine</translation>
 <translation id="4840334696217618631">Redémarrez le navigateur pour activer Widevine</translation>
-<translation id="8410111618231938546">Google Widevine fait partie du code de Gestion des droits numériques (GDN) que nous, OneVN Software, ne pouvons pas inspecter et dont nous ne sommes pas propriétaires. Le code de Google Widevine est téléchargé à partir des serveurs de Google, et non de nos serveurs. Il n'est téléchargé que lorsque vous activez cette option. Nous n'encourageons pas l'utilisation de GDN, mais respectons le choix de l'utilisateur et reconnaissons que certains utilisateurs de OneVN souhaiteraient utiliser des services pour lesquels cela est nécessaire.
+<translation id="8410111618231938546">Google Widevine fait partie du code de Gestion des droits numériques (GDN) que nous, Onevn Software, ne pouvons pas inspecter et dont nous ne sommes pas propriétaires. Le code de Google Widevine est téléchargé à partir des serveurs de Google, et non de nos serveurs. Il n'est téléchargé que lorsque vous activez cette option. Nous n'encourageons pas l'utilisation de GDN, mais respectons le choix de l'utilisateur et reconnaissons que certains utilisateurs de Onevn souhaiteraient utiliser des services pour lesquels cela est nécessaire.
 
-En installant cette extension, vous acceptez les conditions d'utilisation de Google Widevine. Vous acceptez le fait que OneVN ne peut être tenu responsable pour aucun dommage ou aucune perte en rapport avec votre utilisation de Google Widevine.</translation>
-<translation id="6499845530162974140">OneVN (ancien)</translation>
-<translation id="3198814717959506569">Importé depuis OneVN</translation>
+En installant cette extension, vous acceptez les conditions d'utilisation de Google Widevine. Vous acceptez le fait que Onevn ne peut être tenu responsable pour aucun dommage ou aucune perte en rapport avec votre utilisation de Google Widevine.</translation>
+<translation id="6499845530162974140">Onevn (ancien)</translation>
+<translation id="3198814717959506569">Importé depuis Onevn</translation>
 <translation id="453977518730680921">Médias en lecture automatique</translation>
 <translation id="410351446219883937">Lecture automatique</translation>
 <translation id="2240268017737062801">Demander lorsqu'un site veut lire automatiquement un média</translation>
@@ -28,25 +28,25 @@ En installant cette extension, vous acceptez les conditions d'utilisation de Goo
 <translation id="3218385319396786393">La lecture automatique a été bloquée sur cette page</translation>
 <translation id="4988333904713528597">Toujours autoriser la lecture automatique sur <ph name="HOST">$1<ex>mail.google.com</ex></ph></translation>
 <translation id="4150684676757176434">Continuer le blocage de la lecture automatique</translation>
-<translation id="7543906827780734027">OneVN n'a pas encore analysé cette extension - elle pourrait être malveillante. Ajouter quand même "<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>" ?</translation>
-<translation id="2044383478723007273">Les couleurs de OneVN</translation>
+<translation id="7543906827780734027">Onevn n'a pas encore analysé cette extension - elle pourrait être malveillante. Ajouter quand même "<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>" ?</translation>
+<translation id="2044383478723007273">Les couleurs de Onevn</translation>
 <translation id="5341901626640816374">Utiliser la barre d'emplacement large</translation>
-<translation id="6123134130710658846">Masquer le bouton OneVN Rewards</translation>
-<translation id="7635711399568194460">Masque le bouton OneVN Rewards dans la barre d’emplacement lorsque OneVN Rewards n’est pas activé.</translation>
+<translation id="6123134130710658846">Masquer le bouton Onevn Rewards</translation>
+<translation id="7635711399568194460">Masque le bouton Onevn Rewards dans la barre d’emplacement lorsque Onevn Rewards n’est pas activé.</translation>
 <translation id="7965178729203412357">Nouvelle identité Tor</translation>
 <translation id="8784924142044142231">Quitter Tor</translation>
 <translation id="5410152065859052603">Tor</translation>
 <translation id="3696187925156352769">Ouvrir une fenêtre Tor</translation>
 <translation id="1434416574322382019">Nouvelle Fenêtre Privée avec Tor</translation>
 <translation id="4703780849509456860">Ouvrir le Lien dans une Fenêtre Privée avec Tor</translation>
-<translation id="3488584642074079080">Ouvrir le Lien dans une Fenêtre Privée OneVN avec Tor</translation>
+<translation id="3488584642074079080">Ouvrir le Lien dans une Fenêtre Privée Onevn avec Tor</translation>
 <translation id="6313675821927505581">Nouvelle fenêtre privée avec Tor</translation>
 <translation id="2638041073279639246">Ouvrir le lien dans une fenêtre privée avec Tor</translation>
-<translation id="3425600262621021599">Ouvrir le lien dans une fenêtre privée OneVN avec Tor</translation>
+<translation id="3425600262621021599">Ouvrir le lien dans une fenêtre privée Onevn avec Tor</translation>
 <translation id="3155170474926428993">Lanceur Tor</translation>
 <translation id="2515126961943087659">Service de publicités BAT</translation>
 <translation id="7924918279836988121">Service Bat Ledger</translation>
-<translation id="768979911142179781">Boucliers OneVN par défaut</translation>
+<translation id="768979911142179781">Boucliers Onevn par défaut</translation>
 <translation id="9185018653595759199">Boutons et connexions des réseaux sociaux</translation>
 <translation id="6894114137169961038">Contrôle des publicités</translation>
 <translation id="1096802265930928584">Contrôle des cookies</translation>

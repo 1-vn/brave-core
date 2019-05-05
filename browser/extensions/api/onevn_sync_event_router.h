@@ -28,10 +28,10 @@ using Uint8Array = std::vector<unsigned char>;
 
 namespace extensions {
 
-class OneVNSyncEventRouter {
+class OnevnSyncEventRouter {
  public:
-  OneVNSyncEventRouter(Profile* profile);
-  ~OneVNSyncEventRouter();
+  OnevnSyncEventRouter(Profile* profile);
+  ~OnevnSyncEventRouter();
 
   void GotInitData(
     const onevn_sync::Uint8Array& seed,

@@ -13,7 +13,7 @@ namespace profiles {
 
 #if !defined(OS_ANDROID)
 base::string16 GetAvatarNameForProfile(const base::FilePath& profile_path) {
-  if (profile_path == OneVNProfileManager::GetTorProfilePath())
+  if (profile_path == OnevnProfileManager::GetTorProfilePath())
     return l10n_util::GetStringUTF16(IDS_TOR_PROFILE_NAME);
   return GetAvatarNameForProfile_ChromiumImpl(profile_path);
 }
@@ -37,7 +37,7 @@ bool SetActiveProfileToGuestIfLocked() {
 
   const base::FilePath& active_profile_path =
       profile_manager->GetLastUsedProfileDir(profile_manager->user_data_dir());
-  const base::FilePath& tor_path = OneVNProfileManager::GetTorProfilePath();
+  const base::FilePath& tor_path = OnevnProfileManager::GetTorProfilePath();
   if (active_profile_path == tor_path)
     return true;
 

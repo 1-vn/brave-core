@@ -1,6 +1,6 @@
 {
   "onevnRewards": {
-    "message": "OneVN Rewards",
+    "message": "Onevn Rewards",
     "description": "Title in welcome screen for the panel"
   },
   "welcomeButtonTextOne": {
@@ -28,7 +28,7 @@
     "description": "Link in the footer (takes you to rewards settings page) for welcome screen in the panel, new user"
   },
   "welcomeHeaderOne": {
-    "message": "저희가 OneVN Rewards를 크게 업그레이드하였습니다.",
+    "message": "저희가 Onevn Rewards를 크게 업그레이드하였습니다.",
     "description": "Main header title for welcome screen in the panel, existing user"
   },
   "welcomeHeaderTwo": {
@@ -48,7 +48,7 @@
     "description": "The whole string is 'Enable tips on YouTube for like.'"
   },
   "verifiedPublisher": {
-    "message": "OneVN가 인증한 출판자 ",
+    "message": "Onevn가 인증한 출판자 ",
     "description": "Tells user that this particular publisher is verified publisher"
   },
   "rewardsContributeAttentionScore": {
@@ -164,7 +164,7 @@
     "description": "Used in notification to dismiss notification"
   },
   "onevnAdsTitle": {
-    "message": "OneVN 광고",
+    "message": "Onevn 광고",
     "description": "Notification title when we display info about ads"
   },
   "onevnContributeTitle": {
@@ -198,7 +198,7 @@
     "description": "Description for backup wallet notification"
   },
   "insufficientFundsNotification": {
-    "message": "귀하의 OneVN Rewards 계정이 입금을 기다리고 있습니다.",
+    "message": "귀하의 Onevn Rewards 계정이 입금을 기다리고 있습니다.",
     "description": "Description for new insufficient funds notification"
   },
   "insufficientFunds": {
@@ -358,7 +358,7 @@
     "description": "Text block for wallet disabled panel"
   },
   "enableRewards": {
-    "message": "OneVN 리워드 사용",
+    "message": "Onevn 리워드 사용",
     "description": "Subtitle for wallet disabled panel"
   },
   "privacyPolicy": {
@@ -366,7 +366,7 @@
     "description": "Privacy Policy"
   },
   "serviceText": {
-    "message": "'OneVN Rewards 활성화'를 클릭하심으로서, 귀하께서는 다음을 읽고 동의하시는 것이 됩니다: ",
+    "message": "'Onevn Rewards 활성화'를 클릭하심으로서, 귀하께서는 다음을 읽고 동의하시는 것이 됩니다: ",
     "description": "Terms of service main text"
   },
   "termsOfService": {

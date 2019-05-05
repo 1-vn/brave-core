@@ -1,26 +1,26 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="et">
-<translation id="3333887201479867589">OneVN Rewards</translation>
-<translation id="7942180974165298215">OneVN'i reklaamiblokeerija</translation>
+<translation id="3333887201479867589">Onevn Rewards</translation>
+<translation id="7942180974165298215">Onevn'i reklaamiblokeerija</translation>
 <translation id="6406506848690869874">Sünkroonimine</translation>
-<translation id="120759863357279975">Laiendus <ph name="EXTENSION_NAME">$1</ph> (extension ID "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") ei ole OneVN''is lubatud.</translation>
+<translation id="120759863357279975">Laiendus <ph name="EXTENSION_NAME">$1</ph> (extension ID "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") ei ole Onevn''is lubatud.</translation>
 <translation id="7450557937477381864">Sulge Chrome</translation>
 <translation id="7008934821596358692">Importimise lõpetamiseks sulgege kõik Chrome'i vahelehed.</translation>
-<translation id="5735465527556462863">Sulge OneVN (vana)</translation>
-<translation id="7737066986958447692">Importimise lõpetamiseks sulgege kõik (vana) OneVN'i vahelehed.</translation>
+<translation id="5735465527556462863">Sulge Onevn (vana)</translation>
+<translation id="7737066986958447692">Importimise lõpetamiseks sulgege kõik (vana) Onevn'i vahelehed.</translation>
 <translation id="6447842834002726250">Küpsised</translation>
 <translation id="4983925687993168579">Statistika</translation>
-<translation id="6165477144235978006">OneVN'i maksed</translation>
+<translation id="6165477144235978006">Onevn'i maksed</translation>
 <translation id="3489524616427966890">Ava aknad ja vahekaardid</translation>
 <translation id="3699882589215410581">Installi ja käivita Widevine</translation>
 <translation id="8053096063396012732">Installi Widevine</translation>
 <translation id="4840334696217618631">Taaskäivita Widevine lubamiseks brauser</translation>
-<translation id="8410111618231938546">Google Widevine on osa digitaalõiguste haldamise (DRM) süsteemist, mida OneVN Software ei oma ega saa kontrollida. Google Widevine laaditakse alla Google'i serveritest, mitte meie omadest. See laaditakse alla ainult siis, kui annate selleks oma loa. Me ei soovita DRMi süsteemi kasutamist, kuid austame oma kasutajate valikut ja mõistame, et mõned OneVN'i kasutajad soovivad kasutada teenuseid, kus seda vaja on.
+<translation id="8410111618231938546">Google Widevine on osa digitaalõiguste haldamise (DRM) süsteemist, mida Onevn Software ei oma ega saa kontrollida. Google Widevine laaditakse alla Google'i serveritest, mitte meie omadest. See laaditakse alla ainult siis, kui annate selleks oma loa. Me ei soovita DRMi süsteemi kasutamist, kuid austame oma kasutajate valikut ja mõistame, et mõned Onevn'i kasutajad soovivad kasutada teenuseid, kus seda vaja on.
 
-Selle laienduse installimisel nõustute Google Widevine'i kasutustingimustega. Nõustute, et OneVN ei vastuta mis tahes kahjude eest, mis tulenevad Google Widevine'i kasutamisest.</translation>
-<translation id="6499845530162974140">OneVN (vana)</translation>
-<translation id="3198814717959506569">Imporditud OneVN'ist</translation>
+Selle laienduse installimisel nõustute Google Widevine'i kasutustingimustega. Nõustute, et Onevn ei vastuta mis tahes kahjude eest, mis tulenevad Google Widevine'i kasutamisest.</translation>
+<translation id="6499845530162974140">Onevn (vana)</translation>
+<translation id="3198814717959506569">Imporditud Onevn'ist</translation>
 <translation id="453977518730680921">Meedia automaatesitamine</translation>
 <translation id="410351446219883937">Automaatesita</translation>
 <translation id="2240268017737062801">Küsi, kui veebisait tahab meediat automaatesitada</translation>
@@ -28,25 +28,25 @@ Selle laienduse installimisel nõustute Google Widevine'i kasutustingimustega. N
 <translation id="3218385319396786393">Automaatesitaja blokeeriti sellel lehel</translation>
 <translation id="4988333904713528597">Luba alati automaatesitust saidil <ph name="HOST">$1<ex>mail.google.com</ex></ph></translation>
 <translation id="4150684676757176434">Jätka automaatesitamise blokeerimist</translation>
-<translation id="7543906827780734027">OneVN pole seda laiendust veel vaadanud - see võib olla pahatahtlik. Kas lisada "<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>"?</translation>
-<translation id="2044383478723007273">OneVN'i värvid</translation>
+<translation id="7543906827780734027">Onevn pole seda laiendust veel vaadanud - see võib olla pahatahtlik. Kas lisada "<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>"?</translation>
+<translation id="2044383478723007273">Onevn'i värvid</translation>
 <translation id="5341901626640816374">Kasuta laia aadressiriba</translation>
-<translation id="6123134130710658846">Peida OneVN Rewards nupp</translation>
-<translation id="7635711399568194460">Peidab omniribalt OneVN Rewards nupu, kui OneVN Rewards pole lubatud</translation>
+<translation id="6123134130710658846">Peida Onevn Rewards nupp</translation>
+<translation id="7635711399568194460">Peidab omniribalt Onevn Rewards nupu, kui Onevn Rewards pole lubatud</translation>
 <translation id="7965178729203412357">Uus Tor'i identiteet</translation>
 <translation id="8784924142044142231">Sulge Tor</translation>
 <translation id="5410152065859052603">Tor</translation>
 <translation id="3696187925156352769">Ava Tor'i aken</translation>
 <translation id="1434416574322382019">Uus Tor'iga privaatne aken</translation>
 <translation id="4703780849509456860">Ava link Tor'iga privaatses aknas</translation>
-<translation id="3488584642074079080">Ava link OneVN'i Tor'iga privaatses aknas</translation>
+<translation id="3488584642074079080">Ava link Onevn'i Tor'iga privaatses aknas</translation>
 <translation id="6313675821927505581">Uus Tor'iga privaatne aken</translation>
 <translation id="2638041073279639246">Ava link Tor'iga privaatses aknas</translation>
-<translation id="3425600262621021599">Ava link OneVN'i Tor'iga privaatses aknas</translation>
+<translation id="3425600262621021599">Ava link Onevn'i Tor'iga privaatses aknas</translation>
 <translation id="3155170474926428993">Tor'i käivitaja</translation>
 <translation id="2515126961943087659">Bat reklaamide teenus</translation>
 <translation id="7924918279836988121">BAT-registri teenus</translation>
-<translation id="768979911142179781">OneVN'i kaitse vaikeseaded</translation>
+<translation id="768979911142179781">Onevn'i kaitse vaikeseaded</translation>
 <translation id="9185018653595759199">Sotsiaalsed nupud ja sisselogimised</translation>
 <translation id="6894114137169961038">Reklaamide juhtimine</translation>
 <translation id="1096802265930928584">Küpsiste juhtimine</translation>

@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -22,9 +22,9 @@
 #include "chrome/browser/profiles/profile_manager.h"
 #include "components/prefs/pref_service.h"
 
-OneVNProfileNetworkDelegate::OneVNProfileNetworkDelegate(
+OnevnProfileNetworkDelegate::OnevnProfileNetworkDelegate(
     extensions::EventRouterForwarder* event_router) :
-    OneVNNetworkDelegateBase(event_router) {
+    OnevnNetworkDelegateBase(event_router) {
   onevn::OnBeforeURLRequestCallback
   callback =
       base::Bind(onevn::OnBeforeURLRequest_SiteHacksWork);
@@ -68,13 +68,13 @@ OneVNProfileNetworkDelegate::OneVNProfileNetworkDelegate(
   headers_received_callbacks_.push_back(headers_received_callback);
 
   onevn::OnCanGetCookiesCallback get_cookies_callback =
-      base::Bind(onevn::OnCanGetCookiesForOneVNShields);
+      base::Bind(onevn::OnCanGetCookiesForOnevnShields);
   can_get_cookies_callbacks_.push_back(get_cookies_callback);
 
   onevn::OnCanSetCookiesCallback set_cookies_callback =
-      base::Bind(onevn::OnCanSetCookiesForOneVNShields);
+      base::Bind(onevn::OnCanSetCookiesForOnevnShields);
   can_set_cookies_callbacks_.push_back(set_cookies_callback);
 }
 
-OneVNProfileNetworkDelegate::~OneVNProfileNetworkDelegate() {
+OnevnProfileNetworkDelegate::~OnevnProfileNetworkDelegate() {
 }

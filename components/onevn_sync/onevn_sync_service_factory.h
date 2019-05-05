@@ -13,21 +13,21 @@ class Profile;
 
 namespace onevn_sync {
 
-class OneVNSyncService;
+class OnevnSyncService;
 
-class OneVNSyncServiceFactory : public BrowserContextKeyedServiceFactory {
+class OnevnSyncServiceFactory : public BrowserContextKeyedServiceFactory {
  public:
-  static OneVNSyncService* GetForProfile(Profile* profile);
-  static OneVNSyncService* GetForBrowserContext(
+  static OnevnSyncService* GetForProfile(Profile* profile);
+  static OnevnSyncService* GetForBrowserContext(
       content::BrowserContext* context);
 
-  static OneVNSyncServiceFactory* GetInstance();
+  static OnevnSyncServiceFactory* GetInstance();
 
  private:
-  friend struct base::DefaultSingletonTraits<OneVNSyncServiceFactory>;
+  friend struct base::DefaultSingletonTraits<OnevnSyncServiceFactory>;
 
-  OneVNSyncServiceFactory();
-  ~OneVNSyncServiceFactory() override;
+  OnevnSyncServiceFactory();
+  ~OnevnSyncServiceFactory() override;
 
   // BrowserContextKeyedServiceFactory:
   KeyedService* BuildServiceInstanceFor(
@@ -38,7 +38,7 @@ class OneVNSyncServiceFactory : public BrowserContextKeyedServiceFactory {
       content::BrowserContext* context) const override;
   bool ServiceIsNULLWhileTesting() const override;
 
-  DISALLOW_COPY_AND_ASSIGN(OneVNSyncServiceFactory);
+  DISALLOW_COPY_AND_ASSIGN(OnevnSyncServiceFactory);
 };
 
 } // namespace onevn_sync

@@ -7,10 +7,10 @@
 
 #include <string>
 
-struct OneVNReferral {
-  OneVNReferral();
-  OneVNReferral(const OneVNReferral& other);
-  ~OneVNReferral();
+struct OnevnReferral {
+  OnevnReferral();
+  OnevnReferral(const OnevnReferral& other);
+  ~OnevnReferral();
 
   std::string promo_code;
   std::string download_id;

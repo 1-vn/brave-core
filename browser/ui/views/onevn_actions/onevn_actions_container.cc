@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -30,21 +30,21 @@
 #include "ui/views/layout/grid_layout.h"
 #include "ui/views/view.h"
 
-OneVNActionsContainer::OneVNActionInfo::OneVNActionInfo()
+OnevnActionsContainer::OnevnActionInfo::OnevnActionInfo()
     : position_(ACTION_ANY_POSITION) {}
 
-OneVNActionsContainer::OneVNActionInfo::~OneVNActionInfo() {
+OnevnActionsContainer::OnevnActionInfo::~OnevnActionInfo() {
   Reset();
 }
 
-void OneVNActionsContainer::OneVNActionInfo::Reset() {
+void OnevnActionsContainer::OnevnActionInfo::Reset() {
   // Destroy view before view_controller.
   // Destructor for |ToolbarActionView| tries to access controller instance.
   view_.reset();
   view_controller_.reset();
 }
 
-OneVNActionsContainer::OneVNActionsContainer(Browser* browser, Profile* profile)
+OnevnActionsContainer::OnevnActionsContainer(Browser* browser, Profile* profile)
     : views::View(),
       browser_(browser),
       extension_action_api_(extensions::ExtensionActionAPI::Get(profile)),
@@ -56,15 +56,15 @@ OneVNActionsContainer::OneVNActionsContainer(Browser* browser, Profile* profile)
       weak_ptr_factory_(this) {
   // Handle when the extension system is ready
   extensions::ExtensionSystem::Get(profile)->ready().Post(
-      FROM_HERE, base::Bind(&OneVNActionsContainer::OnExtensionSystemReady,
+      FROM_HERE, base::Bind(&OnevnActionsContainer::OnExtensionSystemReady,
                             weak_ptr_factory_.GetWeakPtr()));
 }
 
-OneVNActionsContainer::~OneVNActionsContainer() {
+OnevnActionsContainer::~OnevnActionsContainer() {
   actions_.clear();
 }
 
-void OneVNActionsContainer::Init() {
+void OnevnActionsContainer::Init() {
   // automatic layout
   auto vertical_container_layout = std::make_unique<views::BoxLayout>(
                                                 views::BoxLayout::kHorizontal);
@@ -93,40 +93,40 @@ void OneVNActionsContainer::Init() {
   actions_[onevn_extension_id].position_ = 1;
   actions_[onevn_rewards_extension_id].position_ = ACTION_ANY_POSITION;
 
-  // React to OneVN Rewards preferences changes.
+  // React to Onevn Rewards preferences changes.
   onevn_rewards_enabled_.Init(
-      onevn_rewards::prefs::kOneVNRewardsEnabled,
+      onevn_rewards::prefs::kOnevnRewardsEnabled,
       browser_->profile()->GetPrefs(),
-      base::Bind(&OneVNActionsContainer::OnOneVNRewardsPreferencesChanged,
+      base::Bind(&OnevnActionsContainer::OnOnevnRewardsPreferencesChanged,
                  base::Unretained(this)));
   hide_onevn_rewards_button_.Init(
-      kHideOneVNRewardsButton, browser_->profile()->GetPrefs(),
-      base::Bind(&OneVNActionsContainer::OnOneVNRewardsPreferencesChanged,
+      kHideOnevnRewardsButton, browser_->profile()->GetPrefs(),
+      base::Bind(&OnevnActionsContainer::OnOnevnRewardsPreferencesChanged,
                  base::Unretained(this)));
 }
 
-bool OneVNActionsContainer::IsContainerAction(const std::string& id) const {
+bool OnevnActionsContainer::IsContainerAction(const std::string& id) const {
   return (actions_.find(id) != actions_.end());
 }
 
-bool OneVNActionsContainer::ShouldAddAction(const std::string& id) const {
+bool OnevnActionsContainer::ShouldAddAction(const std::string& id) const {
   if (!IsContainerAction(id))
     return false;
   if (id == onevn_rewards_extension_id)
-    return ShouldAddOneVNRewardsAction();
+    return ShouldAddOnevnRewardsAction();
   return true;
 }
 
-bool OneVNActionsContainer::ShouldAddOneVNRewardsAction() const {
+bool OnevnActionsContainer::ShouldAddOnevnRewardsAction() const {
   // Guest (and Tor for now) should not show the action.
   if (browser_->profile()->IsGuestSession())
     return false;
   const PrefService* prefs = browser_->profile()->GetPrefs();
-  return prefs->GetBoolean(onevn_rewards::prefs::kOneVNRewardsEnabled) ||
-         !prefs->GetBoolean(kHideOneVNRewardsButton);
+  return prefs->GetBoolean(onevn_rewards::prefs::kOnevnRewardsEnabled) ||
+         !prefs->GetBoolean(kHideOnevnRewardsButton);
 }
 
-void OneVNActionsContainer::AddAction(const extensions::Extension* extension,
+void OnevnActionsContainer::AddAction(const extensions::Extension* extension,
                                       int pos) {
   DCHECK(extension);
   if (!ShouldAddAction(extension->id()))
@@ -141,11 +141,11 @@ void OneVNActionsContainer::AddAction(const extensions::Extension* extension,
     // If we do require notifications when popups are open or closed,
     // then we should inherit and pass |this| through.
     actions_[id].view_controller_ =
-        std::make_unique<OneVNActionViewController>(
+        std::make_unique<OnevnActionViewController>(
         extension, browser_,
         extension_action_manager_->GetExtensionAction(*extension), nullptr);
     // The button view
-    actions_[id].view_ = std::make_unique<OneVNActionView>(
+    actions_[id].view_ = std::make_unique<OnevnActionView>(
         actions_[id].view_controller_.get(), this);
     // Add extension view after separator view
     // `AddChildView` should be called first, so that changes that modify
@@ -165,7 +165,7 @@ void OneVNActionsContainer::AddAction(const extensions::Extension* extension,
   }
 }
 
-void OneVNActionsContainer::AddAction(const std::string& id, int pos) {
+void OnevnActionsContainer::AddAction(const std::string& id, int pos) {
   DCHECK(extension_registry_);
   const extensions::Extension* extension =
       extension_registry_->enabled_extensions().GetByID(id);
@@ -173,7 +173,7 @@ void OneVNActionsContainer::AddAction(const std::string& id, int pos) {
     AddAction(extension, pos);
 }
 
-void OneVNActionsContainer::RemoveAction(const std::string& id) {
+void OnevnActionsContainer::RemoveAction(const std::string& id) {
   DCHECK(IsContainerAction(id));
   VLOG(1) << "RemoveAction (" << id << "), was loaded: "
           << static_cast<bool>(actions_[id].view_);
@@ -186,23 +186,23 @@ void OneVNActionsContainer::RemoveAction(const std::string& id) {
 }
 
 // Adds or removes action
-void OneVNActionsContainer::ShowAction(const std::string& id, bool show) {
+void OnevnActionsContainer::ShowAction(const std::string& id, bool show) {
   if (show != IsActionShown(id))
     show ? AddAction(id) : RemoveAction(id);
 }
 
 // Checks if action for the given |id| has been added
-bool OneVNActionsContainer::IsActionShown(const std::string& id) const {
+bool OnevnActionsContainer::IsActionShown(const std::string& id) const {
   DCHECK(IsContainerAction(id));
   return(actions_.at(id).view_ != nullptr);
 }
 
-void OneVNActionsContainer::UpdateActionState(const std::string& id) {
+void OnevnActionsContainer::UpdateActionState(const std::string& id) {
   if (actions_[id].view_controller_)
     actions_[id].view_controller_->UpdateState();
 }
 
-void OneVNActionsContainer::Update() {
+void OnevnActionsContainer::Update() {
   // Update state of each action and also determine if there are any buttons to
   // show
   bool can_show = false;
@@ -218,23 +218,23 @@ void OneVNActionsContainer::Update() {
   Layout();
 }
 
-void OneVNActionsContainer::SetShouldHide(bool should_hide) {
+void OnevnActionsContainer::SetShouldHide(bool should_hide) {
   should_hide_ = should_hide;
   Update();
 }
 
-content::WebContents* OneVNActionsContainer::GetCurrentWebContents() {
+content::WebContents* OnevnActionsContainer::GetCurrentWebContents() {
   return browser_->tab_strip_model()->GetActiveWebContents();
 }
 
-bool OneVNActionsContainer::ShownInsideMenu() const {
+bool OnevnActionsContainer::ShownInsideMenu() const {
   return false;
 }
 
-void OneVNActionsContainer::OnToolbarActionViewDragDone() {
+void OnevnActionsContainer::OnToolbarActionViewDragDone() {
 }
 
-views::MenuButton* OneVNActionsContainer::GetOverflowReferenceView() {
+views::MenuButton* OnevnActionsContainer::GetOverflowReferenceView() {
   // Our action views should always be visible,
   // so we should not need another view.
   NOTREACHED();
@@ -242,32 +242,32 @@ views::MenuButton* OneVNActionsContainer::GetOverflowReferenceView() {
 }
 
 // ToolbarActionView::Delegate members
-gfx::Size OneVNActionsContainer::GetToolbarActionSize() {
+gfx::Size OnevnActionsContainer::GetToolbarActionSize() {
   // Shields icon should be square, and full-height
   gfx::Rect rect(gfx::Size(height(), height()));
   rect.Inset(-GetLayoutInsets(LOCATION_BAR_ICON_INTERIOR_PADDING));
   return rect.size();
 }
 
-void OneVNActionsContainer::WriteDragDataForView(View* sender,
+void OnevnActionsContainer::WriteDragDataForView(View* sender,
                                                    const gfx::Point& press_pt,
                                                    OSExchangeData* data) {
   // Not supporting drag for action buttons inside this container
 }
 
-int OneVNActionsContainer::GetDragOperationsForView(View* sender,
+int OnevnActionsContainer::GetDragOperationsForView(View* sender,
                                                       const gfx::Point& p) {
   return ui::DragDropTypes::DRAG_NONE;
 }
 
-bool OneVNActionsContainer::CanStartDragForView(View* sender,
+bool OnevnActionsContainer::CanStartDragForView(View* sender,
                                                   const gfx::Point& press_pt,
                                                   const gfx::Point& p) {
   return false;
 }
 // end ToolbarActionView::Delegate members
 
-void OneVNActionsContainer::OnExtensionSystemReady() {
+void OnevnActionsContainer::OnExtensionSystemReady() {
   // observe changes in extension system
   extension_registry_observer_.Add(extension_registry_);
   extension_action_observer_.Add(extension_action_api_);
@@ -284,14 +284,14 @@ void OneVNActionsContainer::OnExtensionSystemReady() {
 }
 
 // ExtensionRegistry::Observer
-void OneVNActionsContainer::OnExtensionLoaded(
+void OnevnActionsContainer::OnExtensionLoaded(
     content::BrowserContext* browser_context,
     const extensions::Extension* extension) {
   if (IsContainerAction(extension->id()))
     AddAction(extension);
 }
 
-void OneVNActionsContainer::OnExtensionUnloaded(
+void OnevnActionsContainer::OnExtensionUnloaded(
     content::BrowserContext* browser_context,
     const extensions::Extension* extension,
     extensions::UnloadedExtensionReason reason) {
@@ -301,7 +301,7 @@ void OneVNActionsContainer::OnExtensionUnloaded(
 // end ExtensionRegistry::Observer
 
 // ExtensionActionAPI::Observer
-void OneVNActionsContainer::OnExtensionActionUpdated(
+void OnevnActionsContainer::OnExtensionActionUpdated(
     ExtensionAction* extension_action,
     content::WebContents* web_contents,
     content::BrowserContext* browser_context) {
@@ -310,11 +310,11 @@ void OneVNActionsContainer::OnExtensionActionUpdated(
 }
 // end ExtensionActionAPI::Observer
 
-void OneVNActionsContainer::ChildPreferredSizeChanged(views::View* child) {
+void OnevnActionsContainer::ChildPreferredSizeChanged(views::View* child) {
   PreferredSizeChanged();
 }
 
-// OneVN Rewards preferences change observers callback
-void OneVNActionsContainer::OnOneVNRewardsPreferencesChanged() {
-  ShowAction(onevn_rewards_extension_id, ShouldAddOneVNRewardsAction());
+// Onevn Rewards preferences change observers callback
+void OnevnActionsContainer::OnOnevnRewardsPreferencesChanged() {
+  ShowAction(onevn_rewards_extension_id, ShouldAddOnevnRewardsAction());
 }

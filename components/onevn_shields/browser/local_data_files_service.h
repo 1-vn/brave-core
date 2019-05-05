@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -28,7 +28,7 @@ namespace onevn_shields {
 
 class BaseLocalDataFilesObserver;
 
-const char kLocalDataFilesComponentName[] = "OneVN Local Data Updater";
+const char kLocalDataFilesComponentName[] = "Onevn Local Data Updater";
 const char kLocalDataFilesComponentId[] = "afalakplffnnnlkncjhbmahjfjhmlkal";
 const char kLocalDataFilesComponentBase64PublicKey[] =
     "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs4TIQXRCftLpGmQZxmm6"
@@ -41,7 +41,7 @@ const char kLocalDataFilesComponentBase64PublicKey[] =
 
 // The component in charge of delegating access to different DAT files
 // such as tracking protection and video autoplay whitelist
-class LocalDataFilesService : public OneVNComponentExtension {
+class LocalDataFilesService : public OnevnComponentExtension {
  public:
   LocalDataFilesService();
   ~LocalDataFilesService() override;

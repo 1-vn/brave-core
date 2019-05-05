@@ -1,6 +1,6 @@
 {
   "onevnRewards": {
-    "message": "Premis de OneVN",
+    "message": "Premis de Onevn",
     "description": "Title in welcome screen for the panel"
   },
   "welcomeButtonTextOne": {
@@ -28,7 +28,7 @@
     "description": "Link in the footer (takes you to rewards settings page) for welcome screen in the panel, new user"
   },
   "welcomeHeaderOne": {
-    "message": "Hem actualitzat els Premis de OneVN.",
+    "message": "Hem actualitzat els Premis de Onevn.",
     "description": "Main header title for welcome screen in the panel, existing user"
   },
   "welcomeHeaderTwo": {
@@ -48,7 +48,7 @@
     "description": "The whole string is 'Enable tips on YouTube for like.'"
   },
   "verifiedPublisher": {
-    "message": "Editor verificat per OneVN",
+    "message": "Editor verificat per Onevn",
     "description": "Tells user that this particular publisher is verified publisher"
   },
   "rewardsContributeAttentionScore": {
@@ -164,7 +164,7 @@
     "description": "Used in notification to dismiss notification"
   },
   "onevnAdsTitle": {
-    "message": "Anuncis de OneVN",
+    "message": "Anuncis de Onevn",
     "description": "Notification title when we display info about ads"
   },
   "onevnContributeTitle": {
@@ -198,7 +198,7 @@
     "description": "Description for backup wallet notification"
   },
   "insufficientFundsNotification": {
-    "message": "El teu compte de Premis de OneVN està esperant un dipòsit.",
+    "message": "El teu compte de Premis de Onevn està esperant un dipòsit.",
     "description": "Description for new insufficient funds notification"
   },
   "insufficientFunds": {
@@ -270,7 +270,7 @@
     "description": "Button text for clearing the error."
   },
   "grantGeneralErrorText": {
-    "message": "OneVN Rewards està experimentant un problema. Torna a provar-ho més tard.",
+    "message": "Onevn Rewards està experimentant un problema. Torna a provar-ho més tard.",
     "description": "Error text when user is having problems claiming a grant."
   },
   "grantGeneralErrorTitle": {
@@ -294,7 +294,7 @@
     "description": "Status of the publisher shown in the panel"
   },
   "unVerifiedText": {
-    "message": "Aquest creador encara no s'ha donat d'alta per poder rebre contribucions per part dels usuaris OneVN. Qualsevol propina que enviïs es quedarà al teu moneder fins que hagi estat comprovada.",
+    "message": "Aquest creador encara no s'ha donat d'alta per poder rebre contribucions per part dels usuaris Onevn. Qualsevol propina que enviïs es quedarà al teu moneder fins que hagi estat comprovada.",
     "description": "Notice about unverified publisher."
   },
   "unVerifiedTextMore": {
@@ -322,7 +322,7 @@
     "description": "Text for Panel's disabled state"
   },
   "disabledPanelTitle": {
-    "message": "OneVN Rewards és",
+    "message": "Onevn Rewards és",
     "description": "Title for Panel's disabled state"
   },
   "walletFailedTitle": {
@@ -358,7 +358,7 @@
     "description": "Text block for wallet disabled panel"
   },
   "enableRewards": {
-    "message": "Activa els Premis de OneVN",
+    "message": "Activa els Premis de Onevn",
     "description": "Subtitle for wallet disabled panel"
   },
   "privacyPolicy": {
@@ -366,7 +366,7 @@
     "description": "Privacy Policy"
   },
   "serviceText": {
-    "message": "En fer clic a \"Activa els premis de OneVN\", indiques que has llegit i que acceptes la",
+    "message": "En fer clic a \"Activa els premis de Onevn\", indiques que has llegit i que acceptes la",
     "description": "Terms of service main text"
   },
   "termsOfService": {

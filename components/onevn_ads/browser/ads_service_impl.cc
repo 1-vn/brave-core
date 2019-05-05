@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -288,15 +288,15 @@ AdsServiceImpl::AdsServiceImpl(Profile* profile)
 
   profile_pref_change_registrar_.Init(profile_->GetPrefs());
   profile_pref_change_registrar_.Add(
-      prefs::kOneVNAdsEnabled,
+      prefs::kOnevnAdsEnabled,
       base::Bind(&AdsServiceImpl::OnPrefsChanged,
                  base::Unretained(this)));
   profile_pref_change_registrar_.Add(
-      onevn_rewards::prefs::kOneVNRewardsEnabled,
+      onevn_rewards::prefs::kOnevnRewardsEnabled,
       base::Bind(&AdsServiceImpl::OnPrefsChanged,
                  base::Unretained(this)));
   profile_pref_change_registrar_.Add(
-      prefs::kOneVNAdsIdleThreshold,
+      prefs::kOnevnAdsIdleThreshold,
       base::Bind(&AdsServiceImpl::OnPrefsChanged,
                  base::Unretained(this)));
 
@@ -432,17 +432,17 @@ void AdsServiceImpl::MaybeShowFirstLaunchNotification() {
     auto ads_enabled = true;
   #else
     auto ads_enabled =
-        profile_->GetPrefs()->GetBoolean(prefs::kOneVNAdsEnabled);
+        profile_->GetPrefs()->GetBoolean(prefs::kOnevnAdsEnabled);
   #endif
 
   auto prefs_migrated_from_62 = profile_->GetPrefs()->GetBoolean(
-      prefs::kOneVNAdsPrefsMigratedFrom62);
+      prefs::kOnevnAdsPrefsMigratedFrom62);
 
   if (!ads_enabled ||
       !prefs_migrated_from_62 ||
       !ShouldShowFirstLaunchNotification() ||
       !profile_->GetPrefs()->GetBoolean(
-          onevn_rewards::prefs::kOneVNRewardsEnabled)) {
+          onevn_rewards::prefs::kOnevnRewardsEnabled)) {
     StartFirstLaunchNotificationTimer();
     return;
   }
@@ -450,7 +450,7 @@ void AdsServiceImpl::MaybeShowFirstLaunchNotification() {
   auto now = static_cast<uint64_t>(
       (base::Time::Now() - base::Time()).InSeconds());
   profile_->GetPrefs()->SetUint64(
-      prefs::kOneVNAdsLaunchNotificationTimestamp, now);
+      prefs::kOnevnAdsLaunchNotificationTimestamp, now);
 
   ShowFirstLaunchNotification();
 
@@ -459,7 +459,7 @@ void AdsServiceImpl::MaybeShowFirstLaunchNotification() {
 
 bool AdsServiceImpl::ShouldShowFirstLaunchNotification() {
   return profile_->GetPrefs()->GetBoolean(
-      prefs::kOneVNAdShouldShowFirstLaunchNotification);
+      prefs::kOnevnAdShouldShowFirstLaunchNotification);
 }
 
 void AdsServiceImpl::RemoveFirstLaunchNotification() {
@@ -486,7 +486,7 @@ void AdsServiceImpl::ShowFirstLaunchNotification() {
       args, kRewardsNotificationAdsLaunch);
 
   profile_->GetPrefs()->SetBoolean(
-    prefs::kOneVNAdShouldShowFirstLaunchNotification, false);
+    prefs::kOnevnAdShouldShowFirstLaunchNotification, false);
 }
 
 void AdsServiceImpl::StartFirstLaunchNotificationTimer() {
@@ -525,7 +525,7 @@ uint64_t AdsServiceImpl::GetFirstLaunchNotificationTimerOffset() {
   auto timeout_in_seconds = GetFirstLaunchNotificationTimeout();
 
   auto timestamp_in_seconds = profile_->GetPrefs()->GetUint64(
-      prefs::kOneVNAdsLaunchNotificationTimestamp);
+      prefs::kOnevnAdsLaunchNotificationTimestamp);
 
   auto now_in_seconds = static_cast<uint64_t>(
       (base::Time::Now() - base::Time()).InSeconds());
@@ -540,7 +540,7 @@ bool AdsServiceImpl::HasFirstLaunchNotificationExpired() {
   auto timeout_in_seconds = GetFirstLaunchNotificationTimeout();
 
   auto timestamp_in_seconds = profile_->GetPrefs()->GetUint64(
-      prefs::kOneVNAdsLaunchNotificationTimestamp);
+      prefs::kOnevnAdsLaunchNotificationTimestamp);
 
   auto now_in_seconds = static_cast<uint64_t>(
       (base::Time::Now() - base::Time()).InSeconds());
@@ -616,7 +616,7 @@ void AdsServiceImpl::Shutdown() {
 
 void AdsServiceImpl::MigratePrefs() const {
   auto source_version = GetPrefsVersion();
-  auto dest_version = prefs::kOneVNAdsPrefsCurrentVersion;
+  auto dest_version = prefs::kOnevnAdsPrefsCurrentVersion;
 
   if (!MigratePrefs(source_version, dest_version, true)) {
     // Migration dry-run failed, so do not migrate preferences
@@ -675,7 +675,7 @@ bool AdsServiceImpl::MigratePrefs(
 
       (this->*(mapping->second))();
 
-      profile_->GetPrefs()->SetInteger(prefs::kOneVNAdsPrefsVersion,
+      profile_->GetPrefs()->SetInteger(prefs::kOnevnAdsPrefsVersion,
           to_version);
     }
 
@@ -700,25 +700,25 @@ void AdsServiceImpl::MigratePrefsVersion1To2() const {
   // migrate to the new value
 
   #if defined(OS_ANDROID)
-    profile_->GetPrefs()->SetUint64(prefs::kOneVNAdsPerDay, 12);
+    profile_->GetPrefs()->SetUint64(prefs::kOnevnAdsPerDay, 12);
   #else
-    profile_->GetPrefs()->SetUint64(prefs::kOneVNAdsPerDay, 20);
+    profile_->GetPrefs()->SetUint64(prefs::kOnevnAdsPerDay, 20);
   #endif
 }
 
 int AdsServiceImpl::GetPrefsVersion() const {
-  return profile_->GetPrefs()->GetInteger(prefs::kOneVNAdsPrefsVersion);
+  return profile_->GetPrefs()->GetInteger(prefs::kOnevnAdsPrefsVersion);
 }
 
 void AdsServiceImpl::OnPrefsChanged(const std::string& pref) {
-  if (pref == prefs::kOneVNAdsEnabled ||
-      pref == onevn_rewards::prefs::kOneVNRewardsEnabled) {
+  if (pref == prefs::kOnevnAdsEnabled ||
+      pref == onevn_rewards::prefs::kOnevnRewardsEnabled) {
     if (IsAdsEnabled()) {
       MaybeStart(false);
     } else {
       Stop();
     }
-  } else if (pref == prefs::kOneVNAdsIdleThreshold) {
+  } else if (pref == prefs::kOnevnAdsIdleThreshold) {
     ResetTimer();
   }
 }
@@ -729,24 +729,24 @@ bool AdsServiceImpl::IsSupportedRegion() const {
 
 bool AdsServiceImpl::IsAdsEnabled() const {
   auto ads_enabled = profile_->GetPrefs()->GetBoolean(
-      prefs::kOneVNAdsEnabled);
+      prefs::kOnevnAdsEnabled);
 
   auto prefs_migrated_from_62 = profile_->GetPrefs()->GetBoolean(
-      prefs::kOneVNAdsPrefsMigratedFrom62);
+      prefs::kOnevnAdsPrefsMigratedFrom62);
 
   if (ads_enabled && prefs_migrated_from_62) {
     // Disable Ads by default when upgrading from 0.62.x to 0.63.x
     ads_enabled = false;
 
     profile_->GetPrefs()->SetBoolean(
-        prefs::kOneVNAdsEnabled, ads_enabled);
+        prefs::kOnevnAdsEnabled, ads_enabled);
 
     profile_->GetPrefs()->SetBoolean(
-        prefs::kOneVNAdsPrefsMigratedFrom62, false);
+        prefs::kOnevnAdsPrefsMigratedFrom62, false);
   }
 
   auto rewards_enabled = profile_->GetPrefs()->GetBoolean(
-      onevn_rewards::prefs::kOneVNRewardsEnabled);
+      onevn_rewards::prefs::kOnevnRewardsEnabled);
 
   return IsSupportedRegion() && ads_enabled && rewards_enabled;
 }
@@ -754,24 +754,24 @@ bool AdsServiceImpl::IsAdsEnabled() const {
 void AdsServiceImpl::SetAdsEnabled(const bool is_enabled) {
   if (is_enabled) {
     profile_->GetPrefs()->SetBoolean(
-        prefs::kOneVNAdsPrefsMigratedFrom62, false);
+        prefs::kOnevnAdsPrefsMigratedFrom62, false);
 
     RemoveFirstLaunchNotification();
   }
 
-  profile_->GetPrefs()->SetBoolean(prefs::kOneVNAdsEnabled, is_enabled);
+  profile_->GetPrefs()->SetBoolean(prefs::kOnevnAdsEnabled, is_enabled);
 }
 
 uint64_t AdsServiceImpl::GetAdsPerHour() const {
-  return profile_->GetPrefs()->GetUint64(prefs::kOneVNAdsPerHour);
+  return profile_->GetPrefs()->GetUint64(prefs::kOnevnAdsPerHour);
 }
 
 void AdsServiceImpl::SetAdsPerHour(const uint64_t ads_per_hour) {
-  profile_->GetPrefs()->SetUint64(prefs::kOneVNAdsPerHour, ads_per_hour);
+  profile_->GetPrefs()->SetUint64(prefs::kOnevnAdsPerHour, ads_per_hour);
 }
 
 uint64_t AdsServiceImpl::GetAdsPerDay() const {
-  return profile_->GetPrefs()->GetUint64(prefs::kOneVNAdsPerDay);
+  return profile_->GetPrefs()->GetUint64(prefs::kOnevnAdsPerDay);
 }
 
 bool AdsServiceImpl::IsForeground() const {
@@ -813,11 +813,11 @@ void AdsServiceImpl::ClassifyPage(const std::string& url,
 }
 
 int AdsServiceImpl::GetIdleThreshold() {
-  return profile_->GetPrefs()->GetInteger(prefs::kOneVNAdsIdleThreshold);
+  return profile_->GetPrefs()->GetInteger(prefs::kOnevnAdsIdleThreshold);
 }
 
 void AdsServiceImpl::SetIdleThreshold(const int threshold) {
-  profile_->GetPrefs()->SetInteger(prefs::kOneVNAdsIdleThreshold, threshold);
+  profile_->GetPrefs()->SetInteger(prefs::kOnevnAdsIdleThreshold, threshold);
 }
 
 bool AdsServiceImpl::IsNotificationsAvailable() const {

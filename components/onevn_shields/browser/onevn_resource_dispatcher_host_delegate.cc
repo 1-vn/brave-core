@@ -1,4 +1,4 @@
-/* Copyright (c) 2019 The OneVN Authors. All rights reserved.
+/* Copyright (c) 2019 The Onevn Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -14,7 +14,7 @@
 
 using content::ResourceType;
 
-OneVNResourceDispatcherHostDelegate::OneVNResourceDispatcherHostDelegate() {
+OnevnResourceDispatcherHostDelegate::OnevnResourceDispatcherHostDelegate() {
   g_onevn_browser_process->ad_block_service()->Start();
   g_onevn_browser_process->ad_block_custom_filters_service()->Start();
   g_onevn_browser_process->ad_block_regional_service_manager()->Start();
@@ -29,10 +29,10 @@ OneVNResourceDispatcherHostDelegate::OneVNResourceDispatcherHostDelegate() {
   g_onevn_browser_process->local_data_files_service()->Start();
 }
 
-OneVNResourceDispatcherHostDelegate::~OneVNResourceDispatcherHostDelegate() {
+OnevnResourceDispatcherHostDelegate::~OnevnResourceDispatcherHostDelegate() {
 }
 
-void OneVNResourceDispatcherHostDelegate::AppendStandardResourceThrottles(
+void OnevnResourceDispatcherHostDelegate::AppendStandardResourceThrottles(
     net::URLRequest* request,
     content::ResourceContext* resource_context,
     ResourceType resource_type,
