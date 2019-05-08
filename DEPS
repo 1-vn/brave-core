@@ -16,7 +16,7 @@ deps = {
   "vendor/bip39wally-core-native": "https://github.com/1-vn/bat-native-bip39wally-core.git@9b119931c702d55be994117eb505d56310720b1d",
   "vendor/bat-native-anonize": "https://github.com/1-vn/bat-native-anonize.git@b8ef1a3f85aec0a0522a9230d59b3958a2150fab",
   "vendor/bat-native-tweetnacl": "https://github.com/1-vn/bat-native-tweetnacl.git@1b4362968c8f22720bfb75af6f506d4ecc0f3116",
-  "components/onevn_sync/extension/onevn-sync": "https://github.com/1-vn/sync.git@1d47671298e1c118e116170d971f6854c4bddbc7",
+  "components/onevn_sync/extension/onevn-sync": "https://github.com/1-vn/sync.git@ac5175401a743e95e6f6cecded9feb736c62a2e0",
   "components/onevn_sync/extension/onevn-crypto": "https://github.com/1-vn/crypto@0e6ebbbfeec1da03c963b97e164776dcc0eff98e",
   "vendor/bat-native-usermodel": "https://github.com/1-vn/bat-native-usermodel.git@b6831d54bbde8e0328b821d5667d0d1c7bb5045b",
   "vendor/challenge_bypass_ristretto_ffi": "https://github.com/1-vn/challenge-bypass-ristretto-ffi.git@5d3b63c7789010914d4a6a3040bf3b2114bdd85c",
